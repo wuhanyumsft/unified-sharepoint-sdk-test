@@ -1,0 +1,203 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.ConfigureWebpackTask'
+    name: ConfigureWebpackTask
+    fullName: ConfigureWebpackTask
+    children:
+      - '@microsoft/sp-build-core-tasks.ConfigureWebpackTask.constructor'
+      - '@microsoft/sp-build-core-tasks.ConfigureWebpackTask.executeTask'
+      - '@microsoft/sp-build-core-tasks.ConfigureWebpackTask.getKarmaConfig'
+      - '@microsoft/sp-build-core-tasks.ConfigureWebpackTask.loadSchema'
+      - '@microsoft/sp-build-core-tasks.ConfigureWebpackTask.setConfig'
+      - '@microsoft/sp-build-core-tasks.ConfigureWebpackTask.tinkerWithLocConfig'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Configures the @microsoft/gulp-core-build-webpack task with some smart
+      defaults based on the package configuration.
+
+      Example:
+       IN:
+         setConfig({
+           webpack: <reference to webpack task>,
+           webpackPublicPathOptions: <options for @microsoft/loader-set-webpack-public-path>,
+           libraryName: <optional library name - set this if the library should be a global on the window>,
+           configureExternalBundlingWebpackTask: <optional reference to ConfigureExternalBundlingWebpackTask task>
+         })
+         buildConfig.properties.entries = [{
+           "entry": "./lib/App.js",
+           "manifest": "./src/app.manifest.json",
+           "outputPath": "dist/app.bundle.js"
+         }]
+         buildConfig.properties.externals = {
+           "react-dom": "node_modules/react-dom/dist/react-dom.js",
+           "react": "node_modules/react/dist/react.js",
+           "flux": "node_modules/flux/dist/flux.js",
+         }
+
+       OUT:
+         set webpack config to (approximately):
+         {
+             context: ... root path ...,
+             entry: { ... mapping of names to entries ... },
+             resolve: {
+               modules: [ ... root path + /node_modules ],
+               alias: { }
+             },
+             output: {
+               library: <library name, if provided>,
+               libraryTarget: <library target, if specified> or 'amd',
+               path: ... dist folder ...,
+               filename: '[name].js',
+               devtoolModuleFilenameTemplate: 'webpack:///../[resource-path]',
+               devtoolFallbackModuleFilenameTemplate: 'webpack:///../[resource-path]?[hash]'
+             },
+             externals: [ ... externals names ... ],
+             module: {
+               noParse: [ /\.map$/ ],
+               rules: [
+                 {
+                   test: /\.css$/,
+                   use: [
+                     {
+                       loader: `@microsoft/load-themed-styles'
+                     },
+                     {
+                       loader: 'css-loader',
+                       options: {
+                         minimize: true
+                       }
+                     }
+                   ]
+                 },
+                 {
+                   test: /\.(jpg|png|woff|eot|ttf|svg|gif)$/,
+                   use: [
+                     {
+                       loader: '@microsoft/loader-cased-file',
+                       options: {
+                         name: '[name:lower]_[hash].[ext]'
+                       }
+                     }
+                   ]
+                 },
+                 {
+                   test: /\.html$/,
+                   use: [
+                     {
+                       loader: 'html-loader'
+                     }
+                   ]
+                 }
+               ]
+             },
+             plugins: []
+           }
+    extends:
+      name: >-
+        @@microsoft/sp-build-core-tasks.OdspGulpTask<@@microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig>
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.ConfigureWebpackTask.constructor'
+    name: ConfigureWebpackTask
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new ConfigureWebpackTask()
+      parameters: []
+  - uid: '@microsoft/sp-build-core-tasks.ConfigureWebpackTask.executeTask'
+    name: executeTask
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function executeTask(gulp: any, completeCallback: (error?: string) =>
+        void)
+      parameters:
+        - id: gulp
+          type:
+            - any
+          description: ''
+        - id: completeCallback
+          type:
+            - '(error?: string) => void'
+          description: ''
+      return:
+        type:
+          - ReadWriteStream
+  - uid: '@microsoft/sp-build-core-tasks.ConfigureWebpackTask.getKarmaConfig'
+    name: getKarmaConfig
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getKarmaConfig(extraRules: Rule[], externals:
+        ExternalsElement[], karmaTask: KarmaTask)
+      parameters:
+        - id: extraRules
+          type:
+            - 'Rule[]'
+          description: ''
+        - id: externals
+          type:
+            - 'ExternalsElement[]'
+          description: ''
+        - id: karmaTask
+          type:
+            - KarmaTask
+          description: ''
+      return:
+        type:
+          - Configuration
+  - uid: '@microsoft/sp-build-core-tasks.ConfigureWebpackTask.loadSchema'
+    name: loadSchema
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function loadSchema()
+      parameters: []
+      return:
+        type:
+          - Object
+  - uid: '@microsoft/sp-build-core-tasks.ConfigureWebpackTask.setConfig'
+    name: setConfig
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setConfig(config: IConfigureWebpackTaskConfig)'
+      parameters:
+        - id: config
+          type:
+            - '@@microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig'
+          description: ''
+  - uid: '@microsoft/sp-build-core-tasks.ConfigureWebpackTask.tinkerWithLocConfig'
+    name: tinkerWithLocConfig
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Modify the localized webpack config to make sure the end result is
+      correct.
+    syntax:
+      content: 'function tinkerWithLocConfig(config: Configuration)'
+      parameters:
+        - id: config
+          type:
+            - Configuration
+          description: ''

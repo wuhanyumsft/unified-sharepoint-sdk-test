@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.DesignPackageOption'
+    name: DesignPackageOption
+    fullName: DesignPackageOption
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.DesignPackageOption.Blank'
+      - '@ms/sp-tab-tasklib.SPTaskLib.DesignPackageOption.Showcase'
+      - '@ms/sp-tab-tasklib.SPTaskLib.DesignPackageOption.Topic'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.DesignPackageOption.Blank'
+    name: Blank
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.DesignPackageOption.Showcase'
+    name: Showcase
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.DesignPackageOption.Topic'
+    name: Topic
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

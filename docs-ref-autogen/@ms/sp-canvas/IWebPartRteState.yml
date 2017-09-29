@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.IWebPartRteState'
+    name: IWebPartRteState
+    fullName: IWebPartRteState
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-canvas'

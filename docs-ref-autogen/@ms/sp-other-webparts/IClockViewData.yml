@@ -1,0 +1,105 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-other-webparts.IClockViewData'
+    name: IClockViewData
+    fullName: IClockViewData
+    children:
+      - '@ms/sp-other-webparts.IClockViewData.hourDegrees'
+      - '@ms/sp-other-webparts.IClockViewData.itemDate'
+      - '@ms/sp-other-webparts.IClockViewData.minuteDegrees'
+      - '@ms/sp-other-webparts.IClockViewData.offsetDays'
+      - '@ms/sp-other-webparts.IClockViewData.offsetHours'
+      - '@ms/sp-other-webparts.IClockViewData.secondDegrees'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-other-webparts'
+  - uid: '@ms/sp-other-webparts.IClockViewData.hourDegrees'
+    name: hourDegrees
+    fullName: hourDegrees
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Hours expressed in degrees of a clock
+    syntax:
+      content: number hourDegrees
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-other-webparts.IClockViewData.itemDate'
+    name: itemDate
+    fullName: itemDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Date object with the time offset to display that of the current item
+    syntax:
+      content: Date itemDate
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-other-webparts.IClockViewData.minuteDegrees'
+    name: minuteDegrees
+    fullName: minuteDegrees
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Minutes expressed in degrees of a clock
+    syntax:
+      content: number minuteDegrees
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-other-webparts.IClockViewData.offsetDays'
+    name: offsetDays
+    fullName: offsetDays
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Number of full days difference between current clock and homeZone clock
+
+      IMPORTANT: depends on time of the day by design.
+
+      Example: difference between 1 am and 11pm of the previous day would be 1.
+
+      Difference between 9pm and 11pm would be 0.
+
+      Then it gets converted by our LocaleFormat to a locale-specific string
+      representation.
+    syntax:
+      content: string offsetDays
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-other-webparts.IClockViewData.offsetHours'
+    name: offsetHours
+    fullName: offsetHours
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Number hours between current clock and homeZone clock
+    syntax:
+      content: number offsetHours
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-other-webparts.IClockViewData.secondDegrees'
+    name: secondDegrees
+    fullName: secondDegrees
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Seconds expressed in degrees of a clock
+    syntax:
+      content: number secondDegrees
+      return:
+        type:
+          - number

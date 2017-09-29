@@ -1,0 +1,83 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pagepicker.IPagePickerSearchState'
+    name: IPagePickerSearchState
+    fullName: IPagePickerSearchState
+    children:
+      - '@ms/sp-pagepicker.IPagePickerSearchState.isSuggestionLoading'
+      - '@ms/sp-pagepicker.IPagePickerSearchState.searchInput'
+      - '@ms/sp-pagepicker.IPagePickerSearchState.shouldReadScreenReaderAlert'
+      - '@ms/sp-pagepicker.IPagePickerSearchState.shouldSearch'
+      - '@ms/sp-pagepicker.IPagePickerSearchState.suggestions'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pagepicker'
+  - uid: '@ms/sp-pagepicker.IPagePickerSearchState.isSuggestionLoading'
+    name: isSuggestionLoading
+    fullName: isSuggestionLoading
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSuggestionLoading
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pagepicker.IPagePickerSearchState.searchInput'
+    name: searchInput
+    fullName: searchInput
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string searchInput
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pagepicker.IPagePickerSearchState.shouldReadScreenReaderAlert'
+    name: shouldReadScreenReaderAlert
+    fullName: shouldReadScreenReaderAlert
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean shouldReadScreenReaderAlert
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pagepicker.IPagePickerSearchState.shouldSearch'
+    name: shouldSearch
+    fullName: shouldSearch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Indicates whether we should search for pages or just show some recent
+      pages.
+    syntax:
+      content: boolean shouldSearch
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pagepicker.IPagePickerSearchState.suggestions'
+    name: suggestions
+    fullName: suggestions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ISuggestionLink[] suggestions'
+      return:
+        type:
+          - '@@ms/sp-pagepicker.ISuggestionLink[]'

@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.IContact'
+    name: IContact
+    fullName: IContact
+    children:
+      - '@ms/sp-component-utilities.IContact.mailAddress'
+      - '@ms/sp-component-utilities.IContact.name'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.IContact.mailAddress'
+    name: mailAddress
+    fullName: mailAddress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string mailAddress
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IContact.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string

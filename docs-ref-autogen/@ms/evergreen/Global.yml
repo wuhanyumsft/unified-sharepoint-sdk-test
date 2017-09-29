@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/evergreen.Global'
+    package: '@ms/evergreen'
+    name: Global
+    children:
+      - '@ms/evergreen.convertProjectInfoToCache'
+      - '@ms/evergreen.fetch'
+      - '@ms/evergreen.getProvider'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@ms/evergreen.convertProjectInfoToCache'
+    name: convertProjectInfoToCache
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function convertProjectInfoToCache(object: [key: string]: function)'
+      parameters:
+        - id: object
+          type:
+            - '[key: string]: function'
+          description: ''
+      return:
+        type:
+          - '@@ms/evergreen.PackageJsonCache'
+  - uid: '@ms/evergreen.fetch'
+    name: fetch
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fetch(pkg: string)'
+      parameters:
+        - id: pkg
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - any
+  - uid: '@ms/evergreen.getProvider'
+    name: getProvider
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getProvider(data: Map<string>)'
+      parameters:
+        - id: data
+          type:
+            - Map<string>
+          description: ''
+      return:
+        type:
+          - '@@ms/evergreen.IPackageJsonProvider'

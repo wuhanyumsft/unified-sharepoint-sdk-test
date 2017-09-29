@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.MockComponent'
+    name: MockComponent
+    fullName: MockComponent<T>
+    children:
+      - '@ms/sp-canvas-toolbox.MockComponent.scheduleUpdate'
+      - '@ms/sp-canvas-toolbox.MockComponent.setState'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-canvas-toolbox'
+  - uid: '@ms/sp-canvas-toolbox.MockComponent.scheduleUpdate'
+    name: scheduleUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function scheduleUpdate(state: T, props: IToolboxBasicProps)'
+      parameters:
+        - id: state
+          type:
+            - T
+          description: ''
+        - id: props
+          type:
+            - '@@ms/sp-canvas-toolbox.IToolboxBasicProps'
+          description: ''
+  - uid: '@ms/sp-canvas-toolbox.MockComponent.setState'
+    name: setState
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setState(callback: SetStateCallback<T>)'
+      parameters:
+        - id: callback
+          type:
+            - SetStateCallback<T>
+          description: ''

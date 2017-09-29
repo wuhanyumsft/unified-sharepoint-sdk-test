@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IViewportAwareWebPart'
+    name: IViewportAwareWebPart
+    fullName: IViewportAwareWebPart
+    children:
+      - '@microsoft/sp-webpart-base.IViewportAwareWebPart.domElement'
+    langs:
+      - typeScript
+    type: interface
+    summary: Webpart interface to support lazy loading
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IViewportAwareWebPart.domElement'
+    name: domElement
+    fullName: domElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The DOM element of the lazyily loaded webpart.
+    syntax:
+      content: HTMLElement domElement
+      return:
+        type:
+          - HTMLElement

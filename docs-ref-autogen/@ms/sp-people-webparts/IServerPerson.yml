@@ -1,0 +1,139 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.IServerPerson'
+    name: IServerPerson
+    fullName: IServerPerson
+    children:
+      - '@ms/sp-people-webparts.IServerPerson.Description'
+      - '@ms/sp-people-webparts.IServerPerson.DisplayText'
+      - '@ms/sp-people-webparts.IServerPerson.EntityData'
+      - '@ms/sp-people-webparts.IServerPerson.EntityType'
+      - '@ms/sp-people-webparts.IServerPerson.IsResolved'
+      - '@ms/sp-people-webparts.IServerPerson.Key'
+      - '@ms/sp-people-webparts.IServerPerson.MultipleMatches'
+      - '@ms/sp-people-webparts.IServerPerson.ProviderDisplayName'
+      - '@ms/sp-people-webparts.IServerPerson.ProviderName'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      The persona information structure returned from SharePoint PeoplePicker
+      server.
+    package: '@ms/sp-people-webparts'
+  - uid: '@ms/sp-people-webparts.IServerPerson.Description'
+    name: Description
+    fullName: Description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Description
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IServerPerson.DisplayText'
+    name: DisplayText
+    fullName: DisplayText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string DisplayText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IServerPerson.EntityData'
+    name: EntityData
+    fullName: EntityData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function EntityData
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-people-webparts.IServerPerson.EntityType'
+    name: EntityType
+    fullName: EntityType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string EntityType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IServerPerson.IsResolved'
+    name: IsResolved
+    fullName: IsResolved
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean IsResolved
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-people-webparts.IServerPerson.Key'
+    name: Key
+    fullName: Key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Key
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IServerPerson.MultipleMatches'
+    name: MultipleMatches
+    fullName: MultipleMatches
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<IServerPerson> MultipleMatches
+      return:
+        type:
+          - Array<@@ms/sp-people-webparts.IServerPerson>
+  - uid: '@ms/sp-people-webparts.IServerPerson.ProviderDisplayName'
+    name: ProviderDisplayName
+    fullName: ProviderDisplayName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ProviderDisplayName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IServerPerson.ProviderName'
+    name: ProviderName
+    fullName: ProviderName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ProviderName
+      return:
+        type:
+          - string

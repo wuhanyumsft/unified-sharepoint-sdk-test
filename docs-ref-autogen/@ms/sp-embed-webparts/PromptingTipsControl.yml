@@ -1,0 +1,84 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-embed-webparts.PromptingTipsControl'
+    name: PromptingTipsControl
+    fullName: PromptingTipsControl
+    children:
+      - '@ms/sp-embed-webparts.PromptingTipsControl.clearPromptingTipsZone'
+      - '@ms/sp-embed-webparts.PromptingTipsControl.constructor'
+      - '@ms/sp-embed-webparts.PromptingTipsControl.readContentAsAlert'
+      - '@ms/sp-embed-webparts.PromptingTipsControl.renderError'
+      - '@ms/sp-embed-webparts.PromptingTipsControl.renderLoadingIndicator'
+    langs:
+      - typeScript
+    type: class
+    summary: Render Prompting Tips zone in web part zone.
+    package: '@ms/sp-embed-webparts'
+  - uid: '@ms/sp-embed-webparts.PromptingTipsControl.clearPromptingTipsZone'
+    name: clearPromptingTipsZone
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clearPromptingTipsZone()
+      parameters: []
+  - uid: '@ms/sp-embed-webparts.PromptingTipsControl.constructor'
+    name: PromptingTipsControl
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new PromptingTipsControl(webpartDom: HTMLElement, statusRender:
+        IClientSideWebPartStatusRenderer)
+      parameters:
+        - id: webpartDom
+          type:
+            - HTMLElement
+          description: ''
+        - id: statusRender
+          type:
+            - IClientSideWebPartStatusRenderer
+          description: ''
+  - uid: '@ms/sp-embed-webparts.PromptingTipsControl.readContentAsAlert'
+    name: readContentAsAlert
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function readContentAsAlert(alertContent: string)'
+      parameters:
+        - id: alertContent
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-embed-webparts.PromptingTipsControl.renderError'
+    name: renderError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function renderError(errorInfo: string)'
+      parameters:
+        - id: errorInfo
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-embed-webparts.PromptingTipsControl.renderLoadingIndicator'
+    name: renderLoadingIndicator
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function renderLoadingIndicator()
+      parameters: []

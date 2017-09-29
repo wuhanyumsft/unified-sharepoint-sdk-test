@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.DisplayMode'
+    name: DisplayMode
+    fullName: DisplayMode
+    children:
+      - '@microsoft/sp-core-library.DisplayMode.Read'
+      - '@microsoft/sp-core-library.DisplayMode.Edit'
+    langs:
+      - typeScript
+    type: enum
+    summary: >-
+      DisplayMode indicates the mode in which a page and/or its contents (e.g.
+      text and web parts) are dislayed.
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.DisplayMode.Read'
+    name: Read
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@microsoft/sp-core-library.DisplayMode.Edit'
+    name: Edit
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2

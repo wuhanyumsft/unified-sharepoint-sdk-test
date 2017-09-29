@@ -1,0 +1,149 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.PowerBIReportEmbedData'
+    name: PowerBIReportEmbedData
+    fullName: PowerBIReportEmbedData
+    children:
+      - '@ms/sp-publishing-webparts.PowerBIReportEmbedData.embedBaseUrl'
+      - '@ms/sp-publishing-webparts.PowerBIReportEmbedData.equals'
+      - '@ms/sp-publishing-webparts.PowerBIReportEmbedData.groupId'
+      - '@ms/sp-publishing-webparts.PowerBIReportEmbedData.isEmpty'
+      - '@ms/sp-publishing-webparts.PowerBIReportEmbedData.pageName'
+      - '@ms/sp-publishing-webparts.PowerBIReportEmbedData.constructor'
+      - '@ms/sp-publishing-webparts.PowerBIReportEmbedData.reportId'
+      - '@ms/sp-publishing-webparts.PowerBIReportEmbedData.token'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.PowerBIReportEmbedData.embedBaseUrl'
+    name: embedBaseUrl
+    fullName: embedBaseUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string embedBaseUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.PowerBIReportEmbedData.equals'
+    name: equals
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns true if rhs element corresponds to the same powerbi report embed
+      as the current object
+    syntax:
+      content: 'function equals(rhs: PowerBIReportEmbedData)'
+      parameters:
+        - id: rhs
+          type:
+            - '@@ms/sp-publishing-webparts.PowerBIReportEmbedData'
+          description: |
+            Object to check equality with
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.PowerBIReportEmbedData.groupId'
+    name: groupId
+    fullName: groupId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string groupId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.PowerBIReportEmbedData.isEmpty'
+    name: isEmpty
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns true if the object represents an empty powerbi embedded report.
+    syntax:
+      content: function isEmpty()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.PowerBIReportEmbedData.pageName'
+    name: pageName
+    fullName: pageName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string pageName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.PowerBIReportEmbedData.constructor'
+    name: PowerBIReportEmbedData
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new PowerBIReportEmbedData(reportId: string, embedBaseUrl: string,
+        token: string, pageName: string, groupId: string)
+      parameters:
+        - id: reportId
+          type:
+            - string
+          description: ''
+        - id: embedBaseUrl
+          type:
+            - string
+          description: ''
+        - id: token
+          type:
+            - string
+          description: ''
+        - id: pageName
+          type:
+            - string
+          description: ''
+        - id: groupId
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.PowerBIReportEmbedData.reportId'
+    name: reportId
+    fullName: reportId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string reportId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.PowerBIReportEmbedData.token'
+    name: token
+    fullName: token
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string token
+      return:
+        type:
+          - string

@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IViewListData'
+    name: IViewListData
+    fullName: IViewListData
+    children:
+      - '@ms/sp-tenant-admin-page.IViewListData.odata.metadata'
+      - '@ms/sp-tenant-admin-page.IViewListData.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      This interface is to hold reponse data from the API to get all iviews:
+      /_api/web/List('***')/Views
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IViewListData.odata.metadata'
+    name: odata.metadata
+    fullName: odata.metadata
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string odata.metadata
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IViewListData.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IViewData[] value'
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IViewData[]'

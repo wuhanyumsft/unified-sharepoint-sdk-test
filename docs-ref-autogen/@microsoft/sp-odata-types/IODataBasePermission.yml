@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-odata-types.IODataBasePermission'
+    name: IODataBasePermission
+    fullName: IODataBasePermission
+    children:
+      - '@microsoft/sp-odata-types.IODataBasePermission.High'
+      - '@microsoft/sp-odata-types.IODataBasePermission.Low'
+    langs:
+      - typeScript
+    type: interface
+    summary: Data used for creating a SPPermission object.
+    package: '@microsoft/sp-odata-types'
+  - uid: '@microsoft/sp-odata-types.IODataBasePermission.High'
+    name: High
+    fullName: High
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number High
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.IODataBasePermission.Low'
+    name: Low
+    fullName: Low
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number Low
+      return:
+        type:
+          - number

@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.TraceDisplay'
+    name: TraceDisplay
+    fullName: TraceDisplay
+    children:
+      - '@microsoft/sp-loader.TraceDisplay.componentDidMount'
+      - '@microsoft/sp-loader.TraceDisplay.componentWillUnmount'
+      - '@microsoft/sp-loader.TraceDisplay.render'
+      - '@microsoft/sp-loader.TraceDisplay.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@microsoft/sp-loader.TraceDisplay<void>'
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.TraceDisplay.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@microsoft/sp-loader.TraceDisplay.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@microsoft/sp-loader.TraceDisplay.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@microsoft/sp-loader.TraceDisplay.constructor'
+    name: TraceDisplay
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new TraceDisplay()
+      parameters: []

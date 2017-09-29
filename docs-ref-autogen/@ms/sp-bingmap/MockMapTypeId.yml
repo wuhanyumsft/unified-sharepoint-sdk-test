@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-bingmap.MockMapTypeId'
+    name: MockMapTypeId
+    fullName: MockMapTypeId
+    children:
+      - '@ms/sp-bingmap.MockMapTypeId.aerial'
+      - '@ms/sp-bingmap.MockMapTypeId.auto'
+      - '@ms/sp-bingmap.MockMapTypeId.birdseye'
+      - '@ms/sp-bingmap.MockMapTypeId.collinsBart'
+      - '@ms/sp-bingmap.MockMapTypeId.mercator'
+      - '@ms/sp-bingmap.MockMapTypeId.ordnanceSurvey'
+      - '@ms/sp-bingmap.MockMapTypeId.road'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-bingmap'
+  - uid: '@ms/sp-bingmap.MockMapTypeId.aerial'
+    name: aerial
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-bingmap.MockMapTypeId.auto'
+    name: auto
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-bingmap.MockMapTypeId.birdseye'
+    name: birdseye
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-bingmap.MockMapTypeId.collinsBart'
+    name: collinsBart
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-bingmap.MockMapTypeId.mercator'
+    name: mercator
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-bingmap.MockMapTypeId.ordnanceSurvey'
+    name: ordnanceSurvey
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-bingmap.MockMapTypeId.road'
+    name: road
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

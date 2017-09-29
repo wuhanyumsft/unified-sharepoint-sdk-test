@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.SwitchMode'
+    name: SwitchMode
+    fullName: SwitchMode
+    children:
+      - '@ms/sp-publishing-webparts.SwitchMode.Placeholder'
+      - '@ms/sp-publishing-webparts.SwitchMode.Publishing'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.SwitchMode.Placeholder'
+    name: Placeholder
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-publishing-webparts.SwitchMode.Publishing'
+    name: Publishing
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

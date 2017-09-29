@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: yeoman-list-application
+    name: yeoman-list-application
+    summary: ''
+    children:
+      - yeoman-list-application.RichTextFieldDefinition
+      - yeoman-list-application.SimpleProvisioner
+      - yeoman-list-application.TextFieldDefinition
+      - yeoman-list-application.YeomanListApplication
+      - yeoman-list-application.IResponseValue
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: yeoman-list-application.RichTextFieldDefinition
+    name: RichTextFieldDefinition
+  - uid: yeoman-list-application.SimpleProvisioner
+    name: SimpleProvisioner
+  - uid: yeoman-list-application.TextFieldDefinition
+    name: TextFieldDefinition
+  - uid: yeoman-list-application.YeomanListApplication
+    name: YeomanListApplication
+  - uid: yeoman-list-application.IResponseValue
+    name: IResponseValue

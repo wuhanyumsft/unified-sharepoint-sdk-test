@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.IApplicationCustomizerContextParameters'
+    name: IApplicationCustomizerContextParameters
+    fullName: IApplicationCustomizerContextParameters
+    children:
+      - >-
+        @microsoft/sp-application-base.IApplicationCustomizerContextParameters.sequence
+    langs:
+      - typeScript
+    type: interface
+    summary: Constructor parameters for ApplicationCustomizerContext.
+    package: '@microsoft/sp-application-base'
+  - uid: >-
+      @microsoft/sp-application-base.IApplicationCustomizerContextParameters.sequence
+    name: sequence
+    fullName: sequence
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The sequence number from customAction that is used for ordering
+    syntax:
+      content: number sequence
+      return:
+        type:
+          - number

@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksWebPartRendererState'
+    name: IQuickLinksWebPartRendererState
+    fullName: IQuickLinksWebPartRendererState
+    children:
+      - '@ms/sp-teamsite-webparts.IQuickLinksWebPartRendererState.key'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksWebPartRendererState.key'
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Use this key to enforce re-construction of React components.
+
+      Change on any of the props (E.g. replace a provider) will make the
+      components inconsistent with its data source.
+
+      We need unmount and mount the components if the reference of
+      provider/dispatcher/menuActionFactory changes.
+
+      That usually means the data storage model for this webpart is changed.
+
+      We need to make sure every component is turned into a fresh state when
+      storage model is changed.
+
+      The references of props other than provider/dispatcher/menuActionFactory
+      are not supposed to be changed at runtime.
+    syntax:
+      content: number key
+      return:
+        type:
+          - number

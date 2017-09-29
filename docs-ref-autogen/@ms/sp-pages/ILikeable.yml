@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ILikeable'
+    name: ILikeable
+    fullName: ILikeable
+    children:
+      - '@ms/sp-pages.ILikeable.hasMoreLikes'
+      - '@ms/sp-pages.ILikeable.like'
+      - '@ms/sp-pages.ILikeable.likeCount'
+      - '@ms/sp-pages.ILikeable.likedBy'
+      - '@ms/sp-pages.ILikeable.unlike'
+      - '@ms/sp-pages.ILikeable.userLiked'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ILikeable.hasMoreLikes'
+    name: hasMoreLikes
+    fullName: hasMoreLikes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => boolean hasMoreLikes
+      return:
+        type:
+          - () => boolean
+  - uid: '@ms/sp-pages.ILikeable.like'
+    name: like
+    fullName: like
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(user: IUserObject) => void like'
+      return:
+        type:
+          - '(user: IUserObject) => void'
+  - uid: '@ms/sp-pages.ILikeable.likeCount'
+    name: likeCount
+    fullName: likeCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number likeCount
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.ILikeable.likedBy'
+    name: likedBy
+    fullName: likedBy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IUserObject[] likedBy'
+      return:
+        type:
+          - '@@ms/sp-pages.IUserObject[]'
+  - uid: '@ms/sp-pages.ILikeable.unlike'
+    name: unlike
+    fullName: unlike
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(user: IUserObject) => void unlike'
+      return:
+        type:
+          - '(user: IUserObject) => void'
+  - uid: '@ms/sp-pages.ILikeable.userLiked'
+    name: userLiked
+    fullName: userLiked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean userLiked
+      return:
+        type:
+          - boolean

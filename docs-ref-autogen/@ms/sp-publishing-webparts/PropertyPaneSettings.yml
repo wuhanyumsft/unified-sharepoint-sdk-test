@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.PropertyPaneSettings'
+    name: PropertyPaneSettings
+    fullName: PropertyPaneSettings
+    children:
+      - '@ms/sp-publishing-webparts.PropertyPaneSettings.COMMON_START_PAGE'
+      - '@ms/sp-publishing-webparts.PropertyPaneSettings.getPropertyPaneSettings'
+      - '@ms/sp-publishing-webparts.PropertyPaneSettings.PPT_START_PAGE'
+      - '@ms/sp-publishing-webparts.PropertyPaneSettings.WORD_START_PAGE'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.PropertyPaneSettings.COMMON_START_PAGE'
+    name: COMMON_START_PAGE
+    fullName: COMMON_START_PAGE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string COMMON_START_PAGE
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.PropertyPaneSettings.getPropertyPaneSettings'
+    name: getPropertyPaneSettings
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getPropertyPaneSettings(properties:
+        IDocumentEmbedWebPartProperties)
+      parameters:
+        - id: properties
+          type:
+            - '@@ms/sp-publishing-webparts.IDocumentEmbedWebPartProperties'
+          description: ''
+      return:
+        type:
+          - IPropertyPaneConfiguration
+  - uid: '@ms/sp-publishing-webparts.PropertyPaneSettings.PPT_START_PAGE'
+    name: PPT_START_PAGE
+    fullName: PPT_START_PAGE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string PPT_START_PAGE
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.PropertyPaneSettings.WORD_START_PAGE'
+    name: WORD_START_PAGE
+    fullName: WORD_START_PAGE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string WORD_START_PAGE
+      return:
+        type:
+          - string

@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.LazyEventHandler'
+    name: LazyEventHandler
+    fullName: LazyEventHandler
+    children:
+      - '@ms/sp-webpart-shared.LazyEventHandler.registerComponent'
+      - '@ms/sp-webpart-shared.LazyEventHandler.unregisterComponent'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Event handler to support lazy loading. This class takes heavy load of
+      managing
+
+      registered components to be rendered lazily. It listens to the
+      scroll/resize events
+
+      and mark components rendered as they become closer to the viewport
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.LazyEventHandler.registerComponent'
+    name: registerComponent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Register a component which should be lazy loaded
+    syntax:
+      content: >-
+        static function registerComponent(component:
+        Component<ILazyLoaderProps>)
+      parameters:
+        - id: component
+          type:
+            - Component<@@ms/sp-webpart-shared.ILazyLoaderProps>
+          description: ''
+  - uid: '@ms/sp-webpart-shared.LazyEventHandler.unregisterComponent'
+    name: unregisterComponent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Unregister a loaded component which should not be tracked any more
+    syntax:
+      content: >-
+        static function unregisterComponent(component:
+        Component<ILazyLoaderProps>)
+      parameters:
+        - id: component
+          type:
+            - Component<@@ms/sp-webpart-shared.ILazyLoaderProps>
+          description: ''

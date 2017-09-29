@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.PackageFileHandlerTask'
+    name: PackageFileHandlerTask
+    fullName: PackageFileHandlerTask
+    children:
+      - '@ms/sp-build-internal-tasks.PackageFileHandlerTask.executeTask'
+      - '@ms/sp-build-internal-tasks.PackageFileHandlerTask.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-build-internal-tasks.PackageFileHandlerTask<@@ms/sp-build-internal-tasks.IPackageFileHandlerConfig>
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.PackageFileHandlerTask.executeTask'
+    name: executeTask
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function executeTask(gulp: any, completeCallback?: (error?: string) =>
+        void)
+      parameters:
+        - id: gulp
+          type:
+            - any
+          description: ''
+        - id: completeCallback
+          type:
+            - '(error?: string) => void'
+          description: ''
+          optional: true
+  - uid: '@ms/sp-build-internal-tasks.PackageFileHandlerTask.constructor'
+    name: PackageFileHandlerTask
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new PackageFileHandlerTask()
+      parameters: []

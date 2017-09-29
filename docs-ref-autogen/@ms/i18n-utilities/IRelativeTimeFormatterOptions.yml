@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/i18n-utilities.IRelativeTimeFormatterOptions'
+    name: IRelativeTimeFormatterOptions
+    fullName: IRelativeTimeFormatterOptions
+    children:
+      - '@ms/i18n-utilities.IRelativeTimeFormatterOptions.form'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/i18n-utilities'
+  - uid: '@ms/i18n-utilities.IRelativeTimeFormatterOptions.form'
+    name: form
+    fullName: form
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: eg. 'short' or 'narrow'. Or falsy for default long form
+    syntax:
+      content: function form
+      return:
+        type:
+          - function

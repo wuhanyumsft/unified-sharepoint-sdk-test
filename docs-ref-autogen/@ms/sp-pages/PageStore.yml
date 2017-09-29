@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.PageStore'
+    name: PageStore
+    fullName: PageStore
+    children:
+      - '@ms/sp-pages.PageStore.constructor'
+      - '@ms/sp-pages.PageStore.processAction'
+    langs:
+      - typeScript
+    type: class
+    summary: Represents Page mode state
+    extends:
+      name: '@@ms/sp-pages.BaseStore'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.PageStore.constructor'
+    name: PageStore
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new PageStore()
+      parameters: []
+  - uid: '@ms/sp-pages.PageStore.processAction'
+    name: processAction
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Processes the action fired
+    syntax:
+      content: 'function processAction(action: BaseAction)'
+      parameters:
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''

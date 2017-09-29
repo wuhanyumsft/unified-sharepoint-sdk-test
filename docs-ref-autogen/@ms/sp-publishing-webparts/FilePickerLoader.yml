@@ -1,0 +1,36 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.FilePickerLoader'
+    name: FilePickerLoader
+    fullName: FilePickerLoader
+    children:
+      - '@ms/sp-publishing-webparts.FilePickerLoader.load'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.FilePickerLoader.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Load and initialize FilePicker
+    syntax:
+      content: >-
+        static function load(serviceScope: ServiceScope, filePickerData:
+        IFilePickerData)
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: |+
+
+        - id: filePickerData
+          type:
+            - IFilePickerData
+          description: ''
+      return:
+        type:
+          - Promise<IFilePicker>

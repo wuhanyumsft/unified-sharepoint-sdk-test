@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IFilePickerResponseModel'
+    name: IFilePickerResponseModel
+    fullName: IFilePickerResponseModel
+    children:
+      - '@ms/sp-publishing-webparts.IFilePickerResponseModel.FileName'
+      - '@ms/sp-publishing-webparts.IFilePickerResponseModel.Link'
+      - '@ms/sp-publishing-webparts.IFilePickerResponseModel.Size'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IFilePickerResponseModel.FileName'
+    name: FileName
+    fullName: FileName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Name of the file including its extension.
+    syntax:
+      content: string FileName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IFilePickerResponseModel.Link'
+    name: Link
+    fullName: Link
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A URL that provides access to the selected file.
+    syntax:
+      content: string Link
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IFilePickerResponseModel.Size'
+    name: Size
+    fullName: Size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Size of the file, in bytes.'
+    syntax:
+      content: number Size
+      return:
+        type:
+          - number

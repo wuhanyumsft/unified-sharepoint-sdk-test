@@ -1,0 +1,84 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.SharePageByEmailDataProvider'
+    name: SharePageByEmailDataProvider
+    fullName: SharePageByEmailDataProvider
+    children:
+      - '@ms/sp-pages.SharePageByEmailDataProvider.sharePageByEmail'
+      - '@ms/sp-pages.SharePageByEmailDataProvider.constructor'
+      - '@ms/sp-pages.SharePageByEmailDataProvider.ShareSiteByEmail'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SharePageByEmailDataProvider.sharePageByEmail'
+    name: sharePageByEmail
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function sharePageByEmail(receivers: IPerson[], message: string,
+        includeSiteData?: boolean)
+      parameters:
+        - id: receivers
+          type:
+            - 'IPerson[]'
+          description: ''
+        - id: message
+          type:
+            - string
+          description: ''
+        - id: includeSiteData
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-pages.SharePageByEmailDataProvider.constructor'
+    name: SharePageByEmailDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SharePageByEmailDataProvider(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+  - uid: '@ms/sp-pages.SharePageByEmailDataProvider.ShareSiteByEmail'
+    name: ShareSiteByEmail
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function ShareSiteByEmail(receivers: IPerson[], message: string,
+        includeSiteData?: boolean)
+      parameters:
+        - id: receivers
+          type:
+            - 'IPerson[]'
+          description: ''
+        - id: message
+          type:
+            - string
+          description: ''
+        - id: includeSiteData
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>

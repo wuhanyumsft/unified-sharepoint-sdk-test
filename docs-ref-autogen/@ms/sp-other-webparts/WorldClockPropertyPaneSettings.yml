@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-other-webparts.WorldClockPropertyPaneSettings'
+    name: WorldClockPropertyPaneSettings
+    fullName: WorldClockPropertyPaneSettings
+    children:
+      - '@ms/sp-other-webparts.WorldClockPropertyPaneSettings.getAddClockPane'
+      - '@ms/sp-other-webparts.WorldClockPropertyPaneSettings.getEditClockPane'
+      - '@ms/sp-other-webparts.WorldClockPropertyPaneSettings.getSettingsPane'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-other-webparts'
+  - uid: '@ms/sp-other-webparts.WorldClockPropertyPaneSettings.getAddClockPane'
+    name: getAddClockPane
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function getAddClockPane()
+      parameters: []
+      return:
+        type:
+          - IPropertyPaneConfiguration
+  - uid: '@ms/sp-other-webparts.WorldClockPropertyPaneSettings.getEditClockPane'
+    name: getEditClockPane
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getEditClockPane(webPartId: string)'
+      parameters:
+        - id: webPartId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - IPropertyPaneConfiguration
+  - uid: '@ms/sp-other-webparts.WorldClockPropertyPaneSettings.getSettingsPane'
+    name: getSettingsPane
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function getSettingsPane()
+      parameters: []
+      return:
+        type:
+          - IPropertyPaneConfiguration

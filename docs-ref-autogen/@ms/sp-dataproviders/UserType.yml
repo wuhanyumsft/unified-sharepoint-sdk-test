@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.UserType'
+    name: UserType
+    fullName: UserType
+    children:
+      - '@ms/sp-dataproviders.UserType.CurrentUser'
+      - '@ms/sp-dataproviders.UserType.SpecificUser'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.UserType.CurrentUser'
+    name: CurrentUser
+    children: []
+    langs:
+      - typeScript
+    summary: Indicates user is the current session user.
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-dataproviders.UserType.SpecificUser'
+    name: SpecificUser
+    children: []
+    langs:
+      - typeScript
+    summary: Indicates user is who match the given match text (e.g. name).
+    type: field
+    numericValue: 2

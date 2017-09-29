@@ -1,0 +1,113 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.RetryablePromise'
+    name: RetryablePromise
+    fullName: RetryablePromise<TResult>
+    children:
+      - '@microsoft/sp-build-core-tasks.RetryablePromise.allWithRetries'
+      - '@microsoft/sp-build-core-tasks.RetryablePromise.catch'
+      - '@microsoft/sp-build-core-tasks.RetryablePromise.retry'
+      - '@microsoft/sp-build-core-tasks.RetryablePromise.constructor'
+      - '@microsoft/sp-build-core-tasks.RetryablePromise.then'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.RetryablePromise.allWithRetries'
+    name: allWithRetries
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function allWithRetries<T>(promises: RetryablePromise<T>[],
+        maxRetries: number, retryDelayInMs: number)
+      parameters:
+        - id: promises
+          type:
+            - '@@microsoft/sp-build-core-tasks.RetryablePromise<T>[]'
+          description: ''
+        - id: maxRetries
+          type:
+            - number
+          description: ''
+        - id: retryDelayInMs
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - 'Promise<T[]>'
+  - uid: '@microsoft/sp-build-core-tasks.RetryablePromise.catch'
+    name: catch
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function catch<TReturn>(onRejected?: (error: Error) => TReturn)'
+      parameters:
+        - id: onRejected
+          type:
+            - '(error: Error) => TReturn'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<TReturn>
+  - uid: '@microsoft/sp-build-core-tasks.RetryablePromise.retry'
+    name: retry
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function retry()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.RetryablePromise<TResult>'
+  - uid: '@microsoft/sp-build-core-tasks.RetryablePromise.constructor'
+    name: RetryablePromise
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new RetryablePromise(_promiseFn: Promise)'
+      parameters:
+        - id: _promiseFn
+          type:
+            - Promise
+          description: ''
+  - uid: '@microsoft/sp-build-core-tasks.RetryablePromise.then'
+    name: then
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function then<TReturn>(onFulfilled?: (value: TResult) => TReturn,
+        onRejected?: (error: Error) => TReturn)
+      parameters:
+        - id: onFulfilled
+          type:
+            - '(value: TResult) => TReturn'
+          description: ''
+          optional: true
+        - id: onRejected
+          type:
+            - '(error: Error) => TReturn'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<TReturn>

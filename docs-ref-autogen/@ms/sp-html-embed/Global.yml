@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-html-embed.Global'
+    package: '@ms/sp-html-embed'
+    name: Global
+    children:
+      - '@ms/sp-html-embed.getEmbedServiceClassName'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@ms/sp-html-embed.getEmbedServiceClassName'
+    name: getEmbedServiceClassName
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getEmbedServiceClassName(embedService: IEmbeddableService)'
+      parameters:
+        - id: embedService
+          type:
+            - '@@ms/sp-html-embed.IEmbeddableService'
+          description: ''
+      return:
+        type:
+          - string

@@ -1,0 +1,309 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings'
+    name: ITabTestSettings
+    fullName: ITabTestSettings
+    children:
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.AuthType'
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.AzurePath'
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.AzureTaskLibLocation'
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.AzureTestLocation'
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.ClearCache'
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.ConfigName'
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.emergencyResetUrl'
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.FeatureOverrides'
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.LogToConsole'
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.Password'
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.PerfReport'
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.ProductServerSet'
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.RetryCount'
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.RunUIRemote'
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.StubRelativeLocation'
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.Timeout'
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.UserAliases'
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.UserLogins'
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.UserName'
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.UserNames'
+      - '@ms/sp-build-internal-tasks.ITabTestSettings.UserPasswords'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Config properties for the Tab Config file that are generic and shared
+      amongst all projects. They are separated into a 'generic' config
+      because they contain sensitive information that is not shipped along
+      with each project that runs tab testing.
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.AuthType'
+    name: AuthType
+    fullName: AuthType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string AuthType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.AzurePath'
+    name: AzurePath
+    fullName: AzurePath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string AzurePath
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.AzureTaskLibLocation'
+    name: AzureTaskLibLocation
+    fullName: AzureTaskLibLocation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string AzureTaskLibLocation
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.AzureTestLocation'
+    name: AzureTestLocation
+    fullName: AzureTestLocation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string AzureTestLocation
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.ClearCache'
+    name: ClearCache
+    fullName: ClearCache
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean ClearCache
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.ConfigName'
+    name: ConfigName
+    fullName: ConfigName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ConfigName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.emergencyResetUrl'
+    name: emergencyResetUrl
+    fullName: emergencyResetUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string emergencyResetUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.FeatureOverrides'
+    name: FeatureOverrides
+    fullName: FeatureOverrides
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string FeatureOverrides
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.LogToConsole'
+    name: LogToConsole
+    fullName: LogToConsole
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean LogToConsole
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.Password'
+    name: Password
+    fullName: Password
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Password
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.PerfReport'
+    name: PerfReport
+    fullName: PerfReport
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string PerfReport
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.ProductServerSet'
+    name: ProductServerSet
+    fullName: ProductServerSet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ProductServerSet
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.RetryCount'
+    name: RetryCount
+    fullName: RetryCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number RetryCount
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.RunUIRemote'
+    name: RunUIRemote
+    fullName: RunUIRemote
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean RunUIRemote
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.StubRelativeLocation'
+    name: StubRelativeLocation
+    fullName: StubRelativeLocation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string StubRelativeLocation
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.Timeout'
+    name: Timeout
+    fullName: Timeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number Timeout
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.UserAliases'
+    name: UserAliases
+    fullName: UserAliases
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string UserAliases
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.UserLogins'
+    name: UserLogins
+    fullName: UserLogins
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string UserLogins
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.UserName'
+    name: UserName
+    fullName: UserName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string UserName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.UserNames'
+    name: UserNames
+    fullName: UserNames
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string UserNames
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ITabTestSettings.UserPasswords'
+    name: UserPasswords
+    fullName: UserPasswords
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string UserPasswords
+      return:
+        type:
+          - string

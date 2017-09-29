@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.DeveloperToolsTab'
+    name: DeveloperToolsTab
+    fullName: DeveloperToolsTab
+    children:
+      - '@microsoft/sp-loader.DeveloperToolsTab.constructor'
+      - '@microsoft/sp-loader.DeveloperToolsTab.loadComponent'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Represents a developer tools tab. The developer console can be invoked
+      with the "CTRL+F12"
+       key combination.
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.DeveloperToolsTab.constructor'
+    name: DeveloperToolsTab
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DeveloperToolsTab(parameters: IDeveloperToolsTab)'
+      parameters:
+        - id: parameters
+          type:
+            - IDeveloperToolsTab
+          description: ''
+  - uid: '@microsoft/sp-loader.DeveloperToolsTab.loadComponent'
+    name: loadComponent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function loadComponent()
+      parameters: []
+      return:
+        type:
+          - Promise<void>

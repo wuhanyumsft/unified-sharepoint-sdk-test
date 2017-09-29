@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.IHttpClientConfiguration'
+    name: IHttpClientConfiguration
+    fullName: IHttpClientConfiguration
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: Flags interface for HttpClientConfiguration.
+    package: '@microsoft/sp-http'

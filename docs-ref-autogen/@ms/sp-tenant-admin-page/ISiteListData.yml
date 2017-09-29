@@ -1,0 +1,135 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISiteListData'
+    name: ISiteListData
+    fullName: ISiteListData
+    children:
+      - '@ms/sp-tenant-admin-page.ISiteListData.FilterLink'
+      - '@ms/sp-tenant-admin-page.ISiteListData.FirstRow'
+      - '@ms/sp-tenant-admin-page.ISiteListData.FolderPermissions'
+      - '@ms/sp-tenant-admin-page.ISiteListData.ForceNoHierarchy'
+      - '@ms/sp-tenant-admin-page.ISiteListData.LastRow'
+      - '@ms/sp-tenant-admin-page.ISiteListData.NextHref'
+      - '@ms/sp-tenant-admin-page.ISiteListData.Row'
+      - '@ms/sp-tenant-admin-page.ISiteListData.RowLimit'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      We are calling `_api/web/List('***')/RenderListDataAsStream` API to query
+      site data.
+
+      This interface is use to hold the response data.
+
+      The data structure returned by the RenderListDataAsStream API is using
+      field name with leading uppercase,
+
+      so here we can only use field name with leading uppercase to assign values
+      to each field
+
+      because, convert from JSON to an object needs field name be exactly same.
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ISiteListData.FilterLink'
+    name: FilterLink
+    fullName: FilterLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string FilterLink
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteListData.FirstRow'
+    name: FirstRow
+    fullName: FirstRow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number FirstRow
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tenant-admin-page.ISiteListData.FolderPermissions'
+    name: FolderPermissions
+    fullName: FolderPermissions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string FolderPermissions
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteListData.ForceNoHierarchy'
+    name: ForceNoHierarchy
+    fullName: ForceNoHierarchy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ForceNoHierarchy
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteListData.LastRow'
+    name: LastRow
+    fullName: LastRow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number LastRow
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tenant-admin-page.ISiteListData.NextHref'
+    name: NextHref
+    fullName: NextHref
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string NextHref
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteListData.Row'
+    name: Row
+    fullName: Row
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ISiteData[] Row'
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISiteData[]'
+  - uid: '@ms/sp-tenant-admin-page.ISiteListData.RowLimit'
+    name: RowLimit
+    fullName: RowLimit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number RowLimit
+      return:
+        type:
+          - number

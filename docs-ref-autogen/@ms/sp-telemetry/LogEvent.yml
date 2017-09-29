@@ -1,0 +1,89 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.LogEvent'
+    name: LogEvent
+    fullName: LogEvent
+    children:
+      - '@ms/sp-telemetry.LogEvent.log'
+      - '@ms/sp-telemetry.LogEvent.constructor'
+      - '@ms/sp-telemetry.LogEvent.toString'
+    langs:
+      - typeScript
+    type: class
+    summary: An object that represents one log event.
+    package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.LogEvent.log'
+    name: log
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Use this method to log an event.
+    syntax:
+      content: >-
+        static function log(source: string, data: string, level: LogLevel,
+        serviceScope?: ServiceScope)
+      parameters:
+        - id: source
+          type:
+            - string
+          description: 'source of the log event, e.g. class name of the source file'
+        - id: data
+          type:
+            - string
+          description: data of the log event
+        - id: level
+          type:
+            - LogLevel
+          description: level of the log event
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: |
+            scope of the log event, e.g. component/web part
+          optional: true
+      return:
+        type:
+          - '@@ms/sp-telemetry.LogEvent'
+  - uid: '@ms/sp-telemetry.LogEvent.constructor'
+    name: LogEvent
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Do not call this constructor directly. Use LogEvent.log instead.
+    syntax:
+      content: >-
+        new LogEvent(source: string, data: string, level: LogLevel,
+        serviceScope?: ServiceScope)
+      parameters:
+        - id: source
+          type:
+            - string
+          description: ''
+        - id: data
+          type:
+            - string
+          description: ''
+        - id: level
+          type:
+            - LogLevel
+          description: ''
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+          optional: true
+  - uid: '@ms/sp-telemetry.LogEvent.toString'
+    name: toString
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toString()
+      parameters: []
+      return:
+        type:
+          - string

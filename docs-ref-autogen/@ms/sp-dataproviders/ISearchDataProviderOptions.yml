@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.ISearchDataProviderOptions'
+    name: ISearchDataProviderOptions
+    fullName: ISearchDataProviderOptions
+    children:
+      - '@ms/sp-dataproviders.ISearchDataProviderOptions.returnCachedValues'
+      - '@ms/sp-dataproviders.ISearchDataProviderOptions.searchAPIQueryOptions'
+      - '@ms/sp-dataproviders.ISearchDataProviderOptions.searchOptions'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.ISearchDataProviderOptions.returnCachedValues'
+    name: returnCachedValues
+    fullName: returnCachedValues
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: true returnCachedValues
+      return:
+        type:
+          - 'true'
+  - uid: '@ms/sp-dataproviders.ISearchDataProviderOptions.searchAPIQueryOptions'
+    name: searchAPIQueryOptions
+    fullName: searchAPIQueryOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISearchAPIQueryOptions searchAPIQueryOptions
+      return:
+        type:
+          - '@@ms/sp-dataproviders.ISearchAPIQueryOptions'
+  - uid: '@ms/sp-dataproviders.ISearchDataProviderOptions.searchOptions'
+    name: searchOptions
+    fullName: searchOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISearchOptions searchOptions
+      return:
+        type:
+          - '@@ms/sp-dataproviders.ISearchOptions'

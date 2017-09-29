@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ButtonState'
+    name: ButtonState
+    fullName: ButtonState
+    children:
+      - '@ms/sp-canvas.ButtonState.Active'
+      - '@ms/sp-canvas.ButtonState.Disabled'
+      - '@ms/sp-canvas.ButtonState.Normal'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ButtonState.Active'
+    name: Active
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-canvas.ButtonState.Disabled'
+    name: Disabled
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-canvas.ButtonState.Normal'
+    name: Normal
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

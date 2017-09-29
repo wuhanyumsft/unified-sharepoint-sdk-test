@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ICanvasZoneProps'
+    name: ICanvasZoneProps
+    fullName: ICanvasZoneProps
+    children:
+      - '@ms/sp-canvas.ICanvasZoneProps.fullWidth'
+      - '@ms/sp-canvas.ICanvasZoneProps.shouldCenterAlign'
+      - '@ms/sp-canvas.ICanvasZoneProps.zone'
+      - '@ms/sp-canvas.ICanvasZoneProps.zoneLabel'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-canvas.ILayoutPartComponentProps'
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ICanvasZoneProps.fullWidth'
+    name: fullWidth
+    fullName: fullWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean fullWidth
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.ICanvasZoneProps.shouldCenterAlign'
+    name: shouldCenterAlign
+    fullName: shouldCenterAlign
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean shouldCenterAlign
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.ICanvasZoneProps.zone'
+    name: zone
+    fullName: zone
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CanvasZonePart zone
+      return:
+        type:
+          - '@@ms/sp-canvas.CanvasZonePart'
+  - uid: '@ms/sp-canvas.ICanvasZoneProps.zoneLabel'
+    name: zoneLabel
+    fullName: zoneLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string zoneLabel
+      return:
+        type:
+          - string

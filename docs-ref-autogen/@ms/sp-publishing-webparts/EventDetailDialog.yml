@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.EventDetailDialog'
+    name: EventDetailDialog
+    fullName: EventDetailDialog
+    children:
+      - '@ms/sp-publishing-webparts.EventDetailDialog.constructor'
+      - '@ms/sp-publishing-webparts.EventDetailDialog.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.EventDetailDialog<@@ms/sp-publishing-webparts.IEventDetailDialogProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.EventDetailDialog.constructor'
+    name: EventDetailDialog
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new EventDetailDialog(props: IEventDetailDialogProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IEventDetailDialogProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.EventDetailDialog.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

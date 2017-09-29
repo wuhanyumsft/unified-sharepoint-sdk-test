@@ -1,0 +1,93 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.IBaseFilePickerTabState'
+    name: IBaseFilePickerTabState
+    fullName: IBaseFilePickerTabState<T>
+    children:
+      - '@ms/sp-filepicker.IBaseFilePickerTabState.havePendingRequests'
+      - '@ms/sp-filepicker.IBaseFilePickerTabState.isFirstRun'
+      - '@ms/sp-filepicker.IBaseFilePickerTabState.items'
+      - '@ms/sp-filepicker.IBaseFilePickerTabState.itemsChecked'
+      - '@ms/sp-filepicker.IBaseFilePickerTabState.selection'
+    langs:
+      - typeScript
+    type: interface
+    summary: Base state for File Picker tabs (extended by Recents and BingImageSearch)
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.IBaseFilePickerTabState.havePendingRequests'
+    name: havePendingRequests
+    fullName: havePendingRequests
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates if the tab is waiting for a data request to resolve
+    syntax:
+      content: boolean havePendingRequests
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-filepicker.IBaseFilePickerTabState.isFirstRun'
+    name: isFirstRun
+    fullName: isFirstRun
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Indicates if the tab is in its 'first run' state, i.e. the default view
+      that is rendered by the tab
+
+      and before any user action has occurred
+    syntax:
+      content: boolean isFirstRun
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-filepicker.IBaseFilePickerTabState.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      List of user's items, from which the current user of the file picker can
+      select files
+    syntax:
+      content: 'T[] items'
+      return:
+        type:
+          - 'T[]'
+  - uid: '@ms/sp-filepicker.IBaseFilePickerTabState.itemsChecked'
+    name: itemsChecked
+    fullName: itemsChecked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The current item(s) that are checked
+
+      NOTE: a checked item has not yet been 'selected' by the user, as a final
+      selection
+
+      requires the user the 'OPEN' the file
+    syntax:
+      content: 'T[] itemsChecked'
+      return:
+        type:
+          - 'T[]'
+  - uid: '@ms/sp-filepicker.IBaseFilePickerTabState.selection'
+    name: selection
+    fullName: selection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISelection selection
+      return:
+        type:
+          - ISelection

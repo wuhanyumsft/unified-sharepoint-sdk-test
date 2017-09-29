@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IHistoryStateData'
+    name: IHistoryStateData
+    fullName: IHistoryStateData
+    children:
+      - '@ms/sp-pages.IHistoryStateData.url'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IHistoryStateData.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string url
+      return:
+        type:
+          - string

@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.BrowserSupportLevel'
+    name: BrowserSupportLevel
+    fullName: BrowserSupportLevel
+    children:
+      - '@microsoft/sp-core-library.BrowserSupportLevel.None'
+      - '@microsoft/sp-core-library.BrowserSupportLevel.FullFunctionality'
+      - '@microsoft/sp-core-library.BrowserSupportLevel.Readable'
+      - '@microsoft/sp-core-library.BrowserSupportLevel.Blocked'
+    langs:
+      - typeScript
+    type: enum
+    summary: Browser support level for a component.
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.BrowserSupportLevel.None'
+    name: None
+    children: []
+    langs:
+      - typeScript
+    summary: 'None: Support level is not available. No assumptions can be made.'
+    type: field
+    numericValue: 0
+  - uid: '@microsoft/sp-core-library.BrowserSupportLevel.FullFunctionality'
+    name: FullFunctionality
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Full functionality: Known browser, component should work properly in all
+      scenarios.
+    type: field
+    numericValue: 1
+  - uid: '@microsoft/sp-core-library.BrowserSupportLevel.Readable'
+    name: Readable
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Readable: Component should be usable, potentially with limited
+      functionality.
+    type: field
+    numericValue: 2
+  - uid: '@microsoft/sp-core-library.BrowserSupportLevel.Blocked'
+    name: Blocked
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Blocked: The component does not work with this browser.
+
+      The SharePoint Framework will prevent the page from rendering, instead
+      displaying the supplied warning message.
+
+      This a very poor experience for the end user. Only use this level for
+      situations where it is absolutely certain
+
+      that the page will fail to render, and it is not feasible to implement a
+      workaround.
+    type: field
+    numericValue: 3

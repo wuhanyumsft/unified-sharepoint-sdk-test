@@ -1,0 +1,221 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ITitleImageState'
+    name: ITitleImageState
+    fullName: ITitleImageState
+    children:
+      - '@ms/sp-publishing-webparts.ITitleImageState.backgroundClass'
+      - '@ms/sp-publishing-webparts.ITitleImageState.editing'
+      - '@ms/sp-publishing-webparts.ITitleImageState.imageService'
+      - '@ms/sp-publishing-webparts.ITitleImageState.imageSource'
+      - '@ms/sp-publishing-webparts.ITitleImageState.imageSourceType'
+      - '@ms/sp-publishing-webparts.ITitleImageState.isDownloading'
+      - '@ms/sp-publishing-webparts.ITitleImageState.isSettingFocalPoint'
+      - '@ms/sp-publishing-webparts.ITitleImageState.isUploading'
+      - '@ms/sp-publishing-webparts.ITitleImageState.listId'
+      - '@ms/sp-publishing-webparts.ITitleImageState.newFileSelected'
+      - '@ms/sp-publishing-webparts.ITitleImageState.siteId'
+      - '@ms/sp-publishing-webparts.ITitleImageState.translateX'
+      - '@ms/sp-publishing-webparts.ITitleImageState.translateY'
+      - '@ms/sp-publishing-webparts.ITitleImageState.uniqueId'
+      - '@ms/sp-publishing-webparts.ITitleImageState.webId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ITitleImageState.backgroundClass'
+    name: backgroundClass
+    fullName: backgroundClass
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string backgroundClass
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ITitleImageState.editing'
+    name: editing
+    fullName: editing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean editing
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ITitleImageState.imageService'
+    name: imageService
+    fullName: imageService
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ImageServiceType imageService
+      return:
+        type:
+          - ImageServiceType
+  - uid: '@ms/sp-publishing-webparts.ITitleImageState.imageSource'
+    name: imageSource
+    fullName: imageSource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string imageSource
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ITitleImageState.imageSourceType'
+    name: imageSourceType
+    fullName: imageSourceType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ImageSourceType imageSourceType
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.ImageSourceType'
+  - uid: '@ms/sp-publishing-webparts.ITitleImageState.isDownloading'
+    name: isDownloading
+    fullName: isDownloading
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isDownloading
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ITitleImageState.isSettingFocalPoint'
+    name: isSettingFocalPoint
+    fullName: isSettingFocalPoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSettingFocalPoint
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ITitleImageState.isUploading'
+    name: isUploading
+    fullName: isUploading
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isUploading
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ITitleImageState.listId'
+    name: listId
+    fullName: listId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string listId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ITitleImageState.newFileSelected'
+    name: newFileSelected
+    fullName: newFileSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean newFileSelected
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ITitleImageState.siteId'
+    name: siteId
+    fullName: siteId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ITitleImageState.translateX'
+    name: translateX
+    fullName: translateX
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number translateX
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.ITitleImageState.translateY'
+    name: translateY
+    fullName: translateY
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number translateY
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.ITitleImageState.uniqueId'
+    name: uniqueId
+    fullName: uniqueId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string uniqueId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ITitleImageState.webId'
+    name: webId
+    fullName: webId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webId
+      return:
+        type:
+          - string

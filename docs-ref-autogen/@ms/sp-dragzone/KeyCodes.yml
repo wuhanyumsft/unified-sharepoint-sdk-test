@@ -1,0 +1,74 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dragzone.KeyCodes'
+    name: KeyCodes
+    fullName: KeyCodes
+    children:
+      - '@ms/sp-dragzone.KeyCodes.Enter'
+      - '@ms/sp-dragzone.KeyCodes.Escape'
+      - '@ms/sp-dragzone.KeyCodes.Space'
+      - '@ms/sp-dragzone.KeyCodes.LeftArrow'
+      - '@ms/sp-dragzone.KeyCodes.UpArrow'
+      - '@ms/sp-dragzone.KeyCodes.RightArrow'
+      - '@ms/sp-dragzone.KeyCodes.DownArrow'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-dragzone'
+  - uid: '@ms/sp-dragzone.KeyCodes.Enter'
+    name: Enter
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 13
+  - uid: '@ms/sp-dragzone.KeyCodes.Escape'
+    name: Escape
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 27
+  - uid: '@ms/sp-dragzone.KeyCodes.Space'
+    name: Space
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 32
+  - uid: '@ms/sp-dragzone.KeyCodes.LeftArrow'
+    name: LeftArrow
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 37
+  - uid: '@ms/sp-dragzone.KeyCodes.UpArrow'
+    name: UpArrow
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 38
+  - uid: '@ms/sp-dragzone.KeyCodes.RightArrow'
+    name: RightArrow
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 39
+  - uid: '@ms/sp-dragzone.KeyCodes.DownArrow'
+    name: DownArrow
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 40

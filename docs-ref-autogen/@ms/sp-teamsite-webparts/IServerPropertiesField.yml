@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IServerPropertiesField'
+    name: IServerPropertiesField
+    fullName: IServerPropertiesField
+    children:
+      - '@ms/sp-teamsite-webparts.IServerPropertiesField.picture'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IServerPropertiesField.picture'
+    name: picture
+    fullName: picture
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IGuidSet picture
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IGuidSet'

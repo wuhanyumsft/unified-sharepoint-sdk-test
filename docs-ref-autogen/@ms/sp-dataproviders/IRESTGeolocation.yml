@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IRESTGeolocation'
+    name: IRESTGeolocation
+    fullName: IRESTGeolocation
+    children:
+      - '@ms/sp-dataproviders.IRESTGeolocation.Latitude'
+      - '@ms/sp-dataproviders.IRESTGeolocation.Longitude'
+    langs:
+      - typeScript
+    type: interface
+    summary: This interface is consistent with REST response Geolocation type.
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IRESTGeolocation.Latitude'
+    name: Latitude
+    fullName: Latitude
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Latitude of the geolocation
+    syntax:
+      content: number Latitude
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-dataproviders.IRESTGeolocation.Longitude'
+    name: Longitude
+    fullName: Longitude
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Longitude of the geolocation
+    syntax:
+      content: number Longitude
+      return:
+        type:
+          - number

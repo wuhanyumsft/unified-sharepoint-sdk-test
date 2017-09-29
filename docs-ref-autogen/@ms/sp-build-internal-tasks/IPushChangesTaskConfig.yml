@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.IPushChangesTaskConfig'
+    name: IPushChangesTaskConfig
+    fullName: IPushChangesTaskConfig
+    children:
+      - '@ms/sp-build-internal-tasks.IPushChangesTaskConfig.branchName'
+      - '@ms/sp-build-internal-tasks.IPushChangesTaskConfig.repositoryName'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.IPushChangesTaskConfig.branchName'
+    name: branchName
+    fullName: branchName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This is the name of the branch to which we're pushing changes. Defaults to
+      "master".
+    syntax:
+      content: string branchName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.IPushChangesTaskConfig.repositoryName'
+    name: repositoryName
+    fullName: repositoryName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This is the name of the repository to connect and talk to. Defaults to the
+      value in the BUILD_REPOSITORY_NAME env
+
+      variable.
+    syntax:
+      content: string repositoryName
+      return:
+        type:
+          - string

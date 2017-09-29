@@ -1,0 +1,83 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.IPerfItem'
+    name: IPerfItem
+    fullName: IPerfItem
+    children:
+      - '@microsoft/sp-loader.IPerfItem.breakdown'
+      - '@microsoft/sp-loader.IPerfItem.duration'
+      - '@microsoft/sp-loader.IPerfItem.id'
+      - '@microsoft/sp-loader.IPerfItem.name'
+      - '@microsoft/sp-loader.IPerfItem.startVal'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface to represent each performance data point
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.IPerfItem.breakdown'
+    name: breakdown
+    fullName: breakdown
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Loading time breakdown for web parts. Will be undefined for items that
+      aren't web parts.
+    syntax:
+      content: IWebPartBreakdown breakdown
+      return:
+        type:
+          - '@@microsoft/sp-loader.IWebPartBreakdown'
+  - uid: '@microsoft/sp-loader.IPerfItem.duration'
+    name: duration
+    fullName: duration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Duration of the event in miliseconds.
+    syntax:
+      content: number duration
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-loader.IPerfItem.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: String ID that comes from the value given in the JSON data
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-loader.IPerfItem.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Readable name to be displayed in the table to users
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-loader.IPerfItem.startVal'
+    name: startVal
+    fullName: startVal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Start time in miliseconds of the event
+    syntax:
+      content: number startVal
+      return:
+        type:
+          - number

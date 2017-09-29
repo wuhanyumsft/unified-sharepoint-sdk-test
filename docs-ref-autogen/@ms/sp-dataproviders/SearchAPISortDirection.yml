@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.SearchAPISortDirection'
+    name: SearchAPISortDirection
+    fullName: SearchAPISortDirection
+    children:
+      - '@ms/sp-dataproviders.SearchAPISortDirection.ascending'
+      - '@ms/sp-dataproviders.SearchAPISortDirection.descending'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.SearchAPISortDirection.ascending'
+    name: ascending
+    fullName: ascending
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number ascending
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-dataproviders.SearchAPISortDirection.descending'
+    name: descending
+    fullName: descending
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number descending
+      return:
+        type:
+          - number

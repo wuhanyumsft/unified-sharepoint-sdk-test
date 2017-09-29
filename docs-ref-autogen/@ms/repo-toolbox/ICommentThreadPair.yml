@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/repo-toolbox.ICommentThreadPair'
+    name: ICommentThreadPair
+    fullName: ICommentThreadPair
+    children:
+      - '@ms/repo-toolbox.ICommentThreadPair.comment'
+      - '@ms/repo-toolbox.ICommentThreadPair.thread'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/repo-toolbox'
+  - uid: '@ms/repo-toolbox.ICommentThreadPair.comment'
+    name: comment
+    fullName: comment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Comment comment
+      return:
+        type:
+          - Comment
+  - uid: '@ms/repo-toolbox.ICommentThreadPair.thread'
+    name: thread
+    fullName: thread
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: GitPullRequestCommentThread thread
+      return:
+        type:
+          - GitPullRequestCommentThread

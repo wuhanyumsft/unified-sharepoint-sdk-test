@@ -1,0 +1,119 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.JsonToJsTask'
+    name: JsonToJsTask
+    fullName: JsonToJsTask
+    children:
+      - '@ms/sp-build-internal-tasks.JsonToJsTask.executeTask'
+      - '@ms/sp-build-internal-tasks.JsonToJsTask.fallbackToDefaultCulture'
+      - '@ms/sp-build-internal-tasks.JsonToJsTask.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      A task reads all of the string JSON files from lib/resx-strings and
+      produces JS files in dist
+
+      Example:
+       IN:
+        lib/resx-strings/en-us.json:
+          {
+            "_a1b2c3": {
+              "helloWorld": "Hello, World! Bar!"
+            },
+            "_z9y8x7": {
+              "helloWorld": "Hello, World! Foo!"
+            }
+          }
+
+       OUT:
+        lib/resx-strings/en-us.js:
+          define([], function() {
+            var strings = {
+              "_a1b2c3": {
+                "helloWorld": "helloWorld"
+              },
+              "_z9y8x7": {
+                "helloWorld": "helloWorld"
+              }
+            };
+
+            strings.default = strings;
+            return strings;
+          });
+    extends:
+      name: >-
+        @@ms/sp-build-internal-tasks.LocalizeGulpTask<@@ms/sp-build-internal-tasks.IJsonToJsTaskConfig>
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.JsonToJsTask.executeTask'
+    name: executeTask
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function executeTask(gulp: any, completeCallback: (error?: string) =>
+        void)
+      parameters:
+        - id: gulp
+          type:
+            - any
+          description: ''
+        - id: completeCallback
+          type:
+            - '(error?: string) => void'
+          description: ''
+      return:
+        type:
+          - ReadWriteStream
+  - uid: '@ms/sp-build-internal-tasks.JsonToJsTask.fallbackToDefaultCulture'
+    name: fallbackToDefaultCulture
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Modifies a file strings map by comparing it to the default culture. The
+      idea here is that the default culture
+
+      file is created during the build, and therefore represents the set of all
+      strings that would actually be
+
+      referenced by code. However, the other culture strings may be outdated
+      (for example if we are in a branch and we
+
+      have not cherry picked the changes made by Office Resource Fabric and the
+      localization daemon). This means that we
+
+      have to make sure that all of the keys that existed on the default culture
+      also exist on the comparison culture.
+
+      The function also removes any extra strings.
+    syntax:
+      content: >-
+        function fallbackToDefaultCulture(currentCulture:
+        IFileStringsMap<string>, defaultCulture: IFileStringsMap<string>)
+      parameters:
+        - id: currentCulture
+          type:
+            - '@@ms/sp-build-internal-tasks.IFileStringsMap<string>'
+          description: ''
+        - id: defaultCulture
+          type:
+            - '@@ms/sp-build-internal-tasks.IFileStringsMap<string>'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-build-internal-tasks.IFileStringsMap<string>'
+  - uid: '@ms/sp-build-internal-tasks.JsonToJsTask.constructor'
+    name: JsonToJsTask
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new JsonToJsTask()
+      parameters: []

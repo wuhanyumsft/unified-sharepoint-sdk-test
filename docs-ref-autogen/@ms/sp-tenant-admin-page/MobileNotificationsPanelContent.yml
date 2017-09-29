@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.MobileNotificationsPanelContent'
+    name: MobileNotificationsPanelContent
+    fullName: MobileNotificationsPanelContent
+    children:
+      - >-
+        @ms/sp-tenant-admin-page.MobileNotificationsPanelContent.componentDidMount
+      - '@ms/sp-tenant-admin-page.MobileNotificationsPanelContent.constructor'
+      - '@ms/sp-tenant-admin-page.MobileNotificationsPanelContent.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-tenant-admin-page.MobileNotificationsPanelContent<@@ms/sp-tenant-admin-page.IPanelContentProps>
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.MobileNotificationsPanelContent.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.MobileNotificationsPanelContent.constructor'
+    name: MobileNotificationsPanelContent
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new MobileNotificationsPanelContent()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.MobileNotificationsPanelContent.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

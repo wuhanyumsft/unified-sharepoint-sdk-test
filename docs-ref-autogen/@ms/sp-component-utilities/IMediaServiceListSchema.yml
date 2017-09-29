@@ -1,0 +1,223 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.IMediaServiceListSchema'
+    name: IMediaServiceListSchema
+    fullName: IMediaServiceListSchema
+    children:
+      - '@ms/sp-component-utilities.IMediaServiceListSchema..accessToken'
+      - '@ms/sp-component-utilities.IMediaServiceListSchema..callerStack'
+      - '@ms/sp-component-utilities.IMediaServiceListSchema..correlationId'
+      - '@ms/sp-component-utilities.IMediaServiceListSchema..driveAccessToken'
+      - '@ms/sp-component-utilities.IMediaServiceListSchema..driveAccessTokenV21'
+      - '@ms/sp-component-utilities.IMediaServiceListSchema..driveUrl'
+      - '@ms/sp-component-utilities.IMediaServiceListSchema..driveUrlV21'
+      - '@ms/sp-component-utilities.IMediaServiceListSchema..mediaBaseUrl'
+      - '@ms/sp-component-utilities.IMediaServiceListSchema..officeBundleGenerate'
+      - >-
+        @ms/sp-component-utilities.IMediaServiceListSchema..officeBundleGetFragment
+      - '@ms/sp-component-utilities.IMediaServiceListSchema..pdfConversionUrl'
+      - '@ms/sp-component-utilities.IMediaServiceListSchema..pushChannelBaseUrl'
+      - '@ms/sp-component-utilities.IMediaServiceListSchema..thumbnailUrl'
+      - '@ms/sp-component-utilities.IMediaServiceListSchema..transformUrl'
+      - '@ms/sp-component-utilities.IMediaServiceListSchema..videoManifestUrl'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.IMediaServiceListSchema..accessToken'
+    name: .accessToken
+    fullName: .accessToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string .accessToken
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IMediaServiceListSchema..callerStack'
+    name: .callerStack
+    fullName: .callerStack
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string .callerStack
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IMediaServiceListSchema..correlationId'
+    name: .correlationId
+    fullName: .correlationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string .correlationId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IMediaServiceListSchema..driveAccessToken'
+    name: .driveAccessToken
+    fullName: .driveAccessToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string .driveAccessToken
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IMediaServiceListSchema..driveAccessTokenV21'
+    name: .driveAccessTokenV21
+    fullName: .driveAccessTokenV21
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string .driveAccessTokenV21
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IMediaServiceListSchema..driveUrl'
+    name: .driveUrl
+    fullName: .driveUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string .driveUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IMediaServiceListSchema..driveUrlV21'
+    name: .driveUrlV21
+    fullName: .driveUrlV21
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string .driveUrlV21
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IMediaServiceListSchema..mediaBaseUrl'
+    name: .mediaBaseUrl
+    fullName: .mediaBaseUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string .mediaBaseUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IMediaServiceListSchema..officeBundleGenerate'
+    name: .officeBundleGenerate
+    fullName: .officeBundleGenerate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string .officeBundleGenerate
+      return:
+        type:
+          - string
+  - uid: >-
+      @ms/sp-component-utilities.IMediaServiceListSchema..officeBundleGetFragment
+    name: .officeBundleGetFragment
+    fullName: .officeBundleGetFragment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string .officeBundleGetFragment
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IMediaServiceListSchema..pdfConversionUrl'
+    name: .pdfConversionUrl
+    fullName: .pdfConversionUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string .pdfConversionUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IMediaServiceListSchema..pushChannelBaseUrl'
+    name: .pushChannelBaseUrl
+    fullName: .pushChannelBaseUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string .pushChannelBaseUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IMediaServiceListSchema..thumbnailUrl'
+    name: .thumbnailUrl
+    fullName: .thumbnailUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string .thumbnailUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IMediaServiceListSchema..transformUrl'
+    name: .transformUrl
+    fullName: .transformUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string .transformUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IMediaServiceListSchema..videoManifestUrl'
+    name: .videoManifestUrl
+    fullName: .videoManifestUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string .videoManifestUrl
+      return:
+        type:
+          - string

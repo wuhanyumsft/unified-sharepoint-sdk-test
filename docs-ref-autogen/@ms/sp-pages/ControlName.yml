@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ControlName'
+    name: ControlName
+    fullName: ControlName
+    children:
+      - '@ms/sp-pages.ControlName.DocumentHookControl'
+      - '@ms/sp-pages.ControlName.ImageControl'
+      - '@ms/sp-pages.ControlName.ImageHeaderControl'
+      - '@ms/sp-pages.ControlName.RTE'
+      - '@ms/sp-pages.ControlName.VideoControl'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ControlName.DocumentHookControl'
+    name: DocumentHookControl
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-pages.ControlName.ImageControl'
+    name: ImageControl
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-pages.ControlName.ImageHeaderControl'
+    name: ImageHeaderControl
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-pages.ControlName.RTE'
+    name: RTE
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-pages.ControlName.VideoControl'
+    name: VideoControl
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null

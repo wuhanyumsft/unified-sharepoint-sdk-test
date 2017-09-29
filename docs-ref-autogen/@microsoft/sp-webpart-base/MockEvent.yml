@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.MockEvent'
+    name: MockEvent
+    fullName: MockEvent
+    children:
+      - '@microsoft/sp-webpart-base.MockEvent.sourceId'
+      - '@microsoft/sp-webpart-base.MockEvent.targetId'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.MockEvent.sourceId'
+    name: sourceId
+    fullName: sourceId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string sourceId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.MockEvent.targetId'
+    name: targetId
+    fullName: targetId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string targetId
+      return:
+        type:
+          - string

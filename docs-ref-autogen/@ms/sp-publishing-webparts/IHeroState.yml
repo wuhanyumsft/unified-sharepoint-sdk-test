@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IHeroState'
+    name: IHeroState
+    fullName: IHeroState
+    children:
+      - '@ms/sp-publishing-webparts.IHeroState.activeItemIndex'
+      - '@ms/sp-publishing-webparts.IHeroState.showDialog'
+      - '@ms/sp-publishing-webparts.IHeroState.webPartWidth'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IHeroState.activeItemIndex'
+    name: activeItemIndex
+    fullName: activeItemIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number activeItemIndex
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IHeroState.showDialog'
+    name: showDialog
+    fullName: showDialog
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showDialog
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IHeroState.webPartWidth'
+    name: webPartWidth
+    fullName: webPartWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number webPartWidth
+      return:
+        type:
+          - number

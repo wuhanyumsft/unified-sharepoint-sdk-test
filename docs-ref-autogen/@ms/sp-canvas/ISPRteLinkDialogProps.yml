@@ -1,0 +1,139 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ISPRteLinkDialogProps'
+    name: ISPRteLinkDialogProps
+    fullName: ISPRteLinkDialogProps
+    children:
+      - '@ms/sp-canvas.ISPRteLinkDialogProps.editorElement'
+      - '@ms/sp-canvas.ISPRteLinkDialogProps.isOpen'
+      - '@ms/sp-canvas.ISPRteLinkDialogProps.onCancelClicked'
+      - '@ms/sp-canvas.ISPRteLinkDialogProps.onDismiss'
+      - '@ms/sp-canvas.ISPRteLinkDialogProps.onSaveClicked'
+      - '@ms/sp-canvas.ISPRteLinkDialogProps.onUnlink'
+      - '@ms/sp-canvas.ISPRteLinkDialogProps.selectedText'
+      - '@ms/sp-canvas.ISPRteLinkDialogProps.textFieldValue'
+      - '@ms/sp-canvas.ISPRteLinkDialogProps.validationRegex'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ISPRteLinkDialogProps.editorElement'
+    name: editorElement
+    fullName: editorElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement editorElement
+      return:
+        type:
+          - HTMLElement
+  - uid: '@ms/sp-canvas.ISPRteLinkDialogProps.isOpen'
+    name: isOpen
+    fullName: isOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isOpen
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.ISPRteLinkDialogProps.onCancelClicked'
+    name: onCancelClicked
+    fullName: onCancelClicked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onCancelClicked
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-canvas.ISPRteLinkDialogProps.onDismiss'
+    name: onDismiss
+    fullName: onDismiss
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onDismiss
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-canvas.ISPRteLinkDialogProps.onSaveClicked'
+    name: onSaveClicked
+    fullName: onSaveClicked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(displayText?: string) => void onSaveClicked'
+      return:
+        type:
+          - '(displayText?: string) => void'
+  - uid: '@ms/sp-canvas.ISPRteLinkDialogProps.onUnlink'
+    name: onUnlink
+    fullName: onUnlink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onUnlink
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-canvas.ISPRteLinkDialogProps.selectedText'
+    name: selectedText
+    fullName: selectedText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string selectedText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.ISPRteLinkDialogProps.textFieldValue'
+    name: textFieldValue
+    fullName: textFieldValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string textFieldValue
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.ISPRteLinkDialogProps.validationRegex'
+    name: validationRegex
+    fullName: validationRegex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: RegExp validationRegex
+      return:
+        type:
+          - RegExp

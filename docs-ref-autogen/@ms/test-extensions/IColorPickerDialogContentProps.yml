@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/test-extensions.IColorPickerDialogContentProps'
+    name: IColorPickerDialogContentProps
+    fullName: IColorPickerDialogContentProps
+    children:
+      - '@ms/test-extensions.IColorPickerDialogContentProps.close'
+      - '@ms/test-extensions.IColorPickerDialogContentProps.defaultColor'
+      - '@ms/test-extensions.IColorPickerDialogContentProps.message'
+      - '@ms/test-extensions.IColorPickerDialogContentProps.submit'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/test-extensions'
+  - uid: '@ms/test-extensions.IColorPickerDialogContentProps.close'
+    name: close
+    fullName: close
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void close
+      return:
+        type:
+          - () => void
+  - uid: '@ms/test-extensions.IColorPickerDialogContentProps.defaultColor'
+    name: defaultColor
+    fullName: defaultColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string defaultColor
+      return:
+        type:
+          - string
+  - uid: '@ms/test-extensions.IColorPickerDialogContentProps.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string message
+      return:
+        type:
+          - string
+  - uid: '@ms/test-extensions.IColorPickerDialogContentProps.submit'
+    name: submit
+    fullName: submit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(color: string) => void submit'
+      return:
+        type:
+          - '(color: string) => void'

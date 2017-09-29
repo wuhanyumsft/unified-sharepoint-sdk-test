@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.MockSPRequest'
+    name: MockSPRequest
+    fullName: MockSPRequest
+    children:
+      - '@ms/sp-client-projects.MockSPRequest.get'
+      - '@ms/sp-client-projects.MockSPRequest.post'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.MockSPRequest.get'
+    name: get
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function get(restUrl: string, options?: __type)'
+      parameters:
+        - id: restUrl
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - __type
+          description: ''
+          optional: true
+      return:
+        type:
+          - 'Promise<@@ms/sp-client-projects.ITodoItem[]>'
+  - uid: '@ms/sp-client-projects.MockSPRequest.post'
+    name: post
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function post(restUrl: string, options?: __type)'
+      parameters:
+        - id: restUrl
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - __type
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>

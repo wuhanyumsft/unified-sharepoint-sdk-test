@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.ToolboxMode'
+    name: ToolboxMode
+    fullName: ToolboxMode
+    children:
+      - '@ms/sp-canvas-toolbox.ToolboxMode.Large'
+      - '@ms/sp-canvas-toolbox.ToolboxMode.None'
+      - '@ms/sp-canvas-toolbox.ToolboxMode.Small'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-canvas-toolbox'
+  - uid: '@ms/sp-canvas-toolbox.ToolboxMode.Large'
+    name: Large
+    children: []
+    langs:
+      - typeScript
+    summary: The large toolbox.
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas-toolbox.ToolboxMode.None'
+    name: None
+    children: []
+    langs:
+      - typeScript
+    summary: No toolbox.
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas-toolbox.ToolboxMode.Small'
+    name: Small
+    children: []
+    langs:
+      - typeScript
+    summary: The small toolbox.
+    type: field
+    numericValue: null

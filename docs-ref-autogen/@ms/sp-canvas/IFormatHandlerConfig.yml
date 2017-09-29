@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.IFormatHandlerConfig'
+    name: IFormatHandlerConfig
+    fullName: IFormatHandlerConfig
+    children:
+      - '@ms/sp-canvas.IFormatHandlerConfig.format'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.IFormatHandlerConfig.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function format
+      return:
+        type:
+          - function

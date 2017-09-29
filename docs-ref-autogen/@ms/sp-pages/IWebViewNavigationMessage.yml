@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IWebViewNavigationMessage'
+    name: IWebViewNavigationMessage
+    fullName: IWebViewNavigationMessage
+    children:
+      - '@ms/sp-pages.IWebViewNavigationMessage.absoluteUrl'
+      - '@ms/sp-pages.IWebViewNavigationMessage.isSubSite'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.IWebViewMessage'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IWebViewNavigationMessage.absoluteUrl'
+    name: absoluteUrl
+    fullName: absoluteUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string absoluteUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IWebViewNavigationMessage.isSubSite'
+    name: isSubSite
+    fullName: isSubSite
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSubSite
+      return:
+        type:
+          - boolean

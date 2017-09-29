@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.ISuiteNavManager'
+    name: ISuiteNavManager
+    fullName: ISuiteNavManager
+    children:
+      - '@microsoft/sp-application-base.ISuiteNavManager.loadSuiteNav'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      The SuiteNavManager interface manages the loading and visibility of suite
+      nav
+    extends:
+      name: '@@microsoft/sp-application-base.IComponentVisible'
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.ISuiteNavManager.loadSuiteNav'
+    name: loadSuiteNav
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Initiates the loading of suite nav. By default, loading suite nav is
+      handled automatically by the framework.
+
+      This function is only needed if an application explictly have the suite
+      nav disabled initially.
+    syntax:
+      content: 'function loadSuiteNav(suiteNavConfig: ISuiteNavManagerConfiguration)'
+      parameters:
+        - id: suiteNavConfig
+          type:
+            - '@@microsoft/sp-application-base.ISuiteNavManagerConfiguration'
+          description: ''

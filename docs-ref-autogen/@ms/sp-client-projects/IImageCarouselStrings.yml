@@ -1,0 +1,305 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings'
+    name: IImageCarouselStrings
+    fullName: IImageCarouselStrings
+    children:
+      - '@ms/sp-client-projects.IImageCarouselStrings.Advanced'
+      - '@ms/sp-client-projects.IImageCarouselStrings.AutoplaySettings'
+      - '@ms/sp-client-projects.IImageCarouselStrings.Discard'
+      - '@ms/sp-client-projects.IImageCarouselStrings.DisplayModes'
+      - '@ms/sp-client-projects.IImageCarouselStrings.DragAndDropHere'
+      - '@ms/sp-client-projects.IImageCarouselStrings.ErrorCreateFolder'
+      - '@ms/sp-client-projects.IImageCarouselStrings.ErrorCreateList'
+      - '@ms/sp-client-projects.IImageCarouselStrings.ErrorEnsureCarousel'
+      - '@ms/sp-client-projects.IImageCarouselStrings.ImageCarousel'
+      - '@ms/sp-client-projects.IImageCarouselStrings.MenuAdaptiveHeight'
+      - '@ms/sp-client-projects.IImageCarouselStrings.MenuAutoplay'
+      - '@ms/sp-client-projects.IImageCarouselStrings.MenuAutoplaySpeed'
+      - '@ms/sp-client-projects.IImageCarouselStrings.MenuHeader'
+      - '@ms/sp-client-projects.IImageCarouselStrings.MenuNumSlidesToShow'
+      - '@ms/sp-client-projects.IImageCarouselStrings.MenuScrollSpeed'
+      - '@ms/sp-client-projects.IImageCarouselStrings.MenuVariableWidth'
+      - '@ms/sp-client-projects.IImageCarouselStrings.No'
+      - '@ms/sp-client-projects.IImageCarouselStrings.Off'
+      - '@ms/sp-client-projects.IImageCarouselStrings.On'
+      - '@ms/sp-client-projects.IImageCarouselStrings.Preview'
+      - '@ms/sp-client-projects.IImageCarouselStrings.Yes'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.Advanced'
+    name: Advanced
+    fullName: Advanced
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Advanced
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.AutoplaySettings'
+    name: AutoplaySettings
+    fullName: AutoplaySettings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string AutoplaySettings
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.Discard'
+    name: Discard
+    fullName: Discard
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Discard
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.DisplayModes'
+    name: DisplayModes
+    fullName: DisplayModes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string DisplayModes
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.DragAndDropHere'
+    name: DragAndDropHere
+    fullName: DragAndDropHere
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string DragAndDropHere
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.ErrorCreateFolder'
+    name: ErrorCreateFolder
+    fullName: ErrorCreateFolder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ErrorCreateFolder
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.ErrorCreateList'
+    name: ErrorCreateList
+    fullName: ErrorCreateList
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ErrorCreateList
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.ErrorEnsureCarousel'
+    name: ErrorEnsureCarousel
+    fullName: ErrorEnsureCarousel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ErrorEnsureCarousel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.ImageCarousel'
+    name: ImageCarousel
+    fullName: ImageCarousel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ImageCarousel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.MenuAdaptiveHeight'
+    name: MenuAdaptiveHeight
+    fullName: MenuAdaptiveHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string MenuAdaptiveHeight
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.MenuAutoplay'
+    name: MenuAutoplay
+    fullName: MenuAutoplay
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string MenuAutoplay
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.MenuAutoplaySpeed'
+    name: MenuAutoplaySpeed
+    fullName: MenuAutoplaySpeed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string MenuAutoplaySpeed
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.MenuHeader'
+    name: MenuHeader
+    fullName: MenuHeader
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string MenuHeader
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.MenuNumSlidesToShow'
+    name: MenuNumSlidesToShow
+    fullName: MenuNumSlidesToShow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string MenuNumSlidesToShow
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.MenuScrollSpeed'
+    name: MenuScrollSpeed
+    fullName: MenuScrollSpeed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string MenuScrollSpeed
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.MenuVariableWidth'
+    name: MenuVariableWidth
+    fullName: MenuVariableWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string MenuVariableWidth
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.No'
+    name: 'No'
+    fullName: 'No'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string No
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.Off'
+    name: 'Off'
+    fullName: 'Off'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Off
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.On'
+    name: 'On'
+    fullName: 'On'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string On
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.Preview'
+    name: Preview
+    fullName: Preview
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Preview
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselStrings.Yes'
+    name: 'Yes'
+    fullName: 'Yes'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Yes
+      return:
+        type:
+          - string

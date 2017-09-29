@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.IToolboxGroupProps'
+    name: IToolboxGroupProps
+    fullName: IToolboxGroupProps
+    children:
+      - '@ms/sp-canvas.IToolboxGroupProps.embeddedToolbox'
+      - '@ms/sp-canvas.IToolboxGroupProps.groupName'
+      - '@ms/sp-canvas.IToolboxGroupProps.hasHeader'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.IToolboxGroupProps.embeddedToolbox'
+    name: embeddedToolbox
+    fullName: embeddedToolbox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean embeddedToolbox
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.IToolboxGroupProps.groupName'
+    name: groupName
+    fullName: groupName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string groupName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.IToolboxGroupProps.hasHeader'
+    name: hasHeader
+    fullName: hasHeader
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasHeader
+      return:
+        type:
+          - boolean

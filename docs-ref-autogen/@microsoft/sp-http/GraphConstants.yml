@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.GraphConstants'
+    name: GraphConstants
+    fullName: GraphConstants
+    children:
+      - '@microsoft/sp-http.GraphConstants.EDOG_OAUTH_TOKEN_URL'
+      - '@microsoft/sp-http.GraphConstants.PROD_OAUTH_TOKEN_URL'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      Internal constants used for the Graph Http Client
+      PBI 413231 - Remove hard-coded graph endpoint URL from GraphHttpClient.
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.GraphConstants.EDOG_OAUTH_TOKEN_URL'
+    name: EDOG_OAUTH_TOKEN_URL
+    fullName: EDOG_OAUTH_TOKEN_URL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string EDOG_OAUTH_TOKEN_URL
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-http.GraphConstants.PROD_OAUTH_TOKEN_URL'
+    name: PROD_OAUTH_TOKEN_URL
+    fullName: PROD_OAUTH_TOKEN_URL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string PROD_OAUTH_TOKEN_URL
+      return:
+        type:
+          - string

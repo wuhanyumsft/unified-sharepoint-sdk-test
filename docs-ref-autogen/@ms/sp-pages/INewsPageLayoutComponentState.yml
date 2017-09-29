@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.INewsPageLayoutComponentState'
+    name: INewsPageLayoutComponentState
+    fullName: INewsPageLayoutComponentState
+    children:
+      - '@ms/sp-pages.INewsPageLayoutComponentState.viewState'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.INewsPageLayoutComponentState.viewState'
+    name: viewState
+    fullName: viewState
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ViewState viewState
+      return:
+        type:
+          - ViewState

@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.GraphHttpClientResponse'
+    name: GraphHttpClientResponse
+    fullName: GraphHttpClientResponse
+    children:
+      - '@microsoft/sp-http.GraphHttpClientResponse.clone'
+      - '@microsoft/sp-http.GraphHttpClientResponse.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: The Response subclass returned by methods such as GraphHttpClient.fetch().
+    extends:
+      name: '@@microsoft/sp-http.HttpClientResponse'
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.GraphHttpClientResponse.clone'
+    name: clone
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clone()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/sp-http.GraphHttpClientResponse'
+  - uid: '@microsoft/sp-http.GraphHttpClientResponse.constructor'
+    name: GraphHttpClientResponse
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new GraphHttpClientResponse(response: Response)'
+      parameters:
+        - id: response
+          type:
+            - Response
+          description: ''

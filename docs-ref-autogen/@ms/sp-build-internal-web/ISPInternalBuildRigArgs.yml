@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-web.ISPInternalBuildRigArgs'
+    name: ISPInternalBuildRigArgs
+    fullName: ISPInternalBuildRigArgs
+    children:
+      - '@ms/sp-build-internal-web.ISPInternalBuildRigArgs.npm'
+      - '@ms/sp-build-internal-web.ISPInternalBuildRigArgs.on-prem'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-build-internal-web'
+  - uid: '@ms/sp-build-internal-web.ISPInternalBuildRigArgs.npm'
+    name: npm
+    fullName: npm
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Builds the package in --npm mode, which ensures that things
+      like react are not bundled and private packages that are not redistributed
+      are bundled.
+    syntax:
+      content: string npm
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-web.ISPInternalBuildRigArgs.on-prem'
+    name: on-prem
+    fullName: on-prem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Builds the package in --onprem mode, which ensures that things
+      that we don't want to ship in the onprem version of the code are not
+      included in resulting javascript files.
+    syntax:
+      content: boolean on-prem
+      return:
+        type:
+          - boolean

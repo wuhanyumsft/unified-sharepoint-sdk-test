@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksImagePreviewState'
+    name: IQuickLinksImagePreviewState
+    fullName: IQuickLinksImagePreviewState
+    children:
+      - '@ms/sp-teamsite-webparts.IQuickLinksImagePreviewState.imageRenderInfo'
+      - '@ms/sp-teamsite-webparts.IQuickLinksImagePreviewState.imageSrc'
+      - '@ms/sp-teamsite-webparts.IQuickLinksImagePreviewState.isUploadInProgress'
+      - '@ms/sp-teamsite-webparts.IQuickLinksImagePreviewState.item'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksImagePreviewState.imageRenderInfo'
+    name: imageRenderInfo
+    fullName: imageRenderInfo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The rendering information.
+    syntax:
+      content: IImageRenderInfo imageRenderInfo
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IImageRenderInfo'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksImagePreviewState.imageSrc'
+    name: imageSrc
+    fullName: imageSrc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The image source currently being rendered.
+    syntax:
+      content: string imageSrc
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksImagePreviewState.isUploadInProgress'
+    name: isUploadInProgress
+    fullName: isUploadInProgress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether should show the loading spinner.
+    syntax:
+      content: boolean isUploadInProgress
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksImagePreviewState.item'
+    name: item
+    fullName: item
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Item that being rendered in the preview.
+    syntax:
+      content: IQuickLink item
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IQuickLink'

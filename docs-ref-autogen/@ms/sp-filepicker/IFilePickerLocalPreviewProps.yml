@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.IFilePickerLocalPreviewProps'
+    name: IFilePickerLocalPreviewProps
+    fullName: IFilePickerLocalPreviewProps
+    children:
+      - '@ms/sp-filepicker.IFilePickerLocalPreviewProps.imagePreview'
+      - '@ms/sp-filepicker.IFilePickerLocalPreviewProps.onInvalidFileSelected'
+      - '@ms/sp-filepicker.IFilePickerLocalPreviewProps.previewItem'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.IFilePickerLocalPreviewProps.imagePreview'
+    name: imagePreview
+    fullName: imagePreview
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean imagePreview
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-filepicker.IFilePickerLocalPreviewProps.onInvalidFileSelected'
+    name: onInvalidFileSelected
+    fullName: onInvalidFileSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onInvalidFileSelected
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-filepicker.IFilePickerLocalPreviewProps.previewItem'
+    name: previewItem
+    fullName: previewItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IFilePickerLocalViewItem previewItem
+      return:
+        type:
+          - '@@ms/sp-filepicker.IFilePickerLocalViewItem'

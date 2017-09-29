@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/evergreen.IMailableChangeLogComment'
+    name: IMailableChangeLogComment
+    fullName: IMailableChangeLogComment
+    children:
+      - '@ms/evergreen.IMailableChangeLogComment.email'
+      - '@ms/evergreen.IMailableChangeLogComment.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/evergreen'
+  - uid: '@ms/evergreen.IMailableChangeLogComment.email'
+    name: email
+    fullName: email
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string email
+      return:
+        type:
+          - string
+  - uid: '@ms/evergreen.IMailableChangeLogComment.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string type
+      return:
+        type:
+          - string

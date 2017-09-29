@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pagepicker.IPagePickerSuggestionsProps'
+    name: IPagePickerSuggestionsProps
+    fullName: IPagePickerSuggestionsProps
+    children:
+      - '@ms/sp-pagepicker.IPagePickerSuggestionsProps.isLoading'
+      - '@ms/sp-pagepicker.IPagePickerSuggestionsProps.label'
+      - '@ms/sp-pagepicker.IPagePickerSuggestionsProps.onSuggestionSelect'
+      - '@ms/sp-pagepicker.IPagePickerSuggestionsProps.suggestions'
+      - '@ms/sp-pagepicker.IPagePickerSuggestionsProps.userInput'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pagepicker'
+  - uid: '@ms/sp-pagepicker.IPagePickerSuggestionsProps.isLoading'
+    name: isLoading
+    fullName: isLoading
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isLoading
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pagepicker.IPagePickerSuggestionsProps.label'
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string label
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pagepicker.IPagePickerSuggestionsProps.onSuggestionSelect'
+    name: onSuggestionSelect
+    fullName: onSuggestionSelect
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(item: ISuggestionLink, index: number) => void onSuggestionSelect'
+      return:
+        type:
+          - '(item: ISuggestionLink, index: number) => void'
+  - uid: '@ms/sp-pagepicker.IPagePickerSuggestionsProps.suggestions'
+    name: suggestions
+    fullName: suggestions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ISuggestionLink[] suggestions'
+      return:
+        type:
+          - '@@ms/sp-pagepicker.ISuggestionLink[]'
+  - uid: '@ms/sp-pagepicker.IPagePickerSuggestionsProps.userInput'
+    name: userInput
+    fullName: userInput
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string userInput
+      return:
+        type:
+          - string

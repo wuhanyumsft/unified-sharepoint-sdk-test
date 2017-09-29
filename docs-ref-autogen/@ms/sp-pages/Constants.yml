@@ -1,0 +1,1201 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.Constants'
+    name: Constants
+    fullName: Constants
+    children:
+      - '@ms/sp-pages.Constants.addPagesNodeBuildNumber'
+      - '@ms/sp-pages.Constants.articlePageLayoutType'
+      - '@ms/sp-pages.Constants.autoSaveIdleIntervalInMilliseconds'
+      - '@ms/sp-pages.Constants.autoSaveIntervalInMilliseconds'
+      - '@ms/sp-pages.Constants.autoSaveMaxIntervalInMilliseconds'
+      - '@ms/sp-pages.Constants.blankPageTemplateId'
+      - '@ms/sp-pages.Constants.blankSiteDesignPackageID'
+      - '@ms/sp-pages.Constants.defaultRetriesForEnsureCondition'
+      - '@ms/sp-pages.Constants.defaultWaitTimeforEnsureCondition'
+      - '@ms/sp-pages.Constants.delayBeforeLoadingSearchInMilliseconds'
+      - '@ms/sp-pages.Constants.designPackageStore'
+      - '@ms/sp-pages.Constants.displayModeStore'
+      - '@ms/sp-pages.Constants.EDITNODE_KEY'
+      - '@ms/sp-pages.Constants.eventPageID'
+      - '@ms/sp-pages.Constants.eventPageLayoutType'
+      - '@ms/sp-pages.Constants.eventsPageID'
+      - '@ms/sp-pages.Constants.eventsPageLayoutType'
+      - '@ms/sp-pages.Constants.exceedStreamLimitationErrorMessage'
+      - '@ms/sp-pages.Constants.firstRunStore'
+      - '@ms/sp-pages.Constants.groupSiteWebTemplateId'
+      - '@ms/sp-pages.Constants.homePageLayoutType'
+      - '@ms/sp-pages.Constants.httpBadRequest'
+      - '@ms/sp-pages.Constants.httpConflict'
+      - '@ms/sp-pages.Constants.httpForbidden'
+      - '@ms/sp-pages.Constants.httpNotAcceptable'
+      - '@ms/sp-pages.Constants.httpNotFound'
+      - '@ms/sp-pages.Constants.httpNotImplemented'
+      - '@ms/sp-pages.Constants.httpRequestEntityTooLarge'
+      - '@ms/sp-pages.Constants.httpServerError'
+      - '@ms/sp-pages.Constants.isPageCheckedOutFieldName'
+      - '@ms/sp-pages.Constants.layoutContentFieldName'
+      - '@ms/sp-pages.Constants.layoutWebPartsMapName'
+      - '@ms/sp-pages.Constants.maxPrimaryAutoSaveAttempts'
+      - '@ms/sp-pages.Constants.maxRetriesForCreateNewPage'
+      - '@ms/sp-pages.Constants.maxSecondaryAutoSaveAttempts'
+      - '@ms/sp-pages.Constants.multiColumnArticlePageTemplateId'
+      - '@ms/sp-pages.Constants.navigationStore'
+      - '@ms/sp-pages.Constants.newPageStubFileName'
+      - '@ms/sp-pages.Constants.newPageStubId'
+      - '@ms/sp-pages.Constants.newsDigestLayoutId'
+      - '@ms/sp-pages.Constants.newsDigestPageID'
+      - '@ms/sp-pages.Constants.newsDigestPageLayoutType'
+      - '@ms/sp-pages.Constants.newsPageID'
+      - '@ms/sp-pages.Constants.newsPageLayoutType'
+      - '@ms/sp-pages.Constants.newsWebPartId'
+      - '@ms/sp-pages.Constants.pageCommandBarEditButton'
+      - '@ms/sp-pages.Constants.pageCommandBarNewButton'
+      - '@ms/sp-pages.Constants.pageCommandBarPublishButton'
+      - '@ms/sp-pages.Constants.pageCommandBarSaveButton'
+      - '@ms/sp-pages.Constants.pageCommandBarStatus'
+      - '@ms/sp-pages.Constants.pageFieldStore'
+      - '@ms/sp-pages.Constants.pageLayoutId'
+      - '@ms/sp-pages.Constants.pageLayoutStore'
+      - '@ms/sp-pages.Constants.pageLayoutType'
+      - '@ms/sp-pages.Constants.pageStatusStore'
+      - '@ms/sp-pages.Constants.pageTitleInput'
+      - '@ms/sp-pages.Constants.placeHolderCanvasContent'
+      - '@ms/sp-pages.Constants.placeHolderPageId'
+      - '@ms/sp-pages.Constants.portfolioSiteDesignPackageID'
+      - '@ms/sp-pages.Constants.portfolioSiteHomePageID'
+      - '@ms/sp-pages.Constants.portfolioSiteHomePageTemplateID'
+      - '@ms/sp-pages.Constants.previewImageUrlFieldName'
+      - '@ms/sp-pages.Constants.RECYLEBINNODE_KEY'
+      - '@ms/sp-pages.Constants.renderPhaseStore'
+      - '@ms/sp-pages.Constants.reportSiteArticlePageID'
+      - '@ms/sp-pages.Constants.reportSiteDesignPackageID'
+      - '@ms/sp-pages.Constants.reportSiteHomePageID'
+      - '@ms/sp-pages.Constants.reportSiteHomePageTemplateID'
+      - '@ms/sp-pages.Constants.requestMessageTooBigErrorMessage'
+      - '@ms/sp-pages.Constants.routeStore'
+      - '@ms/sp-pages.Constants.searchPageLayoutType'
+      - '@ms/sp-pages.Constants.seeAllPageID'
+      - '@ms/sp-pages.Constants.seeAllPageLayoutType'
+      - '@ms/sp-pages.Constants.singleColumnArticlePageTemplateId'
+      - '@ms/sp-pages.Constants.sitePagePublishingSiteWebTemplateId'
+      - '@ms/sp-pages.Constants.spPageFREDesc'
+      - '@ms/sp-pages.Constants.spPageFRETitle'
+      - '@ms/sp-pages.Constants.startFromPageTemplateId'
+      - '@ms/sp-pages.Constants.systemDateTimeIntialPageCreation'
+      - '@ms/sp-pages.Constants.teamSiteArticlePageID'
+      - '@ms/sp-pages.Constants.teamSiteDesignPackageID'
+      - '@ms/sp-pages.Constants.teamSiteHomePageID'
+      - '@ms/sp-pages.Constants.teamSiteWebTemplateId'
+      - '@ms/sp-pages.Constants.titleFieldName'
+      - '@ms/sp-pages.Constants.titleRegionWebPartId'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.Constants.addPagesNodeBuildNumber'
+    name: addPagesNodeBuildNumber
+    fullName: addPagesNodeBuildNumber
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number addPagesNodeBuildNumber
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.Constants.articlePageLayoutType'
+    name: articlePageLayoutType
+    fullName: articlePageLayoutType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string articlePageLayoutType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.autoSaveIdleIntervalInMilliseconds'
+    name: autoSaveIdleIntervalInMilliseconds
+    fullName: autoSaveIdleIntervalInMilliseconds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number autoSaveIdleIntervalInMilliseconds
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.Constants.autoSaveIntervalInMilliseconds'
+    name: autoSaveIntervalInMilliseconds
+    fullName: autoSaveIntervalInMilliseconds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number autoSaveIntervalInMilliseconds
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.Constants.autoSaveMaxIntervalInMilliseconds'
+    name: autoSaveMaxIntervalInMilliseconds
+    fullName: autoSaveMaxIntervalInMilliseconds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number autoSaveMaxIntervalInMilliseconds
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.Constants.blankPageTemplateId'
+    name: blankPageTemplateId
+    fullName: blankPageTemplateId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid blankPageTemplateId
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.Constants.blankSiteDesignPackageID'
+    name: blankSiteDesignPackageID
+    fullName: blankSiteDesignPackageID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid blankSiteDesignPackageID
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.Constants.defaultRetriesForEnsureCondition'
+    name: defaultRetriesForEnsureCondition
+    fullName: defaultRetriesForEnsureCondition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number defaultRetriesForEnsureCondition
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.Constants.defaultWaitTimeforEnsureCondition'
+    name: defaultWaitTimeforEnsureCondition
+    fullName: defaultWaitTimeforEnsureCondition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number defaultWaitTimeforEnsureCondition
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.Constants.delayBeforeLoadingSearchInMilliseconds'
+    name: delayBeforeLoadingSearchInMilliseconds
+    fullName: delayBeforeLoadingSearchInMilliseconds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number delayBeforeLoadingSearchInMilliseconds
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.Constants.designPackageStore'
+    name: designPackageStore
+    fullName: designPackageStore
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string designPackageStore
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.displayModeStore'
+    name: displayModeStore
+    fullName: displayModeStore
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string displayModeStore
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.EDITNODE_KEY'
+    name: EDITNODE_KEY
+    fullName: EDITNODE_KEY
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string EDITNODE_KEY
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.eventPageID'
+    name: eventPageID
+    fullName: eventPageID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid eventPageID
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.Constants.eventPageLayoutType'
+    name: eventPageLayoutType
+    fullName: eventPageLayoutType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string eventPageLayoutType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.eventsPageID'
+    name: eventsPageID
+    fullName: eventsPageID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid eventsPageID
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.Constants.eventsPageLayoutType'
+    name: eventsPageLayoutType
+    fullName: eventsPageLayoutType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string eventsPageLayoutType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.exceedStreamLimitationErrorMessage'
+    name: exceedStreamLimitationErrorMessage
+    fullName: exceedStreamLimitationErrorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string exceedStreamLimitationErrorMessage
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.firstRunStore'
+    name: firstRunStore
+    fullName: firstRunStore
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string firstRunStore
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.groupSiteWebTemplateId'
+    name: groupSiteWebTemplateId
+    fullName: groupSiteWebTemplateId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string groupSiteWebTemplateId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.homePageLayoutType'
+    name: homePageLayoutType
+    fullName: homePageLayoutType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string homePageLayoutType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.httpBadRequest'
+    name: httpBadRequest
+    fullName: httpBadRequest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number httpBadRequest
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.Constants.httpConflict'
+    name: httpConflict
+    fullName: httpConflict
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number httpConflict
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.Constants.httpForbidden'
+    name: httpForbidden
+    fullName: httpForbidden
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number httpForbidden
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.Constants.httpNotAcceptable'
+    name: httpNotAcceptable
+    fullName: httpNotAcceptable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number httpNotAcceptable
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.Constants.httpNotFound'
+    name: httpNotFound
+    fullName: httpNotFound
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number httpNotFound
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.Constants.httpNotImplemented'
+    name: httpNotImplemented
+    fullName: httpNotImplemented
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number httpNotImplemented
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.Constants.httpRequestEntityTooLarge'
+    name: httpRequestEntityTooLarge
+    fullName: httpRequestEntityTooLarge
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number httpRequestEntityTooLarge
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.Constants.httpServerError'
+    name: httpServerError
+    fullName: httpServerError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number httpServerError
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.Constants.isPageCheckedOutFieldName'
+    name: isPageCheckedOutFieldName
+    fullName: isPageCheckedOutFieldName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string isPageCheckedOutFieldName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.layoutContentFieldName'
+    name: layoutContentFieldName
+    fullName: layoutContentFieldName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string layoutContentFieldName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.layoutWebPartsMapName'
+    name: layoutWebPartsMapName
+    fullName: layoutWebPartsMapName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string layoutWebPartsMapName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.maxPrimaryAutoSaveAttempts'
+    name: maxPrimaryAutoSaveAttempts
+    fullName: maxPrimaryAutoSaveAttempts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number maxPrimaryAutoSaveAttempts
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.Constants.maxRetriesForCreateNewPage'
+    name: maxRetriesForCreateNewPage
+    fullName: maxRetriesForCreateNewPage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number maxRetriesForCreateNewPage
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.Constants.maxSecondaryAutoSaveAttempts'
+    name: maxSecondaryAutoSaveAttempts
+    fullName: maxSecondaryAutoSaveAttempts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number maxSecondaryAutoSaveAttempts
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.Constants.multiColumnArticlePageTemplateId'
+    name: multiColumnArticlePageTemplateId
+    fullName: multiColumnArticlePageTemplateId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid multiColumnArticlePageTemplateId
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.Constants.navigationStore'
+    name: navigationStore
+    fullName: navigationStore
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string navigationStore
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.newPageStubFileName'
+    name: newPageStubFileName
+    fullName: newPageStubFileName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string newPageStubFileName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.newPageStubId'
+    name: newPageStubId
+    fullName: newPageStubId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number newPageStubId
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.Constants.newsDigestLayoutId'
+    name: newsDigestLayoutId
+    fullName: newsDigestLayoutId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string newsDigestLayoutId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.newsDigestPageID'
+    name: newsDigestPageID
+    fullName: newsDigestPageID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid newsDigestPageID
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.Constants.newsDigestPageLayoutType'
+    name: newsDigestPageLayoutType
+    fullName: newsDigestPageLayoutType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string newsDigestPageLayoutType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.newsPageID'
+    name: newsPageID
+    fullName: newsPageID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid newsPageID
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.Constants.newsPageLayoutType'
+    name: newsPageLayoutType
+    fullName: newsPageLayoutType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string newsPageLayoutType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.newsWebPartId'
+    name: newsWebPartId
+    fullName: newsWebPartId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string newsWebPartId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.pageCommandBarEditButton'
+    name: pageCommandBarEditButton
+    fullName: pageCommandBarEditButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string pageCommandBarEditButton
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.pageCommandBarNewButton'
+    name: pageCommandBarNewButton
+    fullName: pageCommandBarNewButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string pageCommandBarNewButton
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.pageCommandBarPublishButton'
+    name: pageCommandBarPublishButton
+    fullName: pageCommandBarPublishButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string pageCommandBarPublishButton
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.pageCommandBarSaveButton'
+    name: pageCommandBarSaveButton
+    fullName: pageCommandBarSaveButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string pageCommandBarSaveButton
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.pageCommandBarStatus'
+    name: pageCommandBarStatus
+    fullName: pageCommandBarStatus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string pageCommandBarStatus
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.pageFieldStore'
+    name: pageFieldStore
+    fullName: pageFieldStore
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string pageFieldStore
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.pageLayoutId'
+    name: pageLayoutId
+    fullName: pageLayoutId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string pageLayoutId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.pageLayoutStore'
+    name: pageLayoutStore
+    fullName: pageLayoutStore
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string pageLayoutStore
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.pageLayoutType'
+    name: pageLayoutType
+    fullName: pageLayoutType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string pageLayoutType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.pageStatusStore'
+    name: pageStatusStore
+    fullName: pageStatusStore
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string pageStatusStore
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.pageTitleInput'
+    name: pageTitleInput
+    fullName: pageTitleInput
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string pageTitleInput
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.placeHolderCanvasContent'
+    name: placeHolderCanvasContent
+    fullName: placeHolderCanvasContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string placeHolderCanvasContent
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.placeHolderPageId'
+    name: placeHolderPageId
+    fullName: placeHolderPageId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string placeHolderPageId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.portfolioSiteDesignPackageID'
+    name: portfolioSiteDesignPackageID
+    fullName: portfolioSiteDesignPackageID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid portfolioSiteDesignPackageID
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.Constants.portfolioSiteHomePageID'
+    name: portfolioSiteHomePageID
+    fullName: portfolioSiteHomePageID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid portfolioSiteHomePageID
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.Constants.portfolioSiteHomePageTemplateID'
+    name: portfolioSiteHomePageTemplateID
+    fullName: portfolioSiteHomePageTemplateID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid portfolioSiteHomePageTemplateID
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.Constants.previewImageUrlFieldName'
+    name: previewImageUrlFieldName
+    fullName: previewImageUrlFieldName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string previewImageUrlFieldName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.RECYLEBINNODE_KEY'
+    name: RECYLEBINNODE_KEY
+    fullName: RECYLEBINNODE_KEY
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string RECYLEBINNODE_KEY
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.renderPhaseStore'
+    name: renderPhaseStore
+    fullName: renderPhaseStore
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string renderPhaseStore
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.reportSiteArticlePageID'
+    name: reportSiteArticlePageID
+    fullName: reportSiteArticlePageID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid reportSiteArticlePageID
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.Constants.reportSiteDesignPackageID'
+    name: reportSiteDesignPackageID
+    fullName: reportSiteDesignPackageID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid reportSiteDesignPackageID
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.Constants.reportSiteHomePageID'
+    name: reportSiteHomePageID
+    fullName: reportSiteHomePageID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid reportSiteHomePageID
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.Constants.reportSiteHomePageTemplateID'
+    name: reportSiteHomePageTemplateID
+    fullName: reportSiteHomePageTemplateID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid reportSiteHomePageTemplateID
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.Constants.requestMessageTooBigErrorMessage'
+    name: requestMessageTooBigErrorMessage
+    fullName: requestMessageTooBigErrorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string requestMessageTooBigErrorMessage
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.routeStore'
+    name: routeStore
+    fullName: routeStore
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string routeStore
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.searchPageLayoutType'
+    name: searchPageLayoutType
+    fullName: searchPageLayoutType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string searchPageLayoutType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.seeAllPageID'
+    name: seeAllPageID
+    fullName: seeAllPageID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid seeAllPageID
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.Constants.seeAllPageLayoutType'
+    name: seeAllPageLayoutType
+    fullName: seeAllPageLayoutType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string seeAllPageLayoutType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.singleColumnArticlePageTemplateId'
+    name: singleColumnArticlePageTemplateId
+    fullName: singleColumnArticlePageTemplateId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid singleColumnArticlePageTemplateId
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.Constants.sitePagePublishingSiteWebTemplateId'
+    name: sitePagePublishingSiteWebTemplateId
+    fullName: sitePagePublishingSiteWebTemplateId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string sitePagePublishingSiteWebTemplateId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.spPageFREDesc'
+    name: spPageFREDesc
+    fullName: spPageFREDesc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string spPageFREDesc
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.spPageFRETitle'
+    name: spPageFRETitle
+    fullName: spPageFRETitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string spPageFRETitle
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.startFromPageTemplateId'
+    name: startFromPageTemplateId
+    fullName: startFromPageTemplateId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid startFromPageTemplateId
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.Constants.systemDateTimeIntialPageCreation'
+    name: systemDateTimeIntialPageCreation
+    fullName: systemDateTimeIntialPageCreation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string systemDateTimeIntialPageCreation
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.teamSiteArticlePageID'
+    name: teamSiteArticlePageID
+    fullName: teamSiteArticlePageID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid teamSiteArticlePageID
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.Constants.teamSiteDesignPackageID'
+    name: teamSiteDesignPackageID
+    fullName: teamSiteDesignPackageID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid teamSiteDesignPackageID
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.Constants.teamSiteHomePageID'
+    name: teamSiteHomePageID
+    fullName: teamSiteHomePageID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid teamSiteHomePageID
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.Constants.teamSiteWebTemplateId'
+    name: teamSiteWebTemplateId
+    fullName: teamSiteWebTemplateId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string teamSiteWebTemplateId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.titleFieldName'
+    name: titleFieldName
+    fullName: titleFieldName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string titleFieldName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.Constants.titleRegionWebPartId'
+    name: titleRegionWebPartId
+    fullName: titleRegionWebPartId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string titleRegionWebPartId
+      return:
+        type:
+          - string

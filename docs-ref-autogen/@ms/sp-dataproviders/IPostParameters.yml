@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IPostParameters'
+    name: IPostParameters
+    fullName: IPostParameters
+    children:
+      - '@ms/sp-dataproviders.IPostParameters.RenderOptions'
+      - '@ms/sp-dataproviders.IPostParameters.ViewXml'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IPostParameters.RenderOptions'
+    name: RenderOptions
+    fullName: RenderOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number RenderOptions
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-dataproviders.IPostParameters.ViewXml'
+    name: ViewXml
+    fullName: ViewXml
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ViewXml
+      return:
+        type:
+          - string

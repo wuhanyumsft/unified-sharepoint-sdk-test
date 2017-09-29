@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.IFilePickerLocalViewProps'
+    name: IFilePickerLocalViewProps
+    fullName: IFilePickerLocalViewProps
+    children:
+      - '@ms/sp-filepicker.IFilePickerLocalViewProps.allowFoldersAndAllFiles'
+      - '@ms/sp-filepicker.IFilePickerLocalViewProps.fileSelectionModeTextLabel'
+      - '@ms/sp-filepicker.IFilePickerLocalViewProps.itemTypes'
+      - '@ms/sp-filepicker.IFilePickerLocalViewProps.selectionMode'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-filepicker.IBaseFilePickerTabProps'
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.IFilePickerLocalViewProps.allowFoldersAndAllFiles'
+    name: allowFoldersAndAllFiles
+    fullName: allowFoldersAndAllFiles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean allowFoldersAndAllFiles
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-filepicker.IFilePickerLocalViewProps.fileSelectionModeTextLabel'
+    name: fileSelectionModeTextLabel
+    fullName: fileSelectionModeTextLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string fileSelectionModeTextLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.IFilePickerLocalViewProps.itemTypes'
+    name: itemTypes
+    fullName: itemTypes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Set<FilePickerItemType> itemTypes
+      return:
+        type:
+          - Set<FilePickerItemType>
+  - uid: '@ms/sp-filepicker.IFilePickerLocalViewProps.selectionMode'
+    name: selectionMode
+    fullName: selectionMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: SelectionMode selectionMode
+      return:
+        type:
+          - SelectionMode

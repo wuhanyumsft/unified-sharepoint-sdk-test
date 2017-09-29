@@ -1,0 +1,87 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-workbench.WorkbenchBasic'
+    name: WorkbenchBasic
+    fullName: WorkbenchBasic
+    children:
+      - '@microsoft/sp-webpart-workbench.WorkbenchBasic.TestIncludeScripts'
+      - '@microsoft/sp-webpart-workbench.WorkbenchBasic.TestName'
+      - '@microsoft/sp-webpart-workbench.WorkbenchBasic.TestOwner'
+      - '@microsoft/sp-webpart-workbench.WorkbenchBasic.TestRun'
+      - '@microsoft/sp-webpart-workbench.WorkbenchBasic.TestSetup'
+      - '@microsoft/sp-webpart-workbench.WorkbenchBasic.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-webpart-workbench'
+  - uid: '@microsoft/sp-webpart-workbench.WorkbenchBasic.TestIncludeScripts'
+    name: TestIncludeScripts
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: These scripts are required for the tests to run.
+    syntax:
+      content: function TestIncludeScripts()
+      parameters: []
+  - uid: '@microsoft/sp-webpart-workbench.WorkbenchBasic.TestName'
+    name: TestName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestName()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-workbench.WorkbenchBasic.TestOwner'
+    name: TestOwner
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestOwner()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-workbench.WorkbenchBasic.TestRun'
+    name: TestRun
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestRun()
+      parameters: []
+  - uid: '@microsoft/sp-webpart-workbench.WorkbenchBasic.TestSetup'
+    name: TestSetup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestSetup()
+      parameters: []
+  - uid: '@microsoft/sp-webpart-workbench.WorkbenchBasic.constructor'
+    name: WorkbenchBasic
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new WorkbenchBasic(serverURL: string)'
+      parameters:
+        - id: serverURL
+          type:
+            - string
+          description: ''

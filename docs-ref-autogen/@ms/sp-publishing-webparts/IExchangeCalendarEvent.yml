@@ -1,0 +1,402 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent'
+    name: IExchangeCalendarEvent
+    fullName: IExchangeCalendarEvent
+    children:
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.attachments'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.attendees'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.body'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.bodyPreview'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.createdDateTime'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.end'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.hasAttachments'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.id'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.importance'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.isAllDay'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.isCancelled'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.isOrganizer'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.lastModifiedDateTime'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.location'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.onlineMeetingUrl'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.organizer'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.originalEndTimeZone'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.originalStartTimeZone'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.recurrence'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.responseRequested'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.responseStatus'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.sensitivity'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.seriesMasterId'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.start'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.subject'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.type'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent.webLink'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.attachments'
+    name: attachments
+    fullName: attachments
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The attachments of the event.
+    syntax:
+      content: 'IAttachment[] attachments'
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IAttachment[]'
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.attendees'
+    name: attendees
+    fullName: attendees
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The collection of attendees for the event.
+    syntax:
+      content: 'IAttendee[] attendees'
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IAttendee[]'
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.body'
+    name: body
+    fullName: body
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The body of the message associated with the event.
+    syntax:
+      content: function body
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.bodyPreview'
+    name: bodyPreview
+    fullName: bodyPreview
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The preview of the message associated with the event.
+    syntax:
+      content: string bodyPreview
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.createdDateTime'
+    name: createdDateTime
+    fullName: createdDateTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The date and time that the event was created.
+    syntax:
+      content: string createdDateTime
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.end'
+    name: end
+    fullName: end
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The end time of the event.
+    syntax:
+      content: IStartEndDateTime end
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IStartEndDateTime'
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.hasAttachments'
+    name: hasAttachments
+    fullName: hasAttachments
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Set to true if the event has attachments.
+    syntax:
+      content: boolean hasAttachments
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The unique identifier of the event.
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.importance'
+    name: importance
+    fullName: importance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The importance of the event.
+    syntax:
+      content: string importance
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.isAllDay'
+    name: isAllDay
+    fullName: isAllDay
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Set to true if the event lasts all day. Adjusting this property requires
+      adjusting the Start and End properties of
+
+      the event as well.
+    syntax:
+      content: boolean isAllDay
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.isCancelled'
+    name: isCancelled
+    fullName: isCancelled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Set to true if the event has been canceled.
+    syntax:
+      content: boolean isCancelled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.isOrganizer'
+    name: isOrganizer
+    fullName: isOrganizer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Set to true if the message sender is also the organizer.
+    syntax:
+      content: boolean isOrganizer
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.lastModifiedDateTime'
+    name: lastModifiedDateTime
+    fullName: lastModifiedDateTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The date and time that the event was last modified.
+    syntax:
+      content: string lastModifiedDateTime
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.location'
+    name: location
+    fullName: location
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The location of the event.
+    syntax:
+      content: function location
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.onlineMeetingUrl'
+    name: onlineMeetingUrl
+    fullName: onlineMeetingUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A URL for an online meeting.
+    syntax:
+      content: string onlineMeetingUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.organizer'
+    name: organizer
+    fullName: organizer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The organizer of the event.
+    syntax:
+      content: function organizer
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.originalEndTimeZone'
+    name: originalEndTimeZone
+    fullName: originalEndTimeZone
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The end time zone that was set when the event was created.
+    syntax:
+      content: string originalEndTimeZone
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.originalStartTimeZone'
+    name: originalStartTimeZone
+    fullName: originalStartTimeZone
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The start time zone that was set when the event was created.
+    syntax:
+      content: string originalStartTimeZone
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.recurrence'
+    name: recurrence
+    fullName: recurrence
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The rule of a recurrence event.
+    syntax:
+      content: IRecurrence recurrence
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IRecurrence'
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.responseRequested'
+    name: responseRequested
+    fullName: responseRequested
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Set to true if the sender would like a response when the event is accepted
+      or declined.
+    syntax:
+      content: boolean responseRequested
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.responseStatus'
+    name: responseStatus
+    fullName: responseStatus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates the type of response sent in response to an event message.
+    syntax:
+      content: IResponseStatus responseStatus
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IResponseStatus'
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.sensitivity'
+    name: sensitivity
+    fullName: sensitivity
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates the level of privacy for the event.
+    syntax:
+      content: string sensitivity
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.seriesMasterId'
+    name: seriesMasterId
+    fullName: seriesMasterId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The series master Id of the recurrence event.
+    syntax:
+      content: string seriesMasterId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.start'
+    name: start
+    fullName: start
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The start time of the event.
+    syntax:
+      content: IStartEndDateTime start
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IStartEndDateTime'
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.subject'
+    name: subject
+    fullName: subject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The subject of the message.
+    syntax:
+      content: string subject
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The event type;
+    syntax:
+      content: function type
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent.webLink'
+    name: webLink
+    fullName: webLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The URL to open the event in Outlook Web App.The event will open in the
+      browser if you are logged in to your
+
+      mailbox via Outlook Web App. You will be prompted to login if you are not
+      already logged in with the browser.This
+
+      URL can be accessed from within an iFrame.
+    syntax:
+      content: string webLink
+      return:
+        type:
+          - string

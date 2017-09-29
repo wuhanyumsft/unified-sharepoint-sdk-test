@@ -1,0 +1,76 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.EventsWebPart'
+    name: EventsWebPart
+    fullName: EventsWebPart
+    children:
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.EventsWebPart.AddTaskAddWebPartOnTeamSitePage
+      - '@ms/sp-tab-tasklib.SPTaskLib.EventsWebPart.AddTaskTryAddEvent'
+      - '@ms/sp-tab-tasklib.SPTaskLib.EventsWebPart.AddTaskTryDeleteFirstEvent'
+      - '@ms/sp-tab-tasklib.SPTaskLib.EventsWebPart.constructor'
+      - '@ms/sp-tab-tasklib.SPTaskLib.EventsWebPart.GetEventItemsNum'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-tab-tasklib.SPTaskLib.BaseCollectionWebPart'
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.EventsWebPart.AddTaskAddWebPartOnTeamSitePage'
+    name: AddTaskAddWebPartOnTeamSitePage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function AddTaskAddWebPartOnTeamSitePage()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.EventsWebPart.AddTaskTryAddEvent'
+    name: AddTaskTryAddEvent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function AddTaskTryAddEvent(title: string)'
+      parameters:
+        - id: title
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.EventsWebPart.AddTaskTryDeleteFirstEvent'
+    name: AddTaskTryDeleteFirstEvent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function AddTaskTryDeleteFirstEvent()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.EventsWebPart.constructor'
+    name: EventsWebPart
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new EventsWebPart()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.EventsWebPart.GetEventItemsNum'
+    name: GetEventItemsNum
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function GetEventItemsNum()
+      parameters: []
+      return:
+        type:
+          - number

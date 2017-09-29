@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISiteCamlQueryExtraOptions'
+    name: ISiteCamlQueryExtraOptions
+    fullName: ISiteCamlQueryExtraOptions
+    children:
+      - '@ms/sp-tenant-admin-page.ISiteCamlQueryExtraOptions.activeSitesOnly'
+      - '@ms/sp-tenant-admin-page.ISiteCamlQueryExtraOptions.deletedSitesOnly'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ISiteCamlQueryExtraOptions.activeSitesOnly'
+    name: activeSitesOnly
+    fullName: activeSitesOnly
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean activeSitesOnly
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.ISiteCamlQueryExtraOptions.deletedSitesOnly'
+    name: deletedSitesOnly
+    fullName: deletedSitesOnly
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean deletedSitesOnly
+      return:
+        type:
+          - boolean

@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-other-webparts.IWorldClockState'
+    name: IWorldClockState
+    fullName: IWorldClockState
+    children:
+      - '@ms/sp-other-webparts.IWorldClockState.clockList'
+      - '@ms/sp-other-webparts.IWorldClockState.currentTime'
+      - '@ms/sp-other-webparts.IWorldClockState.displayMode'
+      - '@ms/sp-other-webparts.IWorldClockState.homeZoneClockId'
+      - '@ms/sp-other-webparts.IWorldClockState.homeZoneOffset'
+      - '@ms/sp-other-webparts.IWorldClockState.is24'
+      - '@ms/sp-other-webparts.IWorldClockState.isAnalog'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface for world clock root component state.
+    package: '@ms/sp-other-webparts'
+  - uid: '@ms/sp-other-webparts.IWorldClockState.clockList'
+    name: clockList
+    fullName: clockList
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IWorldClockItem[] clockList'
+      return:
+        type:
+          - '@@ms/sp-other-webparts.IWorldClockItem[]'
+  - uid: '@ms/sp-other-webparts.IWorldClockState.currentTime'
+    name: currentTime
+    fullName: currentTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number currentTime
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-other-webparts.IWorldClockState.displayMode'
+    name: displayMode
+    fullName: displayMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DisplayMode displayMode
+      return:
+        type:
+          - DisplayMode
+  - uid: '@ms/sp-other-webparts.IWorldClockState.homeZoneClockId'
+    name: homeZoneClockId
+    fullName: homeZoneClockId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string homeZoneClockId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-other-webparts.IWorldClockState.homeZoneOffset'
+    name: homeZoneOffset
+    fullName: homeZoneOffset
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number homeZoneOffset
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-other-webparts.IWorldClockState.is24'
+    name: is24
+    fullName: is24
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean is24
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-other-webparts.IWorldClockState.isAnalog'
+    name: isAnalog
+    fullName: isAnalog
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isAnalog
+      return:
+        type:
+          - boolean

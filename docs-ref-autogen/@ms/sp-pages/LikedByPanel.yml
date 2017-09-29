@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.LikedByPanel'
+    name: LikedByPanel
+    fullName: LikedByPanel
+    children:
+      - '@ms/sp-pages.LikedByPanel.defaultProps'
+      - '@ms/sp-pages.LikedByPanel.constructor'
+      - '@ms/sp-pages.LikedByPanel.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.LikedByPanel<@@ms/sp-pages.ILikedByPanelProps>'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.LikedByPanel.defaultProps'
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ILikedByPanelProps defaultProps
+      return:
+        type:
+          - '@@ms/sp-pages.ILikedByPanelProps'
+  - uid: '@ms/sp-pages.LikedByPanel.constructor'
+    name: LikedByPanel
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new LikedByPanel(props: ILikedByPanelProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.ILikedByPanelProps'
+          description: ''
+  - uid: '@ms/sp-pages.LikedByPanel.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

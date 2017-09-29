@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.EnvironmentType'
+    name: EnvironmentType
+    fullName: EnvironmentType
+    children:
+      - '@microsoft/sp-core-library.EnvironmentType.ClassicSharePoint'
+      - '@microsoft/sp-core-library.EnvironmentType.Local'
+      - '@microsoft/sp-core-library.EnvironmentType.SharePoint'
+      - '@microsoft/sp-core-library.EnvironmentType.Test'
+    langs:
+      - typeScript
+    type: enum
+    summary: >-
+      An enum that describes which type of enviroment the framework is running
+      in.
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.EnvironmentType.ClassicSharePoint'
+    name: ClassicSharePoint
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Indicates that the framework was loaded from a classic server-rendered
+      SharePoint page
+    type: field
+  - uid: '@microsoft/sp-core-library.EnvironmentType.Local'
+    name: Local
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Represents the scenario of the framework hosted on a localhost server,
+      which typically cannot
+
+      access any SharePoint REST APIs.
+
+      Example: A developer uses gulp serve command to test their changes in
+      their browser of choice.
+    type: field
+  - uid: '@microsoft/sp-core-library.EnvironmentType.SharePoint'
+    name: SharePoint
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Indicates that the framework was loaded by a client-rendered SharePoint
+      page
+    type: field
+  - uid: '@microsoft/sp-core-library.EnvironmentType.Test'
+    name: Test
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Represents the scenario of the framework hosted in a unit/integration
+      test.
+
+      Example: A developer running a unit test to verify changes to their web
+      part.
+    type: field

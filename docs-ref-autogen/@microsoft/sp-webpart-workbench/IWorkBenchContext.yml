@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-workbench.IWorkBenchContext'
+    name: IWorkBenchContext
+    fullName: IWorkBenchContext
+    children:
+      - '@microsoft/sp-webpart-workbench.IWorkBenchContext.a11yManager'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-webpart-workbench'
+  - uid: '@microsoft/sp-webpart-workbench.IWorkBenchContext.a11yManager'
+    name: a11yManager
+    fullName: a11yManager
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: A11yManager a11yManager
+      return:
+        type:
+          - A11yManager

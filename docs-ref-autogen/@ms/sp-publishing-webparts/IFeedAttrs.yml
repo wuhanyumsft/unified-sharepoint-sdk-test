@@ -1,0 +1,83 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IFeedAttrs'
+    name: IFeedAttrs
+    fullName: IFeedAttrs
+    children:
+      - '@ms/sp-publishing-webparts.IFeedAttrs.network_id'
+      - '@ms/sp-publishing-webparts.IFeedAttrs.reference_data'
+      - '@ms/sp-publishing-webparts.IFeedAttrs.threads'
+      - '@ms/sp-publishing-webparts.IFeedAttrs.unseen_thread_count'
+      - '@ms/sp-publishing-webparts.IFeedAttrs.url_templates'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-publishing-webparts.IAttrs'
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IFeedAttrs.network_id'
+    name: network_id
+    fullName: network_id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean network_id
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IFeedAttrs.reference_data'
+    name: reference_data
+    fullName: reference_data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IRefData reference_data
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IRefData'
+  - uid: '@ms/sp-publishing-webparts.IFeedAttrs.threads'
+    name: threads
+    fullName: threads
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IAttrs threads
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IAttrs'
+  - uid: '@ms/sp-publishing-webparts.IFeedAttrs.unseen_thread_count'
+    name: unseen_thread_count
+    fullName: unseen_thread_count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean unseen_thread_count
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IFeedAttrs.url_templates'
+    name: url_templates
+    fullName: url_templates
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IUrlTemplates url_templates
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IUrlTemplates'

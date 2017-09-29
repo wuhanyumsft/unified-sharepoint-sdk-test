@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.LinkItem'
+    name: LinkItem
+    fullName: LinkItem
+    children:
+      - '@ms/sp-tenant-admin-page.LinkItem.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-tenant-admin-page.LinkItem<@@ms/sp-tenant-admin-page.ILinkItemProps>
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.LinkItem.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

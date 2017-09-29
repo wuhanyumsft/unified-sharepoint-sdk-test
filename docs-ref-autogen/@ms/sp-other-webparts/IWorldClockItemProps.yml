@@ -1,0 +1,162 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-other-webparts.IWorldClockItemProps'
+    name: IWorldClockItemProps
+    fullName: IWorldClockItemProps
+    children:
+      - '@ms/sp-other-webparts.IWorldClockItemProps.currentTime'
+      - '@ms/sp-other-webparts.IWorldClockItemProps.displayMode'
+      - '@ms/sp-other-webparts.IWorldClockItemProps.homeZoneClockId'
+      - '@ms/sp-other-webparts.IWorldClockItemProps.homeZoneOffset'
+      - '@ms/sp-other-webparts.IWorldClockItemProps.is24'
+      - '@ms/sp-other-webparts.IWorldClockItemProps.isAnalog'
+      - '@ms/sp-other-webparts.IWorldClockItemProps.item'
+      - '@ms/sp-other-webparts.IWorldClockItemProps.onDeleteClock'
+      - '@ms/sp-other-webparts.IWorldClockItemProps.onEditClock'
+      - '@ms/sp-other-webparts.IWorldClockItemProps.pathToDisplayNameMap'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface for World Clock item properties.
+    extends:
+      name: any
+    package: '@ms/sp-other-webparts'
+  - uid: '@ms/sp-other-webparts.IWorldClockItemProps.currentTime'
+    name: currentTime
+    fullName: currentTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Current time expressed as epoch in milliseconds.
+    syntax:
+      content: number currentTime
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-other-webparts.IWorldClockItemProps.displayMode'
+    name: displayMode
+    fullName: displayMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'The display mode for the world clock item, which is either Read or Edit.'
+    syntax:
+      content: DisplayMode displayMode
+      return:
+        type:
+          - DisplayMode
+  - uid: '@ms/sp-other-webparts.IWorldClockItemProps.homeZoneClockId'
+    name: homeZoneClockId
+    fullName: homeZoneClockId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Id of user's home clock.
+    syntax:
+      content: string homeZoneClockId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-other-webparts.IWorldClockItemProps.homeZoneOffset'
+    name: homeZoneOffset
+    fullName: homeZoneOffset
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Number representation of user's home timezone UTC offset in milliseconds.
+    syntax:
+      content: number homeZoneOffset
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-other-webparts.IWorldClockItemProps.is24'
+    name: is24
+    fullName: is24
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Indicates whether we should display clocks in 24 hour format.
+      If true, then we display clocks in 24 hour format. 12 hour otherwise.
+    syntax:
+      content: boolean is24
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-other-webparts.IWorldClockItemProps.isAnalog'
+    name: isAnalog
+    fullName: isAnalog
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Indicates the mode in which we should display clocks.
+      If true, then we display clocks as analog. Digital otherwise.
+    syntax:
+      content: boolean isAnalog
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-other-webparts.IWorldClockItemProps.item'
+    name: item
+    fullName: item
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The world clock item to show and operate.
+    syntax:
+      content: IWorldClockItem item
+      return:
+        type:
+          - '@@ms/sp-other-webparts.IWorldClockItem'
+  - uid: '@ms/sp-other-webparts.IWorldClockItemProps.onDeleteClock'
+    name: onDeleteClock
+    fullName: onDeleteClock
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The callback function to delete a world clock.
+    syntax:
+      content: '(item: IWorldClockItem) => void onDeleteClock'
+      return:
+        type:
+          - '(item: IWorldClockItem) => void'
+  - uid: '@ms/sp-other-webparts.IWorldClockItemProps.onEditClock'
+    name: onEditClock
+    fullName: onEditClock
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The callback function to open the pane for editing a clock.
+    syntax:
+      content: '(item: IWorldClockItem) => void onEditClock'
+      return:
+        type:
+          - '(item: IWorldClockItem) => void'
+  - uid: '@ms/sp-other-webparts.IWorldClockItemProps.pathToDisplayNameMap'
+    name: pathToDisplayNameMap
+    fullName: pathToDisplayNameMap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A dictionary that maps universal path of a city to its representation in
+      the current locale.
+
+      For example: { "America/Los_Angeles": "Los Angeles, United States of
+      America" }.
+    syntax:
+      content: '[key: string]: string pathToDisplayNameMap'
+      return:
+        type:
+          - '[key: string]: string'

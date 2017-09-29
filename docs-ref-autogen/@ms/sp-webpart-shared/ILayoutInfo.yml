@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.ILayoutInfo'
+    name: ILayoutInfo
+    fullName: ILayoutInfo
+    children:
+      - '@ms/sp-webpart-shared.ILayoutInfo.displayFieldMaps'
+      - '@ms/sp-webpart-shared.ILayoutInfo.hasInitialLoadingState'
+      - '@ms/sp-webpart-shared.ILayoutInfo.id'
+      - '@ms/sp-webpart-shared.ILayoutInfo.loadLayout'
+      - '@ms/sp-webpart-shared.ILayoutInfo.option'
+      - '@ms/sp-webpart-shared.ILayoutInfo.properties'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.ILayoutInfo.displayFieldMaps'
+    name: displayFieldMaps
+    fullName: displayFieldMaps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: string]: DisplayFieldMap displayFieldMaps'
+      return:
+        type:
+          - '[key: string]: @@ms/sp-webpart-shared.DisplayFieldMap'
+  - uid: '@ms/sp-webpart-shared.ILayoutInfo.hasInitialLoadingState'
+    name: hasInitialLoadingState
+    fullName: hasInitialLoadingState
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasInitialLoadingState
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-webpart-shared.ILayoutInfo.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.ILayoutInfo.loadLayout'
+    name: loadLayout
+    fullName: loadLayout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => Promise<ComponentClass<any>> loadLayout
+      return:
+        type:
+          - () => Promise<ComponentClass<any>>
+  - uid: '@ms/sp-webpart-shared.ILayoutInfo.option'
+    name: option
+    fullName: option
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ILayoutOption option
+      return:
+        type:
+          - '@@ms/sp-webpart-shared.ILayoutOption'
+  - uid: '@ms/sp-webpart-shared.ILayoutInfo.properties'
+    name: properties
+    fullName: properties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any properties
+      return:
+        type:
+          - any

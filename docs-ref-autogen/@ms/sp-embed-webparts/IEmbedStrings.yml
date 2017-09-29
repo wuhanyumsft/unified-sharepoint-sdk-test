@@ -1,0 +1,102 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-embed-webparts.IEmbedStrings'
+    name: IEmbedStrings
+    fullName: IEmbedStrings
+    children:
+      - '@ms/sp-embed-webparts.IEmbedStrings.buttonPlaceHolderActionLabel'
+      - >-
+        @ms/sp-embed-webparts.IEmbedStrings.emptyPlaceHolderEmbedWebPartDescription
+      - >-
+        @ms/sp-embed-webparts.IEmbedStrings.emptyPlaceholderEmbedWebPartIconLabel
+      - '@ms/sp-embed-webparts.IEmbedStrings.hintTextforEmbed'
+      - '@ms/sp-embed-webparts.IEmbedStrings.incorrectURLError'
+      - '@ms/sp-embed-webparts.IEmbedStrings.placeHolderIcon'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Interface for derived webparts to populate fields
+      within ContentEmbed with custom values
+    package: '@ms/sp-embed-webparts'
+  - uid: '@ms/sp-embed-webparts.IEmbedStrings.buttonPlaceHolderActionLabel'
+    name: buttonPlaceHolderActionLabel
+    fullName: buttonPlaceHolderActionLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Text on button (e.g., ''Add video'')'
+    syntax:
+      content: string buttonPlaceHolderActionLabel
+      return:
+        type:
+          - string
+  - uid: >-
+      @ms/sp-embed-webparts.IEmbedStrings.emptyPlaceHolderEmbedWebPartDescription
+    name: emptyPlaceHolderEmbedWebPartDescription
+    fullName: emptyPlaceHolderEmbedWebPartDescription
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Placeholder description
+    syntax:
+      content: string emptyPlaceHolderEmbedWebPartDescription
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.IEmbedStrings.emptyPlaceholderEmbedWebPartIconLabel'
+    name: emptyPlaceholderEmbedWebPartIconLabel
+    fullName: emptyPlaceholderEmbedWebPartIconLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Placeholder icon label
+    syntax:
+      content: string emptyPlaceholderEmbedWebPartIconLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.IEmbedStrings.hintTextforEmbed'
+    name: hintTextforEmbed
+    fullName: hintTextforEmbed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Placeholder text to dipslay in the embed code text field
+    syntax:
+      content: string hintTextforEmbed
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.IEmbedStrings.incorrectURLError'
+    name: incorrectURLError
+    fullName: incorrectURLError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Error URL to display if embedCode does not match any of
+      the accepted domains
+    syntax:
+      content: string incorrectURLError
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.IEmbedStrings.placeHolderIcon'
+    name: placeHolderIcon
+    fullName: placeHolderIcon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Placeholder icon
+    syntax:
+      content: string placeHolderIcon
+      return:
+        type:
+          - string

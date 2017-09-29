@@ -1,0 +1,170 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.FormsUtil'
+    name: FormsUtil
+    fullName: FormsUtil
+    children:
+      - '@ms/sp-publishing-webparts.FormsUtil.decodeFormId'
+      - '@ms/sp-publishing-webparts.FormsUtil.getDisplayTypeFromFormUrl'
+      - '@ms/sp-publishing-webparts.FormsUtil.getFormIdFromUrl'
+      - '@ms/sp-publishing-webparts.FormsUtil.getFormThemeColor'
+      - '@ms/sp-publishing-webparts.FormsUtil.isCorrectDomain'
+      - '@ms/sp-publishing-webparts.FormsUtil.isEmpty'
+      - '@ms/sp-publishing-webparts.FormsUtil.isValidFormId'
+      - '@ms/sp-publishing-webparts.FormsUtil.isValidTitle'
+      - '@ms/sp-publishing-webparts.FormsUtil.pastedURLType'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.FormsUtil.decodeFormId'
+    name: decodeFormId
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function decodeFormId(formId: string)'
+      parameters:
+        - id: formId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IDecodedFormId'
+  - uid: '@ms/sp-publishing-webparts.FormsUtil.getDisplayTypeFromFormUrl'
+    name: getDisplayTypeFromFormUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getDisplayTypeFromFormUrl(formURL: string)'
+      parameters:
+        - id: formURL
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.FormsUtil.getFormIdFromUrl'
+    name: getFormIdFromUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getFormIdFromUrl(formUrl: string)'
+      parameters:
+        - id: formUrl
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.FormsUtil.getFormThemeColor'
+    name: getFormThemeColor
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getFormThemeColor(formsThemeColorDiv: HTMLElement)'
+      parameters:
+        - id: formsThemeColorDiv
+          type:
+            - HTMLElement
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.FormsUtil.isCorrectDomain'
+    name: isCorrectDomain
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isCorrectDomain(inputURL: string)'
+      parameters:
+        - id: inputURL
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.FormsUtil.isEmpty'
+    name: isEmpty
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isEmpty(inputURL: string)'
+      parameters:
+        - id: inputURL
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.FormsUtil.isValidFormId'
+    name: isValidFormId
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isValidFormId(formId: string)'
+      parameters:
+        - id: formId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.FormsUtil.isValidTitle'
+    name: isValidTitle
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isValidTitle(formTitle: string)'
+      parameters:
+        - id: formTitle
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.FormsUtil.pastedURLType'
+    name: pastedURLType
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function pastedURLType(inputURL: string)'
+      parameters:
+        - id: inputURL
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string

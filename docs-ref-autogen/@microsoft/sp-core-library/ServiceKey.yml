@@ -1,0 +1,130 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.ServiceKey'
+    name: ServiceKey
+    fullName: ServiceKey<T>
+    children:
+      - '@microsoft/sp-core-library.ServiceKey.create'
+      - '@microsoft/sp-core-library.ServiceKey.createCustom'
+      - '@microsoft/sp-core-library.ServiceKey.defaultCreator'
+      - '@microsoft/sp-core-library.ServiceKey.id'
+      - '@microsoft/sp-core-library.ServiceKey.name'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      The ServiceKey is a lookup key that is used when calling
+      ServiceScope.consume()
+
+      to fetch a dependency.  The key also defines a default implementation of
+      the
+
+      dependency, which will be autocreated by the root scope if the dependency
+      is not found.
+
+      Providing a default implementation ensures that new dependencies can be
+      safely
+
+      introduced without inadvertently breaking components that are loaded by an
+      older host
+
+      (that does not provide the new dependency).
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.ServiceKey.create'
+    name: create
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Constructs a new ServiceKey whose default implementation will be a new
+      instance of
+
+      a TypeScript class that accepts the standard constructor parameter.  If
+      you want to
+
+      specify custom constructor parameters, use createCustom() instead.
+    syntax:
+      content: 'static function create<TKey>(name: string, serviceClass: function)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: >-
+            A name such as "MyApplication.IMyService" which should be unique
+            within
+              your application.
+        - id: serviceClass
+          type:
+            - function
+          description: the TypeScript class that implements the service.
+      return:
+        type:
+          - '@@microsoft/sp-core-library.ServiceKey<TKey>'
+  - uid: '@microsoft/sp-core-library.ServiceKey.createCustom'
+    name: createCustom
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Constructs a new ServiceKey whose default implementation will be obtained
+      by invoking the specified callback.
+    syntax:
+      content: >-
+        static function createCustom<TKey>(name: string, defaultCreator:
+        ServiceCreator<TKey>)
+      parameters:
+        - id: name
+          type:
+            - string
+          description: >-
+            A name such as "MyApplication.IMyService" which should be unique
+            within
+              your application.
+        - id: defaultCreator
+          type:
+            - ServiceCreator<TKey>
+          description: A callback that returns an object that implements the T interface
+      return:
+        type:
+          - '@@microsoft/sp-core-library.ServiceKey<TKey>'
+  - uid: '@microsoft/sp-core-library.ServiceKey.defaultCreator'
+    name: defaultCreator
+    fullName: defaultCreator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceCreator<T> defaultCreator
+      return:
+        type:
+          - ServiceCreator<T>
+  - uid: '@microsoft/sp-core-library.ServiceKey.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-core-library.ServiceKey.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string

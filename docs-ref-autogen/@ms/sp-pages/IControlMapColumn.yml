@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IControlMapColumn'
+    name: IControlMapColumn
+    fullName: IControlMapColumn
+    children:
+      - '@ms/sp-pages.IControlMapColumn.ControlId'
+      - '@ms/sp-pages.IControlMapColumn.HasChildren'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IControlMapColumn.ControlId'
+    name: ControlId
+    fullName: ControlId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ControlId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IControlMapColumn.HasChildren'
+    name: HasChildren
+    fullName: HasChildren
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean HasChildren
+      return:
+        type:
+          - boolean

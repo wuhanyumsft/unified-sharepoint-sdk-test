@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.IAdalJsModule'
+    name: IAdalJsModule
+    fullName: IAdalJsModule
+    children:
+      - '@microsoft/sp-http.IAdalJsModule.inject'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.IAdalJsModule.inject'
+    name: inject
+    fullName: inject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(configuration: Config) => AuthenticationContext inject'
+      return:
+        type:
+          - '(configuration: Config) => AuthenticationContext'

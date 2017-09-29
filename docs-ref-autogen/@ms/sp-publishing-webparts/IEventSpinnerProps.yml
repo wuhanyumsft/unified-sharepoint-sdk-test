@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IEventSpinnerProps'
+    name: IEventSpinnerProps
+    fullName: IEventSpinnerProps
+    children:
+      - '@ms/sp-publishing-webparts.IEventSpinnerProps.className'
+      - '@ms/sp-publishing-webparts.IEventSpinnerProps.hasWebpartTitle'
+      - '@ms/sp-publishing-webparts.IEventSpinnerProps.isMobileView'
+      - '@ms/sp-publishing-webparts.IEventSpinnerProps.message'
+      - '@ms/sp-publishing-webparts.IEventSpinnerProps.showPerPage'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IEventSpinnerProps.className'
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string className
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEventSpinnerProps.hasWebpartTitle'
+    name: hasWebpartTitle
+    fullName: hasWebpartTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasWebpartTitle
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IEventSpinnerProps.isMobileView'
+    name: isMobileView
+    fullName: isMobileView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isMobileView
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IEventSpinnerProps.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string message
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEventSpinnerProps.showPerPage'
+    name: showPerPage
+    fullName: showPerPage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number showPerPage
+      return:
+        type:
+          - number

@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IEditToolbarProps'
+    name: IEditToolbarProps
+    fullName: IEditToolbarProps
+    children:
+      - '@ms/sp-publishing-webparts.IEditToolbarProps.cropImage'
+      - '@ms/sp-publishing-webparts.IEditToolbarProps.imageSourceType'
+      - '@ms/sp-publishing-webparts.IEditToolbarProps.isFullWidth'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IEditToolbarProps.cropImage'
+    name: cropImage
+    fullName: cropImage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void cropImage
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-publishing-webparts.IEditToolbarProps.imageSourceType'
+    name: imageSourceType
+    fullName: imageSourceType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ImageSourceType imageSourceType
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.ImageSourceType'
+  - uid: '@ms/sp-publishing-webparts.IEditToolbarProps.isFullWidth'
+    name: isFullWidth
+    fullName: isFullWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isFullWidth
+      return:
+        type:
+          - boolean

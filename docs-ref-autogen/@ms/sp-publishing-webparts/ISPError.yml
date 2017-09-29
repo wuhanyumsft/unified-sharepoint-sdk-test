@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ISPError'
+    name: ISPError
+    fullName: ISPError
+    children:
+      - '@ms/sp-publishing-webparts.ISPError.code'
+      - '@ms/sp-publishing-webparts.ISPError.message'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ISPError.code'
+    name: code
+    fullName: code
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string code
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ISPError.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string message
+      return:
+        type:
+          - string

@@ -1,0 +1,117 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.DisplayFieldMap'
+    name: DisplayFieldMap
+    fullName: DisplayFieldMap
+    children:
+      - '@ms/sp-webpart-shared.DisplayFieldMap.constructor'
+      - '@ms/sp-webpart-shared.DisplayFieldMap.fieldLinkUrl'
+      - '@ms/sp-webpart-shared.DisplayFieldMap.fieldValue'
+      - '@ms/sp-webpart-shared.DisplayFieldMap.transpose'
+      - '@ms/sp-webpart-shared.DisplayFieldMap.transposeRow'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.DisplayFieldMap.constructor'
+    name: DisplayFieldMap
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DisplayFieldMap(map: MappedField[])'
+      parameters:
+        - id: map
+          type:
+            - 'MappedField[]'
+          description: ''
+  - uid: '@ms/sp-webpart-shared.DisplayFieldMap.fieldLinkUrl'
+    name: fieldLinkUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fieldLinkUrl(field: MappedField, row: IDataRow)'
+      parameters:
+        - id: field
+          type:
+            - MappedField
+          description: ''
+        - id: row
+          type:
+            - IDataRow
+          description: ''
+      return:
+        type:
+          - Object
+  - uid: '@ms/sp-webpart-shared.DisplayFieldMap.fieldValue'
+    name: fieldValue
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fieldValue(field: MappedField, row: IDataRow)'
+      parameters:
+        - id: field
+          type:
+            - MappedField
+          description: ''
+        - id: row
+          type:
+            - IDataRow
+          description: ''
+      return:
+        type:
+          - Object
+  - uid: '@ms/sp-webpart-shared.DisplayFieldMap.transpose'
+    name: transpose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function transpose(rows: IDataRow[], preProcess?: (row: IDataRow) =>
+        IDataRow)
+      parameters:
+        - id: rows
+          type:
+            - 'IDataRow[]'
+          description: ''
+        - id: preProcess
+          type:
+            - '(row: IDataRow) => IDataRow'
+          description: ''
+          optional: true
+  - uid: '@ms/sp-webpart-shared.DisplayFieldMap.transposeRow'
+    name: transposeRow
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function transposeRow(row: IDataRow, preProcess?: (row: IDataRow) =>
+        IDataRow)
+      parameters:
+        - id: row
+          type:
+            - IDataRow
+          description: ''
+        - id: preProcess
+          type:
+            - '(row: IDataRow) => IDataRow'
+          description: ''
+          optional: true
+      return:
+        type:
+          - IDataRow

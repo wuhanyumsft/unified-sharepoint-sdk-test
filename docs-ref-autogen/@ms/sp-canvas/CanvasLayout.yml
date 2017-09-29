@@ -1,0 +1,379 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.CanvasLayout'
+    name: CanvasLayout
+    fullName: CanvasLayout
+    children:
+      - '@ms/sp-canvas.CanvasLayout.addControl'
+      - '@ms/sp-canvas.CanvasLayout.addControlComponent'
+      - '@ms/sp-canvas.CanvasLayout.constructor'
+      - '@ms/sp-canvas.CanvasLayout.cloneMergePosition'
+      - '@ms/sp-canvas.CanvasLayout.dispose'
+      - '@ms/sp-canvas.CanvasLayout.fetchAllControls'
+      - '@ms/sp-canvas.CanvasLayout.fetchControl'
+      - '@ms/sp-canvas.CanvasLayout.fetchControlComponentById'
+      - '@ms/sp-canvas.CanvasLayout.fetchControlPositionById'
+      - '@ms/sp-canvas.CanvasLayout.fetchCurrentSelection'
+      - '@ms/sp-canvas.CanvasLayout.fetchZone'
+      - '@ms/sp-canvas.CanvasLayout.firstLayoutIndex'
+      - '@ms/sp-canvas.CanvasLayout.generateNewLayoutIndex'
+      - '@ms/sp-canvas.CanvasLayout.isEmpty'
+      - '@ms/sp-canvas.CanvasLayout.isPositionValid'
+      - '@ms/sp-canvas.CanvasLayout.moveControl'
+      - '@ms/sp-canvas.CanvasLayout.moveZone'
+      - '@ms/sp-canvas.CanvasLayout.removeControl'
+      - '@ms/sp-canvas.CanvasLayout.removeZone'
+    langs:
+      - typeScript
+    type: class
+    summary: Represents the Canvas Layout
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.CanvasLayout.addControl'
+    name: addControl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Adds a new canvas control to the layout
+      If zone doesn't exist, then create a new zone
+    syntax:
+      content: 'function addControl(canvasControl: ICanvasControl)'
+      parameters:
+        - id: canvasControl
+          type:
+            - '@@ms/sp-canvas.ICanvasControl'
+          description: represents the control to add
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.CanvasLayout.addControlComponent'
+    name: addControlComponent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Add the control component
+    syntax:
+      content: >-
+        function addControlComponent(controlId: string, controlComponent:
+        CanvasControlComponent)
+      parameters:
+        - id: controlId
+          type:
+            - string
+          description: represents the controlId
+        - id: controlComponent
+          type:
+            - CanvasControlComponent
+          description: ''
+  - uid: '@ms/sp-canvas.CanvasLayout.constructor'
+    name: CanvasLayout
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Creates a new instance of a CanvasLayout
+    syntax:
+      content: >-
+        new CanvasLayout(webPartManager: ClientSideWebPartManager,
+        renderCallBack: () => void)
+      parameters:
+        - id: webPartManager
+          type:
+            - ClientSideWebPartManager
+          description: ''
+        - id: renderCallBack
+          type:
+            - () => void
+          description: ''
+  - uid: '@ms/sp-canvas.CanvasLayout.cloneMergePosition'
+    name: cloneMergePosition
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function cloneMergePosition(position1: IControlPosition,
+        position2: IControlPosition)
+      parameters:
+        - id: position1
+          type:
+            - '@@ms/sp-canvas.IControlPosition'
+          description: ''
+        - id: position2
+          type:
+            - '@@ms/sp-canvas.IControlPosition'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-canvas.IControlPosition'
+  - uid: '@ms/sp-canvas.CanvasLayout.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Disposes the layout.
+    syntax:
+      content: function dispose()
+      parameters: []
+  - uid: '@ms/sp-canvas.CanvasLayout.fetchAllControls'
+    name: fetchAllControls
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Fetch all controls that are available in the canvas
+    syntax:
+      content: function fetchAllControls()
+      parameters: []
+  - uid: '@ms/sp-canvas.CanvasLayout.fetchControl'
+    name: fetchControl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Fetches a control from the layout
+    syntax:
+      content: 'function fetchControl(controlPosition: IControlPosition)'
+      parameters:
+        - id: controlPosition
+          type:
+            - '@@ms/sp-canvas.IControlPosition'
+          description: represents the position of the control
+      return:
+        type:
+          - '@@ms/sp-canvas.ICanvasControl'
+  - uid: '@ms/sp-canvas.CanvasLayout.fetchControlComponentById'
+    name: fetchControlComponentById
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Fetch the control component
+    syntax:
+      content: 'function fetchControlComponentById(controlId: string)'
+      parameters:
+        - id: controlId
+          type:
+            - string
+          description: represents the controlId
+      return:
+        type:
+          - CanvasControlComponent
+  - uid: '@ms/sp-canvas.CanvasLayout.fetchControlPositionById'
+    name: fetchControlPositionById
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Fetch the control position
+    syntax:
+      content: 'function fetchControlPositionById(controlId: string)'
+      parameters:
+        - id: controlId
+          type:
+            - string
+          description: represents the controlId
+      return:
+        type:
+          - '@@ms/sp-canvas.IControlPosition'
+  - uid: '@ms/sp-canvas.CanvasLayout.fetchCurrentSelection'
+    name: fetchCurrentSelection
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function fetchCurrentSelection()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-canvas.IControlPosition'
+  - uid: '@ms/sp-canvas.CanvasLayout.fetchZone'
+    name: fetchZone
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Fetch the CanvasZonePart, if it exists, with the provided index.'
+    syntax:
+      content: 'function fetchZone(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: '@see IControlPosition.zoneIndex'
+      return:
+        type:
+          - '@@ms/sp-canvas.CanvasZonePart'
+  - uid: '@ms/sp-canvas.CanvasLayout.firstLayoutIndex'
+    name: firstLayoutIndex
+    fullName: firstLayoutIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number firstLayoutIndex
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-canvas.CanvasLayout.generateNewLayoutIndex'
+    name: generateNewLayoutIndex
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Utility function that creates the smallest index closest to the input
+      index.
+
+      It will generate the average of the sortedChildren[currentIndex] and the
+      one before it.
+
+      If currentIndex is the index of the first element in sortedChildren it
+      will just return currentIndex/2
+    syntax:
+      content: >-
+        static function generateNewLayoutIndex(sortedChildren: ILayoutItem[],
+        currentIdx: number)
+      parameters:
+        - id: sortedChildren
+          type:
+            - '@@ms/sp-canvas.ILayoutItem[]'
+          description: is a sorted Array
+        - id: currentIdx
+          type:
+            - number
+          description: is the current entry index
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-canvas.CanvasLayout.isEmpty'
+    name: isEmpty
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Determines if the underlying layout is empty
+    syntax:
+      content: function isEmpty()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.CanvasLayout.isPositionValid'
+    name: isPositionValid
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Check if the `position` is valid. It is valid if the `position` has
+      positive `zoneIndex` field.
+
+      On layout toolbox hint, the `sectionIndex` and `controlIndex` fields are
+      `undefined`,
+
+      we only check `zoneIndex` here.
+    syntax:
+      content: 'static function isPositionValid(position: IControlPosition)'
+      parameters:
+        - id: position
+          type:
+            - '@@ms/sp-canvas.IControlPosition'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.CanvasLayout.moveControl'
+    name: moveControl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Move the control to the new position. If the move is not within the same
+      section It removes the control from the
+
+      old position and recreates it in the new one.
+    syntax:
+      content: >-
+        function moveControl(control: ICanvasControl, newControlPosition:
+        IControlPosition)
+      parameters:
+        - id: control
+          type:
+            - '@@ms/sp-canvas.ICanvasControl'
+          description: The control to be moved
+        - id: newControlPosition
+          type:
+            - '@@ms/sp-canvas.IControlPosition'
+          description: |
+            The position where the control will be moved to
+  - uid: '@ms/sp-canvas.CanvasLayout.moveZone'
+    name: moveZone
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Moves the zone to the new index. The newZoneIndex is calculated outside of
+      the layout and should
+
+      be the index of the zone before which this zone is moved or the last zone
+      index + 1 in case the
+
+      new location is the last one on the canvas
+    syntax:
+      content: 'function moveZone(zone: CanvasZonePart, newZoneIndex: number)'
+      parameters:
+        - id: zone
+          type:
+            - '@@ms/sp-canvas.CanvasZonePart'
+          description: ''
+        - id: newZoneIndex
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.CanvasLayout.removeControl'
+    name: removeControl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes a control from the layout
+    syntax:
+      content: 'function removeControl(controlPosition: IControlPosition)'
+      parameters:
+        - id: controlPosition
+          type:
+            - '@@ms/sp-canvas.IControlPosition'
+          description: represents the control to remove
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.CanvasLayout.removeZone'
+    name: removeZone
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes a zone from the layout
+    syntax:
+      content: 'function removeZone(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: |
+            Represents the index of the zone to remove

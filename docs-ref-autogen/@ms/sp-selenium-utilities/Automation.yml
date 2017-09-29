@@ -1,0 +1,235 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-selenium-utilities.Automation'
+    name: Automation
+    fullName: Automation
+    children:
+      - '@ms/sp-selenium-utilities.Automation.ATTACH_DEBUGGER_DELAY'
+      - '@ms/sp-selenium-utilities.Automation.constructor'
+      - '@ms/sp-selenium-utilities.Automation.DEFAULT_DEV_TIMEOUT'
+      - '@ms/sp-selenium-utilities.Automation.DEFAULT_TEST_QUIT_TIMEOUT'
+      - '@ms/sp-selenium-utilities.Automation.DEFAULT_TEST_RETRIES'
+      - '@ms/sp-selenium-utilities.Automation.DEFAULT_TEST_TIMEOUT'
+      - '@ms/sp-selenium-utilities.Automation.dispose'
+      - '@ms/sp-selenium-utilities.Automation.FAILURE_TAKE_SCREENSHOT_TIMEOUT'
+      - '@ms/sp-selenium-utilities.Automation.getBaseUrl'
+      - '@ms/sp-selenium-utilities.Automation.getContextSettings'
+      - '@ms/sp-selenium-utilities.Automation.getWebDriver'
+      - '@ms/sp-selenium-utilities.Automation.getWebDriverWrapper'
+      - '@ms/sp-selenium-utilities.Automation.GET_LOGS_TIMEOUT'
+      - '@ms/sp-selenium-utilities.Automation.login'
+      - '@ms/sp-selenium-utilities.Automation.screenshotCount'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-selenium-utilities'
+  - uid: '@ms/sp-selenium-utilities.Automation.ATTACH_DEBUGGER_DELAY'
+    name: ATTACH_DEBUGGER_DELAY
+    fullName: ATTACH_DEBUGGER_DELAY
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static any ATTACH_DEBUGGER_DELAY
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-selenium-utilities.Automation.constructor'
+    name: Automation
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new Automation()
+      parameters: []
+  - uid: '@ms/sp-selenium-utilities.Automation.DEFAULT_DEV_TIMEOUT'
+    name: DEFAULT_DEV_TIMEOUT
+    fullName: DEFAULT_DEV_TIMEOUT
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number DEFAULT_DEV_TIMEOUT
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-selenium-utilities.Automation.DEFAULT_TEST_QUIT_TIMEOUT'
+    name: DEFAULT_TEST_QUIT_TIMEOUT
+    fullName: DEFAULT_TEST_QUIT_TIMEOUT
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number DEFAULT_TEST_QUIT_TIMEOUT
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-selenium-utilities.Automation.DEFAULT_TEST_RETRIES'
+    name: DEFAULT_TEST_RETRIES
+    fullName: DEFAULT_TEST_RETRIES
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static any DEFAULT_TEST_RETRIES
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-selenium-utilities.Automation.DEFAULT_TEST_TIMEOUT'
+    name: DEFAULT_TEST_TIMEOUT
+    fullName: DEFAULT_TEST_TIMEOUT
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number DEFAULT_TEST_TIMEOUT
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-selenium-utilities.Automation.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function dispose()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-selenium-utilities.Automation.FAILURE_TAKE_SCREENSHOT_TIMEOUT'
+    name: FAILURE_TAKE_SCREENSHOT_TIMEOUT
+    fullName: FAILURE_TAKE_SCREENSHOT_TIMEOUT
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number FAILURE_TAKE_SCREENSHOT_TIMEOUT
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-selenium-utilities.Automation.getBaseUrl'
+    name: getBaseUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getBaseUrl()
+      parameters: []
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-selenium-utilities.Automation.getContextSettings'
+    name: getContextSettings
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getContextSettings(context: any)'
+      parameters:
+        - id: context
+          type:
+            - any
+          description: ''
+  - uid: '@ms/sp-selenium-utilities.Automation.getWebDriver'
+    name: getWebDriver
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Creates the webdriver session.
+
+      Due to bugs in ChromeDriver, delay calling this until you are ready to
+      navigate.
+    syntax:
+      content: function getWebDriver()
+      parameters: []
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-selenium-utilities.Automation.getWebDriverWrapper'
+    name: getWebDriverWrapper
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getWebDriverWrapper()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-selenium-utilities.WebDriverWrapper'
+  - uid: '@ms/sp-selenium-utilities.Automation.GET_LOGS_TIMEOUT'
+    name: GET_LOGS_TIMEOUT
+    fullName: GET_LOGS_TIMEOUT
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number GET_LOGS_TIMEOUT
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-selenium-utilities.Automation.login'
+    name: login
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function login(ramps?: [key: string]: function, loginContext?:
+        ILoginContext)
+      parameters:
+        - id: ramps
+          type:
+            - '[key: string]: function'
+          description: ''
+          optional: true
+        - id: loginContext
+          type:
+            - '@@ms/sp-selenium-utilities.ILoginContext'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-selenium-utilities.Automation.screenshotCount'
+    name: screenshotCount
+    fullName: screenshotCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number screenshotCount
+      return:
+        type:
+          - number

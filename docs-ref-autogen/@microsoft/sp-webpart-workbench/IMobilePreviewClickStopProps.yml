@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-workbench.IMobilePreviewClickStopProps'
+    name: IMobilePreviewClickStopProps
+    fullName: IMobilePreviewClickStopProps
+    children:
+      - '@microsoft/sp-webpart-workbench.IMobilePreviewClickStopProps.device'
+      - '@microsoft/sp-webpart-workbench.IMobilePreviewClickStopProps.deviceType'
+      - '@microsoft/sp-webpart-workbench.IMobilePreviewClickStopProps.onClick'
+      - '@microsoft/sp-webpart-workbench.IMobilePreviewClickStopProps.orientation'
+      - '@microsoft/sp-webpart-workbench.IMobilePreviewClickStopProps.selected'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-webpart-workbench'
+  - uid: '@microsoft/sp-webpart-workbench.IMobilePreviewClickStopProps.device'
+    name: device
+    fullName: device
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IDevice device
+      return:
+        type:
+          - '@@microsoft/sp-webpart-workbench.IDevice'
+  - uid: '@microsoft/sp-webpart-workbench.IMobilePreviewClickStopProps.deviceType'
+    name: deviceType
+    fullName: deviceType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DeviceType deviceType
+      return:
+        type:
+          - '@@microsoft/sp-webpart-workbench.DeviceType'
+  - uid: '@microsoft/sp-webpart-workbench.IMobilePreviewClickStopProps.onClick'
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(device: IDevice) => void onClick'
+      return:
+        type:
+          - '(device: IDevice) => void'
+  - uid: '@microsoft/sp-webpart-workbench.IMobilePreviewClickStopProps.orientation'
+    name: orientation
+    fullName: orientation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DeviceOrientation orientation
+      return:
+        type:
+          - '@@microsoft/sp-webpart-workbench.DeviceOrientation'
+  - uid: '@microsoft/sp-webpart-workbench.IMobilePreviewClickStopProps.selected'
+    name: selected
+    fullName: selected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean selected
+      return:
+        type:
+          - boolean

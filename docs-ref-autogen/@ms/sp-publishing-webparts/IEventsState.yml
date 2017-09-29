@@ -1,0 +1,165 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IEventsState'
+    name: IEventsState
+    fullName: IEventsState
+    children:
+      - '@ms/sp-publishing-webparts.IEventsState.detailEventToShow'
+      - '@ms/sp-publishing-webparts.IEventsState.events'
+      - '@ms/sp-publishing-webparts.IEventsState.hasResponseError'
+      - '@ms/sp-publishing-webparts.IEventsState.isLoading'
+      - '@ms/sp-publishing-webparts.IEventsState.isMobileView'
+      - '@ms/sp-publishing-webparts.IEventsState.loadingCalendarAlertIndicator'
+      - '@ms/sp-publishing-webparts.IEventsState.loadingEventDetailAlertIndicator'
+      - '@ms/sp-publishing-webparts.IEventsState.pageChangedScreenReaderAlert'
+      - '@ms/sp-publishing-webparts.IEventsState.showDialog'
+      - '@ms/sp-publishing-webparts.IEventsState.switchPeriodScreenReaderAlert'
+      - '@ms/sp-publishing-webparts.IEventsState.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IEventsState.detailEventToShow'
+    name: detailEventToShow
+    fullName: detailEventToShow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IExchangeCalendarEvent detailEventToShow
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IExchangeCalendarEvent'
+  - uid: '@ms/sp-publishing-webparts.IEventsState.events'
+    name: events
+    fullName: events
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IExchangeCalendarEvent[] events'
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IExchangeCalendarEvent[]'
+  - uid: '@ms/sp-publishing-webparts.IEventsState.hasResponseError'
+    name: hasResponseError
+    fullName: hasResponseError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasResponseError
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IEventsState.isLoading'
+    name: isLoading
+    fullName: isLoading
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isLoading
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IEventsState.isMobileView'
+    name: isMobileView
+    fullName: isMobileView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isMobileView
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IEventsState.loadingCalendarAlertIndicator'
+    name: loadingCalendarAlertIndicator
+    fullName: loadingCalendarAlertIndicator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number loadingCalendarAlertIndicator
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IEventsState.loadingEventDetailAlertIndicator'
+    name: loadingEventDetailAlertIndicator
+    fullName: loadingEventDetailAlertIndicator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number loadingEventDetailAlertIndicator
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IEventsState.pageChangedScreenReaderAlert'
+    name: pageChangedScreenReaderAlert
+    fullName: pageChangedScreenReaderAlert
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string pageChangedScreenReaderAlert
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEventsState.showDialog'
+    name: showDialog
+    fullName: showDialog
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showDialog
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IEventsState.switchPeriodScreenReaderAlert'
+    name: switchPeriodScreenReaderAlert
+    fullName: switchPeriodScreenReaderAlert
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string switchPeriodScreenReaderAlert
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEventsState.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

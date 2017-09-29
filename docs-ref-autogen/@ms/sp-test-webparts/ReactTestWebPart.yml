@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-test-webparts.ReactTestWebPart'
+    name: ReactTestWebPart
+    fullName: ReactTestWebPart
+    children:
+      - '@ms/sp-test-webparts.ReactTestWebPart.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-test-webparts.ReactTestWebPart<@@ms/sp-test-webparts.IReactTestWebPartProps>
+    package: '@ms/sp-test-webparts'
+  - uid: '@ms/sp-test-webparts.ReactTestWebPart.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@ms/sp-test-webparts.IReactTestWebPartProps>

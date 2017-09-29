@@ -1,0 +1,65 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/listview-spfx-host.CellAdapter'
+    name: CellAdapter
+    fullName: CellAdapter
+    children:
+      - '@ms/listview-spfx-host.CellAdapter.constructor'
+      - '@ms/listview-spfx-host.CellAdapter.dispose'
+      - '@ms/listview-spfx-host.CellAdapter.row'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      This class has should be created by calling renderCell on an instance of
+      ListViewAdapter.
+
+      This is a sealed class. Do not extend it.
+    package: '@ms/listview-spfx-host'
+  - uid: '@ms/listview-spfx-host.CellAdapter.constructor'
+    name: CellAdapter
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CellAdapter(column: ColumnAdapter, row: RowAdapter, domElement:
+        HTMLDivElement)
+      parameters:
+        - id: column
+          type:
+            - '@@ms/listview-spfx-host.ColumnAdapter'
+          description: ''
+        - id: row
+          type:
+            - '@@ms/listview-spfx-host.RowAdapter'
+          description: ''
+        - id: domElement
+          type:
+            - HTMLDivElement
+          description: ''
+  - uid: '@ms/listview-spfx-host.CellAdapter.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function dispose()
+      parameters: []
+  - uid: '@ms/listview-spfx-host.CellAdapter.row'
+    name: row
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function row()
+      parameters: []
+      return:
+        type:
+          - '@@ms/listview-spfx-host.RowAdapter'

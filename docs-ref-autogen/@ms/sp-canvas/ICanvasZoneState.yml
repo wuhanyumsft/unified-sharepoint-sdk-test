@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ICanvasZoneState'
+    name: ICanvasZoneState
+    fullName: ICanvasZoneState
+    children:
+      - '@ms/sp-canvas.ICanvasZoneState.accessibleLabel'
+      - '@ms/sp-canvas.ICanvasZoneState.fixedPosition'
+      - '@ms/sp-canvas.ICanvasZoneState.isToolbarFixed'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ICanvasZoneState.accessibleLabel'
+    name: accessibleLabel
+    fullName: accessibleLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string accessibleLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.ICanvasZoneState.fixedPosition'
+    name: fixedPosition
+    fullName: fixedPosition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function fixedPosition
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-canvas.ICanvasZoneState.isToolbarFixed'
+    name: isToolbarFixed
+    fullName: isToolbarFixed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isToolbarFixed
+      return:
+        type:
+          - boolean

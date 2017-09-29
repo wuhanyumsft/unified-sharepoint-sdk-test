@@ -1,0 +1,92 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.ViewCountCellKeys'
+    name: ViewCountCellKeys
+    fullName: ViewCountCellKeys
+    children:
+      - '@ms/sp-teamsite-webparts.ViewCountCellKeys.Rank'
+      - '@ms/sp-teamsite-webparts.ViewCountCellKeys.DocId'
+      - '@ms/sp-teamsite-webparts.ViewCountCellKeys.ListItemId'
+      - '@ms/sp-teamsite-webparts.ViewCountCellKeys.ViewCountLifetime'
+      - '@ms/sp-teamsite-webparts.ViewCountCellKeys.PartitionId'
+      - '@ms/sp-teamsite-webparts.ViewCountCellKeys.UrlZone'
+      - '@ms/sp-teamsite-webparts.ViewCountCellKeys.Culture'
+      - '@ms/sp-teamsite-webparts.ViewCountCellKeys.ResultTypeId'
+      - '@ms/sp-teamsite-webparts.ViewCountCellKeys.RenderTemplateId'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.ViewCountCellKeys.Rank'
+    name: Rank
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+  - uid: '@ms/sp-teamsite-webparts.ViewCountCellKeys.DocId'
+    name: DocId
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-teamsite-webparts.ViewCountCellKeys.ListItemId'
+    name: ListItemId
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+  - uid: '@ms/sp-teamsite-webparts.ViewCountCellKeys.ViewCountLifetime'
+    name: ViewCountLifetime
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+  - uid: '@ms/sp-teamsite-webparts.ViewCountCellKeys.PartitionId'
+    name: PartitionId
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+  - uid: '@ms/sp-teamsite-webparts.ViewCountCellKeys.UrlZone'
+    name: UrlZone
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 5
+  - uid: '@ms/sp-teamsite-webparts.ViewCountCellKeys.Culture'
+    name: Culture
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 6
+  - uid: '@ms/sp-teamsite-webparts.ViewCountCellKeys.ResultTypeId'
+    name: ResultTypeId
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 7
+  - uid: '@ms/sp-teamsite-webparts.ViewCountCellKeys.RenderTemplateId'
+    name: RenderTemplateId
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 8

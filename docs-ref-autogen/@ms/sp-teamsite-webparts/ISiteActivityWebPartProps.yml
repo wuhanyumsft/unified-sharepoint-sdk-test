@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.ISiteActivityWebPartProps'
+    name: ISiteActivityWebPartProps
+    fullName: ISiteActivityWebPartProps
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'

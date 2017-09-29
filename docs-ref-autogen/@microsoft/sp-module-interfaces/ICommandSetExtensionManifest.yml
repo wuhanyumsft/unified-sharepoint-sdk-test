@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-module-interfaces.ICommandSetExtensionManifest'
+    name: ICommandSetExtensionManifest
+    fullName: ICommandSetExtensionManifest
+    children:
+      - >-
+        @microsoft/sp-module-interfaces.ICommandSetExtensionManifest.extensionType
+      - '@microsoft/sp-module-interfaces.ICommandSetExtensionManifest.items'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      This is the manifest for a client-side extension that defines a set of
+      custom commands
+
+      that can be shown in a menu, tool bar, etc.
+    extends:
+      name: '@@microsoft/sp-module-interfaces.IClientSideExtensionManifest'
+    package: '@microsoft/sp-module-interfaces'
+  - uid: '@microsoft/sp-module-interfaces.ICommandSetExtensionManifest.extensionType'
+    name: extensionType
+    fullName: extensionType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc IClientSideExtensionManifest.extensionType}'
+    syntax:
+      content: function extensionType
+      return:
+        type:
+          - function
+  - uid: '@microsoft/sp-module-interfaces.ICommandSetExtensionManifest.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A table of items defined by this command set. The object key is the Item
+      ID.
+    syntax:
+      content: '[key: string]: ICommandDefinition items'
+      return:
+        type:
+          - '[key: string]: @@microsoft/sp-module-interfaces.ICommandDefinition'

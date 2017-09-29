@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.RefreshType'
+    name: RefreshType
+    fullName: RefreshType
+    children:
+      - '@ms/sp-webpart-shared.RefreshType.Append'
+      - '@ms/sp-webpart-shared.RefreshType.Replace'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.RefreshType.Append'
+    name: Append
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+  - uid: '@ms/sp-webpart-shared.RefreshType.Replace'
+    name: Replace
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1

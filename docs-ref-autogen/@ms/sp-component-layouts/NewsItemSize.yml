@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.NewsItemSize'
+    name: NewsItemSize
+    fullName: NewsItemSize
+    children:
+      - '@ms/sp-component-layouts.NewsItemSize.Large'
+      - '@ms/sp-component-layouts.NewsItemSize.Medium'
+      - '@ms/sp-component-layouts.NewsItemSize.Small'
+      - '@ms/sp-component-layouts.NewsItemSize.XLarge'
+      - '@ms/sp-component-layouts.NewsItemSize.XXLarge'
+      - '@ms/sp-component-layouts.NewsItemSize.XXXLarge'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-component-layouts'
+  - uid: '@ms/sp-component-layouts.NewsItemSize.Large'
+    name: Large
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-component-layouts.NewsItemSize.Medium'
+    name: Medium
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-component-layouts.NewsItemSize.Small'
+    name: Small
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-component-layouts.NewsItemSize.XLarge'
+    name: XLarge
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-component-layouts.NewsItemSize.XXLarge'
+    name: XXLarge
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-component-layouts.NewsItemSize.XXXLarge'
+    name: XXXLarge
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

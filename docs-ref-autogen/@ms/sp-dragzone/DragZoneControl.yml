@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dragzone.DragZoneControl'
+    name: DragZoneControl
+    fullName: DragZoneControl
+    children:
+      - '@ms/sp-dragzone.DragZoneControl.activate'
+      - '@ms/sp-dragzone.DragZoneControl.deactivate'
+      - '@ms/sp-dragzone.DragZoneControl.constructor'
+      - '@ms/sp-dragzone.DragZoneControl.refreshHandles'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-dragzone'
+  - uid: '@ms/sp-dragzone.DragZoneControl.activate'
+    name: activate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function activate()
+      parameters: []
+  - uid: '@ms/sp-dragzone.DragZoneControl.deactivate'
+    name: deactivate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function deactivate()
+      parameters: []
+  - uid: '@ms/sp-dragzone.DragZoneControl.constructor'
+    name: DragZoneControl
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DragZoneControl(options: IDragZoneControlOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@@ms/sp-dragzone.IDragZoneControlOptions'
+          description: ''
+  - uid: '@ms/sp-dragzone.DragZoneControl.refreshHandles'
+    name: refreshHandles
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: This happens very often so it should be quick.
+    syntax:
+      content: function refreshHandles()
+      parameters: []

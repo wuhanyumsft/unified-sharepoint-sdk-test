@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IServerBooleanResult'
+    name: IServerBooleanResult
+    fullName: IServerBooleanResult
+    children:
+      - '@ms/sp-pages.IServerBooleanResult.error'
+      - '@ms/sp-pages.IServerBooleanResult.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IServerBooleanResult.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IServerError error
+      return:
+        type:
+          - '@@ms/sp-pages.IServerError'
+  - uid: '@ms/sp-pages.IServerBooleanResult.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean value
+      return:
+        type:
+          - boolean

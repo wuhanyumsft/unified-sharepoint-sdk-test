@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.IToolboxItemProps'
+    name: IToolboxItemProps
+    fullName: IToolboxItemProps
+    children:
+      - '@ms/sp-canvas-toolbox.IToolboxItemProps.automationId'
+      - '@ms/sp-canvas-toolbox.IToolboxItemProps.onClick'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-canvas-toolbox.IToolboxItem'
+    package: '@ms/sp-canvas-toolbox'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxItemProps.automationId'
+    name: automationId
+    fullName: automationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The automation ID for testing.
+    syntax:
+      content: string automationId
+      return:
+        type:
+          - string
+    deprecated:
+      content: We should pass `id` then generate `automationId` inside this component.
+  - uid: '@ms/sp-canvas-toolbox.IToolboxItemProps.onClick'
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The callback to handle when click on the item.
+    syntax:
+      content: '(itemProps: ICanvasControl) => void onClick'
+      return:
+        type:
+          - '(itemProps: ICanvasControl) => void'

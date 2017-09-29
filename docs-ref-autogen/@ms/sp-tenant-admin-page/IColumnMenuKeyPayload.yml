@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IColumnMenuKeyPayload'
+    name: IColumnMenuKeyPayload
+    fullName: IColumnMenuKeyPayload
+    children:
+      - '@ms/sp-tenant-admin-page.IColumnMenuKeyPayload.columnMenuKey'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IColumnMenuKeyPayload.columnMenuKey'
+    name: columnMenuKey
+    fullName: columnMenuKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string columnMenuKey
+      return:
+        type:
+          - string

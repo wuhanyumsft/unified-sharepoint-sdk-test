@@ -1,0 +1,127 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.ReservedEventNames'
+    name: ReservedEventNames
+    fullName: ReservedEventNames
+    children:
+      - '@microsoft/sp-webpart-base.ReservedEventNames.classicToolpane'
+      - '@microsoft/sp-webpart-base.ReservedEventNames.classicToolpaneId'
+      - '@microsoft/sp-webpart-base.ReservedEventNames.configure'
+      - '@microsoft/sp-webpart-base.ReservedEventNames.configureEnd'
+      - '@microsoft/sp-webpart-base.ReservedEventNames.configureStart'
+      - '@microsoft/sp-webpart-base.ReservedEventNames.delimitor'
+      - '@microsoft/sp-webpart-base.ReservedEventNames.end'
+      - '@microsoft/sp-webpart-base.ReservedEventNames.start'
+    langs:
+      - typeScript
+    type: class
+    summary: |2
+       Event names should follow the following format 'EventName:Action'
+       e.g.
+       'configure:start'
+       'configure:end'
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.ReservedEventNames.classicToolpane'
+    name: classicToolpane
+    fullName: classicToolpane
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string classicToolpane
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.ReservedEventNames.classicToolpaneId'
+    name: classicToolpaneId
+    fullName: classicToolpaneId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string classicToolpaneId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.ReservedEventNames.configure'
+    name: configure
+    fullName: configure
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string configure
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.ReservedEventNames.configureEnd'
+    name: configureEnd
+    fullName: configureEnd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string configureEnd
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.ReservedEventNames.configureStart'
+    name: configureStart
+    fullName: configureStart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string configureStart
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.ReservedEventNames.delimitor'
+    name: delimitor
+    fullName: delimitor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string delimitor
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.ReservedEventNames.end'
+    name: end
+    fullName: end
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string end
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.ReservedEventNames.start'
+    name: start
+    fullName: start
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string start
+      return:
+        type:
+          - string

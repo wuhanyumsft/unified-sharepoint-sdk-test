@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/test-extensions-application.EditFormPanel'
+    name: EditFormPanel
+    fullName: EditFormPanel
+    children:
+      - '@ms/test-extensions-application.EditFormPanel.render'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Simulates a SharePoint DispForm/EditForm panel.  This allows
+      viewing/editing of the SPField
+
+      values for a single SPListItem.  It tests an upcoming scenario where the
+      "field customizer"
+
+      extensions will be rendered *without* an associated list view object.
+    extends:
+      name: >-
+        @@ms/test-extensions-application.EditFormPanel<@@ms/test-extensions-application.IEditFormPanelProps>
+    package: '@ms/test-extensions-application'
+  - uid: '@ms/test-extensions-application.EditFormPanel.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

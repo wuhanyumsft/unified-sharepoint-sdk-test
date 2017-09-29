@@ -1,0 +1,149 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.MigrateBlogPost'
+    name: MigrateBlogPost
+    fullName: MigrateBlogPost
+    children:
+      - '@ms/sp-pages.MigrateBlogPost.serializeBlogPost'
+      - '@ms/sp-pages.MigrateBlogPost.serializeDocumentControl'
+      - '@ms/sp-pages.MigrateBlogPost.serializeImageControl'
+      - '@ms/sp-pages.MigrateBlogPost.serializeImageHeader'
+      - '@ms/sp-pages.MigrateBlogPost.serializeRTE'
+      - '@ms/sp-pages.MigrateBlogPost.serializeVideoControl'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.MigrateBlogPost.serializeBlogPost'
+    name: serializeBlogPost
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function serializeBlogPost(postModel: IPostModel, postUrl:
+        string)
+      parameters:
+        - id: postModel
+          type:
+            - '@@ms/sp-pages.IPostModel'
+          description: ''
+        - id: postUrl
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-pages.PageFieldData>
+  - uid: '@ms/sp-pages.MigrateBlogPost.serializeDocumentControl'
+    name: serializeDocumentControl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function serializeDocumentControl(doc: IDocumentHookDataContext,
+        index: number)
+      parameters:
+        - id: doc
+          type:
+            - '@@ms/sp-pages.IDocumentHookDataContext'
+          description: ''
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Promise<ICanvasControl>
+  - uid: '@ms/sp-pages.MigrateBlogPost.serializeImageControl'
+    name: serializeImageControl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function serializeImageControl(img: IImageControlDataContext,
+        index: number)
+      parameters:
+        - id: img
+          type:
+            - '@@ms/sp-pages.IImageControlDataContext'
+          description: ''
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Promise<ICanvasControl>
+  - uid: '@ms/sp-pages.MigrateBlogPost.serializeImageHeader'
+    name: serializeImageHeader
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function serializeImageHeader(imgHeader: IControlData)'
+      parameters:
+        - id: imgHeader
+          type:
+            - '@@ms/sp-pages.IControlData'
+          description: ''
+      return:
+        type:
+          - 'Promise<IWebPartData[]>'
+  - uid: '@ms/sp-pages.MigrateBlogPost.serializeRTE'
+    name: serializeRTE
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function serializeRTE(richText: ITextControlDataContext, index:
+        number)
+      parameters:
+        - id: richText
+          type:
+            - '@@ms/sp-pages.ITextControlDataContext'
+          description: ''
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - ISPRteProps
+  - uid: '@ms/sp-pages.MigrateBlogPost.serializeVideoControl'
+    name: serializeVideoControl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function serializeVideoControl(video: IVideoControlDataContext,
+        index: number)
+      parameters:
+        - id: video
+          type:
+            - '@@ms/sp-pages.IVideoControlDataContext'
+          description: ''
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Promise<ICanvasControl>

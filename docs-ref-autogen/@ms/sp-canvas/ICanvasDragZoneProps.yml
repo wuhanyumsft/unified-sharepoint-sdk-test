@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ICanvasDragZoneProps'
+    name: ICanvasDragZoneProps
+    fullName: ICanvasDragZoneProps
+    children:
+      - '@ms/sp-canvas.ICanvasDragZoneProps.isEnabled'
+      - '@ms/sp-canvas.ICanvasDragZoneProps.store'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ICanvasDragZoneProps.isEnabled'
+    name: isEnabled
+    fullName: isEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.ICanvasDragZoneProps.store'
+    name: store
+    fullName: store
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CanvasStore store
+      return:
+        type:
+          - '@@ms/sp-canvas.CanvasStore'

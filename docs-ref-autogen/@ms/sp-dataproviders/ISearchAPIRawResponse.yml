@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.ISearchAPIRawResponse'
+    name: ISearchAPIRawResponse
+    fullName: ISearchAPIRawResponse
+    children:
+      - '@ms/sp-dataproviders.ISearchAPIRawResponse.PrimaryQueryResult'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.ISearchAPIRawResponse.PrimaryQueryResult'
+    name: PrimaryQueryResult
+    fullName: PrimaryQueryResult
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: string]: function PrimaryQueryResult'
+      return:
+        type:
+          - '[key: string]: function'

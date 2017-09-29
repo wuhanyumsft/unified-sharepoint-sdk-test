@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IEmailFieldsData'
+    name: IEmailFieldsData
+    fullName: IEmailFieldsData
+    children:
+      - '@ms/sp-tenant-admin-page.IEmailFieldsData.message'
+      - '@ms/sp-tenant-admin-page.IEmailFieldsData.siteIds'
+      - '@ms/sp-tenant-admin-page.IEmailFieldsData.subject'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IEmailFieldsData.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string message
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IEmailFieldsData.siteIds'
+    name: siteIds
+    fullName: siteIds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] siteIds'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-tenant-admin-page.IEmailFieldsData.subject'
+    name: subject
+    fullName: subject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string subject
+      return:
+        type:
+          - string

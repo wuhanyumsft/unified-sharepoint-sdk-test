@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-html-embed.IHTMLEmbedRect'
+    name: IHTMLEmbedRect
+    fullName: IHTMLEmbedRect
+    children:
+      - '@ms/sp-html-embed.IHTMLEmbedRect.height'
+      - '@ms/sp-html-embed.IHTMLEmbedRect.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-html-embed'
+  - uid: '@ms/sp-html-embed.IHTMLEmbedRect.height'
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number height
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-html-embed.IHTMLEmbedRect.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number width
+      return:
+        type:
+          - number

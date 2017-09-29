@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-workbench.MobilePreviewClickStop'
+    name: MobilePreviewClickStop
+    fullName: MobilePreviewClickStop
+    children:
+      - '@microsoft/sp-webpart-workbench.MobilePreviewClickStop.context'
+      - '@microsoft/sp-webpart-workbench.MobilePreviewClickStop.constructor'
+      - '@microsoft/sp-webpart-workbench.MobilePreviewClickStop.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@microsoft/sp-webpart-workbench.MobilePreviewClickStop<@@microsoft/sp-webpart-workbench.IMobilePreviewClickStopProps>
+    package: '@microsoft/sp-webpart-workbench'
+  - uid: '@microsoft/sp-webpart-workbench.MobilePreviewClickStop.context'
+    name: context
+    fullName: context
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IWorkBenchContext context
+      return:
+        type:
+          - '@@microsoft/sp-webpart-workbench.IWorkBenchContext'
+  - uid: '@microsoft/sp-webpart-workbench.MobilePreviewClickStop.constructor'
+    name: MobilePreviewClickStop
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new MobilePreviewClickStop(props: IMobilePreviewClickStopProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@microsoft/sp-webpart-workbench.IMobilePreviewClickStopProps'
+          description: ''
+  - uid: '@microsoft/sp-webpart-workbench.MobilePreviewClickStop.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - >-
+            ReactElement<@@microsoft/sp-webpart-workbench.IMobilePreviewClickStopProps>

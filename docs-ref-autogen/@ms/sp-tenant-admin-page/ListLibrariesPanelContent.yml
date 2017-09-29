@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ListLibrariesPanelContent'
+    name: ListLibrariesPanelContent
+    fullName: ListLibrariesPanelContent
+    children:
+      - '@ms/sp-tenant-admin-page.ListLibrariesPanelContent.componentDidMount'
+      - '@ms/sp-tenant-admin-page.ListLibrariesPanelContent.constructor'
+      - '@ms/sp-tenant-admin-page.ListLibrariesPanelContent.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-tenant-admin-page.ListLibrariesPanelContent<@@ms/sp-tenant-admin-page.IPanelContentProps>
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ListLibrariesPanelContent.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.ListLibrariesPanelContent.constructor'
+    name: ListLibrariesPanelContent
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new ListLibrariesPanelContent()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.ListLibrariesPanelContent.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

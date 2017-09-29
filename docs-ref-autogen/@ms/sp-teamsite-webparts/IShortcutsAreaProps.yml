@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IShortcutsAreaProps'
+    name: IShortcutsAreaProps
+    fullName: IShortcutsAreaProps
+    children:
+      - '@ms/sp-teamsite-webparts.IShortcutsAreaProps.itemChosenCallback'
+      - '@ms/sp-teamsite-webparts.IShortcutsAreaProps.items'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IShortcutsAreaProps.itemChosenCallback'
+    name: itemChosenCallback
+    fullName: itemChosenCallback
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The callback to be called when an item is selected
+    syntax:
+      content: '(item: IShortcutItem, index: number) => void itemChosenCallback'
+      return:
+        type:
+          - '(item: IShortcutItem, index: number) => void'
+  - uid: '@ms/sp-teamsite-webparts.IShortcutsAreaProps.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The items to display in the ShortcutsArea
+    syntax:
+      content: 'IShortcutItem[] items'
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IShortcutItem[]'

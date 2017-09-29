@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-common.ITaskDefinition'
+    name: ITaskDefinition
+    fullName: ITaskDefinition
+    children:
+      - '@microsoft/sp-build-common.ITaskDefinition.arguments'
+      - '@microsoft/sp-build-common.ITaskDefinition.executable'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Represents the a task which is registered to the gulp command line
+      The arguments function is evaluated if this is the current task, it should
+      interact with yargs to define any custom values.
+    package: '@microsoft/sp-build-common'
+  - uid: '@microsoft/sp-build-common.ITaskDefinition.arguments'
+    name: arguments
+    fullName: arguments
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(args: Argv) => void arguments'
+      return:
+        type:
+          - '(args: Argv) => void'
+  - uid: '@microsoft/sp-build-common.ITaskDefinition.executable'
+    name: executable
+    fullName: executable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IExecutable executable
+      return:
+        type:
+          - IExecutable

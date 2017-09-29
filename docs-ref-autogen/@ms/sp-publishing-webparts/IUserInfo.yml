@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IUserInfo'
+    name: IUserInfo
+    fullName: IUserInfo
+    children:
+      - '@ms/sp-publishing-webparts.IUserInfo.tenantId'
+      - '@ms/sp-publishing-webparts.IUserInfo.userId'
+    langs:
+      - typeScript
+    type: interface
+    summary: Contains metadata about a token item.
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IUserInfo.tenantId'
+    name: tenantId
+    fullName: tenantId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: tenant id
+    syntax:
+      content: string tenantId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IUserInfo.userId'
+    name: userId
+    fullName: userId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: user id
+    syntax:
+      content: string userId
+      return:
+        type:
+          - string

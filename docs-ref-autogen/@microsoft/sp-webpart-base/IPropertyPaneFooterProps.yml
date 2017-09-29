@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneFooterProps'
+    name: IPropertyPaneFooterProps
+    fullName: IPropertyPaneFooterProps
+    children:
+      - '@microsoft/sp-webpart-base.IPropertyPaneFooterProps.currentPage'
+      - '@microsoft/sp-webpart-base.IPropertyPaneFooterProps.isReactive'
+      - '@microsoft/sp-webpart-base.IPropertyPaneFooterProps.isSaveButtonEnabled'
+      - '@microsoft/sp-webpart-base.IPropertyPaneFooterProps.numberOfPages'
+      - '@microsoft/sp-webpart-base.IPropertyPaneFooterProps.onFlipPage'
+      - '@microsoft/sp-webpart-base.IPropertyPaneFooterProps.onSaveClick'
+    langs:
+      - typeScript
+    type: interface
+    summary: Property pane footer properties.
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneFooterProps.currentPage'
+    name: currentPage
+    fullName: currentPage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number currentPage
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneFooterProps.isReactive'
+    name: isReactive
+    fullName: isReactive
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isReactive
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneFooterProps.isSaveButtonEnabled'
+    name: isSaveButtonEnabled
+    fullName: isSaveButtonEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSaveButtonEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneFooterProps.numberOfPages'
+    name: numberOfPages
+    fullName: numberOfPages
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number numberOfPages
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneFooterProps.onFlipPage'
+    name: onFlipPage
+    fullName: onFlipPage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(direction: PageDirection) => void onFlipPage'
+      return:
+        type:
+          - '(direction: PageDirection) => void'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneFooterProps.onSaveClick'
+    name: onSaveClick
+    fullName: onSaveClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onSaveClick
+      return:
+        type:
+          - () => void

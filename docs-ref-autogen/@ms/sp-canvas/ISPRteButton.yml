@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ISPRteButton'
+    name: ISPRteButton
+    fullName: ISPRteButton
+    children:
+      - '@ms/sp-canvas.ISPRteButton.imageSrc'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-canvas.IToolbarButton'
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ISPRteButton.imageSrc'
+    name: imageSrc
+    fullName: imageSrc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string imageSrc
+      return:
+        type:
+          - string

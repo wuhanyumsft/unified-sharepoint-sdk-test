@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.LocaleStore'
+    name: LocaleStore
+    fullName: LocaleStore
+    children:
+      - '@microsoft/sp-loader.LocaleStore.getLocale'
+      - '@microsoft/sp-loader.LocaleStore.setLocale'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.LocaleStore.getLocale'
+    name: getLocale
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function getLocale()
+      parameters: []
+  - uid: '@microsoft/sp-loader.LocaleStore.setLocale'
+    name: setLocale
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function setLocale(locale: string)'
+      parameters:
+        - id: locale
+          type:
+            - string
+          description: ''

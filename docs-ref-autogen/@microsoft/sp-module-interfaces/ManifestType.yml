@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-module-interfaces.ManifestType'
+    name: ManifestType
+    fullName: ManifestType
+    children:
+      - '@microsoft/sp-module-interfaces.ManifestType.component'
+    langs:
+      - typeScript
+    type: enum
+    summary: >-
+      The type of the manifest. Currently "component" is the only supported
+      value.
+    package: '@microsoft/sp-module-interfaces'
+  - uid: '@microsoft/sp-module-interfaces.ManifestType.component'
+    name: component
+    children: []
+    langs:
+      - typeScript
+    summary: The component manifest type.
+    type: field
+    numericValue: null

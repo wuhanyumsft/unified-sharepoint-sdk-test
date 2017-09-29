@@ -1,0 +1,537 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-chart-webparts.Global'
+    package: '@ms/sp-chart-webparts'
+    name: Global
+    children:
+      - '@ms/sp-chart-webparts.adjustTickPositioner'
+      - '@ms/sp-chart-webparts.columnChartDataLabelFormatter'
+      - '@ms/sp-chart-webparts.constructDataLabels'
+      - '@ms/sp-chart-webparts.constructDataSeries'
+      - '@ms/sp-chart-webparts.constructTooltip'
+      - '@ms/sp-chart-webparts.constructXAxis'
+      - '@ms/sp-chart-webparts.constructYAxis'
+      - '@ms/sp-chart-webparts.encodeTextBrackets'
+      - '@ms/sp-chart-webparts.getChartColorIndex'
+      - '@ms/sp-chart-webparts.getChartType'
+      - '@ms/sp-chart-webparts.getChoiceGroupErrorMessage'
+      - '@ms/sp-chart-webparts.getDataRows'
+      - '@ms/sp-chart-webparts.getInvalidDataRow'
+      - '@ms/sp-chart-webparts.getInvalidDataRows'
+      - '@ms/sp-chart-webparts.getNegativeDataRow'
+      - '@ms/sp-chart-webparts.getNegativeDataRows'
+      - '@ms/sp-chart-webparts.getOptionsForInitialState'
+      - '@ms/sp-chart-webparts.getPositiveDataRow'
+      - '@ms/sp-chart-webparts.getPositiveDataRows'
+      - '@ms/sp-chart-webparts.getQuickChartOptions'
+      - '@ms/sp-chart-webparts.getRandomNumberDataRow'
+      - '@ms/sp-chart-webparts.getRandomNumberDataRows'
+      - '@ms/sp-chart-webparts.getTextFieldErrorMessage'
+      - '@ms/sp-chart-webparts.getWebPartProps'
+      - '@ms/sp-chart-webparts.pieChartDataLabelFormatter'
+      - '@ms/sp-chart-webparts.truncateText'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@ms/sp-chart-webparts.adjustTickPositioner'
+    name: adjustTickPositioner
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >
+      Keep at least one positive tick position to avoid data labels being
+      hidden.
+
+      Array of tick positions is something like this: [-100, 0, 100, 200]
+
+      It shows the horizontal lines on the chart.
+    syntax:
+      content: function adjustTickPositioner()
+      parameters: []
+  - uid: '@ms/sp-chart-webparts.columnChartDataLabelFormatter'
+    name: columnChartDataLabelFormatter
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function columnChartDataLabelFormatter()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-chart-webparts.constructDataLabels'
+    name: constructDataLabels
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Construct the highcharts options about data labels based on props.
+    syntax:
+      content: 'function constructDataLabels(props: IQuickChartProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-chart-webparts.IQuickChartProps'
+          description: ''
+      return:
+        type:
+          - Options
+  - uid: '@ms/sp-chart-webparts.constructDataSeries'
+    name: constructDataSeries
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Construct the name, value and color for each column in column chart or
+      each piece in pie chart.
+    syntax:
+      content: 'function constructDataSeries(props: IQuickChartProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-chart-webparts.IQuickChartProps'
+          description: ''
+      return:
+        type:
+          - Options
+  - uid: '@ms/sp-chart-webparts.constructTooltip'
+    name: constructTooltip
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function constructTooltip(props: IQuickChartProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-chart-webparts.IQuickChartProps'
+          description: ''
+      return:
+        type:
+          - TooltipOptions
+  - uid: '@ms/sp-chart-webparts.constructXAxis'
+    name: constructXAxis
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function constructXAxis(props: IQuickChartProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-chart-webparts.IQuickChartProps'
+          description: ''
+      return:
+        type:
+          - AxisOptions
+  - uid: '@ms/sp-chart-webparts.constructYAxis'
+    name: constructYAxis
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function constructYAxis(props: IQuickChartProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-chart-webparts.IQuickChartProps'
+          description: ''
+      return:
+        type:
+          - AxisOptions
+  - uid: '@ms/sp-chart-webparts.encodeTextBrackets'
+    name: encodeTextBrackets
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      The function only encoding the brackets mark `<` and `>` which serves
+      Highcharts display encoding needs.
+
+      Some Highcharts fields like axis title and axis label cannot be set to
+      "useHTML: true" due to being completely
+
+      removed or some issues. In "useHTML: false" mode, the text will be encoded
+      and decoded by Highcharts in a way that
+
+      '<' and '>' will be detected and the content between '<' and '>' will be
+      removed.
+
+      To keep the content from use input, we need to encode '<' and '>' and let
+      Highcharts decode them back.
+
+      Reference:
+      https://github.com/highcharts/highcharts/blob/v4.1.6/js/parts/SvgRenderer.js#L1412
+
+      As long as one of the display field is using this encodeTextBrackets, we
+      should apply this to all fields to make sure
+
+      consistency across different display fields.
+
+      E.g. Label name in tooltip, data label and axis label should be the same.
+    syntax:
+      content: 'function encodeTextBrackets(inputString: string)'
+      parameters:
+        - id: inputString
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-chart-webparts.getChartColorIndex'
+    name: getChartColorIndex
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Get chart series color index depending on chart type, data index, and
+      value.
+
+      The index will be used by Highcharts to set the class name for svg
+      elements which are related
+
+      to certain data points. e.g. class='highcharts-color-2' where the number 2
+      is the index we provide.
+    syntax:
+      content: >-
+        function getChartColorIndex(type: QuickChartType, index?: number,
+        value?: number)
+      parameters:
+        - id: type
+          type:
+            - QuickChartType
+          description: ''
+        - id: index
+          type:
+            - number
+          description: is only required for pie chart.
+          optional: true
+        - id: value
+          type:
+            - number
+          description: is only required for column chart.
+          optional: true
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-chart-webparts.getChartType'
+    name: getChartType
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Get string of chart type.
+    syntax:
+      content: 'function getChartType(type: QuickChartType)'
+      parameters:
+        - id: type
+          type:
+            - QuickChartType
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-chart-webparts.getChoiceGroupErrorMessage'
+    name: getChoiceGroupErrorMessage
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Returns the error message for the chart type choice group on the first
+      page.
+    syntax:
+      content: >-
+        function getChoiceGroupErrorMessage(chartType: QuickChartType, rows:
+        IQuickChartDataRow[])
+      parameters:
+        - id: chartType
+          type:
+            - QuickChartType
+          description: ''
+        - id: rows
+          type:
+            - '@@ms/sp-chart-webparts.IQuickChartDataRow[]'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-chart-webparts.getDataRows'
+    name: getDataRows
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getDataRows(length: number, valueGenerator: (index: number) =>
+        string)
+      parameters:
+        - id: length
+          type:
+            - number
+          description: ''
+        - id: valueGenerator
+          type:
+            - '(index: number) => string'
+          description: ''
+  - uid: '@ms/sp-chart-webparts.getInvalidDataRow'
+    name: getInvalidDataRow
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getInvalidDataRow()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-chart-webparts.IQuickChartDataRow'
+  - uid: '@ms/sp-chart-webparts.getInvalidDataRows'
+    name: getInvalidDataRows
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: |
+      Get an array of data rows with Negative values.
+      All the values are invalid.
+    syntax:
+      content: 'function getInvalidDataRows(length: number)'
+      parameters:
+        - id: length
+          type:
+            - number
+          description: ''
+  - uid: '@ms/sp-chart-webparts.getNegativeDataRow'
+    name: getNegativeDataRow
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getNegativeDataRow()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-chart-webparts.IQuickChartDataRow'
+  - uid: '@ms/sp-chart-webparts.getNegativeDataRows'
+    name: getNegativeDataRows
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >
+      Get an array of data rows with negative values.
+
+      All the values are equal or less than -100, it will not be the same with
+      the number in 'getRandomNumberDataRows'.
+    syntax:
+      content: 'function getNegativeDataRows(length: number)'
+      parameters:
+        - id: length
+          type:
+            - number
+          description: ''
+  - uid: '@ms/sp-chart-webparts.getOptionsForInitialState'
+    name: getOptionsForInitialState
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getOptionsForInitialState(props: IQuickChartProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-chart-webparts.IQuickChartProps'
+          description: ''
+      return:
+        type:
+          - Options
+  - uid: '@ms/sp-chart-webparts.getPositiveDataRow'
+    name: getPositiveDataRow
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getPositiveDataRow()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-chart-webparts.IQuickChartDataRow'
+  - uid: '@ms/sp-chart-webparts.getPositiveDataRows'
+    name: getPositiveDataRows
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >
+      Get an array of data rows with positive values.
+
+      All the values are equal or greater than 100, it will not be the same with
+      the number in `getRandomNumberDataRows`.
+    syntax:
+      content: 'function getPositiveDataRows(length: number)'
+      parameters:
+        - id: length
+          type:
+            - number
+          description: ''
+  - uid: '@ms/sp-chart-webparts.getQuickChartOptions'
+    name: getQuickChartOptions
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Generate Highcharts options based on web part properties.
+    syntax:
+      content: 'function getQuickChartOptions(props: IQuickChartProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-chart-webparts.IQuickChartProps'
+          description: ''
+      return:
+        type:
+          - Options
+  - uid: '@ms/sp-chart-webparts.getRandomNumberDataRow'
+    name: getRandomNumberDataRow
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getRandomNumberDataRow()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-chart-webparts.IQuickChartDataRow'
+  - uid: '@ms/sp-chart-webparts.getRandomNumberDataRows'
+    name: getRandomNumberDataRows
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >
+      Get an array of data rows with random values.
+
+      All the values are random numbers between -100 and 100,
+
+      it will not be the same with the number in 'getPositiveDataRows' or
+      'getNegativeDataRows'.
+    syntax:
+      content: 'function getRandomNumberDataRows(length: number)'
+      parameters:
+        - id: length
+          type:
+            - number
+          description: ''
+  - uid: '@ms/sp-chart-webparts.getTextFieldErrorMessage'
+    name: getTextFieldErrorMessage
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Get error message for the value under the specific chart type.
+
+      E.g. Invalid number not allowed to any chart. Negative number not allowed
+      to pie chart.
+    syntax:
+      content: >-
+        function getTextFieldErrorMessage(chartType: QuickChartType, value:
+        string)
+      parameters:
+        - id: chartType
+          type:
+            - QuickChartType
+          description: ''
+        - id: value
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-chart-webparts.getWebPartProps'
+    name: getWebPartProps
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getWebPartProps(customWebPartProps: ICustomWebPartProps)'
+      parameters:
+        - id: customWebPartProps
+          type:
+            - '@@ms/sp-chart-webparts.ICustomWebPartProps'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-chart-webparts.IQuickChartWebPartProps'
+  - uid: '@ms/sp-chart-webparts.pieChartDataLabelFormatter'
+    name: pieChartDataLabelFormatter
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function pieChartDataLabelFormatter()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-chart-webparts.truncateText'
+    name: truncateText
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Truncate the text under the limit of width or height.
+    syntax:
+      content: >-
+        function truncateText(element: HTMLSpanElement, maxAllowedSize: number,
+        direction: TextDirection)
+      parameters:
+        - id: element
+          type:
+            - HTMLSpanElement
+          description: it the container in which the text will be rendered.
+        - id: maxAllowedSize
+          type:
+            - number
+          description: >-
+            is max allowed size for rendering the text.
+
+            It should be width if direction is horizontal. And it should be
+            height if derection is vertical.
+        - id: direction
+          type:
+            - TextDirection
+          description: 'of this element, horizontal or vertical.'
+      return:
+        type:
+          - string

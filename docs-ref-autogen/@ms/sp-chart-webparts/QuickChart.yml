@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-chart-webparts.QuickChart'
+    name: QuickChart
+    fullName: QuickChart
+    children:
+      - '@ms/sp-chart-webparts.QuickChart.constructor'
+      - '@ms/sp-chart-webparts.QuickChart.render'
+    langs:
+      - typeScript
+    type: class
+    summary: Quick chart root component.
+    extends:
+      name: >-
+        @@ms/sp-chart-webparts.QuickChart<@@ms/sp-chart-webparts.IQuickChartProps>
+    package: '@ms/sp-chart-webparts'
+  - uid: '@ms/sp-chart-webparts.QuickChart.constructor'
+    name: QuickChart
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new QuickChart(props: IQuickChartProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-chart-webparts.IQuickChartProps'
+          description: ''
+  - uid: '@ms/sp-chart-webparts.QuickChart.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []

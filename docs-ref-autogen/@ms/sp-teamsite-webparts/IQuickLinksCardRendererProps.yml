@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksCardRendererProps'
+    name: IQuickLinksCardRendererProps
+    fullName: IQuickLinksCardRendererProps
+    children:
+      - '@ms/sp-teamsite-webparts.IQuickLinksCardRendererProps.getDispatcher'
+      - '@ms/sp-teamsite-webparts.IQuickLinksCardRendererProps.getIsEdit'
+      - '@ms/sp-teamsite-webparts.IQuickLinksCardRendererProps.getProvider'
+      - '@ms/sp-teamsite-webparts.IQuickLinksCardRendererProps.onAdd'
+      - '@ms/sp-teamsite-webparts.IQuickLinksCardRendererProps.onEditItem'
+      - '@ms/sp-teamsite-webparts.IQuickLinksCardRendererProps.onRemoveItem'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksCardRendererProps.getDispatcher'
+    name: getDispatcher
+    fullName: getDispatcher
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => IQuickLinksDispatcher getDispatcher
+      return:
+        type:
+          - () => IQuickLinksDispatcher
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksCardRendererProps.getIsEdit'
+    name: getIsEdit
+    fullName: getIsEdit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => boolean getIsEdit
+      return:
+        type:
+          - () => boolean
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksCardRendererProps.getProvider'
+    name: getProvider
+    fullName: getProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => IQuickLinksProvider getProvider
+      return:
+        type:
+          - () => IQuickLinksProvider
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksCardRendererProps.onAdd'
+    name: onAdd
+    fullName: onAdd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onAdd
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksCardRendererProps.onEditItem'
+    name: onEditItem
+    fullName: onEditItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(index: number) => void onEditItem'
+      return:
+        type:
+          - '(index: number) => void'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksCardRendererProps.onRemoveItem'
+    name: onRemoveItem
+    fullName: onRemoveItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(index: number) => void onRemoveItem'
+      return:
+        type:
+          - '(index: number) => void'

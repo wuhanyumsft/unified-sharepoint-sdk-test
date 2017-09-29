@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.DocumentQueryParametersDictionary'
+    name: DocumentQueryParametersDictionary
+    fullName: DocumentQueryParametersDictionary
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Dictionary which will have reference to the QueryParameters of all the
+      document types.
+    package: '@ms/sp-publishing-webparts'

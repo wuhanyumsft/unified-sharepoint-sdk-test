@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.IBrowserCompatibility'
+    name: IBrowserCompatibility
+    fullName: IBrowserCompatibility
+    children:
+      - '@microsoft/sp-core-library.IBrowserCompatibility.supportLevel'
+      - '@microsoft/sp-core-library.IBrowserCompatibility.warning'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Used to report the level of support for the web browser, along with a
+      warning message.
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.IBrowserCompatibility.supportLevel'
+    name: supportLevel
+    fullName: supportLevel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Support level: Enum defining the level of support.'
+    syntax:
+      content: BrowserSupportLevel supportLevel
+      return:
+        type:
+          - BrowserSupportLevel
+  - uid: '@microsoft/sp-core-library.IBrowserCompatibility.warning'
+    name: warning
+    fullName: warning
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Warning: Optional. Localized message to show explaining the cause of the
+      support level.
+
+      Examples:
+
+      (Support level: Blocked) "Component blocked because the browser does not
+      support feature X"
+
+      (Support level: Readable) "Limited functionality: Feature X is disabled"
+    syntax:
+      content: string warning
+      return:
+        type:
+          - string

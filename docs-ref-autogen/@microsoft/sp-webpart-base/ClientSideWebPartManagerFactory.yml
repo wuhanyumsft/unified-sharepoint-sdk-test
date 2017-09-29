@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.ClientSideWebPartManagerFactory'
+    name: ClientSideWebPartManagerFactory
+    fullName: ClientSideWebPartManagerFactory
+    children:
+      - '@microsoft/sp-webpart-base.ClientSideWebPartManagerFactory.create'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      The ClientSideWebPartManagerFactory is the web part manager instance used
+      when the web parts are rendered in maintenance mode.
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.ClientSideWebPartManagerFactory.create'
+    name: create
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function create(host: IWebPartHost)'
+      parameters:
+        - id: host
+          type:
+            - '@@microsoft/sp-webpart-base.IWebPartHost'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.ClientSideWebPartManager'

@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ClassicPubNavProviderType'
+    name: ClassicPubNavProviderType
+    fullName: ClassicPubNavProviderType
+    children:
+      - '@ms/sp-pages.ClassicPubNavProviderType.InvalidSiteMapProvider'
+      - '@ms/sp-pages.ClassicPubNavProviderType.PortalSiteMapProvider'
+      - '@ms/sp-pages.ClassicPubNavProviderType.TaxonomySiteMapProvider'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ClassicPubNavProviderType.InvalidSiteMapProvider'
+    name: InvalidSiteMapProvider
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+  - uid: '@ms/sp-pages.ClassicPubNavProviderType.PortalSiteMapProvider'
+    name: PortalSiteMapProvider
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-pages.ClassicPubNavProviderType.TaxonomySiteMapProvider'
+    name: TaxonomySiteMapProvider
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2

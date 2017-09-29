@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.ISplitResxJsonTaskConfig'
+    name: ISplitResxJsonTaskConfig
+    fullName: ISplitResxJsonTaskConfig
+    children:
+      - '@ms/sp-build-internal-tasks.ISplitResxJsonTaskConfig.input'
+      - '@ms/sp-build-internal-tasks.ISplitResxJsonTaskConfig.output'
+      - '@ms/sp-build-internal-tasks.ISplitResxJsonTaskConfig.repo'
+    langs:
+      - typeScript
+    type: interface
+    summary: Configuration options for the SplitResxJson task
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.ISplitResxJsonTaskConfig.input'
+    name: input
+    fullName: input
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function input
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-build-internal-tasks.ISplitResxJsonTaskConfig.output'
+    name: output
+    fullName: output
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function output
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-build-internal-tasks.ISplitResxJsonTaskConfig.repo'
+    name: repo
+    fullName: repo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If true, don't write files to disk. Instead, write them to task state to
+      be pushed directly to the repo.
+    syntax:
+      content: boolean repo
+      return:
+        type:
+          - boolean

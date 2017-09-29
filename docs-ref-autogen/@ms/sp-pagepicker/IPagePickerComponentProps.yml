@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pagepicker.IPagePickerComponentProps'
+    name: IPagePickerComponentProps
+    fullName: IPagePickerComponentProps
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-pagepicker'

@@ -1,0 +1,249 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISiteManagementState'
+    name: ISiteManagementState
+    fullName: ISiteManagementState
+    children:
+      - '@ms/sp-tenant-admin-page.ISiteManagementState.columnMenuKey'
+      - '@ms/sp-tenant-admin-page.ISiteManagementState.columns'
+      - '@ms/sp-tenant-admin-page.ISiteManagementState.data'
+      - '@ms/sp-tenant-admin-page.ISiteManagementState.nextSitePageLink'
+      - '@ms/sp-tenant-admin-page.ISiteManagementState.notification'
+      - '@ms/sp-tenant-admin-page.ISiteManagementState.query'
+      - '@ms/sp-tenant-admin-page.ISiteManagementState.selectedView'
+      - '@ms/sp-tenant-admin-page.ISiteManagementState.selections'
+      - '@ms/sp-tenant-admin-page.ISiteManagementState.showColumnsEditor'
+      - '@ms/sp-tenant-admin-page.ISiteManagementState.showCreateSitePanel'
+      - '@ms/sp-tenant-admin-page.ISiteManagementState.showFilterPane'
+      - '@ms/sp-tenant-admin-page.ISiteManagementState.showSaveViewDialog'
+      - '@ms/sp-tenant-admin-page.ISiteManagementState.showSharingPoliciesPanel'
+      - '@ms/sp-tenant-admin-page.ISiteManagementState.showSiteInfoPane'
+      - '@ms/sp-tenant-admin-page.ISiteManagementState.siteUpdateInfoItems'
+      - '@ms/sp-tenant-admin-page.ISiteManagementState.viewModified'
+      - '@ms/sp-tenant-admin-page.ISiteManagementState.views'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ISiteManagementState.columnMenuKey'
+    name: columnMenuKey
+    fullName: columnMenuKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string columnMenuKey
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteManagementState.columns'
+    name: columns
+    fullName: columns
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IColumnState[] columns'
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IColumnState[]'
+  - uid: '@ms/sp-tenant-admin-page.ISiteManagementState.data'
+    name: data
+    fullName: data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IDataState data
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IDataState'
+  - uid: '@ms/sp-tenant-admin-page.ISiteManagementState.nextSitePageLink'
+    name: nextSitePageLink
+    fullName: nextSitePageLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string nextSitePageLink
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteManagementState.notification'
+    name: notification
+    fullName: notification
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: INotificationState notification
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.INotificationState'
+  - uid: '@ms/sp-tenant-admin-page.ISiteManagementState.query'
+    name: query
+    fullName: query
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISiteQueryConditions query
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISiteQueryConditions'
+  - uid: '@ms/sp-tenant-admin-page.ISiteManagementState.selectedView'
+    name: selectedView
+    fullName: selectedView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string selectedView
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteManagementState.selections'
+    name: selections
+    fullName: selections
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] selections'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-tenant-admin-page.ISiteManagementState.showColumnsEditor'
+    name: showColumnsEditor
+    fullName: showColumnsEditor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showColumnsEditor
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.ISiteManagementState.showCreateSitePanel'
+    name: showCreateSitePanel
+    fullName: showCreateSitePanel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showCreateSitePanel
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.ISiteManagementState.showFilterPane'
+    name: showFilterPane
+    fullName: showFilterPane
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showFilterPane
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.ISiteManagementState.showSaveViewDialog'
+    name: showSaveViewDialog
+    fullName: showSaveViewDialog
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showSaveViewDialog
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.ISiteManagementState.showSharingPoliciesPanel'
+    name: showSharingPoliciesPanel
+    fullName: showSharingPoliciesPanel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showSharingPoliciesPanel
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.ISiteManagementState.showSiteInfoPane'
+    name: showSiteInfoPane
+    fullName: showSiteInfoPane
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showSiteInfoPane
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.ISiteManagementState.siteUpdateInfoItems'
+    name: siteUpdateInfoItems
+    fullName: siteUpdateInfoItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ISiteUpdateInfo[] siteUpdateInfoItems'
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISiteUpdateInfo[]'
+  - uid: '@ms/sp-tenant-admin-page.ISiteManagementState.viewModified'
+    name: viewModified
+    fullName: viewModified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean viewModified
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.ISiteManagementState.views'
+    name: views
+    fullName: views
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: string]: IView views'
+      return:
+        type:
+          - '[key: string]: @@ms/sp-tenant-admin-page.IView'

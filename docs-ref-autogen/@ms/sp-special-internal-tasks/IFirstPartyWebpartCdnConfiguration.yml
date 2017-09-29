@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-special-internal-tasks.IFirstPartyWebpartCdnConfiguration'
+    name: IFirstPartyWebpartCdnConfiguration
+    fullName: IFirstPartyWebpartCdnConfiguration
+    children:
+      - >-
+        @ms/sp-special-internal-tasks.IFirstPartyWebpartCdnConfiguration.ClientSideWebPartId
+      - '@ms/sp-special-internal-tasks.IFirstPartyWebpartCdnConfiguration.Data'
+      - >-
+        @ms/sp-special-internal-tasks.IFirstPartyWebpartCdnConfiguration.FlightName
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-special-internal-tasks'
+  - uid: >-
+      @ms/sp-special-internal-tasks.IFirstPartyWebpartCdnConfiguration.ClientSideWebPartId
+    name: ClientSideWebPartId
+    fullName: ClientSideWebPartId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ClientSideWebPartId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-special-internal-tasks.IFirstPartyWebpartCdnConfiguration.Data'
+    name: Data
+    fullName: Data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Object Data
+      return:
+        type:
+          - Object
+  - uid: >-
+      @ms/sp-special-internal-tasks.IFirstPartyWebpartCdnConfiguration.FlightName
+    name: FlightName
+    fullName: FlightName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string FlightName
+      return:
+        type:
+          - string

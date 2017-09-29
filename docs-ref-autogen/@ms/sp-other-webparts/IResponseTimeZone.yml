@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-other-webparts.IResponseTimeZone'
+    name: IResponseTimeZone
+    fullName: IResponseTimeZone
+    children:
+      - '@ms/sp-other-webparts.IResponseTimeZone.Location'
+      - '@ms/sp-other-webparts.IResponseTimeZone.UtcOffset'
+    langs:
+      - typeScript
+    type: interface
+    summary: 'Cleaned up response, but utcOffset is not parsed.'
+    package: '@ms/sp-other-webparts'
+  - uid: '@ms/sp-other-webparts.IResponseTimeZone.Location'
+    name: Location
+    fullName: Location
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Location
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-other-webparts.IResponseTimeZone.UtcOffset'
+    name: UtcOffset
+    fullName: UtcOffset
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string UtcOffset
+      return:
+        type:
+          - string

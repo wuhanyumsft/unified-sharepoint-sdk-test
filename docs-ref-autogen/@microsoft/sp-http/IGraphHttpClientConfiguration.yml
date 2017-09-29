@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.IGraphHttpClientConfiguration'
+    name: IGraphHttpClientConfiguration
+    fullName: IGraphHttpClientConfiguration
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: Flags interface for GraphHttpClientCommonConfiguration
+    extends:
+      name: '@@microsoft/sp-http.IHttpClientConfiguration'
+    package: '@microsoft/sp-http'

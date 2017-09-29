@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/listview-spfx-host.IRowAdapter'
+    name: IRowAdapter
+    fullName: IRowAdapter
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      This object is provided by the SPFx host, obtained via
+      IListViewAdapter.createRowAdapter().
+
+      It stores the SPListItem displayed by the ListView.
+    package: '@ms/listview-spfx-host'

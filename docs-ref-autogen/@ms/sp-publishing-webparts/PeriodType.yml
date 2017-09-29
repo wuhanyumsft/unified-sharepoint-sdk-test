@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.PeriodType'
+    name: PeriodType
+    fullName: PeriodType
+    children:
+      - '@ms/sp-publishing-webparts.PeriodType.Past'
+      - '@ms/sp-publishing-webparts.PeriodType.Upcoming'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.PeriodType.Past'
+    name: Past
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-publishing-webparts.PeriodType.Upcoming'
+    name: Upcoming
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

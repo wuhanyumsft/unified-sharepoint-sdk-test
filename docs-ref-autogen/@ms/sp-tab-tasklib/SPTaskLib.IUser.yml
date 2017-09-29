@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IUser'
+    name: IUser
+    fullName: IUser
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.IUser.email'
+      - '@ms/sp-tab-tasklib.SPTaskLib.IUser.isSiteAdmin'
+      - '@ms/sp-tab-tasklib.SPTaskLib.IUser.loginName'
+      - '@ms/sp-tab-tasklib.SPTaskLib.IUser.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IUser.email'
+    name: email
+    fullName: email
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string email
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IUser.isSiteAdmin'
+    name: isSiteAdmin
+    fullName: isSiteAdmin
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSiteAdmin
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IUser.loginName'
+    name: loginName
+    fullName: loginName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string loginName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IUser.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IServerAuthorField'
+    name: IServerAuthorField
+    fullName: IServerAuthorField
+    children:
+      - '@ms/sp-teamsite-webparts.IServerAuthorField.email'
+      - '@ms/sp-teamsite-webparts.IServerAuthorField.id'
+      - '@ms/sp-teamsite-webparts.IServerAuthorField.picture'
+      - '@ms/sp-teamsite-webparts.IServerAuthorField.sid'
+      - '@ms/sp-teamsite-webparts.IServerAuthorField.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IServerAuthorField.email'
+    name: email
+    fullName: email
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string email
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IServerAuthorField.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IServerAuthorField.picture'
+    name: picture
+    fullName: picture
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string picture
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IServerAuthorField.sid'
+    name: sid
+    fullName: sid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string sid
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IServerAuthorField.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

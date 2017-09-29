@@ -1,0 +1,501 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds'
+    name: SuiteNavLinkIds
+    fullName: SuiteNavLinkIds
+    children:
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.ABOUT_ME'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.ADD_APP'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.ALCHEMY'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.CALENDAR'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.COMMUNITY'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.CREATE_PAGE'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.CUSTOM_SETTINGS_1'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.CUSTOM_SETTINGS_2'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.CUSTOM_SETTINGS_3'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.DELVE'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.DIAGNOSTICS'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.EXCEL'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.FEEDBACK'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.HELP'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.LEGAL'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.MAIL'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.MY_SETTINGS'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.O365_SETTINGS'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.ONEDRIVE'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.ONENOTE'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.PEOPLE'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.POWERPOINT'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.POWER_BI'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.PRIVACY'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.SETTINGS'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.SIGN_OUT'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.SITES'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.SITE_CONTENTS'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.SITE_SETTINGS'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.SMILE'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.TASKS'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.USER_ACTIVITY'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.VIDEO'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.WORD'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.YAMMER'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.ABOUT_ME'
+    name: ABOUT_ME
+    fullName: ABOUT_ME
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string ABOUT_ME
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.ADD_APP'
+    name: ADD_APP
+    fullName: ADD_APP
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string ADD_APP
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.ALCHEMY'
+    name: ALCHEMY
+    fullName: ALCHEMY
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string ALCHEMY
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.CALENDAR'
+    name: CALENDAR
+    fullName: CALENDAR
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string CALENDAR
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.COMMUNITY'
+    name: COMMUNITY
+    fullName: COMMUNITY
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string COMMUNITY
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.CREATE_PAGE'
+    name: CREATE_PAGE
+    fullName: CREATE_PAGE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string CREATE_PAGE
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.CUSTOM_SETTINGS_1'
+    name: CUSTOM_SETTINGS_1
+    fullName: CUSTOM_SETTINGS_1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string CUSTOM_SETTINGS_1
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.CUSTOM_SETTINGS_2'
+    name: CUSTOM_SETTINGS_2
+    fullName: CUSTOM_SETTINGS_2
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string CUSTOM_SETTINGS_2
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.CUSTOM_SETTINGS_3'
+    name: CUSTOM_SETTINGS_3
+    fullName: CUSTOM_SETTINGS_3
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string CUSTOM_SETTINGS_3
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.DELVE'
+    name: DELVE
+    fullName: DELVE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string DELVE
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.DIAGNOSTICS'
+    name: DIAGNOSTICS
+    fullName: DIAGNOSTICS
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string DIAGNOSTICS
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.EXCEL'
+    name: EXCEL
+    fullName: EXCEL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string EXCEL
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.FEEDBACK'
+    name: FEEDBACK
+    fullName: FEEDBACK
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FEEDBACK
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.HELP'
+    name: HELP
+    fullName: HELP
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string HELP
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.LEGAL'
+    name: LEGAL
+    fullName: LEGAL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string LEGAL
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.MAIL'
+    name: MAIL
+    fullName: MAIL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string MAIL
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.MY_SETTINGS'
+    name: MY_SETTINGS
+    fullName: MY_SETTINGS
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string MY_SETTINGS
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.O365_SETTINGS'
+    name: O365_SETTINGS
+    fullName: O365_SETTINGS
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string O365_SETTINGS
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.ONEDRIVE'
+    name: ONEDRIVE
+    fullName: ONEDRIVE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string ONEDRIVE
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.ONENOTE'
+    name: ONENOTE
+    fullName: ONENOTE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string ONENOTE
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.PEOPLE'
+    name: PEOPLE
+    fullName: PEOPLE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string PEOPLE
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.POWERPOINT'
+    name: POWERPOINT
+    fullName: POWERPOINT
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string POWERPOINT
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.POWER_BI'
+    name: POWER_BI
+    fullName: POWER_BI
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string POWER_BI
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.PRIVACY'
+    name: PRIVACY
+    fullName: PRIVACY
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string PRIVACY
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.SETTINGS'
+    name: SETTINGS
+    fullName: SETTINGS
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SETTINGS
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.SIGN_OUT'
+    name: SIGN_OUT
+    fullName: SIGN_OUT
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SIGN_OUT
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.SITES'
+    name: SITES
+    fullName: SITES
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SITES
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.SITE_CONTENTS'
+    name: SITE_CONTENTS
+    fullName: SITE_CONTENTS
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SITE_CONTENTS
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.SITE_SETTINGS'
+    name: SITE_SETTINGS
+    fullName: SITE_SETTINGS
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SITE_SETTINGS
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.SMILE'
+    name: SMILE
+    fullName: SMILE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SMILE
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.TASKS'
+    name: TASKS
+    fullName: TASKS
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string TASKS
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.USER_ACTIVITY'
+    name: USER_ACTIVITY
+    fullName: USER_ACTIVITY
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string USER_ACTIVITY
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.VIDEO'
+    name: VIDEO
+    fullName: VIDEO
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string VIDEO
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.WORD'
+    name: WORD
+    fullName: WORD
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string WORD
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.YAMMER'
+    name: YAMMER
+    fullName: YAMMER
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string YAMMER
+      return:
+        type:
+          - string

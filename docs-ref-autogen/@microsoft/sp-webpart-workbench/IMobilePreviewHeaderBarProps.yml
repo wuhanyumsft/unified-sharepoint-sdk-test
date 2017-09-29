@@ -1,0 +1,71 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-workbench.IMobilePreviewHeaderBarProps'
+    name: IMobilePreviewHeaderBarProps
+    fullName: IMobilePreviewHeaderBarProps
+    children:
+      - >-
+        @microsoft/sp-webpart-workbench.IMobilePreviewHeaderBarProps.onChangeDeviceType
+      - '@microsoft/sp-webpart-workbench.IMobilePreviewHeaderBarProps.onChangeURL'
+      - >-
+        @microsoft/sp-webpart-workbench.IMobilePreviewHeaderBarProps.onClickURLSubmit
+      - '@microsoft/sp-webpart-workbench.IMobilePreviewHeaderBarProps.onExit'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-webpart-workbench'
+  - uid: >-
+      @microsoft/sp-webpart-workbench.IMobilePreviewHeaderBarProps.onChangeDeviceType
+    name: onChangeDeviceType
+    fullName: onChangeDeviceType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(type: DeviceType) => void onChangeDeviceType'
+      return:
+        type:
+          - '(type: DeviceType) => void'
+  - uid: '@microsoft/sp-webpart-workbench.IMobilePreviewHeaderBarProps.onChangeURL'
+    name: onChangeURL
+    fullName: onChangeURL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(value: string) => void onChangeURL'
+      return:
+        type:
+          - '(value: string) => void'
+  - uid: >-
+      @microsoft/sp-webpart-workbench.IMobilePreviewHeaderBarProps.onClickURLSubmit
+    name: onClickURLSubmit
+    fullName: onClickURLSubmit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onClickURLSubmit
+      return:
+        type:
+          - () => void
+  - uid: '@microsoft/sp-webpart-workbench.IMobilePreviewHeaderBarProps.onExit'
+    name: onExit
+    fullName: onExit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onExit
+      return:
+        type:
+          - () => void

@@ -1,0 +1,227 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IEventCardProps'
+    name: IEventCardProps
+    fullName: IEventCardProps
+    children:
+      - '@ms/sp-publishing-webparts.IEventCardProps.ariaLabel'
+      - '@ms/sp-publishing-webparts.IEventCardProps.category'
+      - '@ms/sp-publishing-webparts.IEventCardProps.detailsLink'
+      - '@ms/sp-publishing-webparts.IEventCardProps.endDate'
+      - '@ms/sp-publishing-webparts.IEventCardProps.formatDate'
+      - '@ms/sp-publishing-webparts.IEventCardProps.getAddToCalendarButtonProps'
+      - '@ms/sp-publishing-webparts.IEventCardProps.getEmptyStateOptions'
+      - '@ms/sp-publishing-webparts.IEventCardProps.id'
+      - '@ms/sp-publishing-webparts.IEventCardProps.isCompactCard'
+      - '@ms/sp-publishing-webparts.IEventCardProps.listId'
+      - '@ms/sp-publishing-webparts.IEventCardProps.location'
+      - '@ms/sp-publishing-webparts.IEventCardProps.normalCardWidth'
+      - '@ms/sp-publishing-webparts.IEventCardProps.onClick'
+      - '@ms/sp-publishing-webparts.IEventCardProps.startDate'
+      - '@ms/sp-publishing-webparts.IEventCardProps.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IEventCardProps.ariaLabel'
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Description of this card for visually impaired people.
+    syntax:
+      content: string ariaLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEventCardProps.category'
+    name: category
+    fullName: category
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Event Category.
+    syntax:
+      content: string category
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEventCardProps.detailsLink'
+    name: detailsLink
+    fullName: detailsLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Link to event details page.
+    syntax:
+      content: string detailsLink
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEventCardProps.endDate'
+    name: endDate
+    fullName: endDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Event end date that displays on date box.
+    syntax:
+      content: Date endDate
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.IEventCardProps.formatDate'
+    name: formatDate
+    fullName: formatDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Callback method to format the date to a date time string, e.g. 'Tuesday
+      12:00 am - 1:00 pm'.
+    syntax:
+      content: '(date: Date) => string formatDate'
+      return:
+        type:
+          - '(date: Date) => string'
+  - uid: '@ms/sp-publishing-webparts.IEventCardProps.getAddToCalendarButtonProps'
+    name: getAddToCalendarButtonProps
+    fullName: getAddToCalendarButtonProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback to get button properties for add to calendar button.
+    syntax:
+      content: () => IButtonProps getAddToCalendarButtonProps
+      return:
+        type:
+          - () => IButtonProps
+  - uid: '@ms/sp-publishing-webparts.IEventCardProps.getEmptyStateOptions'
+    name: getEmptyStateOptions
+    fullName: getEmptyStateOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Callback to get empty state event card options.
+      If provided, the event card will be considered as empty state card.
+    syntax:
+      content: () => IEventCardEmptyStateOptions getEmptyStateOptions
+      return:
+        type:
+          - () => IEventCardEmptyStateOptions
+  - uid: '@ms/sp-publishing-webparts.IEventCardProps.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Event id.
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEventCardProps.isCompactCard'
+    name: isCompactCard
+    fullName: isCompactCard
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Set to true if render event card in compact mode.
+    syntax:
+      content: boolean isCompactCard
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IEventCardProps.listId'
+    name: listId
+    fullName: listId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Events list id where the event belongs to.
+    syntax:
+      content: string listId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEventCardProps.location'
+    name: location
+    fullName: location
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Event location.
+    syntax:
+      content: string location
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEventCardProps.normalCardWidth'
+    name: normalCardWidth
+    fullName: normalCardWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Width of the normal card to render.
+    syntax:
+      content: number normalCardWidth
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IEventCardProps.onClick'
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Function to call when the card is clicked or keyboard Enter/Space is
+      pushed.
+    syntax:
+      content: '(ev: SyntheticEvent<HTMLElement>) => void onClick'
+      return:
+        type:
+          - '(ev: SyntheticEvent<HTMLElement>) => void'
+  - uid: '@ms/sp-publishing-webparts.IEventCardProps.startDate'
+    name: startDate
+    fullName: startDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Event start date that displays on date box.
+    syntax:
+      content: Date startDate
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.IEventCardProps.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Event title.
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

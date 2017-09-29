@@ -1,0 +1,131 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-other-webparts.IWorldClockWebPartProps'
+    name: IWorldClockWebPartProps
+    fullName: IWorldClockWebPartProps
+    children:
+      - '@ms/sp-other-webparts.IWorldClockWebPartProps.clockList'
+      - '@ms/sp-other-webparts.IWorldClockWebPartProps.displayMode'
+      - '@ms/sp-other-webparts.IWorldClockWebPartProps.homeZoneClockId'
+      - '@ms/sp-other-webparts.IWorldClockWebPartProps.homeZoneOffset'
+      - '@ms/sp-other-webparts.IWorldClockWebPartProps.is24'
+      - '@ms/sp-other-webparts.IWorldClockWebPartProps.isAnalog'
+      - '@ms/sp-other-webparts.IWorldClockWebPartProps.paneIsHome'
+      - '@ms/sp-other-webparts.IWorldClockWebPartProps.selectedCityPath'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-other-webparts'
+  - uid: '@ms/sp-other-webparts.IWorldClockWebPartProps.clockList'
+    name: clockList
+    fullName: clockList
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The list of user's clocks.
+    syntax:
+      content: 'IWorldClockItem[] clockList'
+      return:
+        type:
+          - '@@ms/sp-other-webparts.IWorldClockItem[]'
+  - uid: '@ms/sp-other-webparts.IWorldClockWebPartProps.displayMode'
+    name: displayMode
+    fullName: displayMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The display mode for the world clock component. It is either Read or Edit.
+    syntax:
+      content: DisplayMode displayMode
+      return:
+        type:
+          - DisplayMode
+  - uid: '@ms/sp-other-webparts.IWorldClockWebPartProps.homeZoneClockId'
+    name: homeZoneClockId
+    fullName: homeZoneClockId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Id of user's home clock.
+    syntax:
+      content: string homeZoneClockId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-other-webparts.IWorldClockWebPartProps.homeZoneOffset'
+    name: homeZoneOffset
+    fullName: homeZoneOffset
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Number representation of user's home timezone UTC offset in milliseconds.
+    syntax:
+      content: number homeZoneOffset
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-other-webparts.IWorldClockWebPartProps.is24'
+    name: is24
+    fullName: is24
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Tells whether clocks display time in 12 or 24 hour format.
+    syntax:
+      content: boolean is24
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-other-webparts.IWorldClockWebPartProps.isAnalog'
+    name: isAnalog
+    fullName: isAnalog
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Tells whether clocks are digital or analog.
+    syntax:
+      content: boolean isAnalog
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-other-webparts.IWorldClockWebPartProps.paneIsHome'
+    name: paneIsHome
+    fullName: paneIsHome
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Checkbox indicating whether a clock is considered to be the user's home
+      timezone.
+
+      Add clock pane: empty.
+
+      Edit clock pane: same as the isHome property of the clock we are editing.
+    syntax:
+      content: boolean paneIsHome
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-other-webparts.IWorldClockWebPartProps.selectedCityPath'
+    name: selectedCityPath
+    fullName: selectedCityPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Variable representing the city to be displayed in the dropdown in the
+      property pane.
+    syntax:
+      content: string selectedCityPath
+      return:
+        type:
+          - string

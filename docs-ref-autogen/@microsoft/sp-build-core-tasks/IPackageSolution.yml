@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IPackageSolution'
+    name: IPackageSolution
+    fullName: IPackageSolution
+    children:
+      - '@microsoft/sp-build-core-tasks.IPackageSolution.$schema'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@microsoft/sp-build-core-tasks.IPackageSolutionTaskConfig'
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.IPackageSolution.$schema'
+    name: $schema
+    fullName: $schema
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string $schema
+      return:
+        type:
+          - string

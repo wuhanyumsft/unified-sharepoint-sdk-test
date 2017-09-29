@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ColumnValueType'
+    name: ColumnValueType
+    fullName: ColumnValueType
+    children:
+      - '@ms/sp-tenant-admin-page.ColumnValueType.TEXT'
+      - '@ms/sp-tenant-admin-page.ColumnValueType.NUMBER'
+      - '@ms/sp-tenant-admin-page.ColumnValueType.DATE'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ColumnValueType.TEXT'
+    name: TEXT
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+  - uid: '@ms/sp-tenant-admin-page.ColumnValueType.NUMBER'
+    name: NUMBER
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-tenant-admin-page.ColumnValueType.DATE'
+    name: DATE
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2

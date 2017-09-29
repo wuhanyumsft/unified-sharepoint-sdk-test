@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/test-extensions.Global'
+    package: '@ms/test-extensions'
+    name: Global
+    children:
+      - '@ms/test-extensions.layoutChangedEventHandler'
+      - '@ms/test-extensions.navigatedEventHandler'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@ms/test-extensions.layoutChangedEventHandler'
+    name: layoutChangedEventHandler
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function layoutChangedEventHandler(eventArgs: __type)'
+      parameters:
+        - id: eventArgs
+          type:
+            - __type
+          description: ''
+  - uid: '@ms/test-extensions.navigatedEventHandler'
+    name: navigatedEventHandler
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function navigatedEventHandler(eventArgs: __type)'
+      parameters:
+        - id: eventArgs
+          type:
+            - __type
+          description: ''

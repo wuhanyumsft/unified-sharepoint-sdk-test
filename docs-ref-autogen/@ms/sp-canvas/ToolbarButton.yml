@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ToolbarButton'
+    name: ToolbarButton
+    fullName: ToolbarButton
+    children:
+      - '@ms/sp-canvas.ToolbarButton.render'
+      - '@ms/sp-canvas.ToolbarButton.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: The button component used by toolbars on the Canvas.
+    extends:
+      name: '@@ms/sp-canvas.ToolbarButton<@@ms/sp-canvas.IToolbarButtonProps>'
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ToolbarButton.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Renders ToolbarButton
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@ms/sp-canvas.IToolbarButtonProps>
+  - uid: '@ms/sp-canvas.ToolbarButton.constructor'
+    name: ToolbarButton
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Constructs an instance of ToolbarButton
+    syntax:
+      content: 'new ToolbarButton(props: IToolbarButtonProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-canvas.IToolbarButtonProps'
+          description: ''

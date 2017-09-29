@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.IToolboxChromeProps'
+    name: IToolboxChromeProps
+    fullName: IToolboxChromeProps
+    children:
+      - '@ms/sp-canvas-toolbox.IToolboxChromeProps.className'
+      - '@ms/sp-canvas-toolbox.IToolboxChromeProps.commandBar'
+      - '@ms/sp-canvas-toolbox.IToolboxChromeProps.farButton'
+      - '@ms/sp-canvas-toolbox.IToolboxChromeProps.onEscape'
+      - '@ms/sp-canvas-toolbox.IToolboxChromeProps.onSearch'
+      - '@ms/sp-canvas-toolbox.IToolboxChromeProps.searchQuery'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas-toolbox'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxChromeProps.className'
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string className
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas-toolbox.IToolboxChromeProps.commandBar'
+    name: commandBar
+    fullName: commandBar
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ICommandBarProps commandBar
+      return:
+        type:
+          - ICommandBarProps
+  - uid: '@ms/sp-canvas-toolbox.IToolboxChromeProps.farButton'
+    name: farButton
+    fullName: farButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IButtonProps farButton
+      return:
+        type:
+          - IButtonProps
+  - uid: '@ms/sp-canvas-toolbox.IToolboxChromeProps.onEscape'
+    name: onEscape
+    fullName: onEscape
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onEscape
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-canvas-toolbox.IToolboxChromeProps.onSearch'
+    name: onSearch
+    fullName: onSearch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(value: string) => void onSearch'
+      return:
+        type:
+          - '(value: string) => void'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxChromeProps.searchQuery'
+    name: searchQuery
+    fullName: searchQuery
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string searchQuery
+      return:
+        type:
+          - string

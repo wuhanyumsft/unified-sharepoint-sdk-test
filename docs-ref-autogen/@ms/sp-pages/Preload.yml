@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.Preload'
+    name: Preload
+    fullName: Preload
+    children:
+      - '@ms/sp-pages.Preload.isPreloadPage'
+      - '@ms/sp-pages.Preload.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.Preload'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.Preload.isPreloadPage'
+    name: isPreloadPage
+    fullName: isPreloadPage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isPreloadPage
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.Preload.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

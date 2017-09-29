@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.PropertyPaneTagPicker'
+    name: PropertyPaneTagPicker
+    fullName: PropertyPaneTagPicker
+    children:
+      - '@ms/sp-publishing-webparts.PropertyPaneTagPicker.constructor'
+      - '@ms/sp-publishing-webparts.PropertyPaneTagPicker.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.PropertyPaneTagPicker<@@ms/sp-publishing-webparts.IPropertyPaneTagPickerProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.PropertyPaneTagPicker.constructor'
+    name: PropertyPaneTagPicker
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PropertyPaneTagPicker(props: IPropertyPaneTagPickerProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IPropertyPaneTagPickerProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.PropertyPaneTagPicker.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

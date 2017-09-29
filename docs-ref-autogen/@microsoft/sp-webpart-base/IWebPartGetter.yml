@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IWebPartGetter'
+    name: IWebPartGetter
+    fullName: IWebPartGetter
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: Type definition of the web part getter delegate.
+    package: '@microsoft/sp-webpart-base'

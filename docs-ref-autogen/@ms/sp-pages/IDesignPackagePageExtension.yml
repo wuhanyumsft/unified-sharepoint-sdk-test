@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IDesignPackagePageExtension'
+    name: IDesignPackagePageExtension
+    fullName: IDesignPackagePageExtension
+    children:
+      - '@ms/sp-pages.IDesignPackagePageExtension.layouts'
+      - '@ms/sp-pages.IDesignPackagePageExtension.templates'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      The extra properties added to IPageDesignPackage that aren't already in
+      IDesignPackage
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IDesignPackagePageExtension.layouts'
+    name: layouts
+    fullName: layouts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'PageLayout[] layouts'
+      return:
+        type:
+          - 'PageLayout[]'
+  - uid: '@ms/sp-pages.IDesignPackagePageExtension.templates'
+    name: templates
+    fullName: templates
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Map<string> templates
+      return:
+        type:
+          - Map<string>

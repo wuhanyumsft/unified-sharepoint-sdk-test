@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/article-site-demo.ArticleFieldIds'
+    name: ArticleFieldIds
+    fullName: ArticleFieldIds
+    children:
+      - '@ms/article-site-demo.ArticleFieldIds.articleByLine'
+      - '@ms/article-site-demo.ArticleFieldIds.articleContent'
+      - '@ms/article-site-demo.ArticleFieldIds.id'
+      - '@ms/article-site-demo.ArticleFieldIds.internalName'
+      - '@ms/article-site-demo.ArticleFieldIds.title'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/article-site-demo'
+  - uid: '@ms/article-site-demo.ArticleFieldIds.articleByLine'
+    name: articleByLine
+    fullName: articleByLine
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string articleByLine
+      return:
+        type:
+          - string
+  - uid: '@ms/article-site-demo.ArticleFieldIds.articleContent'
+    name: articleContent
+    fullName: articleContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string articleContent
+      return:
+        type:
+          - string
+  - uid: '@ms/article-site-demo.ArticleFieldIds.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string id
+      return:
+        type:
+          - string
+  - uid: '@ms/article-site-demo.ArticleFieldIds.internalName'
+    name: internalName
+    fullName: internalName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string internalName
+      return:
+        type:
+          - string
+  - uid: '@ms/article-site-demo.ArticleFieldIds.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string title
+      return:
+        type:
+          - string

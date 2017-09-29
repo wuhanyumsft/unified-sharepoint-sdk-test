@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-test-webparts'
+    name: '@ms/sp-test-webparts'
+    summary: ''
+    children:
+      - '@ms/sp-test-webparts.EmptyWebPart'
+      - '@ms/sp-test-webparts.FabricCoreShimTestWebPart'
+      - '@ms/sp-test-webparts.IFabricCoreShimTestWebPartProps'
+      - '@ms/sp-test-webparts.JsomTestWebPart'
+      - '@ms/sp-test-webparts.PropertyPaneTestWebPart'
+      - '@ms/sp-test-webparts.IPropertyPaneTestWebPartProps'
+      - '@ms/sp-test-webparts.TestCustomField'
+      - '@ms/sp-test-webparts.ITestCustomFieldProps'
+      - '@ms/sp-test-webparts.IReactTestWebPartWebPartProps'
+      - '@ms/sp-test-webparts.ReactTestWebPartWebPart'
+      - '@ms/sp-test-webparts.IReactTestWebPartProps'
+      - '@ms/sp-test-webparts.ReactTestWebPart'
+      - '@ms/sp-test-webparts.IVanillaJsOuifCoreTestWebPartWebPartProps'
+      - '@ms/sp-test-webparts.VanillaJsOuifCoreTestWebPartWebPart'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@ms/sp-test-webparts.EmptyWebPart'
+    name: EmptyWebPart
+  - uid: '@ms/sp-test-webparts.FabricCoreShimTestWebPart'
+    name: FabricCoreShimTestWebPart
+  - uid: '@ms/sp-test-webparts.IFabricCoreShimTestWebPartProps'
+    name: IFabricCoreShimTestWebPartProps
+  - uid: '@ms/sp-test-webparts.JsomTestWebPart'
+    name: JsomTestWebPart
+  - uid: '@ms/sp-test-webparts.PropertyPaneTestWebPart'
+    name: PropertyPaneTestWebPart
+  - uid: '@ms/sp-test-webparts.IPropertyPaneTestWebPartProps'
+    name: IPropertyPaneTestWebPartProps
+  - uid: '@ms/sp-test-webparts.TestCustomField'
+    name: TestCustomField
+  - uid: '@ms/sp-test-webparts.ITestCustomFieldProps'
+    name: ITestCustomFieldProps
+  - uid: '@ms/sp-test-webparts.IReactTestWebPartWebPartProps'
+    name: IReactTestWebPartWebPartProps
+  - uid: '@ms/sp-test-webparts.ReactTestWebPartWebPart'
+    name: ReactTestWebPartWebPart
+  - uid: '@ms/sp-test-webparts.IReactTestWebPartProps'
+    name: IReactTestWebPartProps
+  - uid: '@ms/sp-test-webparts.ReactTestWebPart'
+    name: ReactTestWebPart
+  - uid: '@ms/sp-test-webparts.IVanillaJsOuifCoreTestWebPartWebPartProps'
+    name: IVanillaJsOuifCoreTestWebPartWebPartProps
+  - uid: '@ms/sp-test-webparts.VanillaJsOuifCoreTestWebPartWebPart'
+    name: VanillaJsOuifCoreTestWebPartWebPart

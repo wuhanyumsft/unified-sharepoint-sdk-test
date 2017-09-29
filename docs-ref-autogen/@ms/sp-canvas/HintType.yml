@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.HintType'
+    name: HintType
+    fullName: HintType
+    children:
+      - '@ms/sp-canvas.HintType.None'
+      - '@ms/sp-canvas.HintType.Zone'
+      - '@ms/sp-canvas.HintType.Section'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.HintType.None'
+    name: None
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+  - uid: '@ms/sp-canvas.HintType.Zone'
+    name: Zone
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-canvas.HintType.Section'
+    name: Section
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2

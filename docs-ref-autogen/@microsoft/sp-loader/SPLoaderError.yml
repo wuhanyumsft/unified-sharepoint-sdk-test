@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.SPLoaderError'
+    name: SPLoaderError
+    fullName: SPLoaderError
+    children:
+      - '@microsoft/sp-loader.SPLoaderError.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: sp-loader errors.
+    extends:
+      name: '@@microsoft/sp-loader.SPLoaderError'
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.SPLoaderError.constructor'
+    name: SPLoaderError
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new SPLoaderError(errorCode: SPLoaderErrorCode, innerError: Error,
+        isExpected: boolean, params: any[])
+      parameters:
+        - id: errorCode
+          type:
+            - SPLoaderErrorCode
+          description: ''
+        - id: innerError
+          type:
+            - Error
+          description: ''
+        - id: isExpected
+          type:
+            - boolean
+          description: ''
+        - id: params
+          type:
+            - 'any[]'
+          description: ''

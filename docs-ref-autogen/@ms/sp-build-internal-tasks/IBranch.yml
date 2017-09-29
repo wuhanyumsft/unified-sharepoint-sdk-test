@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.IBranch'
+    name: IBranch
+    fullName: IBranch
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      branch coverage info for one file
+      branch number and the hit info of the branch
+    package: '@ms/sp-build-internal-tasks'

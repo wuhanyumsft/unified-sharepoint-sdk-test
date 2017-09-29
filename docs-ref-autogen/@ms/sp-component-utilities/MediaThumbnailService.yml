@@ -1,0 +1,132 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.MediaThumbnailService'
+    name: MediaThumbnailService
+    fullName: MediaThumbnailService
+    children:
+      - '@ms/sp-component-utilities.MediaThumbnailService.getThumbnailUrl'
+      - '@ms/sp-component-utilities.MediaThumbnailService.IMAGEREFACTORFLIGHT'
+      - '@ms/sp-component-utilities.MediaThumbnailService.initializeMediaService'
+      - '@ms/sp-component-utilities.MediaThumbnailService.isFileTypeSupported'
+      - '@ms/sp-component-utilities.MediaThumbnailService.MEDIASERVICEFLIGHT'
+      - '@ms/sp-component-utilities.MediaThumbnailService.constructor'
+      - '@ms/sp-component-utilities.MediaThumbnailService.resetTelemetaryData'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      This class is the entry point for requesting thumbnail Ulr for given
+      sharepoint resourece
+
+      It's behavior depends on the timing of oauth token availability
+       -> It needs oauth token to generate Media Service based thumbnail URL
+       -> At SPPageApp load time, token is requested
+       -> When request arrives for thumbnail, if tonen is resolved, Media Service url is returned
+       -> If token is not available then getPreview.ashx based url is contructed
+      NOTE: Caller of this API should not log thumbnail url in console or trace
+      logger.
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.MediaThumbnailService.getThumbnailUrl'
+    name: getThumbnailUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Ensure you first check file type is supported via
+      isFileTypeSupported or the code will attempt to fallback to spResource.
+    syntax:
+      content: 'function getThumbnailUrl(request: IThumbnailRequest)'
+      parameters:
+        - id: request
+          type:
+            - '@@ms/sp-component-utilities.IThumbnailRequest'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.MediaThumbnailService.IMAGEREFACTORFLIGHT'
+    name: IMAGEREFACTORFLIGHT
+    fullName: IMAGEREFACTORFLIGHT
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number IMAGEREFACTORFLIGHT
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.MediaThumbnailService.initializeMediaService'
+    name: initializeMediaService
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Initialize the Media service to get preview token
+
+      If this is not called then default behavior should be fallback to legacy
+      behavior of
+
+      using getPreview.ashx service
+    syntax:
+      content: 'function initializeMediaService(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+  - uid: '@ms/sp-component-utilities.MediaThumbnailService.isFileTypeSupported'
+    name: isFileTypeSupported
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns true if the file extension is supported for thumbnail
+    syntax:
+      content: 'function isFileTypeSupported(fileType: string)'
+      parameters:
+        - id: fileType
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-utilities.MediaThumbnailService.MEDIASERVICEFLIGHT'
+    name: MEDIASERVICEFLIGHT
+    fullName: MEDIASERVICEFLIGHT
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number MEDIASERVICEFLIGHT
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.MediaThumbnailService.constructor'
+    name: MediaThumbnailService
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new MediaThumbnailService()
+      parameters: []
+  - uid: '@ms/sp-component-utilities.MediaThumbnailService.resetTelemetaryData'
+    name: resetTelemetaryData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Reset telemetary data for the beginning of new page like in page
+      navigation
+    syntax:
+      content: function resetTelemetaryData()
+      parameters: []

@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.AppNav'
+    name: AppNav
+    fullName: AppNav
+    children:
+      - '@ms/sp-tenant-admin-page.AppNav.constructor'
+      - '@ms/sp-tenant-admin-page.AppNav.render'
+    langs:
+      - typeScript
+    type: class
+    summary: Navigation of the Tenant Admin site.
+    extends:
+      name: '@@ms/sp-tenant-admin-page.AppNav<@@ms/sp-tenant-admin-page.IAppNavProps>'
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.AppNav.constructor'
+    name: AppNav
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new AppNav(props: IAppNavProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-tenant-admin-page.IAppNavProps'
+          description: ''
+  - uid: '@ms/sp-tenant-admin-page.AppNav.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

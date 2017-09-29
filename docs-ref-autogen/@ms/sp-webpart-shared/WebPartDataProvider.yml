@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.WebPartDataProvider'
+    name: WebPartDataProvider
+    fullName: WebPartDataProvider
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      A data provider for web parts that is expected to help web part developers
+      adopt performance best practices.
+    extends:
+      name: '@@ms/sp-webpart-shared.MysiteCacheDataProvider'
+    package: '@ms/sp-webpart-shared'

@@ -1,0 +1,268 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.NewsUtilities'
+    name: NewsUtilities
+    fullName: NewsUtilities
+    children:
+      - '@ms/sp-dataproviders.NewsUtilities.cacheViewCountsValue'
+      - '@ms/sp-dataproviders.NewsUtilities.extractHubNewsItems'
+      - '@ms/sp-dataproviders.NewsUtilities.extractNewsItems'
+      - '@ms/sp-dataproviders.NewsUtilities.extractNewsSourceFromUrl'
+      - '@ms/sp-dataproviders.NewsUtilities.extractTitleFromUrl'
+      - '@ms/sp-dataproviders.NewsUtilities.getEmptyStateItems'
+      - '@ms/sp-dataproviders.NewsUtilities.getListItemsIds'
+      - '@ms/sp-dataproviders.NewsUtilities.getTeamSiteHelpItems'
+      - '@ms/sp-dataproviders.NewsUtilities.getTipActionNewsItem'
+      - '@ms/sp-dataproviders.NewsUtilities.isPrefetchStale'
+      - '@ms/sp-dataproviders.NewsUtilities.processBannerImageUrlPart'
+      - '@ms/sp-dataproviders.NewsUtilities.viewCountsDictionary'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Provides simple utilities to work with INewsItems and DataProviders for
+      News
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.NewsUtilities.cacheViewCountsValue'
+    name: cacheViewCountsValue
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function cacheViewCountsValue(absoluteUrl: string, listItemId:
+        string, viewCounts: number)
+      parameters:
+        - id: absoluteUrl
+          type:
+            - string
+          description: ''
+        - id: listItemId
+          type:
+            - string
+          description: ''
+        - id: viewCounts
+          type:
+            - number
+          description: ''
+  - uid: '@ms/sp-dataproviders.NewsUtilities.extractHubNewsItems'
+    name: extractHubNewsItems
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function extractHubNewsItems(data: Array<any>, pageContext:
+        PageContext)
+      parameters:
+        - id: data
+          type:
+            - Array<any>
+          description: ''
+        - id: pageContext
+          type:
+            - PageContext
+          description: ''
+  - uid: '@ms/sp-dataproviders.NewsUtilities.extractNewsItems'
+    name: extractNewsItems
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function extractNewsItems(data: Array<any>, pageContext:
+        PageContext)
+      parameters:
+        - id: data
+          type:
+            - Array<any>
+          description: ''
+        - id: pageContext
+          type:
+            - PageContext
+          description: ''
+  - uid: '@ms/sp-dataproviders.NewsUtilities.extractNewsSourceFromUrl'
+    name: extractNewsSourceFromUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function extractNewsSourceFromUrl(pageUrl: string)'
+      parameters:
+        - id: pageUrl
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-dataproviders.NewsUtilities.extractTitleFromUrl'
+    name: extractTitleFromUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function extractTitleFromUrl(pageUrl: string)'
+      parameters:
+        - id: pageUrl
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-dataproviders.NewsUtilities.getEmptyStateItems'
+    name: getEmptyStateItems
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getEmptyStateItems(count?: number)'
+      parameters:
+        - id: count
+          type:
+            - number
+          description: ''
+          optional: true
+  - uid: '@ms/sp-dataproviders.NewsUtilities.getListItemsIds'
+    name: getListItemsIds
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function getListItemsIds(newsItems: INewsItem[], absoluteUrl:
+        string)
+      parameters:
+        - id: newsItems
+          type:
+            - 'INewsItem[]'
+          description: ''
+        - id: absoluteUrl
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.NewsUtilities.getTeamSiteHelpItems'
+    name: getTeamSiteHelpItems
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getTeamSiteHelpItems(count?: number)'
+      parameters:
+        - id: count
+          type:
+            - number
+          description: ''
+          optional: true
+  - uid: '@ms/sp-dataproviders.NewsUtilities.getTipActionNewsItem'
+    name: getTipActionNewsItem
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function getTipActionNewsItem(isContributor: boolean,
+        webAbsoluteUrl: string)
+      parameters:
+        - id: isContributor
+          type:
+            - boolean
+          description: ''
+        - id: webAbsoluteUrl
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - INewsItem
+  - uid: '@ms/sp-dataproviders.NewsUtilities.isPrefetchStale'
+    name: isPrefetchStale
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isPrefetchStale(pageUrl: string)'
+      parameters:
+        - id: pageUrl
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.NewsUtilities.processBannerImageUrlPart'
+    name: processBannerImageUrlPart
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function processBannerImageUrlPart(bannerImageUrl: string,
+        defaultUniqueId: string, isFeatured: boolean, pageContext: PageContext,
+        siteId?: string, webId?: string)
+      parameters:
+        - id: bannerImageUrl
+          type:
+            - string
+          description: ''
+        - id: defaultUniqueId
+          type:
+            - string
+          description: ''
+        - id: isFeatured
+          type:
+            - boolean
+          description: ''
+        - id: pageContext
+          type:
+            - PageContext
+          description: ''
+        - id: siteId
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: webId
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.NewsUtilities.viewCountsDictionary'
+    name: viewCountsDictionary
+    fullName: viewCountsDictionary
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static [key: string]: number viewCountsDictionary'
+      return:
+        type:
+          - '[key: string]: number'

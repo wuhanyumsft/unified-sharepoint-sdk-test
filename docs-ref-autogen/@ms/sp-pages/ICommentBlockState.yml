@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ICommentBlockState'
+    name: ICommentBlockState
+    fullName: ICommentBlockState
+    children:
+      - '@ms/sp-pages.ICommentBlockState.showReply'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ICommentBlockState.showReply'
+    name: showReply
+    fullName: showReply
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showReply
+      return:
+        type:
+          - boolean

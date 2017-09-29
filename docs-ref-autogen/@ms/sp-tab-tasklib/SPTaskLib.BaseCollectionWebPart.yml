@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.BaseCollectionWebPart'
+    name: BaseCollectionWebPart
+    fullName: BaseCollectionWebPart
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.BaseCollectionWebPart.GetAddButton'
+      - '@ms/sp-tab-tasklib.SPTaskLib.BaseCollectionWebPart.GetSeeAllLink'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-tab-tasklib.SPTaskLib.BaseWebpart'
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.BaseCollectionWebPart.GetAddButton'
+    name: GetAddButton
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Get +Add button element on BaseCollectionWebPart if exists. Otherwise it
+      will return undefined.
+    syntax:
+      content: function GetAddButton()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.BaseCollectionWebPart.GetSeeAllLink'
+    name: GetSeeAllLink
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Get 'see all' link element on BaseCollectionWebPart if exists. Otherwise
+      it will return undefined.
+    syntax:
+      content: function GetSeeAllLink()
+      parameters: []
+      return:
+        type:
+          - HTMLElement

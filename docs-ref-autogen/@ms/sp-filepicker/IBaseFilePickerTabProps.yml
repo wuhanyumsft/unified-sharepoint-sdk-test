@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.IBaseFilePickerTabProps'
+    name: IBaseFilePickerTabProps
+    fullName: IBaseFilePickerTabProps
+    children:
+      - '@ms/sp-filepicker.IBaseFilePickerTabProps.extensions'
+      - '@ms/sp-filepicker.IBaseFilePickerTabProps.onCancel'
+      - '@ms/sp-filepicker.IBaseFilePickerTabProps.onFileSelected'
+    langs:
+      - typeScript
+    type: interface
+    summary: Base property bag for File Picker tabs (extended by all tabs)
+    extends:
+      name: any
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.IBaseFilePickerTabProps.extensions'
+    name: extensions
+    fullName: extensions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Set<string> extensions
+      return:
+        type:
+          - Set<string>
+  - uid: '@ms/sp-filepicker.IBaseFilePickerTabProps.onCancel'
+    name: onCancel
+    fullName: onCancel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onCancel
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-filepicker.IBaseFilePickerTabProps.onFileSelected'
+    name: onFileSelected
+    fullName: onFileSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(successResponse: IFilePickerResponse) => void onFileSelected'
+      return:
+        type:
+          - '(successResponse: IFilePickerResponse) => void'

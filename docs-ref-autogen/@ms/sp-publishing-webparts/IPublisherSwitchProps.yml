@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IPublisherSwitchProps'
+    name: IPublisherSwitchProps
+    fullName: IPublisherSwitchProps
+    children:
+      - '@ms/sp-publishing-webparts.IPublisherSwitchProps.feed'
+      - '@ms/sp-publishing-webparts.IPublisherSwitchProps.networkId'
+      - '@ms/sp-publishing-webparts.IPublisherSwitchProps.store'
+      - '@ms/sp-publishing-webparts.IPublisherSwitchProps.yammerGroupId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IPublisherSwitchProps.feed'
+    name: feed
+    fullName: feed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IFeed feed
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IFeed'
+  - uid: '@ms/sp-publishing-webparts.IPublisherSwitchProps.networkId'
+    name: networkId
+    fullName: networkId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string networkId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IPublisherSwitchProps.store'
+    name: store
+    fullName: store
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: FeedStore store
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.FeedStore'
+  - uid: '@ms/sp-publishing-webparts.IPublisherSwitchProps.yammerGroupId'
+    name: yammerGroupId
+    fullName: yammerGroupId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string yammerGroupId
+      return:
+        type:
+          - string

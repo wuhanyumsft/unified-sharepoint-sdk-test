@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.IWebPartZoneState'
+    name: IWebPartZoneState
+    fullName: IWebPartZoneState
+    children:
+      - '@ms/sp-canvas.IWebPartZoneState.displayMode'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.IWebPartZoneState.displayMode'
+    name: displayMode
+    fullName: displayMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DisplayMode displayMode
+      return:
+        type:
+          - DisplayMode

@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/repo-toolbox.IBuildSizeData'
+    name: IBuildSizeData
+    fullName: IBuildSizeData
+    children:
+      - '@ms/repo-toolbox.IBuildSizeData.assemblies'
+      - '@ms/repo-toolbox.IBuildSizeData.chunks'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/repo-toolbox'
+  - uid: '@ms/repo-toolbox.IBuildSizeData.assemblies'
+    name: assemblies
+    fullName: assemblies
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IProjectSizes<IAssemblySize> assemblies
+      return:
+        type:
+          - '@@ms/repo-toolbox.IProjectSizes<@@ms/repo-toolbox.IAssemblySize>'
+  - uid: '@ms/repo-toolbox.IBuildSizeData.chunks'
+    name: chunks
+    fullName: chunks
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IProjectSizes<IWebpackChunkSize> chunks
+      return:
+        type:
+          - '@@ms/repo-toolbox.IProjectSizes<@@ms/repo-toolbox.IWebpackChunkSize>'

@@ -1,0 +1,246 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-selenium-utilities.Logger'
+    name: Logger
+    fullName: Logger
+    children:
+      - '@ms/sp-selenium-utilities.Logger.addLogFile'
+      - '@ms/sp-selenium-utilities.Logger.clearCurrentBuffer'
+      - '@ms/sp-selenium-utilities.Logger.endBufferingEvents'
+      - '@ms/sp-selenium-utilities.Logger.endSection'
+      - '@ms/sp-selenium-utilities.Logger.getStep'
+      - '@ms/sp-selenium-utilities.Logger.getTestName'
+      - '@ms/sp-selenium-utilities.Logger.log'
+      - '@ms/sp-selenium-utilities.Logger.logError'
+      - '@ms/sp-selenium-utilities.Logger.logPromise'
+      - '@ms/sp-selenium-utilities.Logger.logStep'
+      - '@ms/sp-selenium-utilities.Logger.resetSections'
+      - '@ms/sp-selenium-utilities.Logger.resetStep'
+      - '@ms/sp-selenium-utilities.Logger.resetTimer'
+      - '@ms/sp-selenium-utilities.Logger.setPreLogStepCallback'
+      - '@ms/sp-selenium-utilities.Logger.setRawLogCallback'
+      - '@ms/sp-selenium-utilities.Logger.startBufferingEvents'
+      - '@ms/sp-selenium-utilities.Logger.startSection'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-selenium-utilities'
+  - uid: '@ms/sp-selenium-utilities.Logger.addLogFile'
+    name: addLogFile
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addLogFile(fileName: string)'
+      parameters:
+        - id: fileName
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-selenium-utilities.Logger.clearCurrentBuffer'
+    name: clearCurrentBuffer
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clearCurrentBuffer()
+      parameters: []
+  - uid: '@ms/sp-selenium-utilities.Logger.endBufferingEvents'
+    name: endBufferingEvents
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function endBufferingEvents()
+      parameters: []
+  - uid: '@ms/sp-selenium-utilities.Logger.endSection'
+    name: endSection
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function endSection()
+      parameters: []
+  - uid: '@ms/sp-selenium-utilities.Logger.getStep'
+    name: getStep
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getStep()
+      parameters: []
+  - uid: '@ms/sp-selenium-utilities.Logger.getTestName'
+    name: getTestName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getTestName()
+      parameters: []
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-selenium-utilities.Logger.log'
+    name: log
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function log(message: string, colors?: (s: string) => string)'
+      parameters:
+        - id: message
+          type:
+            - string
+          description: ''
+        - id: colors
+          type:
+            - '(s: string) => string'
+          description: ''
+          optional: true
+  - uid: '@ms/sp-selenium-utilities.Logger.logError'
+    name: logError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function logError(message: string)'
+      parameters:
+        - id: message
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-selenium-utilities.Logger.logPromise'
+    name: logPromise
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function logPromise<T>(activityMessage: string, createPromise: () =>
+        Promise<T>)
+      parameters:
+        - id: activityMessage
+          type:
+            - string
+          description: ''
+        - id: createPromise
+          type:
+            - () => Promise<T>
+          description: ''
+      return:
+        type:
+          - Promise<T>
+  - uid: '@ms/sp-selenium-utilities.Logger.logStep'
+    name: logStep
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function logStep(message: string)'
+      parameters:
+        - id: message
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-selenium-utilities.Logger.resetSections'
+    name: resetSections
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function resetSections()
+      parameters: []
+  - uid: '@ms/sp-selenium-utilities.Logger.resetStep'
+    name: resetStep
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function resetStep()
+      parameters: []
+  - uid: '@ms/sp-selenium-utilities.Logger.resetTimer'
+    name: resetTimer
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function resetTimer()
+      parameters: []
+  - uid: '@ms/sp-selenium-utilities.Logger.setPreLogStepCallback'
+    name: setPreLogStepCallback
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setPreLogStepCallback(callback: () => Promise<void>)'
+      parameters:
+        - id: callback
+          type:
+            - () => Promise<void>
+          description: ''
+  - uid: '@ms/sp-selenium-utilities.Logger.setRawLogCallback'
+    name: setRawLogCallback
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setRawLogCallback(callback: (str: string) => void)'
+      parameters:
+        - id: callback
+          type:
+            - '(str: string) => void'
+          description: ''
+  - uid: '@ms/sp-selenium-utilities.Logger.startBufferingEvents'
+    name: startBufferingEvents
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function startBufferingEvents()
+      parameters: []
+  - uid: '@ms/sp-selenium-utilities.Logger.startSection'
+    name: startSection
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function startSection()
+      parameters: []

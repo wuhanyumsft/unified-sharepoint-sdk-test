@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.SPOSuiteNavDataSource'
+    name: SPOSuiteNavDataSource
+    fullName: SPOSuiteNavDataSource
+    children:
+      - '@microsoft/sp-application-base.SPOSuiteNavDataSource.loadData'
+      - '@microsoft/sp-application-base.SPOSuiteNavDataSource.constructor'
+      - '@microsoft/sp-application-base.SPOSuiteNavDataSource.suiteNavService'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.SPOSuiteNavDataSource.loadData'
+    name: loadData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function loadData()
+      parameters: []
+      return:
+        type:
+          - Promise<@@microsoft/sp-application-base.ISuiteNavModel>
+  - uid: '@microsoft/sp-application-base.SPOSuiteNavDataSource.constructor'
+    name: SPOSuiteNavDataSource
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Initializes a new instance of the SPO
+    syntax:
+      content: >-
+        new SPOSuiteNavDataSource(httpClient: SPHttpClient,
+        currentUICultureName: string, webServerRelativeUrl: string)
+      parameters:
+        - id: httpClient
+          type:
+            - SPHttpClient
+          description: ''
+        - id: currentUICultureName
+          type:
+            - string
+          description: ''
+        - id: webServerRelativeUrl
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-application-base.SPOSuiteNavDataSource.suiteNavService'
+    name: suiteNavService
+    fullName: suiteNavService
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: SuiteNavSource suiteNavService
+      return:
+        type:
+          - SuiteNavSource

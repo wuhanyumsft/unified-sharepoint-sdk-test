@@ -1,0 +1,110 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/test-extensions-application.ListViewStore'
+    name: ListViewStore
+    fullName: ListViewStore
+    children:
+      - '@ms/test-extensions-application.ListViewStore.columnStores'
+      - '@ms/test-extensions-application.ListViewStore.commandAdapters'
+      - '@ms/test-extensions-application.ListViewStore.contextMenuVisible'
+      - '@ms/test-extensions-application.ListViewStore.fillAdapters'
+      - '@ms/test-extensions-application.ListViewStore.listViewAdapter'
+      - '@ms/test-extensions-application.ListViewStore.rowStores'
+      - '@ms/test-extensions-application.ListViewStore.spfxAdapter'
+    langs:
+      - typeScript
+    type: class
+    summary: The underlying store for the ReactListView component.
+    package: '@ms/test-extensions-application'
+  - uid: '@ms/test-extensions-application.ListViewStore.columnStores'
+    name: columnStores
+    fullName: columnStores
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ColumnStore[] columnStores'
+      return:
+        type:
+          - '@@ms/test-extensions-application.ColumnStore[]'
+  - uid: '@ms/test-extensions-application.ListViewStore.commandAdapters'
+    name: commandAdapters
+    fullName: commandAdapters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ICommandAdapter[] commandAdapters'
+      return:
+        type:
+          - 'ICommandAdapter[]'
+  - uid: '@ms/test-extensions-application.ListViewStore.contextMenuVisible'
+    name: contextMenuVisible
+    fullName: contextMenuVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean contextMenuVisible
+      return:
+        type:
+          - boolean
+  - uid: '@ms/test-extensions-application.ListViewStore.fillAdapters'
+    name: fillAdapters
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fillAdapters(spfxAdapter: ISpfxAdapter)'
+      parameters:
+        - id: spfxAdapter
+          type:
+            - ISpfxAdapter
+          description: ''
+  - uid: '@ms/test-extensions-application.ListViewStore.listViewAdapter'
+    name: listViewAdapter
+    fullName: listViewAdapter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IListViewAdapter listViewAdapter
+      return:
+        type:
+          - IListViewAdapter
+  - uid: '@ms/test-extensions-application.ListViewStore.rowStores'
+    name: rowStores
+    fullName: rowStores
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'RowStore[] rowStores'
+      return:
+        type:
+          - '@@ms/test-extensions-application.RowStore[]'
+  - uid: '@ms/test-extensions-application.ListViewStore.spfxAdapter'
+    name: spfxAdapter
+    fullName: spfxAdapter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISpfxAdapter spfxAdapter
+      return:
+        type:
+          - ISpfxAdapter

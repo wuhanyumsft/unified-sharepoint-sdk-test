@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IEmptyFolderProps'
+    name: IEmptyFolderProps
+    fullName: IEmptyFolderProps
+    children:
+      - '@ms/sp-teamsite-webparts.IEmptyFolderProps.size'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IEmptyFolderProps.size'
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: EmptyFolderSize size
+      return:
+        type:
+          - EmptyFolderSize

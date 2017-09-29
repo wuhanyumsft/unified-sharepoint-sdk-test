@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.CachedItem'
+    name: CachedItem
+    fullName: CachedItem
+    children:
+      - '@ms/sp-pages.CachedItem.create'
+      - '@ms/sp-pages.CachedItem.fromJson'
+    langs:
+      - typeScript
+    type: class
+    summary: Defines a cached entry
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.CachedItem.create'
+    name: create
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function create(value: any)'
+      parameters:
+        - id: value
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.CachedItem'
+  - uid: '@ms/sp-pages.CachedItem.fromJson'
+    name: fromJson
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function fromJson(json: string)'
+      parameters:
+        - id: json
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.CachedItem'

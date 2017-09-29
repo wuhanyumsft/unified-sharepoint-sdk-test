@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.CommentSection'
+    name: CommentSection
+    fullName: CommentSection
+    children:
+      - '@ms/sp-pages.CommentSection.render'
+      - '@ms/sp-pages.CommentSection.topLevelReply'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.CommentSection<@@ms/sp-pages.ICommentSectionProps>'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.CommentSection.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.CommentSection.topLevelReply'
+    name: topLevelReply
+    fullName: topLevelReply
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static CommentReply topLevelReply
+      return:
+        type:
+          - '@@ms/sp-pages.CommentReply'

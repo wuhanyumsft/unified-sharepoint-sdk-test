@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/evergreen.IBuildContextJson'
+    name: IBuildContextJson
+    fullName: IBuildContextJson
+    children:
+      - '@ms/evergreen.IBuildContextJson.branchName'
+      - '@ms/evergreen.IBuildContextJson.changeFileName'
+      - '@ms/evergreen.IBuildContextJson.updatedProjects'
+      - '@ms/evergreen.IBuildContextJson.updates'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/evergreen'
+  - uid: '@ms/evergreen.IBuildContextJson.branchName'
+    name: branchName
+    fullName: branchName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string branchName
+      return:
+        type:
+          - string
+  - uid: '@ms/evergreen.IBuildContextJson.changeFileName'
+    name: changeFileName
+    fullName: changeFileName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string changeFileName
+      return:
+        type:
+          - string
+  - uid: '@ms/evergreen.IBuildContextJson.updatedProjects'
+    name: updatedProjects
+    fullName: updatedProjects
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] updatedProjects'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/evergreen.IBuildContextJson.updates'
+    name: updates
+    fullName: updates
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: string]: IPackageUpdate updates'
+      return:
+        type:
+          - '[key: string]: @@ms/evergreen.IPackageUpdate'

@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/repo-toolbox.ITextFiles'
+    name: ITextFiles
+    fullName: ITextFiles
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/repo-toolbox'

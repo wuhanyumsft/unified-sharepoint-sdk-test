@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.IMasonryState'
+    name: IMasonryState
+    fullName: IMasonryState
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-component-layouts'

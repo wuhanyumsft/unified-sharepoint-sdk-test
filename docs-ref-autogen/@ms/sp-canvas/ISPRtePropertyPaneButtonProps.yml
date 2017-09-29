@@ -1,0 +1,137 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ISPRtePropertyPaneButtonProps'
+    name: ISPRtePropertyPaneButtonProps
+    fullName: ISPRtePropertyPaneButtonProps
+    children:
+      - '@ms/sp-canvas.ISPRtePropertyPaneButtonProps.ariaLabel'
+      - '@ms/sp-canvas.ISPRtePropertyPaneButtonProps.fabricIconKey'
+      - '@ms/sp-canvas.ISPRtePropertyPaneButtonProps.imageSrc'
+      - '@ms/sp-canvas.ISPRtePropertyPaneButtonProps.isActive'
+      - '@ms/sp-canvas.ISPRtePropertyPaneButtonProps.isDisabled'
+      - '@ms/sp-canvas.ISPRtePropertyPaneButtonProps.key'
+      - '@ms/sp-canvas.ISPRtePropertyPaneButtonProps.onClick'
+      - '@ms/sp-canvas.ISPRtePropertyPaneButtonProps.text'
+      - '@ms/sp-canvas.ISPRtePropertyPaneButtonProps.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface of SPRtePropertyPaneButtonProps.
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ISPRtePropertyPaneButtonProps.ariaLabel'
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ariaLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.ISPRtePropertyPaneButtonProps.fabricIconKey'
+    name: fabricIconKey
+    fullName: fabricIconKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string fabricIconKey
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.ISPRtePropertyPaneButtonProps.imageSrc'
+    name: imageSrc
+    fullName: imageSrc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Element imageSrc
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-canvas.ISPRtePropertyPaneButtonProps.isActive'
+    name: isActive
+    fullName: isActive
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isActive
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.ISPRtePropertyPaneButtonProps.isDisabled'
+    name: isDisabled
+    fullName: isDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isDisabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.ISPRtePropertyPaneButtonProps.key'
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string key
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.ISPRtePropertyPaneButtonProps.onClick'
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onClick
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-canvas.ISPRtePropertyPaneButtonProps.text'
+    name: text
+    fullName: text
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string text
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.ISPRtePropertyPaneButtonProps.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

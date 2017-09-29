@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IUserVoiceViewState'
+    name: IUserVoiceViewState
+    fullName: IUserVoiceViewState
+    children:
+      - '@ms/sp-pages.IUserVoiceViewState.isOpen'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IUserVoiceViewState.isOpen'
+    name: isOpen
+    fullName: isOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isOpen
+      return:
+        type:
+          - boolean

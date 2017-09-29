@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksLayoutId'
+    name: QuickLinksLayoutId
+    fullName: QuickLinksLayoutId
+    children:
+      - '@ms/sp-teamsite-webparts.QuickLinksLayoutId.compactCard'
+      - '@ms/sp-teamsite-webparts.QuickLinksLayoutId.filmStrip'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      The class which defines a set of id uniquely identifying types of layouts.
+
+      MUST ensure the layouts strings in QuickLinksLayoutId have definition in
+      QuickLinksLayout with equal name.
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksLayoutId.compactCard'
+    name: compactCard
+    fullName: compactCard
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string compactCard
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksLayoutId.filmStrip'
+    name: filmStrip
+    fullName: filmStrip
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string filmStrip
+      return:
+        type:
+          - string

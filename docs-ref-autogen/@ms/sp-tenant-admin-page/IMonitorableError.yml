@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IMonitorableError'
+    name: IMonitorableError
+    fullName: IMonitorableError
+    children:
+      - '@ms/sp-tenant-admin-page.IMonitorableError.extraData'
+      - '@ms/sp-tenant-admin-page.IMonitorableError.innerError'
+      - '@ms/sp-tenant-admin-page.IMonitorableError.tagName'
+      - '@ms/sp-tenant-admin-page.IMonitorableError.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IMonitorableError.extraData'
+    name: extraData
+    fullName: extraData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IMonitorableErrorExtraData extraData
+      return:
+        type:
+          - IMonitorableErrorExtraData
+  - uid: '@ms/sp-tenant-admin-page.IMonitorableError.innerError'
+    name: innerError
+    fullName: innerError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Error innerError
+      return:
+        type:
+          - Error
+  - uid: '@ms/sp-tenant-admin-page.IMonitorableError.tagName'
+    name: tagName
+    fullName: tagName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string tagName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IMonitorableError.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: MonitorableErrorType type
+      return:
+        type:
+          - MonitorableErrorType

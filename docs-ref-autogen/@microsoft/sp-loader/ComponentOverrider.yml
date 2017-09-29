@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.ComponentOverrider'
+    name: ComponentOverrider
+    fullName: ComponentOverrider
+    children:
+      - '@microsoft/sp-loader.ComponentOverrider.overrideComponent'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.ComponentOverrider.overrideComponent'
+    name: overrideComponent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Given a component id and a component module, it sets the component in the
+      loader, therefore being
+
+      available without the need of loading it separately.
+
+      Should only be used when initializing the loader.
+    syntax:
+      content: >-
+        static function overrideComponent<TComponent>(componentId: string,
+        componentModule: TComponent)
+      parameters:
+        - id: componentId
+          type:
+            - string
+          description: >-
+            Id of the component to override. There should be only one version of
+            the component.
+        - id: componentModule
+          type:
+            - TComponent
+          description: |
+            Component module.

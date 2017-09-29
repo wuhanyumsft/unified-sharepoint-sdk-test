@@ -1,0 +1,93 @@
+### YamlMime:UniversalReference
+items:
+  - uid: sp-sample-webparts.ITodoTask
+    name: ITodoTask
+    fullName: ITodoTask
+    children:
+      - sp-sample-webparts.ITodoTask.Author
+      - sp-sample-webparts.ITodoTask.Editor
+      - sp-sample-webparts.ITodoTask.Id
+      - sp-sample-webparts.ITodoTask.PercentComplete
+      - sp-sample-webparts.ITodoTask.Title
+    langs:
+      - typeScript
+    type: interface
+    summary: The interface of data modal for Todo task.
+    package: sp-sample-webparts
+  - uid: sp-sample-webparts.ITodoTask.Author
+    name: Author
+    fullName: Author
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The person who created this todo task.
+    syntax:
+      content: ITodoPerson Author
+      return:
+        type:
+          - '@sp-sample-webparts.ITodoPerson'
+  - uid: sp-sample-webparts.ITodoTask.Editor
+    name: Editor
+    fullName: Editor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The person who marked this todo item as completed.
+
+      Editor is the last person who performed editting operation.
+
+      In Todo web part, the only editting operation that can be performed by
+      user is toggling complete.
+
+      This field is optional because it is not required for incomplete tasks.
+    syntax:
+      content: ITodoPerson Editor
+      return:
+        type:
+          - '@sp-sample-webparts.ITodoPerson'
+  - uid: sp-sample-webparts.ITodoTask.Id
+    name: Id
+    fullName: Id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The ID of the todo item.
+    syntax:
+      content: number Id
+      return:
+        type:
+          - number
+  - uid: sp-sample-webparts.ITodoTask.PercentComplete
+    name: PercentComplete
+    fullName: PercentComplete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The percent of the task that is completed.
+
+      In todo web part we use 0 to indicate task uncompleted and 1 to indicate
+      task completed.
+    syntax:
+      content: number PercentComplete
+      return:
+        type:
+          - number
+  - uid: sp-sample-webparts.ITodoTask.Title
+    name: Title
+    fullName: Title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The title of the todo item.
+    syntax:
+      content: string Title
+      return:
+        type:
+          - string

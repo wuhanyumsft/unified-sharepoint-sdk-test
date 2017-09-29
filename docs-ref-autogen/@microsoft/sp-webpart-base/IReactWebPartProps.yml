@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IReactWebPartProps'
+    name: IReactWebPartProps
+    fullName: IReactWebPartProps
+    children:
+      - '@microsoft/sp-webpart-base.IReactWebPartProps.mode'
+    langs:
+      - typeScript
+    type: interface
+    summary: React web part props
+    extends:
+      name: '@@microsoft/sp-webpart-base.IWebPartProps'
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IReactWebPartProps.mode'
+    name: mode
+    fullName: mode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The display mode for the summary links component. It is either Read or
+      Edit.
+
+      This value is read from web part and passed to here.
+    syntax:
+      content: DisplayMode mode
+      return:
+        type:
+          - DisplayMode

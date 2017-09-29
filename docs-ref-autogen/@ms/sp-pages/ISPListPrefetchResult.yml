@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ISPListPrefetchResult'
+    name: ISPListPrefetchResult
+    fullName: ISPListPrefetchResult
+    children:
+      - '@ms/sp-pages.ISPListPrefetchResult.listData'
+      - '@ms/sp-pages.ISPListPrefetchResult.updatePrefetchData'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ISPListPrefetchResult.listData'
+    name: listData
+    fullName: listData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any listData
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-pages.ISPListPrefetchResult.updatePrefetchData'
+    name: updatePrefetchData
+    fullName: updatePrefetchData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(pageContext: ISpPageContext) => void updatePrefetchData'
+      return:
+        type:
+          - '(pageContext: ISpPageContext) => void'

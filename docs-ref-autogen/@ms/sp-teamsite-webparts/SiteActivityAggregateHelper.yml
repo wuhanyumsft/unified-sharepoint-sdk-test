@@ -1,0 +1,292 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper'
+    name: SiteActivityAggregateHelper
+    fullName: SiteActivityAggregateHelper
+    children:
+      - '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper.aggregate'
+      - '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper.createAggregate'
+      - >-
+        @ms/sp-teamsite-webparts.SiteActivityAggregateHelper.deduplicateActivities
+      - '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper.getAggregateKey'
+      - '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper.getDateString'
+      - '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper.getEditActivityKey'
+      - '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper.getMinutesDiff'
+      - '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper.processActivity'
+      - '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper.removeActivity'
+      - '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper.updateEditors'
+      - >-
+        @ms/sp-teamsite-webparts.SiteActivityAggregateHelper.updateExistingAggregate
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper.aggregate'
+    name: aggregate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      aggregate activities
+
+      the activities in the array should be ordered from new to old.
+
+      for item activity:
+
+      1. consolidte item activities in generic list with edit list activity.
+
+      2. aggregate multiple add activities for the same user in the same list
+      and the same date
+
+      3. aggregate multiple edit activities for the same item
+
+      4. special logic for hash tag activity:
+         When user tag a file, change log return 4 changes.
+         2 update changes and 2 activity changes with activityType equal to hashTag.
+         Since we only want to show one activity tile for one file in the same day,
+         if only one user edit and tag a file, we show tag activity.
+         if more than one users edit or tag a file, we show edit activity.
+    syntax:
+      content: 'static function aggregate(activities: IActivity[])'
+      parameters:
+        - id: activities
+          type:
+            - '@@ms/sp-teamsite-webparts.IActivity[]'
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper.createAggregate'
+    name: createAggregate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: create aggregate based on input single activity
+    syntax:
+      content: 'static function createAggregate(activity: IActivity)'
+      parameters:
+        - id: activity
+          type:
+            - '@@ms/sp-teamsite-webparts.IActivity'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IActivityAggregate'
+  - uid: '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper.deduplicateActivities'
+    name: deduplicateActivities
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Returns a copy of activities with the duplicates removed, so each
+      object in sharepoint is represented by at most one activity.
+      This function also filters out all activities that do not concern
+      list items, files, folders, or lists.
+    syntax:
+      content: 'static function deduplicateActivities(activities: IActivity[])'
+      parameters:
+        - id: activities
+          type:
+            - '@@ms/sp-teamsite-webparts.IActivity[]'
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper.getAggregateKey'
+    name: getAggregateKey
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      get aggregate key based on the activity change type.
+      for add activity, key should be user.name + listId + + date
+      for edit activity, key should be listId + item.id
+    syntax:
+      content: 'static function getAggregateKey(activity: IActivity)'
+      parameters:
+        - id: activity
+          type:
+            - '@@ms/sp-teamsite-webparts.IActivity'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper.getDateString'
+    name: getDateString
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      if activity has server returned relativeTime,
+      we parse it based on the format.
+      otherwise get date string only include year_month_date from activity date.
+    syntax:
+      content: 'static function getDateString(activity: IActivity)'
+      parameters:
+        - id: activity
+          type:
+            - '@@ms/sp-teamsite-webparts.IActivity'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper.getEditActivityKey'
+    name: getEditActivityKey
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: key should be user.name + listId +item.id
+    syntax:
+      content: 'static function getEditActivityKey(activity: IActivity)'
+      parameters:
+        - id: activity
+          type:
+            - '@@ms/sp-teamsite-webparts.IActivity'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper.getMinutesDiff'
+    name: getMinutesDiff
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: get the difference in minutes between two date time objects
+    syntax:
+      content: 'static function getMinutesDiff(startDate: Date, endDate: Date)'
+      parameters:
+        - id: startDate
+          type:
+            - Date
+          description: ''
+        - id: endDate
+          type:
+            - Date
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper.processActivity'
+    name: processActivity
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      process new activity and add it to aggregates array
+      check whether there is existing aggregate activity
+      if yes, then add it to existing aggregate activity
+      if no, create new aggregate activity
+    syntax:
+      content: >-
+        static function processActivity(activity: IActivity, aggregates:
+        IActivityAggregate[], addAggregateMap: [key: string]:
+        IActivityAggregate, editAggregateMap: [key: string]: IActivityAggregate,
+        oneNoteAggregateMap: [key: string]: IActivityAggregate,
+        editListAggregateMap: [key: string]: IActivityAggregate,
+        editActivityMap: [key: string]: IActivity, needSortWhenAggregate:
+        boolean)
+      parameters:
+        - id: activity
+          type:
+            - '@@ms/sp-teamsite-webparts.IActivity'
+          description: ''
+        - id: aggregates
+          type:
+            - '@@ms/sp-teamsite-webparts.IActivityAggregate[]'
+          description: ''
+        - id: addAggregateMap
+          type:
+            - '[key: string]: @@ms/sp-teamsite-webparts.IActivityAggregate'
+          description: |-
+
+            (map for existing aggregate activities by user)
+        - id: editAggregateMap
+          type:
+            - '[key: string]: @@ms/sp-teamsite-webparts.IActivityAggregate'
+          description: |-
+
+            (map for existing aggregate activities by item)
+        - id: oneNoteAggregateMap
+          type:
+            - '[key: string]: @@ms/sp-teamsite-webparts.IActivityAggregate'
+          description: ''
+        - id: editListAggregateMap
+          type:
+            - '[key: string]: @@ms/sp-teamsite-webparts.IActivityAggregate'
+          description: ''
+        - id: editActivityMap
+          type:
+            - '[key: string]: @@ms/sp-teamsite-webparts.IActivity'
+          description: |
+
+            (map for existing edit activities)
+        - id: needSortWhenAggregate
+          type:
+            - boolean
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper.removeActivity'
+    name: removeActivity
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Remove one activity from the aggreate activity
+    syntax:
+      content: >-
+        static function removeActivity(activity: IActivity, aggregate:
+        IActivityAggregate, result: IActivityAggregate[])
+      parameters:
+        - id: activity
+          type:
+            - '@@ms/sp-teamsite-webparts.IActivity'
+          description: ''
+        - id: aggregate
+          type:
+            - '@@ms/sp-teamsite-webparts.IActivityAggregate'
+          description: ''
+        - id: result
+          type:
+            - '@@ms/sp-teamsite-webparts.IActivityAggregate[]'
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper.updateEditors'
+    name: updateEditors
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: update editors for aggregate activity.
+    syntax:
+      content: 'static function updateEditors(aggregate: IActivityAggregate)'
+      parameters:
+        - id: aggregate
+          type:
+            - '@@ms/sp-teamsite-webparts.IActivityAggregate'
+          description: ''
+  - uid: >-
+      @ms/sp-teamsite-webparts.SiteActivityAggregateHelper.updateExistingAggregate
+    name: updateExistingAggregate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: add new activity to exist aggregate.
+    syntax:
+      content: >-
+        static function updateExistingAggregate(activity: IActivity, aggregate:
+        IActivityAggregate, needSortWhenAggregate: boolean)
+      parameters:
+        - id: activity
+          type:
+            - '@@ms/sp-teamsite-webparts.IActivity'
+          description: ''
+        - id: aggregate
+          type:
+            - '@@ms/sp-teamsite-webparts.IActivityAggregate'
+          description: ''
+        - id: needSortWhenAggregate
+          type:
+            - boolean
+          description: ''

@@ -1,0 +1,127 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.ShortcutsPanel'
+    name: ShortcutsPanel
+    fullName: ShortcutsPanel
+    children:
+      - '@ms/sp-teamsite-webparts.ShortcutsPanel.componentWillReceiveProps'
+      - '@ms/sp-teamsite-webparts.ShortcutsPanel.componentWillUnmount'
+      - '@ms/sp-teamsite-webparts.ShortcutsPanel.getFieldValues'
+      - '@ms/sp-teamsite-webparts.ShortcutsPanel.refs'
+      - '@ms/sp-teamsite-webparts.ShortcutsPanel.render'
+      - '@ms/sp-teamsite-webparts.ShortcutsPanel.setTitleValue'
+      - '@ms/sp-teamsite-webparts.ShortcutsPanel.setUrlValue'
+      - '@ms/sp-teamsite-webparts.ShortcutsPanel.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-teamsite-webparts.ShortcutsPanel<@@ms/sp-teamsite-webparts.IShortcutsPanelProps>
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.ShortcutsPanel.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(props: IShortcutsPanelProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-teamsite-webparts.IShortcutsPanelProps'
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.ShortcutsPanel.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-teamsite-webparts.ShortcutsPanel.getFieldValues'
+    name: getFieldValues
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getFieldValues()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IShortcutsPanelFieldValues'
+  - uid: '@ms/sp-teamsite-webparts.ShortcutsPanel.refs'
+    name: refs
+    fullName: refs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: string]: ReactInstance refs'
+      return:
+        type:
+          - '[key: string]: ReactInstance'
+  - uid: '@ms/sp-teamsite-webparts.ShortcutsPanel.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-teamsite-webparts.ShortcutsPanel.setTitleValue'
+    name: setTitleValue
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setTitleValue(value: string)'
+      parameters:
+        - id: value
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.ShortcutsPanel.setUrlValue'
+    name: setUrlValue
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setUrlValue(value: string)'
+      parameters:
+        - id: value
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.ShortcutsPanel.constructor'
+    name: ShortcutsPanel
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ShortcutsPanel(props: IShortcutsPanelProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-teamsite-webparts.IShortcutsPanelProps'
+          description: ''

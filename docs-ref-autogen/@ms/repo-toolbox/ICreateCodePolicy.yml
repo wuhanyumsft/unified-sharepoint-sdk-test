@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/repo-toolbox.ICreateCodePolicy'
+    name: ICreateCodePolicy
+    fullName: ICreateCodePolicy
+    children:
+      - '@ms/repo-toolbox.ICreateCodePolicy.isBlocking'
+      - '@ms/repo-toolbox.ICreateCodePolicy.isDeleted'
+      - '@ms/repo-toolbox.ICreateCodePolicy.isEnabled'
+      - '@ms/repo-toolbox.ICreateCodePolicy.settings'
+      - '@ms/repo-toolbox.ICreateCodePolicy.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/repo-toolbox'
+  - uid: '@ms/repo-toolbox.ICreateCodePolicy.isBlocking'
+    name: isBlocking
+    fullName: isBlocking
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isBlocking
+      return:
+        type:
+          - boolean
+  - uid: '@ms/repo-toolbox.ICreateCodePolicy.isDeleted'
+    name: isDeleted
+    fullName: isDeleted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isDeleted
+      return:
+        type:
+          - boolean
+  - uid: '@ms/repo-toolbox.ICreateCodePolicy.isEnabled'
+    name: isEnabled
+    fullName: isEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/repo-toolbox.ICreateCodePolicy.settings'
+    name: settings
+    fullName: settings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ICodePolicySettings settings
+      return:
+        type:
+          - '@@ms/repo-toolbox.ICodePolicySettings'
+  - uid: '@ms/repo-toolbox.ICreateCodePolicy.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ICodePolicyType type
+      return:
+        type:
+          - '@@ms/repo-toolbox.ICodePolicyType'

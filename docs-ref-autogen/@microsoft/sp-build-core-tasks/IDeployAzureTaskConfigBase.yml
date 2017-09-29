@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IDeployAzureTaskConfigBase'
+    name: IDeployAzureTaskConfigBase
+    fullName: IDeployAzureTaskConfigBase
+    children:
+      - '@microsoft/sp-build-core-tasks.IDeployAzureTaskConfigBase.accessKey'
+      - '@microsoft/sp-build-core-tasks.IDeployAzureTaskConfigBase.account'
+      - '@microsoft/sp-build-core-tasks.IDeployAzureTaskConfigBase.container'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.IDeployAzureTaskConfigBase.accessKey'
+    name: accessKey
+    fullName: accessKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The primary or secondary Azure blob storage access key. Defaults to
+      undefined.
+    syntax:
+      content: string accessKey
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IDeployAzureTaskConfigBase.account'
+    name: account
+    fullName: account
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The Azure account name. Defaults to undefined.
+    syntax:
+      content: string account
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IDeployAzureTaskConfigBase.container'
+    name: container
+    fullName: container
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The Azure container to use. Defaults to undefined.
+    syntax:
+      content: string container
+      return:
+        type:
+          - string

@@ -1,0 +1,89 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-extension-base.CommandSet'
+    name: CommandSet
+    fullName: CommandSet
+    children:
+      - '@microsoft/sp-extension-base.CommandSet.constructor'
+      - '@microsoft/sp-extension-base.CommandSet.TestIncludeScripts'
+      - '@microsoft/sp-extension-base.CommandSet.TestName'
+      - '@microsoft/sp-extension-base.CommandSet.TestOwner'
+      - '@microsoft/sp-extension-base.CommandSet.TestRun'
+      - '@microsoft/sp-extension-base.CommandSet.TestSetup'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Tests that clicking a Command Set Extension Item adds a div to the html
+      body.
+    package: '@microsoft/sp-extension-base'
+  - uid: '@microsoft/sp-extension-base.CommandSet.constructor'
+    name: CommandSet
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CommandSet(serverURL: string)'
+      parameters:
+        - id: serverURL
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-extension-base.CommandSet.TestIncludeScripts'
+    name: TestIncludeScripts
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: These scripts are required for the tests to run.
+    syntax:
+      content: function TestIncludeScripts()
+      parameters: []
+  - uid: '@microsoft/sp-extension-base.CommandSet.TestName'
+    name: TestName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestName()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-extension-base.CommandSet.TestOwner'
+    name: TestOwner
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestOwner()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-extension-base.CommandSet.TestRun'
+    name: TestRun
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestRun()
+      parameters: []
+  - uid: '@microsoft/sp-extension-base.CommandSet.TestSetup'
+    name: TestSetup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestSetup()
+      parameters: []

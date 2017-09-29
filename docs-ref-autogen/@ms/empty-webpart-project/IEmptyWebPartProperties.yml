@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/empty-webpart-project.IEmptyWebPartProperties'
+    name: IEmptyWebPartProperties
+    fullName: IEmptyWebPartProperties
+    children:
+      - '@ms/empty-webpart-project.IEmptyWebPartProperties.label'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/empty-webpart-project'
+  - uid: '@ms/empty-webpart-project.IEmptyWebPartProperties.label'
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string label
+      return:
+        type:
+          - string

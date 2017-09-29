@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IBingMapState'
+    name: IBingMapState
+    fullName: IBingMapState
+    children:
+      - '@ms/sp-publishing-webparts.IBingMapState.inputValue'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface for BingMapSearchBox state.
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IBingMapState.inputValue'
+    name: inputValue
+    fullName: inputValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string inputValue
+      return:
+        type:
+          - string

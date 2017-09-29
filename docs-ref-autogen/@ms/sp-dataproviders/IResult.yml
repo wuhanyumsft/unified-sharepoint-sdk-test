@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IResult'
+    name: IResult
+    fullName: IResult
+    children:
+      - '@ms/sp-dataproviders.IResult.ListData'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IResult.ListData'
+    name: ListData
+    fullName: ListData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IListData ListData
+      return:
+        type:
+          - '@@ms/sp-dataproviders.IListData'

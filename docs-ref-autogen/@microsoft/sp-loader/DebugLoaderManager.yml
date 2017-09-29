@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.DebugLoaderManager'
+    name: DebugLoaderManager
+    fullName: DebugLoaderManager
+    children:
+      - '@microsoft/sp-loader.DebugLoaderManager.checkDebugLoader'
+      - '@microsoft/sp-loader.DebugLoaderManager.isDebugLoader'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Provides APIs to detect the usage of a debug loader
+
+      This is used in order to provide security measures before running
+      arbitrary code, and to provide
+
+      improved debugging experience when a debug loader is used.
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.DebugLoaderManager.checkDebugLoader'
+    name: checkDebugLoader
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Checks if a debug loader is requested.
+
+      This method is the first thing called in SPStarter.start() and should not
+      be called anywhere else.
+
+      If there is no cookie for SPFx (usual case), it returns early.
+
+
+      If there is a cookie, it checks if a debug loader is requested, and if the
+      user hasn't confirmed
+
+      through the UI, it shows a dialog to confirm.
+
+      If user confirms, it reloads the page with the new loader.
+    syntax:
+      content: function checkDebugLoader()
+      parameters: []
+      return:
+        type:
+          - Promise<boolean>
+  - uid: '@microsoft/sp-loader.DebugLoaderManager.isDebugLoader'
+    name: isDebugLoader
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isDebugLoader()
+      parameters: []
+      return:
+        type:
+          - boolean

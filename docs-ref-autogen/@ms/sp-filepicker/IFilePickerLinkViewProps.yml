@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.IFilePickerLinkViewProps'
+    name: IFilePickerLinkViewProps
+    fullName: IFilePickerLinkViewProps
+    children:
+      - '@ms/sp-filepicker.IFilePickerLinkViewProps.allowExternalTenantLinks'
+      - '@ms/sp-filepicker.IFilePickerLinkViewProps.isOpen'
+      - '@ms/sp-filepicker.IFilePickerLinkViewProps.itemTypes'
+      - '@ms/sp-filepicker.IFilePickerLinkViewProps.serviceScope'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-filepicker.IBaseFilePickerTabProps'
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.IFilePickerLinkViewProps.allowExternalTenantLinks'
+    name: allowExternalTenantLinks
+    fullName: allowExternalTenantLinks
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean allowExternalTenantLinks
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-filepicker.IFilePickerLinkViewProps.isOpen'
+    name: isOpen
+    fullName: isOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isOpen
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-filepicker.IFilePickerLinkViewProps.itemTypes'
+    name: itemTypes
+    fullName: itemTypes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Set<FilePickerItemType> itemTypes
+      return:
+        type:
+          - Set<FilePickerItemType>
+  - uid: '@ms/sp-filepicker.IFilePickerLinkViewProps.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope

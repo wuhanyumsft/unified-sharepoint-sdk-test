@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-test-webparts.IVanillaJsOuifCoreTestWebPartWebPartProps'
+    name: IVanillaJsOuifCoreTestWebPartWebPartProps
+    fullName: IVanillaJsOuifCoreTestWebPartWebPartProps
+    children:
+      - >-
+        @ms/sp-test-webparts.IVanillaJsOuifCoreTestWebPartWebPartProps.description
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-test-webparts'
+  - uid: '@ms/sp-test-webparts.IVanillaJsOuifCoreTestWebPartWebPartProps.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string description
+      return:
+        type:
+          - string

@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ListCreationPanelContainer'
+    name: ListCreationPanelContainer
+    fullName: ListCreationPanelContainer
+    children:
+      - '@ms/sp-pages.ListCreationPanelContainer.componentDidMount'
+      - '@ms/sp-pages.ListCreationPanelContainer.constructor'
+      - '@ms/sp-pages.ListCreationPanelContainer.render'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Wrapper for the React ListCreationPanel control.
+
+      Keep this class free of any ListCreationPanel state management.
+
+      All state management should happen in
+      ListCreationPanelContainerStateManager.
+
+      This class should ONLY contain the SP-Client specific details of the
+      ListCreationPanel host.
+    extends:
+      name: >-
+        @@ms/sp-pages.ListCreationPanelContainer<@@ms/sp-pages.IListCreationPanelContainerProps>
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ListCreationPanelContainer.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-pages.ListCreationPanelContainer.constructor'
+    name: ListCreationPanelContainer
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ListCreationPanelContainer(props: IListCreationPanelContainerProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.IListCreationPanelContainerProps'
+          description: ''
+  - uid: '@ms/sp-pages.ListCreationPanelContainer.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

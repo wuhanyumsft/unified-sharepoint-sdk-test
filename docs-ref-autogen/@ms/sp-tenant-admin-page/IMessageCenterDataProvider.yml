@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IMessageCenterDataProvider'
+    name: IMessageCenterDataProvider
+    fullName: IMessageCenterDataProvider
+    children:
+      - '@ms/sp-tenant-admin-page.IMessageCenterDataProvider.getLatestMessages'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IMessageCenterDataProvider.getLatestMessages'
+    name: getLatestMessages
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Call API or use mock data to get lastest 5 un-dismissed message center
+      messages.
+    syntax:
+      content: function getLatestMessages()
+      parameters: []
+      return:
+        type:
+          - 'Promise<@@ms/sp-tenant-admin-page.IMessage[]>'

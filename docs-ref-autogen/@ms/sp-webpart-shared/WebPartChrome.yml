@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.WebPartChrome'
+    name: WebPartChrome
+    fullName: WebPartChrome
+    children:
+      - '@ms/sp-webpart-shared.WebPartChrome.focusOnTitle'
+      - '@ms/sp-webpart-shared.WebPartChrome.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-webpart-shared.WebPartChrome<@@ms/sp-webpart-shared.IWebPartChromeProps>
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.WebPartChrome.focusOnTitle'
+    name: focusOnTitle
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focusOnTitle()
+      parameters: []
+  - uid: '@ms/sp-webpart-shared.WebPartChrome.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

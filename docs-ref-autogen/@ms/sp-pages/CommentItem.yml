@@ -1,0 +1,256 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.CommentItem'
+    name: CommentItem
+    fullName: CommentItem
+    children:
+      - '@ms/sp-pages.CommentItem.addReply'
+      - '@ms/sp-pages.CommentItem.constructor'
+      - '@ms/sp-pages.CommentItem.equals'
+      - '@ms/sp-pages.CommentItem.hasMoreLikes'
+      - '@ms/sp-pages.CommentItem.isReply'
+      - '@ms/sp-pages.CommentItem.latestDate'
+      - '@ms/sp-pages.CommentItem.like'
+      - '@ms/sp-pages.CommentItem.moreReplies'
+      - '@ms/sp-pages.CommentItem.processLikeChunk'
+      - '@ms/sp-pages.CommentItem.removeReply'
+      - '@ms/sp-pages.CommentItem.replaceReply'
+      - '@ms/sp-pages.CommentItem.sortReplies'
+      - '@ms/sp-pages.CommentItem.unlike'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.CommentItem.addReply'
+    name: addReply
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addReply(comment: CommentItem)'
+      parameters:
+        - id: comment
+          type:
+            - '@@ms/sp-pages.CommentItem'
+          description: ''
+  - uid: '@ms/sp-pages.CommentItem.constructor'
+    name: CommentItem
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CommentItem(replies: CommentItem[], date: Date, id: string,
+        nextLink: string, parentId: string, text: string, author: IUserObject,
+        likeCount: number, userLiked: boolean, likedBy?: IUserObject[],
+        nextLikesLink?: string, serverObject?: ICommentItemServerResponse)
+      parameters:
+        - id: replies
+          type:
+            - '@@ms/sp-pages.CommentItem[]'
+          description: ''
+        - id: date
+          type:
+            - Date
+          description: ''
+        - id: id
+          type:
+            - string
+          description: ''
+        - id: nextLink
+          type:
+            - string
+          description: ''
+        - id: parentId
+          type:
+            - string
+          description: ''
+        - id: text
+          type:
+            - string
+          description: ''
+        - id: author
+          type:
+            - '@@ms/sp-pages.IUserObject'
+          description: ''
+        - id: likeCount
+          type:
+            - number
+          description: ''
+        - id: userLiked
+          type:
+            - boolean
+          description: ''
+        - id: likedBy
+          type:
+            - '@@ms/sp-pages.IUserObject[]'
+          description: ''
+          optional: true
+        - id: nextLikesLink
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: serverObject
+          type:
+            - '@@ms/sp-pages.ICommentItemServerResponse'
+          description: ''
+          optional: true
+  - uid: '@ms/sp-pages.CommentItem.equals'
+    name: equals
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function equals(comment: CommentItem)'
+      parameters:
+        - id: comment
+          type:
+            - '@@ms/sp-pages.CommentItem'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.CommentItem.hasMoreLikes'
+    name: hasMoreLikes
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function hasMoreLikes()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.CommentItem.isReply'
+    name: isReply
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isReply()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.CommentItem.latestDate'
+    name: latestDate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function latestDate()
+      parameters: []
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-pages.CommentItem.like'
+    name: like
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function like(user: IUserObject)'
+      parameters:
+        - id: user
+          type:
+            - '@@ms/sp-pages.IUserObject'
+          description: ''
+  - uid: '@ms/sp-pages.CommentItem.moreReplies'
+    name: moreReplies
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function moreReplies()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.CommentItem.processLikeChunk'
+    name: processLikeChunk
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function processLikeChunk(likeChunk: ICommentLikeChunk)'
+      parameters:
+        - id: likeChunk
+          type:
+            - '@@ms/sp-pages.ICommentLikeChunk'
+          description: ''
+  - uid: '@ms/sp-pages.CommentItem.removeReply'
+    name: removeReply
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeReply(commentToRemove: CommentItem)'
+      parameters:
+        - id: commentToRemove
+          type:
+            - '@@ms/sp-pages.CommentItem'
+          description: ''
+  - uid: '@ms/sp-pages.CommentItem.replaceReply'
+    name: replaceReply
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function replaceReply(oldReply: CommentItem, newReply: CommentItem)'
+      parameters:
+        - id: oldReply
+          type:
+            - '@@ms/sp-pages.CommentItem'
+          description: ''
+        - id: newReply
+          type:
+            - '@@ms/sp-pages.CommentItem'
+          description: ''
+  - uid: '@ms/sp-pages.CommentItem.sortReplies'
+    name: sortReplies
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function sortReplies()
+      parameters: []
+  - uid: '@ms/sp-pages.CommentItem.unlike'
+    name: unlike
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unlike(user: IUserObject)'
+      parameters:
+        - id: user
+          type:
+            - '@@ms/sp-pages.IUserObject'
+          description: ''

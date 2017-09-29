@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.SeeAllPageLayout'
+    name: SeeAllPageLayout
+    fullName: SeeAllPageLayout
+    children:
+      - '@ms/sp-pages.SeeAllPageLayout.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.SeeAllPageLayout'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SeeAllPageLayout.constructor'
+    name: SeeAllPageLayout
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SeeAllPageLayout(domElement: HTMLElement)'
+      parameters:
+        - id: domElement
+          type:
+            - HTMLElement
+          description: ''

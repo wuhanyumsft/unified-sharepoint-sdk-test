@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.PeopleLink'
+    name: PeopleLink
+    fullName: PeopleLink
+    children:
+      - '@ms/sp-people-webparts.PeopleLink.constructor'
+      - '@ms/sp-people-webparts.PeopleLink.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-people-webparts.PeopleLink<@@ms/sp-people-webparts.IPeopleLinkProps>
+    package: '@ms/sp-people-webparts'
+  - uid: '@ms/sp-people-webparts.PeopleLink.constructor'
+    name: PeopleLink
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PeopleLink(props: IPeopleLinkProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-people-webparts.IPeopleLinkProps'
+          description: ''
+  - uid: '@ms/sp-people-webparts.PeopleLink.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

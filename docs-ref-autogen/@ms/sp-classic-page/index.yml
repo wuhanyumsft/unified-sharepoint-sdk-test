@@ -1,0 +1,19 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-classic-page'
+    name: '@ms/sp-classic-page'
+    summary: ''
+    children:
+      - '@ms/sp-classic-page.ClassicPageHost'
+      - '@ms/sp-classic-page.ClassicPageWebPartApplication'
+      - '@ms/sp-classic-page.ClassicPageBasic'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@ms/sp-classic-page.ClassicPageHost'
+    name: ClassicPageHost
+  - uid: '@ms/sp-classic-page.ClassicPageWebPartApplication'
+    name: ClassicPageWebPartApplication
+  - uid: '@ms/sp-classic-page.ClassicPageBasic'
+    name: ClassicPageBasic

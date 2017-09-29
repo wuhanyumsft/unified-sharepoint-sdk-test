@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.ActivityType'
+    name: ActivityType
+    fullName: ActivityType
+    children:
+      - '@ms/sp-teamsite-webparts.ActivityType.Other'
+      - '@ms/sp-teamsite-webparts.ActivityType.PeopleModifiedActivity'
+      - '@ms/sp-teamsite-webparts.ActivityType.PersonCreatedActivity'
+      - '@ms/sp-teamsite-webparts.ActivityType.PersonModifiedActivity'
+      - '@ms/sp-teamsite-webparts.ActivityType.TrendingAroundActivity'
+      - '@ms/sp-teamsite-webparts.ActivityType.YouModifiedActivity'
+      - '@ms/sp-teamsite-webparts.ActivityType.YouViewedActivity'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.ActivityType.Other'
+    name: Other
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ActivityType.PeopleModifiedActivity'
+    name: PeopleModifiedActivity
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ActivityType.PersonCreatedActivity'
+    name: PersonCreatedActivity
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ActivityType.PersonModifiedActivity'
+    name: PersonModifiedActivity
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ActivityType.TrendingAroundActivity'
+    name: TrendingAroundActivity
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ActivityType.YouModifiedActivity'
+    name: YouModifiedActivity
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ActivityType.YouViewedActivity'
+    name: YouViewedActivity
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

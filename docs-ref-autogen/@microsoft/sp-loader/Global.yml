@@ -1,0 +1,843 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.Global'
+    package: '@microsoft/sp-loader'
+    name: Global
+    children:
+      - '@microsoft/sp-loader.clearFragment'
+      - '@microsoft/sp-loader.confirmDebugAllowed'
+      - '@microsoft/sp-loader.dangerouslyForceDebug'
+      - '@microsoft/sp-loader.ensureDebugComponents'
+      - '@microsoft/sp-loader.ensureReactIsLoaded'
+      - '@microsoft/sp-loader.formatTimestamp'
+      - '@microsoft/sp-loader.getFragment'
+      - '@microsoft/sp-loader.getState'
+      - '@microsoft/sp-loader.initialize'
+      - '@microsoft/sp-loader.initializeNpmModule'
+      - '@microsoft/sp-loader.leftPadZeros'
+      - '@microsoft/sp-loader.loadComponent'
+      - '@microsoft/sp-loader.loadComponent'
+      - '@microsoft/sp-loader.loadDebugManifests'
+      - '@microsoft/sp-loader.normalizeComponentId'
+      - '@microsoft/sp-loader.normalizeFailoverPathName'
+      - '@microsoft/sp-loader.normalizeFailoverPathName'
+      - '@microsoft/sp-loader.normalizeManifestId'
+      - '@microsoft/sp-loader.normalizeName'
+      - '@microsoft/sp-loader.normalizeName'
+      - '@microsoft/sp-loader.peek'
+      - '@microsoft/sp-loader.registerDeveloperToolsTab'
+      - '@microsoft/sp-loader.requirejsLoadsComponentAndExpectsBeingCalledOnce'
+      - >-
+        @microsoft/sp-loader.requirejsLoadsPathDependencyAndExpectsBeingCalledOnce
+      - '@microsoft/sp-loader.resolveAddress'
+      - '@microsoft/sp-loader.resolveLocalizedModuleConfiguration'
+      - '@microsoft/sp-loader.resolveModuleConfiguration'
+      - '@microsoft/sp-loader.resolvePath'
+      - '@microsoft/sp-loader.showBrowserDevToolsWarning'
+      - '@microsoft/sp-loader.showDebugError'
+      - '@microsoft/sp-loader.showDebugLoaderPrompt'
+      - '@microsoft/sp-loader.showDebugPrompt'
+      - '@microsoft/sp-loader.showError'
+      - '@microsoft/sp-loader.systemImportLoadsComponentAndExpectsBeingCalledOnce'
+      - >-
+        @microsoft/sp-loader.systemImportLoadsPathDependencyAndExpectsBeingCalledOnce
+      - '@microsoft/sp-loader.toggleDeveloperTools'
+      - '@microsoft/sp-loader.triggerCsvDownload'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@microsoft/sp-loader.clearFragment'
+    name: clearFragment
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clearFragment()
+      parameters: []
+  - uid: '@microsoft/sp-loader.confirmDebugAllowed'
+    name: confirmDebugAllowed
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function confirmDebugAllowed(prompt: boolean)'
+      parameters:
+        - id: prompt
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - Promise<boolean>
+  - uid: '@microsoft/sp-loader.dangerouslyForceDebug'
+    name: dangerouslyForceDebug
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function dangerouslyForceDebug()
+      parameters: []
+  - uid: '@microsoft/sp-loader.ensureDebugComponents'
+    name: ensureDebugComponents
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function ensureDebugComponents()
+      parameters: []
+      return:
+        type:
+          - Promise<any>
+  - uid: '@microsoft/sp-loader.ensureReactIsLoaded'
+    name: ensureReactIsLoaded
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      This function contains some magic to load special packages (React and
+      React-DOM) while we're serving
+       from a local workbench without bundling any of them. This function shouldn't have any effect in any context other
+       than the local workbench and for specific packages.
+    syntax:
+      content: function ensureReactIsLoaded()
+      parameters: []
+  - uid: '@microsoft/sp-loader.formatTimestamp'
+    name: formatTimestamp
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatTimestamp(time: number)'
+      parameters:
+        - id: time
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-loader.getFragment'
+    name: getFragment
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getFragment(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-loader.getState'
+    name: getState
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      This function parses through performance data and puts together some
+      performance data (IPerfItem) objects for the
+
+      component to display. If errors are encountered, the _errorMessage
+      variable is set and the function returns an
+
+      empty array. The component checks for the presence of an error message to
+      determine if something went wrong.
+    syntax:
+      content: function getState()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/sp-loader.IPerformanceDisplayState'
+  - uid: '@microsoft/sp-loader.initialize'
+    name: initialize
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function initialize()
+      parameters: []
+  - uid: '@microsoft/sp-loader.initializeNpmModule'
+    name: initializeNpmModule
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function initializeNpmModule()
+      parameters: []
+  - uid: '@microsoft/sp-loader.leftPadZeros'
+    name: leftPadZeros
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function leftPadZeros(value: number, minLength: number)'
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: minLength
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-loader.loadComponent'
+    name: loadComponent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Loads a component from a manifest.
+    syntax:
+      content: >-
+        function loadComponent<TComponent>(manifest:
+        IClientSideComponentManifest)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: Manifest of the module to load.
+      return:
+        type:
+          - Promise<TComponent>
+  - uid: '@microsoft/sp-loader.loadComponent'
+    name: loadComponent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Loads a component from a manifest.
+    syntax:
+      content: >-
+        function loadComponent<TComponent>(manifest:
+        IClientSideComponentManifest)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: Manifest of the module to load.
+      return:
+        type:
+          - Promise<TComponent>
+  - uid: '@microsoft/sp-loader.loadDebugManifests'
+    name: loadDebugManifests
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Loads debug manifests from the specified URLs. URLs are tried in order
+      until one succeeds.
+    syntax:
+      content: >-
+        function loadDebugManifests(componentLoader: ISPComponentLoader,
+        alternativeManifestsFiles?: string[], noPrompt: boolean, noCache:
+        boolean, noWarnOnFailure: boolean, registerAsNonDebug: boolean)
+      parameters:
+        - id: componentLoader
+          type:
+            - '@@microsoft/sp-loader.ISPComponentLoader'
+          description: 'The component loader, used to load the manifests scripts.'
+        - id: alternativeManifestsFiles
+          type:
+            - 'string[]'
+          description: ''
+          optional: true
+        - id: noPrompt
+          type:
+            - boolean
+          description: 'If true, do not show the security warning dialog. Defaults to false.'
+        - id: noCache
+          type:
+            - boolean
+          description: >-
+            If true, do not cache the debug manifests in session storage.
+            Defaults to false.
+        - id: noWarnOnFailure
+          type:
+            - boolean
+          description: >-
+            If true, do not show an error message if debug manifests fail to
+            load. Defaults to false.
+        - id: registerAsNonDebug
+          type:
+            - boolean
+          description: |
+            If true, load manifests as non-debug.
+      return:
+        type:
+          - Promise<void>
+  - uid: '@microsoft/sp-loader.normalizeComponentId'
+    name: normalizeComponentId
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >
+      Given a component id and version, gives a normalized string that includes
+      both string and version.
+
+      Used internally to provide a common way to refer to id + version in
+      different classes.
+
+      Example:
+
+      { id: d1d91016-032f-456d-98a4-721247c305e8, version: 1.0.0 } ->
+      d1d91016-032f-456d-98a4-721247c305e8_1.0.0
+    syntax:
+      content: 'function normalizeComponentId(id: string, version: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+        - id: version
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-loader.normalizeFailoverPathName'
+    name: normalizeFailoverPathName
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >
+      This is only used for components that have a failover path (so far, react
+      and react-dom).
+
+      As the failover path is used when there is no component, they work via its
+      name,
+
+      but as opposed to the 'path' dependencies, they are unique in SPFx, like a
+      component.
+
+      They return the name directly, prepended by the component base URL.
+    syntax:
+      content: 'function normalizeFailoverPathName(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-loader.normalizeFailoverPathName'
+    name: normalizeFailoverPathName
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >
+      This is only used for components that have a failover path (so far, react
+      and react-dom).
+
+      As the failover path is used when there is no component, they work via its
+      name,
+
+      but as opposed to the 'path' dependencies, they are unique in SPFx, like a
+      component.
+
+      They return the name directly, prepended by the component base URL.
+    syntax:
+      content: 'function normalizeFailoverPathName(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-loader.normalizeManifestId'
+    name: normalizeManifestId
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function normalizeManifestId(manifest: IClientSideComponentManifest)'
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-loader.normalizeName'
+    name: normalizeName
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >
+      Given a manifest, or a manifest and a name, normalizes the name for usage
+
+      in stores and SystemJS.
+
+      This is used in order to support versioning for components, and uniquely
+
+      identify non-component dependencies.
+
+
+      Current behavior:
+
+      Returns <manifestId>_<manifestVersion>.
+
+      If a name is provided returns the <manifestId>_<manifestVersion>/<name>.
+
+      It prepends 'https://component-id.invalid/' in order to make it an
+      absolute URL.
+
+
+      Final behavior:
+
+      For a manifest, normalized name will be <componentId>-<version>
+
+      If a name is provided, normalized name will be
+      <componentId>-<version>-<name>
+    syntax:
+      content: >-
+        function normalizeName(manifest: IClientSideComponentManifest, name?:
+        string)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+        - id: name
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-loader.normalizeName'
+    name: normalizeName
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: |
+      Given a manifest, or a manifest and a name, normalizes the name for usage
+      in stores and RequireJS.
+      This is used in order to support versioning for components, and uniquely
+      identify non-component dependencies.
+
+      Behavior:
+      Returns <manifestId>_<manifestVersion>.
+      If a name is provided returns the <manifestId>_<manifestVersion>/<name>.
+    syntax:
+      content: >-
+        function normalizeName(manifest: IClientSideComponentManifest, name?:
+        string)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+        - id: name
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-loader.peek'
+    name: peek
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function peek()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-loader.registerDeveloperToolsTab'
+    name: registerDeveloperToolsTab
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Registers a tab in the developer tools. The developer tools are invoked by
+      pressing "CTRL+F12".
+    syntax:
+      content: >-
+        function registerDeveloperToolsTab(developerToolsTab:
+        IDeveloperToolsTab)
+      parameters:
+        - id: developerToolsTab
+          type:
+            - IDeveloperToolsTab
+          description: |
+            The tab definition.
+  - uid: '@microsoft/sp-loader.requirejsLoadsComponentAndExpectsBeingCalledOnce'
+    name: requirejsLoadsComponentAndExpectsBeingCalledOnce
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Auxiliary function: Sets up the RequireJsLoader mock to expect being
+      called once to load the component
+
+      defined by its manifest. system.import() succeeds and returns module
+    syntax:
+      content: >-
+        function
+        requirejsLoadsComponentAndExpectsBeingCalledOnce(requireJsLoaderMock:
+        SinonMock, manifest: IClientSideComponentManifest, module: any)
+      parameters:
+        - id: requireJsLoaderMock
+          type:
+            - SinonMock
+          description: RequireJsLoader mock
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: Manifest of the component to load
+        - id: module
+          type:
+            - any
+          description: |
+            Object to return as the module of the component
+  - uid: '@microsoft/sp-loader.requirejsLoadsPathDependencyAndExpectsBeingCalledOnce'
+    name: requirejsLoadsPathDependencyAndExpectsBeingCalledOnce
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Auxiliary function: Sets up the RequireJsLoader mock to expect being
+      called once to load
+
+      a path dependency of a component defined by its manifest and dependency
+      name.
+
+      system.import() succeeds and returns module
+    syntax:
+      content: >-
+        function
+        requirejsLoadsPathDependencyAndExpectsBeingCalledOnce(requireJsLoaderMock:
+        SinonMock, manifest: IClientSideComponentManifest, pathDependencyName:
+        string, module: any)
+      parameters:
+        - id: requireJsLoaderMock
+          type:
+            - SinonMock
+          description: RequireJsLoader mock
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: Manifest of the component
+        - id: pathDependencyName
+          type:
+            - string
+          description: Path dependency of the component to load
+        - id: module
+          type:
+            - any
+          description: |
+            Object to return as the module of the component
+  - uid: '@microsoft/sp-loader.resolveAddress'
+    name: resolveAddress
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >
+      Given a manifest and a resource name returns the URL to the resource.
+
+      For path or localizedPath dependencies, it returns the full URL to the
+      resource.
+
+      For component dependencies, it returns the full URL to the failover path,
+
+      or returns an empty string if it doesn't exist.
+
+
+      If the resource name is not present in the loader config, it throws an
+      error.
+    syntax:
+      content: >-
+        function resolveAddress(manifest: IClientSideComponentManifest,
+        resourceName: string)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+        - id: resourceName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-loader.resolveLocalizedModuleConfiguration'
+    name: resolveLocalizedModuleConfiguration
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Resolves a localized module config to a path.
+    syntax:
+      content: >-
+        function resolveLocalizedModuleConfiguration(moduleConfiguration:
+        ILocalizedPathModuleConfiguration)
+      parameters:
+        - id: moduleConfiguration
+          type:
+            - ILocalizedPathModuleConfiguration
+          description: ''
+  - uid: '@microsoft/sp-loader.resolveModuleConfiguration'
+    name: resolveModuleConfiguration
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >
+      Resolves a IModuleConfiguration to a URL
+
+      Take a look at the IModuleConfiguration documentation for more
+      information.
+    syntax:
+      content: >-
+        function resolveModuleConfiguration(moduleName: string,
+        moduleConfiguration: IModuleConfiguration)
+      parameters:
+        - id: moduleName
+          type:
+            - string
+          description: ''
+        - id: moduleConfiguration
+          type:
+            - IModuleConfiguration
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-loader.resolvePath'
+    name: resolvePath
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >
+      Resolves a path to the default or debug version of a script.
+
+      If a debug version is present, it uses that. Otherwise uses the default
+      one.
+
+      If the path is a string, it returns it unchanged.
+    syntax:
+      content: 'function resolvePath(path: string)'
+      parameters:
+        - id: path
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-loader.showBrowserDevToolsWarning'
+    name: showBrowserDevToolsWarning
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function showBrowserDevToolsWarning()
+      parameters: []
+  - uid: '@microsoft/sp-loader.showDebugError'
+    name: showDebugError
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function showDebugError(innerError: Error, errorText: string)'
+      parameters:
+        - id: innerError
+          type:
+            - Error
+          description: ''
+        - id: errorText
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@microsoft/sp-loader.showDebugLoaderPrompt'
+    name: showDebugLoaderPrompt
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function showDebugLoaderPrompt()
+      parameters: []
+      return:
+        type:
+          - Promise<boolean>
+  - uid: '@microsoft/sp-loader.showDebugPrompt'
+    name: showDebugPrompt
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function showDebugPrompt(responseCallback: (allowed: boolean) => void)'
+      parameters:
+        - id: responseCallback
+          type:
+            - '(allowed: boolean) => void'
+          description: ''
+  - uid: '@microsoft/sp-loader.showError'
+    name: showError
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function showError(innerError: Error, errorText: string)'
+      parameters:
+        - id: innerError
+          type:
+            - Error
+          description: ''
+        - id: errorText
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-loader.systemImportLoadsComponentAndExpectsBeingCalledOnce'
+    name: systemImportLoadsComponentAndExpectsBeingCalledOnce
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Auxiliary function: Sets up the SystemJS mock to expect being called once
+      to load the component
+
+      defined by its manifest. system.import() succeeds and returns module
+    syntax:
+      content: >-
+        function systemImportLoadsComponentAndExpectsBeingCalledOnce(systemMock:
+        SinonMock, manifest: IClientSideComponentManifest, module: any)
+      parameters:
+        - id: systemMock
+          type:
+            - SinonMock
+          description: SystemJS mock
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: Manifest of the component to load
+        - id: module
+          type:
+            - any
+          description: |
+            Object to return as the module of the component
+  - uid: >-
+      @microsoft/sp-loader.systemImportLoadsPathDependencyAndExpectsBeingCalledOnce
+    name: systemImportLoadsPathDependencyAndExpectsBeingCalledOnce
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Auxiliary function: Sets up the SystemJS mock to expect being called once
+      to load
+
+      a path dependency of a component defined by its manifest and dependency
+      name.
+
+      system.import() succeeds and returns module
+    syntax:
+      content: >-
+        function
+        systemImportLoadsPathDependencyAndExpectsBeingCalledOnce(systemMock:
+        SinonMock, manifest: IClientSideComponentManifest, pathDependencyName:
+        string, module: any)
+      parameters:
+        - id: systemMock
+          type:
+            - SinonMock
+          description: SystemJS mock
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: Manifest of the component
+        - id: pathDependencyName
+          type:
+            - string
+          description: Path dependency of the component to load
+        - id: module
+          type:
+            - any
+          description: |
+            Object to return as the module of the component
+  - uid: '@microsoft/sp-loader.toggleDeveloperTools'
+    name: toggleDeveloperTools
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Shows/hides the developer tools panel.
+    syntax:
+      content: function toggleDeveloperTools()
+      parameters: []
+  - uid: '@microsoft/sp-loader.triggerCsvDownload'
+    name: triggerCsvDownload
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function triggerCsvDownload(traces: _LogEvent[])'
+      parameters:
+        - id: traces
+          type:
+            - '_LogEvent[]'
+          description: ''

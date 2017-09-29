@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.IPeopleCardState'
+    name: IPeopleCardState
+    fullName: IPeopleCardState
+    children:
+      - '@ms/sp-people-webparts.IPeopleCardState.livePersonaCardAlert'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-people-webparts'
+  - uid: '@ms/sp-people-webparts.IPeopleCardState.livePersonaCardAlert'
+    name: livePersonaCardAlert
+    fullName: livePersonaCardAlert
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The indicator to tell screen reader to read the the information when
+      LivePersonaCard is triggered.
+    syntax:
+      content: string livePersonaCardAlert
+      return:
+        type:
+          - string

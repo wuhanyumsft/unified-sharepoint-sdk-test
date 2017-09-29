@@ -1,0 +1,232 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel'
+    name: SiteInformationPanel
+    fullName: SiteInformationPanel
+    children:
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.AddTaskDismissSiteInformationPanel
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.AddTaskLaunchSiteInformationPanelDirectly
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.AddTaskLaunchSiteInformationPanelFromSuiteNav
+      - '@ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.DismissDropdownMenu'
+      - '@ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.DoesElementExist'
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.GetDescriptionTextField
+      - '@ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.GetDropdownItems'
+      - '@ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.GetElementTextContent'
+      - '@ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.GetNameTextField'
+      - '@ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.GetSiteInfoPanelLabels'
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.OpenClassificationDropdown
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.OpenPrivacySettingDropdown
+      - '@ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.WaitForPanel'
+      - '@ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.WaitForSiteInfo'
+      - '@ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.WaitForSiteLogo'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: >-
+      @ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.AddTaskDismissSiteInformationPanel
+    name: AddTaskDismissSiteInformationPanel
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function AddTaskDismissSiteInformationPanel()
+      parameters: []
+  - uid: >-
+      @ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.AddTaskLaunchSiteInformationPanelDirectly
+    name: AddTaskLaunchSiteInformationPanelDirectly
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function AddTaskLaunchSiteInformationPanelDirectly()
+      parameters: []
+  - uid: >-
+      @ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.AddTaskLaunchSiteInformationPanelFromSuiteNav
+    name: AddTaskLaunchSiteInformationPanelFromSuiteNav
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function AddTaskLaunchSiteInformationPanelFromSuiteNav()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.DismissDropdownMenu'
+    name: DismissDropdownMenu
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function DismissDropdownMenu()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.DoesElementExist'
+    name: DoesElementExist
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function DoesElementExist(targetDataAutomationId?: string,
+        targetClassName?: string)
+      parameters:
+        - id: targetDataAutomationId
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: targetClassName
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.GetDescriptionTextField'
+    name: GetDescriptionTextField
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function GetDescriptionTextField()
+      parameters: []
+      return:
+        type:
+          - HTMLInputElement
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.GetDropdownItems'
+    name: GetDropdownItems
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function GetDropdownItems()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.GetElementTextContent'
+    name: GetElementTextContent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function GetElementTextContent(targetDataAutomationId?: string,
+        targetClassName?: string)
+      parameters:
+        - id: targetDataAutomationId
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: targetClassName
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.GetNameTextField'
+    name: GetNameTextField
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function GetNameTextField()
+      parameters: []
+      return:
+        type:
+          - HTMLInputElement
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.GetSiteInfoPanelLabels'
+    name: GetSiteInfoPanelLabels
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function GetSiteInfoPanelLabels()
+      parameters: []
+  - uid: >-
+      @ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.OpenClassificationDropdown
+    name: OpenClassificationDropdown
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function OpenClassificationDropdown()
+      parameters: []
+  - uid: >-
+      @ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.OpenPrivacySettingDropdown
+    name: OpenPrivacySettingDropdown
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function OpenPrivacySettingDropdown()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.WaitForPanel'
+    name: WaitForPanel
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function WaitForPanel()
+      parameters: []
+      return:
+        type:
+          - Waiter
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.WaitForSiteInfo'
+    name: WaitForSiteInfo
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function WaitForSiteInfo()
+      parameters: []
+      return:
+        type:
+          - Waiter
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.SiteInformationPanel.WaitForSiteLogo'
+    name: WaitForSiteLogo
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function WaitForSiteLogo()
+      parameters: []
+      return:
+        type:
+          - Waiter

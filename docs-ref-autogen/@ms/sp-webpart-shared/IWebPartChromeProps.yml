@@ -1,0 +1,187 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.IWebPartChromeProps'
+    name: IWebPartChromeProps
+    fullName: IWebPartChromeProps
+    children:
+      - '@ms/sp-webpart-shared.IWebPartChromeProps.addButton'
+      - '@ms/sp-webpart-shared.IWebPartChromeProps.contentElement'
+      - '@ms/sp-webpart-shared.IWebPartChromeProps.customTitle'
+      - '@ms/sp-webpart-shared.IWebPartChromeProps.isEditMode'
+      - '@ms/sp-webpart-shared.IWebPartChromeProps.onTitleChange'
+      - '@ms/sp-webpart-shared.IWebPartChromeProps.pagination'
+      - '@ms/sp-webpart-shared.IWebPartChromeProps.placeholder'
+      - '@ms/sp-webpart-shared.IWebPartChromeProps.seeAllLink'
+      - '@ms/sp-webpart-shared.IWebPartChromeProps.showTitle'
+      - '@ms/sp-webpart-shared.IWebPartChromeProps.title'
+      - '@ms/sp-webpart-shared.IWebPartChromeProps.titleAlignment'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.IWebPartChromeProps.addButton'
+    name: addButton
+    fullName: addButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Configuration of the add button.
+    syntax:
+      content: IButtonOptions addButton
+      return:
+        type:
+          - IButtonOptions
+  - uid: '@ms/sp-webpart-shared.IWebPartChromeProps.contentElement'
+    name: contentElement
+    fullName: contentElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Content to render in the web part.
+    syntax:
+      content: Element contentElement
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-webpart-shared.IWebPartChromeProps.customTitle'
+    name: customTitle
+    fullName: customTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Custom title element. Used to replace the standard web part title with a
+      breadcrumb display.
+    syntax:
+      content: Element customTitle
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-webpart-shared.IWebPartChromeProps.isEditMode'
+    name: isEditMode
+    fullName: isEditMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Should be set to true when the page is in edit mode. The "Add" button is
+      hidden in edit mode to
+
+      prevent the user from navigating away from an unsaved page.
+    syntax:
+      content: boolean isEditMode
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-webpart-shared.IWebPartChromeProps.onTitleChange'
+    name: onTitleChange
+    fullName: onTitleChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Function for the web part to receive an entered title. If not provided,
+      the title will not be
+
+      rendered as editable.
+    syntax:
+      content: '(ev: FormEvent<HTMLTextAreaElement>) => void onTitleChange'
+      return:
+        type:
+          - '(ev: FormEvent<HTMLTextAreaElement>) => void'
+  - uid: '@ms/sp-webpart-shared.IWebPartChromeProps.pagination'
+    name: pagination
+    fullName: pagination
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Properties for rendering the pagination component.
+    syntax:
+      content: IPaginationProps pagination
+      return:
+        type:
+          - '@@ms/sp-webpart-shared.IPaginationProps'
+  - uid: '@ms/sp-webpart-shared.IWebPartChromeProps.placeholder'
+    name: placeholder
+    fullName: placeholder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Placeholder text printed lightly when a title entry is not provided. This
+      may be used to suggest
+
+      what the default title would be if one is not provided.
+    syntax:
+      content: string placeholder
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IWebPartChromeProps.seeAllLink'
+    name: seeAllLink
+    fullName: seeAllLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Configuration of the "see all" link.
+    syntax:
+      content: IButtonOptions seeAllLink
+      return:
+        type:
+          - IButtonOptions
+  - uid: '@ms/sp-webpart-shared.IWebPartChromeProps.showTitle'
+    name: showTitle
+    fullName: showTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Set to true to render the Title area for edit or the title for read when
+      there is title text.
+    syntax:
+      content: boolean showTitle
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-webpart-shared.IWebPartChromeProps.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Title rendered for the web part.
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IWebPartChromeProps.titleAlignment'
+    name: titleAlignment
+    fullName: titleAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Specify the text should be one of page direction aligned or center aligned
+      with RTL considered.
+
+      Page direction aligned is left aligned adjusted to right aligned for RTL.
+    syntax:
+      content: CaptionElementAlignPosition titleAlignment
+      return:
+        type:
+          - '@@ms/sp-webpart-shared.CaptionElementAlignPosition'

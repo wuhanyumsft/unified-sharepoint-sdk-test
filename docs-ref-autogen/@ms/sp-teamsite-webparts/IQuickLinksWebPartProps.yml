@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksWebPartProps'
+    name: IQuickLinksWebPartProps
+    fullName: IQuickLinksWebPartProps
+    children:
+      - '@ms/sp-teamsite-webparts.IQuickLinksWebPartProps.isMigrated'
+      - '@ms/sp-teamsite-webparts.IQuickLinksWebPartProps.items'
+      - '@ms/sp-teamsite-webparts.IQuickLinksWebPartProps.shouldShowThumbnail'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksWebPartProps.isMigrated'
+    name: isMigrated
+    fullName: isMigrated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The flag indicates whether migration for this webpart has been completed.
+
+      For webparts created after migration flight (SOXPinnedItemsUpgradeV2) is
+      turned on, this value is true.
+    syntax:
+      content: boolean isMigrated
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksWebPartProps.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The Quick Link items.
+    syntax:
+      content: 'IQuickLink[] items'
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IQuickLink[]'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksWebPartProps.shouldShowThumbnail'
+    name: shouldShowThumbnail
+    fullName: shouldShowThumbnail
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether webpart should show thumbnail in compact card layout.
+    syntax:
+      content: boolean shouldShowThumbnail
+      return:
+        type:
+          - boolean

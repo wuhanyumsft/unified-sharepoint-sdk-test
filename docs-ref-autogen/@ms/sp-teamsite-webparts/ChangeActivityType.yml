@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.ChangeActivityType'
+    name: ChangeActivityType
+    fullName: ChangeActivityType
+    children:
+      - '@ms/sp-teamsite-webparts.ChangeActivityType.Hashtag'
+      - '@ms/sp-teamsite-webparts.ChangeActivityType.NoActivity'
+      - '@ms/sp-teamsite-webparts.ChangeActivityType.Spotlight'
+    langs:
+      - typeScript
+    type: enum
+    summary: |-
+      The order should remain consistent with the version on the server
+      internal SPChangeActivityType
+      %SDXROOT%\sporel\sts\stsom\Core\spchange.cs
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.ChangeActivityType.Hashtag'
+    name: Hashtag
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeActivityType.NoActivity'
+    name: NoActivity
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+  - uid: '@ms/sp-teamsite-webparts.ChangeActivityType.Spotlight'
+    name: Spotlight
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

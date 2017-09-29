@@ -1,0 +1,105 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.SharePageByEmail'
+    name: SharePageByEmail
+    fullName: SharePageByEmail
+    children:
+      - '@ms/sp-pages.SharePageByEmail.componentDidMount'
+      - '@ms/sp-pages.SharePageByEmail.componentDidUpdate'
+      - '@ms/sp-pages.SharePageByEmail.componentWillMount'
+      - '@ms/sp-pages.SharePageByEmail.componentWillReceiveProps'
+      - '@ms/sp-pages.SharePageByEmail.fallbackShare'
+      - '@ms/sp-pages.SharePageByEmail.render'
+      - '@ms/sp-pages.SharePageByEmail.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.SharePageByEmail<@@ms/sp-pages.ISharePageByEmailProps>'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SharePageByEmail.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-pages.SharePageByEmail.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentDidUpdate(prevProps: ISharePageByEmailProps)'
+      parameters:
+        - id: prevProps
+          type:
+            - '@@ms/sp-pages.ISharePageByEmailProps'
+          description: ''
+  - uid: '@ms/sp-pages.SharePageByEmail.componentWillMount'
+    name: componentWillMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillMount()
+      parameters: []
+  - uid: '@ms/sp-pages.SharePageByEmail.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: ISharePageByEmailProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-pages.ISharePageByEmailProps'
+          description: ''
+  - uid: '@ms/sp-pages.SharePageByEmail.fallbackShare'
+    name: fallbackShare
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function fallbackShare()
+      parameters: []
+  - uid: '@ms/sp-pages.SharePageByEmail.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-pages.SharePageByEmail.constructor'
+    name: SharePageByEmail
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SharePageByEmail(props: ISharePageByEmailProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.ISharePageByEmailProps'
+          description: ''

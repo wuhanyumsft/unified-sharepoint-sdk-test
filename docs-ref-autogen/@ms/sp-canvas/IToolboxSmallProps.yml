@@ -1,0 +1,153 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.IToolboxSmallProps'
+    name: IToolboxSmallProps
+    fullName: IToolboxSmallProps
+    children:
+      - '@ms/sp-canvas.IToolboxSmallProps.controlPosition'
+      - '@ms/sp-canvas.IToolboxSmallProps.errorMessage'
+      - '@ms/sp-canvas.IToolboxSmallProps.horizontalPosition'
+      - '@ms/sp-canvas.IToolboxSmallProps.isLoading'
+      - '@ms/sp-canvas.IToolboxSmallProps.isOpen'
+      - '@ms/sp-canvas.IToolboxSmallProps.onClose'
+      - '@ms/sp-canvas.IToolboxSmallProps.onItemClick'
+      - '@ms/sp-canvas.IToolboxSmallProps.onlyLayouts'
+      - '@ms/sp-canvas.IToolboxSmallProps.toolboxItems'
+      - '@ms/sp-canvas.IToolboxSmallProps.verticalPosition'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.IToolboxSmallProps.controlPosition'
+    name: controlPosition
+    fullName: controlPosition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IControlPosition controlPosition
+      return:
+        type:
+          - '@@ms/sp-canvas.IControlPosition'
+  - uid: '@ms/sp-canvas.IToolboxSmallProps.errorMessage'
+    name: errorMessage
+    fullName: errorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string errorMessage
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.IToolboxSmallProps.horizontalPosition'
+    name: horizontalPosition
+    fullName: horizontalPosition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number horizontalPosition
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-canvas.IToolboxSmallProps.isLoading'
+    name: isLoading
+    fullName: isLoading
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isLoading
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.IToolboxSmallProps.isOpen'
+    name: isOpen
+    fullName: isOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isOpen
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.IToolboxSmallProps.onClose'
+    name: onClose
+    fullName: onClose
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onClose
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-canvas.IToolboxSmallProps.onItemClick'
+    name: onItemClick
+    fullName: onItemClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(itemProps: ICanvasControl) => void onItemClick'
+      return:
+        type:
+          - '(itemProps: ICanvasControl) => void'
+  - uid: '@ms/sp-canvas.IToolboxSmallProps.onlyLayouts'
+    name: onlyLayouts
+    fullName: onlyLayouts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean onlyLayouts
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.IToolboxSmallProps.toolboxItems'
+    name: toolboxItems
+    fullName: toolboxItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IToolboxItem[] toolboxItems'
+      return:
+        type:
+          - '@@ms/sp-canvas.IToolboxItem[]'
+  - uid: '@ms/sp-canvas.IToolboxSmallProps.verticalPosition'
+    name: verticalPosition
+    fullName: verticalPosition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number verticalPosition
+      return:
+        type:
+          - number

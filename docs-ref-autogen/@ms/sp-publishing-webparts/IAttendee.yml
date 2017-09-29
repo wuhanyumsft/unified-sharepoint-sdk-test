@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IAttendee'
+    name: IAttendee
+    fullName: IAttendee
+    children:
+      - '@ms/sp-publishing-webparts.IAttendee.emailAddress'
+      - '@ms/sp-publishing-webparts.IAttendee.status'
+      - '@ms/sp-publishing-webparts.IAttendee.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: The collection of attendees for the event.
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IAttendee.emailAddress'
+    name: emailAddress
+    fullName: emailAddress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The recipient's email address.
+    syntax:
+      content: IEmailAddress emailAddress
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IEmailAddress'
+  - uid: '@ms/sp-publishing-webparts.IAttendee.status'
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'The response (none, accepted, declined, etc.) and time;'
+    syntax:
+      content: IResponseStatus status
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IResponseStatus'
+  - uid: '@ms/sp-publishing-webparts.IAttendee.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The type of the atendee. Possible values are: Required, Optional,
+      Resource.
+    syntax:
+      content: Response type
+      return:
+        type:
+          - Response

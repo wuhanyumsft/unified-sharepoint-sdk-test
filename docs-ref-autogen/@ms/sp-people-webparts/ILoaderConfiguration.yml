@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.ILoaderConfiguration'
+    name: ILoaderConfiguration
+    fullName: ILoaderConfiguration
+    children:
+      - '@ms/sp-people-webparts.ILoaderConfiguration.Flights'
+      - '@ms/sp-people-webparts.ILoaderConfiguration.Resources'
+      - '@ms/sp-people-webparts.ILoaderConfiguration.Workload'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-people-webparts'
+  - uid: '@ms/sp-people-webparts.ILoaderConfiguration.Flights'
+    name: Flights
+    fullName: Flights
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] Flights'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-people-webparts.ILoaderConfiguration.Resources'
+    name: Resources
+    fullName: Resources
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: string]: string Resources'
+      return:
+        type:
+          - '[key: string]: string'
+  - uid: '@ms/sp-people-webparts.ILoaderConfiguration.Workload'
+    name: Workload
+    fullName: Workload
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Workload
+      return:
+        type:
+          - string

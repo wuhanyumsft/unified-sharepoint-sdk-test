@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IWebpackModule'
+    name: IWebpackModule
+    fullName: IWebpackModule
+    children:
+      - '@microsoft/sp-build-core-tasks.IWebpackModule.chunks'
+      - '@microsoft/sp-build-core-tasks.IWebpackModule.name'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.IWebpackModule.chunks'
+    name: chunks
+    fullName: chunks
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'number[] chunks'
+      return:
+        type:
+          - 'number[]'
+  - uid: '@microsoft/sp-build-core-tasks.IWebpackModule.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string

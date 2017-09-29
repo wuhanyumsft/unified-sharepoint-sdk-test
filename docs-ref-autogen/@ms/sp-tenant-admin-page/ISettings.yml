@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISettings'
+    name: ISettings
+    fullName: ISettings
+    children:
+      - >-
+        @ms/sp-tenant-admin-page.ISettings.MobileNotificationIsEnabledForSharepoint
+      - >-
+        @ms/sp-tenant-admin-page.ISettings.ShowNextGenerationSyncClientOnTeamSite
+      - '@ms/sp-tenant-admin-page.ISettings.SPListModernUXOff'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      This interface is to hold the response data of the SharePoint OData API:
+      /_api/SPOInternalUseOnly.TenantAdminSettings
+    package: '@ms/sp-tenant-admin-page'
+  - uid: >-
+      @ms/sp-tenant-admin-page.ISettings.MobileNotificationIsEnabledForSharepoint
+    name: MobileNotificationIsEnabledForSharepoint
+    fullName: MobileNotificationIsEnabledForSharepoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISetting MobileNotificationIsEnabledForSharepoint
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISetting'
+  - uid: '@ms/sp-tenant-admin-page.ISettings.ShowNextGenerationSyncClientOnTeamSite'
+    name: ShowNextGenerationSyncClientOnTeamSite
+    fullName: ShowNextGenerationSyncClientOnTeamSite
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISetting ShowNextGenerationSyncClientOnTeamSite
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISetting'
+  - uid: '@ms/sp-tenant-admin-page.ISettings.SPListModernUXOff'
+    name: SPListModernUXOff
+    fullName: SPListModernUXOff
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISetting SPListModernUXOff
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISetting'

@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-polyfills.BaseURL'
+    name: BaseURL
+    fullName: BaseURL
+    children:
+      - '@microsoft/sp-polyfills.BaseURL.constructor'
+      - '@microsoft/sp-polyfills.BaseURL.createObjectURL'
+      - '@microsoft/sp-polyfills.BaseURL.revokeObjectURL'
+      - '@microsoft/sp-polyfills.BaseURL.toJson'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      This class contains functionality that is common between the smaller "URL"
+      class and the experimental
+       complete "URL" class.
+    package: '@microsoft/sp-polyfills'
+  - uid: '@microsoft/sp-polyfills.BaseURL.constructor'
+    name: BaseURL
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BaseURL(url: string, base?: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+        - id: base
+          type:
+            - string
+          description: ''
+          optional: true
+  - uid: '@microsoft/sp-polyfills.BaseURL.createObjectURL'
+    name: createObjectURL
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function createObjectURL(args: any[])'
+      parameters:
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-polyfills.BaseURL.revokeObjectURL'
+    name: revokeObjectURL
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function revokeObjectURL(args: any[])'
+      parameters:
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+  - uid: '@microsoft/sp-polyfills.BaseURL.toJson'
+    name: toJson
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJson()
+      parameters: []
+      return:
+        type:
+          - string

@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.SPFileActivityWidget'
+    name: SPFileActivityWidget
+    fullName: SPFileActivityWidget
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-tenant-admin-page.SPFileActivityWidget'
+    package: '@ms/sp-tenant-admin-page'

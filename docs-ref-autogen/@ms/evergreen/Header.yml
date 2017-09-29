@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/evergreen.Header'
+    name: Header
+    fullName: Header
+    children:
+      - '@ms/evergreen.Header.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/evergreen.Header<@@ms/evergreen.IEvergreenEmailProps>'
+    package: '@ms/evergreen'
+  - uid: '@ms/evergreen.Header.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

@@ -1,0 +1,132 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.PageManager'
+    name: PageManager
+    fullName: PageManager
+    children:
+      - '@ms/sp-pages.PageManager.commentsDataProvider'
+      - '@ms/sp-pages.PageManager.getWebPartManifest'
+      - '@ms/sp-pages.PageManager.initialize'
+      - '@ms/sp-pages.PageManager.loadAlternativeUrlMap'
+      - '@ms/sp-pages.PageManager.register'
+      - '@ms/sp-pages.PageManager.savePage'
+      - '@ms/sp-pages.PageManager.unregister'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.PageManager.commentsDataProvider'
+    name: commentsDataProvider
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function commentsDataProvider()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-pages.CommentsDataProvider>
+  - uid: '@ms/sp-pages.PageManager.getWebPartManifest'
+    name: getWebPartManifest
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getWebPartManifest(webPartId: string)'
+      parameters:
+        - id: webPartId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - IClientSideWebPartManifest<any>
+  - uid: '@ms/sp-pages.PageManager.initialize'
+    name: initialize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function initialize(serviceScope: ServiceScope, pageContext:
+        PageContext, dataProvider: IPageDataProvider, a11yManager?: A11yManager)
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+        - id: pageContext
+          type:
+            - PageContext
+          description: ''
+        - id: dataProvider
+          type:
+            - '@@ms/sp-pages.IPageDataProvider'
+          description: ''
+        - id: a11yManager
+          type:
+            - A11yManager
+          description: ''
+          optional: true
+  - uid: '@ms/sp-pages.PageManager.loadAlternativeUrlMap'
+    name: loadAlternativeUrlMap
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Loads alternative URL map
+    syntax:
+      content: >-
+        function loadAlternativeUrlMap(alternativeUrlTable?:
+        IAlternativeUrlTable)
+      parameters:
+        - id: alternativeUrlTable
+          type:
+            - IAlternativeUrlTable
+          description: ''
+          optional: true
+  - uid: '@ms/sp-pages.PageManager.register'
+    name: register
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Register control with page manager
+    syntax:
+      content: 'function register(control: IPublishingControl)'
+      parameters:
+        - id: control
+          type:
+            - '@@ms/sp-pages.IPublishingControl'
+          description: ''
+  - uid: '@ms/sp-pages.PageManager.savePage'
+    name: savePage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Save controls in the page to page fields
+    syntax:
+      content: function savePage()
+      parameters: []
+  - uid: '@ms/sp-pages.PageManager.unregister'
+    name: unregister
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unregister(control: IPublishingControl)'
+      parameters:
+        - id: control
+          type:
+            - '@@ms/sp-pages.IPublishingControl'
+          description: ''

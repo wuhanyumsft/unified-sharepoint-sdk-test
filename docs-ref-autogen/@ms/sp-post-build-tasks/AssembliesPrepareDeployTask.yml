@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-post-build-tasks.AssembliesPrepareDeployTask'
+    name: AssembliesPrepareDeployTask
+    fullName: AssembliesPrepareDeployTask
+    children:
+      - '@ms/sp-post-build-tasks.AssembliesPrepareDeployTask.constructor'
+      - '@ms/sp-post-build-tasks.AssembliesPrepareDeployTask.executeTask'
+      - '@ms/sp-post-build-tasks.AssembliesPrepareDeployTask.isEnabled'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-post-build-tasks.PostBuildGulpTask<@@ms/sp-post-build-tasks.IAssembliesPrepareDeployTaskConfig>
+    package: '@ms/sp-post-build-tasks'
+  - uid: '@ms/sp-post-build-tasks.AssembliesPrepareDeployTask.constructor'
+    name: AssembliesPrepareDeployTask
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new AssembliesPrepareDeployTask()
+      parameters: []
+  - uid: '@ms/sp-post-build-tasks.AssembliesPrepareDeployTask.executeTask'
+    name: executeTask
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function executeTask(gulp: any, completeCallback: (error?: string) =>
+        void)
+      parameters:
+        - id: gulp
+          type:
+            - any
+          description: ''
+        - id: completeCallback
+          type:
+            - '(error?: string) => void'
+          description: ''
+  - uid: '@ms/sp-post-build-tasks.AssembliesPrepareDeployTask.isEnabled'
+    name: isEnabled
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isEnabled()
+      parameters: []
+      return:
+        type:
+          - boolean

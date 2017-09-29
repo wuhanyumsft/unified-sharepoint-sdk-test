@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.IEventObserver'
+    name: IEventObserver
+    fullName: IEventObserver
+    children:
+      - '@microsoft/sp-core-library.IEventObserver.componentId'
+      - '@microsoft/sp-core-library.IEventObserver.instanceId'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Interface to define an object that can hook into events.
+
+      It is used by the event system to automatically remove unusued event
+      handlers once the observer
+
+      has been disposed.
+
+      It is also used to detect performance and reliability issues in the event
+      handling.
+    extends:
+      name: '@@microsoft/sp-core-library.IDisposable'
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.IEventObserver.componentId'
+    name: componentId
+    fullName: componentId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Component id of the parent component.
+      In the case of the component object, its own component id.
+    syntax:
+      content: string componentId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-core-library.IEventObserver.instanceId'
+    name: instanceId
+    fullName: instanceId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Instance id of the parent component.
+      In the case of the component object, its own instance id.
+    syntax:
+      content: string instanceId
+      return:
+        type:
+          - string

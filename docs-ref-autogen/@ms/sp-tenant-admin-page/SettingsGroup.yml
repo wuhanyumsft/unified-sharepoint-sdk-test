@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.SettingsGroup'
+    name: SettingsGroup
+    fullName: SettingsGroup
+    children:
+      - '@ms/sp-tenant-admin-page.SettingsGroup.ListAndLibraries'
+      - '@ms/sp-tenant-admin-page.SettingsGroup.TeamSiteSync'
+      - '@ms/sp-tenant-admin-page.SettingsGroup.MobileNotifications'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.SettingsGroup.ListAndLibraries'
+    name: ListAndLibraries
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+  - uid: '@ms/sp-tenant-admin-page.SettingsGroup.TeamSiteSync'
+    name: TeamSiteSync
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-tenant-admin-page.SettingsGroup.MobileNotifications'
+    name: MobileNotifications
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2

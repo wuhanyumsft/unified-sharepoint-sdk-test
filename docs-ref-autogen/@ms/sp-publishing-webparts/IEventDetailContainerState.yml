@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IEventDetailContainerState'
+    name: IEventDetailContainerState
+    fullName: IEventDetailContainerState
+    children:
+      - '@ms/sp-publishing-webparts.IEventDetailContainerState.bodyContent'
+      - '@ms/sp-publishing-webparts.IEventDetailContainerState.hasAttachment'
+      - '@ms/sp-publishing-webparts.IEventDetailContainerState.isLoading'
+      - '@ms/sp-publishing-webparts.IEventDetailContainerState.location'
+      - '@ms/sp-publishing-webparts.IEventDetailContainerState.organizer'
+      - '@ms/sp-publishing-webparts.IEventDetailContainerState.recurrence'
+      - '@ms/sp-publishing-webparts.IEventDetailContainerState.subject'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IEventDetailContainerState.bodyContent'
+    name: bodyContent
+    fullName: bodyContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string bodyContent
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEventDetailContainerState.hasAttachment'
+    name: hasAttachment
+    fullName: hasAttachment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasAttachment
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IEventDetailContainerState.isLoading'
+    name: isLoading
+    fullName: isLoading
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isLoading
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IEventDetailContainerState.location'
+    name: location
+    fullName: location
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string location
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEventDetailContainerState.organizer'
+    name: organizer
+    fullName: organizer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string organizer
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEventDetailContainerState.recurrence'
+    name: recurrence
+    fullName: recurrence
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string recurrence
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEventDetailContainerState.subject'
+    name: subject
+    fullName: subject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string subject
+      return:
+        type:
+          - string

@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IClientSideWebPartClass'
+    name: IClientSideWebPartClass
+    fullName: IClientSideWebPartClass
+    children:
+      - '@microsoft/sp-webpart-base.IClientSideWebPartClass.constructor'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      This interface describes the web part class type (versus a web part object
+      instance).
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IClientSideWebPartClass.constructor'
+    name: IClientSideWebPartClass
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: >-
+      Subclasses of BaseClientSideWebPart must have a constructor that accepts
+      no parameters.
+    syntax:
+      content: new IClientSideWebPartClass()
+      parameters: []

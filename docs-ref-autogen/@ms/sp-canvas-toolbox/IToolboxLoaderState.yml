@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.IToolboxLoaderState'
+    name: IToolboxLoaderState
+    fullName: IToolboxLoaderState
+    children:
+      - '@ms/sp-canvas-toolbox.IToolboxLoaderState.toolbox'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas-toolbox'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxLoaderState.toolbox'
+    name: toolbox
+    fullName: toolbox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function toolbox
+      return:
+        type:
+          - function

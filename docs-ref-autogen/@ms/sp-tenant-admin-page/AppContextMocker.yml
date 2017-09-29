@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.AppContextMocker'
+    name: AppContextMocker
+    fullName: AppContextMocker
+    children:
+      - '@ms/sp-tenant-admin-page.AppContextMocker.mock'
+      - '@ms/sp-tenant-admin-page.AppContextMocker.restore'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      This mocker is for sending requests in unit tests.
+
+      With it, you'll be able to send requests with SPHttpClient and
+      ODataClient.
+
+      Example:
+
+
+      describe('SomeThing', () => {
+        before(() => AppContextMocker.mock());
+        after(() => AppContextMocker.restore());
+
+        it('should do something', () => {
+          // test code
+        });
+      };
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.AppContextMocker.mock'
+    name: mock
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function mock()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.AppContextMocker.restore'
+    name: restore
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function restore()
+      parameters: []

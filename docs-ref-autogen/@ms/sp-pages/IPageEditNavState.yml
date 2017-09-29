@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IPageEditNavState'
+    name: IPageEditNavState
+    fullName: IPageEditNavState
+    children:
+      - '@ms/sp-pages.IPageEditNavState.editNavModule'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IPageEditNavState.editNavModule'
+    name: editNavModule
+    fullName: editNavModule
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any editNavModule
+      return:
+        type:
+          - any

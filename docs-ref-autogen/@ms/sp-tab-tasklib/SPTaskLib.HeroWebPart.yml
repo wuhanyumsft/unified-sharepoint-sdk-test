@@ -1,0 +1,280 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart'
+    name: HeroWebPart
+    fullName: HeroWebPart
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.AddTaskAddHeroItemFromUploading'
+      - '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.AddTaskAddHeroItemFromUrl'
+      - '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.AddTaskAddTitleInPropertyPane'
+      - '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.AddTaskOpenItemEditPropertyPane'
+      - '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.AddTaskUpdatePathFromUploading'
+      - '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.AddTaskValidateItemProperties'
+      - '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.addWebPartToPage'
+      - '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.deleteWebPartToPage'
+      - '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.switchToLayersLayout'
+      - '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.SwitchToLayersLayout'
+      - '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.SwitchToTilesLayout'
+      - '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.switchToTilesLayout'
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.waitForFivePiecesPlaceholderLayout
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.waitForFourPiecesPlaceholderLayout
+      - '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.waitForLayersLayout'
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.waitForOnePiecePlaceholderLayout
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.waitForThreePiecesPlaceholderLayout
+      - '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.waitForTilesLayout'
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.waitForTwoPiecesPlaceholderLayout
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-tab-tasklib.SPTaskLib.BaseWebpart'
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.AddTaskAddHeroItemFromUploading'
+    name: AddTaskAddHeroItemFromUploading
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function AddTaskAddHeroItemFromUploading(fileInput: IFileInput)'
+      parameters:
+        - id: fileInput
+          type:
+            - '@@ms/sp-tab-tasklib.SPTaskLib.IFileInput'
+          description: ''
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.AddTaskAddHeroItemFromUrl'
+    name: AddTaskAddHeroItemFromUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function AddTaskAddHeroItemFromUrl(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.AddTaskAddTitleInPropertyPane'
+    name: AddTaskAddTitleInPropertyPane
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function AddTaskAddTitleInPropertyPane(value: string)'
+      parameters:
+        - id: value
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.AddTaskOpenItemEditPropertyPane'
+    name: AddTaskOpenItemEditPropertyPane
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function AddTaskOpenItemEditPropertyPane(index: number, url: string)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+        - id: url
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.AddTaskUpdatePathFromUploading'
+    name: AddTaskUpdatePathFromUploading
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function AddTaskUpdatePathFromUploading(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.AddTaskValidateItemProperties'
+    name: AddTaskValidateItemProperties
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function AddTaskValidateItemProperties(index: number, title: string,
+        callToAction: string)
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+        - id: title
+          type:
+            - string
+          description: ''
+        - id: callToAction
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.addWebPartToPage'
+    name: addWebPartToPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function addWebPartToPage()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.deleteWebPartToPage'
+    name: deleteWebPartToPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function deleteWebPartToPage()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.switchToLayersLayout'
+    name: switchToLayersLayout
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function switchToLayersLayout()
+      parameters: []
+      return:
+        type:
+          - Task
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.SwitchToLayersLayout'
+    name: SwitchToLayersLayout
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function SwitchToLayersLayout()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.SwitchToTilesLayout'
+    name: SwitchToTilesLayout
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function SwitchToTilesLayout()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.switchToTilesLayout'
+    name: switchToTilesLayout
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function switchToTilesLayout()
+      parameters: []
+      return:
+        type:
+          - Task
+  - uid: >-
+      @ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.waitForFivePiecesPlaceholderLayout
+    name: waitForFivePiecesPlaceholderLayout
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function waitForFivePiecesPlaceholderLayout()
+      parameters: []
+  - uid: >-
+      @ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.waitForFourPiecesPlaceholderLayout
+    name: waitForFourPiecesPlaceholderLayout
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function waitForFourPiecesPlaceholderLayout()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.waitForLayersLayout'
+    name: waitForLayersLayout
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function waitForLayersLayout()
+      parameters: []
+      return:
+        type:
+          - Waiter
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.waitForOnePiecePlaceholderLayout'
+    name: waitForOnePiecePlaceholderLayout
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function waitForOnePiecePlaceholderLayout()
+      parameters: []
+  - uid: >-
+      @ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.waitForThreePiecesPlaceholderLayout
+    name: waitForThreePiecesPlaceholderLayout
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function waitForThreePiecesPlaceholderLayout()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.waitForTilesLayout'
+    name: waitForTilesLayout
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function waitForTilesLayout()
+      parameters: []
+      return:
+        type:
+          - Waiter
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.HeroWebPart.waitForTwoPiecesPlaceholderLayout'
+    name: waitForTwoPiecesPlaceholderLayout
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function waitForTwoPiecesPlaceholderLayout()
+      parameters: []

@@ -1,0 +1,127 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.IBaseCollectionWebPartProperties'
+    name: IBaseCollectionWebPartProperties
+    fullName: IBaseCollectionWebPartProperties
+    children:
+      - >-
+        @ms/sp-webpart-shared.IBaseCollectionWebPartProperties.addToPageScreenReaderLabel
+      - '@ms/sp-webpart-shared.IBaseCollectionWebPartProperties.baseUrl'
+      - '@ms/sp-webpart-shared.IBaseCollectionWebPartProperties.dataProviderId'
+      - >-
+        @ms/sp-webpart-shared.IBaseCollectionWebPartProperties.hideWebPartWhenEmpty
+      - '@ms/sp-webpart-shared.IBaseCollectionWebPartProperties.layoutId'
+      - '@ms/sp-webpart-shared.IBaseCollectionWebPartProperties.siteId'
+      - '@ms/sp-webpart-shared.IBaseCollectionWebPartProperties.title'
+      - '@ms/sp-webpart-shared.IBaseCollectionWebPartProperties.webId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-webpart-shared'
+  - uid: >-
+      @ms/sp-webpart-shared.IBaseCollectionWebPartProperties.addToPageScreenReaderLabel
+    name: addToPageScreenReaderLabel
+    fullName: addToPageScreenReaderLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string addToPageScreenReaderLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IBaseCollectionWebPartProperties.baseUrl'
+    name: baseUrl
+    fullName: baseUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string baseUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IBaseCollectionWebPartProperties.dataProviderId'
+    name: dataProviderId
+    fullName: dataProviderId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string dataProviderId
+      return:
+        type:
+          - string
+  - uid: >-
+      @ms/sp-webpart-shared.IBaseCollectionWebPartProperties.hideWebPartWhenEmpty
+    name: hideWebPartWhenEmpty
+    fullName: hideWebPartWhenEmpty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hideWebPartWhenEmpty
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-webpart-shared.IBaseCollectionWebPartProperties.layoutId'
+    name: layoutId
+    fullName: layoutId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string layoutId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IBaseCollectionWebPartProperties.siteId'
+    name: siteId
+    fullName: siteId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IBaseCollectionWebPartProperties.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IBaseCollectionWebPartProperties.webId'
+    name: webId
+    fullName: webId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webId
+      return:
+        type:
+          - string

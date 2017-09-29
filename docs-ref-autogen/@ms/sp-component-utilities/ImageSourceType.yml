@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.ImageSourceType'
+    name: ImageSourceType
+    fullName: ImageSourceType
+    children:
+      - '@ms/sp-component-utilities.ImageSourceType.uploadFailure'
+      - '@ms/sp-component-utilities.ImageSourceType.none'
+      - '@ms/sp-component-utilities.ImageSourceType.sharepointURI'
+      - '@ms/sp-component-utilities.ImageSourceType.default'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.ImageSourceType.uploadFailure'
+    name: uploadFailure
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: -1
+  - uid: '@ms/sp-component-utilities.ImageSourceType.none'
+    name: none
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+  - uid: '@ms/sp-component-utilities.ImageSourceType.sharepointURI'
+    name: sharepointURI
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+  - uid: '@ms/sp-component-utilities.ImageSourceType.default'
+    name: default
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4

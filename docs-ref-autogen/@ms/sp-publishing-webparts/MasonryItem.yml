@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.MasonryItem'
+    name: MasonryItem
+    fullName: MasonryItem
+    children:
+      - '@ms/sp-publishing-webparts.MasonryItem.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.MasonryItem.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function render(baseUrl: string, item: IMasonryLayoutItem, index:
+        number, width: number)
+      parameters:
+        - id: baseUrl
+          type:
+            - string
+          description: ''
+        - id: item
+          type:
+            - IMasonryLayoutItem
+          description: ''
+        - id: index
+          type:
+            - number
+          description: ''
+        - id: width
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - ReactNode

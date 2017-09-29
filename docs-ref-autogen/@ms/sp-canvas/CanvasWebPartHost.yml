@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.CanvasWebPartHost'
+    name: CanvasWebPartHost
+    fullName: CanvasWebPartHost
+    children:
+      - '@ms/sp-canvas.CanvasWebPartHost.constructor'
+      - '@ms/sp-canvas.CanvasWebPartHost.setDirty'
+      - '@ms/sp-canvas.CanvasWebPartHost.webPartConfigurationEventCallback'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      CanvasWebPartHost is the IWebPartHost implementation used by the Canvas.
+      Each Canvas
+
+      will instantiate their own CanvasWebPartHost, which means the web parts
+      are scoped by
+
+      Canvas.
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.CanvasWebPartHost.constructor'
+    name: CanvasWebPartHost
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CanvasWebPartHost(serviceScope: ServiceScope, handleResize:
+        (element: HTMLElement, duration: number, margin?: number) => void,
+        handleCanvasChanged?: () => void, reclaimFocus?: () => void,
+        setSelectedWebPartId?: (id: string) => void)
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+        - id: handleResize
+          type:
+            - '(element: HTMLElement, duration: number, margin?: number) => void'
+          description: ''
+        - id: handleCanvasChanged
+          type:
+            - () => void
+          description: |
+            Optional. Callback invoked when web parts are interacted with.
+          optional: true
+        - id: reclaimFocus
+          type:
+            - () => void
+          description: ''
+          optional: true
+        - id: setSelectedWebPartId
+          type:
+            - '(id: string) => void'
+          description: ''
+          optional: true
+  - uid: '@ms/sp-canvas.CanvasWebPartHost.setDirty'
+    name: setDirty
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setDirty(wpInstanceId: string)'
+      parameters:
+        - id: wpInstanceId
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-canvas.CanvasWebPartHost.webPartConfigurationEventCallback'
+    name: webPartConfigurationEventCallback
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function webPartConfigurationEventCallback(event:
+        WebPartConfigurationEvent, data?: IWebPartData)
+      parameters:
+        - id: event
+          type:
+            - WebPartConfigurationEvent
+          description: ''
+        - id: data
+          type:
+            - IWebPartData
+          description: ''
+          optional: true

@@ -1,0 +1,403 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base'
+    name: '@microsoft/sp-webpart-base'
+    summary: ''
+    children:
+      - '@microsoft/sp-webpart-base.IPlaceholderSpinnerProps'
+      - '@microsoft/sp-webpart-base.PlaceholderSpinner'
+      - '@microsoft/sp-webpart-base.IPlaceholderSpinnerState'
+      - '@microsoft/sp-webpart-base.WebPartForm'
+      - '@microsoft/sp-webpart-base.IWebPartFormProps'
+      - '@microsoft/sp-webpart-base.BaseClientSideWebPart'
+      - '@microsoft/sp-webpart-base.ClientSideWebPartMaintenanceModeManager'
+      - '@microsoft/sp-webpart-base.ClientSideWebPartManager'
+      - '@microsoft/sp-webpart-base.ISuccessExtraData'
+      - '@microsoft/sp-webpart-base.IUnexpectedFailureExtraData'
+      - '@microsoft/sp-webpart-base.ClientSideWebPartManagerFactory'
+      - '@microsoft/sp-webpart-base.ClientSideWebPartStatusRenderer'
+      - '@microsoft/sp-webpart-base.IActiveIndicatorCache'
+      - '@microsoft/sp-webpart-base.ErrorMessage'
+      - '@microsoft/sp-webpart-base.IErrorMessageProps'
+      - '@microsoft/sp-webpart-base.FriendlyErrorMessage'
+      - '@microsoft/sp-webpart-base.IFriendlyErrorMessageProps'
+      - '@microsoft/sp-webpart-base.IFriendlyErrorMessageState'
+      - '@microsoft/sp-webpart-base.IClientSideWebPartClass'
+      - '@microsoft/sp-webpart-base.IClientSideWebPartInternal'
+      - '@microsoft/sp-webpart-base.IClientSideWebPartStatusRenderer'
+      - '@microsoft/sp-webpart-base.ServerProcessedDataType'
+      - '@microsoft/sp-webpart-base.ISerializedServerProcessedData'
+      - '@microsoft/sp-webpart-base.ISerializedWebPartData'
+      - '@microsoft/sp-webpart-base.IViewportAwareWebPart'
+      - '@microsoft/sp-webpart-base.IWebPartContext'
+      - '@microsoft/sp-webpart-base.IWebPartContextParameters'
+      - '@microsoft/sp-webpart-base.IInternalWebPartData'
+      - '@microsoft/sp-webpart-base.IWebPartData'
+      - '@microsoft/sp-webpart-base.IWebPartEvent'
+      - '@microsoft/sp-webpart-base.IWebPartHost'
+      - '@microsoft/sp-webpart-base.IWebPartManagerContext'
+      - '@microsoft/sp-webpart-base.IWebPartPropertiesMetadata'
+      - '@microsoft/sp-webpart-base.IWebPartPropertyMetadata'
+      - '@microsoft/sp-webpart-base.IWebPartProps'
+      - '@microsoft/sp-webpart-base.WebPartLoadSource'
+      - '@microsoft/sp-webpart-base.ViewportLoader'
+      - '@microsoft/sp-webpart-base.WebPartContext'
+      - '@microsoft/sp-webpart-base.WebPartDataConverter'
+      - '@microsoft/sp-webpart-base.WebPartMetrics'
+      - '@microsoft/sp-webpart-base.ReactWebPart'
+      - '@microsoft/sp-webpart-base.IReactWebPartProps'
+      - '@microsoft/sp-webpart-base.ClassicPageUtils'
+      - '@microsoft/sp-webpart-base.IPropertyPaneAccessor'
+      - '@microsoft/sp-webpart-base.PropertyPaneAccessor'
+      - '@microsoft/sp-webpart-base.SPWebPartErrorCode'
+      - '@microsoft/sp-webpart-base.SPWebPartError'
+      - '@microsoft/sp-webpart-base.EventAggregator'
+      - '@microsoft/sp-webpart-base.IEvent'
+      - '@microsoft/sp-webpart-base.IEventAggregator'
+      - '@microsoft/sp-webpart-base.IEventCallback'
+      - '@microsoft/sp-webpart-base.ReservedEventNames'
+      - '@microsoft/sp-webpart-base.ScrollEventHandler'
+      - '@microsoft/sp-webpart-base.IScrollEventHandler'
+      - '@microsoft/sp-webpart-base.MockEvent'
+      - '@microsoft/sp-webpart-base.IMockEventData'
+      - '@microsoft/sp-webpart-base.TestPersonCardWebPart'
+      - '@microsoft/sp-webpart-base.ITestPerson'
+      - '@microsoft/sp-webpart-base.ITestPersonCardWebsite'
+      - '@microsoft/sp-webpart-base.BaseTestWebPart'
+      - '@microsoft/sp-webpart-base.TestWebPart'
+      - '@microsoft/sp-webpart-base.TestWebPartV2'
+      - '@microsoft/sp-webpart-base.TestWebPartWithNoRender'
+      - '@microsoft/sp-webpart-base.ITestWebPartProps'
+      - '@microsoft/sp-webpart-base.ITestWebPartPropsV2'
+      - '@microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer'
+      - '@microsoft/sp-webpart-base.MockPreloadedPageData'
+      - '@microsoft/sp-webpart-base.MockWebPartHost'
+      - '@microsoft/sp-webpart-base.MockWebPartManagerContext'
+      - '@microsoft/sp-webpart-base.MockWebPartManifest'
+      - '@microsoft/sp-webpart-base.IMaintenanceModeProps'
+      - '@microsoft/sp-webpart-base.MaintenanceMode'
+      - '@microsoft/sp-webpart-base.MaintenanceModeRenderer'
+      - '@microsoft/sp-webpart-base.MaintenanceModeText'
+      - '@microsoft/sp-webpart-base.IMaintenanceModeTextProps'
+      - '@microsoft/sp-webpart-base.IPropertyPaneConfiguration'
+      - '@microsoft/sp-webpart-base.IPropertyPaneData'
+      - '@microsoft/sp-webpart-base.PageDirection'
+      - '@microsoft/sp-webpart-base.PropertyPane'
+      - '@microsoft/sp-webpart-base.IPropertyPaneProps'
+      - '@microsoft/sp-webpart-base.IPropertyPaneState'
+      - '@microsoft/sp-webpart-base.PropertyPaneState'
+      - '@microsoft/sp-webpart-base.WebPartConfigurationEvent'
+      - '@microsoft/sp-webpart-base.IWebPartConfigurationEventCallback'
+      - '@microsoft/sp-webpart-base.BasePropertyPaneControl'
+      - '@microsoft/sp-webpart-base.IPropertyPaneControl'
+      - '@microsoft/sp-webpart-base.PropertyPaneController'
+      - '@microsoft/sp-webpart-base.IWebPartGetter'
+      - '@microsoft/sp-webpart-base.PropertyPaneButtonType'
+      - '@microsoft/sp-webpart-base.IPropertyPaneButtonProps'
+      - '@microsoft/sp-webpart-base.IPropertyPaneCheckboxProps'
+      - '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption'
+      - '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOptionIconProps'
+      - '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupProps'
+      - '@microsoft/sp-webpart-base.IPropertyPaneCustomFieldInternalProps'
+      - '@microsoft/sp-webpart-base.IPropertyPaneCustomFieldProps'
+      - '@microsoft/sp-webpart-base.PropertyPaneCustomFieldHost'
+      - '@microsoft/sp-webpart-base.PropertyPaneDropdownOptionType'
+      - '@microsoft/sp-webpart-base.IPropertyPaneDropdownOption'
+      - '@microsoft/sp-webpart-base.IPropertyPaneDropdownProps'
+      - '@microsoft/sp-webpart-base.PropertyPaneFieldType'
+      - '@microsoft/sp-webpart-base.IPropertyPaneField'
+      - '@microsoft/sp-webpart-base.IPropertyPaneLabelProps'
+      - '@microsoft/sp-webpart-base.PopupWindowPosition'
+      - '@microsoft/sp-webpart-base.IPopupWindowProps'
+      - '@microsoft/sp-webpart-base.IPropertyPaneLinkProps'
+      - '@microsoft/sp-webpart-base.IPropertyPaneSliderProps'
+      - '@microsoft/sp-webpart-base.IPropertyPaneTextFieldProps'
+      - '@microsoft/sp-webpart-base.IPropertyPaneToggleProps'
+      - '@microsoft/sp-webpart-base.PropertyPaneFooter'
+      - '@microsoft/sp-webpart-base.IPropertyPaneFooterProps'
+      - '@microsoft/sp-webpart-base.IPropertyPaneGroup'
+      - '@microsoft/sp-webpart-base.IPropertyPaneGroupProps'
+      - '@microsoft/sp-webpart-base.PropertyPaneGroup'
+      - '@microsoft/sp-webpart-base.IPropertyPaneGroupState'
+      - '@microsoft/sp-webpart-base.IPropertyPanePage'
+      - '@microsoft/sp-webpart-base.IPropertyPanePageHeader'
+      - '@microsoft/sp-webpart-base.IPropertyPanePageProps'
+      - '@microsoft/sp-webpart-base.PropertyPanePage'
+      - '@microsoft/sp-webpart-base.PropertyPaneTitleBar'
+      - '@microsoft/sp-webpart-base.IPropertyPaneTitleBarProps'
+      - '@microsoft/sp-webpart-base.PropertyPaneBasic'
+      - '@microsoft/sp-webpart-base.MockClientSideWebPartManifests'
+      - '@microsoft/sp-webpart-base.MockHost'
+      - '@microsoft/sp-webpart-base.MockWebPartContext'
+      - '@microsoft/sp-webpart-base.MockWebPartContextParameters'
+      - '@microsoft/sp-webpart-base.MockWebPartManifestInstance'
+      - '@microsoft/sp-webpart-base.KeyCodes'
+      - '@microsoft/sp-webpart-base.CanvasA11yManager'
+      - '@microsoft/sp-webpart-base.Compare'
+      - '@microsoft/sp-webpart-base.Global'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@microsoft/sp-webpart-base.IPlaceholderSpinnerProps'
+    name: IPlaceholderSpinnerProps
+  - uid: '@microsoft/sp-webpart-base.PlaceholderSpinner'
+    name: PlaceholderSpinner
+  - uid: '@microsoft/sp-webpart-base.IPlaceholderSpinnerState'
+    name: IPlaceholderSpinnerState
+  - uid: '@microsoft/sp-webpart-base.WebPartForm'
+    name: WebPartForm
+  - uid: '@microsoft/sp-webpart-base.IWebPartFormProps'
+    name: IWebPartFormProps
+  - uid: '@microsoft/sp-webpart-base.BaseClientSideWebPart'
+    name: BaseClientSideWebPart
+  - uid: '@microsoft/sp-webpart-base.ClientSideWebPartMaintenanceModeManager'
+    name: ClientSideWebPartMaintenanceModeManager
+  - uid: '@microsoft/sp-webpart-base.ClientSideWebPartManager'
+    name: ClientSideWebPartManager
+  - uid: '@microsoft/sp-webpart-base.ISuccessExtraData'
+    name: ISuccessExtraData
+  - uid: '@microsoft/sp-webpart-base.IUnexpectedFailureExtraData'
+    name: IUnexpectedFailureExtraData
+  - uid: '@microsoft/sp-webpart-base.ClientSideWebPartManagerFactory'
+    name: ClientSideWebPartManagerFactory
+  - uid: '@microsoft/sp-webpart-base.ClientSideWebPartStatusRenderer'
+    name: ClientSideWebPartStatusRenderer
+  - uid: '@microsoft/sp-webpart-base.IActiveIndicatorCache'
+    name: IActiveIndicatorCache
+  - uid: '@microsoft/sp-webpart-base.ErrorMessage'
+    name: ErrorMessage
+  - uid: '@microsoft/sp-webpart-base.IErrorMessageProps'
+    name: IErrorMessageProps
+  - uid: '@microsoft/sp-webpart-base.FriendlyErrorMessage'
+    name: FriendlyErrorMessage
+  - uid: '@microsoft/sp-webpart-base.IFriendlyErrorMessageProps'
+    name: IFriendlyErrorMessageProps
+  - uid: '@microsoft/sp-webpart-base.IFriendlyErrorMessageState'
+    name: IFriendlyErrorMessageState
+  - uid: '@microsoft/sp-webpart-base.IClientSideWebPartClass'
+    name: IClientSideWebPartClass
+  - uid: '@microsoft/sp-webpart-base.IClientSideWebPartInternal'
+    name: IClientSideWebPartInternal
+  - uid: '@microsoft/sp-webpart-base.IClientSideWebPartStatusRenderer'
+    name: IClientSideWebPartStatusRenderer
+  - uid: '@microsoft/sp-webpart-base.ServerProcessedDataType'
+    name: ServerProcessedDataType
+  - uid: '@microsoft/sp-webpart-base.ISerializedServerProcessedData'
+    name: ISerializedServerProcessedData
+  - uid: '@microsoft/sp-webpart-base.ISerializedWebPartData'
+    name: ISerializedWebPartData
+  - uid: '@microsoft/sp-webpart-base.IViewportAwareWebPart'
+    name: IViewportAwareWebPart
+  - uid: '@microsoft/sp-webpart-base.IWebPartContext'
+    name: IWebPartContext
+  - uid: '@microsoft/sp-webpart-base.IWebPartContextParameters'
+    name: IWebPartContextParameters
+  - uid: '@microsoft/sp-webpart-base.IInternalWebPartData'
+    name: IInternalWebPartData
+  - uid: '@microsoft/sp-webpart-base.IWebPartData'
+    name: IWebPartData
+  - uid: '@microsoft/sp-webpart-base.IWebPartEvent'
+    name: IWebPartEvent
+  - uid: '@microsoft/sp-webpart-base.IWebPartHost'
+    name: IWebPartHost
+  - uid: '@microsoft/sp-webpart-base.IWebPartManagerContext'
+    name: IWebPartManagerContext
+  - uid: '@microsoft/sp-webpart-base.IWebPartPropertiesMetadata'
+    name: IWebPartPropertiesMetadata
+  - uid: '@microsoft/sp-webpart-base.IWebPartPropertyMetadata'
+    name: IWebPartPropertyMetadata
+  - uid: '@microsoft/sp-webpart-base.IWebPartProps'
+    name: IWebPartProps
+  - uid: '@microsoft/sp-webpart-base.WebPartLoadSource'
+    name: WebPartLoadSource
+  - uid: '@microsoft/sp-webpart-base.ViewportLoader'
+    name: ViewportLoader
+  - uid: '@microsoft/sp-webpart-base.WebPartContext'
+    name: WebPartContext
+  - uid: '@microsoft/sp-webpart-base.WebPartDataConverter'
+    name: WebPartDataConverter
+  - uid: '@microsoft/sp-webpart-base.WebPartMetrics'
+    name: WebPartMetrics
+  - uid: '@microsoft/sp-webpart-base.ReactWebPart'
+    name: ReactWebPart
+  - uid: '@microsoft/sp-webpart-base.IReactWebPartProps'
+    name: IReactWebPartProps
+  - uid: '@microsoft/sp-webpart-base.ClassicPageUtils'
+    name: ClassicPageUtils
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneAccessor'
+    name: IPropertyPaneAccessor
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneAccessor'
+    name: PropertyPaneAccessor
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode'
+    name: SPWebPartErrorCode
+  - uid: '@microsoft/sp-webpart-base.SPWebPartError'
+    name: SPWebPartError
+  - uid: '@microsoft/sp-webpart-base.EventAggregator'
+    name: EventAggregator
+  - uid: '@microsoft/sp-webpart-base.IEvent'
+    name: IEvent
+  - uid: '@microsoft/sp-webpart-base.IEventAggregator'
+    name: IEventAggregator
+  - uid: '@microsoft/sp-webpart-base.IEventCallback'
+    name: IEventCallback
+  - uid: '@microsoft/sp-webpart-base.ReservedEventNames'
+    name: ReservedEventNames
+  - uid: '@microsoft/sp-webpart-base.ScrollEventHandler'
+    name: ScrollEventHandler
+  - uid: '@microsoft/sp-webpart-base.IScrollEventHandler'
+    name: IScrollEventHandler
+  - uid: '@microsoft/sp-webpart-base.MockEvent'
+    name: MockEvent
+  - uid: '@microsoft/sp-webpart-base.IMockEventData'
+    name: IMockEventData
+  - uid: '@microsoft/sp-webpart-base.TestPersonCardWebPart'
+    name: TestPersonCardWebPart
+  - uid: '@microsoft/sp-webpart-base.ITestPerson'
+    name: ITestPerson
+  - uid: '@microsoft/sp-webpart-base.ITestPersonCardWebsite'
+    name: ITestPersonCardWebsite
+  - uid: '@microsoft/sp-webpart-base.BaseTestWebPart'
+    name: BaseTestWebPart
+  - uid: '@microsoft/sp-webpart-base.TestWebPart'
+    name: TestWebPart
+  - uid: '@microsoft/sp-webpart-base.TestWebPartV2'
+    name: TestWebPartV2
+  - uid: '@microsoft/sp-webpart-base.TestWebPartWithNoRender'
+    name: TestWebPartWithNoRender
+  - uid: '@microsoft/sp-webpart-base.ITestWebPartProps'
+    name: ITestWebPartProps
+  - uid: '@microsoft/sp-webpart-base.ITestWebPartPropsV2'
+    name: ITestWebPartPropsV2
+  - uid: '@microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer'
+    name: MockClientSideWebPartStatusRenderer
+  - uid: '@microsoft/sp-webpart-base.MockPreloadedPageData'
+    name: MockPreloadedPageData
+  - uid: '@microsoft/sp-webpart-base.MockWebPartHost'
+    name: MockWebPartHost
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManagerContext'
+    name: MockWebPartManagerContext
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManifest'
+    name: MockWebPartManifest
+  - uid: '@microsoft/sp-webpart-base.IMaintenanceModeProps'
+    name: IMaintenanceModeProps
+  - uid: '@microsoft/sp-webpart-base.MaintenanceMode'
+    name: MaintenanceMode
+  - uid: '@microsoft/sp-webpart-base.MaintenanceModeRenderer'
+    name: MaintenanceModeRenderer
+  - uid: '@microsoft/sp-webpart-base.MaintenanceModeText'
+    name: MaintenanceModeText
+  - uid: '@microsoft/sp-webpart-base.IMaintenanceModeTextProps'
+    name: IMaintenanceModeTextProps
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneConfiguration'
+    name: IPropertyPaneConfiguration
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneData'
+    name: IPropertyPaneData
+  - uid: '@microsoft/sp-webpart-base.PageDirection'
+    name: PageDirection
+  - uid: '@microsoft/sp-webpart-base.PropertyPane'
+    name: PropertyPane
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneProps'
+    name: IPropertyPaneProps
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneState'
+    name: IPropertyPaneState
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneState'
+    name: PropertyPaneState
+  - uid: '@microsoft/sp-webpart-base.WebPartConfigurationEvent'
+    name: WebPartConfigurationEvent
+  - uid: '@microsoft/sp-webpart-base.IWebPartConfigurationEventCallback'
+    name: IWebPartConfigurationEventCallback
+  - uid: '@microsoft/sp-webpart-base.BasePropertyPaneControl'
+    name: BasePropertyPaneControl
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneControl'
+    name: IPropertyPaneControl
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneController'
+    name: PropertyPaneController
+  - uid: '@microsoft/sp-webpart-base.IWebPartGetter'
+    name: IWebPartGetter
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneButtonType'
+    name: PropertyPaneButtonType
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneButtonProps'
+    name: IPropertyPaneButtonProps
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneCheckboxProps'
+    name: IPropertyPaneCheckboxProps
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption'
+    name: IPropertyPaneChoiceGroupOption
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOptionIconProps'
+    name: IPropertyPaneChoiceGroupOptionIconProps
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupProps'
+    name: IPropertyPaneChoiceGroupProps
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneCustomFieldInternalProps'
+    name: IPropertyPaneCustomFieldInternalProps
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneCustomFieldProps'
+    name: IPropertyPaneCustomFieldProps
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneCustomFieldHost'
+    name: PropertyPaneCustomFieldHost
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneDropdownOptionType'
+    name: PropertyPaneDropdownOptionType
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneDropdownOption'
+    name: IPropertyPaneDropdownOption
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneDropdownProps'
+    name: IPropertyPaneDropdownProps
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneFieldType'
+    name: PropertyPaneFieldType
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneField'
+    name: IPropertyPaneField
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneLabelProps'
+    name: IPropertyPaneLabelProps
+  - uid: '@microsoft/sp-webpart-base.PopupWindowPosition'
+    name: PopupWindowPosition
+  - uid: '@microsoft/sp-webpart-base.IPopupWindowProps'
+    name: IPopupWindowProps
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneLinkProps'
+    name: IPropertyPaneLinkProps
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneSliderProps'
+    name: IPropertyPaneSliderProps
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneTextFieldProps'
+    name: IPropertyPaneTextFieldProps
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneToggleProps'
+    name: IPropertyPaneToggleProps
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneFooter'
+    name: PropertyPaneFooter
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneFooterProps'
+    name: IPropertyPaneFooterProps
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneGroup'
+    name: IPropertyPaneGroup
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneGroupProps'
+    name: IPropertyPaneGroupProps
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneGroup'
+    name: PropertyPaneGroup
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneGroupState'
+    name: IPropertyPaneGroupState
+  - uid: '@microsoft/sp-webpart-base.IPropertyPanePage'
+    name: IPropertyPanePage
+  - uid: '@microsoft/sp-webpart-base.IPropertyPanePageHeader'
+    name: IPropertyPanePageHeader
+  - uid: '@microsoft/sp-webpart-base.IPropertyPanePageProps'
+    name: IPropertyPanePageProps
+  - uid: '@microsoft/sp-webpart-base.PropertyPanePage'
+    name: PropertyPanePage
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneTitleBar'
+    name: PropertyPaneTitleBar
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneTitleBarProps'
+    name: IPropertyPaneTitleBarProps
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneBasic'
+    name: PropertyPaneBasic
+  - uid: '@microsoft/sp-webpart-base.MockClientSideWebPartManifests'
+    name: MockClientSideWebPartManifests
+  - uid: '@microsoft/sp-webpart-base.MockHost'
+    name: MockHost
+  - uid: '@microsoft/sp-webpart-base.MockWebPartContext'
+    name: MockWebPartContext
+  - uid: '@microsoft/sp-webpart-base.MockWebPartContextParameters'
+    name: MockWebPartContextParameters
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManifestInstance'
+    name: MockWebPartManifestInstance
+  - uid: '@microsoft/sp-webpart-base.KeyCodes'
+    name: KeyCodes
+  - uid: '@microsoft/sp-webpart-base.CanvasA11yManager'
+    name: CanvasA11yManager
+  - uid: '@microsoft/sp-webpart-base.Compare'
+    name: Compare
+  - uid: '@microsoft/sp-webpart-base.Global'
+    name: Global

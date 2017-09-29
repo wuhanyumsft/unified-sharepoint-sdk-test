@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IView'
+    name: IView
+    fullName: IView
+    children:
+      - '@ms/sp-tenant-admin-page.IView.isPremade'
+      - '@ms/sp-tenant-admin-page.IView.query'
+      - '@ms/sp-tenant-admin-page.IView.title'
+      - '@ms/sp-tenant-admin-page.IView.viewFields'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IView.isPremade'
+    name: isPremade
+    fullName: isPremade
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isPremade
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IView.query'
+    name: query
+    fullName: query
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISiteQueryConditions query
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISiteQueryConditions'
+  - uid: '@ms/sp-tenant-admin-page.IView.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IView.viewFields'
+    name: viewFields
+    fullName: viewFields
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] viewFields'
+      return:
+        type:
+          - 'string[]'

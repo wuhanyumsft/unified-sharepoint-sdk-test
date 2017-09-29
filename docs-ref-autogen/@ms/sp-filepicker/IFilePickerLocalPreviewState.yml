@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.IFilePickerLocalPreviewState'
+    name: IFilePickerLocalPreviewState
+    fullName: IFilePickerLocalPreviewState
+    children:
+      - '@ms/sp-filepicker.IFilePickerLocalPreviewState.containerStyle'
+      - '@ms/sp-filepicker.IFilePickerLocalPreviewState.iconSrc'
+      - '@ms/sp-filepicker.IFilePickerLocalPreviewState.imageStyle'
+      - '@ms/sp-filepicker.IFilePickerLocalPreviewState.isImageValid'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.IFilePickerLocalPreviewState.containerStyle'
+    name: containerStyle
+    fullName: containerStyle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CSSProperties containerStyle
+      return:
+        type:
+          - CSSProperties
+  - uid: '@ms/sp-filepicker.IFilePickerLocalPreviewState.iconSrc'
+    name: iconSrc
+    fullName: iconSrc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string iconSrc
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.IFilePickerLocalPreviewState.imageStyle'
+    name: imageStyle
+    fullName: imageStyle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CSSProperties imageStyle
+      return:
+        type:
+          - CSSProperties
+  - uid: '@ms/sp-filepicker.IFilePickerLocalPreviewState.isImageValid'
+    name: isImageValid
+    fullName: isImageValid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isImageValid
+      return:
+        type:
+          - boolean

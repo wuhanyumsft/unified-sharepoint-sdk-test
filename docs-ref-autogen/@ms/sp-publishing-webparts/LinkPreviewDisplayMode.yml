@@ -1,0 +1,36 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewDisplayMode'
+    name: LinkPreviewDisplayMode
+    fullName: LinkPreviewDisplayMode
+    children:
+      - '@ms/sp-publishing-webparts.LinkPreviewDisplayMode.edit'
+      - '@ms/sp-publishing-webparts.LinkPreviewDisplayMode.preview'
+      - '@ms/sp-publishing-webparts.LinkPreviewDisplayMode.view'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewDisplayMode.edit'
+    name: edit
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewDisplayMode.preview'
+    name: preview
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewDisplayMode.view'
+    name: view
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

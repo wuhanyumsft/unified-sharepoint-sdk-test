@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IEventsPageLayoutComponentProps'
+    name: IEventsPageLayoutComponentProps
+    fullName: IEventsPageLayoutComponentProps
+    children:
+      - '@ms/sp-pages.IEventsPageLayoutComponentProps.category'
+      - '@ms/sp-pages.IEventsPageLayoutComponentProps.endDate'
+      - '@ms/sp-pages.IEventsPageLayoutComponentProps.listId'
+      - '@ms/sp-pages.IEventsPageLayoutComponentProps.startDate'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IEventsPageLayoutComponentProps.category'
+    name: category
+    fullName: category
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string category
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IEventsPageLayoutComponentProps.endDate'
+    name: endDate
+    fullName: endDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Date endDate
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-pages.IEventsPageLayoutComponentProps.listId'
+    name: listId
+    fullName: listId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string listId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IEventsPageLayoutComponentProps.startDate'
+    name: startDate
+    fullName: startDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Date startDate
+      return:
+        type:
+          - Date

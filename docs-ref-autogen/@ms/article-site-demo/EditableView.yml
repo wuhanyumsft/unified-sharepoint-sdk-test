@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/article-site-demo.EditableView'
+    name: EditableView
+    fullName: EditableView<P>
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/article-site-demo.EditableView<P>'
+    package: '@ms/article-site-demo'

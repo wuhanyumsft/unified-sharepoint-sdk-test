@@ -1,0 +1,86 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.BlogsDataProvider'
+    name: BlogsDataProvider
+    fullName: BlogsDataProvider
+    children:
+      - '@ms/sp-dataproviders.BlogsDataProvider.constructor'
+      - '@ms/sp-dataproviders.BlogsDataProvider.id'
+      - '@ms/sp-dataproviders.BlogsDataProvider.options'
+      - '@ms/sp-dataproviders.BlogsDataProvider.requestData'
+      - '@ms/sp-dataproviders.BlogsDataProvider.title'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.BlogsDataProvider.constructor'
+    name: BlogsDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BlogsDataProvider(options: IDataProviderOptions)'
+      parameters:
+        - id: options
+          type:
+            - IDataProviderOptions
+          description: ''
+  - uid: '@ms/sp-dataproviders.BlogsDataProvider.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.BlogsDataProvider.options'
+    name: options
+    fullName: options
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IDataProviderOptions options
+      return:
+        type:
+          - IDataProviderOptions
+  - uid: '@ms/sp-dataproviders.BlogsDataProvider.requestData'
+    name: requestData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function requestData(requestInfo: IBlogsItemRequest)'
+      parameters:
+        - id: requestInfo
+          type:
+            - '@@ms/sp-dataproviders.IBlogsItemRequest'
+          description: ''
+      return:
+        type:
+          - 'Promise<@@ms/sp-dataproviders.IBlogsItem[]>'
+  - uid: '@ms/sp-dataproviders.BlogsDataProvider.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

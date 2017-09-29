@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.OdspGulpTask'
+    name: OdspGulpTask
+    fullName: OdspGulpTask<TASK_CONFIG>
+    children:
+      - '@microsoft/sp-build-core-tasks.OdspGulpTask.executeTask'
+      - '@microsoft/sp-build-core-tasks.OdspGulpTask.getManifest'
+      - '@microsoft/sp-build-core-tasks.OdspGulpTask.getPackageVersion'
+      - '@microsoft/sp-build-core-tasks.OdspGulpTask.resolveResources'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@microsoft/sp-build-core-tasks.OdspGulpTask<TASK_CONFIG>'
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.OdspGulpTask.executeTask'
+    name: executeTask
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function executeTask(gulp: any, completeCallback: (error?: string) =>
+        void)
+      parameters:
+        - id: gulp
+          type:
+            - any
+          description: ''
+        - id: completeCallback
+          type:
+            - '(error?: string) => void'
+          description: ''
+  - uid: '@microsoft/sp-build-core-tasks.OdspGulpTask.getManifest'
+    name: getManifest
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getManifest(manifestPath: string)'
+      parameters:
+        - id: manifestPath
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - IClientSideComponentManifest
+  - uid: '@microsoft/sp-build-core-tasks.OdspGulpTask.getPackageVersion'
+    name: getPackageVersion
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getPackageVersion()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.OdspGulpTask.resolveResources'
+    name: resolveResources
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function resolveResources(localizedResources: string[], debugLocale:
+        string, singleLocale: boolean, parentTask: GulpTask<any>)
+      parameters:
+        - id: localizedResources
+          type:
+            - 'string[]'
+          description: ''
+        - id: debugLocale
+          type:
+            - string
+          description: ''
+        - id: singleLocale
+          type:
+            - boolean
+          description: ''
+        - id: parentTask
+          type:
+            - GulpTask<any>
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IResolveResourcesResult'

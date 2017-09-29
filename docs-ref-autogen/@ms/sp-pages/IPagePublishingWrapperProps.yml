@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IPagePublishingWrapperProps'
+    name: IPagePublishingWrapperProps
+    fullName: IPagePublishingWrapperProps
+    children:
+      - '@ms/sp-pages.IPagePublishingWrapperProps.isVisible'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IPagePublishingWrapperProps.isVisible'
+    name: isVisible
+    fullName: isVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isVisible
+      return:
+        type:
+          - boolean

@@ -1,0 +1,133 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-a11y.DomTraversal'
+    name: DomTraversal
+    fullName: DomTraversal
+    children:
+      - '@ms/sp-a11y.DomTraversal.forEachElementInPath'
+      - '@ms/sp-a11y.DomTraversal.getElementPath'
+      - '@ms/sp-a11y.DomTraversal.getFirstMatchingParent'
+      - '@ms/sp-a11y.DomTraversal.getLowestCommonAncestor'
+    langs:
+      - typeScript
+    type: class
+    summary: Utility methods that help with exploring elements in a DOM tree
+    package: '@ms/sp-a11y'
+  - uid: '@ms/sp-a11y.DomTraversal.forEachElementInPath'
+    name: forEachElementInPath
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function forEachElementInPath(src: HTMLElement, dest:
+        HTMLElement, callback: (element: HTMLElement, isOutward: boolean) =>
+        void, root?: HTMLElement)
+      parameters:
+        - id: src
+          type:
+            - HTMLElement
+          description: ''
+        - id: dest
+          type:
+            - HTMLElement
+          description: ''
+        - id: callback
+          type:
+            - '(element: HTMLElement, isOutward: boolean) => void'
+          description: ''
+        - id: root
+          type:
+            - HTMLElement
+          description: ''
+          optional: true
+  - uid: '@ms/sp-a11y.DomTraversal.getElementPath'
+    name: getElementPath
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the path from a parent element in the DOM tree to its child.
+    syntax:
+      content: >-
+        static function getElementPath(parent: HTMLElement, child: HTMLElement,
+        root?: HTMLElement)
+      parameters:
+        - id: parent
+          type:
+            - HTMLElement
+          description: The parent element that the path starts with
+        - id: child
+          type:
+            - HTMLElement
+          description: The child element that the path ends with
+        - id: root
+          type:
+            - HTMLElement
+          description: |
+            The root element of the DOM tree to scope the search tree
+          optional: true
+  - uid: '@ms/sp-a11y.DomTraversal.getFirstMatchingParent'
+    name: getFirstMatchingParent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns the first ancestor of the given element for which the matcher
+      callback returns true.
+    syntax:
+      content: >-
+        static function getFirstMatchingParent(element: HTMLElement, matcher:
+        (e: HTMLElement) => boolean, root?: HTMLElement, includeSelf: boolean)
+      parameters:
+        - id: element
+          type:
+            - HTMLElement
+          description: ''
+        - id: matcher
+          type:
+            - '(e: HTMLElement) => boolean'
+          description: ''
+        - id: root
+          type:
+            - HTMLElement
+          description: ''
+          optional: true
+        - id: includeSelf
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - HTMLElement
+  - uid: '@ms/sp-a11y.DomTraversal.getLowestCommonAncestor'
+    name: getLowestCommonAncestor
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the lowest common ancestor element of two elements in the DOM tree
+    syntax:
+      content: >-
+        static function getLowestCommonAncestor(element1: HTMLElement, element2:
+        HTMLElement, root?: HTMLElement)
+      parameters:
+        - id: element1
+          type:
+            - HTMLElement
+          description: ''
+        - id: element2
+          type:
+            - HTMLElement
+          description: ''
+        - id: root
+          type:
+            - HTMLElement
+          description: ''
+          optional: true
+      return:
+        type:
+          - HTMLElement

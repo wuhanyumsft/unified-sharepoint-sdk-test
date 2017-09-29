@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.BrowserUtilities'
+    name: BrowserUtilities
+    fullName: BrowserUtilities
+    children:
+      - '@ms/sp-component-utilities.BrowserUtilities.isMobileBrowser'
+      - '@ms/sp-component-utilities.BrowserUtilities.isMobileWebView'
+      - '@ms/sp-component-utilities.BrowserUtilities.isTeamsWebView'
+      - '@ms/sp-component-utilities.BrowserUtilities.isWebViewHosted'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.BrowserUtilities.isMobileBrowser'
+    name: isMobileBrowser
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function isMobileBrowser()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-utilities.BrowserUtilities.isMobileWebView'
+    name: isMobileWebView
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function isMobileWebView()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-utilities.BrowserUtilities.isTeamsWebView'
+    name: isTeamsWebView
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function isTeamsWebView()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-utilities.BrowserUtilities.isWebViewHosted'
+    name: isWebViewHosted
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function isWebViewHosted()
+      parameters: []
+      return:
+        type:
+          - boolean

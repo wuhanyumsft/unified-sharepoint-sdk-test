@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.IFilePickerRecentsDataProviderOptions'
+    name: IFilePickerRecentsDataProviderOptions
+    fullName: IFilePickerRecentsDataProviderOptions
+    children:
+      - '@ms/sp-filepicker.IFilePickerRecentsDataProviderOptions.itemTypes'
+      - '@ms/sp-filepicker.IFilePickerRecentsDataProviderOptions.serviceScope'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.IFilePickerRecentsDataProviderOptions.itemTypes'
+    name: itemTypes
+    fullName: itemTypes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Set<FilePickerItemType> itemTypes
+      return:
+        type:
+          - Set<FilePickerItemType>
+  - uid: '@ms/sp-filepicker.IFilePickerRecentsDataProviderOptions.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope

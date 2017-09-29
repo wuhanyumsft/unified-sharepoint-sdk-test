@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.ITimePickerProps'
+    name: ITimePickerProps
+    fullName: ITimePickerProps
+    children:
+      - '@ms/sp-component-utilities.ITimePickerProps.ariaLabel'
+      - '@ms/sp-component-utilities.ITimePickerProps.className'
+      - '@ms/sp-component-utilities.ITimePickerProps.disabled'
+      - '@ms/sp-component-utilities.ITimePickerProps.label'
+      - '@ms/sp-component-utilities.ITimePickerProps.onChange'
+      - '@ms/sp-component-utilities.ITimePickerProps.time'
+      - '@ms/sp-component-utilities.ITimePickerProps.use24HourFormat'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.ITimePickerProps.ariaLabel'
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Aria-label for this picker control.
+    syntax:
+      content: string ariaLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.ITimePickerProps.className'
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Used for customizing style.
+    syntax:
+      content: string className
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.ITimePickerProps.disabled'
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether or not the timePicker is disabled.
+    syntax:
+      content: boolean disabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-utilities.ITimePickerProps.label'
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Label for this picker control.
+    syntax:
+      content: string label
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.ITimePickerProps.onChange'
+    name: onChange
+    fullName: onChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback when time selection is changed.
+    syntax:
+      content: '(time: Date) => void onChange'
+      return:
+        type:
+          - '(time: Date) => void'
+  - uid: '@ms/sp-component-utilities.ITimePickerProps.time'
+    name: time
+    fullName: time
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Used to set value of time to show in picker.
+    syntax:
+      content: Date time
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-component-utilities.ITimePickerProps.use24HourFormat'
+    name: use24HourFormat
+    fullName: use24HourFormat
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether to display time in 24-hour format.
+    syntax:
+      content: boolean use24HourFormat
+      return:
+        type:
+          - boolean

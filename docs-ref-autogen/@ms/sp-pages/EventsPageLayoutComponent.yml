@@ -1,0 +1,71 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.EventsPageLayoutComponent'
+    name: EventsPageLayoutComponent
+    fullName: EventsPageLayoutComponent
+    children:
+      - '@ms/sp-pages.EventsPageLayoutComponent.componentDidMount'
+      - '@ms/sp-pages.EventsPageLayoutComponent.componentWillReceiveProps'
+      - '@ms/sp-pages.EventsPageLayoutComponent.constructor'
+      - '@ms/sp-pages.EventsPageLayoutComponent.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-pages.EventsPageLayoutComponent<@@ms/sp-pages.IEventsPageLayoutComponentProps>
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.EventsPageLayoutComponent.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-pages.EventsPageLayoutComponent.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function componentWillReceiveProps(nextProps:
+        IEventsPageLayoutComponentProps)
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-pages.IEventsPageLayoutComponentProps'
+          description: ''
+  - uid: '@ms/sp-pages.EventsPageLayoutComponent.constructor'
+    name: EventsPageLayoutComponent
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new EventsPageLayoutComponent(props: IEventsPageLayoutComponentProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.IEventsPageLayoutComponentProps'
+          description: ''
+  - uid: '@ms/sp-pages.EventsPageLayoutComponent.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

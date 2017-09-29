@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.TraceDisplayStore'
+    name: TraceDisplayStore
+    fullName: TraceDisplayStore
+    children:
+      - '@microsoft/sp-loader.TraceDisplayStore.applyTraceFilter'
+      - '@microsoft/sp-loader.TraceDisplayStore.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Implementation for managing the data of user-selected filters and all
+      trace data
+       for a TraceDisplay.
+    extends:
+      name: '@@microsoft/sp-loader.BaseStore'
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.TraceDisplayStore.applyTraceFilter'
+    name: applyTraceFilter
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function applyTraceFilter(filter: ITraceFilter)'
+      parameters:
+        - id: filter
+          type:
+            - '@@microsoft/sp-loader.ITraceFilter'
+          description: ''
+  - uid: '@microsoft/sp-loader.TraceDisplayStore.constructor'
+    name: TraceDisplayStore
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new TraceDisplayStore()
+      parameters: []

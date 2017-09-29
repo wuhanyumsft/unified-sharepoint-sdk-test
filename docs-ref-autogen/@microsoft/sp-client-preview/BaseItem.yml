@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-client-preview.BaseItem'
+    name: BaseItem
+    fullName: BaseItem<T>
+    children:
+      - '@microsoft/sp-client-preview.BaseItem.equals'
+    langs:
+      - typeScript
+    type: class
+    summary: Represents the base model item
+    package: '@microsoft/sp-client-preview'
+  - uid: '@microsoft/sp-client-preview.BaseItem.equals'
+    name: equals
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Compares two instances
+    syntax:
+      content: 'function equals(other: T)'
+      parameters:
+        - id: other
+          type:
+            - T
+          description: |
+            represents the other instance
+      return:
+        type:
+          - boolean

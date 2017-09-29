@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-listview-extensibility.ColumnAccessor'
+    name: ColumnAccessor
+    fullName: ColumnAccessor
+    children:
+      - '@microsoft/sp-listview-extensibility.ColumnAccessor.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      Provides access to a ListView column, which is the visual presentation
+      of a field.
+    package: '@microsoft/sp-listview-extensibility'
+  - uid: '@microsoft/sp-listview-extensibility.ColumnAccessor.constructor'
+    name: ColumnAccessor
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new ColumnAccessor()
+      parameters: []

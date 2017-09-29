@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IPublisherState'
+    name: IPublisherState
+    fullName: IPublisherState
+    children:
+      - '@ms/sp-publishing-webparts.IPublisherState.hasPosted'
+      - '@ms/sp-publishing-webparts.IPublisherState.messageBody'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IPublisherState.hasPosted'
+    name: hasPosted
+    fullName: hasPosted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasPosted
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IPublisherState.messageBody'
+    name: messageBody
+    fullName: messageBody
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string messageBody
+      return:
+        type:
+          - string

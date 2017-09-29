@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-a11y.IA11yManagerConfig'
+    name: IA11yManagerConfig
+    fullName: IA11yManagerConfig
+    children:
+      - '@ms/sp-a11y.IA11yManagerConfig.debug'
+      - '@ms/sp-a11y.IA11yManagerConfig.useHierarchicalNavigation'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-a11y'
+  - uid: '@ms/sp-a11y.IA11yManagerConfig.debug'
+    name: debug
+    fullName: debug
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean debug
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-a11y.IA11yManagerConfig.useHierarchicalNavigation'
+    name: useHierarchicalNavigation
+    fullName: useHierarchicalNavigation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean useHierarchicalNavigation
+      return:
+        type:
+          - boolean

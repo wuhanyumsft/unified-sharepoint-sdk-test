@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.RefinableManagedProperties'
+    name: RefinableManagedProperties
+    fullName: RefinableManagedProperties
+    children:
+      - >-
+        @ms/sp-publishing-webparts.RefinableManagedProperties.addRefinableManagedProperties
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: >-
+      @ms/sp-publishing-webparts.RefinableManagedProperties.addRefinableManagedProperties
+    name: addRefinableManagedProperties
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function addRefinableManagedProperties(properties: string[],
+        includeInt: boolean, includeDate: boolean, includeDateInvariant:
+        boolean, includeDateSingle: boolean, includeDecimal: boolean,
+        includeDouble: boolean, includeString: boolean)
+      parameters:
+        - id: properties
+          type:
+            - 'string[]'
+          description: ''
+        - id: includeInt
+          type:
+            - boolean
+          description: ''
+        - id: includeDate
+          type:
+            - boolean
+          description: ''
+        - id: includeDateInvariant
+          type:
+            - boolean
+          description: ''
+        - id: includeDateSingle
+          type:
+            - boolean
+          description: ''
+        - id: includeDecimal
+          type:
+            - boolean
+          description: ''
+        - id: includeDouble
+          type:
+            - boolean
+          description: ''
+        - id: includeString
+          type:
+            - boolean
+          description: ''

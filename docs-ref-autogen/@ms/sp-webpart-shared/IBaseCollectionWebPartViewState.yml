@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.IBaseCollectionWebPartViewState'
+    name: IBaseCollectionWebPartViewState
+    fullName: IBaseCollectionWebPartViewState
+    children:
+      - '@ms/sp-webpart-shared.IBaseCollectionWebPartViewState.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.IBaseCollectionWebPartViewState.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

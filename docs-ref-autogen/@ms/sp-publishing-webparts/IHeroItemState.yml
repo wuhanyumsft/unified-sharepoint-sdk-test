@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IHeroItemState'
+    name: IHeroItemState
+    fullName: IHeroItemState
+    children:
+      - '@ms/sp-publishing-webparts.IHeroItemState.errorLoadingPreview'
+      - '@ms/sp-publishing-webparts.IHeroItemState.isUploadInProgress'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IHeroItemState.errorLoadingPreview'
+    name: errorLoadingPreview
+    fullName: errorLoadingPreview
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean errorLoadingPreview
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IHeroItemState.isUploadInProgress'
+    name: isUploadInProgress
+    fullName: isUploadInProgress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isUploadInProgress
+      return:
+        type:
+          - boolean

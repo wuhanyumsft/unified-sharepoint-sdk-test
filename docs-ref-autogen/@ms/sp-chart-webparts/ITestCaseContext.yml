@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-chart-webparts.ITestCaseContext'
+    name: ITestCaseContext
+    fullName: ITestCaseContext
+    children:
+      - '@ms/sp-chart-webparts.ITestCaseContext.context'
+      - '@ms/sp-chart-webparts.ITestCaseContext.propertiesBeforeChange'
+      - '@ms/sp-chart-webparts.ITestCaseContext.webpart'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-chart-webparts'
+  - uid: '@ms/sp-chart-webparts.ITestCaseContext.context'
+    name: context
+    fullName: context
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IWebPartContext context
+      return:
+        type:
+          - IWebPartContext
+  - uid: '@ms/sp-chart-webparts.ITestCaseContext.propertiesBeforeChange'
+    name: propertiesBeforeChange
+    fullName: propertiesBeforeChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IQuickChartWebPartProps propertiesBeforeChange
+      return:
+        type:
+          - '@@ms/sp-chart-webparts.IQuickChartWebPartProps'
+  - uid: '@ms/sp-chart-webparts.ITestCaseContext.webpart'
+    name: webpart
+    fullName: webpart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: QuickChartWebPart webpart
+      return:
+        type:
+          - '@@ms/sp-chart-webparts.QuickChartWebPart'

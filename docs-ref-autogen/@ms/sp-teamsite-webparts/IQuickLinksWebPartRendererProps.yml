@@ -1,0 +1,128 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksWebPartRendererProps'
+    name: IQuickLinksWebPartRendererProps
+    fullName: IQuickLinksWebPartRendererProps
+    children:
+      - '@ms/sp-teamsite-webparts.IQuickLinksWebPartRendererProps.dispatcher'
+      - '@ms/sp-teamsite-webparts.IQuickLinksWebPartRendererProps.displayMode'
+      - >-
+        @ms/sp-teamsite-webparts.IQuickLinksWebPartRendererProps.firstTimeRenderCallback
+      - >-
+        @ms/sp-teamsite-webparts.IQuickLinksWebPartRendererProps.menuActionFactory
+      - '@ms/sp-teamsite-webparts.IQuickLinksWebPartRendererProps.pageContext'
+      - '@ms/sp-teamsite-webparts.IQuickLinksWebPartRendererProps.provider'
+      - >-
+        @ms/sp-teamsite-webparts.IQuickLinksWebPartRendererProps.renderItemsDirectly
+      - '@ms/sp-teamsite-webparts.IQuickLinksWebPartRendererProps.serviceScope'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksWebPartRendererProps.dispatcher'
+    name: dispatcher
+    fullName: dispatcher
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IQuickLinksDispatcher dispatcher
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IQuickLinksDispatcher'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksWebPartRendererProps.displayMode'
+    name: displayMode
+    fullName: displayMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DisplayMode displayMode
+      return:
+        type:
+          - DisplayMode
+  - uid: >-
+      @ms/sp-teamsite-webparts.IQuickLinksWebPartRendererProps.firstTimeRenderCallback
+    name: firstTimeRenderCallback
+    fullName: firstTimeRenderCallback
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void firstTimeRenderCallback
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksWebPartRendererProps.menuActionFactory'
+    name: menuActionFactory
+    fullName: menuActionFactory
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: MenuActionFactory menuActionFactory
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.MenuActionFactory'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksWebPartRendererProps.pageContext'
+    name: pageContext
+    fullName: pageContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageContext pageContext
+      return:
+        type:
+          - PageContext
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksWebPartRendererProps.provider'
+    name: provider
+    fullName: provider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IQuickLinksProvider provider
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IQuickLinksProvider'
+  - uid: >-
+      @ms/sp-teamsite-webparts.IQuickLinksWebPartRendererProps.renderItemsDirectly
+    name: renderItemsDirectly
+    fullName: renderItemsDirectly
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean renderItemsDirectly
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksWebPartRendererProps.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope

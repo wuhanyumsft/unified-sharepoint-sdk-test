@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.ListCreationPanelRender'
+    name: ListCreationPanelRender
+    fullName: ListCreationPanelRender
+    children:
+      - '@ms/sp-teamsite-webparts.ListCreationPanelRender.renderListCreationPanel'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.ListCreationPanelRender.renderListCreationPanel'
+    name: renderListCreationPanel
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function renderListCreationPanel(props:
+        IListCreationPanelContainerProps)
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-teamsite-webparts.IListCreationPanelContainerProps'
+          description: ''

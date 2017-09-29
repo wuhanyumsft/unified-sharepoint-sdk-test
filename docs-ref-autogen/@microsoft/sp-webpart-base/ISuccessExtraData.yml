@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.ISuccessExtraData'
+    name: ISuccessExtraData
+    fullName: ISuccessExtraData
+    children:
+      - '@microsoft/sp-webpart-base.ISuccessExtraData.alias'
+      - '@microsoft/sp-webpart-base.ISuccessExtraData.isInternal'
+      - '@microsoft/sp-webpart-base.ISuccessExtraData.manifestId'
+    langs:
+      - typeScript
+    type: interface
+    summary: Describes the extra data parameter for QosMonitor.writeSuccess function.
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.ISuccessExtraData.alias'
+    name: alias
+    fullName: alias
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string alias
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.ISuccessExtraData.isInternal'
+    name: isInternal
+    fullName: isInternal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isInternal
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.ISuccessExtraData.manifestId'
+    name: manifestId
+    fullName: manifestId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string manifestId
+      return:
+        type:
+          - string

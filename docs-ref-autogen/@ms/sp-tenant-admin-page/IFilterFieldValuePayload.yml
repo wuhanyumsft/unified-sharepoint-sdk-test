@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IFilterFieldValuePayload'
+    name: IFilterFieldValuePayload
+    fullName: IFilterFieldValuePayload
+    children:
+      - '@ms/sp-tenant-admin-page.IFilterFieldValuePayload.field'
+      - '@ms/sp-tenant-admin-page.IFilterFieldValuePayload.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      IFilterFieldValuePayload is an internal interface
+
+      that defines the parameters passed when user click filter.
+
+      field is the field key user clicks on, and value is the filter value user
+      clicks on.
+
+      value could be undefined when user click clear filter.
+
+      Clear all filter value for this field if value is undefined;
+
+      otherwise clear filter for the specified value of the field.
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IFilterFieldValuePayload.field'
+    name: field
+    fullName: field
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string field
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IFilterFieldValuePayload.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string value
+      return:
+        type:
+          - string

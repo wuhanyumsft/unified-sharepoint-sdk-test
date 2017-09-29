@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.IToolboxLoaderProps'
+    name: IToolboxLoaderProps
+    fullName: IToolboxLoaderProps
+    children:
+      - '@ms/sp-canvas-toolbox.IToolboxLoaderProps.instanceRef'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-canvas-toolbox.IToolboxBasicProps'
+    package: '@ms/sp-canvas-toolbox'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxLoaderProps.instanceRef'
+    name: instanceRef
+    fullName: instanceRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The toolbox instance reference exposed to parent component.
+    syntax:
+      content: '(instance: IToolboxProxy) => void instanceRef'
+      return:
+        type:
+          - '(instance: IToolboxProxy) => void'

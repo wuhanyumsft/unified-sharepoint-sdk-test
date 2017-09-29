@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.NewsPage'
+    name: NewsPage
+    fullName: NewsPage
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.NewsPage'
+    package: '@ms/sp-pages'

@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.PropertyPaneSpinButton'
+    name: PropertyPaneSpinButton
+    fullName: PropertyPaneSpinButton
+    children:
+      - '@ms/sp-publishing-webparts.PropertyPaneSpinButton.constructor'
+      - '@ms/sp-publishing-webparts.PropertyPaneSpinButton.render'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      The SpinButton control is rendered in Image Gallery property pane.
+
+      This control is not PureComponent because when user input invalid numbers,
+      it will set
+
+      back the state which is exactly the same with previous one which should be
+      rendered.
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.PropertyPaneSpinButton<@@ms/sp-publishing-webparts.IPropertyPaneSpinButtonProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.PropertyPaneSpinButton.constructor'
+    name: PropertyPaneSpinButton
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PropertyPaneSpinButton(props: IPropertyPaneSpinButtonProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IPropertyPaneSpinButtonProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.PropertyPaneSpinButton.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

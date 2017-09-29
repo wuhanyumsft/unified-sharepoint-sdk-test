@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ICommunicationSiteSearchBoxProps'
+    name: ICommunicationSiteSearchBoxProps
+    fullName: ICommunicationSiteSearchBoxProps
+    children:
+      - '@ms/sp-pages.ICommunicationSiteSearchBoxProps.onActivated'
+      - '@ms/sp-pages.ICommunicationSiteSearchBoxProps.onDeactivated'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ICommunicationSiteSearchBoxProps.onActivated'
+    name: onActivated
+    fullName: onActivated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(searchText: string) => void onActivated'
+      return:
+        type:
+          - '(searchText: string) => void'
+  - uid: '@ms/sp-pages.ICommunicationSiteSearchBoxProps.onDeactivated'
+    name: onDeactivated
+    fullName: onDeactivated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onDeactivated
+      return:
+        type:
+          - () => void

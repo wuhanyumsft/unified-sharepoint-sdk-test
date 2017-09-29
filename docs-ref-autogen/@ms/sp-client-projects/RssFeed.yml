@@ -1,0 +1,147 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.RssFeed'
+    name: RssFeed
+    fullName: RssFeed
+    children:
+      - '@ms/sp-client-projects.RssFeed.addFeedEntry'
+      - '@ms/sp-client-projects.RssFeed.category'
+      - '@ms/sp-client-projects.RssFeed.description'
+      - '@ms/sp-client-projects.RssFeed.image'
+      - '@ms/sp-client-projects.RssFeed.items'
+      - '@ms/sp-client-projects.RssFeed.link'
+      - '@ms/sp-client-projects.RssFeed.pubDate'
+      - '@ms/sp-client-projects.RssFeed.constructor'
+      - '@ms/sp-client-projects.RssFeed.title'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.RssFeed.addFeedEntry'
+    name: addFeedEntry
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addFeedEntry(item: RssFeedEntry)'
+      parameters:
+        - id: item
+          type:
+            - '@@ms/sp-client-projects.RssFeedEntry'
+          description: ''
+  - uid: '@ms/sp-client-projects.RssFeed.category'
+    name: category
+    fullName: category
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] category'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-client-projects.RssFeed.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string description
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.RssFeed.image'
+    name: image
+    fullName: image
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string image
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.RssFeed.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'RssFeedEntry[] items'
+      return:
+        type:
+          - '@@ms/sp-client-projects.RssFeedEntry[]'
+  - uid: '@ms/sp-client-projects.RssFeed.link'
+    name: link
+    fullName: link
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string link
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.RssFeed.pubDate'
+    name: pubDate
+    fullName: pubDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Date pubDate
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-client-projects.RssFeed.constructor'
+    name: RssFeed
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new RssFeed(title: string, link: string, description: string)'
+      parameters:
+        - id: title
+          type:
+            - string
+          description: ''
+        - id: link
+          type:
+            - string
+          description: ''
+        - id: description
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-client-projects.RssFeed.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

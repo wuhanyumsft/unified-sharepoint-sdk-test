@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.SPSettingsMockDataProvider'
+    name: SPSettingsMockDataProvider
+    fullName: SPSettingsMockDataProvider
+    children:
+      - '@ms/sp-tenant-admin-page.SPSettingsMockDataProvider.fetchSettingFromApi'
+      - >-
+        @ms/sp-tenant-admin-page.SPSettingsMockDataProvider.updateSettingsThruApi
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.SPSettingsMockDataProvider.fetchSettingFromApi'
+    name: fetchSettingFromApi
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fetchSettingFromApi(setting: string)'
+      parameters:
+        - id: setting
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-tenant-admin-page.ISetting>
+  - uid: '@ms/sp-tenant-admin-page.SPSettingsMockDataProvider.updateSettingsThruApi'
+    name: updateSettingsThruApi
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function updateSettingsThruApi(settings: object)'
+      parameters:
+        - id: settings
+          type:
+            - object
+          description: ''
+      return:
+        type:
+          - Promise<void>

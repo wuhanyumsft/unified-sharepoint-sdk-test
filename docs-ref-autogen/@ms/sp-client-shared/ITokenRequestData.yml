@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-shared.ITokenRequestData'
+    name: ITokenRequestData
+    fullName: ITokenRequestData
+    children:
+      - '@ms/sp-client-shared.ITokenRequestData.resource'
+    langs:
+      - typeScript
+    type: interface
+    summary: Token request body
+    package: '@ms/sp-client-shared'
+  - uid: '@ms/sp-client-shared.ITokenRequestData.resource'
+    name: resource
+    fullName: resource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string resource
+      return:
+        type:
+          - string

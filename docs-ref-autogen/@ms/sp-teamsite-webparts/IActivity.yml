@@ -1,0 +1,465 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IActivity'
+    name: IActivity
+    fullName: IActivity
+    children:
+      - '@ms/sp-teamsite-webparts.IActivity.accentColor'
+      - '@ms/sp-teamsite-webparts.IActivity.activityObjectType'
+      - '@ms/sp-teamsite-webparts.IActivity.changeActivityType'
+      - '@ms/sp-teamsite-webparts.IActivity.changeObjectType'
+      - '@ms/sp-teamsite-webparts.IActivity.changeToken'
+      - '@ms/sp-teamsite-webparts.IActivity.changeType'
+      - '@ms/sp-teamsite-webparts.IActivity.customIconAcronym'
+      - '@ms/sp-teamsite-webparts.IActivity.customIconBgColor'
+      - '@ms/sp-teamsite-webparts.IActivity.date'
+      - '@ms/sp-teamsite-webparts.IActivity.editor'
+      - '@ms/sp-teamsite-webparts.IActivity.iconUrl'
+      - '@ms/sp-teamsite-webparts.IActivity.itemId'
+      - '@ms/sp-teamsite-webparts.IActivity.latestName'
+      - '@ms/sp-teamsite-webparts.IActivity.listId'
+      - '@ms/sp-teamsite-webparts.IActivity.listTitle'
+      - '@ms/sp-teamsite-webparts.IActivity.onClick'
+      - '@ms/sp-teamsite-webparts.IActivity.parentFolderName'
+      - '@ms/sp-teamsite-webparts.IActivity.parentFolderUrl'
+      - '@ms/sp-teamsite-webparts.IActivity.previewIconProps'
+      - '@ms/sp-teamsite-webparts.IActivity.previewImageUrl'
+      - '@ms/sp-teamsite-webparts.IActivity.relativeTime'
+      - '@ms/sp-teamsite-webparts.IActivity.relativeTimeFromServer'
+      - '@ms/sp-teamsite-webparts.IActivity.serverRelativeUrl'
+      - '@ms/sp-teamsite-webparts.IActivity.sharedWith'
+      - '@ms/sp-teamsite-webparts.IActivity.siteId'
+      - '@ms/sp-teamsite-webparts.IActivity.smallIconUrl'
+      - '@ms/sp-teamsite-webparts.IActivity.tipActionIcon'
+      - '@ms/sp-teamsite-webparts.IActivity.tipActionLabel'
+      - '@ms/sp-teamsite-webparts.IActivity.tipActionUrl'
+      - '@ms/sp-teamsite-webparts.IActivity.tipDetail'
+      - '@ms/sp-teamsite-webparts.IActivity.url'
+      - '@ms/sp-teamsite-webparts.IActivity.webId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IActivity.accentColor'
+    name: accentColor
+    fullName: accentColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string accentColor
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.activityObjectType'
+    name: activityObjectType
+    fullName: activityObjectType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ActivityObjectType activityObjectType
+      return:
+        type:
+          - ActivityObjectType
+  - uid: '@ms/sp-teamsite-webparts.IActivity.changeActivityType'
+    name: changeActivityType
+    fullName: changeActivityType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ChangeActivityType changeActivityType
+      return:
+        type:
+          - ChangeActivityType
+  - uid: '@ms/sp-teamsite-webparts.IActivity.changeObjectType'
+    name: changeObjectType
+    fullName: changeObjectType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ChangeObjectType changeObjectType
+      return:
+        type:
+          - ChangeObjectType
+  - uid: '@ms/sp-teamsite-webparts.IActivity.changeToken'
+    name: changeToken
+    fullName: changeToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string changeToken
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.changeType'
+    name: changeType
+    fullName: changeType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ChangeType changeType
+      return:
+        type:
+          - ChangeType
+  - uid: '@ms/sp-teamsite-webparts.IActivity.customIconAcronym'
+    name: customIconAcronym
+    fullName: customIconAcronym
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      2-letter put in the center of the logo. This is for the case don't have
+      previewImages.
+    syntax:
+      content: string customIconAcronym
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.customIconBgColor'
+    name: customIconBgColor
+    fullName: customIconBgColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Background color for the logo. This is for the case don't have
+      previewImages.
+    syntax:
+      content: string customIconBgColor
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.date'
+    name: date
+    fullName: date
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Date date
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-teamsite-webparts.IActivity.editor'
+    name: editor
+    fullName: editor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IPerson editor
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IPerson'
+  - uid: '@ms/sp-teamsite-webparts.IActivity.iconUrl'
+    name: iconUrl
+    fullName: iconUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string iconUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.itemId'
+    name: itemId
+    fullName: itemId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number itemId
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-teamsite-webparts.IActivity.latestName'
+    name: latestName
+    fullName: latestName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string latestName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.listId'
+    name: listId
+    fullName: listId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string listId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.listTitle'
+    name: listTitle
+    fullName: listTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string listTitle
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.onClick'
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(event?: Event, context?: PageContext) => void onClick'
+      return:
+        type:
+          - '(event?: Event, context?: PageContext) => void'
+  - uid: '@ms/sp-teamsite-webparts.IActivity.parentFolderName'
+    name: parentFolderName
+    fullName: parentFolderName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string parentFolderName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.parentFolderUrl'
+    name: parentFolderUrl
+    fullName: parentFolderUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string parentFolderUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.previewIconProps'
+    name: previewIconProps
+    fullName: previewIconProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The props for the preview icon.
+      If provided, icon will be rendered instead of image.
+    syntax:
+      content: IIconProps previewIconProps
+      return:
+        type:
+          - IIconProps
+  - uid: '@ms/sp-teamsite-webparts.IActivity.previewImageUrl'
+    name: previewImageUrl
+    fullName: previewImageUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string previewImageUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.relativeTime'
+    name: relativeTime
+    fullName: relativeTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string relativeTime
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.relativeTimeFromServer'
+    name: relativeTimeFromServer
+    fullName: relativeTimeFromServer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string relativeTimeFromServer
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.serverRelativeUrl'
+    name: serverRelativeUrl
+    fullName: serverRelativeUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string serverRelativeUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.sharedWith'
+    name: sharedWith
+    fullName: sharedWith
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IPerson[] sharedWith'
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IPerson[]'
+  - uid: '@ms/sp-teamsite-webparts.IActivity.siteId'
+    name: siteId
+    fullName: siteId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.smallIconUrl'
+    name: smallIconUrl
+    fullName: smallIconUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string smallIconUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.tipActionIcon'
+    name: tipActionIcon
+    fullName: tipActionIcon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string tipActionIcon
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.tipActionLabel'
+    name: tipActionLabel
+    fullName: tipActionLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string tipActionLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.tipActionUrl'
+    name: tipActionUrl
+    fullName: tipActionUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string tipActionUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.tipDetail'
+    name: tipDetail
+    fullName: tipDetail
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string tipDetail
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string url
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivity.webId'
+    name: webId
+    fullName: webId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webId
+      return:
+        type:
+          - string

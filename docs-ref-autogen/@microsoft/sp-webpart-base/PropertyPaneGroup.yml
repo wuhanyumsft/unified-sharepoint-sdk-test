@@ -1,0 +1,91 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneGroup'
+    name: PropertyPaneGroup
+    fullName: PropertyPaneGroup
+    children:
+      - '@microsoft/sp-webpart-base.PropertyPaneGroup.componentDidMount'
+      - '@microsoft/sp-webpart-base.PropertyPaneGroup.componentDidUpdate'
+      - '@microsoft/sp-webpart-base.PropertyPaneGroup.componentWillMount'
+      - '@microsoft/sp-webpart-base.PropertyPaneGroup.componentWillReceiveProps'
+      - '@microsoft/sp-webpart-base.PropertyPaneGroup.constructor'
+      - '@microsoft/sp-webpart-base.PropertyPaneGroup.render'
+    langs:
+      - typeScript
+    type: class
+    summary: 'React Component: PropertyPaneGroup.'
+    extends:
+      name: >-
+        @@microsoft/sp-webpart-base.PropertyPaneGroup<@@microsoft/sp-webpart-base.IPropertyPaneGroupProps>
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneGroup.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneGroup.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneGroup.componentWillMount'
+    name: componentWillMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillMount()
+      parameters: []
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneGroup.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(props: IPropertyPaneGroupProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@microsoft/sp-webpart-base.IPropertyPaneGroupProps'
+          description: ''
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneGroup.constructor'
+    name: PropertyPaneGroup
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: constructor
+    syntax:
+      content: 'new PropertyPaneGroup(props: IPropertyPaneGroupProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@microsoft/sp-webpart-base.IPropertyPaneGroupProps'
+          description: ''
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneGroup.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'render: renders the PropertyPaneGroup component.'
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

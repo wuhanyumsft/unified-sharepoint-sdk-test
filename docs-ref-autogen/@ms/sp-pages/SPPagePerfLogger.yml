@@ -1,0 +1,178 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.SPPagePerfLogger'
+    name: SPPagePerfLogger
+    fullName: SPPagePerfLogger
+    children:
+      - '@ms/sp-pages.SPPagePerfLogger.addExpectedMeasureableComponent'
+      - '@ms/sp-pages.SPPagePerfLogger.appCacheHit'
+      - '@ms/sp-pages.SPPagePerfLogger.designPackageId'
+      - '@ms/sp-pages.SPPagePerfLogger.endPerfMarkForComponent'
+      - '@ms/sp-pages.SPPagePerfLogger.endPerfMarkForComponentWithTimestamp'
+      - '@ms/sp-pages.SPPagePerfLogger.endPerfMeasurement'
+      - '@ms/sp-pages.SPPagePerfLogger.overWritePageLayoutType'
+      - '@ms/sp-pages.SPPagePerfLogger.performanceMark'
+      - '@ms/sp-pages.SPPagePerfLogger.constructor'
+      - '@ms/sp-pages.SPPagePerfLogger.startPerfMarkForComponent'
+      - '@ms/sp-pages.SPPagePerfLogger.startPerfMeasurement'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SPPagePerfLogger.addExpectedMeasureableComponent'
+    name: addExpectedMeasureableComponent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addExpectedMeasureableComponent(componentId: string)'
+      parameters:
+        - id: componentId
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-pages.SPPagePerfLogger.appCacheHit'
+    name: appCacheHit
+    fullName: appCacheHit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean appCacheHit
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.SPPagePerfLogger.designPackageId'
+    name: designPackageId
+    fullName: designPackageId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Guid designPackageId
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.SPPagePerfLogger.endPerfMarkForComponent'
+    name: endPerfMarkForComponent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function endPerfMarkForComponent(componentId: string)'
+      parameters:
+        - id: componentId
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-pages.SPPagePerfLogger.endPerfMarkForComponentWithTimestamp'
+    name: endPerfMarkForComponentWithTimestamp
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function endPerfMarkForComponentWithTimestamp(componentId: string,
+        endTime: number)
+      parameters:
+        - id: componentId
+          type:
+            - string
+          description: ''
+        - id: endTime
+          type:
+            - number
+          description: ''
+  - uid: '@ms/sp-pages.SPPagePerfLogger.endPerfMeasurement'
+    name: endPerfMeasurement
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function endPerfMeasurement()
+      parameters: []
+  - uid: '@ms/sp-pages.SPPagePerfLogger.overWritePageLayoutType'
+    name: overWritePageLayoutType
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function overWritePageLayoutType(pageLayoutType: string)'
+      parameters:
+        - id: pageLayoutType
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-pages.SPPagePerfLogger.performanceMark'
+    name: performanceMark
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function performanceMark(mark: string)'
+      parameters:
+        - id: mark
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-pages.SPPagePerfLogger.constructor'
+    name: SPPagePerfLogger
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new SPPagePerfLogger()
+      parameters: []
+  - uid: '@ms/sp-pages.SPPagePerfLogger.startPerfMarkForComponent'
+    name: startPerfMarkForComponent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function startPerfMarkForComponent(componentId: string)'
+      parameters:
+        - id: componentId
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-pages.SPPagePerfLogger.startPerfMeasurement'
+    name: startPerfMeasurement
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function startPerfMeasurement(pageLayoutType: string, fullPageLoad:
+        boolean)
+      parameters:
+        - id: pageLayoutType
+          type:
+            - string
+          description: ''
+        - id: fullPageLoad
+          type:
+            - boolean
+          description: ''

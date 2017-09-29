@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IFeature'
+    name: IFeature
+    fullName: IFeature
+    children:
+      - '@microsoft/sp-build-core-tasks.IFeature.assets'
+      - '@microsoft/sp-build-core-tasks.IFeature.componentIds'
+      - '@microsoft/sp-build-core-tasks.IFeature.components'
+      - '@microsoft/sp-build-core-tasks.IFeature.description'
+      - '@microsoft/sp-build-core-tasks.IFeature.id'
+      - '@microsoft/sp-build-core-tasks.IFeature.title'
+      - '@microsoft/sp-build-core-tasks.IFeature.version'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.IFeature.assets'
+    name: assets
+    fullName: assets
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISharepointAssets<string> assets
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.ISharepointAssets<string>'
+  - uid: '@microsoft/sp-build-core-tasks.IFeature.componentIds'
+    name: componentIds
+    fullName: componentIds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] componentIds'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@microsoft/sp-build-core-tasks.IFeature.components'
+    name: components
+    fullName: components
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IComponent[] components'
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IComponent[]'
+  - uid: '@microsoft/sp-build-core-tasks.IFeature.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string description
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IFeature.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IFeature.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IFeature.version'
+    name: version
+    fullName: version
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string version
+      return:
+        type:
+          - string

@@ -1,0 +1,111 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IListRequest'
+    name: IListRequest
+    fullName: IListRequest
+    children:
+      - '@ms/sp-dataproviders.IListRequest.caml'
+      - '@ms/sp-dataproviders.IListRequest.id'
+      - '@ms/sp-dataproviders.IListRequest.isDefaultDocumentLibrary'
+      - '@ms/sp-dataproviders.IListRequest.renderOptions'
+      - '@ms/sp-dataproviders.IListRequest.requestType'
+      - '@ms/sp-dataproviders.IListRequest.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-dataproviders.IODataRequest'
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IListRequest.caml'
+    name: caml
+    fullName: caml
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      CAML query to filter list items.
+
+      CAML stands for Collaborative Application Markup Language.  It is an XML
+      format for expressing a query.
+
+      See: https://msdn.microsoft.com/en-us/library/office/ms467521.aspx (CAML
+      Query Schema)
+    syntax:
+      content: string caml
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IListRequest.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Identify a list to query by id (guid).
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IListRequest.isDefaultDocumentLibrary'
+    name: isDefaultDocumentLibrary
+    fullName: isDefaultDocumentLibrary
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Whether the query is for the default document library as specified by
+      /_api/web/DefaultDocumentLibrary
+    syntax:
+      content: boolean isDefaultDocumentLibrary
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IListRequest.renderOptions'
+    name: renderOptions
+    fullName: renderOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      SPRenderListDataOptions bitmask values indicating what additional data is
+      desired in the output.
+
+      Defaults to none.  Used when requesting list items via the
+      RenderListDataAsStream REST API.
+    syntax:
+      content: number renderOptions
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-dataproviders.IListRequest.requestType'
+    name: requestType
+    fullName: requestType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicate a request for lists or list items.
+    syntax:
+      content: ListRequestType requestType
+      return:
+        type:
+          - ListRequestType
+  - uid: '@ms/sp-dataproviders.IListRequest.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Identify a list to query by title.
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

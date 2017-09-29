@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IListData'
+    name: IListData
+    fullName: IListData
+    children:
+      - '@ms/sp-publishing-webparts.IListData.Row'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IListData.Row'
+    name: Row
+    fullName: Row
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'any[] Row'
+      return:
+        type:
+          - 'any[]'

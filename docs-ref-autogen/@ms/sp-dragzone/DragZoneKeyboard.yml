@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dragzone.DragZoneKeyboard'
+    name: DragZoneKeyboard
+    fullName: DragZoneKeyboard
+    children:
+      - '@ms/sp-dragzone.DragZoneKeyboard.addHandles'
+      - '@ms/sp-dragzone.DragZoneKeyboard.dispose'
+      - '@ms/sp-dragzone.DragZoneKeyboard.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-dragzone'
+  - uid: '@ms/sp-dragzone.DragZoneKeyboard.addHandles'
+    name: addHandles
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addHandles(handles: Element[])'
+      parameters:
+        - id: handles
+          type:
+            - 'Element[]'
+          description: ''
+  - uid: '@ms/sp-dragzone.DragZoneKeyboard.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function dispose()
+      parameters: []
+  - uid: '@ms/sp-dragzone.DragZoneKeyboard.constructor'
+    name: DragZoneKeyboard
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DragZoneKeyboard(options: IDragZoneKeyboardOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@@ms/sp-dragzone.IDragZoneKeyboardOptions'
+          description: ''

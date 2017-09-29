@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-html-embed.IframeGenerator'
+    name: IframeGenerator
+    fullName: IframeGenerator
+    children:
+      - '@ms/sp-html-embed.IframeGenerator.createHtmlElement'
+      - '@ms/sp-html-embed.IframeGenerator.focus'
+      - '@ms/sp-html-embed.IframeGenerator.getFilteredVanillaHtml'
+      - '@ms/sp-html-embed.IframeGenerator.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-html-embed.IframeGenerator'
+    package: '@ms/sp-html-embed'
+  - uid: '@ms/sp-html-embed.IframeGenerator.createHtmlElement'
+    name: createHtmlElement
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function createHtmlElement()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-html-embed.IframeGenerator.focus'
+    name: focus
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+  - uid: '@ms/sp-html-embed.IframeGenerator.getFilteredVanillaHtml'
+    name: getFilteredVanillaHtml
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getFilteredVanillaHtml()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IframeGenerator.constructor'
+    name: IframeGenerator
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new IframeGenerator(htmlGeneratorProps: IHtmlGeneratorProps)'
+      parameters:
+        - id: htmlGeneratorProps
+          type:
+            - '@@ms/sp-html-embed.IHtmlGeneratorProps'
+          description: ''

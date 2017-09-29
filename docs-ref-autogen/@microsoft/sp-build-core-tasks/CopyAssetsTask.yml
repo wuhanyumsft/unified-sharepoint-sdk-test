@@ -1,0 +1,75 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.CopyAssetsTask'
+    name: CopyAssetsTask
+    fullName: CopyAssetsTask
+    children:
+      - '@microsoft/sp-build-core-tasks.CopyAssetsTask.constructor'
+      - '@microsoft/sp-build-core-tasks.CopyAssetsTask.executeTask'
+      - '@microsoft/sp-build-core-tasks.CopyAssetsTask.loadSchema'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Prepares deployment to CDNs and the manifest server through
+      onedrive-buildtools.
+
+      Example:
+       IN:
+        webpack stats
+        deployCdnPath - a path where files should be placed for upload to CDNs and the manifest server
+
+       OUT:
+        all assets for the package copied to {deployCdnPath}
+        all externals for the package copied to {deployCdnPath}
+        data required to produce manifests in the properties object
+    extends:
+      name: >-
+        @@microsoft/sp-build-core-tasks.OdspGulpTask<@@microsoft/sp-build-core-tasks.ICopyAssetsTaskConfig>
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.CopyAssetsTask.constructor'
+    name: CopyAssetsTask
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new CopyAssetsTask()
+      parameters: []
+  - uid: '@microsoft/sp-build-core-tasks.CopyAssetsTask.executeTask'
+    name: executeTask
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function executeTask(gulp: any, completeCallback: (error?: string) =>
+        void)
+      parameters:
+        - id: gulp
+          type:
+            - any
+          description: ''
+        - id: completeCallback
+          type:
+            - '(error?: string) => void'
+          description: ''
+      return:
+        type:
+          - ReadWriteStream
+  - uid: '@microsoft/sp-build-core-tasks.CopyAssetsTask.loadSchema'
+    name: loadSchema
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function loadSchema()
+      parameters: []
+      return:
+        type:
+          - Object

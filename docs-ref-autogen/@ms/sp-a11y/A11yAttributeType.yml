@@ -1,0 +1,243 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-a11y.A11yAttributeType'
+    name: A11yAttributeType
+    fullName: A11yAttributeType
+    children:
+      - '@ms/sp-a11y.A11yAttributeType.AlertOnFocusIn'
+      - '@ms/sp-a11y.A11yAttributeType.AlertOnFocusOut'
+      - '@ms/sp-a11y.A11yAttributeType.Class'
+      - '@ms/sp-a11y.A11yAttributeType.Id'
+      - '@ms/sp-a11y.A11yAttributeType.NavigateByHierarchy'
+      - '@ms/sp-a11y.A11yAttributeType.NavigateOnKey'
+      - '@ms/sp-a11y.A11yAttributeType.NavigationIsland'
+      - '@ms/sp-a11y.A11yAttributeType.SkipKeys'
+      - '@ms/sp-a11y.A11yAttributeType.StopKeys'
+    langs:
+      - typeScript
+    type: enum
+    summary: Enum for types of A11yAttributes
+    package: '@ms/sp-a11y'
+  - uid: '@ms/sp-a11y.A11yAttributeType.AlertOnFocusIn'
+    name: AlertOnFocusIn
+    children: []
+    langs:
+      - typeScript
+    summary: >
+      This attribute is used to define a message to be read to screen reader
+      whenever the focus transition is
+
+      going inside the marked up element. While this is not an alternative to
+      aria-label, it's very useful for
+
+      marking containers that are not focusable themselves. For example, to
+      alert the user that they have
+
+      entered a menu, panel, etc.
+
+      Params: None
+
+      Value Format: string
+
+
+      Example: <div data-sp-a11y-alertonfocusin="You entered the
+      menu.">...</div>
+    type: field
+  - uid: '@ms/sp-a11y.A11yAttributeType.AlertOnFocusOut'
+    name: AlertOnFocusOut
+    children: []
+    langs:
+      - typeScript
+    summary: >
+      This attribute is used to define a message to be read to screen reader
+      whenever the focus transition is
+
+      going outside of the marked up element.
+
+      Params: None
+
+      Value Format: string
+
+
+      Example: <div data-sp-a11y-alertonfocusout="You exited the
+      menu.">...</div>
+    type: field
+  - uid: '@ms/sp-a11y.A11yAttributeType.Class'
+    name: Class
+    children: []
+    langs:
+      - typeScript
+    summary: >
+      This attribute is used to specify a class for the element. Class is useful
+      to define rules for repeating patterns.
+
+      The value of this attribute can be used to reference this element in other
+      utilites that A11yManager provides.
+
+      Params: None
+
+      Value Format: string containing alphanumerical characters, dashes and
+      underscores (multiple classes NOT supported)
+
+
+      Example: <button data-sp-a11y-class="button">Button</button>
+    type: field
+  - uid: '@ms/sp-a11y.A11yAttributeType.Id'
+    name: Id
+    children: []
+    langs:
+      - typeScript
+    summary: >
+      This attribute is used to identify the element. The value should be unique
+      in the managed tree.
+
+      The value of this attribute can be used to reference this element in other
+      utilites that A11yManager provides.
+
+      Params: None
+
+      Value Format: string containing alphanumerical characters, dashes and
+      underscores
+
+
+      Example: <button data-sp-a11y-id="button1">Button</button>
+    type: field
+  - uid: '@ms/sp-a11y.A11yAttributeType.NavigateByHierarchy'
+    name: NavigateByHierarchy
+    children: []
+    langs:
+      - typeScript
+    summary: >
+      Params: None
+
+      Value Format: None (The value does not matter)
+
+      Example: <div data-sp-a11y-navigatebyhierarchy="1">... Use
+      Tab/Shift+Tab/Enter/Escape to navigate here ...</div>
+
+      Uses Hierarchical Navigation inside the marked up element. For more
+      information about Hierarchical Navigation
+
+      refer to A11yManager. It has no effect if Hierarchical Navigation is
+      already enabled by an ancestor.
+    type: field
+  - uid: '@ms/sp-a11y.A11yAttributeType.NavigateOnKey'
+    name: NavigateOnKey
+    children: []
+    langs:
+      - typeScript
+    summary: >
+      If the key stroke specified by the params is detected on the element, the
+      focus will go to the element specified
+
+      by the attribute value which is a selector. The selector can use target
+      element's a11y id or a11y class or
+
+      one of the provided navigation operators ($next, $prev, $inside,
+      $outside).
+
+      Params: <keyCode>-<a?>-<c?>-<s?>
+
+      Value Format: The selector for target element using Id or Class.
+       Selector can use one of the following formats:
+       - Id selector: '#' character followed by target element's a11y id e.g. '#menubutton1' (similar to css)
+         Id selector matches the first element with matching a11y id in the whole managed tree.
+       - Class selector: '.' character followed by target element's a11y class e.g. '.menubutton' (similar to css)
+         Class selector matches the first element with matching a11y class inside the markedup element.
+       - Navigation operator: $next, $prev, $inside, and $outside
+         Respectively, they target the next focusable sibling, previous focusable sibling,
+         first focusable child, and focusable parent
+
+      Example:
+
+      <div data-sp-a11y-id="propertypane">...</div>
+
+      <div id='app'
+         data-sp-a11y-navigateonkey-80-a='#propertypane'><!-- Alt+P takes focus to PropertyPane -->
+         <!-- Alt+F10 inside web part takes focus to web part toolbar -->
+         <!-- Ctrl+Up inside web part takes focus to previous web part -->
+         <!-- Ctrl+Down inside web part takes focus to next web part -->
+         <div class='webpart'
+           data-sp-a11y-navigateonkey-121-a='.toolbar'
+           data-sp-a11y-navigateonkey-38-c='$prev'
+           data-sp-a11y-navigateonkey-40-c='$next'
+         >
+           <div data-sp-class='toolbar'>Web part 1 toolbar</div>
+           <div>Web part 1 content</div>
+         </div>
+         <div class='webpart'
+           data-sp-a11y-navigateonkey-121-a='.toolbar'
+           data-sp-a11y-navigateonkey-38-c='$prev'
+           data-sp-a11y-navigateonkey-40-c='$next'
+         >
+           <div data-sp-class='toolbar'>Web part 2 toolbar</div>
+           <div>Web part 2 content</div>
+         </div>
+      </div>
+    type: field
+  - uid: '@ms/sp-a11y.A11yAttributeType.NavigationIsland'
+    name: NavigationIsland
+    children: []
+    langs:
+      - typeScript
+    summary: >
+      Params: None
+
+      Value Format: None (The value does not matter)
+
+      Example: <div data-sp-a11y-navigationisland="1">... Focus can't go into or
+      out of here by tabbing ...</div>
+
+      Creates a "focus island" which means the focus can't go into or out of
+      element by tabbing. Pressing Escape
+
+      on top level of an island will take the focus to the last focused element
+      prior to entring the island.
+
+      Every other behavior is the same inside the island.
+    type: field
+  - uid: '@ms/sp-a11y.A11yAttributeType.SkipKeys'
+    name: SkipKeys
+    children: []
+    langs:
+      - typeScript
+    summary: >
+      Any keydown event originated in the marked up element or its children will
+      be skipped by the manager and
+
+      will be let to propagate.
+
+      Params: None
+
+      Value Format: comma separated integer key codes or 'all'
+
+
+      Example: <div data-sp-a11y-skipkeys="65,66,67">'a', 'b', 'c' key strokes
+      are skipped here.</div>
+
+      Example: <div data-sp-a11y-skipkeys="all">All key strokes are skipped
+      here.</div>
+    type: field
+  - uid: '@ms/sp-a11y.A11yAttributeType.StopKeys'
+    name: StopKeys
+    children: []
+    langs:
+      - typeScript
+    summary: >
+      Any keydown event originated in the marked up element or its children will
+      be stopped by the manager.
+
+      This means that they will not be handled by the manager and will not let
+      to propagate either.
+
+      Params: None
+
+      Value Format: comma separated integer key codes or 'all'
+
+
+      Example: <div data-sp-a11y-stopkeys="65,66,67">'a', 'b', 'c' key strokes
+      are stopped here.</div>
+
+      Example: <div data-sp-a11y-stopkeys="all">All key strokes are stopped
+      here.</div>
+    type: field

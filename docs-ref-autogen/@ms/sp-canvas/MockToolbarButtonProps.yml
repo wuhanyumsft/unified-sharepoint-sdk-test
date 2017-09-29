@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.MockToolbarButtonProps'
+    name: MockToolbarButtonProps
+    fullName: MockToolbarButtonProps
+    children:
+      - '@ms/sp-canvas.MockToolbarButtonProps.getToolbarButtons'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.MockToolbarButtonProps.getToolbarButtons'
+    name: getToolbarButtons
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getToolbarButtons(count: number)'
+      parameters:
+        - id: count
+          type:
+            - number
+          description: ''

@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropperState'
+    name: ISPImageCropperState
+    fullName: ISPImageCropperState
+    children:
+      - '@ms/sp-publishing-webparts.ISPImageCropperState.aspectRatio'
+      - '@ms/sp-publishing-webparts.ISPImageCropperState.isAspectHorizontal'
+      - '@ms/sp-publishing-webparts.ISPImageCropperState.isFreeCrop'
+      - '@ms/sp-publishing-webparts.ISPImageCropperState.showAspectRatioToolbar'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropperState.aspectRatio'
+    name: aspectRatio
+    fullName: aspectRatio
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number aspectRatio
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropperState.isAspectHorizontal'
+    name: isAspectHorizontal
+    fullName: isAspectHorizontal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isAspectHorizontal
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropperState.isFreeCrop'
+    name: isFreeCrop
+    fullName: isFreeCrop
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isFreeCrop
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropperState.showAspectRatioToolbar'
+    name: showAspectRatioToolbar
+    fullName: showAspectRatioToolbar
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showAspectRatioToolbar
+      return:
+        type:
+          - boolean

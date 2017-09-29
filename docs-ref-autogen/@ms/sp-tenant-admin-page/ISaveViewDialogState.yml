@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISaveViewDialogState'
+    name: ISaveViewDialogState
+    fullName: ISaveViewDialogState
+    children:
+      - '@ms/sp-tenant-admin-page.ISaveViewDialogState.saveName'
+      - '@ms/sp-tenant-admin-page.ISaveViewDialogState.showBuiltinViewNameWarning'
+      - '@ms/sp-tenant-admin-page.ISaveViewDialogState.showCustomViewNameWarning'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ISaveViewDialogState.saveName'
+    name: saveName
+    fullName: saveName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string saveName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISaveViewDialogState.showBuiltinViewNameWarning'
+    name: showBuiltinViewNameWarning
+    fullName: showBuiltinViewNameWarning
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showBuiltinViewNameWarning
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.ISaveViewDialogState.showCustomViewNameWarning'
+    name: showCustomViewNameWarning
+    fullName: showCustomViewNameWarning
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showCustomViewNameWarning
+      return:
+        type:
+          - boolean

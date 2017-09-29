@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.AssetsHelper'
+    name: AssetsHelper
+    fullName: AssetsHelper
+    children:
+      - '@ms/sp-dataproviders.AssetsHelper.getIconUrl'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.AssetsHelper.getIconUrl'
+    name: getIconUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: get icon url from the assets folder based on the key.
+    syntax:
+      content: 'static function getIconUrl(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string

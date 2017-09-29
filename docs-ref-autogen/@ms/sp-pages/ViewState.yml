@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ViewState'
+    name: ViewState
+    fullName: ViewState
+    children:
+      - '@ms/sp-pages.ViewState.Initial'
+      - '@ms/sp-pages.ViewState.NewsDigest'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ViewState.Initial'
+    name: Initial
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-pages.ViewState.NewsDigest'
+    name: NewsDigest
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

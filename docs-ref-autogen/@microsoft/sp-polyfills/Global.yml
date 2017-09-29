@@ -1,0 +1,203 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-polyfills.Global'
+    package: '@microsoft/sp-polyfills'
+    name: Global
+    children:
+      - '@microsoft/sp-polyfills.conditionalDescribe'
+      - '@microsoft/sp-polyfills.conditionalIt'
+      - '@microsoft/sp-polyfills.ensureParsedUrlValid'
+      - '@microsoft/sp-polyfills.fillUrlIfNecessary'
+      - '@microsoft/sp-polyfills.fillUrlSearchParamsIfNecessary'
+      - '@microsoft/sp-polyfills.matchExpectedArray'
+      - '@microsoft/sp-polyfills.runUrlTests'
+      - '@microsoft/sp-polyfills.urlIsPresent'
+      - '@microsoft/sp-polyfills.urlIsValid'
+      - '@microsoft/sp-polyfills.urlSearchParamsIsPresent'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@microsoft/sp-polyfills.conditionalDescribe'
+    name: conditionalDescribe
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function conditionalDescribe(ignoreCompleteOnly: boolean, description:
+        string, testFn: () => void)
+      parameters:
+        - id: ignoreCompleteOnly
+          type:
+            - boolean
+          description: ''
+        - id: description
+          type:
+            - string
+          description: ''
+        - id: testFn
+          type:
+            - () => void
+          description: ''
+  - uid: '@microsoft/sp-polyfills.conditionalIt'
+    name: conditionalIt
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function conditionalIt(ignoreCompleteOnly: boolean, expectation: string,
+        testFn: () => void)
+      parameters:
+        - id: ignoreCompleteOnly
+          type:
+            - boolean
+          description: ''
+        - id: expectation
+          type:
+            - string
+          description: ''
+        - id: testFn
+          type:
+            - () => void
+          description: ''
+  - uid: '@microsoft/sp-polyfills.ensureParsedUrlValid'
+    name: ensureParsedUrlValid
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function ensureParsedUrlValid(parsedUrl: BasicURLParseResult,
+        failureString: string)
+      parameters:
+        - id: parsedUrl
+          type:
+            - BasicURLParseResult
+          description: ''
+        - id: failureString
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - ParsedUrl
+  - uid: '@microsoft/sp-polyfills.fillUrlIfNecessary'
+    name: fillUrlIfNecessary
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Fills the window.URL class if it doesn't already exist or if its
+      implementation is incorrect
+    syntax:
+      content: 'function fillUrlIfNecessary(URL: () => any)'
+      parameters:
+        - id: URL
+          type:
+            - () => any
+          description: ''
+  - uid: '@microsoft/sp-polyfills.fillUrlSearchParamsIfNecessary'
+    name: fillUrlSearchParamsIfNecessary
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Fills the window.URLSearchParams class if it doesn't already exist or if
+      its implementation is incorrect
+    syntax:
+      content: 'function fillUrlSearchParamsIfNecessary(URLSearchParams: () => any)'
+      parameters:
+        - id: URLSearchParams
+          type:
+            - () => any
+          description: ''
+  - uid: '@microsoft/sp-polyfills.matchExpectedArray'
+    name: matchExpectedArray
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function matchExpectedArray(actual: string[], expected: string[])'
+      parameters:
+        - id: actual
+          type:
+            - 'string[]'
+          description: ''
+        - id: expected
+          type:
+            - 'string[]'
+          description: ''
+  - uid: '@microsoft/sp-polyfills.runUrlTests'
+    name: runUrlTests
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function runUrlTests(ignoreCompleteOnlyTests: boolean, URLType:
+        function)
+      parameters:
+        - id: ignoreCompleteOnlyTests
+          type:
+            - boolean
+          description: ''
+        - id: URLType
+          type:
+            - function
+          description: ''
+  - uid: '@microsoft/sp-polyfills.urlIsPresent'
+    name: urlIsPresent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function urlIsPresent()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-polyfills.urlIsValid'
+    name: urlIsValid
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Ensures the URL has a scheme
+    syntax:
+      content: 'function urlIsValid(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-polyfills.urlSearchParamsIsPresent'
+    name: urlSearchParamsIsPresent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function urlSearchParamsIsPresent()
+      parameters: []
+      return:
+        type:
+          - boolean

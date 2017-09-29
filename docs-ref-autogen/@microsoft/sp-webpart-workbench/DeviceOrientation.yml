@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-workbench.DeviceOrientation'
+    name: DeviceOrientation
+    fullName: DeviceOrientation
+    children:
+      - '@microsoft/sp-webpart-workbench.DeviceOrientation.Landscape'
+      - '@microsoft/sp-webpart-workbench.DeviceOrientation.Portrait'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@microsoft/sp-webpart-workbench'
+  - uid: '@microsoft/sp-webpart-workbench.DeviceOrientation.Landscape'
+    name: Landscape
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-webpart-workbench.DeviceOrientation.Portrait'
+    name: Portrait
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

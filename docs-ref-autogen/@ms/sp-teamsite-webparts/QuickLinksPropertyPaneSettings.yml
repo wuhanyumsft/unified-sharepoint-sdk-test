@@ -1,0 +1,70 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneSettings'
+    name: QuickLinksPropertyPaneSettings
+    fullName: QuickLinksPropertyPaneSettings
+    children:
+      - '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneSettings.getEditPages'
+      - '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneSettings.getLayoutPages'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneSettings.getEditPages'
+    name: getEditPages
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function getEditPages(serviceScope: ServiceScope, dispatcher:
+        IQuickLinksDispatcher, provider: IQuickLinksProvider, layoutId: string,
+        index: number, refreshCallback: () => void)
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+        - id: dispatcher
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLinksDispatcher'
+          description: ''
+        - id: provider
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLinksProvider'
+          description: ''
+        - id: layoutId
+          type:
+            - string
+          description: ''
+        - id: index
+          type:
+            - number
+          description: ''
+        - id: refreshCallback
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - IPropertyPaneConfiguration
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneSettings.getLayoutPages'
+    name: getLayoutPages
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getLayoutPages(properties: function)'
+      parameters:
+        - id: properties
+          type:
+            - function
+          description: ''
+      return:
+        type:
+          - IPropertyPaneConfiguration

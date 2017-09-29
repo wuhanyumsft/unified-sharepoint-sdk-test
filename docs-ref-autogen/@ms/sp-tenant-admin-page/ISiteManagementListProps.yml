@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISiteManagementListProps'
+    name: ISiteManagementListProps
+    fullName: ISiteManagementListProps
+    children:
+      - '@ms/sp-tenant-admin-page.ISiteManagementListProps.dispatch'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ISiteManagementListProps.dispatch'
+    name: dispatch
+    fullName: dispatch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Dispatch<ISiteManagementState> dispatch
+      return:
+        type:
+          - Dispatch<@@ms/sp-tenant-admin-page.ISiteManagementState>

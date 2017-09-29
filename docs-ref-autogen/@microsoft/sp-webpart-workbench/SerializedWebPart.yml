@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-workbench.SerializedWebPart'
+    name: SerializedWebPart
+    fullName: SerializedWebPart
+    children:
+      - '@microsoft/sp-webpart-workbench.SerializedWebPart.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@microsoft/sp-webpart-workbench.SerializedWebPart<@@microsoft/sp-webpart-workbench.ISerializedWebPartProps>
+    package: '@microsoft/sp-webpart-workbench'
+  - uid: '@microsoft/sp-webpart-workbench.SerializedWebPart.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - >-
+            ReactElement<@@microsoft/sp-webpart-workbench.ISerializedWebPartProps>

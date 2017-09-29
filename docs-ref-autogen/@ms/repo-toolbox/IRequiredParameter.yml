@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/repo-toolbox.IRequiredParameter'
+    name: IRequiredParameter
+    fullName: IRequiredParameter<TParameter>
+    children:
+      - '@ms/repo-toolbox.IRequiredParameter.getDefaultValue'
+      - '@ms/repo-toolbox.IRequiredParameter.parameter'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/repo-toolbox'
+  - uid: '@ms/repo-toolbox.IRequiredParameter.getDefaultValue'
+    name: getDefaultValue
+    fullName: getDefaultValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function getDefaultValue
+      return:
+        type:
+          - function
+  - uid: '@ms/repo-toolbox.IRequiredParameter.parameter'
+    name: parameter
+    fullName: parameter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CommandLineParameter<TParameter> parameter
+      return:
+        type:
+          - CommandLineParameter<TParameter>

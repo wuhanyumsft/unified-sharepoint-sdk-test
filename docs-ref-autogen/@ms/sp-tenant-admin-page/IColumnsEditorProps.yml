@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IColumnsEditorProps'
+    name: IColumnsEditorProps
+    fullName: IColumnsEditorProps
+    children:
+      - '@ms/sp-tenant-admin-page.IColumnsEditorProps.columnStates'
+      - '@ms/sp-tenant-admin-page.IColumnsEditorProps.defaultColumnSettings'
+      - '@ms/sp-tenant-admin-page.IColumnsEditorProps.dispatch'
+      - '@ms/sp-tenant-admin-page.IColumnsEditorProps.isShown'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IColumnsEditorProps.columnStates'
+    name: columnStates
+    fullName: columnStates
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IColumnState[] columnStates'
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IColumnState[]'
+  - uid: '@ms/sp-tenant-admin-page.IColumnsEditorProps.defaultColumnSettings'
+    name: defaultColumnSettings
+    fullName: defaultColumnSettings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: string]: IColumnSettings defaultColumnSettings'
+      return:
+        type:
+          - '[key: string]: @@ms/sp-tenant-admin-page.IColumnSettings'
+  - uid: '@ms/sp-tenant-admin-page.IColumnsEditorProps.dispatch'
+    name: dispatch
+    fullName: dispatch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Dispatch<ISiteManagementState> dispatch
+      return:
+        type:
+          - Dispatch<@@ms/sp-tenant-admin-page.ISiteManagementState>
+  - uid: '@ms/sp-tenant-admin-page.IColumnsEditorProps.isShown'
+    name: isShown
+    fullName: isShown
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isShown
+      return:
+        type:
+          - boolean

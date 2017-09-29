@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.IDebugErrorProps'
+    name: IDebugErrorProps
+    fullName: IDebugErrorProps
+    children:
+      - '@microsoft/sp-loader.IDebugErrorProps.errorText'
+      - '@microsoft/sp-loader.IDebugErrorProps.innerError'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.IDebugErrorProps.errorText'
+    name: errorText
+    fullName: errorText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string errorText
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-loader.IDebugErrorProps.innerError'
+    name: innerError
+    fullName: innerError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Error innerError
+      return:
+        type:
+          - Error

@@ -1,0 +1,91 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IEventPeople'
+    name: IEventPeople
+    fullName: IEventPeople
+    children:
+      - '@ms/sp-dataproviders.IEventPeople.email'
+      - '@ms/sp-dataproviders.IEventPeople.id'
+      - '@ms/sp-dataproviders.IEventPeople.imageUrl'
+      - '@ms/sp-dataproviders.IEventPeople.name'
+      - '@ms/sp-dataproviders.IEventPeople.role'
+    langs:
+      - typeScript
+    type: interface
+    summary: The data model for the people in event item.
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IEventPeople.email'
+    name: email
+    fullName: email
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The string of email address.
+      example AnnieLindqvist@contoso.com
+    syntax:
+      content: string email
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IEventPeople.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The string of unique personal id.
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IEventPeople.imageUrl'
+    name: imageUrl
+    fullName: imageUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The string of image URL for getting the avatar.
+
+      example
+      /_layouts/15/userphoto.aspx?size=S&username=AnnieLindqvist@contoso.com
+    syntax:
+      content: string imageUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IEventPeople.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The string of full name.
+      example Annie Lindqvist
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IEventPeople.role'
+    name: role
+    fullName: role
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The string of the personal role in the company/group.
+      example Software Engineer
+    syntax:
+      content: string role
+      return:
+        type:
+          - string

@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.IMessageView'
+    name: IMessageView
+    fullName: IMessageView
+    children:
+      - '@ms/sp-webpart-shared.IMessageView.ariaLabel'
+      - '@ms/sp-webpart-shared.IMessageView.message'
+      - '@ms/sp-webpart-shared.IMessageView.messageBarType'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.IMessageView.ariaLabel'
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ariaLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IMessageView.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string message
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IMessageView.messageBarType'
+    name: messageBarType
+    fullName: messageBarType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: MessageBarType messageBarType
+      return:
+        type:
+          - MessageBarType

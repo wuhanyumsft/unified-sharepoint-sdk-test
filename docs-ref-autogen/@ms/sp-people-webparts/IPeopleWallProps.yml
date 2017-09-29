@@ -1,0 +1,153 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.IPeopleWallProps'
+    name: IPeopleWallProps
+    fullName: IPeopleWallProps
+    children:
+      - '@ms/sp-people-webparts.IPeopleWallProps.dataSource'
+      - '@ms/sp-people-webparts.IPeopleWallProps.isEditMode'
+      - '@ms/sp-people-webparts.IPeopleWallProps.layout'
+      - '@ms/sp-people-webparts.IPeopleWallProps.onChangeDescription'
+      - '@ms/sp-people-webparts.IPeopleWallProps.onChangeLink'
+      - '@ms/sp-people-webparts.IPeopleWallProps.onChangeSelectedPersons'
+      - '@ms/sp-people-webparts.IPeopleWallProps.onScreenReaderAlert'
+      - '@ms/sp-people-webparts.IPeopleWallProps.selectedPersons'
+      - '@ms/sp-people-webparts.IPeopleWallProps.serviceScope'
+      - '@ms/sp-people-webparts.IPeopleWallProps.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-people-webparts'
+  - uid: '@ms/sp-people-webparts.IPeopleWallProps.dataSource'
+    name: dataSource
+    fullName: dataSource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: People picker data source.
+    syntax:
+      content: IPeoplePickerDataSource dataSource
+      return:
+        type:
+          - IPeoplePickerDataSource
+  - uid: '@ms/sp-people-webparts.IPeopleWallProps.isEditMode'
+    name: isEditMode
+    fullName: isEditMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A boolean to indicate if the component is in edit mode.
+    syntax:
+      content: boolean isEditMode
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-people-webparts.IPeopleWallProps.layout'
+    name: layout
+    fullName: layout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Displayed layout type in people wall.
+    syntax:
+      content: LayoutType layout
+      return:
+        type:
+          - LayoutType
+  - uid: '@ms/sp-people-webparts.IPeopleWallProps.onChangeDescription'
+    name: onChangeDescription
+    fullName: onChangeDescription
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback when content of description is changed.
+    syntax:
+      content: '(content: string, index: number) => void onChangeDescription'
+      return:
+        type:
+          - '(content: string, index: number) => void'
+  - uid: '@ms/sp-people-webparts.IPeopleWallProps.onChangeLink'
+    name: onChangeLink
+    fullName: onChangeLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback when link is changed.
+    syntax:
+      content: '(index: number, link: ILink) => void onChangeLink'
+      return:
+        type:
+          - '(index: number, link: ILink) => void'
+  - uid: '@ms/sp-people-webparts.IPeopleWallProps.onChangeSelectedPersons'
+    name: onChangeSelectedPersons
+    fullName: onChangeSelectedPersons
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The handler of updating selected persons.
+    syntax:
+      content: '(items: IPeopleInfo[]) => void onChangeSelectedPersons'
+      return:
+        type:
+          - '(items: IPeopleInfo[]) => void'
+  - uid: '@ms/sp-people-webparts.IPeopleWallProps.onScreenReaderAlert'
+    name: onScreenReaderAlert
+    fullName: onScreenReaderAlert
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The callback used to update the screen reader alert message rendered in
+      upper component.
+    syntax:
+      content: '(alertMessage: string) => void onScreenReaderAlert'
+      return:
+        type:
+          - '(alertMessage: string) => void'
+  - uid: '@ms/sp-people-webparts.IPeopleWallProps.selectedPersons'
+    name: selectedPersons
+    fullName: selectedPersons
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The selected person array to show on the people wall.
+    syntax:
+      content: 'IPeopleInfo[] selectedPersons'
+      return:
+        type:
+          - '@@ms/sp-people-webparts.IPeopleInfo[]'
+  - uid: '@ms/sp-people-webparts.IPeopleWallProps.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Service scope.
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope
+  - uid: '@ms/sp-people-webparts.IPeopleWallProps.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The width of current webpart. The unit is pixel.
+    syntax:
+      content: number width
+      return:
+        type:
+          - number

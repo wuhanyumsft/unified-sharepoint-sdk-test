@@ -1,0 +1,193 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ColumnMenuItemKeys'
+    name: ColumnMenuItemKeys
+    fullName: ColumnMenuItemKeys
+    children:
+      - '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.CLEAR_FILTERS'
+      - '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.COLUMN_MENU_DIVIDER'
+      - '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.COLUMN_SETTINGS'
+      - '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.FILTER_BY'
+      - '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.GROUP_BY'
+      - '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.HIDE_COLUMN'
+      - '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.MOVE_LEFT'
+      - '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.MOVE_RIGHT'
+      - '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.PIN_TO_FILTERS_PANE'
+      - '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.RENAME'
+      - '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.SHOW_OR_HIDE_COLUMNS'
+      - '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.SORT_ASCENDING'
+      - '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.SORT_DESCENDING'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.CLEAR_FILTERS'
+    name: CLEAR_FILTERS
+    fullName: CLEAR_FILTERS
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string CLEAR_FILTERS
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.COLUMN_MENU_DIVIDER'
+    name: COLUMN_MENU_DIVIDER
+    fullName: COLUMN_MENU_DIVIDER
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string COLUMN_MENU_DIVIDER
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.COLUMN_SETTINGS'
+    name: COLUMN_SETTINGS
+    fullName: COLUMN_SETTINGS
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string COLUMN_SETTINGS
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.FILTER_BY'
+    name: FILTER_BY
+    fullName: FILTER_BY
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FILTER_BY
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.GROUP_BY'
+    name: GROUP_BY
+    fullName: GROUP_BY
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string GROUP_BY
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.HIDE_COLUMN'
+    name: HIDE_COLUMN
+    fullName: HIDE_COLUMN
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string HIDE_COLUMN
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.MOVE_LEFT'
+    name: MOVE_LEFT
+    fullName: MOVE_LEFT
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string MOVE_LEFT
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.MOVE_RIGHT'
+    name: MOVE_RIGHT
+    fullName: MOVE_RIGHT
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string MOVE_RIGHT
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.PIN_TO_FILTERS_PANE'
+    name: PIN_TO_FILTERS_PANE
+    fullName: PIN_TO_FILTERS_PANE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string PIN_TO_FILTERS_PANE
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.RENAME'
+    name: RENAME
+    fullName: RENAME
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string RENAME
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.SHOW_OR_HIDE_COLUMNS'
+    name: SHOW_OR_HIDE_COLUMNS
+    fullName: SHOW_OR_HIDE_COLUMNS
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SHOW_OR_HIDE_COLUMNS
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.SORT_ASCENDING'
+    name: SORT_ASCENDING
+    fullName: SORT_ASCENDING
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SORT_ASCENDING
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ColumnMenuItemKeys.SORT_DESCENDING'
+    name: SORT_DESCENDING
+    fullName: SORT_DESCENDING
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SORT_DESCENDING
+      return:
+        type:
+          - string

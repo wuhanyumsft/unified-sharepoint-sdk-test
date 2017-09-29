@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ICommandbarProps'
+    name: ICommandbarProps
+    fullName: ICommandbarProps
+    children:
+      - '@ms/sp-pages.ICommandbarProps.commands'
+      - '@ms/sp-pages.ICommandbarProps.enableCreate'
+      - '@ms/sp-pages.ICommandbarProps.enableEdit'
+      - '@ms/sp-pages.ICommandbarProps.enableShare'
+      - '@ms/sp-pages.ICommandbarProps.farCommands'
+      - '@ms/sp-pages.ICommandbarProps.hideForViewer'
+      - '@ms/sp-pages.ICommandbarProps.userHasEditPermission'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ICommandbarProps.commands'
+    name: commands
+    fullName: commands
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ICommandItem[] commands'
+      return:
+        type:
+          - '@@ms/sp-pages.ICommandItem[]'
+  - uid: '@ms/sp-pages.ICommandbarProps.enableCreate'
+    name: enableCreate
+    fullName: enableCreate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean enableCreate
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.ICommandbarProps.enableEdit'
+    name: enableEdit
+    fullName: enableEdit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean enableEdit
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.ICommandbarProps.enableShare'
+    name: enableShare
+    fullName: enableShare
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean enableShare
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.ICommandbarProps.farCommands'
+    name: farCommands
+    fullName: farCommands
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ICommandItem[] farCommands'
+      return:
+        type:
+          - '@@ms/sp-pages.ICommandItem[]'
+  - uid: '@ms/sp-pages.ICommandbarProps.hideForViewer'
+    name: hideForViewer
+    fullName: hideForViewer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hideForViewer
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.ICommandbarProps.userHasEditPermission'
+    name: userHasEditPermission
+    fullName: userHasEditPermission
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean userHasEditPermission
+      return:
+        type:
+          - boolean

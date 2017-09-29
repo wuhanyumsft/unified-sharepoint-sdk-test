@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.BaseSeeAllPageLayoutComponent'
+    name: BaseSeeAllPageLayoutComponent
+    fullName: BaseSeeAllPageLayoutComponent
+    children:
+      - '@ms/sp-pages.BaseSeeAllPageLayoutComponent.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-pages.BaseSeeAllPageLayoutComponent<@@ms/sp-pages.IBaseSeeAllPageLayoutProperties>
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.BaseSeeAllPageLayoutComponent.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@ms/sp-pages.IBaseSeeAllPageLayoutProperties>

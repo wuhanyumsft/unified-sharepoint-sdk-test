@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IRecipeData'
+    name: IRecipeData
+    fullName: IRecipeData
+    children:
+      - '@ms/sp-pages.IRecipeData.actions'
+      - '@ms/sp-pages.IRecipeData.recipeGuid'
+      - '@ms/sp-pages.IRecipeData.recipeName'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IRecipeData.actions'
+    name: actions
+    fullName: actions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IRecipeActionData[] actions'
+      return:
+        type:
+          - '@@ms/sp-pages.IRecipeActionData[]'
+  - uid: '@ms/sp-pages.IRecipeData.recipeGuid'
+    name: recipeGuid
+    fullName: recipeGuid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string recipeGuid
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IRecipeData.recipeName'
+    name: recipeName
+    fullName: recipeName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string recipeName
+      return:
+        type:
+          - string

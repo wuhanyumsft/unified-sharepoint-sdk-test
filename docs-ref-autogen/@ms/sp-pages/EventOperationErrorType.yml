@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.EventOperationErrorType'
+    name: EventOperationErrorType
+    fullName: EventOperationErrorType
+    children:
+      - '@ms/sp-pages.EventOperationErrorType.AccessDenied'
+      - '@ms/sp-pages.EventOperationErrorType.ETagExpired'
+      - '@ms/sp-pages.EventOperationErrorType.ItemRemoved'
+      - '@ms/sp-pages.EventOperationErrorType.Others'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.EventOperationErrorType.AccessDenied'
+    name: AccessDenied
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-pages.EventOperationErrorType.ETagExpired'
+    name: ETagExpired
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-pages.EventOperationErrorType.ItemRemoved'
+    name: ItemRemoved
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-pages.EventOperationErrorType.Others'
+    name: Others
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

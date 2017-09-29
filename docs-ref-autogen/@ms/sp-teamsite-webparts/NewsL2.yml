@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.NewsL2'
+    name: NewsL2
+    fullName: NewsL2
+    children:
+      - '@ms/sp-teamsite-webparts.NewsL2.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.NewsL2.constructor'
+    name: NewsL2
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new NewsL2()
+      parameters: []

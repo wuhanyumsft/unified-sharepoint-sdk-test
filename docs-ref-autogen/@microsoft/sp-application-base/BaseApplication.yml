@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.BaseApplication'
+    name: BaseApplication
+    fullName: BaseApplication
+    children:
+      - '@microsoft/sp-application-base.BaseApplication.alias'
+      - '@microsoft/sp-application-base.BaseApplication.constructor'
+      - '@microsoft/sp-application-base.BaseApplication.getBrowserCompatibility'
+      - '@microsoft/sp-application-base.BaseApplication.suiteNavConfiguration'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      This is the system base class for client-side applications.  It manages
+      the overall
+
+      life cycle of your application, and is the first entry point for your code
+      to start
+
+      executing when the page loads.  The two main events are onLoad() which
+      occurs first,
+
+      and onRender() which occurs after the shell has initialized the
+      environment and
+
+      completed rendering the page chrome.
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.BaseApplication.alias'
+    name: alias
+    fullName: alias
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Overrides the alias value provided in the manifest.
+    syntax:
+      content: string alias
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.BaseApplication.constructor'
+    name: BaseApplication
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new BaseApplication()
+      parameters: []
+  - uid: '@microsoft/sp-application-base.BaseApplication.getBrowserCompatibility'
+    name: getBrowserCompatibility
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns browser compatibility information for the application.
+    syntax:
+      content: function getBrowserCompatibility()
+      parameters: []
+      return:
+        type:
+          - IBrowserCompatibility
+  - uid: '@microsoft/sp-application-base.BaseApplication.suiteNavConfiguration'
+    name: suiteNavConfiguration
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      This virtual function returns the default configuration and can be
+      configured by applications
+
+      when required.
+    syntax:
+      content: function suiteNavConfiguration()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/sp-application-base.ISuiteNavManagerConfiguration'

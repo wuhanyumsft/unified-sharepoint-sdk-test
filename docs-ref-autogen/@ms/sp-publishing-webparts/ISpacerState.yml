@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ISpacerState'
+    name: ISpacerState
+    fullName: ISpacerState
+    children:
+      - '@ms/sp-publishing-webparts.ISpacerState.height'
+      - '@ms/sp-publishing-webparts.ISpacerState.isKeyboardMode'
+      - '@ms/sp-publishing-webparts.ISpacerState.screenReaderAlert'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ISpacerState.height'
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The height in pixels of Spacer.
+    syntax:
+      content: number height
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.ISpacerState.isKeyboardMode'
+    name: isKeyboardMode
+    fullName: isKeyboardMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Whether arrowUp or arrowDown key is pressed, used to control visibility of
+      callout.
+    syntax:
+      content: boolean isKeyboardMode
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ISpacerState.screenReaderAlert'
+    name: screenReaderAlert
+    fullName: screenReaderAlert
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The strings that screen reader reads.
+    syntax:
+      content: string screenReaderAlert
+      return:
+        type:
+          - string

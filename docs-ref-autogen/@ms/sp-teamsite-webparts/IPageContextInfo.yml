@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IPageContextInfo'
+    name: IPageContextInfo
+    fullName: IPageContextInfo
+    children:
+      - '@ms/sp-teamsite-webparts.IPageContextInfo.userDisplayName'
+      - '@ms/sp-teamsite-webparts.IPageContextInfo.userLoginName'
+      - '@ms/sp-teamsite-webparts.IPageContextInfo.webPermMasks'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IPageContextInfo.userDisplayName'
+    name: userDisplayName
+    fullName: userDisplayName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string userDisplayName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IPageContextInfo.userLoginName'
+    name: userLoginName
+    fullName: userLoginName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string userLoginName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IPageContextInfo.webPermMasks'
+    name: webPermMasks
+    fullName: webPermMasks
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IODataBasePermission webPermMasks
+      return:
+        type:
+          - IODataBasePermission

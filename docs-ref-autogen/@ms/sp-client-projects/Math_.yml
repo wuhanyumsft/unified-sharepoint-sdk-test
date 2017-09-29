@@ -1,0 +1,83 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.Math_'
+    name: Math_
+    fullName: Math_
+    children:
+      - '@ms/sp-client-projects.Math_.maxSignedInt32'
+      - '@ms/sp-client-projects.Math_.minSignedInt32'
+      - '@ms/sp-client-projects.Math_.modulo'
+      - '@ms/sp-client-projects.Math_.randomBetween'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.Math_.maxSignedInt32'
+    name: maxSignedInt32
+    fullName: maxSignedInt32
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number maxSignedInt32
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-client-projects.Math_.minSignedInt32'
+    name: minSignedInt32
+    fullName: minSignedInt32
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number minSignedInt32
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-client-projects.Math_.modulo'
+    name: modulo
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function modulo(value: number, modulo: number)'
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: modulo
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-client-projects.Math_.randomBetween'
+    name: randomBetween
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function randomBetween(lo: number, hi: number)'
+      parameters:
+        - id: lo
+          type:
+            - number
+          description: ''
+        - id: hi
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - number

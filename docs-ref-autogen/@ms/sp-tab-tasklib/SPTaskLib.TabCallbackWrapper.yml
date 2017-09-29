@@ -1,0 +1,82 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.TabCallbackWrapper'
+    name: TabCallbackWrapper
+    fullName: TabCallbackWrapper
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.TabCallbackWrapper.cancel'
+      - '@ms/sp-tab-tasklib.SPTaskLib.TabCallbackWrapper.error'
+      - '@ms/sp-tab-tasklib.SPTaskLib.TabCallbackWrapper.success'
+      - '@ms/sp-tab-tasklib.SPTaskLib.TabCallbackWrapper.constructor'
+      - '@ms/sp-tab-tasklib.SPTaskLib.TabCallbackWrapper.waiter'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      Use TabCallbackWrapper to wrap callbacks you want to hand to potentially
+      asynchronous methods. Then use the wrapper object's Success and Error
+      methods instead of your asynch callbacks, and use the Waiter with AddTask.
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.TabCallbackWrapper.cancel'
+    name: cancel
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function cancel()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.TabCallbackWrapper.error'
+    name: error
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function error()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.TabCallbackWrapper.success'
+    name: success
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function success()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.TabCallbackWrapper.constructor'
+    name: TabCallbackWrapper
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new TabCallbackWrapper(onSuccess?: Function, onError?: Function)'
+      parameters:
+        - id: onSuccess
+          type:
+            - Function
+          description: ''
+          optional: true
+        - id: onError
+          type:
+            - Function
+          description: ''
+          optional: true
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.TabCallbackWrapper.waiter'
+    name: waiter
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function waiter()
+      parameters: []
+      return:
+        type:
+          - any

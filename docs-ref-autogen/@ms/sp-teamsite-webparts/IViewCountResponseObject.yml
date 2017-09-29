@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IViewCountResponseObject'
+    name: IViewCountResponseObject
+    fullName: IViewCountResponseObject
+    children:
+      - '@ms/sp-teamsite-webparts.IViewCountResponseObject.Cells'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IViewCountResponseObject.Cells'
+    name: Cells
+    fullName: Cells
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<IViewCountCellObject> Cells
+      return:
+        type:
+          - Array<@@ms/sp-teamsite-webparts.IViewCountCellObject>

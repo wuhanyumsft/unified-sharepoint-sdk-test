@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.TokenFetchServerErrorCodes'
+    name: TokenFetchServerErrorCodes
+    fullName: TokenFetchServerErrorCodes
+    children:
+      - >-
+        @ms/sp-publishing-webparts.TokenFetchServerErrorCodes.MissingRefreshToken
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.TokenFetchServerErrorCodes.MissingRefreshToken'
+    name: MissingRefreshToken
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 10001

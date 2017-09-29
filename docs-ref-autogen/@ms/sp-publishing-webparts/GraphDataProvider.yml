@@ -1,0 +1,123 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.GraphDataProvider'
+    name: GraphDataProvider
+    fullName: GraphDataProvider
+    children:
+      - '@ms/sp-publishing-webparts.GraphDataProvider.getCalendars'
+      - '@ms/sp-publishing-webparts.GraphDataProvider.getEvent'
+      - '@ms/sp-publishing-webparts.GraphDataProvider.getEvents'
+      - '@ms/sp-publishing-webparts.GraphDataProvider.getOAuthToken'
+      - '@ms/sp-publishing-webparts.GraphDataProvider.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.GraphDataProvider.getCalendars'
+    name: getCalendars
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCalendars()
+      parameters: []
+      return:
+        type:
+          - 'Promise<@@ms/sp-publishing-webparts.IExchangeGroup[]>'
+  - uid: '@ms/sp-publishing-webparts.GraphDataProvider.getEvent'
+    name: getEvent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getEvent(group: IExchangeGroup, eventId: string,
+        withAttachments?: boolean)
+      parameters:
+        - id: group
+          type:
+            - '@@ms/sp-publishing-webparts.IExchangeGroup'
+          description: ''
+        - id: eventId
+          type:
+            - string
+          description: ''
+        - id: withAttachments
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@@ms/sp-publishing-webparts.IExchangeCalendarEvent>
+  - uid: '@ms/sp-publishing-webparts.GraphDataProvider.getEvents'
+    name: getEvents
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getEvents(calendar: IExchangeGroup, top: number, skip: number,
+        startDate: Date, endDate: Date, orderBy: function)
+      parameters:
+        - id: calendar
+          type:
+            - '@@ms/sp-publishing-webparts.IExchangeGroup'
+          description: ''
+        - id: top
+          type:
+            - number
+          description: ''
+        - id: skip
+          type:
+            - number
+          description: ''
+        - id: startDate
+          type:
+            - Date
+          description: ''
+        - id: endDate
+          type:
+            - Date
+          description: ''
+        - id: orderBy
+          type:
+            - function
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-publishing-webparts.IGetEventsResult>
+  - uid: '@ms/sp-publishing-webparts.GraphDataProvider.getOAuthToken'
+    name: getOAuthToken
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getOAuthToken()
+      parameters: []
+      return:
+        type:
+          - Promise<IOAuthToken>
+  - uid: '@ms/sp-publishing-webparts.GraphDataProvider.constructor'
+    name: GraphDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new GraphDataProvider(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''

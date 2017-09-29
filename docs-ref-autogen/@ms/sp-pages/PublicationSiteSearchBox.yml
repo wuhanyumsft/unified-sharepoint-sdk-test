@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.PublicationSiteSearchBox'
+    name: PublicationSiteSearchBox
+    fullName: PublicationSiteSearchBox
+    children:
+      - '@ms/sp-pages.PublicationSiteSearchBox.componentWillUnmount'
+      - '@ms/sp-pages.PublicationSiteSearchBox.constructor'
+      - '@ms/sp-pages.PublicationSiteSearchBox.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-pages.PublicationSiteSearchBox<@@ms/sp-pages.ICommunicationSiteSearchBoxProps>
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.PublicationSiteSearchBox.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-pages.PublicationSiteSearchBox.constructor'
+    name: PublicationSiteSearchBox
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new PublicationSiteSearchBox()
+      parameters: []
+  - uid: '@ms/sp-pages.PublicationSiteSearchBox.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

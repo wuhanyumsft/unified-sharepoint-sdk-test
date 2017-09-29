@@ -1,0 +1,97 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IMessageAttrs'
+    name: IMessageAttrs
+    fullName: IMessageAttrs
+    children:
+      - '@ms/sp-publishing-webparts.IMessageAttrs.body'
+      - '@ms/sp-publishing-webparts.IMessageAttrs.created_at'
+      - '@ms/sp-publishing-webparts.IMessageAttrs.group_id'
+      - '@ms/sp-publishing-webparts.IMessageAttrs.likes_count'
+      - '@ms/sp-publishing-webparts.IMessageAttrs.network_id'
+      - '@ms/sp-publishing-webparts.IMessageAttrs.sender_id'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-publishing-webparts.IAttrs'
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IMessageAttrs.body'
+    name: body
+    fullName: body
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean body
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IMessageAttrs.created_at'
+    name: created_at
+    fullName: created_at
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean created_at
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IMessageAttrs.group_id'
+    name: group_id
+    fullName: group_id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean group_id
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IMessageAttrs.likes_count'
+    name: likes_count
+    fullName: likes_count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean likes_count
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IMessageAttrs.network_id'
+    name: network_id
+    fullName: network_id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean network_id
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IMessageAttrs.sender_id'
+    name: sender_id
+    fullName: sender_id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean sender_id
+      return:
+        type:
+          - boolean

@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.ISearchViewCountsItem'
+    name: ISearchViewCountsItem
+    fullName: ISearchViewCountsItem
+    children:
+      - '@ms/sp-dataproviders.ISearchViewCountsItem.listItemId'
+      - '@ms/sp-dataproviders.ISearchViewCountsItem.siteId'
+      - '@ms/sp-dataproviders.ISearchViewCountsItem.uniqueId'
+      - '@ms/sp-dataproviders.ISearchViewCountsItem.viewCount'
+      - '@ms/sp-dataproviders.ISearchViewCountsItem.webId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.ISearchViewCountsItem.listItemId'
+    name: listItemId
+    fullName: listItemId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string listItemId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchViewCountsItem.siteId'
+    name: siteId
+    fullName: siteId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchViewCountsItem.uniqueId'
+    name: uniqueId
+    fullName: uniqueId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string uniqueId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchViewCountsItem.viewCount'
+    name: viewCount
+    fullName: viewCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string viewCount
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchViewCountsItem.webId'
+    name: webId
+    fullName: webId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webId
+      return:
+        type:
+          - string

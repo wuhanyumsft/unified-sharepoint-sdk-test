@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.GraphDataProviderUtilities'
+    name: GraphDataProviderUtilities
+    fullName: GraphDataProviderUtilities
+    children:
+      - '@ms/sp-tenant-admin-page.GraphDataProviderUtilities.getDataFromAPI'
+      - '@ms/sp-tenant-admin-page.GraphDataProviderUtilities.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.GraphDataProviderUtilities.getDataFromAPI'
+    name: getDataFromAPI
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Use the provided Graph API link to get the OAuth token and then get the
+      data for charts.
+    syntax:
+      content: >-
+        function getDataFromAPI(graphEndPointRelativeUrl: string, logSource:
+        _LogSource)
+      parameters:
+        - id: graphEndPointRelativeUrl
+          type:
+            - string
+          description: is the relative graph api url that used to get the data.
+        - id: logSource
+          type:
+            - _LogSource
+          description: |
+            is the logsource object to indicate where we are logging.
+      return:
+        type:
+          - Promise<string>
+  - uid: '@ms/sp-tenant-admin-page.GraphDataProviderUtilities.constructor'
+    name: GraphDataProviderUtilities
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new GraphDataProviderUtilities()
+      parameters: []

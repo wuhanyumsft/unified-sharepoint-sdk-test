@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.ILogVerboseData'
+    name: ILogVerboseData
+    fullName: ILogVerboseData
+    children:
+      - '@ms/sp-telemetry.ILogVerboseData.message'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-telemetry.ILogData'
+    package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.ILogVerboseData.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The message associated with this log data.
+    syntax:
+      content: string message
+      return:
+        type:
+          - string

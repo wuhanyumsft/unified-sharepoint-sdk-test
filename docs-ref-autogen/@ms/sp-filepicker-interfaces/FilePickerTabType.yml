@@ -1,0 +1,65 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker-interfaces.FilePickerTabType'
+    name: FilePickerTabType
+    fullName: FilePickerTabType
+    children:
+      - '@ms/sp-filepicker-interfaces.FilePickerTabType.Recent'
+      - '@ms/sp-filepicker-interfaces.FilePickerTabType.OneDrive'
+      - '@ms/sp-filepicker-interfaces.FilePickerTabType.DocLib'
+      - '@ms/sp-filepicker-interfaces.FilePickerTabType.Local'
+      - '@ms/sp-filepicker-interfaces.FilePickerTabType.Link'
+      - '@ms/sp-filepicker-interfaces.FilePickerTabType.BingImageSearch'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-filepicker-interfaces'
+  - uid: '@ms/sp-filepicker-interfaces.FilePickerTabType.Recent'
+    name: Recent
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-filepicker-interfaces.FilePickerTabType.OneDrive'
+    name: OneDrive
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+  - uid: '@ms/sp-filepicker-interfaces.FilePickerTabType.DocLib'
+    name: DocLib
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+  - uid: '@ms/sp-filepicker-interfaces.FilePickerTabType.Local'
+    name: Local
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+  - uid: '@ms/sp-filepicker-interfaces.FilePickerTabType.Link'
+    name: Link
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 5
+  - uid: '@ms/sp-filepicker-interfaces.FilePickerTabType.BingImageSearch'
+    name: BingImageSearch
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 6

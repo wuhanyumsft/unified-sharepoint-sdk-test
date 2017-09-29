@@ -1,0 +1,143 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer'
+    name: MockClientSideWebPartStatusRenderer
+    fullName: MockClientSideWebPartStatusRenderer
+    children:
+      - >-
+        @microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer.clearCalled
+      - >-
+        @microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer.clearError
+      - >-
+        @microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer.clearErrorCalled
+      - >-
+        @microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer.clearLoadingIndicator
+      - >-
+        @microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer.displayCalled
+      - >-
+        @microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer.displayLoadingIndicator
+      - >-
+        @microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer.errorCalled
+      - >-
+        @microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer.renderError
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer.clearCalled'
+    name: clearCalled
+    fullName: clearCalled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean clearCalled
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer.clearError'
+    name: clearError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function clearError(domElement: HTMLElement)'
+      parameters:
+        - id: domElement
+          type:
+            - HTMLElement
+          description: ''
+  - uid: >-
+      @microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer.clearErrorCalled
+    name: clearErrorCalled
+    fullName: clearErrorCalled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean clearErrorCalled
+      return:
+        type:
+          - boolean
+  - uid: >-
+      @microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer.clearLoadingIndicator
+    name: clearLoadingIndicator
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function clearLoadingIndicator(domElement: HTMLElement)'
+      parameters:
+        - id: domElement
+          type:
+            - HTMLElement
+          description: ''
+  - uid: >-
+      @microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer.displayCalled
+    name: displayCalled
+    fullName: displayCalled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean displayCalled
+      return:
+        type:
+          - boolean
+  - uid: >-
+      @microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer.displayLoadingIndicator
+    name: displayLoadingIndicator
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function displayLoadingIndicator(domElement: HTMLElement)'
+      parameters:
+        - id: domElement
+          type:
+            - HTMLElement
+          description: ''
+  - uid: '@microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer.errorCalled'
+    name: errorCalled
+    fullName: errorCalled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean errorCalled
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer.renderError'
+    name: renderError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function renderError(domElement: HTMLElement, error: Error)'
+      parameters:
+        - id: domElement
+          type:
+            - HTMLElement
+          description: ''
+        - id: error
+          type:
+            - Error
+          description: ''

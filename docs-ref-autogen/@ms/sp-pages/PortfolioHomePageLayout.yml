@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.PortfolioHomePageLayout'
+    name: PortfolioHomePageLayout
+    fullName: PortfolioHomePageLayout
+    children:
+      - '@ms/sp-pages.PortfolioHomePageLayout.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.PortfolioHomePageLayout'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.PortfolioHomePageLayout.constructor'
+    name: PortfolioHomePageLayout
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PortfolioHomePageLayout(domElement: HTMLElement)'
+      parameters:
+        - id: domElement
+          type:
+            - HTMLElement
+          description: ''

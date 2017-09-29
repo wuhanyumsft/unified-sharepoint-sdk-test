@@ -1,0 +1,117 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IPowerBIReportEmbedContainerProps'
+    name: IPowerBIReportEmbedContainerProps
+    fullName: IPowerBIReportEmbedContainerProps
+    children:
+      - >-
+        @ms/sp-publishing-webparts.IPowerBIReportEmbedContainerProps.errorMessage
+      - '@ms/sp-publishing-webparts.IPowerBIReportEmbedContainerProps.inEditMode'
+      - >-
+        @ms/sp-publishing-webparts.IPowerBIReportEmbedContainerProps.isPlaceholderVisible
+      - >-
+        @ms/sp-publishing-webparts.IPowerBIReportEmbedContainerProps.renderCompleted
+      - >-
+        @ms/sp-publishing-webparts.IPowerBIReportEmbedContainerProps.serviceScope
+      - '@ms/sp-publishing-webparts.IPowerBIReportEmbedContainerProps.token'
+      - '@ms/sp-publishing-webparts.IPowerBIReportEmbedContainerProps.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-publishing-webparts.IPowerBIReportEmbedWebPartProps'
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IPowerBIReportEmbedContainerProps.errorMessage'
+    name: errorMessage
+    fullName: errorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string errorMessage
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IPowerBIReportEmbedContainerProps.inEditMode'
+    name: inEditMode
+    fullName: inEditMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean inEditMode
+      return:
+        type:
+          - boolean
+  - uid: >-
+      @ms/sp-publishing-webparts.IPowerBIReportEmbedContainerProps.isPlaceholderVisible
+    name: isPlaceholderVisible
+    fullName: isPlaceholderVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isPlaceholderVisible
+      return:
+        type:
+          - boolean
+  - uid: >-
+      @ms/sp-publishing-webparts.IPowerBIReportEmbedContainerProps.renderCompleted
+    name: renderCompleted
+    fullName: renderCompleted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void renderCompleted
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-publishing-webparts.IPowerBIReportEmbedContainerProps.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope
+  - uid: '@ms/sp-publishing-webparts.IPowerBIReportEmbedContainerProps.token'
+    name: token
+    fullName: token
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string token
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IPowerBIReportEmbedContainerProps.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number width
+      return:
+        type:
+          - number

@@ -1,0 +1,65 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-other-webparts.WorldClock'
+    name: WorldClock
+    fullName: WorldClock
+    children:
+      - '@ms/sp-other-webparts.WorldClock.componentDidMount'
+      - '@ms/sp-other-webparts.WorldClock.componentWillUnmount'
+      - '@ms/sp-other-webparts.WorldClock.render'
+      - '@ms/sp-other-webparts.WorldClock.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: World Clock root component.
+    extends:
+      name: >-
+        @@ms/sp-other-webparts.WorldClock<@@ms/sp-other-webparts.IWorldClockProps>
+    package: '@ms/sp-other-webparts'
+  - uid: '@ms/sp-other-webparts.WorldClock.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-other-webparts.WorldClock.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-other-webparts.WorldClock.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@ms/sp-other-webparts.IWorldClockProps>
+  - uid: '@ms/sp-other-webparts.WorldClock.constructor'
+    name: WorldClock
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new WorldClock(props: IWorldClockProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-other-webparts.IWorldClockProps'
+          description: ''

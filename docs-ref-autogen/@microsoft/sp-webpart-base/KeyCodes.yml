@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.KeyCodes'
+    name: KeyCodes
+    fullName: KeyCodes
+    children:
+      - '@microsoft/sp-webpart-base.KeyCodes.Tab'
+      - '@microsoft/sp-webpart-base.KeyCodes.Enter'
+      - '@microsoft/sp-webpart-base.KeyCodes.Escape'
+      - '@microsoft/sp-webpart-base.KeyCodes.P'
+      - '@microsoft/sp-webpart-base.KeyCodes.F10'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.KeyCodes.Tab'
+    name: Tab
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 9
+  - uid: '@microsoft/sp-webpart-base.KeyCodes.Enter'
+    name: Enter
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 13
+  - uid: '@microsoft/sp-webpart-base.KeyCodes.Escape'
+    name: Escape
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 27
+  - uid: '@microsoft/sp-webpart-base.KeyCodes.P'
+    name: P
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 80
+  - uid: '@microsoft/sp-webpart-base.KeyCodes.F10'
+    name: F10
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 121

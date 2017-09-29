@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.IBrickProps'
+    name: IBrickProps
+    fullName: IBrickProps
+    children:
+      - '@ms/sp-component-layouts.IBrickProps.index'
+      - '@ms/sp-component-layouts.IBrickProps.item'
+      - '@ms/sp-component-layouts.IBrickProps.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-component-layouts'
+  - uid: '@ms/sp-component-layouts.IBrickProps.index'
+    name: index
+    fullName: index
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number index
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-layouts.IBrickProps.item'
+    name: item
+    fullName: item
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IMasonryLayoutItem item
+      return:
+        type:
+          - '@@ms/sp-component-layouts.IMasonryLayoutItem'
+  - uid: '@ms/sp-component-layouts.IBrickProps.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number width
+      return:
+        type:
+          - number

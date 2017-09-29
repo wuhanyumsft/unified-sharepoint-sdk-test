@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-shared'
+    name: '@ms/sp-client-shared'
+    summary: ''
+    children:
+      - '@ms/sp-client-shared.Constants'
+      - '@ms/sp-client-shared.IOAuthToken'
+      - '@ms/sp-client-shared.ILogger'
+      - '@ms/sp-client-shared.IOAuthUtilityContext'
+      - '@ms/sp-client-shared.IQosMonitor'
+      - '@ms/sp-client-shared.OAuthUtility'
+      - '@ms/sp-client-shared.OAuthUtilityErrorType'
+      - '@ms/sp-client-shared.OAuthUtilityError'
+      - '@ms/sp-client-shared.IOAuthUtilityErrorContext'
+      - '@ms/sp-client-shared.IMessageResponse'
+      - '@ms/sp-client-shared.INestedServerError'
+      - '@ms/sp-client-shared.IResponseBody'
+      - '@ms/sp-client-shared.IServerErrorResponse'
+      - '@ms/sp-client-shared.ITokenRequestData'
+      - '@ms/sp-client-shared.ITokenResponseData'
+      - '@ms/sp-client-shared.LoggerMock'
+      - '@ms/sp-client-shared.OAuthUtilityContextMock'
+      - '@ms/sp-client-shared.IErrorParams'
+      - '@ms/sp-client-shared.IServerResponseParams'
+      - '@ms/sp-client-shared.ITokenParams'
+      - '@ms/sp-client-shared.QoSMonitorMock'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@ms/sp-client-shared.Constants'
+    name: Constants
+  - uid: '@ms/sp-client-shared.IOAuthToken'
+    name: IOAuthToken
+  - uid: '@ms/sp-client-shared.ILogger'
+    name: ILogger
+  - uid: '@ms/sp-client-shared.IOAuthUtilityContext'
+    name: IOAuthUtilityContext
+  - uid: '@ms/sp-client-shared.IQosMonitor'
+    name: IQosMonitor
+  - uid: '@ms/sp-client-shared.OAuthUtility'
+    name: OAuthUtility
+  - uid: '@ms/sp-client-shared.OAuthUtilityErrorType'
+    name: OAuthUtilityErrorType
+  - uid: '@ms/sp-client-shared.OAuthUtilityError'
+    name: OAuthUtilityError
+  - uid: '@ms/sp-client-shared.IOAuthUtilityErrorContext'
+    name: IOAuthUtilityErrorContext
+  - uid: '@ms/sp-client-shared.IMessageResponse'
+    name: IMessageResponse
+  - uid: '@ms/sp-client-shared.INestedServerError'
+    name: INestedServerError
+  - uid: '@ms/sp-client-shared.IResponseBody'
+    name: IResponseBody
+  - uid: '@ms/sp-client-shared.IServerErrorResponse'
+    name: IServerErrorResponse
+  - uid: '@ms/sp-client-shared.ITokenRequestData'
+    name: ITokenRequestData
+  - uid: '@ms/sp-client-shared.ITokenResponseData'
+    name: ITokenResponseData
+  - uid: '@ms/sp-client-shared.LoggerMock'
+    name: LoggerMock
+  - uid: '@ms/sp-client-shared.OAuthUtilityContextMock'
+    name: OAuthUtilityContextMock
+  - uid: '@ms/sp-client-shared.IErrorParams'
+    name: IErrorParams
+  - uid: '@ms/sp-client-shared.IServerResponseParams'
+    name: IServerResponseParams
+  - uid: '@ms/sp-client-shared.ITokenParams'
+    name: ITokenParams
+  - uid: '@ms/sp-client-shared.QoSMonitorMock'
+    name: QoSMonitorMock

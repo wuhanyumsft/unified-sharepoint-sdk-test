@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/tab-test-extensions.ITabApplicationCustomizerProperties'
+    name: ITabApplicationCustomizerProperties
+    fullName: ITabApplicationCustomizerProperties
+    children:
+      - >-
+        @ms/tab-test-extensions.ITabApplicationCustomizerProperties.footerMessage
+      - >-
+        @ms/tab-test-extensions.ITabApplicationCustomizerProperties.headerMessage
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/tab-test-extensions'
+  - uid: '@ms/tab-test-extensions.ITabApplicationCustomizerProperties.footerMessage'
+    name: footerMessage
+    fullName: footerMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string footerMessage
+      return:
+        type:
+          - string
+  - uid: '@ms/tab-test-extensions.ITabApplicationCustomizerProperties.headerMessage'
+    name: headerMessage
+    fullName: headerMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A debug header message to display
+    syntax:
+      content: string headerMessage
+      return:
+        type:
+          - string

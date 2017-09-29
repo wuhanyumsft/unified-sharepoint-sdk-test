@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.IManifestStoreEntry'
+    name: IManifestStoreEntry
+    fullName: IManifestStoreEntry
+    children:
+      - '@microsoft/sp-loader.IManifestStoreEntry.debugManifest'
+      - '@microsoft/sp-loader.IManifestStoreEntry.id'
+      - '@microsoft/sp-loader.IManifestStoreEntry.manifest'
+      - '@microsoft/sp-loader.IManifestStoreEntry.version'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.IManifestStoreEntry.debugManifest'
+    name: debugManifest
+    fullName: debugManifest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'A debug manifest V2 payload, if one has been provided.'
+    syntax:
+      content: IClientSideComponentManifest debugManifest
+      return:
+        type:
+          - IClientSideComponentManifest
+  - uid: '@microsoft/sp-loader.IManifestStoreEntry.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The component id.
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-loader.IManifestStoreEntry.manifest'
+    name: manifest
+    fullName: manifest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The manifest V2 payload.
+    syntax:
+      content: IClientSideComponentManifest manifest
+      return:
+        type:
+          - IClientSideComponentManifest
+  - uid: '@microsoft/sp-loader.IManifestStoreEntry.version'
+    name: version
+    fullName: version
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The component version.
+    syntax:
+      content: string version
+      return:
+        type:
+          - string

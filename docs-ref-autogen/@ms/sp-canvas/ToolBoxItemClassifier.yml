@@ -1,0 +1,75 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ToolBoxItemClassifier'
+    name: ToolBoxItemClassifier
+    fullName: ToolBoxItemClassifier
+    children:
+      - '@ms/sp-canvas.ToolBoxItemClassifier.classify'
+      - '@ms/sp-canvas.ToolBoxItemClassifier.constructor'
+      - '@ms/sp-canvas.ToolBoxItemClassifier.tryRegisterItem'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      ToolBoxItemClassifier classifies tool box items into Featured and
+      non-featured
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ToolBoxItemClassifier.classify'
+    name: classify
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets items classified by a specific type
+    syntax:
+      content: >-
+        function classify(isFeatured: boolean, sortPredicate?: (x:
+        IToolboxItemProps, y: IToolboxItemProps) => number)
+      parameters:
+        - id: isFeatured
+          type:
+            - boolean
+          description: determines the classification type
+        - id: sortPredicate
+          type:
+            - '(x: IToolboxItemProps, y: IToolboxItemProps) => number'
+          description: is optional sorting predicate
+          optional: true
+      return:
+        type:
+          - Array<@@ms/sp-canvas.IToolboxItemProps>
+  - uid: '@ms/sp-canvas.ToolBoxItemClassifier.constructor'
+    name: ToolBoxItemClassifier
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Initializes a new instance of the ToolBoxItemClassifier
+    syntax:
+      content: 'new ToolBoxItemClassifier(filter: undefined)'
+      parameters:
+        - id: filter
+          type:
+            - undefined
+          description: ''
+  - uid: '@ms/sp-canvas.ToolBoxItemClassifier.tryRegisterItem'
+    name: tryRegisterItem
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Registers a new item with the Classifier.
+    syntax:
+      content: 'function tryRegisterItem(itemId: string, itemProps: IToolboxItemProps)'
+      parameters:
+        - id: itemId
+          type:
+            - string
+          description: represents the item Id
+        - id: itemProps
+          type:
+            - '@@ms/sp-canvas.IToolboxItemProps'
+          description: represents the item properties
+      return:
+        type:
+          - boolean

@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ConfirmationDialog'
+    name: ConfirmationDialog
+    fullName: ConfirmationDialog
+    children:
+      - '@ms/sp-canvas.ConfirmationDialog.componentDidUpdate'
+      - '@ms/sp-canvas.ConfirmationDialog.context'
+      - '@ms/sp-canvas.ConfirmationDialog.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-canvas.ConfirmationDialog<@@ms/sp-canvas.IConfirmationDialogProps>
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ConfirmationDialog.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentDidUpdate(prevProps: IConfirmationDialogProps)'
+      parameters:
+        - id: prevProps
+          type:
+            - '@@ms/sp-canvas.IConfirmationDialogProps'
+          description: ''
+  - uid: '@ms/sp-canvas.ConfirmationDialog.context'
+    name: context
+    fullName: context
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IConfirmationDialogContext context
+      return:
+        type:
+          - '@@ms/sp-canvas.IConfirmationDialogContext'
+  - uid: '@ms/sp-canvas.ConfirmationDialog.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

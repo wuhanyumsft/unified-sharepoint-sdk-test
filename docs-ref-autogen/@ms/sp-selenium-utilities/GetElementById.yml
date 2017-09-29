@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-selenium-utilities.GetElementById'
+    name: GetElementById
+    fullName: GetElementById
+    children:
+      - '@ms/sp-selenium-utilities.GetElementById.getElement'
+      - '@ms/sp-selenium-utilities.GetElementById.constructor'
+      - '@ms/sp-selenium-utilities.GetElementById.pathString'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-selenium-utilities'
+  - uid: '@ms/sp-selenium-utilities.GetElementById.getElement'
+    name: getElement
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getElement()
+      parameters: []
+      return:
+        type:
+          - Promise<WebElement>
+  - uid: '@ms/sp-selenium-utilities.GetElementById.constructor'
+    name: GetElementById
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new GetElementById(webDriverWrapper: WebDriverWrapper, id: string)'
+      parameters:
+        - id: webDriverWrapper
+          type:
+            - '@@ms/sp-selenium-utilities.WebDriverWrapper'
+          description: ''
+        - id: id
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-selenium-utilities.GetElementById.pathString'
+    name: pathString
+    fullName: pathString
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string pathString
+      return:
+        type:
+          - string

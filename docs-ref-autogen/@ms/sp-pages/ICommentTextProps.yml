@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ICommentTextProps'
+    name: ICommentTextProps
+    fullName: ICommentTextProps
+    children:
+      - '@ms/sp-pages.ICommentTextProps.text'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ICommentTextProps.text'
+    name: text
+    fullName: text
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string text
+      return:
+        type:
+          - string

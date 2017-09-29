@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.INewsWebPartProps'
+    name: INewsWebPartProps
+    fullName: INewsWebPartProps
+    children:
+      - '@ms/sp-teamsite-webparts.INewsWebPartProps.emptyStateHelpItemsCount'
+      - '@ms/sp-teamsite-webparts.INewsWebPartProps.newsDataSourceProp'
+      - '@ms/sp-teamsite-webparts.INewsWebPartProps.newsItems'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.INewsWebPartProps.emptyStateHelpItemsCount'
+    name: emptyStateHelpItemsCount
+    fullName: emptyStateHelpItemsCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number emptyStateHelpItemsCount
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-teamsite-webparts.INewsWebPartProps.newsDataSourceProp'
+    name: newsDataSourceProp
+    fullName: newsDataSourceProp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number newsDataSourceProp
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-teamsite-webparts.INewsWebPartProps.newsItems'
+    name: newsItems
+    fullName: newsItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<INewsItem> newsItems
+      return:
+        type:
+          - Array<@@ms/sp-teamsite-webparts.INewsItem>

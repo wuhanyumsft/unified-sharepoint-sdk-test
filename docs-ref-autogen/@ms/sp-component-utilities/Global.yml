@@ -1,0 +1,947 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.Global'
+    package: '@ms/sp-component-utilities'
+    name: Global
+    children:
+      - '@ms/sp-component-utilities.AddUnsigned'
+      - '@ms/sp-component-utilities.ceilingDay'
+      - '@ms/sp-component-utilities.ConvertToWordArray'
+      - '@ms/sp-component-utilities.F'
+      - '@ms/sp-component-utilities.FF'
+      - '@ms/sp-component-utilities.floorDay'
+      - '@ms/sp-component-utilities.formatAttachments'
+      - '@ms/sp-component-utilities.formatAttendees'
+      - '@ms/sp-component-utilities.formatCategories'
+      - '@ms/sp-component-utilities.formatDate'
+      - '@ms/sp-component-utilities.formatDescription'
+      - '@ms/sp-component-utilities.formatHTMLContent'
+      - '@ms/sp-component-utilities.formatOrganizer'
+      - '@ms/sp-component-utilities.formatProperty'
+      - '@ms/sp-component-utilities.formatRecurrence'
+      - '@ms/sp-component-utilities.formatStatus'
+      - '@ms/sp-component-utilities.G'
+      - '@ms/sp-component-utilities.generateDateTimeStamp'
+      - '@ms/sp-component-utilities.getDateFromIndex'
+      - '@ms/sp-component-utilities.getDateString'
+      - '@ms/sp-component-utilities.getDropDownOption'
+      - '@ms/sp-component-utilities.getHalfHourTimeSlots'
+      - '@ms/sp-component-utilities.getICSFile'
+      - '@ms/sp-component-utilities.getIOSString'
+      - '@ms/sp-component-utilities.getOptionKeyFromDate'
+      - '@ms/sp-component-utilities.getRelativeDateTimeStringForLists'
+      - '@ms/sp-component-utilities.getTimeString'
+      - '@ms/sp-component-utilities.getTimeStringFromIndex'
+      - '@ms/sp-component-utilities.GG'
+      - '@ms/sp-component-utilities.H'
+      - '@ms/sp-component-utilities.HH'
+      - '@ms/sp-component-utilities.I'
+      - '@ms/sp-component-utilities.IcsFileGenerator'
+      - '@ms/sp-component-utilities.II'
+      - '@ms/sp-component-utilities.isSameDay'
+      - '@ms/sp-component-utilities.Md5Hash'
+      - '@ms/sp-component-utilities.monitor'
+      - '@ms/sp-component-utilities.normalizeError'
+      - '@ms/sp-component-utilities.removeSpace'
+      - '@ms/sp-component-utilities.RotateLeft'
+      - '@ms/sp-component-utilities.updateDayOfDate'
+      - '@ms/sp-component-utilities.updateTimeOfDate'
+      - '@ms/sp-component-utilities.Utf8Encode'
+      - '@ms/sp-component-utilities.WebPartPreviewThumbnail'
+      - '@ms/sp-component-utilities.WordToHex'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@ms/sp-component-utilities.AddUnsigned'
+    name: AddUnsigned
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function AddUnsigned(lX: any, lY: any)'
+      parameters:
+        - id: lX
+          type:
+            - any
+          description: ''
+        - id: lY
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.ceilingDay'
+    name: ceilingDay
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Getting the day end time of input time.
+    syntax:
+      content: 'function ceilingDay(time: Date)'
+      parameters:
+        - id: time
+          type:
+            - Date
+          description: ''
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-component-utilities.ConvertToWordArray'
+    name: ConvertToWordArray
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function ConvertToWordArray(stringTohash: any)'
+      parameters:
+        - id: stringTohash
+          type:
+            - any
+          description: ''
+  - uid: '@ms/sp-component-utilities.F'
+    name: F
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function F(x: any, y: any, z: any)'
+      parameters:
+        - id: x
+          type:
+            - any
+          description: ''
+        - id: 'y'
+          type:
+            - any
+          description: ''
+        - id: z
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.FF'
+    name: FF
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function FF(a: any, b: any, c: any, d: any, x: any, s: any, ac: any)'
+      parameters:
+        - id: a
+          type:
+            - any
+          description: ''
+        - id: b
+          type:
+            - any
+          description: ''
+        - id: c
+          type:
+            - any
+          description: ''
+        - id: d
+          type:
+            - any
+          description: ''
+        - id: x
+          type:
+            - any
+          description: ''
+        - id: s
+          type:
+            - any
+          description: ''
+        - id: ac
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.floorDay'
+    name: floorDay
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Getting the day start time of input time.
+    syntax:
+      content: 'function floorDay(time: Date)'
+      parameters:
+        - id: time
+          type:
+            - Date
+          description: ''
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-component-utilities.formatAttachments'
+    name: formatAttachments
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatAttachments(attachments: IIcsAttachment[])'
+      parameters:
+        - id: attachments
+          type:
+            - '@@ms/sp-component-utilities.IIcsAttachment[]'
+          description: ''
+  - uid: '@ms/sp-component-utilities.formatAttendees'
+    name: formatAttendees
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatAttendees(attendees: IContact[])'
+      parameters:
+        - id: attendees
+          type:
+            - '@@ms/sp-component-utilities.IContact[]'
+          description: ''
+  - uid: '@ms/sp-component-utilities.formatCategories'
+    name: formatCategories
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatCategories(categories: string[])'
+      parameters:
+        - id: categories
+          type:
+            - 'string[]'
+          description: ''
+  - uid: '@ms/sp-component-utilities.formatDate'
+    name: formatDate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatDate(isAllDay: boolean, startDate: Date, endDate: Date)'
+      parameters:
+        - id: isAllDay
+          type:
+            - boolean
+          description: ''
+        - id: startDate
+          type:
+            - Date
+          description: ''
+        - id: endDate
+          type:
+            - Date
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.formatDescription'
+    name: formatDescription
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatDescription(content: string)'
+      parameters:
+        - id: content
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-component-utilities.formatHTMLContent'
+    name: formatHTMLContent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatHTMLContent(content: string)'
+      parameters:
+        - id: content
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-component-utilities.formatOrganizer'
+    name: formatOrganizer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatOrganizer(organizer: IContact)'
+      parameters:
+        - id: organizer
+          type:
+            - '@@ms/sp-component-utilities.IContact'
+          description: ''
+  - uid: '@ms/sp-component-utilities.formatProperty'
+    name: formatProperty
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatProperty(key: string, value: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-component-utilities.formatRecurrence'
+    name: formatRecurrence
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatRecurrence(recurrence: IIcsRecurrence)'
+      parameters:
+        - id: recurrence
+          type:
+            - '@@ms/sp-component-utilities.IIcsRecurrence'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.formatStatus'
+    name: formatStatus
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatStatus(status: string)'
+      parameters:
+        - id: status
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-component-utilities.G'
+    name: G
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function G(x: any, y: any, z: any)'
+      parameters:
+        - id: x
+          type:
+            - any
+          description: ''
+        - id: 'y'
+          type:
+            - any
+          description: ''
+        - id: z
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.generateDateTimeStamp'
+    name: generateDateTimeStamp
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Convert javascript date format to YYYYMMDDTHHMMSSZ.
+    syntax:
+      content: function generateDateTimeStamp()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.getDateFromIndex'
+    name: getDateFromIndex
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: |-
+      Construct date object from the dropdown option index.
+      Only hour and minute parts are valid in return value. Y/M/D are arbitrary.
+    syntax:
+      content: 'function getDateFromIndex(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-component-utilities.getDateString'
+    name: getDateString
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Convert javascript date format to YYYYMM.
+    syntax:
+      content: 'function getDateString(date: Date)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+  - uid: '@ms/sp-component-utilities.getDropDownOption'
+    name: getDropDownOption
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Get time picker dropdown option from a option index
+    syntax:
+      content: 'function getDropDownOption(index: number, use24HourFormat: boolean)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+        - id: use24HourFormat
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - IDropdownOption
+  - uid: '@ms/sp-component-utilities.getHalfHourTimeSlots'
+    name: getHalfHourTimeSlots
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Get the time options for dropdown.
+    syntax:
+      content: 'function getHalfHourTimeSlots(use24HourFormat: boolean)'
+      parameters:
+        - id: use24HourFormat
+          type:
+            - boolean
+          description: ''
+  - uid: '@ms/sp-component-utilities.getICSFile'
+    name: getICSFile
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getICSFile(event: IIcsEvent)'
+      parameters:
+        - id: event
+          type:
+            - '@@ms/sp-component-utilities.IIcsEvent'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.getIOSString'
+    name: getIOSString
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Return the ISO date format, but has dashes and semi-colons removed.
+      e.g.20120925T072912Z
+    syntax:
+      content: 'function getIOSString(date: Date)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+  - uid: '@ms/sp-component-utilities.getOptionKeyFromDate'
+    name: getOptionKeyFromDate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Get the key of dropdown option from a date.
+    syntax:
+      content: 'function getOptionKeyFromDate(date: Date)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+  - uid: '@ms/sp-component-utilities.getRelativeDateTimeStringForLists'
+    name: getRelativeDateTimeStringForLists
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Returns the formatted and localized relative date/time string for a list's
+      relative date/time string.
+    syntax:
+      content: >-
+        function getRelativeDateTimeStringForLists(relativeDateTimeJSString:
+        string)
+      parameters:
+        - id: relativeDateTimeJSString
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.getTimeString'
+    name: getTimeString
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Convert javascript date format to HHMMSS.
+    syntax:
+      content: 'function getTimeString(date: Date)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+  - uid: '@ms/sp-component-utilities.getTimeStringFromIndex'
+    name: getTimeStringFromIndex
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Get formatted time string from dropdown option index.
+    syntax:
+      content: 'function getTimeStringFromIndex(index: number, use24HourFormat: boolean)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+        - id: use24HourFormat
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.GG'
+    name: GG
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function GG(a: any, b: any, c: any, d: any, x: any, s: any, ac: any)'
+      parameters:
+        - id: a
+          type:
+            - any
+          description: ''
+        - id: b
+          type:
+            - any
+          description: ''
+        - id: c
+          type:
+            - any
+          description: ''
+        - id: d
+          type:
+            - any
+          description: ''
+        - id: x
+          type:
+            - any
+          description: ''
+        - id: s
+          type:
+            - any
+          description: ''
+        - id: ac
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.H'
+    name: H
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function H(x: any, y: any, z: any)'
+      parameters:
+        - id: x
+          type:
+            - any
+          description: ''
+        - id: 'y'
+          type:
+            - any
+          description: ''
+        - id: z
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.HH'
+    name: HH
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function HH(a: any, b: any, c: any, d: any, x: any, s: any, ac: any)'
+      parameters:
+        - id: a
+          type:
+            - any
+          description: ''
+        - id: b
+          type:
+            - any
+          description: ''
+        - id: c
+          type:
+            - any
+          description: ''
+        - id: d
+          type:
+            - any
+          description: ''
+        - id: x
+          type:
+            - any
+          description: ''
+        - id: s
+          type:
+            - any
+          description: ''
+        - id: ac
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.I'
+    name: I
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function I(x: any, y: any, z: any)'
+      parameters:
+        - id: x
+          type:
+            - any
+          description: ''
+        - id: 'y'
+          type:
+            - any
+          description: ''
+        - id: z
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.IcsFileGenerator'
+    name: IcsFileGenerator
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function IcsFileGenerator(event: IIcsEvent)'
+      parameters:
+        - id: event
+          type:
+            - '@@ms/sp-component-utilities.IIcsEvent'
+          description: ''
+  - uid: '@ms/sp-component-utilities.II'
+    name: II
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function II(a: any, b: any, c: any, d: any, x: any, s: any, ac: any)'
+      parameters:
+        - id: a
+          type:
+            - any
+          description: ''
+        - id: b
+          type:
+            - any
+          description: ''
+        - id: c
+          type:
+            - any
+          description: ''
+        - id: d
+          type:
+            - any
+          description: ''
+        - id: x
+          type:
+            - any
+          description: ''
+        - id: s
+          type:
+            - any
+          description: ''
+        - id: ac
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.isSameDay'
+    name: isSameDay
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Return if two dates are on the same day.
+    syntax:
+      content: 'function isSameDay(date1: Date, date2: Date)'
+      parameters:
+        - id: date1
+          type:
+            - Date
+          description: ''
+        - id: date2
+          type:
+            - Date
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-utilities.Md5Hash'
+    name: Md5Hash
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Create an MD5 hash from an input string.
+    syntax:
+      content: 'function Md5Hash(stringTohash: string)'
+      parameters:
+        - id: stringTohash
+          type:
+            - string
+          description: |
+            The string to hash.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.monitor'
+    name: monitor
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: QoS monitor decorator.
+    syntax:
+      content: 'function monitor(scenarioName: string)'
+      parameters:
+        - id: scenarioName
+          type:
+            - string
+          description: |
+            The scenario name for QoS monitor.
+  - uid: '@ms/sp-component-utilities.normalizeError'
+    name: normalizeError
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function normalizeError(error: string)'
+      parameters:
+        - id: error
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Error
+  - uid: '@ms/sp-component-utilities.removeSpace'
+    name: removeSpace
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Remove whitespace from both sides of a line and empty block from html
+      content.
+    syntax:
+      content: 'function removeSpace(content: string)'
+      parameters:
+        - id: content
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.RotateLeft'
+    name: RotateLeft
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function RotateLeft(lValue: any, iShiftBits: any)'
+      parameters:
+        - id: lValue
+          type:
+            - any
+          description: ''
+        - id: iShiftBits
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.updateDayOfDate'
+    name: updateDayOfDate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Update the Y/M/D part of a date.
+    syntax:
+      content: 'function updateDayOfDate(date: Date, newDay: Date)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+        - id: newDay
+          type:
+            - Date
+          description: ''
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-component-utilities.updateTimeOfDate'
+    name: updateTimeOfDate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Update the hour/minute part of a date.
+    syntax:
+      content: 'function updateTimeOfDate(date: Date, newTime: Date)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+        - id: newTime
+          type:
+            - Date
+          description: ''
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-component-utilities.Utf8Encode'
+    name: Utf8Encode
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function Utf8Encode(stringTohash: any)'
+      parameters:
+        - id: stringTohash
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.WebPartPreviewThumbnail'
+    name: WebPartPreviewThumbnail
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function WebPartPreviewThumbnail(props: IPreviewProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-component-utilities.IPreviewProps'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.WordToHex'
+    name: WordToHex
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function WordToHex(lValue: any)'
+      parameters:
+        - id: lValue
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - string

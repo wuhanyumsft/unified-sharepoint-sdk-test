@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.IToolboxLoadingProps'
+    name: IToolboxLoadingProps
+    fullName: IToolboxLoadingProps
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-canvas-toolbox'

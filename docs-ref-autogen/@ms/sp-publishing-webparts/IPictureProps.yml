@@ -1,0 +1,111 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IPictureProps'
+    name: IPictureProps
+    fullName: IPictureProps
+    children:
+      - '@ms/sp-publishing-webparts.IPictureProps.img'
+      - '@ms/sp-publishing-webparts.IPictureProps.listId'
+      - '@ms/sp-publishing-webparts.IPictureProps.pageContext'
+      - '@ms/sp-publishing-webparts.IPictureProps.siteId'
+      - '@ms/sp-publishing-webparts.IPictureProps.src'
+      - '@ms/sp-publishing-webparts.IPictureProps.uniqueId'
+      - '@ms/sp-publishing-webparts.IPictureProps.webId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IPictureProps.img'
+    name: img
+    fullName: img
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ReactElement<__type> img
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-publishing-webparts.IPictureProps.listId'
+    name: listId
+    fullName: listId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string listId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IPictureProps.pageContext'
+    name: pageContext
+    fullName: pageContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageContext pageContext
+      return:
+        type:
+          - PageContext
+  - uid: '@ms/sp-publishing-webparts.IPictureProps.siteId'
+    name: siteId
+    fullName: siteId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IPictureProps.src'
+    name: src
+    fullName: src
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string src
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IPictureProps.uniqueId'
+    name: uniqueId
+    fullName: uniqueId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string uniqueId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IPictureProps.webId'
+    name: webId
+    fullName: webId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webId
+      return:
+        type:
+          - string

@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.EmptyFolderSize'
+    name: EmptyFolderSize
+    fullName: EmptyFolderSize
+    children:
+      - '@ms/sp-teamsite-webparts.EmptyFolderSize.Small'
+      - '@ms/sp-teamsite-webparts.EmptyFolderSize.Large'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.EmptyFolderSize.Small'
+    name: Small
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-teamsite-webparts.EmptyFolderSize.Large'
+    name: Large
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2

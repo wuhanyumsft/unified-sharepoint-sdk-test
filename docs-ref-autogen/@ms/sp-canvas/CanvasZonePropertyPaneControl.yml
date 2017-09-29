@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.CanvasZonePropertyPaneControl'
+    name: CanvasZonePropertyPaneControl
+    fullName: CanvasZonePropertyPaneControl
+    children:
+      - '@ms/sp-canvas.CanvasZonePropertyPaneControl.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Implements IPropertyPaneControl (internal and not exported from
+      sp-webpart-base).
+
+      This is a temporary pattern.
+    extends:
+      name: '@@ms/sp-canvas.CanvasZonePropertyPaneControl'
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.CanvasZonePropertyPaneControl.constructor'
+    name: CanvasZonePropertyPaneControl
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CanvasZonePropertyPaneControl(zone: CanvasZonePart, render: () =>
+        void)
+      parameters:
+        - id: zone
+          type:
+            - '@@ms/sp-canvas.CanvasZonePart'
+          description: ''
+        - id: render
+          type:
+            - () => void
+          description: ''

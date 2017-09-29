@@ -1,0 +1,68 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-dialog.Dialog'
+    name: Dialog
+    fullName: Dialog
+    children:
+      - '@microsoft/sp-dialog.Dialog.alert'
+      - '@microsoft/sp-dialog.Dialog.prompt'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Static Dialog class to provide API for showing static dialogs such as
+      alert and prompt
+    package: '@microsoft/sp-dialog'
+  - uid: '@microsoft/sp-dialog.Dialog.alert'
+    name: alert
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Alerts a message to the user with a user-friendly interface. Calling this
+      method sends a request to application
+
+      to show the alert dialog.
+    syntax:
+      content: 'static function alert(message: string, options?: IAlertOptions)'
+      parameters:
+        - id: message
+          type:
+            - string
+          description: |
+            The message to alert
+        - id: options
+          type:
+            - '@@microsoft/sp-dialog.IAlertOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+  - uid: '@microsoft/sp-dialog.Dialog.prompt'
+    name: prompt
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Prompts the user for a string value with a user-friendly interface.
+      Calling this method sends a request to
+
+      application to show the dialog.
+    syntax:
+      content: 'static function prompt(message: string, options?: IPromptOptions)'
+      parameters:
+        - id: message
+          type:
+            - string
+          description: The message for prompt dialog
+        - id: options
+          type:
+            - '@@microsoft/sp-dialog.IPromptOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<string>

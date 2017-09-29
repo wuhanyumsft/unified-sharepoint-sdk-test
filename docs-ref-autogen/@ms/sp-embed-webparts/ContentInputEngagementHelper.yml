@@ -1,0 +1,76 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-embed-webparts.ContentInputEngagementHelper'
+    name: ContentInputEngagementHelper
+    fullName: ContentInputEngagementHelper
+    children:
+      - >-
+        @ms/sp-embed-webparts.ContentInputEngagementHelper.getInputEngagementData
+      - '@ms/sp-embed-webparts.ContentInputEngagementHelper.logUserInputEvent'
+      - '@ms/sp-embed-webparts.ContentInputEngagementHelper.webPartName'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-embed-webparts'
+  - uid: '@ms/sp-embed-webparts.ContentInputEngagementHelper.getInputEngagementData'
+    name: getInputEngagementData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function getInputEngagementData(inputType: EmbedInputType, url:
+        string, resultValidatedCode: ResultValidatedCode, errorDetails?: string)
+      parameters:
+        - id: inputType
+          type:
+            - EmbedInputType
+          description: ''
+        - id: url
+          type:
+            - string
+          description: ''
+        - id: resultValidatedCode
+          type:
+            - ResultValidatedCode
+          description: ''
+        - id: errorDetails
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@ms/sp-embed-webparts.IContentInputEngagementData'
+  - uid: '@ms/sp-embed-webparts.ContentInputEngagementHelper.logUserInputEvent'
+    name: logUserInputEvent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function logUserInputEvent(contentInputEngagementData:
+        IContentInputEngagementData)
+      parameters:
+        - id: contentInputEngagementData
+          type:
+            - '@@ms/sp-embed-webparts.IContentInputEngagementData'
+          description: ''
+  - uid: '@ms/sp-embed-webparts.ContentInputEngagementHelper.webPartName'
+    name: webPartName
+    fullName: webPartName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string webPartName
+      return:
+        type:
+          - string

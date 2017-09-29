@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ICanvasSectionProps'
+    name: ICanvasSectionProps
+    fullName: ICanvasSectionProps
+    children:
+      - '@ms/sp-canvas.ICanvasSectionProps.section'
+      - '@ms/sp-canvas.ICanvasSectionProps.zoneIndex'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-canvas.ILayoutPartComponentProps'
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ICanvasSectionProps.section'
+    name: section
+    fullName: section
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CanvasSectionPart section
+      return:
+        type:
+          - '@@ms/sp-canvas.CanvasSectionPart'
+  - uid: '@ms/sp-canvas.ICanvasSectionProps.zoneIndex'
+    name: zoneIndex
+    fullName: zoneIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number zoneIndex
+      return:
+        type:
+          - number

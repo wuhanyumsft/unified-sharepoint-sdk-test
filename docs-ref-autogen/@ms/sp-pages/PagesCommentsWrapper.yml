@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.PagesCommentsWrapper'
+    name: PagesCommentsWrapper
+    fullName: PagesCommentsWrapper
+    children:
+      - '@ms/sp-pages.PagesCommentsWrapper.componentWillUnmount'
+      - '@ms/sp-pages.PagesCommentsWrapper.constructor'
+      - '@ms/sp-pages.PagesCommentsWrapper.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.PagesCommentsWrapper<__type>'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.PagesCommentsWrapper.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-pages.PagesCommentsWrapper.constructor'
+    name: PagesCommentsWrapper
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new PagesCommentsWrapper()
+      parameters: []
+  - uid: '@ms/sp-pages.PagesCommentsWrapper.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

@@ -1,0 +1,221 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-html-embed.IEmbedServiceResultAdaptor'
+    name: IEmbedServiceResultAdaptor
+    fullName: IEmbedServiceResultAdaptor
+    children:
+      - '@ms/sp-html-embed.IEmbedServiceResultAdaptor.CreatorName'
+      - '@ms/sp-html-embed.IEmbedServiceResultAdaptor.DatePublishedAt'
+      - '@ms/sp-html-embed.IEmbedServiceResultAdaptor.Description'
+      - '@ms/sp-html-embed.IEmbedServiceResultAdaptor.ErrorMessage'
+      - '@ms/sp-html-embed.IEmbedServiceResultAdaptor.Html'
+      - '@ms/sp-html-embed.IEmbedServiceResultAdaptor.ListId'
+      - '@ms/sp-html-embed.IEmbedServiceResultAdaptor.PublisherName'
+      - '@ms/sp-html-embed.IEmbedServiceResultAdaptor.ResponseCode'
+      - '@ms/sp-html-embed.IEmbedServiceResultAdaptor.SiteId'
+      - '@ms/sp-html-embed.IEmbedServiceResultAdaptor.ThumbnailUrl'
+      - '@ms/sp-html-embed.IEmbedServiceResultAdaptor.Title'
+      - '@ms/sp-html-embed.IEmbedServiceResultAdaptor.Type'
+      - '@ms/sp-html-embed.IEmbedServiceResultAdaptor.UniqueId'
+      - '@ms/sp-html-embed.IEmbedServiceResultAdaptor.VideoId'
+      - '@ms/sp-html-embed.IEmbedServiceResultAdaptor.WebId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-html-embed'
+  - uid: '@ms/sp-html-embed.IEmbedServiceResultAdaptor.CreatorName'
+    name: CreatorName
+    fullName: CreatorName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string CreatorName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IEmbedServiceResultAdaptor.DatePublishedAt'
+    name: DatePublishedAt
+    fullName: DatePublishedAt
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string DatePublishedAt
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IEmbedServiceResultAdaptor.Description'
+    name: Description
+    fullName: Description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Description
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IEmbedServiceResultAdaptor.ErrorMessage'
+    name: ErrorMessage
+    fullName: ErrorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ErrorMessage
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IEmbedServiceResultAdaptor.Html'
+    name: Html
+    fullName: Html
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Html
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IEmbedServiceResultAdaptor.ListId'
+    name: ListId
+    fullName: ListId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ListId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IEmbedServiceResultAdaptor.PublisherName'
+    name: PublisherName
+    fullName: PublisherName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string PublisherName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IEmbedServiceResultAdaptor.ResponseCode'
+    name: ResponseCode
+    fullName: ResponseCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: EmbedServiceResponseCode ResponseCode
+      return:
+        type:
+          - EmbedServiceResponseCode
+  - uid: '@ms/sp-html-embed.IEmbedServiceResultAdaptor.SiteId'
+    name: SiteId
+    fullName: SiteId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string SiteId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IEmbedServiceResultAdaptor.ThumbnailUrl'
+    name: ThumbnailUrl
+    fullName: ThumbnailUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ThumbnailUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IEmbedServiceResultAdaptor.Title'
+    name: Title
+    fullName: Title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IEmbedServiceResultAdaptor.Type'
+    name: Type
+    fullName: Type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Type
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IEmbedServiceResultAdaptor.UniqueId'
+    name: UniqueId
+    fullName: UniqueId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string UniqueId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IEmbedServiceResultAdaptor.VideoId'
+    name: VideoId
+    fullName: VideoId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string VideoId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IEmbedServiceResultAdaptor.WebId'
+    name: WebId
+    fullName: WebId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string WebId
+      return:
+        type:
+          - string

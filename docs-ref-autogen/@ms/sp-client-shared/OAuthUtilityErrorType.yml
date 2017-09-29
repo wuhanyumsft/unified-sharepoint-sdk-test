@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-shared.OAuthUtilityErrorType'
+    name: OAuthUtilityErrorType
+    fullName: OAuthUtilityErrorType
+    children:
+      - '@ms/sp-client-shared.OAuthUtilityErrorType.malformedResponseBody'
+      - '@ms/sp-client-shared.OAuthUtilityErrorType.serverError'
+      - '@ms/sp-client-shared.OAuthUtilityErrorType.unknownError'
+    langs:
+      - typeScript
+    type: enum
+    summary: OAuthUtilityError can have one of the types mentioned in this enum.
+    package: '@ms/sp-client-shared'
+  - uid: '@ms/sp-client-shared.OAuthUtilityErrorType.malformedResponseBody'
+    name: malformedResponseBody
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      malformedResponseBody means that the response that was received (either
+      the success or the error)
+
+      could not be parsed. This may happen if the server response had it's
+      format changed and the format
+
+      expected by the library needs to be updated.
+    type: field
+  - uid: '@ms/sp-client-shared.OAuthUtilityErrorType.serverError'
+    name: serverError
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      serverError means that the server responded with an error. The
+      serverErrorCode is set in this case,
+
+      and it can be used to identify the reason of the error.
+    type: field
+  - uid: '@ms/sp-client-shared.OAuthUtilityErrorType.unknownError'
+    name: unknownError
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      unknownError usually means that the http status in the response was
+      neither 400 (server error)
+
+      or 429 (throttling).
+    type: field

@@ -1,0 +1,135 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.BaseDataSource'
+    name: BaseDataSource
+    fullName: BaseDataSource
+    children:
+      - '@ms/sp-dataproviders.BaseDataSource.constructor'
+      - '@ms/sp-dataproviders.BaseDataSource.get'
+      - '@ms/sp-dataproviders.BaseDataSource.post'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.BaseDataSource.constructor'
+    name: BaseDataSource
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BaseDataSource(options: IBaseDataSourceOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@@ms/sp-dataproviders.IBaseDataSourceOptions'
+          description: ''
+  - uid: '@ms/sp-dataproviders.BaseDataSource.get'
+    name: get
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Issue an HTTP GET to a REST resource.
+      Parameter values must be sanitized for the URL beforehand.
+    syntax:
+      content: >-
+        function get(baseEndPoint: string, apiRelativePath: string, queryString:
+        string, dataSourceName: string, dataSourceMethodName: string, headers?:
+        any, throwHttpClientResponse?: boolean)
+      parameters:
+        - id: baseEndPoint
+          type:
+            - string
+          description: path to the site providing the api end point
+        - id: apiRelativePath
+          type:
+            - string
+          description: REST endpoint which may include query string parameters
+        - id: queryString
+          type:
+            - string
+          description: >-
+            additional query string parameters not already in the
+            apiRelativePath
+        - id: dataSourceName
+          type:
+            - string
+          description: data source name for error output
+        - id: dataSourceMethodName
+          type:
+            - string
+          description: data source method name for error output
+        - id: headers
+          type:
+            - any
+          description: headers to append to the request
+          optional: true
+        - id: throwHttpClientResponse
+          type:
+            - boolean
+          description: |
+            Throw the response error rather than a generated error
+          optional: true
+      return:
+        type:
+          - Promise<any>
+  - uid: '@ms/sp-dataproviders.BaseDataSource.post'
+    name: post
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Issue an HTTP POST to a REST resource.
+      URL related parameter values must be sanitized beforehand.
+    syntax:
+      content: >-
+        function post(baseEndPoint: string, apiRelativePath: string,
+        queryString: string, body: string, dataSourceName: string,
+        dataSourceMethodName: string, headers?: any, throwHttpClientResponse?:
+        boolean)
+      parameters:
+        - id: baseEndPoint
+          type:
+            - string
+          description: path to the site providing the api end point
+        - id: apiRelativePath
+          type:
+            - string
+          description: REST endpoint which may include query string parameters
+        - id: queryString
+          type:
+            - string
+          description: >-
+            additional query string parameters not already in the
+            apiRelativePath
+        - id: body
+          type:
+            - string
+          description: JSON content to post to the REST API
+        - id: dataSourceName
+          type:
+            - string
+          description: data source name for error output
+        - id: dataSourceMethodName
+          type:
+            - string
+          description: data source method name for error output
+        - id: headers
+          type:
+            - any
+          description: headers to append to the request
+          optional: true
+        - id: throwHttpClientResponse
+          type:
+            - boolean
+          description: |
+            include raw response as error output
+          optional: true
+      return:
+        type:
+          - Promise<any>

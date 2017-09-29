@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.IFilePickerRecentViewState'
+    name: IFilePickerRecentViewState
+    fullName: IFilePickerRecentViewState
+    children:
+      - '@ms/sp-filepicker.IFilePickerRecentViewState.headerString'
+      - '@ms/sp-filepicker.IFilePickerRecentViewState.listViewGroups'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-filepicker.IBaseFilePickerTabState<IRecentItem>'
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.IFilePickerRecentViewState.headerString'
+    name: headerString
+    fullName: headerString
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string headerString
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.IFilePickerRecentViewState.listViewGroups'
+    name: listViewGroups
+    fullName: listViewGroups
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IGroup[] listViewGroups'
+      return:
+        type:
+          - 'IGroup[]'

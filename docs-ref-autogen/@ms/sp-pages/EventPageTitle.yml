@@ -1,0 +1,71 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.EventPageTitle'
+    name: EventPageTitle
+    fullName: EventPageTitle
+    children:
+      - '@ms/sp-pages.EventPageTitle.componentWillReceiveProps'
+      - '@ms/sp-pages.EventPageTitle.constructor'
+      - '@ms/sp-pages.EventPageTitle.getEventPageTitleValue'
+      - '@ms/sp-pages.EventPageTitle.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.EventPageTitle<@@ms/sp-pages.IEventPageTitleProps>'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.EventPageTitle.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: IEventPageTitleProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-pages.IEventPageTitleProps'
+          description: ''
+  - uid: '@ms/sp-pages.EventPageTitle.constructor'
+    name: EventPageTitle
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new EventPageTitle(props: IEventPageTitleProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.IEventPageTitleProps'
+          description: ''
+  - uid: '@ms/sp-pages.EventPageTitle.getEventPageTitleValue'
+    name: getEventPageTitleValue
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getEventPageTitleValue()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-pages.IEventPageTitleValue'
+  - uid: '@ms/sp-pages.EventPageTitle.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

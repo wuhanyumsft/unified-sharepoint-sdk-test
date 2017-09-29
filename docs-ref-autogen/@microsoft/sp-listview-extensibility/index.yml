@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-listview-extensibility'
+    name: '@microsoft/sp-listview-extensibility'
+    summary: ''
+    children:
+      - '@microsoft/sp-listview-extensibility.BaseListViewCommandSet'
+      - >-
+        @microsoft/sp-listview-extensibility.IListViewCommandSetExecuteEventParameters
+      - >-
+        @microsoft/sp-listview-extensibility.IListViewCommandSetListViewUpdatedParameters
+      - '@microsoft/sp-listview-extensibility.Command'
+      - '@microsoft/sp-listview-extensibility.ListViewCommandSetContext'
+      - >-
+        @microsoft/sp-listview-extensibility.IListViewCommandSetContextParameters
+      - '@microsoft/sp-listview-extensibility.ListItemAccessor'
+      - '@microsoft/sp-listview-extensibility.ColumnAccessor'
+      - '@microsoft/sp-listview-extensibility.ListViewAccessor'
+      - '@microsoft/sp-listview-extensibility.RowAccessor'
+      - '@microsoft/sp-listview-extensibility.SelectedRowsChangedEventArgs'
+      - '@microsoft/sp-listview-extensibility.BaseFieldCustomizer'
+      - '@microsoft/sp-listview-extensibility.IFieldCustomizerCellEventParameters'
+      - '@microsoft/sp-listview-extensibility.FieldCustomizerContext'
+      - '@microsoft/sp-listview-extensibility.IFieldCustomizerContextParameters'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@microsoft/sp-listview-extensibility.BaseListViewCommandSet'
+    name: BaseListViewCommandSet
+  - uid: >-
+      @microsoft/sp-listview-extensibility.IListViewCommandSetExecuteEventParameters
+    name: IListViewCommandSetExecuteEventParameters
+  - uid: >-
+      @microsoft/sp-listview-extensibility.IListViewCommandSetListViewUpdatedParameters
+    name: IListViewCommandSetListViewUpdatedParameters
+  - uid: '@microsoft/sp-listview-extensibility.Command'
+    name: Command
+  - uid: '@microsoft/sp-listview-extensibility.ListViewCommandSetContext'
+    name: ListViewCommandSetContext
+  - uid: '@microsoft/sp-listview-extensibility.IListViewCommandSetContextParameters'
+    name: IListViewCommandSetContextParameters
+  - uid: '@microsoft/sp-listview-extensibility.ListItemAccessor'
+    name: ListItemAccessor
+  - uid: '@microsoft/sp-listview-extensibility.ColumnAccessor'
+    name: ColumnAccessor
+  - uid: '@microsoft/sp-listview-extensibility.ListViewAccessor'
+    name: ListViewAccessor
+  - uid: '@microsoft/sp-listview-extensibility.RowAccessor'
+    name: RowAccessor
+  - uid: '@microsoft/sp-listview-extensibility.SelectedRowsChangedEventArgs'
+    name: SelectedRowsChangedEventArgs
+  - uid: '@microsoft/sp-listview-extensibility.BaseFieldCustomizer'
+    name: BaseFieldCustomizer
+  - uid: '@microsoft/sp-listview-extensibility.IFieldCustomizerCellEventParameters'
+    name: IFieldCustomizerCellEventParameters
+  - uid: '@microsoft/sp-listview-extensibility.FieldCustomizerContext'
+    name: FieldCustomizerContext
+  - uid: '@microsoft/sp-listview-extensibility.IFieldCustomizerContextParameters'
+    name: IFieldCustomizerContextParameters

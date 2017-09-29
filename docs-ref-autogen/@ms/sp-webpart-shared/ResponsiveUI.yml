@@ -1,0 +1,68 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.ResponsiveUI'
+    name: ResponsiveUI
+    fullName: ResponsiveUI
+    children:
+      - '@ms/sp-webpart-shared.ResponsiveUI.getCurrentElementBreakpoint'
+      - '@ms/sp-webpart-shared.ResponsiveUI.getCurrentScreenBreakpoint'
+      - '@ms/sp-webpart-shared.ResponsiveUI.screenBreakpoints'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.ResponsiveUI.getCurrentElementBreakpoint'
+    name: getCurrentElementBreakpoint
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the responsive mode element size based on the given width.
+    syntax:
+      content: 'function getCurrentElementBreakpoint(width: number)'
+      parameters:
+        - id: width
+          type:
+            - number
+          description: ''
+  - uid: '@ms/sp-webpart-shared.ResponsiveUI.getCurrentScreenBreakpoint'
+    name: getCurrentScreenBreakpoint
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the current responsive mode screen size based on the screen width.
+    syntax:
+      content: function getCurrentScreenBreakpoint()
+      parameters: []
+  - uid: '@ms/sp-webpart-shared.ResponsiveUI.screenBreakpoints'
+    name: screenBreakpoints
+    fullName: screenBreakpoints
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      This is used to pass in the screen or container size breakpoints fot
+      responsive mode.
+
+      The entries should always be set in ascending order.
+
+      Example:
+
+      let responsiveUI: ResponsiveUI = new ResponsiveUI();
+
+      responsiveUI.screenBreakpoints:  = {
+       [480]: BREAKPOINT_SIZE.SM,
+       [640]: BREAKPOINT_SIZE.MD,
+       [1024]: BREAKPOINT_SIZE.LG,
+       [1366]: BREAKPOINT_SIZE.XL,
+       [1920]: BREAKPOINT_SIZE.XXL,
+       [99999]: BREAKPOINT_SIZE.XXXL
+      };
+    syntax:
+      content: '[key: number]: function screenBreakpoints'
+      return:
+        type:
+          - '[key: number]: function'

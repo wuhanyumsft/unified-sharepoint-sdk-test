@@ -1,0 +1,85 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.ListFieldType'
+    name: ListFieldType
+    fullName: ListFieldType
+    children:
+      - '@ms/sp-dataproviders.ListFieldType.Integer'
+      - '@ms/sp-dataproviders.ListFieldType.Text'
+      - '@ms/sp-dataproviders.ListFieldType.DateTime'
+      - '@ms/sp-dataproviders.ListFieldType.Counter'
+      - '@ms/sp-dataproviders.ListFieldType.Boolean'
+      - '@ms/sp-dataproviders.ListFieldType.Number'
+      - '@ms/sp-dataproviders.ListFieldType.Currency'
+      - '@ms/sp-dataproviders.ListFieldType.User'
+    langs:
+      - typeScript
+    type: enum
+    summary: >-
+      See:
+      https://msdn.microsoft.com/en-us/library/office/microsoft.sharepoint.client.fieldtype.aspx
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.ListFieldType.Integer'
+    name: Integer
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-dataproviders.ListFieldType.Text'
+    name: Text
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+  - uid: '@ms/sp-dataproviders.ListFieldType.DateTime'
+    name: DateTime
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+  - uid: '@ms/sp-dataproviders.ListFieldType.Counter'
+    name: Counter
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 5
+  - uid: '@ms/sp-dataproviders.ListFieldType.Boolean'
+    name: Boolean
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 8
+  - uid: '@ms/sp-dataproviders.ListFieldType.Number'
+    name: Number
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 9
+  - uid: '@ms/sp-dataproviders.ListFieldType.Currency'
+    name: Currency
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 10
+  - uid: '@ms/sp-dataproviders.ListFieldType.User'
+    name: User
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 20

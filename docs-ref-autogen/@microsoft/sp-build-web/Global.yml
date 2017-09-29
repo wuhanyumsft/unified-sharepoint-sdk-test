@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-web.Global'
+    package: '@microsoft/sp-build-web'
+    name: Global
+    children:
+      - '@microsoft/sp-build-web.initialize'
+      - '@microsoft/sp-build-web.testResultReporter'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@microsoft/sp-build-web.initialize'
+    name: initialize
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function initialize(gulp: any)'
+      parameters:
+        - id: gulp
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-build-web.SPWebBuildRig'
+  - uid: '@microsoft/sp-build-web.testResultReporter'
+    name: testResultReporter
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Create the karma report about test results
+    syntax:
+      content: >-
+        function testResultReporter(baseReporterDecorator: (context: any) =>
+        void, config: ConfigOptions, helper: IKarmaUtilities)
+      parameters:
+        - id: baseReporterDecorator
+          type:
+            - '(context: any) => void'
+          description: >-
+            A function that takes an object and adds to it methods and
+            properties of karma's
+                                           basic reporter
+        - id: config
+          type:
+            - ConfigOptions
+          description: The properties from Karma's config.
+        - id: helper
+          type:
+            - '@@microsoft/sp-build-web.IKarmaUtilities'
+          description: |
+            Karma utility functions

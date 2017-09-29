@@ -1,0 +1,106 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.JsonToResxTask'
+    name: JsonToResxTask
+    fullName: JsonToResxTask
+    children:
+      - '@ms/sp-build-internal-tasks.JsonToResxTask.executeTask'
+      - '@ms/sp-build-internal-tasks.JsonToResxTask.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >+
+      A task which reads a blob of JSON in one of the standard localizable
+      interfaces (IProjectStringsMap, IFileStringsMap,
+
+      IStringsMap) & convert it to a RESX file. It does this by flattening the
+      contents of the file by conjoining keys with
+
+      the delimiter specified in the config (which defaults to ";"). This task
+      requires the input JSON files are of
+
+      type <ICommentedString>.
+
+      Example:
+       IN:
+        lib/resx-strings/en-us.json:
+          {
+            "sp-client-preview": {
+              "_jkhiksfd89IDasfjas23s8": {
+                "ReadOnlyPropertyError": {
+                  "comment": "[Tag:ODSP-SPPPLAT-WebPartInfra]Error value for attempting to change readonly properties",
+                  "value": "Readonly property"
+                }
+              },
+              "_U28jNPwxmKZCuLriuvlabw": {
+                "ConstructLog": {
+                  "comment": "[Tag:ODSP-SPPPLAT-WebPartInfra]Log when webpart is constructed. {0} is webpart instance id.",
+                  "value": "Constructed web part: {0}"
+                }
+              }
+            },
+            "apps\\sp-pages": {
+              "_mSdKMOgUL8v6Mp9UyU4jkA": {
+                "PageErrorNotCheckedOut": {
+                  "comment": "[Tag:ODSP-WEX-SPPage]Error message when trying to save the page without being checked out.",
+                  "value": "Failed to save the change, the page may not be checked out."
+                }
+              }
+            }
+          }
+
+       OUT:
+        dist/strings.resx:
+         <?xml version="1.0" encoding="utf-8"?>
+         <root>
+           <data name="ReadOnlyPropertyError;_jkhiksfd89IDasfjas23s8;sp-client-preview" xml:space="preserve">
+             <value>Readonly property</value>
+             <comment>[Tag:ODSP-SPPPLAT-WebPartInfra]Error value for attempting to change readonly properties</comment>
+           </data>
+           <data name="ConstructLog;_U28jNPwxmKZCuLriuvlabw;sp-client-preview" xml:space="preserve">
+             <value>Constructed web part: {0}</value>
+             <comment>[Tag:ODSP-SPPPLAT-WebPartInfra]Log when webpart is constructed. {0} is webpart instance id.</comment>
+           </data>
+           <data name="PageErrorNotCheckedOut;_mSdKMOgUL8v6Mp9UyU4jkA;apps/sp-pages" xml:space="preserve">
+             <value>Failed to save the change, the page may not be checked out.</value>
+             <comment>[Tag:ODSP-WEX-SPPage]Error message when trying to save the page without being checked out.</comment>
+           </data>
+         </root>
+
+    extends:
+      name: >-
+        @@ms/sp-build-internal-tasks.LocalizeGulpTask<@@ms/sp-build-internal-tasks.IJsonToResxTaskConfig>
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.JsonToResxTask.executeTask'
+    name: executeTask
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function executeTask(gulp: any, completeCallback: (error?: string) =>
+        void)
+      parameters:
+        - id: gulp
+          type:
+            - any
+          description: ''
+        - id: completeCallback
+          type:
+            - '(error?: string) => void'
+          description: ''
+      return:
+        type:
+          - ReadWriteStream
+  - uid: '@ms/sp-build-internal-tasks.JsonToResxTask.constructor'
+    name: JsonToResxTask
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new JsonToResxTask()
+      parameters: []

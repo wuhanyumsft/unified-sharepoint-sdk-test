@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-workbench.IDevice'
+    name: IDevice
+    fullName: IDevice
+    children:
+      - '@microsoft/sp-webpart-workbench.IDevice.height'
+      - '@microsoft/sp-webpart-workbench.IDevice.name'
+      - '@microsoft/sp-webpart-workbench.IDevice.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-webpart-workbench'
+  - uid: '@microsoft/sp-webpart-workbench.IDevice.height'
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number height
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-webpart-workbench.IDevice.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-workbench.IDevice.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number width
+      return:
+        type:
+          - number

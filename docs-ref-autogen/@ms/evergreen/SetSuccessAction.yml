@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/evergreen.SetSuccessAction'
+    name: SetSuccessAction
+    fullName: SetSuccessAction
+    children:
+      - '@ms/evergreen.SetSuccessAction.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/evergreen.EvergreenAction'
+    package: '@ms/evergreen'
+  - uid: '@ms/evergreen.SetSuccessAction.constructor'
+    name: SetSuccessAction
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new SetSuccessAction()
+      parameters: []

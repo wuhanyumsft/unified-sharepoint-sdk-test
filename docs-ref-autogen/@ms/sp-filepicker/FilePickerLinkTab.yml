@@ -1,0 +1,71 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.FilePickerLinkTab'
+    name: FilePickerLinkTab
+    fullName: FilePickerLinkTab
+    children:
+      - '@ms/sp-filepicker.FilePickerLinkTab.componentDidMount'
+      - '@ms/sp-filepicker.FilePickerLinkTab.componentDidUpdate'
+      - '@ms/sp-filepicker.FilePickerLinkTab.constructor'
+      - '@ms/sp-filepicker.FilePickerLinkTab.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-filepicker.FilePickerLinkTab<@@ms/sp-filepicker.IFilePickerLinkViewProps>
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.FilePickerLinkTab.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-filepicker.FilePickerLinkTab.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+  - uid: '@ms/sp-filepicker.FilePickerLinkTab.constructor'
+    name: FilePickerLinkTab
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new FilePickerLinkTab(props: IFilePickerLinkViewProps, state:
+        IFilePickerLinkViewState)
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-filepicker.IFilePickerLinkViewProps'
+          description: ''
+        - id: state
+          type:
+            - '@@ms/sp-filepicker.IFilePickerLinkViewState'
+          description: ''
+  - uid: '@ms/sp-filepicker.FilePickerLinkTab.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

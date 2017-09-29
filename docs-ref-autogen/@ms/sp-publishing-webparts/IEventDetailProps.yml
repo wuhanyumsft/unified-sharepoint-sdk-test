@@ -1,0 +1,165 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IEventDetailProps'
+    name: IEventDetailProps
+    fullName: IEventDetailProps
+    children:
+      - '@ms/sp-publishing-webparts.IEventDetailProps.bodyContent'
+      - '@ms/sp-publishing-webparts.IEventDetailProps.endDate'
+      - '@ms/sp-publishing-webparts.IEventDetailProps.eventId'
+      - '@ms/sp-publishing-webparts.IEventDetailProps.hasAttachment'
+      - '@ms/sp-publishing-webparts.IEventDetailProps.location'
+      - '@ms/sp-publishing-webparts.IEventDetailProps.organizer'
+      - '@ms/sp-publishing-webparts.IEventDetailProps.recurrence'
+      - '@ms/sp-publishing-webparts.IEventDetailProps.regionalSettings'
+      - '@ms/sp-publishing-webparts.IEventDetailProps.serviceScope'
+      - '@ms/sp-publishing-webparts.IEventDetailProps.startDate'
+      - '@ms/sp-publishing-webparts.IEventDetailProps.subject'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IEventDetailProps.bodyContent'
+    name: bodyContent
+    fullName: bodyContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string bodyContent
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEventDetailProps.endDate'
+    name: endDate
+    fullName: endDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Date endDate
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.IEventDetailProps.eventId'
+    name: eventId
+    fullName: eventId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string eventId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEventDetailProps.hasAttachment'
+    name: hasAttachment
+    fullName: hasAttachment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasAttachment
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IEventDetailProps.location'
+    name: location
+    fullName: location
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string location
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEventDetailProps.organizer'
+    name: organizer
+    fullName: organizer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string organizer
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEventDetailProps.recurrence'
+    name: recurrence
+    fullName: recurrence
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string recurrence
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEventDetailProps.regionalSettings'
+    name: regionalSettings
+    fullName: regionalSettings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IRegionalSettings regionalSettings
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IRegionalSettings'
+  - uid: '@ms/sp-publishing-webparts.IEventDetailProps.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope
+  - uid: '@ms/sp-publishing-webparts.IEventDetailProps.startDate'
+    name: startDate
+    fullName: startDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Date startDate
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.IEventDetailProps.subject'
+    name: subject
+    fullName: subject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string subject
+      return:
+        type:
+          - string

@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.IKeyValuePair'
+    name: IKeyValuePair
+    fullName: IKeyValuePair
+    children:
+      - '@microsoft/sp-core-library.IKeyValuePair.key'
+      - '@microsoft/sp-core-library.IKeyValuePair.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.IKeyValuePair.key'
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string key
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-core-library.IKeyValuePair.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string value
+      return:
+        type:
+          - string

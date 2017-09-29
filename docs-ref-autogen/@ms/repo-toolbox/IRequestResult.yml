@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/repo-toolbox.IRequestResult'
+    name: IRequestResult
+    fullName: IRequestResult<TBody>
+    children:
+      - '@ms/repo-toolbox.IRequestResult.body'
+      - '@ms/repo-toolbox.IRequestResult.response'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/repo-toolbox'
+  - uid: '@ms/repo-toolbox.IRequestResult.body'
+    name: body
+    fullName: body
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string body
+      return:
+        type:
+          - string
+  - uid: '@ms/repo-toolbox.IRequestResult.response'
+    name: response
+    fullName: response
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IncomingMessage response
+      return:
+        type:
+          - IncomingMessage

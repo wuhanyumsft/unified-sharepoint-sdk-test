@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.BlogsUtilities'
+    name: BlogsUtilities
+    fullName: BlogsUtilities
+    children:
+      - '@ms/sp-dataproviders.BlogsUtilities.extractBlogsItems'
+    langs:
+      - typeScript
+    type: class
+    summary: Contains utility functions that are used by BlogsDataProvider.
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.BlogsUtilities.extractBlogsItems'
+    name: extractBlogsItems
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function extractBlogsItems(data: Array<any>, pageContext:
+        PageContext)
+      parameters:
+        - id: data
+          type:
+            - Array<any>
+          description: ''
+        - id: pageContext
+          type:
+            - PageContext
+          description: ''

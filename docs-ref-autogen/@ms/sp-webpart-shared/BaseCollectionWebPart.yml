@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.BaseCollectionWebPart'
+    name: BaseCollectionWebPart
+    fullName: BaseCollectionWebPart<T>
+    children:
+      - '@ms/sp-webpart-shared.BaseCollectionWebPart.delayedGetDataAndRender'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-webpart-shared.BaseCollectionWebPart<function>'
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.BaseCollectionWebPart.delayedGetDataAndRender'
+    name: delayedGetDataAndRender
+    fullName: delayedGetDataAndRender
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A generated method called from onPropertyPaneFieldChanged to retrieve data
+      and re-render.  It will wait for a
+
+      break in input on the Property Pane to avoid too many data requests.
+    syntax:
+      content: () => void delayedGetDataAndRender
+      return:
+        type:
+          - () => void

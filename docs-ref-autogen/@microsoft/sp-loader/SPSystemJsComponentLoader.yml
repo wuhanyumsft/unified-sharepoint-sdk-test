@@ -1,0 +1,72 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.SPSystemJsComponentLoader'
+    name: SPSystemJsComponentLoader
+    fullName: SPSystemJsComponentLoader
+    children:
+      - '@microsoft/sp-loader.SPSystemJsComponentLoader.loadComponent'
+      - '@microsoft/sp-loader.SPSystemJsComponentLoader.loadScript'
+      - '@microsoft/sp-loader.SPSystemJsComponentLoader.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      The component loader for SPFx.
+      This implementation uses SystemJS as the internal module loader.
+    extends:
+      name: '@@microsoft/sp-loader.BaseComponentLoader'
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.SPSystemJsComponentLoader.loadComponent'
+    name: loadComponent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Loads a component from a manifest.
+    syntax:
+      content: >-
+        function loadComponent<TComponent>(manifest:
+        IClientSideComponentManifest)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: Manifest of the module to load.
+      return:
+        type:
+          - Promise<TComponent>
+  - uid: '@microsoft/sp-loader.SPSystemJsComponentLoader.loadScript'
+    name: loadScript
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Given a URL, load a script.'
+    syntax:
+      content: 'function loadScript<TModule>(url: string, options?: ILoadScriptOptions)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: The script URL.
+        - id: options
+          type:
+            - '@@microsoft/sp-loader.ILoadScriptOptions'
+          description: >-
+            globalExportsName: If the script isn't an AMD module and loads a
+            global member on the page,
+                               specify the global member's name.
+          optional: true
+      return:
+        type:
+          - Promise<TModule>
+  - uid: '@microsoft/sp-loader.SPSystemJsComponentLoader.constructor'
+    name: SPSystemJsComponentLoader
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new SPSystemJsComponentLoader()
+      parameters: []

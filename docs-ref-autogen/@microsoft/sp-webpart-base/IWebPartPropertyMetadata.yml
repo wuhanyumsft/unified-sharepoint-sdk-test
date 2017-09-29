@@ -1,0 +1,78 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IWebPartPropertyMetadata'
+    name: IWebPartPropertyMetadata
+    fullName: IWebPartPropertyMetadata
+    children:
+      - '@microsoft/sp-webpart-base.IWebPartPropertyMetadata.isHtmlString'
+      - '@microsoft/sp-webpart-base.IWebPartPropertyMetadata.isImageSource'
+      - '@microsoft/sp-webpart-base.IWebPartPropertyMetadata.isLink'
+      - >-
+        @microsoft/sp-webpart-base.IWebPartPropertyMetadata.isSearchablePlainText
+    langs:
+      - typeScript
+    type: interface
+    summary: This is the structure used for map values in IWebPartPropertiesMetadata
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IWebPartPropertyMetadata.isHtmlString'
+    name: isHtmlString
+    fullName: isHtmlString
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates whether the property should be serialized as HTML.
+    syntax:
+      content: boolean isHtmlString
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.IWebPartPropertyMetadata.isImageSource'
+    name: isImageSource
+    fullName: isImageSource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Indicates if the property contains a link. This allows SharePoint server
+      to treat the value as such and
+
+      perform services like link fix-up, search indexing, loading from CDN, etc.
+    syntax:
+      content: boolean isImageSource
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.IWebPartPropertyMetadata.isLink'
+    name: isLink
+    fullName: isLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Indicates if the property contains a link. This allows SharePoint server
+      to treat the value as such and
+
+      perform services like search indexing, link fix-up, loading from CDN, etc.
+    syntax:
+      content: boolean isLink
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.IWebPartPropertyMetadata.isSearchablePlainText'
+    name: isSearchablePlainText
+    fullName: isSearchablePlainText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Indicates if the property contains plain text that should be
+      search-indexed by SharePoint.
+    syntax:
+      content: boolean isSearchablePlainText
+      return:
+        type:
+          - boolean

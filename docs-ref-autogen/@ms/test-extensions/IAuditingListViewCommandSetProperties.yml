@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/test-extensions.IAuditingListViewCommandSetProperties'
+    name: IAuditingListViewCommandSetProperties
+    fullName: IAuditingListViewCommandSetProperties
+    children:
+      - >-
+        @ms/test-extensions.IAuditingListViewCommandSetProperties.disabledCommandIds
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/test-extensions'
+  - uid: >-
+      @ms/test-extensions.IAuditingListViewCommandSetProperties.disabledCommandIds
+    name: disabledCommandIds
+    fullName: disabledCommandIds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A list of commandIds to hide.
+    syntax:
+      content: 'string[] disabledCommandIds'
+      return:
+        type:
+          - 'string[]'

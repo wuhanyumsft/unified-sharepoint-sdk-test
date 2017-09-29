@@ -1,0 +1,75 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/article-site-demo.CachedPage'
+    name: CachedPage
+    fullName: CachedPage
+    children:
+      - '@ms/article-site-demo.CachedPage.constructor'
+      - '@ms/article-site-demo.CachedPage.cachedValuesById'
+      - '@ms/article-site-demo.CachedPage.loadFieldValues'
+      - '@ms/article-site-demo.CachedPage.url'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/article-site-demo'
+  - uid: '@ms/article-site-demo.CachedPage.constructor'
+    name: CachedPage
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CachedPage(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+  - uid: '@ms/article-site-demo.CachedPage.cachedValuesById'
+    name: cachedValuesById
+    fullName: cachedValuesById
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Map<string> cachedValuesById
+      return:
+        type:
+          - Map<string>
+  - uid: '@ms/article-site-demo.CachedPage.loadFieldValues'
+    name: loadFieldValues
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function loadFieldValues(responseObject: Object, pageManager:
+        PageManager)
+      parameters:
+        - id: responseObject
+          type:
+            - Object
+          description: ''
+        - id: pageManager
+          type:
+            - '@@ms/article-site-demo.PageManager'
+          description: ''
+  - uid: '@ms/article-site-demo.CachedPage.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string url
+      return:
+        type:
+          - string

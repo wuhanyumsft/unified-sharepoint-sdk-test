@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker-interfaces.IFilePickerExternalImagesToUpload'
+    name: IFilePickerExternalImagesToUpload
+    fullName: IFilePickerExternalImagesToUpload
+    children:
+      - '@ms/sp-filepicker-interfaces.IFilePickerExternalImagesToUpload.id'
+      - '@ms/sp-filepicker-interfaces.IFilePickerExternalImagesToUpload.name'
+      - '@ms/sp-filepicker-interfaces.IFilePickerExternalImagesToUpload.src'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-filepicker-interfaces'
+  - uid: '@ms/sp-filepicker-interfaces.IFilePickerExternalImagesToUpload.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker-interfaces.IFilePickerExternalImagesToUpload.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker-interfaces.IFilePickerExternalImagesToUpload.src'
+    name: src
+    fullName: src
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string src
+      return:
+        type:
+          - string

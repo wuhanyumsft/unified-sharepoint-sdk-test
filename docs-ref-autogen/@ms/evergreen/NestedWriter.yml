@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/evergreen.NestedWriter'
+    name: NestedWriter
+    fullName: NestedWriter
+    children:
+      - '@ms/evergreen.NestedWriter.decreaseIndent'
+      - '@ms/evergreen.NestedWriter.increaseIndent'
+      - '@ms/evergreen.NestedWriter.constructor'
+      - '@ms/evergreen.NestedWriter.write'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Helper class which helps to perform logging during nested or recursive
+      operations
+
+      The class automatically prepends the string written to the write()
+      function
+
+      with the correct padding, given the current level of indentation
+    package: '@ms/evergreen'
+  - uid: '@ms/evergreen.NestedWriter.decreaseIndent'
+    name: decreaseIndent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Decrease the indentation level
+    syntax:
+      content: function decreaseIndent()
+      parameters: []
+  - uid: '@ms/evergreen.NestedWriter.increaseIndent'
+    name: increaseIndent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Increase the indentation level
+    syntax:
+      content: function increaseIndent()
+      parameters: []
+  - uid: '@ms/evergreen.NestedWriter.constructor'
+    name: NestedWriter
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new NestedWriter(_write: (text?: string) => void, _character: string,
+        _numSpaces: number)
+      parameters:
+        - id: _write
+          type:
+            - '(text?: string) => void'
+          description: ''
+        - id: _character
+          type:
+            - string
+          description: ''
+        - id: _numSpaces
+          type:
+            - number
+          description: ''
+  - uid: '@ms/evergreen.NestedWriter.write'
+    name: write
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Writes a line of text at the current indentation level
+    syntax:
+      content: 'function write(text?: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+          optional: true

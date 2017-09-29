@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IStorageDataWithUnit'
+    name: IStorageDataWithUnit
+    fullName: IStorageDataWithUnit
+    children:
+      - '@ms/sp-tenant-admin-page.IStorageDataWithUnit.storageData'
+      - '@ms/sp-tenant-admin-page.IStorageDataWithUnit.storageUnit'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IStorageDataWithUnit.storageData'
+    name: storageData
+    fullName: storageData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number storageData
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tenant-admin-page.IStorageDataWithUnit.storageUnit'
+    name: storageUnit
+    fullName: storageUnit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string storageUnit
+      return:
+        type:
+          - string

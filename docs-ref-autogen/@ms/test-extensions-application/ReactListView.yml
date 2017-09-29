@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/test-extensions-application.ReactListView'
+    name: ReactListView
+    fullName: ReactListView
+    children:
+      - '@ms/test-extensions-application.ReactListView.componentDidMount'
+      - '@ms/test-extensions-application.ReactListView.constructor'
+      - '@ms/test-extensions-application.ReactListView.render'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      A simulation of the SharePoint list view, implemented as a simple React
+      component.
+
+      The underlying data model is in the ListViewStore.
+    extends:
+      name: >-
+        @@ms/test-extensions-application.ReactListView<@@ms/test-extensions-application.IReactListViewProps>
+    package: '@ms/test-extensions-application'
+  - uid: '@ms/test-extensions-application.ReactListView.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/test-extensions-application.ReactListView.constructor'
+    name: ReactListView
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ReactListView(props: IReactListViewProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/test-extensions-application.IReactListViewProps'
+          description: ''
+  - uid: '@ms/test-extensions-application.ReactListView.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

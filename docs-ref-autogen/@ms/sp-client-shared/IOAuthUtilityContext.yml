@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-shared.IOAuthUtilityContext'
+    name: IOAuthUtilityContext
+    fullName: IOAuthUtilityContext
+    children:
+      - '@ms/sp-client-shared.IOAuthUtilityContext.fetchWithDigest'
+      - '@ms/sp-client-shared.IOAuthUtilityContext.logger'
+      - '@ms/sp-client-shared.IOAuthUtilityContext.qosMonitor'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Provides methods that will be internally used by the library for making
+      the HTTP call to the REST API, logging and qos monitoring
+    package: '@ms/sp-client-shared'
+  - uid: '@ms/sp-client-shared.IOAuthUtilityContext.fetchWithDigest'
+    name: fetchWithDigest
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Performs a REST service call. The function needs to set the
+      X-RequestDigest header to a valid digest value.
+    syntax:
+      content: 'function fetchWithDigest(request: Request)'
+      parameters:
+        - id: request
+          type:
+            - Request
+          description: >
+            object that describes the request to be made
+
+            The fetchWithDigest function needs to set the X-RequestDigest header
+            to a valid digest value.
+      return:
+        type:
+          - Promise<Response>
+  - uid: '@ms/sp-client-shared.IOAuthUtilityContext.logger'
+    name: logger
+    fullName: logger
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Logger that should be used internally by the library
+    syntax:
+      content: ILogger logger
+      return:
+        type:
+          - '@@ms/sp-client-shared.ILogger'
+  - uid: '@ms/sp-client-shared.IOAuthUtilityContext.qosMonitor'
+    name: qosMonitor
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      QoS monitor that should be used internally by the library.
+      The method is expected to return a new instance each time.
+    syntax:
+      content: function qosMonitor()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-client-shared.IQosMonitor'

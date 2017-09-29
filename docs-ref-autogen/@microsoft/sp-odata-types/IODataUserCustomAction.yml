@@ -1,0 +1,304 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-odata-types.IODataUserCustomAction'
+    name: IODataUserCustomAction
+    fullName: IODataUserCustomAction
+    children:
+      - '@microsoft/sp-odata-types.IODataUserCustomAction.ClientSideComponentId'
+      - >-
+        @microsoft/sp-odata-types.IODataUserCustomAction.ClientSideComponentProperties
+      - '@microsoft/sp-odata-types.IODataUserCustomAction.CommandUIExtension'
+      - '@microsoft/sp-odata-types.IODataUserCustomAction.Description'
+      - '@microsoft/sp-odata-types.IODataUserCustomAction.Group'
+      - '@microsoft/sp-odata-types.IODataUserCustomAction.Id'
+      - '@microsoft/sp-odata-types.IODataUserCustomAction.ImageUrl'
+      - '@microsoft/sp-odata-types.IODataUserCustomAction.Location'
+      - '@microsoft/sp-odata-types.IODataUserCustomAction.RegistrationId'
+      - '@microsoft/sp-odata-types.IODataUserCustomAction.RegistrationType'
+      - '@microsoft/sp-odata-types.IODataUserCustomAction.Rights'
+      - '@microsoft/sp-odata-types.IODataUserCustomAction.Scope'
+      - '@microsoft/sp-odata-types.IODataUserCustomAction.ScriptBlock'
+      - '@microsoft/sp-odata-types.IODataUserCustomAction.ScriptSrc'
+      - '@microsoft/sp-odata-types.IODataUserCustomAction.Sequence'
+      - '@microsoft/sp-odata-types.IODataUserCustomAction.Title'
+      - '@microsoft/sp-odata-types.IODataUserCustomAction.Url'
+      - >-
+        @microsoft/sp-odata-types.IODataUserCustomAction.VersionOfUserCustomAction
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Represents an OData SP.UserCustomAction object.  For more information
+      about this object
+
+      see the MSDN documentation here:
+
+      https://msdn.microsoft.com/en-us/library/office/dn531432.aspx#bk_UserCustomAction
+    package: '@microsoft/sp-odata-types'
+  - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.ClientSideComponentId'
+    name: ClientSideComponentId
+    fullName: ClientSideComponentId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The unique identifier of the client-side component defined with SharePoint
+      Framework
+    syntax:
+      content: string ClientSideComponentId
+      return:
+        type:
+          - string
+  - uid: >-
+      @microsoft/sp-odata-types.IODataUserCustomAction.ClientSideComponentProperties
+    name: ClientSideComponentProperties
+    fullName: ClientSideComponentProperties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Custom initialization properties for the client-side component.
+    syntax:
+      content: string ClientSideComponentProperties
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.CommandUIExtension'
+    name: CommandUIExtension
+    fullName: CommandUIExtension
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gets or sets a value that specifies an implementation specific XML
+      fragment that
+
+      determines user interface properties of the custom action.
+    syntax:
+      content: string CommandUIExtension
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.Description'
+    name: Description
+    fullName: Description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets or sets the description of the custom action.
+    syntax:
+      content: string Description
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.Group'
+    name: Group
+    fullName: Group
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gets or sets a value that specifies an implementation-specific value that
+      determines
+
+      the position of the custom action in the page.
+    syntax:
+      content: string Group
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.Id'
+    name: Id
+    fullName: Id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Gets a value that specifies the identifier (GUID) of the custom action.
+      Example: "48309f28-53aa-43ed-b113-625120e5af6f"
+    syntax:
+      content: string Id
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.ImageUrl'
+    name: ImageUrl
+    fullName: ImageUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets or sets the URL of the image associated with the custom action.
+    syntax:
+      content: string ImageUrl
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.Location'
+    name: Location
+    fullName: Location
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets or sets the location of the custom action.
+    syntax:
+      content: string Location
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.RegistrationId'
+    name: RegistrationId
+    fullName: RegistrationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gets or sets the value that specifies the identifier of the object
+      associated with
+
+      the custom action.
+    syntax:
+      content: string RegistrationId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.RegistrationType'
+    name: RegistrationType
+    fullName: RegistrationType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gets or sets the value that specifies the type of object associated with
+      the custom action.
+    syntax:
+      content: number RegistrationType
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.Rights'
+    name: Rights
+    fullName: Rights
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gets or sets the value that specifies the permissions needed for the
+      custom action.
+    syntax:
+      content: IODataBasePermission Rights
+      return:
+        type:
+          - '@@microsoft/sp-odata-types.IODataBasePermission'
+  - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.Scope'
+    name: Scope
+    fullName: Scope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets a value that specifies the scope of the custom action.
+    syntax:
+      content: number Scope
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.ScriptBlock'
+    name: ScriptBlock
+    fullName: ScriptBlock
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gets or sets the value that specifies the ECMAScript to be executed when
+      the custom action is performed.
+    syntax:
+      content: string ScriptBlock
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.ScriptSrc'
+    name: ScriptSrc
+    fullName: ScriptSrc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gets or sets a value that specifies the URI of a file which contains the
+      ECMAScript to execute
+
+      on the page.
+    syntax:
+      content: string ScriptSrc
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.Sequence'
+    name: Sequence
+    fullName: Sequence
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gets or sets the value that specifies an implementation-specific value
+      that determines the
+
+      order of the custom action that appears on the page.
+    syntax:
+      content: number Sequence
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.Title'
+    name: Title
+    fullName: Title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets or sets the display title of the custom action.
+    syntax:
+      content: string Title
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.Url'
+    name: Url
+    fullName: Url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gets or sets the URL, URI, or ECMAScript (JScript, JavaScript) function
+      associated with the action.
+    syntax:
+      content: string Url
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.VersionOfUserCustomAction'
+    name: VersionOfUserCustomAction
+    fullName: VersionOfUserCustomAction
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets a value that specifies an implementation specific version identifier.
+    syntax:
+      content: string VersionOfUserCustomAction
+      return:
+        type:
+          - string

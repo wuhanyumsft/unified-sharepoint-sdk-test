@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teams-tab.IResourceError'
+    name: IResourceError
+    fullName: IResourceError
+    children:
+      - '@ms/sp-teams-tab.IResourceError.errorCode'
+      - '@ms/sp-teams-tab.IResourceError.errorString'
+      - '@ms/sp-teams-tab.IResourceError.id'
+      - '@ms/sp-teams-tab.IResourceError.url'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teams-tab'
+  - uid: '@ms/sp-teams-tab.IResourceError.errorCode'
+    name: errorCode
+    fullName: errorCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number errorCode
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-teams-tab.IResourceError.errorString'
+    name: errorString
+    fullName: errorString
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string errorString
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teams-tab.IResourceError.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number id
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-teams-tab.IResourceError.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string url
+      return:
+        type:
+          - string

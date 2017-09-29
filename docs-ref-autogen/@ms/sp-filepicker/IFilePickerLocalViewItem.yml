@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.IFilePickerLocalViewItem'
+    name: IFilePickerLocalViewItem
+    fullName: IFilePickerLocalViewItem
+    children:
+      - '@ms/sp-filepicker.IFilePickerLocalViewItem.file'
+      - '@ms/sp-filepicker.IFilePickerLocalViewItem.fileExtension'
+      - '@ms/sp-filepicker.IFilePickerLocalViewItem.fileName'
+      - '@ms/sp-filepicker.IFilePickerLocalViewItem.src'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.IFilePickerLocalViewItem.file'
+    name: file
+    fullName: file
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: File object
+    syntax:
+      content: File file
+      return:
+        type:
+          - File
+  - uid: '@ms/sp-filepicker.IFilePickerLocalViewItem.fileExtension'
+    name: fileExtension
+    fullName: fileExtension
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: File extension of a file checked in file explorer
+    syntax:
+      content: string fileExtension
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.IFilePickerLocalViewItem.fileName'
+    name: fileName
+    fullName: fileName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Name of the file checked in file explorer
+    syntax:
+      content: string fileName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.IFilePickerLocalViewItem.src'
+    name: src
+    fullName: src
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Data url of file as read by a FileReader
+    syntax:
+      content: string src
+      return:
+        type:
+          - string

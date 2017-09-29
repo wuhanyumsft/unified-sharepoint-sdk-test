@@ -1,0 +1,233 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary'
+    name: IPagePerfSummary
+    fullName: IPagePerfSummary
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.apiCalls'
+      - '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.appStartPostHead'
+      - '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.canvasRender'
+      - '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.cdnRequests'
+      - '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.euplPostHead'
+      - '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.headStart'
+      - '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.layoutRender75Percentile'
+      - '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.maxEUPLPostHead'
+      - '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.minEUPLPostHead'
+      - '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.pageComponentRender'
+      - '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.pageComponentStart'
+      - '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.pagesAssemblyLoad'
+      - '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.renderTime'
+      - '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.resoureRequests'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.apiCalls'
+    name: apiCalls
+    fullName: apiCalls
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Number of API Calles
+    syntax:
+      content: number apiCalls
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.appStartPostHead'
+    name: appStartPostHead
+    fullName: appStartPostHead
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Time taken to start the App since <head>
+      appStart - headStart
+    syntax:
+      content: number appStartPostHead
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.canvasRender'
+    name: canvasRender
+    fullName: canvasRender
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Time taken to render Canvas
+      CanvasComponent.end - CanvasComponent.start
+    syntax:
+      content: number canvasRender
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.cdnRequests'
+    name: cdnRequests
+    fullName: cdnRequests
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Number of CDN requests
+    syntax:
+      content: number cdnRequests
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.euplPostHead'
+    name: euplPostHead
+    fullName: euplPostHead
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      EUPL since <head>.
+      eupl - headStart
+    syntax:
+      content: number euplPostHead
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.headStart'
+    name: headStart
+    fullName: headStart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Time taken to request the aspx page from server and browser start
+      executing first line under <head>
+    syntax:
+      content: number headStart
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.layoutRender75Percentile'
+    name: layoutRender75Percentile
+    fullName: layoutRender75Percentile
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Time taken to render layout component
+      It often contains Page Title
+    syntax:
+      content: number layoutRender75Percentile
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.maxEUPLPostHead'
+    name: maxEUPLPostHead
+    fullName: maxEUPLPostHead
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Maximum of EUPL since <head>.
+      Math.max(eupl - headStart)
+    syntax:
+      content: number maxEUPLPostHead
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.minEUPLPostHead'
+    name: minEUPLPostHead
+    fullName: minEUPLPostHead
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Minimum of EUPL since <head>.
+      Math.min(eupl - headStart)
+    syntax:
+      content: number minEUPLPostHead
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.pageComponentRender'
+    name: pageComponentRender
+    fullName: pageComponentRender
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Time taken to render Page component.
+      This does not include canvas render time
+    syntax:
+      content: number pageComponentRender
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.pageComponentStart'
+    name: pageComponentStart
+    fullName: pageComponentStart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Time taken to start page render since app start
+      PageComponent.start - appStart
+    syntax:
+      content: number pageComponentStart
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.pagesAssemblyLoad'
+    name: pagesAssemblyLoad
+    fullName: pagesAssemblyLoad
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Time taken to load Pages Assembly alone, excluding the network download
+      time
+
+      <script src="https://.../sp-pages-assembly.js"> - network time
+    syntax:
+      content: number pagesAssemblyLoad
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.renderTime'
+    name: renderTime
+    fullName: renderTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Time taken to render the page in viewport.
+      It includes canvasRender and layoutRender.
+      It might also include time taken to load modules for any web parts.
+      eupl - PageComponent.start
+    syntax:
+      content: number renderTime
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IPagePerfSummary.resoureRequests'
+    name: resoureRequests
+    fullName: resoureRequests
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Resources requested before EUPL
+    syntax:
+      content: 'PerformanceResourceTiming[] resoureRequests'
+      return:
+        type:
+          - 'PerformanceResourceTiming[]'

@@ -1,0 +1,153 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-polyfills.URLSearchParams'
+    name: URLSearchParams
+    fullName: URLSearchParams
+    children:
+      - '@microsoft/sp-polyfills.URLSearchParams.append'
+      - '@microsoft/sp-polyfills.URLSearchParams.delete'
+      - '@microsoft/sp-polyfills.URLSearchParams.get'
+      - '@microsoft/sp-polyfills.URLSearchParams.getAll'
+      - '@microsoft/sp-polyfills.URLSearchParams.has'
+      - '@microsoft/sp-polyfills.URLSearchParams.set'
+      - '@microsoft/sp-polyfills.URLSearchParams.sort'
+      - '@microsoft/sp-polyfills.URLSearchParams.toString'
+      - '@microsoft/sp-polyfills.URLSearchParams.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-polyfills'
+  - uid: '@microsoft/sp-polyfills.URLSearchParams.append'
+    name: append
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function append(key: string, value: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-polyfills.URLSearchParams.delete'
+    name: delete
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function delete(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-polyfills.URLSearchParams.get'
+    name: get
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-polyfills.URLSearchParams.getAll'
+    name: getAll
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getAll(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-polyfills.URLSearchParams.has'
+    name: has
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function has(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-polyfills.URLSearchParams.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function set(key: string, value: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-polyfills.URLSearchParams.sort'
+    name: sort
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function sort()
+      parameters: []
+  - uid: '@microsoft/sp-polyfills.URLSearchParams.toString'
+    name: toString
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toString()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-polyfills.URLSearchParams.constructor'
+    name: URLSearchParams
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new URLSearchParams(init?: function)'
+      parameters:
+        - id: init
+          type:
+            - function
+          description: ''
+          optional: true

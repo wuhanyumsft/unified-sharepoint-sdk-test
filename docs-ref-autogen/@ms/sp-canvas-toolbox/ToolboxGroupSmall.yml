@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.ToolboxGroupSmall'
+    name: ToolboxGroupSmall
+    fullName: ToolboxGroupSmall
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-canvas-toolbox.ToolboxGroupSmall<__type>'
+    package: '@ms/sp-canvas-toolbox'

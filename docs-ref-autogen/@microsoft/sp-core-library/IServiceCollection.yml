@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.IServiceCollection'
+    name: IServiceCollection
+    fullName: IServiceCollection
+    children:
+      - '@microsoft/sp-core-library.IServiceCollection.serviceScope'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      A shorthand pattern for extracting well-known services from a
+      ServiceScope.
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.IServiceCollection.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns the underlying ServiceScope that the members belong to.
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - '@@microsoft/sp-core-library.ServiceScope'

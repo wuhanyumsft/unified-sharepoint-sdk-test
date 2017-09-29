@@ -1,0 +1,625 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.Global'
+    package: '@ms/sp-canvas'
+    name: Global
+    children:
+      - '@ms/sp-canvas.ariaAlert'
+      - '@ms/sp-canvas.assertRTE'
+      - '@ms/sp-canvas.Base64MimeType'
+      - '@ms/sp-canvas.Base64toBlob'
+      - '@ms/sp-canvas.CreateEmptyZoneLayout'
+      - '@ms/sp-canvas.getCanvasZoneA11yId'
+      - '@ms/sp-canvas.getControlZoneA11yId'
+      - '@ms/sp-canvas.getFirstFocusableChild'
+      - '@ms/sp-canvas.getFocusableChildren'
+      - '@ms/sp-canvas.getFocusableDescendants'
+      - '@ms/sp-canvas.getFocusableParent'
+      - '@ms/sp-canvas.getFocusableSiblings'
+      - '@ms/sp-canvas.getFullWidthControl'
+      - '@ms/sp-canvas.getNextFocusableElement'
+      - '@ms/sp-canvas.getPrevFocusableElement'
+      - '@ms/sp-canvas.isElementFocusable'
+      - '@ms/sp-canvas.isElementFocusableChildOf'
+      - '@ms/sp-canvas.isEnter'
+      - '@ms/sp-canvas.isEscape'
+      - '@ms/sp-canvas.isKey'
+      - '@ms/sp-canvas.isShiftTab'
+      - '@ms/sp-canvas.isTab'
+      - '@ms/sp-canvas.navigateInside'
+      - '@ms/sp-canvas.navigateOutOf'
+      - '@ms/sp-canvas.navigateTo'
+      - '@ms/sp-canvas.noop'
+      - '@ms/sp-canvas.queryFocusableSelector'
+      - '@ms/sp-canvas.StripOutNewLinesAndSpacesFromInnerHTML'
+      - '@ms/sp-canvas.ToolboxGroup'
+      - '@ms/sp-canvas.ToolboxItem'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@ms/sp-canvas.ariaAlert'
+    name: ariaAlert
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function ariaAlert(message: string)'
+      parameters:
+        - id: message
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-canvas.assertRTE'
+    name: assertRTE
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function assertRTE(toolBoxItemClassifier: ToolBoxItemClassifier,
+        shouldInclude: boolean)
+      parameters:
+        - id: toolBoxItemClassifier
+          type:
+            - '@@ms/sp-canvas.ToolBoxItemClassifier'
+          description: ''
+        - id: shouldInclude
+          type:
+            - boolean
+          description: ''
+  - uid: '@ms/sp-canvas.Base64MimeType'
+    name: Base64MimeType
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Gets the mime type from the string.
+    syntax:
+      content: 'function Base64MimeType(encoded: string)'
+      parameters:
+        - id: encoded
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.Base64toBlob'
+    name: Base64toBlob
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Converts base 64 image to blob.
+    syntax:
+      content: 'function Base64toBlob(b64Data: string, contentType: string)'
+      parameters:
+        - id: b64Data
+          type:
+            - string
+          description: ''
+        - id: contentType
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Blob
+  - uid: '@ms/sp-canvas.CreateEmptyZoneLayout'
+    name: CreateEmptyZoneLayout
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function CreateEmptyZoneLayout(zoneIndex: number, sectionIndex?: number,
+        controlIndex?: number)
+      parameters:
+        - id: zoneIndex
+          type:
+            - number
+          description: ''
+        - id: sectionIndex
+          type:
+            - number
+          description: ''
+          optional: true
+        - id: controlIndex
+          type:
+            - number
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@ms/sp-canvas.IControlPosition'
+  - uid: '@ms/sp-canvas.getCanvasZoneA11yId'
+    name: getCanvasZoneA11yId
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getCanvasZoneA11yId(zoneIndex: string)'
+      parameters:
+        - id: zoneIndex
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.getControlZoneA11yId'
+    name: getControlZoneA11yId
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getControlZoneA11yId(controlId: string)'
+      parameters:
+        - id: controlId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.getFirstFocusableChild'
+    name: getFirstFocusableChild
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getFirstFocusableChild(elem: HTMLElement, ignoreTabIndex:
+        boolean)
+      parameters:
+        - id: elem
+          type:
+            - HTMLElement
+          description: ''
+        - id: ignoreTabIndex
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - HTMLElement
+  - uid: '@ms/sp-canvas.getFocusableChildren'
+    name: getFocusableChildren
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getFocusableChildren(elem: HTMLElement, ignoreTabIndex:
+        boolean)
+      parameters:
+        - id: elem
+          type:
+            - HTMLElement
+          description: ''
+        - id: ignoreTabIndex
+          type:
+            - boolean
+          description: ''
+  - uid: '@ms/sp-canvas.getFocusableDescendants'
+    name: getFocusableDescendants
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getFocusableDescendants(elem: HTMLElement, ignoreTabIndex:
+        boolean)
+      parameters:
+        - id: elem
+          type:
+            - HTMLElement
+          description: ''
+        - id: ignoreTabIndex
+          type:
+            - boolean
+          description: ''
+  - uid: '@ms/sp-canvas.getFocusableParent'
+    name: getFocusableParent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getFocusableParent(elem: HTMLElement, topElement: HTMLElement)'
+      parameters:
+        - id: elem
+          type:
+            - HTMLElement
+          description: ''
+        - id: topElement
+          type:
+            - HTMLElement
+          description: ''
+      return:
+        type:
+          - HTMLElement
+  - uid: '@ms/sp-canvas.getFocusableSiblings'
+    name: getFocusableSiblings
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getFocusableSiblings(elem: HTMLElement, topElement:
+        HTMLElement)
+      parameters:
+        - id: elem
+          type:
+            - HTMLElement
+          description: ''
+        - id: topElement
+          type:
+            - HTMLElement
+          description: ''
+  - uid: '@ms/sp-canvas.getFullWidthControl'
+    name: getFullWidthControl
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getFullWidthControl()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-canvas.IWebPartZoneProps'
+  - uid: '@ms/sp-canvas.getNextFocusableElement'
+    name: getNextFocusableElement
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getNextFocusableElement(elem: HTMLElement, topElement:
+        HTMLElement)
+      parameters:
+        - id: elem
+          type:
+            - HTMLElement
+          description: ''
+        - id: topElement
+          type:
+            - HTMLElement
+          description: ''
+      return:
+        type:
+          - HTMLElement
+  - uid: '@ms/sp-canvas.getPrevFocusableElement'
+    name: getPrevFocusableElement
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getPrevFocusableElement(elem: HTMLElement, topElement:
+        HTMLElement)
+      parameters:
+        - id: elem
+          type:
+            - HTMLElement
+          description: ''
+        - id: topElement
+          type:
+            - HTMLElement
+          description: ''
+      return:
+        type:
+          - HTMLElement
+  - uid: '@ms/sp-canvas.isElementFocusable'
+    name: isElementFocusable
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isElementFocusable(elem: HTMLElement, ignoreTabIndex: boolean)'
+      parameters:
+        - id: elem
+          type:
+            - HTMLElement
+          description: ''
+        - id: ignoreTabIndex
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.isElementFocusableChildOf'
+    name: isElementFocusableChildOf
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function isElementFocusableChildOf(elem: HTMLElement, ancestor:
+        HTMLElement)
+      parameters:
+        - id: elem
+          type:
+            - HTMLElement
+          description: ''
+        - id: ancestor
+          type:
+            - HTMLElement
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.isEnter'
+    name: isEnter
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isEnter(e: KeyboardEvent)'
+      parameters:
+        - id: e
+          type:
+            - KeyboardEvent
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.isEscape'
+    name: isEscape
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isEscape(e: KeyboardEvent)'
+      parameters:
+        - id: e
+          type:
+            - KeyboardEvent
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.isKey'
+    name: isKey
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function isKey(keyCode: number, e: KeyboardEvent, allowAlt: boolean,
+        allowCtrl: boolean, allowShift: boolean)
+      parameters:
+        - id: keyCode
+          type:
+            - number
+          description: ''
+        - id: e
+          type:
+            - KeyboardEvent
+          description: ''
+        - id: allowAlt
+          type:
+            - boolean
+          description: ''
+        - id: allowCtrl
+          type:
+            - boolean
+          description: ''
+        - id: allowShift
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.isShiftTab'
+    name: isShiftTab
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isShiftTab(e: KeyboardEvent)'
+      parameters:
+        - id: e
+          type:
+            - KeyboardEvent
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.isTab'
+    name: isTab
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isTab(e: KeyboardEvent)'
+      parameters:
+        - id: e
+          type:
+            - KeyboardEvent
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.navigateInside'
+    name: navigateInside
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function navigateInside(elem: HTMLElement)'
+      parameters:
+        - id: elem
+          type:
+            - HTMLElement
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.navigateOutOf'
+    name: navigateOutOf
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function navigateOutOf(elem: HTMLElement, topElement: HTMLElement)'
+      parameters:
+        - id: elem
+          type:
+            - HTMLElement
+          description: ''
+        - id: topElement
+          type:
+            - HTMLElement
+          description: ''
+  - uid: '@ms/sp-canvas.navigateTo'
+    name: navigateTo
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function navigateTo(elem: HTMLElement)'
+      parameters:
+        - id: elem
+          type:
+            - HTMLElement
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.noop'
+    name: noop
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >
+      Bugs often appear in async code when stuff gets disposed, but async
+      operations don't get canceled.
+
+      This Async helper class solves these issues by tying async code to the
+      lifetime of a disposable object.
+
+      Usage: Anything class extending from BaseModel can access this helper via
+      this.async. Otherwise create a
+
+      new instance of the class and remember to call dispose() during your
+      code's dispose handler.
+    syntax:
+      content: function noop()
+      parameters: []
+  - uid: '@ms/sp-canvas.queryFocusableSelector'
+    name: queryFocusableSelector
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function queryFocusableSelector(elem: HTMLElement)'
+      parameters:
+        - id: elem
+          type:
+            - HTMLElement
+          description: ''
+      return:
+        type:
+          - NodeList
+  - uid: '@ms/sp-canvas.StripOutNewLinesAndSpacesFromInnerHTML'
+    name: StripOutNewLinesAndSpacesFromInnerHTML
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function StripOutNewLinesAndSpacesFromInnerHTML(innerHTML: string)'
+      parameters:
+        - id: innerHTML
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.ToolboxGroup'
+    name: ToolboxGroup
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function ToolboxGroup(props: IToolboxGroupProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-canvas.IToolboxGroupProps'
+          description: ''
+      return:
+        type:
+          - ReactElement<@@ms/sp-canvas.IToolboxGroupProps>
+  - uid: '@ms/sp-canvas.ToolboxItem'
+    name: ToolboxItem
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function ToolboxItem(props: IToolboxItemProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-canvas.IToolboxItemProps'
+          description: ''
+      return:
+        type:
+          - ReactElement<@@ms/sp-canvas.IToolboxItemProps>

@@ -1,0 +1,260 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.UserVoiceWidgetConfiguration'
+    name: UserVoiceWidgetConfiguration
+    fullName: UserVoiceWidgetConfiguration
+    children:
+      - '@ms/sp-pages.UserVoiceWidgetConfiguration.accentColor'
+      - '@ms/sp-pages.UserVoiceWidgetConfiguration.buttons'
+      - '@ms/sp-pages.UserVoiceWidgetConfiguration.configuation'
+      - '@ms/sp-pages.UserVoiceWidgetConfiguration.forumId'
+      - '@ms/sp-pages.UserVoiceWidgetConfiguration.forumUrl'
+      - '@ms/sp-pages.UserVoiceWidgetConfiguration.height'
+      - '@ms/sp-pages.UserVoiceWidgetConfiguration.locale'
+      - '@ms/sp-pages.UserVoiceWidgetConfiguration.onUserVoiceFailure'
+      - '@ms/sp-pages.UserVoiceWidgetConfiguration.onUserVoiceStart'
+      - '@ms/sp-pages.UserVoiceWidgetConfiguration.onUserVoiceSuccess'
+      - '@ms/sp-pages.UserVoiceWidgetConfiguration.position'
+      - '@ms/sp-pages.UserVoiceWidgetConfiguration.postSuggestionEnabled'
+      - '@ms/sp-pages.UserVoiceWidgetConfiguration.screenshotEnabled'
+      - '@ms/sp-pages.UserVoiceWidgetConfiguration.smartvoteEnabled'
+      - '@ms/sp-pages.UserVoiceWidgetConfiguration.target'
+      - '@ms/sp-pages.UserVoiceWidgetConfiguration.userEmail'
+      - '@ms/sp-pages.UserVoiceWidgetConfiguration.width'
+      - '@ms/sp-pages.UserVoiceWidgetConfiguration.workloadId'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.UserVoiceWidgetConfiguration.accentColor'
+    name: accentColor
+    fullName: accentColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string accentColor
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.UserVoiceWidgetConfiguration.buttons'
+    name: buttons
+    fullName: buttons
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<UserVoiceButtonConfiguration> buttons
+      return:
+        type:
+          - Array<@@ms/sp-pages.UserVoiceButtonConfiguration>
+  - uid: '@ms/sp-pages.UserVoiceWidgetConfiguration.configuation'
+    name: configuation
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function configuation()
+      parameters: []
+  - uid: '@ms/sp-pages.UserVoiceWidgetConfiguration.forumId'
+    name: forumId
+    fullName: forumId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string forumId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.UserVoiceWidgetConfiguration.forumUrl'
+    name: forumUrl
+    fullName: forumUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string forumUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.UserVoiceWidgetConfiguration.height'
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string height
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.UserVoiceWidgetConfiguration.locale'
+    name: locale
+    fullName: locale
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string locale
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.UserVoiceWidgetConfiguration.onUserVoiceFailure'
+    name: onUserVoiceFailure
+    fullName: onUserVoiceFailure
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(T: string, T2: string) => void onUserVoiceFailure'
+      return:
+        type:
+          - '(T: string, T2: string) => void'
+  - uid: '@ms/sp-pages.UserVoiceWidgetConfiguration.onUserVoiceStart'
+    name: onUserVoiceStart
+    fullName: onUserVoiceStart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(T: string) => void onUserVoiceStart'
+      return:
+        type:
+          - '(T: string) => void'
+  - uid: '@ms/sp-pages.UserVoiceWidgetConfiguration.onUserVoiceSuccess'
+    name: onUserVoiceSuccess
+    fullName: onUserVoiceSuccess
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(T: string) => void onUserVoiceSuccess'
+      return:
+        type:
+          - '(T: string) => void'
+  - uid: '@ms/sp-pages.UserVoiceWidgetConfiguration.position'
+    name: position
+    fullName: position
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string position
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.UserVoiceWidgetConfiguration.postSuggestionEnabled'
+    name: postSuggestionEnabled
+    fullName: postSuggestionEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean postSuggestionEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.UserVoiceWidgetConfiguration.screenshotEnabled'
+    name: screenshotEnabled
+    fullName: screenshotEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean screenshotEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.UserVoiceWidgetConfiguration.smartvoteEnabled'
+    name: smartvoteEnabled
+    fullName: smartvoteEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean smartvoteEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.UserVoiceWidgetConfiguration.target'
+    name: target
+    fullName: target
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string target
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.UserVoiceWidgetConfiguration.userEmail'
+    name: userEmail
+    fullName: userEmail
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string userEmail
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.UserVoiceWidgetConfiguration.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string width
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.UserVoiceWidgetConfiguration.workloadId'
+    name: workloadId
+    fullName: workloadId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string workloadId
+      return:
+        type:
+          - string

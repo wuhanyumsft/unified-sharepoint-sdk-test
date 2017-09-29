@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/i18n-utilities.INumberParserOptions'
+    name: INumberParserOptions
+    fullName: INumberParserOptions
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/i18n-utilities.INumberStyleOptions'
+    package: '@ms/i18n-utilities'

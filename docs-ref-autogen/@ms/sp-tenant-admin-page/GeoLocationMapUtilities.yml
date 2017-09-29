@@ -1,0 +1,104 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.GeoLocationMapUtilities'
+    name: GeoLocationMapUtilities
+    fullName: GeoLocationMapUtilities
+    children:
+      - '@ms/sp-tenant-admin-page.GeoLocationMapUtilities.DEFAULT_COLOR'
+      - '@ms/sp-tenant-admin-page.GeoLocationMapUtilities.constructor'
+      - >-
+        @ms/sp-tenant-admin-page.GeoLocationMapUtilities.GetDefaultGeoLocationDisplayName
+      - '@ms/sp-tenant-admin-page.GeoLocationMapUtilities.GetMapSeriesOptions'
+      - '@ms/sp-tenant-admin-page.GeoLocationMapUtilities.HOVER_COLOR'
+      - '@ms/sp-tenant-admin-page.GeoLocationMapUtilities.SELECTED_COLOR'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.GeoLocationMapUtilities.DEFAULT_COLOR'
+    name: DEFAULT_COLOR
+    fullName: DEFAULT_COLOR
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string DEFAULT_COLOR
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.GeoLocationMapUtilities.constructor'
+    name: GeoLocationMapUtilities
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new GeoLocationMapUtilities()
+      parameters: []
+  - uid: >-
+      @ms/sp-tenant-admin-page.GeoLocationMapUtilities.GetDefaultGeoLocationDisplayName
+    name: GetDefaultGeoLocationDisplayName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function GetDefaultGeoLocationDisplayName()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.GeoLocationMapUtilities.GetMapSeriesOptions'
+    name: GetMapSeriesOptions
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function GetMapSeriesOptions(geoLocationInfo: IGeoLocationInformation,
+        currentGeoLocation: string)
+      parameters:
+        - id: geoLocationInfo
+          type:
+            - '@@ms/sp-tenant-admin-page.IGeoLocationInformation'
+          description: ''
+        - id: currentGeoLocation
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - MapSeriesOptions
+  - uid: '@ms/sp-tenant-admin-page.GeoLocationMapUtilities.HOVER_COLOR'
+    name: HOVER_COLOR
+    fullName: HOVER_COLOR
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string HOVER_COLOR
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.GeoLocationMapUtilities.SELECTED_COLOR'
+    name: SELECTED_COLOR
+    fullName: SELECTED_COLOR
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SELECTED_COLOR
+      return:
+        type:
+          - string

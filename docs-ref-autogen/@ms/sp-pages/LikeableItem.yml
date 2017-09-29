@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.LikeableItem'
+    name: LikeableItem
+    fullName: LikeableItem
+    children:
+      - '@ms/sp-pages.LikeableItem.hasMoreLikes'
+      - '@ms/sp-pages.LikeableItem.like'
+      - '@ms/sp-pages.LikeableItem.constructor'
+      - '@ms/sp-pages.LikeableItem.processLikeChunk'
+      - '@ms/sp-pages.LikeableItem.unlike'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.LikeableItem.hasMoreLikes'
+    name: hasMoreLikes
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function hasMoreLikes()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.LikeableItem.like'
+    name: like
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function like()
+      parameters: []
+  - uid: '@ms/sp-pages.LikeableItem.constructor'
+    name: LikeableItem
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new LikeableItem(likeCount?: number, likedBy?: IUserObject[],
+        nextLikesLink?: string, userLiked?: boolean)
+      parameters:
+        - id: likeCount
+          type:
+            - number
+          description: ''
+          optional: true
+        - id: likedBy
+          type:
+            - '@@ms/sp-pages.IUserObject[]'
+          description: ''
+          optional: true
+        - id: nextLikesLink
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: userLiked
+          type:
+            - boolean
+          description: ''
+          optional: true
+  - uid: '@ms/sp-pages.LikeableItem.processLikeChunk'
+    name: processLikeChunk
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function processLikeChunk(likeChunk: ILikeChunk)'
+      parameters:
+        - id: likeChunk
+          type:
+            - '@@ms/sp-pages.ILikeChunk'
+          description: ''
+  - uid: '@ms/sp-pages.LikeableItem.unlike'
+    name: unlike
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function unlike()
+      parameters: []

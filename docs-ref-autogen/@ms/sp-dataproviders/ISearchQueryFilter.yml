@@ -1,0 +1,123 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.ISearchQueryFilter'
+    name: ISearchQueryFilter
+    fullName: ISearchQueryFilter
+    children:
+      - '@ms/sp-dataproviders.ISearchQueryFilter.fieldname'
+      - '@ms/sp-dataproviders.ISearchQueryFilter.fieldNameMatchText'
+      - '@ms/sp-dataproviders.ISearchQueryFilter.filterType'
+      - '@ms/sp-dataproviders.ISearchQueryFilter.lastFieldNameMatchText'
+      - '@ms/sp-dataproviders.ISearchQueryFilter.op'
+      - '@ms/sp-dataproviders.ISearchQueryFilter.userType'
+      - '@ms/sp-dataproviders.ISearchQueryFilter.value'
+      - '@ms/sp-dataproviders.ISearchQueryFilter.value2'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.ISearchQueryFilter.fieldname'
+    name: fieldname
+    fullName: fieldname
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string fieldname
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchQueryFilter.fieldNameMatchText'
+    name: fieldNameMatchText
+    fullName: fieldNameMatchText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string fieldNameMatchText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchQueryFilter.filterType'
+    name: filterType
+    fullName: filterType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: FilterType filterType
+      return:
+        type:
+          - FilterType
+  - uid: '@ms/sp-dataproviders.ISearchQueryFilter.lastFieldNameMatchText'
+    name: lastFieldNameMatchText
+    fullName: lastFieldNameMatchText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string lastFieldNameMatchText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchQueryFilter.op'
+    name: op
+    fullName: op
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: FilterOperator op
+      return:
+        type:
+          - FilterOperator
+  - uid: '@ms/sp-dataproviders.ISearchQueryFilter.userType'
+    name: userType
+    fullName: userType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: UserType userType
+      return:
+        type:
+          - UserType
+  - uid: '@ms/sp-dataproviders.ISearchQueryFilter.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number value
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-dataproviders.ISearchQueryFilter.value2'
+    name: value2
+    fullName: value2
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number value2
+      return:
+        type:
+          - number

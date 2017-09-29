@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbedDataProvider'
+    name: DocumentEmbedDataProvider
+    fullName: DocumentEmbedDataProvider
+    children:
+      - '@ms/sp-publishing-webparts.DocumentEmbedDataProvider.constructor'
+      - '@ms/sp-publishing-webparts.DocumentEmbedDataProvider.getWOPIMetadata'
+    langs:
+      - typeScript
+    type: class
+    summary: This class helps in making the REST api calls for Document webpart.
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbedDataProvider.constructor'
+    name: DocumentEmbedDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Instantiates DocumentEmbedDataProvider Class.
+    syntax:
+      content: >-
+        new DocumentEmbedDataProvider(serviceScope: ServiceScope, isMockMode:
+        boolean)
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+        - id: isMockMode
+          type:
+            - boolean
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbedDataProvider.getWOPIMetadata'
+    name: getWOPIMetadata
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Method to get the WOPI properties for the document.
+    syntax:
+      content: 'function getWOPIMetadata(absolutefileUrl: string)'
+      parameters:
+        - id: absolutefileUrl
+          type:
+            - string
+          description: File url for which the WOPI properties are required.
+      return:
+        type:
+          - Promise<IFileValidationResponse>

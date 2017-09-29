@@ -1,0 +1,130 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-shared.OAuthUtilityContextMock'
+    name: OAuthUtilityContextMock
+    fullName: OAuthUtilityContextMock
+    children:
+      - '@ms/sp-client-shared.OAuthUtilityContextMock.callCount'
+      - '@ms/sp-client-shared.OAuthUtilityContextMock.fetchWithDigest'
+      - '@ms/sp-client-shared.OAuthUtilityContextMock.fetchWithDigest'
+      - '@ms/sp-client-shared.OAuthUtilityContextMock.logger'
+      - '@ms/sp-client-shared.OAuthUtilityContextMock.constructor'
+      - '@ms/sp-client-shared.OAuthUtilityContextMock.qosMonitor'
+      - '@ms/sp-client-shared.OAuthUtilityContextMock.registerErrorResponse'
+      - '@ms/sp-client-shared.OAuthUtilityContextMock.registerTokenResponse'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-client-shared'
+  - uid: '@ms/sp-client-shared.OAuthUtilityContextMock.callCount'
+    name: callCount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function callCount(methodName: string)'
+      parameters:
+        - id: methodName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-client-shared.OAuthUtilityContextMock.fetchWithDigest'
+    name: fetchWithDigest
+    fullName: fetchWithDigest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string fetchWithDigest
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-shared.OAuthUtilityContextMock.fetchWithDigest'
+    name: fetchWithDigest
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fetchWithDigest(request: Request)'
+      parameters:
+        - id: request
+          type:
+            - Request
+          description: ''
+      return:
+        type:
+          - Promise<Response>
+  - uid: '@ms/sp-client-shared.OAuthUtilityContextMock.logger'
+    name: logger
+    fullName: logger
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: LoggerMock logger
+      return:
+        type:
+          - '@@ms/sp-client-shared.LoggerMock'
+  - uid: '@ms/sp-client-shared.OAuthUtilityContextMock.constructor'
+    name: OAuthUtilityContextMock
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new OAuthUtilityContextMock()
+      parameters: []
+  - uid: '@ms/sp-client-shared.OAuthUtilityContextMock.qosMonitor'
+    name: qosMonitor
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function qosMonitor()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-client-shared.IQosMonitor'
+  - uid: '@ms/sp-client-shared.OAuthUtilityContextMock.registerErrorResponse'
+    name: registerErrorResponse
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function registerErrorResponse(errorParams: IErrorParams)'
+      parameters:
+        - id: errorParams
+          type:
+            - '@@ms/sp-client-shared.IErrorParams'
+          description: ''
+  - uid: '@ms/sp-client-shared.OAuthUtilityContextMock.registerTokenResponse'
+    name: registerTokenResponse
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function registerTokenResponse(tokenParams: ITokenParams)'
+      parameters:
+        - id: tokenParams
+          type:
+            - '@@ms/sp-client-shared.ITokenParams'
+          description: ''

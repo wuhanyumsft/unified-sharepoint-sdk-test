@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.IControlComponentValue'
+    name: IControlComponentValue
+    fullName: IControlComponentValue
+    children:
+      - '@ms/sp-canvas.IControlComponentValue.component'
+      - '@ms/sp-canvas.IControlComponentValue.position'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.IControlComponentValue.component'
+    name: component
+    fullName: component
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CanvasControlComponent component
+      return:
+        type:
+          - CanvasControlComponent
+  - uid: '@ms/sp-canvas.IControlComponentValue.position'
+    name: position
+    fullName: position
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IControlPosition position
+      return:
+        type:
+          - '@@ms/sp-canvas.IControlPosition'

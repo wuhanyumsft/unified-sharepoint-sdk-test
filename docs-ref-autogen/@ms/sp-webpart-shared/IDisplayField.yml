@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.IDisplayField'
+    name: IDisplayField
+    fullName: IDisplayField
+    children:
+      - '@ms/sp-webpart-shared.IDisplayField.heading'
+      - '@ms/sp-webpart-shared.IDisplayField.linkUrls'
+      - '@ms/sp-webpart-shared.IDisplayField.sources'
+      - '@ms/sp-webpart-shared.IDisplayField.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.IDisplayField.heading'
+    name: heading
+    fullName: heading
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string heading
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IDisplayField.linkUrls'
+    name: linkUrls
+    fullName: linkUrls
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] linkUrls'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-webpart-shared.IDisplayField.sources'
+    name: sources
+    fullName: sources
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] sources'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-webpart-shared.IDisplayField.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number width
+      return:
+        type:
+          - number

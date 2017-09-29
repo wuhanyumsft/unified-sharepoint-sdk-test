@@ -1,0 +1,46 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-a11y'
+    name: '@ms/sp-a11y'
+    summary: ''
+    children:
+      - '@ms/sp-a11y.A11yAttributeType'
+      - '@ms/sp-a11y.A11yAttribute'
+      - '@ms/sp-a11y.A11yManager'
+      - '@ms/sp-a11y.IA11yManagerConfig'
+      - '@ms/sp-a11y.IFocusListener'
+      - '@ms/sp-a11y.DomTraversal'
+      - '@ms/sp-a11y.Focus'
+      - '@ms/sp-a11y.FocusTransition'
+      - '@ms/sp-a11y.Keyboard'
+      - '@ms/sp-a11y.IKeyboardEvent'
+      - '@ms/sp-a11y.IModifierKeys'
+      - '@ms/sp-a11y.ScreenReader'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@ms/sp-a11y.A11yAttributeType'
+    name: A11yAttributeType
+  - uid: '@ms/sp-a11y.A11yAttribute'
+    name: A11yAttribute
+  - uid: '@ms/sp-a11y.A11yManager'
+    name: A11yManager
+  - uid: '@ms/sp-a11y.IA11yManagerConfig'
+    name: IA11yManagerConfig
+  - uid: '@ms/sp-a11y.IFocusListener'
+    name: IFocusListener
+  - uid: '@ms/sp-a11y.DomTraversal'
+    name: DomTraversal
+  - uid: '@ms/sp-a11y.Focus'
+    name: Focus
+  - uid: '@ms/sp-a11y.FocusTransition'
+    name: FocusTransition
+  - uid: '@ms/sp-a11y.Keyboard'
+    name: Keyboard
+  - uid: '@ms/sp-a11y.IKeyboardEvent'
+    name: IKeyboardEvent
+  - uid: '@ms/sp-a11y.IModifierKeys'
+    name: IModifierKeys
+  - uid: '@ms/sp-a11y.ScreenReader'
+    name: ScreenReader

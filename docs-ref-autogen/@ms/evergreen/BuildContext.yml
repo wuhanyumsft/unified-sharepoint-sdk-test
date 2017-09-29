@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/evergreen.BuildContext'
+    name: BuildContext
+    fullName: BuildContext
+    children:
+      - '@ms/evergreen.BuildContext.get'
+      - '@ms/evergreen.BuildContext.set'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/evergreen'
+  - uid: '@ms/evergreen.BuildContext.get'
+    name: get
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Read the stored build context from a file
+    syntax:
+      content: 'static function get(basePath: string)'
+      parameters:
+        - id: basePath
+          type:
+            - string
+          description: ''
+  - uid: '@ms/evergreen.BuildContext.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Store the current build context to a file
+    syntax:
+      content: 'static function set(basePath: string, context: IBuildContext)'
+      parameters:
+        - id: basePath
+          type:
+            - string
+          description: ''
+        - id: context
+          type:
+            - IBuildContext
+          description: ''

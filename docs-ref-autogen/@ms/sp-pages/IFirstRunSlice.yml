@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IFirstRunSlice'
+    name: IFirstRunSlice
+    fullName: IFirstRunSlice
+    children:
+      - '@ms/sp-pages.IFirstRunSlice.forceUpdate'
+      - '@ms/sp-pages.IFirstRunSlice.isFirstRun'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IFirstRunSlice.forceUpdate'
+    name: forceUpdate
+    fullName: forceUpdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean forceUpdate
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IFirstRunSlice.isFirstRun'
+    name: isFirstRun
+    fullName: isFirstRun
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isFirstRun
+      return:
+        type:
+          - boolean

@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.DateBox'
+    name: DateBox
+    fullName: DateBox
+    children:
+      - '@ms/sp-webpart-shared.DateBox.formatDate'
+      - '@ms/sp-webpart-shared.DateBox.formatDay'
+      - '@ms/sp-webpart-shared.DateBox.formatMonth'
+      - '@ms/sp-webpart-shared.DateBox.render'
+    langs:
+      - typeScript
+    type: class
+    summary: The date box component.
+    extends:
+      name: '@@ms/sp-webpart-shared.DateBox<@@ms/sp-webpart-shared.IDateBoxProps>'
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.DateBox.formatDate'
+    name: formatDate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatDate(date: Date)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-webpart-shared.DateBox.formatDay'
+    name: formatDay
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatDay(date: Date)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-webpart-shared.DateBox.formatMonth'
+    name: formatMonth
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatMonth(date: Date)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-webpart-shared.DateBox.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

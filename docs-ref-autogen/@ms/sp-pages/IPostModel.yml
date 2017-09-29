@@ -1,0 +1,165 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IPostModel'
+    name: IPostModel
+    fullName: IPostModel
+    children:
+      - '@ms/sp-pages.IPostModel.Author'
+      - '@ms/sp-pages.IPostModel.Content'
+      - '@ms/sp-pages.IPostModel.FileName'
+      - '@ms/sp-pages.IPostModel.FriendlyUrlFileName'
+      - '@ms/sp-pages.IPostModel.Id'
+      - '@ms/sp-pages.IPostModel.ModifiedDate'
+      - '@ms/sp-pages.IPostModel.OperationType'
+      - '@ms/sp-pages.IPostModel.ThumbnailSource'
+      - '@ms/sp-pages.IPostModel.Title'
+      - '@ms/sp-pages.IPostModel.UserIsAuthor'
+      - '@ms/sp-pages.IPostModel.Version'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IPostModel.Author'
+    name: Author
+    fullName: Author
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Author
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IPostModel.Content'
+    name: Content
+    fullName: Content
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Content
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IPostModel.FileName'
+    name: FileName
+    fullName: FileName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string FileName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IPostModel.FriendlyUrlFileName'
+    name: FriendlyUrlFileName
+    fullName: FriendlyUrlFileName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string FriendlyUrlFileName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IPostModel.Id'
+    name: Id
+    fullName: Id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number Id
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.IPostModel.ModifiedDate'
+    name: ModifiedDate
+    fullName: ModifiedDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ModifiedDate
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IPostModel.OperationType'
+    name: OperationType
+    fullName: OperationType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number OperationType
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.IPostModel.ThumbnailSource'
+    name: ThumbnailSource
+    fullName: ThumbnailSource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ThumbnailSource
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IPostModel.Title'
+    name: Title
+    fullName: Title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IPostModel.UserIsAuthor'
+    name: UserIsAuthor
+    fullName: UserIsAuthor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean UserIsAuthor
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IPostModel.Version'
+    name: Version
+    fullName: Version
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Version
+      return:
+        type:
+          - string

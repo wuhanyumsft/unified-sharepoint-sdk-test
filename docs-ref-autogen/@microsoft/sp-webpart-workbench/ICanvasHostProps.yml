@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-workbench.ICanvasHostProps'
+    name: ICanvasHostProps
+    fullName: ICanvasHostProps
+    children:
+      - '@microsoft/sp-webpart-workbench.ICanvasHostProps.hasCommandBar'
+      - '@microsoft/sp-webpart-workbench.ICanvasHostProps.hasOfficeHeader'
+      - '@microsoft/sp-webpart-workbench.ICanvasHostProps.isEditing'
+      - '@microsoft/sp-webpart-workbench.ICanvasHostProps.store'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-webpart-workbench'
+  - uid: '@microsoft/sp-webpart-workbench.ICanvasHostProps.hasCommandBar'
+    name: hasCommandBar
+    fullName: hasCommandBar
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasCommandBar
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-workbench.ICanvasHostProps.hasOfficeHeader'
+    name: hasOfficeHeader
+    fullName: hasOfficeHeader
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasOfficeHeader
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-workbench.ICanvasHostProps.isEditing'
+    name: isEditing
+    fullName: isEditing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isEditing
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-workbench.ICanvasHostProps.store'
+    name: store
+    fullName: store
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageStore store
+      return:
+        type:
+          - '@@microsoft/sp-webpart-workbench.PageStore'

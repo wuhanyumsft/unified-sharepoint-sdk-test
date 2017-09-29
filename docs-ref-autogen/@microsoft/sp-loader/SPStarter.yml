@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.SPStarter'
+    name: SPStarter
+    fullName: SPStarter
+    children:
+      - '@microsoft/sp-loader.SPStarter.getBrowserCompatibility'
+      - '@microsoft/sp-loader.SPStarter.start'
+    langs:
+      - typeScript
+    type: class
+    summary: Bootstrapper for the application
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.SPStarter.getBrowserCompatibility'
+    name: getBrowserCompatibility
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Returns the support level for the browser.
+
+      There are some specific browsers that we know don't work with SPFx, and
+      some
+
+      features that the browser needs to support for SPFx. In those cases the
+      page
+
+      shouldn't even try to load.
+
+
+      This is intended to be called by the page scripts before start.
+
+      There is no need, and no use, to call it from your own code.
+    syntax:
+      content: static function getBrowserCompatibility()
+      parameters: []
+      return:
+        type:
+          - IBrowserCompatibility
+  - uid: '@microsoft/sp-loader.SPStarter.start'
+    name: start
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      This is called by the page scripts to start loading the framework. Do not
+      call it from your own code.
+    syntax:
+      content: >-
+        static function start<TApplication>(preloadedData: IPreloadedData,
+        handleFailure?: (errorInformation: IErrorInformation) => void)
+      parameters:
+        - id: preloadedData
+          type:
+            - '@@microsoft/sp-loader.IPreloadedData'
+          description: ''
+        - id: handleFailure
+          type:
+            - '(errorInformation: IErrorInformation) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<TApplication>

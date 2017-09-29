@@ -1,0 +1,78 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.SharingStatus'
+    name: SharingStatus
+    fullName: SharingStatus
+    children:
+      - '@ms/sp-tenant-admin-page.SharingStatus.None'
+      - '@ms/sp-tenant-admin-page.SharingStatus.Intranet'
+      - '@ms/sp-tenant-admin-page.SharingStatus.Extranet'
+      - '@ms/sp-tenant-admin-page.SharingStatus.Lite'
+      - '@ms/sp-tenant-admin-page.SharingStatus.PublicForSTenent'
+      - '@ms/sp-tenant-admin-page.SharingStatus.ExtranetWithShareByLink'
+      - >-
+        @ms/sp-tenant-admin-page.SharingStatus.ExtranetWithExistingShareByEmailUserOnly
+    langs:
+      - typeScript
+    type: enum
+    summary: >-
+      Sharing status(Collaboration type) of a site. This is the same with the
+      definition in the backend.
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.SharingStatus.None'
+    name: None
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+  - uid: '@ms/sp-tenant-admin-page.SharingStatus.Intranet'
+    name: Intranet
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-tenant-admin-page.SharingStatus.Extranet'
+    name: Extranet
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+  - uid: '@ms/sp-tenant-admin-page.SharingStatus.Lite'
+    name: Lite
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+  - uid: '@ms/sp-tenant-admin-page.SharingStatus.PublicForSTenent'
+    name: PublicForSTenent
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 8
+  - uid: '@ms/sp-tenant-admin-page.SharingStatus.ExtranetWithShareByLink'
+    name: ExtranetWithShareByLink
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 16
+  - uid: >-
+      @ms/sp-tenant-admin-page.SharingStatus.ExtranetWithExistingShareByEmailUserOnly
+    name: ExtranetWithExistingShareByEmailUserOnly
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 32

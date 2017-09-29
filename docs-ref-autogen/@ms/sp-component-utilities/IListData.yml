@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.IListData'
+    name: IListData
+    fullName: IListData
+    children:
+      - '@ms/sp-component-utilities.IListData.Row'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.IListData.Row'
+    name: Row
+    fullName: Row
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IRow[] Row'
+      return:
+        type:
+          - '@@ms/sp-component-utilities.IRow[]'

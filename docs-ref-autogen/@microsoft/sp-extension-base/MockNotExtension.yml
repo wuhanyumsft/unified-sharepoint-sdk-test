@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-extension-base.MockNotExtension'
+    name: MockNotExtension
+    fullName: MockNotExtension
+    children:
+      - '@microsoft/sp-extension-base.MockNotExtension.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-extension-base'
+  - uid: '@microsoft/sp-extension-base.MockNotExtension.constructor'
+    name: MockNotExtension
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new MockNotExtension()
+      parameters: []

@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IResponseUrl'
+    name: IResponseUrl
+    fullName: IResponseUrl
+    children:
+      - '@ms/sp-dataproviders.IResponseUrl.Description'
+      - '@ms/sp-dataproviders.IResponseUrl.Url'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      This interface should be consistent with REST API response for
+      FieldUrlValue,
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IResponseUrl.Description'
+    name: Description
+    fullName: Description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Description of response value
+    syntax:
+      content: string Description
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IResponseUrl.Url'
+    name: Url
+    fullName: Url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Url of response value
+    syntax:
+      content: string Url
+      return:
+        type:
+          - string

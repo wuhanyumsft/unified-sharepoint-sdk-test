@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-workbench.IErrorDialogState'
+    name: IErrorDialogState
+    fullName: IErrorDialogState
+    children:
+      - '@microsoft/sp-webpart-workbench.IErrorDialogState.showDialog'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-webpart-workbench'
+  - uid: '@microsoft/sp-webpart-workbench.IErrorDialogState.showDialog'
+    name: showDialog
+    fullName: showDialog
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showDialog
+      return:
+        type:
+          - boolean

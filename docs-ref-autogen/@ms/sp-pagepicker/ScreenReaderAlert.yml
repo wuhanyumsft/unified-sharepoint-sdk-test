@@ -1,0 +1,68 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pagepicker.ScreenReaderAlert'
+    name: ScreenReaderAlert
+    fullName: ScreenReaderAlert
+    children:
+      - '@ms/sp-pagepicker.ScreenReaderAlert.defaultProps'
+      - '@ms/sp-pagepicker.ScreenReaderAlert.read'
+      - '@ms/sp-pagepicker.ScreenReaderAlert.render'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      This is a screen reader alert component for developers to easily add
+      screen reader feature to their web site.
+    extends:
+      name: >-
+        @@ms/sp-pagepicker.ScreenReaderAlert<@@ms/sp-pagepicker.IScreenReaderAlertProps>
+    package: '@ms/sp-pagepicker'
+  - uid: '@ms/sp-pagepicker.ScreenReaderAlert.defaultProps'
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static IScreenReaderAlertProps defaultProps
+      return:
+        type:
+          - '@@ms/sp-pagepicker.IScreenReaderAlertProps'
+  - uid: '@ms/sp-pagepicker.ScreenReaderAlert.read'
+    name: read
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      This is an API for developers to read screen reader message.
+
+      It is typically to be called when there is no React component or DOM
+      element to attach ScreenReaderAlert component.
+    syntax:
+      content: 'static function read(message: string, readingMode?: ReadingMode)'
+      parameters:
+        - id: message
+          type:
+            - string
+          description: ''
+        - id: readingMode
+          type:
+            - ReadingMode
+          description: ''
+          optional: true
+  - uid: '@ms/sp-pagepicker.ScreenReaderAlert.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

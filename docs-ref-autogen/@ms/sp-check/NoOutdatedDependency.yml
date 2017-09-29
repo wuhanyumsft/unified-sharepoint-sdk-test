@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-check.NoOutdatedDependency'
+    name: NoOutdatedDependency
+    fullName: NoOutdatedDependency
+    children:
+      - '@ms/sp-check.NoOutdatedDependency.check'
+      - '@ms/sp-check.NoOutdatedDependency.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: A condition that microsoft packages should use the latest version.
+    extends:
+      name: '@@ms/sp-check.BaseCondition'
+    package: '@ms/sp-check'
+  - uid: '@ms/sp-check.NoOutdatedDependency.check'
+    name: check
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function check()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-check.IResult'
+  - uid: '@ms/sp-check.NoOutdatedDependency.constructor'
+    name: NoOutdatedDependency
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new NoOutdatedDependency()
+      parameters: []

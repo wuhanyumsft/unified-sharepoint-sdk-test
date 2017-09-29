@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.IMultiFilter'
+    name: IMultiFilter
+    fullName: IMultiFilter
+    children:
+      - '@microsoft/sp-loader.IMultiFilter.none'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.IMultiFilter.none'
+    name: none
+    fullName: none
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean none
+      return:
+        type:
+          - boolean

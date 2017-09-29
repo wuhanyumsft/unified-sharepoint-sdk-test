@@ -1,0 +1,82 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksCardRenderer'
+    name: QuickLinksCardRenderer
+    fullName: QuickLinksCardRenderer
+    children:
+      - '@ms/sp-teamsite-webparts.QuickLinksCardRenderer.onRenderCompactCard'
+      - '@ms/sp-teamsite-webparts.QuickLinksCardRenderer.onRenderFilmstripCard'
+      - '@ms/sp-teamsite-webparts.QuickLinksCardRenderer.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksCardRenderer.onRenderCompactCard'
+    name: onRenderCompactCard
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function onRenderCompactCard(index: number, cardProps:
+        ICompactCardProps)
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+        - id: cardProps
+          type:
+            - ICompactCardProps
+          description: ''
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksCardRenderer.onRenderFilmstripCard'
+    name: onRenderFilmstripCard
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function onRenderFilmstripCard(item: IQuickLink, index: number,
+        sliderWidth: number, count: number)
+      parameters:
+        - id: item
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLink'
+          description: ''
+        - id: index
+          type:
+            - number
+          description: ''
+        - id: sliderWidth
+          type:
+            - number
+          description: ''
+        - id: count
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksCardRenderer.constructor'
+    name: QuickLinksCardRenderer
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new QuickLinksCardRenderer(props: IQuickLinksCardRendererProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLinksCardRendererProps'
+          description: ''

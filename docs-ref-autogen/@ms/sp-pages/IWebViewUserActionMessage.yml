@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IWebViewUserActionMessage'
+    name: IWebViewUserActionMessage
+    fullName: IWebViewUserActionMessage
+    children:
+      - '@ms/sp-pages.IWebViewUserActionMessage.args'
+      - '@ms/sp-pages.IWebViewUserActionMessage.baseUrl'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.IWebViewMessage'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IWebViewUserActionMessage.args'
+    name: args
+    fullName: args
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: __type args
+      return:
+        type:
+          - __type
+  - uid: '@ms/sp-pages.IWebViewUserActionMessage.baseUrl'
+    name: baseUrl
+    fullName: baseUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string baseUrl
+      return:
+        type:
+          - string

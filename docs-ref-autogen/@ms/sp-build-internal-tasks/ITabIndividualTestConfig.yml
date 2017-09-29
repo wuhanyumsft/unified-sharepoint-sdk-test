@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.ITabIndividualTestConfig'
+    name: ITabIndividualTestConfig
+    fullName: ITabIndividualTestConfig
+    children:
+      - '@ms/sp-build-internal-tasks.ITabIndividualTestConfig.testProps'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An individual test file is set up like:
+
+      "testName": ["PathToTestJS", ProductServerSetIndex, #TODO: what does this
+      field represent? ].
+
+      This interface defines the part:
+       ["PathToTestJS", ProductServerSetIndex, #TODO: what does this field represent? ].
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.ITabIndividualTestConfig.testProps'
+    name: testProps
+    fullName: testProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function testProps
+      return:
+        type:
+          - function

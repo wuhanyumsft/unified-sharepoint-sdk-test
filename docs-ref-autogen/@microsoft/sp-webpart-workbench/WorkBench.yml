@@ -1,0 +1,82 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-workbench.WorkBench'
+    name: WorkBench
+    fullName: WorkBench
+    children:
+      - '@microsoft/sp-webpart-workbench.WorkBench.componentDidUpdate'
+      - '@microsoft/sp-webpart-workbench.WorkBench.getChildContext'
+      - '@microsoft/sp-webpart-workbench.WorkBench.render'
+      - '@microsoft/sp-webpart-workbench.WorkBench.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@microsoft/sp-webpart-workbench.WorkBench<@@microsoft/sp-webpart-workbench.IWorkBenchProps>
+    package: '@microsoft/sp-webpart-workbench'
+  - uid: '@microsoft/sp-webpart-workbench.WorkBench.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function componentDidUpdate(prevProps: IWorkBenchProps, prevState:
+        IWorkBenchState)
+      parameters:
+        - id: prevProps
+          type:
+            - '@@microsoft/sp-webpart-workbench.IWorkBenchProps'
+          description: ''
+        - id: prevState
+          type:
+            - '@@microsoft/sp-webpart-workbench.IWorkBenchState'
+          description: ''
+  - uid: '@microsoft/sp-webpart-workbench.WorkBench.getChildContext'
+    name: getChildContext
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getChildContext()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/sp-webpart-workbench.IWorkBenchContext'
+  - uid: '@microsoft/sp-webpart-workbench.WorkBench.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@microsoft/sp-webpart-workbench.IWorkBenchProps>
+  - uid: '@microsoft/sp-webpart-workbench.WorkBench.constructor'
+    name: WorkBench
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new WorkBench(props: IWorkBenchProps, context: IWorkBenchContext)'
+      parameters:
+        - id: props
+          type:
+            - '@@microsoft/sp-webpart-workbench.IWorkBenchProps'
+          description: ''
+        - id: context
+          type:
+            - '@@microsoft/sp-webpart-workbench.IWorkBenchContext'
+          description: ''

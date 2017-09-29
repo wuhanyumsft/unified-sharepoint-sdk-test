@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.PerformanceTitleImageTest'
+    name: PerformanceTitleImageTest
+    fullName: PerformanceTitleImageTest
+    children:
+      - '@ms/sp-pages.PerformanceTitleImageTest.constructor'
+      - '@ms/sp-pages.PerformanceTitleImageTest.TestIncludeScripts'
+      - '@ms/sp-pages.PerformanceTitleImageTest.TestName'
+      - '@ms/sp-pages.PerformanceTitleImageTest.TestOwner'
+      - '@ms/sp-pages.PerformanceTitleImageTest.TestRun'
+      - '@ms/sp-pages.PerformanceTitleImageTest.TestSetup'
+      - '@ms/sp-pages.PerformanceTitleImageTest.TestTeardown'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.PerformanceTitleImageTest.constructor'
+    name: PerformanceTitleImageTest
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PerformanceTitleImageTest(serverURL: string)'
+      parameters:
+        - id: serverURL
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-pages.PerformanceTitleImageTest.TestIncludeScripts'
+    name: TestIncludeScripts
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestIncludeScripts()
+      parameters: []
+  - uid: '@ms/sp-pages.PerformanceTitleImageTest.TestName'
+    name: TestName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestName()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.PerformanceTitleImageTest.TestOwner'
+    name: TestOwner
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestOwner()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.PerformanceTitleImageTest.TestRun'
+    name: TestRun
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestRun()
+      parameters: []
+  - uid: '@ms/sp-pages.PerformanceTitleImageTest.TestSetup'
+    name: TestSetup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestSetup()
+      parameters: []
+  - uid: '@ms/sp-pages.PerformanceTitleImageTest.TestTeardown'
+    name: TestTeardown
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestTeardown()
+      parameters: []

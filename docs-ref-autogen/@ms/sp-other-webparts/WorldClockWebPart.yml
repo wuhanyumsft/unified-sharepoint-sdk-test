@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-other-webparts.WorldClockWebPart'
+    name: WorldClockWebPart
+    fullName: WorldClockWebPart
+    children:
+      - '@ms/sp-other-webparts.WorldClockWebPart.dispose'
+      - '@ms/sp-other-webparts.WorldClockWebPart.getPropertyPaneConfiguration'
+      - '@ms/sp-other-webparts.WorldClockWebPart.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-other-webparts.WorldClockWebPart<@@ms/sp-other-webparts.IWorldClockWebPartProps>
+    package: '@ms/sp-other-webparts'
+  - uid: '@ms/sp-other-webparts.WorldClockWebPart.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function dispose()
+      parameters: []
+  - uid: '@ms/sp-other-webparts.WorldClockWebPart.getPropertyPaneConfiguration'
+    name: getPropertyPaneConfiguration
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Overriding the parent class method to tell it which property pane page to
+      display.
+    syntax:
+      content: function getPropertyPaneConfiguration()
+      parameters: []
+      return:
+        type:
+          - IPropertyPaneConfiguration
+  - uid: '@ms/sp-other-webparts.WorldClockWebPart.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []

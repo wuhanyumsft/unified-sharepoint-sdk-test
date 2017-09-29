@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: yeoman-list-application.YeomanListApplication
+    name: YeomanListApplication
+    fullName: YeomanListApplication
+    children:
+      - yeoman-list-application.YeomanListApplication.onRender
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@yeoman-list-application.YeomanListApplication'
+    package: yeoman-list-application
+  - uid: yeoman-list-application.YeomanListApplication.onRender
+    name: onRender
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function onRender()
+      parameters: []

@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ImageServiceType'
+    name: ImageServiceType
+    fullName: ImageServiceType
+    children:
+      - '@ms/sp-publishing-webparts.ImageServiceType.optimal'
+      - '@ms/sp-publishing-webparts.ImageServiceType.getPreview'
+      - '@ms/sp-publishing-webparts.ImageServiceType.fullImage'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ImageServiceType.optimal'
+    name: optimal
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-publishing-webparts.ImageServiceType.getPreview'
+    name: getPreview
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+  - uid: '@ms/sp-publishing-webparts.ImageServiceType.fullImage'
+    name: fullImage
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3

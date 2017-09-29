@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ColorPickerGroup'
+    name: ColorPickerGroup
+    fullName: ColorPickerGroup
+    children:
+      - '@ms/sp-canvas.ColorPickerGroup.constructor'
+      - '@ms/sp-canvas.ColorPickerGroup.render'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      Represents a group component for SPRteColorPicker. This group
+      includes the SwatchColorPicker and the associated label
+    extends:
+      name: '@@ms/sp-canvas.ColorPickerGroup<@@ms/sp-canvas.IColorPickerGroupProps>'
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ColorPickerGroup.constructor'
+    name: ColorPickerGroup
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Constructs an instance of ColorPickerGroup
+    syntax:
+      content: 'new ColorPickerGroup(props: IColorPickerGroupProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-canvas.IColorPickerGroupProps'
+          description: ''
+  - uid: '@ms/sp-canvas.ColorPickerGroup.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Renders the color picker group for SPRteColorPicker
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@ms/sp-canvas.IColorPickerGroupProps>

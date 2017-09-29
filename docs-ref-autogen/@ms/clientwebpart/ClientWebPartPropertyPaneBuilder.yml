@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/clientwebpart.ClientWebPartPropertyPaneBuilder'
+    name: ClientWebPartPropertyPaneBuilder
+    fullName: ClientWebPartPropertyPaneBuilder
+    children:
+      - >-
+        @ms/clientwebpart.ClientWebPartPropertyPaneBuilder.buildPropertyPaneSettings
+      - '@ms/clientwebpart.ClientWebPartPropertyPaneBuilder.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Builds IPropertyPaneConfiguration objects out of the properties of a
+      ClientWebPart.
+
+      This is tied to the definition of the properties on the XML file from the
+      add-in,
+
+      and it matches definition made for Classic Pages on Modern Pages.
+    package: '@ms/clientwebpart'
+  - uid: >-
+      @ms/clientwebpart.ClientWebPartPropertyPaneBuilder.buildPropertyPaneSettings
+    name: buildPropertyPaneSettings
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function buildPropertyPaneSettings()
+      parameters: []
+      return:
+        type:
+          - IPropertyPaneConfiguration
+  - uid: '@ms/clientwebpart.ClientWebPartPropertyPaneBuilder.constructor'
+    name: ClientWebPartPropertyPaneBuilder
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ClientWebPartPropertyPaneBuilder(properties: IClientWebPartProps)'
+      parameters:
+        - id: properties
+          type:
+            - '@@ms/clientwebpart.IClientWebPartProps'
+          description: ''

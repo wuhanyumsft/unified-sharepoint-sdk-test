@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.FeedStringType'
+    name: FeedStringType
+    fullName: FeedStringType
+    children:
+      - '@ms/sp-publishing-webparts.FeedStringType.EmbedAPIString'
+      - '@ms/sp-publishing-webparts.FeedStringType.LocalizedString'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.FeedStringType.EmbedAPIString'
+    name: EmbedAPIString
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-publishing-webparts.FeedStringType.LocalizedString'
+    name: LocalizedString
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

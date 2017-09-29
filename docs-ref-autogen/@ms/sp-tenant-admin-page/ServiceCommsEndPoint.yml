@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ServiceCommsEndPoint'
+    name: ServiceCommsEndPoint
+    fullName: ServiceCommsEndPoint
+    children:
+      - '@ms/sp-tenant-admin-page.ServiceCommsEndPoint.tokenEndPoint'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ServiceCommsEndPoint.tokenEndPoint'
+    name: tokenEndPoint
+    fullName: tokenEndPoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string tokenEndPoint
+      return:
+        type:
+          - string

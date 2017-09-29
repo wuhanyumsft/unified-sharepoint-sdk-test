@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.HeroPropertyPaneSettings'
+    name: HeroPropertyPaneSettings
+    fullName: HeroPropertyPaneSettings
+    children:
+      - >-
+        @ms/sp-publishing-webparts.HeroPropertyPaneSettings.getDefaultWebPartSettings
+      - >-
+        @ms/sp-publishing-webparts.HeroPropertyPaneSettings.getItemEditingSettings
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: >-
+      @ms/sp-publishing-webparts.HeroPropertyPaneSettings.getDefaultWebPartSettings
+    name: getDefaultWebPartSettings
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function getDefaultWebPartSettings(webPartProps:
+        IHeroWebPartProperties, isCarousel: boolean)
+      parameters:
+        - id: webPartProps
+          type:
+            - '@@ms/sp-publishing-webparts.IHeroWebPartProperties'
+          description: ''
+        - id: isCarousel
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - IPropertyPaneConfiguration
+  - uid: '@ms/sp-publishing-webparts.HeroPropertyPaneSettings.getItemEditingSettings'
+    name: getItemEditingSettings
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function getItemEditingSettings(webPartProps:
+        IHeroWebPartProperties, index: number, serviceScope: ServiceScope,
+        onAfterImagePropertyChanged: (index: number, image: IImageProperties) =>
+        void, onAfterLinkPropertyChanged: (index: number, image:
+        IImageProperties, link: string) => void, isCarousel: boolean)
+      parameters:
+        - id: webPartProps
+          type:
+            - '@@ms/sp-publishing-webparts.IHeroWebPartProperties'
+          description: ''
+        - id: index
+          type:
+            - number
+          description: ''
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+        - id: onAfterImagePropertyChanged
+          type:
+            - '(index: number, image: IImageProperties) => void'
+          description: ''
+        - id: onAfterLinkPropertyChanged
+          type:
+            - '(index: number, image: IImageProperties, link: string) => void'
+          description: ''
+        - id: isCarousel
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - IPropertyPaneConfiguration

@@ -1,0 +1,139 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.IFilePickerSiteViewProps'
+    name: IFilePickerSiteViewProps
+    fullName: IFilePickerSiteViewProps
+    children:
+      - '@ms/sp-filepicker.IFilePickerSiteViewProps.allowFoldersAndAllFiles'
+      - '@ms/sp-filepicker.IFilePickerSiteViewProps.instanceId'
+      - '@ms/sp-filepicker.IFilePickerSiteViewProps.isOpen'
+      - '@ms/sp-filepicker.IFilePickerSiteViewProps.pickerListUrl'
+      - '@ms/sp-filepicker.IFilePickerSiteViewProps.pickerPath'
+      - '@ms/sp-filepicker.IFilePickerSiteViewProps.resetFrameOnInactiveTab'
+      - '@ms/sp-filepicker.IFilePickerSiteViewProps.selectionMode'
+      - '@ms/sp-filepicker.IFilePickerSiteViewProps.serviceScope'
+      - '@ms/sp-filepicker.IFilePickerSiteViewProps.siteContext'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-filepicker.IBaseFilePickerTabProps'
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.IFilePickerSiteViewProps.allowFoldersAndAllFiles'
+    name: allowFoldersAndAllFiles
+    fullName: allowFoldersAndAllFiles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean allowFoldersAndAllFiles
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-filepicker.IFilePickerSiteViewProps.instanceId'
+    name: instanceId
+    fullName: instanceId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string instanceId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.IFilePickerSiteViewProps.isOpen'
+    name: isOpen
+    fullName: isOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isOpen
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-filepicker.IFilePickerSiteViewProps.pickerListUrl'
+    name: pickerListUrl
+    fullName: pickerListUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string pickerListUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.IFilePickerSiteViewProps.pickerPath'
+    name: pickerPath
+    fullName: pickerPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string pickerPath
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.IFilePickerSiteViewProps.resetFrameOnInactiveTab'
+    name: resetFrameOnInactiveTab
+    fullName: resetFrameOnInactiveTab
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean resetFrameOnInactiveTab
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-filepicker.IFilePickerSiteViewProps.selectionMode'
+    name: selectionMode
+    fullName: selectionMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: SelectionMode selectionMode
+      return:
+        type:
+          - SelectionMode
+  - uid: '@ms/sp-filepicker.IFilePickerSiteViewProps.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope
+  - uid: '@ms/sp-filepicker.IFilePickerSiteViewProps.siteContext'
+    name: siteContext
+    fullName: siteContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISiteContext siteContext
+      return:
+        type:
+          - ISiteContext

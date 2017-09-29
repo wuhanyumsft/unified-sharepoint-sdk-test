@@ -1,0 +1,247 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.ChangeType'
+    name: ChangeType
+    fullName: ChangeType
+    children:
+      - '@ms/sp-teamsite-webparts.ChangeType.Activity'
+      - '@ms/sp-teamsite-webparts.ChangeType.Add'
+      - '@ms/sp-teamsite-webparts.ChangeType.AssignmentAdd'
+      - '@ms/sp-teamsite-webparts.ChangeType.AssignmentDelete'
+      - '@ms/sp-teamsite-webparts.ChangeType.Delete'
+      - '@ms/sp-teamsite-webparts.ChangeType.Dirty'
+      - '@ms/sp-teamsite-webparts.ChangeType.ListContentTypeAdd'
+      - '@ms/sp-teamsite-webparts.ChangeType.ListContentTypeDelete'
+      - '@ms/sp-teamsite-webparts.ChangeType.MemberAdd'
+      - '@ms/sp-teamsite-webparts.ChangeType.MemberDelete'
+      - '@ms/sp-teamsite-webparts.ChangeType.MoveAway'
+      - '@ms/sp-teamsite-webparts.ChangeType.MoveInto'
+      - '@ms/sp-teamsite-webparts.ChangeType.Navigation'
+      - '@ms/sp-teamsite-webparts.ChangeType.NoChange'
+      - '@ms/sp-teamsite-webparts.ChangeType.Rename'
+      - '@ms/sp-teamsite-webparts.ChangeType.Restore'
+      - '@ms/sp-teamsite-webparts.ChangeType.RoleAdd'
+      - '@ms/sp-teamsite-webparts.ChangeType.RoleDelete'
+      - '@ms/sp-teamsite-webparts.ChangeType.RoleUpdate'
+      - '@ms/sp-teamsite-webparts.ChangeType.ScopeAdd'
+      - '@ms/sp-teamsite-webparts.ChangeType.ScopeDelete'
+      - '@ms/sp-teamsite-webparts.ChangeType.SystemUpdate'
+      - '@ms/sp-teamsite-webparts.ChangeType.Trending'
+      - '@ms/sp-teamsite-webparts.ChangeType.Update'
+      - '@ms/sp-teamsite-webparts.ChangeType.YouViewed'
+    langs:
+      - typeScript
+    type: enum
+    summary: |-
+      The order should remain consistent with the version on the server
+      public SPChangeType ChangeType
+      %SDXROOT%\sporel\sts\stsom\Core\spchange.cs
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.Activity'
+    name: Activity
+    children: []
+    langs:
+      - typeScript
+    summary: This item has special activity such as Hashtag and Spotlight
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.Add'
+    name: Add
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      An item is added within the scope of a list, site, site collection, or
+      content database.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.AssignmentAdd'
+    name: AssignmentAdd
+    children: []
+    langs:
+      - typeScript
+    summary: A user is given permissions to a list with unique permissions.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.AssignmentDelete'
+    name: AssignmentDelete
+    children: []
+    langs:
+      - typeScript
+    summary: Permissions are removed for a user in a list with unique permissions.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.Delete'
+    name: Delete
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      An item is deleted within the scope of a list, site, site collection, or
+      content
+
+      database.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.Dirty'
+    name: Dirty
+    children: []
+    langs:
+      - typeScript
+    summary: This item has a pending modification due to an operation on another item.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.ListContentTypeAdd'
+    name: ListContentTypeAdd
+    children: []
+    langs:
+      - typeScript
+    summary: change when content type is added.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.ListContentTypeDelete'
+    name: ListContentTypeDelete
+    children: []
+    langs:
+      - typeScript
+    summary: change when content type is deleted.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.MemberAdd'
+    name: MemberAdd
+    children: []
+    langs:
+      - typeScript
+    summary: A user is added to a group.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.MemberDelete'
+    name: MemberDelete
+    children: []
+    langs:
+      - typeScript
+    summary: A user is removed from a group.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.MoveAway'
+    name: MoveAway
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Involves the renaming of a non-leaf section within a URL. The item was
+      moved away
+
+      from the location within the Web site specified by the change. The log
+      will contain
+
+      either a MoveAway or a MoveInto value for any given change, but not both.
+      If possible,
+
+      the change is represented as MoveInto.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.MoveInto'
+    name: MoveInto
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Involves the renaming of a non-leaf section within a URL. The item was
+      moved into
+
+      the location within the Web site specified by the change. The log will
+      contain
+
+      either a MoveAway or a MoveInto value for any given change, but not both. 
+      If possible,
+
+      the change is represented as MoveInto.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.Navigation'
+    name: Navigation
+    children: []
+    langs:
+      - typeScript
+    summary: A change in navigation is made.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.NoChange'
+    name: NoChange
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.Rename'
+    name: Rename
+    children: []
+    langs:
+      - typeScript
+    summary: The leaf in a URL is renamed.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.Restore'
+    name: Restore
+    children: []
+    langs:
+      - typeScript
+    summary: An object is restored from a backup.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.RoleAdd'
+    name: RoleAdd
+    children: []
+    langs:
+      - typeScript
+    summary: A role definition is added.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.RoleDelete'
+    name: RoleDelete
+    children: []
+    langs:
+      - typeScript
+    summary: A role definition is deleted.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.RoleUpdate'
+    name: RoleUpdate
+    children: []
+    langs:
+      - typeScript
+    summary: A role definition is updated.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.ScopeAdd'
+    name: ScopeAdd
+    children: []
+    langs:
+      - typeScript
+    summary: change when scope is added.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.ScopeDelete'
+    name: ScopeDelete
+    children: []
+    langs:
+      - typeScript
+    summary: change when scope is deleted.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.SystemUpdate'
+    name: SystemUpdate
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Changes are made that are global within the scope of the change
+      collection.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.Trending'
+    name: Trending
+    children: []
+    langs:
+      - typeScript
+    summary: Trending activity from search
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.Update'
+    name: Update
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      An item is modified within the scope of a list, site, site collection, or
+      content
+
+      database.
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeType.YouViewed'
+    name: YouViewed
+    children: []
+    langs:
+      - typeScript
+    summary: You viewed activity from search
+    type: field

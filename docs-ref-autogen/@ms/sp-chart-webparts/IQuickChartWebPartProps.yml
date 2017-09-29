@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-chart-webparts.IQuickChartWebPartProps'
+    name: IQuickChartWebPartProps
+    fullName: IQuickChartWebPartProps
+    children:
+      - '@ms/sp-chart-webparts.IQuickChartWebPartProps.data'
+      - '@ms/sp-chart-webparts.IQuickChartWebPartProps.isInitialState'
+      - '@ms/sp-chart-webparts.IQuickChartWebPartProps.title'
+      - '@ms/sp-chart-webparts.IQuickChartWebPartProps.type'
+      - '@ms/sp-chart-webparts.IQuickChartWebPartProps.xAxisLabel'
+      - '@ms/sp-chart-webparts.IQuickChartWebPartProps.yAxisLabel'
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      Quick chart web part properties.
+
+      The web part is responsible only for updating these properties.
+
+      The framework will store the properties to backend when page with this web
+      part is saved.
+    package: '@ms/sp-chart-webparts'
+  - uid: '@ms/sp-chart-webparts.IQuickChartWebPartProps.data'
+    name: data
+    fullName: data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The data rows to draw the chart.
+    syntax:
+      content: 'IQuickChartDataRow[] data'
+      return:
+        type:
+          - '@@ms/sp-chart-webparts.IQuickChartDataRow[]'
+  - uid: '@ms/sp-chart-webparts.IQuickChartWebPartProps.isInitialState'
+    name: isInitialState
+    fullName: isInitialState
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Whether the chart is in initial state.
+
+      It will be true only if the data labels or values have been changed.
+
+      A specific chart option will be generated for rendering when it's in
+      initial state.
+    syntax:
+      content: boolean isInitialState
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-chart-webparts.IQuickChartWebPartProps.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The title for the quick chart.
+      It shows above the whole chart.
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-chart-webparts.IQuickChartWebPartProps.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The type for the quick chart.
+    syntax:
+      content: QuickChartType type
+      return:
+        type:
+          - QuickChartType
+  - uid: '@ms/sp-chart-webparts.IQuickChartWebPartProps.xAxisLabel'
+    name: xAxisLabel
+    fullName: xAxisLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The label for x-axis. This only take effects in column chart.
+    syntax:
+      content: string xAxisLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-chart-webparts.IQuickChartWebPartProps.yAxisLabel'
+    name: yAxisLabel
+    fullName: yAxisLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The label for y-axis. This only take effects in column chart.
+    syntax:
+      content: string yAxisLabel
+      return:
+        type:
+          - string

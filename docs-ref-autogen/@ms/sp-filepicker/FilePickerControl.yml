@@ -1,0 +1,125 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.FilePickerControl'
+    name: FilePickerControl
+    fullName: FilePickerControl
+    children:
+      - '@ms/sp-filepicker.FilePickerControl.componentDidMount'
+      - '@ms/sp-filepicker.FilePickerControl.componentDidUpdate'
+      - '@ms/sp-filepicker.FilePickerControl.componentWillMount'
+      - '@ms/sp-filepicker.FilePickerControl.componentWillUnmount'
+      - '@ms/sp-filepicker.FilePickerControl.componentWillUpdate'
+      - '@ms/sp-filepicker.FilePickerControl.constructor'
+      - '@ms/sp-filepicker.FilePickerControl.openPicker'
+      - '@ms/sp-filepicker.FilePickerControl.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-filepicker.FilePickerControl<@@ms/sp-filepicker.IFilePickerProps>
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.FilePickerControl.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-filepicker.FilePickerControl.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+  - uid: '@ms/sp-filepicker.FilePickerControl.componentWillMount'
+    name: componentWillMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillMount()
+      parameters: []
+  - uid: '@ms/sp-filepicker.FilePickerControl.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-filepicker.FilePickerControl.componentWillUpdate'
+    name: componentWillUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function componentWillUpdate(nextProps: IFilePickerProps, nextState:
+        IFilePickerState)
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-filepicker.IFilePickerProps'
+          description: ''
+        - id: nextState
+          type:
+            - '@@ms/sp-filepicker.IFilePickerState'
+          description: ''
+  - uid: '@ms/sp-filepicker.FilePickerControl.constructor'
+    name: FilePickerControl
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new FilePickerControl(props: IFilePickerProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-filepicker.IFilePickerProps'
+          description: ''
+  - uid: '@ms/sp-filepicker.FilePickerControl.openPicker'
+    name: openPicker
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Opens the file picker and alerts screen reader using specified file type
+      text
+    syntax:
+      content: 'function openPicker(fileText: string)'
+      parameters:
+        - id: fileText
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-filepicker.FilePickerControl.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

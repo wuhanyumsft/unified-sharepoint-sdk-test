@@ -1,0 +1,161 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.SPCanvas'
+    name: SPCanvas
+    fullName: SPCanvas
+    children:
+      - '@ms/sp-pages.SPCanvas.componentDidMount'
+      - '@ms/sp-pages.SPCanvas.componentWillMount'
+      - '@ms/sp-pages.SPCanvas.componentWillUnmount'
+      - '@ms/sp-pages.SPCanvas.componentWillUpdate'
+      - '@ms/sp-pages.SPCanvas.onDisplayModeChange'
+      - '@ms/sp-pages.SPCanvas.openToolbox'
+      - '@ms/sp-pages.SPCanvas.render'
+      - '@ms/sp-pages.SPCanvas.save'
+      - '@ms/sp-pages.SPCanvas.shouldComponentUpdate'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.BasePublishingControl<@@ms/sp-pages.ISPCanvasProps>'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SPCanvas.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-pages.SPCanvas.componentWillMount'
+    name: componentWillMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillMount()
+      parameters: []
+  - uid: '@ms/sp-pages.SPCanvas.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-pages.SPCanvas.componentWillUpdate'
+    name: componentWillUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillUpdate(nextProps: ISPCanvasProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-pages.ISPCanvasProps'
+          description: ''
+  - uid: '@ms/sp-pages.SPCanvas.onDisplayModeChange'
+    name: onDisplayModeChange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Switch Canvas mode when display mode changes
+    syntax:
+      content: 'function onDisplayModeChange(storeNames: string[])'
+      parameters:
+        - id: storeNames
+          type:
+            - 'string[]'
+          description: ''
+  - uid: '@ms/sp-pages.SPCanvas.openToolbox'
+    name: openToolbox
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Display the Canvas' Toolbox at a given row. If the Toolbox is already
+      open, the Toolbox will close
+
+      at its previous row and re-open at the new row.
+    syntax:
+      content: 'function openToolbox(row: number)'
+      parameters:
+        - id: row
+          type:
+            - number
+          description: >
+            The desired row for the Toolbox to open at. The rows are zero-based
+            numbered.
+              If an invalid row is passed, no changes will occur.
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.SPCanvas.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@ms/sp-pages.ISPCanvasProps>
+  - uid: '@ms/sp-pages.SPCanvas.save'
+    name: save
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Save Canvas data to rich html field
+    syntax:
+      content: function save()
+      parameters: []
+  - uid: '@ms/sp-pages.SPCanvas.shouldComponentUpdate'
+    name: shouldComponentUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      SPCanvas does not use its props to re-render the Canvas object, rather
+      SPCanvas will look at the
+
+      PageFieldStore first to see if a value exists there; the PageFieldStore is
+      a client-side representation
+
+      of the server state. However, if SPCanvas is passed a new canvasContent
+      prop then we do want to use the
+
+      prop value even if its inconsistent with the PageFieldStore. NOTE: the
+      newly rendered state should not be
+
+      persisted because it will override the old state the page transitioned
+      from. This lifecycle should only be
+
+      utilized by read-only page transitions. An example scenario is the Home
+      Page and News L2 transition.
+    syntax:
+      content: 'function shouldComponentUpdate(nextProps: ISPCanvasProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-pages.ISPCanvasProps'
+          description: ''
+      return:
+        type:
+          - boolean

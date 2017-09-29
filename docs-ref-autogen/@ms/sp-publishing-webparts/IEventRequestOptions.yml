@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IEventRequestOptions'
+    name: IEventRequestOptions
+    fullName: IEventRequestOptions
+    children:
+      - '@ms/sp-publishing-webparts.IEventRequestOptions.calendar'
+      - '@ms/sp-publishing-webparts.IEventRequestOptions.endDate'
+      - '@ms/sp-publishing-webparts.IEventRequestOptions.orderBy'
+      - '@ms/sp-publishing-webparts.IEventRequestOptions.skip'
+      - '@ms/sp-publishing-webparts.IEventRequestOptions.startDate'
+      - '@ms/sp-publishing-webparts.IEventRequestOptions.top'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IEventRequestOptions.calendar'
+    name: calendar
+    fullName: calendar
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string calendar
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEventRequestOptions.endDate'
+    name: endDate
+    fullName: endDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Date endDate
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.IEventRequestOptions.orderBy'
+    name: orderBy
+    fullName: orderBy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function orderBy
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-publishing-webparts.IEventRequestOptions.skip'
+    name: skip
+    fullName: skip
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number skip
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IEventRequestOptions.startDate'
+    name: startDate
+    fullName: startDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Date startDate
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.IEventRequestOptions.top'
+    name: top
+    fullName: top
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number top
+      return:
+        type:
+          - number

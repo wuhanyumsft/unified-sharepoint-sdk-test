@@ -1,0 +1,87 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IStorageQuotaData'
+    name: IStorageQuotaData
+    fullName: IStorageQuotaData
+    children:
+      - '@ms/sp-tenant-admin-page.IStorageQuotaData.GeoAllocatedStorageMB'
+      - '@ms/sp-tenant-admin-page.IStorageQuotaData.GeoAvailableStorageMB'
+      - '@ms/sp-tenant-admin-page.IStorageQuotaData.GeoLocation'
+      - '@ms/sp-tenant-admin-page.IStorageQuotaData.GeoUsedStorageMB'
+      - '@ms/sp-tenant-admin-page.IStorageQuotaData.TenantStorageMB'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      This interface is to hold the response data of the SharePoint multiGeo
+      API:
+
+      /_api/StorageQuotas(geoLocation='local')?api-version=1.3.2
+    extends:
+      name: any
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IStorageQuotaData.GeoAllocatedStorageMB'
+    name: GeoAllocatedStorageMB
+    fullName: GeoAllocatedStorageMB
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string GeoAllocatedStorageMB
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IStorageQuotaData.GeoAvailableStorageMB'
+    name: GeoAvailableStorageMB
+    fullName: GeoAvailableStorageMB
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string GeoAvailableStorageMB
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IStorageQuotaData.GeoLocation'
+    name: GeoLocation
+    fullName: GeoLocation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string GeoLocation
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IStorageQuotaData.GeoUsedStorageMB'
+    name: GeoUsedStorageMB
+    fullName: GeoUsedStorageMB
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string GeoUsedStorageMB
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IStorageQuotaData.TenantStorageMB'
+    name: TenantStorageMB
+    fullName: TenantStorageMB
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string TenantStorageMB
+      return:
+        type:
+          - string

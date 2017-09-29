@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardOptions'
+    name: ILivePersonaCardOptions
+    fullName: ILivePersonaCardOptions
+    children:
+      - '@ms/sp-people-webparts.ILivePersonaCardOptions.isImmersiveProfileEnabled'
+      - >-
+        @ms/sp-people-webparts.ILivePersonaCardOptions.isLinkedInIntegrationEnabled
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-people-webparts'
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardOptions.isImmersiveProfileEnabled'
+    name: isImmersiveProfileEnabled
+    fullName: isImmersiveProfileEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      All of these will be removed when we move to Loki flights
+      We will put workload-specific options here going forward.
+    syntax:
+      content: boolean isImmersiveProfileEnabled
+      return:
+        type:
+          - boolean
+  - uid: >-
+      @ms/sp-people-webparts.ILivePersonaCardOptions.isLinkedInIntegrationEnabled
+    name: isLinkedInIntegrationEnabled
+    fullName: isLinkedInIntegrationEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isLinkedInIntegrationEnabled
+      return:
+        type:
+          - boolean

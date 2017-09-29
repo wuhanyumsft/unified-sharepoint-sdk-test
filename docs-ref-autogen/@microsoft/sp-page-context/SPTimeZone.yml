@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-page-context.SPTimeZone'
+    name: SPTimeZone
+    fullName: SPTimeZone
+    children:
+      - '@microsoft/sp-page-context.SPTimeZone.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      It provides timezone information from SharePoint. A conversion from UTC to
+      local
+
+      time can be calculated by using the following formula.
+
+      isDaylightSavingsTime = isCurrentDate after DaylightSavingsDate but before
+      the StandardDate
+
+      LocalTime = UTCTime - Offset - (isDaylightSavingsTime ? daylightOffset :
+      standardOffset)
+
+      June 11, 2 A.M. PST = June 11, 9 A.M. - (480 minutes) - (-60  minutes)
+    package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.SPTimeZone.constructor'
+    name: SPTimeZone
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SPTimeZone(data: ISPTimeZoneData)'
+      parameters:
+        - id: data
+          type:
+            - '@@microsoft/sp-page-context.ISPTimeZoneData'
+          description: ''

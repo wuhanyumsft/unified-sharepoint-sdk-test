@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.ISiteReferenceFromServer'
+    name: ISiteReferenceFromServer
+    fullName: ISiteReferenceFromServer
+    children:
+      - '@ms/sp-teamsite-webparts.ISiteReferenceFromServer.IndexId'
+      - '@ms/sp-teamsite-webparts.ISiteReferenceFromServer.SiteId'
+      - '@ms/sp-teamsite-webparts.ISiteReferenceFromServer.Type'
+      - '@ms/sp-teamsite-webparts.ISiteReferenceFromServer.WebId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.ISiteReferenceFromServer.IndexId'
+    name: IndexId
+    fullName: IndexId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string IndexId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.ISiteReferenceFromServer.SiteId'
+    name: SiteId
+    fullName: SiteId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string SiteId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.ISiteReferenceFromServer.Type'
+    name: Type
+    fullName: Type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Type
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.ISiteReferenceFromServer.WebId'
+    name: WebId
+    fullName: WebId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string WebId
+      return:
+        type:
+          - string

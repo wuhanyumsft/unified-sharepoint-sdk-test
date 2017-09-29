@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ItemSize'
+    name: ItemSize
+    fullName: ItemSize
+    children:
+      - '@ms/sp-publishing-webparts.ItemSize.Small'
+      - '@ms/sp-publishing-webparts.ItemSize.Medium'
+      - '@ms/sp-publishing-webparts.ItemSize.Large'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ItemSize.Small'
+    name: Small
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-publishing-webparts.ItemSize.Medium'
+    name: Medium
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+  - uid: '@ms/sp-publishing-webparts.ItemSize.Large'
+    name: Large
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3

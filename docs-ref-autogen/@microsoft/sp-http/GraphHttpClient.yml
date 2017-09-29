@@ -1,0 +1,181 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.GraphHttpClient'
+    name: GraphHttpClient
+    fullName: GraphHttpClient
+    children:
+      - '@microsoft/sp-http.GraphHttpClient.configurations'
+      - '@microsoft/sp-http.GraphHttpClient.fetch'
+      - '@microsoft/sp-http.GraphHttpClient.get'
+      - '@microsoft/sp-http.GraphHttpClient.constructor'
+      - '@microsoft/sp-http.GraphHttpClient.post'
+      - '@microsoft/sp-http.GraphHttpClient.serviceKey'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      GraphHttpClient is used to perform REST calls against Microsoft Graph. It
+      adds default
+
+      headers and collects telemetry that helps the service to monitor the
+      performance of an application.
+
+      https://developer.microsoft.com/en-us/graph/
+
+      For communicating with non-Graph services, use the HttpClient or
+      SPHttpClient
+
+      class instead.
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.GraphHttpClient.configurations'
+    name: configurations
+    fullName: configurations
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The standard predefined GraphHttpClientConfiguration objects for use with
+      the GraphHttpClient class.
+    syntax:
+      content: static IGraphHttpClientConfigurations configurations
+      return:
+        type:
+          - '@@microsoft/sp-http.IGraphHttpClientConfigurations'
+  - uid: '@microsoft/sp-http.GraphHttpClient.fetch'
+    name: fetch
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Generally, the parameters and semantics for HttpClient.fetch() are
+      essentially
+
+      the same as the WHATWG API standard that is documented here:
+
+      https://fetch.spec.whatwg.org/
+
+      The GraphHttpClient subclass adds some additional behaviors that are
+      convenient when
+
+      working with SharePoint ODATA API's (which can be avoided by using
+
+      HttpClient instead):
+
+      - Default "Accept" and "Content-Type" headers are added if not explicitly
+      specified.
+    syntax:
+      content: >-
+        function fetch(url: string, configuration: GraphHttpClientConfiguration,
+        options: IGraphHttpClientOptions)
+      parameters:
+        - id: url
+          type:
+            - string
+          description: |-
+            The url string should be relative to the graph server.
+             Good: 'v1.0/me/events'
+             Bad: '/v1.0/me/events', 'https://graph.microsoft.com/v1.0/me/events'
+        - id: configuration
+          type:
+            - '@@microsoft/sp-http.GraphHttpClientConfiguration'
+          description: >-
+            determines the default behavior of GraphHttpClient; normally this
+            should
+              be the latest version number from GraphHttpClientConfigurations
+        - id: options
+          type:
+            - '@@microsoft/sp-http.IGraphHttpClientOptions'
+          description: additional options that affect the request
+      return:
+        type:
+          - Promise<@@microsoft/sp-http.GraphHttpClientResponse>
+  - uid: '@microsoft/sp-http.GraphHttpClient.get'
+    name: get
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Calls fetch(), but sets the method to ''GET''.'
+    syntax:
+      content: >-
+        function get(url: string, configuration: GraphHttpClientConfiguration,
+        options?: IGraphHttpClientOptions)
+      parameters:
+        - id: url
+          type:
+            - string
+          description: the URL to fetch
+        - id: configuration
+          type:
+            - '@@microsoft/sp-http.GraphHttpClientConfiguration'
+          description: >-
+            determines the default behavior of GraphHttpClient; normally this
+            should
+              be the latest version number from GraphHttpClientConfigurations
+        - id: options
+          type:
+            - '@@microsoft/sp-http.IGraphHttpClientOptions'
+          description: additional options that affect the request
+          optional: true
+      return:
+        type:
+          - Promise<@@microsoft/sp-http.GraphHttpClientResponse>
+  - uid: '@microsoft/sp-http.GraphHttpClient.constructor'
+    name: GraphHttpClient
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new GraphHttpClient(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+  - uid: '@microsoft/sp-http.GraphHttpClient.post'
+    name: post
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Calls fetch(), but sets the method to ''POST''.'
+    syntax:
+      content: >-
+        function post(url: string, configuration: GraphHttpClientConfiguration,
+        options: IGraphHttpClientOptions)
+      parameters:
+        - id: url
+          type:
+            - string
+          description: the URL to fetch
+        - id: configuration
+          type:
+            - '@@microsoft/sp-http.GraphHttpClientConfiguration'
+          description: >-
+            determines the default behavior of GraphHttpClient; normally this
+            should
+              be the latest version number from GraphHttpClientConfigurations
+        - id: options
+          type:
+            - '@@microsoft/sp-http.IGraphHttpClientOptions'
+          description: additional options that affect the request
+      return:
+        type:
+          - Promise<@@microsoft/sp-http.GraphHttpClientResponse>
+  - uid: '@microsoft/sp-http.GraphHttpClient.serviceKey'
+    name: serviceKey
+    fullName: serviceKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The service key for GraphHttpClient.
+    syntax:
+      content: static ServiceKey<GraphHttpClient> serviceKey
+      return:
+        type:
+          - ServiceKey<@@microsoft/sp-http.GraphHttpClient>

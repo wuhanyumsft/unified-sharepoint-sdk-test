@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IFeedStoreSettings'
+    name: IFeedStoreSettings
+    fullName: IFeedStoreSettings
+    children:
+      - '@ms/sp-publishing-webparts.IFeedStoreSettings.dataProvider'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IFeedStoreSettings.dataProvider'
+    name: dataProvider
+    fullName: dataProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IFeedDataProvider dataProvider
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IFeedDataProvider'

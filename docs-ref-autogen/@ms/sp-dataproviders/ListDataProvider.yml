@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.ListDataProvider'
+    name: ListDataProvider
+    fullName: ListDataProvider
+    children:
+      - '@ms/sp-dataproviders.ListDataProvider.getItems'
+      - '@ms/sp-dataproviders.ListDataProvider.id'
+      - '@ms/sp-dataproviders.ListDataProvider.title'
+    langs:
+      - typeScript
+    type: class
+    summary: Provides a data provider for the SharePoint _api/web/lists endpoint.
+    extends:
+      name: >-
+        @@ms/sp-dataproviders.BaseDataProvider<@@ms/sp-dataproviders.IListRequest>
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.ListDataProvider.getItems'
+    name: getItems
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getItems(request: IListRequest)'
+      parameters:
+        - id: request
+          type:
+            - '@@ms/sp-dataproviders.IListRequest'
+          description: ''
+      return:
+        type:
+          - 'Promise<any[]>'
+  - uid: '@ms/sp-dataproviders.ListDataProvider.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ListDataProvider.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

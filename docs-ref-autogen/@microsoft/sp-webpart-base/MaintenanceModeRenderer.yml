@@ -1,0 +1,36 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.MaintenanceModeRenderer'
+    name: MaintenanceModeRenderer
+    fullName: MaintenanceModeRenderer
+    children:
+      - '@microsoft/sp-webpart-base.MaintenanceModeRenderer.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.MaintenanceModeRenderer.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function render(context: IWebPartContext, data: IWebPartData,
+        onRenderComplete: () => void)
+      parameters:
+        - id: context
+          type:
+            - '@@microsoft/sp-webpart-base.IWebPartContext'
+          description: ''
+        - id: data
+          type:
+            - IWebPartData
+          description: ''
+        - id: onRenderComplete
+          type:
+            - () => void
+          description: ''

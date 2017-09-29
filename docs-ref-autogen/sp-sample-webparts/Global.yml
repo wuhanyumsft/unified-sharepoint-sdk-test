@@ -1,0 +1,133 @@
+### YamlMime:UniversalReference
+items:
+  - uid: sp-sample-webparts.Global
+    package: sp-sample-webparts
+    name: Global
+    children:
+      - sp-sample-webparts.format
+      - sp-sample-webparts.format
+      - sp-sample-webparts.format
+      - sp-sample-webparts.format
+    type: package
+    langs:
+      - typeScript
+  - uid: sp-sample-webparts.format
+    name: format
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      String Format is like C# string format.
+
+      Usage Example: "hello {0}!".format("mike") will return "hello mike!"
+
+      Calling format on a string with less arguments than specified in the
+      format is invalid
+
+      Example "I love {0} every {1}".format("CXP") will result in a Debug
+      Exception.
+    syntax:
+      content: 'function format(s: string, values: any[])'
+      parameters:
+        - id: s
+          type:
+            - string
+          description: ''
+        - id: values
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: sp-sample-webparts.format
+    name: format
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      String Format is like C# string format.
+
+      Usage Example: "hello {0}!".format("mike") will return "hello mike!"
+
+      Calling format on a string with less arguments than specified in the
+      format is invalid
+
+      Example "I love {0} every {1}".format("CXP") will result in a Debug
+      Exception.
+    syntax:
+      content: 'function format(s: string, values: any[])'
+      parameters:
+        - id: s
+          type:
+            - string
+          description: ''
+        - id: values
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: sp-sample-webparts.format
+    name: format
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      String Format is like C# string format.
+
+      Usage Example: "hello {0}!".format("mike") will return "hello mike!"
+
+      Calling format on a string with less arguments than specified in the
+      format is invalid
+
+      Example "I love {0} every {1}".format("CXP") will result in a Debug
+      Exception.
+    syntax:
+      content: 'function format(s: string, values: any[])'
+      parameters:
+        - id: s
+          type:
+            - string
+          description: ''
+        - id: values
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: sp-sample-webparts.format
+    name: format
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      String Format is like C# string format.
+
+      Usage Example: "hello {0}!".format("mike") will return "hello mike!"
+
+      Calling format on a string with less arguments than specified in the
+      format is invalid
+
+      Example "I love {0} every {1}".format("CXP") will result in a Debug
+      Exception.
+    syntax:
+      content: 'function format(s: string, values: any[])'
+      parameters:
+        - id: s
+          type:
+            - string
+          description: ''
+        - id: values
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - string

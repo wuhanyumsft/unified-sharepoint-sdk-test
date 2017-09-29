@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IEventLocationProps'
+    name: IEventLocationProps
+    fullName: IEventLocationProps
+    children:
+      - '@ms/sp-pages.IEventLocationProps.cultureName'
+      - '@ms/sp-pages.IEventLocationProps.editing'
+      - '@ms/sp-pages.IEventLocationProps.location'
+      - '@ms/sp-pages.IEventLocationProps.onChangeLocationInput'
+      - '@ms/sp-pages.IEventLocationProps.onSelectLocation'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IEventLocationProps.cultureName'
+    name: cultureName
+    fullName: cultureName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string cultureName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IEventLocationProps.editing'
+    name: editing
+    fullName: editing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean editing
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IEventLocationProps.location'
+    name: location
+    fullName: location
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string location
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IEventLocationProps.onChangeLocationInput'
+    name: onChangeLocationInput
+    fullName: onChangeLocationInput
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(location: string) => void onChangeLocationInput'
+      return:
+        type:
+          - '(location: string) => void'
+  - uid: '@ms/sp-pages.IEventLocationProps.onSelectLocation'
+    name: onSelectLocation
+    fullName: onSelectLocation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(location: Location) => void onSelectLocation'
+      return:
+        type:
+          - '(location: Location) => void'

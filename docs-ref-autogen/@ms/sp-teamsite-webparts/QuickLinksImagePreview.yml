@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksImagePreview'
+    name: QuickLinksImagePreview
+    fullName: QuickLinksImagePreview
+    children:
+      - >-
+        @ms/sp-teamsite-webparts.QuickLinksImagePreview.componentWillReceiveProps
+      - '@ms/sp-teamsite-webparts.QuickLinksImagePreview.constructor'
+      - '@ms/sp-teamsite-webparts.QuickLinksImagePreview.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-teamsite-webparts.QuickLinksImagePreview<@@ms/sp-teamsite-webparts.IQuickLinksImagePreviewProps>
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksImagePreview.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function componentWillReceiveProps(nextProps:
+        IQuickLinksImagePreviewProps)
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLinksImagePreviewProps'
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksImagePreview.constructor'
+    name: QuickLinksImagePreview
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new QuickLinksImagePreview(props: IQuickLinksImagePreviewProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLinksImagePreviewProps'
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksImagePreview.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<HTMLDivElement>

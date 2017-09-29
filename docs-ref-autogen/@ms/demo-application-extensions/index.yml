@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/demo-application-extensions'
+    name: '@ms/demo-application-extensions'
+    summary: ''
+    children:
+      - '@ms/demo-application-extensions.CustomHeader'
+      - '@ms/demo-application-extensions.ICustomHeaderProperties'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@ms/demo-application-extensions.CustomHeader'
+    name: CustomHeader
+  - uid: '@ms/demo-application-extensions.ICustomHeaderProperties'
+    name: ICustomHeaderProperties

@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.SPRenderListDataOptions'
+    name: SPRenderListDataOptions
+    fullName: SPRenderListDataOptions
+    children:
+      - '@ms/sp-dataproviders.SPRenderListDataOptions.None'
+      - '@ms/sp-dataproviders.SPRenderListDataOptions.ContextInfo'
+      - '@ms/sp-dataproviders.SPRenderListDataOptions.ListData'
+      - '@ms/sp-dataproviders.SPRenderListDataOptions.ListSchema'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.SPRenderListDataOptions.None'
+    name: None
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+  - uid: '@ms/sp-dataproviders.SPRenderListDataOptions.ContextInfo'
+    name: ContextInfo
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-dataproviders.SPRenderListDataOptions.ListData'
+    name: ListData
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+  - uid: '@ms/sp-dataproviders.SPRenderListDataOptions.ListSchema'
+    name: ListSchema
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4

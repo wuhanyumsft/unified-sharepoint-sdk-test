@@ -1,0 +1,87 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.PageSaveTest'
+    name: PageSaveTest
+    fullName: PageSaveTest
+    children:
+      - '@ms/sp-pages.PageSaveTest.constructor'
+      - '@ms/sp-pages.PageSaveTest.TestIncludeScripts'
+      - '@ms/sp-pages.PageSaveTest.TestName'
+      - '@ms/sp-pages.PageSaveTest.TestOwner'
+      - '@ms/sp-pages.PageSaveTest.TestRun'
+      - '@ms/sp-pages.PageSaveTest.TestTeardown'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.PageSaveTest.constructor'
+    name: PageSaveTest
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PageSaveTest(serverURL: string)'
+      parameters:
+        - id: serverURL
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-pages.PageSaveTest.TestIncludeScripts'
+    name: TestIncludeScripts
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestIncludeScripts()
+      parameters: []
+  - uid: '@ms/sp-pages.PageSaveTest.TestName'
+    name: TestName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestName()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.PageSaveTest.TestOwner'
+    name: TestOwner
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestOwner()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.PageSaveTest.TestRun'
+    name: TestRun
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestRun()
+      parameters: []
+  - uid: '@ms/sp-pages.PageSaveTest.TestTeardown'
+    name: TestTeardown
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestTeardown()
+      parameters: []

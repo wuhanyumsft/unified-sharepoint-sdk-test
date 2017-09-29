@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.ViewCounts'
+    name: ViewCounts
+    fullName: ViewCounts
+    children:
+      - '@ms/sp-component-layouts.ViewCounts.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-component-layouts.ViewCounts<@@ms/sp-component-layouts.IViewCountsProps>
+    package: '@ms/sp-component-layouts'
+  - uid: '@ms/sp-component-layouts.ViewCounts.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

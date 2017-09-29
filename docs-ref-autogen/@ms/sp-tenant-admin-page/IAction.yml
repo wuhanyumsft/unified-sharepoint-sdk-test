@@ -1,0 +1,86 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IAction'
+    name: IAction
+    fullName: IAction
+    children:
+      - '@ms/sp-tenant-admin-page.IAction.error'
+      - '@ms/sp-tenant-admin-page.IAction.meta'
+      - '@ms/sp-tenant-admin-page.IAction.payload'
+      - '@ms/sp-tenant-admin-page.IAction.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      We are following FSA (Flux Standard Action) compliant actions, which is
+      mentioned in Redux documentations.
+
+      This Flux is not a typo :)
+    extends:
+      name: any
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IAction.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A `true` value means the action has an error.
+
+      Any other values, including `undefined` and `null`, means the action is
+      good.
+    syntax:
+      content: boolean error
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IAction.meta'
+    name: meta
+    fullName: meta
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The optional meta can be anything holds extra information that is not part
+      of the payload.
+    syntax:
+      content: any meta
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-tenant-admin-page.IAction.payload'
+    name: payload
+    fullName: payload
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The optional payload can be anything holds, well, the payload.
+      If `error` is `true`, the payload should be an error object.
+    syntax:
+      content: any payload
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-tenant-admin-page.IAction.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      We use strings to represent action types.
+      Each page should have separated definitions for all allowed types.
+      For example:
+
+      type enum ActionTypes = 'ADD_ITEM' | 'REMOVE_ITEM';
+    syntax:
+      content: string type
+      return:
+        type:
+          - string

@@ -1,0 +1,100 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.SiteCollectionManagementServiceProvider'
+    name: SiteCollectionManagementServiceProvider
+    fullName: SiteCollectionManagementServiceProvider
+    children:
+      - >-
+        @ms/sp-tenant-admin-page.SiteCollectionManagementServiceProvider.office365ProvidedSharepointSiteActivityDataReady
+      - >-
+        @ms/sp-tenant-admin-page.SiteCollectionManagementServiceProvider.constructor
+      - >-
+        @ms/sp-tenant-admin-page.SiteCollectionManagementServiceProvider.sitesCreationInProgress
+      - >-
+        @ms/sp-tenant-admin-page.SiteCollectionManagementServiceProvider.updateOffice365ProvidedSharepointSiteActivityData
+      - >-
+        @ms/sp-tenant-admin-page.SiteCollectionManagementServiceProvider.updateOffice365ProvidedSharepointSiteActivityDataExternal
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-tenant-admin-page.HttpRequestSPOResourceBase'
+    package: '@ms/sp-tenant-admin-page'
+  - uid: >-
+      @ms/sp-tenant-admin-page.SiteCollectionManagementServiceProvider.office365ProvidedSharepointSiteActivityDataReady
+    name: office365ProvidedSharepointSiteActivityDataReady
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function office365ProvidedSharepointSiteActivityDataReady()
+      parameters: []
+      return:
+        type:
+          - Promise<boolean>
+  - uid: >-
+      @ms/sp-tenant-admin-page.SiteCollectionManagementServiceProvider.constructor
+    name: SiteCollectionManagementServiceProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new SiteCollectionManagementServiceProvider()
+      parameters: []
+  - uid: >-
+      @ms/sp-tenant-admin-page.SiteCollectionManagementServiceProvider.sitesCreationInProgress
+    name: sitesCreationInProgress
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function sitesCreationInProgress(createdModernSiteUrls: string[])'
+      parameters:
+        - id: createdModernSiteUrls
+          type:
+            - 'string[]'
+          description: ''
+      return:
+        type:
+          - 'Promise<@@ms/sp-tenant-admin-page.ISiteProperties[]>'
+  - uid: >-
+      @ms/sp-tenant-admin-page.SiteCollectionManagementServiceProvider.updateOffice365ProvidedSharepointSiteActivityData
+    name: updateOffice365ProvidedSharepointSiteActivityData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function updateOffice365ProvidedSharepointSiteActivityData(bearToken:
+        string)
+      parameters:
+        - id: bearToken
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<boolean>
+  - uid: >-
+      @ms/sp-tenant-admin-page.SiteCollectionManagementServiceProvider.updateOffice365ProvidedSharepointSiteActivityDataExternal
+    name: updateOffice365ProvidedSharepointSiteActivityDataExternal
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function updateOffice365ProvidedSharepointSiteActivityDataExternal()
+      parameters: []
+      return:
+        type:
+          - Promise<boolean>

@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.IToolboxProps'
+    name: IToolboxProps
+    fullName: IToolboxProps
+    children:
+      - '@ms/sp-canvas-toolbox.IToolboxProps.actionManagerRef'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-canvas-toolbox.IToolboxBasicProps'
+    package: '@ms/sp-canvas-toolbox'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxProps.actionManagerRef'
+    name: actionManagerRef
+    fullName: actionManagerRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This callback is used to get the toolbox instance which contains handle
+      logic for toolbox.
+    syntax:
+      content: '(actionManager: IToolboxActionManager) => void actionManagerRef'
+      return:
+        type:
+          - '(actionManager: IToolboxActionManager) => void'

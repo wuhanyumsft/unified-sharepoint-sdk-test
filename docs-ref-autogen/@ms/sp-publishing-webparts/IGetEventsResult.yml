@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IGetEventsResult'
+    name: IGetEventsResult
+    fullName: IGetEventsResult
+    children:
+      - '@ms/sp-publishing-webparts.IGetEventsResult.events'
+      - '@ms/sp-publishing-webparts.IGetEventsResult.hasMore'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IGetEventsResult.events'
+    name: events
+    fullName: events
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The returned entities from get events API.
+    syntax:
+      content: 'IExchangeCalendarEvent[] events'
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IExchangeCalendarEvent[]'
+  - uid: '@ms/sp-publishing-webparts.IGetEventsResult.hasMore'
+    name: hasMore
+    fullName: hasMore
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A flag to indicate if there are more events in next page.
+    syntax:
+      content: boolean hasMore
+      return:
+        type:
+          - boolean

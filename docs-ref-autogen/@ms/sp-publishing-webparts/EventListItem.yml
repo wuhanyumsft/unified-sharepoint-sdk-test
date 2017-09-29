@@ -1,0 +1,68 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.EventListItem'
+    name: EventListItem
+    fullName: EventListItem
+    children:
+      - '@ms/sp-publishing-webparts.EventListItem.componentDidMount'
+      - '@ms/sp-publishing-webparts.EventListItem.constructor'
+      - '@ms/sp-publishing-webparts.EventListItem.refs'
+      - '@ms/sp-publishing-webparts.EventListItem.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.EventListItem<@@ms/sp-publishing-webparts.IEventListItemProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.EventListItem.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.EventListItem.constructor'
+    name: EventListItem
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new EventListItem(props: IEventListItemProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IEventListItemProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.EventListItem.refs'
+    name: refs
+    fullName: refs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: string]: any refs'
+      return:
+        type:
+          - '[key: string]: any'
+  - uid: '@ms/sp-publishing-webparts.EventListItem.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

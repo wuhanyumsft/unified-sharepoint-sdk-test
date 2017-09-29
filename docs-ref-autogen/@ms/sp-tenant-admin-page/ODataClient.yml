@@ -1,0 +1,187 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ODataClient'
+    name: ODataClient
+    fullName: ODataClient
+    children:
+      - '@ms/sp-tenant-admin-page.ODataClient.beginBatch'
+      - '@ms/sp-tenant-admin-page.ODataClient.clientReady'
+      - '@ms/sp-tenant-admin-page.ODataClient.endBatch'
+      - '@ms/sp-tenant-admin-page.ODataClient.fetch'
+      - '@ms/sp-tenant-admin-page.ODataClient.get'
+      - '@ms/sp-tenant-admin-page.ODataClient.JSON_MIME_TYPE'
+      - '@ms/sp-tenant-admin-page.ODataClient.constructor'
+      - '@ms/sp-tenant-admin-page.ODataClient.ODATA_VERSION'
+      - '@ms/sp-tenant-admin-page.ODataClient.post'
+    langs:
+      - typeScript
+    type: class
+    summary: A HTTP client to send OData requests with JSON format.
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ODataClient.beginBatch'
+    name: beginBatch
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Begin batch operations.
+
+      If `standalone` is `true`, the batch will not be bind to this OData
+      client.
+    syntax:
+      content: 'function beginBatch(standalone?: boolean)'
+      parameters:
+        - id: standalone
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<SPHttpClientBatch>
+  - uid: '@ms/sp-tenant-admin-page.ODataClient.clientReady'
+    name: clientReady
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Get the `SPHttpClient`.
+      It returns the same client if you call it multiple times.
+    syntax:
+      content: function clientReady()
+      parameters: []
+      return:
+        type:
+          - Promise<SPHttpClient>
+  - uid: '@ms/sp-tenant-admin-page.ODataClient.endBatch'
+    name: endBatch
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Execute batch operations for the bound batch.
+    syntax:
+      content: 'function endBatch(retainBatch?: boolean)'
+      parameters:
+        - id: retainBatch
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<SPHttpClientBatch>
+  - uid: '@ms/sp-tenant-admin-page.ODataClient.fetch'
+    name: fetch
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fetch<T>(url: string, options?: IODataClientOptions)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - '@@ms/sp-tenant-admin-page.IODataClientOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<T>
+  - uid: '@ms/sp-tenant-admin-page.ODataClient.get'
+    name: get
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get<T>(url: string, options?: IODataClientOptions)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - '@@ms/sp-tenant-admin-page.IODataClientOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<T>
+  - uid: '@ms/sp-tenant-admin-page.ODataClient.JSON_MIME_TYPE'
+    name: JSON_MIME_TYPE
+    fullName: JSON_MIME_TYPE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string JSON_MIME_TYPE
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ODataClient.constructor'
+    name: ODataClient
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: >-
+      Create a OData client with options.
+
+      `Content-Type` and `OData-Version` headers will be set by default unless
+      you overwrite them in `options`.
+    syntax:
+      content: 'new ODataClient(options?: IODataClientOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@@ms/sp-tenant-admin-page.IODataClientOptions'
+          description: |+
+
+          optional: true
+  - uid: '@ms/sp-tenant-admin-page.ODataClient.ODATA_VERSION'
+    name: ODATA_VERSION
+    fullName: ODATA_VERSION
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string ODATA_VERSION
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ODataClient.post'
+    name: post
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function post<T>(url: string, options?: IODataClientOptions)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - '@@ms/sp-tenant-admin-page.IODataClientOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<T>

@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.IStatementMap'
+    name: IStatementMap
+    fullName: IStatementMap
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: statement number and the detail of this statement
+    package: '@ms/sp-build-internal-tasks'

@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.RetryButton'
+    name: RetryButton
+    fullName: RetryButton
+    children:
+      - '@ms/sp-publishing-webparts.RetryButton.render'
+      - '@ms/sp-publishing-webparts.RetryButton.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.RetryButton<@@ms/sp-publishing-webparts.IRetryButtonProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.RetryButton.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-publishing-webparts.RetryButton.constructor'
+    name: RetryButton
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new RetryButton(props: IRetryButtonProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IRetryButtonProps'
+          description: ''

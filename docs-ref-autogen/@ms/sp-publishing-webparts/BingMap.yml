@@ -1,0 +1,101 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.BingMap'
+    name: BingMap
+    fullName: BingMap
+    children:
+      - '@ms/sp-publishing-webparts.BingMap.constructor'
+      - '@ms/sp-publishing-webparts.BingMap.componentDidMount'
+      - '@ms/sp-publishing-webparts.BingMap.componentDidUpdate'
+      - '@ms/sp-publishing-webparts.BingMap.componentWillReceiveProps'
+      - '@ms/sp-publishing-webparts.BingMap.componentWillUnmount'
+      - '@ms/sp-publishing-webparts.BingMap.render'
+    langs:
+      - typeScript
+    type: class
+    summary: BingMap component is the root react component of bing map web part.
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.BingMap<@@ms/sp-publishing-webparts.IBingMapProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.BingMap.constructor'
+    name: BingMap
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BingMap(props: IBingMapProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IBingMapProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.BingMap.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.BingMap.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function componentDidUpdate(prevProps: IBingMapProps, prevState:
+        IBingMapState)
+      parameters:
+        - id: prevProps
+          type:
+            - '@@ms/sp-publishing-webparts.IBingMapProps'
+          description: ''
+        - id: prevState
+          type:
+            - '@@ms/sp-publishing-webparts.IBingMapState'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.BingMap.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: IBingMapProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-publishing-webparts.IBingMapProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.BingMap.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.BingMap.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

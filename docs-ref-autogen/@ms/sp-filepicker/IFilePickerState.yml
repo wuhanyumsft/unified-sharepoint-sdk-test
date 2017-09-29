@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.IFilePickerState'
+    name: IFilePickerState
+    fullName: IFilePickerState
+    children:
+      - '@ms/sp-filepicker.IFilePickerState.currentInstanceId'
+      - '@ms/sp-filepicker.IFilePickerState.isBingImageSearchEnabledOnTenant'
+      - '@ms/sp-filepicker.IFilePickerState.showPicker'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.IFilePickerState.currentInstanceId'
+    name: currentInstanceId
+    fullName: currentInstanceId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string currentInstanceId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.IFilePickerState.isBingImageSearchEnabledOnTenant'
+    name: isBingImageSearchEnabledOnTenant
+    fullName: isBingImageSearchEnabledOnTenant
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isBingImageSearchEnabledOnTenant
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-filepicker.IFilePickerState.showPicker'
+    name: showPicker
+    fullName: showPicker
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showPicker
+      return:
+        type:
+          - boolean

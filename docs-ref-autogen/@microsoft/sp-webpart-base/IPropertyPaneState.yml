@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneState'
+    name: IPropertyPaneState
+    fullName: IPropertyPaneState
+    children:
+      - '@microsoft/sp-webpart-base.IPropertyPaneState.currentPage'
+      - '@microsoft/sp-webpart-base.IPropertyPaneState.isSaveButtonEnabled'
+      - '@microsoft/sp-webpart-base.IPropertyPaneState.saveConfirmationMessage'
+    langs:
+      - typeScript
+    type: interface
+    summary: Propertypane component state.
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneState.currentPage'
+    name: currentPage
+    fullName: currentPage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number currentPage
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneState.isSaveButtonEnabled'
+    name: isSaveButtonEnabled
+    fullName: isSaveButtonEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSaveButtonEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneState.saveConfirmationMessage'
+    name: saveConfirmationMessage
+    fullName: saveConfirmationMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string saveConfirmationMessage
+      return:
+        type:
+          - string

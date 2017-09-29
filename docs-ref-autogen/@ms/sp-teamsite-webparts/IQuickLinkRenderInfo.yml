@@ -1,0 +1,204 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo'
+    name: IQuickLinkRenderInfo
+    fullName: IQuickLinkRenderInfo
+    children:
+      - '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.accentColor'
+      - '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.backupImageUrl'
+      - '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.compactImageInfo'
+      - '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.errorMessage'
+      - '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.forceStandardImageSize'
+      - '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.iconUrl'
+      - '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.imageFit'
+      - '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.imageGuids'
+      - '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.imageUrl'
+      - '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.isEmptyState'
+      - '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.isFetching'
+      - '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.linkUrl'
+    langs:
+      - typeScript
+    type: interface
+    summary: Contains information used to render quick links
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.accentColor'
+    name: accentColor
+    fullName: accentColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Hexidecimal accent color of the quick item preview icon.
+    syntax:
+      content: string accentColor
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.backupImageUrl'
+    name: backupImageUrl
+    fullName: backupImageUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A backup image src to try if the one in imageUrl results in a broken
+      image.
+    syntax:
+      content: string backupImageUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.compactImageInfo'
+    name: compactImageInfo
+    fullName: compactImageInfo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The render info for the thumbnail in compact card layout mode.
+      It takes higher priority then imageUrl and iconUrl.
+      It takes lower priority then customized image.
+    syntax:
+      content: ICompactImageRenderInfo compactImageInfo
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.ICompactImageRenderInfo'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.errorMessage'
+    name: errorMessage
+    fullName: errorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Error message of the item.
+    syntax:
+      content: string errorMessage
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.forceStandardImageSize'
+    name: forceStandardImageSize
+    fullName: forceStandardImageSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'If true, constrains the image to be the standard image size.'
+    syntax:
+      content: boolean forceStandardImageSize
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.iconUrl'
+    name: iconUrl
+    fullName: iconUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The src of the mini icon optionally displayed in the lower left of the
+      quick item preview.
+    syntax:
+      content: string iconUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.imageFit'
+    name: imageFit
+    fullName: imageFit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ImageFit to apply to the quick item tile preview image.
+    syntax:
+      content: ImageFit imageFit
+      return:
+        type:
+          - ImageFit
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.imageGuids'
+    name: imageGuids
+    fullName: imageGuids
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The guids of the image to render if the image is internal. Because the
+      media thumbnail service can be expired.
+
+      It's necessary to re-generate the preview/thumbnail url each rendering.
+    syntax:
+      content: IGuidSet imageGuids
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IGuidSet'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.imageUrl'
+    name: imageUrl
+    fullName: imageUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The src of the image to render as the quick item preview in film strip
+      layout.
+
+      If imageGuids is not specified, this url will be used to render.
+
+      If imageGuids is specified, this points to the original source of the
+      items with imageGuids.
+
+      In this case, the imageUrl might not be able to be rendered directly but
+      used by thumbnail service to get preview.
+    syntax:
+      content: string imageUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.isEmptyState'
+    name: isEmptyState
+    fullName: isEmptyState
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicate whether quick link is in empty state.
+    syntax:
+      content: boolean isEmptyState
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.isFetching'
+    name: isFetching
+    fullName: isFetching
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates whether it is fetching data of the item.
+    syntax:
+      content: boolean isFetching
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo.linkUrl'
+    name: linkUrl
+    fullName: linkUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Url the user gets navigated to when he or she clicks on the quick item
+      tile. This can potentially be
+
+      different than quickItem.url. It can also potentially be the same.
+    syntax:
+      content: string linkUrl
+      return:
+        type:
+          - string

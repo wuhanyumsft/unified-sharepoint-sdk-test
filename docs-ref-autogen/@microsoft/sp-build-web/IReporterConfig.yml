@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-web.IReporterConfig'
+    name: IReporterConfig
+    fullName: IReporterConfig
+    children:
+      - '@microsoft/sp-build-web.IReporterConfig.outputFile'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-build-web'
+  - uid: '@microsoft/sp-build-web.IReporterConfig.outputFile'
+    name: outputFile
+    fullName: outputFile
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string outputFile
+      return:
+        type:
+          - string

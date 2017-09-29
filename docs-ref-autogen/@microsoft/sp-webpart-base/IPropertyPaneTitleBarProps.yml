@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneTitleBarProps'
+    name: IPropertyPaneTitleBarProps
+    fullName: IPropertyPaneTitleBarProps
+    children:
+      - '@microsoft/sp-webpart-base.IPropertyPaneTitleBarProps.onClose'
+      - '@microsoft/sp-webpart-base.IPropertyPaneTitleBarProps.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: Property pane title bar properties.
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneTitleBarProps.onClose'
+    name: onClose
+    fullName: onClose
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onClose
+      return:
+        type:
+          - () => void
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneTitleBarProps.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

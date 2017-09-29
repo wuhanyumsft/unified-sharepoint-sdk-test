@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IInitilizerSearchBoxState'
+    name: IInitilizerSearchBoxState
+    fullName: IInitilizerSearchBoxState
+    children:
+      - '@ms/sp-pages.IInitilizerSearchBoxState.loaded'
+      - '@ms/sp-pages.IInitilizerSearchBoxState.loading'
+      - '@ms/sp-pages.IInitilizerSearchBoxState.searchText'
+      - '@ms/sp-pages.IInitilizerSearchBoxState.searchUX'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IInitilizerSearchBoxState.loaded'
+    name: loaded
+    fullName: loaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean loaded
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IInitilizerSearchBoxState.loading'
+    name: loading
+    fullName: loading
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean loading
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IInitilizerSearchBoxState.searchText'
+    name: searchText
+    fullName: searchText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string searchText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IInitilizerSearchBoxState.searchUX'
+    name: searchUX
+    fullName: searchUX
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any searchUX
+      return:
+        type:
+          - any

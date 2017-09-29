@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ActionType'
+    name: ActionType
+    fullName: ActionType
+    children:
+      - '@ms/sp-publishing-webparts.ActionType.CreateForms'
+      - '@ms/sp-publishing-webparts.ActionType.ShowForms'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ActionType.CreateForms'
+    name: CreateForms
+    children: []
+    langs:
+      - typeScript
+    summary: Create a new forms
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-publishing-webparts.ActionType.ShowForms'
+    name: ShowForms
+    children: []
+    langs:
+      - typeScript
+    summary: Show an existing forms with URL
+    type: field
+    numericValue: 2

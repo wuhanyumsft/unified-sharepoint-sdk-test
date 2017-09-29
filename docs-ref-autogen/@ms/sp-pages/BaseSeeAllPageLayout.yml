@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.BaseSeeAllPageLayout'
+    name: BaseSeeAllPageLayout
+    fullName: BaseSeeAllPageLayout
+    children:
+      - '@ms/sp-pages.BaseSeeAllPageLayout.render'
+      - '@ms/sp-pages.BaseSeeAllPageLayout.unmount'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.BasePageLayout'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.BaseSeeAllPageLayout.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+  - uid: '@ms/sp-pages.BaseSeeAllPageLayout.unmount'
+    name: unmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function unmount()
+      parameters: []

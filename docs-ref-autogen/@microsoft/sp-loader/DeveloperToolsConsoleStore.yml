@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.DeveloperToolsConsoleStore'
+    name: DeveloperToolsConsoleStore
+    fullName: DeveloperToolsConsoleStore
+    children:
+      - '@microsoft/sp-loader.DeveloperToolsConsoleStore.constructor'
+      - '@microsoft/sp-loader.DeveloperToolsConsoleStore.registerTab'
+      - '@microsoft/sp-loader.DeveloperToolsConsoleStore.resizeConsole'
+      - '@microsoft/sp-loader.DeveloperToolsConsoleStore.showHideConsole'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@microsoft/sp-loader.BaseStore'
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.DeveloperToolsConsoleStore.constructor'
+    name: DeveloperToolsConsoleStore
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new DeveloperToolsConsoleStore()
+      parameters: []
+  - uid: '@microsoft/sp-loader.DeveloperToolsConsoleStore.registerTab'
+    name: registerTab
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function registerTab(tab: DeveloperToolsTab)'
+      parameters:
+        - id: tab
+          type:
+            - '@@microsoft/sp-loader.DeveloperToolsTab'
+          description: ''
+  - uid: '@microsoft/sp-loader.DeveloperToolsConsoleStore.resizeConsole'
+    name: resizeConsole
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function resizeConsole(height: number)'
+      parameters:
+        - id: height
+          type:
+            - number
+          description: ''
+  - uid: '@microsoft/sp-loader.DeveloperToolsConsoleStore.showHideConsole'
+    name: showHideConsole
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function showHideConsole(show: boolean)'
+      parameters:
+        - id: show
+          type:
+            - boolean
+          description: ''

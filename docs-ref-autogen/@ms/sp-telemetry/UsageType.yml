@@ -1,0 +1,146 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.UsageType'
+    name: UsageType
+    fullName: UsageType
+    children:
+      - '@ms/sp-telemetry.UsageType.Click'
+      - '@ms/sp-telemetry.UsageType.Tap'
+      - '@ms/sp-telemetry.UsageType.Drop'
+      - '@ms/sp-telemetry.UsageType.Hover'
+      - '@ms/sp-telemetry.UsageType.KeyDown'
+      - '@ms/sp-telemetry.UsageType.KeyPress'
+      - '@ms/sp-telemetry.UsageType.Load'
+      - '@ms/sp-telemetry.UsageType.Drag'
+      - '@ms/sp-telemetry.UsageType.Render'
+      - '@ms/sp-telemetry.UsageType.RightClick'
+      - '@ms/sp-telemetry.UsageType.Scroll'
+      - '@ms/sp-telemetry.UsageType.ScrollDown'
+      - '@ms/sp-telemetry.UsageType.ScrollUp'
+      - '@ms/sp-telemetry.UsageType.Swipe'
+      - '@ms/sp-telemetry.UsageType.PageLoad'
+    langs:
+      - typeScript
+    type: enum
+    summary: UsageType list for the usageType field in Engagement Event stream.
+    package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.UsageType.Click'
+    name: Click
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-telemetry.UsageType.Tap'
+    name: Tap
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-telemetry.UsageType.Drop'
+    name: Drop
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-telemetry.UsageType.Hover'
+    name: Hover
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-telemetry.UsageType.KeyDown'
+    name: KeyDown
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-telemetry.UsageType.KeyPress'
+    name: KeyPress
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-telemetry.UsageType.Load'
+    name: Load
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-telemetry.UsageType.Drag'
+    name: Drag
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-telemetry.UsageType.Render'
+    name: Render
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-telemetry.UsageType.RightClick'
+    name: RightClick
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-telemetry.UsageType.Scroll'
+    name: Scroll
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-telemetry.UsageType.ScrollDown'
+    name: ScrollDown
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-telemetry.UsageType.ScrollUp'
+    name: ScrollUp
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-telemetry.UsageType.Swipe'
+    name: Swipe
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-telemetry.UsageType.PageLoad'
+    name: PageLoad
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null

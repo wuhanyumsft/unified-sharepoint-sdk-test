@@ -1,0 +1,135 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.IPlaceholderProps'
+    name: IPlaceholderProps
+    fullName: IPlaceholderProps
+    children:
+      - '@ms/sp-webpart-shared.IPlaceholderProps.buttonLabel'
+      - '@ms/sp-webpart-shared.IPlaceholderProps.contentClassName'
+      - '@ms/sp-webpart-shared.IPlaceholderProps.description'
+      - '@ms/sp-webpart-shared.IPlaceholderProps.extraButtons'
+      - '@ms/sp-webpart-shared.IPlaceholderProps.icon'
+      - '@ms/sp-webpart-shared.IPlaceholderProps.iconText'
+      - '@ms/sp-webpart-shared.IPlaceholderProps.onAdd'
+      - '@ms/sp-webpart-shared.IPlaceholderProps.webpartWidth'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Used to display a placeholder in case of no or temporary content. Button
+      is optional.
+    extends:
+      name: any
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.IPlaceholderProps.buttonLabel'
+    name: buttonLabel
+    fullName: buttonLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Text label to be displayed on button below the description.
+      Optional: As the button is optional.
+    syntax:
+      content: string buttonLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IPlaceholderProps.contentClassName'
+    name: contentClassName
+    fullName: contentClassName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      This className is applied to the root element of content. Use this to
+      apply custom styles to the placeholder.
+    syntax:
+      content: string contentClassName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IPlaceholderProps.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Text description for the placeholder. Appears bellow the Icon and
+      IconText.
+    syntax:
+      content: string description
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IPlaceholderProps.extraButtons'
+    name: extraButtons
+    fullName: extraButtons
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'If more than one button, put the extra buttons in extraButtons.'
+    syntax:
+      content: 'IPlaceholderButtonProps[] extraButtons'
+      return:
+        type:
+          - '@@ms/sp-webpart-shared.IPlaceholderButtonProps[]'
+  - uid: '@ms/sp-webpart-shared.IPlaceholderProps.icon'
+    name: icon
+    fullName: icon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Icon className from the MDL2 set. Example: ''ms-Icon--Add''.'
+    syntax:
+      content: string icon
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IPlaceholderProps.iconText'
+    name: iconText
+    fullName: iconText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Heading displayed against the Icon.
+    syntax:
+      content: string iconText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IPlaceholderProps.onAdd'
+    name: onAdd
+    fullName: onAdd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      onClick handler for the button.
+      Optional: As the button is optional.
+    syntax:
+      content: () => void onAdd
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-webpart-shared.IPlaceholderProps.webpartWidth'
+    name: webpartWidth
+    fullName: webpartWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Width of the Webpart which the Placeholder is rendered in
+    syntax:
+      content: number webpartWidth
+      return:
+        type:
+          - number

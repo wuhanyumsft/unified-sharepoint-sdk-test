@@ -1,0 +1,120 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IPageDefinition'
+    name: IPageDefinition
+    fullName: IPageDefinition
+    children:
+      - '@ms/sp-tenant-admin-page.IPageDefinition.children'
+      - '@ms/sp-tenant-admin-page.IPageDefinition.ensureLazyPart'
+      - '@ms/sp-tenant-admin-page.IPageDefinition.isActive'
+      - '@ms/sp-tenant-admin-page.IPageDefinition.key'
+      - '@ms/sp-tenant-admin-page.IPageDefinition.path'
+      - '@ms/sp-tenant-admin-page.IPageDefinition.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IPageDefinition.children'
+    name: children
+    fullName: children
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Children pages of this page, if any.
+      The navigation will follow the order here.
+    syntax:
+      content: 'IPageDefinition[] children'
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IPageDefinition[]'
+  - uid: '@ms/sp-tenant-admin-page.IPageDefinition.ensureLazyPart'
+    name: ensureLazyPart
+    fullName: ensureLazyPart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Function to ensure the lazy part of this page definition.
+    syntax:
+      content: () => Promise<IPageDefinitionLazyPart> ensureLazyPart
+      return:
+        type:
+          - () => Promise<IPageDefinitionLazyPart>
+  - uid: '@ms/sp-tenant-admin-page.IPageDefinition.isActive'
+    name: isActive
+    fullName: isActive
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Indicate if a page is active or not. If not present, it's inactive by
+      default.
+
+      If a page is inactive, it will be hidden from the navigation, but page
+      access is not blocked.
+
+      If a page needs extra API calls or other async populations to determine if
+      it is active or not, it can
+
+      put a function that returns a Promise here. It is defined as a function
+      other than a Promise because
+
+      calling to API may required the page to be properly loaded and initialized
+      to get access token ready.
+    syntax:
+      content: boolean isActive
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IPageDefinition.key'
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Unique key of this page.
+
+      Uniqueness is not checked in code yet. Please be careful when you define
+      pages.
+    syntax:
+      content: string key
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IPageDefinition.path'
+    name: path
+    fullName: path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Path of this page.
+      This path will be used to create both routes and navigation links.
+    syntax:
+      content: string path
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IPageDefinition.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Title of this page.
+      This title will be displayed in the navigation.
+      World-readiness is required for this variable.
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.Compare'
+    name: Compare
+    fullName: Compare
+    children:
+      - '@microsoft/sp-webpart-base.Compare.shallowCompare'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-webpart-base'
+    deprecated:
+      content: |-
+        This was an optimization for a React-specific scenario, which
+        is now solved by a newer React feature.  See here:
+        https://facebook.github.io/react/docs/shallow-compare.html
+  - uid: '@microsoft/sp-webpart-base.Compare.shallowCompare'
+    name: shallowCompare
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Performs shallow comparison between two objects to determine if they are
+      equal. This method compares
+
+      only object types.
+    syntax:
+      content: 'static function shallowCompare(objA: Object, objB: Object)'
+      parameters:
+        - id: objA
+          type:
+            - Object
+          description: the first object to compare.
+        - id: objB
+          type:
+            - Object
+          description: |+
+            the second object to compare.
+
+      return:
+        type:
+          - boolean

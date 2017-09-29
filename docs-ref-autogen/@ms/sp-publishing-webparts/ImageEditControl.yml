@@ -1,0 +1,78 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ImageEditControl'
+    name: ImageEditControl
+    fullName: ImageEditControl
+    children:
+      - '@ms/sp-publishing-webparts.ImageEditControl.componentDidMount'
+      - '@ms/sp-publishing-webparts.ImageEditControl.componentWillUpdate'
+      - '@ms/sp-publishing-webparts.ImageEditControl.constructor'
+      - '@ms/sp-publishing-webparts.ImageEditControl.render'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      This class lets users select image using the File Picker
+      The image is automatically uploaded if it is coming from local disk
+      ImageEditControl will also allow cropping of an image
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.ImageEditControl<@@ms/sp-publishing-webparts.IImageEditControlProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ImageEditControl.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.ImageEditControl.componentWillUpdate'
+    name: componentWillUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function componentWillUpdate(nextProps: IImageEditControlProps,
+        nextState: IImageEditControlState)
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-publishing-webparts.IImageEditControlProps'
+          description: ''
+        - id: nextState
+          type:
+            - '@@ms/sp-publishing-webparts.IImageEditControlState'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.ImageEditControl.constructor'
+    name: ImageEditControl
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ImageEditControl(props: IImageEditControlProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IImageEditControlProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.ImageEditControl.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

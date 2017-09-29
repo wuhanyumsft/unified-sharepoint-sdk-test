@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.BingMapHacker'
+    name: BingMapHacker
+    fullName: BingMapHacker
+    children:
+      - '@ms/sp-publishing-webparts.BingMapHacker.constructor'
+      - '@ms/sp-publishing-webparts.BingMapHacker.startHackFix'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      This class hack to fix some issues with Bing-Map service.
+      Remove this file if all the issues are addressed by Bing-Map.
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.BingMapHacker.constructor'
+    name: BingMapHacker
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BingMapHacker(mapContainer: HTMLDivElement, mapInstance: Map)'
+      parameters:
+        - id: mapContainer
+          type:
+            - HTMLDivElement
+          description: ''
+        - id: mapInstance
+          type:
+            - Map
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.BingMapHacker.startHackFix'
+    name: startHackFix
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Entry point for the hack fix. Each fix item is called sequently.
+    syntax:
+      content: function startHackFix()
+      parameters: []

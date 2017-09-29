@@ -1,0 +1,71 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.TimeProvider'
+    name: TimeProvider
+    fullName: TimeProvider
+    children:
+      - '@microsoft/sp-core-library.TimeProvider.getDate'
+      - '@microsoft/sp-core-library.TimeProvider.getTimestamp'
+      - '@microsoft/sp-core-library.TimeProvider.serviceKey'
+      - '@microsoft/sp-core-library.TimeProvider.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      This is the default implementation of ITimeProvider that simply
+      calls the real browser APIs.
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.TimeProvider.getDate'
+    name: getDate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getDate()
+      parameters: []
+      return:
+        type:
+          - Date
+  - uid: '@microsoft/sp-core-library.TimeProvider.getTimestamp'
+    name: getTimestamp
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getTimestamp()
+      parameters: []
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-core-library.TimeProvider.serviceKey'
+    name: serviceKey
+    fullName: serviceKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The service key for ITimeProvider.
+    syntax:
+      content: static ServiceKey<ITimeProvider> serviceKey
+      return:
+        type:
+          - >-
+            @@microsoft/sp-core-library.ServiceKey<@@microsoft/sp-core-library.ITimeProvider>
+  - uid: '@microsoft/sp-core-library.TimeProvider.constructor'
+    name: TimeProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new TimeProvider(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - '@@microsoft/sp-core-library.ServiceScope'
+          description: ''

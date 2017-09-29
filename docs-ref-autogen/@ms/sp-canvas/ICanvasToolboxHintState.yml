@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ICanvasToolboxHintState'
+    name: ICanvasToolboxHintState
+    fullName: ICanvasToolboxHintState
+    children:
+      - '@ms/sp-canvas.ICanvasToolboxHintState.isVisible'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ICanvasToolboxHintState.isVisible'
+    name: isVisible
+    fullName: isVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isVisible
+      return:
+        type:
+          - boolean

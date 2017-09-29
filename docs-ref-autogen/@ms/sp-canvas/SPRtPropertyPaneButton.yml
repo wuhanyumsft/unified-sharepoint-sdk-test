@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.SPRtPropertyPaneButton'
+    name: SPRtPropertyPaneButton
+    fullName: SPRtPropertyPaneButton
+    children:
+      - '@ms/sp-canvas.SPRtPropertyPaneButton.render'
+      - '@ms/sp-canvas.SPRtPropertyPaneButton.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      SPRtPropertyPaneButton as button component used on the property pane of
+      SPRte
+    extends:
+      name: >-
+        @@ms/sp-canvas.SPRtPropertyPaneButton<@@ms/sp-canvas.ISPRtePropertyPaneButtonProps>
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.SPRtPropertyPaneButton.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Renders SPRtPropertyPaneButton
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@ms/sp-canvas.ISPRtePropertyPaneButtonProps>
+  - uid: '@ms/sp-canvas.SPRtPropertyPaneButton.constructor'
+    name: SPRtPropertyPaneButton
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Constructs an instance of SPRtPropertyPaneButton
+    syntax:
+      content: 'new SPRtPropertyPaneButton(props: ISPRtePropertyPaneButtonProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-canvas.ISPRtePropertyPaneButtonProps'
+          description: ''

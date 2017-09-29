@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/demo-application.DemoApplication'
+    name: DemoApplication
+    fullName: DemoApplication
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/demo-application.DemoApplication'
+    package: '@ms/demo-application'

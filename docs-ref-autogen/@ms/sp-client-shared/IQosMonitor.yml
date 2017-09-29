@@ -1,0 +1,91 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-shared.IQosMonitor'
+    name: IQosMonitor
+    fullName: IQosMonitor
+    children:
+      - '@ms/sp-client-shared.IQosMonitor.writeExpectedFailure'
+      - '@ms/sp-client-shared.IQosMonitor.writeSuccess'
+      - '@ms/sp-client-shared.IQosMonitor.writeUnexpectedFailure'
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      Provides methods for QoS monitoring. The monitor should be able to
+
+      measure the duration of an event and not only count successes / failures.
+
+      A new instance of the monitor will be created for each event. When the
+      monitor is created,
+
+      it also means that the event monitored has started. After the creation of
+      the monitor object,
+
+      monitor.write*() will be called which signals that the event has ended.
+    package: '@ms/sp-client-shared'
+  - uid: '@ms/sp-client-shared.IQosMonitor.writeExpectedFailure'
+    name: writeExpectedFailure
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      The function should log the error using a unique prefix added to the
+      tagName in order
+
+      to prevent name clashes between monitoring in different instances of the
+      token utility
+
+      on different components
+    syntax:
+      content: 'function writeExpectedFailure(tagName?: string, ex?: Error)'
+      parameters:
+        - id: tagName
+          type:
+            - string
+          description: failure tag name
+          optional: true
+        - id: ex
+          type:
+            - Error
+          description: |
+            exception object that caused the failure
+          optional: true
+  - uid: '@ms/sp-client-shared.IQosMonitor.writeSuccess'
+    name: writeSuccess
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Writes a QoS success
+    syntax:
+      content: function writeSuccess()
+      parameters: []
+  - uid: '@ms/sp-client-shared.IQosMonitor.writeUnexpectedFailure'
+    name: writeUnexpectedFailure
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      The function should log the error using a unique prefix added to the
+      tagName in order
+
+      to prevent name clashes between monitoring in different instances of the
+      token utility
+
+      on different components
+    syntax:
+      content: 'function writeUnexpectedFailure(tagName?: string, ex?: Error)'
+      parameters:
+        - id: tagName
+          type:
+            - string
+          description: failure tag name
+          optional: true
+        - id: ex
+          type:
+            - Error
+          description: |
+            exception object that caused the failure
+          optional: true

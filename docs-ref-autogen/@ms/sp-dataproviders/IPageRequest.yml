@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IPageRequest'
+    name: IPageRequest
+    fullName: IPageRequest
+    children:
+      - '@ms/sp-dataproviders.IPageRequest.pageRelativeUrl'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IPageRequest.pageRelativeUrl'
+    name: pageRelativeUrl
+    fullName: pageRelativeUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string pageRelativeUrl
+      return:
+        type:
+          - string

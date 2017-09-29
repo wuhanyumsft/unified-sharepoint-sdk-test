@@ -1,0 +1,75 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.GroupDataProvider'
+    name: GroupDataProvider
+    fullName: GroupDataProvider
+    children:
+      - '@ms/sp-dataproviders.GroupDataProvider.getItems'
+      - '@ms/sp-dataproviders.GroupDataProvider.constructor'
+      - '@ms/sp-dataproviders.GroupDataProvider.id'
+      - '@ms/sp-dataproviders.GroupDataProvider.title'
+    langs:
+      - typeScript
+    type: class
+    summary: A data provider for the OWA O365 Connector API.
+    extends:
+      name: >-
+        @@ms/sp-dataproviders.BaseDataProvider<@@ms/sp-dataproviders.IGroupDataProviderRequest>
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.GroupDataProvider.getItems'
+    name: getItems
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getItems(request: IGroupDataProviderRequest)'
+      parameters:
+        - id: request
+          type:
+            - '@@ms/sp-dataproviders.IGroupDataProviderRequest'
+          description: ''
+      return:
+        type:
+          - 'Promise<@@ms/sp-dataproviders.IGroupResponse[]>'
+  - uid: '@ms/sp-dataproviders.GroupDataProvider.constructor'
+    name: GroupDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new GroupDataProvider(options: IGroupDataProviderOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@@ms/sp-dataproviders.IGroupDataProviderOptions'
+          description: ''
+  - uid: '@ms/sp-dataproviders.GroupDataProvider.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.GroupDataProvider.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

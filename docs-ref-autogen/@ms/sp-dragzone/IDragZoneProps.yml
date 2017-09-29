@@ -1,0 +1,283 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dragzone.IDragZoneProps'
+    name: IDragZoneProps
+    fullName: IDragZoneProps
+    children:
+      - '@ms/sp-dragzone.IDragZoneProps.canDropOnEmptyParent'
+      - '@ms/sp-dragzone.IDragZoneProps.disallowedClassName'
+      - '@ms/sp-dragzone.IDragZoneProps.disallowedTag'
+      - '@ms/sp-dragzone.IDragZoneProps.dragHandleTag'
+      - '@ms/sp-dragzone.IDragZoneProps.dragZoneStrings'
+      - '@ms/sp-dragzone.IDragZoneProps.dropPositionOffsetBottomPx'
+      - '@ms/sp-dragzone.IDragZoneProps.dropPositionOffsetTopPx'
+      - '@ms/sp-dragzone.IDragZoneProps.icon'
+      - '@ms/sp-dragzone.IDragZoneProps.isEnabled'
+      - '@ms/sp-dragzone.IDragZoneProps.onMoved'
+      - '@ms/sp-dragzone.IDragZoneProps.onMoveStart'
+      - '@ms/sp-dragzone.IDragZoneProps.onMoving'
+      - '@ms/sp-dragzone.IDragZoneProps.scrollIntoView'
+      - '@ms/sp-dragzone.IDragZoneProps.supportHorizontalReorder'
+      - '@ms/sp-dragzone.IDragZoneProps.supportKeyboardAlternative'
+      - '@ms/sp-dragzone.IDragZoneProps.treeLevelTagsBottomUp'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dragzone'
+  - uid: '@ms/sp-dragzone.IDragZoneProps.canDropOnEmptyParent'
+    name: canDropOnEmptyParent
+    fullName: canDropOnEmptyParent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If not used for sorting this can be set to true. That enables dropping
+      items from one 'column' to another.
+    syntax:
+      content: boolean canDropOnEmptyParent
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dragzone.IDragZoneProps.disallowedClassName'
+    name: disallowedClassName
+    fullName: disallowedClassName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Css class for the dataDragDisallowedArea
+    syntax:
+      content: string disallowedClassName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dragzone.IDragZoneProps.disallowedTag'
+    name: disallowedTag
+    fullName: disallowedTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      When this item is specified it disallows moving of elements with
+      data-drag-disallowed-tag inside elements with
+
+      data-drag-disallowedArea-tag
+    syntax:
+      content: string disallowedTag
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dragzone.IDragZoneProps.dragHandleTag'
+    name: dragHandleTag
+    fullName: dragHandleTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The tag for the DOM elements that are used as drag handles. If unspecified
+      the whole leaf element becomes
+
+      draggable.
+    syntax:
+      content: string dragHandleTag
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dragzone.IDragZoneProps.dragZoneStrings'
+    name: dragZoneStrings
+    fullName: dragZoneStrings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Strings used by the DragZone for accessibility purposes
+    syntax:
+      content: IDragZoneA11yStrings dragZoneStrings
+      return:
+        type:
+          - '@@ms/sp-dragzone.IDragZoneA11yStrings'
+  - uid: '@ms/sp-dragzone.IDragZoneProps.dropPositionOffsetBottomPx'
+    name: dropPositionOffsetBottomPx
+    fullName: dropPositionOffsetBottomPx
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gives the consumer the possibility to position the line that indicates the
+      drop position according to their
+
+      particular use case. This adjusts the distance between the line and the
+      object before it.
+    syntax:
+      content: number dropPositionOffsetBottomPx
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-dragzone.IDragZoneProps.dropPositionOffsetTopPx'
+    name: dropPositionOffsetTopPx
+    fullName: dropPositionOffsetTopPx
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gives the consumer the possibility to position the line that indicates the
+      drop position according to their
+
+      particular use case. This adjusts the distance between the line and the
+      object after it.
+    syntax:
+      content: number dropPositionOffsetTopPx
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-dragzone.IDragZoneProps.icon'
+    name: icon
+    fullName: icon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The icon that moves with the mouse/touch while a drag is being performed
+    syntax:
+      content: HTMLElement icon
+      return:
+        type:
+          - HTMLElement
+  - uid: '@ms/sp-dragzone.IDragZoneProps.isEnabled'
+    name: isEnabled
+    fullName: isEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Enables and disables the drag and drop functionality. isEnabled = false
+      removes the event handlers from the
+
+      dom elements.
+    syntax:
+      content: boolean isEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dragzone.IDragZoneProps.onMoved'
+    name: onMoved
+    fullName: onMoved
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Event handler to be called when a drop has been performed
+    syntax:
+      content: '(oldPosition: number[], newPosition: number[]) => void onMoved'
+      return:
+        type:
+          - '(oldPosition: number[], newPosition: number[]) => void'
+  - uid: '@ms/sp-dragzone.IDragZoneProps.onMoveStart'
+    name: onMoveStart
+    fullName: onMoveStart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Event handler to be called when the drag has started
+    syntax:
+      content: '(draggedItemPosition: number[]) => void onMoveStart'
+      return:
+        type:
+          - '(draggedItemPosition: number[]) => void'
+  - uid: '@ms/sp-dragzone.IDragZoneProps.onMoving'
+    name: onMoving
+    fullName: onMoving
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Event handler to be called when the drag is happening
+    syntax:
+      content: '(disallowed: boolean) => void onMoving'
+      return:
+        type:
+          - '(disallowed: boolean) => void'
+  - uid: '@ms/sp-dragzone.IDragZoneProps.scrollIntoView'
+    name: scrollIntoView
+    fullName: scrollIntoView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The callback method to scroll into view when the element is outside the
+      viewport
+    syntax:
+      content: >-
+        (type: function, element: HTMLElement, duration: number, margin: number)
+        => void scrollIntoView
+      return:
+        type:
+          - >-
+            (type: function, element: HTMLElement, duration: number, margin:
+            number) => void
+  - uid: '@ms/sp-dragzone.IDragZoneProps.supportHorizontalReorder'
+    name: supportHorizontalReorder
+    fullName: supportHorizontalReorder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      default false
+      Reorder animation should support horizontal reorder or not.
+    syntax:
+      content: boolean supportHorizontalReorder
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dragzone.IDragZoneProps.supportKeyboardAlternative'
+    name: supportKeyboardAlternative
+    fullName: supportKeyboardAlternative
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Whether the keyboard alternative should be enabled.
+
+      It generally should be enabled by default but in case the consumer
+      implements its own keyboard logic or the default
+
+      behavior of DragZone keyboard alternative is not suitable for consumer.
+
+      Default is true
+    syntax:
+      content: boolean supportKeyboardAlternative
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dragzone.IDragZoneProps.treeLevelTagsBottomUp'
+    name: treeLevelTagsBottomUp
+    fullName: treeLevelTagsBottomUp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The tags that will be added to DOM elements that can be sorted or dragged.
+      The first element is the
+
+      bottom most element in the hierarchy. Ex: ['control', 'column', 'section']
+      means the DragZone contains sections
+
+      which contain column which contain controls. Each marked with the
+      appropriate tag as speicifed in this array.
+    syntax:
+      content: 'string[] treeLevelTagsBottomUp'
+      return:
+        type:
+          - 'string[]'

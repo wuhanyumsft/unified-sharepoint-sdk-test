@@ -1,0 +1,80 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.FilePickerRecentsDataProvider'
+    name: FilePickerRecentsDataProvider
+    fullName: FilePickerRecentsDataProvider
+    children:
+      - '@ms/sp-filepicker.FilePickerRecentsDataProvider.constructor'
+      - '@ms/sp-filepicker.FilePickerRecentsDataProvider.getRecentByActivity'
+      - '@ms/sp-filepicker.FilePickerRecentsDataProvider.getRecentBySearch'
+      - '@ms/sp-filepicker.FilePickerRecentsDataProvider.requestData'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.FilePickerRecentsDataProvider.constructor'
+    name: FilePickerRecentsDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new FilePickerRecentsDataProvider(options:
+        IFilePickerRecentsDataProviderOptions)
+      parameters:
+        - id: options
+          type:
+            - '@@ms/sp-filepicker.IFilePickerRecentsDataProviderOptions'
+          description: ''
+  - uid: '@ms/sp-filepicker.FilePickerRecentsDataProvider.getRecentByActivity'
+    name: getRecentByActivity
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getRecentByActivity()
+      parameters: []
+      return:
+        type:
+          - Promise<IRecentItemsResponse>
+  - uid: '@ms/sp-filepicker.FilePickerRecentsDataProvider.getRecentBySearch'
+    name: getRecentBySearch
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getRecentBySearch()
+      parameters: []
+      return:
+        type:
+          - Promise<IRecentItemsResponse>
+  - uid: '@ms/sp-filepicker.FilePickerRecentsDataProvider.requestData'
+    name: requestData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function requestData(successCallback: (response: IRecentItemsResponse)
+        => void, errorCallback: (error: Error) => void)
+      parameters:
+        - id: successCallback
+          type:
+            - '(response: IRecentItemsResponse) => void'
+          description: ''
+        - id: errorCallback
+          type:
+            - '(error: Error) => void'
+          description: ''
+      return:
+        type:
+          - Promise<IRecentItemsResponse>

@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-selenium-utilities.IMochaTest'
+    name: IMochaTest
+    fullName: IMochaTest
+    children:
+      - '@ms/sp-selenium-utilities.IMochaTest.clone'
+      - '@ms/sp-selenium-utilities.IMochaTest.currentRetry'
+      - '@ms/sp-selenium-utilities.IMochaTest.fullTitle'
+      - '@ms/sp-selenium-utilities.IMochaTest.state'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-selenium-utilities'
+  - uid: '@ms/sp-selenium-utilities.IMochaTest.clone'
+    name: clone
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clone()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-selenium-utilities.IMochaTest'
+  - uid: '@ms/sp-selenium-utilities.IMochaTest.currentRetry'
+    name: currentRetry
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function currentRetry()
+      parameters: []
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-selenium-utilities.IMochaTest.fullTitle'
+    name: fullTitle
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function fullTitle()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-selenium-utilities.IMochaTest.state'
+    name: state
+    fullName: state
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string state
+      return:
+        type:
+          - string

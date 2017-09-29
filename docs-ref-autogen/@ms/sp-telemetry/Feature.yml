@@ -1,0 +1,74 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.Feature'
+    name: Feature
+    fullName: Feature
+    children:
+      - '@ms/sp-telemetry.Feature.Canvas'
+      - '@ms/sp-telemetry.Feature.Header'
+      - '@ms/sp-telemetry.Feature.LeftNav'
+      - '@ms/sp-telemetry.Feature.News'
+      - '@ms/sp-telemetry.Feature.ScrollBar'
+      - '@ms/sp-telemetry.Feature.TopNav'
+      - '@ms/sp-telemetry.Feature.WebPart'
+    langs:
+      - typeScript
+    type: enum
+    summary: Feature list for the feature field in Engagement Event stream.
+    package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.Feature.Canvas'
+    name: Canvas
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-telemetry.Feature.Header'
+    name: Header
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-telemetry.Feature.LeftNav'
+    name: LeftNav
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-telemetry.Feature.News'
+    name: News
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-telemetry.Feature.ScrollBar'
+    name: ScrollBar
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-telemetry.Feature.TopNav'
+    name: TopNav
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-telemetry.Feature.WebPart'
+    name: WebPart
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null

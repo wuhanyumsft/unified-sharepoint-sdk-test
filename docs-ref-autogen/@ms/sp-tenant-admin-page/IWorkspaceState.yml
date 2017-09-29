@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IWorkspaceState'
+    name: IWorkspaceState
+    fullName: IWorkspaceState
+    children:
+      - '@ms/sp-tenant-admin-page.IWorkspaceState.columns'
+      - '@ms/sp-tenant-admin-page.IWorkspaceState.contextualMenuProps'
+      - '@ms/sp-tenant-admin-page.IWorkspaceState.filteredItem'
+      - '@ms/sp-tenant-admin-page.IWorkspaceState.rows'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IWorkspaceState.columns'
+    name: columns
+    fullName: columns
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IColumn[] columns'
+      return:
+        type:
+          - 'IColumn[]'
+  - uid: '@ms/sp-tenant-admin-page.IWorkspaceState.contextualMenuProps'
+    name: contextualMenuProps
+    fullName: contextualMenuProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IContextualMenuProps contextualMenuProps
+      return:
+        type:
+          - IContextualMenuProps
+  - uid: '@ms/sp-tenant-admin-page.IWorkspaceState.filteredItem'
+    name: filteredItem
+    fullName: filteredItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string filteredItem
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IWorkspaceState.rows'
+    name: rows
+    fullName: rows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ISiteInfo[] rows'
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISiteInfo[]'

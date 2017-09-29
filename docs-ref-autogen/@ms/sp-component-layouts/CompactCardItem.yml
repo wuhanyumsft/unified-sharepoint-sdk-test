@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.CompactCardItem'
+    name: CompactCardItem
+    fullName: CompactCardItem
+    children:
+      - '@ms/sp-component-layouts.CompactCardItem.constructor'
+      - '@ms/sp-component-layouts.CompactCardItem.componentDidUpdate'
+      - '@ms/sp-component-layouts.CompactCardItem.componentWillReceiveProps'
+      - '@ms/sp-component-layouts.CompactCardItem.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-component-layouts.CompactCardItem<@@ms/sp-component-layouts.ICompactCardItemProps>
+    package: '@ms/sp-component-layouts'
+  - uid: '@ms/sp-component-layouts.CompactCardItem.constructor'
+    name: CompactCardItem
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CompactCardItem(props: ICompactCardItemProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-component-layouts.ICompactCardItemProps'
+          description: ''
+  - uid: '@ms/sp-component-layouts.CompactCardItem.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentDidUpdate(prevProps: ICompactCardItemProps)'
+      parameters:
+        - id: prevProps
+          type:
+            - '@@ms/sp-component-layouts.ICompactCardItemProps'
+          description: ''
+  - uid: '@ms/sp-component-layouts.CompactCardItem.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: ICompactCardItemProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-component-layouts.ICompactCardItemProps'
+          description: ''
+  - uid: '@ms/sp-component-layouts.CompactCardItem.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<HTMLDivElement>

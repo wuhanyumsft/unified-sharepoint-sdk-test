@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneGroup'
+    name: IPropertyPaneGroup
+    fullName: IPropertyPaneGroup
+    children:
+      - '@microsoft/sp-webpart-base.IPropertyPaneGroup.groupFields'
+      - '@microsoft/sp-webpart-base.IPropertyPaneGroup.groupName'
+      - '@microsoft/sp-webpart-base.IPropertyPaneGroup.isCollapsed'
+    langs:
+      - typeScript
+    type: interface
+    summary: PropertyPane group. Group is part of the PropertyPanePage.
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneGroup.groupFields'
+    name: groupFields
+    fullName: groupFields
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: List of PropertyPane fields.
+    syntax:
+      content: 'IPropertyPaneField<any>[] groupFields'
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.IPropertyPaneField<any>[]'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneGroup.groupName'
+    name: groupName
+    fullName: groupName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Display name for the group.
+
+      For performance reasons, it's highly recommended to keep this name unique
+      within the property pane page.
+    syntax:
+      content: string groupName
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneGroup.isCollapsed'
+    name: isCollapsed
+    fullName: isCollapsed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Indicates whether the PropertyPane group is collapsed or not.
+      Defaullt: false
+    syntax:
+      content: boolean isCollapsed
+      return:
+        type:
+          - boolean

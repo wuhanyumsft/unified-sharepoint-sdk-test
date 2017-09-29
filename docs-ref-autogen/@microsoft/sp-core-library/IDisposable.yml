@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.IDisposable'
+    name: IDisposable
+    fullName: IDisposable
+    children:
+      - '@microsoft/sp-core-library.IDisposable.dispose'
+      - '@microsoft/sp-core-library.IDisposable.isDisposed'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface for classes that can be disposed.
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.IDisposable.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Disposes the component.
+
+      In order to write component-specific dispose mechanism, use onDispose
+      instead.
+    syntax:
+      content: function dispose()
+      parameters: []
+  - uid: '@microsoft/sp-core-library.IDisposable.isDisposed'
+    name: isDisposed
+    fullName: isDisposed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns true if the component has been already disposed.
+    syntax:
+      content: boolean isDisposed
+      return:
+        type:
+          - boolean

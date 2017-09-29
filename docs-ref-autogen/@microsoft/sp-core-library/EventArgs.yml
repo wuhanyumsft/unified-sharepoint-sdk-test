@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.EventArgs'
+    name: EventArgs
+    fullName: EventArgs
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Base class for event arguments type.
+
+      Use as a parameter for the Event class to provide type safety on the event
+      arguments.
+    package: '@microsoft/sp-core-library'

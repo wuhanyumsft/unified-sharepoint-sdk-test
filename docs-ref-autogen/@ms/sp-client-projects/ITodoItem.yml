@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.ITodoItem'
+    name: ITodoItem
+    fullName: ITodoItem
+    children:
+      - '@ms/sp-client-projects.ITodoItem.Id'
+      - '@ms/sp-client-projects.ITodoItem.Title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.ITodoItem.Id'
+    name: Id
+    fullName: Id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number Id
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-client-projects.ITodoItem.Title'
+    name: Title
+    fullName: Title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Title
+      return:
+        type:
+          - string

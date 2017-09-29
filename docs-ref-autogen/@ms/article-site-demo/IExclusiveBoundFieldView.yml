@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/article-site-demo.IExclusiveBoundFieldView'
+    name: IExclusiveBoundFieldView
+    fullName: IExclusiveBoundFieldView
+    children:
+      - '@ms/article-site-demo.IExclusiveBoundFieldView.saveStateToField'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/article-site-demo'
+  - uid: '@ms/article-site-demo.IExclusiveBoundFieldView.saveStateToField'
+    name: saveStateToField
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function saveStateToField()
+      parameters: []

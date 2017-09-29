@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IActiveIndicatorCache'
+    name: IActiveIndicatorCache
+    fullName: IActiveIndicatorCache
+    children:
+      - '@microsoft/sp-webpart-base.IActiveIndicatorCache.isErrorBeingRendered'
+      - '@microsoft/sp-webpart-base.IActiveIndicatorCache.loadingTimer'
+      - '@microsoft/sp-webpart-base.IActiveIndicatorCache.placeholder'
+    langs:
+      - typeScript
+    type: interface
+    summary: Placeholder cache data for the Dom element
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IActiveIndicatorCache.isErrorBeingRendered'
+    name: isErrorBeingRendered
+    fullName: isErrorBeingRendered
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isErrorBeingRendered
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.IActiveIndicatorCache.loadingTimer'
+    name: loadingTimer
+    fullName: loadingTimer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number loadingTimer
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-webpart-base.IActiveIndicatorCache.placeholder'
+    name: placeholder
+    fullName: placeholder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PlaceholderSpinner placeholder
+      return:
+        type:
+          - PlaceholderSpinner

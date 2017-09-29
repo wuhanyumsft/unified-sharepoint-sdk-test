@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.ListWebPartSetup'
+    name: ListWebPartSetup
+    fullName: ListWebPartSetup
+    children:
+      - '@ms/sp-teamsite-webparts.ListWebPartSetup.constructor'
+      - '@ms/sp-teamsite-webparts.ListWebPartSetup.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-teamsite-webparts.ListWebPartSetup<@@ms/sp-teamsite-webparts.IListWebPartSetupProps>
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.ListWebPartSetup.constructor'
+    name: ListWebPartSetup
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ListWebPartSetup(props: IListWebPartSetupProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-teamsite-webparts.IListWebPartSetupProps'
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.ListWebPartSetup.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

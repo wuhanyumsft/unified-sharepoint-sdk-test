@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.ISPError'
+    name: ISPError
+    fullName: ISPError
+    children:
+      - '@ms/sp-dataproviders.ISPError.code'
+      - '@ms/sp-dataproviders.ISPError.message'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      The format of an errorBody.error response from the web server with a
+      result code outside of the 200s.
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.ISPError.code'
+    name: code
+    fullName: code
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string code
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISPError.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string message
+      return:
+        type:
+          - string

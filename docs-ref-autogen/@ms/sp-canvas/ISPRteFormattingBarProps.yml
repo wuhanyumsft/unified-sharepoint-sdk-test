@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ISPRteFormattingBarProps'
+    name: ISPRteFormattingBarProps
+    fullName: ISPRteFormattingBarProps
+    children:
+      - '@ms/sp-canvas.ISPRteFormattingBarProps.buttons'
+      - '@ms/sp-canvas.ISPRteFormattingBarProps.isFormattingBarV2'
+      - '@ms/sp-canvas.ISPRteFormattingBarProps.onKeyDown'
+      - '@ms/sp-canvas.ISPRteFormattingBarProps.position'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ISPRteFormattingBarProps.buttons'
+    name: buttons
+    fullName: buttons
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ReactElement<IToolbarButtonProps>[] buttons'
+      return:
+        type:
+          - 'ReactElement<IToolbarButtonProps>[]'
+  - uid: '@ms/sp-canvas.ISPRteFormattingBarProps.isFormattingBarV2'
+    name: isFormattingBarV2
+    fullName: isFormattingBarV2
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isFormattingBarV2
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.ISPRteFormattingBarProps.onKeyDown'
+    name: onKeyDown
+    fullName: onKeyDown
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(e: KeyboardEvent) => void onKeyDown'
+      return:
+        type:
+          - '(e: KeyboardEvent) => void'
+  - uid: '@ms/sp-canvas.ISPRteFormattingBarProps.position'
+    name: position
+    fullName: position
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISPRteFormattingBarPosition position
+      return:
+        type:
+          - '@@ms/sp-canvas.ISPRteFormattingBarPosition'

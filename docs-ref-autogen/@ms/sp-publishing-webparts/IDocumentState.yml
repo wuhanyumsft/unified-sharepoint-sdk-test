@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IDocumentState'
+    name: IDocumentState
+    fullName: IDocumentState
+    children:
+      - '@ms/sp-publishing-webparts.IDocumentState.captionText'
+      - '@ms/sp-publishing-webparts.IDocumentState.docIframeSrc'
+      - '@ms/sp-publishing-webparts.IDocumentState.elementWidth'
+      - '@ms/sp-publishing-webparts.IDocumentState.hasRendered'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IDocumentState.captionText'
+    name: captionText
+    fullName: captionText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string captionText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDocumentState.docIframeSrc'
+    name: docIframeSrc
+    fullName: docIframeSrc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string docIframeSrc
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDocumentState.elementWidth'
+    name: elementWidth
+    fullName: elementWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number elementWidth
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IDocumentState.hasRendered'
+    name: hasRendered
+    fullName: hasRendered
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasRendered
+      return:
+        type:
+          - boolean

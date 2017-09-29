@@ -1,0 +1,87 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.SPRteColorPicker'
+    name: SPRteColorPicker
+    fullName: SPRteColorPicker
+    children:
+      - '@ms/sp-canvas.SPRteColorPicker.componentWillUpdate'
+      - '@ms/sp-canvas.SPRteColorPicker.render'
+      - '@ms/sp-canvas.SPRteColorPicker.shouldComponentUpdate'
+      - '@ms/sp-canvas.SPRteColorPicker.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: SPRteColorPicker as color picker component
+    extends:
+      name: '@@ms/sp-canvas.SPRteColorPicker<@@ms/sp-canvas.ISPRteColorPickerProps>'
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.SPRteColorPicker.componentWillUpdate'
+    name: componentWillUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function componentWillUpdate(prevProps: ISPRteColorPickerProps,
+        prevState: ISPRteColorPickerState)
+      parameters:
+        - id: prevProps
+          type:
+            - '@@ms/sp-canvas.ISPRteColorPickerProps'
+          description: ''
+        - id: prevState
+          type:
+            - '@@ms/sp-canvas.ISPRteColorPickerState'
+          description: ''
+  - uid: '@ms/sp-canvas.SPRteColorPicker.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Renders SPRtColorPicker
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@ms/sp-canvas.ISPRteColorPickerProps>
+  - uid: '@ms/sp-canvas.SPRteColorPicker.shouldComponentUpdate'
+    name: shouldComponentUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function shouldComponentUpdate(nextProps: ISPRteColorPickerProps,
+        nextState: ISPRteColorPickerState)
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-canvas.ISPRteColorPickerProps'
+          description: ''
+        - id: nextState
+          type:
+            - '@@ms/sp-canvas.ISPRteColorPickerState'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.SPRteColorPicker.constructor'
+    name: SPRteColorPicker
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Constructs an instance of SPRteColorPicker
+    syntax:
+      content: 'new SPRteColorPicker(props: ISPRteColorPickerProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-canvas.ISPRteColorPickerProps'
+          description: ''

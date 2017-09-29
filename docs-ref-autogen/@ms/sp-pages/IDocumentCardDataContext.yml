@@ -1,0 +1,207 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IDocumentCardDataContext'
+    name: IDocumentCardDataContext
+    fullName: IDocumentCardDataContext
+    children:
+      - '@ms/sp-pages.IDocumentCardDataContext.Author'
+      - '@ms/sp-pages.IDocumentCardDataContext.DocId'
+      - '@ms/sp-pages.IDocumentCardDataContext.DocLibTitle'
+      - '@ms/sp-pages.IDocumentCardDataContext.DocLibUrl'
+      - '@ms/sp-pages.IDocumentCardDataContext.DocPath'
+      - '@ms/sp-pages.IDocumentCardDataContext.DocumentPreviewHeight'
+      - '@ms/sp-pages.IDocumentCardDataContext.DocumentPreviewImageUrl'
+      - '@ms/sp-pages.IDocumentCardDataContext.DocumentPreviewWidth'
+      - '@ms/sp-pages.IDocumentCardDataContext.FileType'
+      - '@ms/sp-pages.IDocumentCardDataContext.FullDocumentUrl'
+      - '@ms/sp-pages.IDocumentCardDataContext.ImpressionId'
+      - '@ms/sp-pages.IDocumentCardDataContext.ModifiedTime'
+      - '@ms/sp-pages.IDocumentCardDataContext.Summary'
+      - '@ms/sp-pages.IDocumentCardDataContext.Title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IDocumentCardDataContext.Author'
+    name: Author
+    fullName: Author
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Author
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IDocumentCardDataContext.DocId'
+    name: DocId
+    fullName: DocId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string DocId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IDocumentCardDataContext.DocLibTitle'
+    name: DocLibTitle
+    fullName: DocLibTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string DocLibTitle
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IDocumentCardDataContext.DocLibUrl'
+    name: DocLibUrl
+    fullName: DocLibUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string DocLibUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IDocumentCardDataContext.DocPath'
+    name: DocPath
+    fullName: DocPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string DocPath
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IDocumentCardDataContext.DocumentPreviewHeight'
+    name: DocumentPreviewHeight
+    fullName: DocumentPreviewHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number DocumentPreviewHeight
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.IDocumentCardDataContext.DocumentPreviewImageUrl'
+    name: DocumentPreviewImageUrl
+    fullName: DocumentPreviewImageUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string DocumentPreviewImageUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IDocumentCardDataContext.DocumentPreviewWidth'
+    name: DocumentPreviewWidth
+    fullName: DocumentPreviewWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number DocumentPreviewWidth
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.IDocumentCardDataContext.FileType'
+    name: FileType
+    fullName: FileType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: WexFileType FileType
+      return:
+        type:
+          - WexFileType
+  - uid: '@ms/sp-pages.IDocumentCardDataContext.FullDocumentUrl'
+    name: FullDocumentUrl
+    fullName: FullDocumentUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string FullDocumentUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IDocumentCardDataContext.ImpressionId'
+    name: ImpressionId
+    fullName: ImpressionId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ImpressionId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IDocumentCardDataContext.ModifiedTime'
+    name: ModifiedTime
+    fullName: ModifiedTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ModifiedTime
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IDocumentCardDataContext.Summary'
+    name: Summary
+    fullName: Summary
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Summary
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IDocumentCardDataContext.Title'
+    name: Title
+    fullName: Title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Title
+      return:
+        type:
+          - string

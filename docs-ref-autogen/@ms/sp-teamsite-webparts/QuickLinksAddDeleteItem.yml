@@ -1,0 +1,83 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksAddDeleteItem'
+    name: QuickLinksAddDeleteItem
+    fullName: QuickLinksAddDeleteItem
+    children:
+      - '@ms/sp-teamsite-webparts.QuickLinksAddDeleteItem.TestIncludeScripts'
+      - '@ms/sp-teamsite-webparts.QuickLinksAddDeleteItem.TestName'
+      - '@ms/sp-teamsite-webparts.QuickLinksAddDeleteItem.TestOwner'
+      - '@ms/sp-teamsite-webparts.QuickLinksAddDeleteItem.TestRun'
+      - '@ms/sp-teamsite-webparts.QuickLinksAddDeleteItem.TestSetup'
+      - '@ms/sp-teamsite-webparts.QuickLinksAddDeleteItem.TestTeardown'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksAddDeleteItem.TestIncludeScripts'
+    name: TestIncludeScripts
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestIncludeScripts()
+      parameters: []
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksAddDeleteItem.TestName'
+    name: TestName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestName()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksAddDeleteItem.TestOwner'
+    name: TestOwner
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestOwner()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksAddDeleteItem.TestRun'
+    name: TestRun
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestRun()
+      parameters: []
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksAddDeleteItem.TestSetup'
+    name: TestSetup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestSetup()
+      parameters: []
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksAddDeleteItem.TestTeardown'
+    name: TestTeardown
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestTeardown()
+      parameters: []

@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.IPeopleDescriptionState'
+    name: IPeopleDescriptionState
+    fullName: IPeopleDescriptionState
+    children:
+      - '@ms/sp-people-webparts.IPeopleDescriptionState.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-people-webparts'
+  - uid: '@ms/sp-people-webparts.IPeopleDescriptionState.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: People description value.
+    syntax:
+      content: string value
+      return:
+        type:
+          - string

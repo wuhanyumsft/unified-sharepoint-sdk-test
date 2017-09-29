@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.IIcons'
+    name: IIcons
+    fullName: IIcons
+    children:
+      - '@ms/sp-component-utilities.IIcons.getIconColorFromExtension'
+      - '@ms/sp-component-utilities.IIcons.getIconUrl'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.IIcons.getIconColorFromExtension'
+    name: getIconColorFromExtension
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getIconColorFromExtension(extension: string)'
+      parameters:
+        - id: extension
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IIcons.getIconUrl'
+    name: getIconUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getIconUrl(extension: string, size: number)'
+      parameters:
+        - id: extension
+          type:
+            - string
+          description: ''
+        - id: size
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - string

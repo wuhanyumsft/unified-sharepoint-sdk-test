@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.IErrorInformation'
+    name: IErrorInformation
+    fullName: IErrorInformation
+    children:
+      - '@microsoft/sp-loader.IErrorInformation.error'
+      - '@microsoft/sp-loader.IErrorInformation.message'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Provides information about a loader error.
+      Used with handleError() in order to present UI friendly error information.
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.IErrorInformation.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Original error.
+    syntax:
+      content: Error error
+      return:
+        type:
+          - Error
+  - uid: '@microsoft/sp-loader.IErrorInformation.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      User friendly message for the error.
+
+      It should not include technical details, but a way for the user to work
+      around the problem.
+
+      An example of that: "Please refresh the page" or "Please update your
+      browser to the last version"
+    syntax:
+      content: string message
+      return:
+        type:
+          - string

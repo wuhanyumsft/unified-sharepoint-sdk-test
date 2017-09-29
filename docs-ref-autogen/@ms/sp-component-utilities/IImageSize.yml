@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.IImageSize'
+    name: IImageSize
+    fullName: IImageSize
+    children:
+      - '@ms/sp-component-utilities.IImageSize.height'
+      - '@ms/sp-component-utilities.IImageSize.orientation'
+      - '@ms/sp-component-utilities.IImageSize.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.IImageSize.height'
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number height
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.IImageSize.orientation'
+    name: orientation
+    fullName: orientation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number orientation
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.IImageSize.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number width
+      return:
+        type:
+          - number

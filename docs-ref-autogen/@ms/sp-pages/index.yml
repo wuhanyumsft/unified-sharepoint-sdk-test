@@ -1,0 +1,1288 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages'
+    name: '@ms/sp-pages'
+    summary: ''
+    children:
+      - '@ms/sp-pages.IAttachmentItemProps'
+      - '@ms/sp-pages.IAttachmentListProps'
+      - '@ms/sp-pages.AutoSuggestionLocation'
+      - '@ms/sp-pages.IAutoSuggestLocationProps'
+      - '@ms/sp-pages.IAutoSuggestLocationState'
+      - '@ms/sp-pages.CategoryCombobox'
+      - '@ms/sp-pages.ICategoryComboboxProps'
+      - '@ms/sp-pages.ICategoryComboboxState'
+      - '@ms/sp-pages.EventAttendees'
+      - '@ms/sp-pages.IEventAttendeesProps'
+      - '@ms/sp-pages.IEventCategoryProps'
+      - '@ms/sp-pages.IEventDateProps'
+      - '@ms/sp-pages.EventDescription'
+      - '@ms/sp-pages.IEventDescriptionProps'
+      - '@ms/sp-pages.EventEditableLink'
+      - '@ms/sp-pages.IEventEditableLinkProps'
+      - '@ms/sp-pages.EventImageryMap'
+      - '@ms/sp-pages.IEventImageryMapProps'
+      - '@ms/sp-pages.IEventLocationProps'
+      - '@ms/sp-pages.EventMeetingLink'
+      - '@ms/sp-pages.IEventMeetingLinkProps'
+      - '@ms/sp-pages.EventMessageBar'
+      - '@ms/sp-pages.IEventMessageBarProps'
+      - '@ms/sp-pages.IEventMessageBarState'
+      - '@ms/sp-pages.EventOperationErrorType'
+      - '@ms/sp-pages.EventOperationType'
+      - '@ms/sp-pages.EventOperationError'
+      - '@ms/sp-pages.EventPage'
+      - '@ms/sp-pages.EventPageLayout'
+      - '@ms/sp-pages.EventPageLayoutComponent'
+      - '@ms/sp-pages.IEventPageLayoutComponentProps'
+      - '@ms/sp-pages.IEventPageLayoutComponentState'
+      - '@ms/sp-pages.EventPageTitle'
+      - '@ms/sp-pages.IEventPageTitleProps'
+      - '@ms/sp-pages.IEventPageTitleValue'
+      - '@ms/sp-pages.EventsPage'
+      - '@ms/sp-pages.EventsPageLayout'
+      - '@ms/sp-pages.EventsPageLayoutComponent'
+      - '@ms/sp-pages.IEventsPageLayoutComponentProps'
+      - '@ms/sp-pages.IEventsPageLayoutComponentState'
+      - '@ms/sp-pages.BingMapDataSource'
+      - '@ms/sp-pages.IBingMapDataSource'
+      - '@ms/sp-pages.ILocationResource'
+      - '@ms/sp-pages.IRestResponseLocationsData'
+      - '@ms/sp-pages.EventDataProviderLoader'
+      - '@ms/sp-pages.EventDataSource'
+      - '@ms/sp-pages.EventsListDataProviderLoader'
+      - '@ms/sp-pages.MockEventDataProvider'
+      - '@ms/sp-pages.MobileUpsellView'
+      - '@ms/sp-pages.NewsDigestPageLayout'
+      - '@ms/sp-pages.NewsDigestPageLayoutComponent'
+      - '@ms/sp-pages.INewsDigestPageLayoutComponentProps'
+      - '@ms/sp-pages.ViewState'
+      - '@ms/sp-pages.NewsPageLayout'
+      - '@ms/sp-pages.NewsPageLayoutComponent'
+      - '@ms/sp-pages.INewsPageLayoutComponentState'
+      - '@ms/sp-pages.CommandBarSearchBox'
+      - '@ms/sp-pages.PublicationSiteSearchBox'
+      - '@ms/sp-pages.ICommunicationSiteSearchBoxProps'
+      - '@ms/sp-pages.ICommunicationSiteSearchBoxState'
+      - '@ms/sp-pages.ComposedSearchBox'
+      - '@ms/sp-pages.IExtendedSearchBoxProps'
+      - '@ms/sp-pages.ISearchBoxProps'
+      - '@ms/sp-pages.InitializerSearchbox'
+      - '@ms/sp-pages.IInitilizerSearchBoxProps'
+      - '@ms/sp-pages.IInitilizerSearchBoxState'
+      - '@ms/sp-pages.NavSearchBox'
+      - '@ms/sp-pages.PeopleUrlCreator'
+      - '@ms/sp-pages.SearchPage'
+      - '@ms/sp-pages.SearchRouter'
+      - '@ms/sp-pages.ISearchRouterState'
+      - '@ms/sp-pages.BaseSeeAllPageLayout'
+      - '@ms/sp-pages.BaseSeeAllPageLayoutComponent'
+      - '@ms/sp-pages.BaseSeeAllPageLayoutScrollRegion'
+      - '@ms/sp-pages.IBaseSeeAllPageLayoutProperties'
+      - '@ms/sp-pages.IBaseSeeAllPageLayoutScrollRegionProp'
+      - '@ms/sp-pages.PageDataProviderLoader'
+      - '@ms/sp-pages.SeeAllPage'
+      - '@ms/sp-pages.SeeAllPageLayout'
+      - '@ms/sp-pages.SeeAllPageLayoutComponent'
+      - '@ms/sp-pages.ISeeAllPageLayoutState'
+      - '@ms/sp-pages.LikeableItem'
+      - '@ms/sp-pages.ILikeChunk'
+      - '@ms/sp-pages.ILikesServerResponse'
+      - '@ms/sp-pages.SocialActionCreator'
+      - '@ms/sp-pages.SocialDataProvider'
+      - '@ms/sp-pages.SocialStore'
+      - '@ms/sp-pages.SearchViewCountDataSourceLoader'
+      - '@ms/sp-pages.SocialBar'
+      - '@ms/sp-pages.ISocialBarState'
+      - '@ms/sp-pages.SocialBarPanel'
+      - '@ms/sp-pages.ISocialBarPanelProps'
+      - '@ms/sp-pages.ViewCountDataSourceLoader'
+      - '@ms/sp-pages.IWebViewCallbackMessage'
+      - '@ms/sp-pages.IWebViewErrorMessage'
+      - '@ms/sp-pages.IWebViewMessage'
+      - '@ms/sp-pages.IWebViewNavigationMessage'
+      - '@ms/sp-pages.IWebViewUserActionMessage'
+      - '@ms/sp-pages.IWebViewCallbackNavigationResponse'
+      - '@ms/sp-pages.IWebViewCallbackResponse'
+      - '@ms/sp-pages.IWebViewCallbackUserActionResponse'
+      - '@ms/sp-pages.Preload'
+      - '@ms/sp-pages.WebViewCommunicator'
+      - '@ms/sp-pages.IWebViewCallbackHandler'
+      - '@ms/sp-pages.AutoSaveTimer'
+      - '@ms/sp-pages.ActionLogger'
+      - '@ms/sp-pages.FailureTag'
+      - '@ms/sp-pages.SPPageComponentName'
+      - '@ms/sp-pages.SPPageLogFeature'
+      - '@ms/sp-pages.SPPagePerfLogger'
+      - '@ms/sp-pages.PageManager'
+      - '@ms/sp-pages.SPPageApp'
+      - '@ms/sp-pages.ActionTypes'
+      - '@ms/sp-pages.BaseAction'
+      - '@ms/sp-pages.ChromeConfigurationActionCreator'
+      - '@ms/sp-pages.CommentActionCreator'
+      - '@ms/sp-pages.DisplayModeStoreActionCreator'
+      - '@ms/sp-pages.IDisplayModeStoreActionOptions'
+      - '@ms/sp-pages.FirstRunActionCreator'
+      - '@ms/sp-pages.FirstRunData'
+      - '@ms/sp-pages.IAction'
+      - '@ms/sp-pages.NavigationActionCreator'
+      - '@ms/sp-pages.PageFieldStoreActionCreator'
+      - '@ms/sp-pages.PageLayoutMappingStoreActionCreator'
+      - '@ms/sp-pages.PageLayoutStoreActionCreator'
+      - '@ms/sp-pages.PageStatusStoreActionCreator'
+      - '@ms/sp-pages.PageTemplateActionCreator'
+      - '@ms/sp-pages.RenderPhaseActionCreator'
+      - '@ms/sp-pages.RoutingActionCreator'
+      - '@ms/sp-pages.SearchActionCreator'
+      - '@ms/sp-pages.ClassicPubNavProviderType'
+      - '@ms/sp-pages.Constants'
+      - '@ms/sp-pages.FirstRunCacheManager'
+      - '@ms/sp-pages.IInputPageContextInfo'
+      - '@ms/sp-pages.IOnePagePrefetchParams'
+      - '@ms/sp-pages.Icons'
+      - '@ms/sp-pages.KeyCodes'
+      - '@ms/sp-pages.IOnePageNavigationContext'
+      - '@ms/sp-pages.ISPListModule'
+      - '@ms/sp-pages.ISPListPrefetchModule'
+      - '@ms/sp-pages.ISPListPrefetchResult'
+      - '@ms/sp-pages.AppCache'
+      - '@ms/sp-pages.CachedItem'
+      - '@ms/sp-pages.PageCacheManager'
+      - '@ms/sp-pages.PagesFlights'
+      - '@ms/sp-pages.PagesKillSwitches'
+      - '@ms/sp-pages.Utilities'
+      - '@ms/sp-pages.IUserVoice'
+      - '@ms/sp-pages.UserVoiceButtonConfiguration'
+      - '@ms/sp-pages.DomUtils'
+      - '@ms/sp-pages.UserVoiceWidget'
+      - '@ms/sp-pages.UserVoiceWidgetConfiguration'
+      - '@ms/sp-pages.UserVoiceWidgetMode'
+      - '@ms/sp-pages.BasePublishingControl'
+      - '@ms/sp-pages.ChangeTheLookPanelRenderer'
+      - '@ms/sp-pages.IChangeTheLookPanelRendererProps'
+      - '@ms/sp-pages.CustomTitleRegion'
+      - '@ms/sp-pages.ITitleRegionProps'
+      - '@ms/sp-pages.Deferred'
+      - '@ms/sp-pages.IDeferredProps'
+      - '@ms/sp-pages.IDeferredState'
+      - '@ms/sp-pages.FeedbackLink'
+      - '@ms/sp-pages.PageIndex'
+      - '@ms/sp-pages.StringKeys'
+      - '@ms/sp-pages.FirstRunDialog'
+      - '@ms/sp-pages.IFirstRunDialogState'
+      - '@ms/sp-pages.IFirstRunText'
+      - '@ms/sp-pages.FirstRunView'
+      - '@ms/sp-pages.IFirstRunViewProps'
+      - '@ms/sp-pages.GroupMembershipPanelContainer'
+      - '@ms/sp-pages.IGroupMembershipPanelContainerProps'
+      - '@ms/sp-pages.GroupMembershipPanelRenderer'
+      - '@ms/sp-pages.HeaderControl'
+      - '@ms/sp-pages.IHeaderControlProps'
+      - '@ms/sp-pages.IHeaderControlState'
+      - '@ms/sp-pages.HubNavHost'
+      - '@ms/sp-pages.IHubNavHostProps'
+      - '@ms/sp-pages.IHubNavHostState'
+      - '@ms/sp-pages.ListCreationPanelContainer'
+      - '@ms/sp-pages.IListCreationPanelContainerProps'
+      - '@ms/sp-pages.ListCreationPanelRender'
+      - '@ms/sp-pages.ManagePagePanel'
+      - '@ms/sp-pages.IManagePagePanelProps'
+      - '@ms/sp-pages.NewPageDialog'
+      - '@ms/sp-pages.IDialogChoiceProps'
+      - '@ms/sp-pages.INewPageDialogProps'
+      - '@ms/sp-pages.INewPageDialogState'
+      - '@ms/sp-pages.PageStatusNotifier'
+      - '@ms/sp-pages.IPagePublishingWrapperProps'
+      - '@ms/sp-pages.IPagePublishingWrapperStates'
+      - '@ms/sp-pages.PageTitle'
+      - '@ms/sp-pages.IPageTitleProps'
+      - '@ms/sp-pages.IPageTitleStates'
+      - '@ms/sp-pages.PromotePage'
+      - '@ms/sp-pages.IPromotePageState'
+      - '@ms/sp-pages.RecipeActionLabel'
+      - '@ms/sp-pages.RecipeProgressPanel'
+      - '@ms/sp-pages.IRecipeActionLabelProps'
+      - '@ms/sp-pages.IRecipeProgressPanelState'
+      - '@ms/sp-pages.SPCanvas'
+      - '@ms/sp-pages.ISPCanvasProps'
+      - '@ms/sp-pages.SharePageByEmail'
+      - '@ms/sp-pages.ISharePageByEmailProps'
+      - '@ms/sp-pages.ISharePageByEmailState'
+      - '@ms/sp-pages.SiteHeaderHost'
+      - '@ms/sp-pages.ISiteHeaderHostProps'
+      - '@ms/sp-pages.ISiteHeaderHostState'
+      - '@ms/sp-pages.SitePermissionsPanelContainer'
+      - '@ms/sp-pages.ISitePermissionsPanelContainerProps'
+      - '@ms/sp-pages.ISitePermissionsPanelWrapperState'
+      - '@ms/sp-pages.SitePermissionsPanelRenderer'
+      - '@ms/sp-pages.SiteSettingsPanelContainer'
+      - '@ms/sp-pages.ISiteSettingsPanelContainerProps'
+      - '@ms/sp-pages.SiteSettingsPanelRenderer'
+      - '@ms/sp-pages.UserVoiceView'
+      - '@ms/sp-pages.IUserVoiceViewState'
+      - '@ms/sp-pages.SPCommandBar'
+      - '@ms/sp-pages.ICommandItem'
+      - '@ms/sp-pages.ICommandbarProps'
+      - '@ms/sp-pages.ICommandbarStates'
+      - '@ms/sp-pages.Comment'
+      - '@ms/sp-pages.ICommentProps'
+      - '@ms/sp-pages.ICommentState'
+      - '@ms/sp-pages.CommentAvatar'
+      - '@ms/sp-pages.ICommentAvatarProps'
+      - '@ms/sp-pages.CommentBlock'
+      - '@ms/sp-pages.ICommentBlockProps'
+      - '@ms/sp-pages.ICommentBlockState'
+      - '@ms/sp-pages.CommentConstants'
+      - '@ms/sp-pages.Engagement'
+      - '@ms/sp-pages.CommentContainer'
+      - '@ms/sp-pages.ICommentContainerProps'
+      - '@ms/sp-pages.ICommentContainerState'
+      - '@ms/sp-pages.CommentDirectScroller'
+      - '@ms/sp-pages.CommentDisableToggle'
+      - '@ms/sp-pages.ICommentDisableToggleProps'
+      - '@ms/sp-pages.CommentReply'
+      - '@ms/sp-pages.ICommentReplyProps'
+      - '@ms/sp-pages.ICommentReplyState'
+      - '@ms/sp-pages.CommentSection'
+      - '@ms/sp-pages.ICommentSectionProps'
+      - '@ms/sp-pages.CommentSectionHeader'
+      - '@ms/sp-pages.ICommentSectionHeaderProps'
+      - '@ms/sp-pages.Comment'
+      - '@ms/sp-pages.ICommentState'
+      - '@ms/sp-pages.ICommentTextProps'
+      - '@ms/sp-pages.DOMLinker'
+      - '@ms/sp-pages.NodeSet'
+      - '@ms/sp-pages.ILinkifyItMatch'
+      - '@ms/sp-pages.LikedByPanel'
+      - '@ms/sp-pages.ILikedByPanelProps'
+      - '@ms/sp-pages.ReactLinker'
+      - '@ms/sp-pages.ILinkifyItMatch'
+      - '@ms/sp-pages.IReactElementType'
+      - '@ms/sp-pages.IReactLinkerProps'
+      - '@ms/sp-pages.IReactionBarProps'
+      - '@ms/sp-pages.IReactionButtonProps'
+      - '@ms/sp-pages.ILikeMessageProps'
+      - '@ms/sp-pages.MigrateBlogDialog'
+      - '@ms/sp-pages.IMigrateBlogDialogContentProps'
+      - '@ms/sp-pages.MigrateBlogPost'
+      - '@ms/sp-pages.ImageSourceType'
+      - '@ms/sp-pages.WebPartDescriptions'
+      - '@ms/sp-pages.WebPartTitles'
+      - '@ms/sp-pages.IDocWebPartProperties'
+      - '@ms/sp-pages.IImageHeaderProperties'
+      - '@ms/sp-pages.IImageWebPartProperties'
+      - '@ms/sp-pages.IVideoWebPartProperties'
+      - '@ms/sp-pages.EditNav'
+      - '@ms/sp-pages.IPageEditNavProps'
+      - '@ms/sp-pages.IPageEditNavState'
+      - '@ms/sp-pages.LeftNav'
+      - '@ms/sp-pages.ISPNavProps'
+      - '@ms/sp-pages.ISPNavState'
+      - '@ms/sp-pages.CommentItemConverter'
+      - '@ms/sp-pages.CommentDisabledState'
+      - '@ms/sp-pages.CommentItem'
+      - '@ms/sp-pages.ICommentDisabledScopeServerChunk'
+      - '@ms/sp-pages.ICommentItemChunk'
+      - '@ms/sp-pages.ICommentItemServerChunk'
+      - '@ms/sp-pages.ICommentItemServerResponse'
+      - '@ms/sp-pages.ICommentLikeChunk'
+      - '@ms/sp-pages.ICommentLikesServerResponse'
+      - '@ms/sp-pages.ILikeable'
+      - '@ms/sp-pages.IUserObject'
+      - '@ms/sp-pages.CommentsDataProvider'
+      - '@ms/sp-pages.FirstRunDataProvider'
+      - '@ms/sp-pages.GroupsProviderFactory'
+      - '@ms/sp-pages.IFirstRunDataProvider'
+      - '@ms/sp-pages.IPageDataProvider'
+      - '@ms/sp-pages.MockPageDataProvider'
+      - '@ms/sp-pages.OnePageNavigationContextDataProvider'
+      - '@ms/sp-pages.ItemType'
+      - '@ms/sp-pages.OutcomeCode'
+      - '@ms/sp-pages.RecipeProgressDataProvider'
+      - '@ms/sp-pages.IRecipeActionData'
+      - '@ms/sp-pages.IRecipeAndStageResultData'
+      - '@ms/sp-pages.IRecipeCollection'
+      - '@ms/sp-pages.IRecipeData'
+      - '@ms/sp-pages.IRecipesError'
+      - '@ms/sp-pages.IServerBooleanResult'
+      - '@ms/sp-pages.IServerError'
+      - '@ms/sp-pages.IServerGetItemsResult'
+      - '@ms/sp-pages.IServerProgressItem'
+      - '@ms/sp-pages.IStageResultData'
+      - '@ms/sp-pages.SPPageDataProvider'
+      - '@ms/sp-pages.IURL'
+      - '@ms/sp-pages.SPPageDataProviderFactory'
+      - '@ms/sp-pages.SharePageByEmailDataProvider'
+      - '@ms/sp-pages.IEmailBodyProps'
+      - '@ms/sp-pages.IShareSiteEmailBodyProps'
+      - '@ms/sp-pages.SignalType'
+      - '@ms/sp-pages.ActivityRequest'
+      - '@ms/sp-pages.SignalProvider'
+      - '@ms/sp-pages.DesignPackage'
+      - '@ms/sp-pages.PageDesignPackageProvider'
+      - '@ms/sp-pages.IDesignPackagePageExtension'
+      - '@ms/sp-pages.IPageDesignPackage'
+      - '@ms/sp-pages.AppDispatcher'
+      - '@ms/sp-pages.ApplicationError'
+      - '@ms/sp-pages.LikeLimitExceededError'
+      - '@ms/sp-pages.NullReferenceError'
+      - '@ms/sp-pages.RequiredFieldMissingError'
+      - '@ms/sp-pages.RestApiError'
+      - '@ms/sp-pages.IPublishingControl'
+      - '@ms/sp-pages.CommentsChunkLoader'
+      - '@ms/sp-pages.SocialChunkLoader'
+      - '@ms/sp-pages.BasePageLayout'
+      - '@ms/sp-pages.PageLayoutUtility'
+      - '@ms/sp-pages.PagesCommentsWrapper'
+      - '@ms/sp-pages.IPagesCommentsWrapperState'
+      - '@ms/sp-pages.CommunicationHomePageLayout'
+      - '@ms/sp-pages.CommunicationHomePageLayoutComponent'
+      - '@ms/sp-pages.PortfolioHomePageLayout'
+      - '@ms/sp-pages.ReportArticlePageLayout'
+      - '@ms/sp-pages.ReportArticlePageLayoutComponent'
+      - '@ms/sp-pages.ReportHomePageLayout'
+      - '@ms/sp-pages.SocialBarWrapper'
+      - '@ms/sp-pages.ISocialBarWrapperProps'
+      - '@ms/sp-pages.ISocialBarWrapperState'
+      - '@ms/sp-pages.ErrorPageLayout'
+      - '@ms/sp-pages.PlaceholderPageLayout'
+      - '@ms/sp-pages.ArticlePageLayout'
+      - '@ms/sp-pages.ArticlePageLayoutComponent'
+      - '@ms/sp-pages.CanvasContentLoggingType'
+      - '@ms/sp-pages.HomePageLayout'
+      - '@ms/sp-pages.HomePageLayoutComponent'
+      - '@ms/sp-pages.IHomePageLayoutProps'
+      - '@ms/sp-pages.ImageControlSize'
+      - '@ms/sp-pages.ImageSourceType'
+      - '@ms/sp-pages.TextControlType'
+      - '@ms/sp-pages.VideoControlType'
+      - '@ms/sp-pages.WexFileType'
+      - '@ms/sp-pages.IDocumentCardDataContext'
+      - '@ms/sp-pages.IDocumentHookDataContext'
+      - '@ms/sp-pages.IImageControlDataContext'
+      - '@ms/sp-pages.IImageHeaderControlDataContext'
+      - '@ms/sp-pages.ITagFeedControlDataContext'
+      - '@ms/sp-pages.ITextControlDataContext'
+      - '@ms/sp-pages.IVideoControlDataContext'
+      - '@ms/sp-pages.ControlName'
+      - '@ms/sp-pages.IControlData'
+      - '@ms/sp-pages.IControlMap'
+      - '@ms/sp-pages.IControlMapColumn'
+      - '@ms/sp-pages.IControlMapRow'
+      - '@ms/sp-pages.IPersistedPostModel'
+      - '@ms/sp-pages.IPostModel'
+      - '@ms/sp-pages.IDesignPackageSlice'
+      - '@ms/sp-pages.IDisplayModeSlice'
+      - '@ms/sp-pages.IFirstRunSlice'
+      - '@ms/sp-pages.INavigationSlice'
+      - '@ms/sp-pages.IPageFieldSlice'
+      - '@ms/sp-pages.IPageLayoutSlice'
+      - '@ms/sp-pages.IPageStatusSlice'
+      - '@ms/sp-pages.IRenderPhaseSlice'
+      - '@ms/sp-pages.IRouteSlice'
+      - '@ms/sp-pages.Route'
+      - '@ms/sp-pages.IRouteProps'
+      - '@ms/sp-pages.Router'
+      - '@ms/sp-pages.IHistoryStateData'
+      - '@ms/sp-pages.IRouterProps'
+      - '@ms/sp-pages.IRouterState'
+      - '@ms/sp-pages.LayoutsPage'
+      - '@ms/sp-pages.NewsPage'
+      - '@ms/sp-pages.Page'
+      - '@ms/sp-pages.IPageProps'
+      - '@ms/sp-pages.IPageState'
+      - '@ms/sp-pages.BaseStore'
+      - '@ms/sp-pages.CommentContext'
+      - '@ms/sp-pages.CommentStore'
+      - '@ms/sp-pages.PromotedState'
+      - '@ms/sp-pages.PageFieldData'
+      - '@ms/sp-pages.ILastVersionInfo'
+      - '@ms/sp-pages.IListItemFieldData'
+      - '@ms/sp-pages.ISitePageFieldData'
+      - '@ms/sp-pages.PageSaveStatus'
+      - '@ms/sp-pages.PageStore'
+      - '@ms/sp-pages.IPageState'
+      - '@ms/sp-pages.SearchStore'
+      - '@ms/sp-pages.ISearchTextChanged'
+      - '@ms/sp-pages.PageContextUtils'
+      - '@ms/sp-pages.TestData'
+      - '@ms/sp-pages.TestHelpers'
+      - '@ms/sp-pages.IResourceError'
+      - '@ms/sp-pages.LayoutWebPartHost'
+      - '@ms/sp-pages.WebPartContainer'
+      - '@ms/sp-pages.IWebPartContainerProps'
+      - '@ms/sp-pages.IWebPartContainerStates'
+      - '@ms/sp-pages.CommentsTest'
+      - '@ms/sp-pages.CreateCommSite'
+      - '@ms/sp-pages.GroupHomePageBasic'
+      - '@ms/sp-pages.NewPageTest'
+      - '@ms/sp-pages.NewsPageNavTest'
+      - '@ms/sp-pages.PanelsBasic'
+      - '@ms/sp-pages.PerformanceBlankPageTest'
+      - '@ms/sp-pages.PerformanceHeavyContentOutsideViewportTest'
+      - '@ms/sp-pages.PerformanceHeavyContentTest'
+      - '@ms/sp-pages.PerformanceHeroTest'
+      - '@ms/sp-pages.PerformanceRTETest'
+      - '@ms/sp-pages.PerformanceTitleImageTest'
+      - '@ms/sp-pages.PublishPageTest'
+      - '@ms/sp-pages.PageSaveTest'
+      - '@ms/sp-pages.WebPartBasic'
+      - '@ms/sp-pages.WebPartListView'
+      - '@ms/sp-pages.ExampleTabTest'
+      - '@ms/sp-pages.Global'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@ms/sp-pages.IAttachmentItemProps'
+    name: IAttachmentItemProps
+  - uid: '@ms/sp-pages.IAttachmentListProps'
+    name: IAttachmentListProps
+  - uid: '@ms/sp-pages.AutoSuggestionLocation'
+    name: AutoSuggestionLocation
+  - uid: '@ms/sp-pages.IAutoSuggestLocationProps'
+    name: IAutoSuggestLocationProps
+  - uid: '@ms/sp-pages.IAutoSuggestLocationState'
+    name: IAutoSuggestLocationState
+  - uid: '@ms/sp-pages.CategoryCombobox'
+    name: CategoryCombobox
+  - uid: '@ms/sp-pages.ICategoryComboboxProps'
+    name: ICategoryComboboxProps
+  - uid: '@ms/sp-pages.ICategoryComboboxState'
+    name: ICategoryComboboxState
+  - uid: '@ms/sp-pages.EventAttendees'
+    name: EventAttendees
+  - uid: '@ms/sp-pages.IEventAttendeesProps'
+    name: IEventAttendeesProps
+  - uid: '@ms/sp-pages.IEventCategoryProps'
+    name: IEventCategoryProps
+  - uid: '@ms/sp-pages.IEventDateProps'
+    name: IEventDateProps
+  - uid: '@ms/sp-pages.EventDescription'
+    name: EventDescription
+  - uid: '@ms/sp-pages.IEventDescriptionProps'
+    name: IEventDescriptionProps
+  - uid: '@ms/sp-pages.EventEditableLink'
+    name: EventEditableLink
+  - uid: '@ms/sp-pages.IEventEditableLinkProps'
+    name: IEventEditableLinkProps
+  - uid: '@ms/sp-pages.EventImageryMap'
+    name: EventImageryMap
+  - uid: '@ms/sp-pages.IEventImageryMapProps'
+    name: IEventImageryMapProps
+  - uid: '@ms/sp-pages.IEventLocationProps'
+    name: IEventLocationProps
+  - uid: '@ms/sp-pages.EventMeetingLink'
+    name: EventMeetingLink
+  - uid: '@ms/sp-pages.IEventMeetingLinkProps'
+    name: IEventMeetingLinkProps
+  - uid: '@ms/sp-pages.EventMessageBar'
+    name: EventMessageBar
+  - uid: '@ms/sp-pages.IEventMessageBarProps'
+    name: IEventMessageBarProps
+  - uid: '@ms/sp-pages.IEventMessageBarState'
+    name: IEventMessageBarState
+  - uid: '@ms/sp-pages.EventOperationErrorType'
+    name: EventOperationErrorType
+  - uid: '@ms/sp-pages.EventOperationType'
+    name: EventOperationType
+  - uid: '@ms/sp-pages.EventOperationError'
+    name: EventOperationError
+  - uid: '@ms/sp-pages.EventPage'
+    name: EventPage
+  - uid: '@ms/sp-pages.EventPageLayout'
+    name: EventPageLayout
+  - uid: '@ms/sp-pages.EventPageLayoutComponent'
+    name: EventPageLayoutComponent
+  - uid: '@ms/sp-pages.IEventPageLayoutComponentProps'
+    name: IEventPageLayoutComponentProps
+  - uid: '@ms/sp-pages.IEventPageLayoutComponentState'
+    name: IEventPageLayoutComponentState
+  - uid: '@ms/sp-pages.EventPageTitle'
+    name: EventPageTitle
+  - uid: '@ms/sp-pages.IEventPageTitleProps'
+    name: IEventPageTitleProps
+  - uid: '@ms/sp-pages.IEventPageTitleValue'
+    name: IEventPageTitleValue
+  - uid: '@ms/sp-pages.EventsPage'
+    name: EventsPage
+  - uid: '@ms/sp-pages.EventsPageLayout'
+    name: EventsPageLayout
+  - uid: '@ms/sp-pages.EventsPageLayoutComponent'
+    name: EventsPageLayoutComponent
+  - uid: '@ms/sp-pages.IEventsPageLayoutComponentProps'
+    name: IEventsPageLayoutComponentProps
+  - uid: '@ms/sp-pages.IEventsPageLayoutComponentState'
+    name: IEventsPageLayoutComponentState
+  - uid: '@ms/sp-pages.BingMapDataSource'
+    name: BingMapDataSource
+  - uid: '@ms/sp-pages.IBingMapDataSource'
+    name: IBingMapDataSource
+  - uid: '@ms/sp-pages.ILocationResource'
+    name: ILocationResource
+  - uid: '@ms/sp-pages.IRestResponseLocationsData'
+    name: IRestResponseLocationsData
+  - uid: '@ms/sp-pages.EventDataProviderLoader'
+    name: EventDataProviderLoader
+  - uid: '@ms/sp-pages.EventDataSource'
+    name: EventDataSource
+  - uid: '@ms/sp-pages.EventsListDataProviderLoader'
+    name: EventsListDataProviderLoader
+  - uid: '@ms/sp-pages.MockEventDataProvider'
+    name: MockEventDataProvider
+  - uid: '@ms/sp-pages.MobileUpsellView'
+    name: MobileUpsellView
+  - uid: '@ms/sp-pages.NewsDigestPageLayout'
+    name: NewsDigestPageLayout
+  - uid: '@ms/sp-pages.NewsDigestPageLayoutComponent'
+    name: NewsDigestPageLayoutComponent
+  - uid: '@ms/sp-pages.INewsDigestPageLayoutComponentProps'
+    name: INewsDigestPageLayoutComponentProps
+  - uid: '@ms/sp-pages.ViewState'
+    name: ViewState
+  - uid: '@ms/sp-pages.NewsPageLayout'
+    name: NewsPageLayout
+  - uid: '@ms/sp-pages.NewsPageLayoutComponent'
+    name: NewsPageLayoutComponent
+  - uid: '@ms/sp-pages.INewsPageLayoutComponentState'
+    name: INewsPageLayoutComponentState
+  - uid: '@ms/sp-pages.CommandBarSearchBox'
+    name: CommandBarSearchBox
+  - uid: '@ms/sp-pages.PublicationSiteSearchBox'
+    name: PublicationSiteSearchBox
+  - uid: '@ms/sp-pages.ICommunicationSiteSearchBoxProps'
+    name: ICommunicationSiteSearchBoxProps
+  - uid: '@ms/sp-pages.ICommunicationSiteSearchBoxState'
+    name: ICommunicationSiteSearchBoxState
+  - uid: '@ms/sp-pages.ComposedSearchBox'
+    name: ComposedSearchBox
+  - uid: '@ms/sp-pages.IExtendedSearchBoxProps'
+    name: IExtendedSearchBoxProps
+  - uid: '@ms/sp-pages.ISearchBoxProps'
+    name: ISearchBoxProps
+  - uid: '@ms/sp-pages.InitializerSearchbox'
+    name: InitializerSearchbox
+  - uid: '@ms/sp-pages.IInitilizerSearchBoxProps'
+    name: IInitilizerSearchBoxProps
+  - uid: '@ms/sp-pages.IInitilizerSearchBoxState'
+    name: IInitilizerSearchBoxState
+  - uid: '@ms/sp-pages.NavSearchBox'
+    name: NavSearchBox
+  - uid: '@ms/sp-pages.PeopleUrlCreator'
+    name: PeopleUrlCreator
+  - uid: '@ms/sp-pages.SearchPage'
+    name: SearchPage
+  - uid: '@ms/sp-pages.SearchRouter'
+    name: SearchRouter
+  - uid: '@ms/sp-pages.ISearchRouterState'
+    name: ISearchRouterState
+  - uid: '@ms/sp-pages.BaseSeeAllPageLayout'
+    name: BaseSeeAllPageLayout
+  - uid: '@ms/sp-pages.BaseSeeAllPageLayoutComponent'
+    name: BaseSeeAllPageLayoutComponent
+  - uid: '@ms/sp-pages.BaseSeeAllPageLayoutScrollRegion'
+    name: BaseSeeAllPageLayoutScrollRegion
+  - uid: '@ms/sp-pages.IBaseSeeAllPageLayoutProperties'
+    name: IBaseSeeAllPageLayoutProperties
+  - uid: '@ms/sp-pages.IBaseSeeAllPageLayoutScrollRegionProp'
+    name: IBaseSeeAllPageLayoutScrollRegionProp
+  - uid: '@ms/sp-pages.PageDataProviderLoader'
+    name: PageDataProviderLoader
+  - uid: '@ms/sp-pages.SeeAllPage'
+    name: SeeAllPage
+  - uid: '@ms/sp-pages.SeeAllPageLayout'
+    name: SeeAllPageLayout
+  - uid: '@ms/sp-pages.SeeAllPageLayoutComponent'
+    name: SeeAllPageLayoutComponent
+  - uid: '@ms/sp-pages.ISeeAllPageLayoutState'
+    name: ISeeAllPageLayoutState
+  - uid: '@ms/sp-pages.LikeableItem'
+    name: LikeableItem
+  - uid: '@ms/sp-pages.ILikeChunk'
+    name: ILikeChunk
+  - uid: '@ms/sp-pages.ILikesServerResponse'
+    name: ILikesServerResponse
+  - uid: '@ms/sp-pages.SocialActionCreator'
+    name: SocialActionCreator
+  - uid: '@ms/sp-pages.SocialDataProvider'
+    name: SocialDataProvider
+  - uid: '@ms/sp-pages.SocialStore'
+    name: SocialStore
+  - uid: '@ms/sp-pages.SearchViewCountDataSourceLoader'
+    name: SearchViewCountDataSourceLoader
+  - uid: '@ms/sp-pages.SocialBar'
+    name: SocialBar
+  - uid: '@ms/sp-pages.ISocialBarState'
+    name: ISocialBarState
+  - uid: '@ms/sp-pages.SocialBarPanel'
+    name: SocialBarPanel
+  - uid: '@ms/sp-pages.ISocialBarPanelProps'
+    name: ISocialBarPanelProps
+  - uid: '@ms/sp-pages.ViewCountDataSourceLoader'
+    name: ViewCountDataSourceLoader
+  - uid: '@ms/sp-pages.IWebViewCallbackMessage'
+    name: IWebViewCallbackMessage
+  - uid: '@ms/sp-pages.IWebViewErrorMessage'
+    name: IWebViewErrorMessage
+  - uid: '@ms/sp-pages.IWebViewMessage'
+    name: IWebViewMessage
+  - uid: '@ms/sp-pages.IWebViewNavigationMessage'
+    name: IWebViewNavigationMessage
+  - uid: '@ms/sp-pages.IWebViewUserActionMessage'
+    name: IWebViewUserActionMessage
+  - uid: '@ms/sp-pages.IWebViewCallbackNavigationResponse'
+    name: IWebViewCallbackNavigationResponse
+  - uid: '@ms/sp-pages.IWebViewCallbackResponse'
+    name: IWebViewCallbackResponse
+  - uid: '@ms/sp-pages.IWebViewCallbackUserActionResponse'
+    name: IWebViewCallbackUserActionResponse
+  - uid: '@ms/sp-pages.Preload'
+    name: Preload
+  - uid: '@ms/sp-pages.WebViewCommunicator'
+    name: WebViewCommunicator
+  - uid: '@ms/sp-pages.IWebViewCallbackHandler'
+    name: IWebViewCallbackHandler
+  - uid: '@ms/sp-pages.AutoSaveTimer'
+    name: AutoSaveTimer
+  - uid: '@ms/sp-pages.ActionLogger'
+    name: ActionLogger
+  - uid: '@ms/sp-pages.FailureTag'
+    name: FailureTag
+  - uid: '@ms/sp-pages.SPPageComponentName'
+    name: SPPageComponentName
+  - uid: '@ms/sp-pages.SPPageLogFeature'
+    name: SPPageLogFeature
+  - uid: '@ms/sp-pages.SPPagePerfLogger'
+    name: SPPagePerfLogger
+  - uid: '@ms/sp-pages.PageManager'
+    name: PageManager
+  - uid: '@ms/sp-pages.SPPageApp'
+    name: SPPageApp
+  - uid: '@ms/sp-pages.ActionTypes'
+    name: ActionTypes
+  - uid: '@ms/sp-pages.BaseAction'
+    name: BaseAction
+  - uid: '@ms/sp-pages.ChromeConfigurationActionCreator'
+    name: ChromeConfigurationActionCreator
+  - uid: '@ms/sp-pages.CommentActionCreator'
+    name: CommentActionCreator
+  - uid: '@ms/sp-pages.DisplayModeStoreActionCreator'
+    name: DisplayModeStoreActionCreator
+  - uid: '@ms/sp-pages.IDisplayModeStoreActionOptions'
+    name: IDisplayModeStoreActionOptions
+  - uid: '@ms/sp-pages.FirstRunActionCreator'
+    name: FirstRunActionCreator
+  - uid: '@ms/sp-pages.FirstRunData'
+    name: FirstRunData
+  - uid: '@ms/sp-pages.IAction'
+    name: IAction
+  - uid: '@ms/sp-pages.NavigationActionCreator'
+    name: NavigationActionCreator
+  - uid: '@ms/sp-pages.PageFieldStoreActionCreator'
+    name: PageFieldStoreActionCreator
+  - uid: '@ms/sp-pages.PageLayoutMappingStoreActionCreator'
+    name: PageLayoutMappingStoreActionCreator
+  - uid: '@ms/sp-pages.PageLayoutStoreActionCreator'
+    name: PageLayoutStoreActionCreator
+  - uid: '@ms/sp-pages.PageStatusStoreActionCreator'
+    name: PageStatusStoreActionCreator
+  - uid: '@ms/sp-pages.PageTemplateActionCreator'
+    name: PageTemplateActionCreator
+  - uid: '@ms/sp-pages.RenderPhaseActionCreator'
+    name: RenderPhaseActionCreator
+  - uid: '@ms/sp-pages.RoutingActionCreator'
+    name: RoutingActionCreator
+  - uid: '@ms/sp-pages.SearchActionCreator'
+    name: SearchActionCreator
+  - uid: '@ms/sp-pages.ClassicPubNavProviderType'
+    name: ClassicPubNavProviderType
+  - uid: '@ms/sp-pages.Constants'
+    name: Constants
+  - uid: '@ms/sp-pages.FirstRunCacheManager'
+    name: FirstRunCacheManager
+  - uid: '@ms/sp-pages.IInputPageContextInfo'
+    name: IInputPageContextInfo
+  - uid: '@ms/sp-pages.IOnePagePrefetchParams'
+    name: IOnePagePrefetchParams
+  - uid: '@ms/sp-pages.Icons'
+    name: Icons
+  - uid: '@ms/sp-pages.KeyCodes'
+    name: KeyCodes
+  - uid: '@ms/sp-pages.IOnePageNavigationContext'
+    name: IOnePageNavigationContext
+  - uid: '@ms/sp-pages.ISPListModule'
+    name: ISPListModule
+  - uid: '@ms/sp-pages.ISPListPrefetchModule'
+    name: ISPListPrefetchModule
+  - uid: '@ms/sp-pages.ISPListPrefetchResult'
+    name: ISPListPrefetchResult
+  - uid: '@ms/sp-pages.AppCache'
+    name: AppCache
+  - uid: '@ms/sp-pages.CachedItem'
+    name: CachedItem
+  - uid: '@ms/sp-pages.PageCacheManager'
+    name: PageCacheManager
+  - uid: '@ms/sp-pages.PagesFlights'
+    name: PagesFlights
+  - uid: '@ms/sp-pages.PagesKillSwitches'
+    name: PagesKillSwitches
+  - uid: '@ms/sp-pages.Utilities'
+    name: Utilities
+  - uid: '@ms/sp-pages.IUserVoice'
+    name: IUserVoice
+  - uid: '@ms/sp-pages.UserVoiceButtonConfiguration'
+    name: UserVoiceButtonConfiguration
+  - uid: '@ms/sp-pages.DomUtils'
+    name: DomUtils
+  - uid: '@ms/sp-pages.UserVoiceWidget'
+    name: UserVoiceWidget
+  - uid: '@ms/sp-pages.UserVoiceWidgetConfiguration'
+    name: UserVoiceWidgetConfiguration
+  - uid: '@ms/sp-pages.UserVoiceWidgetMode'
+    name: UserVoiceWidgetMode
+  - uid: '@ms/sp-pages.BasePublishingControl'
+    name: BasePublishingControl
+  - uid: '@ms/sp-pages.ChangeTheLookPanelRenderer'
+    name: ChangeTheLookPanelRenderer
+  - uid: '@ms/sp-pages.IChangeTheLookPanelRendererProps'
+    name: IChangeTheLookPanelRendererProps
+  - uid: '@ms/sp-pages.CustomTitleRegion'
+    name: CustomTitleRegion
+  - uid: '@ms/sp-pages.ITitleRegionProps'
+    name: ITitleRegionProps
+  - uid: '@ms/sp-pages.Deferred'
+    name: Deferred
+  - uid: '@ms/sp-pages.IDeferredProps'
+    name: IDeferredProps
+  - uid: '@ms/sp-pages.IDeferredState'
+    name: IDeferredState
+  - uid: '@ms/sp-pages.FeedbackLink'
+    name: FeedbackLink
+  - uid: '@ms/sp-pages.PageIndex'
+    name: PageIndex
+  - uid: '@ms/sp-pages.StringKeys'
+    name: StringKeys
+  - uid: '@ms/sp-pages.FirstRunDialog'
+    name: FirstRunDialog
+  - uid: '@ms/sp-pages.IFirstRunDialogState'
+    name: IFirstRunDialogState
+  - uid: '@ms/sp-pages.IFirstRunText'
+    name: IFirstRunText
+  - uid: '@ms/sp-pages.FirstRunView'
+    name: FirstRunView
+  - uid: '@ms/sp-pages.IFirstRunViewProps'
+    name: IFirstRunViewProps
+  - uid: '@ms/sp-pages.GroupMembershipPanelContainer'
+    name: GroupMembershipPanelContainer
+  - uid: '@ms/sp-pages.IGroupMembershipPanelContainerProps'
+    name: IGroupMembershipPanelContainerProps
+  - uid: '@ms/sp-pages.GroupMembershipPanelRenderer'
+    name: GroupMembershipPanelRenderer
+  - uid: '@ms/sp-pages.HeaderControl'
+    name: HeaderControl
+  - uid: '@ms/sp-pages.IHeaderControlProps'
+    name: IHeaderControlProps
+  - uid: '@ms/sp-pages.IHeaderControlState'
+    name: IHeaderControlState
+  - uid: '@ms/sp-pages.HubNavHost'
+    name: HubNavHost
+  - uid: '@ms/sp-pages.IHubNavHostProps'
+    name: IHubNavHostProps
+  - uid: '@ms/sp-pages.IHubNavHostState'
+    name: IHubNavHostState
+  - uid: '@ms/sp-pages.ListCreationPanelContainer'
+    name: ListCreationPanelContainer
+  - uid: '@ms/sp-pages.IListCreationPanelContainerProps'
+    name: IListCreationPanelContainerProps
+  - uid: '@ms/sp-pages.ListCreationPanelRender'
+    name: ListCreationPanelRender
+  - uid: '@ms/sp-pages.ManagePagePanel'
+    name: ManagePagePanel
+  - uid: '@ms/sp-pages.IManagePagePanelProps'
+    name: IManagePagePanelProps
+  - uid: '@ms/sp-pages.NewPageDialog'
+    name: NewPageDialog
+  - uid: '@ms/sp-pages.IDialogChoiceProps'
+    name: IDialogChoiceProps
+  - uid: '@ms/sp-pages.INewPageDialogProps'
+    name: INewPageDialogProps
+  - uid: '@ms/sp-pages.INewPageDialogState'
+    name: INewPageDialogState
+  - uid: '@ms/sp-pages.PageStatusNotifier'
+    name: PageStatusNotifier
+  - uid: '@ms/sp-pages.IPagePublishingWrapperProps'
+    name: IPagePublishingWrapperProps
+  - uid: '@ms/sp-pages.IPagePublishingWrapperStates'
+    name: IPagePublishingWrapperStates
+  - uid: '@ms/sp-pages.PageTitle'
+    name: PageTitle
+  - uid: '@ms/sp-pages.IPageTitleProps'
+    name: IPageTitleProps
+  - uid: '@ms/sp-pages.IPageTitleStates'
+    name: IPageTitleStates
+  - uid: '@ms/sp-pages.PromotePage'
+    name: PromotePage
+  - uid: '@ms/sp-pages.IPromotePageState'
+    name: IPromotePageState
+  - uid: '@ms/sp-pages.RecipeActionLabel'
+    name: RecipeActionLabel
+  - uid: '@ms/sp-pages.RecipeProgressPanel'
+    name: RecipeProgressPanel
+  - uid: '@ms/sp-pages.IRecipeActionLabelProps'
+    name: IRecipeActionLabelProps
+  - uid: '@ms/sp-pages.IRecipeProgressPanelState'
+    name: IRecipeProgressPanelState
+  - uid: '@ms/sp-pages.SPCanvas'
+    name: SPCanvas
+  - uid: '@ms/sp-pages.ISPCanvasProps'
+    name: ISPCanvasProps
+  - uid: '@ms/sp-pages.SharePageByEmail'
+    name: SharePageByEmail
+  - uid: '@ms/sp-pages.ISharePageByEmailProps'
+    name: ISharePageByEmailProps
+  - uid: '@ms/sp-pages.ISharePageByEmailState'
+    name: ISharePageByEmailState
+  - uid: '@ms/sp-pages.SiteHeaderHost'
+    name: SiteHeaderHost
+  - uid: '@ms/sp-pages.ISiteHeaderHostProps'
+    name: ISiteHeaderHostProps
+  - uid: '@ms/sp-pages.ISiteHeaderHostState'
+    name: ISiteHeaderHostState
+  - uid: '@ms/sp-pages.SitePermissionsPanelContainer'
+    name: SitePermissionsPanelContainer
+  - uid: '@ms/sp-pages.ISitePermissionsPanelContainerProps'
+    name: ISitePermissionsPanelContainerProps
+  - uid: '@ms/sp-pages.ISitePermissionsPanelWrapperState'
+    name: ISitePermissionsPanelWrapperState
+  - uid: '@ms/sp-pages.SitePermissionsPanelRenderer'
+    name: SitePermissionsPanelRenderer
+  - uid: '@ms/sp-pages.SiteSettingsPanelContainer'
+    name: SiteSettingsPanelContainer
+  - uid: '@ms/sp-pages.ISiteSettingsPanelContainerProps'
+    name: ISiteSettingsPanelContainerProps
+  - uid: '@ms/sp-pages.SiteSettingsPanelRenderer'
+    name: SiteSettingsPanelRenderer
+  - uid: '@ms/sp-pages.UserVoiceView'
+    name: UserVoiceView
+  - uid: '@ms/sp-pages.IUserVoiceViewState'
+    name: IUserVoiceViewState
+  - uid: '@ms/sp-pages.SPCommandBar'
+    name: SPCommandBar
+  - uid: '@ms/sp-pages.ICommandItem'
+    name: ICommandItem
+  - uid: '@ms/sp-pages.ICommandbarProps'
+    name: ICommandbarProps
+  - uid: '@ms/sp-pages.ICommandbarStates'
+    name: ICommandbarStates
+  - uid: '@ms/sp-pages.Comment'
+    name: Comment
+  - uid: '@ms/sp-pages.ICommentProps'
+    name: ICommentProps
+  - uid: '@ms/sp-pages.ICommentState'
+    name: ICommentState
+  - uid: '@ms/sp-pages.CommentAvatar'
+    name: CommentAvatar
+  - uid: '@ms/sp-pages.ICommentAvatarProps'
+    name: ICommentAvatarProps
+  - uid: '@ms/sp-pages.CommentBlock'
+    name: CommentBlock
+  - uid: '@ms/sp-pages.ICommentBlockProps'
+    name: ICommentBlockProps
+  - uid: '@ms/sp-pages.ICommentBlockState'
+    name: ICommentBlockState
+  - uid: '@ms/sp-pages.CommentConstants'
+    name: CommentConstants
+  - uid: '@ms/sp-pages.Engagement'
+    name: Engagement
+  - uid: '@ms/sp-pages.CommentContainer'
+    name: CommentContainer
+  - uid: '@ms/sp-pages.ICommentContainerProps'
+    name: ICommentContainerProps
+  - uid: '@ms/sp-pages.ICommentContainerState'
+    name: ICommentContainerState
+  - uid: '@ms/sp-pages.CommentDirectScroller'
+    name: CommentDirectScroller
+  - uid: '@ms/sp-pages.CommentDisableToggle'
+    name: CommentDisableToggle
+  - uid: '@ms/sp-pages.ICommentDisableToggleProps'
+    name: ICommentDisableToggleProps
+  - uid: '@ms/sp-pages.CommentReply'
+    name: CommentReply
+  - uid: '@ms/sp-pages.ICommentReplyProps'
+    name: ICommentReplyProps
+  - uid: '@ms/sp-pages.ICommentReplyState'
+    name: ICommentReplyState
+  - uid: '@ms/sp-pages.CommentSection'
+    name: CommentSection
+  - uid: '@ms/sp-pages.ICommentSectionProps'
+    name: ICommentSectionProps
+  - uid: '@ms/sp-pages.CommentSectionHeader'
+    name: CommentSectionHeader
+  - uid: '@ms/sp-pages.ICommentSectionHeaderProps'
+    name: ICommentSectionHeaderProps
+  - uid: '@ms/sp-pages.Comment'
+    name: Comment
+  - uid: '@ms/sp-pages.ICommentState'
+    name: ICommentState
+  - uid: '@ms/sp-pages.ICommentTextProps'
+    name: ICommentTextProps
+  - uid: '@ms/sp-pages.DOMLinker'
+    name: DOMLinker
+  - uid: '@ms/sp-pages.NodeSet'
+    name: NodeSet
+  - uid: '@ms/sp-pages.ILinkifyItMatch'
+    name: ILinkifyItMatch
+  - uid: '@ms/sp-pages.LikedByPanel'
+    name: LikedByPanel
+  - uid: '@ms/sp-pages.ILikedByPanelProps'
+    name: ILikedByPanelProps
+  - uid: '@ms/sp-pages.ReactLinker'
+    name: ReactLinker
+  - uid: '@ms/sp-pages.ILinkifyItMatch'
+    name: ILinkifyItMatch
+  - uid: '@ms/sp-pages.IReactElementType'
+    name: IReactElementType
+  - uid: '@ms/sp-pages.IReactLinkerProps'
+    name: IReactLinkerProps
+  - uid: '@ms/sp-pages.IReactionBarProps'
+    name: IReactionBarProps
+  - uid: '@ms/sp-pages.IReactionButtonProps'
+    name: IReactionButtonProps
+  - uid: '@ms/sp-pages.ILikeMessageProps'
+    name: ILikeMessageProps
+  - uid: '@ms/sp-pages.MigrateBlogDialog'
+    name: MigrateBlogDialog
+  - uid: '@ms/sp-pages.IMigrateBlogDialogContentProps'
+    name: IMigrateBlogDialogContentProps
+  - uid: '@ms/sp-pages.MigrateBlogPost'
+    name: MigrateBlogPost
+  - uid: '@ms/sp-pages.ImageSourceType'
+    name: ImageSourceType
+  - uid: '@ms/sp-pages.WebPartDescriptions'
+    name: WebPartDescriptions
+  - uid: '@ms/sp-pages.WebPartTitles'
+    name: WebPartTitles
+  - uid: '@ms/sp-pages.IDocWebPartProperties'
+    name: IDocWebPartProperties
+  - uid: '@ms/sp-pages.IImageHeaderProperties'
+    name: IImageHeaderProperties
+  - uid: '@ms/sp-pages.IImageWebPartProperties'
+    name: IImageWebPartProperties
+  - uid: '@ms/sp-pages.IVideoWebPartProperties'
+    name: IVideoWebPartProperties
+  - uid: '@ms/sp-pages.EditNav'
+    name: EditNav
+  - uid: '@ms/sp-pages.IPageEditNavProps'
+    name: IPageEditNavProps
+  - uid: '@ms/sp-pages.IPageEditNavState'
+    name: IPageEditNavState
+  - uid: '@ms/sp-pages.LeftNav'
+    name: LeftNav
+  - uid: '@ms/sp-pages.ISPNavProps'
+    name: ISPNavProps
+  - uid: '@ms/sp-pages.ISPNavState'
+    name: ISPNavState
+  - uid: '@ms/sp-pages.CommentItemConverter'
+    name: CommentItemConverter
+  - uid: '@ms/sp-pages.CommentDisabledState'
+    name: CommentDisabledState
+  - uid: '@ms/sp-pages.CommentItem'
+    name: CommentItem
+  - uid: '@ms/sp-pages.ICommentDisabledScopeServerChunk'
+    name: ICommentDisabledScopeServerChunk
+  - uid: '@ms/sp-pages.ICommentItemChunk'
+    name: ICommentItemChunk
+  - uid: '@ms/sp-pages.ICommentItemServerChunk'
+    name: ICommentItemServerChunk
+  - uid: '@ms/sp-pages.ICommentItemServerResponse'
+    name: ICommentItemServerResponse
+  - uid: '@ms/sp-pages.ICommentLikeChunk'
+    name: ICommentLikeChunk
+  - uid: '@ms/sp-pages.ICommentLikesServerResponse'
+    name: ICommentLikesServerResponse
+  - uid: '@ms/sp-pages.ILikeable'
+    name: ILikeable
+  - uid: '@ms/sp-pages.IUserObject'
+    name: IUserObject
+  - uid: '@ms/sp-pages.CommentsDataProvider'
+    name: CommentsDataProvider
+  - uid: '@ms/sp-pages.FirstRunDataProvider'
+    name: FirstRunDataProvider
+  - uid: '@ms/sp-pages.GroupsProviderFactory'
+    name: GroupsProviderFactory
+  - uid: '@ms/sp-pages.IFirstRunDataProvider'
+    name: IFirstRunDataProvider
+  - uid: '@ms/sp-pages.IPageDataProvider'
+    name: IPageDataProvider
+  - uid: '@ms/sp-pages.MockPageDataProvider'
+    name: MockPageDataProvider
+  - uid: '@ms/sp-pages.OnePageNavigationContextDataProvider'
+    name: OnePageNavigationContextDataProvider
+  - uid: '@ms/sp-pages.ItemType'
+    name: ItemType
+  - uid: '@ms/sp-pages.OutcomeCode'
+    name: OutcomeCode
+  - uid: '@ms/sp-pages.RecipeProgressDataProvider'
+    name: RecipeProgressDataProvider
+  - uid: '@ms/sp-pages.IRecipeActionData'
+    name: IRecipeActionData
+  - uid: '@ms/sp-pages.IRecipeAndStageResultData'
+    name: IRecipeAndStageResultData
+  - uid: '@ms/sp-pages.IRecipeCollection'
+    name: IRecipeCollection
+  - uid: '@ms/sp-pages.IRecipeData'
+    name: IRecipeData
+  - uid: '@ms/sp-pages.IRecipesError'
+    name: IRecipesError
+  - uid: '@ms/sp-pages.IServerBooleanResult'
+    name: IServerBooleanResult
+  - uid: '@ms/sp-pages.IServerError'
+    name: IServerError
+  - uid: '@ms/sp-pages.IServerGetItemsResult'
+    name: IServerGetItemsResult
+  - uid: '@ms/sp-pages.IServerProgressItem'
+    name: IServerProgressItem
+  - uid: '@ms/sp-pages.IStageResultData'
+    name: IStageResultData
+  - uid: '@ms/sp-pages.SPPageDataProvider'
+    name: SPPageDataProvider
+  - uid: '@ms/sp-pages.IURL'
+    name: IURL
+  - uid: '@ms/sp-pages.SPPageDataProviderFactory'
+    name: SPPageDataProviderFactory
+  - uid: '@ms/sp-pages.SharePageByEmailDataProvider'
+    name: SharePageByEmailDataProvider
+  - uid: '@ms/sp-pages.IEmailBodyProps'
+    name: IEmailBodyProps
+  - uid: '@ms/sp-pages.IShareSiteEmailBodyProps'
+    name: IShareSiteEmailBodyProps
+  - uid: '@ms/sp-pages.SignalType'
+    name: SignalType
+  - uid: '@ms/sp-pages.ActivityRequest'
+    name: ActivityRequest
+  - uid: '@ms/sp-pages.SignalProvider'
+    name: SignalProvider
+  - uid: '@ms/sp-pages.DesignPackage'
+    name: DesignPackage
+  - uid: '@ms/sp-pages.PageDesignPackageProvider'
+    name: PageDesignPackageProvider
+  - uid: '@ms/sp-pages.IDesignPackagePageExtension'
+    name: IDesignPackagePageExtension
+  - uid: '@ms/sp-pages.IPageDesignPackage'
+    name: IPageDesignPackage
+  - uid: '@ms/sp-pages.AppDispatcher'
+    name: AppDispatcher
+  - uid: '@ms/sp-pages.ApplicationError'
+    name: ApplicationError
+  - uid: '@ms/sp-pages.LikeLimitExceededError'
+    name: LikeLimitExceededError
+  - uid: '@ms/sp-pages.NullReferenceError'
+    name: NullReferenceError
+  - uid: '@ms/sp-pages.RequiredFieldMissingError'
+    name: RequiredFieldMissingError
+  - uid: '@ms/sp-pages.RestApiError'
+    name: RestApiError
+  - uid: '@ms/sp-pages.IPublishingControl'
+    name: IPublishingControl
+  - uid: '@ms/sp-pages.CommentsChunkLoader'
+    name: CommentsChunkLoader
+  - uid: '@ms/sp-pages.SocialChunkLoader'
+    name: SocialChunkLoader
+  - uid: '@ms/sp-pages.BasePageLayout'
+    name: BasePageLayout
+  - uid: '@ms/sp-pages.PageLayoutUtility'
+    name: PageLayoutUtility
+  - uid: '@ms/sp-pages.PagesCommentsWrapper'
+    name: PagesCommentsWrapper
+  - uid: '@ms/sp-pages.IPagesCommentsWrapperState'
+    name: IPagesCommentsWrapperState
+  - uid: '@ms/sp-pages.CommunicationHomePageLayout'
+    name: CommunicationHomePageLayout
+  - uid: '@ms/sp-pages.CommunicationHomePageLayoutComponent'
+    name: CommunicationHomePageLayoutComponent
+  - uid: '@ms/sp-pages.PortfolioHomePageLayout'
+    name: PortfolioHomePageLayout
+  - uid: '@ms/sp-pages.ReportArticlePageLayout'
+    name: ReportArticlePageLayout
+  - uid: '@ms/sp-pages.ReportArticlePageLayoutComponent'
+    name: ReportArticlePageLayoutComponent
+  - uid: '@ms/sp-pages.ReportHomePageLayout'
+    name: ReportHomePageLayout
+  - uid: '@ms/sp-pages.SocialBarWrapper'
+    name: SocialBarWrapper
+  - uid: '@ms/sp-pages.ISocialBarWrapperProps'
+    name: ISocialBarWrapperProps
+  - uid: '@ms/sp-pages.ISocialBarWrapperState'
+    name: ISocialBarWrapperState
+  - uid: '@ms/sp-pages.ErrorPageLayout'
+    name: ErrorPageLayout
+  - uid: '@ms/sp-pages.PlaceholderPageLayout'
+    name: PlaceholderPageLayout
+  - uid: '@ms/sp-pages.ArticlePageLayout'
+    name: ArticlePageLayout
+  - uid: '@ms/sp-pages.ArticlePageLayoutComponent'
+    name: ArticlePageLayoutComponent
+  - uid: '@ms/sp-pages.CanvasContentLoggingType'
+    name: CanvasContentLoggingType
+  - uid: '@ms/sp-pages.HomePageLayout'
+    name: HomePageLayout
+  - uid: '@ms/sp-pages.HomePageLayoutComponent'
+    name: HomePageLayoutComponent
+  - uid: '@ms/sp-pages.IHomePageLayoutProps'
+    name: IHomePageLayoutProps
+  - uid: '@ms/sp-pages.ImageControlSize'
+    name: ImageControlSize
+  - uid: '@ms/sp-pages.ImageSourceType'
+    name: ImageSourceType
+  - uid: '@ms/sp-pages.TextControlType'
+    name: TextControlType
+  - uid: '@ms/sp-pages.VideoControlType'
+    name: VideoControlType
+  - uid: '@ms/sp-pages.WexFileType'
+    name: WexFileType
+  - uid: '@ms/sp-pages.IDocumentCardDataContext'
+    name: IDocumentCardDataContext
+  - uid: '@ms/sp-pages.IDocumentHookDataContext'
+    name: IDocumentHookDataContext
+  - uid: '@ms/sp-pages.IImageControlDataContext'
+    name: IImageControlDataContext
+  - uid: '@ms/sp-pages.IImageHeaderControlDataContext'
+    name: IImageHeaderControlDataContext
+  - uid: '@ms/sp-pages.ITagFeedControlDataContext'
+    name: ITagFeedControlDataContext
+  - uid: '@ms/sp-pages.ITextControlDataContext'
+    name: ITextControlDataContext
+  - uid: '@ms/sp-pages.IVideoControlDataContext'
+    name: IVideoControlDataContext
+  - uid: '@ms/sp-pages.ControlName'
+    name: ControlName
+  - uid: '@ms/sp-pages.IControlData'
+    name: IControlData
+  - uid: '@ms/sp-pages.IControlMap'
+    name: IControlMap
+  - uid: '@ms/sp-pages.IControlMapColumn'
+    name: IControlMapColumn
+  - uid: '@ms/sp-pages.IControlMapRow'
+    name: IControlMapRow
+  - uid: '@ms/sp-pages.IPersistedPostModel'
+    name: IPersistedPostModel
+  - uid: '@ms/sp-pages.IPostModel'
+    name: IPostModel
+  - uid: '@ms/sp-pages.IDesignPackageSlice'
+    name: IDesignPackageSlice
+  - uid: '@ms/sp-pages.IDisplayModeSlice'
+    name: IDisplayModeSlice
+  - uid: '@ms/sp-pages.IFirstRunSlice'
+    name: IFirstRunSlice
+  - uid: '@ms/sp-pages.INavigationSlice'
+    name: INavigationSlice
+  - uid: '@ms/sp-pages.IPageFieldSlice'
+    name: IPageFieldSlice
+  - uid: '@ms/sp-pages.IPageLayoutSlice'
+    name: IPageLayoutSlice
+  - uid: '@ms/sp-pages.IPageStatusSlice'
+    name: IPageStatusSlice
+  - uid: '@ms/sp-pages.IRenderPhaseSlice'
+    name: IRenderPhaseSlice
+  - uid: '@ms/sp-pages.IRouteSlice'
+    name: IRouteSlice
+  - uid: '@ms/sp-pages.Route'
+    name: Route
+  - uid: '@ms/sp-pages.IRouteProps'
+    name: IRouteProps
+  - uid: '@ms/sp-pages.Router'
+    name: Router
+  - uid: '@ms/sp-pages.IHistoryStateData'
+    name: IHistoryStateData
+  - uid: '@ms/sp-pages.IRouterProps'
+    name: IRouterProps
+  - uid: '@ms/sp-pages.IRouterState'
+    name: IRouterState
+  - uid: '@ms/sp-pages.LayoutsPage'
+    name: LayoutsPage
+  - uid: '@ms/sp-pages.NewsPage'
+    name: NewsPage
+  - uid: '@ms/sp-pages.Page'
+    name: Page
+  - uid: '@ms/sp-pages.IPageProps'
+    name: IPageProps
+  - uid: '@ms/sp-pages.IPageState'
+    name: IPageState
+  - uid: '@ms/sp-pages.BaseStore'
+    name: BaseStore
+  - uid: '@ms/sp-pages.CommentContext'
+    name: CommentContext
+  - uid: '@ms/sp-pages.CommentStore'
+    name: CommentStore
+  - uid: '@ms/sp-pages.PromotedState'
+    name: PromotedState
+  - uid: '@ms/sp-pages.PageFieldData'
+    name: PageFieldData
+  - uid: '@ms/sp-pages.ILastVersionInfo'
+    name: ILastVersionInfo
+  - uid: '@ms/sp-pages.IListItemFieldData'
+    name: IListItemFieldData
+  - uid: '@ms/sp-pages.ISitePageFieldData'
+    name: ISitePageFieldData
+  - uid: '@ms/sp-pages.PageSaveStatus'
+    name: PageSaveStatus
+  - uid: '@ms/sp-pages.PageStore'
+    name: PageStore
+  - uid: '@ms/sp-pages.IPageState'
+    name: IPageState
+  - uid: '@ms/sp-pages.SearchStore'
+    name: SearchStore
+  - uid: '@ms/sp-pages.ISearchTextChanged'
+    name: ISearchTextChanged
+  - uid: '@ms/sp-pages.PageContextUtils'
+    name: PageContextUtils
+  - uid: '@ms/sp-pages.TestData'
+    name: TestData
+  - uid: '@ms/sp-pages.TestHelpers'
+    name: TestHelpers
+  - uid: '@ms/sp-pages.IResourceError'
+    name: IResourceError
+  - uid: '@ms/sp-pages.LayoutWebPartHost'
+    name: LayoutWebPartHost
+  - uid: '@ms/sp-pages.WebPartContainer'
+    name: WebPartContainer
+  - uid: '@ms/sp-pages.IWebPartContainerProps'
+    name: IWebPartContainerProps
+  - uid: '@ms/sp-pages.IWebPartContainerStates'
+    name: IWebPartContainerStates
+  - uid: '@ms/sp-pages.CommentsTest'
+    name: CommentsTest
+  - uid: '@ms/sp-pages.CreateCommSite'
+    name: CreateCommSite
+  - uid: '@ms/sp-pages.GroupHomePageBasic'
+    name: GroupHomePageBasic
+  - uid: '@ms/sp-pages.NewPageTest'
+    name: NewPageTest
+  - uid: '@ms/sp-pages.NewsPageNavTest'
+    name: NewsPageNavTest
+  - uid: '@ms/sp-pages.PanelsBasic'
+    name: PanelsBasic
+  - uid: '@ms/sp-pages.PerformanceBlankPageTest'
+    name: PerformanceBlankPageTest
+  - uid: '@ms/sp-pages.PerformanceHeavyContentOutsideViewportTest'
+    name: PerformanceHeavyContentOutsideViewportTest
+  - uid: '@ms/sp-pages.PerformanceHeavyContentTest'
+    name: PerformanceHeavyContentTest
+  - uid: '@ms/sp-pages.PerformanceHeroTest'
+    name: PerformanceHeroTest
+  - uid: '@ms/sp-pages.PerformanceRTETest'
+    name: PerformanceRTETest
+  - uid: '@ms/sp-pages.PerformanceTitleImageTest'
+    name: PerformanceTitleImageTest
+  - uid: '@ms/sp-pages.PublishPageTest'
+    name: PublishPageTest
+  - uid: '@ms/sp-pages.PageSaveTest'
+    name: PageSaveTest
+  - uid: '@ms/sp-pages.WebPartBasic'
+    name: WebPartBasic
+  - uid: '@ms/sp-pages.WebPartListView'
+    name: WebPartListView
+  - uid: '@ms/sp-pages.ExampleTabTest'
+    name: ExampleTabTest
+  - uid: '@ms/sp-pages.Global'
+    name: Global

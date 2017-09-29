@@ -1,0 +1,72 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-connector-webparts.ConnectorWebPartEdit'
+    name: ConnectorWebPartEdit
+    fullName: ConnectorWebPartEdit
+    children:
+      - '@ms/sp-connector-webparts.ConnectorWebPartEdit.constructor'
+      - >-
+        @ms/sp-connector-webparts.ConnectorWebPartEdit.getPropertyPaneConfiguration
+      - '@ms/sp-connector-webparts.ConnectorWebPartEdit.openConfiguration'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-connector-webparts'
+  - uid: '@ms/sp-connector-webparts.ConnectorWebPartEdit.constructor'
+    name: ConnectorWebPartEdit
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new ConnectorWebPartEdit(hostOptions: IConnectorHostOptions,
+        pageContext: PageContext, properties: IConnectorWebPartProperties,
+        dataProvider: ConnectorDataProvider, onAfterConfiguration: () => void)
+      parameters:
+        - id: hostOptions
+          type:
+            - '@@ms/sp-connector-webparts.IConnectorHostOptions'
+          description: ''
+        - id: pageContext
+          type:
+            - PageContext
+          description: ''
+        - id: properties
+          type:
+            - '@@ms/sp-connector-webparts.IConnectorWebPartProperties'
+          description: ''
+        - id: dataProvider
+          type:
+            - ConnectorDataProvider
+          description: ''
+        - id: onAfterConfiguration
+          type:
+            - () => void
+          description: ''
+  - uid: >-
+      @ms/sp-connector-webparts.ConnectorWebPartEdit.getPropertyPaneConfiguration
+    name: getPropertyPaneConfiguration
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getPropertyPaneConfiguration()
+      parameters: []
+      return:
+        type:
+          - IPropertyPaneConfiguration
+  - uid: '@ms/sp-connector-webparts.ConnectorWebPartEdit.openConfiguration'
+    name: openConfiguration
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function openConfiguration()
+      parameters: []

@@ -1,0 +1,405 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo'
+    name: ISiteInfo
+    fullName: ISiteInfo
+    children:
+      - '@ms/sp-tenant-admin-page.ISiteInfo.allowGuestUserSignIn'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.classification'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.createdOn'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.description'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.externalSharing'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.files'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.fileViewedOrEdited'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.isGroupConnected'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.key'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.lastActivity'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.lastContentModified'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.pageViews'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.primaryAdmin'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.primaryAdminDisplay'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.secondaryAdmins'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.shareByEmailEnabled'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.shareByLinkEnabled'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.sharingStatus'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.siteId'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.storageQuota'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.storageUsed'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.storageUsedMB'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.subsiteCount'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.templateTitle'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.timeDeleted'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.title'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.type'
+      - '@ms/sp-tenant-admin-page.ISiteInfo.url'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.allowGuestUserSignIn'
+    name: allowGuestUserSignIn
+    fullName: allowGuestUserSignIn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean allowGuestUserSignIn
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.classification'
+    name: classification
+    fullName: classification
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string classification
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.createdOn'
+    name: createdOn
+    fullName: createdOn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string createdOn
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string description
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.externalSharing'
+    name: externalSharing
+    fullName: externalSharing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string externalSharing
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.files'
+    name: files
+    fullName: files
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number files
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.fileViewedOrEdited'
+    name: fileViewedOrEdited
+    fullName: fileViewedOrEdited
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number fileViewedOrEdited
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.isGroupConnected'
+    name: isGroupConnected
+    fullName: isGroupConnected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isGroupConnected
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.key'
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string key
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.lastActivity'
+    name: lastActivity
+    fullName: lastActivity
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string lastActivity
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.lastContentModified'
+    name: lastContentModified
+    fullName: lastContentModified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string lastContentModified
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.pageViews'
+    name: pageViews
+    fullName: pageViews
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number pageViews
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.primaryAdmin'
+    name: primaryAdmin
+    fullName: primaryAdmin
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IPersonInfo primaryAdmin
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IPersonInfo'
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.primaryAdminDisplay'
+    name: primaryAdminDisplay
+    fullName: primaryAdminDisplay
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string primaryAdminDisplay
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.secondaryAdmins'
+    name: secondaryAdmins
+    fullName: secondaryAdmins
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IPersonInfo[] secondaryAdmins'
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IPersonInfo[]'
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.shareByEmailEnabled'
+    name: shareByEmailEnabled
+    fullName: shareByEmailEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean shareByEmailEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.shareByLinkEnabled'
+    name: shareByLinkEnabled
+    fullName: shareByLinkEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean shareByLinkEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.sharingStatus'
+    name: sharingStatus
+    fullName: sharingStatus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string sharingStatus
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.siteId'
+    name: siteId
+    fullName: siteId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.storageQuota'
+    name: storageQuota
+    fullName: storageQuota
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number storageQuota
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.storageUsed'
+    name: storageUsed
+    fullName: storageUsed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number storageUsed
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.storageUsedMB'
+    name: storageUsedMB
+    fullName: storageUsedMB
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number storageUsedMB
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.subsiteCount'
+    name: subsiteCount
+    fullName: subsiteCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number subsiteCount
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.templateTitle'
+    name: templateTitle
+    fullName: templateTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string templateTitle
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.timeDeleted'
+    name: timeDeleted
+    fullName: timeDeleted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string timeDeleted
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string type
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfo.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string url
+      return:
+        type:
+          - string

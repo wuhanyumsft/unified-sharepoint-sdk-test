@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.FocusOnElement'
+    name: FocusOnElement
+    fullName: FocusOnElement
+    children:
+      - '@ms/sp-publishing-webparts.FocusOnElement.linkInput'
+      - '@ms/sp-publishing-webparts.FocusOnElement.linkPreviewHTML'
+      - '@ms/sp-publishing-webparts.FocusOnElement.linkView'
+      - '@ms/sp-publishing-webparts.FocusOnElement.none'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.FocusOnElement.linkInput'
+    name: linkInput
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-publishing-webparts.FocusOnElement.linkPreviewHTML'
+    name: linkPreviewHTML
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-publishing-webparts.FocusOnElement.linkView'
+    name: linkView
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-publishing-webparts.FocusOnElement.none'
+    name: none
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

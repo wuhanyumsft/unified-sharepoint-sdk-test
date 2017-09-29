@@ -1,0 +1,90 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.ClassicPage'
+    name: ClassicPage
+    fullName: ClassicPage
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.ClassicPage.AddTaskAddWebPartByCategory'
+      - '@ms/sp-tab-tasklib.SPTaskLib.ClassicPage.AddTaskClickAddWebPartZone'
+      - '@ms/sp-tab-tasklib.SPTaskLib.ClassicPage.AddTaskClickEditRibbonButton'
+      - '@ms/sp-tab-tasklib.SPTaskLib.ClassicPage.AddTaskClickPageTabButton'
+      - '@ms/sp-tab-tasklib.SPTaskLib.ClassicPage.AddTaskSavePage'
+      - '@ms/sp-tab-tasklib.SPTaskLib.ClassicPage.PageReady'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.ClassicPage.AddTaskAddWebPartByCategory'
+    name: AddTaskAddWebPartByCategory
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function AddTaskAddWebPartByCategory(category: string,
+        webPartName: string)
+      parameters:
+        - id: category
+          type:
+            - string
+          description: ''
+        - id: webPartName
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.ClassicPage.AddTaskClickAddWebPartZone'
+    name: AddTaskClickAddWebPartZone
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function AddTaskClickAddWebPartZone()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.ClassicPage.AddTaskClickEditRibbonButton'
+    name: AddTaskClickEditRibbonButton
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function AddTaskClickEditRibbonButton()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.ClassicPage.AddTaskClickPageTabButton'
+    name: AddTaskClickPageTabButton
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function AddTaskClickPageTabButton()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.ClassicPage.AddTaskSavePage'
+    name: AddTaskSavePage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function AddTaskSavePage()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.ClassicPage.PageReady'
+    name: PageReady
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function PageReady()
+      parameters: []
+      return:
+        type:
+          - Waiter

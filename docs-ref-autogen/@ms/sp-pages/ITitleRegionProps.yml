@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ITitleRegionProps'
+    name: ITitleRegionProps
+    fullName: ITitleRegionProps
+    children:
+      - '@ms/sp-pages.ITitleRegionProps.textAlignCenter'
+      - '@ms/sp-pages.ITitleRegionProps.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ITitleRegionProps.textAlignCenter'
+    name: textAlignCenter
+    fullName: textAlignCenter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean textAlignCenter
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.ITitleRegionProps.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

@@ -1,0 +1,68 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/test-extensions-application.EditableListItem'
+    name: EditableListItem
+    fullName: EditableListItem
+    children:
+      - '@ms/test-extensions-application.EditableListItem.constructor'
+      - '@ms/test-extensions-application.EditableListItem.getValue'
+      - '@ms/test-extensions-application.EditableListItem.getValueByName'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/test-extensions-application.EditableListItem'
+    package: '@ms/test-extensions-application'
+  - uid: '@ms/test-extensions-application.EditableListItem.constructor'
+    name: EditableListItem
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new EditableListItem(fields: ReadonlyArray<SPField>, rowData: IRowData)'
+      parameters:
+        - id: fields
+          type:
+            - ReadonlyArray<SPField>
+          description: ''
+        - id: rowData
+          type:
+            - '@@ms/test-extensions-application.IRowData'
+          description: ''
+  - uid: '@ms/test-extensions-application.EditableListItem.getValue'
+    name: getValue
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getValue(field: SPField)'
+      parameters:
+        - id: field
+          type:
+            - SPField
+          description: ''
+      return:
+        type:
+          - any
+  - uid: '@ms/test-extensions-application.EditableListItem.getValueByName'
+    name: getValueByName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getValueByName(internalName: string)'
+      parameters:
+        - id: internalName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - any

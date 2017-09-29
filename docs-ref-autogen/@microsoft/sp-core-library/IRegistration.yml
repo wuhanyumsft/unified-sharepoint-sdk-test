@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.IRegistration'
+    name: IRegistration
+    fullName: IRegistration<T>
+    children:
+      - '@microsoft/sp-core-library.IRegistration.service'
+      - '@microsoft/sp-core-library.IRegistration.serviceKey'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.IRegistration.service'
+    name: service
+    fullName: service
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: T service
+      return:
+        type:
+          - T
+  - uid: '@microsoft/sp-core-library.IRegistration.serviceKey'
+    name: serviceKey
+    fullName: serviceKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceKey<T> serviceKey
+      return:
+        type:
+          - '@@microsoft/sp-core-library.ServiceKey<T>'

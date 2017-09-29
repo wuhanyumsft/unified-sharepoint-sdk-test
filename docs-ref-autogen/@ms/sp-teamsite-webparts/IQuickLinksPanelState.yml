@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksPanelState'
+    name: IQuickLinksPanelState
+    fullName: IQuickLinksPanelState
+    children:
+      - '@ms/sp-teamsite-webparts.IQuickLinksPanelState.currentItem'
+      - '@ms/sp-teamsite-webparts.IQuickLinksPanelState.isPanelVisible'
+      - '@ms/sp-teamsite-webparts.IQuickLinksPanelState.itemsRetrieved'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksPanelState.currentItem'
+    name: currentItem
+    fullName: currentItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IQuickLink currentItem
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IQuickLink'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksPanelState.isPanelVisible'
+    name: isPanelVisible
+    fullName: isPanelVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isPanelVisible
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksPanelState.itemsRetrieved'
+    name: itemsRetrieved
+    fullName: itemsRetrieved
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean itemsRetrieved
+      return:
+        type:
+          - boolean

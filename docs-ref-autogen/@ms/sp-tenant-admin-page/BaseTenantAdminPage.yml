@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.BaseTenantAdminPage'
+    name: BaseTenantAdminPage
+    fullName: BaseTenantAdminPage<P>
+    children:
+      - '@ms/sp-tenant-admin-page.BaseTenantAdminPage.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: This is the base class of all pages in Tenant Admin site.
+    extends:
+      name: '@@ms/sp-tenant-admin-page.BaseTenantAdminPage<P>'
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.BaseTenantAdminPage.constructor'
+    name: BaseTenantAdminPage
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BaseTenantAdminPage(args: any[])'
+      parameters:
+        - id: args
+          type:
+            - 'any[]'
+          description: ''

@@ -1,0 +1,205 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkTileProps'
+    name: IQuickLinkTileProps
+    fullName: IQuickLinkTileProps
+    children:
+      - '@ms/sp-teamsite-webparts.IQuickLinkTileProps.ariaLabel'
+      - '@ms/sp-teamsite-webparts.IQuickLinkTileProps.getProvider'
+      - '@ms/sp-teamsite-webparts.IQuickLinkTileProps.height'
+      - '@ms/sp-teamsite-webparts.IQuickLinkTileProps.index'
+      - '@ms/sp-teamsite-webparts.IQuickLinkTileProps.isEdit'
+      - '@ms/sp-teamsite-webparts.IQuickLinkTileProps.isInternalUrl'
+      - '@ms/sp-teamsite-webparts.IQuickLinkTileProps.item'
+      - '@ms/sp-teamsite-webparts.IQuickLinkTileProps.numberOfItems'
+      - '@ms/sp-teamsite-webparts.IQuickLinkTileProps.onClick'
+      - '@ms/sp-teamsite-webparts.IQuickLinkTileProps.onDelete'
+      - '@ms/sp-teamsite-webparts.IQuickLinkTileProps.onEdit'
+      - '@ms/sp-teamsite-webparts.IQuickLinkTileProps.type'
+      - '@ms/sp-teamsite-webparts.IQuickLinkTileProps.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkTileProps.ariaLabel'
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The aria label of the item read by screen reader.
+
+      If this ariaLabel is not provided, a default aria label will be generated
+      from index and numberOfItems.
+    syntax:
+      content: string ariaLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkTileProps.getProvider'
+    name: getProvider
+    fullName: getProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The callback to get the data provider.
+    syntax:
+      content: () => IQuickLinksProvider getProvider
+      return:
+        type:
+          - () => IQuickLinksProvider
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkTileProps.height'
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The height where the card should be rendered in.
+    syntax:
+      content: number height
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkTileProps.index'
+    name: index
+    fullName: index
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The index of the current item among all items.
+    syntax:
+      content: number index
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkTileProps.isEdit'
+    name: isEdit
+    fullName: isEdit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Is in edit mode or not.
+    syntax:
+      content: boolean isEdit
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkTileProps.isInternalUrl'
+    name: isInternalUrl
+    fullName: isInternalUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The function to check the url is internal or external, provided by
+      consumer.
+    syntax:
+      content: '(url: string) => boolean isInternalUrl'
+      return:
+        type:
+          - '(url: string) => boolean'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkTileProps.item'
+    name: item
+    fullName: item
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The item which is going to be rendered.
+    syntax:
+      content: IQuickLink item
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IQuickLink'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkTileProps.numberOfItems'
+    name: numberOfItems
+    fullName: numberOfItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The total number of items. Used to generate aria label if the ariaLabel
+      props is not specified.
+    syntax:
+      content: number numberOfItems
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkTileProps.onClick'
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback when the tile is clicked.
+    syntax:
+      content: '(event: MouseEvent<HTMLElement>) => void onClick'
+      return:
+        type:
+          - '(event: MouseEvent<HTMLElement>) => void'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkTileProps.onDelete'
+    name: onDelete
+    fullName: onDelete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Callback when the remove icon is clicked.
+      If both onEdit and onDelete are undefined, the two buttons will be hidden.
+    syntax:
+      content: () => void onDelete
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkTileProps.onEdit'
+    name: onEdit
+    fullName: onEdit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Callback when the edit icon is clicked.
+      If both onEdit and onDelete are undefined, the two buttons will be hidden.
+    syntax:
+      content: () => void onEdit
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkTileProps.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The type of how the tile should be rendered.
+    syntax:
+      content: TileType type
+      return:
+        type:
+          - TileType
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkTileProps.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The width where the card should be rendered in.
+    syntax:
+      content: number width
+      return:
+        type:
+          - number

@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ITenantSites'
+    name: ITenantSites
+    fullName: ITenantSites
+    children:
+      - '@ms/sp-tenant-admin-page.ITenantSites.SPSites'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ITenantSites.SPSites'
+    name: SPSites
+    fullName: SPSites
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ISiteInfo[] SPSites'
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISiteInfo[]'

@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ImageGridState'
+    name: ImageGridState
+    fullName: ImageGridState
+    children:
+      - '@ms/sp-publishing-webparts.ImageGridState.cellHeight'
+      - '@ms/sp-publishing-webparts.ImageGridState.cellWidth'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ImageGridState.cellHeight'
+    name: cellHeight
+    fullName: cellHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number cellHeight
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.ImageGridState.cellWidth'
+    name: cellWidth
+    fullName: cellWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number cellWidth
+      return:
+        type:
+          - number

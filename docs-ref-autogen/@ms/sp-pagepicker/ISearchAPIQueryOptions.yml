@@ -1,0 +1,645 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions'
+    name: ISearchAPIQueryOptions
+    fullName: ISearchAPIQueryOptions
+    children:
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.BlockDedupeMode'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.BypassResultTypes'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.ClientType'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.CollapseSpecification'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.Culture'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.DesiredSnippetLength'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.EnableFql'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.EnableInterleaving'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.EnableNicknames'
+      - >-
+        @ms/sp-pagepicker.ISearchAPIQueryOptions.EnableOrderingHitHighlightedProperty
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.EnablePhonetic'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.EnableQueryRules'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.EnableSorting'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.EnableStemming'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.GenerateBlockRankLog'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.HiddenConstraints'
+      - >-
+        @ms/sp-pagepicker.ISearchAPIQueryOptions.HitHighlightedMultivaluePropertyLimit
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.HitHighlightedProperties'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.MaxSnippetLength'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.PersonalizationData'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.ProcessBestBets'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.ProcessPersonalFavorites'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.Properties'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.QueryTag'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.QueryTemplate'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.QueryTemplatePropertiesUrl'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.Querytext'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.RankingModelId'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.RefinementFilters'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.Refiners'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.ReorderingRules'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.ResultsUrl'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.RowLimit'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.RowsPerPage'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.SelectProperties'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.SortList'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.SourceId'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.StartRow'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.SummaryLength'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.Timeout'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.TimeZoneId'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.TotalRowsExactMinimum'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.TrimDuplicates'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.TrimDuplicatesIncludeId'
+      - '@ms/sp-pagepicker.ISearchAPIQueryOptions.UILanguage'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pagepicker'
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.BlockDedupeMode'
+    name: BlockDedupeMode
+    fullName: BlockDedupeMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number BlockDedupeMode
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.BypassResultTypes'
+    name: BypassResultTypes
+    fullName: BypassResultTypes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean BypassResultTypes
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.ClientType'
+    name: ClientType
+    fullName: ClientType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ClientType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.CollapseSpecification'
+    name: CollapseSpecification
+    fullName: CollapseSpecification
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string CollapseSpecification
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.Culture'
+    name: Culture
+    fullName: Culture
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number Culture
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.DesiredSnippetLength'
+    name: DesiredSnippetLength
+    fullName: DesiredSnippetLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number DesiredSnippetLength
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.EnableFql'
+    name: EnableFql
+    fullName: EnableFql
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean EnableFql
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.EnableInterleaving'
+    name: EnableInterleaving
+    fullName: EnableInterleaving
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string EnableInterleaving
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.EnableNicknames'
+    name: EnableNicknames
+    fullName: EnableNicknames
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean EnableNicknames
+      return:
+        type:
+          - boolean
+  - uid: >-
+      @ms/sp-pagepicker.ISearchAPIQueryOptions.EnableOrderingHitHighlightedProperty
+    name: EnableOrderingHitHighlightedProperty
+    fullName: EnableOrderingHitHighlightedProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean EnableOrderingHitHighlightedProperty
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.EnablePhonetic'
+    name: EnablePhonetic
+    fullName: EnablePhonetic
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean EnablePhonetic
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.EnableQueryRules'
+    name: EnableQueryRules
+    fullName: EnableQueryRules
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean EnableQueryRules
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.EnableSorting'
+    name: EnableSorting
+    fullName: EnableSorting
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean EnableSorting
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.EnableStemming'
+    name: EnableStemming
+    fullName: EnableStemming
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean EnableStemming
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.GenerateBlockRankLog'
+    name: GenerateBlockRankLog
+    fullName: GenerateBlockRankLog
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean GenerateBlockRankLog
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.HiddenConstraints'
+    name: HiddenConstraints
+    fullName: HiddenConstraints
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string HiddenConstraints
+      return:
+        type:
+          - string
+  - uid: >-
+      @ms/sp-pagepicker.ISearchAPIQueryOptions.HitHighlightedMultivaluePropertyLimit
+    name: HitHighlightedMultivaluePropertyLimit
+    fullName: HitHighlightedMultivaluePropertyLimit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number HitHighlightedMultivaluePropertyLimit
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.HitHighlightedProperties'
+    name: HitHighlightedProperties
+    fullName: HitHighlightedProperties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] HitHighlightedProperties'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.MaxSnippetLength'
+    name: MaxSnippetLength
+    fullName: MaxSnippetLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number MaxSnippetLength
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.PersonalizationData'
+    name: PersonalizationData
+    fullName: PersonalizationData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string PersonalizationData
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.ProcessBestBets'
+    name: ProcessBestBets
+    fullName: ProcessBestBets
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean ProcessBestBets
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.ProcessPersonalFavorites'
+    name: ProcessPersonalFavorites
+    fullName: ProcessPersonalFavorites
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean ProcessPersonalFavorites
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.Properties'
+    name: Properties
+    fullName: Properties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'any[] Properties'
+      return:
+        type:
+          - 'any[]'
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.QueryTag'
+    name: QueryTag
+    fullName: QueryTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string QueryTag
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.QueryTemplate'
+    name: QueryTemplate
+    fullName: QueryTemplate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string QueryTemplate
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.QueryTemplatePropertiesUrl'
+    name: QueryTemplatePropertiesUrl
+    fullName: QueryTemplatePropertiesUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string QueryTemplatePropertiesUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.Querytext'
+    name: Querytext
+    fullName: Querytext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Querytext
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.RankingModelId'
+    name: RankingModelId
+    fullName: RankingModelId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string RankingModelId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.RefinementFilters'
+    name: RefinementFilters
+    fullName: RefinementFilters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] RefinementFilters'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.Refiners'
+    name: Refiners
+    fullName: Refiners
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Refiners
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.ReorderingRules'
+    name: ReorderingRules
+    fullName: ReorderingRules
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'any[] ReorderingRules'
+      return:
+        type:
+          - 'any[]'
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.ResultsUrl'
+    name: ResultsUrl
+    fullName: ResultsUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ResultsUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.RowLimit'
+    name: RowLimit
+    fullName: RowLimit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number RowLimit
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.RowsPerPage'
+    name: RowsPerPage
+    fullName: RowsPerPage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number RowsPerPage
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.SelectProperties'
+    name: SelectProperties
+    fullName: SelectProperties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] SelectProperties'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.SortList'
+    name: SortList
+    fullName: SortList
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ISearchAPISortField[] SortList'
+      return:
+        type:
+          - '@@ms/sp-pagepicker.ISearchAPISortField[]'
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.SourceId'
+    name: SourceId
+    fullName: SourceId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string SourceId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.StartRow'
+    name: StartRow
+    fullName: StartRow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number StartRow
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.SummaryLength'
+    name: SummaryLength
+    fullName: SummaryLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number SummaryLength
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.Timeout'
+    name: Timeout
+    fullName: Timeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number Timeout
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.TimeZoneId'
+    name: TimeZoneId
+    fullName: TimeZoneId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number TimeZoneId
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.TotalRowsExactMinimum'
+    name: TotalRowsExactMinimum
+    fullName: TotalRowsExactMinimum
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number TotalRowsExactMinimum
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.TrimDuplicates'
+    name: TrimDuplicates
+    fullName: TrimDuplicates
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean TrimDuplicates
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.TrimDuplicatesIncludeId'
+    name: TrimDuplicatesIncludeId
+    fullName: TrimDuplicatesIncludeId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number TrimDuplicatesIncludeId
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pagepicker.ISearchAPIQueryOptions.UILanguage'
+    name: UILanguage
+    fullName: UILanguage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number UILanguage
+      return:
+        type:
+          - number

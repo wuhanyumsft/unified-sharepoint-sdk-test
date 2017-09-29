@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.ShortcutsPanelState'
+    name: ShortcutsPanelState
+    fullName: ShortcutsPanelState
+    children:
+      - '@ms/sp-teamsite-webparts.ShortcutsPanelState.Suggested'
+      - '@ms/sp-teamsite-webparts.ShortcutsPanelState.Url'
+      - '@ms/sp-teamsite-webparts.ShortcutsPanelState.Validated'
+      - '@ms/sp-teamsite-webparts.ShortcutsPanelState.Working'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.ShortcutsPanelState.Suggested'
+    name: Suggested
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      The user has neither started entering a url nor clicked on a suggested
+      item
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ShortcutsPanelState.Url'
+    name: Url
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      The user has started entering a url or clicked on a suggested item, but
+      either not all fields
+       are valid, or they haven't been validated yet
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ShortcutsPanelState.Validated'
+    name: Validated
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      The user has started entering a url or clicked on a suggested item and all
+      fields
+       are valid
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ShortcutsPanelState.Working'
+    name: Working
+    children: []
+    langs:
+      - typeScript
+    summary: Changes are currently being saved to the server
+    type: field

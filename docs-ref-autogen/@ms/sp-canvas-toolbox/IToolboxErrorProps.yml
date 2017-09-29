@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.IToolboxErrorProps'
+    name: IToolboxErrorProps
+    fullName: IToolboxErrorProps
+    children:
+      - '@ms/sp-canvas-toolbox.IToolboxErrorProps.a11yManager'
+      - '@ms/sp-canvas-toolbox.IToolboxErrorProps.message'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-canvas-toolbox'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxErrorProps.a11yManager'
+    name: a11yManager
+    fullName: a11yManager
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: A11yManager a11yManager
+      return:
+        type:
+          - A11yManager
+  - uid: '@ms/sp-canvas-toolbox.IToolboxErrorProps.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string message
+      return:
+        type:
+          - string

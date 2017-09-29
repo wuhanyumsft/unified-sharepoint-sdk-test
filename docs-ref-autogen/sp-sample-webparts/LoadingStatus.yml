@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+items:
+  - uid: sp-sample-webparts.LoadingStatus
+    name: LoadingStatus
+    fullName: LoadingStatus
+    children:
+      - sp-sample-webparts.LoadingStatus.FetchingTasks
+      - sp-sample-webparts.LoadingStatus.None
+      - sp-sample-webparts.LoadingStatus.UpdatingTasks
+    langs:
+      - typeScript
+    type: enum
+    summary: >-
+      The type of the loading status for requesting for the items from
+      SharePoint List.
+    package: sp-sample-webparts
+  - uid: sp-sample-webparts.LoadingStatus.FetchingTasks
+    name: FetchingTasks
+    children: []
+    langs:
+      - typeScript
+    summary: We are fetching the tasks items (Read items).
+    type: field
+  - uid: sp-sample-webparts.LoadingStatus.None
+    name: None
+    children: []
+    langs:
+      - typeScript
+    summary: We are not loading anything.
+    type: field
+  - uid: sp-sample-webparts.LoadingStatus.UpdatingTasks
+    name: UpdatingTasks
+    children: []
+    langs:
+      - typeScript
+    summary: 'We are updating the tasks list (Create, Update, or Delete the item).'
+    type: field

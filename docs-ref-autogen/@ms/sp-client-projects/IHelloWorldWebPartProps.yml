@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.IHelloWorldWebPartProps'
+    name: IHelloWorldWebPartProps
+    fullName: IHelloWorldWebPartProps
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-client-projects'

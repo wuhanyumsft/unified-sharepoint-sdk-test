@@ -1,0 +1,76 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.PassthroughLocaleTask'
+    name: PassthroughLocaleTask
+    fullName: PassthroughLocaleTask
+    children:
+      - '@ms/sp-build-internal-tasks.PassthroughLocaleTask.executeTask'
+      - '@ms/sp-build-internal-tasks.PassthroughLocaleTask.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      A task which reads the default culture's .json file in the
+      lib/resx-strings/ dir and generates
+
+      a passthrough-localized JSON where each value is its own key.
+
+      Example:
+       IN:
+        lib/resx-strings/en-us.json:
+          {
+            "_a1b2c3": {
+              "helloWorld": "Hello, World! Bar!"
+            },
+            "_z9y8x7": {
+              "helloWorld": "Hello, World! Foo!"
+            }
+          }
+
+       OUT:
+        lib/resx-strings/default.json:
+          {
+            "_a1b2c3": {
+              "helloWorld": "helloWorld"
+            },
+            "_z9y8x7": {
+              "helloWorld": "helloWorld"
+            }
+          }
+    extends:
+      name: >-
+        @@ms/sp-build-internal-tasks.LocalizeGulpTask<@@ms/sp-build-internal-tasks.IPassthroughLocaleTaskConfig>
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.PassthroughLocaleTask.executeTask'
+    name: executeTask
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function executeTask(gulp: any, completeCallback: (error?: string) =>
+        void)
+      parameters:
+        - id: gulp
+          type:
+            - any
+          description: ''
+        - id: completeCallback
+          type:
+            - '(error?: string) => void'
+          description: ''
+      return:
+        type:
+          - ReadWriteStream
+  - uid: '@ms/sp-build-internal-tasks.PassthroughLocaleTask.constructor'
+    name: PassthroughLocaleTask
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new PassthroughLocaleTask()
+      parameters: []

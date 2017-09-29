@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/empty-webpart-project.EmptyWebPart'
+    name: EmptyWebPart
+    fullName: EmptyWebPart
+    children:
+      - '@ms/empty-webpart-project.EmptyWebPart.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/empty-webpart-project.EmptyWebPart<@@ms/empty-webpart-project.IEmptyWebPartProperties>
+    package: '@ms/empty-webpart-project'
+  - uid: '@ms/empty-webpart-project.EmptyWebPart.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []

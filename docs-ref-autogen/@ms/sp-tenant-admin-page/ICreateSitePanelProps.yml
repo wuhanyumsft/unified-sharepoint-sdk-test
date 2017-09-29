@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ICreateSitePanelProps'
+    name: ICreateSitePanelProps
+    fullName: ICreateSitePanelProps
+    children:
+      - '@ms/sp-tenant-admin-page.ICreateSitePanelProps.dispatch'
+      - '@ms/sp-tenant-admin-page.ICreateSitePanelProps.showCreateSitePanel'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ICreateSitePanelProps.dispatch'
+    name: dispatch
+    fullName: dispatch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Dispatch<ISiteManagementState> dispatch
+      return:
+        type:
+          - Dispatch<@@ms/sp-tenant-admin-page.ISiteManagementState>
+  - uid: '@ms/sp-tenant-admin-page.ICreateSitePanelProps.showCreateSitePanel'
+    name: showCreateSitePanel
+    fullName: showCreateSitePanel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showCreateSitePanel
+      return:
+        type:
+          - boolean

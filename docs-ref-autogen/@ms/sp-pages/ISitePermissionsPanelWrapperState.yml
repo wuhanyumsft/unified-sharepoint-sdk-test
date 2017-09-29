@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ISitePermissionsPanelWrapperState'
+    name: ISitePermissionsPanelWrapperState
+    fullName: ISitePermissionsPanelWrapperState
+    children:
+      - '@ms/sp-pages.ISitePermissionsPanelWrapperState.htmlEmbedControlLoaded'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ISitePermissionsPanelWrapperState.htmlEmbedControlLoaded'
+    name: htmlEmbedControlLoaded
+    fullName: htmlEmbedControlLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean htmlEmbedControlLoaded
+      return:
+        type:
+          - boolean

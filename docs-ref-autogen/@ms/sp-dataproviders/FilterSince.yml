@@ -1,0 +1,74 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.FilterSince'
+    name: FilterSince
+    fullName: FilterSince
+    children:
+      - '@ms/sp-dataproviders.FilterSince.Today'
+      - '@ms/sp-dataproviders.FilterSince.Yesterday'
+      - '@ms/sp-dataproviders.FilterSince.ThisWeek'
+      - '@ms/sp-dataproviders.FilterSince.ThisMonth'
+      - '@ms/sp-dataproviders.FilterSince.LastMonth'
+      - '@ms/sp-dataproviders.FilterSince.ThisYear'
+      - '@ms/sp-dataproviders.FilterSince.LastYear'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.FilterSince.Today'
+    name: Today
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-dataproviders.FilterSince.Yesterday'
+    name: Yesterday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+  - uid: '@ms/sp-dataproviders.FilterSince.ThisWeek'
+    name: ThisWeek
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+  - uid: '@ms/sp-dataproviders.FilterSince.ThisMonth'
+    name: ThisMonth
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+  - uid: '@ms/sp-dataproviders.FilterSince.LastMonth'
+    name: LastMonth
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 5
+  - uid: '@ms/sp-dataproviders.FilterSince.ThisYear'
+    name: ThisYear
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 6
+  - uid: '@ms/sp-dataproviders.FilterSince.LastYear'
+    name: LastYear
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 7

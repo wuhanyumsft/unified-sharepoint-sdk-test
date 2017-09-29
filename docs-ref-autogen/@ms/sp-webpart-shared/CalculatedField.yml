@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.CalculatedField'
+    name: CalculatedField
+    fullName: CalculatedField
+    children:
+      - '@ms/sp-webpart-shared.CalculatedField.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-webpart-shared.MappedField'
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.CalculatedField.constructor'
+    name: CalculatedField
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CalculatedField(target: string, displayField: IDisplayField,
+        formatter: (row: IDataRow) => Object, onRenderCell?: (item?: IDataRow,
+        index?: number) => ReactNode)
+      parameters:
+        - id: target
+          type:
+            - string
+          description: ''
+        - id: displayField
+          type:
+            - '@@ms/sp-webpart-shared.IDisplayField'
+          description: ''
+        - id: formatter
+          type:
+            - '(row: IDataRow) => Object'
+          description: ''
+        - id: onRenderCell
+          type:
+            - '(item?: IDataRow, index?: number) => ReactNode'
+          description: ''
+          optional: true

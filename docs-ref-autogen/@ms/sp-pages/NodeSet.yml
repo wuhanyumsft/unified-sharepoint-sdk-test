@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.NodeSet'
+    name: NodeSet
+    fullName: NodeSet
+    children:
+      - '@ms/sp-pages.NodeSet.addNode'
+      - '@ms/sp-pages.NodeSet.addText'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.NodeSet.addNode'
+    name: addNode
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addNode(node: Node)'
+      parameters:
+        - id: node
+          type:
+            - Node
+          description: ''
+  - uid: '@ms/sp-pages.NodeSet.addText'
+    name: addText
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addText(text: string, cursorPosition: number)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+        - id: cursorPosition
+          type:
+            - number
+          description: ''

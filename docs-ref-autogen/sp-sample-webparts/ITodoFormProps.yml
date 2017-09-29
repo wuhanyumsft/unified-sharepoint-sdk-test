@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: sp-sample-webparts.ITodoFormProps
+    name: ITodoFormProps
+    fullName: ITodoFormProps
+    children:
+      - sp-sample-webparts.ITodoFormProps.onSubmit
+    langs:
+      - typeScript
+    type: interface
+    summary: Props for TodoForm component.
+    package: sp-sample-webparts
+  - uid: sp-sample-webparts.ITodoFormProps.onSubmit
+    name: onSubmit
+    fullName: onSubmit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      onSubmit callback triggered when the form is submitted.
+
+      Either triggered by clicking on add button or pressed Enter key in input
+      field.
+    syntax:
+      content: ItemOperationCallback onSubmit
+      return:
+        type:
+          - ItemOperationCallback

@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.TabTask'
+    name: TabTask
+    fullName: TabTask<TProps>
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-build-internal-tasks.TabTask<TProps>'
+    package: '@ms/sp-build-internal-tasks'

@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.AppFrame'
+    name: AppFrame
+    fullName: AppFrame
+    children:
+      - '@ms/sp-tenant-admin-page.AppFrame.componentDidMount'
+      - '@ms/sp-tenant-admin-page.AppFrame.componentWillMount'
+      - '@ms/sp-tenant-admin-page.AppFrame.render'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      The frame of the Tenant Admin application.
+      It contains navigation and a page container for main content.
+    extends:
+      name: '@@ms/sp-tenant-admin-page.AppFrame<__type>'
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.AppFrame.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.AppFrame.componentWillMount'
+    name: componentWillMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillMount()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.AppFrame.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

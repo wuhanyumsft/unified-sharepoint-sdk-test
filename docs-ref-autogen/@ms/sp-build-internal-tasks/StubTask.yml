@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.StubTask'
+    name: StubTask
+    fullName: StubTask
+    children:
+      - '@ms/sp-build-internal-tasks.StubTask.executeTask'
+      - '@ms/sp-build-internal-tasks.StubTask.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-build-internal-tasks.StubTask<void>'
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.StubTask.executeTask'
+    name: executeTask
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function executeTask()
+      parameters: []
+  - uid: '@ms/sp-build-internal-tasks.StubTask.constructor'
+    name: StubTask
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new StubTask()
+      parameters: []

@@ -1,0 +1,93 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.PlaceholderSpinner'
+    name: PlaceholderSpinner
+    fullName: PlaceholderSpinner
+    children:
+      - '@microsoft/sp-webpart-base.PlaceholderSpinner.clearPlaceholder'
+      - '@microsoft/sp-webpart-base.PlaceholderSpinner.componentDidMount'
+      - '@microsoft/sp-webpart-base.PlaceholderSpinner.componentWillUnmount'
+      - '@microsoft/sp-webpart-base.PlaceholderSpinner.constructor'
+      - '@microsoft/sp-webpart-base.PlaceholderSpinner.render'
+      - '@microsoft/sp-webpart-base.PlaceholderSpinner.showSpinner'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Component used to display place holder content in the web part display
+      area.
+    extends:
+      name: >-
+        @@microsoft/sp-webpart-base.PlaceholderSpinner<@@microsoft/sp-webpart-base.IPlaceholderSpinnerProps>
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.PlaceholderSpinner.clearPlaceholder'
+    name: clearPlaceholder
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get rid of the placeholder completely from the DOM tree
+    syntax:
+      content: function clearPlaceholder()
+      parameters: []
+  - uid: '@microsoft/sp-webpart-base.PlaceholderSpinner.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@microsoft/sp-webpart-base.PlaceholderSpinner.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@microsoft/sp-webpart-base.PlaceholderSpinner.constructor'
+    name: PlaceholderSpinner
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PlaceholderSpinner(props: IPlaceholderSpinnerProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@microsoft/sp-webpart-base.IPlaceholderSpinnerProps'
+          description: ''
+  - uid: '@microsoft/sp-webpart-base.PlaceholderSpinner.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Render the place holder user experience.
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@microsoft/sp-webpart-base.IPlaceholderSpinnerProps>
+  - uid: '@microsoft/sp-webpart-base.PlaceholderSpinner.showSpinner'
+    name: showSpinner
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function showSpinner(showSpinner: boolean)'
+      parameters:
+        - id: showSpinner
+          type:
+            - boolean
+          description: ''

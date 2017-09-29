@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IXml'
+    name: IXml
+    fullName: IXml
+    children:
+      - '@microsoft/sp-build-core-tasks.IXml.filename'
+      - '@microsoft/sp-build-core-tasks.IXml.xml'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.IXml.filename'
+    name: filename
+    fullName: filename
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string filename
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IXml.xml'
+    name: xml
+    fullName: xml
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string xml
+      return:
+        type:
+          - string

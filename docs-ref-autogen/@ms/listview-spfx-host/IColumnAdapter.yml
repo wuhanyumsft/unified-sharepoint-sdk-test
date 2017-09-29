@@ -1,0 +1,77 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/listview-spfx-host.IColumnAdapter'
+    name: IColumnAdapter
+    fullName: IColumnAdapter
+    children:
+      - '@ms/listview-spfx-host.IColumnAdapter.fieldCustomizerLoaded'
+      - '@ms/listview-spfx-host.IColumnAdapter.listViewAdapter'
+      - '@ms/listview-spfx-host.IColumnAdapter.renderCell'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      This object is provided by the SPFx host, obtained via
+      IListViewAdapter.createColumnAdapter().
+
+      It represents a column shown by the ListView.
+    package: '@ms/listview-spfx-host'
+  - uid: '@ms/listview-spfx-host.IColumnAdapter.fieldCustomizerLoaded'
+    name: fieldCustomizerLoaded
+    fullName: fieldCustomizerLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: True if the application should call renderCell()
+    syntax:
+      content: boolean fieldCustomizerLoaded
+      return:
+        type:
+          - boolean
+  - uid: '@ms/listview-spfx-host.IColumnAdapter.listViewAdapter'
+    name: listViewAdapter
+    fullName: listViewAdapter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns the IListViewAdapter object that this column belongs to.
+    syntax:
+      content: IListViewAdapter listViewAdapter
+      return:
+        type:
+          - '@@ms/listview-spfx-host.IListViewAdapter'
+  - uid: '@ms/listview-spfx-host.IColumnAdapter.renderCell'
+    name: renderCell
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Attempts to render the cell using the field customizer.  If there is no
+      associated
+
+      field customizer, or if the field customizer failed to render (i.e. the
+
+      onFieldCustomizerError callback was called), then renderCell() returns
+      undefined.
+
+      Otherwise, it returns an ICellAdapter instance.  If the developer's code
+      throws
+
+      an exception, it will be trapped and reported via ICellAdapter.error.
+
+      NOTE: If an ICellAdapter object is returned, the application MUST call
+      ICellAdapter.dispose().
+    syntax:
+      content: 'function renderCell(row: IRowAdapter, domElement: HTMLDivElement)'
+      parameters:
+        - id: row
+          type:
+            - '@@ms/listview-spfx-host.IRowAdapter'
+          description: ''
+        - id: domElement
+          type:
+            - HTMLDivElement
+          description: ''

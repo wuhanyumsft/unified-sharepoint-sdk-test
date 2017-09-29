@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-bingmap.MockGlobalPoint'
+    name: MockGlobalPoint
+    fullName: MockGlobalPoint
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-bingmap'

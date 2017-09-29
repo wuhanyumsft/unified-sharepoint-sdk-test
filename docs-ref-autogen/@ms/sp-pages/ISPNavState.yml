@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ISPNavState'
+    name: ISPNavState
+    fullName: ISPNavState
+    children:
+      - '@ms/sp-pages.ISPNavState.baseUrl'
+      - '@ms/sp-pages.ISPNavState.editMode'
+      - '@ms/sp-pages.ISPNavState.groups'
+      - '@ms/sp-pages.ISPNavState.homePageUrl'
+      - '@ms/sp-pages.ISPNavState.isOnTop'
+      - '@ms/sp-pages.ISPNavState.isSiteReadOnly'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ISPNavState.baseUrl'
+    name: baseUrl
+    fullName: baseUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string baseUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.ISPNavState.editMode'
+    name: editMode
+    fullName: editMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean editMode
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.ISPNavState.groups'
+    name: groups
+    fullName: groups
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'INavLinkGroup[] groups'
+      return:
+        type:
+          - 'INavLinkGroup[]'
+  - uid: '@ms/sp-pages.ISPNavState.homePageUrl'
+    name: homePageUrl
+    fullName: homePageUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string homePageUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.ISPNavState.isOnTop'
+    name: isOnTop
+    fullName: isOnTop
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isOnTop
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.ISPNavState.isSiteReadOnly'
+    name: isSiteReadOnly
+    fullName: isSiteReadOnly
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSiteReadOnly
+      return:
+        type:
+          - boolean

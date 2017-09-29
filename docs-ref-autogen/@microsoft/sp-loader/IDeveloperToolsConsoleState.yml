@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.IDeveloperToolsConsoleState'
+    name: IDeveloperToolsConsoleState
+    fullName: IDeveloperToolsConsoleState
+    children:
+      - '@microsoft/sp-loader.IDeveloperToolsConsoleState.selectedTabId'
+      - '@microsoft/sp-loader.IDeveloperToolsConsoleState.tabs'
+      - '@microsoft/sp-loader.IDeveloperToolsConsoleState.topPosition'
+      - '@microsoft/sp-loader.IDeveloperToolsConsoleState.visible'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.IDeveloperToolsConsoleState.selectedTabId'
+    name: selectedTabId
+    fullName: selectedTabId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number selectedTabId
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-loader.IDeveloperToolsConsoleState.tabs'
+    name: tabs
+    fullName: tabs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'DeveloperToolsTab[] tabs'
+      return:
+        type:
+          - '@@microsoft/sp-loader.DeveloperToolsTab[]'
+  - uid: '@microsoft/sp-loader.IDeveloperToolsConsoleState.topPosition'
+    name: topPosition
+    fullName: topPosition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number topPosition
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-loader.IDeveloperToolsConsoleState.visible'
+    name: visible
+    fullName: visible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean visible
+      return:
+        type:
+          - boolean

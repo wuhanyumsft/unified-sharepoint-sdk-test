@@ -1,0 +1,85 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-chart-webparts.IQuickChartProps'
+    name: IQuickChartProps
+    fullName: IQuickChartProps
+    children:
+      - '@ms/sp-chart-webparts.IQuickChartProps.isRTL'
+      - '@ms/sp-chart-webparts.IQuickChartProps.mode'
+      - '@ms/sp-chart-webparts.IQuickChartProps.onChangeTitle'
+      - '@ms/sp-chart-webparts.IQuickChartProps.onClickPoint'
+      - '@ms/sp-chart-webparts.IQuickChartProps.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface for quick chart root component properties.
+    extends:
+      name: '@@ms/sp-chart-webparts.IQuickChartWebPartProps'
+    package: '@ms/sp-chart-webparts'
+  - uid: '@ms/sp-chart-webparts.IQuickChartProps.isRTL'
+    name: isRTL
+    fullName: isRTL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the current page is right to left.
+    syntax:
+      content: boolean isRTL
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-chart-webparts.IQuickChartProps.mode'
+    name: mode
+    fullName: mode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The display mode for the quick chart component. It is either Read or Edit.
+      This value is read from web part and passed to here.
+    syntax:
+      content: DisplayMode mode
+      return:
+        type:
+          - DisplayMode
+  - uid: '@ms/sp-chart-webparts.IQuickChartProps.onChangeTitle'
+    name: onChangeTitle
+    fullName: onChangeTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The callback for notifying changes in web part title.
+    syntax:
+      content: '(newTitle: string) => void onChangeTitle'
+      return:
+        type:
+          - '(newTitle: string) => void'
+  - uid: '@ms/sp-chart-webparts.IQuickChartProps.onClickPoint'
+    name: onClickPoint
+    fullName: onClickPoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The callback for column/pie clicked event in column/pie chart.
+    syntax:
+      content: '(index: number) => void onClickPoint'
+      return:
+        type:
+          - '(index: number) => void'
+  - uid: '@ms/sp-chart-webparts.IQuickChartProps.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'The width of the current web part, used to reflow the chart.'
+    syntax:
+      content: number width
+      return:
+        type:
+          - number

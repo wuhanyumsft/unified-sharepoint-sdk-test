@@ -1,0 +1,195 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode'
+    name: SPWebPartErrorCode
+    fullName: SPWebPartErrorCode
+    children:
+      - '@microsoft/sp-webpart-base.SPWebPartErrorCode.BaseConstructError'
+      - >-
+        @microsoft/sp-webpart-base.SPWebPartErrorCode.FirstTimeRenderCalledMoreThanOnce
+      - '@microsoft/sp-webpart-base.SPWebPartErrorCode.GetDataReturnedNullPromise'
+      - '@microsoft/sp-webpart-base.SPWebPartErrorCode.IncorrectBoostrapModule'
+      - >-
+        @microsoft/sp-webpart-base.SPWebPartErrorCode.InvalidSPLinkAttributeFormat
+      - '@microsoft/sp-webpart-base.SPWebPartErrorCode.InvalidSPLinkIndex'
+      - '@microsoft/sp-webpart-base.SPWebPartErrorCode.LoaderNotFound'
+      - '@microsoft/sp-webpart-base.SPWebPartErrorCode.ManifestInvalid'
+      - '@microsoft/sp-webpart-base.SPWebPartErrorCode.ManifestNull'
+      - >-
+        @microsoft/sp-webpart-base.SPWebPartErrorCode.MissingExpectedWebPartMemberError
+      - '@microsoft/sp-webpart-base.SPWebPartErrorCode.ModuleNotLoaded'
+      - '@microsoft/sp-webpart-base.SPWebPartErrorCode.ModuleUndefined'
+      - '@microsoft/sp-webpart-base.SPWebPartErrorCode.MustOverrideRender'
+      - '@microsoft/sp-webpart-base.SPWebPartErrorCode.NonBaseWebPart'
+      - '@microsoft/sp-webpart-base.SPWebPartErrorCode.NotInitializedError'
+      - >-
+        @microsoft/sp-webpart-base.SPWebPartErrorCode.OnAfterDeserializeReturnedNull
+      - '@microsoft/sp-webpart-base.SPWebPartErrorCode.OnInitReturnedNullPromise'
+      - '@microsoft/sp-webpart-base.SPWebPartErrorCode.PropertyBagNull'
+      - '@microsoft/sp-webpart-base.SPWebPartErrorCode.ReadOnlyProperty'
+      - >-
+        @microsoft/sp-webpart-base.SPWebPartErrorCode.RenderCompletedCallNotCalled
+      - '@microsoft/sp-webpart-base.SPWebPartErrorCode.ScriptLoadError'
+      - '@microsoft/sp-webpart-base.SPWebPartErrorCode.SerializationFailed'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode.BaseConstructError'
+    name: BaseConstructError
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: >-
+      @microsoft/sp-webpart-base.SPWebPartErrorCode.FirstTimeRenderCalledMoreThanOnce
+    name: FirstTimeRenderCalledMoreThanOnce
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode.GetDataReturnedNullPromise'
+    name: GetDataReturnedNullPromise
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode.IncorrectBoostrapModule'
+    name: IncorrectBoostrapModule
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode.InvalidSPLinkAttributeFormat'
+    name: InvalidSPLinkAttributeFormat
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode.InvalidSPLinkIndex'
+    name: InvalidSPLinkIndex
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode.LoaderNotFound'
+    name: LoaderNotFound
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode.ManifestInvalid'
+    name: ManifestInvalid
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode.ManifestNull'
+    name: ManifestNull
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: >-
+      @microsoft/sp-webpart-base.SPWebPartErrorCode.MissingExpectedWebPartMemberError
+    name: MissingExpectedWebPartMemberError
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode.ModuleNotLoaded'
+    name: ModuleNotLoaded
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode.ModuleUndefined'
+    name: ModuleUndefined
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode.MustOverrideRender'
+    name: MustOverrideRender
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode.NonBaseWebPart'
+    name: NonBaseWebPart
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode.NotInitializedError'
+    name: NotInitializedError
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: >-
+      @microsoft/sp-webpart-base.SPWebPartErrorCode.OnAfterDeserializeReturnedNull
+    name: OnAfterDeserializeReturnedNull
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode.OnInitReturnedNullPromise'
+    name: OnInitReturnedNullPromise
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode.PropertyBagNull'
+    name: PropertyBagNull
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode.ReadOnlyProperty'
+    name: ReadOnlyProperty
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode.RenderCompletedCallNotCalled'
+    name: RenderCompletedCallNotCalled
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode.ScriptLoadError'
+    name: ScriptLoadError
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-webpart-base.SPWebPartErrorCode.SerializationFailed'
+    name: SerializationFailed
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

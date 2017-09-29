@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.QueryCamlQuery'
+    name: QueryCamlQuery
+    fullName: QueryCamlQuery
+    children:
+      - '@ms/sp-tenant-admin-page.QueryCamlQuery.generateCamlQueryString'
+      - '@ms/sp-tenant-admin-page.QueryCamlQuery.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      QueryCamlQuery is used to generate <Query></Query> caml composite in site
+      caml query.
+
+      It contains Filter, Group and Order composites.
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.QueryCamlQuery.generateCamlQueryString'
+    name: generateCamlQueryString
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function generateCamlQueryString()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.QueryCamlQuery.constructor'
+    name: QueryCamlQuery
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new QueryCamlQuery(condition: ISiteQueryConditions, extraOptions?:
+        ISiteCamlQueryExtraOptions)
+      parameters:
+        - id: condition
+          type:
+            - '@@ms/sp-tenant-admin-page.ISiteQueryConditions'
+          description: ''
+        - id: extraOptions
+          type:
+            - '@@ms/sp-tenant-admin-page.ISiteCamlQueryExtraOptions'
+          description: ''
+          optional: true

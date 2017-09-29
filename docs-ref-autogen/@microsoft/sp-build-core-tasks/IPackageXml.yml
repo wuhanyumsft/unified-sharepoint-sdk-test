@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IPackageXml'
+    name: IPackageXml
+    fullName: IPackageXml
+    children:
+      - '@microsoft/sp-build-core-tasks.IPackageXml.contentTypesXml'
+      - '@microsoft/sp-build-core-tasks.IPackageXml.customFiles'
+      - '@microsoft/sp-build-core-tasks.IPackageXml.features'
+      - '@microsoft/sp-build-core-tasks.IPackageXml.icon'
+      - '@microsoft/sp-build-core-tasks.IPackageXml.manifest'
+      - '@microsoft/sp-build-core-tasks.IPackageXml.relationships'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.IPackageXml.contentTypesXml'
+    name: contentTypesXml
+    fullName: contentTypesXml
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IXml contentTypesXml
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IXml'
+  - uid: '@microsoft/sp-build-core-tasks.IPackageXml.customFiles'
+    name: customFiles
+    fullName: customFiles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IXml[] customFiles'
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IXml[]'
+  - uid: '@microsoft/sp-build-core-tasks.IPackageXml.features'
+    name: features
+    fullName: features
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IFeatureXml[] features'
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IFeatureXml[]'
+  - uid: '@microsoft/sp-build-core-tasks.IPackageXml.icon'
+    name: icon
+    fullName: icon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IIcon icon
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IIcon'
+  - uid: '@microsoft/sp-build-core-tasks.IPackageXml.manifest'
+    name: manifest
+    fullName: manifest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IOpenDocumentConventionXml manifest
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IOpenDocumentConventionXml'
+  - uid: '@microsoft/sp-build-core-tasks.IPackageXml.relationships'
+    name: relationships
+    fullName: relationships
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IXml relationships
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IXml'

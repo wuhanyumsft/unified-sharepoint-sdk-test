@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.EventCard'
+    name: EventCard
+    fullName: EventCard
+    children:
+      - '@ms/sp-publishing-webparts.EventCard.componentDidMount'
+      - '@ms/sp-publishing-webparts.EventCard.formatDate'
+      - '@ms/sp-publishing-webparts.EventCard.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.EventCard<@@ms/sp-publishing-webparts.IEventCardProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.EventCard.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.EventCard.formatDate'
+    name: formatDate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatDate(date: Date)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-publishing-webparts.EventCard.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

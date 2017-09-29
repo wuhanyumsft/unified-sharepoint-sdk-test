@@ -1,0 +1,46 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.PrintBuildValidationUrlTask'
+    name: PrintBuildValidationUrlTask
+    fullName: PrintBuildValidationUrlTask
+    children:
+      - '@ms/sp-build-internal-tasks.PrintBuildValidationUrlTask.executeTask'
+      - '@ms/sp-build-internal-tasks.PrintBuildValidationUrlTask.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-build-internal-tasks.PrintBuildValidationUrlTask<@@ms/sp-build-internal-tasks.IPrintBuildValidationUrlTaskConfig>
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.PrintBuildValidationUrlTask.executeTask'
+    name: executeTask
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function executeTask(gulp: any, completeCallback: (error?: string) =>
+        void)
+      parameters:
+        - id: gulp
+          type:
+            - any
+          description: ''
+        - id: completeCallback
+          type:
+            - '(error?: string) => void'
+          description: ''
+  - uid: '@ms/sp-build-internal-tasks.PrintBuildValidationUrlTask.constructor'
+    name: PrintBuildValidationUrlTask
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new PrintBuildValidationUrlTask()
+      parameters: []

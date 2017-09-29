@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.NewsLayoutUtilities'
+    name: NewsLayoutUtilities
+    fullName: NewsLayoutUtilities
+    children:
+      - >-
+        @ms/sp-component-layouts.NewsLayoutUtilities.filterOutContributorActionCard
+      - '@ms/sp-component-layouts.NewsLayoutUtilities.invalidatePrefetchData'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-component-layouts'
+  - uid: >-
+      @ms/sp-component-layouts.NewsLayoutUtilities.filterOutContributorActionCard
+    name: filterOutContributorActionCard
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function filterOutContributorActionCard(items: INewsItem[])'
+      parameters:
+        - id: items
+          type:
+            - 'INewsItem[]'
+          description: ''
+  - uid: '@ms/sp-component-layouts.NewsLayoutUtilities.invalidatePrefetchData'
+    name: invalidatePrefetchData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function invalidatePrefetchData()
+      parameters: []

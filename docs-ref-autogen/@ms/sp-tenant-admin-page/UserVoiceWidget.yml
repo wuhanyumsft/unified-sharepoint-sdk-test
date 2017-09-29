@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidget'
+    name: UserVoiceWidget
+    fullName: UserVoiceWidget
+    children:
+      - '@ms/sp-tenant-admin-page.UserVoiceWidget.configuration'
+      - '@ms/sp-tenant-admin-page.UserVoiceWidget.renderIn'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidget.configuration'
+    name: configuration
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: exposes the widget configuration
+    syntax:
+      content: static function configuration()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration'
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidget.renderIn'
+    name: renderIn
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: present the control into the given Div
+    syntax:
+      content: >-
+        static function renderIn(parentDiv: HTMLDivElement, onSuccessCallback:
+        () => void, onFailureCallback: (T: string) => void)
+      parameters:
+        - id: parentDiv
+          type:
+            - HTMLDivElement
+          description: ''
+        - id: onSuccessCallback
+          type:
+            - () => void
+          description: ''
+        - id: onFailureCallback
+          type:
+            - '(T: string) => void'
+          description: ''

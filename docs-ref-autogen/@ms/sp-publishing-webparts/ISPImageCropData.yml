@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropData'
+    name: ISPImageCropData
+    fullName: ISPImageCropData
+    children:
+      - '@ms/sp-publishing-webparts.ISPImageCropData.fixAspectRatio'
+      - '@ms/sp-publishing-webparts.ISPImageCropData.height'
+      - '@ms/sp-publishing-webparts.ISPImageCropData.width'
+      - '@ms/sp-publishing-webparts.ISPImageCropData.x'
+      - '@ms/sp-publishing-webparts.ISPImageCropData.y'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropData.fixAspectRatio'
+    name: fixAspectRatio
+    fullName: fixAspectRatio
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: whether the aspectRatio of the cropped area is fixed
+    syntax:
+      content: boolean fixAspectRatio
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropData.height'
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: the height of the cropped area
+    syntax:
+      content: number height
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropData.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: the width of the cropped area
+    syntax:
+      content: number width
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropData.x'
+    name: x
+    fullName: x
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: the offset left of the cropped area
+    syntax:
+      content: number x
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropData.y'
+    name: 'y'
+    fullName: 'y'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: the offset top of the cropped area
+    syntax:
+      content: number y
+      return:
+        type:
+          - number

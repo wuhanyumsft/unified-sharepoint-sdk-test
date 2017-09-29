@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/test-extensions.LogoutApplicationCustomizer'
+    name: LogoutApplicationCustomizer
+    fullName: LogoutApplicationCustomizer
+    children:
+      - '@ms/test-extensions.LogoutApplicationCustomizer.onInit'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      PowerShell sample for registering this custom action:
+
+      # Registering an application customizer:
+
+      Add-PSSnapin *sharepoint*
+
+      $web = Get-SPWeb http://example.com/sites/PubSite
+
+      $action = $web.UserCustomActions.Add()
+
+      $action.Title = 'Sample ApplicationCustomizer extension';
+
+      $action.Location = 'ClientSide.Application'
+
+      $action.ClientSideComponentId =
+      [guid]'359af2a7-b73c-4aac-874c-60a865da0be7'
+
+      $action.ClientSideComponentProperties = '{ "testMessage": "Hello, world!"
+      }'
+
+      $action.Sequence = 100
+
+      $action.Update()
+    extends:
+      name: >-
+        @@ms/test-extensions.LogoutApplicationCustomizer<@@ms/test-extensions.ILogoutApplicationCustomizerProperties>
+    package: '@ms/test-extensions'
+  - uid: '@ms/test-extensions.LogoutApplicationCustomizer.onInit'
+    name: onInit
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function onInit()
+      parameters: []
+      return:
+        type:
+          - Promise<void>

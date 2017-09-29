@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.SyncStatus'
+    name: SyncStatus
+    fullName: SyncStatus
+    children:
+      - '@ms/sp-publishing-webparts.SyncStatus.Ready'
+      - '@ms/sp-publishing-webparts.SyncStatus.Synced'
+      - '@ms/sp-publishing-webparts.SyncStatus.Syncing'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.SyncStatus.Ready'
+    name: Ready
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-publishing-webparts.SyncStatus.Synced'
+    name: Synced
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-publishing-webparts.SyncStatus.Syncing'
+    name: Syncing
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

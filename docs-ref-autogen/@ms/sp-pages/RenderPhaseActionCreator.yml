@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.RenderPhaseActionCreator'
+    name: RenderPhaseActionCreator
+    fullName: RenderPhaseActionCreator
+    children:
+      - '@ms/sp-pages.RenderPhaseActionCreator.startDeferredComponents'
+    langs:
+      - typeScript
+    type: class
+    summary: Contains all actions related to update page rendering phases
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.RenderPhaseActionCreator.startDeferredComponents'
+    name: startDeferredComponents
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Start to render deferred components
+    syntax:
+      content: static function startDeferredComponents()
+      parameters: []

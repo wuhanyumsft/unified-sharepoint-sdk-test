@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.ILightBoxProps'
+    name: ILightBoxProps
+    fullName: ILightBoxProps<T>
+    children:
+      - '@ms/sp-webpart-shared.ILightBoxProps.elementToFocusOnDismiss'
+      - '@ms/sp-webpart-shared.ILightBoxProps.isShown'
+      - '@ms/sp-webpart-shared.ILightBoxProps.items'
+      - '@ms/sp-webpart-shared.ILightBoxProps.onClose'
+      - '@ms/sp-webpart-shared.ILightBoxProps.onRenderItem'
+      - '@ms/sp-webpart-shared.ILightBoxProps.startIndex'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.ILightBoxProps.elementToFocusOnDismiss'
+    name: elementToFocusOnDismiss
+    fullName: elementToFocusOnDismiss
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement elementToFocusOnDismiss
+      return:
+        type:
+          - HTMLElement
+  - uid: '@ms/sp-webpart-shared.ILightBoxProps.isShown'
+    name: isShown
+    fullName: isShown
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isShown
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-webpart-shared.ILightBoxProps.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'T[] items'
+      return:
+        type:
+          - 'T[]'
+  - uid: '@ms/sp-webpart-shared.ILightBoxProps.onClose'
+    name: onClose
+    fullName: onClose
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onClose
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-webpart-shared.ILightBoxProps.onRenderItem'
+    name: onRenderItem
+    fullName: onRenderItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(item: T, index: number) => Element onRenderItem'
+      return:
+        type:
+          - '(item: T, index: number) => Element'
+  - uid: '@ms/sp-webpart-shared.ILightBoxProps.startIndex'
+    name: startIndex
+    fullName: startIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number startIndex
+      return:
+        type:
+          - number

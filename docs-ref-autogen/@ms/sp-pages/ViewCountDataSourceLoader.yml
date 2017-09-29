@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ViewCountDataSourceLoader'
+    name: ViewCountDataSourceLoader
+    fullName: ViewCountDataSourceLoader
+    children:
+      - '@ms/sp-pages.ViewCountDataSourceLoader.load'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ViewCountDataSourceLoader.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function load(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+      return:
+        type:
+          - Promise<IViewCountDataSource>

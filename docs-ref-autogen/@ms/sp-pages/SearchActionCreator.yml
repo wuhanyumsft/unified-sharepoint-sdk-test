@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.SearchActionCreator'
+    name: SearchActionCreator
+    fullName: SearchActionCreator
+    children:
+      - '@ms/sp-pages.SearchActionCreator.searchTextChange'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SearchActionCreator.searchTextChange'
+    name: searchTextChange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function searchTextChange(update: ISearchTextChanged)'
+      parameters:
+        - id: update
+          type:
+            - '@@ms/sp-pages.ISearchTextChanged'
+          description: ''

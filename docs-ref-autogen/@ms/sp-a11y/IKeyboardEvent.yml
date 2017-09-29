@@ -1,0 +1,108 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-a11y.IKeyboardEvent'
+    name: IKeyboardEvent
+    fullName: IKeyboardEvent
+    children:
+      - '@ms/sp-a11y.IKeyboardEvent.altKey'
+      - '@ms/sp-a11y.IKeyboardEvent.ctrlKey'
+      - '@ms/sp-a11y.IKeyboardEvent.keyCode'
+      - '@ms/sp-a11y.IKeyboardEvent.preventDefault'
+      - '@ms/sp-a11y.IKeyboardEvent.shiftKey'
+      - '@ms/sp-a11y.IKeyboardEvent.stopPropagation'
+      - '@ms/sp-a11y.IKeyboardEvent.target'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      This interface is defined to have the minimum required properties of
+      JavaScript's KeyboardEvent
+
+      It also gives us the benefit of having a single interface that matches
+      both KeyboardEvent and React.KeybaordEvent
+    package: '@ms/sp-a11y'
+  - uid: '@ms/sp-a11y.IKeyboardEvent.altKey'
+    name: altKey
+    fullName: altKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean altKey
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-a11y.IKeyboardEvent.ctrlKey'
+    name: ctrlKey
+    fullName: ctrlKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean ctrlKey
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-a11y.IKeyboardEvent.keyCode'
+    name: keyCode
+    fullName: keyCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number keyCode
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-a11y.IKeyboardEvent.preventDefault'
+    name: preventDefault
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function preventDefault()
+      parameters: []
+  - uid: '@ms/sp-a11y.IKeyboardEvent.shiftKey'
+    name: shiftKey
+    fullName: shiftKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean shiftKey
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-a11y.IKeyboardEvent.stopPropagation'
+    name: stopPropagation
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function stopPropagation()
+      parameters: []
+  - uid: '@ms/sp-a11y.IKeyboardEvent.target'
+    name: target
+    fullName: target
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: EventTarget target
+      return:
+        type:
+          - EventTarget

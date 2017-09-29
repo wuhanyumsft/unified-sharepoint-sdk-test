@@ -1,0 +1,170 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.IShell'
+    name: IShell
+    fullName: IShell
+    children:
+      - '@microsoft/sp-application-base.IShell.applicationCustomizerLoader'
+      - '@microsoft/sp-application-base.IShell.environment'
+      - '@microsoft/sp-application-base.IShell.httpClient'
+      - '@microsoft/sp-application-base.IShell.manifestPreloads'
+      - '@microsoft/sp-application-base.IShell.pageContext'
+      - '@microsoft/sp-application-base.IShell.pageManager'
+      - '@microsoft/sp-application-base.IShell.serviceScope'
+      - '@microsoft/sp-application-base.IShell.spHttpClient'
+      - '@microsoft/sp-application-base.IShell.suiteNavManager'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      The system shell manages the initial loading of the scripts for a
+      client-side application,
+
+      as well as constructin the BaseApplication object, and initializing key
+      services such
+
+      as the page chrome, page context, HTTP client, etc.
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.IShell.applicationCustomizerLoader'
+    name: applicationCustomizerLoader
+    fullName: applicationCustomizerLoader
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The application customizer loader handles initializing and rendering
+      application customizers.
+    syntax:
+      content: ApplicationCustomizerLoader applicationCustomizerLoader
+      return:
+        type:
+          - ApplicationCustomizerLoader
+  - uid: '@microsoft/sp-application-base.IShell.environment'
+    name: environment
+    fullName: environment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Describes the type of environment that the framework is being hosted on.
+    syntax:
+      content: Environment environment
+      return:
+        type:
+          - Environment
+  - uid: '@microsoft/sp-application-base.IShell.httpClient'
+    name: httpClient
+    fullName: httpClient
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      BasicHttpClient is used to perform REST calls with general internet
+      services.
+
+      For communicating with SharePoint services, use HttpClient instead.
+    syntax:
+      content: HttpClient httpClient
+      return:
+        type:
+          - HttpClient
+  - uid: '@microsoft/sp-application-base.IShell.manifestPreloads'
+    name: manifestPreloads
+    fullName: manifestPreloads
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This object contains data that was requested by the application's
+      manifest.
+
+      The preloaded data's properties could be undefined.
+    syntax:
+      content: IPreloadedData manifestPreloads
+      return:
+        type:
+          - IPreloadedData
+  - uid: '@microsoft/sp-application-base.IShell.pageContext'
+    name: pageContext
+    fullName: pageContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns the current page context object for webparts.
+    syntax:
+      content: PageContext pageContext
+      return:
+        type:
+          - PageContext
+  - uid: '@microsoft/sp-application-base.IShell.pageManager'
+    name: pageManager
+    fullName: pageManager
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: This class is used for interacting with the current page.
+    syntax:
+      content: PageManager pageManager
+      return:
+        type:
+          - PageManager
+  - uid: '@microsoft/sp-application-base.IShell.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The current ServiceScope.
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope
+  - uid: '@microsoft/sp-application-base.IShell.spHttpClient'
+    name: spHttpClient
+    fullName: spHttpClient
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      HttpClient is used to perform REST calls with SharePoint services.
+
+      It implements special enhancements such as configuring default headers,
+      adding
+
+      an "X-RequestDigest" header for write operations, and collecting telemetry
+
+      to help the service monitor the performance and reliability of the
+      application.
+
+      For communicating with non-SharePoint services, use BasicHttpClient
+      instead.
+    syntax:
+      content: SPHttpClient spHttpClient
+      return:
+        type:
+          - SPHttpClient
+  - uid: '@microsoft/sp-application-base.IShell.suiteNavManager'
+    name: suiteNavManager
+    fullName: suiteNavManager
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      This object allows the application to manage the suite navigation of
+      the standard page chrome.  For more information about Suite Navigation,
+      see this article:
+      https://msdn.microsoft.com/en-us/library/office/dn614990.aspx
+    syntax:
+      content: ISuiteNavManager suiteNavManager
+      return:
+        type:
+          - '@@microsoft/sp-application-base.ISuiteNavManager'

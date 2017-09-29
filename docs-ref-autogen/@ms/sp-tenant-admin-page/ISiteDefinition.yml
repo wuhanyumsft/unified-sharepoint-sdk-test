@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISiteDefinition'
+    name: ISiteDefinition
+    fullName: ISiteDefinition
+    children:
+      - '@ms/sp-tenant-admin-page.ISiteDefinition.pages'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ISiteDefinition.pages'
+    name: pages
+    fullName: pages
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Pages in the site.
+      The navigation will follow the order here.
+    syntax:
+      content: 'IPageDefinition[] pages'
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IPageDefinition[]'

@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IUnexpectedFailureExtraData'
+    name: IUnexpectedFailureExtraData
+    fullName: IUnexpectedFailureExtraData
+    children:
+      - '@microsoft/sp-webpart-base.IUnexpectedFailureExtraData.instanceId'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Describes the extra data parameter for QosMonitor.writeUnexpectedFailure
+      function.
+    extends:
+      name: '@@microsoft/sp-webpart-base.ISuccessExtraData'
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IUnexpectedFailureExtraData.instanceId'
+    name: instanceId
+    fullName: instanceId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string instanceId
+      return:
+        type:
+          - string

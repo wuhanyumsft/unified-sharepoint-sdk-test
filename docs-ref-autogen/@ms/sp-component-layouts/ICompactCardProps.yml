@@ -1,0 +1,172 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.ICompactCardProps'
+    name: ICompactCardProps
+    fullName: ICompactCardProps
+    children:
+      - '@ms/sp-component-layouts.ICompactCardProps.ariaLabel'
+      - '@ms/sp-component-layouts.ICompactCardProps.isEdit'
+      - '@ms/sp-component-layouts.ICompactCardProps.isFocused'
+      - '@ms/sp-component-layouts.ICompactCardProps.isMobileView'
+      - '@ms/sp-component-layouts.ICompactCardProps.item'
+      - '@ms/sp-component-layouts.ICompactCardProps.onClick'
+      - '@ms/sp-component-layouts.ICompactCardProps.onDelete'
+      - '@ms/sp-component-layouts.ICompactCardProps.onEdit'
+      - '@ms/sp-component-layouts.ICompactCardProps.onKeyDown'
+      - '@ms/sp-component-layouts.ICompactCardProps.shouldDisplayImage'
+      - '@ms/sp-component-layouts.ICompactCardProps.textIndicator'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-component-layouts'
+  - uid: '@ms/sp-component-layouts.ICompactCardProps.ariaLabel'
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: string value of compact card item aria-label attribute.
+    syntax:
+      content: string ariaLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-layouts.ICompactCardProps.isEdit'
+    name: isEdit
+    fullName: isEdit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether it is in edit mode.
+    syntax:
+      content: boolean isEdit
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-layouts.ICompactCardProps.isFocused'
+    name: isFocused
+    fullName: isFocused
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether it is focused.
+    syntax:
+      content: boolean isFocused
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-layouts.ICompactCardProps.isMobileView'
+    name: isMobileView
+    fullName: isMobileView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Indicates the current layout of the compact cards. There might be some
+      differences on key strokes
+
+      such as in mobile view the layout is vertically displayed so it uses
+      up/down key for navigation in layout.
+
+      The key stroke in each card should also change correspondingly.
+    syntax:
+      content: boolean isMobileView
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-layouts.ICompactCardProps.item'
+    name: item
+    fullName: item
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Content information of an item.
+    syntax:
+      content: ICompactCardItem item
+      return:
+        type:
+          - '@@ms/sp-component-layouts.ICompactCardItem'
+  - uid: '@ms/sp-component-layouts.ICompactCardProps.onClick'
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback when item is clicked.
+    syntax:
+      content: '(event: SyntheticEvent<HTMLElement>) => void onClick'
+      return:
+        type:
+          - '(event: SyntheticEvent<HTMLElement>) => void'
+  - uid: '@ms/sp-component-layouts.ICompactCardProps.onDelete'
+    name: onDelete
+    fullName: onDelete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback when delete button is clicked.
+    syntax:
+      content: '(event: SyntheticEvent<HTMLElement>) => void onDelete'
+      return:
+        type:
+          - '(event: SyntheticEvent<HTMLElement>) => void'
+  - uid: '@ms/sp-component-layouts.ICompactCardProps.onEdit'
+    name: onEdit
+    fullName: onEdit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback when edit button is clicked.
+    syntax:
+      content: '(event: SyntheticEvent<HTMLElement>) => void onEdit'
+      return:
+        type:
+          - '(event: SyntheticEvent<HTMLElement>) => void'
+  - uid: '@ms/sp-component-layouts.ICompactCardProps.onKeyDown'
+    name: onKeyDown
+    fullName: onKeyDown
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The callback triggered when keyboard event is fired on the card.
+    syntax:
+      content: '(event: SyntheticEvent<HTMLElement>) => void onKeyDown'
+      return:
+        type:
+          - '(event: SyntheticEvent<HTMLElement>) => void'
+  - uid: '@ms/sp-component-layouts.ICompactCardProps.shouldDisplayImage'
+    name: shouldDisplayImage
+    fullName: shouldDisplayImage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether it should display image in the card.
+    syntax:
+      content: boolean shouldDisplayImage
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-layouts.ICompactCardProps.textIndicator'
+    name: textIndicator
+    fullName: textIndicator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicator of whether to treat text as an updated text.
+    syntax:
+      content: number textIndicator
+      return:
+        type:
+          - number

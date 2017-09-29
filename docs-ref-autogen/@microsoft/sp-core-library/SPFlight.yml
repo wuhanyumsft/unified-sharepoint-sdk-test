@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.SPFlight'
+    name: SPFlight
+    fullName: SPFlight
+    children:
+      - '@microsoft/sp-core-library.SPFlight.initialize'
+      - '@microsoft/sp-core-library.SPFlight.isEnabled'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      NOT FOR USE BY THIRD PARTY DEVELOPERS
+
+      This class supports Microsoft's internal deployment workflow.
+
+      For more information, see
+      https://microsoft.sharepoint.com/teams/odsp/_layouts/OneNote.aspx
+
+      ?id=/teams/odsp/Shared%20Documents/MI-6%20Team/MI-6%20Team/Global/SPO%20Flighting
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.SPFlight.initialize'
+    name: initialize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      RESERVED FOR INTERNAL USAGE.  This method is invoked automatically by the
+      system shell.
+
+      The application code should not call it directly.
+    syntax:
+      content: 'static function initialize(flights: number[], debugFlights?: string)'
+      parameters:
+        - id: flights
+          type:
+            - 'number[]'
+          description: ''
+        - id: debugFlights
+          type:
+            - string
+          description: ''
+          optional: true
+  - uid: '@microsoft/sp-core-library.SPFlight.isEnabled'
+    name: isEnabled
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      NOT FOR USE BY THIRD PARTY DEVELOPERS
+      This function will determine if a flight is enabled in the global list.
+    syntax:
+      content: 'static function isEnabled(flight: number)'
+      parameters:
+        - id: flight
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - boolean

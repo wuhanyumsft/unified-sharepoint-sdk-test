@@ -1,0 +1,83 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.HeroPattern'
+    name: HeroPattern
+    fullName: HeroPattern
+    children:
+      - '@ms/sp-component-layouts.HeroPattern.componentDidMount'
+      - '@ms/sp-component-layouts.HeroPattern.componentDidUpdate'
+      - '@ms/sp-component-layouts.HeroPattern.componentWillUnmount'
+      - '@ms/sp-component-layouts.HeroPattern.render'
+      - '@ms/sp-component-layouts.HeroPattern.shouldComponentUpdate'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-component-layouts.HeroPattern<@@ms/sp-component-layouts.IHeroPatternProps>
+    package: '@ms/sp-component-layouts'
+  - uid: '@ms/sp-component-layouts.HeroPattern.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-component-layouts.HeroPattern.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentDidUpdate(prevProps: IHeroPatternProps)'
+      parameters:
+        - id: prevProps
+          type:
+            - '@@ms/sp-component-layouts.IHeroPatternProps'
+          description: ''
+  - uid: '@ms/sp-component-layouts.HeroPattern.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-component-layouts.HeroPattern.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-component-layouts.HeroPattern.shouldComponentUpdate'
+    name: shouldComponentUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function shouldComponentUpdate(nextProps: IHeroPatternProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-component-layouts.IHeroPatternProps'
+          description: ''
+      return:
+        type:
+          - boolean

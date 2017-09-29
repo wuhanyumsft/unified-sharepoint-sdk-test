@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-embed-webparts.ResultValidatedCode'
+    name: ResultValidatedCode
+    fullName: ResultValidatedCode
+    children:
+      - '@ms/sp-embed-webparts.ResultValidatedCode.accessListCheckFailed'
+      - '@ms/sp-embed-webparts.ResultValidatedCode.failedGetHtmlCode'
+      - '@ms/sp-embed-webparts.ResultValidatedCode.notAllowEmbedHttps'
+      - '@ms/sp-embed-webparts.ResultValidatedCode.success'
+      - '@ms/sp-embed-webparts.ResultValidatedCode.unSupportedProvider'
+      - '@ms/sp-embed-webparts.ResultValidatedCode.validatedFailed'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-embed-webparts'
+  - uid: '@ms/sp-embed-webparts.ResultValidatedCode.accessListCheckFailed'
+    name: accessListCheckFailed
+    children: []
+    langs:
+      - typeScript
+    summary: 'Validated failed: site collection access site list check failed.'
+    type: field
+  - uid: '@ms/sp-embed-webparts.ResultValidatedCode.failedGetHtmlCode'
+    name: failedGetHtmlCode
+    children: []
+    langs:
+      - typeScript
+    summary: 'Validated failed: failed to html from the provider.'
+    type: field
+  - uid: '@ms/sp-embed-webparts.ResultValidatedCode.notAllowEmbedHttps'
+    name: notAllowEmbedHttps
+    children: []
+    langs:
+      - typeScript
+    summary: 'Validated failed: Third party site doesn''t allow user embed the site.'
+    type: field
+  - uid: '@ms/sp-embed-webparts.ResultValidatedCode.success'
+    name: success
+    children: []
+    langs:
+      - typeScript
+    summary: Validated success.
+    type: field
+  - uid: '@ms/sp-embed-webparts.ResultValidatedCode.unSupportedProvider'
+    name: unSupportedProvider
+    children: []
+    langs:
+      - typeScript
+    summary: 'Validated failed: no corresponding provider can match the url.'
+    type: field
+  - uid: '@ms/sp-embed-webparts.ResultValidatedCode.validatedFailed'
+    name: validatedFailed
+    children: []
+    langs:
+      - typeScript
+    summary: 'Validated failed: normally general error came to this error code.'
+    type: field

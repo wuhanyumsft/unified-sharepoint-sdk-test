@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PerformancePageUtil'
+    name: PerformancePageUtil
+    fullName: PerformancePageUtil
+    children:
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.PerformancePageUtil.AddtaskLoadSitePageForPerfTest
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.PerformancePageUtil.AddtaskPageLoadPerformanceReport
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: >-
+      @ms/sp-tab-tasklib.SPTaskLib.PerformancePageUtil.AddtaskLoadSitePageForPerfTest
+    name: AddtaskLoadSitePageForPerfTest
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      API to compare given page performance for current change with last known
+      state of master.
+
+      Caller is responsible for creation of the page under test.
+    syntax:
+      content: >-
+        static function AddtaskLoadSitePageForPerfTest(pageRelativeUrl: string,
+        noOfHits: number)
+      parameters:
+        - id: pageRelativeUrl
+          type:
+            - string
+          description: ''
+        - id: noOfHits
+          type:
+            - number
+          description: |
+            Number of times page will be loaded before compare result.
+  - uid: >-
+      @ms/sp-tab-tasklib.SPTaskLib.PerformancePageUtil.AddtaskPageLoadPerformanceReport
+    name: AddtaskPageLoadPerformanceReport
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      API to load a page for performance summary. Caller is responsible for
+      creation of the page.
+    syntax:
+      content: >-
+        static function AddtaskPageLoadPerformanceReport(pageRelativeUrl:
+        string, noOfHits: number)
+      parameters:
+        - id: pageRelativeUrl
+          type:
+            - string
+          description: >-
+            Relative Url of the page under test. e.g.
+            /performance/BlankPage.aspx
+        - id: noOfHits
+          type:
+            - number
+          description: |+
+

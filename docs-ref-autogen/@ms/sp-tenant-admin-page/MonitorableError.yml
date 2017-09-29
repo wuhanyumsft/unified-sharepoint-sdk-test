@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.MonitorableError'
+    name: MonitorableError
+    fullName: MonitorableError
+    children:
+      - '@ms/sp-tenant-admin-page.MonitorableError.Error'
+      - '@ms/sp-tenant-admin-page.MonitorableError.constructor'
+      - '@ms/sp-tenant-admin-page.MonitorableError.type'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: Error
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.MonitorableError.Error'
+    name: Error
+    fullName: Error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ErrorConstructor Error
+      return:
+        type:
+          - ErrorConstructor
+  - uid: '@ms/sp-tenant-admin-page.MonitorableError.constructor'
+    name: MonitorableError
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new MonitorableError(tagName?: string, innerError?: Error, extraData?:
+        IMonitorableErrorExtraData)
+      parameters:
+        - id: tagName
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: innerError
+          type:
+            - Error
+          description: ''
+          optional: true
+        - id: extraData
+          type:
+            - IMonitorableErrorExtraData
+          description: ''
+          optional: true
+  - uid: '@ms/sp-tenant-admin-page.MonitorableError.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: MonitorableErrorType type
+      return:
+        type:
+          - MonitorableErrorType

@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.IFilePickerTabsProps'
+    name: IFilePickerTabsProps
+    fullName: IFilePickerTabsProps
+    children:
+      - '@ms/sp-filepicker.IFilePickerTabsProps.currentInstanceId'
+      - '@ms/sp-filepicker.IFilePickerTabsProps.disableLocalUpload'
+      - '@ms/sp-filepicker.IFilePickerTabsProps.disableWebSearch'
+      - '@ms/sp-filepicker.IFilePickerTabsProps.mySiteUrl'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.IFilePickerTabsProps.currentInstanceId'
+    name: currentInstanceId
+    fullName: currentInstanceId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string currentInstanceId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.IFilePickerTabsProps.disableLocalUpload'
+    name: disableLocalUpload
+    fullName: disableLocalUpload
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean disableLocalUpload
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-filepicker.IFilePickerTabsProps.disableWebSearch'
+    name: disableWebSearch
+    fullName: disableWebSearch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean disableWebSearch
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-filepicker.IFilePickerTabsProps.mySiteUrl'
+    name: mySiteUrl
+    fullName: mySiteUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string mySiteUrl
+      return:
+        type:
+          - string

@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-client-preview.IDataInnerError'
+    name: IDataInnerError
+    fullName: IDataInnerError
+    children:
+      - '@microsoft/sp-client-preview.IDataInnerError.internalexception'
+      - '@microsoft/sp-client-preview.IDataInnerError.message'
+      - '@microsoft/sp-client-preview.IDataInnerError.stacktrace'
+      - '@microsoft/sp-client-preview.IDataInnerError.type'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-client-preview'
+  - uid: '@microsoft/sp-client-preview.IDataInnerError.internalexception'
+    name: internalexception
+    fullName: internalexception
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IDataInnerError internalexception
+      return:
+        type:
+          - '@@microsoft/sp-client-preview.IDataInnerError'
+  - uid: '@microsoft/sp-client-preview.IDataInnerError.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string message
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-client-preview.IDataInnerError.stacktrace'
+    name: stacktrace
+    fullName: stacktrace
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string stacktrace
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-client-preview.IDataInnerError.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string type
+      return:
+        type:
+          - string

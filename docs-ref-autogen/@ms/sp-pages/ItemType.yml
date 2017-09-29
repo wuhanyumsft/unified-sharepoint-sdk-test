@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ItemType'
+    name: ItemType
+    fullName: ItemType
+    children:
+      - '@ms/sp-pages.ItemType.standardItem'
+      - '@ms/sp-pages.ItemType.stagesDataItem'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ItemType.standardItem'
+    name: standardItem
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+  - uid: '@ms/sp-pages.ItemType.stagesDataItem'
+    name: stagesDataItem
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1

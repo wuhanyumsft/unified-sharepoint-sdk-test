@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IChangeTheLookPanelRendererProps'
+    name: IChangeTheLookPanelRendererProps
+    fullName: IChangeTheLookPanelRendererProps
+    children:
+      - '@ms/sp-pages.IChangeTheLookPanelRendererProps.context'
+      - '@ms/sp-pages.IChangeTheLookPanelRendererProps.onDismiss'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IChangeTheLookPanelRendererProps.context'
+    name: context
+    fullName: context
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISpPageContext context
+      return:
+        type:
+          - ISpPageContext
+  - uid: '@ms/sp-pages.IChangeTheLookPanelRendererProps.onDismiss'
+    name: onDismiss
+    fullName: onDismiss
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onDismiss
+      return:
+        type:
+          - () => void

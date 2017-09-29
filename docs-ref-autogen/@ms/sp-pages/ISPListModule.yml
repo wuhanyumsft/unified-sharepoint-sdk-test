@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ISPListModule'
+    name: ISPListModule
+    fullName: ISPListModule
+    children:
+      - '@ms/sp-pages.ISPListModule.SPListBoot'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ISPListModule.SPListBoot'
+    name: SPListBoot
+    fullName: SPListBoot
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void SPListBoot
+      return:
+        type:
+          - () => void

@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.ToolboxSmall'
+    name: ToolboxSmall
+    fullName: ToolboxSmall
+    children:
+      - '@ms/sp-canvas-toolbox.ToolboxSmall.componentDidMount'
+      - '@ms/sp-canvas-toolbox.ToolboxSmall.render'
+      - '@ms/sp-canvas-toolbox.ToolboxSmall.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-canvas-toolbox.ToolboxSmall<@@ms/sp-canvas-toolbox.IToolboxSmallProps>
+    package: '@ms/sp-canvas-toolbox'
+  - uid: '@ms/sp-canvas-toolbox.ToolboxSmall.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-canvas-toolbox.ToolboxSmall.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@ms/sp-canvas-toolbox.IToolboxSmallProps>
+  - uid: '@ms/sp-canvas-toolbox.ToolboxSmall.constructor'
+    name: ToolboxSmall
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ToolboxSmall(props: IToolboxSmallProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-canvas-toolbox.IToolboxSmallProps'
+          description: ''

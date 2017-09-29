@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISPServiceHealthDetailListProps'
+    name: ISPServiceHealthDetailListProps
+    fullName: ISPServiceHealthDetailListProps
+    children:
+      - '@ms/sp-tenant-admin-page.ISPServiceHealthDetailListProps.dataProvider'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ISPServiceHealthDetailListProps.dataProvider'
+    name: dataProvider
+    fullName: dataProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The data provider used to provide a list of service health items
+      which will be shown in the Details List.
+    syntax:
+      content: IServiceHealthDataProvider dataProvider
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IServiceHealthDataProvider'

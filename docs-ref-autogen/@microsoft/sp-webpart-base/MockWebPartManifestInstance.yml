@@ -1,0 +1,153 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManifestInstance'
+    name: MockWebPartManifestInstance
+    fullName: MockWebPartManifestInstance
+    children:
+      - '@microsoft/sp-webpart-base.MockWebPartManifestInstance.alias'
+      - '@microsoft/sp-webpart-base.MockWebPartManifestInstance.componentType'
+      - '@microsoft/sp-webpart-base.MockWebPartManifestInstance.groupId'
+      - '@microsoft/sp-webpart-base.MockWebPartManifestInstance.iconImageUrl'
+      - '@microsoft/sp-webpart-base.MockWebPartManifestInstance.id'
+      - '@microsoft/sp-webpart-base.MockWebPartManifestInstance.loaderConfig'
+      - '@microsoft/sp-webpart-base.MockWebPartManifestInstance.manifestVersion'
+      - >-
+        @microsoft/sp-webpart-base.MockWebPartManifestInstance.officeFabricIconFontName
+      - '@microsoft/sp-webpart-base.MockWebPartManifestInstance.properties'
+      - '@microsoft/sp-webpart-base.MockWebPartManifestInstance.version'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManifestInstance.alias'
+    name: alias
+    fullName: alias
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string alias
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManifestInstance.componentType'
+    name: componentType
+    fullName: componentType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function componentType
+      return:
+        type:
+          - function
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManifestInstance.groupId'
+    name: groupId
+    fullName: groupId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string groupId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManifestInstance.iconImageUrl'
+    name: iconImageUrl
+    fullName: iconImageUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string iconImageUrl
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManifestInstance.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManifestInstance.loaderConfig'
+    name: loaderConfig
+    fullName: loaderConfig
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IClientSideComponentLoaderConfiguration loaderConfig
+      return:
+        type:
+          - IClientSideComponentLoaderConfiguration
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManifestInstance.manifestVersion'
+    name: manifestVersion
+    fullName: manifestVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number manifestVersion
+      return:
+        type:
+          - number
+  - uid: >-
+      @microsoft/sp-webpart-base.MockWebPartManifestInstance.officeFabricIconFontName
+    name: officeFabricIconFontName
+    fullName: officeFabricIconFontName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string officeFabricIconFontName
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManifestInstance.properties'
+    name: properties
+    fullName: properties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: __type properties
+      return:
+        type:
+          - __type
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManifestInstance.version'
+    name: version
+    fullName: version
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string version
+      return:
+        type:
+          - string

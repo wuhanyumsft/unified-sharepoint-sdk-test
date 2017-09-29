@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/test-extensions-application.IReactCellProps'
+    name: IReactCellProps
+    fullName: IReactCellProps
+    children:
+      - '@ms/test-extensions-application.IReactCellProps.columnStore'
+      - '@ms/test-extensions-application.IReactCellProps.rowStore'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/test-extensions-application'
+  - uid: '@ms/test-extensions-application.IReactCellProps.columnStore'
+    name: columnStore
+    fullName: columnStore
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ColumnStore columnStore
+      return:
+        type:
+          - '@@ms/test-extensions-application.ColumnStore'
+  - uid: '@ms/test-extensions-application.IReactCellProps.rowStore'
+    name: rowStore
+    fullName: rowStore
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: RowStore rowStore
+      return:
+        type:
+          - '@@ms/test-extensions-application.RowStore'

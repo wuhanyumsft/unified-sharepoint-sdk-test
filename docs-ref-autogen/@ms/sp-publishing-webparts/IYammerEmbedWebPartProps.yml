@@ -1,0 +1,86 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IYammerEmbedWebPartProps'
+    name: IYammerEmbedWebPartProps
+    fullName: IYammerEmbedWebPartProps
+    children:
+      - >-
+        @ms/sp-publishing-webparts.IYammerEmbedWebPartProps.openPropertyPaneCallback
+      - >-
+        @ms/sp-publishing-webparts.IYammerEmbedWebPartProps.shouldReloadYammerFeed
+      - '@ms/sp-publishing-webparts.IYammerEmbedWebPartProps.title'
+      - >-
+        @ms/sp-publishing-webparts.IYammerEmbedWebPartProps.yammerEmbedContainerHeight
+      - '@ms/sp-publishing-webparts.IYammerEmbedWebPartProps.yammerFeedURL'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: >-
+      @ms/sp-publishing-webparts.IYammerEmbedWebPartProps.openPropertyPaneCallback
+    name: openPropertyPaneCallback
+    fullName: openPropertyPaneCallback
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void openPropertyPaneCallback
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-publishing-webparts.IYammerEmbedWebPartProps.shouldReloadYammerFeed'
+    name: shouldReloadYammerFeed
+    fullName: shouldReloadYammerFeed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean shouldReloadYammerFeed
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IYammerEmbedWebPartProps.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+  - uid: >-
+      @ms/sp-publishing-webparts.IYammerEmbedWebPartProps.yammerEmbedContainerHeight
+    name: yammerEmbedContainerHeight
+    fullName: yammerEmbedContainerHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number yammerEmbedContainerHeight
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IYammerEmbedWebPartProps.yammerFeedURL'
+    name: yammerFeedURL
+    fullName: yammerFeedURL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string yammerFeedURL
+      return:
+        type:
+          - string

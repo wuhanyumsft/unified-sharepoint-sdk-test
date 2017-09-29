@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.VisioQueryParameters'
+    name: VisioQueryParameters
+    fullName: VisioQueryParameters
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: Visio specific query params apart from the common parameters.
+    package: '@ms/sp-publishing-webparts'

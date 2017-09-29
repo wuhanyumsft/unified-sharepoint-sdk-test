@@ -1,0 +1,277 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps'
+    name: IImageWebPartProps
+    fullName: IImageWebPartProps
+    children:
+      - '@ms/sp-publishing-webparts.IImageWebPartProps.altText'
+      - '@ms/sp-publishing-webparts.IImageWebPartProps.captionText'
+      - '@ms/sp-publishing-webparts.IImageWebPartProps.cropHeight'
+      - '@ms/sp-publishing-webparts.IImageWebPartProps.cropWidth'
+      - '@ms/sp-publishing-webparts.IImageWebPartProps.cropX'
+      - '@ms/sp-publishing-webparts.IImageWebPartProps.cropY'
+      - '@ms/sp-publishing-webparts.IImageWebPartProps.fileName'
+      - '@ms/sp-publishing-webparts.IImageWebPartProps.fixAspectRatio'
+      - '@ms/sp-publishing-webparts.IImageWebPartProps.imageBlob'
+      - '@ms/sp-publishing-webparts.IImageWebPartProps.imageSource'
+      - '@ms/sp-publishing-webparts.IImageWebPartProps.imageSourceType'
+      - '@ms/sp-publishing-webparts.IImageWebPartProps.imgHeight'
+      - '@ms/sp-publishing-webparts.IImageWebPartProps.imgWidth'
+      - '@ms/sp-publishing-webparts.IImageWebPartProps.isFullWidth'
+      - '@ms/sp-publishing-webparts.IImageWebPartProps.listId'
+      - '@ms/sp-publishing-webparts.IImageWebPartProps.siteId'
+      - '@ms/sp-publishing-webparts.IImageWebPartProps.uniqueId'
+      - '@ms/sp-publishing-webparts.IImageWebPartProps.useParallax'
+      - '@ms/sp-publishing-webparts.IImageWebPartProps.webId'
+    langs:
+      - typeScript
+    type: interface
+    summary: Serialized webpart propeties
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps.altText'
+    name: altText
+    fullName: altText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string altText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps.captionText'
+    name: captionText
+    fullName: captionText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string captionText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps.cropHeight'
+    name: cropHeight
+    fullName: cropHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number cropHeight
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps.cropWidth'
+    name: cropWidth
+    fullName: cropWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number cropWidth
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps.cropX'
+    name: cropX
+    fullName: cropX
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number cropX
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps.cropY'
+    name: cropY
+    fullName: cropY
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number cropY
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps.fileName'
+    name: fileName
+    fullName: fileName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string fileName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps.fixAspectRatio'
+    name: fixAspectRatio
+    fullName: fixAspectRatio
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean fixAspectRatio
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps.imageBlob'
+    name: imageBlob
+    fullName: imageBlob
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Blob imageBlob
+      return:
+        type:
+          - Blob
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps.imageSource'
+    name: imageSource
+    fullName: imageSource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string imageSource
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps.imageSourceType'
+    name: imageSourceType
+    fullName: imageSourceType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ImageSourceType imageSourceType
+      return:
+        type:
+          - ImageSourceType
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps.imgHeight'
+    name: imgHeight
+    fullName: imgHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number imgHeight
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps.imgWidth'
+    name: imgWidth
+    fullName: imgWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number imgWidth
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps.isFullWidth'
+    name: isFullWidth
+    fullName: isFullWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isFullWidth
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps.listId'
+    name: listId
+    fullName: listId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string listId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps.siteId'
+    name: siteId
+    fullName: siteId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps.uniqueId'
+    name: uniqueId
+    fullName: uniqueId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string uniqueId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps.useParallax'
+    name: useParallax
+    fullName: useParallax
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean useParallax
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps.webId'
+    name: webId
+    fullName: webId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webId
+      return:
+        type:
+          - string

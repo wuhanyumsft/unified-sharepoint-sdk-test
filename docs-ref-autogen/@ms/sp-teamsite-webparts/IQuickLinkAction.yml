@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkAction'
+    name: IQuickLinkAction
+    fullName: IQuickLinkAction
+    children:
+      - '@ms/sp-teamsite-webparts.IQuickLinkAction.ariaLabel'
+      - '@ms/sp-teamsite-webparts.IQuickLinkAction.icon'
+      - '@ms/sp-teamsite-webparts.IQuickLinkAction.onClick'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkAction.ariaLabel'
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Aria label to place on the button.
+    syntax:
+      content: string ariaLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkAction.icon'
+    name: icon
+    fullName: icon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The icon for this action.
+    syntax:
+      content: string icon
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkAction.onClick'
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Function to run when clicking the action.
+    syntax:
+      content: '(ev?: SyntheticEvent<any>) => void onClick'
+      return:
+        type:
+          - '(ev?: SyntheticEvent<any>) => void'

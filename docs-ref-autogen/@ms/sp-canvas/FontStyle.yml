@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.FontStyle'
+    name: FontStyle
+    fullName: FontStyle
+    children:
+      - '@ms/sp-canvas.FontStyle.Blockquote'
+      - '@ms/sp-canvas.FontStyle.H2'
+      - '@ms/sp-canvas.FontStyle.H3'
+      - '@ms/sp-canvas.FontStyle.H4'
+      - '@ms/sp-canvas.FontStyle.NormalText'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.FontStyle.Blockquote'
+    name: Blockquote
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.FontStyle.H2'
+    name: H2
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.FontStyle.H3'
+    name: H3
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.FontStyle.H4'
+    name: H4
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.FontStyle.NormalText'
+    name: NormalText
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null

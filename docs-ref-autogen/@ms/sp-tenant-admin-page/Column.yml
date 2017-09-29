@@ -1,0 +1,103 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.Column'
+    name: Column
+    fullName: Column
+    children:
+      - '@ms/sp-tenant-admin-page.Column.buildColumnMenuProps'
+      - '@ms/sp-tenant-admin-page.Column.buildColumnProps'
+      - '@ms/sp-tenant-admin-page.Column.constructor'
+      - '@ms/sp-tenant-admin-page.Column.updateColumnSettings'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.Column.buildColumnMenuProps'
+    name: buildColumnMenuProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function buildColumnMenuProps(columnKey: string, filterBys:
+        IQueryFilterByCondition, queryStatus: IColumnQueryStatus)
+      parameters:
+        - id: columnKey
+          type:
+            - string
+          description: ''
+        - id: filterBys
+          type:
+            - IQueryFilterByCondition
+          description: ''
+        - id: queryStatus
+          type:
+            - '@@ms/sp-tenant-admin-page.IColumnQueryStatus'
+          description: ''
+      return:
+        type:
+          - IContextualMenuProps
+  - uid: '@ms/sp-tenant-admin-page.Column.buildColumnProps'
+    name: buildColumnProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function buildColumnProps(columnQueryState: IColumnQueryStatus,
+        dataProvider: ISiteDataProvider)
+      parameters:
+        - id: columnQueryState
+          type:
+            - '@@ms/sp-tenant-admin-page.IColumnQueryStatus'
+          description: ''
+        - id: dataProvider
+          type:
+            - '@@ms/sp-tenant-admin-page.ISiteDataProvider'
+          description: ''
+      return:
+        type:
+          - IColumn
+  - uid: '@ms/sp-tenant-admin-page.Column.constructor'
+    name: Column
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new Column(setting: IColumnSettings, dispatch:
+        Dispatch<ISiteManagementState>, tenantSharingStatus: SharingStatus)
+      parameters:
+        - id: setting
+          type:
+            - '@@ms/sp-tenant-admin-page.IColumnSettings'
+          description: ''
+        - id: dispatch
+          type:
+            - Dispatch<@@ms/sp-tenant-admin-page.ISiteManagementState>
+          description: ''
+        - id: tenantSharingStatus
+          type:
+            - SharingStatus
+          description: ''
+  - uid: '@ms/sp-tenant-admin-page.Column.updateColumnSettings'
+    name: updateColumnSettings
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function updateColumnSettings(columnState: IColumnState)'
+      parameters:
+        - id: columnState
+          type:
+            - '@@ms/sp-tenant-admin-page.IColumnState'
+          description: ''

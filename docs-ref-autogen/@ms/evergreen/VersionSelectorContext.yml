@@ -1,0 +1,143 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/evergreen.VersionSelectorContext'
+    name: VersionSelectorContext
+    fullName: VersionSelectorContext
+    children:
+      - '@ms/evergreen.VersionSelectorContext.clone'
+      - '@ms/evergreen.VersionSelectorContext.forEach'
+      - '@ms/evergreen.VersionSelectorContext.getNextUnsolved'
+      - '@ms/evergreen.VersionSelectorContext.getVersion'
+      - '@ms/evergreen.VersionSelectorContext.getVersionMap'
+      - '@ms/evergreen.VersionSelectorContext.initialize'
+      - '@ms/evergreen.VersionSelectorContext.print'
+      - '@ms/evergreen.VersionSelectorContext.setVersion'
+    langs:
+      - typeScript
+    type: class
+    summary: Utility class to help manage the selected versions of different packages
+    package: '@ms/evergreen'
+  - uid: '@ms/evergreen.VersionSelectorContext.clone'
+    name: clone
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns a copy of this Context object
+    syntax:
+      content: function clone()
+      parameters: []
+      return:
+        type:
+          - '@@ms/evergreen.VersionSelectorContext'
+  - uid: '@ms/evergreen.VersionSelectorContext.forEach'
+    name: forEach
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Iterate through the packageName->version mapping
+    syntax:
+      content: 'function forEach(cb: (version: string, packageName: string) => void)'
+      parameters:
+        - id: cb
+          type:
+            - '(version: string, packageName: string) => void'
+          description: |
+            the callback to call for each pair
+  - uid: '@ms/evergreen.VersionSelectorContext.getNextUnsolved'
+    name: getNextUnsolved
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Finds the next package in the context that does not have a selected
+      version AND
+
+      is in the list of packages to find version numbers for
+    syntax:
+      content: function getNextUnsolved()
+      parameters: []
+  - uid: '@ms/evergreen.VersionSelectorContext.getVersion'
+    name: getVersion
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the currently set version for a package
+    syntax:
+      content: 'function getVersion(packageName: string)'
+      parameters:
+        - id: packageName
+          type:
+            - string
+          description: |
+            the name of the package
+  - uid: '@ms/evergreen.VersionSelectorContext.getVersionMap'
+    name: getVersionMap
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns a mapping of packageName->version
+    syntax:
+      content: function getVersionMap()
+      parameters: []
+      return:
+        type:
+          - Map<string>
+  - uid: '@ms/evergreen.VersionSelectorContext.initialize'
+    name: initialize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Initialize the Context with some information about existing packages
+    syntax:
+      content: >-
+        function initialize(initialContext: Map<string>, packagesToSolve:
+        string[])
+      parameters:
+        - id: initialContext
+          type:
+            - Map<string>
+          description: a mapping of packageName->oldVersion
+        - id: packagesToSolve
+          type:
+            - 'string[]'
+          description: |
+            the list of packages which we need to find new versions for
+  - uid: '@ms/evergreen.VersionSelectorContext.print'
+    name: print
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Helper function to pretty-print the current context
+    syntax:
+      content: 'function print(writer: NestedWriter)'
+      parameters:
+        - id: writer
+          type:
+            - '@@ms/evergreen.NestedWriter'
+          description: ''
+  - uid: '@ms/evergreen.VersionSelectorContext.setVersion'
+    name: setVersion
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets the current version for a package
+    syntax:
+      content: 'function setVersion(packageName: string, version: string)'
+      parameters:
+        - id: packageName
+          type:
+            - string
+          description: the name of the package
+        - id: version
+          type:
+            - string
+          description: |
+            a SemVer version number, cannot be undefined

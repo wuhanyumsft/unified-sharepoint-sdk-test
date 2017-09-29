@@ -1,0 +1,88 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.BaseWebpart'
+    name: BaseWebpart
+    fullName: BaseWebpart
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.BaseWebpart.AddTaskClickConfigureButton'
+      - '@ms/sp-tab-tasklib.SPTaskLib.BaseWebpart.AddTaskClickFilePickerButton'
+      - '@ms/sp-tab-tasklib.SPTaskLib.BaseWebpart.AddTaskSetupNewPage'
+      - '@ms/sp-tab-tasklib.SPTaskLib.BaseWebpart.constructor'
+      - '@ms/sp-tab-tasklib.SPTaskLib.BaseWebpart.IsWebpartReady'
+      - '@ms/sp-tab-tasklib.SPTaskLib.BaseWebpart.SetWebpartRoot'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.BaseWebpart.AddTaskClickConfigureButton'
+    name: AddTaskClickConfigureButton
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function AddTaskClickConfigureButton()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.BaseWebpart.AddTaskClickFilePickerButton'
+    name: AddTaskClickFilePickerButton
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function AddTaskClickFilePickerButton()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.BaseWebpart.AddTaskSetupNewPage'
+    name: AddTaskSetupNewPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function AddTaskSetupNewPage()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.BaseWebpart.constructor'
+    name: BaseWebpart
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BaseWebpart(type: WebpartType)'
+      parameters:
+        - id: type
+          type:
+            - WebpartType
+          description: ''
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.BaseWebpart.IsWebpartReady'
+    name: IsWebpartReady
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function IsWebpartReady()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.BaseWebpart.SetWebpartRoot'
+    name: SetWebpartRoot
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function SetWebpartRoot(root: HTMLElement)'
+      parameters:
+        - id: root
+          type:
+            - HTMLElement
+          description: ''

@@ -1,0 +1,141 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ISPImageViewOnlyProps'
+    name: ISPImageViewOnlyProps
+    fullName: ISPImageViewOnlyProps
+    children:
+      - '@ms/sp-publishing-webparts.ISPImageViewOnlyProps.containerWidth'
+      - '@ms/sp-publishing-webparts.ISPImageViewOnlyProps.imageAspectRatio'
+      - '@ms/sp-publishing-webparts.ISPImageViewOnlyProps.imageData'
+      - '@ms/sp-publishing-webparts.ISPImageViewOnlyProps.isCaptionHidden'
+      - '@ms/sp-publishing-webparts.ISPImageViewOnlyProps.isFullWidth'
+      - '@ms/sp-publishing-webparts.ISPImageViewOnlyProps.isImageContainerBounded'
+      - '@ms/sp-publishing-webparts.ISPImageViewOnlyProps.onImageLoad'
+      - '@ms/sp-publishing-webparts.ISPImageViewOnlyProps.onImageLoadFailure'
+      - '@ms/sp-publishing-webparts.ISPImageViewOnlyProps.serviceScope'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Properties to be passed into an SPImage.
+      These are only required in view mode
+    extends:
+      name: any
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ISPImageViewOnlyProps.containerWidth'
+    name: containerWidth
+    fullName: containerWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Width of the parent container in which Image should be rendered
+    syntax:
+      content: number containerWidth
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.ISPImageViewOnlyProps.imageAspectRatio'
+    name: imageAspectRatio
+    fullName: imageAspectRatio
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Aspect ratio of we want to set the image to
+    syntax:
+      content: number imageAspectRatio
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.ISPImageViewOnlyProps.imageData'
+    name: imageData
+    fullName: imageData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Data about the image
+    syntax:
+      content: ISPImageData imageData
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.ISPImageData'
+  - uid: '@ms/sp-publishing-webparts.ISPImageViewOnlyProps.isCaptionHidden'
+    name: isCaptionHidden
+    fullName: isCaptionHidden
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Should the caption be hidden, by default the caption is shown'
+    syntax:
+      content: boolean isCaptionHidden
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ISPImageViewOnlyProps.isFullWidth'
+    name: isFullWidth
+    fullName: isFullWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: FitToWidth?
+    syntax:
+      content: boolean isFullWidth
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ISPImageViewOnlyProps.isImageContainerBounded'
+    name: isImageContainerBounded
+    fullName: isImageContainerBounded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Is the image inside a container that is bounded.
+    syntax:
+      content: boolean isImageContainerBounded
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ISPImageViewOnlyProps.onImageLoad'
+    name: onImageLoad
+    fullName: onImageLoad
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback function when Image load is complete
+    syntax:
+      content: () => void onImageLoad
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-publishing-webparts.ISPImageViewOnlyProps.onImageLoadFailure'
+    name: onImageLoadFailure
+    fullName: onImageLoadFailure
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback function when Image failed to load
+    syntax:
+      content: () => void onImageLoadFailure
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-publishing-webparts.ISPImageViewOnlyProps.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Service scope
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope

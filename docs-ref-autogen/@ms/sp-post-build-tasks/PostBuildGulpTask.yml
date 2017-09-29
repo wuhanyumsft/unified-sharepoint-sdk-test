@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-post-build-tasks.PostBuildGulpTask'
+    name: PostBuildGulpTask
+    fullName: PostBuildGulpTask<TASK_CONFIG>
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-post-build-tasks.PostBuildGulpTask<TASK_CONFIG>'
+    package: '@ms/sp-post-build-tasks'

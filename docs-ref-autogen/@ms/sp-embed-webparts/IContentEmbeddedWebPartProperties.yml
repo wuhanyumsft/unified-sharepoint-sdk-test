@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-embed-webparts.IContentEmbeddedWebPartProperties'
+    name: IContentEmbeddedWebPartProperties
+    fullName: IContentEmbeddedWebPartProperties
+    children:
+      - '@ms/sp-embed-webparts.IContentEmbeddedWebPartProperties.cachedEmbedCode'
+      - '@ms/sp-embed-webparts.IContentEmbeddedWebPartProperties.captionText'
+      - '@ms/sp-embed-webparts.IContentEmbeddedWebPartProperties.embedCode'
+      - '@ms/sp-embed-webparts.IContentEmbeddedWebPartProperties.shouldScaleWidth'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface for the content embed WebPart properties.
+    package: '@ms/sp-embed-webparts'
+  - uid: '@ms/sp-embed-webparts.IContentEmbeddedWebPartProperties.cachedEmbedCode'
+    name: cachedEmbedCode
+    fullName: cachedEmbedCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string cachedEmbedCode
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.IContentEmbeddedWebPartProperties.captionText'
+    name: captionText
+    fullName: captionText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string captionText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.IContentEmbeddedWebPartProperties.embedCode'
+    name: embedCode
+    fullName: embedCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string embedCode
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.IContentEmbeddedWebPartProperties.shouldScaleWidth'
+    name: shouldScaleWidth
+    fullName: shouldScaleWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean shouldScaleWidth
+      return:
+        type:
+          - boolean

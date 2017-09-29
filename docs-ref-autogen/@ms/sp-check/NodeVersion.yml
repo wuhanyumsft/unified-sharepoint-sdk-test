@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-check.NodeVersion'
+    name: NodeVersion
+    fullName: NodeVersion
+    children:
+      - '@ms/sp-check.NodeVersion.check'
+      - '@ms/sp-check.NodeVersion.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: A condition that nodejs version has to in the required range.
+    extends:
+      name: '@@ms/sp-check.BaseCondition'
+    package: '@ms/sp-check'
+  - uid: '@ms/sp-check.NodeVersion.check'
+    name: check
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function check()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-check.IResult'
+  - uid: '@ms/sp-check.NodeVersion.constructor'
+    name: NodeVersion
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new NodeVersion()
+      parameters: []

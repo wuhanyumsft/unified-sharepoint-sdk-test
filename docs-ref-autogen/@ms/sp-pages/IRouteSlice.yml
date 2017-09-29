@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IRouteSlice'
+    name: IRouteSlice
+    fullName: IRouteSlice
+    children:
+      - '@ms/sp-pages.IRouteSlice.currentRoute'
+      - '@ms/sp-pages.IRouteSlice.didTransition'
+      - '@ms/sp-pages.IRouteSlice.mode'
+      - '@ms/sp-pages.IRouteSlice.nextRoute'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IRouteSlice.currentRoute'
+    name: currentRoute
+    fullName: currentRoute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string currentRoute
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IRouteSlice.didTransition'
+    name: didTransition
+    fullName: didTransition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean didTransition
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IRouteSlice.mode'
+    name: mode
+    fullName: mode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DisplayMode mode
+      return:
+        type:
+          - DisplayMode
+  - uid: '@ms/sp-pages.IRouteSlice.nextRoute'
+    name: nextRoute
+    fullName: nextRoute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string nextRoute
+      return:
+        type:
+          - string

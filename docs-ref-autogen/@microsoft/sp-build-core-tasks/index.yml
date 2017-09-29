@@ -1,0 +1,248 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks'
+    name: '@microsoft/sp-build-core-tasks'
+    summary: ''
+    children:
+      - '@microsoft/sp-build-core-tasks.OdspGulpTask'
+      - '@microsoft/sp-build-core-tasks.ILocaleMap'
+      - '@microsoft/sp-build-core-tasks.IOdspGulpTaskProperties'
+      - '@microsoft/sp-build-core-tasks.IResolveResourcesResult'
+      - '@microsoft/sp-build-core-tasks.CasperJSTask'
+      - '@microsoft/sp-build-core-tasks.CollectLocalizedResourcesTask'
+      - '@microsoft/sp-build-core-tasks.ICollectLocalizedResourcesTaskConfig'
+      - '@microsoft/sp-build-core-tasks.ConfigureRigTask'
+      - '@microsoft/sp-build-core-tasks.IConfigJsonResult'
+      - '@microsoft/sp-build-core-tasks.IVersionedConfigJson'
+      - '@microsoft/sp-build-core-tasks.IConfigEntry'
+      - '@microsoft/sp-build-core-tasks.IConfigJson'
+      - '@microsoft/sp-build-core-tasks.INonAMDExternalModuleConfig'
+      - '@microsoft/sp-build-core-tasks.IConfigBundle'
+      - '@microsoft/sp-build-core-tasks.IConfigComponent'
+      - '@microsoft/sp-build-core-tasks.IConfigJson'
+      - '@microsoft/sp-build-core-tasks.INonAMDExternalModuleConfig'
+      - '@microsoft/sp-build-core-tasks.ConfigureExternalBundlingWebpackTask'
+      - >-
+        @microsoft/sp-build-core-tasks.IConfigureExternalBundlingWebpackTaskConfig
+      - '@microsoft/sp-build-core-tasks.ConfigureWebpackTask'
+      - '@microsoft/sp-build-core-tasks.IBundleComponent'
+      - '@microsoft/sp-build-core-tasks.IBundleEntry'
+      - '@microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig'
+      - '@microsoft/sp-build-core-tasks.IDynamicExternalProject'
+      - '@microsoft/sp-build-core-tasks.IExternalProject'
+      - '@microsoft/sp-build-core-tasks.IExternalProjectMap'
+      - '@microsoft/sp-build-core-tasks.ITaskCompletionResult'
+      - '@microsoft/sp-build-core-tasks.CopyAssetsTask'
+      - '@microsoft/sp-build-core-tasks.ICopyAssetsTaskConfig'
+      - '@microsoft/sp-build-core-tasks.IDefaultLocale'
+      - '@microsoft/sp-build-core-tasks.IDeployEntry'
+      - '@microsoft/sp-build-core-tasks.IDeployModules'
+      - '@microsoft/sp-build-core-tasks.IExtendedWebpackModule'
+      - '@microsoft/sp-build-core-tasks.IWebpackAsset'
+      - '@microsoft/sp-build-core-tasks.IWebpackChunk'
+      - '@microsoft/sp-build-core-tasks.IWebpackModule'
+      - '@microsoft/sp-build-core-tasks.IWebpackStatsObject'
+      - '@microsoft/sp-build-core-tasks.ForceSearch'
+      - '@microsoft/sp-build-core-tasks.CumulativeManifestProcessor'
+      - '@microsoft/sp-build-core-tasks.ICumulativeManifestOptions'
+      - '@microsoft/sp-build-core-tasks.IReferenceContainer'
+      - '@microsoft/sp-build-core-tasks.IReferencedProject'
+      - '@microsoft/sp-build-core-tasks.IReferencedProjectMap'
+      - '@microsoft/sp-build-core-tasks.DeployAzureStorageTask'
+      - '@microsoft/sp-build-core-tasks.IDeployAzureStorageTaskConfig'
+      - '@microsoft/sp-build-core-tasks.IDeployAzureTaskConfigBase'
+      - '@microsoft/sp-build-core-tasks.IGlobOptions'
+      - '@microsoft/sp-build-core-tasks.DevDeployTask'
+      - '@microsoft/sp-build-core-tasks.IDevDeployTaskConfig'
+      - '@microsoft/sp-build-core-tasks.IPackageSolution'
+      - '@microsoft/sp-build-core-tasks.PackageSolutionTask'
+      - '@microsoft/sp-build-core-tasks.IPackageSolutionTaskConfig'
+      - '@microsoft/sp-build-core-tasks.IApplicationDefinition'
+      - '@microsoft/sp-build-core-tasks.IComponent'
+      - '@microsoft/sp-build-core-tasks.IExtensionDefinition'
+      - '@microsoft/sp-build-core-tasks.IWebPartDefinition'
+      - '@microsoft/sp-build-core-tasks.IWebPartEntryDefinition'
+      - '@microsoft/sp-build-core-tasks.IFeature'
+      - '@microsoft/sp-build-core-tasks.ISolution'
+      - '@microsoft/sp-build-core-tasks.IFeatureXml'
+      - '@microsoft/sp-build-core-tasks.IIcon'
+      - '@microsoft/sp-build-core-tasks.IOpenDocumentConventionXml'
+      - '@microsoft/sp-build-core-tasks.IPackageXml'
+      - '@microsoft/sp-build-core-tasks.IResources'
+      - '@microsoft/sp-build-core-tasks.ISharepointAssets'
+      - '@microsoft/sp-build-core-tasks.IXml'
+      - '@microsoft/sp-build-core-tasks.ICustomFeatures'
+      - '@microsoft/sp-build-core-tasks.IRelationship'
+      - '@microsoft/sp-build-core-tasks.ICustomActionConfiguration'
+      - '@microsoft/sp-build-core-tasks.IFieldCustomizerConfiguration'
+      - '@microsoft/sp-build-core-tasks.ISpfxServe'
+      - '@microsoft/sp-build-core-tasks.ISpfxServeSessionConfiguration'
+      - '@microsoft/sp-build-core-tasks.SpfxServeTask'
+      - '@microsoft/sp-build-core-tasks.ISpfxServeTaskConfig'
+      - '@microsoft/sp-build-core-tasks.RetryablePromise'
+      - '@microsoft/sp-build-core-tasks.IUploadableFile'
+      - '@microsoft/sp-build-core-tasks.WriteManifestsTask'
+      - '@microsoft/sp-build-core-tasks.IWriteManifestsTaskConfig'
+      - '@microsoft/sp-build-core-tasks.Global'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@microsoft/sp-build-core-tasks.OdspGulpTask'
+    name: OdspGulpTask
+  - uid: '@microsoft/sp-build-core-tasks.ILocaleMap'
+    name: ILocaleMap
+  - uid: '@microsoft/sp-build-core-tasks.IOdspGulpTaskProperties'
+    name: IOdspGulpTaskProperties
+  - uid: '@microsoft/sp-build-core-tasks.IResolveResourcesResult'
+    name: IResolveResourcesResult
+  - uid: '@microsoft/sp-build-core-tasks.CasperJSTask'
+    name: CasperJSTask
+  - uid: '@microsoft/sp-build-core-tasks.CollectLocalizedResourcesTask'
+    name: CollectLocalizedResourcesTask
+  - uid: '@microsoft/sp-build-core-tasks.ICollectLocalizedResourcesTaskConfig'
+    name: ICollectLocalizedResourcesTaskConfig
+  - uid: '@microsoft/sp-build-core-tasks.ConfigureRigTask'
+    name: ConfigureRigTask
+  - uid: '@microsoft/sp-build-core-tasks.IConfigJsonResult'
+    name: IConfigJsonResult
+  - uid: '@microsoft/sp-build-core-tasks.IVersionedConfigJson'
+    name: IVersionedConfigJson
+  - uid: '@microsoft/sp-build-core-tasks.IConfigEntry'
+    name: IConfigEntry
+  - uid: '@microsoft/sp-build-core-tasks.IConfigJson'
+    name: IConfigJson
+  - uid: '@microsoft/sp-build-core-tasks.INonAMDExternalModuleConfig'
+    name: INonAMDExternalModuleConfig
+  - uid: '@microsoft/sp-build-core-tasks.IConfigBundle'
+    name: IConfigBundle
+  - uid: '@microsoft/sp-build-core-tasks.IConfigComponent'
+    name: IConfigComponent
+  - uid: '@microsoft/sp-build-core-tasks.IConfigJson'
+    name: IConfigJson
+  - uid: '@microsoft/sp-build-core-tasks.INonAMDExternalModuleConfig'
+    name: INonAMDExternalModuleConfig
+  - uid: '@microsoft/sp-build-core-tasks.ConfigureExternalBundlingWebpackTask'
+    name: ConfigureExternalBundlingWebpackTask
+  - uid: '@microsoft/sp-build-core-tasks.IConfigureExternalBundlingWebpackTaskConfig'
+    name: IConfigureExternalBundlingWebpackTaskConfig
+  - uid: '@microsoft/sp-build-core-tasks.ConfigureWebpackTask'
+    name: ConfigureWebpackTask
+  - uid: '@microsoft/sp-build-core-tasks.IBundleComponent'
+    name: IBundleComponent
+  - uid: '@microsoft/sp-build-core-tasks.IBundleEntry'
+    name: IBundleEntry
+  - uid: '@microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig'
+    name: IConfigureWebpackTaskConfig
+  - uid: '@microsoft/sp-build-core-tasks.IDynamicExternalProject'
+    name: IDynamicExternalProject
+  - uid: '@microsoft/sp-build-core-tasks.IExternalProject'
+    name: IExternalProject
+  - uid: '@microsoft/sp-build-core-tasks.IExternalProjectMap'
+    name: IExternalProjectMap
+  - uid: '@microsoft/sp-build-core-tasks.ITaskCompletionResult'
+    name: ITaskCompletionResult
+  - uid: '@microsoft/sp-build-core-tasks.CopyAssetsTask'
+    name: CopyAssetsTask
+  - uid: '@microsoft/sp-build-core-tasks.ICopyAssetsTaskConfig'
+    name: ICopyAssetsTaskConfig
+  - uid: '@microsoft/sp-build-core-tasks.IDefaultLocale'
+    name: IDefaultLocale
+  - uid: '@microsoft/sp-build-core-tasks.IDeployEntry'
+    name: IDeployEntry
+  - uid: '@microsoft/sp-build-core-tasks.IDeployModules'
+    name: IDeployModules
+  - uid: '@microsoft/sp-build-core-tasks.IExtendedWebpackModule'
+    name: IExtendedWebpackModule
+  - uid: '@microsoft/sp-build-core-tasks.IWebpackAsset'
+    name: IWebpackAsset
+  - uid: '@microsoft/sp-build-core-tasks.IWebpackChunk'
+    name: IWebpackChunk
+  - uid: '@microsoft/sp-build-core-tasks.IWebpackModule'
+    name: IWebpackModule
+  - uid: '@microsoft/sp-build-core-tasks.IWebpackStatsObject'
+    name: IWebpackStatsObject
+  - uid: '@microsoft/sp-build-core-tasks.ForceSearch'
+    name: ForceSearch
+  - uid: '@microsoft/sp-build-core-tasks.CumulativeManifestProcessor'
+    name: CumulativeManifestProcessor
+  - uid: '@microsoft/sp-build-core-tasks.ICumulativeManifestOptions'
+    name: ICumulativeManifestOptions
+  - uid: '@microsoft/sp-build-core-tasks.IReferenceContainer'
+    name: IReferenceContainer
+  - uid: '@microsoft/sp-build-core-tasks.IReferencedProject'
+    name: IReferencedProject
+  - uid: '@microsoft/sp-build-core-tasks.IReferencedProjectMap'
+    name: IReferencedProjectMap
+  - uid: '@microsoft/sp-build-core-tasks.DeployAzureStorageTask'
+    name: DeployAzureStorageTask
+  - uid: '@microsoft/sp-build-core-tasks.IDeployAzureStorageTaskConfig'
+    name: IDeployAzureStorageTaskConfig
+  - uid: '@microsoft/sp-build-core-tasks.IDeployAzureTaskConfigBase'
+    name: IDeployAzureTaskConfigBase
+  - uid: '@microsoft/sp-build-core-tasks.IGlobOptions'
+    name: IGlobOptions
+  - uid: '@microsoft/sp-build-core-tasks.DevDeployTask'
+    name: DevDeployTask
+  - uid: '@microsoft/sp-build-core-tasks.IDevDeployTaskConfig'
+    name: IDevDeployTaskConfig
+  - uid: '@microsoft/sp-build-core-tasks.IPackageSolution'
+    name: IPackageSolution
+  - uid: '@microsoft/sp-build-core-tasks.PackageSolutionTask'
+    name: PackageSolutionTask
+  - uid: '@microsoft/sp-build-core-tasks.IPackageSolutionTaskConfig'
+    name: IPackageSolutionTaskConfig
+  - uid: '@microsoft/sp-build-core-tasks.IApplicationDefinition'
+    name: IApplicationDefinition
+  - uid: '@microsoft/sp-build-core-tasks.IComponent'
+    name: IComponent
+  - uid: '@microsoft/sp-build-core-tasks.IExtensionDefinition'
+    name: IExtensionDefinition
+  - uid: '@microsoft/sp-build-core-tasks.IWebPartDefinition'
+    name: IWebPartDefinition
+  - uid: '@microsoft/sp-build-core-tasks.IWebPartEntryDefinition'
+    name: IWebPartEntryDefinition
+  - uid: '@microsoft/sp-build-core-tasks.IFeature'
+    name: IFeature
+  - uid: '@microsoft/sp-build-core-tasks.ISolution'
+    name: ISolution
+  - uid: '@microsoft/sp-build-core-tasks.IFeatureXml'
+    name: IFeatureXml
+  - uid: '@microsoft/sp-build-core-tasks.IIcon'
+    name: IIcon
+  - uid: '@microsoft/sp-build-core-tasks.IOpenDocumentConventionXml'
+    name: IOpenDocumentConventionXml
+  - uid: '@microsoft/sp-build-core-tasks.IPackageXml'
+    name: IPackageXml
+  - uid: '@microsoft/sp-build-core-tasks.IResources'
+    name: IResources
+  - uid: '@microsoft/sp-build-core-tasks.ISharepointAssets'
+    name: ISharepointAssets
+  - uid: '@microsoft/sp-build-core-tasks.IXml'
+    name: IXml
+  - uid: '@microsoft/sp-build-core-tasks.ICustomFeatures'
+    name: ICustomFeatures
+  - uid: '@microsoft/sp-build-core-tasks.IRelationship'
+    name: IRelationship
+  - uid: '@microsoft/sp-build-core-tasks.ICustomActionConfiguration'
+    name: ICustomActionConfiguration
+  - uid: '@microsoft/sp-build-core-tasks.IFieldCustomizerConfiguration'
+    name: IFieldCustomizerConfiguration
+  - uid: '@microsoft/sp-build-core-tasks.ISpfxServe'
+    name: ISpfxServe
+  - uid: '@microsoft/sp-build-core-tasks.ISpfxServeSessionConfiguration'
+    name: ISpfxServeSessionConfiguration
+  - uid: '@microsoft/sp-build-core-tasks.SpfxServeTask'
+    name: SpfxServeTask
+  - uid: '@microsoft/sp-build-core-tasks.ISpfxServeTaskConfig'
+    name: ISpfxServeTaskConfig
+  - uid: '@microsoft/sp-build-core-tasks.RetryablePromise'
+    name: RetryablePromise
+  - uid: '@microsoft/sp-build-core-tasks.IUploadableFile'
+    name: IUploadableFile
+  - uid: '@microsoft/sp-build-core-tasks.WriteManifestsTask'
+    name: WriteManifestsTask
+  - uid: '@microsoft/sp-build-core-tasks.IWriteManifestsTaskConfig'
+    name: IWriteManifestsTaskConfig
+  - uid: '@microsoft/sp-build-core-tasks.Global'
+    name: Global

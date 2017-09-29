@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.MockQosMonitorResultType'
+    name: MockQosMonitorResultType
+    fullName: MockQosMonitorResultType
+    children:
+      - '@ms/sp-tenant-admin-page.MockQosMonitorResultType.ExpectedFailure'
+      - '@ms/sp-tenant-admin-page.MockQosMonitorResultType.None'
+      - '@ms/sp-tenant-admin-page.MockQosMonitorResultType.Success'
+      - '@ms/sp-tenant-admin-page.MockQosMonitorResultType.UnexpectedFailure'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.MockQosMonitorResultType.ExpectedFailure'
+    name: ExpectedFailure
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-tenant-admin-page.MockQosMonitorResultType.None'
+    name: None
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-tenant-admin-page.MockQosMonitorResultType.Success'
+    name: Success
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-tenant-admin-page.MockQosMonitorResultType.UnexpectedFailure'
+    name: UnexpectedFailure
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

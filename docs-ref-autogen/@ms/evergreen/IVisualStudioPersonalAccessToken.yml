@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/evergreen.IVisualStudioPersonalAccessToken'
+    name: IVisualStudioPersonalAccessToken
+    fullName: IVisualStudioPersonalAccessToken
+    children:
+      - '@ms/evergreen.IVisualStudioPersonalAccessToken.personalAccessToken'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/evergreen'
+  - uid: '@ms/evergreen.IVisualStudioPersonalAccessToken.personalAccessToken'
+    name: personalAccessToken
+    fullName: personalAccessToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string personalAccessToken
+      return:
+        type:
+          - string

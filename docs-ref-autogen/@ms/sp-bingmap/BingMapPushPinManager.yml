@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-bingmap.BingMapPushPinManager'
+    name: BingMapPushPinManager
+    fullName: BingMapPushPinManager
+    children:
+      - '@ms/sp-bingmap.BingMapPushPinManager.constructor'
+      - '@ms/sp-bingmap.BingMapPushPinManager.renderPushPins'
+    langs:
+      - typeScript
+    type: class
+    summary: BingMapAutoSuggestManager manage the AutoSuggestion feature.
+    package: '@ms/sp-bingmap'
+  - uid: '@ms/sp-bingmap.BingMapPushPinManager.constructor'
+    name: BingMapPushPinManager
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BingMapPushPinManager(mapInstance: Map, pageContext: PageContext)'
+      parameters:
+        - id: mapInstance
+          type:
+            - Map
+          description: ''
+        - id: pageContext
+          type:
+            - PageContext
+          description: ''
+  - uid: '@ms/sp-bingmap.BingMapPushPinManager.renderPushPins'
+    name: renderPushPins
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function renderPushPins(pushPins: IPushPin[], options:
+        IPushPinRenderSettings)
+      parameters:
+        - id: pushPins
+          type:
+            - '@@ms/sp-bingmap.IPushPin[]'
+          description: ''
+        - id: options
+          type:
+            - '@@ms/sp-bingmap.IPushPinRenderSettings'
+          description: ''
+      return:
+        type:
+          - Promise<void>

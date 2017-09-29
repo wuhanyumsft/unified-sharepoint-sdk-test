@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.SPSettingsDataProvider'
+    name: SPSettingsDataProvider
+    fullName: SPSettingsDataProvider
+    children:
+      - '@ms/sp-tenant-admin-page.SPSettingsDataProvider.fetchSettingFromApi'
+      - '@ms/sp-tenant-admin-page.SPSettingsDataProvider.constructor'
+      - '@ms/sp-tenant-admin-page.SPSettingsDataProvider.updateSettingsThruApi'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-tenant-admin-page.HttpRequestSPOResourceBase'
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.SPSettingsDataProvider.fetchSettingFromApi'
+    name: fetchSettingFromApi
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fetchSettingFromApi(setting: string)'
+      parameters:
+        - id: setting
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-tenant-admin-page.ISetting>
+  - uid: '@ms/sp-tenant-admin-page.SPSettingsDataProvider.constructor'
+    name: SPSettingsDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new SPSettingsDataProvider()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.SPSettingsDataProvider.updateSettingsThruApi'
+    name: updateSettingsThruApi
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function updateSettingsThruApi(settings: ISettings)'
+      parameters:
+        - id: settings
+          type:
+            - '@@ms/sp-tenant-admin-page.ISettings'
+          description: ''
+      return:
+        type:
+          - Promise<void>

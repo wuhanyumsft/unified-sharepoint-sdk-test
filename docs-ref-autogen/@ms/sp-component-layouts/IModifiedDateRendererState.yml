@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.IModifiedDateRendererState'
+    name: IModifiedDateRendererState
+    fullName: IModifiedDateRendererState
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-component-layouts'

@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.AspectRatio'
+    name: AspectRatio
+    fullName: AspectRatio
+    children:
+      - '@ms/sp-publishing-webparts.AspectRatio.AR_16_9'
+      - '@ms/sp-publishing-webparts.AspectRatio.AR_4_3'
+      - '@ms/sp-publishing-webparts.AspectRatio.AR_3_2'
+      - '@ms/sp-publishing-webparts.AspectRatio.AR_1'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.AspectRatio.AR_16_9'
+    name: AR_16_9
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-publishing-webparts.AspectRatio.AR_4_3'
+    name: AR_4_3
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+  - uid: '@ms/sp-publishing-webparts.AspectRatio.AR_3_2'
+    name: AR_3_2
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+  - uid: '@ms/sp-publishing-webparts.AspectRatio.AR_1'
+    name: AR_1
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4

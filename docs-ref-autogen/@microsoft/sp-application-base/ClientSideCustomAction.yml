@@ -1,0 +1,143 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.ClientSideCustomAction'
+    name: ClientSideCustomAction
+    fullName: ClientSideCustomAction
+    children:
+      - >-
+        @microsoft/sp-application-base.ClientSideCustomAction.clientSideComponentId
+      - >-
+        @microsoft/sp-application-base.ClientSideCustomAction.clientSideComponentProperties
+      - '@microsoft/sp-application-base.ClientSideCustomAction.location'
+      - '@microsoft/sp-application-base.ClientSideCustomAction.registrationId'
+      - '@microsoft/sp-application-base.ClientSideCustomAction.registrationType'
+      - >-
+        @microsoft/sp-application-base.ClientSideCustomAction.requireSiteAdministrator
+      - '@microsoft/sp-application-base.ClientSideCustomAction.rights'
+      - '@microsoft/sp-application-base.ClientSideCustomAction.sequence'
+      - '@microsoft/sp-application-base.ClientSideCustomAction.title'
+    langs:
+      - typeScript
+    type: class
+    summary: Client side custom action.
+    package: '@microsoft/sp-application-base'
+  - uid: >-
+      @microsoft/sp-application-base.ClientSideCustomAction.clientSideComponentId
+    name: clientSideComponentId
+    fullName: clientSideComponentId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Guid clientSideComponentId
+      return:
+        type:
+          - Guid
+  - uid: >-
+      @microsoft/sp-application-base.ClientSideCustomAction.clientSideComponentProperties
+    name: clientSideComponentProperties
+    fullName: clientSideComponentProperties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string clientSideComponentProperties
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.ClientSideCustomAction.location'
+    name: location
+    fullName: location
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string location
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.ClientSideCustomAction.registrationId'
+    name: registrationId
+    fullName: registrationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string registrationId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.ClientSideCustomAction.registrationType'
+    name: registrationType
+    fullName: registrationType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string registrationType
+      return:
+        type:
+          - string
+  - uid: >-
+      @microsoft/sp-application-base.ClientSideCustomAction.requireSiteAdministrator
+    name: requireSiteAdministrator
+    fullName: requireSiteAdministrator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean requireSiteAdministrator
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-application-base.ClientSideCustomAction.rights'
+    name: rights
+    fullName: rights
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: SPPermission rights
+      return:
+        type:
+          - SPPermission
+  - uid: '@microsoft/sp-application-base.ClientSideCustomAction.sequence'
+    name: sequence
+    fullName: sequence
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number sequence
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-application-base.ClientSideCustomAction.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

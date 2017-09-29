@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.CompactCardWrapper'
+    name: CompactCardWrapper
+    fullName: CompactCardWrapper
+    children:
+      - '@ms/sp-component-layouts.CompactCardWrapper.constructor'
+      - '@ms/sp-component-layouts.CompactCardWrapper.focus'
+      - '@ms/sp-component-layouts.CompactCardWrapper.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-component-layouts.CompactCardWrapper<@@ms/sp-component-layouts.ICompactCardWrapperProps>
+    package: '@ms/sp-component-layouts'
+  - uid: '@ms/sp-component-layouts.CompactCardWrapper.constructor'
+    name: CompactCardWrapper
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CompactCardWrapper(props: ICompactCardWrapperProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-component-layouts.ICompactCardWrapperProps'
+          description: ''
+  - uid: '@ms/sp-component-layouts.CompactCardWrapper.focus'
+    name: focus
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+  - uid: '@ms/sp-component-layouts.CompactCardWrapper.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<HTMLDivElement>

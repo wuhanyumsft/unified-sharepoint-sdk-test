@@ -1,0 +1,123 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedProps'
+    name: INewsfeedProps
+    fullName: INewsfeedProps
+    children:
+      - '@ms/sp-teamsite-webparts.INewsfeedProps.helpItems'
+      - '@ms/sp-teamsite-webparts.INewsfeedProps.isEditMode'
+      - '@ms/sp-teamsite-webparts.INewsfeedProps.isMobileBrowser'
+      - '@ms/sp-teamsite-webparts.INewsfeedProps.locale'
+      - '@ms/sp-teamsite-webparts.INewsfeedProps.newsItems'
+      - '@ms/sp-teamsite-webparts.INewsfeedProps.pageContext'
+      - '@ms/sp-teamsite-webparts.INewsfeedProps.showAddButton'
+      - '@ms/sp-teamsite-webparts.INewsfeedProps.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedProps.helpItems'
+    name: helpItems
+    fullName: helpItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'INewsItem[] helpItems'
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.INewsItem[]'
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedProps.isEditMode'
+    name: isEditMode
+    fullName: isEditMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isEditMode
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedProps.isMobileBrowser'
+    name: isMobileBrowser
+    fullName: isMobileBrowser
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isMobileBrowser
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedProps.locale'
+    name: locale
+    fullName: locale
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string locale
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedProps.newsItems'
+    name: newsItems
+    fullName: newsItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'INewsItem[] newsItems'
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.INewsItem[]'
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedProps.pageContext'
+    name: pageContext
+    fullName: pageContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageContext pageContext
+      return:
+        type:
+          - PageContext
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedProps.showAddButton'
+    name: showAddButton
+    fullName: showAddButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showAddButton
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedProps.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

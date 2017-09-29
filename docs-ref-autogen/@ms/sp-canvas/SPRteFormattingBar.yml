@@ -1,0 +1,83 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.SPRteFormattingBar'
+    name: SPRteFormattingBar
+    fullName: SPRteFormattingBar
+    children:
+      - '@ms/sp-canvas.SPRteFormattingBar.componentDidMount'
+      - '@ms/sp-canvas.SPRteFormattingBar.componentDidUpdate'
+      - '@ms/sp-canvas.SPRteFormattingBar.componentWillReceiveProps'
+      - '@ms/sp-canvas.SPRteFormattingBar.render'
+      - '@ms/sp-canvas.SPRteFormattingBar.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-canvas.SPRteFormattingBar<@@ms/sp-canvas.ISPRteFormattingBarProps>
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.SPRteFormattingBar.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-canvas.SPRteFormattingBar.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+  - uid: '@ms/sp-canvas.SPRteFormattingBar.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: ISPRteFormattingBarProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-canvas.ISPRteFormattingBarProps'
+          description: ''
+  - uid: '@ms/sp-canvas.SPRteFormattingBar.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Renders the formatting bar in the position given in props
+      Formatting bar renders on top left side of the control by default
+      If there is a text selection the bar renders above the selection
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@ms/sp-canvas.ISPRteFormattingBarProps>
+  - uid: '@ms/sp-canvas.SPRteFormattingBar.constructor'
+    name: SPRteFormattingBar
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SPRteFormattingBar(props: ISPRteFormattingBarProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-canvas.ISPRteFormattingBarProps'
+          description: ''

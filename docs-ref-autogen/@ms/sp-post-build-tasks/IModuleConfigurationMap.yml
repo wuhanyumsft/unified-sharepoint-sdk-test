@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-post-build-tasks.IModuleConfigurationMap'
+    name: IModuleConfigurationMap
+    fullName: IModuleConfigurationMap
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-post-build-tasks'

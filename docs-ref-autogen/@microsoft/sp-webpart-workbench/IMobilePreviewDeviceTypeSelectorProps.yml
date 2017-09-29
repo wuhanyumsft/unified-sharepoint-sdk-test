@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-workbench.IMobilePreviewDeviceTypeSelectorProps'
+    name: IMobilePreviewDeviceTypeSelectorProps
+    fullName: IMobilePreviewDeviceTypeSelectorProps
+    children:
+      - >-
+        @microsoft/sp-webpart-workbench.IMobilePreviewDeviceTypeSelectorProps.onChangeDeviceType
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-webpart-workbench'
+  - uid: >-
+      @microsoft/sp-webpart-workbench.IMobilePreviewDeviceTypeSelectorProps.onChangeDeviceType
+    name: onChangeDeviceType
+    fullName: onChangeDeviceType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(type: DeviceType) => void onChangeDeviceType'
+      return:
+        type:
+          - '(type: DeviceType) => void'

@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-workbench.IMobilePreviewRotateProps'
+    name: IMobilePreviewRotateProps
+    fullName: IMobilePreviewRotateProps
+    children:
+      - >-
+        @microsoft/sp-webpart-workbench.IMobilePreviewRotateProps.currentOrientation
+      - '@microsoft/sp-webpart-workbench.IMobilePreviewRotateProps.onRotate'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-webpart-workbench'
+  - uid: >-
+      @microsoft/sp-webpart-workbench.IMobilePreviewRotateProps.currentOrientation
+    name: currentOrientation
+    fullName: currentOrientation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DeviceOrientation currentOrientation
+      return:
+        type:
+          - '@@microsoft/sp-webpart-workbench.DeviceOrientation'
+  - uid: '@microsoft/sp-webpart-workbench.IMobilePreviewRotateProps.onRotate'
+    name: onRotate
+    fullName: onRotate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(orientation: DeviceOrientation) => void onRotate'
+      return:
+        type:
+          - '(orientation: DeviceOrientation) => void'

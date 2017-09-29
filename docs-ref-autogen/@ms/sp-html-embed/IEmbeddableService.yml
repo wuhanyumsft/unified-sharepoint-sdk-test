@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-html-embed.IEmbeddableService'
+    name: IEmbeddableService
+    fullName: IEmbeddableService
+    children:
+      - '@ms/sp-html-embed.IEmbeddableService.getEmbeddableHtmlCode'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-html-embed'
+  - uid: '@ms/sp-html-embed.IEmbeddableService.getEmbeddableHtmlCode'
+    name: getEmbeddableHtmlCode
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getEmbeddableHtmlCode()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-html-embed.IEmbedServiceResult>

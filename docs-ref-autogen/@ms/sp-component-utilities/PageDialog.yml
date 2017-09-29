@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.PageDialog'
+    name: PageDialog
+    fullName: PageDialog
+    children:
+      - '@ms/sp-component-utilities.PageDialog.componentWillReceiveProps'
+      - '@ms/sp-component-utilities.PageDialog.constructor'
+      - '@ms/sp-component-utilities.PageDialog.render'
+    langs:
+      - typeScript
+    type: class
+    summary: Generic page dialog
+    extends:
+      name: >-
+        @@ms/sp-component-utilities.PageDialog<@@ms/sp-component-utilities.IDialogProps>
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.PageDialog.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: IDialogProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-component-utilities.IDialogProps'
+          description: ''
+  - uid: '@ms/sp-component-utilities.PageDialog.constructor'
+    name: PageDialog
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new PageDialog()
+      parameters: []
+  - uid: '@ms/sp-component-utilities.PageDialog.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

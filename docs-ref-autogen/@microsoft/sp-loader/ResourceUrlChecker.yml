@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.ResourceUrlChecker'
+    name: ResourceUrlChecker
+    fullName: ResourceUrlChecker
+    children:
+      - '@microsoft/sp-loader.ResourceUrlChecker.checkResourceUrl'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Checks if a resource URL is accessible and throws the right error for each
+      case.
+
+      In the case of localhost errors, it provides guidance on usage of 'gulp'
+      to solve them.
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.ResourceUrlChecker.checkResourceUrl'
+    name: checkResourceUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Checks the resource URL for the HTTP response status code.
+      If the response is not successful, it throws the appropriate error.
+    syntax:
+      content: >-
+        static function checkResourceUrl(manifest: IClientSideComponentManifest,
+        name: string)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: Manifest where the resource is defined
+        - id: name
+          type:
+            - string
+          description: |
+            Name of the resource to check
+      return:
+        type:
+          - Promise<void>

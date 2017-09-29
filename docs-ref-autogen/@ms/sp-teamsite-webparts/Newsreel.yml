@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.Newsreel'
+    name: Newsreel
+    fullName: Newsreel
+    children:
+      - '@ms/sp-teamsite-webparts.Newsreel.componentDidMount'
+      - '@ms/sp-teamsite-webparts.Newsreel.componentWillUnmount'
+      - '@ms/sp-teamsite-webparts.Newsreel.getCurrentBreakpoint'
+      - '@ms/sp-teamsite-webparts.Newsreel.constructor'
+      - '@ms/sp-teamsite-webparts.Newsreel.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-teamsite-webparts.Newsreel<@@ms/sp-teamsite-webparts.INewsreelProps>
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.Newsreel.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-teamsite-webparts.Newsreel.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-teamsite-webparts.Newsreel.getCurrentBreakpoint'
+    name: getCurrentBreakpoint
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCurrentBreakpoint()
+      parameters: []
+      return:
+        type:
+          - BREAKPOINT_SIZE
+  - uid: '@ms/sp-teamsite-webparts.Newsreel.constructor'
+    name: Newsreel
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Newsreel(props: INewsreelProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-teamsite-webparts.INewsreelProps'
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.Newsreel.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

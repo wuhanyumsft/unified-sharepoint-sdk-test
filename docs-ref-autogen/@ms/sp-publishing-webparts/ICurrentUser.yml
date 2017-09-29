@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ICurrentUser'
+    name: ICurrentUser
+    fullName: ICurrentUser
+    children:
+      - '@ms/sp-publishing-webparts.ICurrentUser.first_name'
+      - '@ms/sp-publishing-webparts.ICurrentUser.full_name'
+      - '@ms/sp-publishing-webparts.ICurrentUser.id'
+      - '@ms/sp-publishing-webparts.ICurrentUser.last_name'
+      - '@ms/sp-publishing-webparts.ICurrentUser.mugshot_url'
+      - '@ms/sp-publishing-webparts.ICurrentUser.mugshot_url_template'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ICurrentUser.first_name'
+    name: first_name
+    fullName: first_name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string first_name
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ICurrentUser.full_name'
+    name: full_name
+    fullName: full_name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string full_name
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ICurrentUser.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ICurrentUser.last_name'
+    name: last_name
+    fullName: last_name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string last_name
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ICurrentUser.mugshot_url'
+    name: mugshot_url
+    fullName: mugshot_url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string mugshot_url
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ICurrentUser.mugshot_url_template'
+    name: mugshot_url_template
+    fullName: mugshot_url_template
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string mugshot_url_template
+      return:
+        type:
+          - string

@@ -1,0 +1,120 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-check.BaseCondition'
+    name: BaseCondition
+    fullName: BaseCondition
+    children:
+      - '@ms/sp-check.BaseCondition.constructor'
+      - '@ms/sp-check.BaseCondition.check'
+      - '@ms/sp-check.BaseCondition.confirm'
+      - '@ms/sp-check.BaseCondition.execute'
+      - '@ms/sp-check.BaseCondition.pass'
+      - '@ms/sp-check.BaseCondition.title'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      A condition represents one state of the system that has to be
+      in a desired way to make the system work.
+      All conditions should be based on this BaseCondition.
+    package: '@ms/sp-check'
+  - uid: '@ms/sp-check.BaseCondition.constructor'
+    name: BaseCondition
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BaseCondition(title: string)'
+      parameters:
+        - id: title
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-check.BaseCondition.check'
+    name: check
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function check()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-check.IResult'
+  - uid: '@ms/sp-check.BaseCondition.confirm'
+    name: confirm
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function confirm(cl: ReadLine, question: string)'
+      parameters:
+        - id: cl
+          type:
+            - ReadLine
+          description: ''
+        - id: question
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<boolean>
+  - uid: '@ms/sp-check.BaseCondition.execute'
+    name: execute
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function execute(command: string, inheritIO?: boolean)'
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: inheritIO
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-check.BaseCondition.pass'
+    name: pass
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function pass(cl: ReadLine)'
+      parameters:
+        - id: cl
+          type:
+            - ReadLine
+          description: ''
+      return:
+        type:
+          - Promise<boolean>
+  - uid: '@ms/sp-check.BaseCondition.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

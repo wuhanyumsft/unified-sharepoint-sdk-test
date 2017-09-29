@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.PeopleLivePersonaCard'
+    name: PeopleLivePersonaCard
+    fullName: PeopleLivePersonaCard
+    children:
+      - '@ms/sp-people-webparts.PeopleLivePersonaCard.constructor'
+      - '@ms/sp-people-webparts.PeopleLivePersonaCard.TestIncludeScripts'
+      - '@ms/sp-people-webparts.PeopleLivePersonaCard.TestName'
+      - '@ms/sp-people-webparts.PeopleLivePersonaCard.TestOwner'
+      - '@ms/sp-people-webparts.PeopleLivePersonaCard.TestRun'
+      - '@ms/sp-people-webparts.PeopleLivePersonaCard.TestSetup'
+      - '@ms/sp-people-webparts.PeopleLivePersonaCard.TestTeardown'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-people-webparts'
+  - uid: '@ms/sp-people-webparts.PeopleLivePersonaCard.constructor'
+    name: PeopleLivePersonaCard
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PeopleLivePersonaCard(serverURL: string)'
+      parameters:
+        - id: serverURL
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-people-webparts.PeopleLivePersonaCard.TestIncludeScripts'
+    name: TestIncludeScripts
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestIncludeScripts()
+      parameters: []
+  - uid: '@ms/sp-people-webparts.PeopleLivePersonaCard.TestName'
+    name: TestName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestName()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.PeopleLivePersonaCard.TestOwner'
+    name: TestOwner
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestOwner()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.PeopleLivePersonaCard.TestRun'
+    name: TestRun
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestRun()
+      parameters: []
+  - uid: '@ms/sp-people-webparts.PeopleLivePersonaCard.TestSetup'
+    name: TestSetup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestSetup()
+      parameters: []
+  - uid: '@ms/sp-people-webparts.PeopleLivePersonaCard.TestTeardown'
+    name: TestTeardown
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestTeardown()
+      parameters: []

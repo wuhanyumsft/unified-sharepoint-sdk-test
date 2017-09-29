@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-connector-webparts.DataProviderId'
+    name: DataProviderId
+    fullName: DataProviderId
+    children:
+      - '@ms/sp-connector-webparts.DataProviderId.connector'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-connector-webparts'
+  - uid: '@ms/sp-connector-webparts.DataProviderId.connector'
+    name: connector
+    fullName: connector
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string connector
+      return:
+        type:
+          - string

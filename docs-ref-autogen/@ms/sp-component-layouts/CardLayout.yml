@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.CardLayout'
+    name: CardLayout
+    fullName: CardLayout
+    children:
+      - '@ms/sp-component-layouts.CardLayout.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-component-layouts.CardLayout<@@ms/sp-component-layouts.ICardLayoutProperties>
+    package: '@ms/sp-component-layouts'
+  - uid: '@ms/sp-component-layouts.CardLayout.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

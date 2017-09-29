@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ColumnsSelector'
+    name: ColumnsSelector
+    fullName: ColumnsSelector
+    children:
+      - '@ms/sp-tenant-admin-page.ColumnsSelector.constructor'
+      - '@ms/sp-tenant-admin-page.ColumnsSelector.getUpdatedColumnsSelector'
+      - '@ms/sp-tenant-admin-page.ColumnsSelector.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-tenant-admin-page.ColumnsSelector<@@ms/sp-tenant-admin-page.IColumnsSelectorProps>
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ColumnsSelector.constructor'
+    name: ColumnsSelector
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ColumnsSelector(props: IColumnsSelectorProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-tenant-admin-page.IColumnsSelectorProps'
+          description: ''
+  - uid: '@ms/sp-tenant-admin-page.ColumnsSelector.getUpdatedColumnsSelector'
+    name: getUpdatedColumnsSelector
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getUpdatedColumnsSelector()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.ColumnsSelector.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

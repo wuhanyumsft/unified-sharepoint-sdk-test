@@ -1,0 +1,100 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-client-preview.ErrorType'
+    name: ErrorType
+    fullName: ErrorType
+    children:
+      - '@microsoft/sp-client-preview.ErrorType.Argument'
+      - '@microsoft/sp-client-preview.ErrorType.ArgumentNull'
+      - '@microsoft/sp-client-preview.ErrorType.DirectoryNotFound'
+      - '@microsoft/sp-client-preview.ErrorType.FileNotFound'
+      - '@microsoft/sp-client-preview.ErrorType.HttpClientError'
+      - '@microsoft/sp-client-preview.ErrorType.HttpServerError'
+      - '@microsoft/sp-client-preview.ErrorType.JsonParseError'
+      - '@microsoft/sp-client-preview.ErrorType.RequestTimedOut'
+      - '@microsoft/sp-client-preview.ErrorType.SearchServiceNotAvailable'
+      - '@microsoft/sp-client-preview.ErrorType.UnAuthorized'
+      - '@microsoft/sp-client-preview.ErrorType.Unknown'
+    langs:
+      - typeScript
+    type: enum
+    summary: Represents the supported error types
+    package: '@microsoft/sp-client-preview'
+  - uid: '@microsoft/sp-client-preview.ErrorType.Argument'
+    name: Argument
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-client-preview.ErrorType.ArgumentNull'
+    name: ArgumentNull
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-client-preview.ErrorType.DirectoryNotFound'
+    name: DirectoryNotFound
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-client-preview.ErrorType.FileNotFound'
+    name: FileNotFound
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-client-preview.ErrorType.HttpClientError'
+    name: HttpClientError
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-client-preview.ErrorType.HttpServerError'
+    name: HttpServerError
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-client-preview.ErrorType.JsonParseError'
+    name: JsonParseError
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-client-preview.ErrorType.RequestTimedOut'
+    name: RequestTimedOut
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-client-preview.ErrorType.SearchServiceNotAvailable'
+    name: SearchServiceNotAvailable
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-client-preview.ErrorType.UnAuthorized'
+    name: UnAuthorized
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-client-preview.ErrorType.Unknown'
+    name: Unknown
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 10000

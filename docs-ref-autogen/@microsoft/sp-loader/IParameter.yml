@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.IParameter'
+    name: IParameter
+    fullName: IParameter
+    children:
+      - '@microsoft/sp-loader.IParameter.position'
+      - '@microsoft/sp-loader.IParameter.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.IParameter.position'
+    name: position
+    fullName: position
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number position
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-loader.IParameter.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string value
+      return:
+        type:
+          - string

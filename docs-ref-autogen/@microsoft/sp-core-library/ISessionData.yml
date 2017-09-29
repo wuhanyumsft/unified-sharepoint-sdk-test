@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.ISessionData'
+    name: ISessionData
+    fullName: ISessionData
+    children:
+      - '@microsoft/sp-core-library.ISessionData.applicationId'
+      - '@microsoft/sp-core-library.ISessionData.pageId'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface for properties neccesary for building a Session object.
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.ISessionData.applicationId'
+    name: applicationId
+    fullName: applicationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc Session.applicationId}'
+    syntax:
+      content: string applicationId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-core-library.ISessionData.pageId'
+    name: pageId
+    fullName: pageId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc Session.pageId}'
+    syntax:
+      content: string pageId
+      return:
+        type:
+          - string

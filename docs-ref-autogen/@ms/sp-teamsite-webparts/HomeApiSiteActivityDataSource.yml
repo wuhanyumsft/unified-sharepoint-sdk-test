@@ -1,0 +1,112 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.HomeApiSiteActivityDataSource'
+    name: HomeApiSiteActivityDataSource
+    fullName: HomeApiSiteActivityDataSource
+    children:
+      - '@ms/sp-teamsite-webparts.HomeApiSiteActivityDataSource.getAcronymData'
+      - '@ms/sp-teamsite-webparts.HomeApiSiteActivityDataSource.getActivities'
+      - >-
+        @ms/sp-teamsite-webparts.HomeApiSiteActivityDataSource.getAggregateActivities
+      - >-
+        @ms/sp-teamsite-webparts.HomeApiSiteActivityDataSource.getCreateWebActivity
+      - >-
+        @ms/sp-teamsite-webparts.HomeApiSiteActivityDataSource.getDefaultDocumentLibraryUrl
+      - '@ms/sp-teamsite-webparts.HomeApiSiteActivityDataSource.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.HomeApiSiteActivityDataSource.getAcronymData'
+    name: getAcronymData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getAcronymData()
+      parameters: []
+      return:
+        type:
+          - Promise<IAcronymColor>
+  - uid: '@ms/sp-teamsite-webparts.HomeApiSiteActivityDataSource.getActivities'
+    name: getActivities
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getActivities(queryParams: IActivityQueryParams)'
+      parameters:
+        - id: queryParams
+          type:
+            - '@@ms/sp-teamsite-webparts.IActivityQueryParams'
+          description: ''
+      return:
+        type:
+          - 'Promise<@@ms/sp-teamsite-webparts.IActivity[]>'
+  - uid: >-
+      @ms/sp-teamsite-webparts.HomeApiSiteActivityDataSource.getAggregateActivities
+    name: getAggregateActivities
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getAggregateActivities()
+      parameters: []
+      return:
+        type:
+          - 'Promise<@@ms/sp-teamsite-webparts.IActivityAggregate[]>'
+  - uid: >-
+      @ms/sp-teamsite-webparts.HomeApiSiteActivityDataSource.getCreateWebActivity
+    name: getCreateWebActivity
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCreateWebActivity()
+      parameters: []
+      return:
+        type:
+          - 'Promise<@@ms/sp-teamsite-webparts.IActivity[]>'
+  - uid: >-
+      @ms/sp-teamsite-webparts.HomeApiSiteActivityDataSource.getDefaultDocumentLibraryUrl
+    name: getDefaultDocumentLibraryUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getDefaultDocumentLibraryUrl()
+      parameters: []
+      return:
+        type:
+          - Promise<string>
+  - uid: '@ms/sp-teamsite-webparts.HomeApiSiteActivityDataSource.constructor'
+    name: HomeApiSiteActivityDataSource
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new HomeApiSiteActivityDataSource(context: PageContext, httpClient:
+        SPHttpClient)
+      parameters:
+        - id: context
+          type:
+            - PageContext
+          description: ''
+        - id: httpClient
+          type:
+            - SPHttpClient
+          description: ''

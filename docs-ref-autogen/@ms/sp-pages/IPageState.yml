@@ -1,0 +1,361 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IPageState'
+    name: IPageState
+    fullName: IPageState
+    children:
+      - '@ms/sp-pages.IPageState.actionType'
+      - '@ms/sp-pages.IPageState.chromeOptions'
+      - '@ms/sp-pages.IPageState.currentPageLayout'
+      - '@ms/sp-pages.IPageState.currentRoute'
+      - '@ms/sp-pages.IPageState.didTransition'
+      - '@ms/sp-pages.IPageState.editNavCloseCallback'
+      - '@ms/sp-pages.IPageState.editNavGroup'
+      - '@ms/sp-pages.IPageState.editNavParent'
+      - '@ms/sp-pages.IPageState.fields'
+      - '@ms/sp-pages.IPageState.fieldsToUpdate'
+      - '@ms/sp-pages.IPageState.forceUpdate'
+      - '@ms/sp-pages.IPageState.hasPageBeenRenamed'
+      - '@ms/sp-pages.IPageState.haveCanvasFieldsChanged'
+      - '@ms/sp-pages.IPageState.homePageDefaultContent'
+      - '@ms/sp-pages.IPageState.isFirstRun'
+      - '@ms/sp-pages.IPageState.isNavOnTop'
+      - '@ms/sp-pages.IPageState.mode'
+      - '@ms/sp-pages.IPageState.newLink'
+      - '@ms/sp-pages.IPageState.nextRoute'
+      - '@ms/sp-pages.IPageState.pageLayoutMap'
+      - '@ms/sp-pages.IPageState.pageStatus'
+      - '@ms/sp-pages.IPageState.pageTemplatesMap'
+      - '@ms/sp-pages.IPageState.renderDeferredComponents'
+      - '@ms/sp-pages.IPageState.saveStatus'
+      - '@ms/sp-pages.IPageState.showEditNav'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IPageState.actionType'
+    name: actionType
+    fullName: actionType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ActionTypes actionType
+      return:
+        type:
+          - ActionTypes
+  - uid: '@ms/sp-pages.IPageState.chromeOptions'
+    name: chromeOptions
+    fullName: chromeOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IChromeOptions chromeOptions
+      return:
+        type:
+          - IChromeOptions
+  - uid: '@ms/sp-pages.IPageState.currentPageLayout'
+    name: currentPageLayout
+    fullName: currentPageLayout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageLayoutType currentPageLayout
+      return:
+        type:
+          - '@@ms/sp-pages.ISitePageFieldData.PageLayoutType'
+  - uid: '@ms/sp-pages.IPageState.currentRoute'
+    name: currentRoute
+    fullName: currentRoute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string currentRoute
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IPageState.didTransition'
+    name: didTransition
+    fullName: didTransition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean didTransition
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IPageState.editNavCloseCallback'
+    name: editNavCloseCallback
+    fullName: editNavCloseCallback
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void editNavCloseCallback
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-pages.IPageState.editNavGroup'
+    name: editNavGroup
+    fullName: editNavGroup
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: INavLinkGroup editNavGroup
+      return:
+        type:
+          - INavLinkGroup
+  - uid: '@ms/sp-pages.IPageState.editNavParent'
+    name: editNavParent
+    fullName: editNavParent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Component<any> editNavParent
+      return:
+        type:
+          - Component<any>
+  - uid: '@ms/sp-pages.IPageState.fields'
+    name: fields
+    fullName: fields
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageFieldData fields
+      return:
+        type:
+          - '@@ms/sp-pages.PageFieldData'
+  - uid: '@ms/sp-pages.IPageState.fieldsToUpdate'
+    name: fieldsToUpdate
+    fullName: fieldsToUpdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: string]: string fieldsToUpdate'
+      return:
+        type:
+          - '[key: string]: string'
+  - uid: '@ms/sp-pages.IPageState.forceUpdate'
+    name: forceUpdate
+    fullName: forceUpdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean forceUpdate
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IPageState.hasPageBeenRenamed'
+    name: hasPageBeenRenamed
+    fullName: hasPageBeenRenamed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasPageBeenRenamed
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IPageState.haveCanvasFieldsChanged'
+    name: haveCanvasFieldsChanged
+    fullName: haveCanvasFieldsChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean haveCanvasFieldsChanged
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IPageState.homePageDefaultContent'
+    name: homePageDefaultContent
+    fullName: homePageDefaultContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string homePageDefaultContent
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IPageState.isFirstRun'
+    name: isFirstRun
+    fullName: isFirstRun
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isFirstRun
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IPageState.isNavOnTop'
+    name: isNavOnTop
+    fullName: isNavOnTop
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isNavOnTop
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IPageState.mode'
+    name: mode
+    fullName: mode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DisplayMode mode
+      return:
+        type:
+          - DisplayMode
+  - uid: '@ms/sp-pages.IPageState.newLink'
+    name: newLink
+    fullName: newLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: INavLink newLink
+      return:
+        type:
+          - INavLink
+  - uid: '@ms/sp-pages.IPageState.nextRoute'
+    name: nextRoute
+    fullName: nextRoute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string nextRoute
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IPageState.pageLayoutMap'
+    name: pageLayoutMap
+    fullName: pageLayoutMap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Map<string> pageLayoutMap
+      return:
+        type:
+          - Map<string>
+  - uid: '@ms/sp-pages.IPageState.pageStatus'
+    name: pageStatus
+    fullName: pageStatus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string pageStatus
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IPageState.pageTemplatesMap'
+    name: pageTemplatesMap
+    fullName: pageTemplatesMap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Map<string> pageTemplatesMap
+      return:
+        type:
+          - Map<string>
+  - uid: '@ms/sp-pages.IPageState.renderDeferredComponents'
+    name: renderDeferredComponents
+    fullName: renderDeferredComponents
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean renderDeferredComponents
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IPageState.saveStatus'
+    name: saveStatus
+    fullName: saveStatus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageSaveStatus saveStatus
+      return:
+        type:
+          - PageSaveStatus
+  - uid: '@ms/sp-pages.IPageState.showEditNav'
+    name: showEditNav
+    fullName: showEditNav
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showEditNav
+      return:
+        type:
+          - boolean

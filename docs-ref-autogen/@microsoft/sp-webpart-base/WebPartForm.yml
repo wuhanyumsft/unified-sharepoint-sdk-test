@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.WebPartForm'
+    name: WebPartForm
+    fullName: WebPartForm
+    children:
+      - '@microsoft/sp-webpart-base.WebPartForm.render'
+      - '@microsoft/sp-webpart-base.WebPartForm.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      The WebPartForm class is used to make <form/> tag be compatible with
+      SharePoint classic page.
+    extends:
+      name: >-
+        @@microsoft/sp-webpart-base.WebPartForm<@@microsoft/sp-webpart-base.IWebPartFormProps>
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.WebPartForm.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@microsoft/sp-webpart-base.WebPartForm.constructor'
+    name: WebPartForm
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new WebPartForm(props: IWebPartFormProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@microsoft/sp-webpart-base.IWebPartFormProps'
+          description: ''

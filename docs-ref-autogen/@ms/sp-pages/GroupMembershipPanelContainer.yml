@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.GroupMembershipPanelContainer'
+    name: GroupMembershipPanelContainer
+    fullName: GroupMembershipPanelContainer
+    children:
+      - '@ms/sp-pages.GroupMembershipPanelContainer.componentDidMount'
+      - '@ms/sp-pages.GroupMembershipPanelContainer.componentWillUnmount'
+      - '@ms/sp-pages.GroupMembershipPanelContainer.constructor'
+      - '@ms/sp-pages.GroupMembershipPanelContainer.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-pages.GroupMembershipPanelContainer<@@ms/sp-pages.IGroupMembershipPanelContainerProps>
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.GroupMembershipPanelContainer.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-pages.GroupMembershipPanelContainer.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-pages.GroupMembershipPanelContainer.constructor'
+    name: GroupMembershipPanelContainer
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new GroupMembershipPanelContainer(props:
+        IGroupMembershipPanelContainerProps)
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.IGroupMembershipPanelContainerProps'
+          description: ''
+  - uid: '@ms/sp-pages.GroupMembershipPanelContainer.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

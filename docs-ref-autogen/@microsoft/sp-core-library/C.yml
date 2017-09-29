@@ -1,0 +1,68 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.C'
+    name: C
+    fullName: C
+    children:
+      - '@microsoft/sp-core-library.C.a'
+      - '@microsoft/sp-core-library.C.b'
+      - '@microsoft/sp-core-library.C.constructor'
+      - '@microsoft/sp-core-library.C.name'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.C.a'
+    name: a
+    fullName: a
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: A a
+      return:
+        type:
+          - '@@microsoft/sp-core-library.A'
+  - uid: '@microsoft/sp-core-library.C.b'
+    name: b
+    fullName: b
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: B b
+      return:
+        type:
+          - '@@microsoft/sp-core-library.B'
+  - uid: '@microsoft/sp-core-library.C.constructor'
+    name: C
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new C(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - '@@microsoft/sp-core-library.ServiceScope'
+          description: ''
+  - uid: '@microsoft/sp-core-library.C.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string

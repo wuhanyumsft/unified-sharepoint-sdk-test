@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IRestResult'
+    name: IRestResult
+    fullName: IRestResult
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.IRestResult.retVal'
+      - '@ms/sp-tab-tasklib.SPTaskLib.IRestResult.success'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IRestResult.retVal'
+    name: retVal
+    fullName: retVal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Response text, parsed.'
+    syntax:
+      content: any retVal
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IRestResult.success'
+    name: success
+    fullName: success
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the request was successful.
+    syntax:
+      content: boolean success
+      return:
+        type:
+          - boolean

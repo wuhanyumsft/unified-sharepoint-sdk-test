@@ -1,0 +1,71 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.ILogEntry'
+    name: ILogEntry
+    fullName: ILogEntry
+    children:
+      - '@ms/sp-telemetry.ILogEntry.logFeature'
+      - '@ms/sp-telemetry.ILogEntry.logProperties'
+      - '@ms/sp-telemetry.ILogEntry.logType'
+      - '@ms/sp-telemetry.ILogEntry.moduleName'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.ILogEntry.logFeature'
+    name: logFeature
+    fullName: logFeature
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The feature associated with this entry
+    syntax:
+      content: string logFeature
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.ILogEntry.logProperties'
+    name: logProperties
+    fullName: logProperties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The optional property bag
+    syntax:
+      content: '[key: string]: string logProperties'
+      return:
+        type:
+          - '[key: string]: string'
+  - uid: '@ms/sp-telemetry.ILogEntry.logType'
+    name: logType
+    fullName: logType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The log type
+
+      todo: dkholo:task#356773 perform a cleanup after data format validation
+      confirmation
+    syntax:
+      content: LogType logType
+      return:
+        type:
+          - LogType
+  - uid: '@ms/sp-telemetry.ILogEntry.moduleName'
+    name: moduleName
+    fullName: moduleName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name of the module associated with this entry
+    syntax:
+      content: string moduleName
+      return:
+        type:
+          - string

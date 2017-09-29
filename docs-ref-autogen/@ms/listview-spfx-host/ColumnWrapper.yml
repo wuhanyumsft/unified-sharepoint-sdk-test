@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/listview-spfx-host.ColumnWrapper'
+    name: ColumnWrapper
+    fullName: ColumnWrapper
+    children:
+      - '@ms/listview-spfx-host.ColumnWrapper.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/listview-spfx-host.ColumnWrapper'
+    package: '@ms/listview-spfx-host'
+  - uid: '@ms/listview-spfx-host.ColumnWrapper.constructor'
+    name: ColumnWrapper
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ColumnWrapper(adapter: ColumnAdapter)'
+      parameters:
+        - id: adapter
+          type:
+            - '@@ms/listview-spfx-host.ColumnAdapter'
+          description: ''

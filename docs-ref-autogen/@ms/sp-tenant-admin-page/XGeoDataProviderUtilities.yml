@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.XGeoDataProviderUtilities'
+    name: XGeoDataProviderUtilities
+    fullName: XGeoDataProviderUtilities
+    children:
+      - >-
+        @ms/sp-tenant-admin-page.XGeoDataProviderUtilities.GetGeoLocationInformationCollection
+      - '@ms/sp-tenant-admin-page.XGeoDataProviderUtilities.GetGeoQuotaData'
+      - '@ms/sp-tenant-admin-page.XGeoDataProviderUtilities.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-tenant-admin-page.HttpRequestSPOResourceBase'
+    package: '@ms/sp-tenant-admin-page'
+  - uid: >-
+      @ms/sp-tenant-admin-page.XGeoDataProviderUtilities.GetGeoLocationInformationCollection
+    name: GetGeoLocationInformationCollection
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function GetGeoLocationInformationCollection()
+      parameters: []
+      return:
+        type:
+          - 'Promise<@@ms/sp-tenant-admin-page.IGeoLocationInformation[]>'
+  - uid: '@ms/sp-tenant-admin-page.XGeoDataProviderUtilities.GetGeoQuotaData'
+    name: GetGeoQuotaData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function GetGeoQuotaData()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-tenant-admin-page.IStorageQuotaData>
+  - uid: '@ms/sp-tenant-admin-page.XGeoDataProviderUtilities.constructor'
+    name: XGeoDataProviderUtilities
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new XGeoDataProviderUtilities()
+      parameters: []

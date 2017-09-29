@@ -1,0 +1,249 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IHeroProps'
+    name: IHeroProps
+    fullName: IHeroProps
+    children:
+      - '@ms/sp-publishing-webparts.IHeroProps.activeItemIndex'
+      - '@ms/sp-publishing-webparts.IHeroProps.carouselComponentClass'
+      - '@ms/sp-publishing-webparts.IHeroProps.edit'
+      - '@ms/sp-publishing-webparts.IHeroProps.heroPatternComponentClass'
+      - '@ms/sp-publishing-webparts.IHeroProps.isCarousel'
+      - '@ms/sp-publishing-webparts.IHeroProps.isForceUpdate'
+      - '@ms/sp-publishing-webparts.IHeroProps.onAddItem'
+      - '@ms/sp-publishing-webparts.IHeroProps.onChangeInCarousel'
+      - '@ms/sp-publishing-webparts.IHeroProps.onDeleteItem'
+      - '@ms/sp-publishing-webparts.IHeroProps.onEditItem'
+      - '@ms/sp-publishing-webparts.IHeroProps.onLoad'
+      - '@ms/sp-publishing-webparts.IHeroProps.onLoadError'
+      - '@ms/sp-publishing-webparts.IHeroProps.onReorder'
+      - '@ms/sp-publishing-webparts.IHeroProps.renderCompleted'
+      - '@ms/sp-publishing-webparts.IHeroProps.serviceScope'
+      - '@ms/sp-publishing-webparts.IHeroProps.webPartProps'
+      - '@ms/sp-publishing-webparts.IHeroProps.webPartWidth'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IHeroProps.activeItemIndex'
+    name: activeItemIndex
+    fullName: activeItemIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number activeItemIndex
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IHeroProps.carouselComponentClass'
+    name: carouselComponentClass
+    fullName: carouselComponentClass
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ComponentClass<ICarouselProps> carouselComponentClass
+      return:
+        type:
+          - ComponentClass<ICarouselProps>
+  - uid: '@ms/sp-publishing-webparts.IHeroProps.edit'
+    name: edit
+    fullName: edit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean edit
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IHeroProps.heroPatternComponentClass'
+    name: heroPatternComponentClass
+    fullName: heroPatternComponentClass
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ComponentClass<IHeroPatternProps> heroPatternComponentClass
+      return:
+        type:
+          - ComponentClass<IHeroPatternProps>
+  - uid: '@ms/sp-publishing-webparts.IHeroProps.isCarousel'
+    name: isCarousel
+    fullName: isCarousel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isCarousel
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IHeroProps.isForceUpdate'
+    name: isForceUpdate
+    fullName: isForceUpdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isForceUpdate
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IHeroProps.onAddItem'
+    name: onAddItem
+    fullName: onAddItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(index: number, image: IImageProperties) => void onAddItem'
+      return:
+        type:
+          - '(index: number, image: IImageProperties) => void'
+  - uid: '@ms/sp-publishing-webparts.IHeroProps.onChangeInCarousel'
+    name: onChangeInCarousel
+    fullName: onChangeInCarousel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(index: number) => void onChangeInCarousel'
+      return:
+        type:
+          - '(index: number) => void'
+  - uid: '@ms/sp-publishing-webparts.IHeroProps.onDeleteItem'
+    name: onDeleteItem
+    fullName: onDeleteItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(index: number) => void onDeleteItem'
+      return:
+        type:
+          - '(index: number) => void'
+  - uid: '@ms/sp-publishing-webparts.IHeroProps.onEditItem'
+    name: onEditItem
+    fullName: onEditItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(index: number) => void onEditItem'
+      return:
+        type:
+          - '(index: number) => void'
+  - uid: '@ms/sp-publishing-webparts.IHeroProps.onLoad'
+    name: onLoad
+    fullName: onLoad
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(index: number, isCustomImage: boolean) => void onLoad'
+      return:
+        type:
+          - '(index: number, isCustomImage: boolean) => void'
+  - uid: '@ms/sp-publishing-webparts.IHeroProps.onLoadError'
+    name: onLoadError
+    fullName: onLoadError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(index: number, isCustomImage: boolean) => void onLoadError'
+      return:
+        type:
+          - '(index: number, isCustomImage: boolean) => void'
+  - uid: '@ms/sp-publishing-webparts.IHeroProps.onReorder'
+    name: onReorder
+    fullName: onReorder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(oldIndex: number, newIndex: number) => void onReorder'
+      return:
+        type:
+          - '(oldIndex: number, newIndex: number) => void'
+  - uid: '@ms/sp-publishing-webparts.IHeroProps.renderCompleted'
+    name: renderCompleted
+    fullName: renderCompleted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void renderCompleted
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-publishing-webparts.IHeroProps.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope
+  - uid: '@ms/sp-publishing-webparts.IHeroProps.webPartProps'
+    name: webPartProps
+    fullName: webPartProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IHeroWebPartProperties webPartProps
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IHeroWebPartProperties'
+  - uid: '@ms/sp-publishing-webparts.IHeroProps.webPartWidth'
+    name: webPartWidth
+    fullName: webPartWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number webPartWidth
+      return:
+        type:
+          - number

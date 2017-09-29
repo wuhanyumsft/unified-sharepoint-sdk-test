@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/evergreen.Footer'
+    name: Footer
+    fullName: Footer
+    children:
+      - '@ms/evergreen.Footer.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/evergreen.Footer<@@ms/evergreen.IEvergreenEmailProps>'
+    package: '@ms/evergreen'
+  - uid: '@ms/evergreen.Footer.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

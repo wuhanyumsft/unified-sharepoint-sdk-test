@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IRefData'
+    name: IRefData
+    fullName: IRefData
+    children:
+      - '@ms/sp-publishing-webparts.IRefData.groups'
+      - '@ms/sp-publishing-webparts.IRefData.networks'
+      - '@ms/sp-publishing-webparts.IRefData.users'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IRefData.groups'
+    name: groups
+    fullName: groups
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IAttrs groups
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IAttrs'
+  - uid: '@ms/sp-publishing-webparts.IRefData.networks'
+    name: networks
+    fullName: networks
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IAttrs networks
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IAttrs'
+  - uid: '@ms/sp-publishing-webparts.IRefData.users'
+    name: users
+    fullName: users
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IAttrs users
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IAttrs'

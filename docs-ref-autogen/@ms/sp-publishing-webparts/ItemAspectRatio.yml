@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ItemAspectRatio'
+    name: ItemAspectRatio
+    fullName: ItemAspectRatio
+    children:
+      - '@ms/sp-publishing-webparts.ItemAspectRatio.Square'
+      - '@ms/sp-publishing-webparts.ItemAspectRatio.Wide'
+      - '@ms/sp-publishing-webparts.ItemAspectRatio.Standard'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ItemAspectRatio.Square'
+    name: Square
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-publishing-webparts.ItemAspectRatio.Wide'
+    name: Wide
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+  - uid: '@ms/sp-publishing-webparts.ItemAspectRatio.Standard'
+    name: Standard
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3

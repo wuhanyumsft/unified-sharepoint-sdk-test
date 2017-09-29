@@ -1,0 +1,383 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.MySiteWebPartCacheHelper'
+    name: MySiteWebPartCacheHelper
+    fullName: MySiteWebPartCacheHelper
+    children:
+      - '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.addSecondsToDate'
+      - '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.checkFolderStatus'
+      - '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.checkStatus'
+      - '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.dateTimeStringToJsDate'
+      - '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.generateHash'
+      - '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.getCreateItemBody'
+      - '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.getDateNowAsUTC'
+      - '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.getRemoteItemCreateUrl'
+      - '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.getRemoteItemUpdateUrl'
+      - >-
+        @ms/sp-webpart-shared.MySiteWebPartCacheHelper.getRemoteSubfolderCreateUrl
+      - '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.getUpdateItemBody'
+      - '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.getUrlLastSegment'
+      - '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.getUrlWithoutLastSegment'
+      - '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.isExpired'
+      - '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.post'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.addSecondsToDate'
+    name: addSecondsToDate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get a Date with seconds added.
+    syntax:
+      content: 'static function addSecondsToDate(date: Date, seconds: number)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: The Date to add seconds to.
+        - id: seconds
+          type:
+            - number
+          description: |
+            The seconds to add to the Date.
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.checkFolderStatus'
+    name: checkFolderStatus
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Checks the status of a response and resolves/rejects the Promise.
+      Note: Because of a folder creation bug, 500 is a valid response.
+    syntax:
+      content: 'static function checkFolderStatus(response: Response)'
+      parameters:
+        - id: response
+          type:
+            - Response
+          description: ''
+      return:
+        type:
+          - Promise<Response>
+  - uid: '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.checkStatus'
+    name: checkStatus
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Checks the status of a response and resolves/rejects the Promise.
+    syntax:
+      content: 'static function checkStatus(response: Response)'
+      parameters:
+        - id: response
+          type:
+            - Response
+          description: ''
+      return:
+        type:
+          - Promise<Response>
+  - uid: '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.dateTimeStringToJsDate'
+    name: dateTimeStringToJsDate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Convert date string format like 2016-08-24T23:13:18.97-07:00 to Date
+      object.
+    syntax:
+      content: 'static function dateTimeStringToJsDate(dateTime: string)'
+      parameters:
+        - id: dateTime
+          type:
+            - string
+          description: |
+            A date string like 2016-08-24T23:13:18.97-07:00
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.generateHash'
+    name: generateHash
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Create an MD5 hash from an input string.
+    syntax:
+      content: 'static function generateHash(stringToHash: string)'
+      parameters:
+        - id: stringToHash
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.getCreateItemBody'
+    name: getCreateItemBody
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates a JSON body for creating a WebPart Cache Item.
+    syntax:
+      content: >-
+        static function getCreateItemBody(webRelativeFolderPath: string, title:
+        string, value: string, hash: string)
+      parameters:
+        - id: webRelativeFolderPath
+          type:
+            - string
+          description: Web relative folder path for the cache item.
+        - id: title
+          type:
+            - string
+          description: Title of the cache item.
+        - id: value
+          type:
+            - string
+          description: Value of the result to be cached.
+        - id: hash
+          type:
+            - string
+          description: |
+            Hash of the config to be cached.
+      return:
+        type:
+          - __type
+  - uid: '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.getDateNowAsUTC'
+    name: getDateNowAsUTC
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Create an UTC Date object (time -> Now).
+    syntax:
+      content: static function getDateNowAsUTC()
+      parameters: []
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.getRemoteItemCreateUrl'
+    name: getRemoteItemCreateUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Creates a REST url for creating an item at the specified Remote folder
+      location.
+    syntax:
+      content: >-
+        static function getRemoteItemCreateUrl(currentWebAbsoluteUrl: string,
+        remoteWebAbsoluteUrl: string, webRelativeListPath: string)
+      parameters:
+        - id: currentWebAbsoluteUrl
+          type:
+            - string
+          description: Absolute web url of the current context.
+        - id: remoteWebAbsoluteUrl
+          type:
+            - string
+          description: Absolute web url of the target remote web.
+        - id: webRelativeListPath
+          type:
+            - string
+          description: |
+            Relative url of the folder to create the item in.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.getRemoteItemUpdateUrl'
+    name: getRemoteItemUpdateUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates a REST url for updating a Remote item.
+    syntax:
+      content: >-
+        static function getRemoteItemUpdateUrl(currentWebAbsoluteUrl: string,
+        remoteWebAbsoluteUrl: string, webRelativeListPath: string, itemID:
+        string)
+      parameters:
+        - id: currentWebAbsoluteUrl
+          type:
+            - string
+          description: Absolute web url of the current context.
+        - id: remoteWebAbsoluteUrl
+          type:
+            - string
+          description: Absolute web url of the target remote web.
+        - id: webRelativeListPath
+          type:
+            - string
+          description: Relative url of the folder to create the item in.
+        - id: itemID
+          type:
+            - string
+          description: |
+            The target SharePoint item ID.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.getRemoteSubfolderCreateUrl'
+    name: getRemoteSubfolderCreateUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Creates a REST url for creating a subfolder at the specified Remote folder
+      location.
+    syntax:
+      content: >-
+        static function getRemoteSubfolderCreateUrl(currentWebAbsoluteUrl:
+        string, remoteWebAbsoluteUrl: string, remoteParentFolderRelativeUrl:
+        string, remoteFolderName: string)
+      parameters:
+        - id: currentWebAbsoluteUrl
+          type:
+            - string
+          description: Absolute web url of the current context.
+        - id: remoteWebAbsoluteUrl
+          type:
+            - string
+          description: Absolute web url of the target remote web.
+        - id: remoteParentFolderRelativeUrl
+          type:
+            - string
+          description: Relative url of the folder to create the subfolder in.
+        - id: remoteFolderName
+          type:
+            - string
+          description: |
+            Title of the remote subfolder to be created.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.getUpdateItemBody'
+    name: getUpdateItemBody
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates a JSON body for updating a WebPart Cache Item.
+    syntax:
+      content: 'static function getUpdateItemBody(value: string, hash: string)'
+      parameters:
+        - id: value
+          type:
+            - string
+          description: Value of the result to be cached.
+        - id: hash
+          type:
+            - string
+          description: |
+            Hash of the config to be cached.
+      return:
+        type:
+          - __type
+  - uid: '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.getUrlLastSegment'
+    name: getUrlLastSegment
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Retrieves the last uri segment.
+    syntax:
+      content: 'static function getUrlLastSegment(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: |
+            The target url.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.getUrlWithoutLastSegment'
+    name: getUrlWithoutLastSegment
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Retrieves the url, minus the last segment.'
+    syntax:
+      content: 'static function getUrlWithoutLastSegment(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: |
+            The target url.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.isExpired'
+    name: isExpired
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Compare a date with a date plus seconds added.
+    syntax:
+      content: >-
+        static function isExpired(referenceDate: Date, dateToCompare: Date,
+        secondsToAdd: number)
+      parameters:
+        - id: referenceDate
+          type:
+            - Date
+          description: The Date to add seconds to.
+        - id: dateToCompare
+          type:
+            - Date
+          description: The Date to compare to reference you will add seconds to.
+        - id: secondsToAdd
+          type:
+            - number
+          description: |
+            A number of seconds to add to dateToCompare.
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-webpart-shared.MySiteWebPartCacheHelper.post'
+    name: post
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Posts to SPHTTPClient
+    syntax:
+      content: >-
+        static function post(spHttpClient: SPHttpClient, url: string, body:
+        __type, checkStatusFunction: (response: Response) => Promise<Response>)
+      parameters:
+        - id: spHttpClient
+          type:
+            - SPHttpClient
+          description: The SPHttpClient object to post with.
+        - id: url
+          type:
+            - string
+          description: The url to post to.
+        - id: body
+          type:
+            - __type
+          description: |
+            The body to post with.
+        - id: checkStatusFunction
+          type:
+            - '(response: Response) => Promise<Response>'
+          description: ''
+      return:
+        type:
+          - Promise<Response>

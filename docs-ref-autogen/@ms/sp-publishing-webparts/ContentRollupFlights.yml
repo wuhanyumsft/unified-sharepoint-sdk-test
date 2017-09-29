@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ContentRollupFlights'
+    name: ContentRollupFlights
+    fullName: ContentRollupFlights
+    children:
+      - '@ms/sp-publishing-webparts.ContentRollupFlights.isAdvancedQueryEnabled'
+      - >-
+        @ms/sp-publishing-webparts.ContentRollupFlights.isCustomManagedPropertyEnabled
+      - '@ms/sp-publishing-webparts.ContentRollupFlights.isDocLibFiltersEnabled'
+      - '@ms/sp-publishing-webparts.ContentRollupFlights.isSearchVariableEnabled'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ContentRollupFlights.isAdvancedQueryEnabled'
+    name: isAdvancedQueryEnabled
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function isAdvancedQueryEnabled()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: >-
+      @ms/sp-publishing-webparts.ContentRollupFlights.isCustomManagedPropertyEnabled
+    name: isCustomManagedPropertyEnabled
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function isCustomManagedPropertyEnabled()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ContentRollupFlights.isDocLibFiltersEnabled'
+    name: isDocLibFiltersEnabled
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function isDocLibFiltersEnabled()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ContentRollupFlights.isSearchVariableEnabled'
+    name: isSearchVariableEnabled
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function isSearchVariableEnabled()
+      parameters: []
+      return:
+        type:
+          - boolean

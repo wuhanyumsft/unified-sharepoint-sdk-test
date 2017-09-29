@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.ClassicPageUtils'
+    name: ClassicPageUtils
+    fullName: ClassicPageUtils
+    children:
+      - '@microsoft/sp-webpart-base.ClassicPageUtils.disableAutomaticPostbacks'
+      - '@microsoft/sp-webpart-base.ClassicPageUtils.removeFabricLinks'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Utility class to help fixup web part DOM in classic pages to make the
+      behaviour consistent.
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.ClassicPageUtils.disableAutomaticPostbacks'
+    name: disableAutomaticPostbacks
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Disable all automatic postbacks by button clicks or enter in an input tag.
+    syntax:
+      content: >-
+        static function disableAutomaticPostbacks(domElement: HTMLElement, env:
+        EnvironmentType)
+      parameters:
+        - id: domElement
+          type:
+            - HTMLElement
+          description: ''
+        - id: env
+          type:
+            - EnvironmentType
+          description: ''
+  - uid: '@microsoft/sp-webpart-base.ClassicPageUtils.removeFabricLinks'
+    name: removeFabricLinks
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Method to remove the unwanted old fabric styles from the page, which are
+      being injected from the
+
+      server side. Permanent fix would be remove the server side injection.
+    syntax:
+      content: static function removeFabricLinks()
+      parameters: []

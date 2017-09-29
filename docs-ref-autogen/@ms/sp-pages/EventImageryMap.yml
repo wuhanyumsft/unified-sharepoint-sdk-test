@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.EventImageryMap'
+    name: EventImageryMap
+    fullName: EventImageryMap
+    children:
+      - '@ms/sp-pages.EventImageryMap.focus'
+      - '@ms/sp-pages.EventImageryMap.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.EventImageryMap<@@ms/sp-pages.IEventImageryMapProps>'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.EventImageryMap.focus'
+    name: focus
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+  - uid: '@ms/sp-pages.EventImageryMap.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

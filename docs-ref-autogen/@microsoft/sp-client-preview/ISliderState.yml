@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-client-preview.ISliderState'
+    name: ISliderState
+    fullName: ISliderState
+    children:
+      - '@microsoft/sp-client-preview.ISliderState.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-client-preview'
+  - uid: '@microsoft/sp-client-preview.ISliderState.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number value
+      return:
+        type:
+          - number

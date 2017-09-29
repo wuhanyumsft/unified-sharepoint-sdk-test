@@ -1,0 +1,106 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.ResxToLcgTask'
+    name: ResxToLcgTask
+    fullName: ResxToLcgTask
+    children:
+      - '@ms/sp-build-internal-tasks.ResxToLcgTask.executeTask'
+      - '@ms/sp-build-internal-tasks.ResxToLcgTask.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >+
+      This task runs the LsBuild tool on a resx file to generate an LCG which is
+      exported to the translation team.
+
+      It creates the LCG file in the same directory and with the same name,
+      appending the .lcg extension
+
+      This is primarily based on code from onedrive-buildtools:
+
+      https://onedrive.visualstudio.com/DefaultCollection/OneDriveWeb/_git/onedrive-buildtools?path=%2Fsrc%2Ftasks%2Fgroups%2FIntl.ts&version=GBmaster&_a=contents
+
+
+      Example:
+       IN:
+        strings.resx:
+         <?xml version="1.0" encoding="utf-8"?>
+         <root>
+           <data name="ReadOnlyPropertyError;_jkhiksfd89IDasfjas23s8;sp-client-preview" xml:space="preserve">
+             <value>Readonly property</value>
+             <comment>[Tag:ODSP-SPPPLAT-WebPartInfra]Error value for attempting to change readonly properties</comment>
+           </data>
+           <data name="ConstructLog;_U28jNPwxmKZCuLriuvlabw;sp-client-preview" xml:space="preserve">
+             <value>Constructed web part: {0}</value>
+             <comment>[Tag:ODSP-SPPPLAT-WebPartInfra]Log when webpart is constructed. {0} is webpart instance id.</comment>
+           </data>
+           <data name="PageErrorNotCheckedOut;_mSdKMOgUL8v6Mp9UyU4jkA;apps/sp-pages" xml:space="preserve">
+             <value>Failed to save the change, the page may not be checked out.</value>
+             <comment>[Tag:ODSP-WEX-SPPage]Error message when trying to save the page without being checked out.</comment>
+           </data>
+         </root>
+
+       OUT:
+        dist/strings.resx.lcg:
+         <?xml version="1.0" encoding="utf-8"?>
+         <LCX SchemaVersion="6.0" Name="F:\src\wp\sp-client\tools\sp-client-utilities\dist\strings.resx" PsrId="211" FileType="1" SrcCul="en-US" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+           <OwnedComments>
+             <Cmt Name="Dev" />
+             <Cmt Name="LcxAdmin" />
+             <Cmt Name="Rccx" />
+           </OwnedComments>
+           <Settings Name="@SettingsPath@\global\global.lsconfig" Type="Config" />
+           <Item ItemId=";strings.resx" ItemType="0" PsrId="211" Leaf="false">
+             <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+             <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+               <Disp Icon="Str" Disp="true" LocTbl="false" />
+               <Item ItemId=";ReadOnlyPropertyError;_jkhiksfd89IDasfjas23s8;sp-client-preview" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+                 <Str Cat="Text">
+                   <Val><![CDATA[Failed to save the change, the page may not be checked out.]]></Val>
+                 </Str>
+                 <Disp Icon="Str" />
+                 <Cmts>
+                   <Cmt Name="Dev"><![CDATA[[Tag:ODSP-SPPPLAT-WebPartInfra]Error value for attempting to change readonly properties]]></Cmt>
+                 </Cmts>
+               </Item>
+               ...
+               ...
+             </Item>
+           </Item>
+         </LCX>
+
+    extends:
+      name: >-
+        @@ms/sp-build-internal-tasks.LocalizeGulpTask<@@ms/sp-build-internal-tasks.IResxToLcgConfig>
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.ResxToLcgTask.executeTask'
+    name: executeTask
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function executeTask(gulp: any, done: (error?: string) => void)'
+      parameters:
+        - id: gulp
+          type:
+            - any
+          description: ''
+        - id: done
+          type:
+            - '(error?: string) => void'
+          description: ''
+      return:
+        type:
+          - ReadWriteStream
+  - uid: '@ms/sp-build-internal-tasks.ResxToLcgTask.constructor'
+    name: ResxToLcgTask
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new ResxToLcgTask()
+      parameters: []

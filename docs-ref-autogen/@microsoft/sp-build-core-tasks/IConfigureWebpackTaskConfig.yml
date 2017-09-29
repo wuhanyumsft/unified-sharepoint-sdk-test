@@ -1,0 +1,144 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig'
+    name: IConfigureWebpackTaskConfig
+    fullName: IConfigureWebpackTaskConfig
+    children:
+      - >-
+        @microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig.additionalConfiguration
+      - >-
+        @microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig.configureExternalBundlingWebpackTask
+      - '@microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig.libraryName'
+      - '@microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig.libraryTarget'
+      - >-
+        @microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig.linkedExternalsToBundle
+      - >-
+        @microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig.statsObjectsDropLocation
+      - '@microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig.webpack'
+      - >-
+        @microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig.webpackPublicPathOptions
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: >-
+      @microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig.additionalConfiguration
+    name: additionalConfiguration
+    fullName: additionalConfiguration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An optional callback can be provided that allows the generated webpack
+      configuration to be modified.
+    syntax:
+      content: >-
+        (generatedConfiguration: Configuration) => Configuration
+        additionalConfiguration
+      return:
+        type:
+          - '(generatedConfiguration: Configuration) => Configuration'
+  - uid: >-
+      @microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig.configureExternalBundlingWebpackTask
+    name: configureExternalBundlingWebpackTask
+    fullName: configureExternalBundlingWebpackTask
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        ConfigureExternalBundlingWebpackTask
+        configureExternalBundlingWebpackTask
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.ConfigureExternalBundlingWebpackTask'
+  - uid: '@microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig.libraryName'
+    name: libraryName
+    fullName: libraryName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string libraryName
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig.libraryTarget'
+    name: libraryTarget
+    fullName: libraryTarget
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function libraryTarget
+      return:
+        type:
+          - function
+  - uid: >-
+      @microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig.linkedExternalsToBundle
+    name: linkedExternalsToBundle
+    fullName: linkedExternalsToBundle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An optional list of linked externals to include. For example, if you want
+      to bundle react, list "react" in this
+       array. This is only designed to be used in very special cases and is not intended to be used regularly.
+    syntax:
+      content: 'string[] linkedExternalsToBundle'
+      return:
+        type:
+          - 'string[]'
+  - uid: >-
+      @microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig.statsObjectsDropLocation
+    name: statsObjectsDropLocation
+    fullName: statsObjectsDropLocation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If set, drop the webpack stats object and visualization in this directory
+      in addition to the temp directory.
+    syntax:
+      content: string statsObjectsDropLocation
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig.webpack'
+    name: webpack
+    fullName: webpack
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: WebpackTask webpack
+      return:
+        type:
+          - WebpackTask
+  - uid: >-
+      @microsoft/sp-build-core-tasks.IConfigureWebpackTaskConfig.webpackPublicPathOptions
+    name: webpackPublicPathOptions
+    fullName: webpackPublicPathOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISetWebpackPublicPathPluginOptions webpackPublicPathOptions
+      return:
+        type:
+          - ISetWebpackPublicPathPluginOptions

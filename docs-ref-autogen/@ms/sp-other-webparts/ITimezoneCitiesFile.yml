@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-other-webparts.ITimezoneCitiesFile'
+    name: ITimezoneCitiesFile
+    fullName: ITimezoneCitiesFile
+    children:
+      - '@ms/sp-other-webparts.ITimezoneCitiesFile.pathToCity'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-other-webparts'
+  - uid: '@ms/sp-other-webparts.ITimezoneCitiesFile.pathToCity'
+    name: pathToCity
+    fullName: pathToCity
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ITimezoneCities pathToCity
+      return:
+        type:
+          - '@@ms/sp-other-webparts.ITimezoneCities'

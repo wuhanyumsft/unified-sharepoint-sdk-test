@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-web.IIdentifier'
+    name: IIdentifier
+    fullName: IIdentifier
+    children:
+      - '@ms/sp-build-internal-web.IIdentifier.export'
+      - '@ms/sp-build-internal-web.IIdentifier.exportMap'
+      - '@ms/sp-build-internal-web.IIdentifier.exportPackage'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-build-internal-web'
+  - uid: '@ms/sp-build-internal-web.IIdentifier.export'
+    name: export
+    fullName: export
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The name of a single export from the base package. This option is mutually
+      exclusive to the others.
+    syntax:
+      content: string export
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-web.IIdentifier.exportMap'
+    name: exportMap
+    fullName: exportMap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A map of exports on the base package to the names to re-export.
+    syntax:
+      content: '[key: string]: string exportMap'
+      return:
+        type:
+          - '[key: string]: string'
+  - uid: '@ms/sp-build-internal-web.IIdentifier.exportPackage'
+    name: exportPackage
+    fullName: exportPackage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Export the base package.
+    syntax:
+      content: boolean exportPackage
+      return:
+        type:
+          - boolean

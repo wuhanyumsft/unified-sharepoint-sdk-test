@@ -1,0 +1,139 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.IBingImageSearchItem'
+    name: IBingImageSearchItem
+    fullName: IBingImageSearchItem
+    children:
+      - '@ms/sp-webpart-shared.IBingImageSearchItem.contentSize'
+      - '@ms/sp-webpart-shared.IBingImageSearchItem.contentUrl'
+      - '@ms/sp-webpart-shared.IBingImageSearchItem.encodingFormat'
+      - '@ms/sp-webpart-shared.IBingImageSearchItem.height'
+      - '@ms/sp-webpart-shared.IBingImageSearchItem.imageId'
+      - '@ms/sp-webpart-shared.IBingImageSearchItem.name'
+      - '@ms/sp-webpart-shared.IBingImageSearchItem.thumbnail'
+      - '@ms/sp-webpart-shared.IBingImageSearchItem.thumbnailUrl'
+      - '@ms/sp-webpart-shared.IBingImageSearchItem.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: |
+      Properties from Bing Image Search API call
+      Additional properties can be added to be enabled. See API docs
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.IBingImageSearchItem.contentSize'
+    name: contentSize
+    fullName: contentSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string contentSize
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IBingImageSearchItem.contentUrl'
+    name: contentUrl
+    fullName: contentUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string contentUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IBingImageSearchItem.encodingFormat'
+    name: encodingFormat
+    fullName: encodingFormat
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string encodingFormat
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IBingImageSearchItem.height'
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number height
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-webpart-shared.IBingImageSearchItem.imageId'
+    name: imageId
+    fullName: imageId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string imageId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IBingImageSearchItem.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IBingImageSearchItem.thumbnail'
+    name: thumbnail
+    fullName: thumbnail
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IBingImageSearchThumbnail thumbnail
+      return:
+        type:
+          - '@@ms/sp-webpart-shared.IBingImageSearchThumbnail'
+  - uid: '@ms/sp-webpart-shared.IBingImageSearchItem.thumbnailUrl'
+    name: thumbnailUrl
+    fullName: thumbnailUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string thumbnailUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IBingImageSearchItem.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number width
+      return:
+        type:
+          - number

@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/tab-test-extensions.ITabTestFieldCustomizerProperties'
+    name: ITabTestFieldCustomizerProperties
+    fullName: ITabTestFieldCustomizerProperties
+    children:
+      - '@ms/tab-test-extensions.ITabTestFieldCustomizerProperties.sampleText'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      If your field customizer uses the ClientSideComponentProperties JSON
+      input,
+
+      it will be deserialized into the BaseExtension.properties object.
+
+      You can define an interface to describe it.
+    package: '@ms/tab-test-extensions'
+  - uid: '@ms/tab-test-extensions.ITabTestFieldCustomizerProperties.sampleText'
+    name: sampleText
+    fullName: sampleText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string sampleText
+      return:
+        type:
+          - string

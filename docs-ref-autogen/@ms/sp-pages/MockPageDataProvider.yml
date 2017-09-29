@@ -1,0 +1,488 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.MockPageDataProvider'
+    name: MockPageDataProvider
+    fullName: MockPageDataProvider
+    children:
+      - '@ms/sp-pages.MockPageDataProvider.addPageToQuickLaunch'
+      - '@ms/sp-pages.MockPageDataProvider.checkOutAndReloadPage'
+      - '@ms/sp-pages.MockPageDataProvider.checkoutEntirePageResult'
+      - '@ms/sp-pages.MockPageDataProvider.checkOutPage'
+      - '@ms/sp-pages.MockPageDataProvider.checkoutPageResult'
+      - '@ms/sp-pages.MockPageDataProvider.createBlankPage'
+      - '@ms/sp-pages.MockPageDataProvider.createBlankPageResult'
+      - '@ms/sp-pages.MockPageDataProvider.createFakeListItemFromContext'
+      - '@ms/sp-pages.MockPageDataProvider.discardPage'
+      - '@ms/sp-pages.MockPageDataProvider.ensureTitleResource'
+      - '@ms/sp-pages.MockPageDataProvider.fakePreloadedDataResponse'
+      - '@ms/sp-pages.MockPageDataProvider.getClassicPubNavProviderType'
+      - '@ms/sp-pages.MockPageDataProvider.getHomePageUrl'
+      - '@ms/sp-pages.MockPageDataProvider.getPageUrl'
+      - '@ms/sp-pages.MockPageDataProvider.getPreviousPageVersionInfo'
+      - '@ms/sp-pages.MockPageDataProvider.loadListItemByIdResult'
+      - '@ms/sp-pages.MockPageDataProvider.loadPage'
+      - '@ms/sp-pages.MockPageDataProvider.loadPageResult'
+      - '@ms/sp-pages.MockPageDataProvider.constructor'
+      - '@ms/sp-pages.MockPageDataProvider.promotePageResult'
+      - '@ms/sp-pages.MockPageDataProvider.promotePageToNews'
+      - '@ms/sp-pages.MockPageDataProvider.publishPage'
+      - '@ms/sp-pages.MockPageDataProvider.publishPageResult'
+      - '@ms/sp-pages.MockPageDataProvider.savePageDraftResult'
+      - '@ms/sp-pages.MockPageDataProvider.savePageResult'
+      - '@ms/sp-pages.MockPageDataProvider.savePageToServer'
+      - '@ms/sp-pages.MockPageDataProvider.savePageToServerAsDraft'
+      - '@ms/sp-pages.MockPageDataProvider.savePageToServerV1'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      Mock page data provider provides mock API
+      without needing a sharepoint server
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.MockPageDataProvider.addPageToQuickLaunch'
+    name: addPageToQuickLaunch
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addPageToQuickLaunch(pageTitle: string, pageUrl: string)'
+      parameters:
+        - id: pageTitle
+          type:
+            - string
+          description: ''
+        - id: pageUrl
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<INavLink>
+  - uid: '@ms/sp-pages.MockPageDataProvider.checkOutAndReloadPage'
+    name: checkOutAndReloadPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function checkOutAndReloadPage(listItemId: number)'
+      parameters:
+        - id: listItemId
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-pages.PageFieldData>
+  - uid: '@ms/sp-pages.MockPageDataProvider.checkoutEntirePageResult'
+    name: checkoutEntirePageResult
+    fullName: checkoutEntirePageResult
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static any checkoutEntirePageResult
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-pages.MockPageDataProvider.checkOutPage'
+    name: checkOutPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function checkOutPage(listItemId: number)'
+      parameters:
+        - id: listItemId
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Promise<boolean>
+  - uid: '@ms/sp-pages.MockPageDataProvider.checkoutPageResult'
+    name: checkoutPageResult
+    fullName: checkoutPageResult
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static any checkoutPageResult
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-pages.MockPageDataProvider.createBlankPage'
+    name: createBlankPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function createBlankPage()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-pages.PageFieldData>
+  - uid: '@ms/sp-pages.MockPageDataProvider.createBlankPageResult'
+    name: createBlankPageResult
+    fullName: createBlankPageResult
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static any createBlankPageResult
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-pages.MockPageDataProvider.createFakeListItemFromContext'
+    name: createFakeListItemFromContext
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function createFakeListItemFromContext()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-pages.IListItemFieldData'
+  - uid: '@ms/sp-pages.MockPageDataProvider.discardPage'
+    name: discardPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function discardPage(listItemId: number)'
+      parameters:
+        - id: listItemId
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-pages.PageFieldData>
+  - uid: '@ms/sp-pages.MockPageDataProvider.ensureTitleResource'
+    name: ensureTitleResource
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function ensureTitleResource()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-pages.MockPageDataProvider.fakePreloadedDataResponse'
+    name: fakePreloadedDataResponse
+    fullName: fakePreloadedDataResponse
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static _IPreloadedData fakePreloadedDataResponse
+      return:
+        type:
+          - _IPreloadedData
+  - uid: '@ms/sp-pages.MockPageDataProvider.getClassicPubNavProviderType'
+    name: getClassicPubNavProviderType
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getClassicPubNavProviderType(mapProviderName: string)'
+      parameters:
+        - id: mapProviderName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<ClassicPubNavProviderType>
+  - uid: '@ms/sp-pages.MockPageDataProvider.getHomePageUrl'
+    name: getHomePageUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getHomePageUrl()
+      parameters: []
+      return:
+        type:
+          - Promise<string>
+  - uid: '@ms/sp-pages.MockPageDataProvider.getPageUrl'
+    name: getPageUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getPageUrl(listItemId: number)'
+      parameters:
+        - id: listItemId
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Promise<string>
+  - uid: '@ms/sp-pages.MockPageDataProvider.getPreviousPageVersionInfo'
+    name: getPreviousPageVersionInfo
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getPreviousPageVersionInfo(listItemId: number)'
+      parameters:
+        - id: listItemId
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-pages.ILastVersionInfo>
+  - uid: '@ms/sp-pages.MockPageDataProvider.loadListItemByIdResult'
+    name: loadListItemByIdResult
+    fullName: loadListItemByIdResult
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static any loadListItemByIdResult
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-pages.MockPageDataProvider.loadPage'
+    name: loadPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function loadPage(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<_IPreloadedData>
+  - uid: '@ms/sp-pages.MockPageDataProvider.loadPageResult'
+    name: loadPageResult
+    fullName: loadPageResult
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static any loadPageResult
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-pages.MockPageDataProvider.constructor'
+    name: MockPageDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new MockPageDataProvider(pageContext: PageContext)'
+      parameters:
+        - id: pageContext
+          type:
+            - PageContext
+          description: ''
+  - uid: '@ms/sp-pages.MockPageDataProvider.promotePageResult'
+    name: promotePageResult
+    fullName: promotePageResult
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static any promotePageResult
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-pages.MockPageDataProvider.promotePageToNews'
+    name: promotePageToNews
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function promotePageToNews(listItemId: number)'
+      parameters:
+        - id: listItemId
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-pages.MockPageDataProvider.publishPage'
+    name: publishPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function publishPage(listItemId: number)'
+      parameters:
+        - id: listItemId
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-pages.MockPageDataProvider.publishPageResult'
+    name: publishPageResult
+    fullName: publishPageResult
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static any publishPageResult
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-pages.MockPageDataProvider.savePageDraftResult'
+    name: savePageDraftResult
+    fullName: savePageDraftResult
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static any savePageDraftResult
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-pages.MockPageDataProvider.savePageResult'
+    name: savePageResult
+    fullName: savePageResult
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static any savePageResult
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-pages.MockPageDataProvider.savePageToServer'
+    name: savePageToServer
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function savePageToServer(listItemId: number, fieldsToUpdate: [key:
+        string]: any, shouldSaveAsDraft: boolean, componentName: string)
+      parameters:
+        - id: listItemId
+          type:
+            - number
+          description: ''
+        - id: fieldsToUpdate
+          type:
+            - '[key: string]: any'
+          description: ''
+        - id: shouldSaveAsDraft
+          type:
+            - boolean
+          description: ''
+        - id: componentName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<boolean>
+  - uid: '@ms/sp-pages.MockPageDataProvider.savePageToServerAsDraft'
+    name: savePageToServerAsDraft
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function savePageToServerAsDraft(listItemId: number, fieldsToUpdate:
+        [key: string]: any)
+      parameters:
+        - id: listItemId
+          type:
+            - number
+          description: ''
+        - id: fieldsToUpdate
+          type:
+            - '[key: string]: any'
+          description: ''
+      return:
+        type:
+          - Promise<boolean>
+  - uid: '@ms/sp-pages.MockPageDataProvider.savePageToServerV1'
+    name: savePageToServerV1
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function savePageToServerV1(listItemId: number, fieldsToUpdate: [key:
+        string]: any)
+      parameters:
+        - id: listItemId
+          type:
+            - number
+          description: ''
+        - id: fieldsToUpdate
+          type:
+            - '[key: string]: any'
+          description: ''
+      return:
+        type:
+          - Promise<boolean>

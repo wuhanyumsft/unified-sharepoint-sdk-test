@@ -1,0 +1,80 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneEdit'
+    name: QuickLinksPropertyPaneEdit
+    fullName: QuickLinksPropertyPaneEdit
+    children:
+      - '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneEdit.getImageGroup'
+      - '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneEdit.getLinkGroup'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneEdit.getImageGroup'
+    name: getImageGroup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function getImageGroup(serviceScope: ServiceScope, dispatcher:
+        IQuickLinksDispatcher, provider: IQuickLinksProvider, layoutId: string,
+        index: number, refreshCallback: () => void)
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+        - id: dispatcher
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLinksDispatcher'
+          description: ''
+        - id: provider
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLinksProvider'
+          description: ''
+        - id: layoutId
+          type:
+            - string
+          description: ''
+        - id: index
+          type:
+            - number
+          description: ''
+        - id: refreshCallback
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - IPropertyPaneGroup
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneEdit.getLinkGroup'
+    name: getLinkGroup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function getLinkGroup(dispatcher: IQuickLinksDispatcher,
+        provider: IQuickLinksProvider, index: number)
+      parameters:
+        - id: dispatcher
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLinksDispatcher'
+          description: ''
+        - id: provider
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLinksProvider'
+          description: ''
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - IPropertyPaneGroup

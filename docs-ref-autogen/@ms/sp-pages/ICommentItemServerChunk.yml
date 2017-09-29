@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ICommentItemServerChunk'
+    name: ICommentItemServerChunk
+    fullName: ICommentItemServerChunk
+    children:
+      - '@ms/sp-pages.ICommentItemServerChunk.@odata.count'
+      - '@ms/sp-pages.ICommentItemServerChunk.@odata.nextLink'
+      - '@ms/sp-pages.ICommentItemServerChunk.disabled'
+      - '@ms/sp-pages.ICommentItemServerChunk.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ICommentItemServerChunk.@odata.count'
+    name: '@odata.count'
+    fullName: '@odata.count'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number @odata.count
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.ICommentItemServerChunk.@odata.nextLink'
+    name: '@odata.nextLink'
+    fullName: '@odata.nextLink'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string @odata.nextLink
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.ICommentItemServerChunk.disabled'
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CommentDisabledState disabled
+      return:
+        type:
+          - CommentDisabledState
+  - uid: '@ms/sp-pages.ICommentItemServerChunk.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ICommentItemServerResponse[] value'
+      return:
+        type:
+          - '@@ms/sp-pages.ICommentItemServerResponse[]'

@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.NavSearchBox'
+    name: NavSearchBox
+    fullName: NavSearchBox
+    children:
+      - '@ms/sp-pages.NavSearchBox.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.NavSearchBox<__type>'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.NavSearchBox.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.BaseCollection'
+    name: BaseCollection
+    fullName: BaseCollection
+    children:
+      - '@ms/sp-webpart-shared.BaseCollection.constructor'
+      - '@ms/sp-webpart-shared.BaseCollection.focusOnTitle'
+      - '@ms/sp-webpart-shared.BaseCollection.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-webpart-shared.BaseCollection<@@ms/sp-webpart-shared.IBaseCollectionWebPartViewProperties>
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.BaseCollection.constructor'
+    name: BaseCollection
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BaseCollection(props: IBaseCollectionWebPartViewProperties)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-webpart-shared.IBaseCollectionWebPartViewProperties'
+          description: ''
+  - uid: '@ms/sp-webpart-shared.BaseCollection.focusOnTitle'
+    name: focusOnTitle
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focusOnTitle()
+      parameters: []
+  - uid: '@ms/sp-webpart-shared.BaseCollection.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

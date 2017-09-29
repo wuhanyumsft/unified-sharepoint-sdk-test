@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.SuiteNavSource'
+    name: SuiteNavSource
+    fullName: SuiteNavSource
+    children:
+      - '@microsoft/sp-application-base.SuiteNavSource.OnPrem'
+      - '@microsoft/sp-application-base.SuiteNavSource.SPO'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.SuiteNavSource.OnPrem'
+    name: OnPrem
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@microsoft/sp-application-base.SuiteNavSource.SPO'
+    name: SPO
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IMicroserviceContextResponse'
+    name: IMicroserviceContextResponse
+    fullName: IMicroserviceContextResponse
+    children:
+      - '@ms/sp-dataproviders.IMicroserviceContextResponse.Payload'
+      - '@ms/sp-dataproviders.IMicroserviceContextResponse.Token'
+      - '@ms/sp-dataproviders.IMicroserviceContextResponse.Urls'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IMicroserviceContextResponse.Payload'
+    name: Payload
+    fullName: Payload
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Payload
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IMicroserviceContextResponse.Token'
+    name: Token
+    fullName: Token
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function Token
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-dataproviders.IMicroserviceContextResponse.Urls'
+    name: Urls
+    fullName: Urls
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] Urls'
+      return:
+        type:
+          - 'string[]'

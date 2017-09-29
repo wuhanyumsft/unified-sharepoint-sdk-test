@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.EventPageLayout'
+    name: EventPageLayout
+    fullName: EventPageLayout
+    children:
+      - '@ms/sp-pages.EventPageLayout.constructor'
+      - '@ms/sp-pages.EventPageLayout.render'
+      - '@ms/sp-pages.EventPageLayout.unmount'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.BasePageLayout'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.EventPageLayout.constructor'
+    name: EventPageLayout
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new EventPageLayout(domElement: HTMLElement)'
+      parameters:
+        - id: domElement
+          type:
+            - HTMLElement
+          description: ''
+  - uid: '@ms/sp-pages.EventPageLayout.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function render(layoutRenderedCallback?: () => void)'
+      parameters:
+        - id: layoutRenderedCallback
+          type:
+            - () => void
+          description: ''
+          optional: true
+  - uid: '@ms/sp-pages.EventPageLayout.unmount'
+    name: unmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function unmount()
+      parameters: []

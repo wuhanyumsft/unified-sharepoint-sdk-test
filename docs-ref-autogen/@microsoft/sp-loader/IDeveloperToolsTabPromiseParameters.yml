@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.IDeveloperToolsTabPromiseParameters'
+    name: IDeveloperToolsTabPromiseParameters
+    fullName: IDeveloperToolsTabPromiseParameters
+    children:
+      - >-
+        @microsoft/sp-loader.IDeveloperToolsTabPromiseParameters.componentInitializer
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@microsoft/sp-loader.IDeveloperToolsTabParametersBase'
+    package: '@microsoft/sp-loader'
+  - uid: >-
+      @microsoft/sp-loader.IDeveloperToolsTabPromiseParameters.componentInitializer
+    name: componentInitializer
+    fullName: componentInitializer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A function that resolves to a React component to be shown in the developer
+      tools panel or rejects with an error.
+    syntax:
+      content: IComponentInitializer componentInitializer
+      return:
+        type:
+          - '@@microsoft/sp-loader.IComponentInitializer'

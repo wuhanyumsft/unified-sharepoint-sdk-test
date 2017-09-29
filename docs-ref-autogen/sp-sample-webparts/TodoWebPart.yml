@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+items:
+  - uid: sp-sample-webparts.TodoWebPart
+    name: TodoWebPart
+    fullName: TodoWebPart
+    children:
+      - sp-sample-webparts.TodoWebPart.render
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      This is the client-side todo sample web part built using the SharePoint
+      Framework.
+
+      It could interact with tasks lists in SharePoint site.
+
+      Find out more docs and tutorials at:
+
+      https://github.com/SharePoint/sp-dev-docs/wiki
+    extends:
+      name: '@sp-sample-webparts.TodoWebPart<@sp-sample-webparts.ITodoWebPartProps>'
+    package: sp-sample-webparts
+  - uid: sp-sample-webparts.TodoWebPart.render
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Override the base render() implementation to render the todo sample web
+      part.
+    syntax:
+      content: function render()
+      parameters: []

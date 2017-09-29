@@ -1,0 +1,97 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.ICanvasControl'
+    name: ICanvasControl
+    fullName: ICanvasControl
+    children:
+      - '@ms/sp-canvas-toolbox.ICanvasControl.addedFromPersistedData'
+      - '@ms/sp-canvas-toolbox.ICanvasControl.controlType'
+      - '@ms/sp-canvas-toolbox.ICanvasControl.displayMode'
+      - '@ms/sp-canvas-toolbox.ICanvasControl.id'
+      - '@ms/sp-canvas-toolbox.ICanvasControl.onChange'
+      - '@ms/sp-canvas-toolbox.ICanvasControl.position'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-canvas-toolbox'
+  - uid: '@ms/sp-canvas-toolbox.ICanvasControl.addedFromPersistedData'
+    name: addedFromPersistedData
+    fullName: addedFromPersistedData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean addedFromPersistedData
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas-toolbox.ICanvasControl.controlType'
+    name: controlType
+    fullName: controlType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CanvasControlType controlType
+      return:
+        type:
+          - CanvasControlType
+  - uid: '@ms/sp-canvas-toolbox.ICanvasControl.displayMode'
+    name: displayMode
+    fullName: displayMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DisplayMode displayMode
+      return:
+        type:
+          - DisplayMode
+  - uid: '@ms/sp-canvas-toolbox.ICanvasControl.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas-toolbox.ICanvasControl.onChange'
+    name: onChange
+    fullName: onChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onChange
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-canvas-toolbox.ICanvasControl.position'
+    name: position
+    fullName: position
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IControlPosition position
+      return:
+        type:
+          - '@@ms/sp-canvas-toolbox.IControlPosition'

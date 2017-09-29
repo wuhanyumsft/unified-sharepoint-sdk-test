@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IRefinement'
+    name: IRefinement
+    fullName: IRefinement
+    children:
+      - '@ms/sp-dataproviders.IRefinement.RefinementCount'
+      - '@ms/sp-dataproviders.IRefinement.RefinementName'
+      - '@ms/sp-dataproviders.IRefinement.RefinementToken'
+      - '@ms/sp-dataproviders.IRefinement.RefinementValue'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IRefinement.RefinementCount'
+    name: RefinementCount
+    fullName: RefinementCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string RefinementCount
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IRefinement.RefinementName'
+    name: RefinementName
+    fullName: RefinementName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string RefinementName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IRefinement.RefinementToken'
+    name: RefinementToken
+    fullName: RefinementToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string RefinementToken
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IRefinement.RefinementValue'
+    name: RefinementValue
+    fullName: RefinementValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string RefinementValue
+      return:
+        type:
+          - string

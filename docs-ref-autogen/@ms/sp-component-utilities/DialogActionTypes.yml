@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.DialogActionTypes'
+    name: DialogActionTypes
+    fullName: DialogActionTypes
+    children:
+      - '@ms/sp-component-utilities.DialogActionTypes.CLOSE_ACTION'
+      - '@ms/sp-component-utilities.DialogActionTypes.CONFIRM_ACTION'
+      - '@ms/sp-component-utilities.DialogActionTypes.NONE'
+      - '@ms/sp-component-utilities.DialogActionTypes.SAVE_ACTION'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.DialogActionTypes.CLOSE_ACTION'
+    name: CLOSE_ACTION
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-component-utilities.DialogActionTypes.CONFIRM_ACTION'
+    name: CONFIRM_ACTION
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-component-utilities.DialogActionTypes.NONE'
+    name: NONE
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-component-utilities.DialogActionTypes.SAVE_ACTION'
+    name: SAVE_ACTION
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

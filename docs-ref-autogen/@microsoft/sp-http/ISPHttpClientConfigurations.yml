@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.ISPHttpClientConfigurations'
+    name: ISPHttpClientConfigurations
+    fullName: ISPHttpClientConfigurations
+    children:
+      - '@microsoft/sp-http.ISPHttpClientConfigurations.v1'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      This interface provides standard predefined SPHttpClientConfiguration
+      objects for use with
+
+      the SPHttpClient class.  In general, clients should choose the latest
+      available
+
+      version number, which enables all the switches that are recommended for
+      typical
+
+      scenarios.  (If new switches are introduced in the future, a new version
+      number
+
+      will be introduced, which ensures that existing code will continue to
+      function the
+
+      way it did at the time when it was tested.)
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.ISPHttpClientConfigurations.v1'
+    name: v1
+    fullName: v1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Version 1 enables these switches:
+      consoleLogging = true;
+      jsonRequest = true;
+      jsonResponse = true;
+      defaultSameOriginCredentials = true;
+      defaultODataVersion = ODataVersion.v4;
+      requestDigest = true
+    syntax:
+      content: SPHttpClientConfiguration v1
+      return:
+        type:
+          - '@@microsoft/sp-http.SPHttpClientConfiguration'

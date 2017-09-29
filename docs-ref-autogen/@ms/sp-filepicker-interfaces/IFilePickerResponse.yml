@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker-interfaces.IFilePickerResponse'
+    name: IFilePickerResponse
+    fullName: IFilePickerResponse
+    children:
+      - >-
+        @ms/sp-filepicker-interfaces.IFilePickerResponse.externalImagesPickedToUpload
+      - >-
+        @ms/sp-filepicker-interfaces.IFilePickerResponse.localFilesPickedToUpload
+      - '@ms/sp-filepicker-interfaces.IFilePickerResponse.selectedItems'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-filepicker-interfaces'
+  - uid: >-
+      @ms/sp-filepicker-interfaces.IFilePickerResponse.externalImagesPickedToUpload
+    name: externalImagesPickedToUpload
+    fullName: externalImagesPickedToUpload
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An array of images selected to download from external websites and upload
+      to SharePoint.
+    syntax:
+      content: 'IFilePickerExternalImagesToUpload[] externalImagesPickedToUpload'
+      return:
+        type:
+          - '@@ms/sp-filepicker-interfaces.IFilePickerExternalImagesToUpload[]'
+  - uid: '@ms/sp-filepicker-interfaces.IFilePickerResponse.localFilesPickedToUpload'
+    name: localFilesPickedToUpload
+    fullName: localFilesPickedToUpload
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An array of files selected for a local upload by the user from their
+      device through the file picker.
+
+      Includes the File itself and the read data source of that file.
+    syntax:
+      content: 'IFilePickerLocalFilesToUpload[] localFilesPickedToUpload'
+      return:
+        type:
+          - '@@ms/sp-filepicker-interfaces.IFilePickerLocalFilesToUpload[]'
+  - uid: '@ms/sp-filepicker-interfaces.IFilePickerResponse.selectedItems'
+    name: selectedItems
+    fullName: selectedItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An array of selected items selected from the File Picker.
+
+      Includes the server relative link to the file from where the file is in
+      the current site.
+    syntax:
+      content: 'IFilePickerSelectedItem[] selectedItems'
+      return:
+        type:
+          - '@@ms/sp-filepicker-interfaces.IFilePickerSelectedItem[]'

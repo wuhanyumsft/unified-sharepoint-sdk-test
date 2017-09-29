@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksChangeType'
+    name: QuickLinksChangeType
+    fullName: QuickLinksChangeType
+    children:
+      - '@ms/sp-teamsite-webparts.QuickLinksChangeType.Add'
+      - '@ms/sp-teamsite-webparts.QuickLinksChangeType.Delete'
+      - '@ms/sp-teamsite-webparts.QuickLinksChangeType.Edit'
+      - '@ms/sp-teamsite-webparts.QuickLinksChangeType.MoveLeft'
+      - '@ms/sp-teamsite-webparts.QuickLinksChangeType.MoveRight'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksChangeType.Add'
+    name: Add
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksChangeType.Delete'
+    name: Delete
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksChangeType.Edit'
+    name: Edit
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksChangeType.MoveLeft'
+    name: MoveLeft
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksChangeType.MoveRight'
+    name: MoveRight
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

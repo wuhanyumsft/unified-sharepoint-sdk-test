@@ -1,0 +1,65 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.Telemetry'
+    name: Telemetry
+    fullName: Telemetry
+    children:
+      - '@ms/sp-telemetry.Telemetry.initialize'
+      - '@ms/sp-telemetry.Telemetry.updateSettings'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Telemetry class initializes the telemetry pipeline and connect to backend
+      server.
+
+      Telemetry contains a set of internal APIs that collects data and reports
+      data via
+
+      the pipeline. The APIs consist of
+       -- TraceLogger - for logging diagnostic information
+       -- EngagementLogger - for tracking user interaction with a feature
+       -- QOS - quality of service, i.e. collecting statistics for how often an operation succeeds/fails
+       -- PerformanceLogger - for tracking performance data.
+    package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.Telemetry.initialize'
+    name: initialize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Initializes the telemetry pipelines based on telemetry settings.
+      Workload name indicates which workload the telemetry data belongs to.
+    syntax:
+      content: >-
+        static function initialize(workloadName: string, settings:
+        ITelemetrySettings)
+      parameters:
+        - id: workloadName
+          type:
+            - string
+          description: ''
+        - id: settings
+          type:
+            - '@@ms/sp-telemetry.ITelemetrySettings'
+          description: ''
+  - uid: '@ms/sp-telemetry.Telemetry.updateSettings'
+    name: updateSettings
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Used to refresh the telemetry settings when they change from the
+      application
+
+      (i.e. when an in-place navigation to a different site happens)
+    syntax:
+      content: 'static function updateSettings(settings: Partial<ITelemetrySettings>)'
+      parameters:
+        - id: settings
+          type:
+            - Partial<@@ms/sp-telemetry.ITelemetrySettings>
+          description: |
+            the subset of the telemetry settings to be updated

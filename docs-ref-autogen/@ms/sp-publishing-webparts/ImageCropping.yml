@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ImageCropping'
+    name: ImageCropping
+    fullName: ImageCropping
+    children:
+      - '@ms/sp-publishing-webparts.ImageCropping.Center'
+      - '@ms/sp-publishing-webparts.ImageCropping.FitToSize'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ImageCropping.Center'
+    name: Center
+    children: []
+    langs:
+      - typeScript
+    summary: 'Fills the container, centers and then clips content that doesn''t fit'
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-publishing-webparts.ImageCropping.FitToSize'
+    name: FitToSize
+    children: []
+    langs:
+      - typeScript
+    summary: Resizes the image to fit in the container but does not clip
+    type: field
+    numericValue: 2

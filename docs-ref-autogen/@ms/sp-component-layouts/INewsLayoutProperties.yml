@@ -1,0 +1,167 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.INewsLayoutProperties'
+    name: INewsLayoutProperties
+    fullName: INewsLayoutProperties
+    children:
+      - '@ms/sp-component-layouts.INewsLayoutProperties.addNewsArticleUrl'
+      - '@ms/sp-component-layouts.INewsLayoutProperties.allowInfiniteScrolling'
+      - '@ms/sp-component-layouts.INewsLayoutProperties.canReorder'
+      - '@ms/sp-component-layouts.INewsLayoutProperties.infiniteScrollCallback'
+      - '@ms/sp-component-layouts.INewsLayoutProperties.isLoading'
+      - '@ms/sp-component-layouts.INewsLayoutProperties.items'
+      - '@ms/sp-component-layouts.INewsLayoutProperties.locale'
+      - '@ms/sp-component-layouts.INewsLayoutProperties.reorderItemCallback'
+      - '@ms/sp-component-layouts.INewsLayoutProperties.showAddButton'
+      - '@ms/sp-component-layouts.INewsLayoutProperties.totalItemsToRender'
+      - '@ms/sp-component-layouts.INewsLayoutProperties.workload'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-component-layouts'
+  - uid: '@ms/sp-component-layouts.INewsLayoutProperties.addNewsArticleUrl'
+    name: addNewsArticleUrl
+    fullName: addNewsArticleUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string addNewsArticleUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-layouts.INewsLayoutProperties.allowInfiniteScrolling'
+    name: allowInfiniteScrolling
+    fullName: allowInfiniteScrolling
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean allowInfiniteScrolling
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-layouts.INewsLayoutProperties.canReorder'
+    name: canReorder
+    fullName: canReorder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean canReorder
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-layouts.INewsLayoutProperties.infiniteScrollCallback'
+    name: infiniteScrollCallback
+    fullName: infiniteScrollCallback
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void infiniteScrollCallback
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-component-layouts.INewsLayoutProperties.isLoading'
+    name: isLoading
+    fullName: isLoading
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isLoading
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-layouts.INewsLayoutProperties.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'INewsItem[] items'
+      return:
+        type:
+          - 'INewsItem[]'
+  - uid: '@ms/sp-component-layouts.INewsLayoutProperties.locale'
+    name: locale
+    fullName: locale
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string locale
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-layouts.INewsLayoutProperties.reorderItemCallback'
+    name: reorderItemCallback
+    fullName: reorderItemCallback
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(items: INewsItem[]) => void reorderItemCallback'
+      return:
+        type:
+          - '(items: INewsItem[]) => void'
+  - uid: '@ms/sp-component-layouts.INewsLayoutProperties.showAddButton'
+    name: showAddButton
+    fullName: showAddButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showAddButton
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-layouts.INewsLayoutProperties.totalItemsToRender'
+    name: totalItemsToRender
+    fullName: totalItemsToRender
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number totalItemsToRender
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-layouts.INewsLayoutProperties.workload'
+    name: workload
+    fullName: workload
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string workload
+      return:
+        type:
+          - string

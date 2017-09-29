@@ -1,0 +1,298 @@
+### YamlMime:UniversalReference
+items:
+  - uid: sp-sample-webparts
+    name: sp-sample-webparts
+    summary: ''
+    children:
+      - sp-sample-webparts.ITodoWebPartProps
+      - sp-sample-webparts.TodoWebPart
+      - sp-sample-webparts.Todo
+      - sp-sample-webparts.ITodoProps
+      - sp-sample-webparts.LoadingStatus
+      - sp-sample-webparts.ITodoComponentData
+      - sp-sample-webparts.ITodoPerson
+      - sp-sample-webparts.ITodoTask
+      - sp-sample-webparts.ITodoTaskList
+      - sp-sample-webparts.ITodoWebPartProps
+      - sp-sample-webparts.TodoWebPart
+      - sp-sample-webparts.Todo
+      - sp-sample-webparts.ITodoProps
+      - sp-sample-webparts.TodoForm
+      - sp-sample-webparts.ITodoFormState
+      - sp-sample-webparts.ITodoFormProps
+      - sp-sample-webparts.TodoItem
+      - sp-sample-webparts.ITodoItemState
+      - sp-sample-webparts.ITodoItemProps
+      - sp-sample-webparts.TodoList
+      - sp-sample-webparts.ITodoListProps
+      - sp-sample-webparts.TabType
+      - sp-sample-webparts.TodoTabs
+      - sp-sample-webparts.ITodoTabsProps
+      - sp-sample-webparts.ITodoDataProvider
+      - sp-sample-webparts.MockTodoDataProvider
+      - sp-sample-webparts.LoadingStatus
+      - sp-sample-webparts.ITodoComponentData
+      - sp-sample-webparts.ITodoPerson
+      - sp-sample-webparts.ITodoTask
+      - sp-sample-webparts.ITodoTaskList
+      - sp-sample-webparts.ITodoWebPartProps
+      - sp-sample-webparts.TodoWebPart
+      - sp-sample-webparts.Todo
+      - sp-sample-webparts.ITodoProps
+      - sp-sample-webparts.TodoForm
+      - sp-sample-webparts.ITodoFormState
+      - sp-sample-webparts.ITodoFormProps
+      - sp-sample-webparts.TodoItem
+      - sp-sample-webparts.ITodoItemState
+      - sp-sample-webparts.ITodoItemProps
+      - sp-sample-webparts.TodoList
+      - sp-sample-webparts.ITodoListProps
+      - sp-sample-webparts.TabType
+      - sp-sample-webparts.TodoTabs
+      - sp-sample-webparts.ITodoTabsProps
+      - sp-sample-webparts.ITodoDataProvider
+      - sp-sample-webparts.MockTodoDataProvider
+      - sp-sample-webparts.TodoDataProvider
+      - sp-sample-webparts.LoadingStatus
+      - sp-sample-webparts.ITodoComponentData
+      - sp-sample-webparts.ITodoPerson
+      - sp-sample-webparts.ITodoTask
+      - sp-sample-webparts.ITodoTaskList
+      - sp-sample-webparts.ITodoWebPartProps
+      - sp-sample-webparts.TodoWebPart
+      - sp-sample-webparts.Todo
+      - sp-sample-webparts.ITodoProps
+      - sp-sample-webparts.TodoForm
+      - sp-sample-webparts.ITodoFormState
+      - sp-sample-webparts.ITodoFormProps
+      - sp-sample-webparts.TodoItem
+      - sp-sample-webparts.ITodoItemState
+      - sp-sample-webparts.ITodoItemProps
+      - sp-sample-webparts.TodoList
+      - sp-sample-webparts.ITodoListProps
+      - sp-sample-webparts.TabType
+      - sp-sample-webparts.TodoTabs
+      - sp-sample-webparts.ITodoTabsProps
+      - sp-sample-webparts.ITodoDataProvider
+      - sp-sample-webparts.MockTodoDataProvider
+      - sp-sample-webparts.TodoDataProvider
+      - sp-sample-webparts.LoadingStatus
+      - sp-sample-webparts.ITodoComponentData
+      - sp-sample-webparts.ITodoPerson
+      - sp-sample-webparts.ITodoTask
+      - sp-sample-webparts.ITodoTaskList
+      - sp-sample-webparts.ITodoWebPartProps
+      - sp-sample-webparts.TodoWebPart
+      - sp-sample-webparts.Todo
+      - sp-sample-webparts.ITodoProps
+      - sp-sample-webparts.TodoForm
+      - sp-sample-webparts.ITodoFormState
+      - sp-sample-webparts.ITodoFormProps
+      - sp-sample-webparts.TodoItem
+      - sp-sample-webparts.ITodoItemState
+      - sp-sample-webparts.ITodoItemProps
+      - sp-sample-webparts.TodoList
+      - sp-sample-webparts.ITodoListProps
+      - sp-sample-webparts.TabType
+      - sp-sample-webparts.TodoTabs
+      - sp-sample-webparts.ITodoTabsProps
+      - sp-sample-webparts.ITodoDataProvider
+      - sp-sample-webparts.MockTodoDataProvider
+      - sp-sample-webparts.TodoDataProvider
+      - sp-sample-webparts.Global
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: sp-sample-webparts.ITodoWebPartProps
+    name: ITodoWebPartProps
+  - uid: sp-sample-webparts.TodoWebPart
+    name: TodoWebPart
+  - uid: sp-sample-webparts.Todo
+    name: Todo
+  - uid: sp-sample-webparts.ITodoProps
+    name: ITodoProps
+  - uid: sp-sample-webparts.LoadingStatus
+    name: LoadingStatus
+  - uid: sp-sample-webparts.ITodoComponentData
+    name: ITodoComponentData
+  - uid: sp-sample-webparts.ITodoPerson
+    name: ITodoPerson
+  - uid: sp-sample-webparts.ITodoTask
+    name: ITodoTask
+  - uid: sp-sample-webparts.ITodoTaskList
+    name: ITodoTaskList
+  - uid: sp-sample-webparts.ITodoWebPartProps
+    name: ITodoWebPartProps
+  - uid: sp-sample-webparts.TodoWebPart
+    name: TodoWebPart
+  - uid: sp-sample-webparts.Todo
+    name: Todo
+  - uid: sp-sample-webparts.ITodoProps
+    name: ITodoProps
+  - uid: sp-sample-webparts.TodoForm
+    name: TodoForm
+  - uid: sp-sample-webparts.ITodoFormState
+    name: ITodoFormState
+  - uid: sp-sample-webparts.ITodoFormProps
+    name: ITodoFormProps
+  - uid: sp-sample-webparts.TodoItem
+    name: TodoItem
+  - uid: sp-sample-webparts.ITodoItemState
+    name: ITodoItemState
+  - uid: sp-sample-webparts.ITodoItemProps
+    name: ITodoItemProps
+  - uid: sp-sample-webparts.TodoList
+    name: TodoList
+  - uid: sp-sample-webparts.ITodoListProps
+    name: ITodoListProps
+  - uid: sp-sample-webparts.TabType
+    name: TabType
+  - uid: sp-sample-webparts.TodoTabs
+    name: TodoTabs
+  - uid: sp-sample-webparts.ITodoTabsProps
+    name: ITodoTabsProps
+  - uid: sp-sample-webparts.ITodoDataProvider
+    name: ITodoDataProvider
+  - uid: sp-sample-webparts.MockTodoDataProvider
+    name: MockTodoDataProvider
+  - uid: sp-sample-webparts.LoadingStatus
+    name: LoadingStatus
+  - uid: sp-sample-webparts.ITodoComponentData
+    name: ITodoComponentData
+  - uid: sp-sample-webparts.ITodoPerson
+    name: ITodoPerson
+  - uid: sp-sample-webparts.ITodoTask
+    name: ITodoTask
+  - uid: sp-sample-webparts.ITodoTaskList
+    name: ITodoTaskList
+  - uid: sp-sample-webparts.ITodoWebPartProps
+    name: ITodoWebPartProps
+  - uid: sp-sample-webparts.TodoWebPart
+    name: TodoWebPart
+  - uid: sp-sample-webparts.Todo
+    name: Todo
+  - uid: sp-sample-webparts.ITodoProps
+    name: ITodoProps
+  - uid: sp-sample-webparts.TodoForm
+    name: TodoForm
+  - uid: sp-sample-webparts.ITodoFormState
+    name: ITodoFormState
+  - uid: sp-sample-webparts.ITodoFormProps
+    name: ITodoFormProps
+  - uid: sp-sample-webparts.TodoItem
+    name: TodoItem
+  - uid: sp-sample-webparts.ITodoItemState
+    name: ITodoItemState
+  - uid: sp-sample-webparts.ITodoItemProps
+    name: ITodoItemProps
+  - uid: sp-sample-webparts.TodoList
+    name: TodoList
+  - uid: sp-sample-webparts.ITodoListProps
+    name: ITodoListProps
+  - uid: sp-sample-webparts.TabType
+    name: TabType
+  - uid: sp-sample-webparts.TodoTabs
+    name: TodoTabs
+  - uid: sp-sample-webparts.ITodoTabsProps
+    name: ITodoTabsProps
+  - uid: sp-sample-webparts.ITodoDataProvider
+    name: ITodoDataProvider
+  - uid: sp-sample-webparts.MockTodoDataProvider
+    name: MockTodoDataProvider
+  - uid: sp-sample-webparts.TodoDataProvider
+    name: TodoDataProvider
+  - uid: sp-sample-webparts.LoadingStatus
+    name: LoadingStatus
+  - uid: sp-sample-webparts.ITodoComponentData
+    name: ITodoComponentData
+  - uid: sp-sample-webparts.ITodoPerson
+    name: ITodoPerson
+  - uid: sp-sample-webparts.ITodoTask
+    name: ITodoTask
+  - uid: sp-sample-webparts.ITodoTaskList
+    name: ITodoTaskList
+  - uid: sp-sample-webparts.ITodoWebPartProps
+    name: ITodoWebPartProps
+  - uid: sp-sample-webparts.TodoWebPart
+    name: TodoWebPart
+  - uid: sp-sample-webparts.Todo
+    name: Todo
+  - uid: sp-sample-webparts.ITodoProps
+    name: ITodoProps
+  - uid: sp-sample-webparts.TodoForm
+    name: TodoForm
+  - uid: sp-sample-webparts.ITodoFormState
+    name: ITodoFormState
+  - uid: sp-sample-webparts.ITodoFormProps
+    name: ITodoFormProps
+  - uid: sp-sample-webparts.TodoItem
+    name: TodoItem
+  - uid: sp-sample-webparts.ITodoItemState
+    name: ITodoItemState
+  - uid: sp-sample-webparts.ITodoItemProps
+    name: ITodoItemProps
+  - uid: sp-sample-webparts.TodoList
+    name: TodoList
+  - uid: sp-sample-webparts.ITodoListProps
+    name: ITodoListProps
+  - uid: sp-sample-webparts.TabType
+    name: TabType
+  - uid: sp-sample-webparts.TodoTabs
+    name: TodoTabs
+  - uid: sp-sample-webparts.ITodoTabsProps
+    name: ITodoTabsProps
+  - uid: sp-sample-webparts.ITodoDataProvider
+    name: ITodoDataProvider
+  - uid: sp-sample-webparts.MockTodoDataProvider
+    name: MockTodoDataProvider
+  - uid: sp-sample-webparts.TodoDataProvider
+    name: TodoDataProvider
+  - uid: sp-sample-webparts.LoadingStatus
+    name: LoadingStatus
+  - uid: sp-sample-webparts.ITodoComponentData
+    name: ITodoComponentData
+  - uid: sp-sample-webparts.ITodoPerson
+    name: ITodoPerson
+  - uid: sp-sample-webparts.ITodoTask
+    name: ITodoTask
+  - uid: sp-sample-webparts.ITodoTaskList
+    name: ITodoTaskList
+  - uid: sp-sample-webparts.ITodoWebPartProps
+    name: ITodoWebPartProps
+  - uid: sp-sample-webparts.TodoWebPart
+    name: TodoWebPart
+  - uid: sp-sample-webparts.Todo
+    name: Todo
+  - uid: sp-sample-webparts.ITodoProps
+    name: ITodoProps
+  - uid: sp-sample-webparts.TodoForm
+    name: TodoForm
+  - uid: sp-sample-webparts.ITodoFormState
+    name: ITodoFormState
+  - uid: sp-sample-webparts.ITodoFormProps
+    name: ITodoFormProps
+  - uid: sp-sample-webparts.TodoItem
+    name: TodoItem
+  - uid: sp-sample-webparts.ITodoItemState
+    name: ITodoItemState
+  - uid: sp-sample-webparts.ITodoItemProps
+    name: ITodoItemProps
+  - uid: sp-sample-webparts.TodoList
+    name: TodoList
+  - uid: sp-sample-webparts.ITodoListProps
+    name: ITodoListProps
+  - uid: sp-sample-webparts.TabType
+    name: TabType
+  - uid: sp-sample-webparts.TodoTabs
+    name: TodoTabs
+  - uid: sp-sample-webparts.ITodoTabsProps
+    name: ITodoTabsProps
+  - uid: sp-sample-webparts.ITodoDataProvider
+    name: ITodoDataProvider
+  - uid: sp-sample-webparts.MockTodoDataProvider
+    name: MockTodoDataProvider
+  - uid: sp-sample-webparts.TodoDataProvider
+    name: TodoDataProvider
+  - uid: sp-sample-webparts.Global
+    name: Global

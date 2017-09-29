@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManagerContext'
+    name: MockWebPartManagerContext
+    fullName: MockWebPartManagerContext
+    children:
+      - '@microsoft/sp-webpart-base.MockWebPartManagerContext.displayMode'
+      - '@microsoft/sp-webpart-base.MockWebPartManagerContext.domElement'
+      - '@microsoft/sp-webpart-base.MockWebPartManagerContext.host'
+      - '@microsoft/sp-webpart-base.MockWebPartManagerContext.instanceId'
+      - '@microsoft/sp-webpart-base.MockWebPartManagerContext.manifest'
+      - '@microsoft/sp-webpart-base.MockWebPartManagerContext.scrollableParent'
+      - '@microsoft/sp-webpart-base.MockWebPartManagerContext.webPartData'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManagerContext.displayMode'
+    name: displayMode
+    fullName: displayMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DisplayMode displayMode
+      return:
+        type:
+          - DisplayMode
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManagerContext.domElement'
+    name: domElement
+    fullName: domElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement domElement
+      return:
+        type:
+          - HTMLElement
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManagerContext.host'
+    name: host
+    fullName: host
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IWebPartHost host
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.IWebPartHost'
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManagerContext.instanceId'
+    name: instanceId
+    fullName: instanceId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string instanceId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManagerContext.manifest'
+    name: manifest
+    fullName: manifest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: MockWebPartManifest manifest
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.MockWebPartManifest'
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManagerContext.scrollableParent'
+    name: scrollableParent
+    fullName: scrollableParent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement scrollableParent
+      return:
+        type:
+          - HTMLElement
+  - uid: '@microsoft/sp-webpart-base.MockWebPartManagerContext.webPartData'
+    name: webPartData
+    fullName: webPartData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IWebPartData webPartData
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.IWebPartData'

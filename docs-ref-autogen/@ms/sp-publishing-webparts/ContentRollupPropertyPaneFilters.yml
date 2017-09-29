@@ -1,0 +1,70 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ContentRollupPropertyPaneFilters'
+    name: ContentRollupPropertyPaneFilters
+    fullName: ContentRollupPropertyPaneFilters
+    children:
+      - >-
+        @ms/sp-publishing-webparts.ContentRollupPropertyPaneFilters.getSettingsGroup
+      - >-
+        @ms/sp-publishing-webparts.ContentRollupPropertyPaneFilters.sortTypeOptions
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: >-
+      @ms/sp-publishing-webparts.ContentRollupPropertyPaneFilters.getSettingsGroup
+    name: getSettingsGroup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function getSettingsGroup(properties:
+        IContentRollupWebPartProperties, queryableManagedProperties: [key:
+        string]: ManagedDataType, queryableListFields: [key: string]:
+        IListField, sortFieldManagedProperties?: string[],
+        filterFieldManagedProperties?: Map<number>)
+      parameters:
+        - id: properties
+          type:
+            - '@@ms/sp-publishing-webparts.IContentRollupWebPartProperties'
+          description: ''
+        - id: queryableManagedProperties
+          type:
+            - '[key: string]: @@ms/sp-publishing-webparts.ManagedDataType'
+          description: ''
+        - id: queryableListFields
+          type:
+            - '[key: string]: IListField'
+          description: ''
+        - id: sortFieldManagedProperties
+          type:
+            - 'string[]'
+          description: ''
+          optional: true
+        - id: filterFieldManagedProperties
+          type:
+            - Map<number>
+          description: ''
+          optional: true
+      return:
+        type:
+          - IPropertyPaneGroup
+  - uid: >-
+      @ms/sp-publishing-webparts.ContentRollupPropertyPaneFilters.sortTypeOptions
+    name: sortTypeOptions
+    fullName: sortTypeOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static IPropertyPaneDropdownOption[] sortTypeOptions'
+      return:
+        type:
+          - 'IPropertyPaneDropdownOption[]'

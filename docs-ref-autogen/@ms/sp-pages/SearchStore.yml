@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.SearchStore'
+    name: SearchStore
+    fullName: SearchStore
+    children:
+      - '@ms/sp-pages.SearchStore.processAction'
+      - '@ms/sp-pages.SearchStore.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.BaseStore'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SearchStore.processAction'
+    name: processAction
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function processAction(action: BaseAction)'
+      parameters:
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+  - uid: '@ms/sp-pages.SearchStore.constructor'
+    name: SearchStore
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new SearchStore()
+      parameters: []

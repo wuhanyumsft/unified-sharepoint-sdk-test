@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-embed-webparts.VideoValidationResult'
+    name: VideoValidationResult
+    fullName: VideoValidationResult
+    children:
+      - '@ms/sp-embed-webparts.VideoValidationResult.errorVidChidFormat'
+      - '@ms/sp-embed-webparts.VideoValidationResult.failedGetHtml'
+      - '@ms/sp-embed-webparts.VideoValidationResult.success'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-embed-webparts'
+  - uid: '@ms/sp-embed-webparts.VideoValidationResult.errorVidChidFormat'
+    name: errorVidChidFormat
+    children: []
+    langs:
+      - typeScript
+    summary: 'Validated failed: wrong format of video id or channel id.'
+    type: field
+  - uid: '@ms/sp-embed-webparts.VideoValidationResult.failedGetHtml'
+    name: failedGetHtml
+    children: []
+    langs:
+      - typeScript
+    summary: 'Validated failed: failed to get html from SharePoint.'
+    type: field
+  - uid: '@ms/sp-embed-webparts.VideoValidationResult.success'
+    name: success
+    children: []
+    langs:
+      - typeScript
+    summary: Validated success.
+    type: field

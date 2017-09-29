@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IDeployAzureStorageTaskConfig'
+    name: IDeployAzureStorageTaskConfig
+    fullName: IDeployAzureStorageTaskConfig
+    children:
+      - '@microsoft/sp-build-core-tasks.IDeployAzureStorageTaskConfig.uploadPath'
+      - '@microsoft/sp-build-core-tasks.IDeployAzureStorageTaskConfig.workingDir'
+    langs:
+      - typeScript
+    type: interface
+    summary: Configuration for task which uploads scripts to an Azure blob storage
+    extends:
+      name: '@@microsoft/sp-build-core-tasks.IDeployAzureTaskConfigBase'
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.IDeployAzureStorageTaskConfig.uploadPath'
+    name: uploadPath
+    fullName: uploadPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The glob to search for files in workingDir to upload.
+    syntax:
+      content: string uploadPath
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IDeployAzureStorageTaskConfig.workingDir'
+    name: workingDir
+    fullName: workingDir
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The directory to upload to the CDN. Defaults to the distFolder.
+    syntax:
+      content: string workingDir
+      return:
+        type:
+          - string

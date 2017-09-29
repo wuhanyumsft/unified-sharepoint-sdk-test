@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IMaintenanceModeTextProps'
+    name: IMaintenanceModeTextProps
+    fullName: IMaintenanceModeTextProps
+    children:
+      - '@microsoft/sp-webpart-base.IMaintenanceModeTextProps.label'
+      - '@microsoft/sp-webpart-base.IMaintenanceModeTextProps.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IMaintenanceModeTextProps.label'
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string label
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.IMaintenanceModeTextProps.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string value
+      return:
+        type:
+          - string

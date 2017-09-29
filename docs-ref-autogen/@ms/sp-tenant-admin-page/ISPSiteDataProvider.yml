@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISPSiteDataProvider'
+    name: ISPSiteDataProvider
+    fullName: ISPSiteDataProvider
+    children:
+      - '@ms/sp-tenant-admin-page.ISPSiteDataProvider.getSiteProperties'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ISPSiteDataProvider.getSiteProperties'
+    name: getSiteProperties
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getSiteProperties()
+      parameters: []
+      return:
+        type:
+          - 'Promise<@@ms/sp-tenant-admin-page.ISiteInfo[]>'

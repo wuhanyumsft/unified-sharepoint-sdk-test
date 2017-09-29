@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.IToolboxGroupProps'
+    name: IToolboxGroupProps
+    fullName: IToolboxGroupProps
+    children:
+      - '@ms/sp-canvas-toolbox.IToolboxGroupProps.groupName'
+      - '@ms/sp-canvas-toolbox.IToolboxGroupProps.hasHeader'
+      - '@ms/sp-canvas-toolbox.IToolboxGroupProps.onClickSeeAll'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas-toolbox'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxGroupProps.groupName'
+    name: groupName
+    fullName: groupName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string groupName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas-toolbox.IToolboxGroupProps.hasHeader'
+    name: hasHeader
+    fullName: hasHeader
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasHeader
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas-toolbox.IToolboxGroupProps.onClickSeeAll'
+    name: onClickSeeAll
+    fullName: onClickSeeAll
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onClickSeeAll
+      return:
+        type:
+          - () => void

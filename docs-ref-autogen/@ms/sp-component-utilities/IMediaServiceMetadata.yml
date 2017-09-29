@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.IMediaServiceMetadata'
+    name: IMediaServiceMetadata
+    fullName: IMediaServiceMetadata
+    children:
+      - '@ms/sp-component-utilities.IMediaServiceMetadata.caption'
+      - '@ms/sp-component-utilities.IMediaServiceMetadata.photo'
+      - '@ms/sp-component-utilities.IMediaServiceMetadata.tags'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.IMediaServiceMetadata.caption'
+    name: caption
+    fullName: caption
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string caption
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IMediaServiceMetadata.photo'
+    name: photo
+    fullName: photo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IImageSize photo
+      return:
+        type:
+          - '@@ms/sp-component-utilities.IImageSize'
+  - uid: '@ms/sp-component-utilities.IMediaServiceMetadata.tags'
+    name: tags
+    fullName: tags
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ITag[] tags'
+      return:
+        type:
+          - '@@ms/sp-component-utilities.ITag[]'

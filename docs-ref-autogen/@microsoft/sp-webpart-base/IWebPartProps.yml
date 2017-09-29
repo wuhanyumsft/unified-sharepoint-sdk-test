@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IWebPartProps'
+    name: IWebPartProps
+    fullName: IWebPartProps
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: Base webpart props that all webpart props need to inherit from.
+    package: '@microsoft/sp-webpart-base'

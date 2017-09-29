@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.YammerURLParser'
+    name: YammerURLParser
+    fullName: YammerURLParser
+    children:
+      - '@ms/sp-publishing-webparts.YammerURLParser.invalidYammerEmbedFeedData'
+      - '@ms/sp-publishing-webparts.YammerURLParser.parseYammerURL'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.YammerURLParser.invalidYammerEmbedFeedData'
+    name: invalidYammerEmbedFeedData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns an instance of invalid yammer embed feed data
+    syntax:
+      content: static function invalidYammerEmbedFeedData()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.YammerEmbedFeedData'
+  - uid: '@ms/sp-publishing-webparts.YammerURLParser.parseYammerURL'
+    name: parseYammerURL
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Extracts yammer embed feed data from an URL
+    syntax:
+      content: 'static function parseYammerURL(urlString: string)'
+      parameters:
+        - id: urlString
+          type:
+            - string
+          description: |
+            URL to extract data from
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.YammerEmbedFeedData'

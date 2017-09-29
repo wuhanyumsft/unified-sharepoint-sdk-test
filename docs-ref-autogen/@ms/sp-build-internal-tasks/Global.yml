@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.Global'
+    package: '@ms/sp-build-internal-tasks'
+    name: Global
+    children:
+      - '@ms/sp-build-internal-tasks.getStringsName'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@ms/sp-build-internal-tasks.getStringsName'
+    name: getStringsName
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getStringsName(manifest: IClientSideComponentManifest)'
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+      return:
+        type:
+          - string

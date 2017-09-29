@@ -1,0 +1,127 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/repo-toolbox'
+    name: '@ms/repo-toolbox'
+    summary: ''
+    children:
+      - '@ms/repo-toolbox.CollectTelemetryAction'
+      - '@ms/repo-toolbox.CreateProdBranchAction'
+      - '@ms/repo-toolbox.RepoToolboxAction'
+      - '@ms/repo-toolbox.IRequiredCommandLineIntegerDefinition'
+      - '@ms/repo-toolbox.IRequiredCommandLineStringDefinition'
+      - '@ms/repo-toolbox.IRequiredParameter'
+      - '@ms/repo-toolbox.RepoToolboxCommandLineParser'
+      - '@ms/repo-toolbox.SizeAuditAction'
+      - '@ms/repo-toolbox.TelemetryCollector'
+      - '@ms/repo-toolbox.ITelemetryData'
+      - '@ms/repo-toolbox.TimedTelemetryCollector'
+      - '@ms/repo-toolbox.CreateProdBranch'
+      - '@ms/repo-toolbox.SizeAuditCommentRenderer'
+      - '@ms/repo-toolbox.ISizeAuditComment'
+      - '@ms/repo-toolbox.SizeAuditor'
+      - '@ms/repo-toolbox.ICommentThreadPair'
+      - '@ms/repo-toolbox.IVstsBuildSizeData'
+      - '@ms/repo-toolbox.SizeComparer'
+      - '@ms/repo-toolbox.IAssemblySize'
+      - '@ms/repo-toolbox.IBuildChanges'
+      - '@ms/repo-toolbox.IBuildSizeData'
+      - '@ms/repo-toolbox.IChangedEntity'
+      - '@ms/repo-toolbox.IEntities'
+      - '@ms/repo-toolbox.IProjectSizes'
+      - '@ms/repo-toolbox.IProjectSizesFile'
+      - '@ms/repo-toolbox.IWebpackChunkSize'
+      - '@ms/repo-toolbox.ZipArchiveReader'
+      - '@ms/repo-toolbox.ITextFiles'
+      - '@ms/repo-toolbox.ICodePolicy'
+      - '@ms/repo-toolbox.ICodePolicySettings'
+      - '@ms/repo-toolbox.ICodePolicySettingsScope'
+      - '@ms/repo-toolbox.ICodePolicyType'
+      - '@ms/repo-toolbox.ICreateCodePolicy'
+      - '@ms/repo-toolbox.RequestHelper'
+      - '@ms/repo-toolbox.IRequestResult'
+      - '@ms/repo-toolbox.VSTSHelper'
+      - '@ms/repo-toolbox.ICommitInfo'
+      - '@ms/repo-toolbox.IVSTSArrayResponse'
+      - '@ms/repo-toolbox.IVSTSHelperOptions'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@ms/repo-toolbox.CollectTelemetryAction'
+    name: CollectTelemetryAction
+  - uid: '@ms/repo-toolbox.CreateProdBranchAction'
+    name: CreateProdBranchAction
+  - uid: '@ms/repo-toolbox.RepoToolboxAction'
+    name: RepoToolboxAction
+  - uid: '@ms/repo-toolbox.IRequiredCommandLineIntegerDefinition'
+    name: IRequiredCommandLineIntegerDefinition
+  - uid: '@ms/repo-toolbox.IRequiredCommandLineStringDefinition'
+    name: IRequiredCommandLineStringDefinition
+  - uid: '@ms/repo-toolbox.IRequiredParameter'
+    name: IRequiredParameter
+  - uid: '@ms/repo-toolbox.RepoToolboxCommandLineParser'
+    name: RepoToolboxCommandLineParser
+  - uid: '@ms/repo-toolbox.SizeAuditAction'
+    name: SizeAuditAction
+  - uid: '@ms/repo-toolbox.TelemetryCollector'
+    name: TelemetryCollector
+  - uid: '@ms/repo-toolbox.ITelemetryData'
+    name: ITelemetryData
+  - uid: '@ms/repo-toolbox.TimedTelemetryCollector'
+    name: TimedTelemetryCollector
+  - uid: '@ms/repo-toolbox.CreateProdBranch'
+    name: CreateProdBranch
+  - uid: '@ms/repo-toolbox.SizeAuditCommentRenderer'
+    name: SizeAuditCommentRenderer
+  - uid: '@ms/repo-toolbox.ISizeAuditComment'
+    name: ISizeAuditComment
+  - uid: '@ms/repo-toolbox.SizeAuditor'
+    name: SizeAuditor
+  - uid: '@ms/repo-toolbox.ICommentThreadPair'
+    name: ICommentThreadPair
+  - uid: '@ms/repo-toolbox.IVstsBuildSizeData'
+    name: IVstsBuildSizeData
+  - uid: '@ms/repo-toolbox.SizeComparer'
+    name: SizeComparer
+  - uid: '@ms/repo-toolbox.IAssemblySize'
+    name: IAssemblySize
+  - uid: '@ms/repo-toolbox.IBuildChanges'
+    name: IBuildChanges
+  - uid: '@ms/repo-toolbox.IBuildSizeData'
+    name: IBuildSizeData
+  - uid: '@ms/repo-toolbox.IChangedEntity'
+    name: IChangedEntity
+  - uid: '@ms/repo-toolbox.IEntities'
+    name: IEntities
+  - uid: '@ms/repo-toolbox.IProjectSizes'
+    name: IProjectSizes
+  - uid: '@ms/repo-toolbox.IProjectSizesFile'
+    name: IProjectSizesFile
+  - uid: '@ms/repo-toolbox.IWebpackChunkSize'
+    name: IWebpackChunkSize
+  - uid: '@ms/repo-toolbox.ZipArchiveReader'
+    name: ZipArchiveReader
+  - uid: '@ms/repo-toolbox.ITextFiles'
+    name: ITextFiles
+  - uid: '@ms/repo-toolbox.ICodePolicy'
+    name: ICodePolicy
+  - uid: '@ms/repo-toolbox.ICodePolicySettings'
+    name: ICodePolicySettings
+  - uid: '@ms/repo-toolbox.ICodePolicySettingsScope'
+    name: ICodePolicySettingsScope
+  - uid: '@ms/repo-toolbox.ICodePolicyType'
+    name: ICodePolicyType
+  - uid: '@ms/repo-toolbox.ICreateCodePolicy'
+    name: ICreateCodePolicy
+  - uid: '@ms/repo-toolbox.RequestHelper'
+    name: RequestHelper
+  - uid: '@ms/repo-toolbox.IRequestResult'
+    name: IRequestResult
+  - uid: '@ms/repo-toolbox.VSTSHelper'
+    name: VSTSHelper
+  - uid: '@ms/repo-toolbox.ICommitInfo'
+    name: ICommitInfo
+  - uid: '@ms/repo-toolbox.IVSTSArrayResponse'
+    name: IVSTSArrayResponse
+  - uid: '@ms/repo-toolbox.IVSTSHelperOptions'
+    name: IVSTSHelperOptions

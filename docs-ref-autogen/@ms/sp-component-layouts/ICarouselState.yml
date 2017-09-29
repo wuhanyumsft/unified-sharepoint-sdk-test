@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.ICarouselState'
+    name: ICarouselState
+    fullName: ICarouselState
+    children:
+      - '@ms/sp-component-layouts.ICarouselState.currentIndex'
+      - '@ms/sp-component-layouts.ICarouselState.isKeyboardFocusIn'
+      - '@ms/sp-component-layouts.ICarouselState.itemCount'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-component-layouts'
+  - uid: '@ms/sp-component-layouts.ICarouselState.currentIndex'
+    name: currentIndex
+    fullName: currentIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Current slider index which is displayed in carousel mode.
+    syntax:
+      content: number currentIndex
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-layouts.ICarouselState.isKeyboardFocusIn'
+    name: isKeyboardFocusIn
+    fullName: isKeyboardFocusIn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A boolean to indicate whether components inside slider is focused by
+      keyboard.
+    syntax:
+      content: boolean isKeyboardFocusIn
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-layouts.ICarouselState.itemCount'
+    name: itemCount
+    fullName: itemCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The number of items in carousel.
+    syntax:
+      content: number itemCount
+      return:
+        type:
+          - number

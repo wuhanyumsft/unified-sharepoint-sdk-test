@@ -1,0 +1,326 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.Format'
+    name: Format
+    fullName: Format
+    children:
+      - '@ms/sp-canvas.Format.AlignCenter'
+      - '@ms/sp-canvas.Format.Undo'
+      - '@ms/sp-canvas.Format.AlignRight'
+      - '@ms/sp-canvas.Format.Blockquote'
+      - '@ms/sp-canvas.Format.Bold'
+      - '@ms/sp-canvas.Format.Bullet'
+      - '@ms/sp-canvas.Format.ClearFormatting'
+      - '@ms/sp-canvas.Format.ColumnDelete'
+      - '@ms/sp-canvas.Format.ColumnInsertAfter'
+      - '@ms/sp-canvas.Format.ColumnInsertBefore'
+      - '@ms/sp-canvas.Format.CustomTable'
+      - '@ms/sp-canvas.Format.FontColor'
+      - '@ms/sp-canvas.Format.FontSize'
+      - '@ms/sp-canvas.Format.H2'
+      - '@ms/sp-canvas.Format.H3'
+      - '@ms/sp-canvas.Format.H4'
+      - '@ms/sp-canvas.Format.HighlightColor'
+      - '@ms/sp-canvas.Format.AlignLeft'
+      - '@ms/sp-canvas.Format.Italic'
+      - '@ms/sp-canvas.Format.Justify'
+      - '@ms/sp-canvas.Format.Link'
+      - '@ms/sp-canvas.Format.List'
+      - '@ms/sp-canvas.Format.NormalText'
+      - '@ms/sp-canvas.Format.Outdent'
+      - '@ms/sp-canvas.Format.Redo'
+      - '@ms/sp-canvas.Format.RowDelete'
+      - '@ms/sp-canvas.Format.RowInserBefore'
+      - '@ms/sp-canvas.Format.RowInsertAfter'
+      - '@ms/sp-canvas.Format.Strike'
+      - '@ms/sp-canvas.Format.Subscript'
+      - '@ms/sp-canvas.Format.Superscipt'
+      - '@ms/sp-canvas.Format.TableDelete'
+      - '@ms/sp-canvas.Format.UnLink'
+      - '@ms/sp-canvas.Format.Underline'
+      - '@ms/sp-canvas.Format.Indent'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.Format.AlignCenter'
+    name: AlignCenter
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.Undo'
+    name: Undo
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.AlignRight'
+    name: AlignRight
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.Blockquote'
+    name: Blockquote
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.Bold'
+    name: Bold
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.Bullet'
+    name: Bullet
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.ClearFormatting'
+    name: ClearFormatting
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.ColumnDelete'
+    name: ColumnDelete
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.ColumnInsertAfter'
+    name: ColumnInsertAfter
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.ColumnInsertBefore'
+    name: ColumnInsertBefore
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.CustomTable'
+    name: CustomTable
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.FontColor'
+    name: FontColor
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.FontSize'
+    name: FontSize
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.H2'
+    name: H2
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.H3'
+    name: H3
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.H4'
+    name: H4
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.HighlightColor'
+    name: HighlightColor
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.AlignLeft'
+    name: AlignLeft
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.Italic'
+    name: Italic
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.Justify'
+    name: Justify
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.Link'
+    name: Link
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.List'
+    name: List
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.NormalText'
+    name: NormalText
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.Outdent'
+    name: Outdent
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.Redo'
+    name: Redo
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.RowDelete'
+    name: RowDelete
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.RowInserBefore'
+    name: RowInserBefore
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.RowInsertAfter'
+    name: RowInsertAfter
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.Strike'
+    name: Strike
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.Subscript'
+    name: Subscript
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.Superscipt'
+    name: Superscipt
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.TableDelete'
+    name: TableDelete
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.UnLink'
+    name: UnLink
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.Underline'
+    name: Underline
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@ms/sp-canvas.Format.Indent'
+    name: Indent
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null

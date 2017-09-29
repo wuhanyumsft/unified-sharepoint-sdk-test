@@ -1,0 +1,221 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryProps'
+    name: ImageGalleryProps
+    fullName: ImageGalleryProps
+    children:
+      - '@ms/sp-publishing-webparts.ImageGalleryProps.carouselComponentClass'
+      - '@ms/sp-publishing-webparts.ImageGalleryProps.edit'
+      - '@ms/sp-publishing-webparts.ImageGalleryProps.errorMessage'
+      - '@ms/sp-publishing-webparts.ImageGalleryProps.images'
+      - '@ms/sp-publishing-webparts.ImageGalleryProps.onDeleteImage'
+      - '@ms/sp-publishing-webparts.ImageGalleryProps.onEditImage'
+      - '@ms/sp-publishing-webparts.ImageGalleryProps.onFileReadyToUpload'
+      - '@ms/sp-publishing-webparts.ImageGalleryProps.onTitleSet'
+      - '@ms/sp-publishing-webparts.ImageGalleryProps.pageContext'
+      - '@ms/sp-publishing-webparts.ImageGalleryProps.renderCompleted'
+      - '@ms/sp-publishing-webparts.ImageGalleryProps.renderedFromPersistedData'
+      - '@ms/sp-publishing-webparts.ImageGalleryProps.serviceScope'
+      - '@ms/sp-publishing-webparts.ImageGalleryProps.webAbsoluteUrl'
+      - '@ms/sp-publishing-webparts.ImageGalleryProps.webPartProps'
+      - '@ms/sp-publishing-webparts.ImageGalleryProps.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryProps.carouselComponentClass'
+    name: carouselComponentClass
+    fullName: carouselComponentClass
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ComponentClass<ICarouselProps> carouselComponentClass
+      return:
+        type:
+          - ComponentClass<ICarouselProps>
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryProps.edit'
+    name: edit
+    fullName: edit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean edit
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryProps.errorMessage'
+    name: errorMessage
+    fullName: errorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string errorMessage
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryProps.images'
+    name: images
+    fullName: images
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IImageProps[] images'
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IImageProps[]'
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryProps.onDeleteImage'
+    name: onDeleteImage
+    fullName: onDeleteImage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(image: IImageProps) => void onDeleteImage'
+      return:
+        type:
+          - '(image: IImageProps) => void'
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryProps.onEditImage'
+    name: onEditImage
+    fullName: onEditImage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(image: IImageProps) => void onEditImage'
+      return:
+        type:
+          - '(image: IImageProps) => void'
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryProps.onFileReadyToUpload'
+    name: onFileReadyToUpload
+    fullName: onFileReadyToUpload
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(file: File) => Promise<IImageProps> onFileReadyToUpload'
+      return:
+        type:
+          - '(file: File) => Promise<IImageProps>'
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryProps.onTitleSet'
+    name: onTitleSet
+    fullName: onTitleSet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(title: string) => void onTitleSet'
+      return:
+        type:
+          - '(title: string) => void'
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryProps.pageContext'
+    name: pageContext
+    fullName: pageContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageContext pageContext
+      return:
+        type:
+          - PageContext
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryProps.renderCompleted'
+    name: renderCompleted
+    fullName: renderCompleted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void renderCompleted
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryProps.renderedFromPersistedData'
+    name: renderedFromPersistedData
+    fullName: renderedFromPersistedData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean renderedFromPersistedData
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryProps.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryProps.webAbsoluteUrl'
+    name: webAbsoluteUrl
+    fullName: webAbsoluteUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webAbsoluteUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryProps.webPartProps'
+    name: webPartProps
+    fullName: webPartProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IImageGalleryProperties webPartProps
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IImageGalleryProperties'
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryProps.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number width
+      return:
+        type:
+          - number

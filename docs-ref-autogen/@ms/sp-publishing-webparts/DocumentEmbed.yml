@@ -1,0 +1,140 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbed'
+    name: DocumentEmbed
+    fullName: DocumentEmbed
+    children:
+      - '@ms/sp-publishing-webparts.DocumentEmbed.componentDidMount'
+      - '@ms/sp-publishing-webparts.DocumentEmbed.componentDidUpdate'
+      - '@ms/sp-publishing-webparts.DocumentEmbed.componentWillUnmount'
+      - '@ms/sp-publishing-webparts.DocumentEmbed.constructor'
+      - '@ms/sp-publishing-webparts.DocumentEmbed.focusOnCaptionElement'
+      - '@ms/sp-publishing-webparts.DocumentEmbed.onDocumentSelectionCancelled'
+      - '@ms/sp-publishing-webparts.DocumentEmbed.render'
+      - '@ms/sp-publishing-webparts.DocumentEmbed.setContainerWidth'
+      - '@ms/sp-publishing-webparts.DocumentEmbed.setDocumentIFrameSrc'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.DocumentEmbed<@@ms/sp-publishing-webparts.IDocumentProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbed.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbed.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function componentDidUpdate(prevProps: IDocumentProps, prevStates:
+        IDocumentState)
+      parameters:
+        - id: prevProps
+          type:
+            - '@@ms/sp-publishing-webparts.IDocumentProps'
+          description: ''
+        - id: prevStates
+          type:
+            - '@@ms/sp-publishing-webparts.IDocumentState'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbed.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbed.constructor'
+    name: DocumentEmbed
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DocumentEmbed(props: IDocumentProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IDocumentProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbed.focusOnCaptionElement'
+    name: focusOnCaptionElement
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focusOnCaptionElement()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbed.onDocumentSelectionCancelled'
+    name: onDocumentSelectionCancelled
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Focuses on the placeholder action button
+    syntax:
+      content: function onDocumentSelectionCancelled()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbed.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Render WAC iframe, DocumentEmbedCard or Placeholder in region
+      depending upon viewport.width and showPlaceHolder props.
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbed.setContainerWidth'
+    name: setContainerWidth
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setContainerWidth(elementWidth: number)'
+      parameters:
+        - id: elementWidth
+          type:
+            - number
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbed.setDocumentIFrameSrc'
+    name: setDocumentIFrameSrc
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setDocumentIFrameSrc(src: string)'
+      parameters:
+        - id: src
+          type:
+            - string
+          description: ''

@@ -1,0 +1,222 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.ICompactCardItemProps'
+    name: ICompactCardItemProps
+    fullName: ICompactCardItemProps
+    children:
+      - '@ms/sp-component-layouts.ICompactCardItemProps.backupImageUrl'
+      - '@ms/sp-component-layouts.ICompactCardItemProps.forceImageSize'
+      - '@ms/sp-component-layouts.ICompactCardItemProps.iconColor'
+      - '@ms/sp-component-layouts.ICompactCardItemProps.iconName'
+      - '@ms/sp-component-layouts.ICompactCardItemProps.imageAlt'
+      - '@ms/sp-component-layouts.ICompactCardItemProps.imageUrl'
+      - '@ms/sp-component-layouts.ICompactCardItemProps.isDraggable'
+      - '@ms/sp-component-layouts.ICompactCardItemProps.isEdit'
+      - '@ms/sp-component-layouts.ICompactCardItemProps.isMobileView'
+      - '@ms/sp-component-layouts.ICompactCardItemProps.onDelete'
+      - '@ms/sp-component-layouts.ICompactCardItemProps.onEdit'
+      - '@ms/sp-component-layouts.ICompactCardItemProps.shouldDisplayImage'
+      - '@ms/sp-component-layouts.ICompactCardItemProps.text'
+      - '@ms/sp-component-layouts.ICompactCardItemProps.textIndicator'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-component-layouts'
+  - uid: '@ms/sp-component-layouts.ICompactCardItemProps.backupImageUrl'
+    name: backupImageUrl
+    fullName: backupImageUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The backup image url which will be fallback to while primary image url
+      load failure.
+    syntax:
+      content: string backupImageUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-layouts.ICompactCardItemProps.forceImageSize'
+    name: forceImageSize
+    fullName: forceImageSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If specified, the image displayed in the image box will have a fixed size.
+
+      It doesn't change the size of the image wrapper, only the rendered image
+      itself.
+    syntax:
+      content: number forceImageSize
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-layouts.ICompactCardItemProps.iconColor'
+    name: iconColor
+    fullName: iconColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The color of the icon, will be applied to the icon if iconName is
+      specified.
+    syntax:
+      content: string iconColor
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-layouts.ICompactCardItemProps.iconName'
+    name: iconName
+    fullName: iconName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Name of Icon. If this property has value, it will always show icon.'
+    syntax:
+      content: IconName iconName
+      return:
+        type:
+          - IconName
+  - uid: '@ms/sp-component-layouts.ICompactCardItemProps.imageAlt'
+    name: imageAlt
+    fullName: imageAlt
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Alt information for image.
+    syntax:
+      content: string imageAlt
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-layouts.ICompactCardItemProps.imageUrl'
+    name: imageUrl
+    fullName: imageUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The image Url of thumbnail in the card.
+    syntax:
+      content: string imageUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-layouts.ICompactCardItemProps.isDraggable'
+    name: isDraggable
+    fullName: isDraggable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether current item is draggable.
+    syntax:
+      content: boolean isDraggable
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-layouts.ICompactCardItemProps.isEdit'
+    name: isEdit
+    fullName: isEdit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether it is in edit mode.
+    syntax:
+      content: boolean isEdit
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-layouts.ICompactCardItemProps.isMobileView'
+    name: isMobileView
+    fullName: isMobileView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Indicates the current layout of the compact cards. There might be some
+      differences on key strokes
+
+      such as in mobile view the layout is vertically displayed so it uses
+      up/down key for navigation in layout.
+
+      The key stroke in each card should also change correspondingly.
+    syntax:
+      content: boolean isMobileView
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-layouts.ICompactCardItemProps.onDelete'
+    name: onDelete
+    fullName: onDelete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback when delete button is clicked.
+    syntax:
+      content: '(event: SyntheticEvent<HTMLElement>) => void onDelete'
+      return:
+        type:
+          - '(event: SyntheticEvent<HTMLElement>) => void'
+  - uid: '@ms/sp-component-layouts.ICompactCardItemProps.onEdit'
+    name: onEdit
+    fullName: onEdit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback when edit button is clicked.
+    syntax:
+      content: '(event: SyntheticEvent<HTMLElement>) => void onEdit'
+      return:
+        type:
+          - '(event: SyntheticEvent<HTMLElement>) => void'
+  - uid: '@ms/sp-component-layouts.ICompactCardItemProps.shouldDisplayImage'
+    name: shouldDisplayImage
+    fullName: shouldDisplayImage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether it should display image in the card.
+    syntax:
+      content: boolean shouldDisplayImage
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-layouts.ICompactCardItemProps.text'
+    name: text
+    fullName: text
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Text shown in the card.
+    syntax:
+      content: string text
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-layouts.ICompactCardItemProps.textIndicator'
+    name: textIndicator
+    fullName: textIndicator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicator of whether to treat text as an updated text.
+    syntax:
+      content: number textIndicator
+      return:
+        type:
+          - number

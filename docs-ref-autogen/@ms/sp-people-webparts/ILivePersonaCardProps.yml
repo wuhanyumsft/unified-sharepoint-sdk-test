@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardProps'
+    name: ILivePersonaCardProps
+    fullName: ILivePersonaCardProps
+    children:
+      - '@ms/sp-people-webparts.ILivePersonaCardProps.ariaLabel'
+      - '@ms/sp-people-webparts.ILivePersonaCardProps.className'
+      - '@ms/sp-people-webparts.ILivePersonaCardProps.isEditMode'
+      - '@ms/sp-people-webparts.ILivePersonaCardProps.serviceScope'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-people-webparts.ILivePersonaCardHoverTargetProps'
+    package: '@ms/sp-people-webparts'
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardProps.ariaLabel'
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The string to tell blind people how to open LivePersonaCard.
+    syntax:
+      content: string ariaLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardProps.className'
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The string of CSS className applied on LivePersonaCard.
+    syntax:
+      content: string className
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardProps.isEditMode'
+    name: isEditMode
+    fullName: isEditMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A boolean to indicate if the component is in edit mode.
+    syntax:
+      content: boolean isEditMode
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardProps.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Service scope.
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope

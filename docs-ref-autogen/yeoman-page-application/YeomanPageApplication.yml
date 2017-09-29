@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: yeoman-page-application.YeomanPageApplication
+    name: YeomanPageApplication
+    fullName: YeomanPageApplication
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@yeoman-page-application.YeomanPageApplication'
+    package: yeoman-page-application

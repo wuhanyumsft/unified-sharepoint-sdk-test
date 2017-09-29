@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.ISuiteNavDataSource'
+    name: ISuiteNavDataSource
+    fullName: ISuiteNavDataSource
+    children:
+      - '@microsoft/sp-application-base.ISuiteNavDataSource.loadData'
+      - '@microsoft/sp-application-base.ISuiteNavDataSource.suiteNavService'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.ISuiteNavDataSource.loadData'
+    name: loadData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Gets data, possibly by calling a server.'
+    syntax:
+      content: function loadData()
+      parameters: []
+      return:
+        type:
+          - Promise<@@microsoft/sp-application-base.ISuiteNavModel>
+  - uid: '@microsoft/sp-application-base.ISuiteNavDataSource.suiteNavService'
+    name: suiteNavService
+    fullName: suiteNavService
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: SuiteNavSource suiteNavService
+      return:
+        type:
+          - SuiteNavSource

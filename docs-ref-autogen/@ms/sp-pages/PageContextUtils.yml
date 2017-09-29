@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.PageContextUtils'
+    name: PageContextUtils
+    fullName: PageContextUtils
+    children:
+      - '@ms/sp-pages.PageContextUtils.ConfigurePageContext'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.PageContextUtils.ConfigurePageContext'
+    name: ConfigurePageContext
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function ConfigurePageContext(pageContext: PageContext,
+        siteHeaderTitle: string)
+      parameters:
+        - id: pageContext
+          type:
+            - PageContext
+          description: ''
+        - id: siteHeaderTitle
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - PageContext

@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.ItemTypeStringUtility'
+    name: ItemTypeStringUtility
+    fullName: ItemTypeStringUtility
+    children:
+      - '@ms/sp-filepicker.ItemTypeStringUtility.getAddOrChangeLinkLabel'
+      - '@ms/sp-filepicker.ItemTypeStringUtility.getChooseLinkLabel'
+      - '@ms/sp-filepicker.ItemTypeStringUtility.getUploadButtonText'
+      - '@ms/sp-filepicker.ItemTypeStringUtility.getUploadHeading'
+      - '@ms/sp-filepicker.ItemTypeStringUtility.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.ItemTypeStringUtility.getAddOrChangeLinkLabel'
+    name: getAddOrChangeLinkLabel
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getAddOrChangeLinkLabel(isSingleSelect: boolean)'
+      parameters:
+        - id: isSingleSelect
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.ItemTypeStringUtility.getChooseLinkLabel'
+    name: getChooseLinkLabel
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getChooseLinkLabel(isSingleSelect: boolean)'
+      parameters:
+        - id: isSingleSelect
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.ItemTypeStringUtility.getUploadButtonText'
+    name: getUploadButtonText
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getUploadButtonText(count: number)'
+      parameters:
+        - id: count
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.ItemTypeStringUtility.getUploadHeading'
+    name: getUploadHeading
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getUploadHeading(isSingleSelect: boolean)'
+      parameters:
+        - id: isSingleSelect
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.ItemTypeStringUtility.constructor'
+    name: ItemTypeStringUtility
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ItemTypeStringUtility(types: Set<FilePickerItemType>)'
+      parameters:
+        - id: types
+          type:
+            - Set<FilePickerItemType>
+          description: ''

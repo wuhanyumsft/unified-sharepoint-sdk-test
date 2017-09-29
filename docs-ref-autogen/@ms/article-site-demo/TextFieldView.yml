@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/article-site-demo.TextFieldView'
+    name: TextFieldView
+    fullName: TextFieldView
+    children:
+      - '@ms/article-site-demo.TextFieldView.render'
+      - '@ms/article-site-demo.TextFieldView.saveStateToField'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/article-site-demo.TextFieldView<@@ms/article-site-demo.TextFieldViewProps>
+    package: '@ms/article-site-demo'
+  - uid: '@ms/article-site-demo.TextFieldView.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@ms/article-site-demo.TextFieldViewProps>
+  - uid: '@ms/article-site-demo.TextFieldView.saveStateToField'
+    name: saveStateToField
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function saveStateToField()
+      parameters: []

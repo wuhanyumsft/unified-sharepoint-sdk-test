@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-dialog.IAlertOptions'
+    name: IAlertOptions
+    fullName: IAlertOptions
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: Options for showing an alert dialog
+    extends:
+      name: '@@microsoft/sp-dialog.IDialogShowOptions'
+    package: '@microsoft/sp-dialog'

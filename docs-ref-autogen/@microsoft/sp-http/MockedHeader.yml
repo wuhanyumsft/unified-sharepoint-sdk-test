@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.MockedHeader'
+    name: MockedHeader
+    fullName: MockedHeader
+    children:
+      - '@microsoft/sp-http.MockedHeader.constructor'
+      - '@microsoft/sp-http.MockedHeader.name'
+      - '@microsoft/sp-http.MockedHeader.value'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.MockedHeader.constructor'
+    name: MockedHeader
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new MockedHeader(name: string, value: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-http.MockedHeader.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-http.MockedHeader.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string value
+      return:
+        type:
+          - string

@@ -1,0 +1,137 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IAttachment'
+    name: IAttachment
+    fullName: IAttachment
+    children:
+      - '@ms/sp-publishing-webparts.IAttachment.contentBytes'
+      - '@ms/sp-publishing-webparts.IAttachment.contentId'
+      - '@ms/sp-publishing-webparts.IAttachment.contentLocation'
+      - '@ms/sp-publishing-webparts.IAttachment.contentType'
+      - '@ms/sp-publishing-webparts.IAttachment.id'
+      - '@ms/sp-publishing-webparts.IAttachment.isInline'
+      - '@ms/sp-publishing-webparts.IAttachment.lastModifiedDateTime'
+      - '@ms/sp-publishing-webparts.IAttachment.name'
+      - '@ms/sp-publishing-webparts.IAttachment.size'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IAttachment.contentBytes'
+    name: contentBytes
+    fullName: contentBytes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The content bytes of the attachment.
+    syntax:
+      content: string contentBytes
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IAttachment.contentId'
+    name: contentId
+    fullName: contentId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The content id of the attachment.
+    syntax:
+      content: string contentId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IAttachment.contentLocation'
+    name: contentLocation
+    fullName: contentLocation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The content location of the attachment.
+    syntax:
+      content: string contentLocation
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IAttachment.contentType'
+    name: contentType
+    fullName: contentType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The content type of the attachment.
+    syntax:
+      content: string contentType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IAttachment.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The unique identifier of the attachment.
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IAttachment.isInline'
+    name: isInline
+    fullName: isInline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Is the attachment displayed inline.
+    syntax:
+      content: boolean isInline
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IAttachment.lastModifiedDateTime'
+    name: lastModifiedDateTime
+    fullName: lastModifiedDateTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The date and time that the attachment was last modified.
+    syntax:
+      content: Date lastModifiedDateTime
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.IAttachment.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The file name of the attachment.
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IAttachment.size'
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The size of the attachment.
+    syntax:
+      content: number size
+      return:
+        type:
+          - number

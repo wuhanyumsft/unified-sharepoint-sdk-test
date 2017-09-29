@@ -1,0 +1,18 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.BasePropertyPaneControl'
+    name: BasePropertyPaneControl
+    fullName: BasePropertyPaneControl
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Base implementation of IPropertyPaneControl. Derived clases will be able
+      to use the
+
+      ClientSideWebPartManager.setPropertyPaneControl API to enable
+      configuration with the
+
+      application's Property Pane.
+    package: '@microsoft/sp-webpart-base'

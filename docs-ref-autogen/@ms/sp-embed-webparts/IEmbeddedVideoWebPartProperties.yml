@@ -1,0 +1,124 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-embed-webparts.IEmbeddedVideoWebPartProperties'
+    name: IEmbeddedVideoWebPartProperties
+    fullName: IEmbeddedVideoWebPartProperties
+    children:
+      - '@ms/sp-embed-webparts.IEmbeddedVideoWebPartProperties.captionText'
+      - '@ms/sp-embed-webparts.IEmbeddedVideoWebPartProperties.embedCode'
+      - '@ms/sp-embed-webparts.IEmbeddedVideoWebPartProperties.isStream'
+      - '@ms/sp-embed-webparts.IEmbeddedVideoWebPartProperties.showInfo'
+      - '@ms/sp-embed-webparts.IEmbeddedVideoWebPartProperties.thumbnailUrl'
+      - '@ms/sp-embed-webparts.IEmbeddedVideoWebPartProperties.videoSource'
+      - '@ms/sp-embed-webparts.IEmbeddedVideoWebPartProperties.videoStartTime'
+      - >-
+        @ms/sp-embed-webparts.IEmbeddedVideoWebPartProperties.videoStartTimeCheck
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface for the Video Embed WebPart properties.
+    package: '@ms/sp-embed-webparts'
+  - uid: '@ms/sp-embed-webparts.IEmbeddedVideoWebPartProperties.captionText'
+    name: captionText
+    fullName: captionText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string captionText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.IEmbeddedVideoWebPartProperties.embedCode'
+    name: embedCode
+    fullName: embedCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string embedCode
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.IEmbeddedVideoWebPartProperties.isStream'
+    name: isStream
+    fullName: isStream
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isStream
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-embed-webparts.IEmbeddedVideoWebPartProperties.showInfo'
+    name: showInfo
+    fullName: showInfo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showInfo
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-embed-webparts.IEmbeddedVideoWebPartProperties.thumbnailUrl'
+    name: thumbnailUrl
+    fullName: thumbnailUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string thumbnailUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.IEmbeddedVideoWebPartProperties.videoSource'
+    name: videoSource
+    fullName: videoSource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string videoSource
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.IEmbeddedVideoWebPartProperties.videoStartTime'
+    name: videoStartTime
+    fullName: videoStartTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string videoStartTime
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.IEmbeddedVideoWebPartProperties.videoStartTimeCheck'
+    name: videoStartTimeCheck
+    fullName: videoStartTimeCheck
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean videoStartTimeCheck
+      return:
+        type:
+          - boolean

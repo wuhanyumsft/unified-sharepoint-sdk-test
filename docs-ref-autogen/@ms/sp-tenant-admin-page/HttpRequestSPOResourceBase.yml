@@ -1,0 +1,107 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.HttpRequestSPOResourceBase'
+    name: HttpRequestSPOResourceBase
+    fullName: HttpRequestSPOResourceBase
+    children:
+      - '@ms/sp-tenant-admin-page.HttpRequestSPOResourceBase.constructor'
+      - '@ms/sp-tenant-admin-page.HttpRequestSPOResourceBase.makePatchRequest'
+      - '@ms/sp-tenant-admin-page.HttpRequestSPOResourceBase.makePostRequest'
+      - '@ms/sp-tenant-admin-page.HttpRequestSPOResourceBase.makeReadRequest'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      HttpRequestSPOResourceBase is the base class that proivde
+      http request for rest API calls for SPO Resources.
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.HttpRequestSPOResourceBase.constructor'
+    name: HttpRequestSPOResourceBase
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Constructor.
+    syntax:
+      content: 'new HttpRequestSPOResourceBase(logSource: string)'
+      parameters:
+        - id: logSource
+          type:
+            - string
+          description: |
+            The base log source
+  - uid: '@ms/sp-tenant-admin-page.HttpRequestSPOResourceBase.makePatchRequest'
+    name: makePatchRequest
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Make Patch Write Request.
+    syntax:
+      content: >-
+        function makePatchRequest(relativeUrl: string, requestBody: string,
+        loggerName: string)
+      parameters:
+        - id: relativeUrl
+          type:
+            - string
+          description: ''
+        - id: requestBody
+          type:
+            - string
+          description: ''
+        - id: loggerName
+          type:
+            - string
+          description: The logger name.
+      return:
+        type:
+          - Promise<SPHttpClientResponse>
+  - uid: '@ms/sp-tenant-admin-page.HttpRequestSPOResourceBase.makePostRequest'
+    name: makePostRequest
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Make Post Write Request.
+    syntax:
+      content: >-
+        function makePostRequest(relativeUrl: string, requestBody: string,
+        loggerName: string)
+      parameters:
+        - id: relativeUrl
+          type:
+            - string
+          description: ''
+        - id: requestBody
+          type:
+            - string
+          description: ''
+        - id: loggerName
+          type:
+            - string
+          description: The logger name.
+      return:
+        type:
+          - Promise<SPHttpClientResponse>
+  - uid: '@ms/sp-tenant-admin-page.HttpRequestSPOResourceBase.makeReadRequest'
+    name: makeReadRequest
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Make the normal http Get Request.
+    syntax:
+      content: 'function makeReadRequest<T>(url: string, loggerName: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: Relative url.
+        - id: loggerName
+          type:
+            - string
+          description: The logger name.
+      return:
+        type:
+          - Promise<T>

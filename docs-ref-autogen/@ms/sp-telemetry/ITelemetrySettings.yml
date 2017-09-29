@@ -1,0 +1,201 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.ITelemetrySettings'
+    name: ITelemetrySettings
+    fullName: ITelemetrySettings
+    children:
+      - '@ms/sp-telemetry.ITelemetrySettings.clientSideApplicationId'
+      - '@ms/sp-telemetry.ITelemetrySettings.correlationId'
+      - '@ms/sp-telemetry.ITelemetrySettings.currentUICultureName'
+      - '@ms/sp-telemetry.ITelemetrySettings.enableConsoleLog'
+      - '@ms/sp-telemetry.ITelemetrySettings.environment'
+      - '@ms/sp-telemetry.ITelemetrySettings.farmLabel'
+      - '@ms/sp-telemetry.ITelemetrySettings.loginName'
+      - '@ms/sp-telemetry.ITelemetrySettings.siteId'
+      - '@ms/sp-telemetry.ITelemetrySettings.siteSubscriptionId'
+      - '@ms/sp-telemetry.ITelemetrySettings.systemUserKey'
+      - '@ms/sp-telemetry.ITelemetrySettings.version'
+      - '@ms/sp-telemetry.ITelemetrySettings.webId'
+    langs:
+      - typeScript
+    type: interface
+    summary: Telemetry configuration
+    package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.ITelemetrySettings.clientSideApplicationId'
+    name: clientSideApplicationId
+    fullName: clientSideApplicationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Id of the current application (GUID)
+      Example: "b6917cb1-93a0-4b97-a84d-7cf49975d4ec"
+    syntax:
+      content: string clientSideApplicationId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.ITelemetrySettings.correlationId'
+    name: correlationId
+    fullName: correlationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Correlation id of the current session (GUID)
+      Example: "18f5069e-90aa-0000-23aa-79c87b116267"
+    syntax:
+      content: string correlationId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.ITelemetrySettings.currentUICultureName'
+    name: currentUICultureName
+    fullName: currentUICultureName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Disaply language fpr the current user
+      Example: "en-US"
+    syntax:
+      content: string currentUICultureName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.ITelemetrySettings.enableConsoleLog'
+    name: enableConsoleLog
+    fullName: enableConsoleLog
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Flag to enable logging of telemetry to the console
+    syntax:
+      content: boolean enableConsoleLog
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-telemetry.ITelemetrySettings.environment'
+    name: environment
+    fullName: environment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Server environment
+      Example: "edog"
+    syntax:
+      content: string environment
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.ITelemetrySettings.farmLabel'
+    name: farmLabel
+    fullName: farmLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Farm label
+      Example: "EDOG_Content"
+    syntax:
+      content: string farmLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.ITelemetrySettings.loginName'
+    name: loginName
+    fullName: loginName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      User email address from the page context
+      Example: "john@contoso.com"
+    syntax:
+      content: string loginName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.ITelemetrySettings.siteId'
+    name: siteId
+    fullName: siteId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The current site id (GUID)
+      Example: "{440067a7-8e96-4446-8e0e-fafef7a9e9d9}"
+    syntax:
+      content: string siteId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.ITelemetrySettings.siteSubscriptionId'
+    name: siteSubscriptionId
+    fullName: siteSubscriptionId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Site subscription Id (GUID)
+      Example: "621b3b90-c0f0-4bd6-8eb6-615fb5730b38"
+    syntax:
+      content: string siteSubscriptionId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.ITelemetrySettings.systemUserKey'
+    name: systemUserKey
+    fullName: systemUserKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Unique user id
+      Example: "i:0h.f|membership|1234@contoso.com"
+    syntax:
+      content: string systemUserKey
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.ITelemetrySettings.version'
+    name: version
+    fullName: version
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Version from the preload manifests
+      Example: "0.2.0"
+    syntax:
+      content: string version
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.ITelemetrySettings.webId'
+    name: webId
+    fullName: webId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The current web id (GUID)
+      Example: "{b29e6452-fe31-4967-872b-ea5d23dbfe07}"
+    syntax:
+      content: string webId
+      return:
+        type:
+          - string

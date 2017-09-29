@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.SPMessageCenterDetailsList'
+    name: SPMessageCenterDetailsList
+    fullName: SPMessageCenterDetailsList
+    children:
+      - '@ms/sp-tenant-admin-page.SPMessageCenterDetailsList.render'
+      - '@ms/sp-tenant-admin-page.SPMessageCenterDetailsList.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      The component class of the message center DetailsList which provides
+      the latest 5 message center messages.
+    extends:
+      name: >-
+        @@ms/sp-tenant-admin-page.SPMessageCenterDetailsList<@@ms/sp-tenant-admin-page.ISPMessageCenterDetailListProps>
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.SPMessageCenterDetailsList.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Render current message center DetailsList Component.
+
+      If the data source (this.state.allImportMessage) is not ready, then show
+      spinner,
+
+      otherwise return the entire component body which includes the DetailsList
+      binded with data source;
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-tenant-admin-page.SPMessageCenterDetailsList.constructor'
+    name: SPMessageCenterDetailsList
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: >-
+      constructor that initializes the selection, starts to get the data with
+      data provider,
+
+      and initializes the state.
+    syntax:
+      content: 'new SPMessageCenterDetailsList(props: ISPMessageCenterDetailListProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-tenant-admin-page.ISPMessageCenterDetailListProps'
+          description: ''

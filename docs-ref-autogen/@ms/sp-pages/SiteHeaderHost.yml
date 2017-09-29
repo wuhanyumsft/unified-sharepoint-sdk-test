@@ -1,0 +1,83 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.SiteHeaderHost'
+    name: SiteHeaderHost
+    fullName: SiteHeaderHost
+    children:
+      - '@ms/sp-pages.SiteHeaderHost.componentDidMount'
+      - '@ms/sp-pages.SiteHeaderHost.componentDidUpdate'
+      - '@ms/sp-pages.SiteHeaderHost.componentWillUnmount'
+      - '@ms/sp-pages.SiteHeaderHost.render'
+      - '@ms/sp-pages.SiteHeaderHost.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Wrapper for the React SiteHeader control.
+
+      Keep this class free of any SiteHeader state management.
+
+      All state management should happen in SiteHeaderContainerStateManager.
+
+      This class should ONLY contain the SP-CLIENT specific details of the
+      SiteHeader host.
+    extends:
+      name: '@@ms/sp-pages.BasePublishingControl<@@ms/sp-pages.ISiteHeaderHostProps>'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SiteHeaderHost.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-pages.SiteHeaderHost.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+  - uid: '@ms/sp-pages.SiteHeaderHost.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-pages.SiteHeaderHost.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.SiteHeaderHost.constructor'
+    name: SiteHeaderHost
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SiteHeaderHost(props: ISiteHeaderHostProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.ISiteHeaderHostProps'
+          description: ''

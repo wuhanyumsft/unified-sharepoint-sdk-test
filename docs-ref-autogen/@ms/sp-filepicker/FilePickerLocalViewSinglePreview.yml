@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.FilePickerLocalViewSinglePreview'
+    name: FilePickerLocalViewSinglePreview
+    fullName: FilePickerLocalViewSinglePreview
+    children:
+      - >-
+        @ms/sp-filepicker.FilePickerLocalViewSinglePreview.componentWillReceiveProps
+      - '@ms/sp-filepicker.FilePickerLocalViewSinglePreview.constructor'
+      - '@ms/sp-filepicker.FilePickerLocalViewSinglePreview.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-filepicker.FilePickerLocalViewSinglePreview<@@ms/sp-filepicker.IFilePickerLocalPreviewProps>
+    package: '@ms/sp-filepicker'
+  - uid: >-
+      @ms/sp-filepicker.FilePickerLocalViewSinglePreview.componentWillReceiveProps
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function componentWillReceiveProps(nextProps:
+        IFilePickerLocalPreviewProps)
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-filepicker.IFilePickerLocalPreviewProps'
+          description: ''
+  - uid: '@ms/sp-filepicker.FilePickerLocalViewSinglePreview.constructor'
+    name: FilePickerLocalViewSinglePreview
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new FilePickerLocalViewSinglePreview(props:
+        IFilePickerLocalPreviewProps)
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-filepicker.IFilePickerLocalPreviewProps'
+          description: ''
+  - uid: '@ms/sp-filepicker.FilePickerLocalViewSinglePreview.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

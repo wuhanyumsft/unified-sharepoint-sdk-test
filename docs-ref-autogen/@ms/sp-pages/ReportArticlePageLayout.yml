@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ReportArticlePageLayout'
+    name: ReportArticlePageLayout
+    fullName: ReportArticlePageLayout
+    children:
+      - '@ms/sp-pages.ReportArticlePageLayout.render'
+      - '@ms/sp-pages.ReportArticlePageLayout.constructor'
+      - '@ms/sp-pages.ReportArticlePageLayout.unmount'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.BasePageLayout'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ReportArticlePageLayout.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+  - uid: '@ms/sp-pages.ReportArticlePageLayout.constructor'
+    name: ReportArticlePageLayout
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ReportArticlePageLayout(domElement: HTMLElement)'
+      parameters:
+        - id: domElement
+          type:
+            - HTMLElement
+          description: ''
+  - uid: '@ms/sp-pages.ReportArticlePageLayout.unmount'
+    name: unmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function unmount()
+      parameters: []

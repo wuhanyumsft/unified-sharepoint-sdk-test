@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.SiteSettingsPanelRenderer'
+    name: SiteSettingsPanelRenderer
+    fullName: SiteSettingsPanelRenderer
+    children:
+      - '@ms/sp-pages.SiteSettingsPanelRenderer.renderSiteSettingsPanel'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SiteSettingsPanelRenderer.renderSiteSettingsPanel'
+    name: renderSiteSettingsPanel
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function renderSiteSettingsPanel(props:
+        ISiteSettingsPanelContainerProps)
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.ISiteSettingsPanelContainerProps'
+          description: ''

@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.INewsreelState'
+    name: INewsreelState
+    fullName: INewsreelState
+    children:
+      - '@ms/sp-teamsite-webparts.INewsreelState.currentBreakpoint'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.INewsreelState.currentBreakpoint'
+    name: currentBreakpoint
+    fullName: currentBreakpoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: BREAKPOINT_SIZE currentBreakpoint
+      return:
+        type:
+          - BREAKPOINT_SIZE

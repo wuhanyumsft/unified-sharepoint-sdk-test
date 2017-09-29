@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/i18n-utilities.FabricSupport'
+    name: FabricSupport
+    fullName: FabricSupport
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: Helper data for office-ui-fabric-react controls.
+    package: '@ms/i18n-utilities'

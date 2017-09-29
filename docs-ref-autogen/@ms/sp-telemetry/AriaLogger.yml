@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.AriaLogger'
+    name: AriaLogger
+    fullName: AriaLogger
+    children:
+      - '@ms/sp-telemetry.AriaLogger.initialize'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.AriaLogger.initialize'
+    name: initialize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function initialize(tenantToken: string, context:
+        IPageContextData)
+      parameters:
+        - id: tenantToken
+          type:
+            - string
+          description: ''
+        - id: context
+          type:
+            - '@@ms/sp-telemetry.IPageContextData'
+          description: ''

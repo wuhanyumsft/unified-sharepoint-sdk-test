@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.IDisplayItemProps'
+    name: IDisplayItemProps
+    fullName: IDisplayItemProps
+    children:
+      - '@ms/sp-component-layouts.IDisplayItemProps.edit'
+      - '@ms/sp-component-layouts.IDisplayItemProps.id'
+      - '@ms/sp-component-layouts.IDisplayItemProps.renderHeight'
+      - '@ms/sp-component-layouts.IDisplayItemProps.renderWidth'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-component-layouts'
+  - uid: '@ms/sp-component-layouts.IDisplayItemProps.edit'
+    name: edit
+    fullName: edit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean edit
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-layouts.IDisplayItemProps.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-layouts.IDisplayItemProps.renderHeight'
+    name: renderHeight
+    fullName: renderHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number renderHeight
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-layouts.IDisplayItemProps.renderWidth'
+    name: renderWidth
+    fullName: renderWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number renderWidth
+      return:
+        type:
+          - number

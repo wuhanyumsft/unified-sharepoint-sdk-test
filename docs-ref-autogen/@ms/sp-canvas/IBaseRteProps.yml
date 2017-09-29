@@ -1,0 +1,111 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.IBaseRteProps'
+    name: IBaseRteProps
+    fullName: IBaseRteProps
+    children:
+      - '@ms/sp-canvas.IBaseRteProps.a11yManagerId'
+      - '@ms/sp-canvas.IBaseRteProps.displayMode'
+      - '@ms/sp-canvas.IBaseRteProps.editorType'
+      - '@ms/sp-canvas.IBaseRteProps.focusEditorOnMount'
+      - '@ms/sp-canvas.IBaseRteProps.innerHTML'
+      - '@ms/sp-canvas.IBaseRteProps.options'
+      - '@ms/sp-canvas.IBaseRteProps.serviceScope'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.IBaseRteProps.a11yManagerId'
+    name: a11yManagerId
+    fullName: a11yManagerId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string a11yManagerId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.IBaseRteProps.displayMode'
+    name: displayMode
+    fullName: displayMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DisplayMode displayMode
+      return:
+        type:
+          - DisplayMode
+  - uid: '@ms/sp-canvas.IBaseRteProps.editorType'
+    name: editorType
+    fullName: editorType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string editorType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.IBaseRteProps.focusEditorOnMount'
+    name: focusEditorOnMount
+    fullName: focusEditorOnMount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean focusEditorOnMount
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.IBaseRteProps.innerHTML'
+    name: innerHTML
+    fullName: innerHTML
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string innerHTML
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.IBaseRteProps.options'
+    name: options
+    fullName: options
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IRichTextEditorOptions options
+      return:
+        type:
+          - '@@ms/sp-canvas.IRichTextEditorOptions'
+  - uid: '@ms/sp-canvas.IBaseRteProps.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope

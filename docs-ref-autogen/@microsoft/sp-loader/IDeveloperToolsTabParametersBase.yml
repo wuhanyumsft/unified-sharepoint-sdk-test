@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.IDeveloperToolsTabParametersBase'
+    name: IDeveloperToolsTabParametersBase
+    fullName: IDeveloperToolsTabParametersBase
+    children:
+      - '@microsoft/sp-loader.IDeveloperToolsTabParametersBase.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.IDeveloperToolsTabParametersBase.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The title of the developer tools tab. Shown along the top of the developer
+      tools panel.
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

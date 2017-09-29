@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-safehtml.SafeHtml'
+    name: SafeHtml
+    fullName: SafeHtml
+    children:
+      - '@ms/sp-safehtml.SafeHtml.safeHtml'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-safehtml'
+  - uid: '@ms/sp-safehtml.SafeHtml.safeHtml'
+    name: safeHtml
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function safeHtml(unsafeHtml: string)'
+      parameters:
+        - id: unsafeHtml
+          type:
+            - string
+          description: ''

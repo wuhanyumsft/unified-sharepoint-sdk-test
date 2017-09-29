@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ImageItem'
+    name: ImageItem
+    fullName: ImageItem
+    children:
+      - '@ms/sp-publishing-webparts.ImageItem.componentWillReceiveProps'
+      - '@ms/sp-publishing-webparts.ImageItem.constructor'
+      - '@ms/sp-publishing-webparts.ImageItem.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.ImageItem<@@ms/sp-publishing-webparts.IImageItemProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ImageItem.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: IImageItemProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-publishing-webparts.IImageItemProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.ImageItem.constructor'
+    name: ImageItem
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ImageItem(props: IImageItemProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IImageItemProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.ImageItem.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

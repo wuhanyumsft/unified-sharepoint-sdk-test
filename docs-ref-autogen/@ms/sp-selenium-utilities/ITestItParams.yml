@@ -1,0 +1,137 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-selenium-utilities.ITestItParams'
+    name: ITestItParams
+    fullName: ITestItParams
+    children:
+      - '@ms/sp-selenium-utilities.ITestItParams.disabledBrowsers'
+      - '@ms/sp-selenium-utilities.ITestItParams.flaky'
+      - '@ms/sp-selenium-utilities.ITestItParams.isAADOnly'
+      - '@ms/sp-selenium-utilities.ITestItParams.isDesktopOnly'
+      - '@ms/sp-selenium-utilities.ITestItParams.isMobileOnly'
+      - '@ms/sp-selenium-utilities.ITestItParams.isMSAOnly'
+      - '@ms/sp-selenium-utilities.ITestItParams.owner'
+      - '@ms/sp-selenium-utilities.ITestItParams.retries'
+      - '@ms/sp-selenium-utilities.ITestItParams.timeout'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-selenium-utilities'
+  - uid: '@ms/sp-selenium-utilities.ITestItParams.disabledBrowsers'
+    name: disabledBrowsers
+    fullName: disabledBrowsers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'BrowserType[] disabledBrowsers'
+      return:
+        type:
+          - 'BrowserType[]'
+  - uid: '@ms/sp-selenium-utilities.ITestItParams.flaky'
+    name: flaky
+    fullName: flaky
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean flaky
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-selenium-utilities.ITestItParams.isAADOnly'
+    name: isAADOnly
+    fullName: isAADOnly
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isAADOnly
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-selenium-utilities.ITestItParams.isDesktopOnly'
+    name: isDesktopOnly
+    fullName: isDesktopOnly
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isDesktopOnly
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-selenium-utilities.ITestItParams.isMobileOnly'
+    name: isMobileOnly
+    fullName: isMobileOnly
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isMobileOnly
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-selenium-utilities.ITestItParams.isMSAOnly'
+    name: isMSAOnly
+    fullName: isMSAOnly
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isMSAOnly
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-selenium-utilities.ITestItParams.owner'
+    name: owner
+    fullName: owner
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string owner
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-selenium-utilities.ITestItParams.retries'
+    name: retries
+    fullName: retries
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number retries
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-selenium-utilities.ITestItParams.timeout'
+    name: timeout
+    fullName: timeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number timeout
+      return:
+        type:
+          - number

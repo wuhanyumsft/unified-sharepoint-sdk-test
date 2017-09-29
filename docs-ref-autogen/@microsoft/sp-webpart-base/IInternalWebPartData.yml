@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IInternalWebPartData'
+    name: IInternalWebPartData
+    fullName: IInternalWebPartData
+    children:
+      - '@microsoft/sp-webpart-base.IInternalWebPartData.htmlProperties'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@microsoft/sp-webpart-base.IWebPartData'
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IInternalWebPartData.htmlProperties'
+    name: htmlProperties
+    fullName: htmlProperties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Definition: HTML markup equivalent for searchable properties and
+      properties that need link fixup.
+
+      format: pseudo HTML
+
+      mandatory: no
+
+      type: string
+
+      supported values: a string containing pseudo HTML.
+
+      example: "<div>searchable_property_value</div><link
+      href='http://contoso.com/path_of_link.aspx' />"
+
+      experimental: no
+    syntax:
+      content: string htmlProperties
+      return:
+        type:
+          - string
+    deprecated:
+      content: Replaced by serverProcessedContent

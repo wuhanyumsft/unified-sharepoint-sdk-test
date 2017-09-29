@@ -1,0 +1,131 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationInformation'
+    name: IGeoLocationInformation
+    fullName: IGeoLocationInformation
+    children:
+      - '@ms/sp-tenant-admin-page.IGeoLocationInformation.GeoLocation'
+      - '@ms/sp-tenant-admin-page.IGeoLocationInformation.InstanceId'
+      - >-
+        @ms/sp-tenant-admin-page.IGeoLocationInformation.IsCurrentUserGeoAdministrator
+      - '@ms/sp-tenant-admin-page.IGeoLocationInformation.IsDefaultGeoLocation'
+      - '@ms/sp-tenant-admin-page.IGeoLocationInformation.MySiteHostDomain'
+      - '@ms/sp-tenant-admin-page.IGeoLocationInformation.PortalDomain'
+      - '@ms/sp-tenant-admin-page.IGeoLocationInformation.RootSiteDomain'
+      - '@ms/sp-tenant-admin-page.IGeoLocationInformation.TenantAdminDomain'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      This interface is to hold the response data of the SharePoint multiGeo
+      API:
+
+      /_api/GeoTenantInstanceInformationCollection
+    extends:
+      name: any
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationInformation.GeoLocation'
+    name: GeoLocation
+    fullName: GeoLocation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string GeoLocation
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationInformation.InstanceId'
+    name: InstanceId
+    fullName: InstanceId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string InstanceId
+      return:
+        type:
+          - string
+  - uid: >-
+      @ms/sp-tenant-admin-page.IGeoLocationInformation.IsCurrentUserGeoAdministrator
+    name: IsCurrentUserGeoAdministrator
+    fullName: IsCurrentUserGeoAdministrator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean IsCurrentUserGeoAdministrator
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationInformation.IsDefaultGeoLocation'
+    name: IsDefaultGeoLocation
+    fullName: IsDefaultGeoLocation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean IsDefaultGeoLocation
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationInformation.MySiteHostDomain'
+    name: MySiteHostDomain
+    fullName: MySiteHostDomain
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string MySiteHostDomain
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationInformation.PortalDomain'
+    name: PortalDomain
+    fullName: PortalDomain
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string PortalDomain
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationInformation.RootSiteDomain'
+    name: RootSiteDomain
+    fullName: RootSiteDomain
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string RootSiteDomain
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationInformation.TenantAdminDomain'
+    name: TenantAdminDomain
+    fullName: TenantAdminDomain
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string TenantAdminDomain
+      return:
+        type:
+          - string

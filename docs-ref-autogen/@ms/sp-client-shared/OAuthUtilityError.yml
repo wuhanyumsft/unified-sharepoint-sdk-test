@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-shared.OAuthUtilityError'
+    name: OAuthUtilityError
+    fullName: OAuthUtilityError
+    children:
+      - '@ms/sp-client-shared.OAuthUtilityError.Error'
+      - '@ms/sp-client-shared.OAuthUtilityError.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: Error returned by the rejected promise
+    extends:
+      name: Error
+    package: '@ms/sp-client-shared'
+  - uid: '@ms/sp-client-shared.OAuthUtilityError.Error'
+    name: Error
+    fullName: Error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ErrorConstructor Error
+      return:
+        type:
+          - ErrorConstructor
+  - uid: '@ms/sp-client-shared.OAuthUtilityError.constructor'
+    name: OAuthUtilityError
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new OAuthUtilityError(type: OAuthUtilityErrorType, context:
+        IOAuthUtilityErrorContext)
+      parameters:
+        - id: type
+          type:
+            - OAuthUtilityErrorType
+          description: ''
+        - id: context
+          type:
+            - '@@ms/sp-client-shared.IOAuthUtilityErrorContext'
+          description: ''

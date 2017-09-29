@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ICommentBlockProps'
+    name: ICommentBlockProps
+    fullName: ICommentBlockProps
+    children:
+      - '@ms/sp-pages.ICommentBlockProps.data'
+      - '@ms/sp-pages.ICommentBlockProps.parentCommentId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ICommentBlockProps.data'
+    name: data
+    fullName: data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CommentItem data
+      return:
+        type:
+          - '@@ms/sp-pages.CommentItem'
+  - uid: '@ms/sp-pages.ICommentBlockProps.parentCommentId'
+    name: parentCommentId
+    fullName: parentCommentId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string parentCommentId
+      return:
+        type:
+          - string

@@ -1,0 +1,263 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.PagesKillSwitches'
+    name: PagesKillSwitches
+    fullName: PagesKillSwitches
+    children:
+      - '@ms/sp-pages.PagesKillSwitches.addPagesNode'
+      - '@ms/sp-pages.PagesKillSwitches.callExistingCheckOutAPI'
+      - '@ms/sp-pages.PagesKillSwitches.commentsKillSwitch'
+      - '@ms/sp-pages.PagesKillSwitches.enableMultiPhaseRender'
+      - '@ms/sp-pages.PagesKillSwitches.fastPageCreation'
+      - '@ms/sp-pages.PagesKillSwitches.fixDesignPackageRetrieval'
+      - '@ms/sp-pages.PagesKillSwitches.flexLayoutKillSwitch'
+      - '@ms/sp-pages.PagesKillSwitches.leftMarginKillSwitch'
+      - '@ms/sp-pages.PagesKillSwitches.loadTitleComponentOnAppLoad'
+      - '@ms/sp-pages.PagesKillSwitches.mobileUpsellKilLSwitch'
+      - '@ms/sp-pages.PagesKillSwitches.onePageNavigationToDocLib'
+      - '@ms/sp-pages.PagesKillSwitches.pageAuthoringFirstRunExperience'
+      - '@ms/sp-pages.PagesKillSwitches.pageTemplatePickerKillSwitch'
+      - '@ms/sp-pages.PagesKillSwitches.skipAlternativeUrlMapJsonParse'
+      - '@ms/sp-pages.PagesKillSwitches.skipAlternativeUrlMapLoad'
+      - '@ms/sp-pages.PagesKillSwitches.socialBarKillSwitch'
+      - '@ms/sp-pages.PagesKillSwitches.unmountLayoutKillSwitch'
+      - '@ms/sp-pages.PagesKillSwitches.userVoiceView'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.PagesKillSwitches.addPagesNode'
+    name: addPagesNode
+    fullName: addPagesNode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid addPagesNode
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.PagesKillSwitches.callExistingCheckOutAPI'
+    name: callExistingCheckOutAPI
+    fullName: callExistingCheckOutAPI
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid callExistingCheckOutAPI
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.PagesKillSwitches.commentsKillSwitch'
+    name: commentsKillSwitch
+    fullName: commentsKillSwitch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid commentsKillSwitch
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.PagesKillSwitches.enableMultiPhaseRender'
+    name: enableMultiPhaseRender
+    fullName: enableMultiPhaseRender
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid enableMultiPhaseRender
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.PagesKillSwitches.fastPageCreation'
+    name: fastPageCreation
+    fullName: fastPageCreation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid fastPageCreation
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.PagesKillSwitches.fixDesignPackageRetrieval'
+    name: fixDesignPackageRetrieval
+    fullName: fixDesignPackageRetrieval
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid fixDesignPackageRetrieval
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.PagesKillSwitches.flexLayoutKillSwitch'
+    name: flexLayoutKillSwitch
+    fullName: flexLayoutKillSwitch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid flexLayoutKillSwitch
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.PagesKillSwitches.leftMarginKillSwitch'
+    name: leftMarginKillSwitch
+    fullName: leftMarginKillSwitch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid leftMarginKillSwitch
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.PagesKillSwitches.loadTitleComponentOnAppLoad'
+    name: loadTitleComponentOnAppLoad
+    fullName: loadTitleComponentOnAppLoad
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid loadTitleComponentOnAppLoad
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.PagesKillSwitches.mobileUpsellKilLSwitch'
+    name: mobileUpsellKilLSwitch
+    fullName: mobileUpsellKilLSwitch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid mobileUpsellKilLSwitch
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.PagesKillSwitches.onePageNavigationToDocLib'
+    name: onePageNavigationToDocLib
+    fullName: onePageNavigationToDocLib
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid onePageNavigationToDocLib
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.PagesKillSwitches.pageAuthoringFirstRunExperience'
+    name: pageAuthoringFirstRunExperience
+    fullName: pageAuthoringFirstRunExperience
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid pageAuthoringFirstRunExperience
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.PagesKillSwitches.pageTemplatePickerKillSwitch'
+    name: pageTemplatePickerKillSwitch
+    fullName: pageTemplatePickerKillSwitch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid pageTemplatePickerKillSwitch
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.PagesKillSwitches.skipAlternativeUrlMapJsonParse'
+    name: skipAlternativeUrlMapJsonParse
+    fullName: skipAlternativeUrlMapJsonParse
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid skipAlternativeUrlMapJsonParse
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.PagesKillSwitches.skipAlternativeUrlMapLoad'
+    name: skipAlternativeUrlMapLoad
+    fullName: skipAlternativeUrlMapLoad
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid skipAlternativeUrlMapLoad
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.PagesKillSwitches.socialBarKillSwitch'
+    name: socialBarKillSwitch
+    fullName: socialBarKillSwitch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid socialBarKillSwitch
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.PagesKillSwitches.unmountLayoutKillSwitch'
+    name: unmountLayoutKillSwitch
+    fullName: unmountLayoutKillSwitch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid unmountLayoutKillSwitch
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-pages.PagesKillSwitches.userVoiceView'
+    name: userVoiceView
+    fullName: userVoiceView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Guid userVoiceView
+      return:
+        type:
+          - Guid

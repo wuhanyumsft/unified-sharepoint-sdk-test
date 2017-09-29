@@ -1,0 +1,105 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.QosMonitor'
+    name: QosMonitor
+    fullName: QosMonitor
+    children:
+      - '@ms/sp-telemetry.QosMonitor.constructor'
+      - '@ms/sp-telemetry.QosMonitor.writeExpectedFailure'
+      - '@ms/sp-telemetry.QosMonitor.writeSuccess'
+      - '@ms/sp-telemetry.QosMonitor.writeUnexpectedFailure'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      Qos logger
+      This class represents the Qos monitor APIs
+    package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.QosMonitor.constructor'
+    name: QosMonitor
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Creates a QoS monitor (initializes it and logs the start event)
+    syntax:
+      content: 'new QosMonitor(scenarioName: string)'
+      parameters:
+        - id: scenarioName
+          type:
+            - string
+          description: |
+            Unique name of the QoS scenario
+            You will see start tag: SPPages.ScenarioName.Start
+  - uid: '@ms/sp-telemetry.QosMonitor.writeExpectedFailure'
+    name: writeExpectedFailure
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeExpectedFailure(tagNameSuffix: string, ex?: Error,
+        extraData?: [key: string]: any)
+      parameters:
+        - id: tagNameSuffix
+          type:
+            - string
+          description: ''
+        - id: ex
+          type:
+            - Error
+          description: ''
+          optional: true
+        - id: extraData
+          type:
+            - '[key: string]: any'
+          description: ''
+          optional: true
+  - uid: '@ms/sp-telemetry.QosMonitor.writeSuccess'
+    name: writeSuccess
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      QoS monitor ends with success
+      You will see success tag: SPPages.ScenarioName.Success
+    syntax:
+      content: 'function writeSuccess(extraData?: [key: string]: any)'
+      parameters:
+        - id: extraData
+          type:
+            - '[key: string]: any'
+          description: ''
+          optional: true
+  - uid: '@ms/sp-telemetry.QosMonitor.writeUnexpectedFailure'
+    name: writeUnexpectedFailure
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      QoS monitor ends with failure
+      You will see failure tag: SPPages.ScenarioName.<failuretag>.Failure.
+      <failuretag> will be filled with param tagName
+    syntax:
+      content: >-
+        function writeUnexpectedFailure(tagNameSuffix: string, ex?: Error,
+        extraData?: [key: string]: any)
+      parameters:
+        - id: tagNameSuffix
+          type:
+            - string
+          description: ''
+        - id: ex
+          type:
+            - Error
+          description: ''
+          optional: true
+        - id: extraData
+          type:
+            - '[key: string]: any'
+          description: ''
+          optional: true

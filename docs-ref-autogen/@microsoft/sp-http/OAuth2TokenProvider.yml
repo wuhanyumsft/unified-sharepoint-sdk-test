@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.OAuth2TokenProvider'
+    name: OAuth2TokenProvider
+    fullName: OAuth2TokenProvider
+    children:
+      - '@microsoft/sp-http.OAuth2TokenProvider.getOAuthToken'
+      - '@microsoft/sp-http.OAuth2TokenProvider.initialize'
+      - '@microsoft/sp-http.OAuth2TokenProvider.constructor'
+      - '@microsoft/sp-http.OAuth2TokenProvider.serviceKey'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      This class allows a developer to obtain OAuth2 tokens.
+      OAuth2 tokens are used to authenticate the user from the SharePoint page
+      to other services such as PowerBI, Sway, Exchange, Yammer, etc.
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.OAuth2TokenProvider.getOAuthToken'
+    name: getOAuthToken
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Fetches the oauth token for a resource if the user that's currently logged
+      in has
+
+      access to that resource.
+
+      The OAuth token SHOULD NOT be cached by the caller since it is already
+      cached by the method
+
+      itself.
+
+
+      An example of a resourceEndpoint would be https://sdfpilot.outlook.com
+    syntax:
+      content: 'function getOAuthToken(resourceEndpoint: string)'
+      parameters:
+        - id: resourceEndpoint
+          type:
+            - string
+          description: the resource for which the token should be obtained
+      return:
+        type:
+          - Promise<@@microsoft/sp-http.IOAuth2Token>
+  - uid: '@microsoft/sp-http.OAuth2TokenProvider.initialize'
+    name: initialize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      The initialize function should be called before the application/components
+      have a chance to make a OAuth2TokenProvider request.
+    syntax:
+      content: 'function initialize(azureInstanceUrl: string, azureTenantId: string)'
+      parameters:
+        - id: azureInstanceUrl
+          type:
+            - string
+          description: ''
+        - id: azureTenantId
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-http.OAuth2TokenProvider.constructor'
+    name: OAuth2TokenProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new OAuth2TokenProvider(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+  - uid: '@microsoft/sp-http.OAuth2TokenProvider.serviceKey'
+    name: serviceKey
+    fullName: serviceKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The service key for OAuth2TokenProvider.
+    syntax:
+      content: static ServiceKey<OAuth2TokenProvider> serviceKey
+      return:
+        type:
+          - ServiceKey<@@microsoft/sp-http.OAuth2TokenProvider>

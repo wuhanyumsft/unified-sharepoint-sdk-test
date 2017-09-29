@@ -1,0 +1,83 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IThreadProps'
+    name: IThreadProps
+    fullName: IThreadProps
+    children:
+      - '@ms/sp-publishing-webparts.IThreadProps.mugshotLink'
+      - '@ms/sp-publishing-webparts.IThreadProps.network'
+      - '@ms/sp-publishing-webparts.IThreadProps.thread'
+      - '@ms/sp-publishing-webparts.IThreadProps.threadLink'
+      - '@ms/sp-publishing-webparts.IThreadProps.users'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IThreadProps.mugshotLink'
+    name: mugshotLink
+    fullName: mugshotLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string mugshotLink
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IThreadProps.network'
+    name: network
+    fullName: network
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: INetwork network
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.INetwork'
+  - uid: '@ms/sp-publishing-webparts.IThreadProps.thread'
+    name: thread
+    fullName: thread
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IThread thread
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IThread'
+  - uid: '@ms/sp-publishing-webparts.IThreadProps.threadLink'
+    name: threadLink
+    fullName: threadLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string threadLink
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IThreadProps.users'
+    name: users
+    fullName: users
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: number]: IUser users'
+      return:
+        type:
+          - '[key: number]: @@ms/sp-publishing-webparts.IUser'

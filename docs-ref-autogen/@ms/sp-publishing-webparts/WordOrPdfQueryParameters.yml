@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.WordOrPdfQueryParameters'
+    name: WordOrPdfQueryParameters
+    fullName: WordOrPdfQueryParameters
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: WORD/PDF specific query params apart from the common parameters.
+    package: '@ms/sp-publishing-webparts'

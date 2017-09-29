@@ -1,0 +1,92 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.FilterOperator'
+    name: FilterOperator
+    fullName: FilterOperator
+    children:
+      - '@ms/sp-dataproviders.FilterOperator.Equals'
+      - '@ms/sp-dataproviders.FilterOperator.NotEqual'
+      - '@ms/sp-dataproviders.FilterOperator.BeginsWith'
+      - '@ms/sp-dataproviders.FilterOperator.EndsWith'
+      - '@ms/sp-dataproviders.FilterOperator.Contains'
+      - '@ms/sp-dataproviders.FilterOperator.DoesNotContain'
+      - '@ms/sp-dataproviders.FilterOperator.LessThan'
+      - '@ms/sp-dataproviders.FilterOperator.GreaterThan'
+      - '@ms/sp-dataproviders.FilterOperator.Between'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.FilterOperator.Equals'
+    name: Equals
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-dataproviders.FilterOperator.NotEqual'
+    name: NotEqual
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+  - uid: '@ms/sp-dataproviders.FilterOperator.BeginsWith'
+    name: BeginsWith
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+  - uid: '@ms/sp-dataproviders.FilterOperator.EndsWith'
+    name: EndsWith
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+  - uid: '@ms/sp-dataproviders.FilterOperator.Contains'
+    name: Contains
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 5
+  - uid: '@ms/sp-dataproviders.FilterOperator.DoesNotContain'
+    name: DoesNotContain
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 6
+  - uid: '@ms/sp-dataproviders.FilterOperator.LessThan'
+    name: LessThan
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 7
+  - uid: '@ms/sp-dataproviders.FilterOperator.GreaterThan'
+    name: GreaterThan
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 8
+  - uid: '@ms/sp-dataproviders.FilterOperator.Between'
+    name: Between
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 9

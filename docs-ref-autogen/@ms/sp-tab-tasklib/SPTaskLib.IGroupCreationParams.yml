@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IGroupCreationParams'
+    name: IGroupCreationParams
+    fullName: IGroupCreationParams
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.IGroupCreationParams.groupAlias'
+      - '@ms/sp-tab-tasklib.SPTaskLib.IGroupCreationParams.groupDisplayName'
+      - '@ms/sp-tab-tasklib.SPTaskLib.IGroupCreationParams.serverUrl'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IGroupCreationParams.groupAlias'
+    name: groupAlias
+    fullName: groupAlias
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string groupAlias
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IGroupCreationParams.groupDisplayName'
+    name: groupDisplayName
+    fullName: groupDisplayName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string groupDisplayName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IGroupCreationParams.serverUrl'
+    name: serverUrl
+    fullName: serverUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string serverUrl
+      return:
+        type:
+          - string

@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.IPrintBuildValidationUrlTaskConfig'
+    name: IPrintBuildValidationUrlTaskConfig
+    fullName: IPrintBuildValidationUrlTaskConfig
+    children:
+      - >-
+        @ms/sp-build-internal-tasks.IPrintBuildValidationUrlTaskConfig.appMinDirectoryPath
+      - >-
+        @ms/sp-build-internal-tasks.IPrintBuildValidationUrlTaskConfig.sourcesJsonFilePath
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-build-internal-tasks'
+  - uid: >-
+      @ms/sp-build-internal-tasks.IPrintBuildValidationUrlTaskConfig.appMinDirectoryPath
+    name: appMinDirectoryPath
+    fullName: appMinDirectoryPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The path to the app-min directory in the vsts-deploy directory
+    syntax:
+      content: string appMinDirectoryPath
+      return:
+        type:
+          - string
+  - uid: >-
+      @ms/sp-build-internal-tasks.IPrintBuildValidationUrlTaskConfig.sourcesJsonFilePath
+    name: sourcesJsonFilePath
+    fullName: sourcesJsonFilePath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The path to the sources.json file in the vsts-deploy directory
+    syntax:
+      content: string sourcesJsonFilePath
+      return:
+        type:
+          - string

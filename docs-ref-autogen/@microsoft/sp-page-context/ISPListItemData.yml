@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-page-context.ISPListItemData'
+    name: ISPListItemData
+    fullName: ISPListItemData
+    children:
+      - '@microsoft/sp-page-context.ISPListItemData.id'
+    langs:
+      - typeScript
+    type: interface
+    summary: Object that represents the data neccesary to build an SPListItem object.
+    package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.ISPListItemData.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number id
+      return:
+        type:
+          - number

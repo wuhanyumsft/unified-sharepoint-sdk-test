@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfoPanelState'
+    name: ISiteInfoPanelState
+    fullName: ISiteInfoPanelState
+    children:
+      - '@ms/sp-tenant-admin-page.ISiteInfoPanelState.description'
+      - '@ms/sp-tenant-admin-page.ISiteInfoPanelState.tenantSharingStatus'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfoPanelState.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string description
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteInfoPanelState.tenantSharingStatus'
+    name: tenantSharingStatus
+    fullName: tenantSharingStatus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: SharingStatus tenantSharingStatus
+      return:
+        type:
+          - SharingStatus

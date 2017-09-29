@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.CommentConstants'
+    name: CommentConstants
+    fullName: CommentConstants
+    children:
+      - '@ms/sp-pages.CommentConstants.Engagement'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.CommentConstants.Engagement'
+    name: Engagement
+    fullName: Engagement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Engagement Engagement
+      return:
+        type:
+          - '@@ms/sp-pages.Engagement'

@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.AddressStore'
+    name: AddressStore
+    fullName: AddressStore
+    children:
+      - '@microsoft/sp-loader.AddressStore.getNormalizedName'
+      - '@microsoft/sp-loader.AddressStore.set'
+      - '@microsoft/sp-loader.AddressStore.tryGetAddress'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      Stores the address for each module by its normalized name.
+      This is used for SystemJS to know how to locate each module.
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.AddressStore.getNormalizedName'
+    name: getNormalizedName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Returns the normalized name for a given address.
+      If the address hasn't been set in the AddressStore, it returns undefined
+    syntax:
+      content: 'function getNormalizedName(address: string)'
+      parameters:
+        - id: address
+          type:
+            - string
+          description: |
+            Address
+  - uid: '@microsoft/sp-loader.AddressStore.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Set a mapping from a module's normalized name to the module address.
+    syntax:
+      content: 'function set(normalizedName: string, address: string)'
+      parameters:
+        - id: normalizedName
+          type:
+            - string
+          description: Module normalized name
+        - id: address
+          type:
+            - string
+          description: |
+            Module address
+  - uid: '@microsoft/sp-loader.AddressStore.tryGetAddress'
+    name: tryGetAddress
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Returns an address for a module, given its normalized name.'
+    syntax:
+      content: 'function tryGetAddress(normalizedName: string)'
+      parameters:
+        - id: normalizedName
+          type:
+            - string
+          description: |
+            Normalized name

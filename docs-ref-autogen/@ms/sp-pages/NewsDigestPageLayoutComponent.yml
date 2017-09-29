@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.NewsDigestPageLayoutComponent'
+    name: NewsDigestPageLayoutComponent
+    fullName: NewsDigestPageLayoutComponent
+    children:
+      - '@ms/sp-pages.NewsDigestPageLayoutComponent.componentDidMount'
+      - '@ms/sp-pages.NewsDigestPageLayoutComponent.componentDidUpdate'
+      - '@ms/sp-pages.NewsDigestPageLayoutComponent.constructor'
+      - '@ms/sp-pages.NewsDigestPageLayoutComponent.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-pages.NewsDigestPageLayoutComponent<@@ms/sp-pages.INewsDigestPageLayoutComponentProps>
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.NewsDigestPageLayoutComponent.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-pages.NewsDigestPageLayoutComponent.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+  - uid: '@ms/sp-pages.NewsDigestPageLayoutComponent.constructor'
+    name: NewsDigestPageLayoutComponent
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new NewsDigestPageLayoutComponent(props:
+        INewsDigestPageLayoutComponentProps)
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.INewsDigestPageLayoutComponentProps'
+          description: ''
+  - uid: '@ms/sp-pages.NewsDigestPageLayoutComponent.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

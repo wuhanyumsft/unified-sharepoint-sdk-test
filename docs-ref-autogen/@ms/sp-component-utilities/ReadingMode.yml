@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.ReadingMode'
+    name: ReadingMode
+    fullName: ReadingMode
+    children:
+      - '@ms/sp-component-utilities.ReadingMode.ReadAfterOtherContent'
+      - '@ms/sp-component-utilities.ReadingMode.ReadImmediately'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.ReadingMode.ReadAfterOtherContent'
+    name: ReadAfterOtherContent
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      The content in this component will read out after other reading tasks of
+      screen reader.
+
+      E.g. first read the information of currently focus control, then this
+      content.
+
+      NOTE: ReadingMode.ReadAfterOtherContent doesn't support ChromeVOX v53.
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-component-utilities.ReadingMode.ReadImmediately'
+    name: ReadImmediately
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Read immediately after this component is triggered rendering and updated.
+
+      Most screen readers will announce the word 'alert' before or after the
+      whole sentence.
+    type: field
+    numericValue: 2

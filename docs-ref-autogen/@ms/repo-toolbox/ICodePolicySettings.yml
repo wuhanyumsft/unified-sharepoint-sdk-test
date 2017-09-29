@@ -1,0 +1,123 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/repo-toolbox.ICodePolicySettings'
+    name: ICodePolicySettings
+    fullName: ICodePolicySettings
+    children:
+      - '@ms/repo-toolbox.ICodePolicySettings.buildDefinitionId'
+      - '@ms/repo-toolbox.ICodePolicySettings.creatorVoteCounts'
+      - '@ms/repo-toolbox.ICodePolicySettings.displayName'
+      - '@ms/repo-toolbox.ICodePolicySettings.manualQueueOnly'
+      - '@ms/repo-toolbox.ICodePolicySettings.minimumApproverCount'
+      - '@ms/repo-toolbox.ICodePolicySettings.queueOnSourceUpdateOnly'
+      - '@ms/repo-toolbox.ICodePolicySettings.requiredReviewerIds'
+      - '@ms/repo-toolbox.ICodePolicySettings.scope'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/repo-toolbox'
+  - uid: '@ms/repo-toolbox.ICodePolicySettings.buildDefinitionId'
+    name: buildDefinitionId
+    fullName: buildDefinitionId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number buildDefinitionId
+      return:
+        type:
+          - number
+  - uid: '@ms/repo-toolbox.ICodePolicySettings.creatorVoteCounts'
+    name: creatorVoteCounts
+    fullName: creatorVoteCounts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean creatorVoteCounts
+      return:
+        type:
+          - boolean
+  - uid: '@ms/repo-toolbox.ICodePolicySettings.displayName'
+    name: displayName
+    fullName: displayName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string displayName
+      return:
+        type:
+          - string
+  - uid: '@ms/repo-toolbox.ICodePolicySettings.manualQueueOnly'
+    name: manualQueueOnly
+    fullName: manualQueueOnly
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean manualQueueOnly
+      return:
+        type:
+          - boolean
+  - uid: '@ms/repo-toolbox.ICodePolicySettings.minimumApproverCount'
+    name: minimumApproverCount
+    fullName: minimumApproverCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number minimumApproverCount
+      return:
+        type:
+          - number
+  - uid: '@ms/repo-toolbox.ICodePolicySettings.queueOnSourceUpdateOnly'
+    name: queueOnSourceUpdateOnly
+    fullName: queueOnSourceUpdateOnly
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean queueOnSourceUpdateOnly
+      return:
+        type:
+          - boolean
+  - uid: '@ms/repo-toolbox.ICodePolicySettings.requiredReviewerIds'
+    name: requiredReviewerIds
+    fullName: requiredReviewerIds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] requiredReviewerIds'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/repo-toolbox.ICodePolicySettings.scope'
+    name: scope
+    fullName: scope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ICodePolicySettingsScope[] scope'
+      return:
+        type:
+          - '@@ms/repo-toolbox.ICodePolicySettingsScope[]'

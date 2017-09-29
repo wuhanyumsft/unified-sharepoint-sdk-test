@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.ICachedDigest'
+    name: ICachedDigest
+    fullName: ICachedDigest
+    children:
+      - '@microsoft/sp-http.ICachedDigest.expirationTimestamp'
+      - '@microsoft/sp-http.ICachedDigest.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Used internally by DigestCache.  This stores a request digest value and
+      its expiration date.
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.ICachedDigest.expirationTimestamp'
+    name: expirationTimestamp
+    fullName: expirationTimestamp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The expiration time for the digest is measured using
+      ITimeProvider.getTimestamp()
+
+      which is the same sort of units as performance.now().
+    syntax:
+      content: number expirationTimestamp
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-http.ICachedDigest.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The string representing the digest.  Example value:
+      "0x6CB1C55E8C18B86...,20 Feb 2016 00:18:17 -0000"
+    syntax:
+      content: string value
+      return:
+        type:
+          - string

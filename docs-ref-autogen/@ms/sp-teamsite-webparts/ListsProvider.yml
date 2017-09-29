@@ -1,0 +1,89 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.ListsProvider'
+    name: ListsProvider
+    fullName: ListsProvider
+    children:
+      - '@ms/sp-teamsite-webparts.ListsProvider.getDefaultDocumentLibrary'
+      - '@ms/sp-teamsite-webparts.ListsProvider.getListFromWeb'
+      - '@ms/sp-teamsite-webparts.ListsProvider.getListsForWeb'
+      - '@ms/sp-teamsite-webparts.ListsProvider.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.ListsProvider.getDefaultDocumentLibrary'
+    name: getDefaultDocumentLibrary
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getDefaultDocumentLibrary(webAbsoluteUrl: string)'
+      parameters:
+        - id: webAbsoluteUrl
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-teamsite-webparts.IListInfo>
+  - uid: '@ms/sp-teamsite-webparts.ListsProvider.getListFromWeb'
+    name: getListFromWeb
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getListFromWeb(webAbsoluteUrl: string, listId: string)'
+      parameters:
+        - id: webAbsoluteUrl
+          type:
+            - string
+          description: ''
+        - id: listId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-teamsite-webparts.IListInfo>
+  - uid: '@ms/sp-teamsite-webparts.ListsProvider.getListsForWeb'
+    name: getListsForWeb
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getListsForWeb(webAbsoluteUrl: string, isLibrary?: boolean)'
+      parameters:
+        - id: webAbsoluteUrl
+          type:
+            - string
+          description: ''
+        - id: isLibrary
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - 'Promise<@@ms/sp-teamsite-webparts.IListInfo[]>'
+  - uid: '@ms/sp-teamsite-webparts.ListsProvider.constructor'
+    name: ListsProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ListsProvider(httpClient: SPHttpClient)'
+      parameters:
+        - id: httpClient
+          type:
+            - SPHttpClient
+          description: ''

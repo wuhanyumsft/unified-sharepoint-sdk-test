@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.ResponsiveUtilities'
+    name: ResponsiveUtilities
+    fullName: ResponsiveUtilities
+    children:
+      - '@ms/sp-teamsite-webparts.ResponsiveUtilities.getBreakpointForSize'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.ResponsiveUtilities.getBreakpointForSize'
+    name: getBreakpointForSize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Retreive Fabric breakpoint based on given pixel size used
+      to determine fabric breakpoint for webparts
+    syntax:
+      content: 'static function getBreakpointForSize(controlWidth: number)'
+      parameters:
+        - id: controlWidth
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - string

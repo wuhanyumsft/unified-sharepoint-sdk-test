@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.UnexpectedFailure'
+    name: UnexpectedFailure
+    fullName: UnexpectedFailure
+    children:
+      - '@ms/sp-component-utilities.UnexpectedFailure.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: The unexpected failure for QoS monitor.
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.UnexpectedFailure.constructor'
+    name: UnexpectedFailure
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new UnexpectedFailure(tagNameSuffix: string, innerError?: string,
+        extraData?: [key: string]: Object)
+      parameters:
+        - id: tagNameSuffix
+          type:
+            - string
+          description: ''
+        - id: innerError
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: extraData
+          type:
+            - '[key: string]: Object'
+          description: ''
+          optional: true

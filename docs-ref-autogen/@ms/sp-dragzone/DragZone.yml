@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dragzone.DragZone'
+    name: DragZone
+    fullName: DragZone
+    children:
+      - '@ms/sp-dragzone.DragZone.componentDidMount'
+      - '@ms/sp-dragzone.DragZone.componentDidUpdate'
+      - '@ms/sp-dragzone.DragZone.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-dragzone.DragZone<@@ms/sp-dragzone.IDragZoneProps>'
+    package: '@ms/sp-dragzone'
+  - uid: '@ms/sp-dragzone.DragZone.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-dragzone.DragZone.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentDidUpdate(prevProps: IDragZoneProps)'
+      parameters:
+        - id: prevProps
+          type:
+            - '@@ms/sp-dragzone.IDragZoneProps'
+          description: ''
+  - uid: '@ms/sp-dragzone.DragZone.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

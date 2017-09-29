@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IPostMetadata'
+    name: IPostMetadata
+    fullName: IPostMetadata
+    children:
+      - '@ms/sp-dataproviders.IPostMetadata.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IPostMetadata.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string type
+      return:
+        type:
+          - string

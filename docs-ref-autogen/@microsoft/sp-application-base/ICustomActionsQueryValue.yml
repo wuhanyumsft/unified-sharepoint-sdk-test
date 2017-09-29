@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.ICustomActionsQueryValue'
+    name: ICustomActionsQueryValue
+    fullName: ICustomActionsQueryValue
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: Represents the parsed value of the "customActions" query parameter.
+    package: '@microsoft/sp-application-base'

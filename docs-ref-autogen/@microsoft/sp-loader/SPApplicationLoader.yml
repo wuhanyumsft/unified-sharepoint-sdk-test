@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.SPApplicationLoader'
+    name: SPApplicationLoader
+    fullName: SPApplicationLoader
+    children:
+      - '@microsoft/sp-loader.SPApplicationLoader.startApplication'
+    langs:
+      - typeScript
+    type: class
+    summary: Application loader. Includes logic to load SPFX client-side applications.
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.SPApplicationLoader.startApplication'
+    name: startApplication
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Loads an application and starts its execution through the shell.
+
+      Relies in SPComponentLoader to load the framework and the application
+      components.
+    syntax:
+      content: >-
+        static function startApplication<TApplication>(applicationId: string,
+        preloadedData: IPreloadedData)
+      parameters:
+        - id: applicationId
+          type:
+            - string
+          description: ''
+        - id: preloadedData
+          type:
+            - '@@microsoft/sp-loader.IPreloadedData'
+          description: |
+            Application preloaded data. Must include the application id.
+      return:
+        type:
+          - Promise<TApplication>

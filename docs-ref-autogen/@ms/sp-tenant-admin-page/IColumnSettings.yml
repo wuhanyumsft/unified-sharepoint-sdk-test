@@ -1,0 +1,179 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IColumnSettings'
+    name: IColumnSettings
+    fullName: IColumnSettings
+    children:
+      - '@ms/sp-tenant-admin-page.IColumnSettings.canBeSearched'
+      - '@ms/sp-tenant-admin-page.IColumnSettings.canBeSearchedWithPrefix'
+      - '@ms/sp-tenant-admin-page.IColumnSettings.fieldName'
+      - '@ms/sp-tenant-admin-page.IColumnSettings.infoPaneOnly'
+      - '@ms/sp-tenant-admin-page.IColumnSettings.isFilterable'
+      - '@ms/sp-tenant-admin-page.IColumnSettings.isGroupable'
+      - '@ms/sp-tenant-admin-page.IColumnSettings.isOptionalColumn'
+      - '@ms/sp-tenant-admin-page.IColumnSettings.isSortable'
+      - '@ms/sp-tenant-admin-page.IColumnSettings.key'
+      - '@ms/sp-tenant-admin-page.IColumnSettings.name'
+      - '@ms/sp-tenant-admin-page.IColumnSettings.preferredWidth'
+      - '@ms/sp-tenant-admin-page.IColumnSettings.valueType'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IColumnSettings.canBeSearched'
+    name: canBeSearched
+    fullName: canBeSearched
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean canBeSearched
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IColumnSettings.canBeSearchedWithPrefix'
+    name: canBeSearchedWithPrefix
+    fullName: canBeSearchedWithPrefix
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean canBeSearchedWithPrefix
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IColumnSettings.fieldName'
+    name: fieldName
+    fullName: fieldName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string fieldName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IColumnSettings.infoPaneOnly'
+    name: infoPaneOnly
+    fullName: infoPaneOnly
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean infoPaneOnly
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IColumnSettings.isFilterable'
+    name: isFilterable
+    fullName: isFilterable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isFilterable
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IColumnSettings.isGroupable'
+    name: isGroupable
+    fullName: isGroupable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isGroupable
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IColumnSettings.isOptionalColumn'
+    name: isOptionalColumn
+    fullName: isOptionalColumn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isOptionalColumn
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IColumnSettings.isSortable'
+    name: isSortable
+    fullName: isSortable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSortable
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IColumnSettings.key'
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string key
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IColumnSettings.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IColumnSettings.preferredWidth'
+    name: preferredWidth
+    fullName: preferredWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number preferredWidth
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tenant-admin-page.IColumnSettings.valueType'
+    name: valueType
+    fullName: valueType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ColumnValueType valueType
+      return:
+        type:
+          - ColumnValueType

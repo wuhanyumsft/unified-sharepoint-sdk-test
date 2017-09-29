@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/repo-toolbox.ICodePolicySettingsScope'
+    name: ICodePolicySettingsScope
+    fullName: ICodePolicySettingsScope
+    children:
+      - '@ms/repo-toolbox.ICodePolicySettingsScope.matchKind'
+      - '@ms/repo-toolbox.ICodePolicySettingsScope.refName'
+      - '@ms/repo-toolbox.ICodePolicySettingsScope.repositoryId'
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      This is the set of interfaces used with interacting with the code policies
+      rest
+
+      api on VSO. These typings come from OneDrive-Buildtools
+
+      Documentation:
+      https://www.visualstudio.com/en-us/docs/integrate/api/policy/configurations
+    package: '@ms/repo-toolbox'
+  - uid: '@ms/repo-toolbox.ICodePolicySettingsScope.matchKind'
+    name: matchKind
+    fullName: matchKind
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string matchKind
+      return:
+        type:
+          - string
+  - uid: '@ms/repo-toolbox.ICodePolicySettingsScope.refName'
+    name: refName
+    fullName: refName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string refName
+      return:
+        type:
+          - string
+  - uid: '@ms/repo-toolbox.ICodePolicySettingsScope.repositoryId'
+    name: repositoryId
+    fullName: repositoryId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string repositoryId
+      return:
+        type:
+          - string

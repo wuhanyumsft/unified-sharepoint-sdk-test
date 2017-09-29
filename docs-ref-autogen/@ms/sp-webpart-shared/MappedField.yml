@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.MappedField'
+    name: MappedField
+    fullName: MappedField
+    children:
+      - '@ms/sp-webpart-shared.MappedField.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.MappedField.constructor'
+    name: MappedField
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new MappedField(target: string, displayField: IDisplayField,
+        onRenderCell?: (item?: IDataRow, index?: number) => ReactNode)
+      parameters:
+        - id: target
+          type:
+            - string
+          description: ''
+        - id: displayField
+          type:
+            - '@@ms/sp-webpart-shared.IDisplayField'
+          description: ''
+        - id: onRenderCell
+          type:
+            - '(item?: IDataRow, index?: number) => ReactNode'
+          description: ''
+          optional: true

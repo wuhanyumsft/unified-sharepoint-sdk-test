@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-connector-webparts.IMessageCardTextInput'
+    name: IMessageCardTextInput
+    fullName: IMessageCardTextInput
+    children:
+      - '@ms/sp-connector-webparts.IMessageCardTextInput.isMultiline'
+      - '@ms/sp-connector-webparts.IMessageCardTextInput.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-connector-webparts.IMessageCardInput'
+    package: '@ms/sp-connector-webparts'
+  - uid: '@ms/sp-connector-webparts.IMessageCardTextInput.isMultiline'
+    name: isMultiline
+    fullName: isMultiline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isMultiline
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-connector-webparts.IMessageCardTextInput.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.INewsState'
+    name: INewsState
+    fullName: INewsState
+    children:
+      - '@ms/sp-component-layouts.INewsState.currentBreakpoint'
+      - '@ms/sp-component-layouts.INewsState.isSelectingItems'
+      - '@ms/sp-component-layouts.INewsState.viewMode'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-component-layouts'
+  - uid: '@ms/sp-component-layouts.INewsState.currentBreakpoint'
+    name: currentBreakpoint
+    fullName: currentBreakpoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: BREAKPOINT_SIZE currentBreakpoint
+      return:
+        type:
+          - BREAKPOINT_SIZE
+  - uid: '@ms/sp-component-layouts.INewsState.isSelectingItems'
+    name: isSelectingItems
+    fullName: isSelectingItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSelectingItems
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-layouts.INewsState.viewMode'
+    name: viewMode
+    fullName: viewMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number viewMode
+      return:
+        type:
+          - number

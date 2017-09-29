@@ -1,0 +1,80 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.AutoSuggestionLocation'
+    name: AutoSuggestionLocation
+    fullName: AutoSuggestionLocation
+    children:
+      - '@ms/sp-pages.AutoSuggestionLocation.constructor'
+      - '@ms/sp-pages.AutoSuggestionLocation.componentDidMount'
+      - '@ms/sp-pages.AutoSuggestionLocation.componentDidUpdate'
+      - '@ms/sp-pages.AutoSuggestionLocation.componentWillUnmount'
+      - '@ms/sp-pages.AutoSuggestionLocation.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-pages.AutoSuggestionLocation<@@ms/sp-pages.IAutoSuggestLocationProps>
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.AutoSuggestionLocation.constructor'
+    name: AutoSuggestionLocation
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new AutoSuggestionLocation(props: IAutoSuggestLocationProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.IAutoSuggestLocationProps'
+          description: ''
+  - uid: '@ms/sp-pages.AutoSuggestionLocation.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-pages.AutoSuggestionLocation.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentDidUpdate(prevProps: IAutoSuggestLocationProps)'
+      parameters:
+        - id: prevProps
+          type:
+            - '@@ms/sp-pages.IAutoSuggestLocationProps'
+          description: ''
+  - uid: '@ms/sp-pages.AutoSuggestionLocation.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-pages.AutoSuggestionLocation.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@ms/sp-pages.IAutoSuggestLocationProps>

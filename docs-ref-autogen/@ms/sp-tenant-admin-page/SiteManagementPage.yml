@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.SiteManagementPage'
+    name: SiteManagementPage
+    fullName: SiteManagementPage
+    children:
+      - '@ms/sp-tenant-admin-page.SiteManagementPage.componentWillUnmount'
+      - '@ms/sp-tenant-admin-page.SiteManagementPage.render'
+      - '@ms/sp-tenant-admin-page.SiteManagementPage.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-tenant-admin-page.SiteManagementPage<__type>'
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.SiteManagementPage.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.SiteManagementPage.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-tenant-admin-page.SiteManagementPage.constructor'
+    name: SiteManagementPage
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new SiteManagementPage()
+      parameters: []

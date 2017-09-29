@@ -1,0 +1,319 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams'
+    name: IActivityQueryParams
+    fullName: IActivityQueryParams
+    children:
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.activity'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.add'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.deleteObject'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.fetchLimit'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.file'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.folder'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.group'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.groupMembershipAdd'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.groupMembershipDelete'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.item'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.latestFirst'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.list'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.move'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.rename'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.requireSecurityTrim'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.restore'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.roleAssignmentAdd'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.roleDefinitionAdd'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.site'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.update'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.user'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams.web'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.activity'
+    name: activity
+    fullName: activity
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean activity
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.add'
+    name: add
+    fullName: add
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean add
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.deleteObject'
+    name: deleteObject
+    fullName: deleteObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean deleteObject
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.fetchLimit'
+    name: fetchLimit
+    fullName: fetchLimit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number fetchLimit
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.file'
+    name: file
+    fullName: file
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean file
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.folder'
+    name: folder
+    fullName: folder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean folder
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.group'
+    name: group
+    fullName: group
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean group
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.groupMembershipAdd'
+    name: groupMembershipAdd
+    fullName: groupMembershipAdd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean groupMembershipAdd
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.groupMembershipDelete'
+    name: groupMembershipDelete
+    fullName: groupMembershipDelete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean groupMembershipDelete
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.item'
+    name: item
+    fullName: item
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean item
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.latestFirst'
+    name: latestFirst
+    fullName: latestFirst
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean latestFirst
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.list'
+    name: list
+    fullName: list
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean list
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.move'
+    name: move
+    fullName: move
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean move
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.rename'
+    name: rename
+    fullName: rename
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean rename
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.requireSecurityTrim'
+    name: requireSecurityTrim
+    fullName: requireSecurityTrim
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean requireSecurityTrim
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.restore'
+    name: restore
+    fullName: restore
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean restore
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.roleAssignmentAdd'
+    name: roleAssignmentAdd
+    fullName: roleAssignmentAdd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean roleAssignmentAdd
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.roleDefinitionAdd'
+    name: roleDefinitionAdd
+    fullName: roleDefinitionAdd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean roleDefinitionAdd
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.site'
+    name: site
+    fullName: site
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean site
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.update'
+    name: update
+    fullName: update
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean update
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.user'
+    name: user
+    fullName: user
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean user
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams.web'
+    name: web
+    fullName: web
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean web
+      return:
+        type:
+          - boolean

@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IHomePageLayoutProps'
+    name: IHomePageLayoutProps
+    fullName: IHomePageLayoutProps
+    children:
+      - '@ms/sp-pages.IHomePageLayoutProps.canvasContent'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IHomePageLayoutProps.canvasContent'
+    name: canvasContent
+    fullName: canvasContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string canvasContent
+      return:
+        type:
+          - string

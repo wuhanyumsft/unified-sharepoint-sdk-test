@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-page-context.SPSite'
+    name: SPSite
+    fullName: SPSite
+    children:
+      - '@microsoft/sp-page-context.SPSite.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      This class is primarily used with the PageContext class.  It provides
+      contextual
+
+      information for the SharePoint site collection ("site") that hosts the
+      page.
+    package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.SPSite.constructor'
+    name: SPSite
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SPSite(data: ISPSiteData)'
+      parameters:
+        - id: data
+          type:
+            - '@@microsoft/sp-page-context.ISPSiteData'
+          description: ''

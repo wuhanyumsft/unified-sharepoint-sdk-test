@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: sp-sample-webparts.ITodoPerson
+    name: ITodoPerson
+    fullName: ITodoPerson
+    children:
+      - sp-sample-webparts.ITodoPerson.EMail
+      - sp-sample-webparts.ITodoPerson.Id
+      - sp-sample-webparts.ITodoPerson.Picture
+      - sp-sample-webparts.ITodoPerson.Title
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface of user data model related to this web part.
+    package: sp-sample-webparts
+  - uid: sp-sample-webparts.ITodoPerson.EMail
+    name: EMail
+    fullName: EMail
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The email address of this person.
+
+      This field is only used in data provider to construct url for fetch user
+      avator.
+    syntax:
+      content: string EMail
+      return:
+        type:
+          - string
+  - uid: sp-sample-webparts.ITodoPerson.Id
+    name: Id
+    fullName: Id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The ID of the person which used to identify the user and fetch the user
+      data from server.
+    syntax:
+      content: number Id
+      return:
+        type:
+          - number
+  - uid: sp-sample-webparts.ITodoPerson.Picture
+    name: Picture
+    fullName: Picture
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The url which representing the avator url of this person.
+    syntax:
+      content: string Picture
+      return:
+        type:
+          - string
+  - uid: sp-sample-webparts.ITodoPerson.Title
+    name: Title
+    fullName: Title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name of this person.
+    syntax:
+      content: string Title
+      return:
+        type:
+          - string

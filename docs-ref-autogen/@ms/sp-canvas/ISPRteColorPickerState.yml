@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ISPRteColorPickerState'
+    name: ISPRteColorPickerState
+    fullName: ISPRteColorPickerState
+    children:
+      - '@ms/sp-canvas.ISPRteColorPickerState.isCalloutVisible'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ISPRteColorPickerState.isCalloutVisible'
+    name: isCalloutVisible
+    fullName: isCalloutVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isCalloutVisible
+      return:
+        type:
+          - boolean

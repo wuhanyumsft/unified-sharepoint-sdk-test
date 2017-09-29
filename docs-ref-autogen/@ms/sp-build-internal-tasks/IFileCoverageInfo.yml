@@ -1,0 +1,151 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.IFileCoverageInfo'
+    name: IFileCoverageInfo
+    fullName: IFileCoverageInfo
+    children:
+      - '@ms/sp-build-internal-tasks.IFileCoverageInfo.branchCount'
+      - '@ms/sp-build-internal-tasks.IFileCoverageInfo.coveredBranchCount'
+      - '@ms/sp-build-internal-tasks.IFileCoverageInfo.coveredFunctionCount'
+      - '@ms/sp-build-internal-tasks.IFileCoverageInfo.coveredLineCount'
+      - '@ms/sp-build-internal-tasks.IFileCoverageInfo.coveredLines'
+      - '@ms/sp-build-internal-tasks.IFileCoverageInfo.coveredStatementCount'
+      - '@ms/sp-build-internal-tasks.IFileCoverageInfo.functionCount'
+      - '@ms/sp-build-internal-tasks.IFileCoverageInfo.lineCount'
+      - '@ms/sp-build-internal-tasks.IFileCoverageInfo.statementCount'
+      - '@ms/sp-build-internal-tasks.IFileCoverageInfo.uncoveredLines'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.IFileCoverageInfo.branchCount'
+    name: branchCount
+    fullName: branchCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number branchCount
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-build-internal-tasks.IFileCoverageInfo.coveredBranchCount'
+    name: coveredBranchCount
+    fullName: coveredBranchCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number coveredBranchCount
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-build-internal-tasks.IFileCoverageInfo.coveredFunctionCount'
+    name: coveredFunctionCount
+    fullName: coveredFunctionCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number coveredFunctionCount
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-build-internal-tasks.IFileCoverageInfo.coveredLineCount'
+    name: coveredLineCount
+    fullName: coveredLineCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number coveredLineCount
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-build-internal-tasks.IFileCoverageInfo.coveredLines'
+    name: coveredLines
+    fullName: coveredLines
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] coveredLines'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-build-internal-tasks.IFileCoverageInfo.coveredStatementCount'
+    name: coveredStatementCount
+    fullName: coveredStatementCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number coveredStatementCount
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-build-internal-tasks.IFileCoverageInfo.functionCount'
+    name: functionCount
+    fullName: functionCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number functionCount
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-build-internal-tasks.IFileCoverageInfo.lineCount'
+    name: lineCount
+    fullName: lineCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number lineCount
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-build-internal-tasks.IFileCoverageInfo.statementCount'
+    name: statementCount
+    fullName: statementCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number statementCount
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-build-internal-tasks.IFileCoverageInfo.uncoveredLines'
+    name: uncoveredLines
+    fullName: uncoveredLines
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] uncoveredLines'
+      return:
+        type:
+          - 'string[]'

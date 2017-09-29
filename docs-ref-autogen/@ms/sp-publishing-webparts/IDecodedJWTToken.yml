@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IDecodedJWTToken'
+    name: IDecodedJWTToken
+    fullName: IDecodedJWTToken
+    children:
+      - '@ms/sp-publishing-webparts.IDecodedJWTToken.header'
+      - '@ms/sp-publishing-webparts.IDecodedJWTToken.JWSPayload'
+      - '@ms/sp-publishing-webparts.IDecodedJWTToken.JWSSig'
+    langs:
+      - typeScript
+    type: interface
+    summary: Contains metadata about a token item.
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IDecodedJWTToken.header'
+    name: header
+    fullName: header
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: heaqder
+    syntax:
+      content: string header
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDecodedJWTToken.JWSPayload'
+    name: JWSPayload
+    fullName: JWSPayload
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: JWS Payload
+    syntax:
+      content: string JWSPayload
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDecodedJWTToken.JWSSig'
+    name: JWSSig
+    fullName: JWSSig
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: JWS Sig
+    syntax:
+      content: string JWSSig
+      return:
+        type:
+          - string

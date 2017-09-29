@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.TestData'
+    name: TestData
+    fullName: TestData
+    children:
+      - '@ms/sp-pages.TestData.delveBlogData'
+      - '@ms/sp-pages.TestData.testPageData'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.TestData.delveBlogData'
+    name: delveBlogData
+    fullName: delveBlogData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static IControlData[] delveBlogData'
+      return:
+        type:
+          - '@@ms/sp-pages.IControlData[]'
+  - uid: '@ms/sp-pages.TestData.testPageData'
+    name: testPageData
+    fullName: testPageData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static ICanvasControl[] testPageData'
+      return:
+        type:
+          - 'ICanvasControl[]'

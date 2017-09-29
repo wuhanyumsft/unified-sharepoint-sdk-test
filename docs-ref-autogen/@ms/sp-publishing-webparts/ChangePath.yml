@@ -1,0 +1,82 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ChangePath'
+    name: ChangePath
+    fullName: ChangePath
+    children:
+      - '@ms/sp-publishing-webparts.ChangePath.constructor'
+      - '@ms/sp-publishing-webparts.ChangePath.componentWillReceiveProps'
+      - '@ms/sp-publishing-webparts.ChangePath.render'
+      - '@ms/sp-publishing-webparts.ChangePath.shouldComponentUpdate'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.ChangePath<@@ms/sp-publishing-webparts.IChangePathProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ChangePath.constructor'
+    name: ChangePath
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ChangePath(props: IChangePathProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IChangePathProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.ChangePath.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: IChangePathProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-publishing-webparts.IChangePathProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.ChangePath.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<HTMLDivElement>
+  - uid: '@ms/sp-publishing-webparts.ChangePath.shouldComponentUpdate'
+    name: shouldComponentUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function shouldComponentUpdate(nextProps: IChangePathProps, nextState:
+        IChangePathState)
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-publishing-webparts.IChangePathProps'
+          description: ''
+        - id: nextState
+          type:
+            - '@@ms/sp-publishing-webparts.IChangePathState'
+          description: ''
+      return:
+        type:
+          - boolean

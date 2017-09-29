@@ -1,0 +1,113 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.IMySiteWebPartCacheDataItem'
+    name: IMySiteWebPartCacheDataItem
+    fullName: IMySiteWebPartCacheDataItem
+    children:
+      - '@ms/sp-webpart-shared.IMySiteWebPartCacheDataItem.cacheVersion'
+      - '@ms/sp-webpart-shared.IMySiteWebPartCacheDataItem.hash'
+      - '@ms/sp-webpart-shared.IMySiteWebPartCacheDataItem.id'
+      - '@ms/sp-webpart-shared.IMySiteWebPartCacheDataItem.modified'
+      - '@ms/sp-webpart-shared.IMySiteWebPartCacheDataItem.result'
+      - '@ms/sp-webpart-shared.IMySiteWebPartCacheDataItem.uniqueId'
+      - '@ms/sp-webpart-shared.IMySiteWebPartCacheDataItem.webPartInstanceId'
+    langs:
+      - typeScript
+    type: interface
+    summary: Item that represents a MySite WebPart Cache item.
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.IMySiteWebPartCacheDataItem.cacheVersion'
+    name: cacheVersion
+    fullName: cacheVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The cache version of the item (when it was written to cache).
+    syntax:
+      content: number cacheVersion
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-webpart-shared.IMySiteWebPartCacheDataItem.hash'
+    name: hash
+    fullName: hash
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The hashed WebPart properties.
+    syntax:
+      content: string hash
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IMySiteWebPartCacheDataItem.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The SharePoint ID of the item.
+    syntax:
+      content: number id
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-webpart-shared.IMySiteWebPartCacheDataItem.modified'
+    name: modified
+    fullName: modified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The last modified time of the item (when it was written to cache).
+    syntax:
+      content: Date modified
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-webpart-shared.IMySiteWebPartCacheDataItem.result'
+    name: result
+    fullName: result
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The cached result value.
+    syntax:
+      content: string result
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IMySiteWebPartCacheDataItem.uniqueId'
+    name: uniqueId
+    fullName: uniqueId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The SharePoint UniqueId of the item.
+    syntax:
+      content: Guid uniqueId
+      return:
+        type:
+          - Guid
+  - uid: '@ms/sp-webpart-shared.IMySiteWebPartCacheDataItem.webPartInstanceId'
+    name: webPartInstanceId
+    fullName: webPartInstanceId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The unique ID of the WebPart.
+
+      This is a string value that could be anything but is guaranteed to be
+      unique at page scope.
+    syntax:
+      content: string webPartInstanceId
+      return:
+        type:
+          - string

@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IUserVoice'
+    name: IUserVoice
+    fullName: IUserVoice
+    children:
+      - '@ms/sp-tenant-admin-page.IUserVoice.push'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IUserVoice.push'
+    name: push
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function push(option: Array<any>)'
+      parameters:
+        - id: option
+          type:
+            - Array<any>
+          description: ''

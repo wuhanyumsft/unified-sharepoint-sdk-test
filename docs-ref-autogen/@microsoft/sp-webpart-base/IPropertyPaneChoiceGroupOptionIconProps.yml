@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOptionIconProps'
+    name: IPropertyPaneChoiceGroupOptionIconProps
+    fullName: IPropertyPaneChoiceGroupOptionIconProps
+    children:
+      - >-
+        @microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOptionIconProps.officeFabricIconFontName
+    langs:
+      - typeScript
+    type: interface
+    summary: PropertyPane ChoiceGroup icon props.
+    package: '@microsoft/sp-webpart-base'
+  - uid: >-
+      @microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOptionIconProps.officeFabricIconFontName
+    name: officeFabricIconFontName
+    fullName: officeFabricIconFontName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name of the icon to use from th office fabric icon set.
+    syntax:
+      content: string officeFabricIconFontName
+      return:
+        type:
+          - string

@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/repo-toolbox.SizeAuditAction'
+    name: SizeAuditAction
+    fullName: SizeAuditAction
+    children:
+      - '@ms/repo-toolbox.SizeAuditAction.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/repo-toolbox.RepoToolboxAction'
+    package: '@ms/repo-toolbox'
+  - uid: '@ms/repo-toolbox.SizeAuditAction.constructor'
+    name: SizeAuditAction
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new SizeAuditAction()
+      parameters: []

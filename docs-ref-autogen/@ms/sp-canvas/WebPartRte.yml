@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.WebPartRte'
+    name: WebPartRte
+    fullName: WebPartRte
+    children:
+      - '@ms/sp-canvas.WebPartRte.focus'
+      - '@ms/sp-canvas.WebPartRte.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: WebPartRte component. This component is used inside webparts.
+    extends:
+      name: '@@ms/sp-canvas.WebPartRte<@@ms/sp-canvas.IWebPartRteProps>'
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.WebPartRte.focus'
+    name: focus
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+  - uid: '@ms/sp-canvas.WebPartRte.constructor'
+    name: WebPartRte
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new WebPartRte(props: IWebPartRteProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-canvas.IWebPartRteProps'
+          description: ''

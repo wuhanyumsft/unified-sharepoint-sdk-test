@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/tab-test-extensions.TabTestGreenApplicationCustomizer'
+    name: TabTestGreenApplicationCustomizer
+    fullName: TabTestGreenApplicationCustomizer
+    children:
+      - '@ms/tab-test-extensions.TabTestGreenApplicationCustomizer.onInit'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      DO NOT COMMIT CHANGES TO THIS CLASS WITHOUT VALIDATING THAT THE TAB TEST
+      STILL PASSES.
+      In the odsp-next Git repo, the TAB test is in this source file:
+
+         /src/test/tab/ClientSideExtension.ts TAB test.
+    extends:
+      name: >-
+        @@ms/tab-test-extensions.TabTestGreenApplicationCustomizer<@@ms/tab-test-extensions.ITabApplicationCustomizerProperties>
+    package: '@ms/tab-test-extensions'
+  - uid: '@ms/tab-test-extensions.TabTestGreenApplicationCustomizer.onInit'
+    name: onInit
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function onInit()
+      parameters: []
+      return:
+        type:
+          - Promise<void>

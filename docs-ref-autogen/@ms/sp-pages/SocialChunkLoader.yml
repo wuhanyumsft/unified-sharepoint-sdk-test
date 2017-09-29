@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.SocialChunkLoader'
+    name: SocialChunkLoader
+    fullName: SocialChunkLoader
+    children:
+      - '@ms/sp-pages.SocialChunkLoader.load'
+      - '@ms/sp-pages.SocialChunkLoader.constructor'
+      - '@ms/sp-pages.SocialChunkLoader.waitForLoad'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SocialChunkLoader.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function load()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-pages.SocialChunkLoader.constructor'
+    name: SocialChunkLoader
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new SocialChunkLoader()
+      parameters: []
+  - uid: '@ms/sp-pages.SocialChunkLoader.waitForLoad'
+    name: waitForLoad
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function waitForLoad()
+      parameters: []
+      return:
+        type:
+          - Promise<void>

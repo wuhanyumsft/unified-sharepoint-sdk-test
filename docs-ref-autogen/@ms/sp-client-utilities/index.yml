@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-utilities'
+    name: '@ms/sp-client-utilities'
+    summary: ''
+    children:
+      - '@ms/sp-client-utilities.IClientUtilitiesArgs'
+      - '@ms/sp-client-utilities.Global'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@ms/sp-client-utilities.IClientUtilitiesArgs'
+    name: IClientUtilitiesArgs
+  - uid: '@ms/sp-client-utilities.Global'
+    name: Global

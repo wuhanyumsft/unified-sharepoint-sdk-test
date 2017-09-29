@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.LivePersonaCardLoader'
+    name: LivePersonaCardLoader
+    fullName: LivePersonaCardLoader
+    children:
+      - '@ms/sp-people-webparts.LivePersonaCardLoader.initialize'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-people-webparts'
+  - uid: '@ms/sp-people-webparts.LivePersonaCardLoader.initialize'
+    name: initialize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function initialize(serviceScope: ServiceScope,
+        currentLoaderConfig: IClientSideComponentLoaderConfiguration)
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+        - id: currentLoaderConfig
+          type:
+            - IClientSideComponentLoaderConfiguration
+          description: ''

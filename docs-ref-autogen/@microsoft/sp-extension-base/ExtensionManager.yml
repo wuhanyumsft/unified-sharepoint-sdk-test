@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-extension-base.ExtensionManager'
+    name: ExtensionManager
+    fullName: ExtensionManager<TExtension>
+    children:
+      - '@microsoft/sp-extension-base.ExtensionManager.createExtension'
+      - '@microsoft/sp-extension-base.ExtensionManager.dispose'
+      - '@microsoft/sp-extension-base.ExtensionManager.constructor'
+      - '@microsoft/sp-extension-base.ExtensionManager.waitForInitialization'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      ExtensionManager manages a collection of extensions and provides APIs to
+      create, dispose
+
+      and access its managed extensions.
+    package: '@microsoft/sp-extension-base'
+  - uid: '@microsoft/sp-extension-base.ExtensionManager.createExtension'
+    name: createExtension
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Creates an extension instance by loading its module based on the provided
+      componentId and then creates an instance
+
+      of the extension by passing in the provided properties JSON and context
+      creator.
+    syntax:
+      content: >-
+        function createExtension(componentId: string, propertiesJson: string,
+        contextCreator: (extensionContextParameters:
+        IExtensionContextParameters) => ExtensionContext)
+      parameters:
+        - id: componentId
+          type:
+            - string
+          description: the client-side component ID for the extension.
+        - id: propertiesJson
+          type:
+            - string
+          description: a text string containing an optional JSON object.
+        - id: contextCreator
+          type:
+            - >-
+              (extensionContextParameters: IExtensionContextParameters) =>
+              ExtensionContext
+          description: |
+            a callback function that constructs an appropriate ExtensionContext
+      return:
+        type:
+          - Promise<TExtension>
+  - uid: '@microsoft/sp-extension-base.ExtensionManager.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Disposes any extensions that were created via createExtension().  This is
+      performed by calling
+
+      BaseExtension.dispose() for each extension.
+    syntax:
+      content: function dispose()
+      parameters: []
+  - uid: '@microsoft/sp-extension-base.ExtensionManager.constructor'
+    name: ExtensionManager
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Creates a new instance of ExtensionManager.
+    syntax:
+      content: 'new ExtensionManager(serviceScope: ServiceScope, expectedType: Function)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: The serviceScope provided by the caller application
+        - id: expectedType
+          type:
+            - Function
+          description: |
+            for validation purposes, a base class that the resulting object
+              is expected to extend
+  - uid: '@microsoft/sp-extension-base.ExtensionManager.waitForInitialization'
+    name: waitForInitialization
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      For all extensions that have been created so far by createExtension(),
+      this waits
+
+      for them all to finish initializing, and then returns the list of
+      initialized extension
+
+      objects.
+    syntax:
+      content: function waitForInitialization()
+      parameters: []
+      return:
+        type:
+          - 'Promise<TExtension[]>'

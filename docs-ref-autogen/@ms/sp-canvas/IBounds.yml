@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.IBounds'
+    name: IBounds
+    fullName: IBounds
+    children:
+      - '@ms/sp-canvas.IBounds.height'
+      - '@ms/sp-canvas.IBounds.left'
+      - '@ms/sp-canvas.IBounds.top'
+      - '@ms/sp-canvas.IBounds.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.IBounds.height'
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number height
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-canvas.IBounds.left'
+    name: left
+    fullName: left
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number left
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-canvas.IBounds.top'
+    name: top
+    fullName: top
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number top
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-canvas.IBounds.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number width
+      return:
+        type:
+          - number

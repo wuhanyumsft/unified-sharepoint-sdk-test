@@ -1,0 +1,46 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.WebPartContext'
+    name: WebPartContext
+    fullName: WebPartContext
+    children:
+      - '@microsoft/sp-webpart-base.WebPartContext.manifest'
+      - '@microsoft/sp-webpart-base.WebPartContext.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Web part context object. This object contains the contextual services
+      available to a web part. e.g.
+
+      a contextual instance to the http client.
+    extends:
+      name: '@@microsoft/sp-webpart-base.WebPartContext'
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.WebPartContext.manifest'
+    name: manifest
+    fullName: manifest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc @microsoft/sp-component-base:BaseComponentContext.manifest}'
+    syntax:
+      content: IClientSideWebPartManifestInstance<any> manifest
+      return:
+        type:
+          - IClientSideWebPartManifestInstance<any>
+  - uid: '@microsoft/sp-webpart-base.WebPartContext.constructor'
+    name: WebPartContext
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new WebPartContext(parameters: IWebPartContextParameters)'
+      parameters:
+        - id: parameters
+          type:
+            - '@@microsoft/sp-webpart-base.IWebPartContextParameters'
+          description: ''

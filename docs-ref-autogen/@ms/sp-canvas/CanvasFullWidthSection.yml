@@ -1,0 +1,102 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.CanvasFullWidthSection'
+    name: CanvasFullWidthSection
+    fullName: CanvasFullWidthSection
+    children:
+      - '@ms/sp-canvas.CanvasFullWidthSection.constructor'
+      - '@ms/sp-canvas.CanvasFullWidthSection.componentDidMount'
+      - '@ms/sp-canvas.CanvasFullWidthSection.isFullWidth'
+      - '@ms/sp-canvas.CanvasFullWidthSection.isFullWidthControl'
+      - '@ms/sp-canvas.CanvasFullWidthSection.setFullWidthWebPartProperty'
+    langs:
+      - typeScript
+    type: class
+    summary: Represents a full width section layout component
+    extends:
+      name: '@@ms/sp-canvas.CanvasFullWidthSection'
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.CanvasFullWidthSection.constructor'
+    name: CanvasFullWidthSection
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CanvasFullWidthSection(props: ICanvasSectionProps, context:
+        ICanvasContext)
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-canvas.ICanvasSectionProps'
+          description: ''
+        - id: context
+          type:
+            - '@@ms/sp-canvas.ICanvasContext'
+          description: ''
+  - uid: '@ms/sp-canvas.CanvasFullWidthSection.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-canvas.CanvasFullWidthSection.isFullWidth'
+    name: isFullWidth
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isFullWidth(position: IControlPosition)'
+      parameters:
+        - id: position
+          type:
+            - '@@ms/sp-canvas.IControlPosition'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.CanvasFullWidthSection.isFullWidthControl'
+    name: isFullWidthControl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isFullWidthControl(control: ICanvasControl)'
+      parameters:
+        - id: control
+          type:
+            - '@@ms/sp-canvas.ICanvasControl'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.CanvasFullWidthSection.setFullWidthWebPartProperty'
+    name: setFullWidthWebPartProperty
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function setFullWidthWebPartProperty(control: ICanvasControl,
+        value: boolean)
+      parameters:
+        - id: control
+          type:
+            - '@@ms/sp-canvas.ICanvasControl'
+          description: ''
+        - id: value
+          type:
+            - boolean
+          description: ''

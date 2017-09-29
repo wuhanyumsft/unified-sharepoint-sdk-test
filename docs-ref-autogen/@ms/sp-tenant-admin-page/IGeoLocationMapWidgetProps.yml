@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationMapWidgetProps'
+    name: IGeoLocationMapWidgetProps
+    fullName: IGeoLocationMapWidgetProps
+    children:
+      - '@ms/sp-tenant-admin-page.IGeoLocationMapWidgetProps.currentGeoLocation'
+      - '@ms/sp-tenant-admin-page.IGeoLocationMapWidgetProps.dataProvider'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationMapWidgetProps.currentGeoLocation'
+    name: currentGeoLocation
+    fullName: currentGeoLocation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string currentGeoLocation
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationMapWidgetProps.dataProvider'
+    name: dataProvider
+    fullName: dataProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IGeoLocationsDataProvider dataProvider
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IGeoLocationsDataProvider'

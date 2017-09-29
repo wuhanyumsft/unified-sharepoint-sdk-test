@@ -1,0 +1,193 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISiteListProps'
+    name: ISiteListProps
+    fullName: ISiteListProps
+    children:
+      - '@ms/sp-tenant-admin-page.ISiteListProps.columnMenuKey'
+      - '@ms/sp-tenant-admin-page.ISiteListProps.columns'
+      - '@ms/sp-tenant-admin-page.ISiteListProps.CreatedModernSiteUrl'
+      - '@ms/sp-tenant-admin-page.ISiteListProps.dataProvider'
+      - '@ms/sp-tenant-admin-page.ISiteListProps.defaultColumnSettings'
+      - '@ms/sp-tenant-admin-page.ISiteListProps.dispatch'
+      - '@ms/sp-tenant-admin-page.ISiteListProps.needToCheckSiteCreation'
+      - '@ms/sp-tenant-admin-page.ISiteListProps.queryConditions'
+      - '@ms/sp-tenant-admin-page.ISiteListProps.selectedKeys'
+      - '@ms/sp-tenant-admin-page.ISiteListProps.selections'
+      - '@ms/sp-tenant-admin-page.ISiteListProps.sites'
+      - '@ms/sp-tenant-admin-page.ISiteListProps.sitesCreationInProgress'
+      - '@ms/sp-tenant-admin-page.ISiteListProps.updateO365RelatedColumnsComplete'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ISiteListProps.columnMenuKey'
+    name: columnMenuKey
+    fullName: columnMenuKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string columnMenuKey
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteListProps.columns'
+    name: columns
+    fullName: columns
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IColumnState[] columns'
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IColumnState[]'
+  - uid: '@ms/sp-tenant-admin-page.ISiteListProps.CreatedModernSiteUrl'
+    name: CreatedModernSiteUrl
+    fullName: CreatedModernSiteUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string CreatedModernSiteUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteListProps.dataProvider'
+    name: dataProvider
+    fullName: dataProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISiteDataProvider dataProvider
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISiteDataProvider'
+  - uid: '@ms/sp-tenant-admin-page.ISiteListProps.defaultColumnSettings'
+    name: defaultColumnSettings
+    fullName: defaultColumnSettings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: string]: IColumnSettings defaultColumnSettings'
+      return:
+        type:
+          - '[key: string]: @@ms/sp-tenant-admin-page.IColumnSettings'
+  - uid: '@ms/sp-tenant-admin-page.ISiteListProps.dispatch'
+    name: dispatch
+    fullName: dispatch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Dispatch<ISiteManagementState> dispatch
+      return:
+        type:
+          - Dispatch<@@ms/sp-tenant-admin-page.ISiteManagementState>
+  - uid: '@ms/sp-tenant-admin-page.ISiteListProps.needToCheckSiteCreation'
+    name: needToCheckSiteCreation
+    fullName: needToCheckSiteCreation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean needToCheckSiteCreation
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.ISiteListProps.queryConditions'
+    name: queryConditions
+    fullName: queryConditions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISiteQueryConditions queryConditions
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISiteQueryConditions'
+  - uid: '@ms/sp-tenant-admin-page.ISiteListProps.selectedKeys'
+    name: selectedKeys
+    fullName: selectedKeys
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] selectedKeys'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-tenant-admin-page.ISiteListProps.selections'
+    name: selections
+    fullName: selections
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ISiteInfo[] selections'
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISiteInfo[]'
+  - uid: '@ms/sp-tenant-admin-page.ISiteListProps.sites'
+    name: sites
+    fullName: sites
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ISiteInfo[] sites'
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISiteInfo[]'
+  - uid: '@ms/sp-tenant-admin-page.ISiteListProps.sitesCreationInProgress'
+    name: sitesCreationInProgress
+    fullName: sitesCreationInProgress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Set<string> sitesCreationInProgress
+      return:
+        type:
+          - Set<string>
+  - uid: '@ms/sp-tenant-admin-page.ISiteListProps.updateO365RelatedColumnsComplete'
+    name: updateO365RelatedColumnsComplete
+    fullName: updateO365RelatedColumnsComplete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean updateO365RelatedColumnsComplete
+      return:
+        type:
+          - boolean

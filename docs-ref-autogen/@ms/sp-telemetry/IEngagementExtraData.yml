@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.IEngagementExtraData'
+    name: IEngagementExtraData
+    fullName: IEngagementExtraData
+    children:
+      - '@ms/sp-telemetry.IEngagementExtraData.action'
+      - '@ms/sp-telemetry.IEngagementExtraData.message'
+    langs:
+      - typeScript
+    type: interface
+    summary: Additional contextual usage qualifier container interface.
+    package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.IEngagementExtraData.action'
+    name: action
+    fullName: action
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Action identifies the recorded operation
+    syntax:
+      content: string action
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.IEngagementExtraData.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string message
+      return:
+        type:
+          - string

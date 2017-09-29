@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/listview-spfx-host.ColumnAdapter'
+    name: ColumnAdapter
+    fullName: ColumnAdapter
+    children:
+      - '@ms/listview-spfx-host.ColumnAdapter.constructor'
+      - '@ms/listview-spfx-host.ColumnAdapter.renderCell'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      The implementation of IColumnAdapter that gets instantiated by SPFx and
+      used by listview application.
+
+      This is a sealed class. Do not extend it.
+    package: '@ms/listview-spfx-host'
+  - uid: '@ms/listview-spfx-host.ColumnAdapter.constructor'
+    name: ColumnAdapter
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ColumnAdapter(data: IColumn, listViewAdapter: IListViewAdapter)'
+      parameters:
+        - id: data
+          type:
+            - '@@ms/listview-spfx-host.IColumn'
+          description: ''
+        - id: listViewAdapter
+          type:
+            - '@@ms/listview-spfx-host.IListViewAdapter'
+          description: ''
+  - uid: '@ms/listview-spfx-host.ColumnAdapter.renderCell'
+    name: renderCell
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function renderCell(row: RowAdapter, domElement: HTMLDivElement)'
+      parameters:
+        - id: row
+          type:
+            - '@@ms/listview-spfx-host.RowAdapter'
+          description: ''
+        - id: domElement
+          type:
+            - HTMLDivElement
+          description: ''
+      return:
+        type:
+          - '@@ms/listview-spfx-host.ICellAdapter'

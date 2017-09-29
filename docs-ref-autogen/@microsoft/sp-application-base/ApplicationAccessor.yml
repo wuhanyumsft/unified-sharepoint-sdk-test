@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.ApplicationAccessor'
+    name: ApplicationAccessor
+    fullName: ApplicationAccessor
+    children:
+      - '@microsoft/sp-application-base.ApplicationAccessor.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: Provides metadata and events of the SPFx application that's running.
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.ApplicationAccessor.constructor'
+    name: ApplicationAccessor
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ApplicationAccessor(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''

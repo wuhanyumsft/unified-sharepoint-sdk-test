@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.IPeopleLinkProps'
+    name: IPeopleLinkProps
+    fullName: IPeopleLinkProps
+    children:
+      - '@ms/sp-people-webparts.IPeopleLinkProps.isEditMode'
+      - '@ms/sp-people-webparts.IPeopleLinkProps.linkName'
+      - '@ms/sp-people-webparts.IPeopleLinkProps.linkUrl'
+      - '@ms/sp-people-webparts.IPeopleLinkProps.onChangeLink'
+      - '@ms/sp-people-webparts.IPeopleLinkProps.serviceScope'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-people-webparts'
+  - uid: '@ms/sp-people-webparts.IPeopleLinkProps.isEditMode'
+    name: isEditMode
+    fullName: isEditMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A boolean to indicate if the component is in edit mode.
+    syntax:
+      content: boolean isEditMode
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-people-webparts.IPeopleLinkProps.linkName'
+    name: linkName
+    fullName: linkName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Name of the link to be displayed on People Card.
+    syntax:
+      content: string linkName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IPeopleLinkProps.linkUrl'
+    name: linkUrl
+    fullName: linkUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Link url for person.
+    syntax:
+      content: string linkUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IPeopleLinkProps.onChangeLink'
+    name: onChangeLink
+    fullName: onChangeLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback when link is changed.
+    syntax:
+      content: '(link: ILink) => void onChangeLink'
+      return:
+        type:
+          - '(link: ILink) => void'
+  - uid: '@ms/sp-people-webparts.IPeopleLinkProps.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Service scope.
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope

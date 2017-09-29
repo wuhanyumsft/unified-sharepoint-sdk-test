@@ -1,0 +1,154 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.Global'
+    package: '@ms/sp-dataproviders'
+    name: Global
+    children:
+      - '@ms/sp-dataproviders.addOneDay'
+      - '@ms/sp-dataproviders.buildCAMLQuery'
+      - '@ms/sp-dataproviders.buildCategoryQuery'
+      - '@ms/sp-dataproviders.buildFilterQuery'
+      - '@ms/sp-dataproviders.buildRowLimitQuery'
+      - '@ms/sp-dataproviders.buildStartEndDateQuery'
+      - '@ms/sp-dataproviders.compact'
+      - '@ms/sp-dataproviders.excludeRecurrenceEvents'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@ms/sp-dataproviders.addOneDay'
+    name: addOneDay
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addOneDay(dateString: string)'
+      parameters:
+        - id: dateString
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.buildCAMLQuery'
+    name: buildCAMLQuery
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function buildCAMLQuery(query: IListRequestOptions)'
+      parameters:
+        - id: query
+          type:
+            - '@@ms/sp-dataproviders.IListRequestOptions'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.buildCategoryQuery'
+    name: buildCategoryQuery
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function buildCategoryQuery(query: IListRequestOptions)'
+      parameters:
+        - id: query
+          type:
+            - '@@ms/sp-dataproviders.IListRequestOptions'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.buildFilterQuery'
+    name: buildFilterQuery
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function buildFilterQuery(query: IListRequestOptions)'
+      parameters:
+        - id: query
+          type:
+            - '@@ms/sp-dataproviders.IListRequestOptions'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.buildRowLimitQuery'
+    name: buildRowLimitQuery
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function buildRowLimitQuery(query: IListRequestOptions)'
+      parameters:
+        - id: query
+          type:
+            - '@@ms/sp-dataproviders.IListRequestOptions'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.buildStartEndDateQuery'
+    name: buildStartEndDateQuery
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function buildStartEndDateQuery(query: IListRequestOptions)'
+      parameters:
+        - id: query
+          type:
+            - '@@ms/sp-dataproviders.IListRequestOptions'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.compact'
+    name: compact
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Compact CAML query string for less transfer payload.
+    syntax:
+      content: 'function compact(camlQuery: string)'
+      parameters:
+        - id: camlQuery
+          type:
+            - string
+          description: |
+            The CAML query string.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.excludeRecurrenceEvents'
+    name: excludeRecurrenceEvents
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function excludeRecurrenceEvents(query: string)'
+      parameters:
+        - id: query
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string

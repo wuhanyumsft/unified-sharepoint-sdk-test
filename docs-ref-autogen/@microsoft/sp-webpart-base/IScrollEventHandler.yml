@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IScrollEventHandler'
+    name: IScrollEventHandler
+    fullName: IScrollEventHandler
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-webpart-base'

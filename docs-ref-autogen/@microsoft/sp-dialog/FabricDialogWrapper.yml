@@ -1,0 +1,102 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-dialog.FabricDialogWrapper'
+    name: FabricDialogWrapper
+    fullName: FabricDialogWrapper
+    children:
+      - '@microsoft/sp-dialog.FabricDialogWrapper.close'
+      - '@microsoft/sp-dialog.FabricDialogWrapper.componentDidUpdate'
+      - '@microsoft/sp-dialog.FabricDialogWrapper.componentWillMount'
+      - '@microsoft/sp-dialog.FabricDialogWrapper.constructor'
+      - '@microsoft/sp-dialog.FabricDialogWrapper.open'
+      - '@microsoft/sp-dialog.FabricDialogWrapper.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@microsoft/sp-dialog.FabricDialogWrapper<@@microsoft/sp-dialog.IFabricDialogWrapperProps>
+    package: '@microsoft/sp-dialog'
+  - uid: '@microsoft/sp-dialog.FabricDialogWrapper.close'
+    name: close
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function close()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+  - uid: '@microsoft/sp-dialog.FabricDialogWrapper.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+  - uid: '@microsoft/sp-dialog.FabricDialogWrapper.componentWillMount'
+    name: componentWillMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillMount()
+      parameters: []
+  - uid: '@microsoft/sp-dialog.FabricDialogWrapper.constructor'
+    name: FabricDialogWrapper
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new FabricDialogWrapper(props: IFabricDialogWrapperProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@microsoft/sp-dialog.IFabricDialogWrapperProps'
+          description: ''
+  - uid: '@microsoft/sp-dialog.FabricDialogWrapper.open'
+    name: open
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Starts the sequence of opening the modal and rendering the dialog content
+      into it.
+
+      Returns a promise that resolves when the content is fully rendered.
+    syntax:
+      content: 'function open(dialog?: BaseDialog)'
+      parameters:
+        - id: dialog
+          type:
+            - '@@microsoft/sp-dialog.BaseDialog'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+  - uid: '@microsoft/sp-dialog.FabricDialogWrapper.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

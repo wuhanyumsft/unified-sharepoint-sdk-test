@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.EmbeddedToolbox'
+    name: EmbeddedToolbox
+    fullName: EmbeddedToolbox
+    children:
+      - '@ms/sp-canvas.EmbeddedToolbox.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-canvas.EmbeddedToolbox'
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.EmbeddedToolbox.constructor'
+    name: EmbeddedToolbox
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new EmbeddedToolbox(props: IToolboxSmallProps, context: ICanvasContext)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-canvas.IToolboxSmallProps'
+          description: ''
+        - id: context
+          type:
+            - '@@ms/sp-canvas.ICanvasContext'
+          description: ''

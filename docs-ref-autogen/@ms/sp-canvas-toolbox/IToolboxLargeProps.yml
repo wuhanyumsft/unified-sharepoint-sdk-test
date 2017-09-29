@@ -1,0 +1,123 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.IToolboxLargeProps'
+    name: IToolboxLargeProps
+    fullName: IToolboxLargeProps
+    children:
+      - '@ms/sp-canvas-toolbox.IToolboxLargeProps.a11yManager'
+      - '@ms/sp-canvas-toolbox.IToolboxLargeProps.animationClassName'
+      - '@ms/sp-canvas-toolbox.IToolboxLargeProps.controller'
+      - '@ms/sp-canvas-toolbox.IToolboxLargeProps.cultureName'
+      - '@ms/sp-canvas-toolbox.IToolboxLargeProps.groups'
+      - '@ms/sp-canvas-toolbox.IToolboxLargeProps.items'
+      - '@ms/sp-canvas-toolbox.IToolboxLargeProps.query'
+      - '@ms/sp-canvas-toolbox.IToolboxLargeProps.view'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas-toolbox'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxLargeProps.a11yManager'
+    name: a11yManager
+    fullName: a11yManager
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: A11yManager a11yManager
+      return:
+        type:
+          - A11yManager
+  - uid: '@ms/sp-canvas-toolbox.IToolboxLargeProps.animationClassName'
+    name: animationClassName
+    fullName: animationClassName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string animationClassName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas-toolbox.IToolboxLargeProps.controller'
+    name: controller
+    fullName: controller
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IToolboxActionManager controller
+      return:
+        type:
+          - '@@ms/sp-canvas-toolbox.IToolboxActionManager'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxLargeProps.cultureName'
+    name: cultureName
+    fullName: cultureName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string cultureName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas-toolbox.IToolboxLargeProps.groups'
+    name: groups
+    fullName: groups
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IToolboxGroup[] groups'
+      return:
+        type:
+          - '@@ms/sp-canvas-toolbox.IToolboxGroup[]'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxLargeProps.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IToolboxItem[] items'
+      return:
+        type:
+          - '@@ms/sp-canvas-toolbox.IToolboxItem[]'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxLargeProps.query'
+    name: query
+    fullName: query
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string query
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas-toolbox.IToolboxLargeProps.view'
+    name: view
+    fullName: view
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: View view
+      return:
+        type:
+          - View

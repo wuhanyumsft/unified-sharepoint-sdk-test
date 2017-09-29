@@ -1,0 +1,153 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IPublisherProps'
+    name: IPublisherProps
+    fullName: IPublisherProps
+    children:
+      - '@ms/sp-publishing-webparts.IPublisherProps.groupName'
+      - '@ms/sp-publishing-webparts.IPublisherProps.groupUrl'
+      - '@ms/sp-publishing-webparts.IPublisherProps.mugshotUrl'
+      - '@ms/sp-publishing-webparts.IPublisherProps.networkId'
+      - '@ms/sp-publishing-webparts.IPublisherProps.onClick'
+      - '@ms/sp-publishing-webparts.IPublisherProps.onDismiss'
+      - '@ms/sp-publishing-webparts.IPublisherProps.senderName'
+      - '@ms/sp-publishing-webparts.IPublisherProps.store'
+      - '@ms/sp-publishing-webparts.IPublisherProps.unseenCount'
+      - '@ms/sp-publishing-webparts.IPublisherProps.yammerGroupId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IPublisherProps.groupName'
+    name: groupName
+    fullName: groupName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string groupName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IPublisherProps.groupUrl'
+    name: groupUrl
+    fullName: groupUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string groupUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IPublisherProps.mugshotUrl'
+    name: mugshotUrl
+    fullName: mugshotUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string mugshotUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IPublisherProps.networkId'
+    name: networkId
+    fullName: networkId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string networkId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IPublisherProps.onClick'
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onClick
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-publishing-webparts.IPublisherProps.onDismiss'
+    name: onDismiss
+    fullName: onDismiss
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onDismiss
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-publishing-webparts.IPublisherProps.senderName'
+    name: senderName
+    fullName: senderName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string senderName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IPublisherProps.store'
+    name: store
+    fullName: store
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: FeedStore store
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.FeedStore'
+  - uid: '@ms/sp-publishing-webparts.IPublisherProps.unseenCount'
+    name: unseenCount
+    fullName: unseenCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number unseenCount
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IPublisherProps.yammerGroupId'
+    name: yammerGroupId
+    fullName: yammerGroupId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string yammerGroupId
+      return:
+        type:
+          - string

@@ -1,0 +1,163 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http'
+    name: '@microsoft/sp-http'
+    summary: ''
+    children:
+      - '@microsoft/sp-http.GraphConstants'
+      - '@microsoft/sp-http.GraphHttpClient'
+      - '@microsoft/sp-http.IGraphHttpClientOptions'
+      - '@microsoft/sp-http.GraphHttpClientConfiguration'
+      - '@microsoft/sp-http.IGraphHttpClientConfiguration'
+      - '@microsoft/sp-http.IGraphHttpClientConfigurations'
+      - '@microsoft/sp-http.GraphHttpClientContext'
+      - '@microsoft/sp-http.GraphHttpClientResponse'
+      - '@microsoft/sp-http.FetchProvider'
+      - '@microsoft/sp-http.IFetchProvider'
+      - '@microsoft/sp-http.HttpClient'
+      - '@microsoft/sp-http.IHttpClientOptions'
+      - '@microsoft/sp-http.HttpClientConfiguration'
+      - '@microsoft/sp-http.IHttpClientConfiguration'
+      - '@microsoft/sp-http.IHttpClientConfigurations'
+      - '@microsoft/sp-http.HttpClientHelper'
+      - '@microsoft/sp-http.HttpClientResponse'
+      - '@microsoft/sp-http.AdalErrorStrings'
+      - '@microsoft/sp-http.OAuth2Constants'
+      - '@microsoft/sp-http.OAuth2TokenProvider'
+      - '@microsoft/sp-http.IAdalJsModule'
+      - '@microsoft/sp-http.IDisplayCallHandlerArgs'
+      - '@microsoft/sp-http.IOAuth2Token'
+      - '@microsoft/sp-http.OAuthTokenProvider'
+      - '@microsoft/sp-http.OAuthUtilityContext'
+      - '@microsoft/sp-http.TokenUtilityLogger'
+      - '@microsoft/sp-http.IFetchProviderExpectations'
+      - '@microsoft/sp-http.BatchedRequest'
+      - '@microsoft/sp-http.DigestCache'
+      - '@microsoft/sp-http.ICachedDigest'
+      - '@microsoft/sp-http.IRestResponse'
+      - '@microsoft/sp-http.IDigestCache'
+      - '@microsoft/sp-http.ODataVersion'
+      - '@microsoft/sp-http.SPHttpClient'
+      - '@microsoft/sp-http.ISPHttpClientOptions'
+      - '@microsoft/sp-http.SPHttpClientBatch'
+      - '@microsoft/sp-http.ISPHttpClientBatchCreationOptions'
+      - '@microsoft/sp-http.ISPHttpClientBatchOptions'
+      - '@microsoft/sp-http.SPHttpClientBatchConfiguration'
+      - '@microsoft/sp-http.ISPHttpClientBatchConfiguration'
+      - '@microsoft/sp-http.ISPHttpClientBatchConfigurations'
+      - '@microsoft/sp-http.SPHttpClientCommonConfiguration'
+      - '@microsoft/sp-http.ISPHttpClientCommonConfiguration'
+      - '@microsoft/sp-http.SPHttpClientConfiguration'
+      - '@microsoft/sp-http.ISPHttpClientConfiguration'
+      - '@microsoft/sp-http.ISPHttpClientConfigurations'
+      - '@microsoft/sp-http.SPHttpClientHelper'
+      - '@microsoft/sp-http.SPHttpClientResponse'
+      - '@microsoft/sp-http.MockFetchProvider'
+      - '@microsoft/sp-http.MockedHeader'
+      - '@microsoft/sp-http.IMockedRequest'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@microsoft/sp-http.GraphConstants'
+    name: GraphConstants
+  - uid: '@microsoft/sp-http.GraphHttpClient'
+    name: GraphHttpClient
+  - uid: '@microsoft/sp-http.IGraphHttpClientOptions'
+    name: IGraphHttpClientOptions
+  - uid: '@microsoft/sp-http.GraphHttpClientConfiguration'
+    name: GraphHttpClientConfiguration
+  - uid: '@microsoft/sp-http.IGraphHttpClientConfiguration'
+    name: IGraphHttpClientConfiguration
+  - uid: '@microsoft/sp-http.IGraphHttpClientConfigurations'
+    name: IGraphHttpClientConfigurations
+  - uid: '@microsoft/sp-http.GraphHttpClientContext'
+    name: GraphHttpClientContext
+  - uid: '@microsoft/sp-http.GraphHttpClientResponse'
+    name: GraphHttpClientResponse
+  - uid: '@microsoft/sp-http.FetchProvider'
+    name: FetchProvider
+  - uid: '@microsoft/sp-http.IFetchProvider'
+    name: IFetchProvider
+  - uid: '@microsoft/sp-http.HttpClient'
+    name: HttpClient
+  - uid: '@microsoft/sp-http.IHttpClientOptions'
+    name: IHttpClientOptions
+  - uid: '@microsoft/sp-http.HttpClientConfiguration'
+    name: HttpClientConfiguration
+  - uid: '@microsoft/sp-http.IHttpClientConfiguration'
+    name: IHttpClientConfiguration
+  - uid: '@microsoft/sp-http.IHttpClientConfigurations'
+    name: IHttpClientConfigurations
+  - uid: '@microsoft/sp-http.HttpClientHelper'
+    name: HttpClientHelper
+  - uid: '@microsoft/sp-http.HttpClientResponse'
+    name: HttpClientResponse
+  - uid: '@microsoft/sp-http.AdalErrorStrings'
+    name: AdalErrorStrings
+  - uid: '@microsoft/sp-http.OAuth2Constants'
+    name: OAuth2Constants
+  - uid: '@microsoft/sp-http.OAuth2TokenProvider'
+    name: OAuth2TokenProvider
+  - uid: '@microsoft/sp-http.IAdalJsModule'
+    name: IAdalJsModule
+  - uid: '@microsoft/sp-http.IDisplayCallHandlerArgs'
+    name: IDisplayCallHandlerArgs
+  - uid: '@microsoft/sp-http.IOAuth2Token'
+    name: IOAuth2Token
+  - uid: '@microsoft/sp-http.OAuthTokenProvider'
+    name: OAuthTokenProvider
+  - uid: '@microsoft/sp-http.OAuthUtilityContext'
+    name: OAuthUtilityContext
+  - uid: '@microsoft/sp-http.TokenUtilityLogger'
+    name: TokenUtilityLogger
+  - uid: '@microsoft/sp-http.IFetchProviderExpectations'
+    name: IFetchProviderExpectations
+  - uid: '@microsoft/sp-http.BatchedRequest'
+    name: BatchedRequest
+  - uid: '@microsoft/sp-http.DigestCache'
+    name: DigestCache
+  - uid: '@microsoft/sp-http.ICachedDigest'
+    name: ICachedDigest
+  - uid: '@microsoft/sp-http.IRestResponse'
+    name: IRestResponse
+  - uid: '@microsoft/sp-http.IDigestCache'
+    name: IDigestCache
+  - uid: '@microsoft/sp-http.ODataVersion'
+    name: ODataVersion
+  - uid: '@microsoft/sp-http.SPHttpClient'
+    name: SPHttpClient
+  - uid: '@microsoft/sp-http.ISPHttpClientOptions'
+    name: ISPHttpClientOptions
+  - uid: '@microsoft/sp-http.SPHttpClientBatch'
+    name: SPHttpClientBatch
+  - uid: '@microsoft/sp-http.ISPHttpClientBatchCreationOptions'
+    name: ISPHttpClientBatchCreationOptions
+  - uid: '@microsoft/sp-http.ISPHttpClientBatchOptions'
+    name: ISPHttpClientBatchOptions
+  - uid: '@microsoft/sp-http.SPHttpClientBatchConfiguration'
+    name: SPHttpClientBatchConfiguration
+  - uid: '@microsoft/sp-http.ISPHttpClientBatchConfiguration'
+    name: ISPHttpClientBatchConfiguration
+  - uid: '@microsoft/sp-http.ISPHttpClientBatchConfigurations'
+    name: ISPHttpClientBatchConfigurations
+  - uid: '@microsoft/sp-http.SPHttpClientCommonConfiguration'
+    name: SPHttpClientCommonConfiguration
+  - uid: '@microsoft/sp-http.ISPHttpClientCommonConfiguration'
+    name: ISPHttpClientCommonConfiguration
+  - uid: '@microsoft/sp-http.SPHttpClientConfiguration'
+    name: SPHttpClientConfiguration
+  - uid: '@microsoft/sp-http.ISPHttpClientConfiguration'
+    name: ISPHttpClientConfiguration
+  - uid: '@microsoft/sp-http.ISPHttpClientConfigurations'
+    name: ISPHttpClientConfigurations
+  - uid: '@microsoft/sp-http.SPHttpClientHelper'
+    name: SPHttpClientHelper
+  - uid: '@microsoft/sp-http.SPHttpClientResponse'
+    name: SPHttpClientResponse
+  - uid: '@microsoft/sp-http.MockFetchProvider'
+    name: MockFetchProvider
+  - uid: '@microsoft/sp-http.MockedHeader'
+    name: MockedHeader
+  - uid: '@microsoft/sp-http.IMockedRequest'
+    name: IMockedRequest

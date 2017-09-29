@@ -1,0 +1,83 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.ListItemDataSource'
+    name: ListItemDataSource
+    fullName: ListItemDataSource
+    children:
+      - '@ms/sp-dataproviders.ListItemDataSource.getItemsForList'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-dataproviders.SPDataSource'
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.ListItemDataSource.getItemsForList'
+    name: getItemsForList
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Query for items within a SharePoint list via the RenderListDataAsStream
+      REST API.
+
+      Parameter values must be sanitized for the url beforehand.
+    syntax:
+      content: >-
+        function getItemsForList(webAbsoluteUrl: string, listId?: string,
+        listTitle?: string, isDefaultDocumentLibrary?: boolean, renderOptions?:
+        number, caml?: string, queryString?: string, throwSPHttpClientResponse?:
+        boolean)
+      parameters:
+        - id: webAbsoluteUrl
+          type:
+            - string
+          description: path to the site containing the lists
+        - id: listId
+          type:
+            - string
+          description: guid identifying which list to query
+          optional: true
+        - id: listTitle
+          type:
+            - string
+          description: >-
+            alternative input from listId to indicate which list to query by
+            title
+          optional: true
+        - id: isDefaultDocumentLibrary
+          type:
+            - boolean
+          description: ''
+          optional: true
+        - id: renderOptions
+          type:
+            - number
+          description: >-
+            SPRenderListDataOptions flags, defaults to
+            SPRenderListDataOptions.None
+          optional: true
+        - id: caml
+          type:
+            - string
+          description: view definition in CAML format
+          optional: true
+        - id: queryString
+          type:
+            - string
+          description: >
+            options passed to the RenderListDataAsStream API via the query
+            string
+
+            See SPRenderListDataOverrideParameters for full list of queryString
+            options.
+          optional: true
+        - id: throwSPHttpClientResponse
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<any>

@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IFilterExpr'
+    name: IFilterExpr
+    fullName: IFilterExpr
+    children:
+      - '@ms/sp-dataproviders.IFilterExpr.expr'
+      - '@ms/sp-dataproviders.IFilterExpr.isFilteringByDate'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IFilterExpr.expr'
+    name: expr
+    fullName: expr
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string expr
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IFilterExpr.isFilteringByDate'
+    name: isFilteringByDate
+    fullName: isFilteringByDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isFilteringByDate
+      return:
+        type:
+          - boolean

@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ILinkData'
+    name: ILinkData
+    fullName: ILinkData
+    children:
+      - '@ms/sp-canvas.ILinkData.linkText'
+      - '@ms/sp-canvas.ILinkData.linkValue'
+      - '@ms/sp-canvas.ILinkData.shouldOpenInNewTab'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ILinkData.linkText'
+    name: linkText
+    fullName: linkText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string linkText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.ILinkData.linkValue'
+    name: linkValue
+    fullName: linkValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string linkValue
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.ILinkData.shouldOpenInNewTab'
+    name: shouldOpenInNewTab
+    fullName: shouldOpenInNewTab
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean shouldOpenInNewTab
+      return:
+        type:
+          - boolean

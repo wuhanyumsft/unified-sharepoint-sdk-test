@@ -1,0 +1,76 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.LogManager'
+    name: LogManager
+    fullName: LogManager
+    children:
+      - '@ms/sp-telemetry.LogManager.addHandler'
+      - '@ms/sp-telemetry.LogManager.log'
+      - '@ms/sp-telemetry.LogManager.removeHandler'
+      - '@ms/sp-telemetry.LogManager.reset'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      LogManager allows multiple handlers to process log events.
+
+      It caches the latest 100 log events. If a handler is just added, the
+
+      handler is able to get access to the cached events and all incoming
+      events.
+
+      Dev-dashboard and potentially third-party can use it to get access to
+      events.
+    package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.LogManager.addHandler'
+    name: addHandler
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function addHandler(handler: (e: LogEvent) => void)'
+      parameters:
+        - id: handler
+          type:
+            - '(e: LogEvent) => void'
+          description: ''
+  - uid: '@ms/sp-telemetry.LogManager.log'
+    name: log
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function log(event: LogEvent)'
+      parameters:
+        - id: event
+          type:
+            - '@@ms/sp-telemetry.LogEvent'
+          description: ''
+  - uid: '@ms/sp-telemetry.LogManager.removeHandler'
+    name: removeHandler
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function removeHandler(handler: (e: LogEvent) => void)'
+      parameters:
+        - id: handler
+          type:
+            - '(e: LogEvent) => void'
+          description: ''
+  - uid: '@ms/sp-telemetry.LogManager.reset'
+    name: reset
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function reset()
+      parameters: []

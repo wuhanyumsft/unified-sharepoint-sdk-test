@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-html-embed.IEmbedServiceResult'
+    name: IEmbedServiceResult
+    fullName: IEmbedServiceResult
+    children:
+      - '@ms/sp-html-embed.IEmbedServiceResult.EmbedMetadata'
+      - '@ms/sp-html-embed.IEmbedServiceResult.ErrorMessage'
+      - '@ms/sp-html-embed.IEmbedServiceResult.Html'
+      - '@ms/sp-html-embed.IEmbedServiceResult.ResponseCode'
+      - '@ms/sp-html-embed.IEmbedServiceResult.Type'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-html-embed'
+  - uid: '@ms/sp-html-embed.IEmbedServiceResult.EmbedMetadata'
+    name: EmbedMetadata
+    fullName: EmbedMetadata
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IEmbeddableUrlMetadata EmbedMetadata
+      return:
+        type:
+          - '@@ms/sp-html-embed.IEmbeddableUrlMetadata'
+  - uid: '@ms/sp-html-embed.IEmbedServiceResult.ErrorMessage'
+    name: ErrorMessage
+    fullName: ErrorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ErrorMessage
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IEmbedServiceResult.Html'
+    name: Html
+    fullName: Html
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Html
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IEmbedServiceResult.ResponseCode'
+    name: ResponseCode
+    fullName: ResponseCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: EmbedServiceResponseCode ResponseCode
+      return:
+        type:
+          - EmbedServiceResponseCode
+  - uid: '@ms/sp-html-embed.IEmbedServiceResult.Type'
+    name: Type
+    fullName: Type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Type
+      return:
+        type:
+          - string

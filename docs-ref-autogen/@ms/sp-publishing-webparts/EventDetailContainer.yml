@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.EventDetailContainer'
+    name: EventDetailContainer
+    fullName: EventDetailContainer
+    children:
+      - '@ms/sp-publishing-webparts.EventDetailContainer.componentDidMount'
+      - '@ms/sp-publishing-webparts.EventDetailContainer.constructor'
+      - '@ms/sp-publishing-webparts.EventDetailContainer.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.EventDetailContainer<@@ms/sp-publishing-webparts.IEventDetailContainerProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.EventDetailContainer.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.EventDetailContainer.constructor'
+    name: EventDetailContainer
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new EventDetailContainer(props: IEventDetailContainerProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IEventDetailContainerProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.EventDetailContainer.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

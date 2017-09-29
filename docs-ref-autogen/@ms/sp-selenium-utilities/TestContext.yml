@@ -1,0 +1,106 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-selenium-utilities.TestContext'
+    name: TestContext
+    fullName: TestContext
+    children:
+      - '@ms/sp-selenium-utilities.TestContext.automation'
+      - '@ms/sp-selenium-utilities.TestContext.browserType'
+      - '@ms/sp-selenium-utilities.TestContext.dispose'
+      - '@ms/sp-selenium-utilities.TestContext.isDisposed'
+      - '@ms/sp-selenium-utilities.TestContext.isMobile'
+      - '@ms/sp-selenium-utilities.TestContext.constructor'
+      - '@ms/sp-selenium-utilities.TestContext.webDriverWrapper'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-selenium-utilities'
+  - uid: '@ms/sp-selenium-utilities.TestContext.automation'
+    name: automation
+    fullName: automation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Automation automation
+      return:
+        type:
+          - '@@ms/sp-selenium-utilities.Automation'
+  - uid: '@ms/sp-selenium-utilities.TestContext.browserType'
+    name: browserType
+    fullName: browserType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: BrowserType browserType
+      return:
+        type:
+          - BrowserType
+  - uid: '@ms/sp-selenium-utilities.TestContext.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function dispose()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-selenium-utilities.TestContext.isDisposed'
+    name: isDisposed
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isDisposed()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-selenium-utilities.TestContext.isMobile'
+    name: isMobile
+    fullName: isMobile
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isMobile
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-selenium-utilities.TestContext.constructor'
+    name: TestContext
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new TestContext()
+      parameters: []
+  - uid: '@ms/sp-selenium-utilities.TestContext.webDriverWrapper'
+    name: webDriverWrapper
+    fullName: webDriverWrapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: WebDriverWrapper webDriverWrapper
+      return:
+        type:
+          - '@@ms/sp-selenium-utilities.WebDriverWrapper'

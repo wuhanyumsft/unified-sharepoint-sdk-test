@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IActivityFromServer'
+    name: IActivityFromServer
+    fullName: IActivityFromServer
+    children:
+      - '@ms/sp-teamsite-webparts.IActivityFromServer.ActivityItem'
+      - '@ms/sp-teamsite-webparts.IActivityFromServer.People'
+      - '@ms/sp-teamsite-webparts.IActivityFromServer.Time'
+      - '@ms/sp-teamsite-webparts.IActivityFromServer.Type'
+      - '@ms/sp-teamsite-webparts.IActivityFromServer.User'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IActivityFromServer.ActivityItem'
+    name: ActivityItem
+    fullName: ActivityItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IActivityItemFromServer ActivityItem
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IActivityItemFromServer'
+  - uid: '@ms/sp-teamsite-webparts.IActivityFromServer.People'
+    name: People
+    fullName: People
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IUserFromServer[] People'
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IUserFromServer[]'
+  - uid: '@ms/sp-teamsite-webparts.IActivityFromServer.Time'
+    name: Time
+    fullName: Time
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Time
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivityFromServer.Type'
+    name: Type
+    fullName: Type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Type
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivityFromServer.User'
+    name: User
+    fullName: User
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IUserFromServer User
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IUserFromServer'

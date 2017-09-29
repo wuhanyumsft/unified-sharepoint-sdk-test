@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ImageFileValidator'
+    name: ImageFileValidator
+    fullName: ImageFileValidator
+    children:
+      - '@ms/sp-publishing-webparts.ImageFileValidator.constructor'
+      - '@ms/sp-publishing-webparts.ImageFileValidator.validate'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ImageFileValidator.constructor'
+    name: ImageFileValidator
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ImageFileValidator(props: IImageFileValidatorProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IImageFileValidatorProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.ImageFileValidator.validate'
+    name: validate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Runs a series of validation taks on the file returning a list of errors
+    syntax:
+      content: 'function validate(file: File)'
+      parameters:
+        - id: file
+          type:
+            - File
+          description: ''

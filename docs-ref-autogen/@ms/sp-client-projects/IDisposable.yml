@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.IDisposable'
+    name: IDisposable
+    fullName: IDisposable
+    children:
+      - '@ms/sp-client-projects.IDisposable.dispose'
+    langs:
+      - typeScript
+    type: interface
+    summary: Represents the IDisposable contract
+    package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.IDisposable.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function dispose()
+      parameters: []

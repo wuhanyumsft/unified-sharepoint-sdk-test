@@ -1,0 +1,126 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.EventsStore'
+    name: EventsStore
+    fullName: EventsStore
+    children:
+      - '@ms/sp-publishing-webparts.EventsStore.constructor'
+      - '@ms/sp-publishing-webparts.EventsStore.getEventsWithCurrentSettings'
+      - '@ms/sp-publishing-webparts.EventsStore.getEventWithAttachments'
+      - '@ms/sp-publishing-webparts.EventsStore.getPageEvents'
+      - '@ms/sp-publishing-webparts.EventsStore.getSeriesMasterEvent'
+      - '@ms/sp-publishing-webparts.EventsStore.switchPeriod'
+      - '@ms/sp-publishing-webparts.EventsStore.switchToFirstPage'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.EventsStore.constructor'
+    name: EventsStore
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new EventsStore(settings: IEventStoreSettings)'
+      parameters:
+        - id: settings
+          type:
+            - '@@ms/sp-publishing-webparts.IEventStoreSettings'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.EventsStore.getEventsWithCurrentSettings'
+    name: getEventsWithCurrentSettings
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getEventsWithCurrentSettings()
+      parameters: []
+      return:
+        type:
+          - 'Promise<@@ms/sp-publishing-webparts.IExchangeCalendarEvent[]>'
+  - uid: '@ms/sp-publishing-webparts.EventsStore.getEventWithAttachments'
+    name: getEventWithAttachments
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getEventWithAttachments(eventId: string)'
+      parameters:
+        - id: eventId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-publishing-webparts.IExchangeCalendarEvent>
+  - uid: '@ms/sp-publishing-webparts.EventsStore.getPageEvents'
+    name: getPageEvents
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getPageEvents(pageType: PageType)'
+      parameters:
+        - id: pageType
+          type:
+            - PageType
+          description: ''
+      return:
+        type:
+          - 'Promise<@@ms/sp-publishing-webparts.IExchangeCalendarEvent[]>'
+  - uid: '@ms/sp-publishing-webparts.EventsStore.getSeriesMasterEvent'
+    name: getSeriesMasterEvent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getSeriesMasterEvent(eventId: string)'
+      parameters:
+        - id: eventId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-publishing-webparts.IExchangeCalendarEvent>
+  - uid: '@ms/sp-publishing-webparts.EventsStore.switchPeriod'
+    name: switchPeriod
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function switchPeriod(periodType: PeriodType)'
+      parameters:
+        - id: periodType
+          type:
+            - PeriodType
+          description: ''
+      return:
+        type:
+          - 'Promise<@@ms/sp-publishing-webparts.IExchangeCalendarEvent[]>'
+  - uid: '@ms/sp-publishing-webparts.EventsStore.switchToFirstPage'
+    name: switchToFirstPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function switchToFirstPage()
+      parameters: []
+      return:
+        type:
+          - 'Promise<@@ms/sp-publishing-webparts.IExchangeCalendarEvent[]>'

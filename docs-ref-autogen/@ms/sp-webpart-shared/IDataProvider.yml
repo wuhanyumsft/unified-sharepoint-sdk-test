@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.IDataProvider'
+    name: IDataProvider
+    fullName: IDataProvider
+    children:
+      - '@ms/sp-webpart-shared.IDataProvider.configuration'
+      - '@ms/sp-webpart-shared.IDataProvider.requestData'
+    langs:
+      - typeScript
+    type: interface
+    summary: Data provider interface
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.IDataProvider.configuration'
+    name: configuration
+    fullName: configuration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Data provider configuration.
+    syntax:
+      content: IDataProviderConfiguration configuration
+      return:
+        type:
+          - '@@ms/sp-webpart-shared.IDataProviderConfiguration'
+  - uid: '@ms/sp-webpart-shared.IDataProvider.requestData'
+    name: requestData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      API to request data. If the data is found in the cache, the promise is
+
+      resolved immediately with the data. In the case of a cache miss, promise
+      is resolved
+
+      after the data is fetched from the remote service.
+    syntax:
+      content: 'function requestData<TData>(request: IRequest<TData>)'
+      parameters:
+        - id: request
+          type:
+            - '@@ms/sp-webpart-shared.IRequest<TData>'
+          description: ''
+      return:
+        type:
+          - Promise<TData>

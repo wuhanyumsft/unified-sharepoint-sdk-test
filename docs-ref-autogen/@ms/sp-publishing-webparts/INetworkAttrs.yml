@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.INetworkAttrs'
+    name: INetworkAttrs
+    fullName: INetworkAttrs
+    children:
+      - '@ms/sp-publishing-webparts.INetworkAttrs.name'
+      - '@ms/sp-publishing-webparts.INetworkAttrs.permalink'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-publishing-webparts.IAttrs'
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.INetworkAttrs.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean name
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.INetworkAttrs.permalink'
+    name: permalink
+    fullName: permalink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean permalink
+      return:
+        type:
+          - boolean

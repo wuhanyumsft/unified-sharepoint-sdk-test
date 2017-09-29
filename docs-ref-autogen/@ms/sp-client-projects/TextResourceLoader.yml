@@ -1,0 +1,88 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.TextResourceLoader'
+    name: TextResourceLoader
+    fullName: TextResourceLoader
+    children:
+      - '@ms/sp-client-projects.TextResourceLoader.add'
+      - '@ms/sp-client-projects.TextResourceLoader.getData'
+      - '@ms/sp-client-projects.TextResourceLoader.loadResources'
+      - '@ms/sp-client-projects.TextResourceLoader.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.TextResourceLoader.add'
+    name: add
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function add(key: string, url: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+        - id: url
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-client-projects.TextResourceLoader.getData'
+    name: getData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getData(request: TextResourceRequest, cb: (request:
+        TextResourceRequest, data: string, error: Error) => void)
+      parameters:
+        - id: request
+          type:
+            - '@@ms/sp-client-projects.TextResourceRequest'
+          description: ''
+        - id: cb
+          type:
+            - '(request: TextResourceRequest, data: string, error: Error) => void'
+          description: ''
+  - uid: '@ms/sp-client-projects.TextResourceLoader.loadResources'
+    name: loadResources
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function loadResources(cb: (resources: Object, error: Error) => void)'
+      parameters:
+        - id: cb
+          type:
+            - '(resources: Object, error: Error) => void'
+          description: ''
+  - uid: '@ms/sp-client-projects.TextResourceLoader.constructor'
+    name: TextResourceLoader
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new TextResourceLoader(states: ITextResourceStates, proxyPageUrl?:
+        string)
+      parameters:
+        - id: states
+          type:
+            - '@@ms/sp-client-projects.ITextResourceStates'
+          description: ''
+        - id: proxyPageUrl
+          type:
+            - string
+          description: ''
+          optional: true

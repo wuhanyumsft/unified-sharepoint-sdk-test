@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.Text'
+    name: Text
+    fullName: Text
+    children:
+      - '@microsoft/sp-core-library.Text.format'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Common helper functions for working with strings. These utilities are
+      intended to be simple,
+
+      small, and very broadly applicable.
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.Text.format'
+    name: format
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      String Format, like C# string format.
+
+      Usage Example: StringUtilities.format("hello {0}!", "mike") will return
+      "hello mike!"
+    syntax:
+      content: 'static function format(s: string, values: any[])'
+      parameters:
+        - id: s
+          type:
+            - string
+          description: ''
+        - id: values
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - string

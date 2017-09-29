@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-page-context.PageContext'
+    name: PageContext
+    fullName: PageContext
+    children:
+      - '@microsoft/sp-page-context.PageContext.initialize'
+      - '@microsoft/sp-page-context.PageContext.constructor'
+      - '@microsoft/sp-page-context.PageContext.serviceKey'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      The page context provides standard definitions for common SharePoint
+      objects
+
+      that need to be shared between the client-side application, web parts, and
+      other
+
+      components.  Typically the data is fetched via REST queries when
+      navigating to a
+
+      new page, but it can also be preloaded by the web server, or filled from a
+      custom
+
+      application cache.
+    package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.PageContext.initialize'
+    name: initialize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Initializes the Page Context.
+    syntax:
+      content: 'function initialize(options: IPageContextData, legacyPageContext?: any)'
+      parameters:
+        - id: options
+          type:
+            - '@@microsoft/sp-page-context.IPageContextData'
+          description: ''
+        - id: legacyPageContext
+          type:
+            - any
+          description: ''
+          optional: true
+  - uid: '@microsoft/sp-page-context.PageContext.constructor'
+    name: PageContext
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PageContext(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+  - uid: '@microsoft/sp-page-context.PageContext.serviceKey'
+    name: serviceKey
+    fullName: serviceKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The service key for PageContext.
+    syntax:
+      content: static ServiceKey<PageContext> serviceKey
+      return:
+        type:
+          - ServiceKey<@@microsoft/sp-page-context.PageContext>

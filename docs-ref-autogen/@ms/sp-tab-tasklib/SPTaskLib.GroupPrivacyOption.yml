@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.GroupPrivacyOption'
+    name: GroupPrivacyOption
+    fullName: GroupPrivacyOption
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.GroupPrivacyOption.Private'
+      - '@ms/sp-tab-tasklib.SPTaskLib.GroupPrivacyOption.Public'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.GroupPrivacyOption.Private'
+    name: Private
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.GroupPrivacyOption.Public'
+    name: Public
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

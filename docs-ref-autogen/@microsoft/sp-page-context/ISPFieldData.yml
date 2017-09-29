@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-page-context.ISPFieldData'
+    name: ISPFieldData
+    fullName: ISPFieldData
+    children:
+      - '@microsoft/sp-page-context.ISPFieldData.clientSideComponentId'
+      - '@microsoft/sp-page-context.ISPFieldData.clientSideComponentProperties'
+      - '@microsoft/sp-page-context.ISPFieldData.displayName'
+      - '@microsoft/sp-page-context.ISPFieldData.fieldType'
+      - '@microsoft/sp-page-context.ISPFieldData.id'
+      - '@microsoft/sp-page-context.ISPFieldData.internalName'
+      - '@microsoft/sp-page-context.ISPFieldData.isRequired'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.ISPFieldData.clientSideComponentId'
+    name: clientSideComponentId
+    fullName: clientSideComponentId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string clientSideComponentId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.ISPFieldData.clientSideComponentProperties'
+    name: clientSideComponentProperties
+    fullName: clientSideComponentProperties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string clientSideComponentProperties
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.ISPFieldData.displayName'
+    name: displayName
+    fullName: displayName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string displayName
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.ISPFieldData.fieldType'
+    name: fieldType
+    fullName: fieldType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string fieldType
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.ISPFieldData.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.ISPFieldData.internalName'
+    name: internalName
+    fullName: internalName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string internalName
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.ISPFieldData.isRequired'
+    name: isRequired
+    fullName: isRequired
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isRequired
+      return:
+        type:
+          - boolean

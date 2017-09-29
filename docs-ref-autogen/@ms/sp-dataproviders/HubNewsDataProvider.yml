@@ -1,0 +1,74 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.HubNewsDataProvider'
+    name: HubNewsDataProvider
+    fullName: HubNewsDataProvider
+    children:
+      - '@ms/sp-dataproviders.HubNewsDataProvider.constructor'
+      - '@ms/sp-dataproviders.HubNewsDataProvider.id'
+      - '@ms/sp-dataproviders.HubNewsDataProvider.requestData'
+      - '@ms/sp-dataproviders.HubNewsDataProvider.title'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-dataproviders.NewsDataProvider'
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.HubNewsDataProvider.constructor'
+    name: HubNewsDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new HubNewsDataProvider(options: IDataProviderOptions)'
+      parameters:
+        - id: options
+          type:
+            - IDataProviderOptions
+          description: ''
+  - uid: '@ms/sp-dataproviders.HubNewsDataProvider.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.HubNewsDataProvider.requestData'
+    name: requestData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function requestData(requestInfo: INewsItemRequest)'
+      parameters:
+        - id: requestInfo
+          type:
+            - '@@ms/sp-dataproviders.INewsItemRequest'
+          description: ''
+      return:
+        type:
+          - 'Promise<INewsItem[]>'
+  - uid: '@ms/sp-dataproviders.HubNewsDataProvider.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

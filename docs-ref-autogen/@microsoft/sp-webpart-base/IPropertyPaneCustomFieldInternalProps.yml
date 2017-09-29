@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneCustomFieldInternalProps'
+    name: IPropertyPaneCustomFieldInternalProps
+    fullName: IPropertyPaneCustomFieldInternalProps
+    children:
+      - >-
+        @microsoft/sp-webpart-base.IPropertyPaneCustomFieldInternalProps.onChanged
+    langs:
+      - typeScript
+    type: interface
+    summary: PropertyPane CustomPropertyField internal props.
+    extends:
+      name: '@@microsoft/sp-webpart-base.IPropertyPaneCustomFieldProps'
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneCustomFieldInternalProps.onChanged'
+    name: onChanged
+    fullName: onChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(targetProperty: string, value: any) => void onChanged'
+      return:
+        type:
+          - '(targetProperty: string, value: any) => void'

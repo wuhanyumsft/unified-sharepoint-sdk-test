@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pagepicker.LinkDataProvider'
+    name: LinkDataProvider
+    fullName: LinkDataProvider
+    children:
+      - '@ms/sp-pagepicker.LinkDataProvider.getPageLinksByTitle'
+      - '@ms/sp-pagepicker.LinkDataProvider.getRecentPageLinks'
+      - '@ms/sp-pagepicker.LinkDataProvider.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pagepicker'
+  - uid: '@ms/sp-pagepicker.LinkDataProvider.getPageLinksByTitle'
+    name: getPageLinksByTitle
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getPageLinksByTitle(userInput: string)'
+      parameters:
+        - id: userInput
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - 'Promise<@@ms/sp-pagepicker.ISuggestionLink[]>'
+  - uid: '@ms/sp-pagepicker.LinkDataProvider.getRecentPageLinks'
+    name: getRecentPageLinks
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getRecentPageLinks()
+      parameters: []
+      return:
+        type:
+          - 'Promise<@@ms/sp-pagepicker.ISuggestionLink[]>'
+  - uid: '@ms/sp-pagepicker.LinkDataProvider.constructor'
+    name: LinkDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new LinkDataProvider(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''

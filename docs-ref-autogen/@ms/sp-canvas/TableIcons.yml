@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.TableIcons'
+    name: TableIcons
+    fullName: TableIcons
+    children:
+      - '@ms/sp-canvas.TableIcons.getSvgFromSrc'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.TableIcons.getSvgFromSrc'
+    name: getSvgFromSrc
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      For theming, importing the SVGs as separate SVG files doesn't work because
+      that makes it render as
+
+      its own document, and styling can't cross document boundaries. For this
+      reason, we need to use inline SVGs
+    syntax:
+      content: 'static function getSvgFromSrc(imageSrc: string)'
+      parameters:
+        - id: imageSrc
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Element

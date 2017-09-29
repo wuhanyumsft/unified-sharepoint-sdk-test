@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.ITestPerson'
+    name: ITestPerson
+    fullName: ITestPerson
+    children:
+      - '@microsoft/sp-webpart-base.ITestPerson.manager'
+      - '@microsoft/sp-webpart-base.ITestPerson.name'
+      - '@microsoft/sp-webpart-base.ITestPerson.photo'
+      - '@microsoft/sp-webpart-base.ITestPerson.websites'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.ITestPerson.manager'
+    name: manager
+    fullName: manager
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ITestPerson manager
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.ITestPerson'
+  - uid: '@microsoft/sp-webpart-base.ITestPerson.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.ITestPerson.photo'
+    name: photo
+    fullName: photo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string photo
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.ITestPerson.websites'
+    name: websites
+    fullName: websites
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ITestPersonCardWebsite[] websites'
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.ITestPersonCardWebsite[]'

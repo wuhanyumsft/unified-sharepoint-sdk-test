@@ -1,0 +1,180 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.RssFeedEntry'
+    name: RssFeedEntry
+    fullName: RssFeedEntry
+    children:
+      - '@ms/sp-client-projects.RssFeedEntry.author'
+      - '@ms/sp-client-projects.RssFeedEntry.category'
+      - '@ms/sp-client-projects.RssFeedEntry.comments'
+      - '@ms/sp-client-projects.RssFeedEntry.content'
+      - '@ms/sp-client-projects.RssFeedEntry.description'
+      - '@ms/sp-client-projects.RssFeedEntry.guid'
+      - '@ms/sp-client-projects.RssFeedEntry.link'
+      - '@ms/sp-client-projects.RssFeedEntry.pubdate'
+      - '@ms/sp-client-projects.RssFeedEntry.constructor'
+      - '@ms/sp-client-projects.RssFeedEntry.source'
+      - '@ms/sp-client-projects.RssFeedEntry.title'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.RssFeedEntry.author'
+    name: author
+    fullName: author
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string author
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.RssFeedEntry.category'
+    name: category
+    fullName: category
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] category'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-client-projects.RssFeedEntry.comments'
+    name: comments
+    fullName: comments
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string comments
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.RssFeedEntry.content'
+    name: content
+    fullName: content
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string content
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.RssFeedEntry.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string description
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.RssFeedEntry.guid'
+    name: guid
+    fullName: guid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string guid
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.RssFeedEntry.link'
+    name: link
+    fullName: link
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string link
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.RssFeedEntry.pubdate'
+    name: pubdate
+    fullName: pubdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Date pubdate
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-client-projects.RssFeedEntry.constructor'
+    name: RssFeedEntry
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new RssFeedEntry(title: string, link: string, description: string,
+        pubdate: Date)
+      parameters:
+        - id: title
+          type:
+            - string
+          description: ''
+        - id: link
+          type:
+            - string
+          description: ''
+        - id: description
+          type:
+            - string
+          description: ''
+        - id: pubdate
+          type:
+            - Date
+          description: ''
+  - uid: '@ms/sp-client-projects.RssFeedEntry.source'
+    name: source
+    fullName: source
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string source
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.RssFeedEntry.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

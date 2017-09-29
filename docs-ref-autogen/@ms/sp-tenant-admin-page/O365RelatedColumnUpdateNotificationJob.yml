@@ -1,0 +1,122 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.O365RelatedColumnUpdateNotificationJob'
+    name: O365RelatedColumnUpdateNotificationJob
+    fullName: O365RelatedColumnUpdateNotificationJob
+    children:
+      - >-
+        @ms/sp-tenant-admin-page.O365RelatedColumnUpdateNotificationJob.checkProgress
+      - >-
+        @ms/sp-tenant-admin-page.O365RelatedColumnUpdateNotificationJob.getStatus
+      - >-
+        @ms/sp-tenant-admin-page.O365RelatedColumnUpdateNotificationJob.initialize
+      - '@ms/sp-tenant-admin-page.O365RelatedColumnUpdateNotificationJob.jobName'
+      - '@ms/sp-tenant-admin-page.O365RelatedColumnUpdateNotificationJob.jobType'
+      - >-
+        @ms/sp-tenant-admin-page.O365RelatedColumnUpdateNotificationJob.constructor
+      - '@ms/sp-tenant-admin-page.O365RelatedColumnUpdateNotificationJob.reset'
+      - >-
+        @ms/sp-tenant-admin-page.O365RelatedColumnUpdateNotificationJob.UPDATE_O365_RELATED_COLUMNS_KEY
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: >-
+      @ms/sp-tenant-admin-page.O365RelatedColumnUpdateNotificationJob.checkProgress
+    name: checkProgress
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function checkProgress()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.O365RelatedColumnUpdateNotificationJob.getStatus'
+    name: getStatus
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getStatus()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.O365RelatedColumnUpdateNotificationJob.initialize'
+    name: initialize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function initialize()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.O365RelatedColumnUpdateNotificationJob.jobName'
+    name: jobName
+    fullName: jobName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string jobName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.O365RelatedColumnUpdateNotificationJob.jobType'
+    name: jobType
+    fullName: jobType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: JobType jobType
+      return:
+        type:
+          - JobType
+  - uid: >-
+      @ms/sp-tenant-admin-page.O365RelatedColumnUpdateNotificationJob.constructor
+    name: O365RelatedColumnUpdateNotificationJob
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new O365RelatedColumnUpdateNotificationJob(dispath:
+        Dispatch<ISiteManagementState>)
+      parameters:
+        - id: dispath
+          type:
+            - Dispatch<@@ms/sp-tenant-admin-page.ISiteManagementState>
+          description: ''
+  - uid: '@ms/sp-tenant-admin-page.O365RelatedColumnUpdateNotificationJob.reset'
+    name: reset
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function reset()
+      parameters: []
+  - uid: >-
+      @ms/sp-tenant-admin-page.O365RelatedColumnUpdateNotificationJob.UPDATE_O365_RELATED_COLUMNS_KEY
+    name: UPDATE_O365_RELATED_COLUMNS_KEY
+    fullName: UPDATE_O365_RELATED_COLUMNS_KEY
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string UPDATE_O365_RELATED_COLUMNS_KEY
+      return:
+        type:
+          - string

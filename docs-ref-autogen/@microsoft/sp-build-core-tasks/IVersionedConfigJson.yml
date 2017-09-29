@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IVersionedConfigJson'
+    name: IVersionedConfigJson
+    fullName: IVersionedConfigJson
+    children:
+      - '@microsoft/sp-build-core-tasks.IVersionedConfigJson.version'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.IVersionedConfigJson.version'
+    name: version
+    fullName: version
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string version
+      return:
+        type:
+          - string

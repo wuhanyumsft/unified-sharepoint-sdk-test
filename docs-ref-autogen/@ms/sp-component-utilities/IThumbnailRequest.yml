@@ -1,0 +1,268 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.IThumbnailRequest'
+    name: IThumbnailRequest
+    fullName: IThumbnailRequest
+    children:
+      - '@ms/sp-component-utilities.IThumbnailRequest.absoluteUrl'
+      - '@ms/sp-component-utilities.IThumbnailRequest.fileType'
+      - '@ms/sp-component-utilities.IThumbnailRequest.height'
+      - '@ms/sp-component-utilities.IThumbnailRequest.listId'
+      - '@ms/sp-component-utilities.IThumbnailRequest.originalHeight'
+      - '@ms/sp-component-utilities.IThumbnailRequest.originalWidth'
+      - '@ms/sp-component-utilities.IThumbnailRequest.siteId'
+      - '@ms/sp-component-utilities.IThumbnailRequest.spResource'
+      - '@ms/sp-component-utilities.IThumbnailRequest.thumbnail'
+      - '@ms/sp-component-utilities.IThumbnailRequest.uniqueId'
+      - '@ms/sp-component-utilities.IThumbnailRequest.viewportHeight'
+      - '@ms/sp-component-utilities.IThumbnailRequest.viewportLeft'
+      - '@ms/sp-component-utilities.IThumbnailRequest.viewportTop'
+      - '@ms/sp-component-utilities.IThumbnailRequest.viewportWidth'
+      - '@ms/sp-component-utilities.IThumbnailRequest.webId'
+      - '@ms/sp-component-utilities.IThumbnailRequest.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Interface for contructing a request to get thumbnail for given sharepoint
+      resource
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.IThumbnailRequest.absoluteUrl'
+    name: absoluteUrl
+    fullName: absoluteUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Absolute Url of the current sharepoint page.
+    syntax:
+      content: string absoluteUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IThumbnailRequest.fileType'
+    name: fileType
+    fullName: fileType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'File extention of the resource e.g. jpg, pdf, doc, xls etc..'
+    syntax:
+      content: string fileType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IThumbnailRequest.height'
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Height of the thumbnail requested
+
+      By default thumbnail height would be based on width, maintaining aspect
+      ratio for image
+
+      For document type it is recommended to provide desired height.
+
+      when height specified, width is not adjusted to the nearest resolution
+      breakpoint
+    syntax:
+      content: number height
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.IThumbnailRequest.listId'
+    name: listId
+    fullName: listId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'ListId of the resource, required if spResource is not provided'
+    syntax:
+      content: string listId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IThumbnailRequest.originalHeight'
+    name: originalHeight
+    fullName: originalHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Original Height of the image used to generate the thumbnail
+      This is required when viewport parameters are provided
+    syntax:
+      content: number originalHeight
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.IThumbnailRequest.originalWidth'
+    name: originalWidth
+    fullName: originalWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Original Width of the image used to generate the thumbnail
+      This is required when viewport parameters are provided
+    syntax:
+      content: number originalWidth
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.IThumbnailRequest.siteId'
+    name: siteId
+    fullName: siteId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'SiteId of the resource, required if spResource is not provided'
+    syntax:
+      content: string siteId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IThumbnailRequest.spResource'
+    name: spResource
+    fullName: spResource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Relative url of Sharepoint resource for which thumbnail is requested
+
+      e.g. /sites/WEXDemo/SiteAssets/autumn2.jpg
+
+      Alternatively you are provide siteId, webId, listId and uniqueId of the
+      resource
+    syntax:
+      content: string spResource
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IThumbnailRequest.thumbnail'
+    name: thumbnail
+    fullName: thumbnail
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: default thumbnail for the aspx page
+    syntax:
+      content: string thumbnail
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IThumbnailRequest.uniqueId'
+    name: uniqueId
+    fullName: uniqueId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'UniqueId of the resource, required if spResource is not provided'
+    syntax:
+      content: string uniqueId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IThumbnailRequest.viewportHeight'
+    name: viewportHeight
+    fullName: viewportHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Height of cropping view port
+      Specified in pixels
+    syntax:
+      content: number viewportHeight
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.IThumbnailRequest.viewportLeft'
+    name: viewportLeft
+    fullName: viewportLeft
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Horizontal offset of top left corner of cropping view port
+      Specified in pixel, relative to the top left of the original image
+    syntax:
+      content: number viewportLeft
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.IThumbnailRequest.viewportTop'
+    name: viewportTop
+    fullName: viewportTop
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Vertical offset of top left corner of cropping view port
+      Specified in pixels, relative to the top left of the original image
+    syntax:
+      content: number viewportTop
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.IThumbnailRequest.viewportWidth'
+    name: viewportWidth
+    fullName: viewportWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Width of cropping view port
+      Specified in pixels
+    syntax:
+      content: number viewportWidth
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.IThumbnailRequest.webId'
+    name: webId
+    fullName: webId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'WebId of the resource, required if spResource is not provided'
+    syntax:
+      content: string webId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IThumbnailRequest.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Width of the thumbnail requested.
+
+      Note when height is unspecified, width is mapped to nearest resolution
+      breakpoint
+    syntax:
+      content: number width
+      return:
+        type:
+          - number

@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IWebPartConfigurationEventCallback'
+    name: IWebPartConfigurationEventCallback
+    fullName: IWebPartConfigurationEventCallback
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: Configuration event callback
+    package: '@microsoft/sp-webpart-base'

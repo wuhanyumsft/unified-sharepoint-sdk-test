@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.PerformanceGraphItem'
+    name: PerformanceGraphItem
+    fullName: PerformanceGraphItem
+    children:
+      - '@microsoft/sp-loader.PerformanceGraphItem.constructor'
+      - '@microsoft/sp-loader.PerformanceGraphItem.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@microsoft/sp-loader.PerformanceGraphItem<@@microsoft/sp-loader.IPerformanceGraphItemProps>
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.PerformanceGraphItem.constructor'
+    name: PerformanceGraphItem
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new PerformanceGraphItem()
+      parameters: []
+  - uid: '@microsoft/sp-loader.PerformanceGraphItem.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@microsoft/sp-loader.IPerformanceGraphItemProps>

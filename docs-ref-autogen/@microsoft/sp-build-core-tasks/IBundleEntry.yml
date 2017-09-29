@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IBundleEntry'
+    name: IBundleEntry
+    fullName: IBundleEntry
+    children:
+      - '@microsoft/sp-build-core-tasks.IBundleEntry.bundleName'
+      - '@microsoft/sp-build-core-tasks.IBundleEntry.components'
+      - '@microsoft/sp-build-core-tasks.IBundleEntry.localizedEntrypointPaths'
+      - '@microsoft/sp-build-core-tasks.IBundleEntry.nonLocalizedEntrypointPath'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.IBundleEntry.bundleName'
+    name: bundleName
+    fullName: bundleName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string bundleName
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IBundleEntry.components'
+    name: components
+    fullName: components
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: string]: IBundleComponent components'
+      return:
+        type:
+          - '[key: string]: @@microsoft/sp-build-core-tasks.IBundleComponent'
+  - uid: '@microsoft/sp-build-core-tasks.IBundleEntry.localizedEntrypointPaths'
+    name: localizedEntrypointPaths
+    fullName: localizedEntrypointPaths
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ILocaleMap localizedEntrypointPaths
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.ILocaleMap'
+  - uid: '@microsoft/sp-build-core-tasks.IBundleEntry.nonLocalizedEntrypointPath'
+    name: nonLocalizedEntrypointPath
+    fullName: nonLocalizedEntrypointPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string nonLocalizedEntrypointPath
+      return:
+        type:
+          - string

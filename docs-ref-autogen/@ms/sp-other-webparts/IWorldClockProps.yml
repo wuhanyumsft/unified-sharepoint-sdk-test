@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-other-webparts.IWorldClockProps'
+    name: IWorldClockProps
+    fullName: IWorldClockProps
+    children:
+      - '@ms/sp-other-webparts.IWorldClockProps.onAddClockPane'
+      - '@ms/sp-other-webparts.IWorldClockProps.onEditClockPane'
+      - '@ms/sp-other-webparts.IWorldClockProps.webPartId'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface for world clock root component propertieSs.
+    package: '@ms/sp-other-webparts'
+  - uid: '@ms/sp-other-webparts.IWorldClockProps.onAddClockPane'
+    name: onAddClockPane
+    fullName: onAddClockPane
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onAddClockPane
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-other-webparts.IWorldClockProps.onEditClockPane'
+    name: onEditClockPane
+    fullName: onEditClockPane
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(clock: IWorldClockItem) => void onEditClockPane'
+      return:
+        type:
+          - '(clock: IWorldClockItem) => void'
+  - uid: '@ms/sp-other-webparts.IWorldClockProps.webPartId'
+    name: webPartId
+    fullName: webPartId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webPartId
+      return:
+        type:
+          - string

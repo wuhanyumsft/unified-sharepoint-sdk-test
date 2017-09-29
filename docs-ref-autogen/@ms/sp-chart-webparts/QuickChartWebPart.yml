@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-chart-webparts.QuickChartWebPart'
+    name: QuickChartWebPart
+    fullName: QuickChartWebPart
+    children:
+      - '@ms/sp-chart-webparts.QuickChartWebPart.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-chart-webparts.QuickChartWebPart<@@ms/sp-chart-webparts.IQuickChartWebPartProps>
+    package: '@ms/sp-chart-webparts'
+  - uid: '@ms/sp-chart-webparts.QuickChartWebPart.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []

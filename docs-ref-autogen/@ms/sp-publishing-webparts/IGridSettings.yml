@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IGridSettings'
+    name: IGridSettings
+    fullName: IGridSettings
+    children:
+      - '@ms/sp-publishing-webparts.IGridSettings.imageAspectRatio'
+      - '@ms/sp-publishing-webparts.IGridSettings.imageCropping'
+      - '@ms/sp-publishing-webparts.IGridSettings.imageSize'
+      - '@ms/sp-publishing-webparts.IGridSettings.lightbox'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IGridSettings.imageAspectRatio'
+    name: imageAspectRatio
+    fullName: imageAspectRatio
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The aspect ratio of the images
+    syntax:
+      content: ItemAspectRatio imageAspectRatio
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.ItemAspectRatio'
+  - uid: '@ms/sp-publishing-webparts.IGridSettings.imageCropping'
+    name: imageCropping
+    fullName: imageCropping
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Image cropping preference
+    syntax:
+      content: ImageCropping imageCropping
+      return:
+        type:
+          - ImageCropping
+  - uid: '@ms/sp-publishing-webparts.IGridSettings.imageSize'
+    name: imageSize
+    fullName: imageSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The size of the thumbnail in the grid
+    syntax:
+      content: ItemSize imageSize
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.ItemSize'
+  - uid: '@ms/sp-publishing-webparts.IGridSettings.lightbox'
+    name: lightbox
+    fullName: lightbox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether to show the full image in a lightbox after clicking on a grid item
+    syntax:
+      content: boolean lightbox
+      return:
+        type:
+          - boolean

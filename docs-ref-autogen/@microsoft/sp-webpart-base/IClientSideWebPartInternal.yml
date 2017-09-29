@@ -1,0 +1,80 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IClientSideWebPartInternal'
+    name: IClientSideWebPartInternal
+    fullName: IClientSideWebPartInternal
+    children:
+      - '@microsoft/sp-webpart-base.IClientSideWebPartInternal.accessibleTitle'
+      - '@microsoft/sp-webpart-base.IClientSideWebPartInternal.context'
+      - '@microsoft/sp-webpart-base.IClientSideWebPartInternal.domElement'
+      - '@microsoft/sp-webpart-base.IClientSideWebPartInternal.previewImageUrl'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Internal client side web part interface. This interface contains methods
+      that internal code can call
+
+      on the web part object. TypeScript does not support internals yet. This is
+      a work around to make code
+
+      type safe and not have to cast objects to any before calling private
+      methods. We do not want to make
+
+      the internal methods public or protected. These methods should not be
+      available to web part developers.
+    extends:
+      name: '@@microsoft/sp-webpart-base.IPropertyPaneControl'
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IClientSideWebPartInternal.accessibleTitle'
+    name: accessibleTitle
+    fullName: accessibleTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string accessibleTitle
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.IClientSideWebPartInternal.context'
+    name: context
+    fullName: context
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: WebPartContext context
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.WebPartContext'
+  - uid: '@microsoft/sp-webpart-base.IClientSideWebPartInternal.domElement'
+    name: domElement
+    fullName: domElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement domElement
+      return:
+        type:
+          - HTMLElement
+  - uid: '@microsoft/sp-webpart-base.IClientSideWebPartInternal.previewImageUrl'
+    name: previewImageUrl
+    fullName: previewImageUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string previewImageUrl
+      return:
+        type:
+          - string

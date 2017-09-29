@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IFlaggable'
+    name: IFlaggable
+    fullName: IFlaggable<T>
+    children:
+      - '@ms/sp-teamsite-webparts.IFlaggable.data'
+      - '@ms/sp-teamsite-webparts.IFlaggable.shouldUpdate'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IFlaggable.data'
+    name: data
+    fullName: data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: T data
+      return:
+        type:
+          - T
+  - uid: '@ms/sp-teamsite-webparts.IFlaggable.shouldUpdate'
+    name: shouldUpdate
+    fullName: shouldUpdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean shouldUpdate
+      return:
+        type:
+          - boolean

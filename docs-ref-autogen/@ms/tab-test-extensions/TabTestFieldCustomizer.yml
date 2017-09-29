@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/tab-test-extensions.TabTestFieldCustomizer'
+    name: TabTestFieldCustomizer
+    fullName: TabTestFieldCustomizer
+    children:
+      - '@ms/tab-test-extensions.TabTestFieldCustomizer.onDisposeCell'
+      - '@ms/tab-test-extensions.TabTestFieldCustomizer.onInit'
+      - '@ms/tab-test-extensions.TabTestFieldCustomizer.onRenderCell'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/tab-test-extensions.TabTestFieldCustomizer<@@ms/tab-test-extensions.ITabTestFieldCustomizerProperties>
+    package: '@ms/tab-test-extensions'
+  - uid: '@ms/tab-test-extensions.TabTestFieldCustomizer.onDisposeCell'
+    name: onDisposeCell
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onDisposeCell(event: IFieldCustomizerCellEventParameters)'
+      parameters:
+        - id: event
+          type:
+            - IFieldCustomizerCellEventParameters
+          description: ''
+  - uid: '@ms/tab-test-extensions.TabTestFieldCustomizer.onInit'
+    name: onInit
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function onInit()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/tab-test-extensions.TabTestFieldCustomizer.onRenderCell'
+    name: onRenderCell
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onRenderCell(event: IFieldCustomizerCellEventParameters)'
+      parameters:
+        - id: event
+          type:
+            - IFieldCustomizerCellEventParameters
+          description: ''

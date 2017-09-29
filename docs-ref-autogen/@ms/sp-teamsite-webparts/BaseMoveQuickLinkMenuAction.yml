@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.BaseMoveQuickLinkMenuAction'
+    name: BaseMoveQuickLinkMenuAction
+    fullName: BaseMoveQuickLinkMenuAction
+    children:
+      - '@ms/sp-teamsite-webparts.BaseMoveQuickLinkMenuAction.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-teamsite-webparts.BaseMoveQuickLinkMenuAction'
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.BaseMoveQuickLinkMenuAction.constructor'
+    name: BaseMoveQuickLinkMenuAction
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new BaseMoveQuickLinkMenuAction(provider: IQuickLinksProvider,
+        dispatcher: IQuickLinksDispatcher)
+      parameters:
+        - id: provider
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLinksProvider'
+          description: ''
+        - id: dispatcher
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLinksDispatcher'
+          description: ''

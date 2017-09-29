@@ -1,0 +1,19 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.BaseApplicationCustomizer'
+    name: BaseApplicationCustomizer
+    fullName: BaseApplicationCustomizer<TProperties>
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      This is the base class that third parties should extend when implementing
+
+      a client-side extension that runs when an application is first starting.
+
+      In the component manifest, the "extensionType" should be set to
+      "ApplicationCustomizer".
+    extends:
+      name: '@@microsoft/sp-application-base.BaseApplicationCustomizer<TProperties>'
+    package: '@microsoft/sp-application-base'

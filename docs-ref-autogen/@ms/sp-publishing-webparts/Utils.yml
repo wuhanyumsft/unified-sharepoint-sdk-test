@@ -1,0 +1,556 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.Utils'
+    name: Utils
+    fullName: Utils
+    children:
+      - '@ms/sp-publishing-webparts.Utils.countImageItems'
+      - '@ms/sp-publishing-webparts.Utils.getContentType'
+      - '@ms/sp-publishing-webparts.Utils.getItemCount'
+      - '@ms/sp-publishing-webparts.Utils.getLink'
+      - '@ms/sp-publishing-webparts.Utils.getUrl'
+      - '@ms/sp-publishing-webparts.Utils.getWebPartHeight'
+      - '@ms/sp-publishing-webparts.Utils.getWebViewPath'
+      - '@ms/sp-publishing-webparts.Utils.hasImage'
+      - '@ms/sp-publishing-webparts.Utils.imageHeightInPropertyPane'
+      - '@ms/sp-publishing-webparts.Utils.imageOneHalfWidth'
+      - '@ms/sp-publishing-webparts.Utils.imageOneQuarterWidth'
+      - '@ms/sp-publishing-webparts.Utils.imageThreeQuartersWidth'
+      - '@ms/sp-publishing-webparts.Utils.imageWidthInPropertyPane'
+      - '@ms/sp-publishing-webparts.Utils.imageWidthInStack'
+      - '@ms/sp-publishing-webparts.Utils.InitializePropertiesForStack'
+      - '@ms/sp-publishing-webparts.Utils.InitializePropertiesForTile'
+      - '@ms/sp-publishing-webparts.Utils.isExternalLink'
+      - '@ms/sp-publishing-webparts.Utils.isRelativeUrl'
+      - '@ms/sp-publishing-webparts.Utils.LogStockImageBeingUsed'
+      - '@ms/sp-publishing-webparts.Utils.LogUsageForCallToAction'
+      - '@ms/sp-publishing-webparts.Utils.LogUsageForImage'
+      - '@ms/sp-publishing-webparts.Utils.LogUsageForImageDisplayOptions'
+      - '@ms/sp-publishing-webparts.Utils.LogUsageForLink'
+      - '@ms/sp-publishing-webparts.Utils.LogUsageForOptions'
+      - '@ms/sp-publishing-webparts.Utils.mobileViewWidth'
+      - '@ms/sp-publishing-webparts.Utils.showWarningDialog'
+      - '@ms/sp-publishing-webparts.Utils.StackLayoutFlightEnabled'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.Utils.countImageItems'
+    name: countImageItems
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns count of images rendered by Hero web part
+    syntax:
+      content: >-
+        static function countImageItems(items: IItemProperties[], layout:
+        Layout)
+      parameters:
+        - id: items
+          type:
+            - '@@ms/sp-publishing-webparts.IItemProperties[]'
+          description: ''
+        - id: layout
+          type:
+            - '@@ms/sp-publishing-webparts.Layout'
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.Utils.getContentType'
+    name: getContentType
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getContentType(link: string)'
+      parameters:
+        - id: link
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.Utils.getItemCount'
+    name: getItemCount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getItemCount(layout: Layout)'
+      parameters:
+        - id: layout
+          type:
+            - '@@ms/sp-publishing-webparts.Layout'
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.Utils.getLink'
+    name: getLink
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getLink(link: string)'
+      parameters:
+        - id: link
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.Utils.getUrl'
+    name: getUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getUrl(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.Utils.getWebPartHeight'
+    name: getWebPartHeight
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function getWebPartHeight(width: number, isCarousel: boolean,
+        layoutCategory: LayoutCategory, layout: Layout)
+      parameters:
+        - id: width
+          type:
+            - number
+          description: ''
+        - id: isCarousel
+          type:
+            - boolean
+          description: ''
+        - id: layoutCategory
+          type:
+            - LayoutCategory
+          description: ''
+        - id: layout
+          type:
+            - '@@ms/sp-publishing-webparts.Layout'
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.Utils.getWebViewPath'
+    name: getWebViewPath
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getWebViewPath(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.Utils.hasImage'
+    name: hasImage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns true if Hero web parts contains at least one item which will
+      render image
+    syntax:
+      content: 'static function hasImage(items: IItemProperties[], layout: Layout)'
+      parameters:
+        - id: items
+          type:
+            - '@@ms/sp-publishing-webparts.IItemProperties[]'
+          description: ''
+        - id: layout
+          type:
+            - '@@ms/sp-publishing-webparts.Layout'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.Utils.imageHeightInPropertyPane'
+    name: imageHeightInPropertyPane
+    fullName: imageHeightInPropertyPane
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number imageHeightInPropertyPane
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.Utils.imageOneHalfWidth'
+    name: imageOneHalfWidth
+    fullName: imageOneHalfWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number imageOneHalfWidth
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.Utils.imageOneQuarterWidth'
+    name: imageOneQuarterWidth
+    fullName: imageOneQuarterWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number imageOneQuarterWidth
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.Utils.imageThreeQuartersWidth'
+    name: imageThreeQuartersWidth
+    fullName: imageThreeQuartersWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number imageThreeQuartersWidth
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.Utils.imageWidthInPropertyPane'
+    name: imageWidthInPropertyPane
+    fullName: imageWidthInPropertyPane
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number imageWidthInPropertyPane
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.Utils.imageWidthInStack'
+    name: imageWidthInStack
+    fullName: imageWidthInStack
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number imageWidthInStack
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.Utils.InitializePropertiesForStack'
+    name: InitializePropertiesForStack
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function InitializePropertiesForStack(items: IItemProperties[])'
+      parameters:
+        - id: items
+          type:
+            - '@@ms/sp-publishing-webparts.IItemProperties[]'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.Utils.InitializePropertiesForTile'
+    name: InitializePropertiesForTile
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function InitializePropertiesForTile(items: IItemProperties[])'
+      parameters:
+        - id: items
+          type:
+            - '@@ms/sp-publishing-webparts.IItemProperties[]'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.Utils.isExternalLink'
+    name: isExternalLink
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isExternalLink(link: string)'
+      parameters:
+        - id: link
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.Utils.isRelativeUrl'
+    name: isRelativeUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isRelativeUrl(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.Utils.LogStockImageBeingUsed'
+    name: LogStockImageBeingUsed
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function LogStockImageBeingUsed(layoutCategory: LayoutCategory,
+        layout: Layout, items: IItemProperties[])
+      parameters:
+        - id: layoutCategory
+          type:
+            - LayoutCategory
+          description: ''
+        - id: layout
+          type:
+            - '@@ms/sp-publishing-webparts.Layout'
+          description: ''
+        - id: items
+          type:
+            - '@@ms/sp-publishing-webparts.IItemProperties[]'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.Utils.LogUsageForCallToAction'
+    name: LogUsageForCallToAction
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function LogUsageForCallToAction(layoutCategory: LayoutCategory,
+        layout: Layout, actionName: string)
+      parameters:
+        - id: layoutCategory
+          type:
+            - LayoutCategory
+          description: ''
+        - id: layout
+          type:
+            - '@@ms/sp-publishing-webparts.Layout'
+          description: ''
+        - id: actionName
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.Utils.LogUsageForImage'
+    name: LogUsageForImage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function LogUsageForImage(layoutCategory: LayoutCategory, layout:
+        Layout, isCustomImage: boolean, actionName: string)
+      parameters:
+        - id: layoutCategory
+          type:
+            - LayoutCategory
+          description: ''
+        - id: layout
+          type:
+            - '@@ms/sp-publishing-webparts.Layout'
+          description: ''
+        - id: isCustomImage
+          type:
+            - boolean
+          description: ''
+        - id: actionName
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.Utils.LogUsageForImageDisplayOptions'
+    name: LogUsageForImageDisplayOptions
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function LogUsageForImageDisplayOptions(layoutCategory:
+        LayoutCategory, layout: Layout, oldValue: ImageDisplayOption, newValue:
+        ImageDisplayOption, actionName: string)
+      parameters:
+        - id: layoutCategory
+          type:
+            - LayoutCategory
+          description: ''
+        - id: layout
+          type:
+            - '@@ms/sp-publishing-webparts.Layout'
+          description: ''
+        - id: oldValue
+          type:
+            - ImageDisplayOption
+          description: ''
+        - id: newValue
+          type:
+            - ImageDisplayOption
+          description: ''
+        - id: actionName
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.Utils.LogUsageForLink'
+    name: LogUsageForLink
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function LogUsageForLink(layoutCategory: LayoutCategory, layout:
+        Layout, contentType: string, actionName: string)
+      parameters:
+        - id: layoutCategory
+          type:
+            - LayoutCategory
+          description: ''
+        - id: layout
+          type:
+            - '@@ms/sp-publishing-webparts.Layout'
+          description: ''
+        - id: contentType
+          type:
+            - string
+          description: ''
+        - id: actionName
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.Utils.LogUsageForOptions'
+    name: LogUsageForOptions
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function LogUsageForOptions(layoutCategory: LayoutCategory,
+        layout: Layout, optionName: string, newValue: string, actionName:
+        string)
+      parameters:
+        - id: layoutCategory
+          type:
+            - LayoutCategory
+          description: ''
+        - id: layout
+          type:
+            - '@@ms/sp-publishing-webparts.Layout'
+          description: ''
+        - id: optionName
+          type:
+            - string
+          description: ''
+        - id: newValue
+          type:
+            - string
+          description: ''
+        - id: actionName
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.Utils.mobileViewWidth'
+    name: mobileViewWidth
+    fullName: mobileViewWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number mobileViewWidth
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.Utils.showWarningDialog'
+    name: showWarningDialog
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function showWarningDialog(title: string, dialogContentElement:
+        ReactElement<__type>)
+      parameters:
+        - id: title
+          type:
+            - string
+          description: ''
+        - id: dialogContentElement
+          type:
+            - ReactElement<__type>
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.Utils.StackLayoutFlightEnabled'
+    name: StackLayoutFlightEnabled
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function StackLayoutFlightEnabled()
+      parameters: []
+      return:
+        type:
+          - boolean

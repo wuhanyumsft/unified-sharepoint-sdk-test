@@ -1,0 +1,77 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-module-interfaces.ILocalizedString'
+    name: ILocalizedString
+    fullName: ILocalizedString
+    children:
+      - '@microsoft/sp-module-interfaces.ILocalizedString.default'
+      - '@microsoft/sp-module-interfaces.ILocalizedString.id'
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      Definition: A set of localized strings.
+
+      Supported values:
+
+      * An Id referring to a localized resource. In this case it requires an
+      'id' key.
+
+      * A dictionary of locale keys to strings. In this case it requires a
+      'default' key.
+
+      Example 1: "My Application"
+               {
+                 "id": "$myStrings:myStrings.MyApplication;"
+               }
+      Example 2: "My Application"
+               {
+                 "default": "My Application"
+                 "en-us": "My Application",
+                 "fr-fr": "Ma demande",
+                 "zh": "我的應用程式"
+               }
+      Notes on strings id:
+
+      Ids have the following structure: $<resourceName>:<expression>;
+
+      resourceName needs to be a localizedResource in the config.json.
+
+      expression is an expression that will be evaluated to access the string
+      from the resource module.
+
+
+      If your resource is a dictionary, access it through
+      "$resource:resource.MyString;"
+
+      or "$resource:resource[\"MyString\"];"
+
+      For more complex cases, run an appropriate expression to access your
+      resource and return the string.
+    package: '@microsoft/sp-module-interfaces'
+  - uid: '@microsoft/sp-module-interfaces.ILocalizedString.default'
+    name: default
+    fullName: default
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string default
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-module-interfaces.ILocalizedString.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string

@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.NewsreelDataProvider'
+    name: NewsreelDataProvider
+    fullName: NewsreelDataProvider
+    children:
+      - '@ms/sp-teamsite-webparts.NewsreelDataProvider.dataSource'
+      - '@ms/sp-teamsite-webparts.NewsreelDataProvider.getHelpItems'
+      - '@ms/sp-teamsite-webparts.NewsreelDataProvider.getNewsItems'
+      - '@ms/sp-teamsite-webparts.NewsreelDataProvider.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.NewsreelDataProvider.dataSource'
+    name: dataSource
+    fullName: dataSource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: INewsreelDataSource dataSource
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.INewsreelDataSource'
+  - uid: '@ms/sp-teamsite-webparts.NewsreelDataProvider.getHelpItems'
+    name: getHelpItems
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getHelpItems()
+      parameters: []
+  - uid: '@ms/sp-teamsite-webparts.NewsreelDataProvider.getNewsItems'
+    name: getNewsItems
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Retrieves news items.
+    syntax:
+      content: 'function getNewsItems(count: number)'
+      parameters:
+        - id: count
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - 'Promise<@@ms/sp-teamsite-webparts.INewsItem[]>'
+  - uid: '@ms/sp-teamsite-webparts.NewsreelDataProvider.constructor'
+    name: NewsreelDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new NewsreelDataProvider(environmentType: EnvironmentType, pageContext:
+        PageContext, spHttpClient: SPHttpClient)
+      parameters:
+        - id: environmentType
+          type:
+            - EnvironmentType
+          description: ''
+        - id: pageContext
+          type:
+            - PageContext
+          description: ''
+        - id: spHttpClient
+          type:
+            - SPHttpClient
+          description: ''

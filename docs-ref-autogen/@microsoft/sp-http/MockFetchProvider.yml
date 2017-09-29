@@ -1,0 +1,117 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.MockFetchProvider'
+    name: MockFetchProvider
+    fullName: MockFetchProvider
+    children:
+      - '@microsoft/sp-http.MockFetchProvider.assertQueueEmpty'
+      - '@microsoft/sp-http.MockFetchProvider.expect'
+      - '@microsoft/sp-http.MockFetchProvider.fetch'
+      - '@microsoft/sp-http.MockFetchProvider.mockedRequest'
+      - '@microsoft/sp-http.MockFetchProvider.constructor'
+      - '@microsoft/sp-http.MockFetchProvider.practiceRun'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      A mock implementation of IFetchProvider, that allows a unit test to
+      specify
+
+      the sequence of expected REST requests, and then validate that they occur
+      in
+
+      that order.
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.MockFetchProvider.assertQueueEmpty'
+    name: assertQueueEmpty
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Asserts that the queue is empty, e.g. to ensure that the unit test
+      performed
+
+      all expected requests.
+    syntax:
+      content: function assertQueueEmpty()
+      parameters: []
+  - uid: '@microsoft/sp-http.MockFetchProvider.expect'
+    name: expect
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Adds an expected request to the internal queue.  Items will be removed
+      from this
+
+      queue and validated whenever fetch() is called.
+    syntax:
+      content: 'function expect(mockedRequest: IMockedRequest)'
+      parameters:
+        - id: mockedRequest
+          type:
+            - '@@microsoft/sp-http.IMockedRequest'
+          description: ''
+  - uid: '@microsoft/sp-http.MockFetchProvider.fetch'
+    name: fetch
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: The IFetchProvider contract that we are mocking.
+    syntax:
+      content: 'function fetch(request: Request)'
+      parameters:
+        - id: request
+          type:
+            - Request
+          description: ''
+      return:
+        type:
+          - Promise<Response>
+  - uid: '@microsoft/sp-http.MockFetchProvider.mockedRequest'
+    name: mockedRequest
+    fullName: mockedRequest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IMockedRequest[] mockedRequest'
+      return:
+        type:
+          - '@@microsoft/sp-http.IMockedRequest[]'
+  - uid: '@microsoft/sp-http.MockFetchProvider.constructor'
+    name: MockFetchProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new MockFetchProvider(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+  - uid: '@microsoft/sp-http.MockFetchProvider.practiceRun'
+    name: practiceRun
+    fullName: practiceRun
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      When this is set to true, the MockFetchProvider will not actually validate
+      anything.  Instead, it will dump a console trace of all requests that it
+      receives, which you can use as a guide for writing unit test validation.
+      You still need to call expect() to supply the expected responses.
+    syntax:
+      content: boolean practiceRun
+      return:
+        type:
+          - boolean

@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-html-embed.BingPreviewStyleGenerator'
+    name: BingPreviewStyleGenerator
+    fullName: BingPreviewStyleGenerator
+    children:
+      - '@ms/sp-html-embed.BingPreviewStyleGenerator.constructor'
+      - '@ms/sp-html-embed.BingPreviewStyleGenerator.createHtmlElement'
+      - '@ms/sp-html-embed.BingPreviewStyleGenerator.focus'
+      - '@ms/sp-html-embed.BingPreviewStyleGenerator.getFilteredVanillaHtml'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-html-embed.BingPreviewStyleGenerator'
+    package: '@ms/sp-html-embed'
+  - uid: '@ms/sp-html-embed.BingPreviewStyleGenerator.constructor'
+    name: BingPreviewStyleGenerator
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BingPreviewStyleGenerator(htmlGeneratorProps: IHtmlGeneratorProps)'
+      parameters:
+        - id: htmlGeneratorProps
+          type:
+            - '@@ms/sp-html-embed.IHtmlGeneratorProps'
+          description: ''
+  - uid: '@ms/sp-html-embed.BingPreviewStyleGenerator.createHtmlElement'
+    name: createHtmlElement
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function createHtmlElement()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-html-embed.BingPreviewStyleGenerator.focus'
+    name: focus
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+  - uid: '@ms/sp-html-embed.BingPreviewStyleGenerator.getFilteredVanillaHtml'
+    name: getFilteredVanillaHtml
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getFilteredVanillaHtml()
+      parameters: []
+      return:
+        type:
+          - string

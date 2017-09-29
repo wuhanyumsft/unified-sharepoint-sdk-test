@@ -1,0 +1,14 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.TestWebPartWithNoRender'
+    name: TestWebPartWithNoRender
+    fullName: TestWebPartWithNoRender
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@microsoft/sp-webpart-base.BaseClientSideWebPart<@@microsoft/sp-webpart-base.ITestWebPartProps>
+    package: '@microsoft/sp-webpart-base'

@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.IPlaceholderCreateContentOptions'
+    name: IPlaceholderCreateContentOptions
+    fullName: IPlaceholderCreateContentOptions
+    children:
+      - >-
+        @microsoft/sp-application-base.IPlaceholderCreateContentOptions.onDispose
+    langs:
+      - typeScript
+    type: interface
+    summary: 'Options for the <xref:PlaceholderProvider.tryCreateContent> method.'
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.IPlaceholderCreateContentOptions.onDispose'
+    name: onDispose
+    fullName: onDispose
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      An event handler that will be invoked when the PlaceholderContent object
+      is disposed.
+    syntax:
+      content: '(placeholderContent: PlaceholderContent) => void onDispose'
+      return:
+        type:
+          - '(placeholderContent: PlaceholderContent) => void'

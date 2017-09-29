@@ -1,0 +1,506 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-a11y.A11yManager'
+    name: A11yManager
+    fullName: A11yManager
+    children:
+      - '@ms/sp-a11y.A11yManager.addFocusListener'
+      - '@ms/sp-a11y.A11yManager.alert'
+      - '@ms/sp-a11y.A11yManager.create'
+      - '@ms/sp-a11y.A11yManager.createA11yAttribute'
+      - '@ms/sp-a11y.A11yManager.focusById'
+      - '@ms/sp-a11y.A11yManager.focusInside'
+      - '@ms/sp-a11y.A11yManager.focusOutOf'
+      - '@ms/sp-a11y.A11yManager.focusTo'
+      - '@ms/sp-a11y.A11yManager.forgetSavedActiveElement'
+      - '@ms/sp-a11y.A11yManager.getElementByA11yId'
+      - '@ms/sp-a11y.A11yManager.getElementsByA11yClass'
+      - '@ms/sp-a11y.A11yManager.getInstanceById'
+      - '@ms/sp-a11y.A11yManager.getSavedActiveElement'
+      - '@ms/sp-a11y.A11yManager.hasFocus'
+      - '@ms/sp-a11y.A11yManager.isElementManaged'
+      - '@ms/sp-a11y.A11yManager.manages'
+      - '@ms/sp-a11y.A11yManager.removeFocusListener'
+      - '@ms/sp-a11y.A11yManager.restoreFocus'
+      - '@ms/sp-a11y.A11yManager.saveActiveElementAs'
+      - '@ms/sp-a11y.A11yManager.saveLastActiveElementAs'
+      - '@ms/sp-a11y.A11yManager.setA11yAttributesOnElement'
+      - '@ms/sp-a11y.A11yManager.skipEvent'
+      - '@ms/sp-a11y.A11yManager.undoFocus'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Accessibility Manager class that can attach to a DOM Element and listens
+      to keydown and focus events to managed
+
+      a11y related events and provides utilities to handle keyboard navigation
+      and screen reader easily and reliably.
+
+      Features:
+
+      - Hierarchical Naigation: Instead of depth-first tab order that is
+      browsers default behavior, tab and shift tab
+       will only navigate through focusable siblings. Pressing Enter takes the focus to the first focusable child
+       and pressing Escape takes the focus to focusable parent. This is very useful when the HTML structure of the app
+       represents a logical layout and order of the elements which is easily achievable using HTML5. This feature can
+       be enabled for the whole managed tree using the configuration parameter useHierarchicalNavigation. If it is not
+       enabled by configuration, it can be enabled using A11yAttribute of type NavigateByHierarchy.
+       For more details refer to A11yAttributeType.NavigateByHierarchy
+
+      - A11y Attributes: Specific data attributes can be added to the html mark
+      up inside the managed tree to
+       define some a11y-related behavior declaratively. These includes both keyboard navigation and screen reader
+       utilities. For more details refer to A11yAttribute.
+
+      - Focus Transition: There is no concept of focus transition in native
+      JavaScript and it's difficult to track
+       focus inside an application because any element on the page can claim focus by calling .focus() method.
+       This sometimes leads to a chaotic state that makes focus management extremely difficult, makes the code
+       fragile and makes debugging the code very cumbersome. By centralizing focus management and observing all
+       focus transitions inside the managed tree, it is very easy to trace everything. A11yManager provides
+       a number of focus management utilities to faciliate this. Developers should be restrained from using direct
+       calls to the native .focus() and use the A11yManager for handling all focus transitions to get the full
+       benefit of A11yManager.
+
+      - Screen reader: Despite a lot of recent efforts, screen readers are not
+      very standarized yet and there are
+       no reliable APIs that guarantees how they will read and interact with your app. Aria tags are useful but not
+       comperehensive and different screen readers interpret them in different ways. A11yManagers provides a few ways
+       to alert the screen reader directly or hooking screen reader alerts to specific focus transitions.
+
+      - Debug Mode: Because A11yManager has a good view of all focus transitions
+      inside its managed tree, it can also
+       provide insights on how the focus is transitioning or when the screen reader is being alerted. Using the debug
+       mode through configuration can make the debugging in the console a lot easier.
+    package: '@ms/sp-a11y'
+  - uid: '@ms/sp-a11y.A11yManager.addFocusListener'
+    name: addFocusListener
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Set an event handler for when the focus goes inside and/or outside of the
+      given element.
+
+      The event is fired only if the focus is entering the element (going from
+      outside of the element to inside)
+
+      or in the opposite direction. If the focus stays within the element or
+      outside it, the event is not fired.
+    syntax:
+      content: >-
+        function addFocusListener(element: HTMLElement, direction: function,
+        handler: (focusTransition: FocusTransition) => void)
+      parameters:
+        - id: element
+          type:
+            - HTMLElement
+          description: The element to attach the listener to
+        - id: direction
+          type:
+            - function
+          description: The direction of the focus transition
+        - id: handler
+          type:
+            - '(focusTransition: FocusTransition) => void'
+          description: |
+            The event handler
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-a11y.A11yManager.alert'
+    name: alert
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Alerts the screen reader with the given message
+    syntax:
+      content: 'function alert(msg: string)'
+      parameters:
+        - id: msg
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-a11y.A11yManager.create'
+    name: create
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Creates a new instance with the given element as its root element.
+
+      The given DOM element should not be managed by an existing A11yManager on
+      the page.
+    syntax:
+      content: >-
+        static function create(domElement: HTMLElement, config?:
+        IA11yManagerConfig)
+      parameters:
+        - id: domElement
+          type:
+            - HTMLElement
+          description: The DOM element to find or create an A11yManager for
+        - id: config
+          type:
+            - '@@ms/sp-a11y.IA11yManagerConfig'
+          description: >
+            The configuration of the new instance of A11yManager. Has no effect
+            if an existing
+             instance of A11yManager is returned.
+          optional: true
+      return:
+        type:
+          - '@@ms/sp-a11y.A11yManager'
+  - uid: '@ms/sp-a11y.A11yManager.createA11yAttribute'
+    name: createA11yAttribute
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Creates an A11yAttribute usable by elements managed by this instance of
+      A11yManager
+    syntax:
+      content: >-
+        function createA11yAttribute(type: A11yAttributeType, params?: string[],
+        value?: string)
+      parameters:
+        - id: type
+          type:
+            - A11yAttributeType
+          description: ''
+        - id: params
+          type:
+            - 'string[]'
+          description: ''
+          optional: true
+        - id: value
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@ms/sp-a11y.A11yAttribute'
+  - uid: '@ms/sp-a11y.A11yManager.focusById'
+    name: focusById
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets the focus to or inside the element specified by its a11y id attribute
+      value.
+    syntax:
+      content: 'function focusById(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-a11y.A11yManager.focusInside'
+    name: focusInside
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets the focus on the first focusable child of the given element
+    syntax:
+      content: 'function focusInside(element: HTMLElement)'
+      parameters:
+        - id: element
+          type:
+            - HTMLElement
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-a11y.A11yManager.focusOutOf'
+    name: focusOutOf
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets the focus on the first focusable parent of the given element
+    syntax:
+      content: 'function focusOutOf(element: HTMLElement)'
+      parameters:
+        - id: element
+          type:
+            - HTMLElement
+          description: ''
+  - uid: '@ms/sp-a11y.A11yManager.focusTo'
+    name: focusTo
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets the focus on the element if it's focusable, otherwise on the first
+      focusable child of the given element
+    syntax:
+      content: 'function focusTo(element: HTMLElement)'
+      parameters:
+        - id: element
+          type:
+            - HTMLElement
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-a11y.A11yManager.forgetSavedActiveElement'
+    name: forgetSavedActiveElement
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Clear the saved active element from internal memory.
+    syntax:
+      content: 'function forgetSavedActiveElement(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: |
+            The string key used to save the active element
+  - uid: '@ms/sp-a11y.A11yManager.getElementByA11yId'
+    name: getElementByA11yId
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets an element by its id A11yAttribute
+    syntax:
+      content: 'function getElementByA11yId(id: string, root?: HTMLElement)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+        - id: root
+          type:
+            - HTMLElement
+          description: ''
+          optional: true
+  - uid: '@ms/sp-a11y.A11yManager.getElementsByA11yClass'
+    name: getElementsByA11yClass
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets an element by its class A11yAttribute
+    syntax:
+      content: 'function getElementsByA11yClass(className: string, root?: HTMLElement)'
+      parameters:
+        - id: className
+          type:
+            - string
+          description: ''
+        - id: root
+          type:
+            - HTMLElement
+          description: ''
+          optional: true
+  - uid: '@ms/sp-a11y.A11yManager.getInstanceById'
+    name: getInstanceById
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the A11yManager by the id passed in the configuration
+    syntax:
+      content: 'static function getInstanceById(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-a11y.A11yManager.getSavedActiveElement'
+    name: getSavedActiveElement
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get the saved active element by its string key
+    syntax:
+      content: 'function getSavedActiveElement(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - HTMLElement
+  - uid: '@ms/sp-a11y.A11yManager.hasFocus'
+    name: hasFocus
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: If the focus is inside the managed tree
+    syntax:
+      content: function hasFocus()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-a11y.A11yManager.isElementManaged'
+    name: isElementManaged
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Checks if a given element is managed by any A11yManager instance on the
+      page
+    syntax:
+      content: 'static function isElementManaged(domElement: HTMLElement)'
+      parameters:
+        - id: domElement
+          type:
+            - HTMLElement
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-a11y.A11yManager.manages'
+    name: manages
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: If the given element is inside the managed tree
+    syntax:
+      content: 'function manages(element: HTMLElement)'
+      parameters:
+        - id: element
+          type:
+            - HTMLElement
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-a11y.A11yManager.removeFocusListener'
+    name: removeFocusListener
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes the event handler added using addFocusListener
+    syntax:
+      content: 'function removeFocusListener(id: number)'
+      parameters:
+        - id: id
+          type:
+            - number
+          description: ''
+  - uid: '@ms/sp-a11y.A11yManager.restoreFocus'
+    name: restoreFocus
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Restore focus to a saved element by its key
+    syntax:
+      content: 'function restoreFocus(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-a11y.A11yManager.saveActiveElementAs'
+    name: saveActiveElementAs
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Save the current active element with a given string key
+    syntax:
+      content: 'function saveActiveElementAs(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-a11y.A11yManager.saveLastActiveElementAs'
+    name: saveLastActiveElementAs
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Save the last active element with a given string key
+    syntax:
+      content: 'function saveLastActiveElementAs(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-a11y.A11yManager.setA11yAttributesOnElement'
+    name: setA11yAttributesOnElement
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets the given attributes on the given DOM element
+    syntax:
+      content: >-
+        function setA11yAttributesOnElement(attributes: A11yAttribute[],
+        element: HTMLElement)
+      parameters:
+        - id: attributes
+          type:
+            - '@@ms/sp-a11y.A11yAttribute[]'
+          description: ''
+        - id: element
+          type:
+            - HTMLElement
+          description: ''
+  - uid: '@ms/sp-a11y.A11yManager.skipEvent'
+    name: skipEvent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Mark an event object to be skipped by the manager. Since A11yManager only
+      works with bubbled up events,
+
+      child components can use this method to mark an event to be skipped by the
+      A11yManager. This is useful
+
+      where the event should bubble up to the browser without the manager taking
+      any action on it.
+    syntax:
+      content: 'function skipEvent(e: IKeyboardEvent)'
+      parameters:
+        - id: e
+          type:
+            - '@@ms/sp-a11y.IKeyboardEvent'
+          description: ''
+  - uid: '@ms/sp-a11y.A11yManager.undoFocus'
+    name: undoFocus
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Set the focus to element that was focused before the current active
+      element
+    syntax:
+      content: function undoFocus()
+      parameters: []
+      return:
+        type:
+          - boolean

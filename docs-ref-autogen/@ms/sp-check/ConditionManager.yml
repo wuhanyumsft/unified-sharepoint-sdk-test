@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-check.ConditionManager'
+    name: ConditionManager
+    fullName: ConditionManager
+    children:
+      - '@ms/sp-check.ConditionManager.constructor'
+      - '@ms/sp-check.ConditionManager.run'
+    langs:
+      - typeScript
+    type: class
+    summary: A class that manages the execution of all conditions.
+    package: '@ms/sp-check'
+  - uid: '@ms/sp-check.ConditionManager.constructor'
+    name: ConditionManager
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new ConditionManager()
+      parameters: []
+  - uid: '@ms/sp-check.ConditionManager.run'
+    name: run
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function run()
+      parameters: []

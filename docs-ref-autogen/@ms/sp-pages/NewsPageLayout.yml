@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.NewsPageLayout'
+    name: NewsPageLayout
+    fullName: NewsPageLayout
+    children:
+      - '@ms/sp-pages.NewsPageLayout.constructor'
+      - '@ms/sp-pages.NewsPageLayout.render'
+      - '@ms/sp-pages.NewsPageLayout.unmount'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.BasePageLayout'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.NewsPageLayout.constructor'
+    name: NewsPageLayout
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new NewsPageLayout(domElement: HTMLElement)'
+      parameters:
+        - id: domElement
+          type:
+            - HTMLElement
+          description: ''
+  - uid: '@ms/sp-pages.NewsPageLayout.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+  - uid: '@ms/sp-pages.NewsPageLayout.unmount'
+    name: unmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function unmount()
+      parameters: []

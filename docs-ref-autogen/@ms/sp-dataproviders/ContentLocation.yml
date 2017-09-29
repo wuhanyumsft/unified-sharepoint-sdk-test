@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.ContentLocation'
+    name: ContentLocation
+    fullName: ContentLocation
+    children:
+      - '@ms/sp-dataproviders.ContentLocation.CurrentSite'
+      - '@ms/sp-dataproviders.ContentLocation.CurrentSiteCollection'
+      - '@ms/sp-dataproviders.ContentLocation.AllSites'
+      - '@ms/sp-dataproviders.ContentLocation.CurrentSiteDocumentLibrary'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.ContentLocation.CurrentSite'
+    name: CurrentSite
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-dataproviders.ContentLocation.CurrentSiteCollection'
+    name: CurrentSiteCollection
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+  - uid: '@ms/sp-dataproviders.ContentLocation.AllSites'
+    name: AllSites
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+  - uid: '@ms/sp-dataproviders.ContentLocation.CurrentSiteDocumentLibrary'
+    name: CurrentSiteDocumentLibrary
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4

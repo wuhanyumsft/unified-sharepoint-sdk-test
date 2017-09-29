@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IListWebPartProps'
+    name: IListWebPartProps
+    fullName: IListWebPartProps
+    children:
+      - '@ms/sp-teamsite-webparts.IListWebPartProps.isDocumentLibrary'
+      - '@ms/sp-teamsite-webparts.IListWebPartProps.listTitle'
+      - '@ms/sp-teamsite-webparts.IListWebPartProps.selectedListId'
+      - '@ms/sp-teamsite-webparts.IListWebPartProps.selectedListUrl'
+      - '@ms/sp-teamsite-webparts.IListWebPartProps.selectedViewId'
+      - '@ms/sp-teamsite-webparts.IListWebPartProps.showDefaultDocumentLibrary'
+      - '@ms/sp-teamsite-webparts.IListWebPartProps.webpartHeightKey'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IListWebPartProps.isDocumentLibrary'
+    name: isDocumentLibrary
+    fullName: isDocumentLibrary
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isDocumentLibrary
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IListWebPartProps.listTitle'
+    name: listTitle
+    fullName: listTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string listTitle
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IListWebPartProps.selectedListId'
+    name: selectedListId
+    fullName: selectedListId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string selectedListId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IListWebPartProps.selectedListUrl'
+    name: selectedListUrl
+    fullName: selectedListUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string selectedListUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IListWebPartProps.selectedViewId'
+    name: selectedViewId
+    fullName: selectedViewId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string selectedViewId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IListWebPartProps.showDefaultDocumentLibrary'
+    name: showDefaultDocumentLibrary
+    fullName: showDefaultDocumentLibrary
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showDefaultDocumentLibrary
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IListWebPartProps.webpartHeightKey'
+    name: webpartHeightKey
+    fullName: webpartHeightKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number webpartHeightKey
+      return:
+        type:
+          - number

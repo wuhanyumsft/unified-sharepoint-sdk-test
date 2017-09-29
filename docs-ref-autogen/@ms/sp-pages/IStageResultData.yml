@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IStageResultData'
+    name: IStageResultData
+    fullName: IStageResultData
+    children:
+      - '@ms/sp-pages.IStageResultData.actionIndex'
+      - '@ms/sp-pages.IStageResultData.outcomeCode'
+      - '@ms/sp-pages.IStageResultData.outcomeText'
+      - '@ms/sp-pages.IStageResultData.recipeIndex'
+      - '@ms/sp-pages.IStageResultData.stageIndex'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IStageResultData.actionIndex'
+    name: actionIndex
+    fullName: actionIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number actionIndex
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.IStageResultData.outcomeCode'
+    name: outcomeCode
+    fullName: outcomeCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: OutcomeCode outcomeCode
+      return:
+        type:
+          - OutcomeCode
+  - uid: '@ms/sp-pages.IStageResultData.outcomeText'
+    name: outcomeText
+    fullName: outcomeText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string outcomeText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IStageResultData.recipeIndex'
+    name: recipeIndex
+    fullName: recipeIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number recipeIndex
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.IStageResultData.stageIndex'
+    name: stageIndex
+    fullName: stageIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number stageIndex
+      return:
+        type:
+          - number

@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.IPageProps'
+    name: IPageProps
+    fullName: IPageProps
+    children:
+      - '@ms/sp-webpart-shared.IPageProps.className'
+      - '@ms/sp-webpart-shared.IPageProps.disabled'
+      - '@ms/sp-webpart-shared.IPageProps.onClick'
+      - '@ms/sp-webpart-shared.IPageProps.pageNumber'
+      - '@ms/sp-webpart-shared.IPageProps.pageType'
+      - '@ms/sp-webpart-shared.IPageProps.selected'
+      - '@ms/sp-webpart-shared.IPageProps.text'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.IPageProps.className'
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional override for page button css class.
+    syntax:
+      content: string className
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IPageProps.disabled'
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Set to true if the page button is disabled.
+    syntax:
+      content: boolean disabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-webpart-shared.IPageProps.onClick'
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback to execute when the page button is clicked.
+    syntax:
+      content: '(pageNumber?: number, pageType?: PageType) => void onClick'
+      return:
+        type:
+          - '(pageNumber?: number, pageType?: PageType) => void'
+  - uid: '@ms/sp-webpart-shared.IPageProps.pageNumber'
+    name: pageNumber
+    fullName: pageNumber
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Page number of the page button.
+    syntax:
+      content: number pageNumber
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-webpart-shared.IPageProps.pageType'
+    name: pageType
+    fullName: pageType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Type of the page button.
+    syntax:
+      content: PageType pageType
+      return:
+        type:
+          - PageType
+  - uid: '@ms/sp-webpart-shared.IPageProps.selected'
+    name: selected
+    fullName: selected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Set to true if the page button is selected.
+    syntax:
+      content: boolean selected
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-webpart-shared.IPageProps.text'
+    name: text
+    fullName: text
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Text value of the page button.
+    syntax:
+      content: string text
+      return:
+        type:
+          - string

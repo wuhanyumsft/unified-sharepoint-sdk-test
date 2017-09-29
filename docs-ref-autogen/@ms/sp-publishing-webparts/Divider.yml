@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.Divider'
+    name: Divider
+    fullName: Divider
+    children:
+      - '@ms/sp-publishing-webparts.Divider.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-publishing-webparts.Divider'
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.Divider.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

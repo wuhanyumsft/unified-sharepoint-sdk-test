@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.ProvisionedServiceScope'
+    name: ProvisionedServiceScope
+    fullName: ProvisionedServiceScope
+    children:
+      - '@ms/sp-component-utilities.ProvisionedServiceScope.startNewRoot'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Provides a serviceScope with all the dependencies needed by tests already
+      provided.
+
+      Using this class will simpify the setup for all the tests, having other
+      utility
+
+      classes (HttpClientMock for example) to just consume their dependencies
+      instead of
+
+      havig to do a mix of providing their dependencies and consuming.
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.ProvisionedServiceScope.startNewRoot'
+    name: startNewRoot
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function startNewRoot()
+      parameters: []
+      return:
+        type:
+          - ServiceScope

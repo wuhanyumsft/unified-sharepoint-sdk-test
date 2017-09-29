@@ -1,0 +1,74 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-special-internal-tasks.IGlobalizeCompileTaskConfig'
+    name: IGlobalizeCompileTaskConfig
+    fullName: IGlobalizeCompileTaskConfig
+    children:
+      - '@ms/sp-special-internal-tasks.IGlobalizeCompileTaskConfig.debugLocale'
+      - >-
+        @ms/sp-special-internal-tasks.IGlobalizeCompileTaskConfig.extractScriptPath
+      - >-
+        @ms/sp-special-internal-tasks.IGlobalizeCompileTaskConfig.libDropDirectory
+      - '@ms/sp-special-internal-tasks.IGlobalizeCompileTaskConfig.localeMap'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-special-internal-tasks'
+  - uid: '@ms/sp-special-internal-tasks.IGlobalizeCompileTaskConfig.debugLocale'
+    name: debugLocale
+    fullName: debugLocale
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'If specified, use this locale when running in debug mode.'
+    syntax:
+      content: string debugLocale
+      return:
+        type:
+          - string
+  - uid: >-
+      @ms/sp-special-internal-tasks.IGlobalizeCompileTaskConfig.extractScriptPath
+    name: extractScriptPath
+    fullName: extractScriptPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A path to a script from which to extract functions that must be supported
+      by globalize.
+    syntax:
+      content: string extractScriptPath
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-special-internal-tasks.IGlobalizeCompileTaskConfig.libDropDirectory'
+    name: libDropDirectory
+    fullName: libDropDirectory
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The directory under the lib directory where each locale's built should be
+      dropped.
+    syntax:
+      content: string libDropDirectory
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-special-internal-tasks.IGlobalizeCompileTaskConfig.localeMap'
+    name: localeMap
+    fullName: localeMap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A mapping of locale names to globalize locale identifiers.
+    syntax:
+      content: '[key: string]: string localeMap'
+      return:
+        type:
+          - '[key: string]: string'

@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.PlaceholderContent'
+    name: PlaceholderContent
+    fullName: PlaceholderContent
+    children:
+      - '@microsoft/sp-application-base.PlaceholderContent.dispose'
+      - '@microsoft/sp-application-base.PlaceholderContent.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Represents custom content that is rendered inside a placeholder on a
+      SharePoint page.
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.PlaceholderContent.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Disposes the PlaceholderContent object and removes its attached DOM
+      element from the page.
+    syntax:
+      content: function dispose()
+      parameters: []
+  - uid: '@microsoft/sp-application-base.PlaceholderContent.constructor'
+    name: PlaceholderContent
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PlaceholderContent(parameters: IPlaceholderContentParameters)'
+      parameters:
+        - id: parameters
+          type:
+            - '@@microsoft/sp-application-base.IPlaceholderContentParameters'
+          description: ''

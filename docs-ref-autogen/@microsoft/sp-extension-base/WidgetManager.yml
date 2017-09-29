@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-extension-base.WidgetManager'
+    name: WidgetManager
+    fullName: WidgetManager
+    children:
+      - '@microsoft/sp-extension-base.WidgetManager.serviceKey'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-extension-base'
+  - uid: '@microsoft/sp-extension-base.WidgetManager.serviceKey'
+    name: serviceKey
+    fullName: serviceKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ServiceKey<WidgetManager> serviceKey
+      return:
+        type:
+          - ServiceKey<@@microsoft/sp-extension-base.WidgetManager>

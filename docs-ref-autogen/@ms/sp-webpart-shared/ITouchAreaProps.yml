@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.ITouchAreaProps'
+    name: ITouchAreaProps
+    fullName: ITouchAreaProps
+    children:
+      - '@ms/sp-webpart-shared.ITouchAreaProps.onSwipe'
+      - '@ms/sp-webpart-shared.ITouchAreaProps.preventDefault'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.ITouchAreaProps.onSwipe'
+    name: onSwipe
+    fullName: onSwipe
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(direction: SwipeDirection) => void onSwipe'
+      return:
+        type:
+          - '(direction: SwipeDirection) => void'
+  - uid: '@ms/sp-webpart-shared.ITouchAreaProps.preventDefault'
+    name: preventDefault
+    fullName: preventDefault
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean preventDefault
+      return:
+        type:
+          - boolean

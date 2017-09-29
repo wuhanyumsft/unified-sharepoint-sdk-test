@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-client-preview.ResourceMap'
+    name: ResourceMap
+    fullName: ResourceMap
+    children:
+      - '@microsoft/sp-client-preview.ResourceMap.consume'
+      - '@microsoft/sp-client-preview.ResourceMap.dispose'
+      - '@microsoft/sp-client-preview.ResourceMap.expose'
+      - '@microsoft/sp-client-preview.ResourceMap.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: Represents a ResourceMap used to map resources
+    package: '@microsoft/sp-client-preview'
+  - uid: '@microsoft/sp-client-preview.ResourceMap.consume'
+    name: consume
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Obtains the instance of a resource with the given key if exposed
+      else throws and error
+    syntax:
+      content: 'function consume<T>(key: IResourceKey)'
+      parameters:
+        - id: key
+          type:
+            - '@@microsoft/sp-client-preview.IResourceKey'
+          description: |
+            represents the key used to identify the resource
+      return:
+        type:
+          - T
+  - uid: '@microsoft/sp-client-preview.ResourceMap.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function dispose()
+      parameters: []
+  - uid: '@microsoft/sp-client-preview.ResourceMap.expose'
+    name: expose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Exposes a resource with a key to be consumed by others
+    syntax:
+      content: 'function expose<T>(key: IResourceKey, instance: T, type: ResourceType)'
+      parameters:
+        - id: key
+          type:
+            - '@@microsoft/sp-client-preview.IResourceKey'
+          description: represents the  key associated with this resource
+        - id: instance
+          type:
+            - T
+          description: represents the resource instance
+        - id: type
+          type:
+            - ResourceType
+          description: |
+            represents the resource type
+      return:
+        type:
+          - T
+  - uid: '@microsoft/sp-client-preview.ResourceMap.constructor'
+    name: ResourceMap
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Initializes a new instance of a ResourceMap
+    syntax:
+      content: new ResourceMap()
+      parameters: []

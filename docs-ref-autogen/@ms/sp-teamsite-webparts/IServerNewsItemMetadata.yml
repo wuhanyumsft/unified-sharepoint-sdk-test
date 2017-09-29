@@ -1,0 +1,123 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IServerNewsItemMetadata'
+    name: IServerNewsItemMetadata
+    fullName: IServerNewsItemMetadata
+    children:
+      - '@ms/sp-teamsite-webparts.IServerNewsItemMetadata.fileExtension'
+      - '@ms/sp-teamsite-webparts.IServerNewsItemMetadata.newsType'
+      - '@ms/sp-teamsite-webparts.IServerNewsItemMetadata.progId'
+      - '@ms/sp-teamsite-webparts.IServerNewsItemMetadata.siteId'
+      - '@ms/sp-teamsite-webparts.IServerNewsItemMetadata.title'
+      - '@ms/sp-teamsite-webparts.IServerNewsItemMetadata.uniqueId'
+      - '@ms/sp-teamsite-webparts.IServerNewsItemMetadata.url'
+      - '@ms/sp-teamsite-webparts.IServerNewsItemMetadata.webId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IServerNewsItemMetadata.fileExtension'
+    name: fileExtension
+    fullName: fileExtension
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string fileExtension
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IServerNewsItemMetadata.newsType'
+    name: newsType
+    fullName: newsType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number newsType
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-teamsite-webparts.IServerNewsItemMetadata.progId'
+    name: progId
+    fullName: progId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string progId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IServerNewsItemMetadata.siteId'
+    name: siteId
+    fullName: siteId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IServerNewsItemMetadata.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IServerNewsItemMetadata.uniqueId'
+    name: uniqueId
+    fullName: uniqueId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string uniqueId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IServerNewsItemMetadata.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string url
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IServerNewsItemMetadata.webId'
+    name: webId
+    fullName: webId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webId
+      return:
+        type:
+          - string

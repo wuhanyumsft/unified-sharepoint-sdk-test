@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.Flights'
+    name: Flights
+    fullName: Flights
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-canvas'

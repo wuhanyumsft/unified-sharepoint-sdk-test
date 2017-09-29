@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.PageDirection'
+    name: PageDirection
+    fullName: PageDirection
+    children:
+      - '@microsoft/sp-webpart-base.PageDirection.back'
+      - '@microsoft/sp-webpart-base.PageDirection.next'
+    langs:
+      - typeScript
+    type: enum
+    summary: Page direction.
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.PageDirection.back'
+    name: back
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: -1
+  - uid: '@microsoft/sp-webpart-base.PageDirection.next'
+    name: next
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1

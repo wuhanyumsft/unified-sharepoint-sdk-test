@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: >-
+      @ms/sp-tenant-admin-page.IOffice365ProvidedSharepointSiteActivityDataReadyReturnVal
+    name: IOffice365ProvidedSharepointSiteActivityDataReadyReturnVal
+    fullName: IOffice365ProvidedSharepointSiteActivityDataReadyReturnVal
+    children:
+      - >-
+        @ms/sp-tenant-admin-page.IOffice365ProvidedSharepointSiteActivityDataReadyReturnVal.value
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      This interface is to hold the response data of the SharePoint OData API:
+
+      /_api/SPOInternalUseOnly.SiteCollectionManagementService/Office365ProvidedSharepointSiteActivityDataReady'
+    package: '@ms/sp-tenant-admin-page'
+  - uid: >-
+      @ms/sp-tenant-admin-page.IOffice365ProvidedSharepointSiteActivityDataReadyReturnVal.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean value
+      return:
+        type:
+          - boolean

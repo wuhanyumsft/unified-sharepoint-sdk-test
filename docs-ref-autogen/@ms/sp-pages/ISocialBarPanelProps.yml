@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ISocialBarPanelProps'
+    name: ISocialBarPanelProps
+    fullName: ISocialBarPanelProps
+    children:
+      - '@ms/sp-pages.ISocialBarPanelProps.onLoadMoreLikes'
+      - '@ms/sp-pages.ISocialBarPanelProps.pageLikes'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ISocialBarPanelProps.onLoadMoreLikes'
+    name: onLoadMoreLikes
+    fullName: onLoadMoreLikes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onLoadMoreLikes
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-pages.ISocialBarPanelProps.pageLikes'
+    name: pageLikes
+    fullName: pageLikes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ILikeable pageLikes
+      return:
+        type:
+          - '@@ms/sp-pages.ILikeable'

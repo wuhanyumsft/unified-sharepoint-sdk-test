@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/test-extensions-application.IReactContextMenuProps'
+    name: IReactContextMenuProps
+    fullName: IReactContextMenuProps
+    children:
+      - '@ms/test-extensions-application.IReactContextMenuProps.listViewStore'
+      - '@ms/test-extensions-application.IReactContextMenuProps.serviceScope'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/test-extensions-application'
+  - uid: '@ms/test-extensions-application.IReactContextMenuProps.listViewStore'
+    name: listViewStore
+    fullName: listViewStore
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ListViewStore listViewStore
+      return:
+        type:
+          - '@@ms/test-extensions-application.ListViewStore'
+  - uid: '@ms/test-extensions-application.IReactContextMenuProps.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope

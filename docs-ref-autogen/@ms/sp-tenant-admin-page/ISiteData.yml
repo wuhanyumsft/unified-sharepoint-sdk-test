@@ -1,0 +1,347 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISiteData'
+    name: ISiteData
+    fullName: ISiteData
+    children:
+      - '@ms/sp-tenant-admin-page.ISiteData.AllowGuestUserSignIn.value'
+      - '@ms/sp-tenant-admin-page.ISiteData.Classification'
+      - '@ms/sp-tenant-admin-page.ISiteData.ExternalSharing'
+      - '@ms/sp-tenant-admin-page.ISiteData.FileViewedOrEdited.'
+      - '@ms/sp-tenant-admin-page.ISiteData.IsGroupConnected.value'
+      - '@ms/sp-tenant-admin-page.ISiteData.LastActivityOn'
+      - '@ms/sp-tenant-admin-page.ISiteData.NumOfFiles.'
+      - '@ms/sp-tenant-admin-page.ISiteData.PageViews.'
+      - '@ms/sp-tenant-admin-page.ISiteData.PrimaryAdmin'
+      - '@ms/sp-tenant-admin-page.ISiteData.ShareByEmailEnabled.value'
+      - '@ms/sp-tenant-admin-page.ISiteData.ShareByLinkEnabled.value'
+      - '@ms/sp-tenant-admin-page.ISiteData.SiteId'
+      - '@ms/sp-tenant-admin-page.ISiteData.SiteOwnerEmail'
+      - '@ms/sp-tenant-admin-page.ISiteData.SiteOwnerName'
+      - '@ms/sp-tenant-admin-page.ISiteData.SiteSecondaryOwnerEmail'
+      - '@ms/sp-tenant-admin-page.ISiteData.SiteSecondaryOwnerName'
+      - '@ms/sp-tenant-admin-page.ISiteData.SiteUrl'
+      - '@ms/sp-tenant-admin-page.ISiteData.StorageQuota.'
+      - '@ms/sp-tenant-admin-page.ISiteData.StorageUsed.'
+      - '@ms/sp-tenant-admin-page.ISiteData.TemplateTitle'
+      - '@ms/sp-tenant-admin-page.ISiteData.TimeCreated'
+      - '@ms/sp-tenant-admin-page.ISiteData.TimeDeleted'
+      - '@ms/sp-tenant-admin-page.ISiteData.Title'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      We are calling `_api/web/List('***')/RenderListDataAsStream` API to query
+      site data.
+
+      This interface is use to hold 'Row' elements in the respone data,
+
+      which represents the site information.
+
+      The data structure returned by the RenderListDataAsStream API is using
+      field name with leading uppercase,
+
+      so here we can only use field name with leading uppercase to assign values
+      to each field
+
+      because, convert from JSON to an object needs field name be exactly same.
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.AllowGuestUserSignIn.value'
+    name: AllowGuestUserSignIn.value
+    fullName: AllowGuestUserSignIn.value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string AllowGuestUserSignIn.value
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.Classification'
+    name: Classification
+    fullName: Classification
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Classification
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.ExternalSharing'
+    name: ExternalSharing
+    fullName: ExternalSharing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ExternalSharing
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.FileViewedOrEdited.'
+    name: FileViewedOrEdited.
+    fullName: FileViewedOrEdited.
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string FileViewedOrEdited.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.IsGroupConnected.value'
+    name: IsGroupConnected.value
+    fullName: IsGroupConnected.value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string IsGroupConnected.value
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.LastActivityOn'
+    name: LastActivityOn
+    fullName: LastActivityOn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string LastActivityOn
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.NumOfFiles.'
+    name: NumOfFiles.
+    fullName: NumOfFiles.
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string NumOfFiles.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.PageViews.'
+    name: PageViews.
+    fullName: PageViews.
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string PageViews.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.PrimaryAdmin'
+    name: PrimaryAdmin
+    fullName: PrimaryAdmin
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string PrimaryAdmin
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.ShareByEmailEnabled.value'
+    name: ShareByEmailEnabled.value
+    fullName: ShareByEmailEnabled.value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ShareByEmailEnabled.value
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.ShareByLinkEnabled.value'
+    name: ShareByLinkEnabled.value
+    fullName: ShareByLinkEnabled.value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ShareByLinkEnabled.value
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.SiteId'
+    name: SiteId
+    fullName: SiteId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string SiteId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.SiteOwnerEmail'
+    name: SiteOwnerEmail
+    fullName: SiteOwnerEmail
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string SiteOwnerEmail
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.SiteOwnerName'
+    name: SiteOwnerName
+    fullName: SiteOwnerName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string SiteOwnerName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.SiteSecondaryOwnerEmail'
+    name: SiteSecondaryOwnerEmail
+    fullName: SiteSecondaryOwnerEmail
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string SiteSecondaryOwnerEmail
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.SiteSecondaryOwnerName'
+    name: SiteSecondaryOwnerName
+    fullName: SiteSecondaryOwnerName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string SiteSecondaryOwnerName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.SiteUrl'
+    name: SiteUrl
+    fullName: SiteUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string SiteUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.StorageQuota.'
+    name: StorageQuota.
+    fullName: StorageQuota.
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string StorageQuota.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.StorageUsed.'
+    name: StorageUsed.
+    fullName: StorageUsed.
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string StorageUsed.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.TemplateTitle'
+    name: TemplateTitle
+    fullName: TemplateTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string TemplateTitle
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.TimeCreated'
+    name: TimeCreated
+    fullName: TimeCreated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string TimeCreated
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.TimeDeleted'
+    name: TimeDeleted
+    fullName: TimeDeleted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string TimeDeleted
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISiteData.Title'
+    name: Title
+    fullName: Title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Title
+      return:
+        type:
+          - string

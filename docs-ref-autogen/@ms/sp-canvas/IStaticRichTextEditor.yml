@@ -1,0 +1,86 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.IStaticRichTextEditor'
+    name: IStaticRichTextEditor
+    fullName: IStaticRichTextEditor
+    children:
+      - '@ms/sp-canvas.IStaticRichTextEditor.createNewEditor'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.IStaticRichTextEditor.createNewEditor'
+    name: createNewEditor
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createNewEditor(config: IRichTextEditorConfiguration,
+        currentHTML: string, editorElement: HTMLDivElement,
+        selectionChangeCallback: (range: IRange, forceUpdate?: boolean) => void,
+        textChangeCallback: () => void, startupFocus?: boolean,
+        onImagePasteCallBack?: (isImageValid: boolean, imageBlob?: Blob,
+        innerHTML?: string) => void, onPasteCallback?: (isPasteInProgress:
+        boolean) => void, onContextMenuCallBack?: (isRightClicked: boolean,
+        target: Element) => void, onKeyDownCallBack?: (event: KeyboardEvent) =>
+        void, placeholder?: string)
+      parameters:
+        - id: config
+          type:
+            - '@@ms/sp-canvas.IRichTextEditorConfiguration'
+          description: ''
+        - id: currentHTML
+          type:
+            - string
+          description: ''
+        - id: editorElement
+          type:
+            - HTMLDivElement
+          description: ''
+        - id: selectionChangeCallback
+          type:
+            - '(range: IRange, forceUpdate?: boolean) => void'
+          description: ''
+        - id: textChangeCallback
+          type:
+            - () => void
+          description: ''
+        - id: startupFocus
+          type:
+            - boolean
+          description: ''
+          optional: true
+        - id: onImagePasteCallBack
+          type:
+            - >-
+              (isImageValid: boolean, imageBlob?: Blob, innerHTML?: string) =>
+              void
+          description: ''
+          optional: true
+        - id: onPasteCallback
+          type:
+            - '(isPasteInProgress: boolean) => void'
+          description: ''
+          optional: true
+        - id: onContextMenuCallBack
+          type:
+            - '(isRightClicked: boolean, target: Element) => void'
+          description: ''
+          optional: true
+        - id: onKeyDownCallBack
+          type:
+            - '(event: KeyboardEvent) => void'
+          description: ''
+          optional: true
+        - id: placeholder
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@@ms/sp-canvas.IRichTextEditor>

@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.PushChangesTask'
+    name: PushChangesTask
+    fullName: PushChangesTask
+    children:
+      - '@ms/sp-build-internal-tasks.PushChangesTask.executeTask'
+      - '@ms/sp-build-internal-tasks.PushChangesTask.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-build-internal-tasks.PushChangesTask<@@ms/sp-build-internal-tasks.IPushChangesTaskConfig>
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.PushChangesTask.executeTask'
+    name: executeTask
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function executeTask(gulp: any, completeCallback: (error?: string) =>
+        void)
+      parameters:
+        - id: gulp
+          type:
+            - any
+          description: ''
+        - id: completeCallback
+          type:
+            - '(error?: string) => void'
+          description: ''
+      return:
+        type:
+          - ReadWriteStream
+  - uid: '@ms/sp-build-internal-tasks.PushChangesTask.constructor'
+    name: PushChangesTask
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new PushChangesTask()
+      parameters: []

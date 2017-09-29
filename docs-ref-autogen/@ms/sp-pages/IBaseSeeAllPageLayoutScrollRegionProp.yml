@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IBaseSeeAllPageLayoutScrollRegionProp'
+    name: IBaseSeeAllPageLayoutScrollRegionProp
+    fullName: IBaseSeeAllPageLayoutScrollRegionProp
+    children:
+      - '@ms/sp-pages.IBaseSeeAllPageLayoutScrollRegionProp.renderComponent'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IBaseSeeAllPageLayoutScrollRegionProp.renderComponent'
+    name: renderComponent
+    fullName: renderComponent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => ReactElement<__type> renderComponent
+      return:
+        type:
+          - () => ReactElement<__type>

@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-html-embed.EmbedCodeType'
+    name: EmbedCodeType
+    fullName: EmbedCodeType
+    children:
+      - '@ms/sp-html-embed.EmbedCodeType.Url'
+      - '@ms/sp-html-embed.EmbedCodeType.VanillaHtml'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-html-embed'
+  - uid: '@ms/sp-html-embed.EmbedCodeType.Url'
+    name: Url
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-html-embed.EmbedCodeType.VanillaHtml'
+    name: VanillaHtml
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

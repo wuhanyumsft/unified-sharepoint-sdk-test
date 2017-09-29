@@ -1,0 +1,23 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dragzone.Global'
+    package: '@ms/sp-dragzone'
+    name: Global
+    children:
+      - '@ms/sp-dragzone.getMockHost'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@ms/sp-dragzone.getMockHost'
+    name: getMockHost
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMockHost()
+      parameters: []
+      return:
+        type:
+          - HTMLElement

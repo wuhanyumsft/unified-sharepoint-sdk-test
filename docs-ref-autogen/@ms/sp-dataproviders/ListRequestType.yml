@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.ListRequestType'
+    name: ListRequestType
+    fullName: ListRequestType
+    children:
+      - '@ms/sp-dataproviders.ListRequestType.List'
+      - '@ms/sp-dataproviders.ListRequestType.Item'
+      - '@ms/sp-dataproviders.ListRequestType.Field'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.ListRequestType.List'
+    name: List
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-dataproviders.ListRequestType.Item'
+    name: Item
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+  - uid: '@ms/sp-dataproviders.ListRequestType.Field'
+    name: Field
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3

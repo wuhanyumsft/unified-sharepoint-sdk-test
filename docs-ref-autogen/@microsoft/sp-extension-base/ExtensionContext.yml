@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-extension-base.ExtensionContext'
+    name: ExtensionContext
+    fullName: ExtensionContext
+    children:
+      - '@microsoft/sp-extension-base.ExtensionContext.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: The base class for context objects for client-side extensions.
+    extends:
+      name: '@@microsoft/sp-extension-base.ExtensionContext'
+    package: '@microsoft/sp-extension-base'
+  - uid: '@microsoft/sp-extension-base.ExtensionContext.constructor'
+    name: ExtensionContext
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: >-
+      The constructor for this class is marked as internal; third party code
+      should not inherit
+
+      directly from this base class.
+    syntax:
+      content: 'new ExtensionContext(parameters: IExtensionContextParameters)'
+      parameters:
+        - id: parameters
+          type:
+            - '@@microsoft/sp-extension-base.IExtensionContextParameters'
+          description: ''

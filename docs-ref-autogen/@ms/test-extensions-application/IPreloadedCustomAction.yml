@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/test-extensions-application.IPreloadedCustomAction'
+    name: IPreloadedCustomAction
+    fullName: IPreloadedCustomAction
+    children:
+      - >-
+        @ms/test-extensions-application.IPreloadedCustomAction.clientSideComponentId
+      - >-
+        @ms/test-extensions-application.IPreloadedCustomAction.clientSideComponentProperties
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/test-extensions-application'
+  - uid: >-
+      @ms/test-extensions-application.IPreloadedCustomAction.clientSideComponentId
+    name: clientSideComponentId
+    fullName: clientSideComponentId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string clientSideComponentId
+      return:
+        type:
+          - string
+  - uid: >-
+      @ms/test-extensions-application.IPreloadedCustomAction.clientSideComponentProperties
+    name: clientSideComponentProperties
+    fullName: clientSideComponentProperties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string clientSideComponentProperties
+      return:
+        type:
+          - string

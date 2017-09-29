@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.BingMapDataSource'
+    name: BingMapDataSource
+    fullName: BingMapDataSource
+    children:
+      - '@ms/sp-pages.BingMapDataSource.constructor'
+      - '@ms/sp-pages.BingMapDataSource.geocode'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.BingMapDataSource.constructor'
+    name: BingMapDataSource
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BingMapDataSource(cultureName: string, credential: string)'
+      parameters:
+        - id: cultureName
+          type:
+            - string
+          description: ''
+        - id: credential
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-pages.BingMapDataSource.geocode'
+    name: geocode
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function geocode(location: string)'
+      parameters:
+        - id: location
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<IGeolocation>

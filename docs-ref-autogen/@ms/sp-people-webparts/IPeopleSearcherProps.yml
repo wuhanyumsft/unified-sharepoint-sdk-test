@@ -1,0 +1,113 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.IPeopleSearcherProps'
+    name: IPeopleSearcherProps
+    fullName: IPeopleSearcherProps
+    children:
+      - '@ms/sp-people-webparts.IPeopleSearcherProps.ariaLabel'
+      - '@ms/sp-people-webparts.IPeopleSearcherProps.className'
+      - '@ms/sp-people-webparts.IPeopleSearcherProps.dataSource'
+      - '@ms/sp-people-webparts.IPeopleSearcherProps.layout'
+      - '@ms/sp-people-webparts.IPeopleSearcherProps.onChangeSelectedPersons'
+      - '@ms/sp-people-webparts.IPeopleSearcherProps.selectedPersons'
+      - '@ms/sp-people-webparts.IPeopleSearcherProps.serviceScope'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-people-webparts'
+  - uid: '@ms/sp-people-webparts.IPeopleSearcherProps.ariaLabel'
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The aria label read out by screen reader when people picker is focused.
+    syntax:
+      content: string ariaLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IPeopleSearcherProps.className'
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The string of CSS className applied on people searcher.
+    syntax:
+      content: string className
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IPeopleSearcherProps.dataSource'
+    name: dataSource
+    fullName: dataSource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: People picker data source.
+    syntax:
+      content: IPeoplePickerDataSource dataSource
+      return:
+        type:
+          - IPeoplePickerDataSource
+  - uid: '@ms/sp-people-webparts.IPeopleSearcherProps.layout'
+    name: layout
+    fullName: layout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Displayed layout type in people wall.
+    syntax:
+      content: LayoutType layout
+      return:
+        type:
+          - LayoutType
+  - uid: '@ms/sp-people-webparts.IPeopleSearcherProps.onChangeSelectedPersons'
+    name: onChangeSelectedPersons
+    fullName: onChangeSelectedPersons
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The handler of sending changed persona list back to people web part.
+    syntax:
+      content: '(persons: IPeopleInfo[]) => void onChangeSelectedPersons'
+      return:
+        type:
+          - '(persons: IPeopleInfo[]) => void'
+  - uid: '@ms/sp-people-webparts.IPeopleSearcherProps.selectedPersons'
+    name: selectedPersons
+    fullName: selectedPersons
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The persons already selected.
+
+      It is used to filter the auto-suggestion candidates. So the selected
+      persons won't show in suggestion list anymore.
+    syntax:
+      content: 'IPeopleInfo[] selectedPersons'
+      return:
+        type:
+          - '@@ms/sp-people-webparts.IPeopleInfo[]'
+  - uid: '@ms/sp-people-webparts.IPeopleSearcherProps.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Service scope.
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope

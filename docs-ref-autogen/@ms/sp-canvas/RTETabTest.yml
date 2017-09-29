@@ -1,0 +1,113 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.RTETabTest'
+    name: RTETabTest
+    fullName: RTETabTest
+    children:
+      - '@ms/sp-canvas.RTETabTest.AddTaskTestRTEWebPart'
+      - '@ms/sp-canvas.RTETabTest.constructor'
+      - '@ms/sp-canvas.RTETabTest.TestIncludeScripts'
+      - '@ms/sp-canvas.RTETabTest.TestName'
+      - '@ms/sp-canvas.RTETabTest.TestOwner'
+      - '@ms/sp-canvas.RTETabTest.TestRun'
+      - '@ms/sp-canvas.RTETabTest.TestSetup'
+      - '@ms/sp-canvas.RTETabTest.TestTeardown'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.RTETabTest.AddTaskTestRTEWebPart'
+    name: AddTaskTestRTEWebPart
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function AddTaskTestRTEWebPart(RTEWebPart: RTEWebPart)'
+      parameters:
+        - id: RTEWebPart
+          type:
+            - RTEWebPart
+          description: ''
+  - uid: '@ms/sp-canvas.RTETabTest.constructor'
+    name: RTETabTest
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new RTETabTest(serverURL: string)'
+      parameters:
+        - id: serverURL
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-canvas.RTETabTest.TestIncludeScripts'
+    name: TestIncludeScripts
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestIncludeScripts()
+      parameters: []
+  - uid: '@ms/sp-canvas.RTETabTest.TestName'
+    name: TestName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestName()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.RTETabTest.TestOwner'
+    name: TestOwner
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestOwner()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.RTETabTest.TestRun'
+    name: TestRun
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestRun()
+      parameters: []
+  - uid: '@ms/sp-canvas.RTETabTest.TestSetup'
+    name: TestSetup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestSetup()
+      parameters: []
+  - uid: '@ms/sp-canvas.RTETabTest.TestTeardown'
+    name: TestTeardown
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestTeardown()
+      parameters: []

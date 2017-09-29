@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.CaptionElementAlignPosition'
+    name: CaptionElementAlignPosition
+    fullName: CaptionElementAlignPosition
+    children:
+      - '@ms/sp-webpart-shared.CaptionElementAlignPosition.PageDirection'
+      - '@ms/sp-webpart-shared.CaptionElementAlignPosition.Center'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.CaptionElementAlignPosition.PageDirection'
+    name: PageDirection
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-webpart-shared.CaptionElementAlignPosition.Center'
+    name: Center
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2

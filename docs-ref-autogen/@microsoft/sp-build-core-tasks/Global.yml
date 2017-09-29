@@ -1,0 +1,1996 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.Global'
+    package: '@microsoft/sp-build-core-tasks'
+    name: Global
+    children:
+      - '@microsoft/sp-build-core-tasks.addComponent'
+      - '@microsoft/sp-build-core-tasks.addCustomAsset'
+      - '@microsoft/sp-build-core-tasks.addFeatureXml'
+      - '@microsoft/sp-build-core-tasks.addFileToZip'
+      - '@microsoft/sp-build-core-tasks.appendBasePathToFeatureFiles'
+      - '@microsoft/sp-build-core-tasks.attachConfigureWebpackTask'
+      - '@microsoft/sp-build-core-tasks.attachWebpackStats'
+      - '@microsoft/sp-build-core-tasks.attachWebpackTask'
+      - '@microsoft/sp-build-core-tasks.batchPromise'
+      - '@microsoft/sp-build-core-tasks.buildWebPartData'
+      - '@microsoft/sp-build-core-tasks.callExecuteTask'
+      - '@microsoft/sp-build-core-tasks.cleanRawPackageDirectory'
+      - '@microsoft/sp-build-core-tasks.configureWithLocResources'
+      - '@microsoft/sp-build-core-tasks.createApplicationComponent'
+      - '@microsoft/sp-build-core-tasks.createAssetRelationship'
+      - '@microsoft/sp-build-core-tasks.createAssetRelationships'
+      - '@microsoft/sp-build-core-tasks.createClientSideComponentElement'
+      - '@microsoft/sp-build-core-tasks.createComponent'
+      - '@microsoft/sp-build-core-tasks.createComponentMapFromManifests'
+      - '@microsoft/sp-build-core-tasks.createComponentXml'
+      - '@microsoft/sp-build-core-tasks.createExtensionComponent'
+      - '@microsoft/sp-build-core-tasks.createFeatureFromComponent'
+      - '@microsoft/sp-build-core-tasks.createFeatureXml'
+      - '@microsoft/sp-build-core-tasks.createIcon'
+      - '@microsoft/sp-build-core-tasks.createLibraryComponent'
+      - '@microsoft/sp-build-core-tasks.createModule'
+      - '@microsoft/sp-build-core-tasks.createPackage'
+      - '@microsoft/sp-build-core-tasks.createRelationshipsDefinition'
+      - '@microsoft/sp-build-core-tasks.createRelationshipsXml'
+      - '@microsoft/sp-build-core-tasks.createSolutionXml'
+      - '@microsoft/sp-build-core-tasks.createWebPartComponent'
+      - '@microsoft/sp-build-core-tasks.deployToAzure'
+      - '@microsoft/sp-build-core-tasks.ensureBlobService'
+      - '@microsoft/sp-build-core-tasks.ensureContainer'
+      - '@microsoft/sp-build-core-tasks.ensureDirectory'
+      - '@microsoft/sp-build-core-tasks.ensureTrailingSlash'
+      - '@microsoft/sp-build-core-tasks.getAzureStorageUrl'
+      - '@microsoft/sp-build-core-tasks.getBaseSolutionDefinition'
+      - '@microsoft/sp-build-core-tasks.getBundleId'
+      - '@microsoft/sp-build-core-tasks.getComponentsBundleId'
+      - '@microsoft/sp-build-core-tasks.getCustomFeatureXmlFilenames'
+      - '@microsoft/sp-build-core-tasks.getCustomFiles'
+      - '@microsoft/sp-build-core-tasks.getExternalsKeys'
+      - '@microsoft/sp-build-core-tasks.getFiles'
+      - '@microsoft/sp-build-core-tasks.getFullHash'
+      - '@microsoft/sp-build-core-tasks.getGulpUtilFileStream'
+      - '@microsoft/sp-build-core-tasks.getLocalPageManifests'
+      - '@microsoft/sp-build-core-tasks.getManifests'
+      - '@microsoft/sp-build-core-tasks.getRelativeFilePaths'
+      - '@microsoft/sp-build-core-tasks.getRequiresCustomScriptProperty'
+      - '@microsoft/sp-build-core-tasks.getResourceFilePaths'
+      - '@microsoft/sp-build-core-tasks.getShortHash'
+      - '@microsoft/sp-build-core-tasks.getVersionFunction'
+      - '@microsoft/sp-build-core-tasks.includeNonStandardExternal'
+      - '@microsoft/sp-build-core-tasks.isUrl'
+      - '@microsoft/sp-build-core-tasks.joinUrlSegments'
+      - '@microsoft/sp-build-core-tasks.loadSourceFiles'
+      - '@microsoft/sp-build-core-tasks.migrateToLatestVersion'
+      - '@microsoft/sp-build-core-tasks.normalizeLocaleName'
+      - '@microsoft/sp-build-core-tasks.normalizeSolutionDefinition'
+      - '@microsoft/sp-build-core-tasks.printDevDeployLink'
+      - '@microsoft/sp-build-core-tasks.readAssetFiles'
+      - '@microsoft/sp-build-core-tasks.readConfigFile'
+      - '@microsoft/sp-build-core-tasks.readConfigFileAndMigrate'
+      - '@microsoft/sp-build-core-tasks.readCustomFeatures'
+      - '@microsoft/sp-build-core-tasks.readFile'
+      - '@microsoft/sp-build-core-tasks.readResources'
+      - '@microsoft/sp-build-core-tasks.readSharepointAssets'
+      - '@microsoft/sp-build-core-tasks.relationshipToXmlDefinition'
+      - '@microsoft/sp-build-core-tasks.rename'
+      - '@microsoft/sp-build-core-tasks.renameWithHash'
+      - '@microsoft/sp-build-core-tasks.resolvePackage'
+      - '@microsoft/sp-build-core-tasks.serial'
+      - '@microsoft/sp-build-core-tasks.setBundleEntries'
+      - '@microsoft/sp-build-core-tasks.setLinkedExternals'
+      - '@microsoft/sp-build-core-tasks.STUB_FUNCTION'
+      - '@microsoft/sp-build-core-tasks.trimLeadingSlashes'
+      - '@microsoft/sp-build-core-tasks.trimTrailingSlashes'
+      - '@microsoft/sp-build-core-tasks.uploadFilesToAzure'
+      - '@microsoft/sp-build-core-tasks.uploadFileToAzure'
+      - '@microsoft/sp-build-core-tasks.validateSolutionDefinition'
+      - '@microsoft/sp-build-core-tasks.warn'
+      - '@microsoft/sp-build-core-tasks.writeFeature'
+      - '@microsoft/sp-build-core-tasks.writeFile'
+      - '@microsoft/sp-build-core-tasks.writeFileToPath'
+      - '@microsoft/sp-build-core-tasks.writeIcon'
+      - '@microsoft/sp-build-core-tasks.writeODCFile'
+      - '@microsoft/sp-build-core-tasks.writePackage'
+      - '@microsoft/sp-build-core-tasks.writeStringToFile'
+      - '@microsoft/sp-build-core-tasks.writeStringToGulpUtilFile'
+      - '@microsoft/sp-build-core-tasks.writeXmlFile'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@microsoft/sp-build-core-tasks.addComponent'
+    name: addComponent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addComponent(type: function, options:
+        IPackageSolutionTaskConfig)
+      parameters:
+        - id: type
+          type:
+            - function
+          description: ''
+        - id: options
+          type:
+            - '@@microsoft/sp-build-core-tasks.IPackageSolutionTaskConfig'
+          description: ''
+  - uid: '@microsoft/sp-build-core-tasks.addCustomAsset'
+    name: addCustomAsset
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addCustomAsset(options: IPackageSolutionTaskConfig)'
+      parameters:
+        - id: options
+          type:
+            - '@@microsoft/sp-build-core-tasks.IPackageSolutionTaskConfig'
+          description: ''
+  - uid: '@microsoft/sp-build-core-tasks.addFeatureXml'
+    name: addFeatureXml
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addFeatureXml(features: ICustomFeatures)'
+      parameters:
+        - id: features
+          type:
+            - '@@microsoft/sp-build-core-tasks.ICustomFeatures'
+          description: ''
+  - uid: '@microsoft/sp-build-core-tasks.addFileToZip'
+    name: addFileToZip
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Adds a file to a zip package
+    syntax:
+      content: >-
+        function addFileToZip(filepath: string, content: string, zip:
+        ZipPackage)
+      parameters:
+        - id: filepath
+          type:
+            - string
+          description: ''
+        - id: content
+          type:
+            - string
+          description: ''
+        - id: zip
+          type:
+            - ZipPackage
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@microsoft/sp-build-core-tasks.appendBasePathToFeatureFiles'
+    name: appendBasePathToFeatureFiles
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function appendBasePathToFeatureFiles(files: string[], basePath: string)'
+      parameters:
+        - id: files
+          type:
+            - 'string[]'
+          description: ''
+        - id: basePath
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-build-core-tasks.attachConfigureWebpackTask'
+    name: attachConfigureWebpackTask
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function attachConfigureWebpackTask()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.ConfigureWebpackTask'
+  - uid: '@microsoft/sp-build-core-tasks.attachWebpackStats'
+    name: attachWebpackStats
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function attachWebpackStats()
+      parameters: []
+      return:
+        type:
+          - Stats
+  - uid: '@microsoft/sp-build-core-tasks.attachWebpackTask'
+    name: attachWebpackTask
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function attachWebpackTask()
+      parameters: []
+      return:
+        type:
+          - WebpackTask
+  - uid: '@microsoft/sp-build-core-tasks.batchPromise'
+    name: batchPromise
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Helper function to run promises in batches
+    syntax:
+      content: >-
+        function batchPromise<T>(batchSize: number, items: Array<T>, log: (str:
+        string) => void, createPromise: (item: T) => Promise<K>)
+      parameters:
+        - id: batchSize
+          type:
+            - number
+          description: the number of promises to run at a single time
+        - id: items
+          type:
+            - Array<T>
+          description: the list of items that are inputs to the createPromise function
+        - id: log
+          type:
+            - '(str: string) => void'
+          description: a helper function for performing logging
+        - id: createPromise
+          type:
+            - '(item: T) => Promise<K>'
+          description: |
+            a function which takes an item and returns a promise to do something
+      return:
+        type:
+          - 'Promise<K[]>'
+  - uid: '@microsoft/sp-build-core-tasks.buildWebPartData'
+    name: buildWebPartData
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function buildWebPartData(manifest: IClientSideWebPartManifest<any>,
+        entry: IClientSideWebPartManifestEntry<any>)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideWebPartManifest<any>
+          description: ''
+        - id: entry
+          type:
+            - IClientSideWebPartManifestEntry<any>
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.callExecuteTask'
+    name: callExecuteTask
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function callExecuteTask()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.ITaskCompletionResult'
+  - uid: '@microsoft/sp-build-core-tasks.cleanRawPackageDirectory'
+    name: cleanRawPackageDirectory
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Ensures that the contents of config.paths.debugDir have been deleted
+    syntax:
+      content: 'function cleanRawPackageDirectory(config: IPackageSolutionTaskConfig)'
+      parameters:
+        - id: config
+          type:
+            - '@@microsoft/sp-build-core-tasks.IPackageSolutionTaskConfig'
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@microsoft/sp-build-core-tasks.configureWithLocResources'
+    name: configureWithLocResources
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function configureWithLocResources()
+      parameters: []
+  - uid: '@microsoft/sp-build-core-tasks.createApplicationComponent'
+    name: createApplicationComponent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createApplicationComponent(manifest:
+        IClientSideApplicationManifest)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideApplicationManifest
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IComponent'
+  - uid: '@microsoft/sp-build-core-tasks.createAssetRelationship'
+    name: createAssetRelationship
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createAssetRelationship(type: string, files: IXml[])'
+      parameters:
+        - id: type
+          type:
+            - string
+          description: ''
+        - id: files
+          type:
+            - '@@microsoft/sp-build-core-tasks.IXml[]'
+          description: ''
+  - uid: '@microsoft/sp-build-core-tasks.createAssetRelationships'
+    name: createAssetRelationships
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createAssetRelationships(assets: ISharepointAssets<IXml>)'
+      parameters:
+        - id: assets
+          type:
+            - >-
+              @@microsoft/sp-build-core-tasks.ISharepointAssets<@@microsoft/sp-build-core-tasks.IXml>
+          description: ''
+  - uid: '@microsoft/sp-build-core-tasks.createClientSideComponentElement'
+    name: createClientSideComponentElement
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Creates a ClientSideComponent element.
+    syntax:
+      content: 'function createClientSideComponentElement(options: IComponent)'
+      parameters:
+        - id: options
+          type:
+            - '@@microsoft/sp-build-core-tasks.IComponent'
+          description: ''
+      return:
+        type:
+          - any
+  - uid: '@microsoft/sp-build-core-tasks.createComponent'
+    name: createComponent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createComponent(manifest: IClientSideComponentManifest)'
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IComponent'
+  - uid: '@microsoft/sp-build-core-tasks.createComponentMapFromManifests'
+    name: createComponentMapFromManifests
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createComponentMapFromManifests(manifests: Map<string>)'
+      parameters:
+        - id: manifests
+          type:
+            - Map<string>
+          description: ''
+      return:
+        type:
+          - Map<string>
+  - uid: '@microsoft/sp-build-core-tasks.createComponentXml'
+    name: createComponentXml
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createComponentXml(options: IComponent, featureId: string)'
+      parameters:
+        - id: options
+          type:
+            - '@@microsoft/sp-build-core-tasks.IComponent'
+          description: ''
+        - id: featureId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IXml'
+  - uid: '@microsoft/sp-build-core-tasks.createExtensionComponent'
+    name: createExtensionComponent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createExtensionComponent(manifest:
+        IClientSideExtensionManifest)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideExtensionManifest
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IComponent'
+  - uid: '@microsoft/sp-build-core-tasks.createFeatureFromComponent'
+    name: createFeatureFromComponent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createFeatureFromComponent(component: IComponent)'
+      parameters:
+        - id: component
+          type:
+            - '@@microsoft/sp-build-core-tasks.IComponent'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IFeature'
+  - uid: '@microsoft/sp-build-core-tasks.createFeatureXml'
+    name: createFeatureXml
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createFeatureXml(feature: IFeature, resources: IResources)'
+      parameters:
+        - id: feature
+          type:
+            - '@@microsoft/sp-build-core-tasks.IFeature'
+          description: ''
+        - id: resources
+          type:
+            - '@@microsoft/sp-build-core-tasks.IResources'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IFeatureXml'
+  - uid: '@microsoft/sp-build-core-tasks.createIcon'
+    name: createIcon
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createIcon(iconPath: string)'
+      parameters:
+        - id: iconPath
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IIcon'
+  - uid: '@microsoft/sp-build-core-tasks.createLibraryComponent'
+    name: createLibraryComponent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createLibraryComponent(manifest: IClientSideLibraryManifest)'
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideLibraryManifest
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IComponent'
+  - uid: '@microsoft/sp-build-core-tasks.createModule'
+    name: createModule
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Creates a Module xml element with all the files.
+    syntax:
+      content: 'function createModule(featureId: string, component: IComponent)'
+      parameters:
+        - id: featureId
+          type:
+            - string
+          description: ''
+        - id: component
+          type:
+            - '@@microsoft/sp-build-core-tasks.IComponent'
+          description: ''
+      return:
+        type:
+          - any
+  - uid: '@microsoft/sp-build-core-tasks.createPackage'
+    name: createPackage
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Creates and writes a package to disk using a package definition and
+      manifest mapping
+    syntax:
+      content: >-
+        function createPackage(config: IPackageSolutionTaskConfig, manifests:
+        Map<string>)
+      parameters:
+        - id: config
+          type:
+            - '@@microsoft/sp-build-core-tasks.IPackageSolutionTaskConfig'
+          description: ''
+        - id: manifests
+          type:
+            - Map<string>
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@microsoft/sp-build-core-tasks.createRelationshipsDefinition'
+    name: createRelationshipsDefinition
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createRelationshipsDefinition(rels: IRelationship[])'
+      parameters:
+        - id: rels
+          type:
+            - '@@microsoft/sp-build-core-tasks.IRelationship[]'
+          description: ''
+      return:
+        type:
+          - Object
+  - uid: '@microsoft/sp-build-core-tasks.createRelationshipsXml'
+    name: createRelationshipsXml
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createRelationshipsXml(currentFilename: string, rels:
+        IRelationship[])
+      parameters:
+        - id: currentFilename
+          type:
+            - string
+          description: ''
+        - id: rels
+          type:
+            - '@@microsoft/sp-build-core-tasks.IRelationship[]'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IXml'
+  - uid: '@microsoft/sp-build-core-tasks.createSolutionXml'
+    name: createSolutionXml
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createSolutionXml(solution: ISolution, customFeatureFilenames:
+        string[], resources: IResources)
+      parameters:
+        - id: solution
+          type:
+            - '@@microsoft/sp-build-core-tasks.ISolution'
+          description: ''
+        - id: customFeatureFilenames
+          type:
+            - 'string[]'
+          description: ''
+        - id: resources
+          type:
+            - '@@microsoft/sp-build-core-tasks.IResources'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IPackageXml'
+  - uid: '@microsoft/sp-build-core-tasks.createWebPartComponent'
+    name: createWebPartComponent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createWebPartComponent(manifest:
+        IClientSideWebPartManifest<__type>)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideWebPartManifest<__type>
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IComponent'
+  - uid: '@microsoft/sp-build-core-tasks.deployToAzure'
+    name: deployToAzure
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Deploys all the files in a certain directory to a specific Azure Blob
+      Storage instance
+    syntax:
+      content: >-
+        function deployToAzure(config: IDeployAzureStorageTaskConfig, log: (str:
+        string) => void, logError: (error: any) => void)
+      parameters:
+        - id: config
+          type:
+            - '@@microsoft/sp-build-core-tasks.IDeployAzureStorageTaskConfig'
+          description: ''
+        - id: log
+          type:
+            - '(str: string) => void'
+          description: ''
+        - id: logError
+          type:
+            - '(error: any) => void'
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@microsoft/sp-build-core-tasks.ensureBlobService'
+    name: ensureBlobService
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function ensureBlobService(account: string, accountKey: string)'
+      parameters:
+        - id: account
+          type:
+            - string
+          description: ''
+        - id: accountKey
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<IAzureBlobService>
+  - uid: '@microsoft/sp-build-core-tasks.ensureContainer'
+    name: ensureContainer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function ensureContainer(blobService: IAzureBlobService, containerName:
+        string, containerOptions?: ICreateContainerOptions, log: (str: string)
+        => void)
+      parameters:
+        - id: blobService
+          type:
+            - IAzureBlobService
+          description: ''
+        - id: containerName
+          type:
+            - string
+          description: ''
+        - id: containerOptions
+          type:
+            - ICreateContainerOptions
+          description: ''
+          optional: true
+        - id: log
+          type:
+            - '(str: string) => void'
+          description: ''
+      return:
+        type:
+          - Promise<IAzureBlobService>
+  - uid: '@microsoft/sp-build-core-tasks.ensureDirectory'
+    name: ensureDirectory
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Returns a promise which ensures a directory on disk exists using
+      mkdirsSync()
+    syntax:
+      content: 'function ensureDirectory(filepath: string)'
+      parameters:
+        - id: filepath
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@microsoft/sp-build-core-tasks.ensureTrailingSlash'
+    name: ensureTrailingSlash
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function ensureTrailingSlash(str: string)'
+      parameters:
+        - id: str
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.getAzureStorageUrl'
+    name: getAzureStorageUrl
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getAzureStorageUrl(accountName: string, containerName: string)'
+      parameters:
+        - id: accountName
+          type:
+            - string
+          description: ''
+        - id: containerName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.getBaseSolutionDefinition'
+    name: getBaseSolutionDefinition
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getBaseSolutionDefinition(skipFeatureDeployment: boolean)'
+      parameters:
+        - id: skipFeatureDeployment
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IPackageSolutionTaskConfig'
+  - uid: '@microsoft/sp-build-core-tasks.getBundleId'
+    name: getBundleId
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getBundleId(bundle: IBundleEntry)'
+      parameters:
+        - id: bundle
+          type:
+            - '@@microsoft/sp-build-core-tasks.IBundleEntry'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.getComponentsBundleId'
+    name: getComponentsBundleId
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getComponentsBundleId(manifests:
+        IClientSideComponentManifest[])
+      parameters:
+        - id: manifests
+          type:
+            - 'IClientSideComponentManifest[]'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.getCustomFeatureXmlFilenames'
+    name: getCustomFeatureXmlFilenames
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Reads the list of feature xml filenames from a specified rels folder
+    syntax:
+      content: 'function getCustomFeatureXmlFilenames(featureXmlDir: string)'
+      parameters:
+        - id: featureXmlDir
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - 'Promise<string[]>'
+  - uid: '@microsoft/sp-build-core-tasks.getCustomFiles'
+    name: getCustomFiles
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Loads a directory of files into IXml objects
+    syntax:
+      content: 'function getCustomFiles(featureXmlDir: string)'
+      parameters:
+        - id: featureXmlDir
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - 'Promise<@@microsoft/sp-build-core-tasks.IXml[]>'
+  - uid: '@microsoft/sp-build-core-tasks.getExternalsKeys'
+    name: getExternalsKeys
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Get an array of a project's externals' names. To be used when creating a
+      webpack configuration.
+    syntax:
+      content: 'function getExternalsKeys(gulpTask: OdspGulpTask<any>)'
+      parameters:
+        - id: gulpTask
+          type:
+            - '@@microsoft/sp-build-core-tasks.OdspGulpTask<any>'
+          description: ''
+  - uid: '@microsoft/sp-build-core-tasks.getFiles'
+    name: getFiles
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Loads a directory of files into IXml objects
+    syntax:
+      content: 'function getFiles(cwd: string, globs: string, foundMessage: string)'
+      parameters:
+        - id: cwd
+          type:
+            - string
+          description: ''
+        - id: globs
+          type:
+            - string
+          description: ''
+        - id: foundMessage
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - 'Promise<@@microsoft/sp-build-core-tasks.IXml[]>'
+  - uid: '@microsoft/sp-build-core-tasks.getFullHash'
+    name: getFullHash
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getFullHash(data: any)'
+      parameters:
+        - id: data
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.getGulpUtilFileStream'
+    name: getGulpUtilFileStream
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getGulpUtilFileStream(file: File)'
+      parameters:
+        - id: file
+          type:
+            - File
+          description: ''
+      return:
+        type:
+          - ReadableStream
+  - uid: '@microsoft/sp-build-core-tasks.getLocalPageManifests'
+    name: getLocalPageManifests
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Get the manifest array with each of the base URLs rewritten to point to
+      the local
+       page's protocol, hostname, and port. This function is useful for automated tests
+       that run locally and use an unpredictable port.
+    syntax:
+      content: function getLocalPageManifests()
+      parameters: []
+  - uid: '@microsoft/sp-build-core-tasks.getManifests'
+    name: getManifests
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Get the manifest array.
+    syntax:
+      content: function getManifests()
+      parameters: []
+  - uid: '@microsoft/sp-build-core-tasks.getRelativeFilePaths'
+    name: getRelativeFilePaths
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Reads the list of relative path from a specified folder
+    syntax:
+      content: >-
+        function getRelativeFilePaths(cwd: string, globs: string, foundMessage:
+        string)
+      parameters:
+        - id: cwd
+          type:
+            - string
+          description: ''
+        - id: globs
+          type:
+            - string
+          description: ''
+        - id: foundMessage
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - 'Promise<string[]>'
+  - uid: '@microsoft/sp-build-core-tasks.getRequiresCustomScriptProperty'
+    name: getRequiresCustomScriptProperty
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getRequiresCustomScriptProperty(manifest:
+        IClientSideComponentManifest)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-build-core-tasks.getResourceFilePaths'
+    name: getResourceFilePaths
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Reads the list of resources files relative path from a specified folder
+    syntax:
+      content: 'function getResourceFilePaths(featureXmlDir: string, globs: string)'
+      parameters:
+        - id: featureXmlDir
+          type:
+            - string
+          description: ''
+        - id: globs
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - 'Promise<string[]>'
+  - uid: '@microsoft/sp-build-core-tasks.getShortHash'
+    name: getShortHash
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getShortHash(content: string)'
+      parameters:
+        - id: content
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.getVersionFunction'
+    name: getVersionFunction
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getVersionFunction(packageName: string)'
+      parameters:
+        - id: packageName
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-build-core-tasks.includeNonStandardExternal'
+    name: includeNonStandardExternal
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function includeNonStandardExternal(name: string, external:
+        IDynamicExternalProject)
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: external
+          type:
+            - '@@microsoft/sp-build-core-tasks.IDynamicExternalProject'
+          description: ''
+  - uid: '@microsoft/sp-build-core-tasks.isUrl'
+    name: isUrl
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isUrl(path: string)'
+      parameters:
+        - id: path
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-build-core-tasks.joinUrlSegments'
+    name: joinUrlSegments
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function joinUrlSegments(segments: string[])'
+      parameters:
+        - id: segments
+          type:
+            - 'string[]'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.loadSourceFiles'
+    name: loadSourceFiles
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Uses glob to expand the filepath glob into a list of resolved file paths
+    syntax:
+      content: 'function loadSourceFiles(globs: string, cwd?: string)'
+      parameters:
+        - id: globs
+          type:
+            - string
+          description: ''
+        - id: cwd
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - 'Promise<string[]>'
+  - uid: '@microsoft/sp-build-core-tasks.migrateToLatestVersion'
+    name: migrateToLatestVersion
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function migrateToLatestVersion(logWarning: (message: string) => void,
+        configJson: IConfigJson)
+      parameters:
+        - id: logWarning
+          type:
+            - '(message: string) => void'
+          description: ''
+        - id: configJson
+          type:
+            - '@@microsoft/sp-build-core-tasks.IConfigJson'
+          description: ''
+  - uid: '@microsoft/sp-build-core-tasks.normalizeLocaleName'
+    name: normalizeLocaleName
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Normalizes a locale name. So "en-us" becomes "en-US" and "sr-cyrl-rs"
+      becomes "sr-Cyrl-RS". There are two special
+       cases. For pseudo-locales like "qps-ploc", everything stays lowecase. For language-script locales like "uz-Cyrl",
+       only the script name's first character should be uppercased.
+    syntax:
+      content: 'function normalizeLocaleName(localeName: string)'
+      parameters:
+        - id: localeName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.normalizeSolutionDefinition'
+    name: normalizeSolutionDefinition
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Normalizes the passed in solution definition by cross referencing
+      componentIds with the collected list
+
+      of manifests in the repo. If, for any feature, the componentId list is
+      missing or empty, we add all the
+
+      components to that feature. Similarly, if the list of features in the
+      solution is empty or missing, a
+
+      feature is automatically created for all solutions.
+    syntax:
+      content: >-
+        function normalizeSolutionDefinition(options:
+        IPackageSolutionTaskConfig, manifests: Map<string>)
+      parameters:
+        - id: options
+          type:
+            - '@@microsoft/sp-build-core-tasks.IPackageSolutionTaskConfig'
+          description: ''
+        - id: manifests
+          type:
+            - Map<string>
+          description: ''
+  - uid: '@microsoft/sp-build-core-tasks.printDevDeployLink'
+    name: printDevDeployLink
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Prints out a link to a page where you can test your changes. Note that
+      loaderUrl and debugManifestFile
+
+      should both be fully qualified URLs. If the dev_deploy_url environment
+      variable is not set,
+
+      advice is given on how to set it and the query parameters & hash are
+      printed separately.
+    syntax:
+      content: >-
+        function printDevDeployLink(log: (text: string) => void, loaderUrl:
+        string, debugManifestUrl: string)
+      parameters:
+        - id: log
+          type:
+            - '(text: string) => void'
+          description: ''
+        - id: loaderUrl
+          type:
+            - string
+          description: ''
+        - id: debugManifestUrl
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-build-core-tasks.readAssetFiles'
+    name: readAssetFiles
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function readAssetFiles(assetFilePaths: string[], assetFileDescription:
+        string, subdir?: string)
+      parameters:
+        - id: assetFilePaths
+          type:
+            - 'string[]'
+          description: ''
+        - id: assetFileDescription
+          type:
+            - string
+          description: ''
+        - id: subdir
+          type:
+            - string
+          description: ''
+          optional: true
+  - uid: '@microsoft/sp-build-core-tasks.readConfigFile'
+    name: readConfigFile
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function readConfigFile(logVerbose: (message: string) => void, filename:
+        string)
+      parameters:
+        - id: logVerbose
+          type:
+            - '(message: string) => void'
+          description: ''
+        - id: filename
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IConfigJsonResult'
+  - uid: '@microsoft/sp-build-core-tasks.readConfigFileAndMigrate'
+    name: readConfigFileAndMigrate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function readConfigFileAndMigrate(logWarning: (message: string) => void,
+        logVerbose: (message: string) => void, filename: string)
+      parameters:
+        - id: logWarning
+          type:
+            - '(message: string) => void'
+          description: ''
+        - id: logVerbose
+          type:
+            - '(message: string) => void'
+          description: ''
+        - id: filename
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IConfigJsonResult'
+  - uid: '@microsoft/sp-build-core-tasks.readCustomFeatures'
+    name: readCustomFeatures
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Reads custom feature XML from folder specified by config. This function
+      looks for all `.rels` files in
+
+      the `/_rels` folder, assumes that a Feature.xml file of the same name
+      exists in the root folder. It
+
+      returns an object with a list of IXml files to include in the package, as
+      well as the paths to all the
+
+      feature.xml files, which is later referenced by the `AppManifest.xml.rels`
+      file, thereby including the
+
+      custom feature in the package.
+    syntax:
+      content: 'function readCustomFeatures(options: IPackageSolutionTaskConfig)'
+      parameters:
+        - id: options
+          type:
+            - '@@microsoft/sp-build-core-tasks.IPackageSolutionTaskConfig'
+          description: ''
+      return:
+        type:
+          - Promise<@@microsoft/sp-build-core-tasks.ICustomFeatures>
+  - uid: '@microsoft/sp-build-core-tasks.readFile'
+    name: readFile
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Wraps fsx.readFile in a promise
+    syntax:
+      content: 'function readFile(filename: string)'
+      parameters:
+        - id: filename
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<string>
+  - uid: '@microsoft/sp-build-core-tasks.readResources'
+    name: readResources
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Reads all resources files from folder specified by config.
+
+      The file with name "Resources.resx" will be considered the default
+      resource file.
+
+      More than one Resources.resx file will end up in an error.
+
+      All files following Resources.??-??.resx (such as Resources.en-US.resx)
+      will be considered as
+
+      localized resources. It won't match against valid locales but that
+      expression
+    syntax:
+      content: 'function readResources(options: IPackageSolutionTaskConfig)'
+      parameters:
+        - id: options
+          type:
+            - '@@microsoft/sp-build-core-tasks.IPackageSolutionTaskConfig'
+          description: ''
+      return:
+        type:
+          - Promise<@@microsoft/sp-build-core-tasks.IResources>
+  - uid: '@microsoft/sp-build-core-tasks.readSharepointAssets'
+    name: readSharepointAssets
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Reads a special folder containing SharePoint assets which should
+      automatically be integrated into a feature.
+
+      You can think of this as a slightly more useful version of
+      readCustomFeatures, which allows for custom features
+
+      to be created, but is more cumbersome when you want to do something simple
+      like include an upgrade action into
+
+      the SPPKG.
+    syntax:
+      content: >-
+        function readSharepointAssets(assets: ISharepointAssets<string>,
+        featureId: string)
+      parameters:
+        - id: assets
+          type:
+            - '@@microsoft/sp-build-core-tasks.ISharepointAssets<string>'
+          description: ''
+        - id: featureId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - >-
+            @@microsoft/sp-build-core-tasks.ISharepointAssets<@@microsoft/sp-build-core-tasks.IXml>
+  - uid: '@microsoft/sp-build-core-tasks.relationshipToXmlDefinition'
+    name: relationshipToXmlDefinition
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function relationshipToXmlDefinition(rel: IRelationship)'
+      parameters:
+        - id: rel
+          type:
+            - '@@microsoft/sp-build-core-tasks.IRelationship'
+          description: ''
+      return:
+        type:
+          - Object
+  - uid: '@microsoft/sp-build-core-tasks.rename'
+    name: rename
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Function for renaming a stream of file(s).
+    syntax:
+      content: >-
+        function rename(gulpStream: ReadWriteStream, getFilename:
+        (originalFilename: string) => string, filenameCallback: (filename:
+        string, originalFilename: string) => void)
+      parameters:
+        - id: gulpStream
+          type:
+            - ReadWriteStream
+          description: Stream of files to be renamed.
+        - id: getFilename
+          type:
+            - '(originalFilename: string) => string'
+          description: Callback for setting the resulting file(s) name.
+        - id: filenameCallback
+          type:
+            - '(filename: string, originalFilename: string) => void'
+          description: >
+            Callback for performing operations with the original and final file
+            name.
+      return:
+        type:
+          - ReadWriteStream
+  - uid: '@microsoft/sp-build-core-tasks.renameWithHash'
+    name: renameWithHash
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Function for renaming a stream of file(s) with a hash of the file
+      contents.
+    syntax:
+      content: >-
+        function renameWithHash(gulpStream: ReadWriteStream, getFilename: (hash:
+        string, originalFilename: string) => string, filenameCallback:
+        (filename: string, originalFilename: string) => void)
+      parameters:
+        - id: gulpStream
+          type:
+            - ReadWriteStream
+          description: Stream of files to be renamed.
+        - id: getFilename
+          type:
+            - '(hash: string, originalFilename: string) => string'
+          description: Callback for setting the resulting file(s) name.
+        - id: filenameCallback
+          type:
+            - '(filename: string, originalFilename: string) => void'
+          description: >
+            Callback for performing operations with the original and final file
+            name.
+      return:
+        type:
+          - ReadWriteStream
+  - uid: '@microsoft/sp-build-core-tasks.resolvePackage'
+    name: resolvePackage
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function resolvePackage(packageName: string, rootPath: string)'
+      parameters:
+        - id: packageName
+          type:
+            - string
+          description: ''
+        - id: rootPath
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.serial'
+    name: serial
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function serial(list: () => Promise<any>[])'
+      parameters:
+        - id: list
+          type:
+            - '() => Promise<any>[]'
+          description: ''
+      return:
+        type:
+          - Promise<any>
+  - uid: '@microsoft/sp-build-core-tasks.setBundleEntries'
+    name: setBundleEntries
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function setBundleEntries()
+      parameters: []
+  - uid: '@microsoft/sp-build-core-tasks.setLinkedExternals'
+    name: setLinkedExternals
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Set the linked externals in the task's shared properties object if it
+      isn't already set
+    syntax:
+      content: 'function setLinkedExternals(gulpTask: OdspGulpTask<any>)'
+      parameters:
+        - id: gulpTask
+          type:
+            - '@@microsoft/sp-build-core-tasks.OdspGulpTask<any>'
+          description: ''
+  - uid: '@microsoft/sp-build-core-tasks.STUB_FUNCTION'
+    name: STUB_FUNCTION
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function STUB_FUNCTION()
+      parameters: []
+  - uid: '@microsoft/sp-build-core-tasks.trimLeadingSlashes'
+    name: trimLeadingSlashes
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function trimLeadingSlashes(str: string)'
+      parameters:
+        - id: str
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.trimTrailingSlashes'
+    name: trimTrailingSlashes
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function trimTrailingSlashes(str: string)'
+      parameters:
+        - id: str
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.uploadFilesToAzure'
+    name: uploadFilesToAzure
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function uploadFilesToAzure(blobService: IAzureBlobService,
+        containerName: string, files: IUploadableFile[], log: (str: string) =>
+        void)
+      parameters:
+        - id: blobService
+          type:
+            - IAzureBlobService
+          description: ''
+        - id: containerName
+          type:
+            - string
+          description: ''
+        - id: files
+          type:
+            - '@@microsoft/sp-build-core-tasks.IUploadableFile[]'
+          description: ''
+        - id: log
+          type:
+            - '(str: string) => void'
+          description: ''
+      return:
+        type:
+          - Promise<IAzureBlobService>
+  - uid: '@microsoft/sp-build-core-tasks.uploadFileToAzure'
+    name: uploadFileToAzure
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function uploadFileToAzure(blobService: IAzureBlobService,
+        containerName: string, localFilename: string, serverFilename?: string,
+        log: (str: string) => void)
+      parameters:
+        - id: blobService
+          type:
+            - IAzureBlobService
+          description: ''
+        - id: containerName
+          type:
+            - string
+          description: ''
+        - id: localFilename
+          type:
+            - string
+          description: ''
+        - id: serverFilename
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: log
+          type:
+            - '(str: string) => void'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.RetryablePromise<IAzureBlobService>'
+  - uid: '@microsoft/sp-build-core-tasks.validateSolutionDefinition'
+    name: validateSolutionDefinition
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Checks that a solution definition is valid
+    syntax:
+      content: >-
+        function validateSolutionDefinition(options: IPackageSolutionTaskConfig,
+        customFeatures: ICustomFeatures, logWarning: (msg: string) => void)
+      parameters:
+        - id: options
+          type:
+            - '@@microsoft/sp-build-core-tasks.IPackageSolutionTaskConfig'
+          description: ''
+        - id: customFeatures
+          type:
+            - '@@microsoft/sp-build-core-tasks.ICustomFeatures'
+          description: ''
+        - id: logWarning
+          type:
+            - '(msg: string) => void'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-build-core-tasks.warn'
+    name: warn
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function warn(msg: string)'
+      parameters:
+        - id: msg
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-build-core-tasks.writeFeature'
+    name: writeFeature
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeFeature(feature: IFeatureXml, config:
+        IPackageSolutionTaskConfig, zip: ZipPackage)
+      parameters:
+        - id: feature
+          type:
+            - '@@microsoft/sp-build-core-tasks.IFeatureXml'
+          description: ''
+        - id: config
+          type:
+            - '@@microsoft/sp-build-core-tasks.IPackageSolutionTaskConfig'
+          description: ''
+        - id: zip
+          type:
+            - ZipPackage
+          description: ''
+      return:
+        type:
+          - Promise<any>
+  - uid: '@microsoft/sp-build-core-tasks.writeFile'
+    name: writeFile
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Wraps fsx.writeFile in a promise
+    syntax:
+      content: >-
+        function writeFile(filename: string, contents: string, encoding?:
+        string)
+      parameters:
+        - id: filename
+          type:
+            - string
+          description: ''
+        - id: contents
+          type:
+            - string
+          description: ''
+        - id: encoding
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+  - uid: '@microsoft/sp-build-core-tasks.writeFileToPath'
+    name: writeFileToPath
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: 'Physically writes a file to disk, and adds to an in-memory zip package'
+    syntax:
+      content: >-
+        function writeFileToPath(filename: string, contents: string, config:
+        IPackageSolutionTaskConfig, zip: ZipPackage)
+      parameters:
+        - id: filename
+          type:
+            - string
+          description: ''
+        - id: contents
+          type:
+            - string
+          description: ''
+        - id: config
+          type:
+            - '@@microsoft/sp-build-core-tasks.IPackageSolutionTaskConfig'
+          description: ''
+        - id: zip
+          type:
+            - ZipPackage
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@microsoft/sp-build-core-tasks.writeIcon'
+    name: writeIcon
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: |-
+      Write the app icon related files: The icon file itself, and the config.xml
+      If there is no icon it does nothing.
+      If the icon path is invalid, it throws an error.
+    syntax:
+      content: >-
+        function writeIcon(icon: IIcon, config: IPackageSolutionTaskConfig, zip:
+        ZipPackage)
+      parameters:
+        - id: icon
+          type:
+            - '@@microsoft/sp-build-core-tasks.IIcon'
+          description: ''
+        - id: config
+          type:
+            - '@@microsoft/sp-build-core-tasks.IPackageSolutionTaskConfig'
+          description: ''
+        - id: zip
+          type:
+            - ZipPackage
+          description: ''
+      return:
+        type:
+          - Promise<any>
+  - uid: '@microsoft/sp-build-core-tasks.writeODCFile'
+    name: writeODCFile
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeODCFile(file: IOpenDocumentConventionXml, config:
+        IPackageSolutionTaskConfig, zip: ZipPackage)
+      parameters:
+        - id: file
+          type:
+            - '@@microsoft/sp-build-core-tasks.IOpenDocumentConventionXml'
+          description: ''
+        - id: config
+          type:
+            - '@@microsoft/sp-build-core-tasks.IPackageSolutionTaskConfig'
+          description: ''
+        - id: zip
+          type:
+            - ZipPackage
+          description: ''
+      return:
+        type:
+          - Promise<any>
+  - uid: '@microsoft/sp-build-core-tasks.writePackage'
+    name: writePackage
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Writes the ISolutionXml object containing the solution package xml to the
+      disk using provided config
+    syntax:
+      content: >-
+        function writePackage(solution: IPackageXml, config:
+        IPackageSolutionTaskConfig)
+      parameters:
+        - id: solution
+          type:
+            - '@@microsoft/sp-build-core-tasks.IPackageXml'
+          description: ''
+        - id: config
+          type:
+            - '@@microsoft/sp-build-core-tasks.IPackageSolutionTaskConfig'
+          description: ''
+      return:
+        type:
+          - Promise<any>
+  - uid: '@microsoft/sp-build-core-tasks.writeStringToFile'
+    name: writeStringToFile
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function writeStringToFile(content: string, filename: string)'
+      parameters:
+        - id: content
+          type:
+            - string
+          description: ''
+        - id: filename
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - ReadableStream
+  - uid: '@microsoft/sp-build-core-tasks.writeStringToGulpUtilFile'
+    name: writeStringToGulpUtilFile
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function writeStringToGulpUtilFile(content: string, filename: string)'
+      parameters:
+        - id: content
+          type:
+            - string
+          description: ''
+        - id: filename
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - File
+  - uid: '@microsoft/sp-build-core-tasks.writeXmlFile'
+    name: writeXmlFile
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeXmlFile(file: IXml, config: IPackageSolutionTaskConfig,
+        zip: ZipPackage)
+      parameters:
+        - id: file
+          type:
+            - '@@microsoft/sp-build-core-tasks.IXml'
+          description: ''
+        - id: config
+          type:
+            - '@@microsoft/sp-build-core-tasks.IPackageSolutionTaskConfig'
+          description: ''
+        - id: zip
+          type:
+            - ZipPackage
+          description: ''
+      return:
+        type:
+          - Promise<void>

@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-node.SPNodeBuildRig'
+    name: SPNodeBuildRig
+    fullName: SPNodeBuildRig
+    children:
+      - '@microsoft/sp-build-node.SPNodeBuildRig.initialize'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@microsoft/sp-build-node.SPNodeBuildRig'
+    package: '@microsoft/sp-build-node'
+  - uid: '@microsoft/sp-build-node.SPNodeBuildRig.initialize'
+    name: initialize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function initialize(gulp: any)'
+      parameters:
+        - id: gulp
+          type:
+            - any
+          description: ''

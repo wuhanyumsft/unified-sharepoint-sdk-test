@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksFilePickerProps'
+    name: IQuickLinksFilePickerProps
+    fullName: IQuickLinksFilePickerProps
+    children:
+      - '@ms/sp-teamsite-webparts.IQuickLinksFilePickerProps.dispatcher'
+      - '@ms/sp-teamsite-webparts.IQuickLinksFilePickerProps.onSelectQuickLink'
+      - '@ms/sp-teamsite-webparts.IQuickLinksFilePickerProps.provider'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-teamsite-webparts.IFilePickerProps'
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksFilePickerProps.dispatcher'
+    name: dispatcher
+    fullName: dispatcher
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IQuickLinksDispatcher dispatcher
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IQuickLinksDispatcher'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksFilePickerProps.onSelectQuickLink'
+    name: onSelectQuickLink
+    fullName: onSelectQuickLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(quickLink: IQuickLink) => void onSelectQuickLink'
+      return:
+        type:
+          - '(quickLink: IQuickLink) => void'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksFilePickerProps.provider'
+    name: provider
+    fullName: provider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IQuickLinksProvider provider
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IQuickLinksProvider'

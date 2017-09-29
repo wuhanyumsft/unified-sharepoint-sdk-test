@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IWebPartEvent'
+    name: IWebPartEvent
+    fullName: IWebPartEvent<T>
+    children:
+      - '@microsoft/sp-webpart-base.IWebPartEvent.source'
+      - '@microsoft/sp-webpart-base.IWebPartEvent.target'
+    langs:
+      - typeScript
+    type: interface
+    summary: Structure representing webpart - webpart events
+    extends:
+      name: '@@microsoft/sp-webpart-base.IEvent<T>'
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IWebPartEvent.source'
+    name: source
+    fullName: source
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Source webpart name
+    syntax:
+      content: string source
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.IWebPartEvent.target'
+    name: target
+    fullName: target
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Target webpart name
+    syntax:
+      content: string target
+      return:
+        type:
+          - string

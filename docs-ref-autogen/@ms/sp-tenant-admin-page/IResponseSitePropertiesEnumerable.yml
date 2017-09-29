@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IResponseSitePropertiesEnumerable'
+    name: IResponseSitePropertiesEnumerable
+    fullName: IResponseSitePropertiesEnumerable
+    children:
+      - '@ms/sp-tenant-admin-page.IResponseSitePropertiesEnumerable.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IResponseSitePropertiesEnumerable.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ISiteProperties[] value'
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISiteProperties[]'

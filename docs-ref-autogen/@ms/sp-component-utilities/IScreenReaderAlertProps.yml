@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.IScreenReaderAlertProps'
+    name: IScreenReaderAlertProps
+    fullName: IScreenReaderAlertProps
+    children:
+      - '@ms/sp-component-utilities.IScreenReaderAlertProps.indicator'
+      - '@ms/sp-component-utilities.IScreenReaderAlertProps.message'
+      - '@ms/sp-component-utilities.IScreenReaderAlertProps.readingMode'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.IScreenReaderAlertProps.indicator'
+    name: indicator
+    fullName: indicator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      In cases where you need the screen-reader to re-read the same comment
+      again, you should pass in an incremented
+
+      indicator value. For example, if an error had been read out,and the error
+      occurs again due to some user input,
+
+      you can increment the indicator number to have the message be re-read.
+    syntax:
+      content: number indicator
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.IScreenReaderAlertProps.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The text for this component to read.
+    syntax:
+      content: string message
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IScreenReaderAlertProps.readingMode'
+    name: readingMode
+    fullName: readingMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Use readingMode to specify whether to read the alert, or read before/after
+      normal screen reader content.
+    syntax:
+      content: ReadingMode readingMode
+      return:
+        type:
+          - ReadingMode

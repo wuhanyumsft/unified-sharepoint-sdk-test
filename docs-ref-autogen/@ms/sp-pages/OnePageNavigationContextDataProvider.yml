@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.OnePageNavigationContextDataProvider'
+    name: OnePageNavigationContextDataProvider
+    fullName: OnePageNavigationContextDataProvider
+    children:
+      - >-
+        @ms/sp-pages.OnePageNavigationContextDataProvider.getOnePageNavigationContextScriptString
+      - '@ms/sp-pages.OnePageNavigationContextDataProvider.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: >-
+      @ms/sp-pages.OnePageNavigationContextDataProvider.getOnePageNavigationContextScriptString
+    name: getOnePageNavigationContextScriptString
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getOnePageNavigationContextScriptString()
+      parameters: []
+      return:
+        type:
+          - Promise<string>
+  - uid: '@ms/sp-pages.OnePageNavigationContextDataProvider.constructor'
+    name: OnePageNavigationContextDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new OnePageNavigationContextDataProvider(spPageContextInfo:
+        ISpPageContext, spHttpClient: SPHttpClient)
+      parameters:
+        - id: spPageContextInfo
+          type:
+            - ISpPageContext
+          description: ''
+        - id: spHttpClient
+          type:
+            - SPHttpClient
+          description: ''

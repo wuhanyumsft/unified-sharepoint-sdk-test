@@ -1,0 +1,77 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.GraphHttpClientContext'
+    name: GraphHttpClientContext
+    fullName: GraphHttpClientContext
+    children:
+      - '@microsoft/sp-http.GraphHttpClientContext.getWebServerRelativeUrl'
+      - '@microsoft/sp-http.GraphHttpClientContext.constructor'
+      - '@microsoft/sp-http.GraphHttpClientContext.initialize'
+      - '@microsoft/sp-http.GraphHttpClientContext.serviceKey'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      This class is useful for getting the webServerRelativeUrl to the
+      GraphHttpClient
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.GraphHttpClientContext.getWebServerRelativeUrl'
+    name: getWebServerRelativeUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Gets the webServerRelative url of the current page. This value is set by
+
+      the initialize function. If the value is not set, this function will
+      throw.
+    syntax:
+      content: function getWebServerRelativeUrl()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-http.GraphHttpClientContext.constructor'
+    name: GraphHttpClientContext
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new GraphHttpClientContext(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+  - uid: '@microsoft/sp-http.GraphHttpClientContext.initialize'
+    name: initialize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      The initialize function should be called before the application/components
+      have a chance to make a GraphHttpClient request.
+    syntax:
+      content: 'function initialize(webServerRelativeUrl: string)'
+      parameters:
+        - id: webServerRelativeUrl
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-http.GraphHttpClientContext.serviceKey'
+    name: serviceKey
+    fullName: serviceKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The service key for GraphHttpClientContext.
+    syntax:
+      content: static ServiceKey<GraphHttpClientContext> serviceKey
+      return:
+        type:
+          - ServiceKey<@@microsoft/sp-http.GraphHttpClientContext>

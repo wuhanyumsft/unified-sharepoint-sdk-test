@@ -1,0 +1,123 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.IFilePickerLinkViewState'
+    name: IFilePickerLinkViewState
+    fullName: IFilePickerLinkViewState
+    children:
+      - '@ms/sp-filepicker.IFilePickerLinkViewState.isLinkValid'
+      - '@ms/sp-filepicker.IFilePickerLinkViewState.isValidatingLink'
+      - '@ms/sp-filepicker.IFilePickerLinkViewState.isValidLinkExternal'
+      - '@ms/sp-filepicker.IFilePickerLinkViewState.link'
+      - '@ms/sp-filepicker.IFilePickerLinkViewState.listId'
+      - '@ms/sp-filepicker.IFilePickerLinkViewState.siteId'
+      - '@ms/sp-filepicker.IFilePickerLinkViewState.uniqueId'
+      - '@ms/sp-filepicker.IFilePickerLinkViewState.webId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.IFilePickerLinkViewState.isLinkValid'
+    name: isLinkValid
+    fullName: isLinkValid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isLinkValid
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-filepicker.IFilePickerLinkViewState.isValidatingLink'
+    name: isValidatingLink
+    fullName: isValidatingLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isValidatingLink
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-filepicker.IFilePickerLinkViewState.isValidLinkExternal'
+    name: isValidLinkExternal
+    fullName: isValidLinkExternal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isValidLinkExternal
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-filepicker.IFilePickerLinkViewState.link'
+    name: link
+    fullName: link
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string link
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.IFilePickerLinkViewState.listId'
+    name: listId
+    fullName: listId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string listId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.IFilePickerLinkViewState.siteId'
+    name: siteId
+    fullName: siteId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.IFilePickerLinkViewState.uniqueId'
+    name: uniqueId
+    fullName: uniqueId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string uniqueId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.IFilePickerLinkViewState.webId'
+    name: webId
+    fullName: webId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webId
+      return:
+        type:
+          - string

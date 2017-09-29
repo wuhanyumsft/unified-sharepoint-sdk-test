@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/article-site-demo.PageView'
+    name: PageView
+    fullName: PageView
+    children:
+      - '@ms/article-site-demo.PageView.loadPage'
+      - '@ms/article-site-demo.PageView.render'
+      - '@ms/article-site-demo.PageView.state'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/article-site-demo.PageView<__type>'
+    package: '@ms/article-site-demo'
+  - uid: '@ms/article-site-demo.PageView.loadPage'
+    name: loadPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function loadPage(pageManager: PageManager)'
+      parameters:
+        - id: pageManager
+          type:
+            - '@@ms/article-site-demo.PageManager'
+          description: ''
+  - uid: '@ms/article-site-demo.PageView.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/article-site-demo.PageView.state'
+    name: state
+    fullName: state
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageViewState state
+      return:
+        type:
+          - '@@ms/article-site-demo.PageViewState'

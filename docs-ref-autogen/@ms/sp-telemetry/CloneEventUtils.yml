@@ -1,0 +1,218 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.CloneEventUtils'
+    name: CloneEventUtils
+    fullName: CloneEventUtils
+    children:
+      - '@ms/sp-telemetry.CloneEventUtils.constructor'
+      - '@ms/sp-telemetry.CloneEventUtils.critical'
+      - '@ms/sp-telemetry.CloneEventUtils.data'
+      - '@ms/sp-telemetry.CloneEventUtils.enabled'
+      - '@ms/sp-telemetry.CloneEventUtils.endTime'
+      - '@ms/sp-telemetry.CloneEventUtils.eventName'
+      - '@ms/sp-telemetry.CloneEventUtils.eventType'
+      - '@ms/sp-telemetry.CloneEventUtils.id'
+      - '@ms/sp-telemetry.CloneEventUtils.metadata'
+      - '@ms/sp-telemetry.CloneEventUtils.parentId'
+      - '@ms/sp-telemetry.CloneEventUtils.shortEventName'
+      - '@ms/sp-telemetry.CloneEventUtils.startTime'
+      - '@ms/sp-telemetry.CloneEventUtils.validationErrors'
+      - '@ms/sp-telemetry.CloneEventUtils.vector'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.CloneEventUtils.constructor'
+    name: CloneEventUtils
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CloneEventUtils(id: number, data: CloneEventData, eventType:
+        ClonedEventTypeEnum)
+      parameters:
+        - id: id
+          type:
+            - number
+          description: ''
+        - id: data
+          type:
+            - '@@ms/sp-telemetry.CloneEventData'
+          description: ''
+        - id: eventType
+          type:
+            - ClonedEventTypeEnum
+          description: ''
+  - uid: '@ms/sp-telemetry.CloneEventUtils.critical'
+    name: critical
+    fullName: critical
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean critical
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-telemetry.CloneEventUtils.data'
+    name: data
+    fullName: data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CloneEventData data
+      return:
+        type:
+          - '@@ms/sp-telemetry.CloneEventData'
+  - uid: '@ms/sp-telemetry.CloneEventUtils.enabled'
+    name: enabled
+    fullName: enabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean enabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-telemetry.CloneEventUtils.endTime'
+    name: endTime
+    fullName: endTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number endTime
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-telemetry.CloneEventUtils.eventName'
+    name: eventName
+    fullName: eventName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string eventName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.CloneEventUtils.eventType'
+    name: eventType
+    fullName: eventType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ClonedEventTypeEnum eventType
+      return:
+        type:
+          - ClonedEventTypeEnum
+  - uid: '@ms/sp-telemetry.CloneEventUtils.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number id
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-telemetry.CloneEventUtils.metadata'
+    name: metadata
+    fullName: metadata
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: string]: IEventMetadata metadata'
+      return:
+        type:
+          - '[key: string]: IEventMetadata'
+  - uid: '@ms/sp-telemetry.CloneEventUtils.parentId'
+    name: parentId
+    fullName: parentId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number parentId
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-telemetry.CloneEventUtils.shortEventName'
+    name: shortEventName
+    fullName: shortEventName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string shortEventName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.CloneEventUtils.startTime'
+    name: startTime
+    fullName: startTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number startTime
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-telemetry.CloneEventUtils.validationErrors'
+    name: validationErrors
+    fullName: validationErrors
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number validationErrors
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-telemetry.CloneEventUtils.vector'
+    name: vector
+    fullName: vector
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CorrelationVector vector
+      return:
+        type:
+          - CorrelationVector

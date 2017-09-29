@@ -1,0 +1,75 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/listview-spfx-host.ICellAdapter'
+    name: ICellAdapter
+    fullName: ICellAdapter
+    children:
+      - '@ms/listview-spfx-host.ICellAdapter.cellDiv'
+      - '@ms/listview-spfx-host.ICellAdapter.dispose'
+      - '@ms/listview-spfx-host.ICellAdapter.domElement'
+      - '@ms/listview-spfx-host.ICellAdapter.error'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      This object is provided by the SPFx host, as returned by
+      IColumnAdapter.renderCell().
+
+      It tracks the lifecycle of a cell that was rendered, to ensure resources
+      are freed properly
+
+      when the cell Div is removed from the DOM.
+    package: '@ms/listview-spfx-host'
+  - uid: '@ms/listview-spfx-host.ICellAdapter.cellDiv'
+    name: cellDiv
+    fullName: cellDiv
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLDivElement cellDiv
+      return:
+        type:
+          - HTMLDivElement
+    deprecated:
+      content: The property 'domElement' should now be used.
+  - uid: '@ms/listview-spfx-host.ICellAdapter.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Dispose any resources that were associated with the domElement that was
+      rendered.
+    syntax:
+      content: function dispose()
+      parameters: []
+  - uid: '@ms/listview-spfx-host.ICellAdapter.domElement'
+    name: domElement
+    fullName: domElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLDivElement domElement
+      return:
+        type:
+          - HTMLDivElement
+  - uid: '@ms/listview-spfx-host.ICellAdapter.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Error error
+      return:
+        type:
+          - Error

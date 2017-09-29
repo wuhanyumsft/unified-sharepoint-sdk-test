@@ -1,0 +1,65 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.Publisher'
+    name: Publisher
+    fullName: Publisher
+    children:
+      - '@ms/sp-publishing-webparts.Publisher.componentDidMount'
+      - '@ms/sp-publishing-webparts.Publisher.componentDidUpdate'
+      - '@ms/sp-publishing-webparts.Publisher.constructor'
+      - '@ms/sp-publishing-webparts.Publisher.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.Publisher<@@ms/sp-publishing-webparts.IPublisherProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.Publisher.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.Publisher.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.Publisher.constructor'
+    name: Publisher
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Publisher(props: IPublisherProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IPublisherProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.Publisher.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

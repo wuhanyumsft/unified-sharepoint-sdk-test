@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IFriendlyErrorMessageProps'
+    name: IFriendlyErrorMessageProps
+    fullName: IFriendlyErrorMessageProps
+    children:
+      - '@microsoft/sp-webpart-base.IFriendlyErrorMessageProps.errorMessage'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface of FriendlyErrorMessage.
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IFriendlyErrorMessageProps.errorMessage'
+    name: errorMessage
+    fullName: errorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Error message to be rendered by webpart.
+    syntax:
+      content: string errorMessage
+      return:
+        type:
+          - string

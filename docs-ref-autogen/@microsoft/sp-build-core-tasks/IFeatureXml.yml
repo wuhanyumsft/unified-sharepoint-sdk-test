@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IFeatureXml'
+    name: IFeatureXml
+    fullName: IFeatureXml
+    children:
+      - '@microsoft/sp-build-core-tasks.IFeatureXml.assets'
+      - '@microsoft/sp-build-core-tasks.IFeatureXml.components'
+      - '@microsoft/sp-build-core-tasks.IFeatureXml.config'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@microsoft/sp-build-core-tasks.IOpenDocumentConventionXml'
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.IFeatureXml.assets'
+    name: assets
+    fullName: assets
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISharepointAssets<IXml> assets
+      return:
+        type:
+          - >-
+            @@microsoft/sp-build-core-tasks.ISharepointAssets<@@microsoft/sp-build-core-tasks.IXml>
+  - uid: '@microsoft/sp-build-core-tasks.IFeatureXml.components'
+    name: components
+    fullName: components
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IXml[] components'
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IXml[]'
+  - uid: '@microsoft/sp-build-core-tasks.IFeatureXml.config'
+    name: config
+    fullName: config
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IXml config
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IXml'

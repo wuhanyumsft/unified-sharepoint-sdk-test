@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/evergreen.IRepoConfiguration'
+    name: IRepoConfiguration
+    fullName: IRepoConfiguration
+    children:
+      - '@ms/evergreen.IRepoConfiguration.owners'
+      - '@ms/evergreen.IRepoConfiguration.packages'
+    langs:
+      - typeScript
+    type: interface
+    summary: Information about a repository for which we have an Evergreen dependency
+    package: '@ms/evergreen'
+  - uid: '@ms/evergreen.IRepoConfiguration.owners'
+    name: owners
+    fullName: owners
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] owners'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/evergreen.IRepoConfiguration.packages'
+    name: packages
+    fullName: packages
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function packages
+      return:
+        type:
+          - function

@@ -1,0 +1,162 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/listview-spfx-host.CommandAdapter'
+    name: CommandAdapter
+    fullName: CommandAdapter
+    children:
+      - '@ms/listview-spfx-host.CommandAdapter.ariaLabel'
+      - '@ms/listview-spfx-host.CommandAdapter.constructor'
+      - '@ms/listview-spfx-host.CommandAdapter.commandId'
+      - '@ms/listview-spfx-host.CommandAdapter.description'
+      - '@ms/listview-spfx-host.CommandAdapter.execute'
+      - '@ms/listview-spfx-host.CommandAdapter.iconUrl'
+      - '@ms/listview-spfx-host.CommandAdapter.listViewAdapter'
+      - '@ms/listview-spfx-host.CommandAdapter.refresh'
+      - '@ms/listview-spfx-host.CommandAdapter.title'
+      - '@ms/listview-spfx-host.CommandAdapter.visible'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/listview-spfx-host'
+  - uid: '@ms/listview-spfx-host.CommandAdapter.ariaLabel'
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ariaLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/listview-spfx-host.CommandAdapter.constructor'
+    name: CommandAdapter
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CommandAdapter(commandId: string, commandSet:
+        BaseListViewCommandSet<IGenericExtensionProperties>, listViewAdapter:
+        ListViewAdapter)
+      parameters:
+        - id: commandId
+          type:
+            - string
+          description: ''
+        - id: commandSet
+          type:
+            - >-
+              BaseListViewCommandSet<@@ms/listview-spfx-host.IGenericExtensionProperties>
+          description: ''
+        - id: listViewAdapter
+          type:
+            - '@@ms/listview-spfx-host.ListViewAdapter'
+          description: ''
+  - uid: '@ms/listview-spfx-host.CommandAdapter.commandId'
+    name: commandId
+    fullName: commandId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string commandId
+      return:
+        type:
+          - string
+  - uid: '@ms/listview-spfx-host.CommandAdapter.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string description
+      return:
+        type:
+          - string
+  - uid: '@ms/listview-spfx-host.CommandAdapter.execute'
+    name: execute
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function execute()
+      parameters: []
+  - uid: '@ms/listview-spfx-host.CommandAdapter.iconUrl'
+    name: iconUrl
+    fullName: iconUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string iconUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/listview-spfx-host.CommandAdapter.listViewAdapter'
+    name: listViewAdapter
+    fullName: listViewAdapter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ListViewAdapter listViewAdapter
+      return:
+        type:
+          - '@@ms/listview-spfx-host.ListViewAdapter'
+  - uid: '@ms/listview-spfx-host.CommandAdapter.refresh'
+    name: refresh
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function refresh(selectedRows: ReadonlyArray<RowAdapter>)'
+      parameters:
+        - id: selectedRows
+          type:
+            - ReadonlyArray<@@ms/listview-spfx-host.RowAdapter>
+          description: ''
+  - uid: '@ms/listview-spfx-host.CommandAdapter.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+  - uid: '@ms/listview-spfx-host.CommandAdapter.visible'
+    name: visible
+    fullName: visible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean visible
+      return:
+        type:
+          - boolean

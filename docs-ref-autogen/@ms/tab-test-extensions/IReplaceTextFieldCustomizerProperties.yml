@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/tab-test-extensions.IReplaceTextFieldCustomizerProperties'
+    name: IReplaceTextFieldCustomizerProperties
+    fullName: IReplaceTextFieldCustomizerProperties
+    children:
+      - >-
+        @ms/tab-test-extensions.IReplaceTextFieldCustomizerProperties.replacementText
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      If your field customizer uses the ClientSideComponentProperties JSON
+      input,
+
+      it will be deserialized into the BaseExtension.properties object.
+
+      You can define an interface to describe it.
+    package: '@ms/tab-test-extensions'
+  - uid: >-
+      @ms/tab-test-extensions.IReplaceTextFieldCustomizerProperties.replacementText
+    name: replacementText
+    fullName: replacementText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string replacementText
+      return:
+        type:
+          - string

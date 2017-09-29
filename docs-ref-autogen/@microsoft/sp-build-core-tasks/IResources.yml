@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IResources'
+    name: IResources
+    fullName: IResources
+    children:
+      - '@microsoft/sp-build-core-tasks.IResources.defaultResourcePath'
+      - '@microsoft/sp-build-core-tasks.IResources.localizedResourcePaths'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.IResources.defaultResourcePath'
+    name: defaultResourcePath
+    fullName: defaultResourcePath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string defaultResourcePath
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IResources.localizedResourcePaths'
+    name: localizedResourcePaths
+    fullName: localizedResourcePaths
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] localizedResourcePaths'
+      return:
+        type:
+          - 'string[]'

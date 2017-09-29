@@ -1,0 +1,353 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil'
+    name: PageUtil
+    fullName: PageUtil
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.AddTaskClearSecurityDialog'
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.AddTaskCreateClassicPage'
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.AddTaskCreateSitePage'
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.AddTaskCreateWorkbench'
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.AddTaskDeleteClassicPage'
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.AddTaskLoadClassicPage'
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.AddTaskLoadCommunicationPage'
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.AddTaskResetPage'
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.AddTaskValidateAutomationIdExists'
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.createdPage'
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.CreatePageUrl'
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.generatedPageName'
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.GetDebugManifestsUrl'
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.GetPageUrl'
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.isPageCreateTaskFinished'
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.LoadDebugManifests'
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.LoadTestPage'
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.pageCreateAttempts'
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.pageNumber'
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.removeExtension'
+      - '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.SPPageReady'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.AddTaskClearSecurityDialog'
+    name: AddTaskClearSecurityDialog
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Allows both debug loader and debug manifest to load in the page,
+      and waits for the page to load.
+    syntax:
+      content: 'static function AddTaskClearSecurityDialog(waiter: Waiter)'
+      parameters:
+        - id: waiter
+          type:
+            - Waiter
+          description: |
+            TAB waiter for the page to be loaded
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.AddTaskCreateClassicPage'
+    name: AddTaskCreateClassicPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function AddTaskCreateClassicPage()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.AddTaskCreateSitePage'
+    name: AddTaskCreateSitePage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function AddTaskCreateSitePage(shouldCreateNewsPage?: boolean)'
+      parameters:
+        - id: shouldCreateNewsPage
+          type:
+            - boolean
+          description: ''
+          optional: true
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.AddTaskCreateWorkbench'
+    name: AddTaskCreateWorkbench
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function AddTaskCreateWorkbench()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.AddTaskDeleteClassicPage'
+    name: AddTaskDeleteClassicPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      A function to delete the classic page that was created with the name
+      'PageUtil.generatedPageName'.
+
+      The caller of this function should ensure a page was created by checking
+      the 'PageUtil.createdPage'
+
+      flag variable before calling this function.
+    syntax:
+      content: static function AddTaskDeleteClassicPage()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.AddTaskLoadClassicPage'
+    name: AddTaskLoadClassicPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function AddTaskLoadClassicPage()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.AddTaskLoadCommunicationPage'
+    name: AddTaskLoadCommunicationPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function AddTaskLoadCommunicationPage(siteName: string)'
+      parameters:
+        - id: siteName
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.AddTaskResetPage'
+    name: AddTaskResetPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function AddTaskResetPage()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.AddTaskValidateAutomationIdExists'
+    name: AddTaskValidateAutomationIdExists
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Utility function that waits for the existence of an element with
+      data-automation-id
+
+      that matches the given parameter.
+    syntax:
+      content: >-
+        static function AddTaskValidateAutomationIdExists(dataAutomationID:
+        string)
+      parameters:
+        - id: dataAutomationID
+          type:
+            - string
+          description: >
+            the text that is provided on the element after
+            'data-automation-id='. For example,
+
+            if we have 'data-automation-id = WebPartContent' then we would pass
+            'WebPartContent' as the parameter.
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.createdPage'
+    name: createdPage
+    fullName: createdPage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      A flag for REST calls to create a page.
+      Often the 'create' and 'delete' occur in the test setup
+      and test teardown which run independently of one
+      anothers success. if the page is not successfully created in
+      the 'create' function then we don't want to bother trying to
+      delete the page in the 'delete' function.
+    syntax:
+      content: static boolean createdPage
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.CreatePageUrl'
+    name: CreatePageUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: A utility function for loading a page to test Sharepoint Extensions.
+    syntax:
+      content: >-
+        static function CreatePageUrl(path: string, spQueryParams:
+        IQueryParameters)
+      parameters:
+        - id: path
+          type:
+            - string
+          description: >-
+            the arguments that follow the ProductServerSet. i.e. if the url is:
+
+            'https://testtab.spoppe.com/_layouts/15/viewlsts.aspx?view=14&size=24'
+            then the path is
+
+            '/_layouts/15/viewlsts.aspx'.
+        - id: spQueryParams
+          type:
+            - '@@ms/sp-tab-tasklib.SPTaskLib.IQueryParameters'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.generatedPageName'
+    name: generatedPageName
+    fullName: generatedPageName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string generatedPageName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.GetDebugManifestsUrl'
+    name: GetDebugManifestsUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function GetDebugManifestsUrl()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.GetPageUrl'
+    name: GetPageUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function GetPageUrl()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.isPageCreateTaskFinished'
+    name: isPageCreateTaskFinished
+    fullName: isPageCreateTaskFinished
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A flag to keep track of the AddTaskCreateClassicPage status. Since
+
+      we call AddTaskCreateClassicPage recursively if we try to create a page
+
+      that already exists, we need a flag variable that is outside of the scope
+
+      of an individual task. We need this behavior as we need to reset the
+      status
+
+      of the flag inside the task definition.
+    syntax:
+      content: static boolean isPageCreateTaskFinished
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.LoadDebugManifests'
+    name: LoadDebugManifests
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function LoadDebugManifests(pageUrl: string)'
+      parameters:
+        - id: pageUrl
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.LoadTestPage'
+    name: LoadTestPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function LoadTestPage()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.pageCreateAttempts'
+    name: pageCreateAttempts
+    fullName: pageCreateAttempts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Page creation attempts.
+    syntax:
+      content: static number pageCreateAttempts
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.pageNumber'
+    name: pageNumber
+    fullName: pageNumber
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      A random number between 1 and 100.
+      We want to use an unused page name when creating certain
+      types of pages. This number is appened to the page name.
+    syntax:
+      content: static number pageNumber
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.removeExtension'
+    name: removeExtension
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function removeExtension(inputString: string)'
+      parameters:
+        - id: inputString
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.PageUtil.SPPageReady'
+    name: SPPageReady
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function SPPageReady()
+      parameters: []
+      return:
+        type:
+          - Waiter

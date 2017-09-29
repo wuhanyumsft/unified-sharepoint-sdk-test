@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-test-webparts.PropertyPaneTestWebPart'
+    name: PropertyPaneTestWebPart
+    fullName: PropertyPaneTestWebPart
+    children:
+      - '@ms/sp-test-webparts.PropertyPaneTestWebPart.render'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      A client side webpart which introduces spaces with the given height and
+      color.
+    extends:
+      name: >-
+        @@ms/sp-test-webparts.PropertyPaneTestWebPart<@@ms/sp-test-webparts.IPropertyPaneTestWebPartProps>
+    package: '@ms/sp-test-webparts'
+  - uid: '@ms/sp-test-webparts.PropertyPaneTestWebPart.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Main entry point, called by the ClientSideWebPart Manager. Loads the
+      webpart's DOM manipulation.
+    syntax:
+      content: 'function render(mode: DisplayMode, data?: IWebPartData)'
+      parameters:
+        - id: mode
+          type:
+            - DisplayMode
+          description: 'Webpart rendered mode(Read, Edit etc.,). Defaults to Read mode.'
+        - id: data
+          type:
+            - IWebPartData
+          description: ''
+          optional: true

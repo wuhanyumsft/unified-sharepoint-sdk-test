@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISPListId'
+    name: ISPListId
+    fullName: ISPListId
+    children:
+      - '@ms/sp-tenant-admin-page.ISPListId.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      We are calling `_api/web/List('***')/id` API to query site list id.
+      This interface is use to hold the response data.
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ISPListId.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string value
+      return:
+        type:
+          - string

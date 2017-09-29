@@ -1,0 +1,167 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.INewsItem'
+    name: INewsItem
+    fullName: INewsItem
+    children:
+      - '@ms/sp-teamsite-webparts.INewsItem.author'
+      - '@ms/sp-teamsite-webparts.INewsItem.authorAccountName'
+      - '@ms/sp-teamsite-webparts.INewsItem.description'
+      - '@ms/sp-teamsite-webparts.INewsItem.image'
+      - '@ms/sp-teamsite-webparts.INewsItem.isHelpArticle'
+      - '@ms/sp-teamsite-webparts.INewsItem.listItemId'
+      - '@ms/sp-teamsite-webparts.INewsItem.publishedOn'
+      - '@ms/sp-teamsite-webparts.INewsItem.publishedOnRelativeTime'
+      - '@ms/sp-teamsite-webparts.INewsItem.title'
+      - '@ms/sp-teamsite-webparts.INewsItem.url'
+      - '@ms/sp-teamsite-webparts.INewsItem.viewCounts'
+    langs:
+      - typeScript
+    type: interface
+    summary: Contains metadata about a news item.
+    extends:
+      name: any
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.INewsItem.author'
+    name: author
+    fullName: author
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Author
+    syntax:
+      content: string author
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.INewsItem.authorAccountName'
+    name: authorAccountName
+    fullName: authorAccountName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Author account name
+    syntax:
+      content: string authorAccountName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.INewsItem.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Description text
+    syntax:
+      content: string description
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.INewsItem.image'
+    name: image
+    fullName: image
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Image
+    syntax:
+      content: string image
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.INewsItem.isHelpArticle'
+    name: isHelpArticle
+    fullName: isHelpArticle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: whether it's help article or not
+    syntax:
+      content: boolean isHelpArticle
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.INewsItem.listItemId'
+    name: listItemId
+    fullName: listItemId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: List Item Id
+    syntax:
+      content: string listItemId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.INewsItem.publishedOn'
+    name: publishedOn
+    fullName: publishedOn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Date the news item was published on
+    syntax:
+      content: Date publishedOn
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-teamsite-webparts.INewsItem.publishedOnRelativeTime'
+    name: publishedOnRelativeTime
+    fullName: publishedOnRelativeTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Relative time when the news items was published on
+    syntax:
+      content: string publishedOnRelativeTime
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.INewsItem.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Title
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.INewsItem.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Url
+    syntax:
+      content: string url
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.INewsItem.viewCounts'
+    name: viewCounts
+    fullName: viewCounts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: View Counts
+    syntax:
+      content: number viewCounts
+      return:
+        type:
+          - number

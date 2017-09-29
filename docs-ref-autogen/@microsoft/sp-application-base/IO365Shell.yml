@@ -1,0 +1,152 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.IO365Shell'
+    name: IO365Shell
+    fullName: IO365Shell
+    children:
+      - '@microsoft/sp-application-base.IO365Shell.FlexPane'
+      - '@microsoft/sp-application-base.IO365Shell.LoadShellPlus'
+      - '@microsoft/sp-application-base.IO365Shell.Navigation'
+      - '@microsoft/sp-application-base.IO365Shell.OnHasMember'
+      - '@microsoft/sp-application-base.IO365Shell.Render'
+      - '@microsoft/sp-application-base.IO365Shell.RenderAsync'
+      - '@microsoft/sp-application-base.IO365Shell.SetData'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      This is an interface for the O365Shell external 'module.'
+
+      Only the functions we use from the interface are included.
+
+      In Chicago see:
+      sources\Dev\SuiteControls\src\shell\g2\coreshim\O365Shell.cs
+
+      ('Suite nav' and 'shell' are more or less synonymous in this context.)
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.IO365Shell.FlexPane'
+    name: FlexPane
+    fullName: FlexPane
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: O365 Flex Pane.
+    syntax:
+      content: IFlexPane FlexPane
+      return:
+        type:
+          - '@@microsoft/sp-application-base.IFlexPane'
+  - uid: '@microsoft/sp-application-base.IO365Shell.LoadShellPlus'
+    name: LoadShellPlus
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Load shell plus (extra features like notifications) if it was disabled on
+      initial load.
+    syntax:
+      content: function LoadShellPlus()
+      parameters: []
+  - uid: '@microsoft/sp-application-base.IO365Shell.Navigation'
+    name: Navigation
+    fullName: Navigation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: O365 Navigation.
+    syntax:
+      content: IO365Navigation Navigation
+      return:
+        type:
+          - '@@microsoft/sp-application-base.IO365Navigation'
+  - uid: '@microsoft/sp-application-base.IO365Shell.OnHasMember'
+    name: OnHasMember
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      This is not provided by O365Shell. It invokes a given callback when a
+      member/function
+
+      name is defined. This is useful when a component is trying to access a
+      O365Shell
+
+      member but is not in charge of loading it.
+    syntax:
+      content: 'function OnHasMember(memberName: string, callback: () => void)'
+      parameters:
+        - id: memberName
+          type:
+            - string
+          description: ''
+        - id: callback
+          type:
+            - () => void
+          description: ''
+  - uid: '@microsoft/sp-application-base.IO365Shell.Render'
+    name: Render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Renders the shell using the specified render settings.
+      The callback will be called after ShellPlus is loaded.
+    syntax:
+      content: >-
+        function Render(renderSettings: IO365ShellRenderSettings, callback: ()
+        => void)
+      parameters:
+        - id: renderSettings
+          type:
+            - '@@microsoft/sp-application-base.IO365ShellRenderSettings'
+          description: ''
+        - id: callback
+          type:
+            - () => void
+          description: ''
+  - uid: '@microsoft/sp-application-base.IO365Shell.RenderAsync'
+    name: RenderAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Renders the shell using the specified render settings.
+      renderCallback will be executed after the core shell is rendered.
+      callback will be executed after shell plus is loaded.
+    syntax:
+      content: >-
+        function RenderAsync(renderSettings: IO365ShellRenderSettings,
+        renderCallback: () => void, callback: () => void)
+      parameters:
+        - id: renderSettings
+          type:
+            - '@@microsoft/sp-application-base.IO365ShellRenderSettings'
+          description: ''
+        - id: renderCallback
+          type:
+            - () => void
+          description: ''
+        - id: callback
+          type:
+            - () => void
+          description: ''
+  - uid: '@microsoft/sp-application-base.IO365Shell.SetData'
+    name: SetData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Passes the shell data blob to the shell client API.
+    syntax:
+      content: 'function SetData(shellData: ISuiteNavData)'
+      parameters:
+        - id: shellData
+          type:
+            - '@@microsoft/sp-application-base.ISuiteNavData'
+          description: ''

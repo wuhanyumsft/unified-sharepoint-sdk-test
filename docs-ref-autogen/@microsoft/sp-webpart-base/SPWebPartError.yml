@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.SPWebPartError'
+    name: SPWebPartError
+    fullName: SPWebPartError
+    children:
+      - '@microsoft/sp-webpart-base.SPWebPartError.create'
+      - '@microsoft/sp-webpart-base.SPWebPartError.createWithLogProperties'
+    langs:
+      - typeScript
+    type: class
+    summary: Web part errors.
+    extends:
+      name: '@@microsoft/sp-webpart-base.SPWebPartError'
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.SPWebPartError.create'
+    name: create
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function create(errorCode: SPWebPartErrorCode, params: any[])'
+      parameters:
+        - id: errorCode
+          type:
+            - SPWebPartErrorCode
+          description: ''
+        - id: params
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.SPWebPartError'
+  - uid: '@microsoft/sp-webpart-base.SPWebPartError.createWithLogProperties'
+    name: createWithLogProperties
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function createWithLogProperties(errorCode: SPWebPartErrorCode,
+        logProperties: [key: string]: any, params: any[])
+      parameters:
+        - id: errorCode
+          type:
+            - SPWebPartErrorCode
+          description: ''
+        - id: logProperties
+          type:
+            - '[key: string]: any'
+          description: ''
+        - id: params
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.SPWebPartError'

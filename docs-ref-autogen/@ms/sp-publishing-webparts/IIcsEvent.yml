@@ -1,0 +1,319 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent'
+    name: IIcsEvent
+    fullName: IIcsEvent
+    children:
+      - '@ms/sp-publishing-webparts.IIcsEvent.attachments'
+      - '@ms/sp-publishing-webparts.IIcsEvent.attendees'
+      - '@ms/sp-publishing-webparts.IIcsEvent.bodyContent'
+      - '@ms/sp-publishing-webparts.IIcsEvent.bodyPreview'
+      - '@ms/sp-publishing-webparts.IIcsEvent.categories'
+      - '@ms/sp-publishing-webparts.IIcsEvent.classType'
+      - '@ms/sp-publishing-webparts.IIcsEvent.createdtime'
+      - '@ms/sp-publishing-webparts.IIcsEvent.endDate'
+      - '@ms/sp-publishing-webparts.IIcsEvent.id'
+      - '@ms/sp-publishing-webparts.IIcsEvent.isAllDay'
+      - '@ms/sp-publishing-webparts.IIcsEvent.lastModified'
+      - '@ms/sp-publishing-webparts.IIcsEvent.location'
+      - '@ms/sp-publishing-webparts.IIcsEvent.method'
+      - '@ms/sp-publishing-webparts.IIcsEvent.name'
+      - '@ms/sp-publishing-webparts.IIcsEvent.organizer'
+      - '@ms/sp-publishing-webparts.IIcsEvent.plainText'
+      - '@ms/sp-publishing-webparts.IIcsEvent.priority'
+      - '@ms/sp-publishing-webparts.IIcsEvent.recurrence'
+      - '@ms/sp-publishing-webparts.IIcsEvent.startDate'
+      - '@ms/sp-publishing-webparts.IIcsEvent.status'
+      - '@ms/sp-publishing-webparts.IIcsEvent.timeZone'
+      - '@ms/sp-publishing-webparts.IIcsEvent.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.attachments'
+    name: attachments
+    fullName: attachments
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IIcsAttachment[] attachments'
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IIcsAttachment[]'
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.attendees'
+    name: attendees
+    fullName: attendees
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IContact[] attendees'
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IContact[]'
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.bodyContent'
+    name: bodyContent
+    fullName: bodyContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string bodyContent
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.bodyPreview'
+    name: bodyPreview
+    fullName: bodyPreview
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string bodyPreview
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.categories'
+    name: categories
+    fullName: categories
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] categories'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.classType'
+    name: classType
+    fullName: classType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string classType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.createdtime'
+    name: createdtime
+    fullName: createdtime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string createdtime
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.endDate'
+    name: endDate
+    fullName: endDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Date endDate
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.isAllDay'
+    name: isAllDay
+    fullName: isAllDay
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isAllDay
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.lastModified'
+    name: lastModified
+    fullName: lastModified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string lastModified
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.location'
+    name: location
+    fullName: location
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string location
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.method'
+    name: method
+    fullName: method
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string method
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.organizer'
+    name: organizer
+    fullName: organizer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IContact organizer
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IContact'
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.plainText'
+    name: plainText
+    fullName: plainText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string plainText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.priority'
+    name: priority
+    fullName: priority
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string priority
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.recurrence'
+    name: recurrence
+    fullName: recurrence
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IIcsRecurrence recurrence
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IIcsRecurrence'
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.startDate'
+    name: startDate
+    fullName: startDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Date startDate
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.status'
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string status
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.timeZone'
+    name: timeZone
+    fullName: timeZone
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string timeZone
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string type
+      return:
+        type:
+          - string

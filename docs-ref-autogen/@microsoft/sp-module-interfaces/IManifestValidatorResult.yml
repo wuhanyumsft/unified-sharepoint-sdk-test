@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-module-interfaces.IManifestValidatorResult'
+    name: IManifestValidatorResult
+    fullName: IManifestValidatorResult
+    children:
+      - '@microsoft/sp-module-interfaces.IManifestValidatorResult.errors'
+      - '@microsoft/sp-module-interfaces.IManifestValidatorResult.result'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-module-interfaces'
+  - uid: '@microsoft/sp-module-interfaces.IManifestValidatorResult.errors'
+    name: errors
+    fullName: errors
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'SchemaErrorDetail[] errors'
+      return:
+        type:
+          - 'SchemaErrorDetail[]'
+  - uid: '@microsoft/sp-module-interfaces.IManifestValidatorResult.result'
+    name: result
+    fullName: result
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean result
+      return:
+        type:
+          - boolean

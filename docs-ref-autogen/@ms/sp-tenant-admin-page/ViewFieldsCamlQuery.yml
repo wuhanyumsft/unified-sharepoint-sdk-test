@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ViewFieldsCamlQuery'
+    name: ViewFieldsCamlQuery
+    fullName: ViewFieldsCamlQuery
+    children:
+      - '@ms/sp-tenant-admin-page.ViewFieldsCamlQuery.generateCamlQueryString'
+      - '@ms/sp-tenant-admin-page.ViewFieldsCamlQuery.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      ViewFieldsCamlQuery is the class used to generate <ViewFields> in CAML
+      query.
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ViewFieldsCamlQuery.generateCamlQueryString'
+    name: generateCamlQueryString
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function generateCamlQueryString()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ViewFieldsCamlQuery.constructor'
+    name: ViewFieldsCamlQuery
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ViewFieldsCamlQuery(viewFields: string[])'
+      parameters:
+        - id: viewFields
+          type:
+            - 'string[]'
+          description: ''

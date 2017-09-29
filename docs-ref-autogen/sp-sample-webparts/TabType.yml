@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: sp-sample-webparts.TabType
+    name: TabType
+    fullName: TabType
+    children:
+      - sp-sample-webparts.TabType.Active
+      - sp-sample-webparts.TabType.All
+      - sp-sample-webparts.TabType.Completed
+    langs:
+      - typeScript
+    type: enum
+    summary: The tab type used as the key of the PivotItem.
+    package: sp-sample-webparts
+  - uid: sp-sample-webparts.TabType.Active
+    name: Active
+    children: []
+    langs:
+      - typeScript
+    summary: The tab showing the active tasks.
+    type: field
+  - uid: sp-sample-webparts.TabType.All
+    name: All
+    children: []
+    langs:
+      - typeScript
+    summary: The tab showing all tasks in the list.
+    type: field
+  - uid: sp-sample-webparts.TabType.Completed
+    name: Completed
+    children: []
+    langs:
+      - typeScript
+    summary: The tab showing the completed tasks.
+    type: field

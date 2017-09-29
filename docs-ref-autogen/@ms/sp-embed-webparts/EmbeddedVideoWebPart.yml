@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-embed-webparts.EmbeddedVideoWebPart'
+    name: EmbeddedVideoWebPart
+    fullName: EmbeddedVideoWebPart
+    children:
+      - '@ms/sp-embed-webparts.EmbeddedVideoWebPart.render'
+      - '@ms/sp-embed-webparts.EmbeddedVideoWebPart.validateVideoSource'
+    langs:
+      - typeScript
+    type: class
+    summary: A client side webpart to embed a video on a page.
+    extends:
+      name: >-
+        @@ms/sp-embed-webparts.EmbeddedVideoWebPart<@@ms/sp-embed-webparts.IEmbeddedVideoWebPartProperties>
+    package: '@ms/sp-embed-webparts'
+  - uid: '@ms/sp-embed-webparts.EmbeddedVideoWebPart.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Main entry point, called by the ClientSideWebPart Manager. Loads the
+      webpart's DOM manipulation.
+    syntax:
+      content: function render()
+      parameters: []
+  - uid: '@ms/sp-embed-webparts.EmbeddedVideoWebPart.validateVideoSource'
+    name: validateVideoSource
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function validateVideoSource(videoSource: string)'
+      parameters:
+        - id: videoSource
+          type:
+            - string
+          description: ''

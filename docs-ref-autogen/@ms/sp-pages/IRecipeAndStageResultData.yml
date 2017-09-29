@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IRecipeAndStageResultData'
+    name: IRecipeAndStageResultData
+    fullName: IRecipeAndStageResultData
+    children:
+      - '@ms/sp-pages.IRecipeAndStageResultData.recipeData'
+      - '@ms/sp-pages.IRecipeAndStageResultData.stageResultData'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IRecipeAndStageResultData.recipeData'
+    name: recipeData
+    fullName: recipeData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IRecipeCollection recipeData
+      return:
+        type:
+          - '@@ms/sp-pages.IRecipeCollection'
+  - uid: '@ms/sp-pages.IRecipeAndStageResultData.stageResultData'
+    name: stageResultData
+    fullName: stageResultData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IStageResultData[] stageResultData'
+      return:
+        type:
+          - '@@ms/sp-pages.IStageResultData[]'

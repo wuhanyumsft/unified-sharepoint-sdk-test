@@ -1,0 +1,281 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.INewsItem'
+    name: INewsItem
+    fullName: INewsItem
+    children:
+      - '@ms/sp-component-utilities.INewsItem.author'
+      - '@ms/sp-component-utilities.INewsItem.authorAccountName'
+      - '@ms/sp-component-utilities.INewsItem.authorInitial'
+      - '@ms/sp-component-utilities.INewsItem.description'
+      - '@ms/sp-component-utilities.INewsItem.image'
+      - '@ms/sp-component-utilities.INewsItem.isContributorActionCard'
+      - '@ms/sp-component-utilities.INewsItem.isHelpArticle'
+      - '@ms/sp-component-utilities.INewsItem.isSelected'
+      - '@ms/sp-component-utilities.INewsItem.listItemId'
+      - '@ms/sp-component-utilities.INewsItem.publishedOn'
+      - '@ms/sp-component-utilities.INewsItem.publishedOnRelativeTime'
+      - '@ms/sp-component-utilities.INewsItem.siteId'
+      - '@ms/sp-component-utilities.INewsItem.siteTitle'
+      - '@ms/sp-component-utilities.INewsItem.siteUrl'
+      - '@ms/sp-component-utilities.INewsItem.title'
+      - '@ms/sp-component-utilities.INewsItem.uniqueId'
+      - '@ms/sp-component-utilities.INewsItem.url'
+      - '@ms/sp-component-utilities.INewsItem.viewCounts'
+      - '@ms/sp-component-utilities.INewsItem.webId'
+    langs:
+      - typeScript
+    type: interface
+    summary: Contains metadata about a news item.
+    extends:
+      name: '@@ms/sp-component-utilities.IDataRow'
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.INewsItem.author'
+    name: author
+    fullName: author
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Author
+    syntax:
+      content: string author
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.INewsItem.authorAccountName'
+    name: authorAccountName
+    fullName: authorAccountName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Author account name
+    syntax:
+      content: string authorAccountName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.INewsItem.authorInitial'
+    name: authorInitial
+    fullName: authorInitial
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The author's initials to display in the personal image area when there is
+      no image.
+    syntax:
+      content: string authorInitial
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.INewsItem.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Description text
+    syntax:
+      content: string description
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.INewsItem.image'
+    name: image
+    fullName: image
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Image
+    syntax:
+      content: string image
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.INewsItem.isContributorActionCard'
+    name: isContributorActionCard
+    fullName: isContributorActionCard
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Keep undefined for non-action card. True for contributor, false for viewer'
+    syntax:
+      content: boolean isContributorActionCard
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-utilities.INewsItem.isHelpArticle'
+    name: isHelpArticle
+    fullName: isHelpArticle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: whether it's help article or not
+    syntax:
+      content: boolean isHelpArticle
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-utilities.INewsItem.isSelected'
+    name: isSelected
+    fullName: isSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: whether or not this news item is selected
+    syntax:
+      content: boolean isSelected
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-utilities.INewsItem.listItemId'
+    name: listItemId
+    fullName: listItemId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: List Item Id
+    syntax:
+      content: string listItemId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.INewsItem.publishedOn'
+    name: publishedOn
+    fullName: publishedOn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Date the news item was published on
+    syntax:
+      content: Date publishedOn
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-component-utilities.INewsItem.publishedOnRelativeTime'
+    name: publishedOnRelativeTime
+    fullName: publishedOnRelativeTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Relative time when the news items was published on
+    syntax:
+      content: string publishedOnRelativeTime
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.INewsItem.siteId'
+    name: siteId
+    fullName: siteId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Site Id (GUID)
+    syntax:
+      content: string siteId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.INewsItem.siteTitle'
+    name: siteTitle
+    fullName: siteTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Title of site where the news article was posted
+    syntax:
+      content: string siteTitle
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.INewsItem.siteUrl'
+    name: siteUrl
+    fullName: siteUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: URL of site where the news article was posted
+    syntax:
+      content: string siteUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.INewsItem.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Title
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.INewsItem.uniqueId'
+    name: uniqueId
+    fullName: uniqueId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Unique Id of item (GUID)
+    syntax:
+      content: string uniqueId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.INewsItem.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Url
+    syntax:
+      content: string url
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.INewsItem.viewCounts'
+    name: viewCounts
+    fullName: viewCounts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: View Counts
+    syntax:
+      content: number viewCounts
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.INewsItem.webId'
+    name: webId
+    fullName: webId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Web Id (GUID)
+    syntax:
+      content: string webId
+      return:
+        type:
+          - string

@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.ITraceFilter'
+    name: ITraceFilter
+    fullName: ITraceFilter
+    children:
+      - '@microsoft/sp-loader.ITraceFilter.level'
+      - '@microsoft/sp-loader.ITraceFilter.scope'
+      - '@microsoft/sp-loader.ITraceFilter.source'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.ITraceFilter.level'
+    name: level
+    fullName: level
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IMultiFilter level
+      return:
+        type:
+          - '@@microsoft/sp-loader.IMultiFilter'
+  - uid: '@microsoft/sp-loader.ITraceFilter.scope'
+    name: scope
+    fullName: scope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IMultiFilter scope
+      return:
+        type:
+          - '@@microsoft/sp-loader.IMultiFilter'
+  - uid: '@microsoft/sp-loader.ITraceFilter.source'
+    name: source
+    fullName: source
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IMultiFilter source
+      return:
+        type:
+          - '@@microsoft/sp-loader.IMultiFilter'

@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.LogFeature'
+    name: LogFeature
+    fullName: LogFeature
+    children:
+      - '@ms/sp-telemetry.LogFeature.None'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.LogFeature.None'
+    name: None
+    fullName: None
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string None
+      return:
+        type:
+          - string

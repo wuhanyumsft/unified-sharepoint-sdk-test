@@ -1,0 +1,36 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.DividerWebPart'
+    name: DividerWebPart
+    fullName: DividerWebPart
+    children:
+      - '@ms/sp-client-projects.DividerWebPart.render'
+    langs:
+      - typeScript
+    type: class
+    summary: A client side webpart to introduce a divider on the page.
+    extends:
+      name: >-
+        @@ms/sp-client-projects.DividerWebPart<@@ms/sp-client-projects.IDividerWebPartProps>
+    package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.DividerWebPart.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Main entry point, called by the ClientSideWebPart Manager. Loads the
+      webpart's DOM manipulation.
+    syntax:
+      content: 'function render(mode: DisplayMode, data?: IWebPartData)'
+      parameters:
+        - id: mode
+          type:
+            - DisplayMode
+          description: 'Webpart rendered mode(Read, Edit etc.,). Defaults to Read mode.'
+        - id: data
+          type:
+            - IWebPartData
+          description: ''
+          optional: true

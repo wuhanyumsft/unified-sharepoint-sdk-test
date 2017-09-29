@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/evergreen.PackageJsonCacheLoader'
+    name: PackageJsonCacheLoader
+    fullName: PackageJsonCacheLoader
+    children:
+      - '@ms/evergreen.PackageJsonCacheLoader.constructor'
+      - '@ms/evergreen.PackageJsonCacheLoader.processDependencies'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      Helper class for PackageJsonCache which inflates it by recursively loading
+      the dependencies for all versions of every package specified.
+    package: '@ms/evergreen'
+  - uid: '@ms/evergreen.PackageJsonCacheLoader.constructor'
+    name: PackageJsonCacheLoader
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new PackageJsonCacheLoader(_cache: PackageJsonCache, _evergreenPackages:
+        string[])
+      parameters:
+        - id: _cache
+          type:
+            - '@@ms/evergreen.PackageJsonCache'
+          description: ''
+        - id: _evergreenPackages
+          type:
+            - 'string[]'
+          description: ''
+  - uid: '@ms/evergreen.PackageJsonCacheLoader.processDependencies'
+    name: processDependencies
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Inflates the cache by loading the package json for all specified
+      dependencies.
+
+      This is done recursively such that all package json files for all second
+      and Nth order
+
+      dependencies are also loaded.
+    syntax:
+      content: 'function processDependencies(initialDeps: Array<string>)'
+      parameters:
+        - id: initialDeps
+          type:
+            - Array<string>
+          description: ''
+      return:
+        type:
+          - Promise<void>

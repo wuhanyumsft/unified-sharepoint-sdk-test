@@ -1,0 +1,76 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IWebPartEntryDefinition'
+    name: IWebPartEntryDefinition
+    fullName: IWebPartEntryDefinition
+    children:
+      - '@microsoft/sp-build-core-tasks.IWebPartEntryDefinition.description'
+      - '@microsoft/sp-build-core-tasks.IWebPartEntryDefinition.id'
+      - '@microsoft/sp-build-core-tasks.IWebPartEntryDefinition.name'
+      - '@microsoft/sp-build-core-tasks.IWebPartEntryDefinition.webPartData'
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      Entry Definition of a WebPart component.
+
+      id:          Id of the entry, to be used for file names, as opposed to the
+      id.
+                   It's in the form of <webPartId>_<entryNumber> (i.e. x...x-xxxx-xxxx-xxxx-x...x_0)
+
+      webPartData: Serialized webPartData. It comes from the pre-configured
+      entry and is used for
+                   the initial webPartData of the client-side web part the first time it renders.
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.IWebPartEntryDefinition.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string description
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IWebPartEntryDefinition.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IWebPartEntryDefinition.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IWebPartEntryDefinition.webPartData'
+    name: webPartData
+    fullName: webPartData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webPartData
+      return:
+        type:
+          - string

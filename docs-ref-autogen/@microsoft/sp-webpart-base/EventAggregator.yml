@@ -1,0 +1,83 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.EventAggregator'
+    name: EventAggregator
+    fullName: EventAggregator
+    children:
+      - '@microsoft/sp-webpart-base.EventAggregator.raiseEvent'
+      - '@microsoft/sp-webpart-base.EventAggregator.subscribeByEventName'
+      - '@microsoft/sp-webpart-base.EventAggregator.subscribeBySourceId'
+    langs:
+      - typeScript
+    type: class
+    summary: Event Aggregator
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.EventAggregator.raiseEvent'
+    name: raiseEvent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Raise an event
+    syntax:
+      content: 'function raiseEvent<T>(eventName: string, eventObject: IEvent<T>)'
+      parameters:
+        - id: eventName
+          type:
+            - string
+          description: Event name.
+        - id: eventObject
+          type:
+            - '@@microsoft/sp-webpart-base.IEvent<T>'
+          description: |
+            Event object.
+  - uid: '@microsoft/sp-webpart-base.EventAggregator.subscribeByEventName'
+    name: subscribeByEventName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Subscribe for an event from all sources
+    syntax:
+      content: >-
+        function subscribeByEventName<T>(eventName: string, subscriberId:
+        string, callback: IEventCallback<T>)
+      parameters:
+        - id: eventName
+          type:
+            - string
+          description: Name of the event.
+        - id: subscriberId
+          type:
+            - string
+          description: Id of the subscriber to the event.
+        - id: callback
+          type:
+            - '@@microsoft/sp-webpart-base.IEventCallback<T>'
+          description: |
+            Callback for when the event is raised.
+  - uid: '@microsoft/sp-webpart-base.EventAggregator.subscribeBySourceId'
+    name: subscribeBySourceId
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Subscribe for all events from a specific source.
+    syntax:
+      content: >-
+        function subscribeBySourceId<T>(sourceId: string, subscriberId: string,
+        callback: IEventCallback<T>)
+      parameters:
+        - id: sourceId
+          type:
+            - string
+          description: Source of the event.
+        - id: subscriberId
+          type:
+            - string
+          description: Id of the subscriber to the event.
+        - id: callback
+          type:
+            - '@@microsoft/sp-webpart-base.IEventCallback<T>'
+          description: |
+            Callback for when the event is raised.

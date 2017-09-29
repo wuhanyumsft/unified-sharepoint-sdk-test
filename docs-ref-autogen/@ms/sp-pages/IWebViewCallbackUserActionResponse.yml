@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IWebViewCallbackUserActionResponse'
+    name: IWebViewCallbackUserActionResponse
+    fullName: IWebViewCallbackUserActionResponse
+    children:
+      - '@ms/sp-pages.IWebViewCallbackUserActionResponse.command'
+      - '@ms/sp-pages.IWebViewCallbackUserActionResponse.isIntercepted'
+      - '@ms/sp-pages.IWebViewCallbackUserActionResponse.version'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.IWebViewCallbackResponse'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IWebViewCallbackUserActionResponse.command'
+    name: command
+    fullName: command
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function command
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-pages.IWebViewCallbackUserActionResponse.isIntercepted'
+    name: isIntercepted
+    fullName: isIntercepted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isIntercepted
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IWebViewCallbackUserActionResponse.version'
+    name: version
+    fullName: version
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string version
+      return:
+        type:
+          - string

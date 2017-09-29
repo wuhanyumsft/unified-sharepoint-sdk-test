@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ITableHandlerConfig'
+    name: ITableHandlerConfig
+    fullName: ITableHandlerConfig
+    children:
+      - '@ms/sp-canvas.ITableHandlerConfig.format'
+      - '@ms/sp-canvas.ITableHandlerConfig.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-canvas.IFormatHandlerConfig'
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ITableHandlerConfig.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function format
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-canvas.ITableHandlerConfig.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function value
+      return:
+        type:
+          - function

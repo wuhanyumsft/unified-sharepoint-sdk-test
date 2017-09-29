@@ -1,0 +1,97 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-workbench.ISPFXWindow'
+    name: ISPFXWindow
+    fullName: ISPFXWindow
+    children:
+      - '@microsoft/sp-webpart-workbench.ISPFXWindow.DEBUG'
+      - '@microsoft/sp-webpart-workbench.ISPFXWindow.debugManifests'
+      - '@microsoft/sp-webpart-workbench.ISPFXWindow.ENVIRONMENTTYPE'
+      - '@microsoft/sp-webpart-workbench.ISPFXWindow.preloadedData'
+      - '@microsoft/sp-webpart-workbench.ISPFXWindow.process'
+      - '@microsoft/sp-webpart-workbench.ISPFXWindow.Window'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface for the window variables added to the workbench by the Framework
+    extends:
+      name: Window
+    package: '@microsoft/sp-webpart-workbench'
+  - uid: '@microsoft/sp-webpart-workbench.ISPFXWindow.DEBUG'
+    name: DEBUG
+    fullName: DEBUG
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean DEBUG
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-workbench.ISPFXWindow.debugManifests'
+    name: debugManifests
+    fullName: debugManifests
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function debugManifests
+      return:
+        type:
+          - function
+  - uid: '@microsoft/sp-webpart-workbench.ISPFXWindow.ENVIRONMENTTYPE'
+    name: ENVIRONMENTTYPE
+    fullName: ENVIRONMENTTYPE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ENVIRONMENTTYPE
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-workbench.ISPFXWindow.preloadedData'
+    name: preloadedData
+    fullName: preloadedData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function preloadedData
+      return:
+        type:
+          - function
+  - uid: '@microsoft/sp-webpart-workbench.ISPFXWindow.process'
+    name: process
+    fullName: process
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function process
+      return:
+        type:
+          - function
+  - uid: '@microsoft/sp-webpart-workbench.ISPFXWindow.Window'
+    name: Window
+    fullName: Window
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function Window
+      return:
+        type:
+          - function

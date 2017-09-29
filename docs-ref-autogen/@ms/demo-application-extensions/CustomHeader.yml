@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/demo-application-extensions.CustomHeader'
+    name: CustomHeader
+    fullName: CustomHeader
+    children:
+      - '@ms/demo-application-extensions.CustomHeader.onInit'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/demo-application-extensions.CustomHeader<@@ms/demo-application-extensions.ICustomHeaderProperties>
+    package: '@ms/demo-application-extensions'
+  - uid: '@ms/demo-application-extensions.CustomHeader.onInit'
+    name: onInit
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function onInit()
+      parameters: []
+      return:
+        type:
+          - Promise<void>

@@ -1,0 +1,161 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.DetailsListConnector'
+    name: DetailsListConnector
+    fullName: DetailsListConnector
+    children:
+      - '@ms/sp-teamsite-webparts.DetailsListConnector.componentDidMount'
+      - '@ms/sp-teamsite-webparts.DetailsListConnector.componentDidUpdate'
+      - '@ms/sp-teamsite-webparts.DetailsListConnector.componentWillMount'
+      - '@ms/sp-teamsite-webparts.DetailsListConnector.componentWillReceiveProps'
+      - '@ms/sp-teamsite-webparts.DetailsListConnector.componentWillUnmount'
+      - '@ms/sp-teamsite-webparts.DetailsListConnector.constructor'
+      - '@ms/sp-teamsite-webparts.DetailsListConnector.getIconUrlFromExtension'
+      - '@ms/sp-teamsite-webparts.DetailsListConnector.getListContext'
+      - '@ms/sp-teamsite-webparts.DetailsListConnector.onItemInvoked'
+      - '@ms/sp-teamsite-webparts.DetailsListConnector.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-teamsite-webparts.DetailsListConnector<@@ms/sp-teamsite-webparts.IDetailsListConnectorProps>
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.DetailsListConnector.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-teamsite-webparts.DetailsListConnector.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+  - uid: '@ms/sp-teamsite-webparts.DetailsListConnector.componentWillMount'
+    name: componentWillMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillMount()
+      parameters: []
+  - uid: '@ms/sp-teamsite-webparts.DetailsListConnector.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(newProps: IDetailsListConnectorProps)'
+      parameters:
+        - id: newProps
+          type:
+            - '@@ms/sp-teamsite-webparts.IDetailsListConnectorProps'
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.DetailsListConnector.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-teamsite-webparts.DetailsListConnector.constructor'
+    name: DetailsListConnector
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DetailsListConnector(props: IDetailsListConnectorProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-teamsite-webparts.IDetailsListConnectorProps'
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.DetailsListConnector.getIconUrlFromExtension'
+    name: getIconUrlFromExtension
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getIconUrlFromExtension(extension: string, size: number)'
+      parameters:
+        - id: extension
+          type:
+            - string
+          description: ''
+        - id: size
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.DetailsListConnector.getListContext'
+    name: getListContext
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getListContext()
+      parameters: []
+      return:
+        type:
+          - ISPListContext
+  - uid: '@ms/sp-teamsite-webparts.DetailsListConnector.onItemInvoked'
+    name: onItemInvoked
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onItemInvoked(item: ISPListItem, index: number, ev: Event)'
+      parameters:
+        - id: item
+          type:
+            - ISPListItem
+          description: ''
+        - id: index
+          type:
+            - number
+          description: ''
+        - id: ev
+          type:
+            - Event
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.DetailsListConnector.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

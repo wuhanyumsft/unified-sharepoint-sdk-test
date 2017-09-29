@@ -1,0 +1,36 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.GeoQuotaMockDataProvider'
+    name: GeoQuotaMockDataProvider
+    fullName: GeoQuotaMockDataProvider
+    children:
+      - '@ms/sp-tenant-admin-page.GeoQuotaMockDataProvider.constructor'
+      - '@ms/sp-tenant-admin-page.GeoQuotaMockDataProvider.getGeoQuotaData'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.GeoQuotaMockDataProvider.constructor'
+    name: GeoQuotaMockDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new GeoQuotaMockDataProvider()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.GeoQuotaMockDataProvider.getGeoQuotaData'
+    name: getGeoQuotaData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getGeoQuotaData()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-tenant-admin-page.IStorageQuotaData>

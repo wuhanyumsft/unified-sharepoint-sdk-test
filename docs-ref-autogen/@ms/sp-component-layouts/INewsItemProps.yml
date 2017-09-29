@@ -1,0 +1,97 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.INewsItemProps'
+    name: INewsItemProps
+    fullName: INewsItemProps
+    children:
+      - '@ms/sp-component-layouts.INewsItemProps.currentBreakpoint'
+      - '@ms/sp-component-layouts.INewsItemProps.id'
+      - '@ms/sp-component-layouts.INewsItemProps.isFeatured'
+      - '@ms/sp-component-layouts.INewsItemProps.isLoading'
+      - '@ms/sp-component-layouts.INewsItemProps.locale'
+      - '@ms/sp-component-layouts.INewsItemProps.newsItem'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-component-layouts'
+  - uid: '@ms/sp-component-layouts.INewsItemProps.currentBreakpoint'
+    name: currentBreakpoint
+    fullName: currentBreakpoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => BREAKPOINT_SIZE currentBreakpoint
+      return:
+        type:
+          - () => BREAKPOINT_SIZE
+  - uid: '@ms/sp-component-layouts.INewsItemProps.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number id
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-layouts.INewsItemProps.isFeatured'
+    name: isFeatured
+    fullName: isFeatured
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isFeatured
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-layouts.INewsItemProps.isLoading'
+    name: isLoading
+    fullName: isLoading
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isLoading
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-layouts.INewsItemProps.locale'
+    name: locale
+    fullName: locale
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string locale
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-layouts.INewsItemProps.newsItem'
+    name: newsItem
+    fullName: newsItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: INewsItem newsItem
+      return:
+        type:
+          - INewsItem

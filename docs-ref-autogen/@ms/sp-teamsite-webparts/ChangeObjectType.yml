@@ -1,0 +1,139 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.ChangeObjectType'
+    name: ChangeObjectType
+    fullName: ChangeObjectType
+    children:
+      - '@ms/sp-teamsite-webparts.ChangeObjectType.Alert'
+      - '@ms/sp-teamsite-webparts.ChangeObjectType.All'
+      - '@ms/sp-teamsite-webparts.ChangeObjectType.ContentType'
+      - '@ms/sp-teamsite-webparts.ChangeObjectType.Field'
+      - '@ms/sp-teamsite-webparts.ChangeObjectType.File'
+      - '@ms/sp-teamsite-webparts.ChangeObjectType.FileFragment'
+      - '@ms/sp-teamsite-webparts.ChangeObjectType.Folder'
+      - '@ms/sp-teamsite-webparts.ChangeObjectType.Group'
+      - '@ms/sp-teamsite-webparts.ChangeObjectType.Item'
+      - '@ms/sp-teamsite-webparts.ChangeObjectType.List'
+      - '@ms/sp-teamsite-webparts.ChangeObjectType.SecurityPolicy'
+      - '@ms/sp-teamsite-webparts.ChangeObjectType.SecurityPolicyInternal'
+      - '@ms/sp-teamsite-webparts.ChangeObjectType.Site'
+      - '@ms/sp-teamsite-webparts.ChangeObjectType.User'
+      - '@ms/sp-teamsite-webparts.ChangeObjectType.View'
+      - '@ms/sp-teamsite-webparts.ChangeObjectType.Web'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.ChangeObjectType.Alert'
+    name: Alert
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeObjectType.All'
+    name: All
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeObjectType.ContentType'
+    name: ContentType
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeObjectType.Field'
+    name: Field
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeObjectType.File'
+    name: File
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeObjectType.FileFragment'
+    name: FileFragment
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeObjectType.Folder'
+    name: Folder
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeObjectType.Group'
+    name: Group
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeObjectType.Item'
+    name: Item
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeObjectType.List'
+    name: List
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeObjectType.SecurityPolicy'
+    name: SecurityPolicy
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeObjectType.SecurityPolicyInternal'
+    name: SecurityPolicyInternal
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeObjectType.Site'
+    name: Site
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeObjectType.User'
+    name: User
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeObjectType.View'
+    name: View
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.ChangeObjectType.Web'
+    name: Web
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

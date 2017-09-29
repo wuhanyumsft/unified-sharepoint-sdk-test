@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-bingmap.BingMapModuleLoader'
+    name: BingMapModuleLoader
+    fullName: BingMapModuleLoader
+    children:
+      - '@ms/sp-bingmap.BingMapModuleLoader.module'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-bingmap'
+  - uid: '@ms/sp-bingmap.BingMapModuleLoader.module'
+    name: module
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function module(pageContext: PageContext)'
+      parameters:
+        - id: pageContext
+          type:
+            - PageContext
+          description: ''
+      return:
+        type:
+          - Promise<any>

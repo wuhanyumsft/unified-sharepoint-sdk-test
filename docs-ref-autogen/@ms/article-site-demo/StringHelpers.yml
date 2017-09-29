@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/article-site-demo.StringHelpers'
+    name: StringHelpers
+    fullName: StringHelpers
+    children:
+      - '@ms/article-site-demo.StringHelpers.getUrlWithoutQueryParameter'
+      - '@ms/article-site-demo.StringHelpers.stringStartsWith'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/article-site-demo'
+  - uid: '@ms/article-site-demo.StringHelpers.getUrlWithoutQueryParameter'
+    name: getUrlWithoutQueryParameter
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function getUrlWithoutQueryParameter(url: string,
+        parameterToDelete: string)
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+        - id: parameterToDelete
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/article-site-demo.StringHelpers.stringStartsWith'
+    name: stringStartsWith
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function stringStartsWith(s: string, prefix: string)'
+      parameters:
+        - id: s
+          type:
+            - string
+          description: ''
+        - id: prefix
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean

@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IBaseColumnsEditorState'
+    name: IBaseColumnsEditorState
+    fullName: IBaseColumnsEditorState
+    children:
+      - '@ms/sp-tenant-admin-page.IBaseColumnsEditorState.enableApplyButton'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IBaseColumnsEditorState.enableApplyButton'
+    name: enableApplyButton
+    fullName: enableApplyButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean enableApplyButton
+      return:
+        type:
+          - boolean

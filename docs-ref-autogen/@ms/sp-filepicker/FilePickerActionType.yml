@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.FilePickerActionType'
+    name: FilePickerActionType
+    fullName: FilePickerActionType
+    children:
+      - '@ms/sp-filepicker.FilePickerActionType.NAV_LINKCLICKED'
+      - '@ms/sp-filepicker.FilePickerActionType.PICKER_HIDE'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.FilePickerActionType.NAV_LINKCLICKED'
+    name: NAV_LINKCLICKED
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-filepicker.FilePickerActionType.PICKER_HIDE'
+    name: PICKER_HIDE
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

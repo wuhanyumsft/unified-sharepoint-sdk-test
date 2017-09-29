@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.Global'
+    package: '@ms/sp-component-layouts'
+    name: Global
+    children:
+      - '@ms/sp-component-layouts.getCardCountPerRow'
+      - '@ms/sp-component-layouts.getCardWidth'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@ms/sp-component-layouts.getCardCountPerRow'
+    name: getCardCountPerRow
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getCardCountPerRow(containerWidth: number)'
+      parameters:
+        - id: containerWidth
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-layouts.getCardWidth'
+    name: getCardWidth
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: |-
+      This function use complicated logic to calculate the card-like width.
+      It's aligned with other card-like layouts/web parts in sp-client.
+    syntax:
+      content: 'function getCardWidth(containerWidth: number)'
+      parameters:
+        - id: containerWidth
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - number

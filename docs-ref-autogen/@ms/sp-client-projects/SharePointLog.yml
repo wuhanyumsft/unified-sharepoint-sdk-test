@@ -1,0 +1,147 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.SharePointLog'
+    name: SharePointLog
+    fullName: SharePointLog
+    children:
+      - '@ms/sp-client-projects.SharePointLog.debug'
+      - '@ms/sp-client-projects.SharePointLog.engagement'
+      - '@ms/sp-client-projects.SharePointLog.error'
+      - '@ms/sp-client-projects.SharePointLog.failure'
+      - '@ms/sp-client-projects.SharePointLog.info'
+      - '@ms/sp-client-projects.SharePointLog.constructor'
+      - '@ms/sp-client-projects.SharePointLog.start'
+      - '@ms/sp-client-projects.SharePointLog.success'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.SharePointLog.debug'
+    name: debug
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Log a message for viewing when code is in development.
+    syntax:
+      content: 'function debug(logEntryName: string, message: string)'
+      parameters:
+        - id: logEntryName
+          type:
+            - string
+          description: Identifier for the source of the message.
+        - id: message
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-client-projects.SharePointLog.engagement'
+    name: engagement
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Log engagement of an activity.
+    syntax:
+      content: 'function engagement(logEntryName: string, message: string)'
+      parameters:
+        - id: logEntryName
+          type:
+            - string
+          description: ''
+        - id: message
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-client-projects.SharePointLog.error'
+    name: error
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Log the occurrence of an error.
+    syntax:
+      content: 'function error(logEntryName: string, err: Error)'
+      parameters:
+        - id: logEntryName
+          type:
+            - string
+          description: Identifier for the source of the message.
+        - id: err
+          type:
+            - Error
+          description: The error that was encountered.
+  - uid: '@ms/sp-client-projects.SharePointLog.failure'
+    name: failure
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Record the occurrance of a process that failed on completion.
+    syntax:
+      content: 'function failure(failureName: string)'
+      parameters:
+        - id: failureName
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-client-projects.SharePointLog.info'
+    name: info
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Log an informational message.
+    syntax:
+      content: 'function info(logEntryName: string, message: string)'
+      parameters:
+        - id: logEntryName
+          type:
+            - string
+          description: Identifier for the source of the message.
+        - id: message
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-client-projects.SharePointLog.constructor'
+    name: SharePointLog
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SharePointLog(context: __type)'
+      parameters:
+        - id: context
+          type:
+            - __type
+          description: ''
+  - uid: '@ms/sp-client-projects.SharePointLog.start'
+    name: start
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Record the occurrance of a process that was started.
+    syntax:
+      content: 'function start(startName: string)'
+      parameters:
+        - id: startName
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-client-projects.SharePointLog.success'
+    name: success
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Record the occurrance of a process that was successfully completed.
+    syntax:
+      content: 'function success(successName: string)'
+      parameters:
+        - id: successName
+          type:
+            - string
+          description: ''

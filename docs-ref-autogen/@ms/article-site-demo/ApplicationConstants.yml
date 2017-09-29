@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/article-site-demo.ApplicationConstants'
+    name: ApplicationConstants
+    fullName: ApplicationConstants
+    children:
+      - '@ms/article-site-demo.ApplicationConstants.pageOdataClass'
+      - '@ms/article-site-demo.ApplicationConstants.pagesListName'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/article-site-demo'
+  - uid: '@ms/article-site-demo.ApplicationConstants.pageOdataClass'
+    name: pageOdataClass
+    fullName: pageOdataClass
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string pageOdataClass
+      return:
+        type:
+          - string
+  - uid: '@ms/article-site-demo.ApplicationConstants.pagesListName'
+    name: pagesListName
+    fullName: pagesListName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string pagesListName
+      return:
+        type:
+          - string

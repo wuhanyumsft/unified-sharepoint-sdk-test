@@ -1,0 +1,82 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ImagePreview'
+    name: ImagePreview
+    fullName: ImagePreview
+    children:
+      - '@ms/sp-publishing-webparts.ImagePreview.componentWillReceiveProps'
+      - '@ms/sp-publishing-webparts.ImagePreview.constructor'
+      - '@ms/sp-publishing-webparts.ImagePreview.render'
+      - '@ms/sp-publishing-webparts.ImagePreview.shouldComponentUpdate'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.ImagePreview<@@ms/sp-publishing-webparts.IImagePreviewProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ImagePreview.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: IImagePreviewProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-publishing-webparts.IImagePreviewProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.ImagePreview.constructor'
+    name: ImagePreview
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ImagePreview(props: IImagePreviewProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IImagePreviewProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.ImagePreview.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<HTMLDivElement>
+  - uid: '@ms/sp-publishing-webparts.ImagePreview.shouldComponentUpdate'
+    name: shouldComponentUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function shouldComponentUpdate(nextProps: IImagePreviewProps, nextState:
+        IImagePreviewState)
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-publishing-webparts.IImagePreviewProps'
+          description: ''
+        - id: nextState
+          type:
+            - '@@ms/sp-publishing-webparts.IImagePreviewState'
+          description: ''
+      return:
+        type:
+          - boolean

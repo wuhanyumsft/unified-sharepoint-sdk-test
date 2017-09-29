@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker-interfaces.IFilePickerLocalFilesToUpload'
+    name: IFilePickerLocalFilesToUpload
+    fullName: IFilePickerLocalFilesToUpload
+    children:
+      - '@ms/sp-filepicker-interfaces.IFilePickerLocalFilesToUpload.file'
+      - '@ms/sp-filepicker-interfaces.IFilePickerLocalFilesToUpload.src'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-filepicker-interfaces'
+  - uid: '@ms/sp-filepicker-interfaces.IFilePickerLocalFilesToUpload.file'
+    name: file
+    fullName: file
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: File file
+      return:
+        type:
+          - File
+  - uid: '@ms/sp-filepicker-interfaces.IFilePickerLocalFilesToUpload.src'
+    name: src
+    fullName: src
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string src
+      return:
+        type:
+          - string

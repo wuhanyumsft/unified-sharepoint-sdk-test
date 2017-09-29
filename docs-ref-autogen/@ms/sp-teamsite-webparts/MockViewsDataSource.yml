@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.MockViewsDataSource'
+    name: MockViewsDataSource
+    fullName: MockViewsDataSource
+    children:
+      - '@ms/sp-teamsite-webparts.MockViewsDataSource.getViews'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.MockViewsDataSource.getViews'
+    name: getViews
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getViews(webAbsoluteUrl: string, listId: string)'
+      parameters:
+        - id: webAbsoluteUrl
+          type:
+            - string
+          description: ''
+        - id: listId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - 'Promise<@@ms/sp-teamsite-webparts.IViewsDataSourceView[]>'

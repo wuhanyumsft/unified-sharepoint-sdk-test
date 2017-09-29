@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IRouteProps'
+    name: IRouteProps
+    fullName: IRouteProps
+    children:
+      - '@ms/sp-pages.IRouteProps.controller'
+      - '@ms/sp-pages.IRouteProps.match'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IRouteProps.controller'
+    name: controller
+    fullName: controller
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Controller controller
+      return:
+        type:
+          - Controller
+  - uid: '@ms/sp-pages.IRouteProps.match'
+    name: match
+    fullName: match
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: RegExp match
+      return:
+        type:
+          - RegExp

@@ -1,0 +1,83 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.LargeToolboxTabTest'
+    name: LargeToolboxTabTest
+    fullName: LargeToolboxTabTest
+    children:
+      - '@ms/sp-canvas-toolbox.LargeToolboxTabTest.TestIncludeScripts'
+      - '@ms/sp-canvas-toolbox.LargeToolboxTabTest.TestName'
+      - '@ms/sp-canvas-toolbox.LargeToolboxTabTest.TestOwner'
+      - '@ms/sp-canvas-toolbox.LargeToolboxTabTest.TestRun'
+      - '@ms/sp-canvas-toolbox.LargeToolboxTabTest.TestSetup'
+      - '@ms/sp-canvas-toolbox.LargeToolboxTabTest.TestTeardown'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-canvas-toolbox'
+  - uid: '@ms/sp-canvas-toolbox.LargeToolboxTabTest.TestIncludeScripts'
+    name: TestIncludeScripts
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestIncludeScripts()
+      parameters: []
+  - uid: '@ms/sp-canvas-toolbox.LargeToolboxTabTest.TestName'
+    name: TestName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestName()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas-toolbox.LargeToolboxTabTest.TestOwner'
+    name: TestOwner
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestOwner()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas-toolbox.LargeToolboxTabTest.TestRun'
+    name: TestRun
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestRun()
+      parameters: []
+  - uid: '@ms/sp-canvas-toolbox.LargeToolboxTabTest.TestSetup'
+    name: TestSetup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestSetup()
+      parameters: []
+  - uid: '@ms/sp-canvas-toolbox.LargeToolboxTabTest.TestTeardown'
+    name: TestTeardown
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestTeardown()
+      parameters: []

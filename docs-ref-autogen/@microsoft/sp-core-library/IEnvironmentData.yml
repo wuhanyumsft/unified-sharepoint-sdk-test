@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.IEnvironmentData'
+    name: IEnvironmentData
+    fullName: IEnvironmentData
+    children:
+      - '@microsoft/sp-core-library.IEnvironmentData.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface for properties neccesary for building a Environment object.
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.IEnvironmentData.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc Environment.type}'
+    syntax:
+      content: EnvironmentType type
+      return:
+        type:
+          - EnvironmentType

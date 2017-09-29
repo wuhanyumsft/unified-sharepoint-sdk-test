@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.ITraceListHeaderState'
+    name: ITraceListHeaderState
+    fullName: ITraceListHeaderState
+    children:
+      - '@microsoft/sp-loader.ITraceListHeaderState.filterToggles'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.ITraceListHeaderState.filterToggles'
+    name: filterToggles
+    fullName: filterToggles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IFilterToggles filterToggles
+      return:
+        type:
+          - '@@microsoft/sp-loader.IFilterToggles'

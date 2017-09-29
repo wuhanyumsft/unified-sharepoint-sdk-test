@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.MessageView'
+    name: MessageView
+    fullName: MessageView
+    children:
+      - '@ms/sp-publishing-webparts.MessageView.constructor'
+      - '@ms/sp-publishing-webparts.MessageView.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.MessageView<@@ms/sp-publishing-webparts.IMessageViewProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.MessageView.constructor'
+    name: MessageView
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new MessageView(props: IMessageViewProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IMessageViewProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.MessageView.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneControl'
+    name: IPropertyPaneControl
+    fullName: IPropertyPaneControl
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      The minimal interface subset of IClientSideWebPartInternal needed for a
+      control to implement
+
+      if they want to utilize the Property Pane for configuration through the
+      ClientSideWebPartManager.
+    package: '@microsoft/sp-webpart-base'

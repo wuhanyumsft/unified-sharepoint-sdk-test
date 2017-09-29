@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IVideoWebPartProperties'
+    name: IVideoWebPartProperties
+    fullName: IVideoWebPartProperties
+    children:
+      - '@ms/sp-pages.IVideoWebPartProperties.embedCode'
+      - '@ms/sp-pages.IVideoWebPartProperties.imageSourceType'
+      - '@ms/sp-pages.IVideoWebPartProperties.isStream'
+      - '@ms/sp-pages.IVideoWebPartProperties.showInfo'
+      - '@ms/sp-pages.IVideoWebPartProperties.thumbnailUrl'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IVideoWebPartProperties.embedCode'
+    name: embedCode
+    fullName: embedCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string embedCode
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IVideoWebPartProperties.imageSourceType'
+    name: imageSourceType
+    fullName: imageSourceType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string imageSourceType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IVideoWebPartProperties.isStream'
+    name: isStream
+    fullName: isStream
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: false isStream
+      return:
+        type:
+          - 'false'
+  - uid: '@ms/sp-pages.IVideoWebPartProperties.showInfo'
+    name: showInfo
+    fullName: showInfo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: false showInfo
+      return:
+        type:
+          - 'false'
+  - uid: '@ms/sp-pages.IVideoWebPartProperties.thumbnailUrl'
+    name: thumbnailUrl
+    fullName: thumbnailUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string thumbnailUrl
+      return:
+        type:
+          - string

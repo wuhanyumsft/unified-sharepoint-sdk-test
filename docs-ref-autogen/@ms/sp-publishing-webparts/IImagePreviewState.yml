@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IImagePreviewState'
+    name: IImagePreviewState
+    fullName: IImagePreviewState
+    children:
+      - '@ms/sp-publishing-webparts.IImagePreviewState.errorLoadingPreview'
+      - '@ms/sp-publishing-webparts.IImagePreviewState.image'
+      - '@ms/sp-publishing-webparts.IImagePreviewState.isUploadInProgress'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IImagePreviewState.errorLoadingPreview'
+    name: errorLoadingPreview
+    fullName: errorLoadingPreview
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean errorLoadingPreview
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IImagePreviewState.image'
+    name: image
+    fullName: image
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IImageProperties image
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IImageProperties'
+  - uid: '@ms/sp-publishing-webparts.IImagePreviewState.isUploadInProgress'
+    name: isUploadInProgress
+    fullName: isUploadInProgress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isUploadInProgress
+      return:
+        type:
+          - boolean

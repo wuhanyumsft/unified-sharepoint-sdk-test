@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-component-base.BaseComponent'
+    name: BaseComponent
+    fullName: BaseComponent
+    children:
+      - '@microsoft/sp-component-base.BaseComponent.constructor'
+      - '@microsoft/sp-component-base.BaseComponent.dispose'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Base class for client-side components such as BaseClientSideWebPart,
+      BaseExtension, etc.
+    package: '@microsoft/sp-component-base'
+  - uid: '@microsoft/sp-component-base.BaseComponent.constructor'
+    name: BaseComponent
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: >-
+      The constructor for this class is marked as internal; third party code
+      should not inherit
+
+      directly from this base class.
+    syntax:
+      content: new BaseComponent()
+      parameters: []
+  - uid: '@microsoft/sp-component-base.BaseComponent.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Disposes the component.
+
+      In order to write component-specific dispose mechanism, use onDispose
+      instead.
+
+      The onDispose event should only be raised once - if
+
+      this._disposed was false when the function was called.
+
+      (Put another way, dispose() should be a no-op if this._disposed is true.)
+    syntax:
+      content: function dispose()
+      parameters: []

@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ILikedByPanelProps'
+    name: ILikedByPanelProps
+    fullName: ILikedByPanelProps
+    children:
+      - '@ms/sp-pages.ILikedByPanelProps.comment'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ILikedByPanelProps.comment'
+    name: comment
+    fullName: comment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CommentItem comment
+      return:
+        type:
+          - '@@ms/sp-pages.CommentItem'

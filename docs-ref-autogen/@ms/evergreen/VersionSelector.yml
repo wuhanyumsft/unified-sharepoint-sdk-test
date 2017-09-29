@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/evergreen.VersionSelector'
+    name: VersionSelector
+    fullName: VersionSelector
+    children:
+      - '@ms/evergreen.VersionSelector.solve'
+      - '@ms/evergreen.VersionSelector.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/evergreen'
+  - uid: '@ms/evergreen.VersionSelector.solve'
+    name: solve
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Solves the list of packages given the initial context
+    syntax:
+      content: 'function solve(packagesToSolve: string[])'
+      parameters:
+        - id: packagesToSolve
+          type:
+            - 'string[]'
+          description: ''
+  - uid: '@ms/evergreen.VersionSelector.constructor'
+    name: VersionSelector
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new VersionSelector(_initialContext: Map<string>, _cache:
+        PackageJsonCache, _writer: NestedWriter)
+      parameters:
+        - id: _initialContext
+          type:
+            - Map<string>
+          description: >-
+            a mapping of evergreen packages to versions, some values may be
+            undefined if
+               this is for a second-order evergreen dependency
+        - id: _cache
+          type:
+            - '@@ms/evergreen.PackageJsonCache'
+          description: |
+            a package.json provider class
+        - id: _writer
+          type:
+            - '@@ms/evergreen.NestedWriter'
+          description: ''

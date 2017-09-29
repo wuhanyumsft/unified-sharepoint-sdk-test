@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-other-webparts.WorldClockItem'
+    name: WorldClockItem
+    fullName: WorldClockItem
+    children:
+      - '@ms/sp-other-webparts.WorldClockItem.render'
+      - '@ms/sp-other-webparts.WorldClockItem.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: The world clock item component.
+    extends:
+      name: >-
+        @@ms/sp-other-webparts.WorldClockItem<@@ms/sp-other-webparts.IWorldClockItemProps>
+    package: '@ms/sp-other-webparts'
+  - uid: '@ms/sp-other-webparts.WorldClockItem.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-other-webparts.WorldClockItem.constructor'
+    name: WorldClockItem
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new WorldClockItem(props: IWorldClockItemProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-other-webparts.IWorldClockItemProps'
+          description: ''

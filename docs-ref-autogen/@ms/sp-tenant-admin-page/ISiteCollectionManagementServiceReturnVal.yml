@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISiteCollectionManagementServiceReturnVal'
+    name: ISiteCollectionManagementServiceReturnVal
+    fullName: ISiteCollectionManagementServiceReturnVal
+    children:
+      - '@ms/sp-tenant-admin-page.ISiteCollectionManagementServiceReturnVal.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ISiteCollectionManagementServiceReturnVal.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean value
+      return:
+        type:
+          - boolean

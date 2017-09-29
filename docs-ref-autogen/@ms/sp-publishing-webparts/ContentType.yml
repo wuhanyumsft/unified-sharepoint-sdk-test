@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ContentType'
+    name: ContentType
+    fullName: ContentType
+    children:
+      - '@ms/sp-publishing-webparts.ContentType.Document'
+      - '@ms/sp-publishing-webparts.ContentType.Image'
+      - '@ms/sp-publishing-webparts.ContentType.NotSupported'
+      - '@ms/sp-publishing-webparts.ContentType.UrlLink'
+      - '@ms/sp-publishing-webparts.ContentType.Video'
+      - '@ms/sp-publishing-webparts.ContentType.WebPage'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ContentType.Document'
+    name: Document
+    fullName: Document
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string Document
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ContentType.Image'
+    name: Image
+    fullName: Image
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string Image
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ContentType.NotSupported'
+    name: NotSupported
+    fullName: NotSupported
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string NotSupported
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ContentType.UrlLink'
+    name: UrlLink
+    fullName: UrlLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string UrlLink
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ContentType.Video'
+    name: Video
+    fullName: Video
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string Video
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ContentType.WebPage'
+    name: WebPage
+    fullName: WebPage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string WebPage
+      return:
+        type:
+          - string

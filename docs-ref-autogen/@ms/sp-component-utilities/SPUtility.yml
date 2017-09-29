@@ -1,0 +1,102 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.SPUtility'
+    name: SPUtility
+    fullName: SPUtility
+    children:
+      - '@ms/sp-component-utilities.SPUtility.getUserPhotoUrl'
+      - '@ms/sp-component-utilities.SPUtility.getWebPathOfFile'
+      - '@ms/sp-component-utilities.SPUtility.isPageOnMinorVersion'
+      - '@ms/sp-component-utilities.SPUtility.toRelativeUrl'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.SPUtility.getUserPhotoUrl'
+    name: getUserPhotoUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Utility method to construct user photo URL for specific size.
+
+      UserPhoto mapping is auto added into the Alternative URL map when private
+      CDN is enabled.
+    syntax:
+      content: 'static function getUserPhotoUrl(email?: string, size?: UserPhotoSize)'
+      parameters:
+        - id: email
+          type:
+            - string
+          description: >-
+            email address. It will be Decoded to ensure we use uniform URL for
+            the user photo.
+
+            When email is missing, it will automatically lead to default
+            doughboy image url.
+          optional: true
+        - id: size
+          type:
+            - UserPhotoSize
+          description: >
+            Parameter may have value S, L, M. If none or other is provided, S
+            will be used by default.
+          optional: true
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.SPUtility.getWebPathOfFile'
+    name: getWebPathOfFile
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getWebPathOfFile(path: string)'
+      parameters:
+        - id: path
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.SPUtility.isPageOnMinorVersion'
+    name: isPageOnMinorVersion
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Takes in a page version number and checks to see if the version represents
+      a minor version
+    syntax:
+      content: 'static function isPageOnMinorVersion(version: string)'
+      parameters:
+        - id: version
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-utilities.SPUtility.toRelativeUrl'
+    name: toRelativeUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Converts absolute url into relative
+    syntax:
+      content: 'static function toRelativeUrl(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string

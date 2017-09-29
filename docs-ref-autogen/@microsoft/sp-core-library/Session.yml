@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.Session'
+    name: Session
+    fullName: Session
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      This class contains contextual information about the application's current
+      session.
+    package: '@microsoft/sp-core-library'

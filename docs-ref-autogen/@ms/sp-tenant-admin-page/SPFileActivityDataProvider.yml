@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.SPFileActivityDataProvider'
+    name: SPFileActivityDataProvider
+    fullName: SPFileActivityDataProvider
+    children:
+      - '@ms/sp-tenant-admin-page.SPFileActivityDataProvider.getActivityCsvData'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.SPFileActivityDataProvider.getActivityCsvData'
+    name: getActivityCsvData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get the Graph API csv data asynchronously.
+    syntax:
+      content: function getActivityCsvData()
+      parameters: []
+      return:
+        type:
+          - Promise<string>

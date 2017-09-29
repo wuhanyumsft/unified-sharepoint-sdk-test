@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.TenantAdmin'
+    name: TenantAdmin
+    fullName: TenantAdmin
+    children:
+      - '@ms/sp-tenant-admin-page.TenantAdmin.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      The Tenant Admin main application.
+
+      This is the main entry of Tenant Admin project. This class is also
+      designed to be able to be inherited so
+
+      that its subclasses can be other entries if needed.
+    extends:
+      name: '@@ms/sp-tenant-admin-page.TenantAdmin'
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.TenantAdmin.constructor'
+    name: TenantAdmin
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new TenantAdmin()
+      parameters: []

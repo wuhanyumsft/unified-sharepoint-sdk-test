@@ -1,0 +1,83 @@
+### YamlMime:UniversalReference
+items:
+  - uid: sp-sample-webparts.ITodoListProps
+    name: ITodoListProps
+    fullName: ITodoListProps
+    children:
+      - sp-sample-webparts.ITodoListProps.items
+      - sp-sample-webparts.ITodoListProps.onDeleteItem
+      - sp-sample-webparts.ITodoListProps.onToggleComplete
+      - sp-sample-webparts.ITodoListProps.shouldShowCompletedBy
+      - sp-sample-webparts.ITodoListProps.shouldShowCreatedBy
+    langs:
+      - typeScript
+    type: interface
+    summary: Props of TodoList component.
+    package: sp-sample-webparts
+  - uid: sp-sample-webparts.ITodoListProps.items
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The Todo items rendered in this List component.
+    syntax:
+      content: 'ITodoTask[] items'
+      return:
+        type:
+          - '@sp-sample-webparts.ITodoTask[]'
+  - uid: sp-sample-webparts.ITodoListProps.onDeleteItem
+    name: onDeleteItem
+    fullName: onDeleteItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: onDeleteItem callback triggered when delete of one item is triggered.
+    syntax:
+      content: ItemOperationCallback onDeleteItem
+      return:
+        type:
+          - ItemOperationCallback
+  - uid: sp-sample-webparts.ITodoListProps.onToggleComplete
+    name: onToggleComplete
+    fullName: onToggleComplete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      onToggleComplete callback triggered when checkbox of one item is checked
+      or unchecekd.
+    syntax:
+      content: ItemOperationCallback onToggleComplete
+      return:
+        type:
+          - ItemOperationCallback
+  - uid: sp-sample-webparts.ITodoListProps.shouldShowCompletedBy
+    name: shouldShowCompletedBy
+    fullName: shouldShowCompletedBy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether to show who mark the task as complete.
+    syntax:
+      content: boolean shouldShowCompletedBy
+      return:
+        type:
+          - boolean
+  - uid: sp-sample-webparts.ITodoListProps.shouldShowCreatedBy
+    name: shouldShowCreatedBy
+    fullName: shouldShowCreatedBy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether to show who created the task.
+    syntax:
+      content: boolean shouldShowCreatedBy
+      return:
+        type:
+          - boolean

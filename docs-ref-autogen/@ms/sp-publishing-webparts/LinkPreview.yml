@@ -1,0 +1,96 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.LinkPreview'
+    name: LinkPreview
+    fullName: LinkPreview
+    children:
+      - '@ms/sp-publishing-webparts.LinkPreview.focusOnInputUrl'
+      - '@ms/sp-publishing-webparts.LinkPreview.getAccessibleTitle'
+      - '@ms/sp-publishing-webparts.LinkPreview.getMeta'
+      - '@ms/sp-publishing-webparts.LinkPreview.getPreviewImageUrl'
+      - '@ms/sp-publishing-webparts.LinkPreview.constructor'
+      - '@ms/sp-publishing-webparts.LinkPreview.render'
+    langs:
+      - typeScript
+    type: class
+    summary: A client side webpart to preview link
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.LinkPreview<@@ms/sp-publishing-webparts.ILinkPreviewProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.LinkPreview.focusOnInputUrl'
+    name: focusOnInputUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focusOnInputUrl()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.LinkPreview.getAccessibleTitle'
+    name: getAccessibleTitle
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns caption for accessible title or empty string if not set.
+    syntax:
+      content: function getAccessibleTitle()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.LinkPreview.getMeta'
+    name: getMeta
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns metaData about the link or undefined if not set.
+    syntax:
+      content: function getMeta()
+      parameters: []
+      return:
+        type:
+          - IEmbeddableUrlMetadata
+  - uid: '@ms/sp-publishing-webparts.LinkPreview.getPreviewImageUrl'
+    name: getPreviewImageUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns thumbnail url of link or empty if not set.
+    syntax:
+      content: function getPreviewImageUrl()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.LinkPreview.constructor'
+    name: LinkPreview
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new LinkPreview(props: ILinkPreviewProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.ILinkPreviewProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.LinkPreview.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

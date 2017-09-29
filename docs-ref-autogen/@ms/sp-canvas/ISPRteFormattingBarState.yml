@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ISPRteFormattingBarState'
+    name: ISPRteFormattingBarState
+    fullName: ISPRteFormattingBarState
+    children:
+      - '@ms/sp-canvas.ISPRteFormattingBarState.isFaded'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ISPRteFormattingBarState.isFaded'
+    name: isFaded
+    fullName: isFaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isFaded
+      return:
+        type:
+          - boolean

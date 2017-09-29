@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.IFontSizeHandlerConfig'
+    name: IFontSizeHandlerConfig
+    fullName: IFontSizeHandlerConfig
+    children:
+      - '@ms/sp-canvas.IFontSizeHandlerConfig.format'
+      - '@ms/sp-canvas.IFontSizeHandlerConfig.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-canvas.IFormatHandlerConfig'
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.IFontSizeHandlerConfig.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function format
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-canvas.IFontSizeHandlerConfig.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function value
+      return:
+        type:
+          - function

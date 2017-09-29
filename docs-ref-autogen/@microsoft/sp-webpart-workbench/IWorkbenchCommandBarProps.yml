@@ -1,0 +1,115 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-workbench.IWorkbenchCommandBarProps'
+    name: IWorkbenchCommandBarProps
+    fullName: IWorkbenchCommandBarProps
+    children:
+      - '@microsoft/sp-webpart-workbench.IWorkbenchCommandBarProps.clearPage'
+      - '@microsoft/sp-webpart-workbench.IWorkbenchCommandBarProps.isEditing'
+      - >-
+        @microsoft/sp-webpart-workbench.IWorkbenchCommandBarProps.onClickMobileView
+      - >-
+        @microsoft/sp-webpart-workbench.IWorkbenchCommandBarProps.onClickSerializeCanvasView
+      - >-
+        @microsoft/sp-webpart-workbench.IWorkbenchCommandBarProps.onClickTabletView
+      - '@microsoft/sp-webpart-workbench.IWorkbenchCommandBarProps.savePage'
+      - '@microsoft/sp-webpart-workbench.IWorkbenchCommandBarProps.toggleEdit'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-webpart-workbench'
+  - uid: '@microsoft/sp-webpart-workbench.IWorkbenchCommandBarProps.clearPage'
+    name: clearPage
+    fullName: clearPage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void clearPage
+      return:
+        type:
+          - () => void
+  - uid: '@microsoft/sp-webpart-workbench.IWorkbenchCommandBarProps.isEditing'
+    name: isEditing
+    fullName: isEditing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isEditing
+      return:
+        type:
+          - boolean
+  - uid: >-
+      @microsoft/sp-webpart-workbench.IWorkbenchCommandBarProps.onClickMobileView
+    name: onClickMobileView
+    fullName: onClickMobileView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onClickMobileView
+      return:
+        type:
+          - () => void
+  - uid: >-
+      @microsoft/sp-webpart-workbench.IWorkbenchCommandBarProps.onClickSerializeCanvasView
+    name: onClickSerializeCanvasView
+    fullName: onClickSerializeCanvasView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onClickSerializeCanvasView
+      return:
+        type:
+          - () => void
+  - uid: >-
+      @microsoft/sp-webpart-workbench.IWorkbenchCommandBarProps.onClickTabletView
+    name: onClickTabletView
+    fullName: onClickTabletView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onClickTabletView
+      return:
+        type:
+          - () => void
+  - uid: '@microsoft/sp-webpart-workbench.IWorkbenchCommandBarProps.savePage'
+    name: savePage
+    fullName: savePage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void savePage
+      return:
+        type:
+          - () => void
+  - uid: '@microsoft/sp-webpart-workbench.IWorkbenchCommandBarProps.toggleEdit'
+    name: toggleEdit
+    fullName: toggleEdit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void toggleEdit
+      return:
+        type:
+          - () => void

@@ -1,0 +1,14 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.SearchViewCountDataSource'
+    name: SearchViewCountDataSource
+    fullName: SearchViewCountDataSource
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-dataproviders.SearchDataProvider<@@ms/sp-dataproviders.ISearchViewCountsItem>
+    package: '@ms/sp-dataproviders'

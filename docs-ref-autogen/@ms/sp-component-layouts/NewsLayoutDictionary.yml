@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.NewsLayoutDictionary'
+    name: NewsLayoutDictionary
+    fullName: NewsLayoutDictionary
+    children:
+      - '@ms/sp-component-layouts.NewsLayoutDictionary.getIndex'
+      - '@ms/sp-component-layouts.NewsLayoutDictionary.getLayoutId'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-component-layouts'
+  - uid: '@ms/sp-component-layouts.NewsLayoutDictionary.getIndex'
+    name: getIndex
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getIndex(layout: NewsLayout)'
+      parameters:
+        - id: layout
+          type:
+            - NewsLayout
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-layouts.NewsLayoutDictionary.getLayoutId'
+    name: getLayoutId
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getLayoutId(layout: NewsLayout)'
+      parameters:
+        - id: layout
+          type:
+            - NewsLayout
+          description: ''
+      return:
+        type:
+          - string

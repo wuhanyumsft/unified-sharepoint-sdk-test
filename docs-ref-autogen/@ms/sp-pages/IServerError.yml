@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IServerError'
+    name: IServerError
+    fullName: IServerError
+    children:
+      - '@ms/sp-pages.IServerError.code'
+      - '@ms/sp-pages.IServerError.message'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IServerError.code'
+    name: code
+    fullName: code
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string code
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IServerError.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string message
+      return:
+        type:
+          - string

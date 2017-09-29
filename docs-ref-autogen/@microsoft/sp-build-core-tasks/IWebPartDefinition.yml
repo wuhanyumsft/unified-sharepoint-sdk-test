@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IWebPartDefinition'
+    name: IWebPartDefinition
+    fullName: IWebPartDefinition
+    children:
+      - '@microsoft/sp-build-core-tasks.IWebPartDefinition.entries'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.IWebPartDefinition.entries'
+    name: entries
+    fullName: entries
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IWebPartEntryDefinition[] entries'
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IWebPartEntryDefinition[]'

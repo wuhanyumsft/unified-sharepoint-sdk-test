@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.LogLevel'
+    name: LogLevel
+    fullName: LogLevel
+    children:
+      - '@ms/sp-telemetry.LogLevel.Error'
+      - '@ms/sp-telemetry.LogLevel.Info'
+      - '@ms/sp-telemetry.LogLevel.Verbose'
+      - '@ms/sp-telemetry.LogLevel.Warning'
+    langs:
+      - typeScript
+    type: enum
+    summary: LogLevel represents the level of a log event.
+    package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.LogLevel.Error'
+    name: Error
+    children: []
+    langs:
+      - typeScript
+    summary: An error
+    type: field
+  - uid: '@ms/sp-telemetry.LogLevel.Info'
+    name: Info
+    children: []
+    langs:
+      - typeScript
+    summary: Informational event
+    type: field
+  - uid: '@ms/sp-telemetry.LogLevel.Verbose'
+    name: Verbose
+    children: []
+    langs:
+      - typeScript
+    summary: verbose event for debugging
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-telemetry.LogLevel.Warning'
+    name: Warning
+    children: []
+    langs:
+      - typeScript
+    summary: A warning
+    type: field

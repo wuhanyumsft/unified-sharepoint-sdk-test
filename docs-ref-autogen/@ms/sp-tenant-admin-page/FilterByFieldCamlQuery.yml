@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.FilterByFieldCamlQuery'
+    name: FilterByFieldCamlQuery
+    fullName: FilterByFieldCamlQuery
+    children:
+      - '@ms/sp-tenant-admin-page.FilterByFieldCamlQuery.constructor'
+      - '@ms/sp-tenant-admin-page.FilterByFieldCamlQuery.generateCamlQueryString'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      FilterByFieldCamlQuery is used to generate the sub-elements in <Where> for
+      the same field.
+
+      For each Field, its value should be combined with <Or>.
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.FilterByFieldCamlQuery.constructor'
+    name: FilterByFieldCamlQuery
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new FilterByFieldCamlQuery(fieldName: string, selectedValues: string[])'
+      parameters:
+        - id: fieldName
+          type:
+            - string
+          description: ''
+        - id: selectedValues
+          type:
+            - 'string[]'
+          description: ''
+  - uid: '@ms/sp-tenant-admin-page.FilterByFieldCamlQuery.generateCamlQueryString'
+    name: generateCamlQueryString
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function generateCamlQueryString()
+      parameters: []
+      return:
+        type:
+          - string

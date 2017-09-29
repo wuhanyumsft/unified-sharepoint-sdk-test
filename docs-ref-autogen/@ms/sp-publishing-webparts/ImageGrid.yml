@@ -1,0 +1,84 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ImageGrid'
+    name: ImageGrid
+    fullName: ImageGrid<T>
+    children:
+      - '@ms/sp-publishing-webparts.ImageGrid.componentDidMount'
+      - '@ms/sp-publishing-webparts.ImageGrid.componentDidUpdate'
+      - '@ms/sp-publishing-webparts.ImageGrid.componentWillReceiveProps'
+      - '@ms/sp-publishing-webparts.ImageGrid.constructor'
+      - '@ms/sp-publishing-webparts.ImageGrid.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.ImageGrid<@@ms/sp-publishing-webparts.IImageGridProps<T>>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ImageGrid.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.ImageGrid.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentDidUpdate(prevProps: IImageGridProps<T>)'
+      parameters:
+        - id: prevProps
+          type:
+            - '@@ms/sp-publishing-webparts.IImageGridProps<T>'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.ImageGrid.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: IImageGridProps<T>)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-publishing-webparts.IImageGridProps<T>'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.ImageGrid.constructor'
+    name: ImageGrid
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ImageGrid(props: IImageGridProps<T>)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IImageGridProps<T>'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.ImageGrid.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

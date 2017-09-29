@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.ContentRollupDataProvider'
+    name: ContentRollupDataProvider
+    fullName: ContentRollupDataProvider
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: 'TODO: Consider moving this logic to ContentRollupWebPart.ts'
+    extends:
+      name: '@@ms/sp-dataproviders.SearchDataProvider<@@ms/sp-dataproviders.IContent>'
+    package: '@ms/sp-dataproviders'

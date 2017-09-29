@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.ITestHarnessConfig'
+    name: ITestHarnessConfig
+    fullName: ITestHarnessConfig
+    children:
+      - '@ms/sp-build-internal-tasks.ITestHarnessConfig.ConfigFile'
+      - '@ms/sp-build-internal-tasks.ITestHarnessConfig.GetVersion'
+      - '@ms/sp-build-internal-tasks.ITestHarnessConfig.NotifyFinished'
+      - '@ms/sp-build-internal-tasks.ITestHarnessConfig.ReportFrame'
+      - '@ms/sp-build-internal-tasks.ITestHarnessConfig.ReportLog'
+      - '@ms/sp-build-internal-tasks.ITestHarnessConfig.Settings'
+      - '@ms/sp-build-internal-tasks.ITestHarnessConfig.TestsToRun'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.ITestHarnessConfig.ConfigFile'
+    name: ConfigFile
+    fullName: ConfigFile
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ConfigFile
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ITestHarnessConfig.GetVersion'
+    name: GetVersion
+    fullName: GetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string GetVersion
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ITestHarnessConfig.NotifyFinished'
+    name: NotifyFinished
+    fullName: NotifyFinished
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string NotifyFinished
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ITestHarnessConfig.ReportFrame'
+    name: ReportFrame
+    fullName: ReportFrame
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ReportFrame
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ITestHarnessConfig.ReportLog'
+    name: ReportLog
+    fullName: ReportLog
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ReportLog
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ITestHarnessConfig.Settings'
+    name: Settings
+    fullName: Settings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ITabTestSettings Settings
+      return:
+        type:
+          - '@@ms/sp-build-internal-tasks.ITabTestSettings'
+  - uid: '@ms/sp-build-internal-tasks.ITestHarnessConfig.TestsToRun'
+    name: TestsToRun
+    fullName: TestsToRun
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] TestsToRun'
+      return:
+        type:
+          - 'string[]'

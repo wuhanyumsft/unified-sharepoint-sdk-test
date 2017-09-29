@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IPageTitleProps'
+    name: IPageTitleProps
+    fullName: IPageTitleProps
+    children:
+      - '@ms/sp-tenant-admin-page.IPageTitleProps.description'
+      - '@ms/sp-tenant-admin-page.IPageTitleProps.hasBottomDivider'
+      - '@ms/sp-tenant-admin-page.IPageTitleProps.onRenderDescription'
+      - '@ms/sp-tenant-admin-page.IPageTitleProps.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IPageTitleProps.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string description
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IPageTitleProps.hasBottomDivider'
+    name: hasBottomDivider
+    fullName: hasBottomDivider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasBottomDivider
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IPageTitleProps.onRenderDescription'
+    name: onRenderDescription
+    fullName: onRenderDescription
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => Element onRenderDescription
+      return:
+        type:
+          - () => Element
+  - uid: '@ms/sp-tenant-admin-page.IPageTitleProps.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

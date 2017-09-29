@@ -1,0 +1,68 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksMigrationManager'
+    name: QuickLinksMigrationManager
+    fullName: QuickLinksMigrationManager
+    children:
+      - '@ms/sp-teamsite-webparts.QuickLinksMigrationManager.init'
+      - '@ms/sp-teamsite-webparts.QuickLinksMigrationManager.migrate'
+      - '@ms/sp-teamsite-webparts.QuickLinksMigrationManager.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksMigrationManager.init'
+    name: init
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function init(displayMode: DisplayMode)'
+      parameters:
+        - id: displayMode
+          type:
+            - DisplayMode
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksMigrationManager.migrate'
+    name: migrate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function migrate()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksMigrationManager.constructor'
+    name: QuickLinksMigrationManager
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new QuickLinksMigrationManager(context: WebPartContext, properties:
+        IQuickLinksWebPartProps, refreshEvent: () => void)
+      parameters:
+        - id: context
+          type:
+            - WebPartContext
+          description: ''
+        - id: properties
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLinksWebPartProps'
+          description: ''
+        - id: refreshEvent
+          type:
+            - () => void
+          description: ''

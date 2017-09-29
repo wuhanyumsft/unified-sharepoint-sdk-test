@@ -1,0 +1,91 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pagepicker.PagePickerComponent'
+    name: PagePickerComponent
+    fullName: PagePickerComponent
+    children:
+      - '@ms/sp-pagepicker.PagePickerComponent.close'
+      - '@ms/sp-pagepicker.PagePickerComponent.componentDidUpdate'
+      - '@ms/sp-pagepicker.PagePickerComponent.open'
+      - '@ms/sp-pagepicker.PagePickerComponent.constructor'
+      - '@ms/sp-pagepicker.PagePickerComponent.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-pagepicker.PagePickerComponent<@@ms/sp-pagepicker.IPagePickerComponentProps>
+    package: '@ms/sp-pagepicker'
+  - uid: '@ms/sp-pagepicker.PagePickerComponent.close'
+    name: close
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function close()
+      parameters: []
+  - uid: '@ms/sp-pagepicker.PagePickerComponent.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function componentDidUpdate(prevProps: IPagePickerComponentProps,
+        prevState: IPagePickerComponentState)
+      parameters:
+        - id: prevProps
+          type:
+            - '@@ms/sp-pagepicker.IPagePickerComponentProps'
+          description: ''
+        - id: prevState
+          type:
+            - '@@ms/sp-pagepicker.IPagePickerComponentState'
+          description: ''
+  - uid: '@ms/sp-pagepicker.PagePickerComponent.open'
+    name: open
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function open(link?: ILink)'
+      parameters:
+        - id: link
+          type:
+            - '@@ms/sp-pagepicker.ILink'
+          description: ''
+          optional: true
+  - uid: '@ms/sp-pagepicker.PagePickerComponent.constructor'
+    name: PagePickerComponent
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PagePickerComponent(props: IPagePickerComponentProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pagepicker.IPagePickerComponentProps'
+          description: ''
+  - uid: '@ms/sp-pagepicker.PagePickerComponent.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@ms/sp-pagepicker.IPagePickerComponentProps>

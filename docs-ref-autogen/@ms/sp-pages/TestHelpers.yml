@@ -1,0 +1,333 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.TestHelpers'
+    name: TestHelpers
+    fullName: TestHelpers
+    children:
+      - '@ms/sp-pages.TestHelpers.controlData'
+      - '@ms/sp-pages.TestHelpers.document'
+      - '@ms/sp-pages.TestHelpers.header'
+      - '@ms/sp-pages.TestHelpers.imageLarge'
+      - '@ms/sp-pages.TestHelpers.imageSmall'
+      - '@ms/sp-pages.TestHelpers.sitePage'
+      - '@ms/sp-pages.TestHelpers.spDocument'
+      - '@ms/sp-pages.TestHelpers.spImageLarge'
+      - '@ms/sp-pages.TestHelpers.spImageSmall'
+      - '@ms/sp-pages.TestHelpers.spTextBullet'
+      - '@ms/sp-pages.TestHelpers.spTextFormatted'
+      - '@ms/sp-pages.TestHelpers.spTextHeader'
+      - '@ms/sp-pages.TestHelpers.spTextHyperlink'
+      - '@ms/sp-pages.TestHelpers.spTextNumber'
+      - '@ms/sp-pages.TestHelpers.spTextPullQuote'
+      - '@ms/sp-pages.TestHelpers.spVideo'
+      - '@ms/sp-pages.TestHelpers.textBullet'
+      - '@ms/sp-pages.TestHelpers.textFormatted'
+      - '@ms/sp-pages.TestHelpers.textHeader'
+      - '@ms/sp-pages.TestHelpers.textHyperlink'
+      - '@ms/sp-pages.TestHelpers.textNumber'
+      - '@ms/sp-pages.TestHelpers.textPullQuote'
+      - '@ms/sp-pages.TestHelpers.video'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.TestHelpers.controlData'
+    name: controlData
+    fullName: controlData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static IControlData[] controlData'
+      return:
+        type:
+          - '@@ms/sp-pages.IControlData[]'
+  - uid: '@ms/sp-pages.TestHelpers.document'
+    name: document
+    fullName: document
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static IControlData document
+      return:
+        type:
+          - '@@ms/sp-pages.IControlData'
+  - uid: '@ms/sp-pages.TestHelpers.header'
+    name: header
+    fullName: header
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static IControlData header
+      return:
+        type:
+          - '@@ms/sp-pages.IControlData'
+  - uid: '@ms/sp-pages.TestHelpers.imageLarge'
+    name: imageLarge
+    fullName: imageLarge
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static IControlData imageLarge
+      return:
+        type:
+          - '@@ms/sp-pages.IControlData'
+  - uid: '@ms/sp-pages.TestHelpers.imageSmall'
+    name: imageSmall
+    fullName: imageSmall
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static IControlData imageSmall
+      return:
+        type:
+          - '@@ms/sp-pages.IControlData'
+  - uid: '@ms/sp-pages.TestHelpers.sitePage'
+    name: sitePage
+    fullName: sitePage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static ICanvasControl[] sitePage'
+      return:
+        type:
+          - 'ICanvasControl[]'
+  - uid: '@ms/sp-pages.TestHelpers.spDocument'
+    name: spDocument
+    fullName: spDocument
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ICanvasControl spDocument
+      return:
+        type:
+          - ICanvasControl
+  - uid: '@ms/sp-pages.TestHelpers.spImageLarge'
+    name: spImageLarge
+    fullName: spImageLarge
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ICanvasControl spImageLarge
+      return:
+        type:
+          - ICanvasControl
+  - uid: '@ms/sp-pages.TestHelpers.spImageSmall'
+    name: spImageSmall
+    fullName: spImageSmall
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ICanvasControl spImageSmall
+      return:
+        type:
+          - ICanvasControl
+  - uid: '@ms/sp-pages.TestHelpers.spTextBullet'
+    name: spTextBullet
+    fullName: spTextBullet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ICanvasControl spTextBullet
+      return:
+        type:
+          - ICanvasControl
+  - uid: '@ms/sp-pages.TestHelpers.spTextFormatted'
+    name: spTextFormatted
+    fullName: spTextFormatted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ICanvasControl spTextFormatted
+      return:
+        type:
+          - ICanvasControl
+  - uid: '@ms/sp-pages.TestHelpers.spTextHeader'
+    name: spTextHeader
+    fullName: spTextHeader
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ICanvasControl spTextHeader
+      return:
+        type:
+          - ICanvasControl
+  - uid: '@ms/sp-pages.TestHelpers.spTextHyperlink'
+    name: spTextHyperlink
+    fullName: spTextHyperlink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ICanvasControl spTextHyperlink
+      return:
+        type:
+          - ICanvasControl
+  - uid: '@ms/sp-pages.TestHelpers.spTextNumber'
+    name: spTextNumber
+    fullName: spTextNumber
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ICanvasControl spTextNumber
+      return:
+        type:
+          - ICanvasControl
+  - uid: '@ms/sp-pages.TestHelpers.spTextPullQuote'
+    name: spTextPullQuote
+    fullName: spTextPullQuote
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ICanvasControl spTextPullQuote
+      return:
+        type:
+          - ICanvasControl
+  - uid: '@ms/sp-pages.TestHelpers.spVideo'
+    name: spVideo
+    fullName: spVideo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ICanvasControl spVideo
+      return:
+        type:
+          - ICanvasControl
+  - uid: '@ms/sp-pages.TestHelpers.textBullet'
+    name: textBullet
+    fullName: textBullet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static IControlData textBullet
+      return:
+        type:
+          - '@@ms/sp-pages.IControlData'
+  - uid: '@ms/sp-pages.TestHelpers.textFormatted'
+    name: textFormatted
+    fullName: textFormatted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static IControlData textFormatted
+      return:
+        type:
+          - '@@ms/sp-pages.IControlData'
+  - uid: '@ms/sp-pages.TestHelpers.textHeader'
+    name: textHeader
+    fullName: textHeader
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static IControlData textHeader
+      return:
+        type:
+          - '@@ms/sp-pages.IControlData'
+  - uid: '@ms/sp-pages.TestHelpers.textHyperlink'
+    name: textHyperlink
+    fullName: textHyperlink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static IControlData textHyperlink
+      return:
+        type:
+          - '@@ms/sp-pages.IControlData'
+  - uid: '@ms/sp-pages.TestHelpers.textNumber'
+    name: textNumber
+    fullName: textNumber
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static IControlData textNumber
+      return:
+        type:
+          - '@@ms/sp-pages.IControlData'
+  - uid: '@ms/sp-pages.TestHelpers.textPullQuote'
+    name: textPullQuote
+    fullName: textPullQuote
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static IControlData textPullQuote
+      return:
+        type:
+          - '@@ms/sp-pages.IControlData'
+  - uid: '@ms/sp-pages.TestHelpers.video'
+    name: video
+    fullName: video
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static IControlData video
+      return:
+        type:
+          - '@@ms/sp-pages.IControlData'

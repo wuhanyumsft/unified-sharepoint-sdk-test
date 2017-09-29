@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-shared.IOAuthUtilityErrorContext'
+    name: IOAuthUtilityErrorContext
+    fullName: IOAuthUtilityErrorContext
+    children:
+      - '@ms/sp-client-shared.IOAuthUtilityErrorContext.correlationId'
+      - '@ms/sp-client-shared.IOAuthUtilityErrorContext.cultureName'
+      - '@ms/sp-client-shared.IOAuthUtilityErrorContext.httpResponseStatus'
+      - '@ms/sp-client-shared.IOAuthUtilityErrorContext.message'
+      - '@ms/sp-client-shared.IOAuthUtilityErrorContext.redirectUrl'
+      - '@ms/sp-client-shared.IOAuthUtilityErrorContext.serverErrorCode'
+    langs:
+      - typeScript
+    type: interface
+    summary: Additional error data to be used by the caller
+    package: '@ms/sp-client-shared'
+  - uid: '@ms/sp-client-shared.IOAuthUtilityErrorContext.correlationId'
+    name: correlationId
+    fullName: correlationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc OAuthUtilityError.correlationId}'
+    syntax:
+      content: string correlationId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-shared.IOAuthUtilityErrorContext.cultureName'
+    name: cultureName
+    fullName: cultureName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc OAuthUtilityError.cultureName}'
+    syntax:
+      content: string cultureName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-shared.IOAuthUtilityErrorContext.httpResponseStatus'
+    name: httpResponseStatus
+    fullName: httpResponseStatus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc OAuthUtilityError.httpResponseStatus}'
+    syntax:
+      content: number httpResponseStatus
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-client-shared.IOAuthUtilityErrorContext.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc OAuthUtilityError.message}'
+    syntax:
+      content: string message
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-shared.IOAuthUtilityErrorContext.redirectUrl'
+    name: redirectUrl
+    fullName: redirectUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc OAuthUtilityError.redirectUrl}'
+    syntax:
+      content: string redirectUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-shared.IOAuthUtilityErrorContext.serverErrorCode'
+    name: serverErrorCode
+    fullName: serverErrorCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc OAuthUtilityError.serverErrorCode}'
+    syntax:
+      content: number serverErrorCode
+      return:
+        type:
+          - number

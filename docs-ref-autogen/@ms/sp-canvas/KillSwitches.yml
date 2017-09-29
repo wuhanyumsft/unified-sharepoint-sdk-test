@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.KillSwitches'
+    name: KillSwitches
+    fullName: KillSwitches
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-canvas'

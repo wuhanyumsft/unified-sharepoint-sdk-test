@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/repo-toolbox.RepoToolboxCommandLineParser'
+    name: RepoToolboxCommandLineParser
+    fullName: RepoToolboxCommandLineParser
+    children:
+      - '@ms/repo-toolbox.RepoToolboxCommandLineParser.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/repo-toolbox.RepoToolboxCommandLineParser'
+    package: '@ms/repo-toolbox'
+  - uid: '@ms/repo-toolbox.RepoToolboxCommandLineParser.constructor'
+    name: RepoToolboxCommandLineParser
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new RepoToolboxCommandLineParser()
+      parameters: []

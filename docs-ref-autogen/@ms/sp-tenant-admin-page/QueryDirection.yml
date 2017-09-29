@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.QueryDirection'
+    name: QueryDirection
+    fullName: QueryDirection
+    children:
+      - '@ms/sp-tenant-admin-page.QueryDirection.NONE'
+      - '@ms/sp-tenant-admin-page.QueryDirection.ASC'
+      - '@ms/sp-tenant-admin-page.QueryDirection.DESC'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.QueryDirection.NONE'
+    name: NONE
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+  - uid: '@ms/sp-tenant-admin-page.QueryDirection.ASC'
+    name: ASC
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-tenant-admin-page.QueryDirection.DESC'
+    name: DESC
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2

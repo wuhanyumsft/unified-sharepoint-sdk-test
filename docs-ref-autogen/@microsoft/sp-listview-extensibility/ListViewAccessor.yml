@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-listview-extensibility.ListViewAccessor'
+    name: ListViewAccessor
+    fullName: ListViewAccessor
+    children:
+      - '@microsoft/sp-listview-extensibility.ListViewAccessor.constructor'
+      - '@microsoft/sp-listview-extensibility.ListViewAccessor.tryGetColumnByName'
+    langs:
+      - typeScript
+    type: class
+    summary: Provides access to a SharePoint ListView control.
+    package: '@microsoft/sp-listview-extensibility'
+  - uid: '@microsoft/sp-listview-extensibility.ListViewAccessor.constructor'
+    name: ListViewAccessor
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new ListViewAccessor()
+      parameters: []
+  - uid: '@microsoft/sp-listview-extensibility.ListViewAccessor.tryGetColumnByName'
+    name: tryGetColumnByName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns the list view column corresponding to the field with the specified
+      internal name,
+
+      or undefined if none is found.
+    syntax:
+      content: 'function tryGetColumnByName(internalName: string)'
+      parameters:
+        - id: internalName
+          type:
+            - string
+          description: ''

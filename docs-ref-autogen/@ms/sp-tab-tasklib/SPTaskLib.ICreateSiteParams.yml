@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.ICreateSiteParams'
+    name: ICreateSiteParams
+    fullName: ICreateSiteParams
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.ICreateSiteParams.description'
+      - '@ms/sp-tab-tasklib.SPTaskLib.ICreateSiteParams.designPackage'
+      - '@ms/sp-tab-tasklib.SPTaskLib.ICreateSiteParams.groupId'
+      - '@ms/sp-tab-tasklib.SPTaskLib.ICreateSiteParams.name'
+      - '@ms/sp-tab-tasklib.SPTaskLib.ICreateSiteParams.privacy'
+      - '@ms/sp-tab-tasklib.SPTaskLib.ICreateSiteParams.siteUrl'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.ICreateSiteParams.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string description
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.ICreateSiteParams.designPackage'
+    name: designPackage
+    fullName: designPackage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DesignPackageOption designPackage
+      return:
+        type:
+          - DesignPackageOption
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.ICreateSiteParams.groupId'
+    name: groupId
+    fullName: groupId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string groupId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.ICreateSiteParams.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.ICreateSiteParams.privacy'
+    name: privacy
+    fullName: privacy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: GroupPrivacyOption privacy
+      return:
+        type:
+          - GroupPrivacyOption
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.ICreateSiteParams.siteUrl'
+    name: siteUrl
+    fullName: siteUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteUrl
+      return:
+        type:
+          - string

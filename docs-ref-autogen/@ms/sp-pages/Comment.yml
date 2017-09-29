@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.Comment'
+    name: Comment
+    fullName: Comment
+    children:
+      - '@ms/sp-pages.Comment.constructor'
+      - '@ms/sp-pages.Comment.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.Comment<@@ms/sp-pages.ICommentTextProps>'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.Comment.constructor'
+    name: Comment
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Comment(props: ICommentTextProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.ICommentTextProps'
+          description: ''
+  - uid: '@ms/sp-pages.Comment.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

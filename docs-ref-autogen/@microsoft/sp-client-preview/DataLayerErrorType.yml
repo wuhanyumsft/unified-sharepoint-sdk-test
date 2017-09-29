@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-client-preview.DataLayerErrorType'
+    name: DataLayerErrorType
+    fullName: DataLayerErrorType
+    children:
+      - '@microsoft/sp-client-preview.DataLayerErrorType.ParseError'
+      - '@microsoft/sp-client-preview.DataLayerErrorType.ResponseError'
+      - '@microsoft/sp-client-preview.DataLayerErrorType.TimeOutError'
+      - '@microsoft/sp-client-preview.DataLayerErrorType.TransportError'
+      - '@microsoft/sp-client-preview.DataLayerErrorType.UnknownError'
+    langs:
+      - typeScript
+    type: enum
+    summary: Represents the type of datalayer error
+    package: '@microsoft/sp-client-preview'
+  - uid: '@microsoft/sp-client-preview.DataLayerErrorType.ParseError'
+    name: ParseError
+    children: []
+    langs:
+      - typeScript
+    summary: Error parsing the response
+    type: field
+  - uid: '@microsoft/sp-client-preview.DataLayerErrorType.ResponseError'
+    name: ResponseError
+    children: []
+    langs:
+      - typeScript
+    summary: HTTP status code not in the 200 -> 300 range
+    type: field
+  - uid: '@microsoft/sp-client-preview.DataLayerErrorType.TimeOutError'
+    name: TimeOutError
+    children: []
+    langs:
+      - typeScript
+    summary: Timeout
+    type: field
+  - uid: '@microsoft/sp-client-preview.DataLayerErrorType.TransportError'
+    name: TransportError
+    children: []
+    langs:
+      - typeScript
+    summary: XMLHttpRequest.onError transport level failure
+    type: field
+  - uid: '@microsoft/sp-client-preview.DataLayerErrorType.UnknownError'
+    name: UnknownError
+    children: []
+    langs:
+      - typeScript
+    summary: Unknown error. This should never happen. Means unhandled error
+    type: field

@@ -1,0 +1,2355 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.Global'
+    package: '@ms/sp-pages'
+    name: Global
+    children:
+      - '@ms/sp-pages.addFieldsToUpdate'
+      - '@ms/sp-pages.addPageLayoutMapping'
+      - '@ms/sp-pages.AttachmentItem'
+      - '@ms/sp-pages.AttachmentList'
+      - '@ms/sp-pages.blockUntilNextFrame'
+      - '@ms/sp-pages.changeMode'
+      - '@ms/sp-pages.changePageLayout'
+      - '@ms/sp-pages.checkRequireJSLoaded'
+      - '@ms/sp-pages.cleanRequireJS'
+      - '@ms/sp-pages.clearAllDOMElements'
+      - '@ms/sp-pages.clearEventHandlers'
+      - '@ms/sp-pages.clearFieldsToUpdate'
+      - '@ms/sp-pages.clearOnEvents'
+      - '@ms/sp-pages.clearThemeState'
+      - '@ms/sp-pages.commitPendingUpdates'
+      - '@ms/sp-pages.convertToDisplayDate'
+      - '@ms/sp-pages.createHistory'
+      - '@ms/sp-pages.createMetaNodes'
+      - '@ms/sp-pages.createRouter'
+      - '@ms/sp-pages.createRouter'
+      - '@ms/sp-pages.createStub'
+      - '@ms/sp-pages.DeleteMenuButton'
+      - '@ms/sp-pages.designPackageReducer'
+      - '@ms/sp-pages.designPackageSlicer'
+      - '@ms/sp-pages.displayCategory'
+      - '@ms/sp-pages.displayModeReducer'
+      - '@ms/sp-pages.displayModeSlicer'
+      - '@ms/sp-pages.displayPageContent'
+      - '@ms/sp-pages.doPrepareWorkBeforeOnePageNav'
+      - '@ms/sp-pages.editMode'
+      - '@ms/sp-pages.endTransition'
+      - '@ms/sp-pages.EventCategory'
+      - '@ms/sp-pages.EventDate'
+      - '@ms/sp-pages.EventLocation'
+      - '@ms/sp-pages.eventPageLoader'
+      - '@ms/sp-pages.eventsPageLoader'
+      - '@ms/sp-pages.fallbackToNormalNavigation'
+      - '@ms/sp-pages.firstRunReducer'
+      - '@ms/sp-pages.firstRunSlicer'
+      - '@ms/sp-pages.fixPageContextForOnePage'
+      - '@ms/sp-pages.fixUpBrowserLocation'
+      - '@ms/sp-pages.GCBeforeOnePageNavigation'
+      - '@ms/sp-pages.generateLikers'
+      - '@ms/sp-pages.getFallbackLocation'
+      - '@ms/sp-pages.getLocation'
+      - '@ms/sp-pages.getOnePageContext'
+      - '@ms/sp-pages.getOnePageNavUrl'
+      - '@ms/sp-pages.getPortfolioSiteHomePageContent'
+      - '@ms/sp-pages.getReportSiteHomePageContent'
+      - '@ms/sp-pages.isMounted'
+      - '@ms/sp-pages.isNewsSearchFlighted'
+      - '@ms/sp-pages.isoDateStrToBrowserLocalDate'
+      - '@ms/sp-pages.isSearchLink'
+      - '@ms/sp-pages.isSearchLocation'
+      - '@ms/sp-pages.isUserPreferredTimeZoneKillSwitchActivated'
+      - '@ms/sp-pages.isUserPreferredTimeZoneKillSwitchForEventsPageActivated'
+      - '@ms/sp-pages.isValidURL'
+      - '@ms/sp-pages.LikeButton'
+      - '@ms/sp-pages.LikedByList'
+      - '@ms/sp-pages.LikedByList'
+      - '@ms/sp-pages.LikedByMessage'
+      - '@ms/sp-pages.loadOnePageNavigationContextDataProvider'
+      - '@ms/sp-pages.loadPageLayoutMapping'
+      - '@ms/sp-pages.loadPageTemplates'
+      - '@ms/sp-pages.loadPrefetchModule'
+      - '@ms/sp-pages.loadRequireJS'
+      - '@ms/sp-pages.loadSPListModule'
+      - '@ms/sp-pages.loadSpPageTest'
+      - '@ms/sp-pages.MigrateBlogDialogContent'
+      - '@ms/sp-pages.mimirIsFlighted'
+      - '@ms/sp-pages.mobileUpsellViewLoader'
+      - '@ms/sp-pages.navigationReducer'
+      - '@ms/sp-pages.navigationSlicer'
+      - '@ms/sp-pages.newPageFromServer'
+      - '@ms/sp-pages.notifyHistoryListeners'
+      - '@ms/sp-pages.onLoad'
+      - '@ms/sp-pages.pageFieldReducer'
+      - '@ms/sp-pages.pageFieldSlicer'
+      - '@ms/sp-pages.pageLayoutReducer'
+      - '@ms/sp-pages.pageLayoutSlicer'
+      - '@ms/sp-pages.pageStatusReducer'
+      - '@ms/sp-pages.pageStatusSlicer'
+      - '@ms/sp-pages.PanelBody'
+      - '@ms/sp-pages.PanelBody'
+      - '@ms/sp-pages.PanelHeader'
+      - '@ms/sp-pages.PanelHeader'
+      - '@ms/sp-pages.performOnePageNavigation'
+      - '@ms/sp-pages.performOnePageNavigationInternal'
+      - '@ms/sp-pages.PersonaCell'
+      - '@ms/sp-pages.PersonaCell'
+      - '@ms/sp-pages.prefetchOnComplete'
+      - '@ms/sp-pages.preloadOnePageResources'
+      - '@ms/sp-pages.preloadOnePageResourcesInternal'
+      - '@ms/sp-pages.PreloadPageLayout'
+      - '@ms/sp-pages.queue'
+      - '@ms/sp-pages.raiseFirstRun'
+      - '@ms/sp-pages.ReactionBar'
+      - '@ms/sp-pages.readMode'
+      - '@ms/sp-pages.reduce'
+      - '@ms/sp-pages.removeDOMNodes'
+      - '@ms/sp-pages.renderPhaseReducer'
+      - '@ms/sp-pages.renderPhaseSlicer'
+      - '@ms/sp-pages.ReplyButton'
+      - '@ms/sp-pages.REPORTSITE_ARTICLEPAGECONTENTMULTICOLUMN'
+      - '@ms/sp-pages.routeReducer'
+      - '@ms/sp-pages.routeSlicer'
+      - '@ms/sp-pages.runPrefetch'
+      - '@ms/sp-pages.runRequireConfig'
+      - '@ms/sp-pages.searchBoxVNextIsFlighted'
+      - '@ms/sp-pages.searchIsFlighted'
+      - '@ms/sp-pages.searchPageLoader'
+      - '@ms/sp-pages.seeAllPageLoader'
+      - '@ms/sp-pages.setChromeOptions'
+      - '@ms/sp-pages.setFields'
+      - '@ms/sp-pages.setFileName'
+      - '@ms/sp-pages.setMode'
+      - '@ms/sp-pages.setPublishingStatusFields'
+      - '@ms/sp-pages.setSaveStatus'
+      - '@ms/sp-pages.shouldCenterAlign'
+      - '@ms/sp-pages.shouldUse24HourFormat'
+      - '@ms/sp-pages.skillSearchIsFlighted'
+      - '@ms/sp-pages.startDeferredComponents'
+      - '@ms/sp-pages.startTransition'
+      - '@ms/sp-pages.TooltipContent'
+      - '@ms/sp-pages.updateDocumentTitle'
+      - '@ms/sp-pages.updateTitleRenameStatus'
+      - '@ms/sp-pages.userPreferredTimeZone'
+      - '@ms/sp-pages.webViewCommunicatorLoader'
+      - '@ms/sp-pages.webViewPreloadLoader'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@ms/sp-pages.addFieldsToUpdate'
+    name: addFieldsToUpdate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addFieldsToUpdate(pageFieldSlice: IPageFieldSlice, action:
+        BaseAction)
+      parameters:
+        - id: pageFieldSlice
+          type:
+            - '@@ms/sp-pages.IPageFieldSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IPageFieldSlice'
+  - uid: '@ms/sp-pages.addPageLayoutMapping'
+    name: addPageLayoutMapping
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addPageLayoutMapping(pageLayoutSlice: IPageLayoutSlice, action:
+        BaseAction)
+      parameters:
+        - id: pageLayoutSlice
+          type:
+            - '@@ms/sp-pages.IPageLayoutSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IPageLayoutSlice'
+  - uid: '@ms/sp-pages.AttachmentItem'
+    name: AttachmentItem
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function AttachmentItem(props: IAttachmentItemProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.IAttachmentItemProps'
+          description: ''
+      return:
+        type:
+          - ReactElement<@@ms/sp-pages.IAttachmentItemProps>
+  - uid: '@ms/sp-pages.AttachmentList'
+    name: AttachmentList
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function AttachmentList(props: IAttachmentListProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.IAttachmentListProps'
+          description: ''
+      return:
+        type:
+          - ReactElement<@@ms/sp-pages.IAttachmentListProps>
+  - uid: '@ms/sp-pages.blockUntilNextFrame'
+    name: blockUntilNextFrame
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function blockUntilNextFrame(func: (args: any[]) => void)'
+      parameters:
+        - id: func
+          type:
+            - '(args: any[]) => void'
+          description: ''
+  - uid: '@ms/sp-pages.changeMode'
+    name: changeMode
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function changeMode(displayModeSlice: IDisplayModeSlice, action:
+        BaseAction)
+      parameters:
+        - id: displayModeSlice
+          type:
+            - '@@ms/sp-pages.IDisplayModeSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IDisplayModeSlice'
+  - uid: '@ms/sp-pages.changePageLayout'
+    name: changePageLayout
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function changePageLayout(pageLayoutSlice: IPageLayoutSlice, action:
+        BaseAction)
+      parameters:
+        - id: pageLayoutSlice
+          type:
+            - '@@ms/sp-pages.IPageLayoutSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IPageLayoutSlice'
+  - uid: '@ms/sp-pages.checkRequireJSLoaded'
+    name: checkRequireJSLoaded
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function checkRequireJSLoaded(global: any)'
+      parameters:
+        - id: global
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.cleanRequireJS'
+    name: cleanRequireJS
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function cleanRequireJS(global: any)'
+      parameters:
+        - id: global
+          type:
+            - any
+          description: ''
+  - uid: '@ms/sp-pages.clearAllDOMElements'
+    name: clearAllDOMElements
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clearAllDOMElements()
+      parameters: []
+  - uid: '@ms/sp-pages.clearEventHandlers'
+    name: clearEventHandlers
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clearEventHandlers()
+      parameters: []
+  - uid: '@ms/sp-pages.clearFieldsToUpdate'
+    name: clearFieldsToUpdate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function clearFieldsToUpdate(pageFieldSlice: IPageFieldSlice, action:
+        BaseAction)
+      parameters:
+        - id: pageFieldSlice
+          type:
+            - '@@ms/sp-pages.IPageFieldSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IPageFieldSlice'
+  - uid: '@ms/sp-pages.clearOnEvents'
+    name: clearOnEvents
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function clearOnEvents(eventTarget: HTMLElement)'
+      parameters:
+        - id: eventTarget
+          type:
+            - HTMLElement
+          description: ''
+  - uid: '@ms/sp-pages.clearThemeState'
+    name: clearThemeState
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clearThemeState()
+      parameters: []
+  - uid: '@ms/sp-pages.commitPendingUpdates'
+    name: commitPendingUpdates
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function commitPendingUpdates(pageFieldSlice: IPageFieldSlice, action:
+        BaseAction)
+      parameters:
+        - id: pageFieldSlice
+          type:
+            - '@@ms/sp-pages.IPageFieldSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IPageFieldSlice'
+  - uid: '@ms/sp-pages.convertToDisplayDate'
+    name: convertToDisplayDate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      The browser local time of the display date equals the user-timeZone local
+      time of input date.
+    syntax:
+      content: 'function convertToDisplayDate(date: Date)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: The date to be converted
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-pages.createHistory'
+    name: createHistory
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function createHistory()
+      parameters: []
+      return:
+        type:
+          - History
+  - uid: '@ms/sp-pages.createMetaNodes'
+    name: createMetaNodes
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function createMetaNodes()
+      parameters: []
+  - uid: '@ms/sp-pages.createRouter'
+    name: createRouter
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function createRouter()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@ms/sp-pages.Router>
+  - uid: '@ms/sp-pages.createRouter'
+    name: createRouter
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function createRouter()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.createStub'
+    name: createStub
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createStub(pageFieldSlice: IPageFieldSlice, action: BaseAction)'
+      parameters:
+        - id: pageFieldSlice
+          type:
+            - '@@ms/sp-pages.IPageFieldSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IPageFieldSlice'
+  - uid: '@ms/sp-pages.DeleteMenuButton'
+    name: DeleteMenuButton
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function DeleteMenuButton(props: IReactionButtonProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.IReactionButtonProps'
+          description: ''
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.designPackageReducer'
+    name: designPackageReducer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function designPackageReducer(designPackageSlice: IDesignPackageSlice,
+        action: BaseAction)
+      parameters:
+        - id: designPackageSlice
+          type:
+            - '@@ms/sp-pages.IDesignPackageSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IDesignPackageSlice'
+  - uid: '@ms/sp-pages.designPackageSlicer'
+    name: designPackageSlicer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function designPackageSlicer(__namedParameters: function)'
+      parameters:
+        - id: __namedParameters
+          type:
+            - function
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IDesignPackageSlice'
+  - uid: '@ms/sp-pages.displayCategory'
+    name: displayCategory
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function displayCategory(category: string)'
+      parameters:
+        - id: category
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.displayModeReducer'
+    name: displayModeReducer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function displayModeReducer(mode: IDisplayModeSlice, action: BaseAction)'
+      parameters:
+        - id: mode
+          type:
+            - '@@ms/sp-pages.IDisplayModeSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IDisplayModeSlice'
+  - uid: '@ms/sp-pages.displayModeSlicer'
+    name: displayModeSlicer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function displayModeSlicer(__namedParameters: function)'
+      parameters:
+        - id: __namedParameters
+          type:
+            - function
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IDisplayModeSlice'
+  - uid: '@ms/sp-pages.displayPageContent'
+    name: displayPageContent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function displayPageContent(display: boolean, onePageContext:
+        IOnePageNavigationContext)
+      parameters:
+        - id: display
+          type:
+            - boolean
+          description: ''
+        - id: onePageContext
+          type:
+            - '@@ms/sp-pages.IOnePageNavigationContext'
+          description: ''
+  - uid: '@ms/sp-pages.doPrepareWorkBeforeOnePageNav'
+    name: doPrepareWorkBeforeOnePageNav
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function doPrepareWorkBeforeOnePageNav(onePageContext:
+        IOnePageNavigationContext)
+      parameters:
+        - id: onePageContext
+          type:
+            - '@@ms/sp-pages.IOnePageNavigationContext'
+          description: ''
+  - uid: '@ms/sp-pages.editMode'
+    name: editMode
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function editMode(routeSlice: IRouteSlice, action: BaseAction)'
+      parameters:
+        - id: routeSlice
+          type:
+            - '@@ms/sp-pages.IRouteSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IRouteSlice'
+  - uid: '@ms/sp-pages.endTransition'
+    name: endTransition
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function endTransition(routeSlice: IRouteSlice, action: BaseAction)'
+      parameters:
+        - id: routeSlice
+          type:
+            - '@@ms/sp-pages.IRouteSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IRouteSlice'
+  - uid: '@ms/sp-pages.EventCategory'
+    name: EventCategory
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function EventCategory(props: IEventCategoryProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.IEventCategoryProps'
+          description: ''
+      return:
+        type:
+          - ReactElement<@@ms/sp-pages.IEventCategoryProps>
+  - uid: '@ms/sp-pages.EventDate'
+    name: EventDate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function EventDate(props: IEventDateProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.IEventDateProps'
+          description: ''
+      return:
+        type:
+          - ReactElement<@@ms/sp-pages.IEventDateProps>
+  - uid: '@ms/sp-pages.EventLocation'
+    name: EventLocation
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function EventLocation(props: IEventLocationProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.IEventLocationProps'
+          description: ''
+      return:
+        type:
+          - ReactElement<@@ms/sp-pages.IEventLocationProps>
+  - uid: '@ms/sp-pages.eventPageLoader'
+    name: eventPageLoader
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventPageLoader()
+      parameters: []
+      return:
+        type:
+          - Promise<ComponentClass<__type>>
+  - uid: '@ms/sp-pages.eventsPageLoader'
+    name: eventsPageLoader
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventsPageLoader()
+      parameters: []
+      return:
+        type:
+          - Promise<ComponentClass<__type>>
+  - uid: '@ms/sp-pages.fallbackToNormalNavigation'
+    name: fallbackToNormalNavigation
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function fallbackToNormalNavigation(originalNavUrl: string, error:
+        Error)
+      parameters:
+        - id: originalNavUrl
+          type:
+            - string
+          description: ''
+        - id: error
+          type:
+            - Error
+          description: ''
+  - uid: '@ms/sp-pages.firstRunReducer'
+    name: firstRunReducer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function firstRunReducer(firstRunSlice: IFirstRunSlice, action:
+        BaseAction)
+      parameters:
+        - id: firstRunSlice
+          type:
+            - '@@ms/sp-pages.IFirstRunSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IFirstRunSlice'
+  - uid: '@ms/sp-pages.firstRunSlicer'
+    name: firstRunSlicer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function firstRunSlicer(__namedParameters: function)'
+      parameters:
+        - id: __namedParameters
+          type:
+            - function
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IFirstRunSlice'
+  - uid: '@ms/sp-pages.fixPageContextForOnePage'
+    name: fixPageContextForOnePage
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function fixPageContextForOnePage(onePageContext:
+        IOnePageNavigationContext, spPageContext: ISpPageContext)
+      parameters:
+        - id: onePageContext
+          type:
+            - '@@ms/sp-pages.IOnePageNavigationContext'
+          description: ''
+        - id: spPageContext
+          type:
+            - ISpPageContext
+          description: ''
+      return:
+        type:
+          - ISpPageContext
+  - uid: '@ms/sp-pages.fixUpBrowserLocation'
+    name: fixUpBrowserLocation
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fixUpBrowserLocation(onePageContext: IOnePageNavigationContext)'
+      parameters:
+        - id: onePageContext
+          type:
+            - '@@ms/sp-pages.IOnePageNavigationContext'
+          description: ''
+  - uid: '@ms/sp-pages.GCBeforeOnePageNavigation'
+    name: GCBeforeOnePageNavigation
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function GCBeforeOnePageNavigation()
+      parameters: []
+  - uid: '@ms/sp-pages.generateLikers'
+    name: generateLikers
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function generateLikers(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+  - uid: '@ms/sp-pages.getFallbackLocation'
+    name: getFallbackLocation
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getFallbackLocation(pm: PageManager)'
+      parameters:
+        - id: pm
+          type:
+            - '@@ms/sp-pages.PageManager'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.getLocation'
+    name: getLocation
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getLocation()
+      parameters: []
+      return:
+        type:
+          - Promise<function>
+  - uid: '@ms/sp-pages.getOnePageContext'
+    name: getOnePageContext
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getOnePageContext()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-pages.IOnePageNavigationContext>
+  - uid: '@ms/sp-pages.getOnePageNavUrl'
+    name: getOnePageNavUrl
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getOnePageNavUrl(href: string)'
+      parameters:
+        - id: href
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-pages.getPortfolioSiteHomePageContent'
+    name: getPortfolioSiteHomePageContent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getPortfolioSiteHomePageContent(context: any)'
+      parameters:
+        - id: context
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.getReportSiteHomePageContent'
+    name: getReportSiteHomePageContent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getReportSiteHomePageContent(context: any)'
+      parameters:
+        - id: context
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.isMounted'
+    name: isMounted
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isMounted()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.isNewsSearchFlighted'
+    name: isNewsSearchFlighted
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isNewsSearchFlighted()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.isoDateStrToBrowserLocalDate'
+    name: isoDateStrToBrowserLocalDate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isoDateStrToBrowserLocalDate(isoDateStr: string)'
+      parameters:
+        - id: isoDateStr
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-pages.isSearchLink'
+    name: isSearchLink
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isSearchLink(anchor: HTMLAnchorElement)'
+      parameters:
+        - id: anchor
+          type:
+            - HTMLAnchorElement
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.isSearchLocation'
+    name: isSearchLocation
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isSearchLocation(location?: Location)'
+      parameters:
+        - id: location
+          type:
+            - Location
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.isUserPreferredTimeZoneKillSwitchActivated'
+    name: isUserPreferredTimeZoneKillSwitchActivated
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isUserPreferredTimeZoneKillSwitchActivated()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.isUserPreferredTimeZoneKillSwitchForEventsPageActivated'
+    name: isUserPreferredTimeZoneKillSwitchForEventsPageActivated
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isUserPreferredTimeZoneKillSwitchForEventsPageActivated()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.isValidURL'
+    name: isValidURL
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isValidURL(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.LikeButton'
+    name: LikeButton
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function LikeButton(props: IReactionButtonProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.IReactionButtonProps'
+          description: ''
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.LikedByList'
+    name: LikedByList
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function LikedByList(props: ISocialBarPanelProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.ISocialBarPanelProps'
+          description: ''
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.LikedByList'
+    name: LikedByList
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function LikedByList(props: ILikedByPanelProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.ILikedByPanelProps'
+          description: ''
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.LikedByMessage'
+    name: LikedByMessage
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function LikedByMessage(props: ILikeMessageProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.ILikeMessageProps'
+          description: ''
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.loadOnePageNavigationContextDataProvider'
+    name: loadOnePageNavigationContextDataProvider
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function loadOnePageNavigationContextDataProvider()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-pages.OnePageNavigationContextDataProvider'
+  - uid: '@ms/sp-pages.loadPageLayoutMapping'
+    name: loadPageLayoutMapping
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function loadPageLayoutMapping(pageLayoutSlice: IPageLayoutSlice,
+        action: BaseAction)
+      parameters:
+        - id: pageLayoutSlice
+          type:
+            - '@@ms/sp-pages.IPageLayoutSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IPageLayoutSlice'
+  - uid: '@ms/sp-pages.loadPageTemplates'
+    name: loadPageTemplates
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function loadPageTemplates(designPackageSlice: IDesignPackageSlice,
+        action: BaseAction)
+      parameters:
+        - id: designPackageSlice
+          type:
+            - '@@ms/sp-pages.IDesignPackageSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IDesignPackageSlice'
+  - uid: '@ms/sp-pages.loadPrefetchModule'
+    name: loadPrefetchModule
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function loadPrefetchModule(onePageContext: IOnePageNavigationContext)'
+      parameters:
+        - id: onePageContext
+          type:
+            - '@@ms/sp-pages.IOnePageNavigationContext'
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-pages.IOnePageNavigationContext>
+  - uid: '@ms/sp-pages.loadRequireJS'
+    name: loadRequireJS
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function loadRequireJS(requireJSPath: string)'
+      parameters:
+        - id: requireJSPath
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<IRequire>
+  - uid: '@ms/sp-pages.loadSPListModule'
+    name: loadSPListModule
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function loadSPListModule(onePageContext: IOnePageNavigationContext)'
+      parameters:
+        - id: onePageContext
+          type:
+            - '@@ms/sp-pages.IOnePageNavigationContext'
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-pages.IOnePageNavigationContext>
+  - uid: '@ms/sp-pages.loadSpPageTest'
+    name: loadSpPageTest
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function loadSpPageTest(context: any)'
+      parameters:
+        - id: context
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - Promise<any>
+  - uid: '@ms/sp-pages.MigrateBlogDialogContent'
+    name: MigrateBlogDialogContent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function MigrateBlogDialogContent(props: IMigrateBlogDialogContentProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.IMigrateBlogDialogContentProps'
+          description: ''
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-pages.mimirIsFlighted'
+    name: mimirIsFlighted
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function mimirIsFlighted()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.mobileUpsellViewLoader'
+    name: mobileUpsellViewLoader
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function mobileUpsellViewLoader()
+      parameters: []
+      return:
+        type:
+          - Promise<ComponentClass<__type>>
+  - uid: '@ms/sp-pages.navigationReducer'
+    name: navigationReducer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function navigationReducer(navSlice: INavigationSlice, action:
+        BaseAction)
+      parameters:
+        - id: navSlice
+          type:
+            - '@@ms/sp-pages.INavigationSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.INavigationSlice'
+  - uid: '@ms/sp-pages.navigationSlicer'
+    name: navigationSlicer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function navigationSlicer(__namedParameters: function)'
+      parameters:
+        - id: __namedParameters
+          type:
+            - function
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.INavigationSlice'
+  - uid: '@ms/sp-pages.newPageFromServer'
+    name: newPageFromServer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function newPageFromServer(pageFieldSlice: IPageFieldSlice, action:
+        BaseAction)
+      parameters:
+        - id: pageFieldSlice
+          type:
+            - '@@ms/sp-pages.IPageFieldSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IPageFieldSlice'
+  - uid: '@ms/sp-pages.notifyHistoryListeners'
+    name: notifyHistoryListeners
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function notifyHistoryListeners()
+      parameters: []
+  - uid: '@ms/sp-pages.onLoad'
+    name: onLoad
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onLoad(main: any)'
+      parameters:
+        - id: main
+          type:
+            - any
+          description: ''
+  - uid: '@ms/sp-pages.pageFieldReducer'
+    name: pageFieldReducer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function pageFieldReducer(pageFieldSlice: IPageFieldSlice, action:
+        BaseAction)
+      parameters:
+        - id: pageFieldSlice
+          type:
+            - '@@ms/sp-pages.IPageFieldSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IPageFieldSlice'
+  - uid: '@ms/sp-pages.pageFieldSlicer'
+    name: pageFieldSlicer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function pageFieldSlicer(__namedParameters: function)'
+      parameters:
+        - id: __namedParameters
+          type:
+            - function
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IPageFieldSlice'
+  - uid: '@ms/sp-pages.pageLayoutReducer'
+    name: pageLayoutReducer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function pageLayoutReducer(pageLayoutSlice: IPageLayoutSlice, action:
+        BaseAction)
+      parameters:
+        - id: pageLayoutSlice
+          type:
+            - '@@ms/sp-pages.IPageLayoutSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IPageLayoutSlice'
+  - uid: '@ms/sp-pages.pageLayoutSlicer'
+    name: pageLayoutSlicer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function pageLayoutSlicer(__namedParameters: function)'
+      parameters:
+        - id: __namedParameters
+          type:
+            - function
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IPageLayoutSlice'
+  - uid: '@ms/sp-pages.pageStatusReducer'
+    name: pageStatusReducer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function pageStatusReducer(pageStatusSlice: IPageStatusSlice, action:
+        BaseAction)
+      parameters:
+        - id: pageStatusSlice
+          type:
+            - '@@ms/sp-pages.IPageStatusSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IPageStatusSlice'
+  - uid: '@ms/sp-pages.pageStatusSlicer'
+    name: pageStatusSlicer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function pageStatusSlicer(__namedParameters: function)'
+      parameters:
+        - id: __namedParameters
+          type:
+            - function
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IPageStatusSlice'
+  - uid: '@ms/sp-pages.PanelBody'
+    name: PanelBody
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function PanelBody(props: ILikedByPanelProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.ILikedByPanelProps'
+          description: ''
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.PanelBody'
+    name: PanelBody
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function PanelBody(props: ISocialBarPanelProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.ISocialBarPanelProps'
+          description: ''
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.PanelHeader'
+    name: PanelHeader
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function PanelHeader(props: ISocialBarPanelProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.ISocialBarPanelProps'
+          description: ''
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.PanelHeader'
+    name: PanelHeader
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function PanelHeader()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.performOnePageNavigation'
+    name: performOnePageNavigation
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function performOnePageNavigation(navLinkElement: HTMLElement)'
+      parameters:
+        - id: navLinkElement
+          type:
+            - HTMLElement
+          description: ''
+  - uid: '@ms/sp-pages.performOnePageNavigationInternal'
+    name: performOnePageNavigationInternal
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function performOnePageNavigationInternal(onePageContext:
+        IOnePageNavigationContext)
+      parameters:
+        - id: onePageContext
+          type:
+            - '@@ms/sp-pages.IOnePageNavigationContext'
+          description: ''
+  - uid: '@ms/sp-pages.PersonaCell'
+    name: PersonaCell
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function PersonaCell(user: IUserObject)'
+      parameters:
+        - id: user
+          type:
+            - '@@ms/sp-pages.IUserObject'
+          description: ''
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.PersonaCell'
+    name: PersonaCell
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function PersonaCell(user: IUserObject)'
+      parameters:
+        - id: user
+          type:
+            - '@@ms/sp-pages.IUserObject'
+          description: ''
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.prefetchOnComplete'
+    name: prefetchOnComplete
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prefetchOnComplete(prefetchResult: ISPListPrefetchResult,
+        onePageContext: IOnePageNavigationContext)
+      parameters:
+        - id: prefetchResult
+          type:
+            - '@@ms/sp-pages.ISPListPrefetchResult'
+          description: ''
+        - id: onePageContext
+          type:
+            - '@@ms/sp-pages.IOnePageNavigationContext'
+          description: ''
+  - uid: '@ms/sp-pages.preloadOnePageResources'
+    name: preloadOnePageResources
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function preloadOnePageResources()
+      parameters: []
+  - uid: '@ms/sp-pages.preloadOnePageResourcesInternal'
+    name: preloadOnePageResourcesInternal
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function preloadOnePageResourcesInternal(onePageContext:
+        IOnePageNavigationContext)
+      parameters:
+        - id: onePageContext
+          type:
+            - '@@ms/sp-pages.IOnePageNavigationContext'
+          description: ''
+  - uid: '@ms/sp-pages.PreloadPageLayout'
+    name: PreloadPageLayout
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function PreloadPageLayout()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.queue'
+    name: queue
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      A high order function to return a function that will queue the `func` call
+      in sequence when multiple calls happen.
+    syntax:
+      content: 'function queue<T>(func: () => Promise<T>)'
+      parameters:
+        - id: func
+          type:
+            - () => Promise<T>
+          description: the function call. It must return a `Promise`.
+  - uid: '@ms/sp-pages.raiseFirstRun'
+    name: raiseFirstRun
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function raiseFirstRun(firstRunSlice: IFirstRunSlice, action:
+        BaseAction)
+      parameters:
+        - id: firstRunSlice
+          type:
+            - '@@ms/sp-pages.IFirstRunSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IFirstRunSlice'
+  - uid: '@ms/sp-pages.ReactionBar'
+    name: ReactionBar
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function ReactionBar(props: IReactionBarProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.IReactionBarProps'
+          description: ''
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.readMode'
+    name: readMode
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function readMode(routeSlice: IRouteSlice, action: BaseAction)'
+      parameters:
+        - id: routeSlice
+          type:
+            - '@@ms/sp-pages.IRouteSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IRouteSlice'
+  - uid: '@ms/sp-pages.reduce'
+    name: reduce
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: 'A generic function to invoke, if exists, a reducer.'
+    syntax:
+      content: 'function reduce<S>(map: Map<ActionTypes>, state: S, action: BaseAction)'
+      parameters:
+        - id: map
+          type:
+            - Map<ActionTypes>
+          description: A map of ActionTypes to Reducer functions.
+        - id: state
+          type:
+            - S
+          description: The initial state.
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: |
+            The dispatched action.
+      return:
+        type:
+          - S
+  - uid: '@ms/sp-pages.removeDOMNodes'
+    name: removeDOMNodes
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeDOMNodes(nodesToBeRemoved: HTMLElement[])'
+      parameters:
+        - id: nodesToBeRemoved
+          type:
+            - 'HTMLElement[]'
+          description: ''
+  - uid: '@ms/sp-pages.renderPhaseReducer'
+    name: renderPhaseReducer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function renderPhaseReducer(renderPhase: IRenderPhaseSlice, action:
+        BaseAction)
+      parameters:
+        - id: renderPhase
+          type:
+            - '@@ms/sp-pages.IRenderPhaseSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IRenderPhaseSlice'
+  - uid: '@ms/sp-pages.renderPhaseSlicer'
+    name: renderPhaseSlicer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function renderPhaseSlicer(__namedParameters: function)'
+      parameters:
+        - id: __namedParameters
+          type:
+            - function
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IRenderPhaseSlice'
+  - uid: '@ms/sp-pages.ReplyButton'
+    name: ReplyButton
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function ReplyButton(props: IReactionButtonProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.IReactionButtonProps'
+          description: ''
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.REPORTSITE_ARTICLEPAGECONTENTMULTICOLUMN'
+    name: REPORTSITE_ARTICLEPAGECONTENTMULTICOLUMN
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function REPORTSITE_ARTICLEPAGECONTENTMULTICOLUMN(context: any)'
+      parameters:
+        - id: context
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.routeReducer'
+    name: routeReducer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function routeReducer(routeSlice: IRouteSlice, action: BaseAction)'
+      parameters:
+        - id: routeSlice
+          type:
+            - '@@ms/sp-pages.IRouteSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IRouteSlice'
+  - uid: '@ms/sp-pages.routeSlicer'
+    name: routeSlicer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function routeSlicer(__namedParameters: function)'
+      parameters:
+        - id: __namedParameters
+          type:
+            - function
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IRouteSlice'
+  - uid: '@ms/sp-pages.runPrefetch'
+    name: runPrefetch
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function runPrefetch(onePageContext: IOnePageNavigationContext)'
+      parameters:
+        - id: onePageContext
+          type:
+            - '@@ms/sp-pages.IOnePageNavigationContext'
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-pages.ISPListPrefetchResult>
+  - uid: '@ms/sp-pages.runRequireConfig'
+    name: runRequireConfig
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function runRequireConfig(onePageContext: IOnePageNavigationContext)'
+      parameters:
+        - id: onePageContext
+          type:
+            - '@@ms/sp-pages.IOnePageNavigationContext'
+          description: ''
+  - uid: '@ms/sp-pages.searchBoxVNextIsFlighted'
+    name: searchBoxVNextIsFlighted
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function searchBoxVNextIsFlighted()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.searchIsFlighted'
+    name: searchIsFlighted
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function searchIsFlighted()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.searchPageLoader'
+    name: searchPageLoader
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function searchPageLoader()
+      parameters: []
+      return:
+        type:
+          - Promise<ComponentClass<__type>>
+  - uid: '@ms/sp-pages.seeAllPageLoader'
+    name: seeAllPageLoader
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function seeAllPageLoader()
+      parameters: []
+      return:
+        type:
+          - Promise<ComponentClass<__type>>
+  - uid: '@ms/sp-pages.setChromeOptions'
+    name: setChromeOptions
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function setChromeOptions(designPackageSlice: IDesignPackageSlice,
+        action: BaseAction)
+      parameters:
+        - id: designPackageSlice
+          type:
+            - '@@ms/sp-pages.IDesignPackageSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IDesignPackageSlice'
+  - uid: '@ms/sp-pages.setFields'
+    name: setFields
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setFields(pageFieldSlice: IPageFieldSlice, action: BaseAction)'
+      parameters:
+        - id: pageFieldSlice
+          type:
+            - '@@ms/sp-pages.IPageFieldSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IPageFieldSlice'
+  - uid: '@ms/sp-pages.setFileName'
+    name: setFileName
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function setFileName(pageFieldSlice: IPageFieldSlice, action:
+        BaseAction)
+      parameters:
+        - id: pageFieldSlice
+          type:
+            - '@@ms/sp-pages.IPageFieldSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IPageFieldSlice'
+  - uid: '@ms/sp-pages.setMode'
+    name: setMode
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function setMode(mode: DisplayMode, routeSlice: IRouteSlice,
+        replaceMode: boolean)
+      parameters:
+        - id: mode
+          type:
+            - DisplayMode
+          description: ''
+        - id: routeSlice
+          type:
+            - '@@ms/sp-pages.IRouteSlice'
+          description: ''
+        - id: replaceMode
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IRouteSlice'
+  - uid: '@ms/sp-pages.setPublishingStatusFields'
+    name: setPublishingStatusFields
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function setPublishingStatusFields(pageFieldSlice: IPageFieldSlice,
+        action: BaseAction)
+      parameters:
+        - id: pageFieldSlice
+          type:
+            - '@@ms/sp-pages.IPageFieldSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IPageFieldSlice'
+  - uid: '@ms/sp-pages.setSaveStatus'
+    name: setSaveStatus
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function setSaveStatus(pageStatusSlice: IPageStatusSlice, action:
+        BaseAction)
+      parameters:
+        - id: pageStatusSlice
+          type:
+            - '@@ms/sp-pages.IPageStatusSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IPageStatusSlice'
+  - uid: '@ms/sp-pages.shouldCenterAlign'
+    name: shouldCenterAlign
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function shouldCenterAlign()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.shouldUse24HourFormat'
+    name: shouldUse24HourFormat
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function shouldUse24HourFormat()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.skillSearchIsFlighted'
+    name: skillSearchIsFlighted
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function skillSearchIsFlighted()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.startDeferredComponents'
+    name: startDeferredComponents
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function startDeferredComponents(slice: IRenderPhaseSlice, action:
+        BaseAction)
+      parameters:
+        - id: slice
+          type:
+            - '@@ms/sp-pages.IRenderPhaseSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IRenderPhaseSlice'
+  - uid: '@ms/sp-pages.startTransition'
+    name: startTransition
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function startTransition(routeSlice: IRouteSlice, action: BaseAction)'
+      parameters:
+        - id: routeSlice
+          type:
+            - '@@ms/sp-pages.IRouteSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IRouteSlice'
+  - uid: '@ms/sp-pages.TooltipContent'
+    name: TooltipContent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function TooltipContent(props: ILikeMessageProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.ILikeMessageProps'
+          description: ''
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.updateDocumentTitle'
+    name: updateDocumentTitle
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function updateDocumentTitle(title: string, pageLayoutType: string)'
+      parameters:
+        - id: title
+          type:
+            - string
+          description: ''
+        - id: pageLayoutType
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.updateTitleRenameStatus'
+    name: updateTitleRenameStatus
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function updateTitleRenameStatus(pageFieldSlice: IPageFieldSlice,
+        action: BaseAction)
+      parameters:
+        - id: pageFieldSlice
+          type:
+            - '@@ms/sp-pages.IPageFieldSlice'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-pages.IPageFieldSlice'
+  - uid: '@ms/sp-pages.userPreferredTimeZone'
+    name: userPreferredTimeZone
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function userPreferredTimeZone()
+      parameters: []
+      return:
+        type:
+          - SPTimeZone
+  - uid: '@ms/sp-pages.webViewCommunicatorLoader'
+    name: webViewCommunicatorLoader
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function webViewCommunicatorLoader()
+      parameters: []
+      return:
+        type:
+          - Promise<any>
+  - uid: '@ms/sp-pages.webViewPreloadLoader'
+    name: webViewPreloadLoader
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function webViewPreloadLoader()
+      parameters: []
+      return:
+        type:
+          - Promise<ComponentClass<__type>>

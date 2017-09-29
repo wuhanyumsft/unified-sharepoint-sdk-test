@@ -1,0 +1,72 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.InitializerSearchbox'
+    name: InitializerSearchbox
+    fullName: InitializerSearchbox
+    children:
+      - '@ms/sp-pages.InitializerSearchbox.componentDidMount'
+      - '@ms/sp-pages.InitializerSearchbox.componentWillMount'
+      - '@ms/sp-pages.InitializerSearchbox.componentWillUnmount'
+      - '@ms/sp-pages.InitializerSearchbox.constructor'
+      - '@ms/sp-pages.InitializerSearchbox.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-pages.InitializerSearchbox<@@ms/sp-pages.IInitilizerSearchBoxProps>
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.InitializerSearchbox.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-pages.InitializerSearchbox.componentWillMount'
+    name: componentWillMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillMount()
+      parameters: []
+  - uid: '@ms/sp-pages.InitializerSearchbox.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-pages.InitializerSearchbox.constructor'
+    name: InitializerSearchbox
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new InitializerSearchbox()
+      parameters: []
+  - uid: '@ms/sp-pages.InitializerSearchbox.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

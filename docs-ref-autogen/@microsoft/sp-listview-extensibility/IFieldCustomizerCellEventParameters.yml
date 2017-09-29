@@ -1,0 +1,77 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-listview-extensibility.IFieldCustomizerCellEventParameters'
+    name: IFieldCustomizerCellEventParameters
+    fullName: IFieldCustomizerCellEventParameters
+    children:
+      - >-
+        @microsoft/sp-listview-extensibility.IFieldCustomizerCellEventParameters.domElement
+      - >-
+        @microsoft/sp-listview-extensibility.IFieldCustomizerCellEventParameters.fieldValue
+      - >-
+        @microsoft/sp-listview-extensibility.IFieldCustomizerCellEventParameters.listItem
+      - >-
+        @microsoft/sp-listview-extensibility.IFieldCustomizerCellEventParameters.userData
+    langs:
+      - typeScript
+    type: interface
+    summary: Event parmeters for BaseFieldCustomizer.onRenderCell()
+    package: '@microsoft/sp-listview-extensibility'
+  - uid: >-
+      @microsoft/sp-listview-extensibility.IFieldCustomizerCellEventParameters.domElement
+    name: domElement
+    fullName: domElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The HTML "div" element that the extension will take ownership of.
+      This ownership will end when onDisposeCell() is called.
+    syntax:
+      content: HTMLDivElement domElement
+      return:
+        type:
+          - HTMLDivElement
+  - uid: >-
+      @microsoft/sp-listview-extensibility.IFieldCustomizerCellEventParameters.fieldValue
+    name: fieldValue
+    fullName: fieldValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The value of the field being rendered.
+    syntax:
+      content: any fieldValue
+      return:
+        type:
+          - any
+  - uid: >-
+      @microsoft/sp-listview-extensibility.IFieldCustomizerCellEventParameters.listItem
+    name: listItem
+    fullName: listItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The list item being edited.
+    syntax:
+      content: ListItemAccessor listItem
+      return:
+        type:
+          - '@@microsoft/sp-listview-extensibility.ListItemAccessor'
+  - uid: >-
+      @microsoft/sp-listview-extensibility.IFieldCustomizerCellEventParameters.userData
+    name: userData
+    fullName: userData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: An implementor-defined storage property.
+    syntax:
+      content: any userData
+      return:
+        type:
+          - any

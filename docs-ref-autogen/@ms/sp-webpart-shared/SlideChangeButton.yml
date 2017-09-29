@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.SlideChangeButton'
+    name: SlideChangeButton
+    fullName: SlideChangeButton
+    children:
+      - '@ms/sp-webpart-shared.SlideChangeButton.componentDidUpdate'
+      - '@ms/sp-webpart-shared.SlideChangeButton.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-webpart-shared.SlideChangeButton<@@ms/sp-webpart-shared.ISlideChangeButtonProps>
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.SlideChangeButton.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+  - uid: '@ms/sp-webpart-shared.SlideChangeButton.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IImageEditControlProps'
+    name: IImageEditControlProps
+    fullName: IImageEditControlProps
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-publishing-webparts.ISPImageProps'
+    package: '@ms/sp-publishing-webparts'

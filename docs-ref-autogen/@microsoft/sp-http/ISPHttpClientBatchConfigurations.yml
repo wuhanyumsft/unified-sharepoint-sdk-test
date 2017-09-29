@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.ISPHttpClientBatchConfigurations'
+    name: ISPHttpClientBatchConfigurations
+    fullName: ISPHttpClientBatchConfigurations
+    children:
+      - '@microsoft/sp-http.ISPHttpClientBatchConfigurations.v1'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      This interface provides standard predefined SPHttpClientBatchConfiguration
+      objects for use with
+
+      the SPHttpClientBatch class.  In general, clients should choose the latest
+      available
+
+      version number, which enables all the switches that are recommended for
+      typical
+
+      scenarios.  (If new switches are introduced in the future, a new version
+      number
+
+      will be introduced, which ensures that existing code will continue to
+      function the
+
+      way it did at the time when it was tested.)
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.ISPHttpClientBatchConfigurations.v1'
+    name: v1
+    fullName: v1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Version 1 enables these switches:
+      consoleLogging = true;
+      jsonRequest = true;
+      jsonResponse = true
+    syntax:
+      content: SPHttpClientBatchConfiguration v1
+      return:
+        type:
+          - '@@microsoft/sp-http.SPHttpClientBatchConfiguration'

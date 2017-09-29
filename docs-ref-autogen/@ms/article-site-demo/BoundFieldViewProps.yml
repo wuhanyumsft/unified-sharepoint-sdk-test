@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/article-site-demo.BoundFieldViewProps'
+    name: BoundFieldViewProps
+    fullName: BoundFieldViewProps
+    children:
+      - '@ms/article-site-demo.BoundFieldViewProps.boundFieldId'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/article-site-demo.EditableViewProps'
+    package: '@ms/article-site-demo'
+  - uid: '@ms/article-site-demo.BoundFieldViewProps.boundFieldId'
+    name: boundFieldId
+    fullName: boundFieldId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string boundFieldId
+      return:
+        type:
+          - string

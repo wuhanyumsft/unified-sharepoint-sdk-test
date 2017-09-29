@@ -1,0 +1,97 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.IButtonOptions'
+    name: IButtonOptions
+    fullName: IButtonOptions
+    children:
+      - '@ms/sp-component-utilities.IButtonOptions.ariaLabel'
+      - '@ms/sp-component-utilities.IButtonOptions.disabled'
+      - '@ms/sp-component-utilities.IButtonOptions.href'
+      - '@ms/sp-component-utilities.IButtonOptions.label'
+      - '@ms/sp-component-utilities.IButtonOptions.onClick'
+      - '@ms/sp-component-utilities.IButtonOptions.show'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.IButtonOptions.ariaLabel'
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Aria label.
+    syntax:
+      content: string ariaLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IButtonOptions.disabled'
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Set to true to disable the button or link, defaults to false.'
+    syntax:
+      content: boolean disabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-utilities.IButtonOptions.href'
+    name: href
+    fullName: href
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Page to navigate to if the element (button or link) is pressed.
+    syntax:
+      content: string href
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IButtonOptions.label'
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Button label.
+    syntax:
+      content: string label
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.IButtonOptions.onClick'
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optionally provide a method to get invoked when the element (button or
+      link) is clicked.
+    syntax:
+      content: '(ev: MouseEvent<HTMLAnchorElement>) => void onClick'
+      return:
+        type:
+          - '(ev: MouseEvent<HTMLAnchorElement>) => void'
+  - uid: '@ms/sp-component-utilities.IButtonOptions.show'
+    name: show
+    fullName: show
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Set to true to render the element (button or link).
+    syntax:
+      content: boolean show
+      return:
+        type:
+          - boolean

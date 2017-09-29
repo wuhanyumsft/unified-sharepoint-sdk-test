@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ILazyPageState'
+    name: ILazyPageState
+    fullName: ILazyPageState
+    children:
+      - '@ms/sp-tenant-admin-page.ILazyPageState.innerComponent'
+      - '@ms/sp-tenant-admin-page.ILazyPageState.lazyPartLoaded'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ILazyPageState.innerComponent'
+    name: innerComponent
+    fullName: innerComponent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any innerComponent
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-tenant-admin-page.ILazyPageState.lazyPartLoaded'
+    name: lazyPartLoaded
+    fullName: lazyPartLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean lazyPartLoaded
+      return:
+        type:
+          - boolean

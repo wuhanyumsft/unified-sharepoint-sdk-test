@@ -1,0 +1,113 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.IToolboxActionManager'
+    name: IToolboxActionManager
+    fullName: IToolboxActionManager
+    children:
+      - '@ms/sp-canvas-toolbox.IToolboxActionManager.clickItem'
+      - '@ms/sp-canvas-toolbox.IToolboxActionManager.closeToolbox'
+      - '@ms/sp-canvas-toolbox.IToolboxActionManager.collapseToolbox'
+      - '@ms/sp-canvas-toolbox.IToolboxActionManager.expandToolbox'
+      - '@ms/sp-canvas-toolbox.IToolboxActionManager.filter'
+      - '@ms/sp-canvas-toolbox.IToolboxActionManager.openToolbox'
+      - '@ms/sp-canvas-toolbox.IToolboxActionManager.switchToolboxLargeView'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas-toolbox'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxActionManager.clickItem'
+    name: clickItem
+    fullName: clickItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(control: ICanvasControl) => void clickItem'
+      return:
+        type:
+          - '(control: ICanvasControl) => void'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxActionManager.closeToolbox'
+    name: closeToolbox
+    fullName: closeToolbox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(isKeyboard: boolean) => void closeToolbox'
+      return:
+        type:
+          - '(isKeyboard: boolean) => void'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxActionManager.collapseToolbox'
+    name: collapseToolbox
+    fullName: collapseToolbox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void collapseToolbox
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-canvas-toolbox.IToolboxActionManager.expandToolbox'
+    name: expandToolbox
+    fullName: expandToolbox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void expandToolbox
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-canvas-toolbox.IToolboxActionManager.filter'
+    name: filter
+    fullName: filter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(query: string) => void filter'
+      return:
+        type:
+          - '(query: string) => void'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxActionManager.openToolbox'
+    name: openToolbox
+    fullName: openToolbox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        (position: IControlPosition, verticalPosition: number,
+        horizontalPosition: number) => void openToolbox
+      return:
+        type:
+          - >-
+            (position: IControlPosition, verticalPosition: number,
+            horizontalPosition: number) => void
+  - uid: '@ms/sp-canvas-toolbox.IToolboxActionManager.switchToolboxLargeView'
+    name: switchToolboxLargeView
+    fullName: switchToolboxLargeView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(view: View) => void switchToolboxLargeView'
+      return:
+        type:
+          - '(view: View) => void'

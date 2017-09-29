@@ -1,0 +1,1542 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.Global'
+    package: '@ms/sp-publishing-webparts'
+    name: Global
+    children:
+      - '@ms/sp-publishing-webparts.addDaysToDate'
+      - '@ms/sp-publishing-webparts.addMonths'
+      - '@ms/sp-publishing-webparts.addMonthsToDate'
+      - '@ms/sp-publishing-webparts.addYearsToDate'
+      - '@ms/sp-publishing-webparts.calculateRecurrenceEndDate'
+      - '@ms/sp-publishing-webparts.convert'
+      - '@ms/sp-publishing-webparts.convertATagTargetToBlank'
+      - '@ms/sp-publishing-webparts.convertDayOfWeekToEnum'
+      - '@ms/sp-publishing-webparts.convertHtmlToText'
+      - '@ms/sp-publishing-webparts.convertOWABlock'
+      - '@ms/sp-publishing-webparts.convertOWABlocks'
+      - '@ms/sp-publishing-webparts.convertTimeZone'
+      - '@ms/sp-publishing-webparts.convertToDayOfWeekInCurrentMonth'
+      - '@ms/sp-publishing-webparts.convertToDisplayDate'
+      - '@ms/sp-publishing-webparts.default'
+      - '@ms/sp-publishing-webparts.defaultToCenter'
+      - '@ms/sp-publishing-webparts.diffInDays'
+      - '@ms/sp-publishing-webparts.formatDate'
+      - '@ms/sp-publishing-webparts.formatDateAndTime'
+      - '@ms/sp-publishing-webparts.formatEncodings'
+      - '@ms/sp-publishing-webparts.formatLineBreaks'
+      - '@ms/sp-publishing-webparts.formatStartEndDate'
+      - '@ms/sp-publishing-webparts.formatStartEndTime'
+      - '@ms/sp-publishing-webparts.formatTime'
+      - '@ms/sp-publishing-webparts.getAbsoluteFileUrl'
+      - '@ms/sp-publishing-webparts.getButtonText'
+      - '@ms/sp-publishing-webparts.getCurrentDomain'
+      - '@ms/sp-publishing-webparts.getDaysBetweenDayOfWeek'
+      - '@ms/sp-publishing-webparts.getDaysOfWeekString'
+      - '@ms/sp-publishing-webparts.getFastPreviewUrl'
+      - '@ms/sp-publishing-webparts.getLocalizedIndexString'
+      - '@ms/sp-publishing-webparts.getLocalizedMonthName'
+      - '@ms/sp-publishing-webparts.getLocalizedWeekdayName'
+      - '@ms/sp-publishing-webparts.getParentUrl'
+      - '@ms/sp-publishing-webparts.getPreviewAppType'
+      - '@ms/sp-publishing-webparts.getRecurrenceDescription'
+      - '@ms/sp-publishing-webparts.getRecurrenceDescriptionBasedOnDateRange'
+      - '@ms/sp-publishing-webparts.getWeekIndex'
+      - '@ms/sp-publishing-webparts.isAltTextFromMediaServiceEnabled'
+      - '@ms/sp-publishing-webparts.isDateToday'
+      - '@ms/sp-publishing-webparts.isFastPreviewSupported'
+      - '@ms/sp-publishing-webparts.isSameDay'
+      - '@ms/sp-publishing-webparts.isSharePointHosted'
+      - '@ms/sp-publishing-webparts.isSPImageParallaxFlightEnabled'
+      - '@ms/sp-publishing-webparts.localToUtc'
+      - '@ms/sp-publishing-webparts.normalizedDate'
+      - '@ms/sp-publishing-webparts.parseRangeDate'
+      - '@ms/sp-publishing-webparts.parseStartEndDateTime'
+      - '@ms/sp-publishing-webparts.parseStringToDate'
+      - '@ms/sp-publishing-webparts.Picture'
+      - '@ms/sp-publishing-webparts.postprocessOWAContent'
+      - '@ms/sp-publishing-webparts.preprocessOWAContent'
+      - '@ms/sp-publishing-webparts.PublisherCallToAction'
+      - '@ms/sp-publishing-webparts.removeAllElseTags'
+      - '@ms/sp-publishing-webparts.removeATags'
+      - '@ms/sp-publishing-webparts.removeBRTags'
+      - '@ms/sp-publishing-webparts.removeExtraSpace'
+      - '@ms/sp-publishing-webparts.removeLiTags'
+      - '@ms/sp-publishing-webparts.removeOWAEmptyBlock'
+      - '@ms/sp-publishing-webparts.removeOWAEmptyBlocks'
+      - '@ms/sp-publishing-webparts.removePTags'
+      - '@ms/sp-publishing-webparts.removeScriptTags'
+      - '@ms/sp-publishing-webparts.removeStyleBlocks'
+      - '@ms/sp-publishing-webparts.replaceInlineAttachments'
+      - '@ms/sp-publishing-webparts.replaceTargetAttribute'
+      - '@ms/sp-publishing-webparts.shouldHaveYear'
+      - '@ms/sp-publishing-webparts.stringify'
+      - '@ms/sp-publishing-webparts.toPageNumber'
+      - '@ms/sp-publishing-webparts.userPreferredTimeZone'
+      - '@ms/sp-publishing-webparts.utcToLocal'
+      - '@ms/sp-publishing-webparts.YammerHeader'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@ms/sp-publishing-webparts.addDaysToDate'
+    name: addDaysToDate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addDaysToDate(date: Date, days: number)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+        - id: days
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.addMonths'
+    name: addMonths
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addMonths(date: Date, months: number)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+        - id: months
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.addMonthsToDate'
+    name: addMonthsToDate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addMonthsToDate(date: Date, months: number)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+        - id: months
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.addYearsToDate'
+    name: addYearsToDate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addYearsToDate(date: Date, years: number)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+        - id: years
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.calculateRecurrenceEndDate'
+    name: calculateRecurrenceEndDate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Returns the end date corresponding to recurrence range and pattern.
+    syntax:
+      content: >-
+        function calculateRecurrenceEndDate(startDate: Date, recurrence:
+        IRecurrence)
+      parameters:
+        - id: startDate
+          type:
+            - Date
+          description: start date of recurrence event.
+        - id: recurrence
+          type:
+            - '@@ms/sp-publishing-webparts.IRecurrence'
+          description: event recurrence pattern and range.
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.convert'
+    name: convert
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Convert function for using string.replace().
+    syntax:
+      content: >-
+        function convert(match: string, p1: string, p2: string, p3: string, p4:
+        string)
+      parameters:
+        - id: match
+          type:
+            - string
+          description: ''
+        - id: p1
+          type:
+            - string
+          description: ''
+        - id: p2
+          type:
+            - string
+          description: ''
+        - id: p3
+          type:
+            - string
+          description: ''
+        - id: p4
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.convertATagTargetToBlank'
+    name: convertATagTargetToBlank
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: |-
+      Add 'target=_blank' to tag <a>, and make a link open in new tab.
+      For example, <a href='outlook.office.com'>
+      returns <a target='_blank' href='outlook.office.com'>
+    syntax:
+      content: 'function convertATagTargetToBlank(content: string)'
+      parameters:
+        - id: content
+          type:
+            - string
+          description: |
+            The OWA content in string format.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.convertDayOfWeekToEnum'
+    name: convertDayOfWeekToEnum
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function convertDayOfWeekToEnum(daysOfWeek: string[])'
+      parameters:
+        - id: daysOfWeek
+          type:
+            - 'string[]'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.convertHtmlToText'
+    name: convertHtmlToText
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function convertHtmlToText(htmlContent: string)'
+      parameters:
+        - id: htmlContent
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.convertOWABlock'
+    name: convertOWABlock
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Convert the OWA content to make it editable for CKEditor.
+
+      Convert one type of blocks to be wrapped by span. i.e. if we set the type
+      to b,
+
+      <b style=...>hello</b> will be converted to <span
+      style=...><b>hello</b></span>.
+    syntax:
+      content: 'function convertOWABlock(blockName: string, content: string)'
+      parameters:
+        - id: blockName
+          type:
+            - string
+          description: >-
+            The type of blocks to be converted. i.e. 'b' 'strong' 'i' 'em'
+            etc...
+        - id: content
+          type:
+            - string
+          description: |
+            The OWA content in string format.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.convertOWABlocks'
+    name: convertOWABlocks
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Convert the OWA content to make it editable for CKEditor. For example,
+
+      <b style=...>hello</b> will be converted to <span
+      style=...><b>hello</b></span>.
+
+      The same convertion happens to strong, i, em, etc...
+    syntax:
+      content: 'function convertOWABlocks(content: string)'
+      parameters:
+        - id: content
+          type:
+            - string
+          description: |
+            The OWA content in string format.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.convertTimeZone'
+    name: convertTimeZone
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Convert the local time to another time zone with given offset.
+    syntax:
+      content: 'function convertTimeZone(date: Date, offset: number)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.convertToDayOfWeekInCurrentMonth'
+    name: convertToDayOfWeekInCurrentMonth
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Returns a date that falls on DaysOfWeek and Index combination in current
+      month of date parameter.
+    syntax:
+      content: >-
+        function convertToDayOfWeekInCurrentMonth(date: Date, dayOfWeek:
+        DayOfWeekEnum, index: DayOfWeekIndexType)
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: recurrence date to use.
+        - id: dayOfWeek
+          type:
+            - DayOfWeekEnum
+          description: What day of week we want to get.
+        - id: index
+          type:
+            - DayOfWeekIndexType
+          description: What recurrence index (week of month) we want to get.
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.convertToDisplayDate'
+    name: convertToDisplayDate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      The browser local time of the display date equals the user-timeZone local
+      time of input date.
+    syntax:
+      content: 'function convertToDisplayDate(date: Date, pageContext: PageContext)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+        - id: pageContext
+          type:
+            - PageContext
+          description: ''
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.default'
+    name: default
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function default(props: IFeedProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IFeedProps'
+          description: ''
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-publishing-webparts.defaultToCenter'
+    name: defaultToCenter
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Get translate value. If it is `undefined` or `null` or `NaN`, default it
+      to 50.
+    syntax:
+      content: 'function defaultToCenter(translate: undefined)'
+      parameters:
+        - id: translate
+          type:
+            - undefined
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.diffInDays'
+    name: diffInDays
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function diffInDays(date1: Date, date2: Date)'
+      parameters:
+        - id: date1
+          type:
+            - Date
+          description: ''
+        - id: date2
+          type:
+            - Date
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.formatDate'
+    name: formatDate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatDate(isFullFormat: boolean, date: Date)'
+      parameters:
+        - id: isFullFormat
+          type:
+            - boolean
+          description: ''
+        - id: date
+          type:
+            - Date
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.formatDateAndTime'
+    name: formatDateAndTime
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function formatDateAndTime(date: Date, isFullDateFormat: boolean,
+        prefer24HourClock: boolean)
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+        - id: isFullDateFormat
+          type:
+            - boolean
+          description: ''
+        - id: prefer24HourClock
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.formatEncodings'
+    name: formatEncodings
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatEncodings(text: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.formatLineBreaks'
+    name: formatLineBreaks
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatLineBreaks(text: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.formatStartEndDate'
+    name: formatStartEndDate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatStartEndDate(startDate: Date, endDate: Date)'
+      parameters:
+        - id: startDate
+          type:
+            - Date
+          description: ''
+        - id: endDate
+          type:
+            - Date
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.formatStartEndTime'
+    name: formatStartEndTime
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function formatStartEndTime(prefer24HourClock: boolean, startDate: Date,
+        endDate: Date)
+      parameters:
+        - id: prefer24HourClock
+          type:
+            - boolean
+          description: ''
+        - id: startDate
+          type:
+            - Date
+          description: ''
+        - id: endDate
+          type:
+            - Date
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.formatTime'
+    name: formatTime
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatTime(prefer24HourClock: boolean, date: Date)'
+      parameters:
+        - id: prefer24HourClock
+          type:
+            - boolean
+          description: ''
+        - id: date
+          type:
+            - Date
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.getAbsoluteFileUrl'
+    name: getAbsoluteFileUrl
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getAbsoluteFileUrl(properties: IDocumentEmbedWebPartProperties)'
+      parameters:
+        - id: properties
+          type:
+            - '@@ms/sp-publishing-webparts.IDocumentEmbedWebPartProperties'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.getButtonText'
+    name: getButtonText
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getButtonText(syncButton: ReactWrapper<ISyncButtonProps>)'
+      parameters:
+        - id: syncButton
+          type:
+            - ReactWrapper<@@ms/sp-publishing-webparts.ISyncButtonProps>
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.getCurrentDomain'
+    name: getCurrentDomain
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: |-
+      Returns domain part of the URL based on current location.
+      Same as window.location.origin to work around buggy IE11.
+    syntax:
+      content: function getCurrentDomain()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.getDaysBetweenDayOfWeek'
+    name: getDaysBetweenDayOfWeek
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Get the number of days between startDayOfWeek and nextDayOfWeek.
+    syntax:
+      content: >-
+        function getDaysBetweenDayOfWeek(startDayOfWeek: DayOfWeekEnum,
+        nextDayOfWeek: DayOfWeekEnum)
+      parameters:
+        - id: startDayOfWeek
+          type:
+            - DayOfWeekEnum
+          description: ''
+        - id: nextDayOfWeek
+          type:
+            - DayOfWeekEnum
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.getDaysOfWeekString'
+    name: getDaysOfWeekString
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getDaysOfWeekString(daysOfWeek: DayOfWeek[])'
+      parameters:
+        - id: daysOfWeek
+          type:
+            - 'DayOfWeek[]'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.getFastPreviewUrl'
+    name: getFastPreviewUrl
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getFastPreviewUrl(properties: IDocumentEmbedWebPartProperties,
+        pageContext: PageContext)
+      parameters:
+        - id: properties
+          type:
+            - '@@ms/sp-publishing-webparts.IDocumentEmbedWebPartProperties'
+          description: ''
+        - id: pageContext
+          type:
+            - PageContext
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.getLocalizedIndexString'
+    name: getLocalizedIndexString
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getLocalizedIndexString(index: DayOfWeekIndexType)'
+      parameters:
+        - id: index
+          type:
+            - DayOfWeekIndexType
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.getLocalizedMonthName'
+    name: getLocalizedMonthName
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getLocalizedMonthName(month: number)'
+      parameters:
+        - id: month
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.getLocalizedWeekdayName'
+    name: getLocalizedWeekdayName
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getLocalizedWeekdayName(day: number)'
+      parameters:
+        - id: day
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.getParentUrl'
+    name: getParentUrl
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Returns server relative URL if input is in the same domain, or absolute
+      otherwise.
+    syntax:
+      content: 'function getParentUrl(uri: Uri)'
+      parameters:
+        - id: uri
+          type:
+            - Uri
+          description: |+
+
+  - uid: '@ms/sp-publishing-webparts.getPreviewAppType'
+    name: getPreviewAppType
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Determines the app type used based on filename.
+
+      Ex: Doc/Docx/Pdf will have Word type, as they all have saame configuration
+      parameters.
+    syntax:
+      content: 'function getPreviewAppType(filePath: string)'
+      parameters:
+        - id: filePath
+          type:
+            - string
+          description: Path or name of the file
+  - uid: '@ms/sp-publishing-webparts.getRecurrenceDescription'
+    name: getRecurrenceDescription
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Get the description of the repeat rule based on recurrence pattern type
+    syntax:
+      content: >-
+        function getRecurrenceDescription(recurrence: IRecurrence, startDate:
+        Date, endDate: Date, until: string, regionalSetting: IRegionalSettings)
+      parameters:
+        - id: recurrence
+          type:
+            - '@@ms/sp-publishing-webparts.IRecurrence'
+          description: the repeat rule of Series Master
+        - id: startDate
+          type:
+            - Date
+          description: the start date of the event
+        - id: endDate
+          type:
+            - Date
+          description: the end date of the event
+        - id: until
+          type:
+            - string
+          description: the until date string of the repeat rule
+        - id: regionalSetting
+          type:
+            - '@@ms/sp-publishing-webparts.IRegionalSettings'
+          description: time format and time zone setting
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.getRecurrenceDescriptionBasedOnDateRange'
+    name: getRecurrenceDescriptionBasedOnDateRange
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Get the description of the repeat rule based on recurrence range type
+    syntax:
+      content: >-
+        function getRecurrenceDescriptionBasedOnDateRange(recurrence:
+        IRecurrence, startDate: Date, endDate: Date, regionalSetting:
+        IRegionalSettings)
+      parameters:
+        - id: recurrence
+          type:
+            - '@@ms/sp-publishing-webparts.IRecurrence'
+          description: the repeat rule of Series Master
+        - id: startDate
+          type:
+            - Date
+          description: the start date of the event
+        - id: endDate
+          type:
+            - Date
+          description: the end date of the event
+        - id: regionalSetting
+          type:
+            - '@@ms/sp-publishing-webparts.IRegionalSettings'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.getWeekIndex'
+    name: getWeekIndex
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Gets the week index of a given date. For example: If the date passed is
+      the second wednesday of february, this
+
+      method returns DayOfWeekIndexType.Second.
+    syntax:
+      content: 'function getWeekIndex(date: Date)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.isAltTextFromMediaServiceEnabled'
+    name: isAltTextFromMediaServiceEnabled
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isAltTextFromMediaServiceEnabled()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.isDateToday'
+    name: isDateToday
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      To decide wheather 'date' is today or not. A date might be different day
+      due to timezone conversion,
+
+      before compare a date with 'today', make sure they are in same time zone.
+    syntax:
+      content: 'function isDateToday(date: Date, offest: number)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: a date needs to be compared with 'today'
+        - id: offest
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.isFastPreviewSupported'
+    name: isFastPreviewSupported
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isFastPreviewSupported(file: string)'
+      parameters:
+        - id: file
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.isSameDay'
+    name: isSameDay
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isSameDay(date1: Date, date2: Date)'
+      parameters:
+        - id: date1
+          type:
+            - Date
+          description: ''
+        - id: date2
+          type:
+            - Date
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.isSharePointHosted'
+    name: isSharePointHosted
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isSharePointHosted(host: string, sharePointHostSuffix: string)'
+      parameters:
+        - id: host
+          type:
+            - string
+          description: ''
+        - id: sharePointHostSuffix
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.isSPImageParallaxFlightEnabled'
+    name: isSPImageParallaxFlightEnabled
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isSPImageParallaxFlightEnabled()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.localToUtc'
+    name: localToUtc
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function localToUtc(date: Date, timeZone: SPTimeZone)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+        - id: timeZone
+          type:
+            - SPTimeZone
+          description: ''
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.normalizedDate'
+    name: normalizedDate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function normalizedDate(date: Date)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: a date object.
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.parseRangeDate'
+    name: parseRangeDate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function parseRangeDate(date: string)'
+      parameters:
+        - id: date
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.parseStartEndDateTime'
+    name: parseStartEndDateTime
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Parse event start or end date time string to Date. The DateTime return
+      from
+
+      Outlook REST API is like '2017-01-06T00:00:00.0000000' which is not a
+      valid ISO format.
+
+      The function converts DateTime string to ISO format then returns a new
+      Date with it.
+    syntax:
+      content: 'function parseStartEndDateTime(eventDateTime: IStartEndDateTime)'
+      parameters:
+        - id: eventDateTime
+          type:
+            - '@@ms/sp-publishing-webparts.IStartEndDateTime'
+          description: Start or End of an IExchangeEvent
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.parseStringToDate'
+    name: parseStringToDate
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Parse event date string to Date. The date returned from SharePoint API is
+      like '2017-03-20T15:00:00-07:00',
+
+      this function removes time zone info like '-07:00' and 'T', then returns a
+      new Date with it.
+    syntax:
+      content: 'function parseStringToDate(date: string)'
+      parameters:
+        - id: date
+          type:
+            - string
+          description: A local time string returned from SharePoint API.
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-publishing-webparts.Picture'
+    name: Picture
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function Picture(props: IPictureProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IPictureProps'
+          description: ''
+      return:
+        type:
+          - ReactElement<IPictureProps>
+  - uid: '@ms/sp-publishing-webparts.postprocessOWAContent'
+    name: postprocessOWAContent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Postprocess RTE content before saving back to OWA.
+    syntax:
+      content: 'function postprocessOWAContent(content: string)'
+      parameters:
+        - id: content
+          type:
+            - string
+          description: |
+            The RTE content in string format.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.preprocessOWAContent'
+    name: preprocessOWAContent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function preprocessOWAContent(content: string, inlineAttachments?:
+        IAttachment[])
+      parameters:
+        - id: content
+          type:
+            - string
+          description: ''
+        - id: inlineAttachments
+          type:
+            - '@@ms/sp-publishing-webparts.IAttachment[]'
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.PublisherCallToAction'
+    name: PublisherCallToAction
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function PublisherCallToAction(props: IPublisherCallToActionProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IPublisherCallToActionProps'
+          description: ''
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-publishing-webparts.removeAllElseTags'
+    name: removeAllElseTags
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllElseTags(text: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.removeATags'
+    name: removeATags
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Remove A tag but preserve what's inside of them
+
+      For example:
+
+      html tag: <a href="https://outlook.office.com">Visit
+      outlook.office.com!</a>
+
+      returned plain text: Visit outlook.office.com!
+      (https://outlook.office.com), and the link address will be preserved.
+    syntax:
+      content: 'function removeATags(text: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.removeBRTags'
+    name: removeBRTags
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeBRTags(text: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.removeExtraSpace'
+    name: removeExtraSpace
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeExtraSpace(text: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.removeLiTags'
+    name: removeLiTags
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeLiTags(text: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.removeOWAEmptyBlock'
+    name: removeOWAEmptyBlock
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Remove one type of empty blocks recursively. i.e. if we set the type to
+      div,
+
+      <div>hello<div><div></div></div></div> will be <div>hello</div> after
+      removal.
+    syntax:
+      content: 'function removeOWAEmptyBlock(blockName: string, content: string)'
+      parameters:
+        - id: blockName
+          type:
+            - string
+          description: >-
+            The type of blocks to be removed. i.e. 'u' 'p' 'div' 'blockquote'
+            etc...
+        - id: content
+          type:
+            - string
+          description: |
+            The OWA content in string format.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.removeOWAEmptyBlocks'
+    name: removeOWAEmptyBlocks
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Remove extra empty blocks in OWA content. Empty u, p, div, blockquote
+      blocks will be removed recursively in order.
+
+      For example, <div>hello<div><div><p></p></div></div></div> will be
+      <div>hello</div> after removal.
+    syntax:
+      content: 'function removeOWAEmptyBlocks(content: string)'
+      parameters:
+        - id: content
+          type:
+            - string
+          description: |
+            The OWA content in string format.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.removePTags'
+    name: removePTags
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removePTags(text: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.removeScriptTags'
+    name: removeScriptTags
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeScriptTags(text: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.removeStyleBlocks'
+    name: removeStyleBlocks
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Remove style blocks in OWA content.
+
+      For example, <head><style>...</style>...</head> will be <head>...</head>
+      after removal.
+    syntax:
+      content: 'function removeStyleBlocks(content: string)'
+      parameters:
+        - id: content
+          type:
+            - string
+          description: |
+            The OWA content in string format.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.replaceInlineAttachments'
+    name: replaceInlineAttachments
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Replace src="cid:id" with attachments bytes.
+
+      For example, find src="cid:0fbf0807-bcec-4f54-88c8-1bb26e9b6364" and
+
+      replace with originalsrc="cid:0fbf0807-bcec-4f54-88c8-1bb26e9b6364"
+      src="data:image/png;base64,{ContentBytes}".
+    syntax:
+      content: >-
+        function replaceInlineAttachments(content: string, inlineAttachments:
+        IAttachment[])
+      parameters:
+        - id: content
+          type:
+            - string
+          description: |
+            The OWA content in string format.
+        - id: inlineAttachments
+          type:
+            - '@@ms/sp-publishing-webparts.IAttachment[]'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.replaceTargetAttribute'
+    name: replaceTargetAttribute
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: |-
+      Find target attribute from tag <a> and replace its value with '_blank'
+      For example, <a target=_top href='outlook.office.com'>
+      returns <a target='_blank' href='outlook.office.com'>
+    syntax:
+      content: 'function replaceTargetAttribute(content: string)'
+      parameters:
+        - id: content
+          type:
+            - string
+          description: |
+            The OWA content in string format.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.shouldHaveYear'
+    name: shouldHaveYear
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function shouldHaveYear(date: Date)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.stringify'
+    name: stringify
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function stringify(val: boolean, key?: string)'
+      parameters:
+        - id: val
+          type:
+            - boolean
+          description: ''
+        - id: key
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.toPageNumber'
+    name: toPageNumber
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function toPageNumber(input: number)'
+      parameters:
+        - id: input
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.userPreferredTimeZone'
+    name: userPreferredTimeZone
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function userPreferredTimeZone(pageContext: PageContext)'
+      parameters:
+        - id: pageContext
+          type:
+            - PageContext
+          description: ''
+      return:
+        type:
+          - SPTimeZone
+  - uid: '@ms/sp-publishing-webparts.utcToLocal'
+    name: utcToLocal
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function utcToLocal(dateString: string, timeZone: SPTimeZone)'
+      parameters:
+        - id: dateString
+          type:
+            - string
+          description: a date string in Sharepoint time zone.
+        - id: timeZone
+          type:
+            - SPTimeZone
+          description: Sharepoint time zone.
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.YammerHeader'
+    name: YammerHeader
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function YammerHeader(props: IYammerHeaderProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IYammerHeaderProps'
+          description: ''
+      return:
+        type:
+          - Element

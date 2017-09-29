@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IThread'
+    name: IThread
+    fullName: IThread
+    children:
+      - '@ms/sp-publishing-webparts.IThread.id'
+      - '@ms/sp-publishing-webparts.IThread.messages'
+      - '@ms/sp-publishing-webparts.IThread.messages_count'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IThread.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IThread.messages'
+    name: messages
+    fullName: messages
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IMessage[] messages'
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IMessage[]'
+  - uid: '@ms/sp-publishing-webparts.IThread.messages_count'
+    name: messages_count
+    fullName: messages_count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number messages_count
+      return:
+        type:
+          - number

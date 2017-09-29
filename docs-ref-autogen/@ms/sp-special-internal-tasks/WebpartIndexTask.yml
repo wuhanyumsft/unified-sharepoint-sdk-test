@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-special-internal-tasks.WebpartIndexTask'
+    name: WebpartIndexTask
+    fullName: WebpartIndexTask
+    children:
+      - '@ms/sp-special-internal-tasks.WebpartIndexTask.executeTask'
+      - '@ms/sp-special-internal-tasks.WebpartIndexTask.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Creates the index of first-party webparts.
+      Example:
+       IN:
+        Directory of first-party webpart-configs following the first-party-webpart-config.schema.json schema.
+        Localized strings for the titles and descriptions of these first party webpart configs.
+
+       OUT:
+        A combined index of all of the first party webpart configs, expanding the mapping of their localized
+          strings.
+    extends:
+      name: >-
+        @@ms/sp-special-internal-tasks.WebpartIndexTask<@@ms/sp-special-internal-tasks.IWebpartIndexTaskConfig>
+    package: '@ms/sp-special-internal-tasks'
+  - uid: '@ms/sp-special-internal-tasks.WebpartIndexTask.executeTask'
+    name: executeTask
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function executeTask(gulp: any, completeCallback: (error?: string) =>
+        void)
+      parameters:
+        - id: gulp
+          type:
+            - any
+          description: ''
+        - id: completeCallback
+          type:
+            - '(error?: string) => void'
+          description: ''
+  - uid: '@ms/sp-special-internal-tasks.WebpartIndexTask.constructor'
+    name: WebpartIndexTask
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new WebpartIndexTask()
+      parameters: []

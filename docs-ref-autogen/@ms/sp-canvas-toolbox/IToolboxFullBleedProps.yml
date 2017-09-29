@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.IToolboxFullBleedProps'
+    name: IToolboxFullBleedProps
+    fullName: IToolboxFullBleedProps
+    children:
+      - '@ms/sp-canvas-toolbox.IToolboxFullBleedProps.clickItem'
+      - '@ms/sp-canvas-toolbox.IToolboxFullBleedProps.controlPosition'
+      - '@ms/sp-canvas-toolbox.IToolboxFullBleedProps.toolboxItems'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas-toolbox'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxFullBleedProps.clickItem'
+    name: clickItem
+    fullName: clickItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(control: ICanvasControl) => void clickItem'
+      return:
+        type:
+          - '(control: ICanvasControl) => void'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxFullBleedProps.controlPosition'
+    name: controlPosition
+    fullName: controlPosition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IControlPosition controlPosition
+      return:
+        type:
+          - '@@ms/sp-canvas-toolbox.IControlPosition'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxFullBleedProps.toolboxItems'
+    name: toolboxItems
+    fullName: toolboxItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IToolboxItem[] toolboxItems'
+      return:
+        type:
+          - '@@ms/sp-canvas-toolbox.IToolboxItem[]'

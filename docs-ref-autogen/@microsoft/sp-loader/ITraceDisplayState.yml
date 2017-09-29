@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.ITraceDisplayState'
+    name: ITraceDisplayState
+    fullName: ITraceDisplayState
+    children:
+      - '@microsoft/sp-loader.ITraceDisplayState.filter'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.ITraceDisplayState.filter'
+    name: filter
+    fullName: filter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ITraceFilter filter
+      return:
+        type:
+          - '@@microsoft/sp-loader.ITraceFilter'

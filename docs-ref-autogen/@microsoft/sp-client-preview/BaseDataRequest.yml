@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-client-preview.BaseDataRequest'
+    name: BaseDataRequest
+    fullName: BaseDataRequest
+    children:
+      - '@microsoft/sp-client-preview.BaseDataRequest.constructor'
+      - '@microsoft/sp-client-preview.BaseDataRequest.operations'
+    langs:
+      - typeScript
+    type: class
+    summary: Represents the base data request
+    package: '@microsoft/sp-client-preview'
+  - uid: '@microsoft/sp-client-preview.BaseDataRequest.constructor'
+    name: BaseDataRequest
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Initializes a new instance of the BaseDataRequest
+    syntax:
+      content: 'new BaseDataRequest(operations: number)'
+      parameters:
+        - id: operations
+          type:
+            - number
+          description: |
+            represent the operations to perform
+  - uid: '@microsoft/sp-client-preview.BaseDataRequest.operations'
+    name: operations
+    fullName: operations
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number operations
+      return:
+        type:
+          - number

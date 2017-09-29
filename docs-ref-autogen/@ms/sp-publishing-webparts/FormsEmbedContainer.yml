@@ -1,0 +1,84 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.FormsEmbedContainer'
+    name: FormsEmbedContainer
+    fullName: FormsEmbedContainer
+    children:
+      - '@ms/sp-publishing-webparts.FormsEmbedContainer.componentDidMount'
+      - '@ms/sp-publishing-webparts.FormsEmbedContainer.componentDidUpdate'
+      - '@ms/sp-publishing-webparts.FormsEmbedContainer.componentWillUnmount'
+      - '@ms/sp-publishing-webparts.FormsEmbedContainer.constructor'
+      - '@ms/sp-publishing-webparts.FormsEmbedContainer.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.FormsEmbedContainer<@@ms/sp-publishing-webparts.IFormsEmbedContainerProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.FormsEmbedContainer.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.FormsEmbedContainer.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentDidUpdate(prevProps: IFormsEmbedContainerProps)'
+      parameters:
+        - id: prevProps
+          type:
+            - '@@ms/sp-publishing-webparts.IFormsEmbedContainerProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.FormsEmbedContainer.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.FormsEmbedContainer.constructor'
+    name: FormsEmbedContainer
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new FormsEmbedContainer(props: IFormsEmbedContainerProps, state: __type)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IFormsEmbedContainerProps'
+          description: ''
+        - id: state
+          type:
+            - __type
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.FormsEmbedContainer.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

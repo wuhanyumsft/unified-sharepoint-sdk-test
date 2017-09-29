@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-selenium-utilities'
+    name: '@ms/sp-selenium-utilities'
+    summary: ''
+    children:
+      - '@ms/sp-selenium-utilities.Automation'
+      - '@ms/sp-selenium-utilities.BrowserType'
+      - '@ms/sp-selenium-utilities.GetElementById'
+      - '@ms/sp-selenium-utilities.IControlLocation'
+      - '@ms/sp-selenium-utilities.IDisposable'
+      - '@ms/sp-selenium-utilities.ILoginContext'
+      - '@ms/sp-selenium-utilities.Logger'
+      - '@ms/sp-selenium-utilities.IBufferedLogData'
+      - '@ms/sp-selenium-utilities.RampOverrideAction'
+      - '@ms/sp-selenium-utilities.SPPagesApp'
+      - '@ms/sp-selenium-utilities.TestContext'
+      - '@ms/sp-selenium-utilities.TestIt'
+      - '@ms/sp-selenium-utilities.IMochaTest'
+      - '@ms/sp-selenium-utilities.IMochaTestContext'
+      - '@ms/sp-selenium-utilities.ITestItParams'
+      - '@ms/sp-selenium-utilities.User'
+      - '@ms/sp-selenium-utilities.WebDriverPromiseHelper'
+      - '@ms/sp-selenium-utilities.IDelayedResult'
+      - '@ms/sp-selenium-utilities.IWithTimeoutResult'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper'
+      - '@ms/sp-selenium-utilities.Global'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@ms/sp-selenium-utilities.Automation'
+    name: Automation
+  - uid: '@ms/sp-selenium-utilities.BrowserType'
+    name: BrowserType
+  - uid: '@ms/sp-selenium-utilities.GetElementById'
+    name: GetElementById
+  - uid: '@ms/sp-selenium-utilities.IControlLocation'
+    name: IControlLocation
+  - uid: '@ms/sp-selenium-utilities.IDisposable'
+    name: IDisposable
+  - uid: '@ms/sp-selenium-utilities.ILoginContext'
+    name: ILoginContext
+  - uid: '@ms/sp-selenium-utilities.Logger'
+    name: Logger
+  - uid: '@ms/sp-selenium-utilities.IBufferedLogData'
+    name: IBufferedLogData
+  - uid: '@ms/sp-selenium-utilities.RampOverrideAction'
+    name: RampOverrideAction
+  - uid: '@ms/sp-selenium-utilities.SPPagesApp'
+    name: SPPagesApp
+  - uid: '@ms/sp-selenium-utilities.TestContext'
+    name: TestContext
+  - uid: '@ms/sp-selenium-utilities.TestIt'
+    name: TestIt
+  - uid: '@ms/sp-selenium-utilities.IMochaTest'
+    name: IMochaTest
+  - uid: '@ms/sp-selenium-utilities.IMochaTestContext'
+    name: IMochaTestContext
+  - uid: '@ms/sp-selenium-utilities.ITestItParams'
+    name: ITestItParams
+  - uid: '@ms/sp-selenium-utilities.User'
+    name: User
+  - uid: '@ms/sp-selenium-utilities.WebDriverPromiseHelper'
+    name: WebDriverPromiseHelper
+  - uid: '@ms/sp-selenium-utilities.IDelayedResult'
+    name: IDelayedResult
+  - uid: '@ms/sp-selenium-utilities.IWithTimeoutResult'
+    name: IWithTimeoutResult
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper'
+    name: WebDriverWrapper
+  - uid: '@ms/sp-selenium-utilities.Global'
+    name: Global

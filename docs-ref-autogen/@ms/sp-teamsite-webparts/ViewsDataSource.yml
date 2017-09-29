@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.ViewsDataSource'
+    name: ViewsDataSource
+    fullName: ViewsDataSource
+    children:
+      - '@ms/sp-teamsite-webparts.ViewsDataSource.getViews'
+      - '@ms/sp-teamsite-webparts.ViewsDataSource.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.ViewsDataSource.getViews'
+    name: getViews
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getViews(webAbsoluteUrl: string, listId: string)'
+      parameters:
+        - id: webAbsoluteUrl
+          type:
+            - string
+          description: ''
+        - id: listId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - 'Promise<@@ms/sp-teamsite-webparts.IViewsDataSourceView[]>'
+  - uid: '@ms/sp-teamsite-webparts.ViewsDataSource.constructor'
+    name: ViewsDataSource
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ViewsDataSource(httpClient: SPHttpClient)'
+      parameters:
+        - id: httpClient
+          type:
+            - SPHttpClient
+          description: ''

@@ -1,0 +1,111 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.IRequest'
+    name: IRequest
+    fullName: IRequest<TData>
+    children:
+      - '@ms/sp-webpart-shared.IRequest.alias'
+      - '@ms/sp-webpart-shared.IRequest.cacheKey'
+      - '@ms/sp-webpart-shared.IRequest.cacheParameters'
+      - '@ms/sp-webpart-shared.IRequest.dataReceived'
+      - '@ms/sp-webpart-shared.IRequest.fetchData'
+    langs:
+      - typeScript
+    type: interface
+    summary: Request parameters.
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.IRequest.alias'
+    name: alias
+    fullName: alias
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The string identifying the component using the cache for logging purposes.
+    syntax:
+      content: string alias
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IRequest.cacheKey'
+    name: cacheKey
+    fullName: cacheKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The key to be used for the cache. e.g. a consuming components instance id.
+      It is
+
+      upto the discretion of the consuming component to use a different key.
+    syntax:
+      content: string cacheKey
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IRequest.cacheParameters'
+    name: cacheParameters
+    fullName: cacheParameters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A hash of this JSON object is used to extract data from the cache. The
+      purpose
+
+      of this parameter is to make sure invalid results are not displayed to the
+
+      user. For example, if the query parameters for the consuming component are
+      changed as
+
+      compared to when the cache was generated, displaying the cached results
+      would
+
+      be incorrect.
+    syntax:
+      content: '[key: string]: Object cacheParameters'
+      return:
+        type:
+          - '[key: string]: Object'
+  - uid: '@ms/sp-webpart-shared.IRequest.dataReceived'
+    name: dataReceived
+    fullName: dataReceived
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Callback when date is fetched and updated. In case of a cache hit, this
+      callback
+
+      is called twice. Once for data from the cache and next for data from the
+      actual
+
+      source. In case of a cache miss, the callback happens only once with data
+      from
+
+      the actual source only.
+    syntax:
+      content: '(response: IResponse<TData>) => void dataReceived'
+      return:
+        type:
+          - '(response: IResponse<TData>) => void'
+  - uid: '@ms/sp-webpart-shared.IRequest.fetchData'
+    name: fetchData
+    fullName: fetchData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Delegate that helps in fetching data for the consuming component. Since
+      the consuming component
+
+      could fetch data in multiple ways from multiple sources.
+    syntax:
+      content: () => Promise<TData> fetchData
+      return:
+        type:
+          - () => Promise<TData>

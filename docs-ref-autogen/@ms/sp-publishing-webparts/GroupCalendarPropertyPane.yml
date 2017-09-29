@@ -1,0 +1,62 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.GroupCalendarPropertyPane'
+    name: GroupCalendarPropertyPane
+    fullName: GroupCalendarPropertyPane
+    children:
+      - '@ms/sp-publishing-webparts.GroupCalendarPropertyPane.getSettings'
+      - '@ms/sp-publishing-webparts.GroupCalendarPropertyPane.constructor'
+      - >-
+        @ms/sp-publishing-webparts.GroupCalendarPropertyPane.updateDropdownOptions
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.GroupCalendarPropertyPane.getSettings'
+    name: getSettings
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getSettings()
+      parameters: []
+      return:
+        type:
+          - IPropertyPaneConfiguration
+  - uid: '@ms/sp-publishing-webparts.GroupCalendarPropertyPane.constructor'
+    name: GroupCalendarPropertyPane
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new GroupCalendarPropertyPane(properties: IGroupCalendarProperties,
+        refreshDropdown: () => Promise<void>)
+      parameters:
+        - id: properties
+          type:
+            - '@@ms/sp-publishing-webparts.IGroupCalendarProperties'
+          description: ''
+        - id: refreshDropdown
+          type:
+            - () => Promise<void>
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.GroupCalendarPropertyPane.updateDropdownOptions'
+    name: updateDropdownOptions
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function updateDropdownOptions(groups: IExchangeGroup[])'
+      parameters:
+        - id: groups
+          type:
+            - '@@ms/sp-publishing-webparts.IExchangeGroup[]'
+          description: ''

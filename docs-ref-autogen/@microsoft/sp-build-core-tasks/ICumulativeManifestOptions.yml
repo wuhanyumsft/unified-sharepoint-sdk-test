@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.ICumulativeManifestOptions'
+    name: ICumulativeManifestOptions
+    fullName: ICumulativeManifestOptions
+    children:
+      - '@microsoft/sp-build-core-tasks.ICumulativeManifestOptions.baseUrl'
+      - >-
+        @microsoft/sp-build-core-tasks.ICumulativeManifestOptions.explicitInclude
+      - >-
+        @microsoft/sp-build-core-tasks.ICumulativeManifestOptions.ignoreOutputManifestIds
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.ICumulativeManifestOptions.baseUrl'
+    name: baseUrl
+    fullName: baseUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The base path for debug manifests. Expected to match the result of the
+      "debugBasePath" function passed to the
+       WriteManifestsTask task.
+    syntax:
+      content: string baseUrl
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.ICumulativeManifestOptions.explicitInclude'
+    name: explicitInclude
+    fullName: explicitInclude
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional array of IDs to ensure aren't filtered out of the results if they
+      are discovered.
+    syntax:
+      content: 'string[] explicitInclude'
+      return:
+        type:
+          - 'string[]'
+  - uid: >-
+      @microsoft/sp-build-core-tasks.ICumulativeManifestOptions.ignoreOutputManifestIds
+    name: ignoreOutputManifestIds
+    fullName: ignoreOutputManifestIds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: IDs of manifests to exclude from the manifest map file.
+    syntax:
+      content: 'string[] ignoreOutputManifestIds'
+      return:
+        type:
+          - 'string[]'

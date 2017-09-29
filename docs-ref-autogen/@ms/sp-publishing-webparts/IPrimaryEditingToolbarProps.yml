@@ -1,0 +1,170 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps'
+    name: IPrimaryEditingToolbarProps
+    fullName: IPrimaryEditingToolbarProps
+    children:
+      - '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.aspectRatio'
+      - >-
+        @ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.isAspectHorizontal
+      - '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.isFreeAspect'
+      - '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.isFullWidth'
+      - >-
+        @ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.isImageContainerBounded
+      - '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.onEditingComplete'
+      - '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.onFlipAspect'
+      - '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.onZoom'
+      - '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.resetCrop'
+      - '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.setAspectRatio'
+      - '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.undoCropStep'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.aspectRatio'
+    name: aspectRatio
+    fullName: aspectRatio
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number aspectRatio
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.isAspectHorizontal'
+    name: isAspectHorizontal
+    fullName: isAspectHorizontal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isAspectHorizontal
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.isFreeAspect'
+    name: isFreeAspect
+    fullName: isFreeAspect
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isFreeAspect
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.isFullWidth'
+    name: isFullWidth
+    fullName: isFullWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isFullWidth
+      return:
+        type:
+          - boolean
+  - uid: >-
+      @ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.isImageContainerBounded
+    name: isImageContainerBounded
+    fullName: isImageContainerBounded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isImageContainerBounded
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.onEditingComplete'
+    name: onEditingComplete
+    fullName: onEditingComplete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onEditingComplete
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.onFlipAspect'
+    name: onFlipAspect
+    fullName: onFlipAspect
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onFlipAspect
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.onZoom'
+    name: onZoom
+    fullName: onZoom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(ratio: number) => void onZoom'
+      return:
+        type:
+          - '(ratio: number) => void'
+  - uid: '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.resetCrop'
+    name: resetCrop
+    fullName: resetCrop
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void resetCrop
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.setAspectRatio'
+    name: setAspectRatio
+    fullName: setAspectRatio
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(aspectRatio: number) => void setAspectRatio'
+      return:
+        type:
+          - '(aspectRatio: number) => void'
+  - uid: '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps.undoCropStep'
+    name: undoCropStep
+    fullName: undoCropStep
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void undoCropStep
+      return:
+        type:
+          - () => void

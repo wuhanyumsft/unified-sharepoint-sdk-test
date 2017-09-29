@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.ISuggestedSearchKeyword'
+    name: ISuggestedSearchKeyword
+    fullName: ISuggestedSearchKeyword
+    children:
+      - '@ms/sp-filepicker.ISuggestedSearchKeyword.imgSrc'
+      - '@ms/sp-filepicker.ISuggestedSearchKeyword.query'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.ISuggestedSearchKeyword.imgSrc'
+    name: imgSrc
+    fullName: imgSrc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string imgSrc
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.ISuggestedSearchKeyword.query'
+    name: query
+    fullName: query
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string query
+      return:
+        type:
+          - string

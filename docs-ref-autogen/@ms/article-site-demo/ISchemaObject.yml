@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/article-site-demo.ISchemaObject'
+    name: ISchemaObject
+    fullName: ISchemaObject
+    children:
+      - '@ms/article-site-demo.ISchemaObject.Id'
+      - '@ms/article-site-demo.ISchemaObject.InternalName'
+      - '@ms/article-site-demo.ISchemaObject.odata.id'
+      - '@ms/article-site-demo.ISchemaObject.ReadOnlyField'
+      - '@ms/article-site-demo.ISchemaObject.Title'
+      - '@ms/article-site-demo.ISchemaObject.TypeAsString'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/article-site-demo'
+  - uid: '@ms/article-site-demo.ISchemaObject.Id'
+    name: Id
+    fullName: Id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Id
+      return:
+        type:
+          - string
+  - uid: '@ms/article-site-demo.ISchemaObject.InternalName'
+    name: InternalName
+    fullName: InternalName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string InternalName
+      return:
+        type:
+          - string
+  - uid: '@ms/article-site-demo.ISchemaObject.odata.id'
+    name: odata.id
+    fullName: odata.id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string odata.id
+      return:
+        type:
+          - string
+  - uid: '@ms/article-site-demo.ISchemaObject.ReadOnlyField'
+    name: ReadOnlyField
+    fullName: ReadOnlyField
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean ReadOnlyField
+      return:
+        type:
+          - boolean
+  - uid: '@ms/article-site-demo.ISchemaObject.Title'
+    name: Title
+    fullName: Title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Title
+      return:
+        type:
+          - string
+  - uid: '@ms/article-site-demo.ISchemaObject.TypeAsString'
+    name: TypeAsString
+    fullName: TypeAsString
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string TypeAsString
+      return:
+        type:
+          - string

@@ -1,0 +1,74 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.SiteSettingsPanelContainer'
+    name: SiteSettingsPanelContainer
+    fullName: SiteSettingsPanelContainer
+    children:
+      - '@ms/sp-pages.SiteSettingsPanelContainer.componentDidMount'
+      - '@ms/sp-pages.SiteSettingsPanelContainer.componentWillUnmount'
+      - '@ms/sp-pages.SiteSettingsPanelContainer.render'
+      - '@ms/sp-pages.SiteSettingsPanelContainer.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Wrapper for the React SiteSettingsPanel control.
+
+      Keep this class free of any SiteSettingsPanel state management.
+
+      All state management should happen in
+      SiteSettingsPanelContainerStateManager.
+
+      This class should ONLY contain the SP-CLIENT specific details of the
+      SiteSettingsPanel host.
+    extends:
+      name: >-
+        @@ms/sp-pages.SiteSettingsPanelContainer<@@ms/sp-pages.ISiteSettingsPanelContainerProps>
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SiteSettingsPanelContainer.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-pages.SiteSettingsPanelContainer.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-pages.SiteSettingsPanelContainer.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.SiteSettingsPanelContainer.constructor'
+    name: SiteSettingsPanelContainer
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SiteSettingsPanelContainer(props: ISiteSettingsPanelContainerProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.ISiteSettingsPanelContainerProps'
+          description: ''

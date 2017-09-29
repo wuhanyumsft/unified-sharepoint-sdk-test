@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.TelemetrySettingsManager'
+    name: TelemetrySettingsManager
+    fullName: TelemetrySettingsManager
+    children:
+      - '@ms/sp-telemetry.TelemetrySettingsManager.initialize'
+      - '@ms/sp-telemetry.TelemetrySettingsManager.settings'
+      - '@ms/sp-telemetry.TelemetrySettingsManager.updateSettings'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      TelemetrySettingsManager stores the configuration for Telemetry passed
+      down by the calling application during bootstrapping.
+    package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.TelemetrySettingsManager.initialize'
+    name: initialize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function initialize(settings: ITelemetrySettings)'
+      parameters:
+        - id: settings
+          type:
+            - '@@ms/sp-telemetry.ITelemetrySettings'
+          description: ''
+  - uid: '@ms/sp-telemetry.TelemetrySettingsManager.settings'
+    name: settings
+    fullName: settings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ITelemetrySettings settings
+      return:
+        type:
+          - '@@ms/sp-telemetry.ITelemetrySettings'
+  - uid: '@ms/sp-telemetry.TelemetrySettingsManager.updateSettings'
+    name: updateSettings
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function updateSettings(settings: Partial<ITelemetrySettings>)'
+      parameters:
+        - id: settings
+          type:
+            - Partial<@@ms/sp-telemetry.ITelemetrySettings>
+          description: ''

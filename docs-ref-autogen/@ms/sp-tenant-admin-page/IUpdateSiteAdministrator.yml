@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IUpdateSiteAdministrator'
+    name: IUpdateSiteAdministrator
+    fullName: IUpdateSiteAdministrator
+    children:
+      - >-
+        @ms/sp-tenant-admin-page.IUpdateSiteAdministrator.updateSitePrimaryAdministrator
+      - >-
+        @ms/sp-tenant-admin-page.IUpdateSiteAdministrator.updateSiteSecondaryAdministrators
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: >-
+      @ms/sp-tenant-admin-page.IUpdateSiteAdministrator.updateSitePrimaryAdministrator
+    name: updateSitePrimaryAdministrator
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function updateSitePrimaryAdministrator(siteUrl: string,
+        newAdministratorEmail: string)
+      parameters:
+        - id: siteUrl
+          type:
+            - string
+          description: ''
+        - id: newAdministratorEmail
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: >-
+      @ms/sp-tenant-admin-page.IUpdateSiteAdministrator.updateSiteSecondaryAdministrators
+    name: updateSiteSecondaryAdministrators
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function updateSiteSecondaryAdministrators(siteId: string,
+        newAdministratorEmails: string[])
+      parameters:
+        - id: siteId
+          type:
+            - string
+          description: ''
+        - id: newAdministratorEmails
+          type:
+            - 'string[]'
+          description: ''
+      return:
+        type:
+          - Promise<void>

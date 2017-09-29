@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-tslint-rules.ITSLintPartialConfig'
+    name: ITSLintPartialConfig
+    fullName: ITSLintPartialConfig
+    children:
+      - '@microsoft/sp-tslint-rules.ITSLintPartialConfig.rules'
+      - '@microsoft/sp-tslint-rules.ITSLintPartialConfig.rulesDirectory'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-tslint-rules'
+  - uid: '@microsoft/sp-tslint-rules.ITSLintPartialConfig.rules'
+    name: rules
+    fullName: rules
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: string]: any rules'
+      return:
+        type:
+          - '[key: string]: any'
+  - uid: '@microsoft/sp-tslint-rules.ITSLintPartialConfig.rulesDirectory'
+    name: rulesDirectory
+    fullName: rulesDirectory
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string rulesDirectory
+      return:
+        type:
+          - string

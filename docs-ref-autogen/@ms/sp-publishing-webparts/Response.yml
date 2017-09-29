@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.Response'
+    name: Response
+    fullName: Response
+    children:
+      - '@ms/sp-publishing-webparts.Response.accepted'
+      - '@ms/sp-publishing-webparts.Response.none'
+      - '@ms/sp-publishing-webparts.Response.organizer'
+      - '@ms/sp-publishing-webparts.Response.rejected'
+      - '@ms/sp-publishing-webparts.Response.tentativelyAccepted'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.Response.accepted'
+    name: accepted
+    children: []
+    langs:
+      - typeScript
+    summary: Accept the event.
+    type: field
+  - uid: '@ms/sp-publishing-webparts.Response.none'
+    name: none
+    children: []
+    langs:
+      - typeScript
+    summary: No response.
+    type: field
+  - uid: '@ms/sp-publishing-webparts.Response.organizer'
+    name: organizer
+    children: []
+    langs:
+      - typeScript
+    summary: The organizer of the event.
+    type: field
+  - uid: '@ms/sp-publishing-webparts.Response.rejected'
+    name: rejected
+    children: []
+    langs:
+      - typeScript
+    summary: Reject the event.
+    type: field
+  - uid: '@ms/sp-publishing-webparts.Response.tentativelyAccepted'
+    name: tentativelyAccepted
+    children: []
+    langs:
+      - typeScript
+    summary: Tentatively accept the event.
+    type: field

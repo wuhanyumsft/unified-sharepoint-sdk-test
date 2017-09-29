@@ -1,0 +1,311 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IQuickLink'
+    name: IQuickLink
+    fullName: IQuickLink
+    children:
+      - '@ms/sp-teamsite-webparts.IQuickLink.activity'
+      - '@ms/sp-teamsite-webparts.IQuickLink.caption'
+      - '@ms/sp-teamsite-webparts.IQuickLink.fileExtension'
+      - '@ms/sp-teamsite-webparts.IQuickLink.flags'
+      - '@ms/sp-teamsite-webparts.IQuickLink.hasInvalidUrl'
+      - '@ms/sp-teamsite-webparts.IQuickLink.id'
+      - '@ms/sp-teamsite-webparts.IQuickLink.itemType'
+      - '@ms/sp-teamsite-webparts.IQuickLink.listId'
+      - '@ms/sp-teamsite-webparts.IQuickLink.pictureAltText'
+      - '@ms/sp-teamsite-webparts.IQuickLink.pictureGuids'
+      - '@ms/sp-teamsite-webparts.IQuickLink.pictureUrl'
+      - '@ms/sp-teamsite-webparts.IQuickLink.progId'
+      - '@ms/sp-teamsite-webparts.IQuickLink.renderInfo'
+      - '@ms/sp-teamsite-webparts.IQuickLink.siteId'
+      - '@ms/sp-teamsite-webparts.IQuickLink.title'
+      - '@ms/sp-teamsite-webparts.IQuickLink.uniqueId'
+      - '@ms/sp-teamsite-webparts.IQuickLink.url'
+      - '@ms/sp-teamsite-webparts.IQuickLink.webId'
+    langs:
+      - typeScript
+    type: interface
+    summary: Contains metadata about a quick item.
+    extends:
+      name: any
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLink.activity'
+    name: activity
+    fullName: activity
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Describes who quick this item and when.
+    syntax:
+      content: IDocumentCardActivityProps activity
+      return:
+        type:
+          - IDocumentCardActivityProps
+  - uid: '@ms/sp-teamsite-webparts.IQuickLink.caption'
+    name: caption
+    fullName: caption
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Caption of the quick item. If no caption is provided, this will be null or
+      the empty string.
+    syntax:
+      content: string caption
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLink.fileExtension'
+    name: fileExtension
+    fullName: fileExtension
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      File extension of the file represented by the quick item. Example: ".png".
+      If the object represented
+
+      by the quick item does not have a file extension or is not a file, this
+      will be null or the empty string.
+    syntax:
+      content: string fileExtension
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLink.flags'
+    name: flags
+    fullName: flags
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Additional flags that may apply to an item.
+    syntax:
+      content: number flags
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-teamsite-webparts.IQuickLink.hasInvalidUrl'
+    name: hasInvalidUrl
+    fullName: hasInvalidUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Indicates that the this item has an invalid url, most like the result of
+      an attempt at cross-site-scripting.
+
+      If an item has an invalid url, it will be overwritten with a safe one. The
+      UI normally prevents creating items
+
+      with invalid urls. The only way to create one is to circumvent the UI
+      using REST or CSOM.
+    syntax:
+      content: boolean hasInvalidUrl
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IQuickLink.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Generic id of the quick item.
+    syntax:
+      content: number id
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-teamsite-webparts.IQuickLink.itemType'
+    name: itemType
+    fullName: itemType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The type of object represented by the quick item. If the type is unknown,
+      it will be considered
+
+      a QuickLinkType.Link.
+    syntax:
+      content: QuickLinkType itemType
+      return:
+        type:
+          - QuickLinkType
+  - uid: '@ms/sp-teamsite-webparts.IQuickLink.listId'
+    name: listId
+    fullName: listId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      ListId Guid of the site the quick item is contained in. If the quick item
+      is not in SharePoint,
+
+      this will be null or the empty string.
+
+      It can be optional since it's omitted by getItemMetadata service and can
+      be ignored while calling preview service.
+    syntax:
+      content: string listId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLink.pictureAltText'
+    name: pictureAltText
+    fullName: pictureAltText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: User-chosen alt text to place on the image for accessibility purposes.
+    syntax:
+      content: string pictureAltText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLink.pictureGuids'
+    name: pictureGuids
+    fullName: pictureGuids
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Guids that can be used to load the picture from the microservice, if
+      specified.
+    syntax:
+      content: IGuidSet pictureGuids
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IGuidSet'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLink.pictureUrl'
+    name: pictureUrl
+    fullName: pictureUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Custom picture url for the quick item. If no custom picture url is
+      provided,
+
+      this will be null or the empty string.
+    syntax:
+      content: string pictureUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLink.progId'
+    name: progId
+    fullName: progId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Identifier of the program used to open this kind of file or folder, if
+      this is a file or folder.
+    syntax:
+      content: string progId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLink.renderInfo'
+    name: renderInfo
+    fullName: renderInfo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Information on how to render this quick item.
+    syntax:
+      content: IQuickLinkRenderInfo renderInfo
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IQuickLinkRenderInfo'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLink.siteId'
+    name: siteId
+    fullName: siteId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      SiteId Guid of the site the quick item is contained in. If the quick item
+      is not in SharePoint,
+
+      this will be null or the empty string.
+    syntax:
+      content: string siteId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLink.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Title of the quick item.
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLink.uniqueId'
+    name: uniqueId
+    fullName: uniqueId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      UniqueId Guid of the quick item in SharePoint. If the quick item is not in
+      SharePoint,
+
+      this will be null or the empty string.
+    syntax:
+      content: string uniqueId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLink.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Url of the quick item at the time it was quick.
+    syntax:
+      content: string url
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLink.webId'
+    name: webId
+    fullName: webId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      WebId Guid of the web the quick item is contained in. If the quick item is
+      not in SharePoint,
+
+      this will be null or the empty string.
+    syntax:
+      content: string webId
+      return:
+        type:
+          - string

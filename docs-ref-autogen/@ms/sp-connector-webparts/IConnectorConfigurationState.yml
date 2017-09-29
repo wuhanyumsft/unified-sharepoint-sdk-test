@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-connector-webparts.IConnectorConfigurationState'
+    name: IConnectorConfigurationState
+    fullName: IConnectorConfigurationState
+    children:
+      - '@ms/sp-connector-webparts.IConnectorConfigurationState.showConfiguration'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-connector-webparts'
+  - uid: '@ms/sp-connector-webparts.IConnectorConfigurationState.showConfiguration'
+    name: showConfiguration
+    fullName: showConfiguration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showConfiguration
+      return:
+        type:
+          - boolean

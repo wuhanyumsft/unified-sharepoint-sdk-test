@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IUserFromServer'
+    name: IUserFromServer
+    fullName: IUserFromServer
+    children:
+      - '@ms/sp-teamsite-webparts.IUserFromServer.Title'
+      - '@ms/sp-teamsite-webparts.IUserFromServer.WorkEmail'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IUserFromServer.Title'
+    name: Title
+    fullName: Title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IUserFromServer.WorkEmail'
+    name: WorkEmail
+    fullName: WorkEmail
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string WorkEmail
+      return:
+        type:
+          - string

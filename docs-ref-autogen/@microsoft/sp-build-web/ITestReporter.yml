@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-web.ITestReporter'
+    name: ITestReporter
+    fullName: ITestReporter
+    children:
+      - '@microsoft/sp-build-web.ITestReporter.$inject'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-build-web'
+  - uid: '@microsoft/sp-build-web.ITestReporter.$inject'
+    name: $inject
+    fullName: $inject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] $inject'
+      return:
+        type:
+          - 'string[]'

@@ -1,0 +1,83 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.EventAddDelete'
+    name: EventAddDelete
+    fullName: EventAddDelete
+    children:
+      - '@ms/sp-publishing-webparts.EventAddDelete.TestIncludeScripts'
+      - '@ms/sp-publishing-webparts.EventAddDelete.TestName'
+      - '@ms/sp-publishing-webparts.EventAddDelete.TestOwner'
+      - '@ms/sp-publishing-webparts.EventAddDelete.TestRun'
+      - '@ms/sp-publishing-webparts.EventAddDelete.TestSetup'
+      - '@ms/sp-publishing-webparts.EventAddDelete.TestTeardown'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.EventAddDelete.TestIncludeScripts'
+    name: TestIncludeScripts
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestIncludeScripts()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.EventAddDelete.TestName'
+    name: TestName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestName()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.EventAddDelete.TestOwner'
+    name: TestOwner
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestOwner()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.EventAddDelete.TestRun'
+    name: TestRun
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestRun()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.EventAddDelete.TestSetup'
+    name: TestSetup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestSetup()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.EventAddDelete.TestTeardown'
+    name: TestTeardown
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestTeardown()
+      parameters: []

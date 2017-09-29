@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IEmailAddress'
+    name: IEmailAddress
+    fullName: IEmailAddress
+    children:
+      - '@ms/sp-publishing-webparts.IEmailAddress.address'
+      - '@ms/sp-publishing-webparts.IEmailAddress.name'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IEmailAddress.address'
+    name: address
+    fullName: address
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The address of the email.
+    syntax:
+      content: string address
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IEmailAddress.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name of the email address owner.
+    syntax:
+      content: string name
+      return:
+        type:
+          - string

@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IGroupDataProviderRequest'
+    name: IGroupDataProviderRequest
+    fullName: IGroupDataProviderRequest
+    children:
+      - '@ms/sp-dataproviders.IGroupDataProviderRequest.groupId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IGroupDataProviderRequest.groupId'
+    name: groupId
+    fullName: groupId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string groupId
+      return:
+        type:
+          - string

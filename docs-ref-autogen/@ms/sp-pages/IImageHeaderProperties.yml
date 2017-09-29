@@ -1,0 +1,137 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IImageHeaderProperties'
+    name: IImageHeaderProperties
+    fullName: IImageHeaderProperties
+    children:
+      - '@ms/sp-pages.IImageHeaderProperties.focusOnInput'
+      - '@ms/sp-pages.IImageHeaderProperties.imageSource'
+      - '@ms/sp-pages.IImageHeaderProperties.imageSourceType'
+      - '@ms/sp-pages.IImageHeaderProperties.listId'
+      - '@ms/sp-pages.IImageHeaderProperties.siteId'
+      - '@ms/sp-pages.IImageHeaderProperties.textAlignCenter'
+      - '@ms/sp-pages.IImageHeaderProperties.title'
+      - '@ms/sp-pages.IImageHeaderProperties.uniqueId'
+      - '@ms/sp-pages.IImageHeaderProperties.webId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IImageHeaderProperties.focusOnInput'
+    name: focusOnInput
+    fullName: focusOnInput
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: true focusOnInput
+      return:
+        type:
+          - 'true'
+  - uid: '@ms/sp-pages.IImageHeaderProperties.imageSource'
+    name: imageSource
+    fullName: imageSource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string imageSource
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IImageHeaderProperties.imageSourceType'
+    name: imageSourceType
+    fullName: imageSourceType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ImageSourceType imageSourceType
+      return:
+        type:
+          - ImageSourceType
+  - uid: '@ms/sp-pages.IImageHeaderProperties.listId'
+    name: listId
+    fullName: listId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string listId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IImageHeaderProperties.siteId'
+    name: siteId
+    fullName: siteId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IImageHeaderProperties.textAlignCenter'
+    name: textAlignCenter
+    fullName: textAlignCenter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean textAlignCenter
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IImageHeaderProperties.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IImageHeaderProperties.uniqueId'
+    name: uniqueId
+    fullName: uniqueId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string uniqueId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IImageHeaderProperties.webId'
+    name: webId
+    fullName: webId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webId
+      return:
+        type:
+          - string

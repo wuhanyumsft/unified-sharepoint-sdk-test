@@ -1,0 +1,136 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry'
+    name: '@ms/sp-telemetry'
+    summary: ''
+    children:
+      - '@ms/sp-telemetry.BeaconHandlers'
+      - '@ms/sp-telemetry.CircularBuffer'
+      - '@ms/sp-telemetry.DefaultEngagementHandler'
+      - '@ms/sp-telemetry.DefaultEngagementImplementation'
+      - '@ms/sp-telemetry.EngagementLogger'
+      - '@ms/sp-telemetry.Component'
+      - '@ms/sp-telemetry.CurrentPage'
+      - '@ms/sp-telemetry.Feature'
+      - '@ms/sp-telemetry.SiteType'
+      - '@ms/sp-telemetry.UsageType'
+      - '@ms/sp-telemetry.IABExperiment'
+      - '@ms/sp-telemetry.IEngagementData'
+      - '@ms/sp-telemetry.IEngagementExtraData'
+      - '@ms/sp-telemetry.IEngagementHandler'
+      - '@ms/sp-telemetry.ILogData'
+      - '@ms/sp-telemetry.ILogEntry'
+      - '@ms/sp-telemetry.ILogErrorData'
+      - '@ms/sp-telemetry.ILogSource'
+      - '@ms/sp-telemetry.ILogVerboseData'
+      - '@ms/sp-telemetry.ITraceLogger'
+      - '@ms/sp-telemetry.LogEntry'
+      - '@ms/sp-telemetry.LogEvent'
+      - '@ms/sp-telemetry.LogFeature'
+      - '@ms/sp-telemetry.LogLevel'
+      - '@ms/sp-telemetry.LogManager'
+      - '@ms/sp-telemetry.LogSource'
+      - '@ms/sp-telemetry.LogType'
+      - '@ms/sp-telemetry.PageMetricsLogger'
+      - '@ms/sp-telemetry.PerformanceLogger'
+      - '@ms/sp-telemetry.QosMonitor'
+      - '@ms/sp-telemetry.DefaultTraceHandler'
+      - '@ms/sp-telemetry.ITraceHandler'
+      - '@ms/sp-telemetry.TraceLogger'
+      - '@ms/sp-telemetry.AriaLogger'
+      - '@ms/sp-telemetry.IPageContextData'
+      - '@ms/sp-telemetry.ITelemetrySettings'
+      - '@ms/sp-telemetry.SPTelemetryLogHandler'
+      - '@ms/sp-telemetry.Telemetry'
+      - '@ms/sp-telemetry.TelemetrySettingsManager'
+      - '@ms/sp-telemetry.CloneEventData'
+      - '@ms/sp-telemetry.CloneEventUtils'
+      - '@ms/sp-telemetry.Global'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@ms/sp-telemetry.BeaconHandlers'
+    name: BeaconHandlers
+  - uid: '@ms/sp-telemetry.CircularBuffer'
+    name: CircularBuffer
+  - uid: '@ms/sp-telemetry.DefaultEngagementHandler'
+    name: DefaultEngagementHandler
+  - uid: '@ms/sp-telemetry.DefaultEngagementImplementation'
+    name: DefaultEngagementImplementation
+  - uid: '@ms/sp-telemetry.EngagementLogger'
+    name: EngagementLogger
+  - uid: '@ms/sp-telemetry.Component'
+    name: Component
+  - uid: '@ms/sp-telemetry.CurrentPage'
+    name: CurrentPage
+  - uid: '@ms/sp-telemetry.Feature'
+    name: Feature
+  - uid: '@ms/sp-telemetry.SiteType'
+    name: SiteType
+  - uid: '@ms/sp-telemetry.UsageType'
+    name: UsageType
+  - uid: '@ms/sp-telemetry.IABExperiment'
+    name: IABExperiment
+  - uid: '@ms/sp-telemetry.IEngagementData'
+    name: IEngagementData
+  - uid: '@ms/sp-telemetry.IEngagementExtraData'
+    name: IEngagementExtraData
+  - uid: '@ms/sp-telemetry.IEngagementHandler'
+    name: IEngagementHandler
+  - uid: '@ms/sp-telemetry.ILogData'
+    name: ILogData
+  - uid: '@ms/sp-telemetry.ILogEntry'
+    name: ILogEntry
+  - uid: '@ms/sp-telemetry.ILogErrorData'
+    name: ILogErrorData
+  - uid: '@ms/sp-telemetry.ILogSource'
+    name: ILogSource
+  - uid: '@ms/sp-telemetry.ILogVerboseData'
+    name: ILogVerboseData
+  - uid: '@ms/sp-telemetry.ITraceLogger'
+    name: ITraceLogger
+  - uid: '@ms/sp-telemetry.LogEntry'
+    name: LogEntry
+  - uid: '@ms/sp-telemetry.LogEvent'
+    name: LogEvent
+  - uid: '@ms/sp-telemetry.LogFeature'
+    name: LogFeature
+  - uid: '@ms/sp-telemetry.LogLevel'
+    name: LogLevel
+  - uid: '@ms/sp-telemetry.LogManager'
+    name: LogManager
+  - uid: '@ms/sp-telemetry.LogSource'
+    name: LogSource
+  - uid: '@ms/sp-telemetry.LogType'
+    name: LogType
+  - uid: '@ms/sp-telemetry.PageMetricsLogger'
+    name: PageMetricsLogger
+  - uid: '@ms/sp-telemetry.PerformanceLogger'
+    name: PerformanceLogger
+  - uid: '@ms/sp-telemetry.QosMonitor'
+    name: QosMonitor
+  - uid: '@ms/sp-telemetry.DefaultTraceHandler'
+    name: DefaultTraceHandler
+  - uid: '@ms/sp-telemetry.ITraceHandler'
+    name: ITraceHandler
+  - uid: '@ms/sp-telemetry.TraceLogger'
+    name: TraceLogger
+  - uid: '@ms/sp-telemetry.AriaLogger'
+    name: AriaLogger
+  - uid: '@ms/sp-telemetry.IPageContextData'
+    name: IPageContextData
+  - uid: '@ms/sp-telemetry.ITelemetrySettings'
+    name: ITelemetrySettings
+  - uid: '@ms/sp-telemetry.SPTelemetryLogHandler'
+    name: SPTelemetryLogHandler
+  - uid: '@ms/sp-telemetry.Telemetry'
+    name: Telemetry
+  - uid: '@ms/sp-telemetry.TelemetrySettingsManager'
+    name: TelemetrySettingsManager
+  - uid: '@ms/sp-telemetry.CloneEventData'
+    name: CloneEventData
+  - uid: '@ms/sp-telemetry.CloneEventUtils'
+    name: CloneEventUtils
+  - uid: '@ms/sp-telemetry.Global'
+    name: Global

@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.IHighlightColorHandlerConfig'
+    name: IHighlightColorHandlerConfig
+    fullName: IHighlightColorHandlerConfig
+    children:
+      - '@ms/sp-canvas.IHighlightColorHandlerConfig.format'
+      - '@ms/sp-canvas.IHighlightColorHandlerConfig.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-canvas.IFormatHandlerConfig'
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.IHighlightColorHandlerConfig.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function format
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-canvas.IHighlightColorHandlerConfig.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function value
+      return:
+        type:
+          - function

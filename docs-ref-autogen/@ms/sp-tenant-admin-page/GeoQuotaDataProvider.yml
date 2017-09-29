@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.GeoQuotaDataProvider'
+    name: GeoQuotaDataProvider
+    fullName: GeoQuotaDataProvider
+    children:
+      - '@ms/sp-tenant-admin-page.GeoQuotaDataProvider.getGeoQuotaData'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.GeoQuotaDataProvider.getGeoQuotaData'
+    name: getGeoQuotaData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getGeoQuotaData()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-tenant-admin-page.IStorageQuotaData>

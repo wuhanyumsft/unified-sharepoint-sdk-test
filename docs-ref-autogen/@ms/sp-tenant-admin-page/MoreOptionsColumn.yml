@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.MoreOptionsColumn'
+    name: MoreOptionsColumn
+    fullName: MoreOptionsColumn
+    children:
+      - '@ms/sp-tenant-admin-page.MoreOptionsColumn.buildColumnMenuProps'
+      - '@ms/sp-tenant-admin-page.MoreOptionsColumn.buildColumnProps'
+      - '@ms/sp-tenant-admin-page.MoreOptionsColumn.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.MoreOptionsColumn.buildColumnMenuProps'
+    name: buildColumnMenuProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function buildColumnMenuProps()
+      parameters: []
+      return:
+        type:
+          - IContextualMenuProps
+  - uid: '@ms/sp-tenant-admin-page.MoreOptionsColumn.buildColumnProps'
+    name: buildColumnProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function buildColumnProps()
+      parameters: []
+      return:
+        type:
+          - IColumn
+  - uid: '@ms/sp-tenant-admin-page.MoreOptionsColumn.constructor'
+    name: MoreOptionsColumn
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new MoreOptionsColumn(dispatch: Dispatch<ISiteManagementState>)'
+      parameters:
+        - id: dispatch
+          type:
+            - Dispatch<@@ms/sp-tenant-admin-page.ISiteManagementState>
+          description: ''

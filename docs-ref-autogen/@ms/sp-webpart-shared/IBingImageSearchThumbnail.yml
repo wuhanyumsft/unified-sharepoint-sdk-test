@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.IBingImageSearchThumbnail'
+    name: IBingImageSearchThumbnail
+    fullName: IBingImageSearchThumbnail
+    children:
+      - '@ms/sp-webpart-shared.IBingImageSearchThumbnail.height'
+      - '@ms/sp-webpart-shared.IBingImageSearchThumbnail.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      Result from the Bing
+      https://api.cognitive.microsoft.com/bing/v7.0/images/search endpoint.
+
+      The result contains additional content but this only declares what is
+      being used.
+
+      See:
+      https://docs.microsoft.com/en-us/azure/cognitive-services/bing-image-search/quick-start,
+           https://docs.microsoft.com/en-us/rest/api/cognitiveservices/bing-images-api-v7-reference
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.IBingImageSearchThumbnail.height'
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number height
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-webpart-shared.IBingImageSearchThumbnail.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number width
+      return:
+        type:
+          - number

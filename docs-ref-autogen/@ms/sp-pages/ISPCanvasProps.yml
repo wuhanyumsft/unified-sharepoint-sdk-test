@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ISPCanvasProps'
+    name: ISPCanvasProps
+    fullName: ISPCanvasProps
+    children:
+      - '@ms/sp-pages.ISPCanvasProps.bindField'
+      - '@ms/sp-pages.ISPCanvasProps.canvasContent'
+      - '@ms/sp-pages.ISPCanvasProps.className'
+      - '@ms/sp-pages.ISPCanvasProps.shouldCenterAlign'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ISPCanvasProps.bindField'
+    name: bindField
+    fullName: bindField
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string bindField
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.ISPCanvasProps.canvasContent'
+    name: canvasContent
+    fullName: canvasContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string canvasContent
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.ISPCanvasProps.className'
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: CSS class to apply to the canvas
+    syntax:
+      content: string className
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.ISPCanvasProps.shouldCenterAlign'
+    name: shouldCenterAlign
+    fullName: shouldCenterAlign
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean shouldCenterAlign
+      return:
+        type:
+          - boolean

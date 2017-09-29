@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IAttachmentItemProps'
+    name: IAttachmentItemProps
+    fullName: IAttachmentItemProps
+    children:
+      - '@ms/sp-pages.IAttachmentItemProps.fileIconUrlGenerator'
+      - '@ms/sp-pages.IAttachmentItemProps.item'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IAttachmentItemProps.fileIconUrlGenerator'
+    name: fileIconUrlGenerator
+    fullName: fileIconUrlGenerator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(fileExtension: string, size: number) => string fileIconUrlGenerator'
+      return:
+        type:
+          - '(fileExtension: string, size: number) => string'
+  - uid: '@ms/sp-pages.IAttachmentItemProps.item'
+    name: item
+    fullName: item
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IAttachment item
+      return:
+        type:
+          - IAttachment

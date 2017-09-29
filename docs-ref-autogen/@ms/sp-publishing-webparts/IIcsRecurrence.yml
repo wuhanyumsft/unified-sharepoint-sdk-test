@@ -1,0 +1,137 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IIcsRecurrence'
+    name: IIcsRecurrence
+    fullName: IIcsRecurrence
+    children:
+      - '@ms/sp-publishing-webparts.IIcsRecurrence.BYDAY'
+      - '@ms/sp-publishing-webparts.IIcsRecurrence.BYMONTH'
+      - '@ms/sp-publishing-webparts.IIcsRecurrence.BYMONTHDAY'
+      - '@ms/sp-publishing-webparts.IIcsRecurrence.BYSETPOS'
+      - '@ms/sp-publishing-webparts.IIcsRecurrence.COUNT'
+      - '@ms/sp-publishing-webparts.IIcsRecurrence.FREQ'
+      - '@ms/sp-publishing-webparts.IIcsRecurrence.INTERVAL'
+      - '@ms/sp-publishing-webparts.IIcsRecurrence.UNTIL'
+      - '@ms/sp-publishing-webparts.IIcsRecurrence.WKST'
+    langs:
+      - typeScript
+    type: interface
+    summary: Recurrence component properties from iCalendar specification.
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IIcsRecurrence.BYDAY'
+    name: BYDAY
+    fullName: BYDAY
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string BYDAY
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsRecurrence.BYMONTH'
+    name: BYMONTH
+    fullName: BYMONTH
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string BYMONTH
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsRecurrence.BYMONTHDAY'
+    name: BYMONTHDAY
+    fullName: BYMONTHDAY
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string BYMONTHDAY
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsRecurrence.BYSETPOS'
+    name: BYSETPOS
+    fullName: BYSETPOS
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string BYSETPOS
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsRecurrence.COUNT'
+    name: COUNT
+    fullName: COUNT
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string COUNT
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsRecurrence.FREQ'
+    name: FREQ
+    fullName: FREQ
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string FREQ
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsRecurrence.INTERVAL'
+    name: INTERVAL
+    fullName: INTERVAL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string INTERVAL
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsRecurrence.UNTIL'
+    name: UNTIL
+    fullName: UNTIL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string UNTIL
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IIcsRecurrence.WKST'
+    name: WKST
+    fullName: WKST
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string WKST
+      return:
+        type:
+          - string

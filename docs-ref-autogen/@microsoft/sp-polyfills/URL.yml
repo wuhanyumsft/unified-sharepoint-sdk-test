@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-polyfills.URL'
+    name: URL
+    fullName: URL
+    children:
+      - '@microsoft/sp-polyfills.URL.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@microsoft/sp-polyfills.BaseURL'
+    package: '@microsoft/sp-polyfills'
+  - uid: '@microsoft/sp-polyfills.URL.constructor'
+    name: URL
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new URL(url: string, base?: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+        - id: base
+          type:
+            - string
+          description: ''
+          optional: true

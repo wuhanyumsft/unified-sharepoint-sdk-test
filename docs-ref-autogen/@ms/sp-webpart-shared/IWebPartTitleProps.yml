@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.IWebPartTitleProps'
+    name: IWebPartTitleProps
+    fullName: IWebPartTitleProps
+    children:
+      - '@ms/sp-webpart-shared.IWebPartTitleProps.alignPosition'
+      - '@ms/sp-webpart-shared.IWebPartTitleProps.className'
+      - '@ms/sp-webpart-shared.IWebPartTitleProps.edit'
+      - '@ms/sp-webpart-shared.IWebPartTitleProps.onTitleChange'
+      - '@ms/sp-webpart-shared.IWebPartTitleProps.placeholder'
+      - '@ms/sp-webpart-shared.IWebPartTitleProps.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.IWebPartTitleProps.alignPosition'
+    name: alignPosition
+    fullName: alignPosition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CaptionElementAlignPosition alignPosition
+      return:
+        type:
+          - '@@ms/sp-webpart-shared.CaptionElementAlignPosition'
+  - uid: '@ms/sp-webpart-shared.IWebPartTitleProps.className'
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string className
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IWebPartTitleProps.edit'
+    name: edit
+    fullName: edit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean edit
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-webpart-shared.IWebPartTitleProps.onTitleChange'
+    name: onTitleChange
+    fullName: onTitleChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(ev: FormEvent<HTMLTextAreaElement>) => void onTitleChange'
+      return:
+        type:
+          - '(ev: FormEvent<HTMLTextAreaElement>) => void'
+  - uid: '@ms/sp-webpart-shared.IWebPartTitleProps.placeholder'
+    name: placeholder
+    fullName: placeholder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string placeholder
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IWebPartTitleProps.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

@@ -1,0 +1,70 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IShortcutsPanel'
+    name: IShortcutsPanel
+    fullName: IShortcutsPanel
+    children:
+      - '@ms/sp-teamsite-webparts.IShortcutsPanel.getFieldValues'
+      - '@ms/sp-teamsite-webparts.IShortcutsPanel.setState'
+      - '@ms/sp-teamsite-webparts.IShortcutsPanel.setTitleValue'
+      - '@ms/sp-teamsite-webparts.IShortcutsPanel.setUrlValue'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IShortcutsPanel.getFieldValues'
+    name: getFieldValues
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Retrieves the current values of the text fields
+    syntax:
+      content: function getFieldValues()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IShortcutsPanelFieldValues'
+  - uid: '@ms/sp-teamsite-webparts.IShortcutsPanel.setState'
+    name: setState
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Asynchronously updates the state of the panel
+    syntax:
+      content: 'function setState(value: IShortcutsPanelState)'
+      parameters:
+        - id: value
+          type:
+            - '@@ms/sp-teamsite-webparts.IShortcutsPanelState'
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.IShortcutsPanel.setTitleValue'
+    name: setTitleValue
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets the value of the title text field to the indicated string
+    syntax:
+      content: 'function setTitleValue(value: string)'
+      parameters:
+        - id: value
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.IShortcutsPanel.setUrlValue'
+    name: setUrlValue
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets the value of the url text field to the indicated string
+    syntax:
+      content: 'function setUrlValue(value: string)'
+      parameters:
+        - id: value
+          type:
+            - string
+          description: ''

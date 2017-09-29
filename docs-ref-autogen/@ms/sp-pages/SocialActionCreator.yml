@@ -1,0 +1,71 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.SocialActionCreator'
+    name: SocialActionCreator
+    fullName: SocialActionCreator
+    children:
+      - '@ms/sp-pages.SocialActionCreator.fetchNextPageLikes'
+      - '@ms/sp-pages.SocialActionCreator.getPageLikes'
+      - '@ms/sp-pages.SocialActionCreator.likePage'
+      - '@ms/sp-pages.SocialActionCreator.unlikePage'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SocialActionCreator.fetchNextPageLikes'
+    name: fetchNextPageLikes
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function fetchNextPageLikes(pageLikesContainer: LikeableItem)'
+      parameters:
+        - id: pageLikesContainer
+          type:
+            - '@@ms/sp-pages.LikeableItem'
+          description: ''
+  - uid: '@ms/sp-pages.SocialActionCreator.getPageLikes'
+    name: getPageLikes
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getPageLikes(pageLikesContainer: LikeableItem)'
+      parameters:
+        - id: pageLikesContainer
+          type:
+            - '@@ms/sp-pages.LikeableItem'
+          description: ''
+  - uid: '@ms/sp-pages.SocialActionCreator.likePage'
+    name: likePage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function likePage(pageLikesContainer: LikeableItem)'
+      parameters:
+        - id: pageLikesContainer
+          type:
+            - '@@ms/sp-pages.LikeableItem'
+          description: ''
+  - uid: '@ms/sp-pages.SocialActionCreator.unlikePage'
+    name: unlikePage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function unlikePage(pageLikesContainer: LikeableItem)'
+      parameters:
+        - id: pageLikesContainer
+          type:
+            - '@@ms/sp-pages.LikeableItem'
+          description: ''

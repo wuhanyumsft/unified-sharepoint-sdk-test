@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IDeployEntry'
+    name: IDeployEntry
+    fullName: IDeployEntry
+    children:
+      - '@microsoft/sp-build-core-tasks.IDeployEntry.bundleEntry'
+      - '@microsoft/sp-build-core-tasks.IDeployEntry.debugModules'
+      - '@microsoft/sp-build-core-tasks.IDeployEntry.entryName'
+      - '@microsoft/sp-build-core-tasks.IDeployEntry.productionModules'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.IDeployEntry.bundleEntry'
+    name: bundleEntry
+    fullName: bundleEntry
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IBundleEntry bundleEntry
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IBundleEntry'
+  - uid: '@microsoft/sp-build-core-tasks.IDeployEntry.debugModules'
+    name: debugModules
+    fullName: debugModules
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IDeployModules debugModules
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IDeployModules'
+  - uid: '@microsoft/sp-build-core-tasks.IDeployEntry.entryName'
+    name: entryName
+    fullName: entryName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string entryName
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IDeployEntry.productionModules'
+    name: productionModules
+    fullName: productionModules
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IDeployModules productionModules
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IDeployModules'

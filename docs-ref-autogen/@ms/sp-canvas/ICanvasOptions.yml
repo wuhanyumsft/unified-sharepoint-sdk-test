@@ -1,0 +1,133 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ICanvasOptions'
+    name: ICanvasOptions
+    fullName: ICanvasOptions
+    children:
+      - '@ms/sp-canvas.ICanvasOptions.a11yManagerId'
+      - '@ms/sp-canvas.ICanvasOptions.handleCanvasChanged'
+      - '@ms/sp-canvas.ICanvasOptions.handleViewportRendered'
+      - '@ms/sp-canvas.ICanvasOptions.mode'
+      - '@ms/sp-canvas.ICanvasOptions.scrollThreshold'
+      - '@ms/sp-canvas.ICanvasOptions.serializedCanvasContent'
+      - '@ms/sp-canvas.ICanvasOptions.serviceScope'
+      - '@ms/sp-canvas.ICanvasOptions.shouldCenterAlign'
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      SharePoint Client-side Applications can use the SharePoint Canvas to
+      enable rich content authoring
+
+      as part of their experience. The SharePoint canvas provides Rich Text
+      Editing capabilities, SharePoint
+
+      Client-side WebPart aggregation and hosting, and a beautiful railed design
+      experience.
+
+      Interface for the Canvas optional parameters.
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ICanvasOptions.a11yManagerId'
+    name: a11yManagerId
+    fullName: a11yManagerId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string a11yManagerId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.ICanvasOptions.handleCanvasChanged'
+    name: handleCanvasChanged
+    fullName: handleCanvasChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void handleCanvasChanged
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-canvas.ICanvasOptions.handleViewportRendered'
+    name: handleViewportRendered
+    fullName: handleViewportRendered
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(loadTimeMS: number) => void handleViewportRendered'
+      return:
+        type:
+          - '(loadTimeMS: number) => void'
+  - uid: '@ms/sp-canvas.ICanvasOptions.mode'
+    name: mode
+    fullName: mode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DisplayMode mode
+      return:
+        type:
+          - DisplayMode
+  - uid: '@ms/sp-canvas.ICanvasOptions.scrollThreshold'
+    name: scrollThreshold
+    fullName: scrollThreshold
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number scrollThreshold
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-canvas.ICanvasOptions.serializedCanvasContent'
+    name: serializedCanvasContent
+    fullName: serializedCanvasContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string serializedCanvasContent
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.ICanvasOptions.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope
+  - uid: '@ms/sp-canvas.ICanvasOptions.shouldCenterAlign'
+    name: shouldCenterAlign
+    fullName: shouldCenterAlign
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean shouldCenterAlign
+      return:
+        type:
+          - boolean

@@ -1,0 +1,68 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksHeader'
+    name: QuickLinksHeader
+    fullName: QuickLinksHeader
+    children:
+      - '@ms/sp-teamsite-webparts.QuickLinksHeader.componentWillUnmount'
+      - '@ms/sp-teamsite-webparts.QuickLinksHeader.constructor'
+      - '@ms/sp-teamsite-webparts.QuickLinksHeader.refs'
+      - '@ms/sp-teamsite-webparts.QuickLinksHeader.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-teamsite-webparts.QuickLinksHeader<@@ms/sp-teamsite-webparts.IQuickLinksHeaderProps>
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksHeader.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksHeader.constructor'
+    name: QuickLinksHeader
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new QuickLinksHeader(props: IQuickLinksHeaderProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLinksHeaderProps'
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksHeader.refs'
+    name: refs
+    fullName: refs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: string]: ReactInstance refs'
+      return:
+        type:
+          - '[key: string]: ReactInstance'
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksHeader.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

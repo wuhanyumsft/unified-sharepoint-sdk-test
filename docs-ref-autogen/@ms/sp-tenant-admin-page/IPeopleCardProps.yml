@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IPeopleCardProps'
+    name: IPeopleCardProps
+    fullName: IPeopleCardProps
+    children:
+      - '@ms/sp-tenant-admin-page.IPeopleCardProps.email'
+      - '@ms/sp-tenant-admin-page.IPeopleCardProps.name'
+      - '@ms/sp-tenant-admin-page.IPeopleCardProps.role'
+      - '@ms/sp-tenant-admin-page.IPeopleCardProps.size'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IPeopleCardProps.email'
+    name: email
+    fullName: email
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string email
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IPeopleCardProps.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IPeopleCardProps.role'
+    name: role
+    fullName: role
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string role
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IPeopleCardProps.size'
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PersonaSize size
+      return:
+        type:
+          - PersonaSize

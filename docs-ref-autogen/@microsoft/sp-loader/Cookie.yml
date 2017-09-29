@@ -1,0 +1,112 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.Cookie'
+    name: Cookie
+    fullName: Cookie
+    children:
+      - '@microsoft/sp-loader.Cookie.buildCookie'
+      - '@microsoft/sp-loader.Cookie.constructor'
+      - '@microsoft/sp-loader.Cookie.setCookie'
+      - '@microsoft/sp-loader.Cookie.tryGetCookie'
+      - '@microsoft/sp-loader.Cookie.tryGetCookie'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.Cookie.buildCookie'
+    name: buildCookie
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function buildCookie(id: string, value: string, attributes?:
+        ICookieAttributes)
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - string
+          description: ''
+        - id: attributes
+          type:
+            - '@@microsoft/sp-loader.ICookieAttributes'
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-loader.Cookie.constructor'
+    name: Cookie
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Cookie(cookie?: string)'
+      parameters:
+        - id: cookie
+          type:
+            - string
+          description: ''
+          optional: true
+  - uid: '@microsoft/sp-loader.Cookie.setCookie'
+    name: setCookie
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function setCookie(id: string, value: string, attributes?:
+        ICookieAttributes)
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - string
+          description: ''
+        - id: attributes
+          type:
+            - '@@microsoft/sp-loader.ICookieAttributes'
+          description: ''
+          optional: true
+  - uid: '@microsoft/sp-loader.Cookie.tryGetCookie'
+    name: tryGetCookie
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function tryGetCookie(cookieId: string)'
+      parameters:
+        - id: cookieId
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-loader.Cookie.tryGetCookie'
+    name: tryGetCookie
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function tryGetCookie(cookieId: string)'
+      parameters:
+        - id: cookieId
+          type:
+            - string
+          description: ''

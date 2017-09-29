@@ -1,0 +1,182 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-module-interfaces.ManifestValidator'
+    name: ManifestValidator
+    fullName: ManifestValidator
+    children:
+      - >-
+        @microsoft/sp-module-interfaces.ManifestValidator.extractInnerErrorMessages
+      - >-
+        @microsoft/sp-module-interfaces.ManifestValidator.getFormattedErrorMessage
+      - >-
+        @microsoft/sp-module-interfaces.ManifestValidator.validateApplicationManifest
+      - >-
+        @microsoft/sp-module-interfaces.ManifestValidator.validateAssemblyManifest
+      - >-
+        @microsoft/sp-module-interfaces.ManifestValidator.validateCommandSetManifest
+      - >-
+        @microsoft/sp-module-interfaces.ManifestValidator.validateExtensionManifest
+      - >-
+        @microsoft/sp-module-interfaces.ManifestValidator.validateLibraryManifest
+      - '@microsoft/sp-module-interfaces.ManifestValidator.validateManifest'
+      - >-
+        @microsoft/sp-module-interfaces.ManifestValidator.validateWebPartManifest
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-module-interfaces'
+  - uid: >-
+      @microsoft/sp-module-interfaces.ManifestValidator.extractInnerErrorMessages
+    name: extractInnerErrorMessages
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function extractInnerErrorMessages(errors: SchemaErrorDetail[])'
+      parameters:
+        - id: errors
+          type:
+            - 'SchemaErrorDetail[]'
+          description: ''
+  - uid: '@microsoft/sp-module-interfaces.ManifestValidator.getFormattedErrorMessage'
+    name: getFormattedErrorMessage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getFormattedErrorMessage(errors: SchemaErrorDetail[])'
+      parameters:
+        - id: errors
+          type:
+            - 'SchemaErrorDetail[]'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: >-
+      @microsoft/sp-module-interfaces.ManifestValidator.validateApplicationManifest
+    name: validateApplicationManifest
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function validateApplicationManifest(manifest: string)'
+      parameters:
+        - id: manifest
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-module-interfaces.IManifestValidatorResult'
+  - uid: '@microsoft/sp-module-interfaces.ManifestValidator.validateAssemblyManifest'
+    name: validateAssemblyManifest
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function validateAssemblyManifest(manifest: string)'
+      parameters:
+        - id: manifest
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-module-interfaces.IManifestValidatorResult'
+  - uid: >-
+      @microsoft/sp-module-interfaces.ManifestValidator.validateCommandSetManifest
+    name: validateCommandSetManifest
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function validateCommandSetManifest(manifest: string)'
+      parameters:
+        - id: manifest
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-module-interfaces.IManifestValidatorResult'
+  - uid: >-
+      @microsoft/sp-module-interfaces.ManifestValidator.validateExtensionManifest
+    name: validateExtensionManifest
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function validateExtensionManifest(manifest: string)'
+      parameters:
+        - id: manifest
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-module-interfaces.IManifestValidatorResult'
+  - uid: '@microsoft/sp-module-interfaces.ManifestValidator.validateLibraryManifest'
+    name: validateLibraryManifest
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function validateLibraryManifest(manifest: string)'
+      parameters:
+        - id: manifest
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-module-interfaces.IManifestValidatorResult'
+  - uid: '@microsoft/sp-module-interfaces.ManifestValidator.validateManifest'
+    name: validateManifest
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function validateManifest(manifest: string)'
+      parameters:
+        - id: manifest
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-module-interfaces.IManifestValidatorResult'
+  - uid: '@microsoft/sp-module-interfaces.ManifestValidator.validateWebPartManifest'
+    name: validateWebPartManifest
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function validateWebPartManifest(manifest: string)'
+      parameters:
+        - id: manifest
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-module-interfaces.IManifestValidatorResult'

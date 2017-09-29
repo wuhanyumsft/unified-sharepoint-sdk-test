@@ -1,0 +1,65 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ContentRollupLayout'
+    name: ContentRollupLayout
+    fullName: ContentRollupLayout
+    children:
+      - '@ms/sp-publishing-webparts.ContentRollupLayout.Card'
+      - '@ms/sp-publishing-webparts.ContentRollupLayout.List'
+      - '@ms/sp-publishing-webparts.ContentRollupLayout.Carousel'
+      - '@ms/sp-publishing-webparts.ContentRollupLayout.FilmStrip'
+      - '@ms/sp-publishing-webparts.ContentRollupLayout.Masonry'
+      - '@ms/sp-publishing-webparts.ContentRollupLayout.Custom'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ContentRollupLayout.Card'
+    name: Card
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-publishing-webparts.ContentRollupLayout.List'
+    name: List
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+  - uid: '@ms/sp-publishing-webparts.ContentRollupLayout.Carousel'
+    name: Carousel
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+  - uid: '@ms/sp-publishing-webparts.ContentRollupLayout.FilmStrip'
+    name: FilmStrip
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+  - uid: '@ms/sp-publishing-webparts.ContentRollupLayout.Masonry'
+    name: Masonry
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 5
+  - uid: '@ms/sp-publishing-webparts.ContentRollupLayout.Custom'
+    name: Custom
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 999

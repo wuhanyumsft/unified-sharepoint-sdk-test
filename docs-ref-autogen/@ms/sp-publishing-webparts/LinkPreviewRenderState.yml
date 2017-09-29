@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewRenderState'
+    name: LinkPreviewRenderState
+    fullName: LinkPreviewRenderState
+    children:
+      - '@ms/sp-publishing-webparts.LinkPreviewRenderState.fail'
+      - '@ms/sp-publishing-webparts.LinkPreviewRenderState.success'
+    langs:
+      - typeScript
+    type: enum
+    summary: This enum have 2 states for preview redering.
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewRenderState.fail'
+    name: fail
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewRenderState.success'
+    name: success
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

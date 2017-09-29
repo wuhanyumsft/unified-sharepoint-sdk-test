@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/repo-toolbox.CreateProdBranchAction'
+    name: CreateProdBranchAction
+    fullName: CreateProdBranchAction
+    children:
+      - '@ms/repo-toolbox.CreateProdBranchAction.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/repo-toolbox.RepoToolboxAction'
+    package: '@ms/repo-toolbox'
+  - uid: '@ms/repo-toolbox.CreateProdBranchAction.constructor'
+    name: CreateProdBranchAction
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new CreateProdBranchAction()
+      parameters: []

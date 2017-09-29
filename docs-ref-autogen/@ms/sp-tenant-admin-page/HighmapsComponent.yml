@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.HighmapsComponent'
+    name: HighmapsComponent
+    fullName: HighmapsComponent
+    children:
+      - '@ms/sp-tenant-admin-page.HighmapsComponent.componentDidMount'
+      - '@ms/sp-tenant-admin-page.HighmapsComponent.componentWillUnmount'
+      - '@ms/sp-tenant-admin-page.HighmapsComponent.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-tenant-admin-page.HighmapsComponent<@@ms/sp-tenant-admin-page.IHighmapsComponent>
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.HighmapsComponent.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.HighmapsComponent.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.HighmapsComponent.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

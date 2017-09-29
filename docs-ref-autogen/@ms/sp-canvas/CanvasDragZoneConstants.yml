@@ -1,0 +1,123 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.CanvasDragZoneConstants'
+    name: CanvasDragZoneConstants
+    fullName: CanvasDragZoneConstants
+    children:
+      - '@ms/sp-canvas.CanvasDragZoneConstants.controlZoneDragTag'
+      - '@ms/sp-canvas.CanvasDragZoneConstants.fullWidthSectionTag'
+      - '@ms/sp-canvas.CanvasDragZoneConstants.LINE_OFFSET_BOTTOM'
+      - '@ms/sp-canvas.CanvasDragZoneConstants.LINE_OFFSET_TOP'
+      - '@ms/sp-canvas.CanvasDragZoneConstants.sectionDragTag'
+      - '@ms/sp-canvas.CanvasDragZoneConstants.webpartDragHandleTag'
+      - '@ms/sp-canvas.CanvasDragZoneConstants.zoneDragHandleTag'
+      - '@ms/sp-canvas.CanvasDragZoneConstants.zoneDragTag'
+    langs:
+      - typeScript
+    type: class
+    summary: Canvas Drag zone constants
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.CanvasDragZoneConstants.controlZoneDragTag'
+    name: controlZoneDragTag
+    fullName: controlZoneDragTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string controlZoneDragTag
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.CanvasDragZoneConstants.fullWidthSectionTag'
+    name: fullWidthSectionTag
+    fullName: fullWidthSectionTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string fullWidthSectionTag
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.CanvasDragZoneConstants.LINE_OFFSET_BOTTOM'
+    name: LINE_OFFSET_BOTTOM
+    fullName: LINE_OFFSET_BOTTOM
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number LINE_OFFSET_BOTTOM
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-canvas.CanvasDragZoneConstants.LINE_OFFSET_TOP'
+    name: LINE_OFFSET_TOP
+    fullName: LINE_OFFSET_TOP
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number LINE_OFFSET_TOP
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-canvas.CanvasDragZoneConstants.sectionDragTag'
+    name: sectionDragTag
+    fullName: sectionDragTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string sectionDragTag
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.CanvasDragZoneConstants.webpartDragHandleTag'
+    name: webpartDragHandleTag
+    fullName: webpartDragHandleTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string webpartDragHandleTag
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.CanvasDragZoneConstants.zoneDragHandleTag'
+    name: zoneDragHandleTag
+    fullName: zoneDragHandleTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string zoneDragHandleTag
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.CanvasDragZoneConstants.zoneDragTag'
+    name: zoneDragTag
+    fullName: zoneDragTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string zoneDragTag
+      return:
+        type:
+          - string

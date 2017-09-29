@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneTextField'
+    name: QuickLinksPropertyPaneTextField
+    fullName: QuickLinksPropertyPaneTextField
+    children:
+      - '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneTextField.constructor'
+      - '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneTextField.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-teamsite-webparts.QuickLinksPropertyPaneTextField<@@ms/sp-teamsite-webparts.IQuickLinksPropertyPaneTextFieldProps>
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneTextField.constructor'
+    name: QuickLinksPropertyPaneTextField
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new QuickLinksPropertyPaneTextField(props:
+        IQuickLinksPropertyPaneTextFieldProps)
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLinksPropertyPaneTextFieldProps'
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneTextField.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

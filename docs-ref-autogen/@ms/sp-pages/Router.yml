@@ -1,0 +1,100 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.Router'
+    name: Router
+    fullName: Router
+    children:
+      - '@ms/sp-pages.Router.componentDidMount'
+      - '@ms/sp-pages.Router.componentWillMount'
+      - '@ms/sp-pages.Router.componentWillUnmount'
+      - '@ms/sp-pages.Router.render'
+      - '@ms/sp-pages.Router.constructor'
+      - '@ms/sp-pages.Router.tryRoute'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.Router<@@ms/sp-pages.IRouterProps>'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.Router.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-pages.Router.componentWillMount'
+    name: componentWillMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillMount()
+      parameters: []
+  - uid: '@ms/sp-pages.Router.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-pages.Router.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.Router.constructor'
+    name: Router
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new Router()
+      parameters: []
+  - uid: '@ms/sp-pages.Router.tryRoute'
+    name: tryRoute
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function tryRoute(href: string, pushUrl: boolean, skipIntercept?:
+        boolean)
+      parameters:
+        - id: href
+          type:
+            - string
+          description: ''
+        - id: pushUrl
+          type:
+            - boolean
+          description: ''
+        - id: skipIntercept
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean

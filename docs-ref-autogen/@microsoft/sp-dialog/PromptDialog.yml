@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-dialog.PromptDialog'
+    name: PromptDialog
+    fullName: PromptDialog
+    children:
+      - '@microsoft/sp-dialog.PromptDialog.constructor'
+      - '@microsoft/sp-dialog.PromptDialog.render'
+      - '@microsoft/sp-dialog.PromptDialog.resolve'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      Internal implementation of a dialog to mimic browser's prompt() behavior.
+      Third-party can use this by calling the static method Dialog.prompt()
+    extends:
+      name: '@@microsoft/sp-dialog.BaseDialog'
+    package: '@microsoft/sp-dialog'
+  - uid: '@microsoft/sp-dialog.PromptDialog.constructor'
+    name: PromptDialog
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new PromptDialog(message: string, resolve: (value: string) => void,
+        defaultValue: string)
+      parameters:
+        - id: message
+          type:
+            - string
+          description: ''
+        - id: resolve
+          type:
+            - '(value: string) => void'
+          description: ''
+        - id: defaultValue
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-dialog.PromptDialog.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+  - uid: '@microsoft/sp-dialog.PromptDialog.resolve'
+    name: resolve
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function resolve(value: string)'
+      parameters:
+        - id: value
+          type:
+            - string
+          description: ''

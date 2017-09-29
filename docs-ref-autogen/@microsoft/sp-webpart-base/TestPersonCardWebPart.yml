@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.TestPersonCardWebPart'
+    name: TestPersonCardWebPart
+    fullName: TestPersonCardWebPart
+    children:
+      - '@microsoft/sp-webpart-base.TestPersonCardWebPart.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@microsoft/sp-webpart-base.BaseClientSideWebPart<@@microsoft/sp-webpart-base.ITestPerson>
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.TestPersonCardWebPart.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []

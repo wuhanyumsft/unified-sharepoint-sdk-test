@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/test-extensions.ModalDialogListViewCommandSet'
+    name: ModalDialogListViewCommandSet
+    fullName: ModalDialogListViewCommandSet
+    children:
+      - '@ms/test-extensions.ModalDialogListViewCommandSet.onExecute'
+      - '@ms/test-extensions.ModalDialogListViewCommandSet.onInit'
+      - '@ms/test-extensions.ModalDialogListViewCommandSet.onListViewUpdated'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/test-extensions.ModalDialogListViewCommandSet<@@ms/test-extensions.IModalDialogListViewCommandSetProperties>
+    package: '@ms/test-extensions'
+  - uid: '@ms/test-extensions.ModalDialogListViewCommandSet.onExecute'
+    name: onExecute
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onExecute(event: IListViewCommandSetExecuteEventParameters)'
+      parameters:
+        - id: event
+          type:
+            - IListViewCommandSetExecuteEventParameters
+          description: ''
+  - uid: '@ms/test-extensions.ModalDialogListViewCommandSet.onInit'
+    name: onInit
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function onInit()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/test-extensions.ModalDialogListViewCommandSet.onListViewUpdated'
+    name: onListViewUpdated
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function onListViewUpdated(event:
+        IListViewCommandSetListViewUpdatedParameters)
+      parameters:
+        - id: event
+          type:
+            - IListViewCommandSetListViewUpdatedParameters
+          description: ''

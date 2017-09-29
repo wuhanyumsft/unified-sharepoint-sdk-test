@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.ITraceListHeaderProps'
+    name: ITraceListHeaderProps
+    fullName: ITraceListHeaderProps
+    children:
+      - '@microsoft/sp-loader.ITraceListHeaderProps.filters'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.ITraceListHeaderProps.filters'
+    name: filters
+    fullName: filters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ITraceFilter filters
+      return:
+        type:
+          - '@@microsoft/sp-loader.ITraceFilter'

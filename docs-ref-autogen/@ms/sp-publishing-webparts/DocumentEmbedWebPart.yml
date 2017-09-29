@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbedWebPart'
+    name: DocumentEmbedWebPart
+    fullName: DocumentEmbedWebPart
+    children:
+      - '@ms/sp-publishing-webparts.DocumentEmbedWebPart.render'
+    langs:
+      - typeScript
+    type: class
+    summary: DocumentEmbed WebPart Definition.
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.DocumentEmbedWebPart<@@ms/sp-publishing-webparts.IDocumentEmbedWebPartProperties>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbedWebPart.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Main entry point, called by ClientSideWebPart Manager, which initiates the
+      webpart's DOM manipulation.
+    syntax:
+      content: function render()
+      parameters: []

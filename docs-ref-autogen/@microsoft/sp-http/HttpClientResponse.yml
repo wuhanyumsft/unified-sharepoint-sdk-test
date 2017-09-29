@@ -1,0 +1,110 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.HttpClientResponse'
+    name: HttpClientResponse
+    fullName: HttpClientResponse
+    children:
+      - '@microsoft/sp-http.HttpClientResponse.arrayBuffer'
+      - '@microsoft/sp-http.HttpClientResponse.blob'
+      - '@microsoft/sp-http.HttpClientResponse.clone'
+      - '@microsoft/sp-http.HttpClientResponse.formData'
+      - '@microsoft/sp-http.HttpClientResponse.constructor'
+      - '@microsoft/sp-http.HttpClientResponse.json'
+      - '@microsoft/sp-http.HttpClientResponse.text'
+    langs:
+      - typeScript
+    type: class
+    summary: The Response subclass returned by methods such as HttpClient.fetch().
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.HttpClientResponse.arrayBuffer'
+    name: arrayBuffer
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: '{@inheritdoc whatwg-fetch:Body.arrayBuffer}'
+    syntax:
+      content: function arrayBuffer()
+      parameters: []
+      return:
+        type:
+          - Promise<ArrayBuffer>
+  - uid: '@microsoft/sp-http.HttpClientResponse.blob'
+    name: blob
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: '{@inheritdoc whatwg-fetch:Body.blob}'
+    syntax:
+      content: function blob()
+      parameters: []
+      return:
+        type:
+          - Promise<Blob>
+  - uid: '@microsoft/sp-http.HttpClientResponse.clone'
+    name: clone
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clone()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/sp-http.HttpClientResponse'
+  - uid: '@microsoft/sp-http.HttpClientResponse.formData'
+    name: formData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: '{@inheritdoc whatwg-fetch:Body.formData}'
+    syntax:
+      content: function formData()
+      parameters: []
+      return:
+        type:
+          - Promise<FormData>
+  - uid: '@microsoft/sp-http.HttpClientResponse.constructor'
+    name: HttpClientResponse
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new HttpClientResponse(response: Response)'
+      parameters:
+        - id: response
+          type:
+            - Response
+          description: ''
+  - uid: '@microsoft/sp-http.HttpClientResponse.json'
+    name: json
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: '{@inheritdoc whatwg-fetch:Body.json}'
+    syntax:
+      content: function json()
+      parameters: []
+      return:
+        type:
+          - Promise<any>
+  - uid: '@microsoft/sp-http.HttpClientResponse.text'
+    name: text
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: '{@inheritdoc whatwg-fetch:Body.text}'
+    syntax:
+      content: function text()
+      parameters: []
+      return:
+        type:
+          - Promise<string>

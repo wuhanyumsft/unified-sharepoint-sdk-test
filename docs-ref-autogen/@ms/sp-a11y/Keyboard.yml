@@ -1,0 +1,114 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-a11y.Keyboard'
+    name: Keyboard
+    fullName: Keyboard
+    children:
+      - '@ms/sp-a11y.Keyboard.isEnter'
+      - '@ms/sp-a11y.Keyboard.isEscape'
+      - '@ms/sp-a11y.Keyboard.isKey'
+      - '@ms/sp-a11y.Keyboard.isShiftTab'
+      - '@ms/sp-a11y.Keyboard.isTab'
+    langs:
+      - typeScript
+    type: class
+    summary: Utility methods that help working with keyboard events
+    package: '@ms/sp-a11y'
+  - uid: '@ms/sp-a11y.Keyboard.isEnter'
+    name: isEnter
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Checks if a keyboard event key code is for Enter key
+    syntax:
+      content: 'static function isEnter(e: IKeyboardEvent)'
+      parameters:
+        - id: e
+          type:
+            - '@@ms/sp-a11y.IKeyboardEvent'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-a11y.Keyboard.isEscape'
+    name: isEscape
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Checks if a keyboard event key code is for Escape key
+    syntax:
+      content: 'static function isEscape(e: IKeyboardEvent)'
+      parameters:
+        - id: e
+          type:
+            - '@@ms/sp-a11y.IKeyboardEvent'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-a11y.Keyboard.isKey'
+    name: isKey
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Checks if a keyboard event key code matches a specific key with a given
+      combination of Ctrl, Alt, Shift.
+    syntax:
+      content: >-
+        static function isKey(keyCode: number, event: IKeyboardEvent,
+        allowedModifiers?: IModifierKeys)
+      parameters:
+        - id: keyCode
+          type:
+            - number
+          description: The key code to be checked
+        - id: event
+          type:
+            - '@@ms/sp-a11y.IKeyboardEvent'
+          description: The keyboard event to be matched
+        - id: allowedModifiers
+          type:
+            - '@@ms/sp-a11y.IModifierKeys'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-a11y.Keyboard.isShiftTab'
+    name: isShiftTab
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Checks if a keyboard event key code is for Shift+Tab combination
+    syntax:
+      content: 'static function isShiftTab(e: IKeyboardEvent)'
+      parameters:
+        - id: e
+          type:
+            - '@@ms/sp-a11y.IKeyboardEvent'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-a11y.Keyboard.isTab'
+    name: isTab
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Checks if a keyboard event key code is for Tab key
+    syntax:
+      content: 'static function isTab(e: IKeyboardEvent)'
+      parameters:
+        - id: e
+          type:
+            - '@@ms/sp-a11y.IKeyboardEvent'
+          description: ''
+      return:
+        type:
+          - boolean

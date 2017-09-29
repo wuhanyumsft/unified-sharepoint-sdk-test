@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.SiteActivityList'
+    name: SiteActivityList
+    fullName: SiteActivityList
+    children:
+      - '@ms/sp-teamsite-webparts.SiteActivityList.render'
+      - '@ms/sp-teamsite-webparts.SiteActivityList.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-teamsite-webparts.SiteActivityList<@@ms/sp-teamsite-webparts.ISiteActivityListProps>
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.SiteActivityList.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-teamsite-webparts.SiteActivityList.constructor'
+    name: SiteActivityList
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SiteActivityList(props: ISiteActivityListProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-teamsite-webparts.ISiteActivityListProps'
+          description: ''

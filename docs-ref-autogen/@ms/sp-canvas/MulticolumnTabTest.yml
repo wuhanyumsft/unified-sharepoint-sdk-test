@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.MulticolumnTabTest'
+    name: MulticolumnTabTest
+    fullName: MulticolumnTabTest
+    children:
+      - '@ms/sp-canvas.MulticolumnTabTest.constructor'
+      - '@ms/sp-canvas.MulticolumnTabTest.TestIncludeScripts'
+      - '@ms/sp-canvas.MulticolumnTabTest.TestName'
+      - '@ms/sp-canvas.MulticolumnTabTest.TestOwner'
+      - '@ms/sp-canvas.MulticolumnTabTest.TestRun'
+      - '@ms/sp-canvas.MulticolumnTabTest.TestSetup'
+      - '@ms/sp-canvas.MulticolumnTabTest.TestTeardown'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.MulticolumnTabTest.constructor'
+    name: MulticolumnTabTest
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new MulticolumnTabTest()
+      parameters: []
+  - uid: '@ms/sp-canvas.MulticolumnTabTest.TestIncludeScripts'
+    name: TestIncludeScripts
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestIncludeScripts()
+      parameters: []
+  - uid: '@ms/sp-canvas.MulticolumnTabTest.TestName'
+    name: TestName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestName()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.MulticolumnTabTest.TestOwner'
+    name: TestOwner
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestOwner()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.MulticolumnTabTest.TestRun'
+    name: TestRun
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestRun()
+      parameters: []
+  - uid: '@ms/sp-canvas.MulticolumnTabTest.TestSetup'
+    name: TestSetup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestSetup()
+      parameters: []
+  - uid: '@ms/sp-canvas.MulticolumnTabTest.TestTeardown'
+    name: TestTeardown
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestTeardown()
+      parameters: []

@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISPMessageCenterDetailsListState'
+    name: ISPMessageCenterDetailsListState
+    fullName: ISPMessageCenterDetailsListState
+    children:
+      - >-
+        @ms/sp-tenant-admin-page.ISPMessageCenterDetailsListState.allImportMessage
+      - '@ms/sp-tenant-admin-page.ISPMessageCenterDetailsListState.error'
+      - >-
+        @ms/sp-tenant-admin-page.ISPMessageCenterDetailsListState.selectedMessage
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ISPMessageCenterDetailsListState.allImportMessage'
+    name: allImportMessage
+    fullName: allImportMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      All the messages that will be shown in the Message center widgets.
+      The length of this array is 5.
+    syntax:
+      content: 'IMessage[] allImportMessage'
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IMessage[]'
+  - uid: '@ms/sp-tenant-admin-page.ISPMessageCenterDetailsListState.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The error returned when calling API.
+    syntax:
+      content: Error error
+      return:
+        type:
+          - Error
+  - uid: '@ms/sp-tenant-admin-page.ISPMessageCenterDetailsListState.selectedMessage'
+    name: selectedMessage
+    fullName: selectedMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The selected message item.
+
+      If selectedMessage is not undefined, then user can open its details by
+      deep link.
+    syntax:
+      content: IMessage selectedMessage
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IMessage'

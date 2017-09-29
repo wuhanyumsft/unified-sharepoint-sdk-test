@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/repo-toolbox.TimedTelemetryCollector'
+    name: TimedTelemetryCollector
+    fullName: TimedTelemetryCollector
+    children:
+      - '@ms/repo-toolbox.TimedTelemetryCollector.run'
+      - '@ms/repo-toolbox.TimedTelemetryCollector.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/repo-toolbox'
+  - uid: '@ms/repo-toolbox.TimedTelemetryCollector.run'
+    name: run
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function run()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/repo-toolbox.TimedTelemetryCollector.constructor'
+    name: TimedTelemetryCollector
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new TimedTelemetryCollector(_timeoutInMilliSeconds: number)'
+      parameters:
+        - id: _timeoutInMilliSeconds
+          type:
+            - number
+          description: ''

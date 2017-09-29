@@ -1,0 +1,92 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.MonitorRegistry'
+    name: MonitorRegistry
+    fullName: MonitorRegistry
+    children:
+      - '@ms/sp-tenant-admin-page.MonitorRegistry.get'
+      - '@ms/sp-tenant-admin-page.MonitorRegistry.has'
+      - '@ms/sp-tenant-admin-page.MonitorRegistry.constructor'
+      - '@ms/sp-tenant-admin-page.MonitorRegistry.register'
+      - '@ms/sp-tenant-admin-page.MonitorRegistry.unregister'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.MonitorRegistry.get'
+    name: get
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get(monitorName: string)'
+      parameters:
+        - id: monitorName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ITaskGroupQosMonitor'
+  - uid: '@ms/sp-tenant-admin-page.MonitorRegistry.has'
+    name: has
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function has(monitorName: string)'
+      parameters:
+        - id: monitorName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.MonitorRegistry.constructor'
+    name: MonitorRegistry
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new MonitorRegistry()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.MonitorRegistry.register'
+    name: register
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function register(monitorName: string, monitor: ITaskGroupQosMonitor)'
+      parameters:
+        - id: monitorName
+          type:
+            - string
+          description: ''
+        - id: monitor
+          type:
+            - '@@ms/sp-tenant-admin-page.ITaskGroupQosMonitor'
+          description: ''
+  - uid: '@ms/sp-tenant-admin-page.MonitorRegistry.unregister'
+    name: unregister
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unregister(monitorName: string)'
+      parameters:
+        - id: monitorName
+          type:
+            - string
+          description: ''

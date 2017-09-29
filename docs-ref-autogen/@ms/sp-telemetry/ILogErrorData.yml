@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.ILogErrorData'
+    name: ILogErrorData
+    fullName: ILogErrorData
+    children:
+      - '@ms/sp-telemetry.ILogErrorData.error'
+      - '@ms/sp-telemetry.ILogErrorData.resultCode'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      The error parameter is the only required parameter and basically will be
+      just converted to string and
+
+      logged to Debug stream (RealibilityLogs in SLAPI).
+
+      It will also be uploaded to the server immediately and not wait for next
+      batch log upload.
+
+      The parameter "resultCode" is there to be used from Qos.
+    extends:
+      name: '@@ms/sp-telemetry.ILogData'
+    package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.ILogErrorData.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The error associated with this log data.
+    syntax:
+      content: Error error
+      return:
+        type:
+          - Error
+  - uid: '@ms/sp-telemetry.ILogErrorData.resultCode'
+    name: resultCode
+    fullName: resultCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string resultCode
+      return:
+        type:
+          - string

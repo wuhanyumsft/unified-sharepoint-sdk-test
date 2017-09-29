@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.TodoWebPart'
+    name: TodoWebPart
+    fullName: TodoWebPart
+    children:
+      - '@ms/sp-client-projects.TodoWebPart.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-client-projects.TodoWebPart<@@ms/sp-client-projects.ITodoWebPartProps>
+    package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.TodoWebPart.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []

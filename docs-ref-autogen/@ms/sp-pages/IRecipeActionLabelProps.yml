@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IRecipeActionLabelProps'
+    name: IRecipeActionLabelProps
+    fullName: IRecipeActionLabelProps
+    children:
+      - '@ms/sp-pages.IRecipeActionLabelProps.stageNames'
+      - '@ms/sp-pages.IRecipeActionLabelProps.stageOutcomesKnown'
+      - '@ms/sp-pages.IRecipeActionLabelProps.stageResultData'
+      - '@ms/sp-pages.IRecipeActionLabelProps.stageStartIndex'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IRecipeActionLabelProps.stageNames'
+    name: stageNames
+    fullName: stageNames
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] stageNames'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-pages.IRecipeActionLabelProps.stageOutcomesKnown'
+    name: stageOutcomesKnown
+    fullName: stageOutcomesKnown
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number stageOutcomesKnown
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.IRecipeActionLabelProps.stageResultData'
+    name: stageResultData
+    fullName: stageResultData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IStageResultData[] stageResultData'
+      return:
+        type:
+          - '@@ms/sp-pages.IStageResultData[]'
+  - uid: '@ms/sp-pages.IRecipeActionLabelProps.stageStartIndex'
+    name: stageStartIndex
+    fullName: stageStartIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number stageStartIndex
+      return:
+        type:
+          - number

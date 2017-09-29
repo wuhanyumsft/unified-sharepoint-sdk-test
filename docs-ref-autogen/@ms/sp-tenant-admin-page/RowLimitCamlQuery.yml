@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.RowLimitCamlQuery'
+    name: RowLimitCamlQuery
+    fullName: RowLimitCamlQuery
+    children:
+      - '@ms/sp-tenant-admin-page.RowLimitCamlQuery.generateCamlQueryString'
+      - '@ms/sp-tenant-admin-page.RowLimitCamlQuery.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      RowLimitCamlQuery is the class for RowLimit composite in
+      SiteCamlQueryString.
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.RowLimitCamlQuery.generateCamlQueryString'
+    name: generateCamlQueryString
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function generateCamlQueryString()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.RowLimitCamlQuery.constructor'
+    name: RowLimitCamlQuery
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new RowLimitCamlQuery(rowLimit: number)'
+      parameters:
+        - id: rowLimit
+          type:
+            - number
+          description: ''

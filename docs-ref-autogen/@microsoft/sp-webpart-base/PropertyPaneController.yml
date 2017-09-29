@@ -1,0 +1,125 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneController'
+    name: PropertyPaneController
+    fullName: PropertyPaneController
+    children:
+      - '@microsoft/sp-webpart-base.PropertyPaneController.isPropertyPaneOpen'
+      - '@microsoft/sp-webpart-base.PropertyPaneController.isRenderedByWebPart'
+      - '@microsoft/sp-webpart-base.PropertyPaneController.onWebPartDelete'
+      - '@microsoft/sp-webpart-base.PropertyPaneController.constructor'
+      - '@microsoft/sp-webpart-base.PropertyPaneController.setPropertyPaneState'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneController.isPropertyPaneOpen'
+    name: isPropertyPaneOpen
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isPropertyPaneOpen()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneController.isRenderedByWebPart'
+    name: isRenderedByWebPart
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns true if the property pane rendered by a web part and not by Canvas
+      or any other source.
+    syntax:
+      content: function isRenderedByWebPart()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneController.onWebPartDelete'
+    name: onWebPartDelete
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Make the PropertyPane disappear when the web part being configured is
+      deleted from the page.
+    syntax:
+      content: 'function onWebPartDelete(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: |
+            Instance id of the web part.
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneController.constructor'
+    name: PropertyPaneController
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Instantiates the PropertyPaneController object.
+    syntax:
+      content: >-
+        new PropertyPaneController(webPartGetter: IWebPartGetter, callback?:
+        IWebPartConfigurationEventCallback)
+      parameters:
+        - id: webPartGetter
+          type:
+            - '@@microsoft/sp-webpart-base.IWebPartGetter'
+          description: delegate to get the web part.
+        - id: callback
+          type:
+            - '@@microsoft/sp-webpart-base.IWebPartConfigurationEventCallback'
+          description: |
+            callback to be called when a configuration event happens.
+          optional: true
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneController.setPropertyPaneState'
+    name: setPropertyPaneState
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Set the property pane state which helps in configuring the web part. The
+      inbuilt PropertyPane is used for the
+
+      configuration, with the below conditions:
+        - propertyPaneState is Open and then open the PropertyPane.
+        - propertyPaneState is Close and then close the PropertyPane.
+        - propertyPaneState is Toggle and the PropertyPane is closed: in this case we open the PropertyPane and
+            start the configuration process. This should happen on web part configure button being clicked.
+        - propertyPaneState is Toggle and the PropertyPane is opened: in this case, if the web part id
+            is that of a different web part than being currently configured, we keep the PropertyPane open
+            and change the web part being configured.
+        - propertyPaneState is Default and the PropertyPane is closed: do nothing
+        - propertyPaneState is Default and the PropertyPane is opened: change the PropertyPane to display the
+            settings of the newly selected web part. This should happen when the user navigates between web parts.
+    syntax:
+      content: >-
+        function setPropertyPaneState(id: string, propertyPaneState?:
+        PropertyPaneState, renderedByWebPart?: boolean)
+      parameters:
+        - id: id
+          type:
+            - string
+          description: instance id of the web part.
+        - id: propertyPaneState
+          type:
+            - PropertyPaneState
+          description: indicates in what state the PropertyPane should be.
+          optional: true
+        - id: renderedByWebPart
+          type:
+            - boolean
+          description: >
+            is the property pane rendered by a web part and not by Canvas or any
+            other source.
+          optional: true

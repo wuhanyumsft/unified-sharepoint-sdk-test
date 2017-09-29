@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/test-extensions-application.RowStore'
+    name: RowStore
+    fullName: RowStore
+    children:
+      - '@ms/test-extensions-application.RowStore.fillAdapter'
+      - '@ms/test-extensions-application.RowStore.getValue'
+      - '@ms/test-extensions-application.RowStore.getValueByName'
+      - '@ms/test-extensions-application.RowStore.rowAdapter'
+      - '@ms/test-extensions-application.RowStore.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: 'Models a list view row, used by ListViewStore.'
+    package: '@ms/test-extensions-application'
+  - uid: '@ms/test-extensions-application.RowStore.fillAdapter'
+    name: fillAdapter
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fillAdapter(listViewAdapter: IListViewAdapter)'
+      parameters:
+        - id: listViewAdapter
+          type:
+            - IListViewAdapter
+          description: ''
+  - uid: '@ms/test-extensions-application.RowStore.getValue'
+    name: getValue
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getValue(column: ColumnStore)'
+      parameters:
+        - id: column
+          type:
+            - '@@ms/test-extensions-application.ColumnStore'
+          description: ''
+      return:
+        type:
+          - any
+  - uid: '@ms/test-extensions-application.RowStore.getValueByName'
+    name: getValueByName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getValueByName(internalName: string)'
+      parameters:
+        - id: internalName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - any
+  - uid: '@ms/test-extensions-application.RowStore.rowAdapter'
+    name: rowAdapter
+    fullName: rowAdapter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IRowAdapter rowAdapter
+      return:
+        type:
+          - IRowAdapter
+  - uid: '@ms/test-extensions-application.RowStore.constructor'
+    name: RowStore
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new RowStore(listViewStore: ListViewStore, values: IListViewRowValues)'
+      parameters:
+        - id: listViewStore
+          type:
+            - '@@ms/test-extensions-application.ListViewStore'
+          description: ''
+        - id: values
+          type:
+            - '@@ms/test-extensions-application.IListViewRowValues'
+          description: ''

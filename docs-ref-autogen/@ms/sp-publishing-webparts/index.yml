@@ -1,0 +1,1231 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts'
+    name: '@ms/sp-publishing-webparts'
+    summary: ''
+    children:
+      - '@ms/sp-publishing-webparts.ContentPreviewHelper'
+      - '@ms/sp-publishing-webparts.IContentPreviewInfo'
+      - '@ms/sp-publishing-webparts.FilePickerLoader'
+      - '@ms/sp-publishing-webparts.ItemAspectRatio'
+      - '@ms/sp-publishing-webparts.ItemSize'
+      - '@ms/sp-publishing-webparts.ImageGrid'
+      - '@ms/sp-publishing-webparts.IImageGridProps'
+      - '@ms/sp-publishing-webparts.ImageGridState'
+      - '@ms/sp-publishing-webparts.QueryableManagedProperties'
+      - '@ms/sp-publishing-webparts.RefinableManagedProperties'
+      - '@ms/sp-publishing-webparts.RetrievableManagedProperties'
+      - '@ms/sp-publishing-webparts.SortableManagedProperties'
+      - '@ms/sp-publishing-webparts.ManagedDataType'
+      - '@ms/sp-publishing-webparts.ISPImageCropData'
+      - '@ms/sp-publishing-webparts.ISPImageCropOptions'
+      - '@ms/sp-publishing-webparts.ISPImageCropper'
+      - '@ms/sp-publishing-webparts.ISPImageData'
+      - '@ms/sp-publishing-webparts.ISPImageProps'
+      - '@ms/sp-publishing-webparts.ISPImageViewOnlyProps'
+      - '@ms/sp-publishing-webparts.ImageEditControl'
+      - '@ms/sp-publishing-webparts.IImageEditControlProps'
+      - '@ms/sp-publishing-webparts.IImageEditControlState'
+      - '@ms/sp-publishing-webparts.ImageServiceType'
+      - '@ms/sp-publishing-webparts.ImageView'
+      - '@ms/sp-publishing-webparts.IImageViewProps'
+      - '@ms/sp-publishing-webparts.IImageViewState'
+      - '@ms/sp-publishing-webparts.IPictureProps'
+      - '@ms/sp-publishing-webparts.SPImage'
+      - '@ms/sp-publishing-webparts.IPSImageState'
+      - '@ms/sp-publishing-webparts.SPImageToolbar'
+      - '@ms/sp-publishing-webparts.IEditToolbarProps'
+      - '@ms/sp-publishing-webparts.CropperJs'
+      - '@ms/sp-publishing-webparts.ImageCropperFactory'
+      - '@ms/sp-publishing-webparts.AspectRatio'
+      - '@ms/sp-publishing-webparts.PrimaryEditingToolbar'
+      - '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps'
+      - '@ms/sp-publishing-webparts.IPrimaryEditingToolbarState'
+      - '@ms/sp-publishing-webparts.SPImageCropper'
+      - '@ms/sp-publishing-webparts.ISPImageCropperProps'
+      - '@ms/sp-publishing-webparts.ISPImageCropperState'
+      - '@ms/sp-publishing-webparts.PropertyPaneTagPicker'
+      - '@ms/sp-publishing-webparts.AutofillOption'
+      - '@ms/sp-publishing-webparts.IPropertyPaneTagPickerProps'
+      - '@ms/sp-publishing-webparts.HeroWebPartItemEdit'
+      - '@ms/sp-publishing-webparts.HeroWebPartLayout'
+      - '@ms/sp-publishing-webparts.WebPartBasic'
+      - '@ms/sp-publishing-webparts.TitleRegionAdvanced'
+      - '@ms/sp-publishing-webparts.HighlightedContentCriticalPath'
+      - '@ms/sp-publishing-webparts.EventAddDelete'
+      - '@ms/sp-publishing-webparts.LinkPreviewExternalUrl'
+      - '@ms/sp-publishing-webparts.LinkPreviewSPDocUrl'
+      - '@ms/sp-publishing-webparts.LinkPreviewSitePageUrl'
+      - '@ms/sp-publishing-webparts.BingMap'
+      - '@ms/sp-publishing-webparts.IBingMapProps'
+      - '@ms/sp-publishing-webparts.IBingMapState'
+      - '@ms/sp-publishing-webparts.BingMapHacker'
+      - '@ms/sp-publishing-webparts.BingMapPushPinInfo'
+      - '@ms/sp-publishing-webparts.IBingMapPushPinInfoProps'
+      - '@ms/sp-publishing-webparts.BingMapSearchBox'
+      - '@ms/sp-publishing-webparts.IBingMapSearchBoxProps'
+      - '@ms/sp-publishing-webparts.IBingMapState'
+      - '@ms/sp-publishing-webparts.BingMapVirtualPushPin'
+      - '@ms/sp-publishing-webparts.IBingMapVirtualPushPinProps'
+      - '@ms/sp-publishing-webparts.BingMapWebPart'
+      - '@ms/sp-publishing-webparts.IBingMapWebPartProps'
+      - '@ms/sp-publishing-webparts.ITestCaseContext'
+      - '@ms/sp-publishing-webparts.CarouselItem'
+      - '@ms/sp-publishing-webparts.ContentRollupFlights'
+      - '@ms/sp-publishing-webparts.ContentRollupUpgrade'
+      - '@ms/sp-publishing-webparts.QosMonitorType'
+      - '@ms/sp-publishing-webparts.ContentRollupWebPart'
+      - '@ms/sp-publishing-webparts.LayoutId'
+      - '@ms/sp-publishing-webparts.FilmStripItem'
+      - '@ms/sp-publishing-webparts.MasonryItem'
+      - '@ms/sp-publishing-webparts.ContentRollupLayout'
+      - '@ms/sp-publishing-webparts.FilterValueDataType'
+      - '@ms/sp-publishing-webparts.DataProviderId'
+      - '@ms/sp-publishing-webparts.IContentRollupWebPartProperties'
+      - '@ms/sp-publishing-webparts.ContentRollupDisplayFieldMap'
+      - '@ms/sp-publishing-webparts.ContentRollupPropertyPaneContent'
+      - '@ms/sp-publishing-webparts.ContentRollupPropertyPaneDisplayFieldMap'
+      - '@ms/sp-publishing-webparts.ContentRollupPropertyPaneFilters'
+      - '@ms/sp-publishing-webparts.ContentRollupPropertyPaneLayout'
+      - '@ms/sp-publishing-webparts.ContentRollupPropertyPaneSettings'
+      - '@ms/sp-publishing-webparts.Divider'
+      - '@ms/sp-publishing-webparts.DividerWebPart'
+      - '@ms/sp-publishing-webparts.DocumentEmbed'
+      - '@ms/sp-publishing-webparts.DocumentEmbedCard'
+      - '@ms/sp-publishing-webparts.IDocumentCardProps'
+      - '@ms/sp-publishing-webparts.IDocumentCardState'
+      - '@ms/sp-publishing-webparts.DocumentEmbedWebPart'
+      - '@ms/sp-publishing-webparts.DocumentEmbedDataProvider'
+      - '@ms/sp-publishing-webparts.DocumentEmbedHelper'
+      - '@ms/sp-publishing-webparts.DocumentEmbedManifestMockData'
+      - '@ms/sp-publishing-webparts.DocumentQueryParametersDictionary'
+      - '@ms/sp-publishing-webparts.ExcelQueryParameters'
+      - '@ms/sp-publishing-webparts.PptQueryParameters'
+      - '@ms/sp-publishing-webparts.VisioQueryParameters'
+      - '@ms/sp-publishing-webparts.WordOrPdfQueryParameters'
+      - '@ms/sp-publishing-webparts.IDocumentEmbedSeralizedProperties'
+      - '@ms/sp-publishing-webparts.IDocumentEmbedWebPartProperties'
+      - '@ms/sp-publishing-webparts.IDocumentProps'
+      - '@ms/sp-publishing-webparts.IDocumentState'
+      - '@ms/sp-publishing-webparts.IFilePickerResponseModel'
+      - '@ms/sp-publishing-webparts.IEmbedBaseMessage'
+      - '@ms/sp-publishing-webparts.IEmbedSuccessMessage'
+      - '@ms/sp-publishing-webparts.PreviewAppType'
+      - '@ms/sp-publishing-webparts.WopiFrameAction'
+      - '@ms/sp-publishing-webparts.PropertyPaneSettings'
+      - '@ms/sp-publishing-webparts.DateRangeOption'
+      - '@ms/sp-publishing-webparts.EventsWebPart'
+      - '@ms/sp-publishing-webparts.EventCard'
+      - '@ms/sp-publishing-webparts.IEventCardEmptyStateOptions'
+      - '@ms/sp-publishing-webparts.IEventCardProps'
+      - '@ms/sp-publishing-webparts.IEventsWebPartProperties'
+      - '@ms/sp-publishing-webparts.ExampleCollectionWebPart'
+      - '@ms/sp-publishing-webparts.IExampleCollectionWebPartProperties'
+      - '@ms/sp-publishing-webparts.FormsEmbedContainer'
+      - '@ms/sp-publishing-webparts.IFormsEmbedContainerProps'
+      - '@ms/sp-publishing-webparts.FormsWebPart'
+      - '@ms/sp-publishing-webparts.IFormsWebPartProps'
+      - '@ms/sp-publishing-webparts.FormsDataProvider'
+      - '@ms/sp-publishing-webparts.SharePointDataProvider'
+      - '@ms/sp-publishing-webparts.FormsDataSource'
+      - '@ms/sp-publishing-webparts.IFormsDataSource'
+      - '@ms/sp-publishing-webparts.ISharePointDataSource'
+      - '@ms/sp-publishing-webparts.MockFormsDataSource'
+      - '@ms/sp-publishing-webparts.MockSharePointDataSource'
+      - '@ms/sp-publishing-webparts.SharePointDataSource'
+      - '@ms/sp-publishing-webparts.ActionType'
+      - '@ms/sp-publishing-webparts.DisplayType'
+      - '@ms/sp-publishing-webparts.IDecodedAccessToken'
+      - '@ms/sp-publishing-webparts.IDecodedFormId'
+      - '@ms/sp-publishing-webparts.IDecodedJWTToken'
+      - '@ms/sp-publishing-webparts.IForm'
+      - '@ms/sp-publishing-webparts.IFormSettings'
+      - '@ms/sp-publishing-webparts.IFormsPermissionRequest'
+      - '@ms/sp-publishing-webparts.IFormsPermissionToken'
+      - '@ms/sp-publishing-webparts.IUserInfo'
+      - '@ms/sp-publishing-webparts.FormsPropertyPane'
+      - '@ms/sp-publishing-webparts.ITestCaseContext'
+      - '@ms/sp-publishing-webparts.FormsUtil'
+      - '@ms/sp-publishing-webparts.TokenUtil'
+      - '@ms/sp-publishing-webparts.FocusManager'
+      - '@ms/sp-publishing-webparts.GroupCalendarWebPart'
+      - '@ms/sp-publishing-webparts.EventDateTime'
+      - '@ms/sp-publishing-webparts.IEventDateTimeProps'
+      - '@ms/sp-publishing-webparts.EventDetail'
+      - '@ms/sp-publishing-webparts.IEventDetailProps'
+      - '@ms/sp-publishing-webparts.EventDetailContainer'
+      - '@ms/sp-publishing-webparts.IEventDetailContainerProps'
+      - '@ms/sp-publishing-webparts.IEventDetailContainerState'
+      - '@ms/sp-publishing-webparts.EventDetailDialog'
+      - '@ms/sp-publishing-webparts.IEventDetailDialogProps'
+      - '@ms/sp-publishing-webparts.EventListItem'
+      - '@ms/sp-publishing-webparts.IEventListItemProps'
+      - '@ms/sp-publishing-webparts.EventSpinner'
+      - '@ms/sp-publishing-webparts.IEventSpinnerProps'
+      - '@ms/sp-publishing-webparts.Events'
+      - '@ms/sp-publishing-webparts.IEventsProps'
+      - '@ms/sp-publishing-webparts.IEventsState'
+      - '@ms/sp-publishing-webparts.ExportEventButton'
+      - '@ms/sp-publishing-webparts.IExportEventButtonProps'
+      - '@ms/sp-publishing-webparts.IExportEventButtonState'
+      - '@ms/sp-publishing-webparts.MessageView'
+      - '@ms/sp-publishing-webparts.IMessageViewProps'
+      - '@ms/sp-publishing-webparts.IPlaceholderContainer'
+      - '@ms/sp-publishing-webparts.IPlaceholderContainerProps'
+      - '@ms/sp-publishing-webparts.RetryButton'
+      - '@ms/sp-publishing-webparts.IRetryButtonProps'
+      - '@ms/sp-publishing-webparts.SyncStatus'
+      - '@ms/sp-publishing-webparts.SyncButton'
+      - '@ms/sp-publishing-webparts.ISyncButtonProps'
+      - '@ms/sp-publishing-webparts.ISyncButtonState'
+      - '@ms/sp-publishing-webparts.GraphDataProvider'
+      - '@ms/sp-publishing-webparts.GroupCalendarDataProvider'
+      - '@ms/sp-publishing-webparts.IEventRequestOptions'
+      - '@ms/sp-publishing-webparts.SharePointDataProvider'
+      - '@ms/sp-publishing-webparts.IcsEventConvertor'
+      - '@ms/sp-publishing-webparts.IcsFileGenerator'
+      - '@ms/sp-publishing-webparts.DayOfWeekEnum'
+      - '@ms/sp-publishing-webparts.DayOfWeekIndexType'
+      - '@ms/sp-publishing-webparts.FakeFocusManager'
+      - '@ms/sp-publishing-webparts.MockDataProvider'
+      - '@ms/sp-publishing-webparts.MockSharePointDataProvider'
+      - '@ms/sp-publishing-webparts.PeriodType'
+      - '@ms/sp-publishing-webparts.EventsStore'
+      - '@ms/sp-publishing-webparts.IEventStoreSettings'
+      - '@ms/sp-publishing-webparts.ICalendarDataProvider'
+      - '@ms/sp-publishing-webparts.IGetEventsResult'
+      - '@ms/sp-publishing-webparts.Response'
+      - '@ms/sp-publishing-webparts.IAttachment'
+      - '@ms/sp-publishing-webparts.IAttendee'
+      - '@ms/sp-publishing-webparts.IEmailAddress'
+      - '@ms/sp-publishing-webparts.IExchangeCalendarEvent'
+      - '@ms/sp-publishing-webparts.IExchangeGroup'
+      - '@ms/sp-publishing-webparts.IPattern'
+      - '@ms/sp-publishing-webparts.IRange'
+      - '@ms/sp-publishing-webparts.IRecurrence'
+      - '@ms/sp-publishing-webparts.IResponseStatus'
+      - '@ms/sp-publishing-webparts.IStartEndDateTime'
+      - '@ms/sp-publishing-webparts.IFocusManager'
+      - '@ms/sp-publishing-webparts.IGroupCalendarProperties'
+      - '@ms/sp-publishing-webparts.IContact'
+      - '@ms/sp-publishing-webparts.IIcsAttachment'
+      - '@ms/sp-publishing-webparts.IIcsEvent'
+      - '@ms/sp-publishing-webparts.IIcsRecurrence'
+      - '@ms/sp-publishing-webparts.IRegionalSettings'
+      - '@ms/sp-publishing-webparts.ISharePointDataProvider'
+      - '@ms/sp-publishing-webparts.ITimeZone'
+      - '@ms/sp-publishing-webparts.GroupCalendarPropertyPane'
+      - '@ms/sp-publishing-webparts.HeroWebPart'
+      - '@ms/sp-publishing-webparts.Hero'
+      - '@ms/sp-publishing-webparts.IHeroProps'
+      - '@ms/sp-publishing-webparts.IHeroState'
+      - '@ms/sp-publishing-webparts.HeroFilePicker'
+      - '@ms/sp-publishing-webparts.IHeroFilePickerProps'
+      - '@ms/sp-publishing-webparts.HeroItemElement'
+      - '@ms/sp-publishing-webparts.IHeroItemProps'
+      - '@ms/sp-publishing-webparts.IHeroItemState'
+      - '@ms/sp-publishing-webparts.PlaceholderData'
+      - '@ms/sp-publishing-webparts.ColorOption'
+      - '@ms/sp-publishing-webparts.ContentType'
+      - '@ms/sp-publishing-webparts.ImageDisplayOption'
+      - '@ms/sp-publishing-webparts.FailureTag'
+      - '@ms/sp-publishing-webparts.Utils'
+      - '@ms/sp-publishing-webparts.IHeroWebPartProperties'
+      - '@ms/sp-publishing-webparts.IImageProperties'
+      - '@ms/sp-publishing-webparts.IItemDisplayProperties'
+      - '@ms/sp-publishing-webparts.IItemProperties'
+      - '@ms/sp-publishing-webparts.ChangePath'
+      - '@ms/sp-publishing-webparts.IChangePathProps'
+      - '@ms/sp-publishing-webparts.IChangePathState'
+      - '@ms/sp-publishing-webparts.HeroPropertyPaneSettings'
+      - '@ms/sp-publishing-webparts.ImagePreview'
+      - '@ms/sp-publishing-webparts.IImagePreviewProps'
+      - '@ms/sp-publishing-webparts.IImagePreviewState'
+      - '@ms/sp-publishing-webparts.HeroTestData'
+      - '@ms/sp-publishing-webparts.HeroTestUtil'
+      - '@ms/sp-publishing-webparts.ImageGalleryFlight'
+      - '@ms/sp-publishing-webparts.ImageGalleryPropertyPaneSettings'
+      - '@ms/sp-publishing-webparts.ImageGalleryWebPart'
+      - '@ms/sp-publishing-webparts.ImageGalleryDataProvider'
+      - '@ms/sp-publishing-webparts.IImageGalleryDataProvider'
+      - '@ms/sp-publishing-webparts.GalleryItemType'
+      - '@ms/sp-publishing-webparts.Host'
+      - '@ms/sp-publishing-webparts.ImageCropping'
+      - '@ms/sp-publishing-webparts.ImageSourceType'
+      - '@ms/sp-publishing-webparts.Layout'
+      - '@ms/sp-publishing-webparts.UploadState'
+      - '@ms/sp-publishing-webparts.ImageSourceType'
+      - '@ms/sp-publishing-webparts.ImageItem'
+      - '@ms/sp-publishing-webparts.IImageItemState'
+      - '@ms/sp-publishing-webparts.UploadProgressItem'
+      - '@ms/sp-publishing-webparts.MockImageProps'
+      - '@ms/sp-publishing-webparts.IGetDocumentAndMediaLibrariesResponse'
+      - '@ms/sp-publishing-webparts.IGetResponse'
+      - '@ms/sp-publishing-webparts.IImageFilterOptions'
+      - '@ms/sp-publishing-webparts.IListData'
+      - '@ms/sp-publishing-webparts.IPostBody'
+      - '@ms/sp-publishing-webparts.IPostResponse'
+      - '@ms/sp-publishing-webparts.IResult'
+      - '@ms/sp-publishing-webparts.ISPError'
+      - '@ms/sp-publishing-webparts.IGetImagesData'
+      - '@ms/sp-publishing-webparts.IGridSettings'
+      - '@ms/sp-publishing-webparts.IImageGalleryProperties'
+      - '@ms/sp-publishing-webparts.IImageItemProps'
+      - '@ms/sp-publishing-webparts.IImageProps'
+      - '@ms/sp-publishing-webparts.IUploadProgressItemProps'
+      - '@ms/sp-publishing-webparts.IUploadProgressItemState'
+      - '@ms/sp-publishing-webparts.ImageFileValidator'
+      - '@ms/sp-publishing-webparts.IFileValidator'
+      - '@ms/sp-publishing-webparts.IImageFileValidatorProps'
+      - '@ms/sp-publishing-webparts.ImageGalleryDataAggregator'
+      - '@ms/sp-publishing-webparts.ICreateFolderResult'
+      - '@ms/sp-publishing-webparts.IDocumentAndMediaLibrary'
+      - '@ms/sp-publishing-webparts.IGetFolderResult'
+      - '@ms/sp-publishing-webparts.IGetImagesResult'
+      - '@ms/sp-publishing-webparts.IGetListItemResult'
+      - '@ms/sp-publishing-webparts.IImage'
+      - '@ms/sp-publishing-webparts.Grid'
+      - '@ms/sp-publishing-webparts.ImageGridList'
+      - '@ms/sp-publishing-webparts.ImageLightBox'
+      - '@ms/sp-publishing-webparts.IGridProps'
+      - '@ms/sp-publishing-webparts.IGridState'
+      - '@ms/sp-publishing-webparts.ImageGallery'
+      - '@ms/sp-publishing-webparts.ImageGalleryProps'
+      - '@ms/sp-publishing-webparts.ImageGalleryState'
+      - '@ms/sp-publishing-webparts.PropertyPaneSpinButton'
+      - '@ms/sp-publishing-webparts.IPropertyPaneSpinButtonProps'
+      - '@ms/sp-publishing-webparts.IPropertyPaneSpinButtonState'
+      - '@ms/sp-publishing-webparts.IImageWebPartProps'
+      - '@ms/sp-publishing-webparts.SizeParams'
+      - '@ms/sp-publishing-webparts.Image'
+      - '@ms/sp-publishing-webparts.IImageProps'
+      - '@ms/sp-publishing-webparts.IImageState'
+      - '@ms/sp-publishing-webparts.ImageSourceType'
+      - '@ms/sp-publishing-webparts.ImageWebPart'
+      - '@ms/sp-publishing-webparts.ImageManifestMockData'
+      - '@ms/sp-publishing-webparts.FocusOnElement'
+      - '@ms/sp-publishing-webparts.LinkPreviewComponentMode'
+      - '@ms/sp-publishing-webparts.LinkPreviewDisplayMode'
+      - '@ms/sp-publishing-webparts.LinkPreviewRenderState'
+      - '@ms/sp-publishing-webparts.LinkPreview'
+      - '@ms/sp-publishing-webparts.ILinkPreviewProps'
+      - '@ms/sp-publishing-webparts.IPreviewContent'
+      - '@ms/sp-publishing-webparts.LinkPreviewInput'
+      - '@ms/sp-publishing-webparts.ILinkPreviewInputProps'
+      - '@ms/sp-publishing-webparts.LinkPreviewPlaceholder'
+      - '@ms/sp-publishing-webparts.LinkPreviewWebPart'
+      - '@ms/sp-publishing-webparts.ILinkPreviewWebPartProperties'
+      - '@ms/sp-publishing-webparts.LinkView'
+      - '@ms/sp-publishing-webparts.ILinkViewProps'
+      - '@ms/sp-publishing-webparts.UrlHelper'
+      - '@ms/sp-publishing-webparts.ITestCaseContext'
+      - '@ms/sp-publishing-webparts.EmbedFrameAspectRatio'
+      - '@ms/sp-publishing-webparts.IPowerBIReportEmbedWebPartProps'
+      - '@ms/sp-publishing-webparts.PowerBIReportEmbedContainer'
+      - '@ms/sp-publishing-webparts.IPowerBIReportEmbedContainerProps'
+      - '@ms/sp-publishing-webparts.TokenFetchServerErrorCodes'
+      - '@ms/sp-publishing-webparts.PowerBIReportEmbedWebPart'
+      - '@ms/sp-publishing-webparts.PowerBIReportEmbedCodeHandler'
+      - '@ms/sp-publishing-webparts.PowerBIReportEmbedData'
+      - '@ms/sp-publishing-webparts.PowerBIReportEmbedPropertyPane'
+      - '@ms/sp-publishing-webparts.ISpacerWebPartProps'
+      - '@ms/sp-publishing-webparts.Spacer'
+      - '@ms/sp-publishing-webparts.ISpacerProps'
+      - '@ms/sp-publishing-webparts.ISpacerState'
+      - '@ms/sp-publishing-webparts.SpacerWebPart'
+      - '@ms/sp-publishing-webparts.FocalPoint'
+      - '@ms/sp-publishing-webparts.IFocalPointProps'
+      - '@ms/sp-publishing-webparts.IFocalPointState'
+      - '@ms/sp-publishing-webparts.ITitleRegionProps'
+      - '@ms/sp-publishing-webparts.ImageServiceType'
+      - '@ms/sp-publishing-webparts.TitleImage'
+      - '@ms/sp-publishing-webparts.ITitleImageProps'
+      - '@ms/sp-publishing-webparts.ITitleImageState'
+      - '@ms/sp-publishing-webparts.TitleRegion'
+      - '@ms/sp-publishing-webparts.TitleToolbar'
+      - '@ms/sp-publishing-webparts.ITitleToolbarProps'
+      - '@ms/sp-publishing-webparts.ITwitterWebPartProps'
+      - '@ms/sp-publishing-webparts.TwitterWebPart'
+      - '@ms/sp-publishing-webparts.IPropertyPaneState'
+      - '@ms/sp-publishing-webparts.ITwitterContainerProps'
+      - '@ms/sp-publishing-webparts.Twitter'
+      - '@ms/sp-publishing-webparts.TweetSourceType'
+      - '@ms/sp-publishing-webparts.YammerWebPart'
+      - '@ms/sp-publishing-webparts.FeedContainer'
+      - '@ms/sp-publishing-webparts.IFeedContainerProps'
+      - '@ms/sp-publishing-webparts.IFeedContainerState'
+      - '@ms/sp-publishing-webparts.IFeedProps'
+      - '@ms/sp-publishing-webparts.IPublisherCallToActionProps'
+      - '@ms/sp-publishing-webparts.IPublisherProps'
+      - '@ms/sp-publishing-webparts.IPublisherState'
+      - '@ms/sp-publishing-webparts.IPublisherSwitchProps'
+      - '@ms/sp-publishing-webparts.IPublisherSwitchState'
+      - '@ms/sp-publishing-webparts.IThreadProps'
+      - '@ms/sp-publishing-webparts.IYammerHeaderProps'
+      - '@ms/sp-publishing-webparts.IPlaceholderContainer'
+      - '@ms/sp-publishing-webparts.IPlaceholderContainerProps'
+      - '@ms/sp-publishing-webparts.Publisher'
+      - '@ms/sp-publishing-webparts.PublisherSwitch'
+      - '@ms/sp-publishing-webparts.Thread'
+      - '@ms/sp-publishing-webparts.FeedDataProvider'
+      - '@ms/sp-publishing-webparts.IAttrs'
+      - '@ms/sp-publishing-webparts.IFeedAttrs'
+      - '@ms/sp-publishing-webparts.IGroupAttrs'
+      - '@ms/sp-publishing-webparts.IMessageAttrs'
+      - '@ms/sp-publishing-webparts.INetworkAttrs'
+      - '@ms/sp-publishing-webparts.IRefData'
+      - '@ms/sp-publishing-webparts.IThreadAttrs'
+      - '@ms/sp-publishing-webparts.IUrlTemplates'
+      - '@ms/sp-publishing-webparts.IUserAttrs'
+      - '@ms/sp-publishing-webparts.FeedType'
+      - '@ms/sp-publishing-webparts.SwitchMode'
+      - '@ms/sp-publishing-webparts.MockDataProvider'
+      - '@ms/sp-publishing-webparts.FeedStore'
+      - '@ms/sp-publishing-webparts.ICurrentUser'
+      - '@ms/sp-publishing-webparts.IDirectory'
+      - '@ms/sp-publishing-webparts.IFeed'
+      - '@ms/sp-publishing-webparts.IFeedDataProvider'
+      - '@ms/sp-publishing-webparts.IFeedStoreSettings'
+      - '@ms/sp-publishing-webparts.IGroup'
+      - '@ms/sp-publishing-webparts.IMessage'
+      - '@ms/sp-publishing-webparts.INetwork'
+      - '@ms/sp-publishing-webparts.IPostMessagePayload'
+      - '@ms/sp-publishing-webparts.IThread'
+      - '@ms/sp-publishing-webparts.IUser'
+      - '@ms/sp-publishing-webparts.IYammerWebPartProps'
+      - '@ms/sp-publishing-webparts.YammerPropertyPane'
+      - '@ms/sp-publishing-webparts.IYammerEmbedWebPartProps'
+      - '@ms/sp-publishing-webparts.YammerEmbedContainer'
+      - '@ms/sp-publishing-webparts.IYammerEmbedContainerProps'
+      - '@ms/sp-publishing-webparts.IYammerEmbedContainerState'
+      - '@ms/sp-publishing-webparts.YammerEmbedWebPart'
+      - '@ms/sp-publishing-webparts.IYammerEmbed'
+      - '@ms/sp-publishing-webparts.IYammerEmbedConnect'
+      - '@ms/sp-publishing-webparts.YammerEmbedFeedLoader'
+      - '@ms/sp-publishing-webparts.IRegisteredCallbacks'
+      - '@ms/sp-publishing-webparts.IYammerEmbedFeedEventsCallbacks'
+      - '@ms/sp-publishing-webparts.FeedStringType'
+      - '@ms/sp-publishing-webparts.YammerFeedType'
+      - '@ms/sp-publishing-webparts.YammerEmbedFeedData'
+      - '@ms/sp-publishing-webparts.YammerURLParser'
+      - '@ms/sp-publishing-webparts.YammerEmbedPropertyPane'
+      - '@ms/sp-publishing-webparts.ITestCaseContext'
+      - '@ms/sp-publishing-webparts.Global'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@ms/sp-publishing-webparts.ContentPreviewHelper'
+    name: ContentPreviewHelper
+  - uid: '@ms/sp-publishing-webparts.IContentPreviewInfo'
+    name: IContentPreviewInfo
+  - uid: '@ms/sp-publishing-webparts.FilePickerLoader'
+    name: FilePickerLoader
+  - uid: '@ms/sp-publishing-webparts.ItemAspectRatio'
+    name: ItemAspectRatio
+  - uid: '@ms/sp-publishing-webparts.ItemSize'
+    name: ItemSize
+  - uid: '@ms/sp-publishing-webparts.ImageGrid'
+    name: ImageGrid
+  - uid: '@ms/sp-publishing-webparts.IImageGridProps'
+    name: IImageGridProps
+  - uid: '@ms/sp-publishing-webparts.ImageGridState'
+    name: ImageGridState
+  - uid: '@ms/sp-publishing-webparts.QueryableManagedProperties'
+    name: QueryableManagedProperties
+  - uid: '@ms/sp-publishing-webparts.RefinableManagedProperties'
+    name: RefinableManagedProperties
+  - uid: '@ms/sp-publishing-webparts.RetrievableManagedProperties'
+    name: RetrievableManagedProperties
+  - uid: '@ms/sp-publishing-webparts.SortableManagedProperties'
+    name: SortableManagedProperties
+  - uid: '@ms/sp-publishing-webparts.ManagedDataType'
+    name: ManagedDataType
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropData'
+    name: ISPImageCropData
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropOptions'
+    name: ISPImageCropOptions
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropper'
+    name: ISPImageCropper
+  - uid: '@ms/sp-publishing-webparts.ISPImageData'
+    name: ISPImageData
+  - uid: '@ms/sp-publishing-webparts.ISPImageProps'
+    name: ISPImageProps
+  - uid: '@ms/sp-publishing-webparts.ISPImageViewOnlyProps'
+    name: ISPImageViewOnlyProps
+  - uid: '@ms/sp-publishing-webparts.ImageEditControl'
+    name: ImageEditControl
+  - uid: '@ms/sp-publishing-webparts.IImageEditControlProps'
+    name: IImageEditControlProps
+  - uid: '@ms/sp-publishing-webparts.IImageEditControlState'
+    name: IImageEditControlState
+  - uid: '@ms/sp-publishing-webparts.ImageServiceType'
+    name: ImageServiceType
+  - uid: '@ms/sp-publishing-webparts.ImageView'
+    name: ImageView
+  - uid: '@ms/sp-publishing-webparts.IImageViewProps'
+    name: IImageViewProps
+  - uid: '@ms/sp-publishing-webparts.IImageViewState'
+    name: IImageViewState
+  - uid: '@ms/sp-publishing-webparts.IPictureProps'
+    name: IPictureProps
+  - uid: '@ms/sp-publishing-webparts.SPImage'
+    name: SPImage
+  - uid: '@ms/sp-publishing-webparts.IPSImageState'
+    name: IPSImageState
+  - uid: '@ms/sp-publishing-webparts.SPImageToolbar'
+    name: SPImageToolbar
+  - uid: '@ms/sp-publishing-webparts.IEditToolbarProps'
+    name: IEditToolbarProps
+  - uid: '@ms/sp-publishing-webparts.CropperJs'
+    name: CropperJs
+  - uid: '@ms/sp-publishing-webparts.ImageCropperFactory'
+    name: ImageCropperFactory
+  - uid: '@ms/sp-publishing-webparts.AspectRatio'
+    name: AspectRatio
+  - uid: '@ms/sp-publishing-webparts.PrimaryEditingToolbar'
+    name: PrimaryEditingToolbar
+  - uid: '@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps'
+    name: IPrimaryEditingToolbarProps
+  - uid: '@ms/sp-publishing-webparts.IPrimaryEditingToolbarState'
+    name: IPrimaryEditingToolbarState
+  - uid: '@ms/sp-publishing-webparts.SPImageCropper'
+    name: SPImageCropper
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropperProps'
+    name: ISPImageCropperProps
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropperState'
+    name: ISPImageCropperState
+  - uid: '@ms/sp-publishing-webparts.PropertyPaneTagPicker'
+    name: PropertyPaneTagPicker
+  - uid: '@ms/sp-publishing-webparts.AutofillOption'
+    name: AutofillOption
+  - uid: '@ms/sp-publishing-webparts.IPropertyPaneTagPickerProps'
+    name: IPropertyPaneTagPickerProps
+  - uid: '@ms/sp-publishing-webparts.HeroWebPartItemEdit'
+    name: HeroWebPartItemEdit
+  - uid: '@ms/sp-publishing-webparts.HeroWebPartLayout'
+    name: HeroWebPartLayout
+  - uid: '@ms/sp-publishing-webparts.WebPartBasic'
+    name: WebPartBasic
+  - uid: '@ms/sp-publishing-webparts.TitleRegionAdvanced'
+    name: TitleRegionAdvanced
+  - uid: '@ms/sp-publishing-webparts.HighlightedContentCriticalPath'
+    name: HighlightedContentCriticalPath
+  - uid: '@ms/sp-publishing-webparts.EventAddDelete'
+    name: EventAddDelete
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewExternalUrl'
+    name: LinkPreviewExternalUrl
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewSPDocUrl'
+    name: LinkPreviewSPDocUrl
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewSitePageUrl'
+    name: LinkPreviewSitePageUrl
+  - uid: '@ms/sp-publishing-webparts.BingMap'
+    name: BingMap
+  - uid: '@ms/sp-publishing-webparts.IBingMapProps'
+    name: IBingMapProps
+  - uid: '@ms/sp-publishing-webparts.IBingMapState'
+    name: IBingMapState
+  - uid: '@ms/sp-publishing-webparts.BingMapHacker'
+    name: BingMapHacker
+  - uid: '@ms/sp-publishing-webparts.BingMapPushPinInfo'
+    name: BingMapPushPinInfo
+  - uid: '@ms/sp-publishing-webparts.IBingMapPushPinInfoProps'
+    name: IBingMapPushPinInfoProps
+  - uid: '@ms/sp-publishing-webparts.BingMapSearchBox'
+    name: BingMapSearchBox
+  - uid: '@ms/sp-publishing-webparts.IBingMapSearchBoxProps'
+    name: IBingMapSearchBoxProps
+  - uid: '@ms/sp-publishing-webparts.IBingMapState'
+    name: IBingMapState
+  - uid: '@ms/sp-publishing-webparts.BingMapVirtualPushPin'
+    name: BingMapVirtualPushPin
+  - uid: '@ms/sp-publishing-webparts.IBingMapVirtualPushPinProps'
+    name: IBingMapVirtualPushPinProps
+  - uid: '@ms/sp-publishing-webparts.BingMapWebPart'
+    name: BingMapWebPart
+  - uid: '@ms/sp-publishing-webparts.IBingMapWebPartProps'
+    name: IBingMapWebPartProps
+  - uid: '@ms/sp-publishing-webparts.ITestCaseContext'
+    name: ITestCaseContext
+  - uid: '@ms/sp-publishing-webparts.CarouselItem'
+    name: CarouselItem
+  - uid: '@ms/sp-publishing-webparts.ContentRollupFlights'
+    name: ContentRollupFlights
+  - uid: '@ms/sp-publishing-webparts.ContentRollupUpgrade'
+    name: ContentRollupUpgrade
+  - uid: '@ms/sp-publishing-webparts.QosMonitorType'
+    name: QosMonitorType
+  - uid: '@ms/sp-publishing-webparts.ContentRollupWebPart'
+    name: ContentRollupWebPart
+  - uid: '@ms/sp-publishing-webparts.LayoutId'
+    name: LayoutId
+  - uid: '@ms/sp-publishing-webparts.FilmStripItem'
+    name: FilmStripItem
+  - uid: '@ms/sp-publishing-webparts.MasonryItem'
+    name: MasonryItem
+  - uid: '@ms/sp-publishing-webparts.ContentRollupLayout'
+    name: ContentRollupLayout
+  - uid: '@ms/sp-publishing-webparts.FilterValueDataType'
+    name: FilterValueDataType
+  - uid: '@ms/sp-publishing-webparts.DataProviderId'
+    name: DataProviderId
+  - uid: '@ms/sp-publishing-webparts.IContentRollupWebPartProperties'
+    name: IContentRollupWebPartProperties
+  - uid: '@ms/sp-publishing-webparts.ContentRollupDisplayFieldMap'
+    name: ContentRollupDisplayFieldMap
+  - uid: '@ms/sp-publishing-webparts.ContentRollupPropertyPaneContent'
+    name: ContentRollupPropertyPaneContent
+  - uid: '@ms/sp-publishing-webparts.ContentRollupPropertyPaneDisplayFieldMap'
+    name: ContentRollupPropertyPaneDisplayFieldMap
+  - uid: '@ms/sp-publishing-webparts.ContentRollupPropertyPaneFilters'
+    name: ContentRollupPropertyPaneFilters
+  - uid: '@ms/sp-publishing-webparts.ContentRollupPropertyPaneLayout'
+    name: ContentRollupPropertyPaneLayout
+  - uid: '@ms/sp-publishing-webparts.ContentRollupPropertyPaneSettings'
+    name: ContentRollupPropertyPaneSettings
+  - uid: '@ms/sp-publishing-webparts.Divider'
+    name: Divider
+  - uid: '@ms/sp-publishing-webparts.DividerWebPart'
+    name: DividerWebPart
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbed'
+    name: DocumentEmbed
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbedCard'
+    name: DocumentEmbedCard
+  - uid: '@ms/sp-publishing-webparts.IDocumentCardProps'
+    name: IDocumentCardProps
+  - uid: '@ms/sp-publishing-webparts.IDocumentCardState'
+    name: IDocumentCardState
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbedWebPart'
+    name: DocumentEmbedWebPart
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbedDataProvider'
+    name: DocumentEmbedDataProvider
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbedHelper'
+    name: DocumentEmbedHelper
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbedManifestMockData'
+    name: DocumentEmbedManifestMockData
+  - uid: '@ms/sp-publishing-webparts.DocumentQueryParametersDictionary'
+    name: DocumentQueryParametersDictionary
+  - uid: '@ms/sp-publishing-webparts.ExcelQueryParameters'
+    name: ExcelQueryParameters
+  - uid: '@ms/sp-publishing-webparts.PptQueryParameters'
+    name: PptQueryParameters
+  - uid: '@ms/sp-publishing-webparts.VisioQueryParameters'
+    name: VisioQueryParameters
+  - uid: '@ms/sp-publishing-webparts.WordOrPdfQueryParameters'
+    name: WordOrPdfQueryParameters
+  - uid: '@ms/sp-publishing-webparts.IDocumentEmbedSeralizedProperties'
+    name: IDocumentEmbedSeralizedProperties
+  - uid: '@ms/sp-publishing-webparts.IDocumentEmbedWebPartProperties'
+    name: IDocumentEmbedWebPartProperties
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps'
+    name: IDocumentProps
+  - uid: '@ms/sp-publishing-webparts.IDocumentState'
+    name: IDocumentState
+  - uid: '@ms/sp-publishing-webparts.IFilePickerResponseModel'
+    name: IFilePickerResponseModel
+  - uid: '@ms/sp-publishing-webparts.IEmbedBaseMessage'
+    name: IEmbedBaseMessage
+  - uid: '@ms/sp-publishing-webparts.IEmbedSuccessMessage'
+    name: IEmbedSuccessMessage
+  - uid: '@ms/sp-publishing-webparts.PreviewAppType'
+    name: PreviewAppType
+  - uid: '@ms/sp-publishing-webparts.WopiFrameAction'
+    name: WopiFrameAction
+  - uid: '@ms/sp-publishing-webparts.PropertyPaneSettings'
+    name: PropertyPaneSettings
+  - uid: '@ms/sp-publishing-webparts.DateRangeOption'
+    name: DateRangeOption
+  - uid: '@ms/sp-publishing-webparts.EventsWebPart'
+    name: EventsWebPart
+  - uid: '@ms/sp-publishing-webparts.EventCard'
+    name: EventCard
+  - uid: '@ms/sp-publishing-webparts.IEventCardEmptyStateOptions'
+    name: IEventCardEmptyStateOptions
+  - uid: '@ms/sp-publishing-webparts.IEventCardProps'
+    name: IEventCardProps
+  - uid: '@ms/sp-publishing-webparts.IEventsWebPartProperties'
+    name: IEventsWebPartProperties
+  - uid: '@ms/sp-publishing-webparts.ExampleCollectionWebPart'
+    name: ExampleCollectionWebPart
+  - uid: '@ms/sp-publishing-webparts.IExampleCollectionWebPartProperties'
+    name: IExampleCollectionWebPartProperties
+  - uid: '@ms/sp-publishing-webparts.FormsEmbedContainer'
+    name: FormsEmbedContainer
+  - uid: '@ms/sp-publishing-webparts.IFormsEmbedContainerProps'
+    name: IFormsEmbedContainerProps
+  - uid: '@ms/sp-publishing-webparts.FormsWebPart'
+    name: FormsWebPart
+  - uid: '@ms/sp-publishing-webparts.IFormsWebPartProps'
+    name: IFormsWebPartProps
+  - uid: '@ms/sp-publishing-webparts.FormsDataProvider'
+    name: FormsDataProvider
+  - uid: '@ms/sp-publishing-webparts.SharePointDataProvider'
+    name: SharePointDataProvider
+  - uid: '@ms/sp-publishing-webparts.FormsDataSource'
+    name: FormsDataSource
+  - uid: '@ms/sp-publishing-webparts.IFormsDataSource'
+    name: IFormsDataSource
+  - uid: '@ms/sp-publishing-webparts.ISharePointDataSource'
+    name: ISharePointDataSource
+  - uid: '@ms/sp-publishing-webparts.MockFormsDataSource'
+    name: MockFormsDataSource
+  - uid: '@ms/sp-publishing-webparts.MockSharePointDataSource'
+    name: MockSharePointDataSource
+  - uid: '@ms/sp-publishing-webparts.SharePointDataSource'
+    name: SharePointDataSource
+  - uid: '@ms/sp-publishing-webparts.ActionType'
+    name: ActionType
+  - uid: '@ms/sp-publishing-webparts.DisplayType'
+    name: DisplayType
+  - uid: '@ms/sp-publishing-webparts.IDecodedAccessToken'
+    name: IDecodedAccessToken
+  - uid: '@ms/sp-publishing-webparts.IDecodedFormId'
+    name: IDecodedFormId
+  - uid: '@ms/sp-publishing-webparts.IDecodedJWTToken'
+    name: IDecodedJWTToken
+  - uid: '@ms/sp-publishing-webparts.IForm'
+    name: IForm
+  - uid: '@ms/sp-publishing-webparts.IFormSettings'
+    name: IFormSettings
+  - uid: '@ms/sp-publishing-webparts.IFormsPermissionRequest'
+    name: IFormsPermissionRequest
+  - uid: '@ms/sp-publishing-webparts.IFormsPermissionToken'
+    name: IFormsPermissionToken
+  - uid: '@ms/sp-publishing-webparts.IUserInfo'
+    name: IUserInfo
+  - uid: '@ms/sp-publishing-webparts.FormsPropertyPane'
+    name: FormsPropertyPane
+  - uid: '@ms/sp-publishing-webparts.ITestCaseContext'
+    name: ITestCaseContext
+  - uid: '@ms/sp-publishing-webparts.FormsUtil'
+    name: FormsUtil
+  - uid: '@ms/sp-publishing-webparts.TokenUtil'
+    name: TokenUtil
+  - uid: '@ms/sp-publishing-webparts.FocusManager'
+    name: FocusManager
+  - uid: '@ms/sp-publishing-webparts.GroupCalendarWebPart'
+    name: GroupCalendarWebPart
+  - uid: '@ms/sp-publishing-webparts.EventDateTime'
+    name: EventDateTime
+  - uid: '@ms/sp-publishing-webparts.IEventDateTimeProps'
+    name: IEventDateTimeProps
+  - uid: '@ms/sp-publishing-webparts.EventDetail'
+    name: EventDetail
+  - uid: '@ms/sp-publishing-webparts.IEventDetailProps'
+    name: IEventDetailProps
+  - uid: '@ms/sp-publishing-webparts.EventDetailContainer'
+    name: EventDetailContainer
+  - uid: '@ms/sp-publishing-webparts.IEventDetailContainerProps'
+    name: IEventDetailContainerProps
+  - uid: '@ms/sp-publishing-webparts.IEventDetailContainerState'
+    name: IEventDetailContainerState
+  - uid: '@ms/sp-publishing-webparts.EventDetailDialog'
+    name: EventDetailDialog
+  - uid: '@ms/sp-publishing-webparts.IEventDetailDialogProps'
+    name: IEventDetailDialogProps
+  - uid: '@ms/sp-publishing-webparts.EventListItem'
+    name: EventListItem
+  - uid: '@ms/sp-publishing-webparts.IEventListItemProps'
+    name: IEventListItemProps
+  - uid: '@ms/sp-publishing-webparts.EventSpinner'
+    name: EventSpinner
+  - uid: '@ms/sp-publishing-webparts.IEventSpinnerProps'
+    name: IEventSpinnerProps
+  - uid: '@ms/sp-publishing-webparts.Events'
+    name: Events
+  - uid: '@ms/sp-publishing-webparts.IEventsProps'
+    name: IEventsProps
+  - uid: '@ms/sp-publishing-webparts.IEventsState'
+    name: IEventsState
+  - uid: '@ms/sp-publishing-webparts.ExportEventButton'
+    name: ExportEventButton
+  - uid: '@ms/sp-publishing-webparts.IExportEventButtonProps'
+    name: IExportEventButtonProps
+  - uid: '@ms/sp-publishing-webparts.IExportEventButtonState'
+    name: IExportEventButtonState
+  - uid: '@ms/sp-publishing-webparts.MessageView'
+    name: MessageView
+  - uid: '@ms/sp-publishing-webparts.IMessageViewProps'
+    name: IMessageViewProps
+  - uid: '@ms/sp-publishing-webparts.IPlaceholderContainer'
+    name: IPlaceholderContainer
+  - uid: '@ms/sp-publishing-webparts.IPlaceholderContainerProps'
+    name: IPlaceholderContainerProps
+  - uid: '@ms/sp-publishing-webparts.RetryButton'
+    name: RetryButton
+  - uid: '@ms/sp-publishing-webparts.IRetryButtonProps'
+    name: IRetryButtonProps
+  - uid: '@ms/sp-publishing-webparts.SyncStatus'
+    name: SyncStatus
+  - uid: '@ms/sp-publishing-webparts.SyncButton'
+    name: SyncButton
+  - uid: '@ms/sp-publishing-webparts.ISyncButtonProps'
+    name: ISyncButtonProps
+  - uid: '@ms/sp-publishing-webparts.ISyncButtonState'
+    name: ISyncButtonState
+  - uid: '@ms/sp-publishing-webparts.GraphDataProvider'
+    name: GraphDataProvider
+  - uid: '@ms/sp-publishing-webparts.GroupCalendarDataProvider'
+    name: GroupCalendarDataProvider
+  - uid: '@ms/sp-publishing-webparts.IEventRequestOptions'
+    name: IEventRequestOptions
+  - uid: '@ms/sp-publishing-webparts.SharePointDataProvider'
+    name: SharePointDataProvider
+  - uid: '@ms/sp-publishing-webparts.IcsEventConvertor'
+    name: IcsEventConvertor
+  - uid: '@ms/sp-publishing-webparts.IcsFileGenerator'
+    name: IcsFileGenerator
+  - uid: '@ms/sp-publishing-webparts.DayOfWeekEnum'
+    name: DayOfWeekEnum
+  - uid: '@ms/sp-publishing-webparts.DayOfWeekIndexType'
+    name: DayOfWeekIndexType
+  - uid: '@ms/sp-publishing-webparts.FakeFocusManager'
+    name: FakeFocusManager
+  - uid: '@ms/sp-publishing-webparts.MockDataProvider'
+    name: MockDataProvider
+  - uid: '@ms/sp-publishing-webparts.MockSharePointDataProvider'
+    name: MockSharePointDataProvider
+  - uid: '@ms/sp-publishing-webparts.PeriodType'
+    name: PeriodType
+  - uid: '@ms/sp-publishing-webparts.EventsStore'
+    name: EventsStore
+  - uid: '@ms/sp-publishing-webparts.IEventStoreSettings'
+    name: IEventStoreSettings
+  - uid: '@ms/sp-publishing-webparts.ICalendarDataProvider'
+    name: ICalendarDataProvider
+  - uid: '@ms/sp-publishing-webparts.IGetEventsResult'
+    name: IGetEventsResult
+  - uid: '@ms/sp-publishing-webparts.Response'
+    name: Response
+  - uid: '@ms/sp-publishing-webparts.IAttachment'
+    name: IAttachment
+  - uid: '@ms/sp-publishing-webparts.IAttendee'
+    name: IAttendee
+  - uid: '@ms/sp-publishing-webparts.IEmailAddress'
+    name: IEmailAddress
+  - uid: '@ms/sp-publishing-webparts.IExchangeCalendarEvent'
+    name: IExchangeCalendarEvent
+  - uid: '@ms/sp-publishing-webparts.IExchangeGroup'
+    name: IExchangeGroup
+  - uid: '@ms/sp-publishing-webparts.IPattern'
+    name: IPattern
+  - uid: '@ms/sp-publishing-webparts.IRange'
+    name: IRange
+  - uid: '@ms/sp-publishing-webparts.IRecurrence'
+    name: IRecurrence
+  - uid: '@ms/sp-publishing-webparts.IResponseStatus'
+    name: IResponseStatus
+  - uid: '@ms/sp-publishing-webparts.IStartEndDateTime'
+    name: IStartEndDateTime
+  - uid: '@ms/sp-publishing-webparts.IFocusManager'
+    name: IFocusManager
+  - uid: '@ms/sp-publishing-webparts.IGroupCalendarProperties'
+    name: IGroupCalendarProperties
+  - uid: '@ms/sp-publishing-webparts.IContact'
+    name: IContact
+  - uid: '@ms/sp-publishing-webparts.IIcsAttachment'
+    name: IIcsAttachment
+  - uid: '@ms/sp-publishing-webparts.IIcsEvent'
+    name: IIcsEvent
+  - uid: '@ms/sp-publishing-webparts.IIcsRecurrence'
+    name: IIcsRecurrence
+  - uid: '@ms/sp-publishing-webparts.IRegionalSettings'
+    name: IRegionalSettings
+  - uid: '@ms/sp-publishing-webparts.ISharePointDataProvider'
+    name: ISharePointDataProvider
+  - uid: '@ms/sp-publishing-webparts.ITimeZone'
+    name: ITimeZone
+  - uid: '@ms/sp-publishing-webparts.GroupCalendarPropertyPane'
+    name: GroupCalendarPropertyPane
+  - uid: '@ms/sp-publishing-webparts.HeroWebPart'
+    name: HeroWebPart
+  - uid: '@ms/sp-publishing-webparts.Hero'
+    name: Hero
+  - uid: '@ms/sp-publishing-webparts.IHeroProps'
+    name: IHeroProps
+  - uid: '@ms/sp-publishing-webparts.IHeroState'
+    name: IHeroState
+  - uid: '@ms/sp-publishing-webparts.HeroFilePicker'
+    name: HeroFilePicker
+  - uid: '@ms/sp-publishing-webparts.IHeroFilePickerProps'
+    name: IHeroFilePickerProps
+  - uid: '@ms/sp-publishing-webparts.HeroItemElement'
+    name: HeroItemElement
+  - uid: '@ms/sp-publishing-webparts.IHeroItemProps'
+    name: IHeroItemProps
+  - uid: '@ms/sp-publishing-webparts.IHeroItemState'
+    name: IHeroItemState
+  - uid: '@ms/sp-publishing-webparts.PlaceholderData'
+    name: PlaceholderData
+  - uid: '@ms/sp-publishing-webparts.ColorOption'
+    name: ColorOption
+  - uid: '@ms/sp-publishing-webparts.ContentType'
+    name: ContentType
+  - uid: '@ms/sp-publishing-webparts.ImageDisplayOption'
+    name: ImageDisplayOption
+  - uid: '@ms/sp-publishing-webparts.FailureTag'
+    name: FailureTag
+  - uid: '@ms/sp-publishing-webparts.Utils'
+    name: Utils
+  - uid: '@ms/sp-publishing-webparts.IHeroWebPartProperties'
+    name: IHeroWebPartProperties
+  - uid: '@ms/sp-publishing-webparts.IImageProperties'
+    name: IImageProperties
+  - uid: '@ms/sp-publishing-webparts.IItemDisplayProperties'
+    name: IItemDisplayProperties
+  - uid: '@ms/sp-publishing-webparts.IItemProperties'
+    name: IItemProperties
+  - uid: '@ms/sp-publishing-webparts.ChangePath'
+    name: ChangePath
+  - uid: '@ms/sp-publishing-webparts.IChangePathProps'
+    name: IChangePathProps
+  - uid: '@ms/sp-publishing-webparts.IChangePathState'
+    name: IChangePathState
+  - uid: '@ms/sp-publishing-webparts.HeroPropertyPaneSettings'
+    name: HeroPropertyPaneSettings
+  - uid: '@ms/sp-publishing-webparts.ImagePreview'
+    name: ImagePreview
+  - uid: '@ms/sp-publishing-webparts.IImagePreviewProps'
+    name: IImagePreviewProps
+  - uid: '@ms/sp-publishing-webparts.IImagePreviewState'
+    name: IImagePreviewState
+  - uid: '@ms/sp-publishing-webparts.HeroTestData'
+    name: HeroTestData
+  - uid: '@ms/sp-publishing-webparts.HeroTestUtil'
+    name: HeroTestUtil
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryFlight'
+    name: ImageGalleryFlight
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryPropertyPaneSettings'
+    name: ImageGalleryPropertyPaneSettings
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryWebPart'
+    name: ImageGalleryWebPart
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryDataProvider'
+    name: ImageGalleryDataProvider
+  - uid: '@ms/sp-publishing-webparts.IImageGalleryDataProvider'
+    name: IImageGalleryDataProvider
+  - uid: '@ms/sp-publishing-webparts.GalleryItemType'
+    name: GalleryItemType
+  - uid: '@ms/sp-publishing-webparts.Host'
+    name: Host
+  - uid: '@ms/sp-publishing-webparts.ImageCropping'
+    name: ImageCropping
+  - uid: '@ms/sp-publishing-webparts.ImageSourceType'
+    name: ImageSourceType
+  - uid: '@ms/sp-publishing-webparts.Layout'
+    name: Layout
+  - uid: '@ms/sp-publishing-webparts.UploadState'
+    name: UploadState
+  - uid: '@ms/sp-publishing-webparts.ImageSourceType'
+    name: ImageSourceType
+  - uid: '@ms/sp-publishing-webparts.ImageItem'
+    name: ImageItem
+  - uid: '@ms/sp-publishing-webparts.IImageItemState'
+    name: IImageItemState
+  - uid: '@ms/sp-publishing-webparts.UploadProgressItem'
+    name: UploadProgressItem
+  - uid: '@ms/sp-publishing-webparts.MockImageProps'
+    name: MockImageProps
+  - uid: '@ms/sp-publishing-webparts.IGetDocumentAndMediaLibrariesResponse'
+    name: IGetDocumentAndMediaLibrariesResponse
+  - uid: '@ms/sp-publishing-webparts.IGetResponse'
+    name: IGetResponse
+  - uid: '@ms/sp-publishing-webparts.IImageFilterOptions'
+    name: IImageFilterOptions
+  - uid: '@ms/sp-publishing-webparts.IListData'
+    name: IListData
+  - uid: '@ms/sp-publishing-webparts.IPostBody'
+    name: IPostBody
+  - uid: '@ms/sp-publishing-webparts.IPostResponse'
+    name: IPostResponse
+  - uid: '@ms/sp-publishing-webparts.IResult'
+    name: IResult
+  - uid: '@ms/sp-publishing-webparts.ISPError'
+    name: ISPError
+  - uid: '@ms/sp-publishing-webparts.IGetImagesData'
+    name: IGetImagesData
+  - uid: '@ms/sp-publishing-webparts.IGridSettings'
+    name: IGridSettings
+  - uid: '@ms/sp-publishing-webparts.IImageGalleryProperties'
+    name: IImageGalleryProperties
+  - uid: '@ms/sp-publishing-webparts.IImageItemProps'
+    name: IImageItemProps
+  - uid: '@ms/sp-publishing-webparts.IImageProps'
+    name: IImageProps
+  - uid: '@ms/sp-publishing-webparts.IUploadProgressItemProps'
+    name: IUploadProgressItemProps
+  - uid: '@ms/sp-publishing-webparts.IUploadProgressItemState'
+    name: IUploadProgressItemState
+  - uid: '@ms/sp-publishing-webparts.ImageFileValidator'
+    name: ImageFileValidator
+  - uid: '@ms/sp-publishing-webparts.IFileValidator'
+    name: IFileValidator
+  - uid: '@ms/sp-publishing-webparts.IImageFileValidatorProps'
+    name: IImageFileValidatorProps
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryDataAggregator'
+    name: ImageGalleryDataAggregator
+  - uid: '@ms/sp-publishing-webparts.ICreateFolderResult'
+    name: ICreateFolderResult
+  - uid: '@ms/sp-publishing-webparts.IDocumentAndMediaLibrary'
+    name: IDocumentAndMediaLibrary
+  - uid: '@ms/sp-publishing-webparts.IGetFolderResult'
+    name: IGetFolderResult
+  - uid: '@ms/sp-publishing-webparts.IGetImagesResult'
+    name: IGetImagesResult
+  - uid: '@ms/sp-publishing-webparts.IGetListItemResult'
+    name: IGetListItemResult
+  - uid: '@ms/sp-publishing-webparts.IImage'
+    name: IImage
+  - uid: '@ms/sp-publishing-webparts.Grid'
+    name: Grid
+  - uid: '@ms/sp-publishing-webparts.ImageGridList'
+    name: ImageGridList
+  - uid: '@ms/sp-publishing-webparts.ImageLightBox'
+    name: ImageLightBox
+  - uid: '@ms/sp-publishing-webparts.IGridProps'
+    name: IGridProps
+  - uid: '@ms/sp-publishing-webparts.IGridState'
+    name: IGridState
+  - uid: '@ms/sp-publishing-webparts.ImageGallery'
+    name: ImageGallery
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryProps'
+    name: ImageGalleryProps
+  - uid: '@ms/sp-publishing-webparts.ImageGalleryState'
+    name: ImageGalleryState
+  - uid: '@ms/sp-publishing-webparts.PropertyPaneSpinButton'
+    name: PropertyPaneSpinButton
+  - uid: '@ms/sp-publishing-webparts.IPropertyPaneSpinButtonProps'
+    name: IPropertyPaneSpinButtonProps
+  - uid: '@ms/sp-publishing-webparts.IPropertyPaneSpinButtonState'
+    name: IPropertyPaneSpinButtonState
+  - uid: '@ms/sp-publishing-webparts.IImageWebPartProps'
+    name: IImageWebPartProps
+  - uid: '@ms/sp-publishing-webparts.SizeParams'
+    name: SizeParams
+  - uid: '@ms/sp-publishing-webparts.Image'
+    name: Image
+  - uid: '@ms/sp-publishing-webparts.IImageProps'
+    name: IImageProps
+  - uid: '@ms/sp-publishing-webparts.IImageState'
+    name: IImageState
+  - uid: '@ms/sp-publishing-webparts.ImageSourceType'
+    name: ImageSourceType
+  - uid: '@ms/sp-publishing-webparts.ImageWebPart'
+    name: ImageWebPart
+  - uid: '@ms/sp-publishing-webparts.ImageManifestMockData'
+    name: ImageManifestMockData
+  - uid: '@ms/sp-publishing-webparts.FocusOnElement'
+    name: FocusOnElement
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewComponentMode'
+    name: LinkPreviewComponentMode
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewDisplayMode'
+    name: LinkPreviewDisplayMode
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewRenderState'
+    name: LinkPreviewRenderState
+  - uid: '@ms/sp-publishing-webparts.LinkPreview'
+    name: LinkPreview
+  - uid: '@ms/sp-publishing-webparts.ILinkPreviewProps'
+    name: ILinkPreviewProps
+  - uid: '@ms/sp-publishing-webparts.IPreviewContent'
+    name: IPreviewContent
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewInput'
+    name: LinkPreviewInput
+  - uid: '@ms/sp-publishing-webparts.ILinkPreviewInputProps'
+    name: ILinkPreviewInputProps
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewPlaceholder'
+    name: LinkPreviewPlaceholder
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewWebPart'
+    name: LinkPreviewWebPart
+  - uid: '@ms/sp-publishing-webparts.ILinkPreviewWebPartProperties'
+    name: ILinkPreviewWebPartProperties
+  - uid: '@ms/sp-publishing-webparts.LinkView'
+    name: LinkView
+  - uid: '@ms/sp-publishing-webparts.ILinkViewProps'
+    name: ILinkViewProps
+  - uid: '@ms/sp-publishing-webparts.UrlHelper'
+    name: UrlHelper
+  - uid: '@ms/sp-publishing-webparts.ITestCaseContext'
+    name: ITestCaseContext
+  - uid: '@ms/sp-publishing-webparts.EmbedFrameAspectRatio'
+    name: EmbedFrameAspectRatio
+  - uid: '@ms/sp-publishing-webparts.IPowerBIReportEmbedWebPartProps'
+    name: IPowerBIReportEmbedWebPartProps
+  - uid: '@ms/sp-publishing-webparts.PowerBIReportEmbedContainer'
+    name: PowerBIReportEmbedContainer
+  - uid: '@ms/sp-publishing-webparts.IPowerBIReportEmbedContainerProps'
+    name: IPowerBIReportEmbedContainerProps
+  - uid: '@ms/sp-publishing-webparts.TokenFetchServerErrorCodes'
+    name: TokenFetchServerErrorCodes
+  - uid: '@ms/sp-publishing-webparts.PowerBIReportEmbedWebPart'
+    name: PowerBIReportEmbedWebPart
+  - uid: '@ms/sp-publishing-webparts.PowerBIReportEmbedCodeHandler'
+    name: PowerBIReportEmbedCodeHandler
+  - uid: '@ms/sp-publishing-webparts.PowerBIReportEmbedData'
+    name: PowerBIReportEmbedData
+  - uid: '@ms/sp-publishing-webparts.PowerBIReportEmbedPropertyPane'
+    name: PowerBIReportEmbedPropertyPane
+  - uid: '@ms/sp-publishing-webparts.ISpacerWebPartProps'
+    name: ISpacerWebPartProps
+  - uid: '@ms/sp-publishing-webparts.Spacer'
+    name: Spacer
+  - uid: '@ms/sp-publishing-webparts.ISpacerProps'
+    name: ISpacerProps
+  - uid: '@ms/sp-publishing-webparts.ISpacerState'
+    name: ISpacerState
+  - uid: '@ms/sp-publishing-webparts.SpacerWebPart'
+    name: SpacerWebPart
+  - uid: '@ms/sp-publishing-webparts.FocalPoint'
+    name: FocalPoint
+  - uid: '@ms/sp-publishing-webparts.IFocalPointProps'
+    name: IFocalPointProps
+  - uid: '@ms/sp-publishing-webparts.IFocalPointState'
+    name: IFocalPointState
+  - uid: '@ms/sp-publishing-webparts.ITitleRegionProps'
+    name: ITitleRegionProps
+  - uid: '@ms/sp-publishing-webparts.ImageServiceType'
+    name: ImageServiceType
+  - uid: '@ms/sp-publishing-webparts.TitleImage'
+    name: TitleImage
+  - uid: '@ms/sp-publishing-webparts.ITitleImageProps'
+    name: ITitleImageProps
+  - uid: '@ms/sp-publishing-webparts.ITitleImageState'
+    name: ITitleImageState
+  - uid: '@ms/sp-publishing-webparts.TitleRegion'
+    name: TitleRegion
+  - uid: '@ms/sp-publishing-webparts.TitleToolbar'
+    name: TitleToolbar
+  - uid: '@ms/sp-publishing-webparts.ITitleToolbarProps'
+    name: ITitleToolbarProps
+  - uid: '@ms/sp-publishing-webparts.ITwitterWebPartProps'
+    name: ITwitterWebPartProps
+  - uid: '@ms/sp-publishing-webparts.TwitterWebPart'
+    name: TwitterWebPart
+  - uid: '@ms/sp-publishing-webparts.IPropertyPaneState'
+    name: IPropertyPaneState
+  - uid: '@ms/sp-publishing-webparts.ITwitterContainerProps'
+    name: ITwitterContainerProps
+  - uid: '@ms/sp-publishing-webparts.Twitter'
+    name: Twitter
+  - uid: '@ms/sp-publishing-webparts.TweetSourceType'
+    name: TweetSourceType
+  - uid: '@ms/sp-publishing-webparts.YammerWebPart'
+    name: YammerWebPart
+  - uid: '@ms/sp-publishing-webparts.FeedContainer'
+    name: FeedContainer
+  - uid: '@ms/sp-publishing-webparts.IFeedContainerProps'
+    name: IFeedContainerProps
+  - uid: '@ms/sp-publishing-webparts.IFeedContainerState'
+    name: IFeedContainerState
+  - uid: '@ms/sp-publishing-webparts.IFeedProps'
+    name: IFeedProps
+  - uid: '@ms/sp-publishing-webparts.IPublisherCallToActionProps'
+    name: IPublisherCallToActionProps
+  - uid: '@ms/sp-publishing-webparts.IPublisherProps'
+    name: IPublisherProps
+  - uid: '@ms/sp-publishing-webparts.IPublisherState'
+    name: IPublisherState
+  - uid: '@ms/sp-publishing-webparts.IPublisherSwitchProps'
+    name: IPublisherSwitchProps
+  - uid: '@ms/sp-publishing-webparts.IPublisherSwitchState'
+    name: IPublisherSwitchState
+  - uid: '@ms/sp-publishing-webparts.IThreadProps'
+    name: IThreadProps
+  - uid: '@ms/sp-publishing-webparts.IYammerHeaderProps'
+    name: IYammerHeaderProps
+  - uid: '@ms/sp-publishing-webparts.IPlaceholderContainer'
+    name: IPlaceholderContainer
+  - uid: '@ms/sp-publishing-webparts.IPlaceholderContainerProps'
+    name: IPlaceholderContainerProps
+  - uid: '@ms/sp-publishing-webparts.Publisher'
+    name: Publisher
+  - uid: '@ms/sp-publishing-webparts.PublisherSwitch'
+    name: PublisherSwitch
+  - uid: '@ms/sp-publishing-webparts.Thread'
+    name: Thread
+  - uid: '@ms/sp-publishing-webparts.FeedDataProvider'
+    name: FeedDataProvider
+  - uid: '@ms/sp-publishing-webparts.IAttrs'
+    name: IAttrs
+  - uid: '@ms/sp-publishing-webparts.IFeedAttrs'
+    name: IFeedAttrs
+  - uid: '@ms/sp-publishing-webparts.IGroupAttrs'
+    name: IGroupAttrs
+  - uid: '@ms/sp-publishing-webparts.IMessageAttrs'
+    name: IMessageAttrs
+  - uid: '@ms/sp-publishing-webparts.INetworkAttrs'
+    name: INetworkAttrs
+  - uid: '@ms/sp-publishing-webparts.IRefData'
+    name: IRefData
+  - uid: '@ms/sp-publishing-webparts.IThreadAttrs'
+    name: IThreadAttrs
+  - uid: '@ms/sp-publishing-webparts.IUrlTemplates'
+    name: IUrlTemplates
+  - uid: '@ms/sp-publishing-webparts.IUserAttrs'
+    name: IUserAttrs
+  - uid: '@ms/sp-publishing-webparts.FeedType'
+    name: FeedType
+  - uid: '@ms/sp-publishing-webparts.SwitchMode'
+    name: SwitchMode
+  - uid: '@ms/sp-publishing-webparts.MockDataProvider'
+    name: MockDataProvider
+  - uid: '@ms/sp-publishing-webparts.FeedStore'
+    name: FeedStore
+  - uid: '@ms/sp-publishing-webparts.ICurrentUser'
+    name: ICurrentUser
+  - uid: '@ms/sp-publishing-webparts.IDirectory'
+    name: IDirectory
+  - uid: '@ms/sp-publishing-webparts.IFeed'
+    name: IFeed
+  - uid: '@ms/sp-publishing-webparts.IFeedDataProvider'
+    name: IFeedDataProvider
+  - uid: '@ms/sp-publishing-webparts.IFeedStoreSettings'
+    name: IFeedStoreSettings
+  - uid: '@ms/sp-publishing-webparts.IGroup'
+    name: IGroup
+  - uid: '@ms/sp-publishing-webparts.IMessage'
+    name: IMessage
+  - uid: '@ms/sp-publishing-webparts.INetwork'
+    name: INetwork
+  - uid: '@ms/sp-publishing-webparts.IPostMessagePayload'
+    name: IPostMessagePayload
+  - uid: '@ms/sp-publishing-webparts.IThread'
+    name: IThread
+  - uid: '@ms/sp-publishing-webparts.IUser'
+    name: IUser
+  - uid: '@ms/sp-publishing-webparts.IYammerWebPartProps'
+    name: IYammerWebPartProps
+  - uid: '@ms/sp-publishing-webparts.YammerPropertyPane'
+    name: YammerPropertyPane
+  - uid: '@ms/sp-publishing-webparts.IYammerEmbedWebPartProps'
+    name: IYammerEmbedWebPartProps
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedContainer'
+    name: YammerEmbedContainer
+  - uid: '@ms/sp-publishing-webparts.IYammerEmbedContainerProps'
+    name: IYammerEmbedContainerProps
+  - uid: '@ms/sp-publishing-webparts.IYammerEmbedContainerState'
+    name: IYammerEmbedContainerState
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedWebPart'
+    name: YammerEmbedWebPart
+  - uid: '@ms/sp-publishing-webparts.IYammerEmbed'
+    name: IYammerEmbed
+  - uid: '@ms/sp-publishing-webparts.IYammerEmbedConnect'
+    name: IYammerEmbedConnect
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedFeedLoader'
+    name: YammerEmbedFeedLoader
+  - uid: '@ms/sp-publishing-webparts.IRegisteredCallbacks'
+    name: IRegisteredCallbacks
+  - uid: '@ms/sp-publishing-webparts.IYammerEmbedFeedEventsCallbacks'
+    name: IYammerEmbedFeedEventsCallbacks
+  - uid: '@ms/sp-publishing-webparts.FeedStringType'
+    name: FeedStringType
+  - uid: '@ms/sp-publishing-webparts.YammerFeedType'
+    name: YammerFeedType
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedFeedData'
+    name: YammerEmbedFeedData
+  - uid: '@ms/sp-publishing-webparts.YammerURLParser'
+    name: YammerURLParser
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedPropertyPane'
+    name: YammerEmbedPropertyPane
+  - uid: '@ms/sp-publishing-webparts.ITestCaseContext'
+    name: ITestCaseContext
+  - uid: '@ms/sp-publishing-webparts.Global'
+    name: Global

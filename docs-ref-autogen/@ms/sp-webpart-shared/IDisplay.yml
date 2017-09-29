@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.IDisplay'
+    name: IDisplay
+    fullName: IDisplay
+    children:
+      - '@ms/sp-webpart-shared.IDisplay.detail'
+      - '@ms/sp-webpart-shared.IDisplay.footer'
+      - '@ms/sp-webpart-shared.IDisplay.heading'
+      - '@ms/sp-webpart-shared.IDisplay.subnote'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.IDisplay.detail'
+    name: detail
+    fullName: detail
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string detail
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IDisplay.footer'
+    name: footer
+    fullName: footer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string footer
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IDisplay.heading'
+    name: heading
+    fullName: heading
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string heading
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IDisplay.subnote'
+    name: subnote
+    fullName: subnote
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string subnote
+      return:
+        type:
+          - string

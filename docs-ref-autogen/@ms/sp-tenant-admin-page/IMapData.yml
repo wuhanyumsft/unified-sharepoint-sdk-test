@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IMapData'
+    name: IMapData
+    fullName: IMapData
+    children:
+      - '@ms/sp-tenant-admin-page.IMapData.features'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IMapData.features'
+    name: features
+    fullName: features
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IRegionData[] features'
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IRegionData[]'

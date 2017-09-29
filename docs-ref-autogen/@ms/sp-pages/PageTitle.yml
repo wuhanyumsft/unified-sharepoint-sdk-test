@@ -1,0 +1,157 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.PageTitle'
+    name: PageTitle
+    fullName: PageTitle
+    children:
+      - '@ms/sp-pages.PageTitle.componentDidMount'
+      - '@ms/sp-pages.PageTitle.componentDidUpdate'
+      - '@ms/sp-pages.PageTitle.componentWillMount'
+      - '@ms/sp-pages.PageTitle.componentWillReceiveProps'
+      - '@ms/sp-pages.PageTitle.componentWillUnmount'
+      - '@ms/sp-pages.PageTitle.onDisplayModeChange'
+      - '@ms/sp-pages.PageTitle.constructor'
+      - '@ms/sp-pages.PageTitle.render'
+      - '@ms/sp-pages.PageTitle.save'
+      - '@ms/sp-pages.PageTitle.shouldComponentUpdate'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.BasePublishingControl<@@ms/sp-pages.IPageTitleProps>'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.PageTitle.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-pages.PageTitle.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function componentDidUpdate(prevProps: IPageTitleProps, prevState:
+        IPageTitleStates)
+      parameters:
+        - id: prevProps
+          type:
+            - '@@ms/sp-pages.IPageTitleProps'
+          description: ''
+        - id: prevState
+          type:
+            - '@@ms/sp-pages.IPageTitleStates'
+          description: ''
+  - uid: '@ms/sp-pages.PageTitle.componentWillMount'
+    name: componentWillMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillMount()
+      parameters: []
+  - uid: '@ms/sp-pages.PageTitle.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: IPageTitleProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-pages.IPageTitleProps'
+          description: ''
+  - uid: '@ms/sp-pages.PageTitle.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-pages.PageTitle.onDisplayModeChange'
+    name: onDisplayModeChange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Switch Header control mode when page mode changes
+    syntax:
+      content: 'function onDisplayModeChange(storesUpdated: string[])'
+      parameters:
+        - id: storesUpdated
+          type:
+            - 'string[]'
+          description: ''
+  - uid: '@ms/sp-pages.PageTitle.constructor'
+    name: PageTitle
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new PageTitle()
+      parameters: []
+  - uid: '@ms/sp-pages.PageTitle.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.PageTitle.save'
+    name: save
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: save fields to PageFieldStore
+    syntax:
+      content: function save()
+      parameters: []
+  - uid: '@ms/sp-pages.PageTitle.shouldComponentUpdate'
+    name: shouldComponentUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function shouldComponentUpdate(nextProps: IPageTitleProps, nextState:
+        IPageTitleStates)
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-pages.IPageTitleProps'
+          description: ''
+        - id: nextState
+          type:
+            - '@@ms/sp-pages.IPageTitleStates'
+          description: ''
+      return:
+        type:
+          - boolean

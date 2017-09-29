@@ -1,0 +1,86 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.SearchDataProvider'
+    name: SearchDataProvider
+    fullName: SearchDataProvider<U>
+    children:
+      - '@ms/sp-dataproviders.SearchDataProvider.id'
+      - '@ms/sp-dataproviders.SearchDataProvider.options'
+      - '@ms/sp-dataproviders.SearchDataProvider.requestData'
+      - '@ms/sp-dataproviders.SearchDataProvider.constructor'
+      - '@ms/sp-dataproviders.SearchDataProvider.title'
+    langs:
+      - typeScript
+    type: class
+    summary: Provides a simple data provider for the SharePoint Search REST API.
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.SearchDataProvider.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.SearchDataProvider.options'
+    name: options
+    fullName: options
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IDataProviderOptions options
+      return:
+        type:
+          - IDataProviderOptions
+  - uid: '@ms/sp-dataproviders.SearchDataProvider.requestData'
+    name: requestData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function requestData(options: ISearchDataProviderOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@@ms/sp-dataproviders.ISearchDataProviderOptions'
+          description: ''
+      return:
+        type:
+          - Promise<function>
+  - uid: '@ms/sp-dataproviders.SearchDataProvider.constructor'
+    name: SearchDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SearchDataProvider(options: IDataProviderOptions)'
+      parameters:
+        - id: options
+          type:
+            - IDataProviderOptions
+          description: ''
+  - uid: '@ms/sp-dataproviders.SearchDataProvider.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

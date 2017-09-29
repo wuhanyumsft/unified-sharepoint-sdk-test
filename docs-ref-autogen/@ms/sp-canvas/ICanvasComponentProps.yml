@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ICanvasComponentProps'
+    name: ICanvasComponentProps
+    fullName: ICanvasComponentProps
+    children:
+      - '@ms/sp-canvas.ICanvasComponentProps.store'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ICanvasComponentProps.store'
+    name: store
+    fullName: store
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CanvasStore store
+      return:
+        type:
+          - '@@ms/sp-canvas.CanvasStore'

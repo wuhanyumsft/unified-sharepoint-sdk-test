@@ -1,0 +1,123 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IItemDisplayProperties'
+    name: IItemDisplayProperties
+    fullName: IItemDisplayProperties
+    children:
+      - '@ms/sp-publishing-webparts.IItemDisplayProperties.edit'
+      - '@ms/sp-publishing-webparts.IItemDisplayProperties.item'
+      - '@ms/sp-publishing-webparts.IItemDisplayProperties.onAdd'
+      - '@ms/sp-publishing-webparts.IItemDisplayProperties.onDelete'
+      - '@ms/sp-publishing-webparts.IItemDisplayProperties.onEdit'
+      - '@ms/sp-publishing-webparts.IItemDisplayProperties.onLoad'
+      - '@ms/sp-publishing-webparts.IItemDisplayProperties.onLoadError'
+      - '@ms/sp-publishing-webparts.IItemDisplayProperties.serviceScope'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IItemDisplayProperties.edit'
+    name: edit
+    fullName: edit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The boolean to be used to identify if it is edit mode
+    syntax:
+      content: boolean edit
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IItemDisplayProperties.item'
+    name: item
+    fullName: item
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The metadata to be persisted about each item
+    syntax:
+      content: IItemProperties item
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IItemProperties'
+  - uid: '@ms/sp-publishing-webparts.IItemDisplayProperties.onAdd'
+    name: onAdd
+    fullName: onAdd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: When add action happens on one item
+    syntax:
+      content: '(index: number, image: IImageProperties) => void onAdd'
+      return:
+        type:
+          - '(index: number, image: IImageProperties) => void'
+  - uid: '@ms/sp-publishing-webparts.IItemDisplayProperties.onDelete'
+    name: onDelete
+    fullName: onDelete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: When delete action happens on one item
+    syntax:
+      content: '(index: number) => void onDelete'
+      return:
+        type:
+          - '(index: number) => void'
+  - uid: '@ms/sp-publishing-webparts.IItemDisplayProperties.onEdit'
+    name: onEdit
+    fullName: onEdit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: When edit action happens on one item
+    syntax:
+      content: '(index: number) => void onEdit'
+      return:
+        type:
+          - '(index: number) => void'
+  - uid: '@ms/sp-publishing-webparts.IItemDisplayProperties.onLoad'
+    name: onLoad
+    fullName: onLoad
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: When default or custom image load happens on one item
+    syntax:
+      content: '(index?: number, isCustomImage?: boolean) => void onLoad'
+      return:
+        type:
+          - '(index?: number, isCustomImage?: boolean) => void'
+  - uid: '@ms/sp-publishing-webparts.IItemDisplayProperties.onLoadError'
+    name: onLoadError
+    fullName: onLoadError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: When default or custom image load error action happens on one item
+    syntax:
+      content: '(index?: number, isCustomImage?: boolean) => void onLoadError'
+      return:
+        type:
+          - '(index?: number, isCustomImage?: boolean) => void'
+  - uid: '@ms/sp-publishing-webparts.IItemDisplayProperties.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The service scope
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope

@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IDirectory'
+    name: IDirectory
+    fullName: IDirectory
+    children:
+      - '@ms/sp-publishing-webparts.IDirectory.groups'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IDirectory.groups'
+    name: groups
+    fullName: groups
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IGroup[] groups'
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IGroup[]'

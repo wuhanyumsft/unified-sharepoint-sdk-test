@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.SPRteCKEditorConfiguration'
+    name: SPRteCKEditorConfiguration
+    fullName: SPRteCKEditorConfiguration
+    children:
+      - '@ms/sp-canvas.SPRteCKEditorConfiguration.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Static class for SPRte configuratoion
+
+      Note: We assume all RTE instances share the same configuration by design
+
+      Should this change in the future, we'll need to change this to non-static
+      design
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.SPRteCKEditorConfiguration.constructor'
+    name: SPRteCKEditorConfiguration
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new SPRteCKEditorConfiguration()
+      parameters: []

@@ -1,0 +1,149 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.Log'
+    name: Log
+    fullName: Log
+    children:
+      - '@microsoft/sp-core-library.Log.error'
+      - '@microsoft/sp-core-library.Log.info'
+      - '@microsoft/sp-core-library.Log.verbose'
+      - '@microsoft/sp-core-library.Log.warn'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      The Log class provides static methods for logging messages at different
+      levels (verbose,
+
+      info, warning, error) and with context information. Context information
+      helps identify
+
+      which component generated the messages and makes the messages useful and
+      filterable.
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.Log.error'
+    name: error
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Logs an error
+    syntax:
+      content: >-
+        static function error(source: string, error: Error, scope?:
+        ServiceScope)
+      parameters:
+        - id: source
+          type:
+            - string
+          description: |-
+            the source from where the error is logged, e.g., the class name.
+                     The source provides context information for the logged error.
+                     If the source's length is more than 20, only the first 20 characters are kept.
+        - id: error
+          type:
+            - Error
+          description: the error to be logged
+        - id: scope
+          type:
+            - '@@microsoft/sp-core-library.ServiceScope'
+          description: |
+            the service scope that the source uses. A service scope can provide
+                    more context information (e.g., web part information) to the logged error.
+          optional: true
+  - uid: '@microsoft/sp-core-library.Log.info'
+    name: info
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Logs an informational message
+    syntax:
+      content: >-
+        static function info(source: string, message: string, scope?:
+        ServiceScope)
+      parameters:
+        - id: source
+          type:
+            - string
+          description: |-
+            the source from where the message is logged, e.g., the class name.
+                     The source provides context information for the logged message.
+                     If the source's length is more than 20, only the first 20 characters are kept.
+        - id: message
+          type:
+            - string
+          description: |-
+            the message to be logged
+                     If the message's length is more than 100, only the first 100 characters are kept.
+        - id: scope
+          type:
+            - '@@microsoft/sp-core-library.ServiceScope'
+          description: |
+            the service scope that the source uses. A service scope can provide
+                    more context information (e.g., web part information) to the logged message.
+          optional: true
+  - uid: '@microsoft/sp-core-library.Log.verbose'
+    name: verbose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Logs a verbose message
+    syntax:
+      content: >-
+        static function verbose(source: string, message: string, scope?:
+        ServiceScope)
+      parameters:
+        - id: source
+          type:
+            - string
+          description: |-
+            the source from where the message is logged, e.g., the class name.
+                     The source provides context information for the logged message.
+                     If the source's length is more than 20, only the first 20 characters are kept.
+        - id: message
+          type:
+            - string
+          description: |-
+            the message to be logged
+                     If the message's length is more than 100, only the first 100 characters are kept.
+        - id: scope
+          type:
+            - '@@microsoft/sp-core-library.ServiceScope'
+          description: |
+            the service scope that the source uses. A service scope can provide
+                    more context information (e.g., web part information) to the logged message.
+          optional: true
+  - uid: '@microsoft/sp-core-library.Log.warn'
+    name: warn
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Logs a warning
+    syntax:
+      content: >-
+        static function warn(source: string, message: string, scope?:
+        ServiceScope)
+      parameters:
+        - id: source
+          type:
+            - string
+          description: |-
+            the source from where the message is logged, e.g., the class name.
+                     The source provides context information for the logged message.
+                     If the source's length is more than 20, only the first 20 characters are kept.
+        - id: message
+          type:
+            - string
+          description: |-
+            the message to be logged
+                     If the message's length is more than 100, only the first 100 characters are kept.
+        - id: scope
+          type:
+            - '@@microsoft/sp-core-library.ServiceScope'
+          description: |
+            the service scope that the source uses. A service scope can provide
+                    more context information (e.g., web part information) to the logged message.
+          optional: true

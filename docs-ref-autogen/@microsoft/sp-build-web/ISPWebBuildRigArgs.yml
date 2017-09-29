@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-web.ISPWebBuildRigArgs'
+    name: ISPWebBuildRigArgs
+    fullName: ISPWebBuildRigArgs
+    children:
+      - '@microsoft/sp-build-web.ISPWebBuildRigArgs.debug'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@microsoft/sp-build-web'
+  - uid: '@microsoft/sp-build-web.ISPWebBuildRigArgs.debug'
+    name: debug
+    fullName: debug
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean debug
+      return:
+        type:
+          - boolean

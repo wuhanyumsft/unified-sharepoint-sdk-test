@@ -1,0 +1,104 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ControlZone'
+    name: ControlZone
+    fullName: ControlZone
+    children:
+      - '@ms/sp-canvas.ControlZone.componentDidMount'
+      - '@ms/sp-canvas.ControlZone.componentDidUpdate'
+      - '@ms/sp-canvas.ControlZone.context'
+      - '@ms/sp-canvas.ControlZone.constructor'
+      - '@ms/sp-canvas.ControlZone.render'
+      - '@ms/sp-canvas.ControlZone.shouldComponentUpdate'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-canvas.ControlZone<@@ms/sp-canvas.IControlZoneProps>'
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ControlZone.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-canvas.ControlZone.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentDidUpdate(prevProps: IControlZoneProps)'
+      parameters:
+        - id: prevProps
+          type:
+            - '@@ms/sp-canvas.IControlZoneProps'
+          description: ''
+  - uid: '@ms/sp-canvas.ControlZone.context'
+    name: context
+    fullName: context
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ICanvasContext context
+      return:
+        type:
+          - '@@ms/sp-canvas.ICanvasContext'
+  - uid: '@ms/sp-canvas.ControlZone.constructor'
+    name: ControlZone
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ControlZone(props: IControlZoneProps, context: ICanvasContext)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-canvas.IControlZoneProps'
+          description: ''
+        - id: context
+          type:
+            - '@@ms/sp-canvas.ICanvasContext'
+          description: ''
+  - uid: '@ms/sp-canvas.ControlZone.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@ms/sp-canvas.IControlZoneProps>
+  - uid: '@ms/sp-canvas.ControlZone.shouldComponentUpdate'
+    name: shouldComponentUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function shouldComponentUpdate(nextProps: IControlZoneProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-canvas.IControlZoneProps'
+          description: ''
+      return:
+        type:
+          - boolean

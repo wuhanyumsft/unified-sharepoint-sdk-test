@@ -1,0 +1,162 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel'
+    name: SitePermissionPanel
+    fullName: SitePermissionPanel
+    children:
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.AddTaskDismissSitePermissionPanel
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.AddTaskLaunchSitePermissionPanelDirectly
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.AddTaskLaunchSitePermissionPanelFromSuiteNav
+      - '@ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.ClickInviteButton'
+      - '@ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.DismissContextMenu'
+      - '@ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.GetContextMenuItems'
+      - '@ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.GetElementTextContent'
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.GetSitePermissionBodyItemButtons
+      - '@ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.GetSitePermissionBodys'
+      - '@ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.WaitForPanel'
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.WaitForSitePermissionBody
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: >-
+      @ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.AddTaskDismissSitePermissionPanel
+    name: AddTaskDismissSitePermissionPanel
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function AddTaskDismissSitePermissionPanel()
+      parameters: []
+  - uid: >-
+      @ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.AddTaskLaunchSitePermissionPanelDirectly
+    name: AddTaskLaunchSitePermissionPanelDirectly
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function AddTaskLaunchSitePermissionPanelDirectly()
+      parameters: []
+  - uid: >-
+      @ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.AddTaskLaunchSitePermissionPanelFromSuiteNav
+    name: AddTaskLaunchSitePermissionPanelFromSuiteNav
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function AddTaskLaunchSitePermissionPanelFromSuiteNav()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.ClickInviteButton'
+    name: ClickInviteButton
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function ClickInviteButton()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.DismissContextMenu'
+    name: DismissContextMenu
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function DismissContextMenu()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.GetContextMenuItems'
+    name: GetContextMenuItems
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function GetContextMenuItems()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.GetElementTextContent'
+    name: GetElementTextContent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function GetElementTextContent(targetDataAutomationId?: string,
+        targetClassName?: string)
+      parameters:
+        - id: targetDataAutomationId
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: targetClassName
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+  - uid: >-
+      @ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.GetSitePermissionBodyItemButtons
+    name: GetSitePermissionBodyItemButtons
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function GetSitePermissionBodyItemButtons()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.GetSitePermissionBodys'
+    name: GetSitePermissionBodys
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function GetSitePermissionBodys()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.WaitForPanel'
+    name: WaitForPanel
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function WaitForPanel()
+      parameters: []
+      return:
+        type:
+          - Waiter
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.SitePermissionPanel.WaitForSitePermissionBody'
+    name: WaitForSitePermissionBody
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function WaitForSitePermissionBody()
+      parameters: []
+      return:
+        type:
+          - Waiter

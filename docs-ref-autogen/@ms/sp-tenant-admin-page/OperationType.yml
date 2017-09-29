@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.OperationType'
+    name: OperationType
+    fullName: OperationType
+    children:
+      - '@ms/sp-tenant-admin-page.OperationType.SiteCreation'
+      - '@ms/sp-tenant-admin-page.OperationType.UpdateO365RelatedColumnsData'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.OperationType.SiteCreation'
+    name: SiteCreation
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-tenant-admin-page.OperationType.UpdateO365RelatedColumnsData'
+    name: UpdateO365RelatedColumnsData
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

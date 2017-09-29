@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.IJsonToJsTaskConfig'
+    name: IJsonToJsTaskConfig
+    fullName: IJsonToJsTaskConfig
+    children:
+      - '@ms/sp-build-internal-tasks.IJsonToJsTaskConfig.defaultCulture'
+      - '@ms/sp-build-internal-tasks.IJsonToJsTaskConfig.outDir'
+      - '@ms/sp-build-internal-tasks.IJsonToJsTaskConfig.srcDir'
+    langs:
+      - typeScript
+    type: interface
+    summary: Configuration for the task which converts a JSON object to an AMD module
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.IJsonToJsTaskConfig.defaultCulture'
+    name: defaultCulture
+    fullName: defaultCulture
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Default culture JSON file for fallback strings
+    syntax:
+      content: string defaultCulture
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.IJsonToJsTaskConfig.outDir'
+    name: outDir
+    fullName: outDir
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The folder to write the compiled modules
+    syntax:
+      content: string outDir
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.IJsonToJsTaskConfig.srcDir'
+    name: srcDir
+    fullName: srcDir
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The folders containing the JSON files
+    syntax:
+      content: 'string[] srcDir'
+      return:
+        type:
+          - 'string[]'

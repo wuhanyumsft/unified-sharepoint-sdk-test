@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.AutoSaveTimer'
+    name: AutoSaveTimer
+    fullName: AutoSaveTimer
+    children:
+      - '@ms/sp-pages.AutoSaveTimer.constructor'
+      - '@ms/sp-pages.AutoSaveTimer.clearAutoSaveTimer'
+      - '@ms/sp-pages.AutoSaveTimer.pageContentChanged'
+      - '@ms/sp-pages.AutoSaveTimer.resetAutoSaveAttempts'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.AutoSaveTimer.constructor'
+    name: AutoSaveTimer
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new AutoSaveTimer(parentPageManager: PageManager)'
+      parameters:
+        - id: parentPageManager
+          type:
+            - '@@ms/sp-pages.PageManager'
+          description: ''
+  - uid: '@ms/sp-pages.AutoSaveTimer.clearAutoSaveTimer'
+    name: clearAutoSaveTimer
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clearAutoSaveTimer()
+      parameters: []
+  - uid: '@ms/sp-pages.AutoSaveTimer.pageContentChanged'
+    name: pageContentChanged
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function pageContentChanged()
+      parameters: []
+  - uid: '@ms/sp-pages.AutoSaveTimer.resetAutoSaveAttempts'
+    name: resetAutoSaveAttempts
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function resetAutoSaveAttempts()
+      parameters: []

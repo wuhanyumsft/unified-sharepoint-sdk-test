@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ILocationResource'
+    name: ILocationResource
+    fullName: ILocationResource
+    children:
+      - '@ms/sp-pages.ILocationResource.mapCenter'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ILocationResource.mapCenter'
+    name: mapCenter
+    fullName: mapCenter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function mapCenter
+      return:
+        type:
+          - function

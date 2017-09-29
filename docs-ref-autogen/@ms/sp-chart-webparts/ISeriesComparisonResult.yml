@@ -1,0 +1,123 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-chart-webparts.ISeriesComparisonResult'
+    name: ISeriesComparisonResult
+    fullName: ISeriesComparisonResult
+    children:
+      - '@ms/sp-chart-webparts.ISeriesComparisonResult.isAddingSingleValue'
+      - '@ms/sp-chart-webparts.ISeriesComparisonResult.isRemovingSingleValue'
+      - '@ms/sp-chart-webparts.ISeriesComparisonResult.isSameStructure'
+      - '@ms/sp-chart-webparts.ISeriesComparisonResult.newSeries'
+      - '@ms/sp-chart-webparts.ISeriesComparisonResult.numberOfPointsModified'
+      - '@ms/sp-chart-webparts.ISeriesComparisonResult.prevSeries'
+      - '@ms/sp-chart-webparts.ISeriesComparisonResult.updatingPointIndex'
+      - '@ms/sp-chart-webparts.ISeriesComparisonResult.updatingSeriesIndex'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-chart-webparts'
+  - uid: '@ms/sp-chart-webparts.ISeriesComparisonResult.isAddingSingleValue'
+    name: isAddingSingleValue
+    fullName: isAddingSingleValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isAddingSingleValue
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-chart-webparts.ISeriesComparisonResult.isRemovingSingleValue'
+    name: isRemovingSingleValue
+    fullName: isRemovingSingleValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isRemovingSingleValue
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-chart-webparts.ISeriesComparisonResult.isSameStructure'
+    name: isSameStructure
+    fullName: isSameStructure
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSameStructure
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-chart-webparts.ISeriesComparisonResult.newSeries'
+    name: newSeries
+    fullName: newSeries
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'SeriesOptions[] newSeries'
+      return:
+        type:
+          - 'SeriesOptions[]'
+  - uid: '@ms/sp-chart-webparts.ISeriesComparisonResult.numberOfPointsModified'
+    name: numberOfPointsModified
+    fullName: numberOfPointsModified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number numberOfPointsModified
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-chart-webparts.ISeriesComparisonResult.prevSeries'
+    name: prevSeries
+    fullName: prevSeries
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'SeriesOptions[] prevSeries'
+      return:
+        type:
+          - 'SeriesOptions[]'
+  - uid: '@ms/sp-chart-webparts.ISeriesComparisonResult.updatingPointIndex'
+    name: updatingPointIndex
+    fullName: updatingPointIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number updatingPointIndex
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-chart-webparts.ISeriesComparisonResult.updatingSeriesIndex'
+    name: updatingSeriesIndex
+    fullName: updatingSeriesIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number updatingSeriesIndex
+      return:
+        type:
+          - number

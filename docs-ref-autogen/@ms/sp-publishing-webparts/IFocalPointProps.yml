@@ -1,0 +1,97 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IFocalPointProps'
+    name: IFocalPointProps
+    fullName: IFocalPointProps
+    children:
+      - '@ms/sp-publishing-webparts.IFocalPointProps.focalPointEnd'
+      - '@ms/sp-publishing-webparts.IFocalPointProps.focalPointMove'
+      - '@ms/sp-publishing-webparts.IFocalPointProps.focalPointStart'
+      - '@ms/sp-publishing-webparts.IFocalPointProps.focalX'
+      - '@ms/sp-publishing-webparts.IFocalPointProps.focalY'
+      - '@ms/sp-publishing-webparts.IFocalPointProps.isSettingFocalPoint'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IFocalPointProps.focalPointEnd'
+    name: focalPointEnd
+    fullName: focalPointEnd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void focalPointEnd
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-publishing-webparts.IFocalPointProps.focalPointMove'
+    name: focalPointMove
+    fullName: focalPointMove
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(x: number, y: number) => void focalPointMove'
+      return:
+        type:
+          - '(x: number, y: number) => void'
+  - uid: '@ms/sp-publishing-webparts.IFocalPointProps.focalPointStart'
+    name: focalPointStart
+    fullName: focalPointStart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void focalPointStart
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-publishing-webparts.IFocalPointProps.focalX'
+    name: focalX
+    fullName: focalX
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number focalX
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IFocalPointProps.focalY'
+    name: focalY
+    fullName: focalY
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number focalY
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IFocalPointProps.isSettingFocalPoint'
+    name: isSettingFocalPoint
+    fullName: isSettingFocalPoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSettingFocalPoint
+      return:
+        type:
+          - boolean

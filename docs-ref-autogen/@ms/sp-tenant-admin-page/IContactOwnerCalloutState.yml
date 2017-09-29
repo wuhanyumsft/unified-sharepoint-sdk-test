@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IContactOwnerCalloutState'
+    name: IContactOwnerCalloutState
+    fullName: IContactOwnerCalloutState
+    children:
+      - >-
+        @ms/sp-tenant-admin-page.IContactOwnerCalloutState.isRequiredFieldsFilled
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IContactOwnerCalloutState.isRequiredFieldsFilled'
+    name: isRequiredFieldsFilled
+    fullName: isRequiredFieldsFilled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isRequiredFieldsFilled
+      return:
+        type:
+          - boolean

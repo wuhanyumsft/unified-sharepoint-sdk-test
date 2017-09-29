@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.ITodoComponentProps'
+    name: ITodoComponentProps
+    fullName: ITodoComponentProps
+    children:
+      - '@ms/sp-client-projects.ITodoComponentProps.listTitle'
+      - '@ms/sp-client-projects.ITodoComponentProps.placeHolderText'
+      - '@ms/sp-client-projects.ITodoComponentProps.store'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.ITodoComponentProps.listTitle'
+    name: listTitle
+    fullName: listTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string listTitle
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.ITodoComponentProps.placeHolderText'
+    name: placeHolderText
+    fullName: placeHolderText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string placeHolderText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.ITodoComponentProps.store'
+    name: store
+    fullName: store
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ITodoWebPartStore store
+      return:
+        type:
+          - '@@ms/sp-client-projects.ITodoWebPartStore'

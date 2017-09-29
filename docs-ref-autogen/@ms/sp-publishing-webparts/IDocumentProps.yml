@@ -1,0 +1,307 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps'
+    name: IDocumentProps
+    fullName: IDocumentProps
+    children:
+      - '@ms/sp-publishing-webparts.IDocumentProps.annotation'
+      - '@ms/sp-publishing-webparts.IDocumentProps.authorName'
+      - '@ms/sp-publishing-webparts.IDocumentProps.authorPhotoUrl'
+      - '@ms/sp-publishing-webparts.IDocumentProps.canOpenPopupOnRender'
+      - '@ms/sp-publishing-webparts.IDocumentProps.edit'
+      - '@ms/sp-publishing-webparts.IDocumentProps.isDocumentSelected'
+      - '@ms/sp-publishing-webparts.IDocumentProps.modifiedAt'
+      - '@ms/sp-publishing-webparts.IDocumentProps.onSelect'
+      - '@ms/sp-publishing-webparts.IDocumentProps.renderCompleted'
+      - '@ms/sp-publishing-webparts.IDocumentProps.renderedFromPersistedData'
+      - '@ms/sp-publishing-webparts.IDocumentProps.serverRelativeUrl'
+      - '@ms/sp-publishing-webparts.IDocumentProps.serviceScope'
+      - '@ms/sp-publishing-webparts.IDocumentProps.shouldGetPrefetchedRecentsData'
+      - '@ms/sp-publishing-webparts.IDocumentProps.showPlaceHolder'
+      - '@ms/sp-publishing-webparts.IDocumentProps.statusRender'
+      - '@ms/sp-publishing-webparts.IDocumentProps.statusRenderElement'
+      - '@ms/sp-publishing-webparts.IDocumentProps.title'
+      - '@ms/sp-publishing-webparts.IDocumentProps.uploadProgressMessage'
+      - '@ms/sp-publishing-webparts.IDocumentProps.webAbsoluteUrl'
+      - '@ms/sp-publishing-webparts.IDocumentProps.width'
+      - '@ms/sp-publishing-webparts.IDocumentProps.wopiurl'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-publishing-webparts.IDocumentEmbedWebPartProperties'
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.annotation'
+    name: annotation
+    fullName: annotation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string annotation
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.authorName'
+    name: authorName
+    fullName: authorName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string authorName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.authorPhotoUrl'
+    name: authorPhotoUrl
+    fullName: authorPhotoUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string authorPhotoUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.canOpenPopupOnRender'
+    name: canOpenPopupOnRender
+    fullName: canOpenPopupOnRender
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean canOpenPopupOnRender
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.edit'
+    name: edit
+    fullName: edit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean edit
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.isDocumentSelected'
+    name: isDocumentSelected
+    fullName: isDocumentSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isDocumentSelected
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.modifiedAt'
+    name: modifiedAt
+    fullName: modifiedAt
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string modifiedAt
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.onSelect'
+    name: onSelect
+    fullName: onSelect
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(success: IFilePickerResponse) => void onSelect'
+      return:
+        type:
+          - '(success: IFilePickerResponse) => void'
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.renderCompleted'
+    name: renderCompleted
+    fullName: renderCompleted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void renderCompleted
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.renderedFromPersistedData'
+    name: renderedFromPersistedData
+    fullName: renderedFromPersistedData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean renderedFromPersistedData
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.serverRelativeUrl'
+    name: serverRelativeUrl
+    fullName: serverRelativeUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string serverRelativeUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.shouldGetPrefetchedRecentsData'
+    name: shouldGetPrefetchedRecentsData
+    fullName: shouldGetPrefetchedRecentsData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean shouldGetPrefetchedRecentsData
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.showPlaceHolder'
+    name: showPlaceHolder
+    fullName: showPlaceHolder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showPlaceHolder
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.statusRender'
+    name: statusRender
+    fullName: statusRender
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IClientSideWebPartStatusRenderer statusRender
+      return:
+        type:
+          - IClientSideWebPartStatusRenderer
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.statusRenderElement'
+    name: statusRenderElement
+    fullName: statusRenderElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement statusRenderElement
+      return:
+        type:
+          - HTMLElement
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.uploadProgressMessage'
+    name: uploadProgressMessage
+    fullName: uploadProgressMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string uploadProgressMessage
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.webAbsoluteUrl'
+    name: webAbsoluteUrl
+    fullName: webAbsoluteUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webAbsoluteUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number width
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IDocumentProps.wopiurl'
+    name: wopiurl
+    fullName: wopiurl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string wopiurl
+      return:
+        type:
+          - string

@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-shared.QoSMonitorMock'
+    name: QoSMonitorMock
+    fullName: QoSMonitorMock
+    children:
+      - '@ms/sp-client-shared.QoSMonitorMock.writeExpectedFailure'
+      - '@ms/sp-client-shared.QoSMonitorMock.writeSuccess'
+      - '@ms/sp-client-shared.QoSMonitorMock.writeUnexpectedFailure'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-client-shared'
+  - uid: '@ms/sp-client-shared.QoSMonitorMock.writeExpectedFailure'
+    name: writeExpectedFailure
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function writeExpectedFailure(tagName?: string, ex?: Error)'
+      parameters:
+        - id: tagName
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: ex
+          type:
+            - Error
+          description: ''
+          optional: true
+  - uid: '@ms/sp-client-shared.QoSMonitorMock.writeSuccess'
+    name: writeSuccess
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function writeSuccess()
+      parameters: []
+  - uid: '@ms/sp-client-shared.QoSMonitorMock.writeUnexpectedFailure'
+    name: writeUnexpectedFailure
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function writeUnexpectedFailure(tagName?: string, ex?: Error)'
+      parameters:
+        - id: tagName
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: ex
+          type:
+            - Error
+          description: ''
+          optional: true

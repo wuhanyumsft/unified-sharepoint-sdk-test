@@ -1,0 +1,120 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.FeaturedNewsLayout'
+    name: FeaturedNewsLayout
+    fullName: FeaturedNewsLayout
+    children:
+      - '@ms/sp-component-layouts.FeaturedNewsLayout.componentDidMount'
+      - '@ms/sp-component-layouts.FeaturedNewsLayout.componentWillMount'
+      - '@ms/sp-component-layouts.FeaturedNewsLayout.componentWillReceiveProps'
+      - '@ms/sp-component-layouts.FeaturedNewsLayout.componentWillUnmount'
+      - '@ms/sp-component-layouts.FeaturedNewsLayout.componentWillUpdate'
+      - '@ms/sp-component-layouts.FeaturedNewsLayout.constructor'
+      - '@ms/sp-component-layouts.FeaturedNewsLayout.getCurrentBreakpoint'
+      - '@ms/sp-component-layouts.FeaturedNewsLayout.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-component-layouts.FeaturedNewsLayout<@@ms/sp-component-layouts.INewsLayoutProperties>
+    package: '@ms/sp-component-layouts'
+  - uid: '@ms/sp-component-layouts.FeaturedNewsLayout.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-component-layouts.FeaturedNewsLayout.componentWillMount'
+    name: componentWillMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillMount()
+      parameters: []
+  - uid: '@ms/sp-component-layouts.FeaturedNewsLayout.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: INewsLayoutProperties)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-component-layouts.INewsLayoutProperties'
+          description: ''
+  - uid: '@ms/sp-component-layouts.FeaturedNewsLayout.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-component-layouts.FeaturedNewsLayout.componentWillUpdate'
+    name: componentWillUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillUpdate(nextProps: INewsLayoutProperties)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-component-layouts.INewsLayoutProperties'
+          description: ''
+  - uid: '@ms/sp-component-layouts.FeaturedNewsLayout.constructor'
+    name: FeaturedNewsLayout
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new FeaturedNewsLayout(props: INewsLayoutProperties)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-component-layouts.INewsLayoutProperties'
+          description: ''
+  - uid: '@ms/sp-component-layouts.FeaturedNewsLayout.getCurrentBreakpoint'
+    name: getCurrentBreakpoint
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCurrentBreakpoint()
+      parameters: []
+      return:
+        type:
+          - BREAKPOINT_SIZE
+  - uid: '@ms/sp-component-layouts.FeaturedNewsLayout.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

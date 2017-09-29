@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.YammerPropertyPane'
+    name: YammerPropertyPane
+    fullName: YammerPropertyPane
+    children:
+      - '@ms/sp-publishing-webparts.YammerPropertyPane.getSettings'
+      - '@ms/sp-publishing-webparts.YammerPropertyPane.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.YammerPropertyPane.getSettings'
+    name: getSettings
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getSettings()
+      parameters: []
+      return:
+        type:
+          - IPropertyPaneConfiguration
+  - uid: '@ms/sp-publishing-webparts.YammerPropertyPane.constructor'
+    name: YammerPropertyPane
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new YammerPropertyPane(properties: IYammerWebPartProps)'
+      parameters:
+        - id: properties
+          type:
+            - '@@ms/sp-publishing-webparts.IYammerWebPartProps'
+          description: ''

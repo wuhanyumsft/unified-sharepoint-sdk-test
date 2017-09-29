@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IControlMap'
+    name: IControlMap
+    fullName: IControlMap
+    children:
+      - '@ms/sp-pages.IControlMap.Gridsize'
+      - '@ms/sp-pages.IControlMap.PostType'
+      - '@ms/sp-pages.IControlMap.Rows'
+      - '@ms/sp-pages.IControlMap.SubTitle'
+      - '@ms/sp-pages.IControlMap.ThumbnailSource'
+      - '@ms/sp-pages.IControlMap.Title'
+      - '@ms/sp-pages.IControlMap.Version'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IControlMap.Gridsize'
+    name: Gridsize
+    fullName: Gridsize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number Gridsize
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.IControlMap.PostType'
+    name: PostType
+    fullName: PostType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number PostType
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.IControlMap.Rows'
+    name: Rows
+    fullName: Rows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IControlMapRow[] Rows'
+      return:
+        type:
+          - '@@ms/sp-pages.IControlMapRow[]'
+  - uid: '@ms/sp-pages.IControlMap.SubTitle'
+    name: SubTitle
+    fullName: SubTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string SubTitle
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IControlMap.ThumbnailSource'
+    name: ThumbnailSource
+    fullName: ThumbnailSource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ThumbnailSource
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IControlMap.Title'
+    name: Title
+    fullName: Title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IControlMap.Version'
+    name: Version
+    fullName: Version
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Version
+      return:
+        type:
+          - string

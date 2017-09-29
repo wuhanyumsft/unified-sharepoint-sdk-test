@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/listview-spfx-host.RowWrapper'
+    name: RowWrapper
+    fullName: RowWrapper
+    children:
+      - '@ms/listview-spfx-host.RowWrapper.getValue'
+      - '@ms/listview-spfx-host.RowWrapper.getValueByName'
+      - '@ms/listview-spfx-host.RowWrapper.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/listview-spfx-host.RowWrapper'
+    package: '@ms/listview-spfx-host'
+  - uid: '@ms/listview-spfx-host.RowWrapper.getValue'
+    name: getValue
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getValue(field: SPField)'
+      parameters:
+        - id: field
+          type:
+            - SPField
+          description: ''
+      return:
+        type:
+          - any
+  - uid: '@ms/listview-spfx-host.RowWrapper.getValueByName'
+    name: getValueByName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getValueByName(internalName: string)'
+      parameters:
+        - id: internalName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - any
+  - uid: '@ms/listview-spfx-host.RowWrapper.constructor'
+    name: RowWrapper
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new RowWrapper(adapter: RowAdapter)'
+      parameters:
+        - id: adapter
+          type:
+            - '@@ms/listview-spfx-host.RowAdapter'
+          description: ''

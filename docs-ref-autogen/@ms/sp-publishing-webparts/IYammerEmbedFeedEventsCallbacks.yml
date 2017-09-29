@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IYammerEmbedFeedEventsCallbacks'
+    name: IYammerEmbedFeedEventsCallbacks
+    fullName: IYammerEmbedFeedEventsCallbacks
+    children:
+      - '@ms/sp-publishing-webparts.IYammerEmbedFeedEventsCallbacks.onError'
+      - '@ms/sp-publishing-webparts.IYammerEmbedFeedEventsCallbacks.onFeedLoaded'
+      - >-
+        @ms/sp-publishing-webparts.IYammerEmbedFeedEventsCallbacks.onUserLoggedIn
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IYammerEmbedFeedEventsCallbacks.onError'
+    name: onError
+    fullName: onError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onError
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-publishing-webparts.IYammerEmbedFeedEventsCallbacks.onFeedLoaded'
+    name: onFeedLoaded
+    fullName: onFeedLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onFeedLoaded
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-publishing-webparts.IYammerEmbedFeedEventsCallbacks.onUserLoggedIn'
+    name: onUserLoggedIn
+    fullName: onUserLoggedIn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onUserLoggedIn
+      return:
+        type:
+          - () => void

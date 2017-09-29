@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.Csom'
+    name: Csom
+    fullName: Csom
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.Csom.AddTask'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.Csom.AddTask'
+    name: AddTask
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Adds a CSOM call to the TAB task queue with the correct waiter.
+      The context object returned by getContextObject should be ready for an
+      immediate call to executeQueryAsync(onSuccess, onError).
+      If getContextObject returns null, the task will be cancelled.
+    syntax:
+      content: >-
+        static function AddTask(getContextObject: () => any, onSuccess?:
+        function, onError?: function)
+      parameters:
+        - id: getContextObject
+          type:
+            - () => any
+          description: ''
+        - id: onSuccess
+          type:
+            - function
+          description: ''
+          optional: true
+        - id: onError
+          type:
+            - function
+          description: ''
+          optional: true

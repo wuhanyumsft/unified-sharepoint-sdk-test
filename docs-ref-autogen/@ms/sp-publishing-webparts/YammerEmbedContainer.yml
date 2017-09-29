@@ -1,0 +1,137 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedContainer'
+    name: YammerEmbedContainer
+    fullName: YammerEmbedContainer
+    children:
+      - '@ms/sp-publishing-webparts.YammerEmbedContainer.componentDidMount'
+      - '@ms/sp-publishing-webparts.YammerEmbedContainer.componentDidUpdate'
+      - '@ms/sp-publishing-webparts.YammerEmbedContainer.componentWillUnmount'
+      - '@ms/sp-publishing-webparts.YammerEmbedContainer.getScreenReaderMessage'
+      - '@ms/sp-publishing-webparts.YammerEmbedContainer.render'
+      - '@ms/sp-publishing-webparts.YammerEmbedContainer.shouldComponentUpdate'
+      - '@ms/sp-publishing-webparts.YammerEmbedContainer.showPropertyPane'
+      - '@ms/sp-publishing-webparts.YammerEmbedContainer.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.YammerEmbedContainer<@@ms/sp-publishing-webparts.IYammerEmbedContainerProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedContainer.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedContainer.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedContainer.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedContainer.getScreenReaderMessage'
+    name: getScreenReaderMessage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      If feed URL is specified will return an accessible label describing feed
+      type.
+    syntax:
+      content: 'function getScreenReaderMessage(feedUrl: string)'
+      parameters:
+        - id: feedUrl
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedContainer.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedContainer.shouldComponentUpdate'
+    name: shouldComponentUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function shouldComponentUpdate(nextProps: IYammerEmbedContainerProps,
+        nextState: IYammerEmbedContainerState)
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-publishing-webparts.IYammerEmbedContainerProps'
+          description: ''
+        - id: nextState
+          type:
+            - '@@ms/sp-publishing-webparts.IYammerEmbedContainerState'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedContainer.showPropertyPane'
+    name: showPropertyPane
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function showPropertyPane()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedContainer.constructor'
+    name: YammerEmbedContainer
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new YammerEmbedContainer(props: IYammerEmbedContainerProps, state:
+        __type)
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IYammerEmbedContainerProps'
+          description: ''
+        - id: state
+          type:
+            - __type
+          description: ''

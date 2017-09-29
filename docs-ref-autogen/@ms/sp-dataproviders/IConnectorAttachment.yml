@@ -1,0 +1,165 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IConnectorAttachment'
+    name: IConnectorAttachment
+    fullName: IConnectorAttachment
+    children:
+      - '@ms/sp-dataproviders.IConnectorAttachment.@odata.id'
+      - '@ms/sp-dataproviders.IConnectorAttachment.@odata.type'
+      - '@ms/sp-dataproviders.IConnectorAttachment.ContentBytes'
+      - '@ms/sp-dataproviders.IConnectorAttachment.ContentId'
+      - '@ms/sp-dataproviders.IConnectorAttachment.ContentLocation'
+      - '@ms/sp-dataproviders.IConnectorAttachment.ContentType'
+      - '@ms/sp-dataproviders.IConnectorAttachment.Id'
+      - '@ms/sp-dataproviders.IConnectorAttachment.IsInline'
+      - '@ms/sp-dataproviders.IConnectorAttachment.LastModifiedDateTime'
+      - '@ms/sp-dataproviders.IConnectorAttachment.Name'
+      - '@ms/sp-dataproviders.IConnectorAttachment.Size'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IConnectorAttachment.@odata.id'
+    name: '@odata.id'
+    fullName: '@odata.id'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string @odata.id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IConnectorAttachment.@odata.type'
+    name: '@odata.type'
+    fullName: '@odata.type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string @odata.type
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IConnectorAttachment.ContentBytes'
+    name: ContentBytes
+    fullName: ContentBytes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ContentBytes
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IConnectorAttachment.ContentId'
+    name: ContentId
+    fullName: ContentId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ContentId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IConnectorAttachment.ContentLocation'
+    name: ContentLocation
+    fullName: ContentLocation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ContentLocation
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IConnectorAttachment.ContentType'
+    name: ContentType
+    fullName: ContentType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ContentType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IConnectorAttachment.Id'
+    name: Id
+    fullName: Id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IConnectorAttachment.IsInline'
+    name: IsInline
+    fullName: IsInline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean IsInline
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IConnectorAttachment.LastModifiedDateTime'
+    name: LastModifiedDateTime
+    fullName: LastModifiedDateTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Date LastModifiedDateTime
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-dataproviders.IConnectorAttachment.Name'
+    name: Name
+    fullName: Name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Name
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IConnectorAttachment.Size'
+    name: Size
+    fullName: Size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number Size
+      return:
+        type:
+          - number

@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.FilePicker'
+    name: FilePicker
+    fullName: FilePicker
+    children:
+      - '@ms/sp-filepicker.FilePicker.fetchData'
+      - '@ms/sp-filepicker.FilePicker.constructor'
+      - '@ms/sp-filepicker.FilePicker.initialize'
+      - '@ms/sp-filepicker.FilePicker.open'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.FilePicker.fetchData'
+    name: fetchData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function fetchData()
+      parameters: []
+      return:
+        type:
+          - Promise<IRecentItemsResponse>
+  - uid: '@ms/sp-filepicker.FilePicker.constructor'
+    name: FilePicker
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new FilePicker(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+  - uid: '@ms/sp-filepicker.FilePicker.initialize'
+    name: initialize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function initialize(webPartFilePickerData: IFilePickerData)'
+      parameters:
+        - id: webPartFilePickerData
+          type:
+            - IFilePickerData
+          description: ''
+  - uid: '@ms/sp-filepicker.FilePicker.open'
+    name: open
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function open()
+      parameters: []

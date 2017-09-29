@@ -1,0 +1,99 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.PerformanceHeavyContentOutsideViewportTest'
+    name: PerformanceHeavyContentOutsideViewportTest
+    fullName: PerformanceHeavyContentOutsideViewportTest
+    children:
+      - '@ms/sp-pages.PerformanceHeavyContentOutsideViewportTest.constructor'
+      - >-
+        @ms/sp-pages.PerformanceHeavyContentOutsideViewportTest.TestIncludeScripts
+      - '@ms/sp-pages.PerformanceHeavyContentOutsideViewportTest.TestName'
+      - '@ms/sp-pages.PerformanceHeavyContentOutsideViewportTest.TestOwner'
+      - '@ms/sp-pages.PerformanceHeavyContentOutsideViewportTest.TestRun'
+      - '@ms/sp-pages.PerformanceHeavyContentOutsideViewportTest.TestSetup'
+      - '@ms/sp-pages.PerformanceHeavyContentOutsideViewportTest.TestTeardown'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.PerformanceHeavyContentOutsideViewportTest.constructor'
+    name: PerformanceHeavyContentOutsideViewportTest
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PerformanceHeavyContentOutsideViewportTest(serverURL: string)'
+      parameters:
+        - id: serverURL
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-pages.PerformanceHeavyContentOutsideViewportTest.TestIncludeScripts'
+    name: TestIncludeScripts
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestIncludeScripts()
+      parameters: []
+  - uid: '@ms/sp-pages.PerformanceHeavyContentOutsideViewportTest.TestName'
+    name: TestName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestName()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.PerformanceHeavyContentOutsideViewportTest.TestOwner'
+    name: TestOwner
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestOwner()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.PerformanceHeavyContentOutsideViewportTest.TestRun'
+    name: TestRun
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestRun()
+      parameters: []
+  - uid: '@ms/sp-pages.PerformanceHeavyContentOutsideViewportTest.TestSetup'
+    name: TestSetup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestSetup()
+      parameters: []
+  - uid: '@ms/sp-pages.PerformanceHeavyContentOutsideViewportTest.TestTeardown'
+    name: TestTeardown
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestTeardown()
+      parameters: []

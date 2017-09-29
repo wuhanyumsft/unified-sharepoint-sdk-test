@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IRange'
+    name: IRange
+    fullName: IRange
+    children:
+      - '@ms/sp-publishing-webparts.IRange.endDate'
+      - '@ms/sp-publishing-webparts.IRange.numberOfOccurrences'
+      - '@ms/sp-publishing-webparts.IRange.recurrenceTimeZone'
+      - '@ms/sp-publishing-webparts.IRange.startDate'
+      - '@ms/sp-publishing-webparts.IRange.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IRange.endDate'
+    name: endDate
+    fullName: endDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The end date of the range.
+    syntax:
+      content: string endDate
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IRange.numberOfOccurrences'
+    name: numberOfOccurrences
+    fullName: numberOfOccurrences
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The number of occurrences.
+    syntax:
+      content: number numberOfOccurrences
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IRange.recurrenceTimeZone'
+    name: recurrenceTimeZone
+    fullName: recurrenceTimeZone
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The recurrence time zone.
+    syntax:
+      content: string recurrenceTimeZone
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IRange.startDate'
+    name: startDate
+    fullName: startDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The start date of the range.
+    syntax:
+      content: string startDate
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IRange.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The type of recurrence event range.
+    syntax:
+      content: function type
+      return:
+        type:
+          - function

@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IWebViewCallbackResponse'
+    name: IWebViewCallbackResponse
+    fullName: IWebViewCallbackResponse
+    children:
+      - '@ms/sp-pages.IWebViewCallbackResponse.command'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IWebViewCallbackResponse.command'
+    name: command
+    fullName: command
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string command
+      return:
+        type:
+          - string

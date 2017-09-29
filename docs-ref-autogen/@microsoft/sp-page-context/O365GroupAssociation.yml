@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-page-context.O365GroupAssociation'
+    name: O365GroupAssociation
+    fullName: O365GroupAssociation
+    children:
+      - '@microsoft/sp-page-context.O365GroupAssociation.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      This class is primarily used with the PageContext class. If the site is
+      associated with an O365
+
+      group, this object provides contextual information about the group.
+    package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.O365GroupAssociation.constructor'
+    name: O365GroupAssociation
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new O365GroupAssociation(data: IO365GroupAssociationData)'
+      parameters:
+        - id: data
+          type:
+            - '@@microsoft/sp-page-context.IO365GroupAssociationData'
+          description: ''

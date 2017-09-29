@@ -1,0 +1,120 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.PageLayoutUtility'
+    name: PageLayoutUtility
+    fullName: PageLayoutUtility
+    children:
+      - '@ms/sp-pages.PageLayoutUtility.canvasWrapper'
+      - '@ms/sp-pages.PageLayoutUtility.commentsElement'
+      - '@ms/sp-pages.PageLayoutUtility.escapeJsonForHtml'
+      - '@ms/sp-pages.PageLayoutUtility.escapeStockRichTextContent'
+      - '@ms/sp-pages.PageLayoutUtility.footerSection'
+      - '@ms/sp-pages.PageLayoutUtility.socialBar'
+      - '@ms/sp-pages.PageLayoutUtility.userVoiceView'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.PageLayoutUtility.canvasWrapper'
+    name: canvasWrapper
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function canvasWrapper(canvas: ReactElement<__type>, comments?:
+        React)
+      parameters:
+        - id: canvas
+          type:
+            - ReactElement<__type>
+          description: ''
+        - id: comments
+          type:
+            - React
+          description: ''
+          optional: true
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-pages.PageLayoutUtility.commentsElement'
+    name: commentsElement
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function commentsElement(style: string)'
+      parameters:
+        - id: style
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-pages.PageLayoutUtility.escapeJsonForHtml'
+    name: escapeJsonForHtml
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Escapes strings to form valid JSON inside HTML
+    syntax:
+      content: 'static function escapeJsonForHtml(input: string)'
+      parameters:
+        - id: input
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.PageLayoutUtility.escapeStockRichTextContent'
+    name: escapeStockRichTextContent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function escapeStockRichTextContent(input: string)'
+      parameters:
+        - id: input
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.PageLayoutUtility.footerSection'
+    name: footerSection
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function footerSection()
+      parameters: []
+  - uid: '@ms/sp-pages.PageLayoutUtility.socialBar'
+    name: socialBar
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function socialBar()
+      parameters: []
+  - uid: '@ms/sp-pages.PageLayoutUtility.userVoiceView'
+    name: userVoiceView
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function userVoiceView()
+      parameters: []

@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IUrlTemplates'
+    name: IUrlTemplates
+    fullName: IUrlTemplates
+    children:
+      - '@ms/sp-publishing-webparts.IUrlTemplates.group_web'
+      - '@ms/sp-publishing-webparts.IUrlTemplates.thread_web'
+      - '@ms/sp-publishing-webparts.IUrlTemplates.user_mugshot'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IUrlTemplates.group_web'
+    name: group_web
+    fullName: group_web
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean group_web
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IUrlTemplates.thread_web'
+    name: thread_web
+    fullName: thread_web
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean thread_web
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IUrlTemplates.user_mugshot'
+    name: user_mugshot
+    fullName: user_mugshot
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean user_mugshot
+      return:
+        type:
+          - boolean

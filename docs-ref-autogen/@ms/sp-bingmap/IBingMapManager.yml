@@ -1,0 +1,233 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-bingmap.IBingMapManager'
+    name: IBingMapManager
+    fullName: IBingMapManager
+    children:
+      - '@ms/sp-bingmap.IBingMapManager.cancelInit'
+      - '@ms/sp-bingmap.IBingMapManager.ensureBingMap'
+      - '@ms/sp-bingmap.IBingMapManager.getAutoSuggestManager'
+      - '@ms/sp-bingmap.IBingMapManager.getCenter'
+      - '@ms/sp-bingmap.IBingMapManager.getGlobalProperties'
+      - '@ms/sp-bingmap.IBingMapManager.getMapInstance'
+      - '@ms/sp-bingmap.IBingMapManager.getMapTypeName'
+      - '@ms/sp-bingmap.IBingMapManager.getPushPinManager'
+      - '@ms/sp-bingmap.IBingMapManager.getSearchManager'
+      - '@ms/sp-bingmap.IBingMapManager.getZoomLevel'
+      - '@ms/sp-bingmap.IBingMapManager.setContainerElement'
+      - '@ms/sp-bingmap.IBingMapManager.setMapOptions'
+      - '@ms/sp-bingmap.IBingMapManager.setMapTypeChangedHandler'
+      - '@ms/sp-bingmap.IBingMapManager.setMapViewChangeEndHandler'
+      - '@ms/sp-bingmap.IBingMapManager.setViewCenterAt'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-bingmap'
+  - uid: '@ms/sp-bingmap.IBingMapManager.cancelInit'
+    name: cancelInit
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function cancelInit()
+      parameters: []
+  - uid: '@ms/sp-bingmap.IBingMapManager.ensureBingMap'
+    name: ensureBingMap
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function ensureBingMap()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-bingmap.IBingMapManager.getAutoSuggestManager'
+    name: getAutoSuggestManager
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getAutoSuggestManager()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-bingmap.IAutoSuggestManager'
+  - uid: '@ms/sp-bingmap.IBingMapManager.getCenter'
+    name: getCenter
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCenter()
+      parameters: []
+      return:
+        type:
+          - Location
+  - uid: '@ms/sp-bingmap.IBingMapManager.getGlobalProperties'
+    name: getGlobalProperties
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getGlobalProperties()
+      parameters: []
+      return:
+        type:
+          - Promise<any>
+  - uid: '@ms/sp-bingmap.IBingMapManager.getMapInstance'
+    name: getMapInstance
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMapInstance()
+      parameters: []
+      return:
+        type:
+          - Map
+  - uid: '@ms/sp-bingmap.IBingMapManager.getMapTypeName'
+    name: getMapTypeName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getMapTypeName(mapTypeId: MapTypeId)'
+      parameters:
+        - id: mapTypeId
+          type:
+            - MapTypeId
+          description: ''
+      return:
+        type:
+          - MapTypeName
+  - uid: '@ms/sp-bingmap.IBingMapManager.getPushPinManager'
+    name: getPushPinManager
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getPushPinManager()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-bingmap.IPushPinManager'
+  - uid: '@ms/sp-bingmap.IBingMapManager.getSearchManager'
+    name: getSearchManager
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getSearchManager()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-bingmap.ISearchManager'
+  - uid: '@ms/sp-bingmap.IBingMapManager.getZoomLevel'
+    name: getZoomLevel
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getZoomLevel()
+      parameters: []
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-bingmap.IBingMapManager.setContainerElement'
+    name: setContainerElement
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setContainerElement(containerElement: HTMLElement)'
+      parameters:
+        - id: containerElement
+          type:
+            - HTMLElement
+          description: ''
+  - uid: '@ms/sp-bingmap.IBingMapManager.setMapOptions'
+    name: setMapOptions
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMapOptions(options: IMapOptions)'
+      parameters:
+        - id: options
+          type:
+            - IMapOptions
+          description: ''
+  - uid: '@ms/sp-bingmap.IBingMapManager.setMapTypeChangedHandler'
+    name: setMapTypeChangedHandler
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function setMapTypeChangedHandler(handler: (event:
+        IMapTypeChangeEventArgs) => void)
+      parameters:
+        - id: handler
+          type:
+            - '(event: IMapTypeChangeEventArgs) => void'
+          description: ''
+  - uid: '@ms/sp-bingmap.IBingMapManager.setMapViewChangeEndHandler'
+    name: setMapViewChangeEndHandler
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMapViewChangeEndHandler(handler: () => void)'
+      parameters:
+        - id: handler
+          type:
+            - () => void
+          description: ''
+  - uid: '@ms/sp-bingmap.IBingMapManager.setViewCenterAt'
+    name: setViewCenterAt
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setViewCenterAt(location: Location, resetZoomLevel: boolean)'
+      parameters:
+        - id: location
+          type:
+            - Location
+          description: ''
+        - id: resetZoomLevel
+          type:
+            - boolean
+          description: ''

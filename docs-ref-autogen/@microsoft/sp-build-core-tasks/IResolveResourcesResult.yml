@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IResolveResourcesResult'
+    name: IResolveResourcesResult
+    fullName: IResolveResourcesResult
+    children:
+      - '@microsoft/sp-build-core-tasks.IResolveResourcesResult.locales'
+      - >-
+        @microsoft/sp-build-core-tasks.IResolveResourcesResult.localizedResourcesToBundle
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.IResolveResourcesResult.locales'
+    name: locales
+    fullName: locales
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] locales'
+      return:
+        type:
+          - 'string[]'
+  - uid: >-
+      @microsoft/sp-build-core-tasks.IResolveResourcesResult.localizedResourcesToBundle
+    name: localizedResourcesToBundle
+    fullName: localizedResourcesToBundle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] localizedResourcesToBundle'
+      return:
+        type:
+          - 'string[]'

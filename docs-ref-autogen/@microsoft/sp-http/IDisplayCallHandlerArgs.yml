@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.IDisplayCallHandlerArgs'
+    name: IDisplayCallHandlerArgs
+    fullName: IDisplayCallHandlerArgs
+    children:
+      - '@microsoft/sp-http.IDisplayCallHandlerArgs.redirectUri'
+      - '@microsoft/sp-http.IDisplayCallHandlerArgs.urlNavigate'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.IDisplayCallHandlerArgs.redirectUri'
+    name: redirectUri
+    fullName: redirectUri
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string redirectUri
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-http.IDisplayCallHandlerArgs.urlNavigate'
+    name: urlNavigate
+    fullName: urlNavigate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string urlNavigate
+      return:
+        type:
+          - string

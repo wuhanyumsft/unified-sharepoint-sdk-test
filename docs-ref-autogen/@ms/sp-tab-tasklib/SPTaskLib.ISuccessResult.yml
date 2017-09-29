@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.ISuccessResult'
+    name: ISuccessResult
+    fullName: ISuccessResult
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.ISuccessResult.success'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.ISuccessResult.success'
+    name: success
+    fullName: success
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean success
+      return:
+        type:
+          - boolean

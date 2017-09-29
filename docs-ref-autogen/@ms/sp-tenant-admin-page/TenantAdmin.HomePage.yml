@@ -1,0 +1,106 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.TenantAdmin.HomePage'
+    name: HomePage
+    fullName: HomePage
+    children:
+      - '@ms/sp-tenant-admin-page.TenantAdmin.HomePage.AddTaskClearSecurityDialog'
+      - '@ms/sp-tenant-admin-page.TenantAdmin.HomePage.AddTaskLoadHomePage'
+      - '@ms/sp-tenant-admin-page.TenantAdmin.HomePage.AddTaskNavigatePages'
+      - '@ms/sp-tenant-admin-page.TenantAdmin.HomePage.GetNavItems'
+      - '@ms/sp-tenant-admin-page.TenantAdmin.HomePage.GetPageKeyByPageHref'
+      - '@ms/sp-tenant-admin-page.TenantAdmin.HomePage.LoadDebugManifests'
+      - '@ms/sp-tenant-admin-page.TenantAdmin.HomePage.PageReady'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.TenantAdmin.HomePage.AddTaskClearSecurityDialog'
+    name: AddTaskClearSecurityDialog
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function AddTaskClearSecurityDialog()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.TenantAdmin.HomePage.AddTaskLoadHomePage'
+    name: AddTaskLoadHomePage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function AddTaskLoadHomePage()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.TenantAdmin.HomePage.AddTaskNavigatePages'
+    name: AddTaskNavigatePages
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function AddTaskNavigatePages()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.TenantAdmin.HomePage.GetNavItems'
+    name: GetNavItems
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function GetNavItems()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.TenantAdmin.HomePage.GetPageKeyByPageHref'
+    name: GetPageKeyByPageHref
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function GetPageKeyByPageHref(href: string)'
+      parameters:
+        - id: href
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.TenantAdmin.HomePage.LoadDebugManifests'
+    name: LoadDebugManifests
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function LoadDebugManifests(pageUrl: string)'
+      parameters:
+        - id: pageUrl
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-tenant-admin-page.TenantAdmin.HomePage.PageReady'
+    name: PageReady
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function PageReady(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Waiter

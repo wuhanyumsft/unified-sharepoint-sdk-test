@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.ITraceListItemProps'
+    name: ITraceListItemProps
+    fullName: ITraceListItemProps
+    children:
+      - '@microsoft/sp-loader.ITraceListItemProps.id'
+      - '@microsoft/sp-loader.ITraceListItemProps.trace'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.ITraceListItemProps.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number id
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-loader.ITraceListItemProps.trace'
+    name: trace
+    fullName: trace
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: _LogEvent trace
+      return:
+        type:
+          - _LogEvent

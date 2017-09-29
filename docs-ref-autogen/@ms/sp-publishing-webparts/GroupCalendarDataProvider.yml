@@ -1,0 +1,129 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.GroupCalendarDataProvider'
+    name: GroupCalendarDataProvider
+    fullName: GroupCalendarDataProvider
+    children:
+      - '@ms/sp-publishing-webparts.GroupCalendarDataProvider.getCalendars'
+      - '@ms/sp-publishing-webparts.GroupCalendarDataProvider.getEvent'
+      - '@ms/sp-publishing-webparts.GroupCalendarDataProvider.getEvents'
+      - '@ms/sp-publishing-webparts.GroupCalendarDataProvider.getOAuthToken'
+      - '@ms/sp-publishing-webparts.GroupCalendarDataProvider.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.GroupCalendarDataProvider.getCalendars'
+    name: getCalendars
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCalendars()
+      parameters: []
+      return:
+        type:
+          - 'Promise<@@ms/sp-publishing-webparts.IExchangeGroup[]>'
+  - uid: '@ms/sp-publishing-webparts.GroupCalendarDataProvider.getEvent'
+    name: getEvent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getEvent(group: IExchangeGroup, eventId: string,
+        withAttachments?: boolean)
+      parameters:
+        - id: group
+          type:
+            - '@@ms/sp-publishing-webparts.IExchangeGroup'
+          description: ''
+        - id: eventId
+          type:
+            - string
+          description: ''
+        - id: withAttachments
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@@ms/sp-publishing-webparts.IExchangeCalendarEvent>
+  - uid: '@ms/sp-publishing-webparts.GroupCalendarDataProvider.getEvents'
+    name: getEvents
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getEvents(calendar: IExchangeGroup, top: number, skip: number,
+        startDate: Date, endDate: Date, orderBy: function)
+      parameters:
+        - id: calendar
+          type:
+            - '@@ms/sp-publishing-webparts.IExchangeGroup'
+          description: ''
+        - id: top
+          type:
+            - number
+          description: ''
+        - id: skip
+          type:
+            - number
+          description: ''
+        - id: startDate
+          type:
+            - Date
+          description: ''
+        - id: endDate
+          type:
+            - Date
+          description: ''
+        - id: orderBy
+          type:
+            - function
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-publishing-webparts.IGetEventsResult>
+  - uid: '@ms/sp-publishing-webparts.GroupCalendarDataProvider.getOAuthToken'
+    name: getOAuthToken
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getOAuthToken()
+      parameters: []
+      return:
+        type:
+          - Promise<IOAuthToken>
+  - uid: '@ms/sp-publishing-webparts.GroupCalendarDataProvider.constructor'
+    name: GroupCalendarDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new GroupCalendarDataProvider(serviceScope: ServiceScope, baseEndpoint:
+        string)
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+        - id: baseEndpoint
+          type:
+            - string
+          description: ''

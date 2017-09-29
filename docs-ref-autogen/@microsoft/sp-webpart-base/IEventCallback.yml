@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IEventCallback'
+    name: IEventCallback
+    fullName: IEventCallback<T>
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: Event callback
+    package: '@microsoft/sp-webpart-base'

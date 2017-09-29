@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.CarouselItem'
+    name: CarouselItem
+    fullName: CarouselItem
+    children:
+      - '@ms/sp-publishing-webparts.CarouselItem.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.CarouselItem.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function render(baseUrl: string, itemProps: IDisplayItemProps,
+        index: number, width: number, itemRowCount?: number, filmStripMode:
+        boolean)
+      parameters:
+        - id: baseUrl
+          type:
+            - string
+          description: ''
+        - id: itemProps
+          type:
+            - IDisplayItemProps
+          description: ''
+        - id: index
+          type:
+            - number
+          description: ''
+        - id: width
+          type:
+            - number
+          description: ''
+        - id: itemRowCount
+          type:
+            - number
+          description: ''
+          optional: true
+        - id: filmStripMode
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - ReactNode

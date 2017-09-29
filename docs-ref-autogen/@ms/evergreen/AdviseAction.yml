@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/evergreen.AdviseAction'
+    name: AdviseAction
+    fullName: AdviseAction
+    children:
+      - '@ms/evergreen.AdviseAction.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/evergreen.EvergreenAction'
+    package: '@ms/evergreen'
+  - uid: '@ms/evergreen.AdviseAction.constructor'
+    name: AdviseAction
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new AdviseAction()
+      parameters: []

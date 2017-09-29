@@ -1,0 +1,123 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IInitilizerSearchBoxProps'
+    name: IInitilizerSearchBoxProps
+    fullName: IInitilizerSearchBoxProps
+    children:
+      - '@ms/sp-pages.IInitilizerSearchBoxProps.clearButtonStyles'
+      - '@ms/sp-pages.IInitilizerSearchBoxProps.magnifierButtonStyles'
+      - '@ms/sp-pages.IInitilizerSearchBoxProps.onActivated'
+      - '@ms/sp-pages.IInitilizerSearchBoxProps.onDeactivated'
+      - '@ms/sp-pages.IInitilizerSearchBoxProps.onSubmit'
+      - '@ms/sp-pages.IInitilizerSearchBoxProps.progressIndicatorStyles'
+      - '@ms/sp-pages.IInitilizerSearchBoxProps.styles'
+      - '@ms/sp-pages.IInitilizerSearchBoxProps.submitButtonStyles'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IInitilizerSearchBoxProps.clearButtonStyles'
+    name: clearButtonStyles
+    fullName: clearButtonStyles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISearchBoxClearButtonStyles clearButtonStyles
+      return:
+        type:
+          - ISearchBoxClearButtonStyles
+  - uid: '@ms/sp-pages.IInitilizerSearchBoxProps.magnifierButtonStyles'
+    name: magnifierButtonStyles
+    fullName: magnifierButtonStyles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISearchBoxMagnifierButtonStyles magnifierButtonStyles
+      return:
+        type:
+          - ISearchBoxMagnifierButtonStyles
+  - uid: '@ms/sp-pages.IInitilizerSearchBoxProps.onActivated'
+    name: onActivated
+    fullName: onActivated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(searchText: string) => void onActivated'
+      return:
+        type:
+          - '(searchText: string) => void'
+  - uid: '@ms/sp-pages.IInitilizerSearchBoxProps.onDeactivated'
+    name: onDeactivated
+    fullName: onDeactivated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onDeactivated
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-pages.IInitilizerSearchBoxProps.onSubmit'
+    name: onSubmit
+    fullName: onSubmit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onSubmit
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-pages.IInitilizerSearchBoxProps.progressIndicatorStyles'
+    name: progressIndicatorStyles
+    fullName: progressIndicatorStyles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISearchBoxProgressLineStyles progressIndicatorStyles
+      return:
+        type:
+          - ISearchBoxProgressLineStyles
+  - uid: '@ms/sp-pages.IInitilizerSearchBoxProps.styles'
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISearchBoxStyles styles
+      return:
+        type:
+          - ISearchBoxStyles
+  - uid: '@ms/sp-pages.IInitilizerSearchBoxProps.submitButtonStyles'
+    name: submitButtonStyles
+    fullName: submitButtonStyles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISearchBoxSubmitButtonStyles submitButtonStyles
+      return:
+        type:
+          - ISearchBoxSubmitButtonStyles

@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-listview-extensibility.ListViewCommandSetContext'
+    name: ListViewCommandSetContext
+    fullName: ListViewCommandSetContext
+    children:
+      - >-
+        @microsoft/sp-listview-extensibility.ListViewCommandSetContext.constructor
+      - '@microsoft/sp-listview-extensibility.ListViewCommandSetContext.manifest'
+    langs:
+      - typeScript
+    type: class
+    summary: This object provides contextual information for BaseListViewCommandSet.
+    extends:
+      name: '@@microsoft/sp-listview-extensibility.ListViewCommandSetContext'
+    package: '@microsoft/sp-listview-extensibility'
+  - uid: '@microsoft/sp-listview-extensibility.ListViewCommandSetContext.constructor'
+    name: ListViewCommandSetContext
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new ListViewCommandSetContext(extensionContextParameters:
+        _IExtensionContextParameters, listViewCommandSetContextParameters:
+        IListViewCommandSetContextParameters)
+      parameters:
+        - id: extensionContextParameters
+          type:
+            - _IExtensionContextParameters
+          description: ''
+        - id: listViewCommandSetContextParameters
+          type:
+            - >-
+              @@microsoft/sp-listview-extensibility.IListViewCommandSetContextParameters
+          description: ''
+  - uid: '@microsoft/sp-listview-extensibility.ListViewCommandSetContext.manifest'
+    name: manifest
+    fullName: manifest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc @microsoft/sp-component-base:BaseComponentContext.manifest}'
+    syntax:
+      content: ICommandSetExtensionManifest manifest
+      return:
+        type:
+          - ICommandSetExtensionManifest

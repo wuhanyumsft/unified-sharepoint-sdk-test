@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IResponseRemoveSite'
+    name: IResponseRemoveSite
+    fullName: IResponseRemoveSite
+    children:
+      - '@ms/sp-tenant-admin-page.IResponseRemoveSite.HasTimedout'
+      - '@ms/sp-tenant-admin-page.IResponseRemoveSite.IsComplete'
+      - '@ms/sp-tenant-admin-page.IResponseRemoveSite.PollingInterval'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      This interface is to hold the response data of the SharePoint OData API:
+      /_api/SPOInternalUseOnly.Tenant/RemoveSite?siteUrl='${siteUrl}'
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IResponseRemoveSite.HasTimedout'
+    name: HasTimedout
+    fullName: HasTimedout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean HasTimedout
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IResponseRemoveSite.IsComplete'
+    name: IsComplete
+    fullName: IsComplete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean IsComplete
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IResponseRemoveSite.PollingInterval'
+    name: PollingInterval
+    fullName: PollingInterval
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number PollingInterval
+      return:
+        type:
+          - number

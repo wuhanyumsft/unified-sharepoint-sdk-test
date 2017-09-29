@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IManagePagePanelProps'
+    name: IManagePagePanelProps
+    fullName: IManagePagePanelProps
+    children:
+      - '@ms/sp-pages.IManagePagePanelProps.closeManagePagePanel'
+      - '@ms/sp-pages.IManagePagePanelProps.isOpen'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IManagePagePanelProps.closeManagePagePanel'
+    name: closeManagePagePanel
+    fullName: closeManagePagePanel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void closeManagePagePanel
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-pages.IManagePagePanelProps.isOpen'
+    name: isOpen
+    fullName: isOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isOpen
+      return:
+        type:
+          - boolean

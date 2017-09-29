@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.DayOfWeekIndexType'
+    name: DayOfWeekIndexType
+    fullName: DayOfWeekIndexType
+    children:
+      - '@ms/sp-publishing-webparts.DayOfWeekIndexType.First'
+      - '@ms/sp-publishing-webparts.DayOfWeekIndexType.Fourth'
+      - '@ms/sp-publishing-webparts.DayOfWeekIndexType.Last'
+      - '@ms/sp-publishing-webparts.DayOfWeekIndexType.None'
+      - '@ms/sp-publishing-webparts.DayOfWeekIndexType.Second'
+      - '@ms/sp-publishing-webparts.DayOfWeekIndexType.Third'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.DayOfWeekIndexType.First'
+    name: First
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-publishing-webparts.DayOfWeekIndexType.Fourth'
+    name: Fourth
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-publishing-webparts.DayOfWeekIndexType.Last'
+    name: Last
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-publishing-webparts.DayOfWeekIndexType.None'
+    name: None
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-publishing-webparts.DayOfWeekIndexType.Second'
+    name: Second
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-publishing-webparts.DayOfWeekIndexType.Third'
+    name: Third
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

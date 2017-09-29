@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.IScenarioContextExtraProperties'
+    name: IScenarioContextExtraProperties
+    fullName: IScenarioContextExtraProperties
+    children:
+      - '@ms/sp-people-webparts.IScenarioContextExtraProperties.OlsPersonaId'
+      - >-
+        @ms/sp-people-webparts.IScenarioContextExtraProperties.PersonaAadObjectId
+      - >-
+        @ms/sp-people-webparts.IScenarioContextExtraProperties.PersonaDisplayName
+      - '@ms/sp-people-webparts.IScenarioContextExtraProperties.PersonaType'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-people-webparts'
+  - uid: '@ms/sp-people-webparts.IScenarioContextExtraProperties.OlsPersonaId'
+    name: OlsPersonaId
+    fullName: OlsPersonaId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string OlsPersonaId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IScenarioContextExtraProperties.PersonaAadObjectId'
+    name: PersonaAadObjectId
+    fullName: PersonaAadObjectId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string PersonaAadObjectId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IScenarioContextExtraProperties.PersonaDisplayName'
+    name: PersonaDisplayName
+    fullName: PersonaDisplayName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string PersonaDisplayName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IScenarioContextExtraProperties.PersonaType'
+    name: PersonaType
+    fullName: PersonaType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PersonaType PersonaType
+      return:
+        type:
+          - '@@ms/sp-people-webparts.IScenarioContextExtraProperties.PersonaType'

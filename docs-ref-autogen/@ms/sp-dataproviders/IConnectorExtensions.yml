@@ -1,0 +1,123 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IConnectorExtensions'
+    name: IConnectorExtensions
+    fullName: IConnectorExtensions
+    children:
+      - '@ms/sp-dataproviders.IConnectorExtensions.@odata.id'
+      - '@ms/sp-dataproviders.IConnectorExtensions.@odata.type'
+      - '@ms/sp-dataproviders.IConnectorExtensions.AlternateId'
+      - '@ms/sp-dataproviders.IConnectorExtensions.ConnectorSenderGuid'
+      - '@ms/sp-dataproviders.IConnectorExtensions.Id'
+      - '@ms/sp-dataproviders.IConnectorExtensions.MessageCardSerialized'
+      - '@ms/sp-dataproviders.IConnectorExtensions.MessageCardSignature'
+      - '@ms/sp-dataproviders.IConnectorExtensions.ProviderAccountUniqueId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IConnectorExtensions.@odata.id'
+    name: '@odata.id'
+    fullName: '@odata.id'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string @odata.id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IConnectorExtensions.@odata.type'
+    name: '@odata.type'
+    fullName: '@odata.type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string @odata.type
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IConnectorExtensions.AlternateId'
+    name: AlternateId
+    fullName: AlternateId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string AlternateId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IConnectorExtensions.ConnectorSenderGuid'
+    name: ConnectorSenderGuid
+    fullName: ConnectorSenderGuid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ConnectorSenderGuid
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IConnectorExtensions.Id'
+    name: Id
+    fullName: Id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IConnectorExtensions.MessageCardSerialized'
+    name: MessageCardSerialized
+    fullName: MessageCardSerialized
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string MessageCardSerialized
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IConnectorExtensions.MessageCardSignature'
+    name: MessageCardSignature
+    fullName: MessageCardSignature
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string MessageCardSignature
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IConnectorExtensions.ProviderAccountUniqueId'
+    name: ProviderAccountUniqueId
+    fullName: ProviderAccountUniqueId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ProviderAccountUniqueId
+      return:
+        type:
+          - string

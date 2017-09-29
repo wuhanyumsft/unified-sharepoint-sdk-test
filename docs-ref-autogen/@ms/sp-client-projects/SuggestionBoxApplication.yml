@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.SuggestionBoxApplication'
+    name: SuggestionBoxApplication
+    fullName: SuggestionBoxApplication
+    children:
+      - '@ms/sp-client-projects.SuggestionBoxApplication.onRender'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-client-projects.SuggestionBoxApplication'
+    package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.SuggestionBoxApplication.onRender'
+    name: onRender
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function onRender()
+      parameters: []

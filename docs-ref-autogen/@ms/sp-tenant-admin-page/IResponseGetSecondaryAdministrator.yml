@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IResponseGetSecondaryAdministrator'
+    name: IResponseGetSecondaryAdministrator
+    fullName: IResponseGetSecondaryAdministrator
+    children:
+      - '@ms/sp-tenant-admin-page.IResponseGetSecondaryAdministrator.email'
+      - '@ms/sp-tenant-admin-page.IResponseGetSecondaryAdministrator.name'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      This interface is to hold the response data of the SharePoint OData API:
+
+      _api/Microsoft.Online.SharePoint.TenantAdministration.Tenant/GetSiteSecondaryAdministrators
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IResponseGetSecondaryAdministrator.email'
+    name: email
+    fullName: email
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string email
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IResponseGetSecondaryAdministrator.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string

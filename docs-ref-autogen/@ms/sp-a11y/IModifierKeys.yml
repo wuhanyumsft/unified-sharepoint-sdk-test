@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-a11y.IModifierKeys'
+    name: IModifierKeys
+    fullName: IModifierKeys
+    children:
+      - '@ms/sp-a11y.IModifierKeys.alt'
+      - '@ms/sp-a11y.IModifierKeys.ctrl'
+      - '@ms/sp-a11y.IModifierKeys.shift'
+    langs:
+      - typeScript
+    type: interface
+    summary: 'Interface to define state of Ctrl, Alt and Shift keys'
+    package: '@ms/sp-a11y'
+  - uid: '@ms/sp-a11y.IModifierKeys.alt'
+    name: alt
+    fullName: alt
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean alt
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-a11y.IModifierKeys.ctrl'
+    name: ctrl
+    fullName: ctrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean ctrl
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-a11y.IModifierKeys.shift'
+    name: shift
+    fullName: shift
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean shift
+      return:
+        type:
+          - boolean

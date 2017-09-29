@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: sp-sample-webparts.ITodoItemState
+    name: ITodoItemState
+    fullName: ITodoItemState
+    children:
+      - sp-sample-webparts.ITodoItemState.isDeleting
+    langs:
+      - typeScript
+    type: interface
+    summary: States for TodoItem component.
+    package: sp-sample-webparts
+  - uid: sp-sample-webparts.ITodoItemState.isDeleting
+    name: isDeleting
+    fullName: isDeleting
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      isDeleting indicates whether we are deleting this item.
+      If the item is being deleted, we will add animation to it.
+    syntax:
+      content: boolean isDeleting
+      return:
+        type:
+          - boolean

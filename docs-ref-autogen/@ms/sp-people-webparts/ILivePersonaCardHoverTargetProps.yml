@@ -1,0 +1,100 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardHoverTargetProps'
+    name: ILivePersonaCardHoverTargetProps
+    fullName: ILivePersonaCardHoverTargetProps
+    children:
+      - >-
+        @ms/sp-people-webparts.ILivePersonaCardHoverTargetProps.disableHoverAndKeyPress
+      - >-
+        @ms/sp-people-webparts.ILivePersonaCardHoverTargetProps.externalAppSessionCorrelationId
+      - >-
+        @ms/sp-people-webparts.ILivePersonaCardHoverTargetProps.hostAppPersonaInfo
+      - '@ms/sp-people-webparts.ILivePersonaCardHoverTargetProps.onCardClose'
+      - '@ms/sp-people-webparts.ILivePersonaCardHoverTargetProps.onCardOpen'
+      - '@ms/sp-people-webparts.ILivePersonaCardHoverTargetProps.upn'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-people-webparts'
+  - uid: >-
+      @ms/sp-people-webparts.ILivePersonaCardHoverTargetProps.disableHoverAndKeyPress
+    name: disableHoverAndKeyPress
+    fullName: disableHoverAndKeyPress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean disableHoverAndKeyPress
+      return:
+        type:
+          - boolean
+  - uid: >-
+      @ms/sp-people-webparts.ILivePersonaCardHoverTargetProps.externalAppSessionCorrelationId
+    name: externalAppSessionCorrelationId
+    fullName: externalAppSessionCorrelationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string externalAppSessionCorrelationId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardHoverTargetProps.hostAppPersonaInfo'
+    name: hostAppPersonaInfo
+    fullName: hostAppPersonaInfo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IScenarioContextExtraProperties hostAppPersonaInfo
+      return:
+        type:
+          - '@@ms/sp-people-webparts.IScenarioContextExtraProperties'
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardHoverTargetProps.onCardClose'
+    name: onCardClose
+    fullName: onCardClose
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onCardClose
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardHoverTargetProps.onCardOpen'
+    name: onCardOpen
+    fullName: onCardOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onCardOpen
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardHoverTargetProps.upn'
+    name: upn
+    fullName: upn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string upn
+      return:
+        type:
+          - string

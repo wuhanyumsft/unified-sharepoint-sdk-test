@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IEmailBodyProps'
+    name: IEmailBodyProps
+    fullName: IEmailBodyProps
+    children:
+      - '@ms/sp-pages.IEmailBodyProps.message'
+      - '@ms/sp-pages.IEmailBodyProps.recipientEmails'
+      - '@ms/sp-pages.IEmailBodyProps.url'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IEmailBodyProps.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string message
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IEmailBodyProps.recipientEmails'
+    name: recipientEmails
+    fullName: recipientEmails
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] recipientEmails'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-pages.IEmailBodyProps.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string url
+      return:
+        type:
+          - string

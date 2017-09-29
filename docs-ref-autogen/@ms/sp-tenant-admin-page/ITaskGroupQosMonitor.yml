@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ITaskGroupQosMonitor'
+    name: ITaskGroupQosMonitor
+    fullName: ITaskGroupQosMonitor
+    children:
+      - '@ms/sp-tenant-admin-page.ITaskGroupQosMonitor.abort'
+      - '@ms/sp-tenant-admin-page.ITaskGroupQosMonitor.setFailure'
+      - '@ms/sp-tenant-admin-page.ITaskGroupQosMonitor.setSuccess'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ITaskGroupQosMonitor.abort'
+    name: abort
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function abort()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.ITaskGroupQosMonitor.setFailure'
+    name: setFailure
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setFailure(error: IMonitorableError)'
+      parameters:
+        - id: error
+          type:
+            - '@@ms/sp-tenant-admin-page.IMonitorableError'
+          description: ''
+  - uid: '@ms/sp-tenant-admin-page.ITaskGroupQosMonitor.setSuccess'
+    name: setSuccess
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setSuccess(taskName: string, extraData?: IMonitorExtraData)'
+      parameters:
+        - id: taskName
+          type:
+            - string
+          description: ''
+        - id: extraData
+          type:
+            - IMonitorExtraData
+          description: ''
+          optional: true

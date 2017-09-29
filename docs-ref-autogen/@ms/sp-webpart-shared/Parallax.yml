@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.Parallax'
+    name: Parallax
+    fullName: Parallax
+    children:
+      - '@ms/sp-webpart-shared.Parallax.addParallax'
+      - '@ms/sp-webpart-shared.Parallax.removeParallax'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.Parallax.addParallax'
+    name: addParallax
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Applies parallax effect onto the targetElement
+    syntax:
+      content: 'function addParallax(targetElement: HTMLElement)'
+      parameters:
+        - id: targetElement
+          type:
+            - HTMLElement
+          description: |+
+
+  - uid: '@ms/sp-webpart-shared.Parallax.removeParallax'
+    name: removeParallax
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes parallax effect from the targetElement
+    syntax:
+      content: 'function removeParallax(targetElement: HTMLElement)'
+      parameters:
+        - id: targetElement
+          type:
+            - HTMLElement
+          description: |+
+

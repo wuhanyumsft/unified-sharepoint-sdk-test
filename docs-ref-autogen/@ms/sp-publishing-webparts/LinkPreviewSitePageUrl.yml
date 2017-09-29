@@ -1,0 +1,83 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewSitePageUrl'
+    name: LinkPreviewSitePageUrl
+    fullName: LinkPreviewSitePageUrl
+    children:
+      - '@ms/sp-publishing-webparts.LinkPreviewSitePageUrl.TestIncludeScripts'
+      - '@ms/sp-publishing-webparts.LinkPreviewSitePageUrl.TestName'
+      - '@ms/sp-publishing-webparts.LinkPreviewSitePageUrl.TestOwner'
+      - '@ms/sp-publishing-webparts.LinkPreviewSitePageUrl.TestRun'
+      - '@ms/sp-publishing-webparts.LinkPreviewSitePageUrl.TestSetup'
+      - '@ms/sp-publishing-webparts.LinkPreviewSitePageUrl.TestTeardown'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewSitePageUrl.TestIncludeScripts'
+    name: TestIncludeScripts
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestIncludeScripts()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewSitePageUrl.TestName'
+    name: TestName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestName()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewSitePageUrl.TestOwner'
+    name: TestOwner
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestOwner()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewSitePageUrl.TestRun'
+    name: TestRun
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestRun()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewSitePageUrl.TestSetup'
+    name: TestSetup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestSetup()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.LinkPreviewSitePageUrl.TestTeardown'
+    name: TestTeardown
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestTeardown()
+      parameters: []

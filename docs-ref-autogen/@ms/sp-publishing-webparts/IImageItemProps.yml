@@ -1,0 +1,125 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IImageItemProps'
+    name: IImageItemProps
+    fullName: IImageItemProps
+    children:
+      - '@ms/sp-publishing-webparts.IImageItemProps.host'
+      - '@ms/sp-publishing-webparts.IImageItemProps.image'
+      - '@ms/sp-publishing-webparts.IImageItemProps.imageCropping'
+      - '@ms/sp-publishing-webparts.IImageItemProps.onDelete'
+      - '@ms/sp-publishing-webparts.IImageItemProps.onEdit'
+      - '@ms/sp-publishing-webparts.IImageItemProps.onLoad'
+      - '@ms/sp-publishing-webparts.IImageItemProps.type'
+      - '@ms/sp-publishing-webparts.IImageItemProps.webAbsoluteUrl'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IImageItemProps.host'
+    name: host
+    fullName: host
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Host host
+      return:
+        type:
+          - Host
+  - uid: '@ms/sp-publishing-webparts.IImageItemProps.image'
+    name: image
+    fullName: image
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IImageProps image
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IImageProps'
+  - uid: '@ms/sp-publishing-webparts.IImageItemProps.imageCropping'
+    name: imageCropping
+    fullName: imageCropping
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ImageCropping imageCropping
+      return:
+        type:
+          - ImageCropping
+  - uid: '@ms/sp-publishing-webparts.IImageItemProps.onDelete'
+    name: onDelete
+    fullName: onDelete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(itemProps: IImageProps) => void onDelete'
+      return:
+        type:
+          - '(itemProps: IImageProps) => void'
+  - uid: '@ms/sp-publishing-webparts.IImageItemProps.onEdit'
+    name: onEdit
+    fullName: onEdit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(itemProps: IImageProps) => void onEdit'
+      return:
+        type:
+          - '(itemProps: IImageProps) => void'
+  - uid: '@ms/sp-publishing-webparts.IImageItemProps.onLoad'
+    name: onLoad
+    fullName: onLoad
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onLoad
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-publishing-webparts.IImageItemProps.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: GalleryItemType type
+      return:
+        type:
+          - GalleryItemType
+  - uid: '@ms/sp-publishing-webparts.IImageItemProps.webAbsoluteUrl'
+    name: webAbsoluteUrl
+    fullName: webAbsoluteUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webAbsoluteUrl
+      return:
+        type:
+          - string

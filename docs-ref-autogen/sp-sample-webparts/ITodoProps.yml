@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: sp-sample-webparts.ITodoProps
+    name: ITodoProps
+    fullName: ITodoProps
+    children:
+      - sp-sample-webparts.ITodoProps.onCreateItem
+      - sp-sample-webparts.ITodoProps.onDeleteItem
+      - sp-sample-webparts.ITodoProps.onToggleComplete
+    langs:
+      - typeScript
+    type: interface
+    summary: Props for Todo component.
+    extends:
+      name: '@sp-sample-webparts.ITodoComponentData'
+    package: sp-sample-webparts
+  - uid: sp-sample-webparts.ITodoProps.onCreateItem
+    name: onCreateItem
+    fullName: onCreateItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      onCreateItem callback triggered when we add a new item to the tasks list.
+
+      Either triggered by clicking on add button or pressed Enter key in input
+      field.
+    syntax:
+      content: ItemOperationCallback onCreateItem
+      return:
+        type:
+          - ItemOperationCallback
+  - uid: sp-sample-webparts.ITodoProps.onDeleteItem
+    name: onDeleteItem
+    fullName: onDeleteItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: onDeleteItem callback triggered when delete of one item is triggered.
+    syntax:
+      content: ItemOperationCallback onDeleteItem
+      return:
+        type:
+          - ItemOperationCallback
+  - uid: sp-sample-webparts.ITodoProps.onToggleComplete
+    name: onToggleComplete
+    fullName: onToggleComplete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      onToggleComplete callback triggered when checkbox of one item is checked
+      or unchecekd.
+    syntax:
+      content: ItemOperationCallback onToggleComplete
+      return:
+        type:
+          - ItemOperationCallback

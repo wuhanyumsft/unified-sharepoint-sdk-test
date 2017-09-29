@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IResponseData'
+    name: IResponseData
+    fullName: IResponseData
+    children:
+      - '@ms/sp-dataproviders.IResponseData.ListData'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      The data model to represent the event response.
+
+      This MUST exactly respect the response structure.
+
+      This model is *internal* use and exported as {@see IEvent} list after
+      transposed.
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IResponseData.ListData'
+    name: ListData
+    fullName: ListData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function ListData
+      return:
+        type:
+          - function

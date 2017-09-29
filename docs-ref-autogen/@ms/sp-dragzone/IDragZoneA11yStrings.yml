@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dragzone.IDragZoneA11yStrings'
+    name: IDragZoneA11yStrings
+    fullName: IDragZoneA11yStrings
+    children:
+      - '@ms/sp-dragzone.IDragZoneA11yStrings.handleTitle'
+      - '@ms/sp-dragzone.IDragZoneA11yStrings.moveCancelled'
+      - '@ms/sp-dragzone.IDragZoneA11yStrings.moveComplete'
+      - '@ms/sp-dragzone.IDragZoneA11yStrings.moveInsideLevel'
+      - '@ms/sp-dragzone.IDragZoneA11yStrings.moveNotAllowed'
+      - '@ms/sp-dragzone.IDragZoneA11yStrings.moveStarted'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dragzone'
+  - uid: '@ms/sp-dragzone.IDragZoneA11yStrings.handleTitle'
+    name: handleTitle
+    fullName: handleTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string handleTitle
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dragzone.IDragZoneA11yStrings.moveCancelled'
+    name: moveCancelled
+    fullName: moveCancelled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string moveCancelled
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dragzone.IDragZoneA11yStrings.moveComplete'
+    name: moveComplete
+    fullName: moveComplete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string moveComplete
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dragzone.IDragZoneA11yStrings.moveInsideLevel'
+    name: moveInsideLevel
+    fullName: moveInsideLevel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] moveInsideLevel'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-dragzone.IDragZoneA11yStrings.moveNotAllowed'
+    name: moveNotAllowed
+    fullName: moveNotAllowed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string moveNotAllowed
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dragzone.IDragZoneA11yStrings.moveStarted'
+    name: moveStarted
+    fullName: moveStarted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string moveStarted
+      return:
+        type:
+          - string

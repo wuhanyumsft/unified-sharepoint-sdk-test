@@ -1,0 +1,77 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.SuiteNavManagerConfiguration'
+    name: SuiteNavManagerConfiguration
+    fullName: SuiteNavManagerConfiguration
+    children:
+      - >-
+        @microsoft/sp-application-base.SuiteNavManagerConfiguration.disableSuiteNav
+      - >-
+        @microsoft/sp-application-base.SuiteNavManagerConfiguration.isSuiteNavDisabled
+      - >-
+        @microsoft/sp-application-base.SuiteNavManagerConfiguration.modifySuiteNavData
+      - '@microsoft/sp-application-base.SuiteNavManagerConfiguration.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-application-base'
+  - uid: >-
+      @microsoft/sp-application-base.SuiteNavManagerConfiguration.disableSuiteNav
+    name: disableSuiteNav
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Function for disabling the suiteNav from loading
+    syntax:
+      content: function disableSuiteNav()
+      parameters: []
+  - uid: >-
+      @microsoft/sp-application-base.SuiteNavManagerConfiguration.isSuiteNavDisabled
+    name: isSuiteNavDisabled
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isSuiteNavDisabled()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: >-
+      @microsoft/sp-application-base.SuiteNavManagerConfiguration.modifySuiteNavData
+    name: modifySuiteNavData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Function for modifying the suite nav data that came back from the service.
+    syntax:
+      content: 'function modifySuiteNavData(suiteNavData: ISuiteNavData)'
+      parameters:
+        - id: suiteNavData
+          type:
+            - '@@microsoft/sp-application-base.ISuiteNavData'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-application-base.ISuiteNavData'
+  - uid: '@microsoft/sp-application-base.SuiteNavManagerConfiguration.constructor'
+    name: SuiteNavManagerConfiguration
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Initializes a new instance of the SuiteNavManagerConfiguration.
+    syntax:
+      content: >-
+        new SuiteNavManagerConfiguration(suiteNavConfig:
+        ISuiteNavConfigurationData)
+      parameters:
+        - id: suiteNavConfig
+          type:
+            - '@@microsoft/sp-application-base.ISuiteNavConfigurationData'
+          description: ''

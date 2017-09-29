@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IPageFieldSlice'
+    name: IPageFieldSlice
+    fullName: IPageFieldSlice
+    children:
+      - '@ms/sp-pages.IPageFieldSlice.currentPageLayout'
+      - '@ms/sp-pages.IPageFieldSlice.fields'
+      - '@ms/sp-pages.IPageFieldSlice.fieldsToUpdate'
+      - '@ms/sp-pages.IPageFieldSlice.hasPageBeenRenamed'
+      - '@ms/sp-pages.IPageFieldSlice.haveCanvasFieldsChanged'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IPageFieldSlice.currentPageLayout'
+    name: currentPageLayout
+    fullName: currentPageLayout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageLayoutType currentPageLayout
+      return:
+        type:
+          - '@@ms/sp-pages.ISitePageFieldData.PageLayoutType'
+  - uid: '@ms/sp-pages.IPageFieldSlice.fields'
+    name: fields
+    fullName: fields
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageFieldData fields
+      return:
+        type:
+          - '@@ms/sp-pages.PageFieldData'
+  - uid: '@ms/sp-pages.IPageFieldSlice.fieldsToUpdate'
+    name: fieldsToUpdate
+    fullName: fieldsToUpdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: string]: string fieldsToUpdate'
+      return:
+        type:
+          - '[key: string]: string'
+  - uid: '@ms/sp-pages.IPageFieldSlice.hasPageBeenRenamed'
+    name: hasPageBeenRenamed
+    fullName: hasPageBeenRenamed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasPageBeenRenamed
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IPageFieldSlice.haveCanvasFieldsChanged'
+    name: haveCanvasFieldsChanged
+    fullName: haveCanvasFieldsChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean haveCanvasFieldsChanged
+      return:
+        type:
+          - boolean

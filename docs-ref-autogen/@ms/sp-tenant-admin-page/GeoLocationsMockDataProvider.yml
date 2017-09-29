@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.GeoLocationsMockDataProvider'
+    name: GeoLocationsMockDataProvider
+    fullName: GeoLocationsMockDataProvider
+    children:
+      - '@ms/sp-tenant-admin-page.GeoLocationsMockDataProvider.constructor'
+      - >-
+        @ms/sp-tenant-admin-page.GeoLocationsMockDataProvider.getGeoLocationsData
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.GeoLocationsMockDataProvider.constructor'
+    name: GeoLocationsMockDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new GeoLocationsMockDataProvider()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.GeoLocationsMockDataProvider.getGeoLocationsData'
+    name: getGeoLocationsData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getGeoLocationsData()
+      parameters: []
+      return:
+        type:
+          - 'Promise<@@ms/sp-tenant-admin-page.IGeoLocationInformation[]>'

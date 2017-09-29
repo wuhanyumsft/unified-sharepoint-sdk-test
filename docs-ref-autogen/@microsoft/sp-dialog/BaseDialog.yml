@@ -1,0 +1,112 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-dialog.BaseDialog'
+    name: BaseDialog
+    fullName: BaseDialog
+    children:
+      - '@microsoft/sp-dialog.BaseDialog.constructor'
+      - '@microsoft/sp-dialog.BaseDialog.close'
+      - '@microsoft/sp-dialog.BaseDialog.show'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      The base class for implementing dialogs in SharePoint Framework. This
+      provides a supported way for showing
+
+      dialogs to the user inside SharePoint Framework components.
+    package: '@microsoft/sp-dialog'
+  - uid: '@microsoft/sp-dialog.BaseDialog.constructor'
+    name: BaseDialog
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: >
+      Constructor for the BaseDialog class.
+
+      It is important to keep the constructor lightweight. Use onBeforeOpen()
+      for doing heavy-weight initializations
+
+      that are needed for rendering the dialog such as resource allocations and
+      asynchronous calls to fetch data. You
+
+      can use the constructor to set initial parameters of your dialog such as
+      references to resources in your
+
+      application. The reason for this is that dialogs are usually constructed
+      upon a UI event e.g. a button click,
+
+      but the dialog may not always be shown right after construction. Keeping
+      the constructor lightweight ensures
+
+      smooth user experience and avoids doing throw-away work in case the dialog
+      is not shown later e.g. if
+
+      the framework rejects it. Another benefit of doing this is avoiding memory
+      leaks by doing all the allocations and
+
+      disposals in symmetric onBeforeOpen() and onAfterClose() events. If you
+      allocate unmanaged resources in the
+
+      constructor, you have a memory leak because there is no guarantee
+      onAfterClose() will get called,
+
+      and onAfterClose() is your only opportunity to dispose.
+    syntax:
+      content: 'new BaseDialog(config?: IDialogConfiguration)'
+      parameters:
+        - id: config
+          type:
+            - '@@microsoft/sp-dialog.IDialogConfiguration'
+          description: |
+            the dialog configuration that affects how the dialog is displayed
+
+            Example:
+              constructor(cacheReference: any) {
+                super();
+
+                this._cache = cacheReference; // This is okay. Keeping a reference to my internal cache.
+                this._cache.refresh(); // This is bad practice.
+                // If you need to refresh the cache (or fetch data) for rendering, do it in onBeforeOpen()
+              }
+          optional: true
+  - uid: '@microsoft/sp-dialog.BaseDialog.close'
+    name: close
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Close the dialog. This will void the permission to show for this dialog.
+      Every dialog should have a mechanism to
+
+      eventually close to avoid blocking the user interface. If called on an
+      inactive dialog it will abort the request
+
+      to show.
+    syntax:
+      content: function close()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+  - uid: '@microsoft/sp-dialog.BaseDialog.show'
+    name: show
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Request the framework to show this dialog.
+    syntax:
+      content: 'function show(options?: IDialogShowOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@@microsoft/sp-dialog.IDialogShowOptions'
+          description: |
+            Dialog showing options @see <xref:IDialogShowOptions>
+          optional: true
+      return:
+        type:
+          - Promise<void>

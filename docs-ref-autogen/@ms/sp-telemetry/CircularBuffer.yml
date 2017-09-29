@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.CircularBuffer'
+    name: CircularBuffer
+    fullName: CircularBuffer<DataType>
+    children:
+      - '@ms/sp-telemetry.CircularBuffer.constructor'
+      - '@ms/sp-telemetry.CircularBuffer.forEach'
+      - '@ms/sp-telemetry.CircularBuffer.push'
+      - '@ms/sp-telemetry.CircularBuffer.removeAll'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.CircularBuffer.constructor'
+    name: CircularBuffer
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CircularBuffer(size: number)'
+      parameters:
+        - id: size
+          type:
+            - number
+          description: ''
+  - uid: '@ms/sp-telemetry.CircularBuffer.forEach'
+    name: forEach
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function forEach(handle: (value: DataType) => void)'
+      parameters:
+        - id: handle
+          type:
+            - '(value: DataType) => void'
+          description: ''
+  - uid: '@ms/sp-telemetry.CircularBuffer.push'
+    name: push
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function push(item: DataType)'
+      parameters:
+        - id: item
+          type:
+            - DataType
+          description: ''
+  - uid: '@ms/sp-telemetry.CircularBuffer.removeAll'
+    name: removeAll
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function removeAll()
+      parameters: []

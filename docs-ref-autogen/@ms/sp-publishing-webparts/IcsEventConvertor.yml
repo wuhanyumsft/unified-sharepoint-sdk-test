@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IcsEventConvertor'
+    name: IcsEventConvertor
+    fullName: IcsEventConvertor
+    children:
+      - >-
+        @ms/sp-publishing-webparts.IcsEventConvertor.convertExchangeEventToICSEvent
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      IcsEventConvertor class to convert exchange event format to ics event
+      format.
+    package: '@ms/sp-publishing-webparts'
+  - uid: >-
+      @ms/sp-publishing-webparts.IcsEventConvertor.convertExchangeEventToICSEvent
+    name: convertExchangeEventToICSEvent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function convertExchangeEventToICSEvent(exchangeEvent:
+        IExchangeCalendarEvent)
+      parameters:
+        - id: exchangeEvent
+          type:
+            - '@@ms/sp-publishing-webparts.IExchangeCalendarEvent'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IIcsEvent'

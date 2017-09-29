@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/evergreen.IEvergreenDependencyInfo'
+    name: IEvergreenDependencyInfo
+    fullName: IEvergreenDependencyInfo
+    children:
+      - '@ms/evergreen.IEvergreenDependencyInfo.directEvergreenDependencies'
+      - '@ms/evergreen.IEvergreenDependencyInfo.evergreenVersions'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/evergreen'
+  - uid: '@ms/evergreen.IEvergreenDependencyInfo.directEvergreenDependencies'
+    name: directEvergreenDependencies
+    fullName: directEvergreenDependencies
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<string> directEvergreenDependencies
+      return:
+        type:
+          - Array<string>
+  - uid: '@ms/evergreen.IEvergreenDependencyInfo.evergreenVersions'
+    name: evergreenVersions
+    fullName: evergreenVersions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Map<string> evergreenVersions
+      return:
+        type:
+          - Map<string>

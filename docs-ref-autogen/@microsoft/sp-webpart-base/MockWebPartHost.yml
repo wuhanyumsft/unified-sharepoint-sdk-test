@@ -1,0 +1,110 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.MockWebPartHost'
+    name: MockWebPartHost
+    fullName: MockWebPartHost
+    children:
+      - '@microsoft/sp-webpart-base.MockWebPartHost.eventAggregator'
+      - '@microsoft/sp-webpart-base.MockWebPartHost.httpClient'
+      - '@microsoft/sp-webpart-base.MockWebPartHost.pageContext'
+      - '@microsoft/sp-webpart-base.MockWebPartHost.renderPropertyPane'
+      - '@microsoft/sp-webpart-base.MockWebPartHost.serviceScope'
+      - '@microsoft/sp-webpart-base.MockWebPartHost.spHttpClient'
+      - '@microsoft/sp-webpart-base.MockWebPartHost.statusRenderer'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.MockWebPartHost.eventAggregator'
+    name: eventAggregator
+    fullName: eventAggregator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any eventAggregator
+      return:
+        type:
+          - any
+  - uid: '@microsoft/sp-webpart-base.MockWebPartHost.httpClient'
+    name: httpClient
+    fullName: httpClient
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HttpClient httpClient
+      return:
+        type:
+          - HttpClient
+  - uid: '@microsoft/sp-webpart-base.MockWebPartHost.pageContext'
+    name: pageContext
+    fullName: pageContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageContext pageContext
+      return:
+        type:
+          - PageContext
+  - uid: '@microsoft/sp-webpart-base.MockWebPartHost.renderPropertyPane'
+    name: renderPropertyPane
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function renderPropertyPane(props: __type)'
+      parameters:
+        - id: props
+          type:
+            - __type
+          description: ''
+  - uid: '@microsoft/sp-webpart-base.MockWebPartHost.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope
+  - uid: '@microsoft/sp-webpart-base.MockWebPartHost.spHttpClient'
+    name: spHttpClient
+    fullName: spHttpClient
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: SPHttpClient spHttpClient
+      return:
+        type:
+          - SPHttpClient
+  - uid: '@microsoft/sp-webpart-base.MockWebPartHost.statusRenderer'
+    name: statusRenderer
+    fullName: statusRenderer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: MockClientSideWebPartStatusRenderer statusRenderer
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer'

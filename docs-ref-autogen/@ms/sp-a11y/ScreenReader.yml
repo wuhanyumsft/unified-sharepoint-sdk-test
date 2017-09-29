@@ -1,0 +1,62 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-a11y.ScreenReader'
+    name: ScreenReader
+    fullName: ScreenReader
+    children:
+      - '@ms/sp-a11y.ScreenReader.alert'
+    langs:
+      - typeScript
+    type: class
+    summary: Utility methods that help working with screen reader actions
+    package: '@ms/sp-a11y'
+  - uid: '@ms/sp-a11y.ScreenReader.alert'
+    name: alert
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Make screen reader read a message to the user. This is done by adding a
+      new element to the document that has
+
+      'role' attribute set to 'true'. It gets an id for the message to avoid
+      cluttering the document with new elements.
+
+      If a message element with the given id has been already added, it will be
+      cleaned up before adding a new element.
+
+      Therefore, an application usually needs just one unique id to pass to all
+      invocations of this method.
+
+      The element is hidden by default, but this can be configured via isVisible
+      parameter. Additionally, the caller can
+
+      pass a className to be added to the element.
+    syntax:
+      content: >-
+        static function alert(id: string, message: string, isVisible: boolean,
+        className?: string)
+      parameters:
+        - id: id
+          type:
+            - string
+          description: >-
+            A string identifier passed by the caller. It should be unique per
+            application.
+        - id: message
+          type:
+            - string
+          description: The message to be read by the screen reader
+        - id: isVisible
+          type:
+            - boolean
+          description: >-
+            Whether the element added to the document should be visible.
+            Defaults to false.
+        - id: className
+          type:
+            - string
+          description: |
+            Optional className added to the
+          optional: true

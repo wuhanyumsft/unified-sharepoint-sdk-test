@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/repo-toolbox.IAssemblySize'
+    name: IAssemblySize
+    fullName: IAssemblySize
+    children:
+      - '@ms/repo-toolbox.IAssemblySize.actualSize'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/repo-toolbox'
+  - uid: '@ms/repo-toolbox.IAssemblySize.actualSize'
+    name: actualSize
+    fullName: actualSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: This property reflects the size of the file on disk
+    syntax:
+      content: number actualSize
+      return:
+        type:
+          - number

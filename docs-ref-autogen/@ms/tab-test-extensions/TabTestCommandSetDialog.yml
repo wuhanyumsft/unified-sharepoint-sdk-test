@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/tab-test-extensions.TabTestCommandSetDialog'
+    name: TabTestCommandSetDialog
+    fullName: TabTestCommandSetDialog
+    children:
+      - '@ms/tab-test-extensions.TabTestCommandSetDialog.onExecute'
+      - '@ms/tab-test-extensions.TabTestCommandSetDialog.onInit'
+      - '@ms/tab-test-extensions.TabTestCommandSetDialog.onListViewUpdated'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/tab-test-extensions.TabTestCommandSetDialog<@@ms/tab-test-extensions.ITabTestCommandSetProperties>
+    package: '@ms/tab-test-extensions'
+  - uid: '@ms/tab-test-extensions.TabTestCommandSetDialog.onExecute'
+    name: onExecute
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onExecute(event: IListViewCommandSetExecuteEventParameters)'
+      parameters:
+        - id: event
+          type:
+            - IListViewCommandSetExecuteEventParameters
+          description: ''
+  - uid: '@ms/tab-test-extensions.TabTestCommandSetDialog.onInit'
+    name: onInit
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function onInit()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/tab-test-extensions.TabTestCommandSetDialog.onListViewUpdated'
+    name: onListViewUpdated
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function onListViewUpdated(event:
+        IListViewCommandSetListViewUpdatedParameters)
+      parameters:
+        - id: event
+          type:
+            - IListViewCommandSetListViewUpdatedParameters
+          description: ''

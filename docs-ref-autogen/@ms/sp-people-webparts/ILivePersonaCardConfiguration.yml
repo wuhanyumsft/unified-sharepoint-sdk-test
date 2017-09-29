@@ -1,0 +1,232 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardConfiguration'
+    name: ILivePersonaCardConfiguration
+    fullName: ILivePersonaCardConfiguration
+    children:
+      - '@ms/sp-people-webparts.ILivePersonaCardConfiguration.activeFlights'
+      - >-
+        @ms/sp-people-webparts.ILivePersonaCardConfiguration.consumerCorrelationId
+      - '@ms/sp-people-webparts.ILivePersonaCardConfiguration.contextType'
+      - '@ms/sp-people-webparts.ILivePersonaCardConfiguration.culture'
+      - '@ms/sp-people-webparts.ILivePersonaCardConfiguration.dataCallbacks'
+      - >-
+        @ms/sp-people-webparts.ILivePersonaCardConfiguration.disableLoggingToConsole
+      - '@ms/sp-people-webparts.ILivePersonaCardConfiguration.isDebug'
+      - >-
+        @ms/sp-people-webparts.ILivePersonaCardConfiguration.logToExternalApplication
+      - '@ms/sp-people-webparts.ILivePersonaCardConfiguration.options'
+      - '@ms/sp-people-webparts.ILivePersonaCardConfiguration.performanceTimings'
+      - '@ms/sp-people-webparts.ILivePersonaCardConfiguration.refreshAuthToken'
+      - '@ms/sp-people-webparts.ILivePersonaCardConfiguration.region'
+      - '@ms/sp-people-webparts.ILivePersonaCardConfiguration.scenarioPath'
+      - '@ms/sp-people-webparts.ILivePersonaCardConfiguration.source'
+      - '@ms/sp-people-webparts.ILivePersonaCardConfiguration.strings'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-people-webparts'
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardConfiguration.activeFlights'
+    name: activeFlights
+    fullName: activeFlights
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] activeFlights'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardConfiguration.consumerCorrelationId'
+    name: consumerCorrelationId
+    fullName: consumerCorrelationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string consumerCorrelationId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardConfiguration.contextType'
+    name: contextType
+    fullName: contextType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string contextType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardConfiguration.culture'
+    name: culture
+    fullName: culture
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string culture
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardConfiguration.dataCallbacks'
+    name: dataCallbacks
+    fullName: dataCallbacks
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IDataCallbacks dataCallbacks
+      return:
+        type:
+          - '@@ms/sp-people-webparts.IDataCallbacks'
+  - uid: >-
+      @ms/sp-people-webparts.ILivePersonaCardConfiguration.disableLoggingToConsole
+    name: disableLoggingToConsole
+    fullName: disableLoggingToConsole
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean disableLoggingToConsole
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardConfiguration.isDebug'
+    name: isDebug
+    fullName: isDebug
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isDebug
+      return:
+        type:
+          - boolean
+  - uid: >-
+      @ms/sp-people-webparts.ILivePersonaCardConfiguration.logToExternalApplication
+    name: logToExternalApplication
+    fullName: logToExternalApplication
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        (logType: string, logResultType: string, message: string) => void
+        logToExternalApplication
+      return:
+        type:
+          - '(logType: string, logResultType: string, message: string) => void'
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardConfiguration.options'
+    name: options
+    fullName: options
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ILivePersonaCardOptions options
+      return:
+        type:
+          - '@@ms/sp-people-webparts.ILivePersonaCardOptions'
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardConfiguration.performanceTimings'
+    name: performanceTimings
+    fullName: performanceTimings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: string]: string performanceTimings'
+      return:
+        type:
+          - '[key: string]: string'
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardConfiguration.refreshAuthToken'
+    name: refreshAuthToken
+    fullName: refreshAuthToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        (callback: (token: string, error: string, authRequestCorrelationId:
+        string) => void) => void refreshAuthToken
+      return:
+        type:
+          - >-
+            (callback: (token: string, error: string, authRequestCorrelationId:
+            string) => void) => void
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardConfiguration.region'
+    name: region
+    fullName: region
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string region
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardConfiguration.scenarioPath'
+    name: scenarioPath
+    fullName: scenarioPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string scenarioPath
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardConfiguration.source'
+    name: source
+    fullName: source
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string source
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.ILivePersonaCardConfiguration.strings'
+    name: strings
+    fullName: strings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Object strings
+      return:
+        type:
+          - Object

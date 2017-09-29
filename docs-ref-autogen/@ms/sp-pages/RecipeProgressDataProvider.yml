@@ -1,0 +1,89 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.RecipeProgressDataProvider'
+    name: RecipeProgressDataProvider
+    fullName: RecipeProgressDataProvider
+    children:
+      - '@ms/sp-pages.RecipeProgressDataProvider.applyFormula'
+      - '@ms/sp-pages.RecipeProgressDataProvider.getIsRecipePending'
+      - '@ms/sp-pages.RecipeProgressDataProvider.getProgress'
+      - '@ms/sp-pages.RecipeProgressDataProvider.getProgressAndStages'
+      - '@ms/sp-pages.RecipeProgressDataProvider.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.RecipeProgressDataProvider.applyFormula'
+    name: applyFormula
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function applyFormula()
+      parameters: []
+  - uid: '@ms/sp-pages.RecipeProgressDataProvider.getIsRecipePending'
+    name: getIsRecipePending
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getIsRecipePending()
+      parameters: []
+      return:
+        type:
+          - Promise<boolean>
+  - uid: '@ms/sp-pages.RecipeProgressDataProvider.getProgress'
+    name: getProgress
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getProgress()
+      parameters: []
+      return:
+        type:
+          - 'Promise<@@ms/sp-pages.IStageResultData[]>'
+  - uid: '@ms/sp-pages.RecipeProgressDataProvider.getProgressAndStages'
+    name: getProgressAndStages
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getProgressAndStages(allowApplyFormula: boolean)'
+      parameters:
+        - id: allowApplyFormula
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - Promise<IRecipeAndStageResultData>
+  - uid: '@ms/sp-pages.RecipeProgressDataProvider.constructor'
+    name: RecipeProgressDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new RecipeProgressDataProvider(pageContext: PageContext, spHttpClient:
+        SPHttpClient)
+      parameters:
+        - id: pageContext
+          type:
+            - PageContext
+          description: ''
+        - id: spHttpClient
+          type:
+            - SPHttpClient
+          description: ''

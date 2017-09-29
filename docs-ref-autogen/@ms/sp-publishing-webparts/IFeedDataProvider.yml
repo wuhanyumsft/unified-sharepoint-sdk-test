@@ -1,0 +1,77 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IFeedDataProvider'
+    name: IFeedDataProvider
+    fullName: IFeedDataProvider
+    children:
+      - '@ms/sp-publishing-webparts.IFeedDataProvider.getCurrentUser'
+      - '@ms/sp-publishing-webparts.IFeedDataProvider.getDirectoryInfo'
+      - '@ms/sp-publishing-webparts.IFeedDataProvider.getFeed'
+      - '@ms/sp-publishing-webparts.IFeedDataProvider.postMessage'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IFeedDataProvider.getCurrentUser'
+    name: getCurrentUser
+    fullName: getCurrentUser
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => Promise<ICurrentUser> getCurrentUser
+      return:
+        type:
+          - () => Promise<ICurrentUser>
+  - uid: '@ms/sp-publishing-webparts.IFeedDataProvider.getDirectoryInfo'
+    name: getDirectoryInfo
+    fullName: getDirectoryInfo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        (groupId: string, tennantId: string) => Promise<IDirectory>
+        getDirectoryInfo
+      return:
+        type:
+          - '(groupId: string, tennantId: string) => Promise<IDirectory>'
+  - uid: '@ms/sp-publishing-webparts.IFeedDataProvider.getFeed'
+    name: getFeed
+    fullName: getFeed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        (yammerGroupId: string, networkId: string, feedType: FeedType) =>
+        Promise<IFeed> getFeed
+      return:
+        type:
+          - >-
+            (yammerGroupId: string, networkId: string, feedType: FeedType) =>
+            Promise<IFeed>
+  - uid: '@ms/sp-publishing-webparts.IFeedDataProvider.postMessage'
+    name: postMessage
+    fullName: postMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        (messageBody: string, groupId: string, networkId: string) =>
+        Promise<void> postMessage
+      return:
+        type:
+          - >-
+            (messageBody: string, groupId: string, networkId: string) =>
+            Promise<void>

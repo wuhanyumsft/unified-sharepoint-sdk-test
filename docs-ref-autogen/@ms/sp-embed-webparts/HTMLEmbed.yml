@@ -1,0 +1,264 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-embed-webparts.HTMLEmbed'
+    name: HTMLEmbed
+    fullName: HTMLEmbed
+    children:
+      - '@ms/sp-embed-webparts.HTMLEmbed.className'
+      - '@ms/sp-embed-webparts.HTMLEmbed.getAccessibleTitle'
+      - '@ms/sp-embed-webparts.HTMLEmbed.getRealWebPartDom'
+      - '@ms/sp-embed-webparts.HTMLEmbed.heightStr'
+      - '@ms/sp-embed-webparts.HTMLEmbed.htmlAttrSplit'
+      - '@ms/sp-embed-webparts.HTMLEmbed.constructor'
+      - '@ms/sp-embed-webparts.HTMLEmbed.isValidForRenderIframe'
+      - '@ms/sp-embed-webparts.HTMLEmbed.isValidIframe'
+      - '@ms/sp-embed-webparts.HTMLEmbed.normalize'
+      - '@ms/sp-embed-webparts.HTMLEmbed.render'
+      - '@ms/sp-embed-webparts.HTMLEmbed.scaleWidthAndHeight'
+      - '@ms/sp-embed-webparts.HTMLEmbed.srcStr'
+      - '@ms/sp-embed-webparts.HTMLEmbed.styleStr'
+      - '@ms/sp-embed-webparts.HTMLEmbed.tabIndexStr'
+      - '@ms/sp-embed-webparts.HTMLEmbed.widthStr'
+    langs:
+      - typeScript
+    type: class
+    summary: A client side webpart to embed some code on a page.
+    extends:
+      name: '@@ms/sp-embed-webparts.HTMLEmbed<@@ms/sp-embed-webparts.IHTMLEmbedProps>'
+    package: '@ms/sp-embed-webparts'
+  - uid: '@ms/sp-embed-webparts.HTMLEmbed.className'
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string className
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.HTMLEmbed.getAccessibleTitle'
+    name: getAccessibleTitle
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns caption for accessible title or undefined if not set.
+    syntax:
+      content: 'function getAccessibleTitle(webPartName: string)'
+      parameters:
+        - id: webPartName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.HTMLEmbed.getRealWebPartDom'
+    name: getRealWebPartDom
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getRealWebPartDom(parentDom: HTMLElement)'
+      parameters:
+        - id: parentDom
+          type:
+            - HTMLElement
+          description: ''
+      return:
+        type:
+          - HTMLElement
+  - uid: '@ms/sp-embed-webparts.HTMLEmbed.heightStr'
+    name: heightStr
+    fullName: heightStr
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string heightStr
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.HTMLEmbed.htmlAttrSplit'
+    name: htmlAttrSplit
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function htmlAttrSplit(htmlStr: string)'
+      parameters:
+        - id: htmlStr
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-embed-webparts.HTMLEmbed.constructor'
+    name: HTMLEmbed
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new HTMLEmbed(props: IHTMLEmbedProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-embed-webparts.IHTMLEmbedProps'
+          description: ''
+  - uid: '@ms/sp-embed-webparts.HTMLEmbed.isValidForRenderIframe'
+    name: isValidForRenderIframe
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function isValidForRenderIframe(iframeAttributeMap: [key:
+        string]: string)
+      parameters:
+        - id: iframeAttributeMap
+          type:
+            - '[key: string]: string'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-embed-webparts.HTMLEmbed.isValidIframe'
+    name: isValidIframe
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isValidIframe(embedCode: string)'
+      parameters:
+        - id: embedCode
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-embed-webparts.HTMLEmbed.normalize'
+    name: normalize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function normalize(embedCode: string)'
+      parameters:
+        - id: embedCode
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.HTMLEmbed.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Main entry point, called by the ClientSideWebPart Manager. Loads the
+      webpart's DOM manipulation.
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-embed-webparts.HTMLEmbed.scaleWidthAndHeight'
+    name: scaleWidthAndHeight
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function scaleWidthAndHeight(iframeAttributeMap: [key: string]:
+        string, scaledWidth: number, scaledHeight: number, shouldScale: boolean)
+      parameters:
+        - id: iframeAttributeMap
+          type:
+            - '[key: string]: string'
+          description: ''
+        - id: scaledWidth
+          type:
+            - number
+          description: ''
+        - id: scaledHeight
+          type:
+            - number
+          description: ''
+        - id: shouldScale
+          type:
+            - boolean
+          description: ''
+  - uid: '@ms/sp-embed-webparts.HTMLEmbed.srcStr'
+    name: srcStr
+    fullName: srcStr
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string srcStr
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.HTMLEmbed.styleStr'
+    name: styleStr
+    fullName: styleStr
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string styleStr
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.HTMLEmbed.tabIndexStr'
+    name: tabIndexStr
+    fullName: tabIndexStr
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string tabIndexStr
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.HTMLEmbed.widthStr'
+    name: widthStr
+    fullName: widthStr
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string widthStr
+      return:
+        type:
+          - string

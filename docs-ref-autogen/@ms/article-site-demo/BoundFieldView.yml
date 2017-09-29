@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/article-site-demo.BoundFieldView'
+    name: BoundFieldView
+    fullName: BoundFieldView<P>
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/article-site-demo.BoundFieldView<P>'
+    package: '@ms/article-site-demo'

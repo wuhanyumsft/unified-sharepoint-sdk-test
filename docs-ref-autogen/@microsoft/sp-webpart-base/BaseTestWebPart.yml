@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.BaseTestWebPart'
+    name: BaseTestWebPart
+    fullName: BaseTestWebPart<P>
+    children:
+      - >-
+        @microsoft/sp-webpart-base.BaseTestWebPart.publicPropertyPaneConfiguration
+      - '@microsoft/sp-webpart-base.BaseTestWebPart.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@microsoft/sp-webpart-base.BaseClientSideWebPart<P>'
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.BaseTestWebPart.publicPropertyPaneConfiguration'
+    name: publicPropertyPaneConfiguration
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function publicPropertyPaneConfiguration()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.IPropertyPaneConfiguration'
+  - uid: '@microsoft/sp-webpart-base.BaseTestWebPart.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function render(mode: DisplayMode, data?: IWebPartData)'
+      parameters:
+        - id: mode
+          type:
+            - DisplayMode
+          description: ''
+        - id: data
+          type:
+            - '@@microsoft/sp-webpart-base.IWebPartData'
+          description: ''
+          optional: true

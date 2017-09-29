@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.OperationStatus'
+    name: OperationStatus
+    fullName: OperationStatus
+    children:
+      - '@ms/sp-tenant-admin-page.OperationStatus.Complete'
+      - '@ms/sp-tenant-admin-page.OperationStatus.InProgress'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.OperationStatus.Complete'
+    name: Complete
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-tenant-admin-page.OperationStatus.InProgress'
+    name: InProgress
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1

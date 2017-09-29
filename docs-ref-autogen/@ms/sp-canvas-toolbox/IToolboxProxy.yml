@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.IToolboxProxy'
+    name: IToolboxProxy
+    fullName: IToolboxProxy
+    children:
+      - '@ms/sp-canvas-toolbox.IToolboxProxy.closeToolbox'
+      - '@ms/sp-canvas-toolbox.IToolboxProxy.openToolbox'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas-toolbox'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxProxy.closeToolbox'
+    name: closeToolbox
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function closeToolbox()
+      parameters: []
+  - uid: '@ms/sp-canvas-toolbox.IToolboxProxy.openToolbox'
+    name: openToolbox
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function openToolbox(sourceControlPosition: IControlPosition,
+        toolboxVerticalPosition: number, toolboxHorizontalPosition: number)
+      parameters:
+        - id: sourceControlPosition
+          type:
+            - '@@ms/sp-canvas-toolbox.IControlPosition'
+          description: ''
+        - id: toolboxVerticalPosition
+          type:
+            - number
+          description: ''
+        - id: toolboxHorizontalPosition
+          type:
+            - number
+          description: ''

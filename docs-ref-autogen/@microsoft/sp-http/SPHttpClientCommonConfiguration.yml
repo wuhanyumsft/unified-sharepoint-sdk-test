@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.SPHttpClientCommonConfiguration'
+    name: SPHttpClientCommonConfiguration
+    fullName: SPHttpClientCommonConfiguration
+    children:
+      - '@microsoft/sp-http.SPHttpClientCommonConfiguration.overrideWith'
+      - '@microsoft/sp-http.SPHttpClientCommonConfiguration.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Common base class for SPHttpClientConfiguration and
+      SPHttpClientBatchConfiguration.
+    extends:
+      name: '@@microsoft/sp-http.HttpClientConfiguration'
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.SPHttpClientCommonConfiguration.overrideWith'
+    name: overrideWith
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function overrideWith(sourceFlags: ISPHttpClientCommonConfiguration)'
+      parameters:
+        - id: sourceFlags
+          type:
+            - '@@microsoft/sp-http.ISPHttpClientCommonConfiguration'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-http.SPHttpClientCommonConfiguration'
+  - uid: '@microsoft/sp-http.SPHttpClientCommonConfiguration.constructor'
+    name: SPHttpClientCommonConfiguration
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: >-
+      Constructs a new instance of SPHttpClientCommonConfiguration with the
+      specified flags.
+
+      The default values will be used for any flags that are missing or
+      undefined.
+
+      If overrideFlags is specified, it takes precedence over flags.
+    syntax:
+      content: >-
+        new SPHttpClientCommonConfiguration(flags:
+        ISPHttpClientCommonConfiguration, overrideFlags?:
+        ISPHttpClientCommonConfiguration)
+      parameters:
+        - id: flags
+          type:
+            - '@@microsoft/sp-http.ISPHttpClientCommonConfiguration'
+          description: ''
+        - id: overrideFlags
+          type:
+            - '@@microsoft/sp-http.ISPHttpClientCommonConfiguration'
+          description: ''
+          optional: true

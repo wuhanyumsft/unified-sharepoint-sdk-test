@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-utilities.Global'
+    package: '@ms/sp-client-utilities'
+    name: Global
+    children:
+      - '@ms/sp-client-utilities.configureTasks'
+      - '@ms/sp-client-utilities.defineTasks'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@ms/sp-client-utilities.configureTasks'
+    name: configureTasks
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function configureTasks()
+      parameters: []
+  - uid: '@ms/sp-client-utilities.defineTasks'
+    name: defineTasks
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function defineTasks(nodeLibraryBuild: any)'
+      parameters:
+        - id: nodeLibraryBuild
+          type:
+            - any
+          description: ''

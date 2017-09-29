@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/test-extensions-application.ReactPage'
+    name: ReactPage
+    fullName: ReactPage
+    children:
+      - '@ms/test-extensions-application.ReactPage.render'
+    langs:
+      - typeScript
+    type: class
+    summary: Renders the web page that contains the ReactListView component.
+    extends:
+      name: >-
+        @@ms/test-extensions-application.ReactPage<@@ms/test-extensions-application.IReactPageProps>
+    package: '@ms/test-extensions-application'
+  - uid: '@ms/test-extensions-application.ReactPage.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-other-webparts.WorldClockDeleteButton'
+    name: WorldClockDeleteButton
+    fullName: WorldClockDeleteButton
+    children:
+      - '@ms/sp-other-webparts.WorldClockDeleteButton.render'
+      - '@ms/sp-other-webparts.WorldClockDeleteButton.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: WorldClock delete button component.
+    extends:
+      name: >-
+        @@ms/sp-other-webparts.WorldClockDeleteButton<@@ms/sp-other-webparts.IWorldClockDeleteButtonProps>
+    package: '@ms/sp-other-webparts'
+  - uid: '@ms/sp-other-webparts.WorldClockDeleteButton.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@ms/sp-other-webparts.IWorldClockDeleteButtonProps>
+  - uid: '@ms/sp-other-webparts.WorldClockDeleteButton.constructor'
+    name: WorldClockDeleteButton
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new WorldClockDeleteButton(props: IWorldClockDeleteButtonProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-other-webparts.IWorldClockDeleteButtonProps'
+          description: ''

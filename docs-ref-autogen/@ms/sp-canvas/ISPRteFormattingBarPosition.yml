@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ISPRteFormattingBarPosition'
+    name: ISPRteFormattingBarPosition
+    fullName: ISPRteFormattingBarPosition
+    children:
+      - '@ms/sp-canvas.ISPRteFormattingBarPosition.left'
+      - '@ms/sp-canvas.ISPRteFormattingBarPosition.right'
+      - '@ms/sp-canvas.ISPRteFormattingBarPosition.top'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ISPRteFormattingBarPosition.left'
+    name: left
+    fullName: left
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number left
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-canvas.ISPRteFormattingBarPosition.right'
+    name: right
+    fullName: right
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number right
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-canvas.ISPRteFormattingBarPosition.top'
+    name: top
+    fullName: top
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number top
+      return:
+        type:
+          - number

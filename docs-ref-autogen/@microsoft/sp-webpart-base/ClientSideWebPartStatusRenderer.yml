@@ -1,0 +1,102 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.ClientSideWebPartStatusRenderer'
+    name: ClientSideWebPartStatusRenderer
+    fullName: ClientSideWebPartStatusRenderer
+    children:
+      - '@microsoft/sp-webpart-base.ClientSideWebPartStatusRenderer.clearError'
+      - >-
+        @microsoft/sp-webpart-base.ClientSideWebPartStatusRenderer.clearLoadingIndicator
+      - >-
+        @microsoft/sp-webpart-base.ClientSideWebPartStatusRenderer.displayLoadingIndicator
+      - '@microsoft/sp-webpart-base.ClientSideWebPartStatusRenderer.renderError'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      This class provides the default implementation for displaying loading
+      indicator and error messages
+
+      for web parts. The web part host can decide to provide custom
+      implemenation of how web parts display
+
+      loading indicators and error messages.
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.ClientSideWebPartStatusRenderer.clearError'
+    name: clearError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Clear the web part error message.
+    syntax:
+      content: 'function clearError(domElement: HTMLElement)'
+      parameters:
+        - id: domElement
+          type:
+            - HTMLElement
+          description: |
+            the web part container div.
+  - uid: >-
+      @microsoft/sp-webpart-base.ClientSideWebPartStatusRenderer.clearLoadingIndicator
+    name: clearLoadingIndicator
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Clear the loading indicator.
+    syntax:
+      content: 'function clearLoadingIndicator(domElement: HTMLElement)'
+      parameters:
+        - id: domElement
+          type:
+            - HTMLElement
+          description: |
+            the web part container div.
+  - uid: >-
+      @microsoft/sp-webpart-base.ClientSideWebPartStatusRenderer.displayLoadingIndicator
+    name: displayLoadingIndicator
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Display a loading spinner.
+    syntax:
+      content: >-
+        function displayLoadingIndicator(domElement: HTMLElement,
+        loadingMessage: string, timeout?: number)
+      parameters:
+        - id: domElement
+          type:
+            - HTMLElement
+          description: the web part container div.
+        - id: loadingMessage
+          type:
+            - string
+          description: the message to be displayed when the loading spinner id displayed.
+        - id: timeout
+          type:
+            - number
+          description: >
+            (optional) - timeout to render the loading indicator. Default is
+            1500ms.
+          optional: true
+  - uid: '@microsoft/sp-webpart-base.ClientSideWebPartStatusRenderer.renderError'
+    name: renderError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Render the provided error message in the web part container div.
+    syntax:
+      content: 'function renderError(domElement: HTMLElement, error: Error)'
+      parameters:
+        - id: domElement
+          type:
+            - HTMLElement
+          description: the web part container div.
+        - id: error
+          type:
+            - Error
+          description: |
+            the error message.

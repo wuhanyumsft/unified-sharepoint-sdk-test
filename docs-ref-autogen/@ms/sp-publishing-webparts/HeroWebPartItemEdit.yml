@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.HeroWebPartItemEdit'
+    name: HeroWebPartItemEdit
+    fullName: HeroWebPartItemEdit
+    children:
+      - '@ms/sp-publishing-webparts.HeroWebPartItemEdit.constructor'
+      - '@ms/sp-publishing-webparts.HeroWebPartItemEdit.TestIncludeScripts'
+      - '@ms/sp-publishing-webparts.HeroWebPartItemEdit.TestName'
+      - '@ms/sp-publishing-webparts.HeroWebPartItemEdit.TestOwner'
+      - '@ms/sp-publishing-webparts.HeroWebPartItemEdit.TestRun'
+      - '@ms/sp-publishing-webparts.HeroWebPartItemEdit.TestSetup'
+      - '@ms/sp-publishing-webparts.HeroWebPartItemEdit.TestTeardown'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.HeroWebPartItemEdit.constructor'
+    name: HeroWebPartItemEdit
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new HeroWebPartItemEdit(serverURL: string)'
+      parameters:
+        - id: serverURL
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.HeroWebPartItemEdit.TestIncludeScripts'
+    name: TestIncludeScripts
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestIncludeScripts()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.HeroWebPartItemEdit.TestName'
+    name: TestName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestName()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.HeroWebPartItemEdit.TestOwner'
+    name: TestOwner
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestOwner()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.HeroWebPartItemEdit.TestRun'
+    name: TestRun
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestRun()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.HeroWebPartItemEdit.TestSetup'
+    name: TestSetup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestSetup()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.HeroWebPartItemEdit.TestTeardown'
+    name: TestTeardown
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestTeardown()
+      parameters: []

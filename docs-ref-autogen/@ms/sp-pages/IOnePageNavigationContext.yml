@@ -1,0 +1,165 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IOnePageNavigationContext'
+    name: IOnePageNavigationContext
+    fullName: IOnePageNavigationContext
+    children:
+      - '@ms/sp-pages.IOnePageNavigationContext.bundlePaths'
+      - '@ms/sp-pages.IOnePageNavigationContext.fallbackUrl'
+      - '@ms/sp-pages.IOnePageNavigationContext.hidden'
+      - '@ms/sp-pages.IOnePageNavigationContext.newBrowserLocation'
+      - '@ms/sp-pages.IOnePageNavigationContext.requireConfig'
+      - '@ms/sp-pages.IOnePageNavigationContext.requireJSPath'
+      - '@ms/sp-pages.IOnePageNavigationContext.sourceRequire'
+      - '@ms/sp-pages.IOnePageNavigationContext.spListBoot'
+      - '@ms/sp-pages.IOnePageNavigationContext.startPrefetch'
+      - '@ms/sp-pages.IOnePageNavigationContext.targetListUrl'
+      - '@ms/sp-pages.IOnePageNavigationContext.workingOnIt'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IOnePageNavigationContext.bundlePaths'
+    name: bundlePaths
+    fullName: bundlePaths
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] bundlePaths'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-pages.IOnePageNavigationContext.fallbackUrl'
+    name: fallbackUrl
+    fullName: fallbackUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string fallbackUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IOnePageNavigationContext.hidden'
+    name: hidden
+    fullName: hidden
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hidden
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IOnePageNavigationContext.newBrowserLocation'
+    name: newBrowserLocation
+    fullName: newBrowserLocation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string newBrowserLocation
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IOnePageNavigationContext.requireConfig'
+    name: requireConfig
+    fullName: requireConfig
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void requireConfig
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-pages.IOnePageNavigationContext.requireJSPath'
+    name: requireJSPath
+    fullName: requireJSPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string requireJSPath
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IOnePageNavigationContext.sourceRequire'
+    name: sourceRequire
+    fullName: sourceRequire
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IRequire sourceRequire
+      return:
+        type:
+          - IRequire
+  - uid: '@ms/sp-pages.IOnePageNavigationContext.spListBoot'
+    name: spListBoot
+    fullName: spListBoot
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void spListBoot
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-pages.IOnePageNavigationContext.startPrefetch'
+    name: startPrefetch
+    fullName: startPrefetch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(onePagePrefetchParams: IOnePagePrefetchParams) => void startPrefetch'
+      return:
+        type:
+          - '(onePagePrefetchParams: IOnePagePrefetchParams) => void'
+  - uid: '@ms/sp-pages.IOnePageNavigationContext.targetListUrl'
+    name: targetListUrl
+    fullName: targetListUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string targetListUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IOnePageNavigationContext.workingOnIt'
+    name: workingOnIt
+    fullName: workingOnIt
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string workingOnIt
+      return:
+        type:
+          - string

@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IComponent'
+    name: IComponent
+    fullName: IComponent
+    children:
+      - '@microsoft/sp-build-core-tasks.IComponent.componentDefinition'
+      - '@microsoft/sp-build-core-tasks.IComponent.description'
+      - '@microsoft/sp-build-core-tasks.IComponent.id'
+      - '@microsoft/sp-build-core-tasks.IComponent.manifest'
+      - '@microsoft/sp-build-core-tasks.IComponent.name'
+      - '@microsoft/sp-build-core-tasks.IComponent.requiresCustomScript'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.IComponent.componentDefinition'
+    name: componentDefinition
+    fullName: componentDefinition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IWebPartDefinition componentDefinition
+      return:
+        type:
+          - IWebPartDefinition
+  - uid: '@microsoft/sp-build-core-tasks.IComponent.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string description
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IComponent.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IComponent.manifest'
+    name: manifest
+    fullName: manifest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IClientSideComponentManifest manifest
+      return:
+        type:
+          - IClientSideComponentManifest
+  - uid: '@microsoft/sp-build-core-tasks.IComponent.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IComponent.requiresCustomScript'
+    name: requiresCustomScript
+    fullName: requiresCustomScript
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean requiresCustomScript
+      return:
+        type:
+          - boolean

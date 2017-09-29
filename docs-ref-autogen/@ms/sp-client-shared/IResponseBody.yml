@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-shared.IResponseBody'
+    name: IResponseBody
+    fullName: IResponseBody
+    children:
+      - '@ms/sp-client-shared.IResponseBody.access_token'
+      - '@ms/sp-client-shared.IResponseBody.expires_on'
+      - '@ms/sp-client-shared.IResponseBody.not_before'
+      - '@ms/sp-client-shared.IResponseBody.resource'
+      - '@ms/sp-client-shared.IResponseBody.token_type'
+    langs:
+      - typeScript
+    type: interface
+    summary: Structure that matches the http response json body
+    package: '@ms/sp-client-shared'
+  - uid: '@ms/sp-client-shared.IResponseBody.access_token'
+    name: access_token
+    fullName: access_token
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string access_token
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-shared.IResponseBody.expires_on'
+    name: expires_on
+    fullName: expires_on
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string expires_on
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-shared.IResponseBody.not_before'
+    name: not_before
+    fullName: not_before
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string not_before
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-shared.IResponseBody.resource'
+    name: resource
+    fullName: resource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string resource
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-shared.IResponseBody.token_type'
+    name: token_type
+    fullName: token_type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string token_type
+      return:
+        type:
+          - string

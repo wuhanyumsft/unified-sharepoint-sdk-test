@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-chart-webparts.IChartProps'
+    name: IChartProps
+    fullName: IChartProps
+    children:
+      - '@ms/sp-chart-webparts.IChartProps.isEditMode'
+      - '@ms/sp-chart-webparts.IChartProps.isInitialState'
+      - '@ms/sp-chart-webparts.IChartProps.isRTL'
+      - '@ms/sp-chart-webparts.IChartProps.options'
+      - '@ms/sp-chart-webparts.IChartProps.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: Highcharts component properties.
+    package: '@ms/sp-chart-webparts'
+  - uid: '@ms/sp-chart-webparts.IChartProps.isEditMode'
+    name: isEditMode
+    fullName: isEditMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isEditMode
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-chart-webparts.IChartProps.isInitialState'
+    name: isInitialState
+    fullName: isInitialState
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isInitialState
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-chart-webparts.IChartProps.isRTL'
+    name: isRTL
+    fullName: isRTL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isRTL
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-chart-webparts.IChartProps.options'
+    name: options
+    fullName: options
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Options options
+      return:
+        type:
+          - Options
+  - uid: '@ms/sp-chart-webparts.IChartProps.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number width
+      return:
+        type:
+          - number

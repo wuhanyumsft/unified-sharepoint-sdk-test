@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.HostPageLoggingType'
+    name: HostPageLoggingType
+    fullName: HostPageLoggingType
+    children:
+      - '@ms/sp-teamsite-webparts.HostPageLoggingType.ActivityL2Page'
+      - '@ms/sp-teamsite-webparts.HostPageLoggingType.HomePage'
+      - '@ms/sp-teamsite-webparts.HostPageLoggingType.OtherPage'
+    langs:
+      - typeScript
+    type: enum
+    summary: Different page types that can host site activity webpart.
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.HostPageLoggingType.ActivityL2Page'
+    name: ActivityL2Page
+    children: []
+    langs:
+      - typeScript
+    summary: Host page is Activity L2 page
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.HostPageLoggingType.HomePage'
+    name: HomePage
+    children: []
+    langs:
+      - typeScript
+    summary: Host page is home page
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.HostPageLoggingType.OtherPage'
+    name: OtherPage
+    children: []
+    langs:
+      - typeScript
+    summary: Host page is other modern site page
+    type: field

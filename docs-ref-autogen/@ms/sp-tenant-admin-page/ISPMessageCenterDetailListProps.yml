@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISPMessageCenterDetailListProps'
+    name: ISPMessageCenterDetailListProps
+    fullName: ISPMessageCenterDetailListProps
+    children:
+      - '@ms/sp-tenant-admin-page.ISPMessageCenterDetailListProps.dataProvider'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ISPMessageCenterDetailListProps.dataProvider'
+    name: dataProvider
+    fullName: dataProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The data provider used to provide a list of message center items
+      which will be shown in the Details List.
+    syntax:
+      content: IMessageCenterDataProvider dataProvider
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IMessageCenterDataProvider'

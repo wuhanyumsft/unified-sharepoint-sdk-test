@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropOptions'
+    name: ISPImageCropOptions
+    fullName: ISPImageCropOptions
+    children:
+      - '@ms/sp-publishing-webparts.ISPImageCropOptions.aspectRatio'
+      - '@ms/sp-publishing-webparts.ISPImageCropOptions.cropBoxResizable'
+      - '@ms/sp-publishing-webparts.ISPImageCropOptions.data'
+      - '@ms/sp-publishing-webparts.ISPImageCropOptions.onCropEnd'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropOptions.aspectRatio'
+    name: aspectRatio
+    fullName: aspectRatio
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number aspectRatio
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropOptions.cropBoxResizable'
+    name: cropBoxResizable
+    fullName: cropBoxResizable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean cropBoxResizable
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropOptions.data'
+    name: data
+    fullName: data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISPImageCropData data
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.ISPImageCropData'
+  - uid: '@ms/sp-publishing-webparts.ISPImageCropOptions.onCropEnd'
+    name: onCropEnd
+    fullName: onCropEnd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onCropEnd
+      return:
+        type:
+          - () => void

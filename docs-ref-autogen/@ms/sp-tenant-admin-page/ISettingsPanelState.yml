@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISettingsPanelState'
+    name: ISettingsPanelState
+    fullName: ISettingsPanelState
+    children:
+      - '@ms/sp-tenant-admin-page.ISettingsPanelState.error'
+      - '@ms/sp-tenant-admin-page.ISettingsPanelState.isSyncHidden'
+      - '@ms/sp-tenant-admin-page.ISettingsPanelState.settingsGroup'
+      - '@ms/sp-tenant-admin-page.ISettingsPanelState.showPanel'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ISettingsPanelState.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Error error
+      return:
+        type:
+          - Error
+  - uid: '@ms/sp-tenant-admin-page.ISettingsPanelState.isSyncHidden'
+    name: isSyncHidden
+    fullName: isSyncHidden
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSyncHidden
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.ISettingsPanelState.settingsGroup'
+    name: settingsGroup
+    fullName: settingsGroup
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: SettingsGroup settingsGroup
+      return:
+        type:
+          - SettingsGroup
+  - uid: '@ms/sp-tenant-admin-page.ISettingsPanelState.showPanel'
+    name: showPanel
+    fullName: showPanel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showPanel
+      return:
+        type:
+          - boolean

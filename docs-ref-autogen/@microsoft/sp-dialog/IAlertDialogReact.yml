@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-dialog.IAlertDialogReact'
+    name: IAlertDialogReact
+    fullName: IAlertDialogReact
+    children:
+      - '@microsoft/sp-dialog.IAlertDialogReact.close'
+      - '@microsoft/sp-dialog.IAlertDialogReact.message'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-dialog'
+  - uid: '@microsoft/sp-dialog.IAlertDialogReact.close'
+    name: close
+    fullName: close
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void close
+      return:
+        type:
+          - () => void
+  - uid: '@microsoft/sp-dialog.IAlertDialogReact.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string message
+      return:
+        type:
+          - string

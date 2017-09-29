@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.ILazyLoaderProps'
+    name: ILazyLoaderProps
+    fullName: ILazyLoaderProps
+    children:
+      - '@ms/sp-webpart-shared.ILazyLoaderProps.height'
+      - '@ms/sp-webpart-shared.ILazyLoaderProps.offset'
+      - '@ms/sp-webpart-shared.ILazyLoaderProps.onRendered'
+      - '@ms/sp-webpart-shared.ILazyLoaderProps.placeholder'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.ILazyLoaderProps.height'
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number height
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-webpart-shared.ILazyLoaderProps.offset'
+    name: offset
+    fullName: offset
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number offset
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-webpart-shared.ILazyLoaderProps.onRendered'
+    name: onRendered
+    fullName: onRendered
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onRendered
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-webpart-shared.ILazyLoaderProps.placeholder'
+    name: placeholder
+    fullName: placeholder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ReactElement<void> placeholder
+      return:
+        type:
+          - ReactElement<void>

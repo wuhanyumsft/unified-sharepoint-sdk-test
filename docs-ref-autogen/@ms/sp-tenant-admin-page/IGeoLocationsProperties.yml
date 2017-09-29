@@ -1,0 +1,129 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationsProperties'
+    name: IGeoLocationsProperties
+    fullName: IGeoLocationsProperties
+    children:
+      - '@ms/sp-tenant-admin-page.IGeoLocationsProperties.GeoLocation'
+      - '@ms/sp-tenant-admin-page.IGeoLocationsProperties.InstanceId'
+      - >-
+        @ms/sp-tenant-admin-page.IGeoLocationsProperties.IsCurrentUserGeoAdministrator
+      - '@ms/sp-tenant-admin-page.IGeoLocationsProperties.IsDefaultGeoLocation'
+      - '@ms/sp-tenant-admin-page.IGeoLocationsProperties.MySiteHostDomain'
+      - '@ms/sp-tenant-admin-page.IGeoLocationsProperties.PortalDomain'
+      - '@ms/sp-tenant-admin-page.IGeoLocationsProperties.RootSiteDomain'
+      - '@ms/sp-tenant-admin-page.IGeoLocationsProperties.TenantAdminDomain'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      This interface is to hold the response data of the SharePoint OData API:
+      /_api/GeoTenantInstanceInformationCollection
+    extends:
+      name: any
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationsProperties.GeoLocation'
+    name: GeoLocation
+    fullName: GeoLocation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string GeoLocation
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationsProperties.InstanceId'
+    name: InstanceId
+    fullName: InstanceId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string InstanceId
+      return:
+        type:
+          - string
+  - uid: >-
+      @ms/sp-tenant-admin-page.IGeoLocationsProperties.IsCurrentUserGeoAdministrator
+    name: IsCurrentUserGeoAdministrator
+    fullName: IsCurrentUserGeoAdministrator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean IsCurrentUserGeoAdministrator
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationsProperties.IsDefaultGeoLocation'
+    name: IsDefaultGeoLocation
+    fullName: IsDefaultGeoLocation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean IsDefaultGeoLocation
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationsProperties.MySiteHostDomain'
+    name: MySiteHostDomain
+    fullName: MySiteHostDomain
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string MySiteHostDomain
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationsProperties.PortalDomain'
+    name: PortalDomain
+    fullName: PortalDomain
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string PortalDomain
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationsProperties.RootSiteDomain'
+    name: RootSiteDomain
+    fullName: RootSiteDomain
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string RootSiteDomain
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationsProperties.TenantAdminDomain'
+    name: TenantAdminDomain
+    fullName: TenantAdminDomain
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string TenantAdminDomain
+      return:
+        type:
+          - string

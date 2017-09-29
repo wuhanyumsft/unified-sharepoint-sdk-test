@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.ITimeSpanStrings'
+    name: ITimeSpanStrings
+    fullName: ITimeSpanStrings
+    children:
+      - '@ms/sp-component-utilities.ITimeSpanStrings.nextMonthAriaLabel'
+      - '@ms/sp-component-utilities.ITimeSpanStrings.nextYearAriaLabel'
+      - '@ms/sp-component-utilities.ITimeSpanStrings.prevMonthAriaLabel'
+      - '@ms/sp-component-utilities.ITimeSpanStrings.prevYearAriaLabel'
+      - '@ms/sp-component-utilities.ITimeSpanStrings.requiredFieldErrorMessage'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.ITimeSpanStrings.nextMonthAriaLabel'
+    name: nextMonthAriaLabel
+    fullName: nextMonthAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The aria-label of the next month button in date picker.
+    syntax:
+      content: string nextMonthAriaLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.ITimeSpanStrings.nextYearAriaLabel'
+    name: nextYearAriaLabel
+    fullName: nextYearAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The aria-label of the next year button in date picker.
+    syntax:
+      content: string nextYearAriaLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.ITimeSpanStrings.prevMonthAriaLabel'
+    name: prevMonthAriaLabel
+    fullName: prevMonthAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The aria-label of the previous month button in date picker.
+    syntax:
+      content: string prevMonthAriaLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.ITimeSpanStrings.prevYearAriaLabel'
+    name: prevYearAriaLabel
+    fullName: prevYearAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The aria-label of the previous year button in date picker.
+    syntax:
+      content: string prevYearAriaLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.ITimeSpanStrings.requiredFieldErrorMessage'
+    name: requiredFieldErrorMessage
+    fullName: requiredFieldErrorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Error message to render for TextField if isRequired validation fails.
+    syntax:
+      content: string requiredFieldErrorMessage
+      return:
+        type:
+          - string

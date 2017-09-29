@@ -1,0 +1,135 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ToolboxSmall'
+    name: ToolboxSmall
+    fullName: ToolboxSmall
+    children:
+      - '@ms/sp-canvas.ToolboxSmall.componentDidMount'
+      - '@ms/sp-canvas.ToolboxSmall.componentDidUpdate'
+      - '@ms/sp-canvas.ToolboxSmall.componentWillReceiveProps'
+      - '@ms/sp-canvas.ToolboxSmall.context'
+      - '@ms/sp-canvas.ToolboxSmall.isEventFromSearchBox'
+      - '@ms/sp-canvas.ToolboxSmall.render'
+      - '@ms/sp-canvas.ToolboxSmall.constructor'
+      - '@ms/sp-canvas.ToolboxSmall.tryGetManifestFromItem'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-canvas.ToolboxSmall<@@ms/sp-canvas.IToolboxSmallProps>'
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ToolboxSmall.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-canvas.ToolboxSmall.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentDidUpdate(prevProps: IToolboxSmallProps)'
+      parameters:
+        - id: prevProps
+          type:
+            - '@@ms/sp-canvas.IToolboxSmallProps'
+          description: ''
+  - uid: '@ms/sp-canvas.ToolboxSmall.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: IToolboxSmallProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-canvas.IToolboxSmallProps'
+          description: ''
+  - uid: '@ms/sp-canvas.ToolboxSmall.context'
+    name: context
+    fullName: context
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ICanvasContext context
+      return:
+        type:
+          - '@@ms/sp-canvas.ICanvasContext'
+  - uid: '@ms/sp-canvas.ToolboxSmall.isEventFromSearchBox'
+    name: isEventFromSearchBox
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isEventFromSearchBox(ev?: UIEvent)'
+      parameters:
+        - id: ev
+          type:
+            - UIEvent
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.ToolboxSmall.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@ms/sp-canvas.IToolboxSmallProps>
+  - uid: '@ms/sp-canvas.ToolboxSmall.constructor'
+    name: ToolboxSmall
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ToolboxSmall(props: IToolboxSmallProps, context: ICanvasContext)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-canvas.IToolboxSmallProps'
+          description: ''
+        - id: context
+          type:
+            - '@@ms/sp-canvas.ICanvasContext'
+          description: ''
+  - uid: '@ms/sp-canvas.ToolboxSmall.tryGetManifestFromItem'
+    name: tryGetManifestFromItem
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function tryGetManifestFromItem(item: IToolboxItem)'
+      parameters:
+        - id: item
+          type:
+            - '@@ms/sp-canvas.IToolboxItem'
+          description: ''

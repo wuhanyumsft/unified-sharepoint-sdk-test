@@ -1,0 +1,520 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.PerformanceLogger'
+    name: PerformanceLogger
+    fullName: PerformanceLogger
+    children:
+      - '@ms/sp-telemetry.PerformanceLogger.addComponent'
+      - '@ms/sp-telemetry.PerformanceLogger.addListener'
+      - '@ms/sp-telemetry.PerformanceLogger.clearComponentsToSkip'
+      - '@ms/sp-telemetry.PerformanceLogger.endMarkForApi'
+      - '@ms/sp-telemetry.PerformanceLogger.endMarkForComponent'
+      - '@ms/sp-telemetry.PerformanceLogger.endMarkForComponentWithTimestamp'
+      - '@ms/sp-telemetry.PerformanceLogger.getApiEndTime'
+      - '@ms/sp-telemetry.PerformanceLogger.getApiStartTime'
+      - '@ms/sp-telemetry.PerformanceLogger.getApplicationStartTime'
+      - '@ms/sp-telemetry.PerformanceLogger.getComponentEndTime'
+      - '@ms/sp-telemetry.PerformanceLogger.getComponentStartTime'
+      - '@ms/sp-telemetry.PerformanceLogger.getLastModuleLoadedDuration'
+      - '@ms/sp-telemetry.PerformanceLogger.getMaxDataFetchTime'
+      - '@ms/sp-telemetry.PerformanceLogger.getPerformanceData'
+      - '@ms/sp-telemetry.PerformanceLogger.initializeApplication'
+      - '@ms/sp-telemetry.PerformanceLogger.logPerformanceMetricToConsole'
+      - '@ms/sp-telemetry.PerformanceLogger.markApplicationStart'
+      - '@ms/sp-telemetry.PerformanceLogger.markComponent'
+      - '@ms/sp-telemetry.PerformanceLogger.markComponentModuleLoaded'
+      - '@ms/sp-telemetry.PerformanceLogger.markSpLoaderStart'
+      - '@ms/sp-telemetry.PerformanceLogger.now'
+      - '@ms/sp-telemetry.PerformanceLogger.removeListener'
+      - '@ms/sp-telemetry.PerformanceLogger.shouldSkipComponent'
+      - '@ms/sp-telemetry.PerformanceLogger.skipComponent'
+      - '@ms/sp-telemetry.PerformanceLogger.startMarkForApi'
+      - '@ms/sp-telemetry.PerformanceLogger.startMarkForComponent'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Usage:
+
+      1. Begin an application session with a aggregatable name (e.g.
+      level1.level2.level3) at the very beginning.
+       e.g.
+         PerformanceLogger.initializeApplication('ContosoApp.Page1')
+       Only one application per page can be created.
+      2. To monitor a component as part of EUPL:
+
+      2.1 Add the following at the component render start time.
+         PerformanceLogger.addComponent('contosoWebPart1');
+         PerformanceLogger.startMarkForComponent('contosoWebPart1');
+      2.2 Add the following at the component render end time.
+         PerformanceLogger.endMarkForComponent('contosoWebPart1');
+      3. To monitor a request:
+
+      3.1 Add the following at request start time:
+         PerformanceLogger.startMarkForApi('call1_uniqueId', 'someUrl1');
+      3.2 Add the following at request end time:
+         PerformanceLogger.endMarkForApi('call1_uniqueId', 'call1', 'someUrl1', response);
+      Note1: due to server side limitation, only the first 4 (soon will be 10)
+      components'
+
+      data is send to server. The rest can be dumped to console if
+
+      window.sessionStorage["enableRUMOneDebugging"] == true.
+
+      Note2: do not include component time that do not affect EUPL (like async
+      time spent.)
+    package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.PerformanceLogger.addComponent'
+    name: addComponent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Add a component to track its performance.
+    syntax:
+      content: 'static function addComponent(tag: string)'
+      parameters:
+        - id: tag
+          type:
+            - string
+          description: >
+            The identifier that identifies the component in the performance data
+            stream.
+  - uid: '@ms/sp-telemetry.PerformanceLogger.addListener'
+    name: addListener
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Subscribe to updates to the performance data.
+    syntax:
+      content: 'static function addListener(onDataCallback: () => void)'
+      parameters:
+        - id: onDataCallback
+          type:
+            - () => void
+          description: ''
+  - uid: '@ms/sp-telemetry.PerformanceLogger.clearComponentsToSkip'
+    name: clearComponentsToSkip
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function clearComponentsToSkip()
+      parameters: []
+  - uid: '@ms/sp-telemetry.PerformanceLogger.endMarkForApi'
+    name: endMarkForApi
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Record a request end time.
+    syntax:
+      content: >-
+        static function endMarkForApi(tag: string, name: string, requestUrl:
+        string, response: Response)
+      parameters:
+        - id: tag
+          type:
+            - string
+          description: >-
+            The identifier that uniquely identifies the request in the
+
+            performance data stream, used to calculate the duration. Not
+            persisted in RumOne.
+        - id: name
+          type:
+            - string
+          description: The name to aggregate the data. Persisted in RumOne stream.
+        - id: requestUrl
+          type:
+            - string
+          description: The url of the request.
+        - id: response
+          type:
+            - Response
+          description: |+
+            The response from the request.
+
+  - uid: '@ms/sp-telemetry.PerformanceLogger.endMarkForComponent'
+    name: endMarkForComponent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Record component end time.
+    syntax:
+      content: 'static function endMarkForComponent(tag: string)'
+      parameters:
+        - id: tag
+          type:
+            - string
+          description: >
+            The identifier that identifies the component in the performance data
+            stream.
+  - uid: '@ms/sp-telemetry.PerformanceLogger.endMarkForComponentWithTimestamp'
+    name: endMarkForComponentWithTimestamp
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Record component end time.
+    syntax:
+      content: >-
+        static function endMarkForComponentWithTimestamp(tag: string, endTime:
+        number)
+      parameters:
+        - id: tag
+          type:
+            - string
+          description: >-
+            The identifier that identifies the component in the performance data
+            stream.
+        - id: endTime
+          type:
+            - number
+          description: >
+            the timestamp recorded at some point in time. Allows adding end
+            marks after the
+
+            component is done loading.
+  - uid: '@ms/sp-telemetry.PerformanceLogger.getApiEndTime'
+    name: getApiEndTime
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get the recorded request end time.
+    syntax:
+      content: 'static function getApiEndTime(tag: string)'
+      parameters:
+        - id: tag
+          type:
+            - string
+          description: >
+            The identifier that identifies the request in the performance data
+            stream.
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-telemetry.PerformanceLogger.getApiStartTime'
+    name: getApiStartTime
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get the recorded request start time.
+    syntax:
+      content: 'static function getApiStartTime(tag: string)'
+      parameters:
+        - id: tag
+          type:
+            - string
+          description: >
+            The identifier that identifies the request in the performance data
+            stream.
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-telemetry.PerformanceLogger.getApplicationStartTime'
+    name: getApplicationStartTime
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get the application start time
+    syntax:
+      content: static function getApplicationStartTime()
+      parameters: []
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-telemetry.PerformanceLogger.getComponentEndTime'
+    name: getComponentEndTime
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get the recorded component end time.
+    syntax:
+      content: 'static function getComponentEndTime(tag: string)'
+      parameters:
+        - id: tag
+          type:
+            - string
+          description: >
+            The identifier that identifies the component in the performance data
+            stream.
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-telemetry.PerformanceLogger.getComponentStartTime'
+    name: getComponentStartTime
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get the recorded component start time.
+    syntax:
+      content: 'static function getComponentStartTime(tag: string)'
+      parameters:
+        - id: tag
+          type:
+            - string
+          description: >
+            The identifier that identifies the component in the performance data
+            stream.
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-telemetry.PerformanceLogger.getLastModuleLoadedDuration'
+    name: getLastModuleLoadedDuration
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns the millisecond from navigationStart to last component's module
+      loaded time.
+    syntax:
+      content: static function getLastModuleLoadedDuration()
+      parameters: []
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-telemetry.PerformanceLogger.getMaxDataFetchTime'
+    name: getMaxDataFetchTime
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function getMaxDataFetchTime()
+      parameters: []
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-telemetry.PerformanceLogger.getPerformanceData'
+    name: getPerformanceData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get the performance data for the debugger console.
+    syntax:
+      content: static function getPerformanceData()
+      parameters: []
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-telemetry.PerformanceLogger.initializeApplication'
+    name: initializeApplication
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Initialize the application with a name. All perf data is reset for
+      non-fullPageLoad.
+    syntax:
+      content: >-
+        static function initializeApplication(applicationName: string,
+        fullPageLoad: boolean, serverVersion?: string)
+      parameters:
+        - id: applicationName
+          type:
+            - string
+          description: name of the application
+        - id: fullPageLoad
+          type:
+            - boolean
+          description: indicate if full page load
+        - id: serverVersion
+          type:
+            - string
+          description: |
+            Sharepoint server version
+          optional: true
+  - uid: '@ms/sp-telemetry.PerformanceLogger.logPerformanceMetricToConsole'
+    name: logPerformanceMetricToConsole
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Logs Control Performance metrics to console.
+    syntax:
+      content: >-
+        static function logPerformanceMetricToConsole(tag: string, label:
+        string, componentId: string, alias: string)
+      parameters:
+        - id: tag
+          type:
+            - string
+          description: >-
+            The identifier that identifies the component in the performance data
+            stream.
+        - id: label
+          type:
+            - string
+          description: User friendly console operation description.
+        - id: componentId
+          type:
+            - string
+          description: Id of the component.
+        - id: alias
+          type:
+            - string
+          description: |
+            Alias of the component.
+  - uid: '@ms/sp-telemetry.PerformanceLogger.markApplicationStart'
+    name: markApplicationStart
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Mark application start time
+    syntax:
+      content: static function markApplicationStart()
+      parameters: []
+  - uid: '@ms/sp-telemetry.PerformanceLogger.markComponent'
+    name: markComponent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Record a time in the performance data stream for the component.
+    syntax:
+      content: 'static function markComponent(tag: string, name: string)'
+      parameters:
+        - id: tag
+          type:
+            - string
+          description: >-
+            The identifier that identifies the component in the performance data
+            stream.
+        - id: name
+          type:
+            - string
+          description: |
+            The name of the mark
+  - uid: '@ms/sp-telemetry.PerformanceLogger.markComponentModuleLoaded'
+    name: markComponentModuleLoaded
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function markComponentModuleLoaded(tag: string)'
+      parameters:
+        - id: tag
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-telemetry.PerformanceLogger.markSpLoaderStart'
+    name: markSpLoaderStart
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Mark sp-loader start time
+    syntax:
+      content: static function markSpLoaderStart()
+      parameters: []
+  - uid: '@ms/sp-telemetry.PerformanceLogger.now'
+    name: now
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Return current time offset since page navigation started.
+      For in page navigation if correctly adjust offset
+    syntax:
+      content: static function now()
+      parameters: []
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-telemetry.PerformanceLogger.removeListener'
+    name: removeListener
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Unsubscribe from updates to the performance data.
+    syntax:
+      content: 'static function removeListener(onDataCallback: () => void)'
+      parameters:
+        - id: onDataCallback
+          type:
+            - () => void
+          description: ''
+  - uid: '@ms/sp-telemetry.PerformanceLogger.shouldSkipComponent'
+    name: shouldSkipComponent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function shouldSkipComponent(tag: string)'
+      parameters:
+        - id: tag
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-telemetry.PerformanceLogger.skipComponent'
+    name: skipComponent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function skipComponent(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-telemetry.PerformanceLogger.startMarkForApi'
+    name: startMarkForApi
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Record a request start time.
+    syntax:
+      content: 'static function startMarkForApi(tag: string)'
+      parameters:
+        - id: tag
+          type:
+            - string
+          description: >-
+            The identifier that uniquely identifies the request in the
+
+            performance data stream, used to calculate the duration. Not
+            persisted in RumOne.
+  - uid: '@ms/sp-telemetry.PerformanceLogger.startMarkForComponent'
+    name: startMarkForComponent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Record component start time.
+    syntax:
+      content: 'static function startMarkForComponent(tag: string)'
+      parameters:
+        - id: tag
+          type:
+            - string
+          description: >
+            The identifier that identifies the component in the performance data
+            stream.

@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IPropertyPaneSpinButtonProps'
+    name: IPropertyPaneSpinButtonProps
+    fullName: IPropertyPaneSpinButtonProps
+    children:
+      - '@ms/sp-publishing-webparts.IPropertyPaneSpinButtonProps.defaultValue'
+      - '@ms/sp-publishing-webparts.IPropertyPaneSpinButtonProps.onChange'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IPropertyPaneSpinButtonProps.defaultValue'
+    name: defaultValue
+    fullName: defaultValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number defaultValue
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IPropertyPaneSpinButtonProps.onChange'
+    name: onChange
+    fullName: onChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(newValue: number) => void onChange'
+      return:
+        type:
+          - '(newValue: number) => void'

@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.ReactWebPart'
+    name: ReactWebPart
+    fullName: ReactWebPart<TProperties>
+    children:
+      - '@microsoft/sp-webpart-base.ReactWebPart.constructor'
+      - '@microsoft/sp-webpart-base.ReactWebPart.render'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Implement some common functionality for a base React webpart. All React
+      based
+
+      webparts are expected to inherit from this class.
+    extends:
+      name: '@@microsoft/sp-webpart-base.BaseClientSideWebPart<TProperties>'
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.ReactWebPart.constructor'
+    name: ReactWebPart
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ReactWebPart(componentType: ComponentClass<IReactWebPartProps>)'
+      parameters:
+        - id: componentType
+          type:
+            - ComponentClass<@@microsoft/sp-webpart-base.IReactWebPartProps>
+          description: ''
+  - uid: '@microsoft/sp-webpart-base.ReactWebPart.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []

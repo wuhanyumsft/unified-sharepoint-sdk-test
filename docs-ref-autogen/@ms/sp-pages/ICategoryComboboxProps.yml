@@ -1,0 +1,85 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ICategoryComboboxProps'
+    name: ICategoryComboboxProps
+    fullName: ICategoryComboboxProps
+    children:
+      - '@ms/sp-pages.ICategoryComboboxProps.category'
+      - '@ms/sp-pages.ICategoryComboboxProps.className'
+      - '@ms/sp-pages.ICategoryComboboxProps.eventDataSource'
+      - '@ms/sp-pages.ICategoryComboboxProps.listId'
+      - '@ms/sp-pages.ICategoryComboboxProps.onChange'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ICategoryComboboxProps.category'
+    name: category
+    fullName: category
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Current selected category. If category type is multi-choice, category will
+      be an array of string. If category type is single choice,
+
+      category will be a string.
+    syntax:
+      content: string category
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.ICategoryComboboxProps.className'
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ClassName to customize style
+    syntax:
+      content: string className
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.ICategoryComboboxProps.eventDataSource'
+    name: eventDataSource
+    fullName: eventDataSource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The data source to get category data async.
+    syntax:
+      content: EventDataSource eventDataSource
+      return:
+        type:
+          - '@@ms/sp-pages.EventDataSource'
+  - uid: '@ms/sp-pages.ICategoryComboboxProps.listId'
+    name: listId
+    fullName: listId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The current list Id
+    syntax:
+      content: string listId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.ICategoryComboboxProps.onChange'
+    name: onChange
+    fullName: onChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback when category selection is changed.
+    syntax:
+      content: '(category: string) => void onChange'
+      return:
+        type:
+          - '(category: string) => void'

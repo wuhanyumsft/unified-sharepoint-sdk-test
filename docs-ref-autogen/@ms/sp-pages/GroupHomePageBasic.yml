@@ -1,0 +1,104 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.GroupHomePageBasic'
+    name: GroupHomePageBasic
+    fullName: GroupHomePageBasic
+    children:
+      - '@ms/sp-pages.GroupHomePageBasic.constructor'
+      - '@ms/sp-pages.GroupHomePageBasic.TestIncludeScripts'
+      - '@ms/sp-pages.GroupHomePageBasic.TestName'
+      - '@ms/sp-pages.GroupHomePageBasic.TestOwner'
+      - '@ms/sp-pages.GroupHomePageBasic.TestRun'
+      - '@ms/sp-pages.GroupHomePageBasic.TestSetup'
+      - '@ms/sp-pages.GroupHomePageBasic.TestTeardown'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      This TAB test runs basic tests for basic visual tests for group home page.
+
+      If it is the first time running, it will create a new group, however, for
+      the future running,
+
+      it will use the group created at the first time.
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.GroupHomePageBasic.constructor'
+    name: GroupHomePageBasic
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new GroupHomePageBasic(serverURL: string)'
+      parameters:
+        - id: serverURL
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-pages.GroupHomePageBasic.TestIncludeScripts'
+    name: TestIncludeScripts
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestIncludeScripts()
+      parameters: []
+  - uid: '@ms/sp-pages.GroupHomePageBasic.TestName'
+    name: TestName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestName()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.GroupHomePageBasic.TestOwner'
+    name: TestOwner
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestOwner()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.GroupHomePageBasic.TestRun'
+    name: TestRun
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestRun()
+      parameters: []
+  - uid: '@ms/sp-pages.GroupHomePageBasic.TestSetup'
+    name: TestSetup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestSetup()
+      parameters: []
+  - uid: '@ms/sp-pages.GroupHomePageBasic.TestTeardown'
+    name: TestTeardown
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestTeardown()
+      parameters: []

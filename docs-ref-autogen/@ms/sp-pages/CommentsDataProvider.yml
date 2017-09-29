@@ -1,0 +1,214 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.CommentsDataProvider'
+    name: CommentsDataProvider
+    fullName: CommentsDataProvider
+    children:
+      - '@ms/sp-pages.CommentsDataProvider.constructor'
+      - '@ms/sp-pages.CommentsDataProvider.createComment'
+      - '@ms/sp-pages.CommentsDataProvider.deleteComment'
+      - '@ms/sp-pages.CommentsDataProvider.fetchComments'
+      - '@ms/sp-pages.CommentsDataProvider.fetchDisabled'
+      - '@ms/sp-pages.CommentsDataProvider.fetchNext'
+      - '@ms/sp-pages.CommentsDataProvider.fetchNextLikes'
+      - '@ms/sp-pages.CommentsDataProvider.likeComment'
+      - '@ms/sp-pages.CommentsDataProvider.likeLimitExceededError'
+      - '@ms/sp-pages.CommentsDataProvider.setDisabled'
+      - '@ms/sp-pages.CommentsDataProvider.unlikeComment'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.CommentsDataProvider.constructor'
+    name: CommentsDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CommentsDataProvider(pageContext: PageContext, spHttpClient:
+        SPHttpClient)
+      parameters:
+        - id: pageContext
+          type:
+            - PageContext
+          description: ''
+        - id: spHttpClient
+          type:
+            - SPHttpClient
+          description: ''
+  - uid: '@ms/sp-pages.CommentsDataProvider.createComment'
+    name: createComment
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createComment(text: string, parentId?: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+        - id: parentId
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@@ms/sp-pages.CommentItem>
+  - uid: '@ms/sp-pages.CommentsDataProvider.deleteComment'
+    name: deleteComment
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function deleteComment(comment: CommentItem)'
+      parameters:
+        - id: comment
+          type:
+            - '@@ms/sp-pages.CommentItem'
+          description: ''
+      return:
+        type:
+          - Promise<__type>
+  - uid: '@ms/sp-pages.CommentsDataProvider.fetchComments'
+    name: fetchComments
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function fetchComments()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-pages.ICommentItemChunk>
+  - uid: '@ms/sp-pages.CommentsDataProvider.fetchDisabled'
+    name: fetchDisabled
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fetchDisabled(batch?: SPHttpClientBatch)'
+      parameters:
+        - id: batch
+          type:
+            - SPHttpClientBatch
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<CommentDisabledState>
+  - uid: '@ms/sp-pages.CommentsDataProvider.fetchNext'
+    name: fetchNext
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fetchNext(nextLink: string, areReplies: boolean)'
+      parameters:
+        - id: nextLink
+          type:
+            - string
+          description: ''
+        - id: areReplies
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-pages.ICommentItemChunk>
+  - uid: '@ms/sp-pages.CommentsDataProvider.fetchNextLikes'
+    name: fetchNextLikes
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fetchNextLikes(nextLink: string)'
+      parameters:
+        - id: nextLink
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-pages.ICommentLikeChunk>
+  - uid: '@ms/sp-pages.CommentsDataProvider.likeComment'
+    name: likeComment
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function likeComment(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<__type>
+  - uid: '@ms/sp-pages.CommentsDataProvider.likeLimitExceededError'
+    name: likeLimitExceededError
+    fullName: likeLimitExceededError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static LikeLimitExceededError likeLimitExceededError
+      return:
+        type:
+          - '@@ms/sp-pages.LikeLimitExceededError'
+  - uid: '@ms/sp-pages.CommentsDataProvider.setDisabled'
+    name: setDisabled
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setDisabled(disabled: boolean)'
+      parameters:
+        - id: disabled
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - Promise<boolean>
+  - uid: '@ms/sp-pages.CommentsDataProvider.unlikeComment'
+    name: unlikeComment
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unlikeComment(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<__type>

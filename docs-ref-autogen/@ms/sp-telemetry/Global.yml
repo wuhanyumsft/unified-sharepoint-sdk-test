@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.Global'
+    package: '@ms/sp-telemetry'
+    name: Global
+    children:
+      - '@ms/sp-telemetry.sleep'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@ms/sp-telemetry.sleep'
+    name: sleep
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function sleep(milliseconds: number)'
+      parameters:
+        - id: milliseconds
+          type:
+            - number
+          description: ''

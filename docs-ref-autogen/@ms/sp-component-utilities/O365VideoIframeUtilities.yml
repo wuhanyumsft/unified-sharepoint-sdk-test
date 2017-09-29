@@ -1,0 +1,101 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.O365VideoIframeUtilities'
+    name: O365VideoIframeUtilities
+    fullName: O365VideoIframeUtilities
+    children:
+      - '@ms/sp-component-utilities.O365VideoIframeUtilities.chidKey'
+      - >-
+        @ms/sp-component-utilities.O365VideoIframeUtilities.generateVideoUrlForIframeCodeRest
+      - >-
+        @ms/sp-component-utilities.O365VideoIframeUtilities.getChidVidFromVideoUrl
+      - >-
+        @ms/sp-component-utilities.O365VideoIframeUtilities.getIDStartIndexFromVideoUrl
+      - '@ms/sp-component-utilities.O365VideoIframeUtilities.vidKey'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.O365VideoIframeUtilities.chidKey'
+    name: chidKey
+    fullName: chidKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string chidKey
+      return:
+        type:
+          - string
+  - uid: >-
+      @ms/sp-component-utilities.O365VideoIframeUtilities.generateVideoUrlForIframeCodeRest
+    name: generateVideoUrlForIframeCodeRest
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function generateVideoUrlForIframeCodeRest(videoSource: string)'
+      parameters:
+        - id: videoSource
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.O365VideoIframeUtilities.getChidVidFromVideoUrl'
+    name: getChidVidFromVideoUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getChidVidFromVideoUrl(videoSource: string)'
+      parameters:
+        - id: videoSource
+          type:
+            - string
+          description: ''
+  - uid: >-
+      @ms/sp-component-utilities.O365VideoIframeUtilities.getIDStartIndexFromVideoUrl
+    name: getIDStartIndexFromVideoUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function getIDStartIndexFromVideoUrl(id: string, videoUrl:
+        string)
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+        - id: videoUrl
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.O365VideoIframeUtilities.vidKey'
+    name: vidKey
+    fullName: vidKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string vidKey
+      return:
+        type:
+          - string

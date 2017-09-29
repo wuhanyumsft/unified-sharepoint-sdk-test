@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.DeviceAccessPage'
+    name: DeviceAccessPage
+    fullName: DeviceAccessPage
+    children:
+      - '@ms/sp-tenant-admin-page.DeviceAccessPage.constructor'
+      - '@ms/sp-tenant-admin-page.DeviceAccessPage.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-tenant-admin-page.DeviceAccessPage<void>'
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.DeviceAccessPage.constructor'
+    name: DeviceAccessPage
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new DeviceAccessPage()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.DeviceAccessPage.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

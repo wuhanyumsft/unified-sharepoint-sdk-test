@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksFlight'
+    name: QuickLinksFlight
+    fullName: QuickLinksFlight
+    children:
+      - '@ms/sp-teamsite-webparts.QuickLinksFlight.isQuickLinksFilePickerEnabled'
+      - '@ms/sp-teamsite-webparts.QuickLinksFlight.isV2LayoutsEnabled'
+      - '@ms/sp-teamsite-webparts.QuickLinksFlight.isV2StorageEnabled'
+      - '@ms/sp-teamsite-webparts.QuickLinksFlight.isV2StorageForceEnabled'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksFlight.isQuickLinksFilePickerEnabled'
+    name: isQuickLinksFilePickerEnabled
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      The flight which controls the file picker integration and editing property
+      pane.
+    syntax:
+      content: static function isQuickLinksFilePickerEnabled()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksFlight.isV2LayoutsEnabled'
+    name: isV2LayoutsEnabled
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      The flight which controls for layout upgrading and base collection
+      integration.
+    syntax:
+      content: static function isV2LayoutsEnabled()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksFlight.isV2StorageEnabled'
+    name: isV2StorageEnabled
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: The flight which controls the data storage model upgrade and migration.
+    syntax:
+      content: static function isV2StorageEnabled()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksFlight.isV2StorageForceEnabled'
+    name: isV2StorageForceEnabled
+    fullName: isV2StorageForceEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This variable was involved by a design change that if the web part is
+      migrated by one user,
+
+      The other users should start using the migrated data instead of SP List
+      data.
+
+      By overwriting this value to true, the new data storage flight will be
+      "enabled" for users using this web part.
+    syntax:
+      content: static boolean isV2StorageForceEnabled
+      return:
+        type:
+          - boolean

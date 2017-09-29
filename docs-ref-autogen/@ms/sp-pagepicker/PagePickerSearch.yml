@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pagepicker.PagePickerSearch'
+    name: PagePickerSearch
+    fullName: PagePickerSearch
+    children:
+      - '@ms/sp-pagepicker.PagePickerSearch.constructor'
+      - '@ms/sp-pagepicker.PagePickerSearch.render'
+      - '@ms/sp-pagepicker.PagePickerSearch.renderSuggestions'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-pagepicker.PagePickerSearch<@@ms/sp-pagepicker.IPagePickerSearchProps>
+    package: '@ms/sp-pagepicker'
+  - uid: '@ms/sp-pagepicker.PagePickerSearch.constructor'
+    name: PagePickerSearch
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PagePickerSearch(props: IPagePickerSearchProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pagepicker.IPagePickerSearchProps'
+          description: ''
+  - uid: '@ms/sp-pagepicker.PagePickerSearch.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@ms/sp-pagepicker.IPagePickerSearchProps>
+  - uid: '@ms/sp-pagepicker.PagePickerSearch.renderSuggestions'
+    name: renderSuggestions
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function renderSuggestions(searchInput: string)'
+      parameters:
+        - id: searchInput
+          type:
+            - string
+          description: ''

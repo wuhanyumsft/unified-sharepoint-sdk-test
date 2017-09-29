@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-embed-webparts.IVideoInputEngagementData'
+    name: IVideoInputEngagementData
+    fullName: IVideoInputEngagementData
+    children:
+      - '@ms/sp-embed-webparts.IVideoInputEngagementData.currentHostname'
+      - '@ms/sp-embed-webparts.IVideoInputEngagementData.inputHostname'
+      - '@ms/sp-embed-webparts.IVideoInputEngagementData.resultValidatedCode'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-embed-webparts'
+  - uid: '@ms/sp-embed-webparts.IVideoInputEngagementData.currentHostname'
+    name: currentHostname
+    fullName: currentHostname
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string currentHostname
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.IVideoInputEngagementData.inputHostname'
+    name: inputHostname
+    fullName: inputHostname
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string inputHostname
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.IVideoInputEngagementData.resultValidatedCode'
+    name: resultValidatedCode
+    fullName: resultValidatedCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: VideoValidationResult resultValidatedCode
+      return:
+        type:
+          - VideoValidationResult

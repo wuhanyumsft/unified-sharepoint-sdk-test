@@ -1,0 +1,78 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.FilePickerStore'
+    name: FilePickerStore
+    fullName: FilePickerStore
+    children:
+      - '@ms/sp-filepicker.FilePickerStore.addListener'
+      - '@ms/sp-filepicker.FilePickerStore.dispatch'
+      - '@ms/sp-filepicker.FilePickerStore.constructor'
+      - '@ms/sp-filepicker.FilePickerStore.removeAllListeners'
+      - '@ms/sp-filepicker.FilePickerStore.removeListener'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.FilePickerStore.addListener'
+    name: addListener
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(listener: FilePickerListenerCallback)'
+      parameters:
+        - id: listener
+          type:
+            - FilePickerListenerCallback
+          description: ''
+  - uid: '@ms/sp-filepicker.FilePickerStore.dispatch'
+    name: dispatch
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function dispatch(action: FilePickerAction)'
+      parameters:
+        - id: action
+          type:
+            - '@@ms/sp-filepicker.FilePickerAction'
+          description: ''
+  - uid: '@ms/sp-filepicker.FilePickerStore.constructor'
+    name: FilePickerStore
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new FilePickerStore()
+      parameters: []
+  - uid: '@ms/sp-filepicker.FilePickerStore.removeAllListeners'
+    name: removeAllListeners
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function removeAllListeners()
+      parameters: []
+  - uid: '@ms/sp-filepicker.FilePickerStore.removeListener'
+    name: removeListener
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(listener: FilePickerListenerCallback)'
+      parameters:
+        - id: listener
+          type:
+            - FilePickerListenerCallback
+          description: ''

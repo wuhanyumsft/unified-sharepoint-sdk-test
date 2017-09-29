@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-embed-webparts.IO365VideoPortalLinkState'
+    name: IO365VideoPortalLinkState
+    fullName: IO365VideoPortalLinkState
+    children:
+      - '@ms/sp-embed-webparts.IO365VideoPortalLinkState.visible'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-embed-webparts'
+  - uid: '@ms/sp-embed-webparts.IO365VideoPortalLinkState.visible'
+    name: visible
+    fullName: visible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean visible
+      return:
+        type:
+          - boolean

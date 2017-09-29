@@ -1,0 +1,145 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.IToolbarButton'
+    name: IToolbarButton
+    fullName: IToolbarButton
+    children:
+      - '@ms/sp-canvas.IToolbarButton.canBeActive'
+      - '@ms/sp-canvas.IToolbarButton.className'
+      - '@ms/sp-canvas.IToolbarButton.fabricIconKey'
+      - '@ms/sp-canvas.IToolbarButton.iconClassName'
+      - '@ms/sp-canvas.IToolbarButton.imageIconAltText'
+      - '@ms/sp-canvas.IToolbarButton.imageIconUrl'
+      - '@ms/sp-canvas.IToolbarButton.label'
+      - '@ms/sp-canvas.IToolbarButton.shortcut'
+      - '@ms/sp-canvas.IToolbarButton.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.IToolbarButton.canBeActive'
+    name: canBeActive
+    fullName: canBeActive
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: If the button can have active state
+    syntax:
+      content: boolean canBeActive
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.IToolbarButton.className'
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Class name for the button element
+    syntax:
+      content: string className
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.IToolbarButton.fabricIconKey'
+    name: fabricIconKey
+    fullName: fabricIconKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The icon name in Office Fabric UI icons at
+      http://dev.office.com/fabric/styles
+
+      Note: Do not include 'ms-icon--' prefix
+
+      For example, pass 'gear' if you want to use ms-icon--gear icon
+    syntax:
+      content: string fabricIconKey
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.IToolbarButton.iconClassName'
+    name: iconClassName
+    fullName: iconClassName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Class name for the icon element
+      Ignored if fabricIconKey is provided
+    syntax:
+      content: string iconClassName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.IToolbarButton.imageIconAltText'
+    name: imageIconAltText
+    fullName: imageIconAltText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Alt text for customized icon image for tool bar button
+    syntax:
+      content: string imageIconAltText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.IToolbarButton.imageIconUrl'
+    name: imageIconUrl
+    fullName: imageIconUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Url for customized icon image for tool bar button
+    syntax:
+      content: string imageIconUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.IToolbarButton.label'
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Text label for the button, typically provided as a substitute for an icon'
+    syntax:
+      content: string label
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.IToolbarButton.shortcut'
+    name: shortcut
+    fullName: shortcut
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Keyboard shortcut e.g. 'Ctrl+B'
+    syntax:
+      content: string shortcut
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.IToolbarButton.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Html title attribute of the button
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

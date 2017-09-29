@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-client-preview.ODataErrorResponse'
+    name: ODataErrorResponse
+    fullName: ODataErrorResponse
+    children:
+      - '@microsoft/sp-client-preview.ODataErrorResponse.error'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-client-preview'
+  - uid: '@microsoft/sp-client-preview.ODataErrorResponse.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IDataError error
+      return:
+        type:
+          - '@@microsoft/sp-client-preview.IDataError'

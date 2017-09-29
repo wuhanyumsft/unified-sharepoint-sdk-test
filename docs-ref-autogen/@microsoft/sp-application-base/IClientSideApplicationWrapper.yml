@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.IClientSideApplicationWrapper'
+    name: IClientSideApplicationWrapper
+    fullName: IClientSideApplicationWrapper
+    children:
+      - '@microsoft/sp-application-base.IClientSideApplicationWrapper.default'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.IClientSideApplicationWrapper.default'
+    name: default
+    fullName: default
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: BaseApplication default
+      return:
+        type:
+          - '@@microsoft/sp-application-base.BaseApplication'

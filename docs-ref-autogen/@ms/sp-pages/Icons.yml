@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.Icons'
+    name: Icons
+    fullName: Icons
+    children:
+      - '@ms/sp-pages.Icons.getIconMap'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.Icons.getIconMap'
+    name: getIconMap
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function getIconMap()
+      parameters: []

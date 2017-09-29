@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-chart-webparts.ICustomWebPartProps'
+    name: ICustomWebPartProps
+    fullName: ICustomWebPartProps
+    children:
+      - '@ms/sp-chart-webparts.ICustomWebPartProps.data'
+      - '@ms/sp-chart-webparts.ICustomWebPartProps.isInitialState'
+      - '@ms/sp-chart-webparts.ICustomWebPartProps.title'
+      - '@ms/sp-chart-webparts.ICustomWebPartProps.type'
+      - '@ms/sp-chart-webparts.ICustomWebPartProps.xAxisLabel'
+      - '@ms/sp-chart-webparts.ICustomWebPartProps.yAxisLabel'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-chart-webparts'
+  - uid: '@ms/sp-chart-webparts.ICustomWebPartProps.data'
+    name: data
+    fullName: data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IQuickChartDataRow[] data'
+      return:
+        type:
+          - '@@ms/sp-chart-webparts.IQuickChartDataRow[]'
+  - uid: '@ms/sp-chart-webparts.ICustomWebPartProps.isInitialState'
+    name: isInitialState
+    fullName: isInitialState
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isInitialState
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-chart-webparts.ICustomWebPartProps.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-chart-webparts.ICustomWebPartProps.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: QuickChartType type
+      return:
+        type:
+          - QuickChartType
+  - uid: '@ms/sp-chart-webparts.ICustomWebPartProps.xAxisLabel'
+    name: xAxisLabel
+    fullName: xAxisLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string xAxisLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-chart-webparts.ICustomWebPartProps.yAxisLabel'
+    name: yAxisLabel
+    fullName: yAxisLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string yAxisLabel
+      return:
+        type:
+          - string

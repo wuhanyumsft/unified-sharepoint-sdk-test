@@ -1,0 +1,146 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-html-embed.HtmlGeneratorHelper'
+    name: HtmlGeneratorHelper
+    fullName: HtmlGeneratorHelper
+    children:
+      - '@ms/sp-html-embed.HtmlGeneratorHelper.createElementByTagName'
+      - '@ms/sp-html-embed.HtmlGeneratorHelper.createHTMLElement'
+      - '@ms/sp-html-embed.HtmlGeneratorHelper.getHostnameFromUrl'
+      - '@ms/sp-html-embed.HtmlGeneratorHelper.getScaledDomRect'
+      - '@ms/sp-html-embed.HtmlGeneratorHelper.moveRectFromStyle2Attribute'
+      - '@ms/sp-html-embed.HtmlGeneratorHelper.scaleZeroRectByRatio'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-html-embed'
+  - uid: '@ms/sp-html-embed.HtmlGeneratorHelper.createElementByTagName'
+    name: createElementByTagName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function createElementByTagName(htmlStr: string, tagName: string)'
+      parameters:
+        - id: htmlStr
+          type:
+            - string
+          description: ''
+        - id: tagName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - HTMLElement
+  - uid: '@ms/sp-html-embed.HtmlGeneratorHelper.createHTMLElement'
+    name: createHTMLElement
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function createHTMLElement(htmlGeneratorProps:
+        IHtmlGeneratorProps, tagName: string, safeAttributes: string[])
+      parameters:
+        - id: htmlGeneratorProps
+          type:
+            - '@@ms/sp-html-embed.IHtmlGeneratorProps'
+          description: ''
+        - id: tagName
+          type:
+            - string
+          description: ''
+        - id: safeAttributes
+          type:
+            - 'string[]'
+          description: ''
+      return:
+        type:
+          - HTMLElement
+  - uid: '@ms/sp-html-embed.HtmlGeneratorHelper.getHostnameFromUrl'
+    name: getHostnameFromUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getHostnameFromUrl(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.HtmlGeneratorHelper.getScaledDomRect'
+    name: getScaledDomRect
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function getScaledDomRect(originalHTMLElement: HTMLElement,
+        totalRect: IHTMLEmbedRect, shouldScale: boolean)
+      parameters:
+        - id: originalHTMLElement
+          type:
+            - HTMLElement
+          description: ''
+        - id: totalRect
+          type:
+            - '@@ms/sp-html-embed.IHTMLEmbedRect'
+          description: ''
+        - id: shouldScale
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-html-embed.IHTMLEmbedRect'
+  - uid: '@ms/sp-html-embed.HtmlGeneratorHelper.moveRectFromStyle2Attribute'
+    name: moveRectFromStyle2Attribute
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function moveRectFromStyle2Attribute(htmlElement: HTMLElement)'
+      parameters:
+        - id: htmlElement
+          type:
+            - HTMLElement
+          description: ''
+  - uid: '@ms/sp-html-embed.HtmlGeneratorHelper.scaleZeroRectByRatio'
+    name: scaleZeroRectByRatio
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function scaleZeroRectByRatio(htmlEmbedRect: IHTMLEmbedRect,
+        widthHeightScaleRatio: number)
+      parameters:
+        - id: htmlEmbedRect
+          type:
+            - '@@ms/sp-html-embed.IHTMLEmbedRect'
+          description: ''
+        - id: widthHeightScaleRatio
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-html-embed.IHTMLEmbedRect'

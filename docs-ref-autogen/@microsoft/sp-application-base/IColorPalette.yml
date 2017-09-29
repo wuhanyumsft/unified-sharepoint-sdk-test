@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.IColorPalette'
+    name: IColorPalette
+    fullName: IColorPalette
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-application-base'

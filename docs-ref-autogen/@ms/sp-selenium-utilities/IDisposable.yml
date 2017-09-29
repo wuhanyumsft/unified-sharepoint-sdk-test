@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-selenium-utilities.IDisposable'
+    name: IDisposable
+    fullName: IDisposable
+    children:
+      - '@ms/sp-selenium-utilities.IDisposable.dispose'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-selenium-utilities'
+  - uid: '@ms/sp-selenium-utilities.IDisposable.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function dispose()
+      parameters: []
+      return:
+        type:
+          - Promise<void>

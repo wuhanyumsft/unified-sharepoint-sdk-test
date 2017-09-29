@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.ITextResource'
+    name: ITextResource
+    fullName: ITextResource
+    children:
+      - '@ms/sp-client-projects.ITextResource.content'
+      - '@ms/sp-client-projects.ITextResource.error'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.ITextResource.content'
+    name: content
+    fullName: content
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string content
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.ITextResource.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Error error
+      return:
+        type:
+          - Error

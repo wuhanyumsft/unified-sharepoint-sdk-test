@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.FrameworkActionTypes'
+    name: FrameworkActionTypes
+    fullName: FrameworkActionTypes
+    children:
+      - '@ms/sp-tenant-admin-page.FrameworkActionTypes.ADD_MESSAGE'
+      - '@ms/sp-tenant-admin-page.FrameworkActionTypes.CHANGE_GEO_LOCATION'
+      - '@ms/sp-tenant-admin-page.FrameworkActionTypes.DISMISS_MESSAGE'
+      - '@ms/sp-tenant-admin-page.FrameworkActionTypes.ENTER_PAGE'
+      - '@ms/sp-tenant-admin-page.FrameworkActionTypes.LEAVE_PAGE'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.FrameworkActionTypes.ADD_MESSAGE'
+    name: ADD_MESSAGE
+    fullName: ADD_MESSAGE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string ADD_MESSAGE
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.FrameworkActionTypes.CHANGE_GEO_LOCATION'
+    name: CHANGE_GEO_LOCATION
+    fullName: CHANGE_GEO_LOCATION
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string CHANGE_GEO_LOCATION
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.FrameworkActionTypes.DISMISS_MESSAGE'
+    name: DISMISS_MESSAGE
+    fullName: DISMISS_MESSAGE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string DISMISS_MESSAGE
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.FrameworkActionTypes.ENTER_PAGE'
+    name: ENTER_PAGE
+    fullName: ENTER_PAGE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string ENTER_PAGE
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.FrameworkActionTypes.LEAVE_PAGE'
+    name: LEAVE_PAGE
+    fullName: LEAVE_PAGE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string LEAVE_PAGE
+      return:
+        type:
+          - string

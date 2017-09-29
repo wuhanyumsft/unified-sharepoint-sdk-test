@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IGetFolderResult'
+    name: IGetFolderResult
+    fullName: IGetFolderResult
+    children:
+      - '@ms/sp-publishing-webparts.IGetFolderResult.Exists'
+      - '@ms/sp-publishing-webparts.IGetFolderResult.IsWOPIEnabled'
+      - '@ms/sp-publishing-webparts.IGetFolderResult.Name'
+      - '@ms/sp-publishing-webparts.IGetFolderResult.ServerRelativeUrl'
+      - '@ms/sp-publishing-webparts.IGetFolderResult.UniqueId'
+    langs:
+      - typeScript
+    type: interface
+    summary: Result of `/_api/GetFolderByServerRelativeUrl('')`
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IGetFolderResult.Exists'
+    name: Exists
+    fullName: Exists
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean Exists
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IGetFolderResult.IsWOPIEnabled'
+    name: IsWOPIEnabled
+    fullName: IsWOPIEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean IsWOPIEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IGetFolderResult.Name'
+    name: Name
+    fullName: Name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Name
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IGetFolderResult.ServerRelativeUrl'
+    name: ServerRelativeUrl
+    fullName: ServerRelativeUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ServerRelativeUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IGetFolderResult.UniqueId'
+    name: UniqueId
+    fullName: UniqueId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string UniqueId
+      return:
+        type:
+          - string

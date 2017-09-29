@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IAddMessagePayload'
+    name: IAddMessagePayload
+    fullName: IAddMessagePayload
+    children:
+      - '@ms/sp-tenant-admin-page.IAddMessagePayload.content'
+      - '@ms/sp-tenant-admin-page.IAddMessagePayload.id'
+      - '@ms/sp-tenant-admin-page.IAddMessagePayload.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IAddMessagePayload.content'
+    name: content
+    fullName: content
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string content
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IAddMessagePayload.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IAddMessagePayload.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: MessageBarType type
+      return:
+        type:
+          - MessageBarType

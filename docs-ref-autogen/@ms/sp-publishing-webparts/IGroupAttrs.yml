@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IGroupAttrs'
+    name: IGroupAttrs
+    fullName: IGroupAttrs
+    children:
+      - '@ms/sp-publishing-webparts.IGroupAttrs.name'
+      - '@ms/sp-publishing-webparts.IGroupAttrs.network_id'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-publishing-webparts.IAttrs'
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IGroupAttrs.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean name
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IGroupAttrs.network_id'
+    name: network_id
+    fullName: network_id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: true network_id
+      return:
+        type:
+          - 'true'

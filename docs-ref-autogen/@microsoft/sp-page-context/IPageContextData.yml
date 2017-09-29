@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-page-context.IPageContextData'
+    name: IPageContextData
+    fullName: IPageContextData
+    children:
+      - '@microsoft/sp-page-context.IPageContextData.cultureInfo'
+      - '@microsoft/sp-page-context.IPageContextData.list'
+      - '@microsoft/sp-page-context.IPageContextData.listItem'
+      - '@microsoft/sp-page-context.IPageContextData.site'
+      - '@microsoft/sp-page-context.IPageContextData.user'
+      - '@microsoft/sp-page-context.IPageContextData.web'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface for properties neccesary for building a PageContext.
+    package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.IPageContextData.cultureInfo'
+    name: cultureInfo
+    fullName: cultureInfo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ICultureInfoData cultureInfo
+      return:
+        type:
+          - '@@microsoft/sp-page-context.ICultureInfoData'
+  - uid: '@microsoft/sp-page-context.IPageContextData.list'
+    name: list
+    fullName: list
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISPListData list
+      return:
+        type:
+          - '@@microsoft/sp-page-context.ISPListData'
+  - uid: '@microsoft/sp-page-context.IPageContextData.listItem'
+    name: listItem
+    fullName: listItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISPListItemData listItem
+      return:
+        type:
+          - '@@microsoft/sp-page-context.ISPListItemData'
+  - uid: '@microsoft/sp-page-context.IPageContextData.site'
+    name: site
+    fullName: site
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISPSiteData site
+      return:
+        type:
+          - '@@microsoft/sp-page-context.ISPSiteData'
+  - uid: '@microsoft/sp-page-context.IPageContextData.user'
+    name: user
+    fullName: user
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISPUserData user
+      return:
+        type:
+          - '@@microsoft/sp-page-context.ISPUserData'
+  - uid: '@microsoft/sp-page-context.IPageContextData.web'
+    name: web
+    fullName: web
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISPWebData web
+      return:
+        type:
+          - '@@microsoft/sp-page-context.ISPWebData'

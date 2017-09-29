@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IActivityChartProps'
+    name: IActivityChartProps
+    fullName: IActivityChartProps
+    children:
+      - '@ms/sp-tenant-admin-page.IActivityChartProps.chartType'
+      - '@ms/sp-tenant-admin-page.IActivityChartProps.dataProvider'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IActivityChartProps.chartType'
+    name: chartType
+    fullName: chartType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicate if current chart is a File Activity chart or Site Activity chart.
+    syntax:
+      content: string chartType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IActivityChartProps.dataProvider'
+    name: dataProvider
+    fullName: dataProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The data provider instance which depends on the widget chart type.
+    syntax:
+      content: IActivityDataProvider dataProvider
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IActivityDataProvider'

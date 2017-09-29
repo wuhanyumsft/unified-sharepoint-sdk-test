@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.PrimaryEditingToolbar'
+    name: PrimaryEditingToolbar
+    fullName: PrimaryEditingToolbar
+    children:
+      - '@ms/sp-publishing-webparts.PrimaryEditingToolbar.focus'
+      - '@ms/sp-publishing-webparts.PrimaryEditingToolbar.constructor'
+      - '@ms/sp-publishing-webparts.PrimaryEditingToolbar.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.PrimaryEditingToolbar<@@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.PrimaryEditingToolbar.focus'
+    name: focus
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.PrimaryEditingToolbar.constructor'
+    name: PrimaryEditingToolbar
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PrimaryEditingToolbar(props: IPrimaryEditingToolbarProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IPrimaryEditingToolbarProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.PrimaryEditingToolbar.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationsMenuState'
+    name: IGeoLocationsMenuState
+    fullName: IGeoLocationsMenuState
+    children:
+      - '@ms/sp-tenant-admin-page.IGeoLocationsMenuState.currentLocation'
+      - '@ms/sp-tenant-admin-page.IGeoLocationsMenuState.isContextMenuVisible'
+      - '@ms/sp-tenant-admin-page.IGeoLocationsMenuState.isGeoTenant'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationsMenuState.currentLocation'
+    name: currentLocation
+    fullName: currentLocation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string currentLocation
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationsMenuState.isContextMenuVisible'
+    name: isContextMenuVisible
+    fullName: isContextMenuVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isContextMenuVisible
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationsMenuState.isGeoTenant'
+    name: isGeoTenant
+    fullName: isGeoTenant
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isGeoTenant
+      return:
+        type:
+          - boolean

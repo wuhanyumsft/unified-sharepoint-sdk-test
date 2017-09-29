@@ -1,0 +1,71 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneField'
+    name: IPropertyPaneField
+    fullName: IPropertyPaneField<TProperties>
+    children:
+      - '@microsoft/sp-webpart-base.IPropertyPaneField.properties'
+      - '@microsoft/sp-webpart-base.IPropertyPaneField.shouldFocus'
+      - '@microsoft/sp-webpart-base.IPropertyPaneField.targetProperty'
+      - '@microsoft/sp-webpart-base.IPropertyPaneField.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: PropertyPane field.
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneField.properties'
+    name: properties
+    fullName: properties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Strongly typed properties object. Specific to each field type.
+      Example: Checkbox has ICheckboxProps, TextField has ITextField props.
+    syntax:
+      content: TProperties properties
+      return:
+        type:
+          - TProperties
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneField.shouldFocus'
+    name: shouldFocus
+    fullName: shouldFocus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Whether this control should be focused.
+      default value is false.
+    syntax:
+      content: boolean shouldFocus
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneField.targetProperty'
+    name: targetProperty
+    fullName: targetProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Target property from the web part's property bag.
+    syntax:
+      content: string targetProperty
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneField.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Type of the PropertyPane field.
+    syntax:
+      content: PropertyPaneFieldType type
+      return:
+        type:
+          - PropertyPaneFieldType

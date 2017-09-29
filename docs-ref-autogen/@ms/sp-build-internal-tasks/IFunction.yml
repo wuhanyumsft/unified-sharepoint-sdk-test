@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.IFunction'
+    name: IFunction
+    fullName: IFunction
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      function coverage info for one file
+      function number and how many times the function is hit
+    package: '@ms/sp-build-internal-tasks'

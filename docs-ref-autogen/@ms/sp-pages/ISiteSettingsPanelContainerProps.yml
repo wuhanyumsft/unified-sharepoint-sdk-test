@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ISiteSettingsPanelContainerProps'
+    name: ISiteSettingsPanelContainerProps
+    fullName: ISiteSettingsPanelContainerProps
+    children:
+      - '@ms/sp-pages.ISiteSettingsPanelContainerProps.onDismiss'
+      - '@ms/sp-pages.ISiteSettingsPanelContainerProps.pageContext'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ISiteSettingsPanelContainerProps.onDismiss'
+    name: onDismiss
+    fullName: onDismiss
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onDismiss
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-pages.ISiteSettingsPanelContainerProps.pageContext'
+    name: pageContext
+    fullName: pageContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISpPageContext pageContext
+      return:
+        type:
+          - ISpPageContext

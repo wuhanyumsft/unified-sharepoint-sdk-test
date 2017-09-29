@@ -1,0 +1,165 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-html-embed.IHtmlGeneratorProps'
+    name: IHtmlGeneratorProps
+    fullName: IHtmlGeneratorProps
+    children:
+      - '@ms/sp-html-embed.IHtmlGeneratorProps.className'
+      - '@ms/sp-html-embed.IHtmlGeneratorProps.embedCodeShownType'
+      - '@ms/sp-html-embed.IHtmlGeneratorProps.htmlEmbedRect'
+      - '@ms/sp-html-embed.IHtmlGeneratorProps.isNarrowContainer'
+      - '@ms/sp-html-embed.IHtmlGeneratorProps.metadata'
+      - '@ms/sp-html-embed.IHtmlGeneratorProps.originalUrl'
+      - '@ms/sp-html-embed.IHtmlGeneratorProps.qosPrefixName'
+      - '@ms/sp-html-embed.IHtmlGeneratorProps.shouldScale'
+      - '@ms/sp-html-embed.IHtmlGeneratorProps.titleMetaDataOverride'
+      - '@ms/sp-html-embed.IHtmlGeneratorProps.type'
+      - '@ms/sp-html-embed.IHtmlGeneratorProps.vanillaHtml'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-html-embed'
+  - uid: '@ms/sp-html-embed.IHtmlGeneratorProps.className'
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string className
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IHtmlGeneratorProps.embedCodeShownType'
+    name: embedCodeShownType
+    fullName: embedCodeShownType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: EmbedCodeShownType embedCodeShownType
+      return:
+        type:
+          - EmbedCodeShownType
+  - uid: '@ms/sp-html-embed.IHtmlGeneratorProps.htmlEmbedRect'
+    name: htmlEmbedRect
+    fullName: htmlEmbedRect
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IHTMLEmbedRect htmlEmbedRect
+      return:
+        type:
+          - '@@ms/sp-html-embed.IHTMLEmbedRect'
+  - uid: '@ms/sp-html-embed.IHtmlGeneratorProps.isNarrowContainer'
+    name: isNarrowContainer
+    fullName: isNarrowContainer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isNarrowContainer
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-html-embed.IHtmlGeneratorProps.metadata'
+    name: metadata
+    fullName: metadata
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IEmbeddableUrlMetadata metadata
+      return:
+        type:
+          - '@@ms/sp-html-embed.IEmbeddableUrlMetadata'
+  - uid: '@ms/sp-html-embed.IHtmlGeneratorProps.originalUrl'
+    name: originalUrl
+    fullName: originalUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string originalUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IHtmlGeneratorProps.qosPrefixName'
+    name: qosPrefixName
+    fullName: qosPrefixName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string qosPrefixName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IHtmlGeneratorProps.shouldScale'
+    name: shouldScale
+    fullName: shouldScale
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean shouldScale
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-html-embed.IHtmlGeneratorProps.titleMetaDataOverride'
+    name: titleMetaDataOverride
+    fullName: titleMetaDataOverride
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string titleMetaDataOverride
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IHtmlGeneratorProps.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string type
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IHtmlGeneratorProps.vanillaHtml'
+    name: vanillaHtml
+    fullName: vanillaHtml
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string vanillaHtml
+      return:
+        type:
+          - string

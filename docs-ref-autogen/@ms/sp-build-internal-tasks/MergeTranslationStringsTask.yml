@@ -1,0 +1,131 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.MergeTranslationStringsTask'
+    name: MergeTranslationStringsTask
+    fullName: MergeTranslationStringsTask
+    children:
+      - '@ms/sp-build-internal-tasks.MergeTranslationStringsTask.executeTask'
+      - '@ms/sp-build-internal-tasks.MergeTranslationStringsTask.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Finds all commented.json files in each project folder, combines them, and
+      writes the output to disk.
+
+      contains all the strings of the default language, and writes this file to
+      the string dir.
+
+      Example:
+       IN:
+
+        config:
+         {
+           "rootDir": "c:/src/",
+           "projects": [
+             { projectFolder: "c:/src/foo" },
+             { projectFolder: "c:/src/bar" }
+           ]
+         }
+
+        ../foo/lib/resx-strings/en-us.commented.json:
+         {
+           "_b5a1f5": {
+             "helloWorld": {
+               "value": "Hello, World! Bar!",
+               "comment": "A greeting to the world of Bar!"
+             }
+           },
+          "_a1b2c3": {
+             "helloWorld": {
+               "value": "Hello, World! Foo!",
+               "comment": "A greeting to the world of Foo!"
+             }
+           }
+         }
+
+       ../bar/lib/resx-strings/en-us.commented.json:
+         {
+           "_b5a1f5": {
+             "helloWorld": {
+               "value": "Greetings! Bar!",
+               "comment": "A welcome to the world of Bar!"
+             }
+           },
+           "_a1b2c3": {
+             "helloWorld": {
+               "value": "Greetings! Foo!",
+               "comment": "A welcome to the world of Foo!"
+             }
+           }
+         }
+
+       OUT:
+        lib/resx-strings/en-us.commented.json:
+         {
+           "foo": {
+             "_b5a1f5": {
+               "helloWorld": {
+                 "value": "Hello, World! Bar!",
+                 "comment": "A greeting to the world of Bar!"
+               };
+             },
+            "_a1b2c3": {
+               "helloWorld": {
+                 "value": "Hello, World! Foo!",
+                 "comment": "A greeting to the world of Foo!"
+               }
+             }
+           },
+           "bar": {
+             "_b5a1f5": {
+               "helloWorld": {
+                 "value": "Greetings! Bar!",
+                 "comment": "A welcome to the world of Bar!"
+               }
+             },
+             "_a1b2c3": {
+               "helloWorld": {
+                 "value": "Greetings! Foo!",
+                 "comment": "A welcome to the world of Foo!"
+               }
+             }
+           }
+         }
+    extends:
+      name: >-
+        @@ms/sp-build-internal-tasks.MergeJsonTask<@@ms/sp-build-internal-tasks.IMergeTranslationStringsConfig>
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.MergeTranslationStringsTask.executeTask'
+    name: executeTask
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function executeTask(gulp: any, completeCallback: (err?: string) =>
+        void)
+      parameters:
+        - id: gulp
+          type:
+            - any
+          description: ''
+        - id: completeCallback
+          type:
+            - '(err?: string) => void'
+          description: ''
+      return:
+        type:
+          - ReadWriteStream
+  - uid: '@ms/sp-build-internal-tasks.MergeTranslationStringsTask.constructor'
+    name: MergeTranslationStringsTask
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new MergeTranslationStringsTask()
+      parameters: []

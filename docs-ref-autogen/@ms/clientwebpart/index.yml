@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/clientwebpart'
+    name: '@ms/clientwebpart'
+    summary: ''
+    children:
+      - '@ms/clientwebpart.ClientWebPart'
+      - '@ms/clientwebpart.ClientWebPartPropertyPaneBuilder'
+      - '@ms/clientwebpart.IClientWebPartProp'
+      - '@ms/clientwebpart.IClientWebPartProps'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@ms/clientwebpart.ClientWebPart'
+    name: ClientWebPart
+  - uid: '@ms/clientwebpart.ClientWebPartPropertyPaneBuilder'
+    name: ClientWebPartPropertyPaneBuilder
+  - uid: '@ms/clientwebpart.IClientWebPartProp'
+    name: IClientWebPartProp
+  - uid: '@ms/clientwebpart.IClientWebPartProps'
+    name: IClientWebPartProps

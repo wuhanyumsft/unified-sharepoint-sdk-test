@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-dialog.IFabricDialogWrapperState'
+    name: IFabricDialogWrapperState
+    fullName: IFabricDialogWrapperState
+    children:
+      - '@microsoft/sp-dialog.IFabricDialogWrapperState.dialog'
+      - '@microsoft/sp-dialog.IFabricDialogWrapperState.isContentReady'
+      - '@microsoft/sp-dialog.IFabricDialogWrapperState.isOpen'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-dialog'
+  - uid: '@microsoft/sp-dialog.IFabricDialogWrapperState.dialog'
+    name: dialog
+    fullName: dialog
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: BaseDialog dialog
+      return:
+        type:
+          - '@@microsoft/sp-dialog.BaseDialog'
+  - uid: '@microsoft/sp-dialog.IFabricDialogWrapperState.isContentReady'
+    name: isContentReady
+    fullName: isContentReady
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isContentReady
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-dialog.IFabricDialogWrapperState.isOpen'
+    name: isOpen
+    fullName: isOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isOpen
+      return:
+        type:
+          - boolean

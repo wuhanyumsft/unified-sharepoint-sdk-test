@@ -1,0 +1,141 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.IToolbarButtonProps'
+    name: IToolbarButtonProps
+    fullName: IToolbarButtonProps
+    children:
+      - '@ms/sp-canvas.IToolbarButtonProps.automationId'
+      - '@ms/sp-canvas.IToolbarButtonProps.disabled'
+      - '@ms/sp-canvas.IToolbarButtonProps.dragHandleTag'
+      - '@ms/sp-canvas.IToolbarButtonProps.isActive'
+      - '@ms/sp-canvas.IToolbarButtonProps.key'
+      - '@ms/sp-canvas.IToolbarButtonProps.onBlur'
+      - '@ms/sp-canvas.IToolbarButtonProps.onClick'
+      - '@ms/sp-canvas.IToolbarButtonProps.onKeyDown'
+      - '@ms/sp-canvas.IToolbarButtonProps.tabIndex'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Interface of ToolbarButton.
+      The toolbar needs to provide the fields for its buttons
+    extends:
+      name: '@@ms/sp-canvas.IToolbarButton'
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.IToolbarButtonProps.automationId'
+    name: automationId
+    fullName: automationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string automationId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.IToolbarButtonProps.disabled'
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: If the button should be rendered in disabled state
+    syntax:
+      content: boolean disabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.IToolbarButtonProps.dragHandleTag'
+    name: dragHandleTag
+    fullName: dragHandleTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string dragHandleTag
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.IToolbarButtonProps.isActive'
+    name: isActive
+    fullName: isActive
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: If the button should be rendered in active state
+    syntax:
+      content: boolean isActive
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.IToolbarButtonProps.key'
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Unique string used to identify the button inside the toolbar
+    syntax:
+      content: string key
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.IToolbarButtonProps.onBlur'
+    name: onBlur
+    fullName: onBlur
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(e: FocusEvent<HTMLButtonElement>) => void onBlur'
+      return:
+        type:
+          - '(e: FocusEvent<HTMLButtonElement>) => void'
+  - uid: '@ms/sp-canvas.IToolbarButtonProps.onClick'
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Button onClick callback
+    syntax:
+      content: () => void onClick
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-canvas.IToolbarButtonProps.onKeyDown'
+    name: onKeyDown
+    fullName: onKeyDown
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(e: KeyboardEvent<HTMLButtonElement>) => void onKeyDown'
+      return:
+        type:
+          - '(e: KeyboardEvent<HTMLButtonElement>) => void'
+  - uid: '@ms/sp-canvas.IToolbarButtonProps.tabIndex'
+    name: tabIndex
+    fullName: tabIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number tabIndex
+      return:
+        type:
+          - number

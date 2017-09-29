@@ -1,0 +1,110 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.ContentType'
+    name: ContentType
+    fullName: ContentType
+    children:
+      - '@ms/sp-dataproviders.ContentType.Document'
+      - '@ms/sp-dataproviders.ContentType.Page'
+      - '@ms/sp-dataproviders.ContentType.Video'
+      - '@ms/sp-dataproviders.ContentType.Event'
+      - '@ms/sp-dataproviders.ContentType.Issue'
+      - '@ms/sp-dataproviders.ContentType.Task'
+      - '@ms/sp-dataproviders.ContentType.Link'
+      - '@ms/sp-dataproviders.ContentType.Contact'
+      - '@ms/sp-dataproviders.ContentType.Image'
+      - '@ms/sp-dataproviders.ContentType.News'
+      - '@ms/sp-dataproviders.ContentType.All'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.ContentType.Document'
+    name: Document
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-dataproviders.ContentType.Page'
+    name: Page
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+  - uid: '@ms/sp-dataproviders.ContentType.Video'
+    name: Video
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+  - uid: '@ms/sp-dataproviders.ContentType.Event'
+    name: Event
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+  - uid: '@ms/sp-dataproviders.ContentType.Issue'
+    name: Issue
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 5
+  - uid: '@ms/sp-dataproviders.ContentType.Task'
+    name: Task
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 6
+  - uid: '@ms/sp-dataproviders.ContentType.Link'
+    name: Link
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 7
+  - uid: '@ms/sp-dataproviders.ContentType.Contact'
+    name: Contact
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 8
+  - uid: '@ms/sp-dataproviders.ContentType.Image'
+    name: Image
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 9
+  - uid: '@ms/sp-dataproviders.ContentType.News'
+    name: News
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 10
+  - uid: '@ms/sp-dataproviders.ContentType.All'
+    name: All
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 99

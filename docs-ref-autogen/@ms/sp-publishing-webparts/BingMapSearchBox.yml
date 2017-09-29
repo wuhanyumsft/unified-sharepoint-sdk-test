@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.BingMapSearchBox'
+    name: BingMapSearchBox
+    fullName: BingMapSearchBox
+    children:
+      - '@ms/sp-publishing-webparts.BingMapSearchBox.constructor'
+      - '@ms/sp-publishing-webparts.BingMapSearchBox.render'
+      - '@ms/sp-publishing-webparts.BingMapSearchBox.setInputValue'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      BingMapSearchBox component contains a TextField and a Button for user to
+      search
+
+      a location and add push pin.
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.BingMapSearchBox<@@ms/sp-publishing-webparts.IBingMapSearchBoxProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.BingMapSearchBox.constructor'
+    name: BingMapSearchBox
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BingMapSearchBox(props: IBingMapSearchBoxProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IBingMapSearchBoxProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.BingMapSearchBox.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-publishing-webparts.BingMapSearchBox.setInputValue'
+    name: setInputValue
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Used to set the value of input box.
+
+      Explicitly declare this public method saying that we set state outside of
+      this component.
+
+      Maintain this state in upper level will cause the upper component to
+      re-render too many times.
+    syntax:
+      content: 'function setInputValue(value: string)'
+      parameters:
+        - id: value
+          type:
+            - string
+          description: ''

@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.QosMonitorType'
+    name: QosMonitorType
+    fullName: QosMonitorType
+    children:
+      - '@ms/sp-publishing-webparts.QosMonitorType.Mount'
+      - '@ms/sp-publishing-webparts.QosMonitorType.Render'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.QosMonitorType.Mount'
+    name: Mount
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-publishing-webparts.QosMonitorType.Render'
+    name: Render
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

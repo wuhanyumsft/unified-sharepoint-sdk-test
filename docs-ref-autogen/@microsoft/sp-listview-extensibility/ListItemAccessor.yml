@@ -1,0 +1,71 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-listview-extensibility.ListItemAccessor'
+    name: ListItemAccessor
+    fullName: ListItemAccessor
+    children:
+      - '@microsoft/sp-listview-extensibility.ListItemAccessor.getValue'
+      - '@microsoft/sp-listview-extensibility.ListItemAccessor.getValueByName'
+      - '@microsoft/sp-listview-extensibility.ListItemAccessor.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      When a field customizer extension is rendering a field, the
+      ListItemAccessor provides
+
+      access to the associated SharePoint list item.
+    package: '@microsoft/sp-listview-extensibility'
+  - uid: '@microsoft/sp-listview-extensibility.ListItemAccessor.getValue'
+    name: getValue
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Retrieves the current data value for the specified field.
+
+      The value will be a primitive JavaScript object such as a string, number,
+      etc.
+    syntax:
+      content: 'function getValue(field: SPField)'
+      parameters:
+        - id: field
+          type:
+            - SPField
+          description: ''
+      return:
+        type:
+          - any
+  - uid: '@microsoft/sp-listview-extensibility.ListItemAccessor.getValueByName'
+    name: getValueByName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Retrieves the current data value for the field with the specified internal
+      name.
+
+      The value will be a primitive JavaScript object such as a string, number,
+      etc.
+    syntax:
+      content: 'function getValueByName(internalName: string)'
+      parameters:
+        - id: internalName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - any
+  - uid: '@microsoft/sp-listview-extensibility.ListItemAccessor.constructor'
+    name: ListItemAccessor
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new ListItemAccessor()
+      parameters: []

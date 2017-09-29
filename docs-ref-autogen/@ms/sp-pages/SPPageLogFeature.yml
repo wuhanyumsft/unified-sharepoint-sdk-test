@@ -1,0 +1,1021 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.SPPageLogFeature'
+    name: SPPageLogFeature
+    fullName: SPPageLogFeature
+    children:
+      - '@ms/sp-pages.SPPageLogFeature.SPPageAddPageLayoutMapping'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageAutoSaveTimerSave'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageChangeCurrentPageLayout'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageCommentCreated'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageCommentDeleted'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageCommentLiked'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageCommentMoreLikesLoaded'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageCommentReplaced'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageCommentReplyFocused'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageCommentsCleared'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageCommentsGetDisabled'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageCommentsLoaded'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageCommentsMoreCommentsLoaded'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageCommentsMoreRepliesLoaded'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageCommentsReset'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageCommentsSetDisabled'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageCommentUnliked'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageComponentsPageTitleChanged'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageConfigChrome'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageDisplayModeCancelEdit'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageDisplayModeEdit'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageFieldStore'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageFieldStoreAddFieldToUpdate'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageFieldStoreClearUpdate'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageFieldStoreCreateBlankPage'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageFieldStoreCreatePageStub'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageFieldStorePageTitleRenamedFailure'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageFieldStorePageTitleRenamedSuccess'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageFieldStoreSave'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageFieldStoreSaveDraft'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageFieldStoreSetFields'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageFieldStoreSetFieldsFromListItem'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageFieldStoreSetFieldsFromSitePage'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageFields_Checkin'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageFields_Checkout'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageFields_Discard'
+      - >-
+        @ms/sp-pages.SPPageLogFeature.SPPageFields_EnsureNoInProgressActionMaxRetries
+      - '@ms/sp-pages.SPPageLogFeature.SPPageFields_ensurePageExists'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageFields_GetFileName'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageFields_Publish'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageFields_VersionInfo'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageInitializeSearch'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageLayoutChange'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageLayoutMapping'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageLayoutReset'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageLoadPageLayoutMapping'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageLoadSearch'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageNavigate'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageNavigationCloseEditNav'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageNavigationShowEditNav'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageNavigationToggleNavOnTop'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageNavigationUpdateQuickLaunch'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageOnePageNavigationToDocLib'
+      - '@ms/sp-pages.SPPageLogFeature.SPPagePromoteToNews'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageQuickLaunchAdd'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageQuickLaunchToggleNavOnTop'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageQuickLaunchUpdate'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageRaiseFirstRun'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageRenderPhaseUpdate'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageSavePage'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageSearch'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageSetError'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageSetPageDirty'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageSetPageSaved'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageSetPageStatus'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageSetPageUnPublished'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageSetSaveStatus'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageShowError'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageSocialMorePageLikesLoaded'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageSocialPageLiked'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageSocialPageUnliked'
+      - '@ms/sp-pages.SPPageLogFeature.SPPageTemplatesLoad'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageAddPageLayoutMapping'
+    name: SPPageAddPageLayoutMapping
+    fullName: SPPageAddPageLayoutMapping
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageAddPageLayoutMapping
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageAutoSaveTimerSave'
+    name: SPPageAutoSaveTimerSave
+    fullName: SPPageAutoSaveTimerSave
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageAutoSaveTimerSave
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageChangeCurrentPageLayout'
+    name: SPPageChangeCurrentPageLayout
+    fullName: SPPageChangeCurrentPageLayout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageChangeCurrentPageLayout
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageCommentCreated'
+    name: SPPageCommentCreated
+    fullName: SPPageCommentCreated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageCommentCreated
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageCommentDeleted'
+    name: SPPageCommentDeleted
+    fullName: SPPageCommentDeleted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageCommentDeleted
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageCommentLiked'
+    name: SPPageCommentLiked
+    fullName: SPPageCommentLiked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageCommentLiked
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageCommentMoreLikesLoaded'
+    name: SPPageCommentMoreLikesLoaded
+    fullName: SPPageCommentMoreLikesLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageCommentMoreLikesLoaded
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageCommentReplaced'
+    name: SPPageCommentReplaced
+    fullName: SPPageCommentReplaced
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageCommentReplaced
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageCommentReplyFocused'
+    name: SPPageCommentReplyFocused
+    fullName: SPPageCommentReplyFocused
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageCommentReplyFocused
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageCommentsCleared'
+    name: SPPageCommentsCleared
+    fullName: SPPageCommentsCleared
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageCommentsCleared
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageCommentsGetDisabled'
+    name: SPPageCommentsGetDisabled
+    fullName: SPPageCommentsGetDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageCommentsGetDisabled
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageCommentsLoaded'
+    name: SPPageCommentsLoaded
+    fullName: SPPageCommentsLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageCommentsLoaded
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageCommentsMoreCommentsLoaded'
+    name: SPPageCommentsMoreCommentsLoaded
+    fullName: SPPageCommentsMoreCommentsLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageCommentsMoreCommentsLoaded
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageCommentsMoreRepliesLoaded'
+    name: SPPageCommentsMoreRepliesLoaded
+    fullName: SPPageCommentsMoreRepliesLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageCommentsMoreRepliesLoaded
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageCommentsReset'
+    name: SPPageCommentsReset
+    fullName: SPPageCommentsReset
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageCommentsReset
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageCommentsSetDisabled'
+    name: SPPageCommentsSetDisabled
+    fullName: SPPageCommentsSetDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageCommentsSetDisabled
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageCommentUnliked'
+    name: SPPageCommentUnliked
+    fullName: SPPageCommentUnliked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageCommentUnliked
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageComponentsPageTitleChanged'
+    name: SPPageComponentsPageTitleChanged
+    fullName: SPPageComponentsPageTitleChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageComponentsPageTitleChanged
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageConfigChrome'
+    name: SPPageConfigChrome
+    fullName: SPPageConfigChrome
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageConfigChrome
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageDisplayModeCancelEdit'
+    name: SPPageDisplayModeCancelEdit
+    fullName: SPPageDisplayModeCancelEdit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageDisplayModeCancelEdit
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageDisplayModeEdit'
+    name: SPPageDisplayModeEdit
+    fullName: SPPageDisplayModeEdit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageDisplayModeEdit
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageFieldStore'
+    name: SPPageFieldStore
+    fullName: SPPageFieldStore
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageFieldStore
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageFieldStoreAddFieldToUpdate'
+    name: SPPageFieldStoreAddFieldToUpdate
+    fullName: SPPageFieldStoreAddFieldToUpdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageFieldStoreAddFieldToUpdate
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageFieldStoreClearUpdate'
+    name: SPPageFieldStoreClearUpdate
+    fullName: SPPageFieldStoreClearUpdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageFieldStoreClearUpdate
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageFieldStoreCreateBlankPage'
+    name: SPPageFieldStoreCreateBlankPage
+    fullName: SPPageFieldStoreCreateBlankPage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageFieldStoreCreateBlankPage
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageFieldStoreCreatePageStub'
+    name: SPPageFieldStoreCreatePageStub
+    fullName: SPPageFieldStoreCreatePageStub
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageFieldStoreCreatePageStub
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageFieldStorePageTitleRenamedFailure'
+    name: SPPageFieldStorePageTitleRenamedFailure
+    fullName: SPPageFieldStorePageTitleRenamedFailure
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageFieldStorePageTitleRenamedFailure
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageFieldStorePageTitleRenamedSuccess'
+    name: SPPageFieldStorePageTitleRenamedSuccess
+    fullName: SPPageFieldStorePageTitleRenamedSuccess
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageFieldStorePageTitleRenamedSuccess
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageFieldStoreSave'
+    name: SPPageFieldStoreSave
+    fullName: SPPageFieldStoreSave
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageFieldStoreSave
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageFieldStoreSaveDraft'
+    name: SPPageFieldStoreSaveDraft
+    fullName: SPPageFieldStoreSaveDraft
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageFieldStoreSaveDraft
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageFieldStoreSetFields'
+    name: SPPageFieldStoreSetFields
+    fullName: SPPageFieldStoreSetFields
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageFieldStoreSetFields
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageFieldStoreSetFieldsFromListItem'
+    name: SPPageFieldStoreSetFieldsFromListItem
+    fullName: SPPageFieldStoreSetFieldsFromListItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageFieldStoreSetFieldsFromListItem
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageFieldStoreSetFieldsFromSitePage'
+    name: SPPageFieldStoreSetFieldsFromSitePage
+    fullName: SPPageFieldStoreSetFieldsFromSitePage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageFieldStoreSetFieldsFromSitePage
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageFields_Checkin'
+    name: SPPageFields_Checkin
+    fullName: SPPageFields_Checkin
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageFields_Checkin
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageFields_Checkout'
+    name: SPPageFields_Checkout
+    fullName: SPPageFields_Checkout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageFields_Checkout
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageFields_Discard'
+    name: SPPageFields_Discard
+    fullName: SPPageFields_Discard
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageFields_Discard
+      return:
+        type:
+          - string
+  - uid: >-
+      @ms/sp-pages.SPPageLogFeature.SPPageFields_EnsureNoInProgressActionMaxRetries
+    name: SPPageFields_EnsureNoInProgressActionMaxRetries
+    fullName: SPPageFields_EnsureNoInProgressActionMaxRetries
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageFields_EnsureNoInProgressActionMaxRetries
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageFields_ensurePageExists'
+    name: SPPageFields_ensurePageExists
+    fullName: SPPageFields_ensurePageExists
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageFields_ensurePageExists
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageFields_GetFileName'
+    name: SPPageFields_GetFileName
+    fullName: SPPageFields_GetFileName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageFields_GetFileName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageFields_Publish'
+    name: SPPageFields_Publish
+    fullName: SPPageFields_Publish
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageFields_Publish
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageFields_VersionInfo'
+    name: SPPageFields_VersionInfo
+    fullName: SPPageFields_VersionInfo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageFields_VersionInfo
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageInitializeSearch'
+    name: SPPageInitializeSearch
+    fullName: SPPageInitializeSearch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageInitializeSearch
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageLayoutChange'
+    name: SPPageLayoutChange
+    fullName: SPPageLayoutChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageLayoutChange
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageLayoutMapping'
+    name: SPPageLayoutMapping
+    fullName: SPPageLayoutMapping
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageLayoutMapping
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageLayoutReset'
+    name: SPPageLayoutReset
+    fullName: SPPageLayoutReset
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageLayoutReset
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageLoadPageLayoutMapping'
+    name: SPPageLoadPageLayoutMapping
+    fullName: SPPageLoadPageLayoutMapping
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageLoadPageLayoutMapping
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageLoadSearch'
+    name: SPPageLoadSearch
+    fullName: SPPageLoadSearch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageLoadSearch
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageNavigate'
+    name: SPPageNavigate
+    fullName: SPPageNavigate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageNavigate
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageNavigationCloseEditNav'
+    name: SPPageNavigationCloseEditNav
+    fullName: SPPageNavigationCloseEditNav
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageNavigationCloseEditNav
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageNavigationShowEditNav'
+    name: SPPageNavigationShowEditNav
+    fullName: SPPageNavigationShowEditNav
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageNavigationShowEditNav
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageNavigationToggleNavOnTop'
+    name: SPPageNavigationToggleNavOnTop
+    fullName: SPPageNavigationToggleNavOnTop
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageNavigationToggleNavOnTop
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageNavigationUpdateQuickLaunch'
+    name: SPPageNavigationUpdateQuickLaunch
+    fullName: SPPageNavigationUpdateQuickLaunch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageNavigationUpdateQuickLaunch
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageOnePageNavigationToDocLib'
+    name: SPPageOnePageNavigationToDocLib
+    fullName: SPPageOnePageNavigationToDocLib
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageOnePageNavigationToDocLib
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPagePromoteToNews'
+    name: SPPagePromoteToNews
+    fullName: SPPagePromoteToNews
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPagePromoteToNews
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageQuickLaunchAdd'
+    name: SPPageQuickLaunchAdd
+    fullName: SPPageQuickLaunchAdd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageQuickLaunchAdd
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageQuickLaunchToggleNavOnTop'
+    name: SPPageQuickLaunchToggleNavOnTop
+    fullName: SPPageQuickLaunchToggleNavOnTop
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageQuickLaunchToggleNavOnTop
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageQuickLaunchUpdate'
+    name: SPPageQuickLaunchUpdate
+    fullName: SPPageQuickLaunchUpdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageQuickLaunchUpdate
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageRaiseFirstRun'
+    name: SPPageRaiseFirstRun
+    fullName: SPPageRaiseFirstRun
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageRaiseFirstRun
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageRenderPhaseUpdate'
+    name: SPPageRenderPhaseUpdate
+    fullName: SPPageRenderPhaseUpdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageRenderPhaseUpdate
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageSavePage'
+    name: SPPageSavePage
+    fullName: SPPageSavePage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageSavePage
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageSearch'
+    name: SPPageSearch
+    fullName: SPPageSearch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageSearch
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageSetError'
+    name: SPPageSetError
+    fullName: SPPageSetError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageSetError
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageSetPageDirty'
+    name: SPPageSetPageDirty
+    fullName: SPPageSetPageDirty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageSetPageDirty
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageSetPageSaved'
+    name: SPPageSetPageSaved
+    fullName: SPPageSetPageSaved
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageSetPageSaved
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageSetPageStatus'
+    name: SPPageSetPageStatus
+    fullName: SPPageSetPageStatus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageSetPageStatus
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageSetPageUnPublished'
+    name: SPPageSetPageUnPublished
+    fullName: SPPageSetPageUnPublished
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageSetPageUnPublished
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageSetSaveStatus'
+    name: SPPageSetSaveStatus
+    fullName: SPPageSetSaveStatus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageSetSaveStatus
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageShowError'
+    name: SPPageShowError
+    fullName: SPPageShowError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageShowError
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageSocialMorePageLikesLoaded'
+    name: SPPageSocialMorePageLikesLoaded
+    fullName: SPPageSocialMorePageLikesLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageSocialMorePageLikesLoaded
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageSocialPageLiked'
+    name: SPPageSocialPageLiked
+    fullName: SPPageSocialPageLiked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageSocialPageLiked
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageSocialPageUnliked'
+    name: SPPageSocialPageUnliked
+    fullName: SPPageSocialPageUnliked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageSocialPageUnliked
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.SPPageLogFeature.SPPageTemplatesLoad'
+    name: SPPageTemplatesLoad
+    fullName: SPPageTemplatesLoad
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPPageTemplatesLoad
+      return:
+        type:
+          - string

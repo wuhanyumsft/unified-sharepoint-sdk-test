@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.CreateCommSite'
+    name: CreateCommSite
+    fullName: CreateCommSite
+    children:
+      - '@ms/sp-pages.CreateCommSite.constructor'
+      - '@ms/sp-pages.CreateCommSite.TestIncludeScripts'
+      - '@ms/sp-pages.CreateCommSite.TestName'
+      - '@ms/sp-pages.CreateCommSite.TestOwner'
+      - '@ms/sp-pages.CreateCommSite.TestRun'
+      - '@ms/sp-pages.CreateCommSite.TestSetup'
+      - '@ms/sp-pages.CreateCommSite.TestTeardown'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.CreateCommSite.constructor'
+    name: CreateCommSite
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CreateCommSite(serverURL: string)'
+      parameters:
+        - id: serverURL
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-pages.CreateCommSite.TestIncludeScripts'
+    name: TestIncludeScripts
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestIncludeScripts()
+      parameters: []
+  - uid: '@ms/sp-pages.CreateCommSite.TestName'
+    name: TestName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestName()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.CreateCommSite.TestOwner'
+    name: TestOwner
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestOwner()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.CreateCommSite.TestRun'
+    name: TestRun
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestRun()
+      parameters: []
+  - uid: '@ms/sp-pages.CreateCommSite.TestSetup'
+    name: TestSetup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestSetup()
+      parameters: []
+  - uid: '@ms/sp-pages.CreateCommSite.TestTeardown'
+    name: TestTeardown
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestTeardown()
+      parameters: []

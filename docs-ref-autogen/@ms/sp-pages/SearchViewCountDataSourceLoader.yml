@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.SearchViewCountDataSourceLoader'
+    name: SearchViewCountDataSourceLoader
+    fullName: SearchViewCountDataSourceLoader
+    children:
+      - '@ms/sp-pages.SearchViewCountDataSourceLoader.load'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SearchViewCountDataSourceLoader.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function load(providerOptions: IDataProviderOptions)'
+      parameters:
+        - id: providerOptions
+          type:
+            - IDataProviderOptions
+          description: ''
+      return:
+        type:
+          - Promise<IDataProvider<ISearchDataProviderOptions>>

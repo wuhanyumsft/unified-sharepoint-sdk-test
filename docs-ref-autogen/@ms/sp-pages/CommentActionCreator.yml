@@ -1,0 +1,226 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.CommentActionCreator'
+    name: CommentActionCreator
+    fullName: CommentActionCreator
+    children:
+      - '@ms/sp-pages.CommentActionCreator.clearComments'
+      - '@ms/sp-pages.CommentActionCreator.createComment'
+      - '@ms/sp-pages.CommentActionCreator.deleteComment'
+      - '@ms/sp-pages.CommentActionCreator.fetchComments'
+      - '@ms/sp-pages.CommentActionCreator.fetchDisabledScope'
+      - '@ms/sp-pages.CommentActionCreator.fetchNextComments'
+      - '@ms/sp-pages.CommentActionCreator.fetchNextLikes'
+      - '@ms/sp-pages.CommentActionCreator.fetchNextReplies'
+      - '@ms/sp-pages.CommentActionCreator.focusReply'
+      - '@ms/sp-pages.CommentActionCreator.likeComment'
+      - '@ms/sp-pages.CommentActionCreator.reset'
+      - '@ms/sp-pages.CommentActionCreator.setDisabled'
+      - '@ms/sp-pages.CommentActionCreator.unlikeComment'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.CommentActionCreator.clearComments'
+    name: clearComments
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function clearComments()
+      parameters: []
+  - uid: '@ms/sp-pages.CommentActionCreator.createComment'
+    name: createComment
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function createComment(user: IUserObject, text: string,
+        parentId?: string)
+      parameters:
+        - id: user
+          type:
+            - '@@ms/sp-pages.IUserObject'
+          description: ''
+        - id: text
+          type:
+            - string
+          description: ''
+        - id: parentId
+          type:
+            - string
+          description: ''
+          optional: true
+  - uid: '@ms/sp-pages.CommentActionCreator.deleteComment'
+    name: deleteComment
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function deleteComment(comment: CommentItem)'
+      parameters:
+        - id: comment
+          type:
+            - '@@ms/sp-pages.CommentItem'
+          description: ''
+  - uid: '@ms/sp-pages.CommentActionCreator.fetchComments'
+    name: fetchComments
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function fetchComments()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-pages.CommentActionCreator.fetchDisabledScope'
+    name: fetchDisabledScope
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function fetchDisabledScope()
+      parameters: []
+  - uid: '@ms/sp-pages.CommentActionCreator.fetchNextComments'
+    name: fetchNextComments
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function fetchNextComments(nextLink: string)'
+      parameters:
+        - id: nextLink
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-pages.CommentActionCreator.fetchNextLikes'
+    name: fetchNextLikes
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function fetchNextLikes(comment: CommentItem)'
+      parameters:
+        - id: comment
+          type:
+            - '@@ms/sp-pages.CommentItem'
+          description: ''
+  - uid: '@ms/sp-pages.CommentActionCreator.fetchNextReplies'
+    name: fetchNextReplies
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function fetchNextReplies(nextLink: string, parentId: string)'
+      parameters:
+        - id: nextLink
+          type:
+            - string
+          description: ''
+        - id: parentId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-pages.CommentActionCreator.focusReply'
+    name: focusReply
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function focusReply(commentId?: string)'
+      parameters:
+        - id: commentId
+          type:
+            - string
+          description: ''
+          optional: true
+  - uid: '@ms/sp-pages.CommentActionCreator.likeComment'
+    name: likeComment
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function likeComment(comment: CommentItem, user: IUserObject)'
+      parameters:
+        - id: comment
+          type:
+            - '@@ms/sp-pages.CommentItem'
+          description: ''
+        - id: user
+          type:
+            - '@@ms/sp-pages.IUserObject'
+          description: ''
+  - uid: '@ms/sp-pages.CommentActionCreator.reset'
+    name: reset
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function reset()
+      parameters: []
+  - uid: '@ms/sp-pages.CommentActionCreator.setDisabled'
+    name: setDisabled
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function setDisabled(disabled: boolean)'
+      parameters:
+        - id: disabled
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-pages.CommentActionCreator.unlikeComment'
+    name: unlikeComment
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function unlikeComment(comment: CommentItem, user: IUserObject)'
+      parameters:
+        - id: comment
+          type:
+            - '@@ms/sp-pages.CommentItem'
+          description: ''
+        - id: user
+          type:
+            - '@@ms/sp-pages.IUserObject'
+          description: ''

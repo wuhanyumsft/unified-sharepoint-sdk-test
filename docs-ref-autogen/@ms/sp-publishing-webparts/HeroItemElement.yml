@@ -1,0 +1,108 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.HeroItemElement'
+    name: HeroItemElement
+    fullName: HeroItemElement
+    children:
+      - '@ms/sp-publishing-webparts.HeroItemElement.componentDidMount'
+      - '@ms/sp-publishing-webparts.HeroItemElement.componentDidUpdate'
+      - '@ms/sp-publishing-webparts.HeroItemElement.componentWillReceiveProps'
+      - '@ms/sp-publishing-webparts.HeroItemElement.constructor'
+      - '@ms/sp-publishing-webparts.HeroItemElement.render'
+      - '@ms/sp-publishing-webparts.HeroItemElement.shouldComponentUpdate'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.HeroItemElement<@@ms/sp-publishing-webparts.IHeroItemProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.HeroItemElement.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.HeroItemElement.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentDidUpdate(prevProps: IHeroItemProps)'
+      parameters:
+        - id: prevProps
+          type:
+            - '@@ms/sp-publishing-webparts.IHeroItemProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.HeroItemElement.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: IHeroItemProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-publishing-webparts.IHeroItemProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.HeroItemElement.constructor'
+    name: HeroItemElement
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new HeroItemElement(props: IHeroItemProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IHeroItemProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.HeroItemElement.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>
+  - uid: '@ms/sp-publishing-webparts.HeroItemElement.shouldComponentUpdate'
+    name: shouldComponentUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function shouldComponentUpdate(nextProps: IHeroItemProps, nextState:
+        IHeroItemState)
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-publishing-webparts.IHeroItemProps'
+          description: ''
+        - id: nextState
+          type:
+            - '@@ms/sp-publishing-webparts.IHeroItemState'
+          description: ''
+      return:
+        type:
+          - boolean

@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.ViewMode'
+    name: ViewMode
+    fullName: ViewMode
+    children:
+      - '@ms/sp-component-layouts.ViewMode.Default'
+      - '@ms/sp-component-layouts.ViewMode.Digest'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-component-layouts'
+  - uid: '@ms/sp-component-layouts.ViewMode.Default'
+    name: Default
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-component-layouts.ViewMode.Digest'
+    name: Digest
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/listview-spfx-host.ListViewWrapper'
+    name: ListViewWrapper
+    fullName: ListViewWrapper
+    children:
+      - '@ms/listview-spfx-host.ListViewWrapper.constructor'
+      - '@ms/listview-spfx-host.ListViewWrapper.tryGetColumnByName'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/listview-spfx-host.ListViewWrapper'
+    package: '@ms/listview-spfx-host'
+  - uid: '@ms/listview-spfx-host.ListViewWrapper.constructor'
+    name: ListViewWrapper
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ListViewWrapper(adapter: ListViewAdapter)'
+      parameters:
+        - id: adapter
+          type:
+            - '@@ms/listview-spfx-host.ListViewAdapter'
+          description: ''
+  - uid: '@ms/listview-spfx-host.ListViewWrapper.tryGetColumnByName'
+    name: tryGetColumnByName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function tryGetColumnByName(internalName: string)'
+      parameters:
+        - id: internalName
+          type:
+            - string
+          description: ''

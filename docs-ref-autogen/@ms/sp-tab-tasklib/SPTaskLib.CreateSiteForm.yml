@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.CreateSiteForm'
+    name: CreateSiteForm
+    fullName: CreateSiteForm
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.CreateSiteForm.AddTaskCreateSite'
+      - '@ms/sp-tab-tasklib.SPTaskLib.CreateSiteForm.AddTaskVerifyForm'
+      - '@ms/sp-tab-tasklib.SPTaskLib.CreateSiteForm.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.CreateSiteForm.AddTaskCreateSite'
+    name: AddTaskCreateSite
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function AddTaskCreateSite(param: ICreateSiteParams)'
+      parameters:
+        - id: param
+          type:
+            - '@@ms/sp-tab-tasklib.SPTaskLib.ICreateSiteParams'
+          description: ''
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.CreateSiteForm.AddTaskVerifyForm'
+    name: AddTaskVerifyForm
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function AddTaskVerifyForm()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.CreateSiteForm.constructor'
+    name: CreateSiteForm
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CreateSiteForm(panelRoot: HTMLElement, siteTemplate:
+        CreateSiteTemplateOption)
+      parameters:
+        - id: panelRoot
+          type:
+            - HTMLElement
+          description: ''
+        - id: siteTemplate
+          type:
+            - CreateSiteTemplateOption
+          description: ''

@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.EventEditableLink'
+    name: EventEditableLink
+    fullName: EventEditableLink
+    children:
+      - '@ms/sp-pages.EventEditableLink.focus'
+      - '@ms/sp-pages.EventEditableLink.render'
+      - '@ms/sp-pages.EventEditableLink.validateLink'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.EventEditableLink<@@ms/sp-pages.IEventEditableLinkProps>'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.EventEditableLink.focus'
+    name: focus
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+  - uid: '@ms/sp-pages.EventEditableLink.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-pages.EventEditableLink.validateLink'
+    name: validateLink
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function validateLink(linkUrl: string, linkName: string)'
+      parameters:
+        - id: linkUrl
+          type:
+            - string
+          description: ''
+        - id: linkName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string

@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-extension-base.IComponentModule'
+    name: IComponentModule
+    fullName: IComponentModule
+    children:
+      - '@microsoft/sp-extension-base.IComponentModule.default'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      This interface represents the loaded module that has the extension as its
+      default export
+    package: '@microsoft/sp-extension-base'
+  - uid: '@microsoft/sp-extension-base.IComponentModule.default'
+    name: default
+    fullName: default
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IBaseExtensionImplementation default
+      return:
+        type:
+          - '@@microsoft/sp-extension-base.IBaseExtensionImplementation'

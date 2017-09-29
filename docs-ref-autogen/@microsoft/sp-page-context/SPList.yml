@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-page-context.SPList'
+    name: SPList
+    fullName: SPList
+    children:
+      - '@microsoft/sp-page-context.SPList.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      This class is primarily used with the PageContext class.  It provides
+      contextual
+
+      information for the SharePoint list that hosts the page.
+    package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.SPList.constructor'
+    name: SPList
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SPList(data: ISPListData)'
+      parameters:
+        - id: data
+          type:
+            - '@@microsoft/sp-page-context.ISPListData'
+          description: ''

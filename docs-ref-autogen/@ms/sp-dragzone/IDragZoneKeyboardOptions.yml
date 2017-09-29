@@ -1,0 +1,247 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dragzone.IDragZoneKeyboardOptions'
+    name: IDragZoneKeyboardOptions
+    fullName: IDragZoneKeyboardOptions
+    children:
+      - '@ms/sp-dragzone.IDragZoneKeyboardOptions.changeIconVisibility'
+      - '@ms/sp-dragzone.IDragZoneKeyboardOptions.disallowedClassName'
+      - '@ms/sp-dragzone.IDragZoneKeyboardOptions.disallowedTag'
+      - '@ms/sp-dragzone.IDragZoneKeyboardOptions.handles'
+      - '@ms/sp-dragzone.IDragZoneKeyboardOptions.handleTag'
+      - '@ms/sp-dragzone.IDragZoneKeyboardOptions.host'
+      - '@ms/sp-dragzone.IDragZoneKeyboardOptions.moveIcon'
+      - '@ms/sp-dragzone.IDragZoneKeyboardOptions.moveItem'
+      - '@ms/sp-dragzone.IDragZoneKeyboardOptions.moveLine'
+      - '@ms/sp-dragzone.IDragZoneKeyboardOptions.onMoveStart'
+      - '@ms/sp-dragzone.IDragZoneKeyboardOptions.onMoving'
+      - '@ms/sp-dragzone.IDragZoneKeyboardOptions.removeLine'
+      - '@ms/sp-dragzone.IDragZoneKeyboardOptions.scrollIntoView'
+      - '@ms/sp-dragzone.IDragZoneKeyboardOptions.strings'
+      - '@ms/sp-dragzone.IDragZoneKeyboardOptions.supportHorizontalReorder'
+      - '@ms/sp-dragzone.IDragZoneKeyboardOptions.tree'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dragzone'
+  - uid: '@ms/sp-dragzone.IDragZoneKeyboardOptions.changeIconVisibility'
+    name: changeIconVisibility
+    fullName: changeIconVisibility
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(visible: boolean) => void changeIconVisibility'
+      return:
+        type:
+          - '(visible: boolean) => void'
+  - uid: '@ms/sp-dragzone.IDragZoneKeyboardOptions.disallowedClassName'
+    name: disallowedClassName
+    fullName: disallowedClassName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string disallowedClassName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dragzone.IDragZoneKeyboardOptions.disallowedTag'
+    name: disallowedTag
+    fullName: disallowedTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string disallowedTag
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dragzone.IDragZoneKeyboardOptions.handles'
+    name: handles
+    fullName: handles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Element[] handles'
+      return:
+        type:
+          - 'Element[]'
+  - uid: '@ms/sp-dragzone.IDragZoneKeyboardOptions.handleTag'
+    name: handleTag
+    fullName: handleTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string handleTag
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dragzone.IDragZoneKeyboardOptions.host'
+    name: host
+    fullName: host
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Element host
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-dragzone.IDragZoneKeyboardOptions.moveIcon'
+    name: moveIcon
+    fullName: moveIcon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(x: number, y: number) => void moveIcon'
+      return:
+        type:
+          - '(x: number, y: number) => void'
+  - uid: '@ms/sp-dragzone.IDragZoneKeyboardOptions.moveItem'
+    name: moveItem
+    fullName: moveItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        (toMoveItemPosition: number[], movedItemPosition: number[]) => void
+        moveItem
+      return:
+        type:
+          - '(toMoveItemPosition: number[], movedItemPosition: number[]) => void'
+  - uid: '@ms/sp-dragzone.IDragZoneKeyboardOptions.moveLine'
+    name: moveLine
+    fullName: moveLine
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        (adjacentElement: HTMLElement, isLeaf: boolean, shouldInsertBefore:
+        boolean, moveIcon: boolean) => HTMLElement moveLine
+      return:
+        type:
+          - >-
+            (adjacentElement: HTMLElement, isLeaf: boolean, shouldInsertBefore:
+            boolean, moveIcon: boolean) => HTMLElement
+  - uid: '@ms/sp-dragzone.IDragZoneKeyboardOptions.onMoveStart'
+    name: onMoveStart
+    fullName: onMoveStart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        (draggedItemPosition: number[], disallowed?: boolean) => void
+        onMoveStart
+      return:
+        type:
+          - '(draggedItemPosition: number[], disallowed?: boolean) => void'
+  - uid: '@ms/sp-dragzone.IDragZoneKeyboardOptions.onMoving'
+    name: onMoving
+    fullName: onMoving
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(disallowed?: boolean) => void onMoving'
+      return:
+        type:
+          - '(disallowed?: boolean) => void'
+  - uid: '@ms/sp-dragzone.IDragZoneKeyboardOptions.removeLine'
+    name: removeLine
+    fullName: removeLine
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void removeLine
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-dragzone.IDragZoneKeyboardOptions.scrollIntoView'
+    name: scrollIntoView
+    fullName: scrollIntoView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        (type: string, element: HTMLElement, duration: number, margin: number,
+        scrollBack?: boolean) => void scrollIntoView
+      return:
+        type:
+          - >-
+            (type: string, element: HTMLElement, duration: number, margin:
+            number, scrollBack?: boolean) => void
+  - uid: '@ms/sp-dragzone.IDragZoneKeyboardOptions.strings'
+    name: strings
+    fullName: strings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IDragZoneA11yStrings strings
+      return:
+        type:
+          - '@@ms/sp-dragzone.IDragZoneA11yStrings'
+  - uid: '@ms/sp-dragzone.IDragZoneKeyboardOptions.supportHorizontalReorder'
+    name: supportHorizontalReorder
+    fullName: supportHorizontalReorder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean supportHorizontalReorder
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dragzone.IDragZoneKeyboardOptions.tree'
+    name: tree
+    fullName: tree
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DragZoneTree tree
+      return:
+        type:
+          - '@@ms/sp-dragzone.DragZoneTree'

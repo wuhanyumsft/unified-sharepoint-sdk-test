@@ -1,0 +1,126 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption'
+    name: IPropertyPaneChoiceGroupOption
+    fullName: IPropertyPaneChoiceGroupOption
+    children:
+      - '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption.checked'
+      - '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption.disabled'
+      - '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption.iconProps'
+      - '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption.imageSize'
+      - '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption.imageSrc'
+      - '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption.key'
+      - >-
+        @microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption.selectedImageSrc
+      - '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption.text'
+    langs:
+      - typeScript
+    type: interface
+    summary: PropertyPane ChoiceGroup option props.
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption.checked'
+    name: checked
+    fullName: checked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Whether the property pane choicegroup option is checked or not.
+      Default value is false.
+    syntax:
+      content: boolean checked
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption.disabled'
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the property pane choice group option is disabled or not.
+    syntax:
+      content: boolean disabled
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption.iconProps'
+    name: iconProps
+    fullName: iconProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The Icon component props for choice field.
+    syntax:
+      content: IPropertyPaneChoiceGroupOptionIconProps iconProps
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOptionIconProps'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption.imageSize'
+    name: imageSize
+    fullName: imageSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The width and height of the image in px for choice field.
+    syntax:
+      content: function imageSize
+      return:
+        type:
+          - function
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption.imageSrc'
+    name: imageSrc
+    fullName: imageSrc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The src of image for choice field.
+    syntax:
+      content: string imageSrc
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption.key'
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A required key to uniquely identify the option.
+    syntax:
+      content: string key
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption.selectedImageSrc'
+    name: selectedImageSrc
+    fullName: selectedImageSrc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The src of image for choice field which is selected.
+    syntax:
+      content: string selectedImageSrc
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption.text'
+    name: text
+    fullName: text
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The text string for the option.
+    syntax:
+      content: string text
+      return:
+        type:
+          - string

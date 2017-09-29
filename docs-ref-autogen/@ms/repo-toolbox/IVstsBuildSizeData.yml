@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/repo-toolbox.IVstsBuildSizeData'
+    name: IVstsBuildSizeData
+    fullName: IVstsBuildSizeData
+    children:
+      - '@ms/repo-toolbox.IVstsBuildSizeData.build'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/repo-toolbox.IBuildSizeData'
+    package: '@ms/repo-toolbox'
+  - uid: '@ms/repo-toolbox.IVstsBuildSizeData.build'
+    name: build
+    fullName: build
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Build build
+      return:
+        type:
+          - Build

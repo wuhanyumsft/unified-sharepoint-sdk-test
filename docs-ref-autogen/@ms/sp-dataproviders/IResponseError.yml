@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IResponseError'
+    name: IResponseError
+    fullName: IResponseError
+    children:
+      - '@ms/sp-dataproviders.IResponseError.code'
+      - '@ms/sp-dataproviders.IResponseError.message'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IResponseError.code'
+    name: code
+    fullName: code
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The SharePoint error code.
+    syntax:
+      content: string code
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IResponseError.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The SharePoint error message.
+    syntax:
+      content: string message
+      return:
+        type:
+          - string

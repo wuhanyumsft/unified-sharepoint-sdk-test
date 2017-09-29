@@ -1,0 +1,133 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.EngagementLogger'
+    name: EngagementLogger
+    fullName: EngagementLogger
+    children:
+      - '@ms/sp-telemetry.EngagementLogger.log'
+      - '@ms/sp-telemetry.EngagementLogger.logEvent'
+      - '@ms/sp-telemetry.EngagementLogger.logEventWithLogEntry'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Engagement logging
+
+      use *.Click for all the actions triggered by mouse, keyboard, or touch.
+
+      if you want to add more data or the action is not click but keydown.
+
+      Use extraData to log the type of action or use extraData to log details
+      wrapped in LogEntry
+    package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.EngagementLogger.log'
+    name: log
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Engagement logging
+
+      Use *.Click for all the actions triggered by mouse, keyboard, or touch.
+
+      tagName follows <Workload>.controlName.actionName pattern
+
+      For example,{ name = "AddButton.Click" },
+
+      this logs "<Workload>.AddButton.Click" with default action triggered by
+      mouse, keyboard, or touch.
+
+      <Workload> is set in Telemetry settings
+
+      IEngagementData interface is mapped to a set of enums for standartization
+      of mapping.
+
+      Add new items to enum in order to register a new item specification.
+
+      SiteType is defined in SyteType enum
+
+      CurrentPage is defined in CurrentPage enum
+
+      Component is defined in Component enum
+
+      Feature is defined in Feature enum.
+    syntax:
+      content: 'static function log(engagementData: IEngagementData)'
+      parameters:
+        - id: engagementData
+          type:
+            - '@@ms/sp-telemetry.IEngagementData'
+          description: ''
+  - uid: '@ms/sp-telemetry.EngagementLogger.logEvent'
+    name: logEvent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Engagement logging
+
+      Use *.Click for all the actions triggered by mouse, keyboard, or touch.
+
+      tagName follows <Workload>.controlName.actionName pattern
+
+      For example, tagName = "AddButton.Click",
+
+      this logs "<Workload>.AddButton.Click" with default action triggered by
+      mouse, keyboard, or touch.
+
+      <Workload> is set in Telemetry settings
+
+      Use extraData to log the type of action.
+
+      For example, actionName = "Keydown" and tagName =
+      "ModernPublish.AddButton.Click"
+
+      this logs "<Workload>.AddButton.Click" with the extraData that it was
+      selected using the Keydown   *
+    syntax:
+      content: 'static function logEvent(tagName: string, actionName?: string)'
+      parameters:
+        - id: tagName
+          type:
+            - string
+          description: ''
+        - id: actionName
+          type:
+            - string
+          description: ''
+          optional: true
+  - uid: '@ms/sp-telemetry.EngagementLogger.logEventWithLogEntry'
+    name: logEventWithLogEntry
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Engagement logging with LogEntry
+
+      Here is an example:
+      {"EngagementName":"SPPage.NavigationAction.SPPageQuickLaunchUpdate",
+
+      "Properties":"{\"message\":\"[NavigationAction] | SPPageQuickLaunchUpdate
+      | 2 | null\"}",
+
+      "Duration":0,"LogType":0,
+
+      "ClientTime":1459357627444,"Source":"ClientV2Engagement"}
+
+      NavigationAction is moduleName in LogEntry, SPPageQuickLaunchUpdate is log
+      feature name
+
+      In this example, SPPage is workload name which is set in Telemetry
+      settings.
+
+      Do NOT add PII data!
+    syntax:
+      content: 'static function logEventWithLogEntry(logEntry: ILogEntry)'
+      parameters:
+        - id: logEntry
+          type:
+            - '@@ms/sp-telemetry.ILogEntry'
+          description: ''

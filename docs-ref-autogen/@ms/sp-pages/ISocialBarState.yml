@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ISocialBarState'
+    name: ISocialBarState
+    fullName: ISocialBarState
+    children:
+      - '@ms/sp-pages.ISocialBarState.commentCount'
+      - '@ms/sp-pages.ISocialBarState.commentsEnabled'
+      - '@ms/sp-pages.ISocialBarState.likeCount'
+      - '@ms/sp-pages.ISocialBarState.panelOpen'
+      - '@ms/sp-pages.ISocialBarState.userLiked'
+      - '@ms/sp-pages.ISocialBarState.viewCount'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ISocialBarState.commentCount'
+    name: commentCount
+    fullName: commentCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number commentCount
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.ISocialBarState.commentsEnabled'
+    name: commentsEnabled
+    fullName: commentsEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean commentsEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.ISocialBarState.likeCount'
+    name: likeCount
+    fullName: likeCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number likeCount
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.ISocialBarState.panelOpen'
+    name: panelOpen
+    fullName: panelOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean panelOpen
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.ISocialBarState.userLiked'
+    name: userLiked
+    fullName: userLiked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean userLiked
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.ISocialBarState.viewCount'
+    name: viewCount
+    fullName: viewCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number viewCount
+      return:
+        type:
+          - number

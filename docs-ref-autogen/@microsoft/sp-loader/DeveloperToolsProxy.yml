@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.DeveloperToolsProxy'
+    name: DeveloperToolsProxy
+    fullName: DeveloperToolsProxy
+    children:
+      - '@microsoft/sp-loader.DeveloperToolsProxy.initialize'
+      - '@microsoft/sp-loader.DeveloperToolsProxy.registerDeveloperToolsTab'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      Developer tools.
+      Allows to register tabs in the developer tools.
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.DeveloperToolsProxy.initialize'
+    name: initialize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Initializes the developer tools with an implementation.
+      Must be called once before it can be used.
+    syntax:
+      content: 'static function initialize(developerToolsLoader: IDeveloperTools)'
+      parameters:
+        - id: developerToolsLoader
+          type:
+            - '@@microsoft/sp-loader.IDeveloperTools'
+          description: ''
+  - uid: '@microsoft/sp-loader.DeveloperToolsProxy.registerDeveloperToolsTab'
+    name: registerDeveloperToolsTab
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: '{@inheritdoc  IDeveloperTools.registerDeveloperToolsTab}'
+    syntax:
+      content: >-
+        static function registerDeveloperToolsTab(developerToolsTab:
+        IDeveloperToolsTab)
+      parameters:
+        - id: developerToolsTab
+          type:
+            - IDeveloperToolsTab
+          description: ''

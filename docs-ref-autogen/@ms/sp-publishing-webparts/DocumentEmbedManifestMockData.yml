@@ -1,0 +1,111 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbedManifestMockData'
+    name: DocumentEmbedManifestMockData
+    fullName: DocumentEmbedManifestMockData
+    children:
+      - '@ms/sp-publishing-webparts.DocumentEmbedManifestMockData.alias'
+      - '@ms/sp-publishing-webparts.DocumentEmbedManifestMockData.componentType'
+      - '@ms/sp-publishing-webparts.DocumentEmbedManifestMockData.id'
+      - '@ms/sp-publishing-webparts.DocumentEmbedManifestMockData.loaderConfig'
+      - '@ms/sp-publishing-webparts.DocumentEmbedManifestMockData.manifestVersion'
+      - >-
+        @ms/sp-publishing-webparts.DocumentEmbedManifestMockData.preconfiguredEntries
+      - '@ms/sp-publishing-webparts.DocumentEmbedManifestMockData.version'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbedManifestMockData.alias'
+    name: alias
+    fullName: alias
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string alias
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbedManifestMockData.componentType'
+    name: componentType
+    fullName: componentType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function componentType
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbedManifestMockData.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbedManifestMockData.loaderConfig'
+    name: loaderConfig
+    fullName: loaderConfig
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any loaderConfig
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbedManifestMockData.manifestVersion'
+    name: manifestVersion
+    fullName: manifestVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number manifestVersion
+      return:
+        type:
+          - number
+  - uid: >-
+      @ms/sp-publishing-webparts.DocumentEmbedManifestMockData.preconfiguredEntries
+    name: preconfiguredEntries
+    fullName: preconfiguredEntries
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IClientSideWebPartManifestEntry<Object>[] preconfiguredEntries'
+      return:
+        type:
+          - 'IClientSideWebPartManifestEntry<Object>[]'
+  - uid: '@ms/sp-publishing-webparts.DocumentEmbedManifestMockData.version'
+    name: version
+    fullName: version
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string version
+      return:
+        type:
+          - string

@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-component-base.BaseComponentContext'
+    name: BaseComponentContext
+    fullName: BaseComponentContext
+    children:
+      - '@microsoft/sp-component-base.BaseComponentContext.constructor'
+      - '@microsoft/sp-component-base.BaseComponentContext.manifest'
+    langs:
+      - typeScript
+    type: class
+    summary: The base class for context objects for client-side components.
+    package: '@microsoft/sp-component-base'
+  - uid: '@microsoft/sp-component-base.BaseComponentContext.constructor'
+    name: BaseComponentContext
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: >-
+      The constructor for this class is marked as internal; third party code
+      should not inherit
+
+      directly from this base class.
+    syntax:
+      content: 'new BaseComponentContext(parameters: IComponentContextParameters)'
+      parameters:
+        - id: parameters
+          type:
+            - '@@microsoft/sp-component-base.IComponentContextParameters'
+          description: ''
+  - uid: '@microsoft/sp-component-base.BaseComponentContext.manifest'
+    name: manifest
+    fullName: manifest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Manifest for the client side component.
+    syntax:
+      content: IClientSideComponentManifest manifest
+      return:
+        type:
+          - IClientSideComponentManifest

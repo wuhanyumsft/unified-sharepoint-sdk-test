@@ -1,0 +1,112 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.IBaseCollectionWebPartLayoutState'
+    name: IBaseCollectionWebPartLayoutState
+    fullName: IBaseCollectionWebPartLayoutState
+    children:
+      - '@ms/sp-webpart-shared.IBaseCollectionWebPartLayoutState.addButton'
+      - >-
+        @ms/sp-webpart-shared.IBaseCollectionWebPartLayoutState.displayPlaceholderTitleInReadMode
+      - '@ms/sp-webpart-shared.IBaseCollectionWebPartLayoutState.messageView'
+      - '@ms/sp-webpart-shared.IBaseCollectionWebPartLayoutState.paginationProps'
+      - '@ms/sp-webpart-shared.IBaseCollectionWebPartLayoutState.seeAllLink'
+      - '@ms/sp-webpart-shared.IBaseCollectionWebPartLayoutState.showTitle'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.IBaseCollectionWebPartLayoutState.addButton'
+    name: addButton
+    fullName: addButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Configuration of the add button.
+    syntax:
+      content: IButtonOptions addButton
+      return:
+        type:
+          - IButtonOptions
+  - uid: >-
+      @ms/sp-webpart-shared.IBaseCollectionWebPartLayoutState.displayPlaceholderTitleInReadMode
+    name: displayPlaceholderTitleInReadMode
+    fullName: displayPlaceholderTitleInReadMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean displayPlaceholderTitleInReadMode
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-webpart-shared.IBaseCollectionWebPartLayoutState.messageView'
+    name: messageView
+    fullName: messageView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Set to render an informational message.
+    syntax:
+      content: IMessageView messageView
+      return:
+        type:
+          - '@@ms/sp-webpart-shared.IMessageView'
+  - uid: '@ms/sp-webpart-shared.IBaseCollectionWebPartLayoutState.paginationProps'
+    name: paginationProps
+    fullName: paginationProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Set to render a pagination control.
+
+      How to use:
+
+      1. Provide an onPageChange callback from the web part's code.
+
+      2. In the onPageChange callback update the currentPage value and call the
+      refreshData method.
+
+      3. Override getRequest method to construct request parameters per the
+      current page.
+
+      4. In the DataProvider requestData method, parse the current page index
+      from the params and
+         return corresponding sub items.
+    syntax:
+      content: IPaginationProps paginationProps
+      return:
+        type:
+          - '@@ms/sp-webpart-shared.IPaginationProps'
+  - uid: '@ms/sp-webpart-shared.IBaseCollectionWebPartLayoutState.seeAllLink'
+    name: seeAllLink
+    fullName: seeAllLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Configuration of the "see all" link.
+    syntax:
+      content: IButtonOptions seeAllLink
+      return:
+        type:
+          - IButtonOptions
+  - uid: '@ms/sp-webpart-shared.IBaseCollectionWebPartLayoutState.showTitle'
+    name: showTitle
+    fullName: showTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showTitle
+      return:
+        type:
+          - boolean

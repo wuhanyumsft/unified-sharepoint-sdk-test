@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IPageLayoutSlice'
+    name: IPageLayoutSlice
+    fullName: IPageLayoutSlice
+    children:
+      - '@ms/sp-pages.IPageLayoutSlice.currentPageLayout'
+      - '@ms/sp-pages.IPageLayoutSlice.pageLayoutMap'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IPageLayoutSlice.currentPageLayout'
+    name: currentPageLayout
+    fullName: currentPageLayout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageLayoutType currentPageLayout
+      return:
+        type:
+          - '@@ms/sp-pages.ISitePageFieldData.PageLayoutType'
+  - uid: '@ms/sp-pages.IPageLayoutSlice.pageLayoutMap'
+    name: pageLayoutMap
+    fullName: pageLayoutMap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Map<string> pageLayoutMap
+      return:
+        type:
+          - Map<string>

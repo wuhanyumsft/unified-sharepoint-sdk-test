@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.IPerformanceDisplayState'
+    name: IPerformanceDisplayState
+    fullName: IPerformanceDisplayState
+    children:
+      - '@microsoft/sp-loader.IPerformanceDisplayState.errorMessage'
+      - '@microsoft/sp-loader.IPerformanceDisplayState.eupl'
+      - '@microsoft/sp-loader.IPerformanceDisplayState.perfItems'
+      - '@microsoft/sp-loader.IPerformanceDisplayState.startTime'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.IPerformanceDisplayState.errorMessage'
+    name: errorMessage
+    fullName: errorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If an error has occurred, this will be set to a message detailing the
+      nature of the error
+
+      The value is undefined if no error occured.
+    syntax:
+      content: string errorMessage
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-loader.IPerformanceDisplayState.eupl'
+    name: eupl
+    fullName: eupl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Integer value representing the total loading time percieved by the user
+    syntax:
+      content: number eupl
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-loader.IPerformanceDisplayState.perfItems'
+    name: perfItems
+    fullName: perfItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Objects that contain the data points that will be displayed
+    syntax:
+      content: 'IPerfItem[] perfItems'
+      return:
+        type:
+          - '@@microsoft/sp-loader.IPerfItem[]'
+  - uid: '@microsoft/sp-loader.IPerformanceDisplayState.startTime'
+    name: startTime
+    fullName: startTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Integer value that gives the time in ms that the page started loading,
+      measured from navigation start
+    syntax:
+      content: number startTime
+      return:
+        type:
+          - number

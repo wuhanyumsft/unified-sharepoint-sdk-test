@@ -1,0 +1,110 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.ImageCarouselDataProvider'
+    name: ImageCarouselDataProvider
+    fullName: ImageCarouselDataProvider
+    children:
+      - '@ms/sp-client-projects.ImageCarouselDataProvider.CreateFolder'
+      - '@ms/sp-client-projects.ImageCarouselDataProvider.CreateList'
+      - '@ms/sp-client-projects.ImageCarouselDataProvider.GetFolder'
+      - '@ms/sp-client-projects.ImageCarouselDataProvider.GetImages'
+      - '@ms/sp-client-projects.ImageCarouselDataProvider.GetList'
+      - '@ms/sp-client-projects.ImageCarouselDataProvider.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      This class allows for easy switching between using Mock Data (for unit
+      tests)
+
+      and live REST API calls.
+    package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.ImageCarouselDataProvider.CreateFolder'
+    name: CreateFolder
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Attempts to create the folder for the webpart
+    syntax:
+      content: function CreateFolder()
+      parameters: []
+      return:
+        type:
+          - Promise<ICreateFolderResult>
+  - uid: '@ms/sp-client-projects.ImageCarouselDataProvider.CreateList'
+    name: CreateList
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Attempts to create the SP list/library.
+    syntax:
+      content: function CreateList()
+      parameters: []
+      return:
+        type:
+          - Promise<ICreateListResult>
+  - uid: '@ms/sp-client-projects.ImageCarouselDataProvider.GetFolder'
+    name: GetFolder
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Attempts to load the folder information for the webpart
+    syntax:
+      content: function GetFolder()
+      parameters: []
+      return:
+        type:
+          - Promise<IGetFolderResult>
+  - uid: '@ms/sp-client-projects.ImageCarouselDataProvider.GetImages'
+    name: GetImages
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Attempts to load the list of images from the webpart's folder
+    syntax:
+      content: function GetImages()
+      parameters: []
+      return:
+        type:
+          - Promise<IGetImagesResult>
+  - uid: '@ms/sp-client-projects.ImageCarouselDataProvider.GetList'
+    name: GetList
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Attempts to load the information for the SP List/Library
+    syntax:
+      content: function GetList()
+      parameters: []
+      return:
+        type:
+          - Promise<IGetListResult>
+  - uid: '@ms/sp-client-projects.ImageCarouselDataProvider.constructor'
+    name: ImageCarouselDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Creates an SPImageDataProvider
+    syntax:
+      content: >-
+        new ImageCarouselDataProvider(webPartContext: WebPartContext, listName:
+        string, webPartId: string)
+      parameters:
+        - id: webPartContext
+          type:
+            - WebPartContext
+          description: ''
+        - id: listName
+          type:
+            - string
+          description: ''
+        - id: webPartId
+          type:
+            - string
+          description: ''

@@ -1,0 +1,80 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.INewsreelDataSource'
+    name: INewsreelDataSource
+    fullName: INewsreelDataSource
+    children:
+      - '@ms/sp-teamsite-webparts.INewsreelDataSource.extractNewsItems'
+      - '@ms/sp-teamsite-webparts.INewsreelDataSource.getHelpItems'
+      - '@ms/sp-teamsite-webparts.INewsreelDataSource.getNewsItems'
+      - '@ms/sp-teamsite-webparts.INewsreelDataSource.getViewCountValue'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Performs server-specific calls on behalf of the client. Methods on the
+      datasource
+
+      should only be called directly by the provider. Everyone else should call
+      the provider
+
+      instead.
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.INewsreelDataSource.extractNewsItems'
+    name: extractNewsItems
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Extracts and maps news items
+    syntax:
+      content: 'function extractNewsItems(data: Array<any>)'
+      parameters:
+        - id: data
+          type:
+            - Array<any>
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.INewsreelDataSource.getHelpItems'
+    name: getHelpItems
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Retrieves help articles items.
+    syntax:
+      content: function getHelpItems()
+      parameters: []
+  - uid: '@ms/sp-teamsite-webparts.INewsreelDataSource.getNewsItems'
+    name: getNewsItems
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Retrieves news items.
+    syntax:
+      content: 'function getNewsItems(count: number)'
+      parameters:
+        - id: count
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - 'Promise<@@ms/sp-teamsite-webparts.INewsItem[]>'
+  - uid: '@ms/sp-teamsite-webparts.INewsreelDataSource.getViewCountValue'
+    name: getViewCountValue
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the viewCount for the gives listItem id
+    syntax:
+      content: 'function getViewCountValue(listItemId: string)'
+      parameters:
+        - id: listItemId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<number>

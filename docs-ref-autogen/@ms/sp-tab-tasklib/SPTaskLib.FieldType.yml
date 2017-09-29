@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.FieldType'
+    name: FieldType
+    fullName: FieldType
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.FieldType.Choice'
+      - '@ms/sp-tab-tasklib.SPTaskLib.FieldType.DateTime'
+      - '@ms/sp-tab-tasklib.SPTaskLib.FieldType.File'
+      - '@ms/sp-tab-tasklib.SPTaskLib.FieldType.Number'
+      - '@ms/sp-tab-tasklib.SPTaskLib.FieldType.Text'
+      - '@ms/sp-tab-tasklib.SPTaskLib.FieldType.User'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.FieldType.Choice'
+    name: Choice
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.FieldType.DateTime'
+    name: DateTime
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.FieldType.File'
+    name: File
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.FieldType.Number'
+    name: Number
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.FieldType.Text'
+    name: Text
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.FieldType.User'
+    name: User
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

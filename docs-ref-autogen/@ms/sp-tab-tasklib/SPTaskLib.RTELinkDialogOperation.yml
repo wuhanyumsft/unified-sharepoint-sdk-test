@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.RTELinkDialogOperation'
+    name: RTELinkDialogOperation
+    fullName: RTELinkDialogOperation
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.RTELinkDialogOperation.Cancel'
+      - '@ms/sp-tab-tasklib.SPTaskLib.RTELinkDialogOperation.Save'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.RTELinkDialogOperation.Cancel'
+    name: Cancel
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.RTELinkDialogOperation.Save'
+    name: Save
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

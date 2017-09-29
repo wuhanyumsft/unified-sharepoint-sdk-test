@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.RecipeProgressPanel'
+    name: RecipeProgressPanel
+    fullName: RecipeProgressPanel
+    children:
+      - '@ms/sp-pages.RecipeProgressPanel.constructor'
+      - '@ms/sp-pages.RecipeProgressPanel.render'
+      - '@ms/sp-pages.RecipeProgressPanel.shouldRenderByDefault'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.RecipeProgressPanel<__type>'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.RecipeProgressPanel.constructor'
+    name: RecipeProgressPanel
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new RecipeProgressPanel()
+      parameters: []
+  - uid: '@ms/sp-pages.RecipeProgressPanel.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-pages.RecipeProgressPanel.shouldRenderByDefault'
+    name: shouldRenderByDefault
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function shouldRenderByDefault()
+      parameters: []
+      return:
+        type:
+          - boolean

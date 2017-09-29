@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/evergreen.IVisualStudioOAuthToken'
+    name: IVisualStudioOAuthToken
+    fullName: IVisualStudioOAuthToken
+    children:
+      - '@ms/evergreen.IVisualStudioOAuthToken.oAuthToken'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/evergreen'
+  - uid: '@ms/evergreen.IVisualStudioOAuthToken.oAuthToken'
+    name: oAuthToken
+    fullName: oAuthToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string oAuthToken
+      return:
+        type:
+          - string

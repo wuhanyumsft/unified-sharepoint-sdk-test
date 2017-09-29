@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/article-site-demo.ArticleSiteApplication'
+    name: ArticleSiteApplication
+    fullName: ArticleSiteApplication
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/article-site-demo.ArticleSiteApplication'
+    package: '@ms/article-site-demo'

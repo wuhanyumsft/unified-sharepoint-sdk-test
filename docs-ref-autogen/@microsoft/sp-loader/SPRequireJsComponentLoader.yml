@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.SPRequireJsComponentLoader'
+    name: SPRequireJsComponentLoader
+    fullName: SPRequireJsComponentLoader
+    children:
+      - '@microsoft/sp-loader.SPRequireJsComponentLoader.loadComponent'
+      - '@microsoft/sp-loader.SPRequireJsComponentLoader.loadScript'
+      - '@microsoft/sp-loader.SPRequireJsComponentLoader.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      The component loader for SPFx.
+      This implementation uses RequireJS as the internal module loader.
+    extends:
+      name: '@@microsoft/sp-loader.BaseComponentLoader'
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.SPRequireJsComponentLoader.loadComponent'
+    name: loadComponent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function loadComponent<TComponent>(manifest:
+        IClientSideComponentManifest)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+      return:
+        type:
+          - Promise<TComponent>
+  - uid: '@microsoft/sp-loader.SPRequireJsComponentLoader.loadScript'
+    name: loadScript
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function loadScript<TModule>(url: string, options?: ILoadScriptOptions)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - ILoadScriptOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<TModule>
+  - uid: '@microsoft/sp-loader.SPRequireJsComponentLoader.constructor'
+    name: SPRequireJsComponentLoader
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new SPRequireJsComponentLoader()
+      parameters: []

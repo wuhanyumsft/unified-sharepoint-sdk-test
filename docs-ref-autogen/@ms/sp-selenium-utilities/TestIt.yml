@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-selenium-utilities.TestIt'
+    name: TestIt
+    fullName: TestIt
+    children:
+      - '@ms/sp-selenium-utilities.TestIt.it'
+      - '@ms/sp-selenium-utilities.TestIt.logStep'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-selenium-utilities'
+  - uid: '@ms/sp-selenium-utilities.TestIt.it'
+    name: it
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function it(suite: any, name: string, params: ITestItParams,
+        testFunction: (context: TestContext) => any)
+      parameters:
+        - id: suite
+          type:
+            - any
+          description: ''
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: params
+          type:
+            - '@@ms/sp-selenium-utilities.ITestItParams'
+          description: ''
+        - id: testFunction
+          type:
+            - '(context: TestContext) => any'
+          description: ''
+  - uid: '@ms/sp-selenium-utilities.TestIt.logStep'
+    name: logStep
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function logStep(message: string)'
+      parameters:
+        - id: message
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<void>

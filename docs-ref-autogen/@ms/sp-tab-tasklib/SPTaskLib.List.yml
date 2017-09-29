@@ -1,0 +1,173 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.List'
+    name: List
+    fullName: List
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.List.addCsomTaskCreateList'
+      - '@ms/sp-tab-tasklib.SPTaskLib.List.addCsomTaskCreateListItems'
+      - '@ms/sp-tab-tasklib.SPTaskLib.List.addCsomTaskLoadList'
+      - '@ms/sp-tab-tasklib.SPTaskLib.List.addRestTaskDeleteItem'
+      - '@ms/sp-tab-tasklib.SPTaskLib.List.addRestTaskDeleteItem2'
+      - '@ms/sp-tab-tasklib.SPTaskLib.List.constructor'
+      - '@ms/sp-tab-tasklib.SPTaskLib.List.listItemsTitle'
+      - '@ms/sp-tab-tasklib.SPTaskLib.List.listName'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.List.addCsomTaskCreateList'
+    name: addCsomTaskCreateList
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addCsomTaskCreateList(params: function)'
+      parameters:
+        - id: params
+          type:
+            - function
+          description: ''
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.List.addCsomTaskCreateListItems'
+    name: addCsomTaskCreateListItems
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addCsomTaskCreateListItems(numberOfItems: number, fieldNames?:
+        string[], fieldValues?: any[])
+      parameters:
+        - id: numberOfItems
+          type:
+            - number
+          description: ''
+        - id: fieldNames
+          type:
+            - 'string[]'
+          description: ''
+          optional: true
+        - id: fieldValues
+          type:
+            - 'any[]'
+          description: ''
+          optional: true
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.List.addCsomTaskLoadList'
+    name: addCsomTaskLoadList
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Load the given list. If loadResult is NOT provided, this will log a
+      failure if the list
+
+      doesn't exist or there's some other error. If loadResult IS provided (for
+      example if you
+
+      want to check if a list exists or not), it will be updated to reflect
+      whether the list
+
+      exists and failures won't be logged.
+    syntax:
+      content: 'function addCsomTaskLoadList(loadResult?: ISuccessResult)'
+      parameters:
+        - id: loadResult
+          type:
+            - '@@ms/sp-tab-tasklib.SPTaskLib.ISuccessResult'
+          description: ''
+          optional: true
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.List.addRestTaskDeleteItem'
+    name: addRestTaskDeleteItem
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function addRestTaskDeleteItem(siteUrl: string, webUrl: string,
+        fileServerRelativeUrl: string)
+      parameters:
+        - id: siteUrl
+          type:
+            - string
+          description: ''
+        - id: webUrl
+          type:
+            - string
+          description: ''
+        - id: fileServerRelativeUrl
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.List.addRestTaskDeleteItem2'
+    name: addRestTaskDeleteItem2
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function addRestTaskDeleteItem2(siteUrl: string,
+        fileServerRelativeUrl: string)
+      parameters:
+        - id: siteUrl
+          type:
+            - string
+          description: ''
+        - id: fileServerRelativeUrl
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.List.constructor'
+    name: List
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new List(listName: string, subwebUrl?: string)'
+      parameters:
+        - id: listName
+          type:
+            - string
+          description: ''
+        - id: subwebUrl
+          type:
+            - string
+          description: ''
+          optional: true
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.List.listItemsTitle'
+    name: listItemsTitle
+    fullName: listItemsTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] listItemsTitle'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.List.listName'
+    name: listName
+    fullName: listName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string listName
+      return:
+        type:
+          - string

@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.IRichTextEditorConfiguration'
+    name: IRichTextEditorConfiguration
+    fullName: IRichTextEditorConfiguration
+    children:
+      - '@ms/sp-canvas.IRichTextEditorConfiguration.editorElementClassName'
+      - '@ms/sp-canvas.IRichTextEditorConfiguration.editorSource'
+      - '@ms/sp-canvas.IRichTextEditorConfiguration.formats'
+      - '@ms/sp-canvas.IRichTextEditorConfiguration.supportedFormatsArray'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.IRichTextEditorConfiguration.editorElementClassName'
+    name: editorElementClassName
+    fullName: editorElementClassName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string editorElementClassName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.IRichTextEditorConfiguration.editorSource'
+    name: editorSource
+    fullName: editorSource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string editorSource
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.IRichTextEditorConfiguration.formats'
+    name: formats
+    fullName: formats
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Map<string> formats
+      return:
+        type:
+          - Map<string>
+  - uid: '@ms/sp-canvas.IRichTextEditorConfiguration.supportedFormatsArray'
+    name: supportedFormatsArray
+    fullName: supportedFormatsArray
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IRichTextFormat[] supportedFormatsArray'
+      return:
+        type:
+          - '@@ms/sp-canvas.IRichTextFormat[]'

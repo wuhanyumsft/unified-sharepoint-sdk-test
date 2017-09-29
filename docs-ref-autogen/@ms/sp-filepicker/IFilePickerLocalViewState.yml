@@ -1,0 +1,117 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.IFilePickerLocalViewState'
+    name: IFilePickerLocalViewState
+    fullName: IFilePickerLocalViewState
+    children:
+      - '@ms/sp-filepicker.IFilePickerLocalViewState.fileExplorerLink'
+      - '@ms/sp-filepicker.IFilePickerLocalViewState.hasSelectedItems'
+      - '@ms/sp-filepicker.IFilePickerLocalViewState.hasUnsupportedItems'
+      - '@ms/sp-filepicker.IFilePickerLocalViewState.isSingleSelect'
+      - '@ms/sp-filepicker.IFilePickerLocalViewState.itemsFromLocalDevice'
+      - '@ms/sp-filepicker.IFilePickerLocalViewState.openButtonText'
+      - '@ms/sp-filepicker.IFilePickerLocalViewState.selection'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.IFilePickerLocalViewState.fileExplorerLink'
+    name: fileExplorerLink
+    fullName: fileExplorerLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Text to launch local device file explorer
+    syntax:
+      content: string fileExplorerLink
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.IFilePickerLocalViewState.hasSelectedItems'
+    name: hasSelectedItems
+    fullName: hasSelectedItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Indicate whether or not items have been checked/ chosen for ultimate
+      selection. True if there
+
+      is at least one item selected.
+    syntax:
+      content: boolean hasSelectedItems
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-filepicker.IFilePickerLocalViewState.hasUnsupportedItems'
+    name: hasUnsupportedItems
+    fullName: hasUnsupportedItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether any of the selected files have unsupported extensions
+    syntax:
+      content: boolean hasUnsupportedItems
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-filepicker.IFilePickerLocalViewState.isSingleSelect'
+    name: isSingleSelect
+    fullName: isSingleSelect
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether can only select a single item
+    syntax:
+      content: boolean isSingleSelect
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-filepicker.IFilePickerLocalViewState.itemsFromLocalDevice'
+    name: itemsFromLocalDevice
+    fullName: itemsFromLocalDevice
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      List of items chosen from local device, but not checked/chosen for
+      ultimate selection
+
+      by the file picker
+    syntax:
+      content: 'IFilePickerLocalViewItem[] itemsFromLocalDevice'
+      return:
+        type:
+          - '@@ms/sp-filepicker.IFilePickerLocalViewItem[]'
+  - uid: '@ms/sp-filepicker.IFilePickerLocalViewState.openButtonText'
+    name: openButtonText
+    fullName: openButtonText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Text for the upload button to confirm selection
+    syntax:
+      content: string openButtonText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.IFilePickerLocalViewState.selection'
+    name: selection
+    fullName: selection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Selection model for single and multiple selection
+    syntax:
+      content: Selection selection
+      return:
+        type:
+          - Selection

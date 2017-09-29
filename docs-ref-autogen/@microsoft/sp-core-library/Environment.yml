@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.Environment'
+    name: Environment
+    fullName: Environment
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      This class contains contextual information about the enviroment that is
+      hosting the framework and
+
+      its components.
+    package: '@microsoft/sp-core-library'

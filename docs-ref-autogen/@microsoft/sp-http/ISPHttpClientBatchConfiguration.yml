@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.ISPHttpClientBatchConfiguration'
+    name: ISPHttpClientBatchConfiguration
+    fullName: ISPHttpClientBatchConfiguration
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: Flags interface for SPHttpClientBatchConfiguration.
+    extends:
+      name: '@@microsoft/sp-http.ISPHttpClientCommonConfiguration'
+    package: '@microsoft/sp-http'

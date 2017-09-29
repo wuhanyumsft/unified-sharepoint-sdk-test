@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IListData'
+    name: IListData
+    fullName: IListData
+    children:
+      - '@ms/sp-dataproviders.IListData.Row'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IListData.Row'
+    name: Row
+    fullName: Row
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'any[] Row'
+      return:
+        type:
+          - 'any[]'

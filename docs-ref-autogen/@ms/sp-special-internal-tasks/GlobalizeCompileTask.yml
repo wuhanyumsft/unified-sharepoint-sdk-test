@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-special-internal-tasks.GlobalizeCompileTask'
+    name: GlobalizeCompileTask
+    fullName: GlobalizeCompileTask
+    children:
+      - '@ms/sp-special-internal-tasks.GlobalizeCompileTask.executeTask'
+      - '@ms/sp-special-internal-tasks.GlobalizeCompileTask.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Writes a manifest for each entry in the project.
+      Example:
+       IN:
+        the result of the prepareDeploy step enumerating each entry, each entry's dependencies, and a developer-generated
+         base manifest for each entry.
+
+       OUT:
+        a debug and, optionally, a production manifest for each entry.
+    extends:
+      name: >-
+        @@ms/sp-special-internal-tasks.GlobalizeCompileTask<@@ms/sp-special-internal-tasks.IGlobalizeCompileTaskConfig>
+    package: '@ms/sp-special-internal-tasks'
+  - uid: '@ms/sp-special-internal-tasks.GlobalizeCompileTask.executeTask'
+    name: executeTask
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function executeTask(gulp: any, completeCallback: (error?: string) =>
+        void)
+      parameters:
+        - id: gulp
+          type:
+            - any
+          description: ''
+        - id: completeCallback
+          type:
+            - '(error?: string) => void'
+          description: ''
+  - uid: '@ms/sp-special-internal-tasks.GlobalizeCompileTask.constructor'
+    name: GlobalizeCompileTask
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new GlobalizeCompileTask()
+      parameters: []

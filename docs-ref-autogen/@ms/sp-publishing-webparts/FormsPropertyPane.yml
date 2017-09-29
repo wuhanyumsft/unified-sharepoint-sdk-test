@@ -1,0 +1,71 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.FormsPropertyPane'
+    name: FormsPropertyPane
+    fullName: FormsPropertyPane
+    children:
+      - '@ms/sp-publishing-webparts.FormsPropertyPane.constructor'
+      - '@ms/sp-publishing-webparts.FormsPropertyPane.getPropertyPanePages'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.FormsPropertyPane.constructor'
+    name: FormsPropertyPane
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new FormsPropertyPane(properties: IFormsWebPartProps, handleCreateForms:
+        () => void, handleEmbedForms: () => void, formsEndPointURL: string)
+      parameters:
+        - id: properties
+          type:
+            - '@@ms/sp-publishing-webparts.IFormsWebPartProps'
+          description: ''
+        - id: handleCreateForms
+          type:
+            - () => void
+          description: ''
+        - id: handleEmbedForms
+          type:
+            - () => void
+          description: ''
+        - id: formsEndPointURL
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.FormsPropertyPane.getPropertyPanePages'
+    name: getPropertyPanePages
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getPropertyPanePages(properties?: IFormsWebPartProps,
+        renderCreateFormsPane?: boolean, isGroupSite?: boolean)
+      parameters:
+        - id: properties
+          type:
+            - '@@ms/sp-publishing-webparts.IFormsWebPartProps'
+          description: ''
+          optional: true
+        - id: renderCreateFormsPane
+          type:
+            - boolean
+          description: ''
+          optional: true
+        - id: isGroupSite
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - IPropertyPaneConfiguration

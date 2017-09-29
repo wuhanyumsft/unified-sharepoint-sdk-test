@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.IFetchProviderExpectations'
+    name: IFetchProviderExpectations
+    fullName: IFetchProviderExpectations
+    children:
+      - '@microsoft/sp-http.IFetchProviderExpectations.requestAssertions'
+      - '@microsoft/sp-http.IFetchProviderExpectations.responseObject'
+      - '@microsoft/sp-http.IFetchProviderExpectations.responseOptions'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.IFetchProviderExpectations.requestAssertions'
+    name: requestAssertions
+    fullName: requestAssertions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(request: Request) => void requestAssertions'
+      return:
+        type:
+          - '(request: Request) => void'
+  - uid: '@microsoft/sp-http.IFetchProviderExpectations.responseObject'
+    name: responseObject
+    fullName: responseObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any responseObject
+      return:
+        type:
+          - any
+  - uid: '@microsoft/sp-http.IFetchProviderExpectations.responseOptions'
+    name: responseOptions
+    fullName: responseOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ResponseInit responseOptions
+      return:
+        type:
+          - ResponseInit

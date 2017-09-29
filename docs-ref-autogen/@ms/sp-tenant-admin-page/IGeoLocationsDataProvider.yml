@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationsDataProvider'
+    name: IGeoLocationsDataProvider
+    fullName: IGeoLocationsDataProvider
+    children:
+      - '@ms/sp-tenant-admin-page.IGeoLocationsDataProvider.getGeoLocationsData'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationsDataProvider.getGeoLocationsData'
+    name: getGeoLocationsData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getGeoLocationsData()
+      parameters: []
+      return:
+        type:
+          - 'Promise<@@ms/sp-tenant-admin-page.IGeoLocationInformation[]>'

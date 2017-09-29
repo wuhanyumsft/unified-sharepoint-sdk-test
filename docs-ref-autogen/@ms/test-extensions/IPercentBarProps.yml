@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/test-extensions.IPercentBarProps'
+    name: IPercentBarProps
+    fullName: IPercentBarProps
+    children:
+      - '@ms/test-extensions.IPercentBarProps.percent'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/test-extensions'
+  - uid: '@ms/test-extensions.IPercentBarProps.percent'
+    name: percent
+    fullName: percent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number percent
+      return:
+        type:
+          - number

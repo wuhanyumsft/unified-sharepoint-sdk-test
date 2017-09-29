@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.KeyCodes'
+    name: KeyCodes
+    fullName: KeyCodes
+    children:
+      - '@ms/sp-canvas.KeyCodes.Tab'
+      - '@ms/sp-canvas.KeyCodes.Enter'
+      - '@ms/sp-canvas.KeyCodes.Escape'
+      - '@ms/sp-canvas.KeyCodes.P'
+      - '@ms/sp-canvas.KeyCodes.F10'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.KeyCodes.Tab'
+    name: Tab
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 9
+  - uid: '@ms/sp-canvas.KeyCodes.Enter'
+    name: Enter
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 13
+  - uid: '@ms/sp-canvas.KeyCodes.Escape'
+    name: Escape
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 27
+  - uid: '@ms/sp-canvas.KeyCodes.P'
+    name: P
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 80
+  - uid: '@ms/sp-canvas.KeyCodes.F10'
+    name: F10
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 121

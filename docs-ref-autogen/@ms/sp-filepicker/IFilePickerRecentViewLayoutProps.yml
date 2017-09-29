@@ -1,0 +1,110 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.IFilePickerRecentViewLayoutProps'
+    name: IFilePickerRecentViewLayoutProps
+    fullName: IFilePickerRecentViewLayoutProps
+    children:
+      - '@ms/sp-filepicker.IFilePickerRecentViewLayoutProps.groups'
+      - '@ms/sp-filepicker.IFilePickerRecentViewLayoutProps.items'
+      - '@ms/sp-filepicker.IFilePickerRecentViewLayoutProps.selection'
+      - '@ms/sp-filepicker.IFilePickerRecentViewLayoutProps.selectionMode'
+      - '@ms/sp-filepicker.IFilePickerRecentViewLayoutProps.setCheckedItem'
+      - '@ms/sp-filepicker.IFilePickerRecentViewLayoutProps.setSelection'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.IFilePickerRecentViewLayoutProps.groups'
+    name: groups
+    fullName: groups
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IGroup[] groups'
+      return:
+        type:
+          - 'IGroup[]'
+  - uid: '@ms/sp-filepicker.IFilePickerRecentViewLayoutProps.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      List of user's recent file items, taken from Search and Activity of
+      current site,
+
+      from which the current user of the file picker can select files
+    syntax:
+      content: 'IRecentItem[] items'
+      return:
+        type:
+          - 'IRecentItem[]'
+  - uid: '@ms/sp-filepicker.IFilePickerRecentViewLayoutProps.selection'
+    name: selection
+    fullName: selection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISelection selection
+      return:
+        type:
+          - ISelection
+  - uid: '@ms/sp-filepicker.IFilePickerRecentViewLayoutProps.selectionMode'
+    name: selectionMode
+    fullName: selectionMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: SelectionMode selectionMode
+      return:
+        type:
+          - SelectionMode
+  - uid: '@ms/sp-filepicker.IFilePickerRecentViewLayoutProps.setCheckedItem'
+    name: setCheckedItem
+    fullName: setCheckedItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      FilePickerRecentView's top level event handler for when current item
+      checked in list
+
+      view or tile view has changed. This is only necessary for the TileView
+    syntax:
+      content: '(item: IObjectWithKey) => void setCheckedItem'
+      return:
+        type:
+          - '(item: IObjectWithKey) => void'
+  - uid: '@ms/sp-filepicker.IFilePickerRecentViewLayoutProps.setSelection'
+    name: setSelection
+    fullName: setSelection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      FilePickerRecentView's top level event handler for when an item checked in
+      list view
+
+      or tile view has been 'OPENED', i.e. the item has been selected to be
+      opened
+    syntax:
+      content: '(item: IRecentItem, index: number, ev: Event) => void setSelection'
+      return:
+        type:
+          - '(item: IRecentItem, index: number, ev: Event) => void'

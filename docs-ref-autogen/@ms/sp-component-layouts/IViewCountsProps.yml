@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.IViewCountsProps'
+    name: IViewCountsProps
+    fullName: IViewCountsProps
+    children:
+      - '@ms/sp-component-layouts.IViewCountsProps.count'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-component-layouts'
+  - uid: '@ms/sp-component-layouts.IViewCountsProps.count'
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number count
+      return:
+        type:
+          - number

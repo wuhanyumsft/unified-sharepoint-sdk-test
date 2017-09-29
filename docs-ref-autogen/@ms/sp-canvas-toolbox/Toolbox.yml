@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.Toolbox'
+    name: Toolbox
+    fullName: Toolbox
+    children:
+      - '@ms/sp-canvas-toolbox.Toolbox.componentWillReceiveProps'
+      - '@ms/sp-canvas-toolbox.Toolbox.componentWillUpdate'
+      - '@ms/sp-canvas-toolbox.Toolbox.render'
+      - '@ms/sp-canvas-toolbox.Toolbox.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-canvas-toolbox.Toolbox<@@ms/sp-canvas-toolbox.IToolboxProps>'
+    package: '@ms/sp-canvas-toolbox'
+  - uid: '@ms/sp-canvas-toolbox.Toolbox.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: IToolboxProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-canvas-toolbox.IToolboxProps'
+          description: ''
+  - uid: '@ms/sp-canvas-toolbox.Toolbox.componentWillUpdate'
+    name: componentWillUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillUpdate(nextProps: IToolboxProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-canvas-toolbox.IToolboxProps'
+          description: ''
+  - uid: '@ms/sp-canvas-toolbox.Toolbox.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+  - uid: '@ms/sp-canvas-toolbox.Toolbox.constructor'
+    name: Toolbox
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Toolbox(props: IToolboxProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-canvas-toolbox.IToolboxProps'
+          description: ''

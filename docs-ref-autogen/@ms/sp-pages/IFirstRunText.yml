@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IFirstRunText'
+    name: IFirstRunText
+    fullName: IFirstRunText
+    children:
+      - '@ms/sp-pages.IFirstRunText.description'
+      - '@ms/sp-pages.IFirstRunText.hyperlink'
+      - '@ms/sp-pages.IFirstRunText.hyperlinkText'
+      - '@ms/sp-pages.IFirstRunText.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IFirstRunText.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string description
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IFirstRunText.hyperlink'
+    name: hyperlink
+    fullName: hyperlink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string hyperlink
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IFirstRunText.hyperlinkText'
+    name: hyperlinkText
+    fullName: hyperlinkText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string hyperlinkText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IFirstRunText.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

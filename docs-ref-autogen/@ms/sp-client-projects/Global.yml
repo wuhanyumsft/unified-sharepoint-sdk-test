@@ -1,0 +1,96 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.Global'
+    package: '@ms/sp-client-projects'
+    name: Global
+    children:
+      - '@ms/sp-client-projects.WriteDebugLog'
+      - '@ms/sp-client-projects.WriteEngagementLog'
+      - '@ms/sp-client-projects.WriteFailure'
+      - '@ms/sp-client-projects.WriteStart'
+      - '@ms/sp-client-projects.WriteSuccess'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@ms/sp-client-projects.WriteDebugLog'
+    name: WriteDebugLog
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function WriteDebugLog(tagName: string, check: boolean, message: string)'
+      parameters:
+        - id: tagName
+          type:
+            - string
+          description: ''
+        - id: check
+          type:
+            - boolean
+          description: ''
+        - id: message
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-client-projects.WriteEngagementLog'
+    name: WriteEngagementLog
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function WriteEngagementLog(tagName: string, extensionType: string)'
+      parameters:
+        - id: tagName
+          type:
+            - string
+          description: ''
+        - id: extensionType
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-client-projects.WriteFailure'
+    name: WriteFailure
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function WriteFailure(failureName: string)'
+      parameters:
+        - id: failureName
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-client-projects.WriteStart'
+    name: WriteStart
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function WriteStart(startName: string)'
+      parameters:
+        - id: startName
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-client-projects.WriteSuccess'
+    name: WriteSuccess
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function WriteSuccess(successName: string)'
+      parameters:
+        - id: successName
+          type:
+            - string
+          description: ''

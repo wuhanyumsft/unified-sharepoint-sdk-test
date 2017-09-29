@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.IRichTextEditorOptions'
+    name: IRichTextEditorOptions
+    fullName: IRichTextEditorOptions
+    children:
+      - '@ms/sp-canvas.IRichTextEditorOptions.config'
+      - '@ms/sp-canvas.IRichTextEditorOptions.editor'
+      - '@ms/sp-canvas.IRichTextEditorOptions.loader'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.IRichTextEditorOptions.config'
+    name: config
+    fullName: config
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IRichTextEditorConfiguration config
+      return:
+        type:
+          - '@@ms/sp-canvas.IRichTextEditorConfiguration'
+  - uid: '@ms/sp-canvas.IRichTextEditorOptions.editor'
+    name: editor
+    fullName: editor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IStaticRichTextEditor editor
+      return:
+        type:
+          - '@@ms/sp-canvas.IStaticRichTextEditor'
+  - uid: '@ms/sp-canvas.IRichTextEditorOptions.loader'
+    name: loader
+    fullName: loader
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IRichTextEditorLoader loader
+      return:
+        type:
+          - '@@ms/sp-canvas.IRichTextEditorLoader'

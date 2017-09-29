@@ -1,0 +1,123 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.IToolboxModel'
+    name: IToolboxModel
+    fullName: IToolboxModel
+    children:
+      - '@ms/sp-canvas-toolbox.IToolboxModel.groups'
+      - '@ms/sp-canvas-toolbox.IToolboxModel.horizontalPosition'
+      - '@ms/sp-canvas-toolbox.IToolboxModel.items'
+      - '@ms/sp-canvas-toolbox.IToolboxModel.mode'
+      - '@ms/sp-canvas-toolbox.IToolboxModel.position'
+      - '@ms/sp-canvas-toolbox.IToolboxModel.query'
+      - '@ms/sp-canvas-toolbox.IToolboxModel.verticalPosition'
+      - '@ms/sp-canvas-toolbox.IToolboxModel.view'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas-toolbox'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxModel.groups'
+    name: groups
+    fullName: groups
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IToolboxGroup[] groups'
+      return:
+        type:
+          - '@@ms/sp-canvas-toolbox.IToolboxGroup[]'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxModel.horizontalPosition'
+    name: horizontalPosition
+    fullName: horizontalPosition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number horizontalPosition
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-canvas-toolbox.IToolboxModel.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: undefined items
+      return:
+        type:
+          - undefined
+  - uid: '@ms/sp-canvas-toolbox.IToolboxModel.mode'
+    name: mode
+    fullName: mode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function mode
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-canvas-toolbox.IToolboxModel.position'
+    name: position
+    fullName: position
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IControlPosition position
+      return:
+        type:
+          - '@@ms/sp-canvas-toolbox.IControlPosition'
+  - uid: '@ms/sp-canvas-toolbox.IToolboxModel.query'
+    name: query
+    fullName: query
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string query
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas-toolbox.IToolboxModel.verticalPosition'
+    name: verticalPosition
+    fullName: verticalPosition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number verticalPosition
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-canvas-toolbox.IToolboxModel.view'
+    name: view
+    fullName: view
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: View view
+      return:
+        type:
+          - View

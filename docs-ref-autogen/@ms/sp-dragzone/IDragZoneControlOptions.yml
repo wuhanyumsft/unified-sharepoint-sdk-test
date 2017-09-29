@@ -1,0 +1,239 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dragzone.IDragZoneControlOptions'
+    name: IDragZoneControlOptions
+    fullName: IDragZoneControlOptions
+    children:
+      - '@ms/sp-dragzone.IDragZoneControlOptions.canDropOnEmptyParent'
+      - '@ms/sp-dragzone.IDragZoneControlOptions.disallowedClassName'
+      - '@ms/sp-dragzone.IDragZoneControlOptions.disallowedTag'
+      - '@ms/sp-dragzone.IDragZoneControlOptions.dragHandleTag'
+      - '@ms/sp-dragzone.IDragZoneControlOptions.dragZoneStrings'
+      - '@ms/sp-dragzone.IDragZoneControlOptions.dropPositionOffsetBottomPx'
+      - '@ms/sp-dragzone.IDragZoneControlOptions.dropPositionOffsetTopPx'
+      - '@ms/sp-dragzone.IDragZoneControlOptions.host'
+      - '@ms/sp-dragzone.IDragZoneControlOptions.icon'
+      - '@ms/sp-dragzone.IDragZoneControlOptions.onMoved'
+      - '@ms/sp-dragzone.IDragZoneControlOptions.onMoveStart'
+      - '@ms/sp-dragzone.IDragZoneControlOptions.onMoving'
+      - '@ms/sp-dragzone.IDragZoneControlOptions.scrollIntoView'
+      - '@ms/sp-dragzone.IDragZoneControlOptions.supportHorizontalReorder'
+      - '@ms/sp-dragzone.IDragZoneControlOptions.supportKeyboardAlternative'
+      - '@ms/sp-dragzone.IDragZoneControlOptions.treeLevelTagsBottomUp'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dragzone'
+  - uid: '@ms/sp-dragzone.IDragZoneControlOptions.canDropOnEmptyParent'
+    name: canDropOnEmptyParent
+    fullName: canDropOnEmptyParent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean canDropOnEmptyParent
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dragzone.IDragZoneControlOptions.disallowedClassName'
+    name: disallowedClassName
+    fullName: disallowedClassName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string disallowedClassName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dragzone.IDragZoneControlOptions.disallowedTag'
+    name: disallowedTag
+    fullName: disallowedTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string disallowedTag
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dragzone.IDragZoneControlOptions.dragHandleTag'
+    name: dragHandleTag
+    fullName: dragHandleTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string dragHandleTag
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dragzone.IDragZoneControlOptions.dragZoneStrings'
+    name: dragZoneStrings
+    fullName: dragZoneStrings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IDragZoneA11yStrings dragZoneStrings
+      return:
+        type:
+          - '@@ms/sp-dragzone.IDragZoneA11yStrings'
+  - uid: '@ms/sp-dragzone.IDragZoneControlOptions.dropPositionOffsetBottomPx'
+    name: dropPositionOffsetBottomPx
+    fullName: dropPositionOffsetBottomPx
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number dropPositionOffsetBottomPx
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-dragzone.IDragZoneControlOptions.dropPositionOffsetTopPx'
+    name: dropPositionOffsetTopPx
+    fullName: dropPositionOffsetTopPx
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number dropPositionOffsetTopPx
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-dragzone.IDragZoneControlOptions.host'
+    name: host
+    fullName: host
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement host
+      return:
+        type:
+          - HTMLElement
+  - uid: '@ms/sp-dragzone.IDragZoneControlOptions.icon'
+    name: icon
+    fullName: icon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement icon
+      return:
+        type:
+          - HTMLElement
+  - uid: '@ms/sp-dragzone.IDragZoneControlOptions.onMoved'
+    name: onMoved
+    fullName: onMoved
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(oldPosition: number[], newPosition: number[]) => void onMoved'
+      return:
+        type:
+          - '(oldPosition: number[], newPosition: number[]) => void'
+  - uid: '@ms/sp-dragzone.IDragZoneControlOptions.onMoveStart'
+    name: onMoveStart
+    fullName: onMoveStart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(draggedItemPosition: number[]) => void onMoveStart'
+      return:
+        type:
+          - '(draggedItemPosition: number[]) => void'
+  - uid: '@ms/sp-dragzone.IDragZoneControlOptions.onMoving'
+    name: onMoving
+    fullName: onMoving
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(disallowed?: boolean) => void onMoving'
+      return:
+        type:
+          - '(disallowed?: boolean) => void'
+  - uid: '@ms/sp-dragzone.IDragZoneControlOptions.scrollIntoView'
+    name: scrollIntoView
+    fullName: scrollIntoView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        (type: string, element: HTMLElement, duration: number, margin: number,
+        scrollBack?: boolean) => void scrollIntoView
+      return:
+        type:
+          - >-
+            (type: string, element: HTMLElement, duration: number, margin:
+            number, scrollBack?: boolean) => void
+  - uid: '@ms/sp-dragzone.IDragZoneControlOptions.supportHorizontalReorder'
+    name: supportHorizontalReorder
+    fullName: supportHorizontalReorder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean supportHorizontalReorder
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dragzone.IDragZoneControlOptions.supportKeyboardAlternative'
+    name: supportKeyboardAlternative
+    fullName: supportKeyboardAlternative
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean supportKeyboardAlternative
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dragzone.IDragZoneControlOptions.treeLevelTagsBottomUp'
+    name: treeLevelTagsBottomUp
+    fullName: treeLevelTagsBottomUp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] treeLevelTagsBottomUp'
+      return:
+        type:
+          - 'string[]'

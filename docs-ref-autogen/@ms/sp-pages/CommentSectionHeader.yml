@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.CommentSectionHeader'
+    name: CommentSectionHeader
+    fullName: CommentSectionHeader
+    children:
+      - '@ms/sp-pages.CommentSectionHeader.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-pages.CommentSectionHeader<@@ms/sp-pages.ICommentSectionHeaderProps>
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.CommentSectionHeader.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

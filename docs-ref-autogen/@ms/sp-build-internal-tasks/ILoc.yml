@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.ILoc'
+    name: ILoc
+    fullName: ILoc
+    children:
+      - '@ms/sp-build-internal-tasks.ILoc.end'
+      - '@ms/sp-build-internal-tasks.ILoc.skip'
+      - '@ms/sp-build-internal-tasks.ILoc.start'
+    langs:
+      - typeScript
+    type: interface
+    summary: the location
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.ILoc.end'
+    name: end
+    fullName: end
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IPosition end
+      return:
+        type:
+          - '@@ms/sp-build-internal-tasks.IPosition'
+  - uid: '@ms/sp-build-internal-tasks.ILoc.skip'
+    name: skip
+    fullName: skip
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean skip
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-build-internal-tasks.ILoc.start'
+    name: start
+    fullName: start
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IPosition start
+      return:
+        type:
+          - '@@ms/sp-build-internal-tasks.IPosition'

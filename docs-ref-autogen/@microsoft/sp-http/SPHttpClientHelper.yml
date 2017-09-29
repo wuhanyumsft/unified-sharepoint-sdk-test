@@ -1,0 +1,103 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.SPHttpClientHelper'
+    name: SPHttpClientHelper
+    fullName: SPHttpClientHelper
+    children:
+      - '@microsoft/sp-http.SPHttpClientHelper.applyDefaultHeaders'
+      - '@microsoft/sp-http.SPHttpClientHelper.cloneHeaders'
+      - '@microsoft/sp-http.SPHttpClientHelper.handleAuthenticationErrors'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Private - this class contains some internal code shared between
+      SPHttpClient
+
+      and SPHttpClientBatch.
+    extends:
+      name: '@@microsoft/sp-http.HttpClientHelper'
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.SPHttpClientHelper.applyDefaultHeaders'
+    name: applyDefaultHeaders
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function applyDefaultHeaders(headers: Headers, configuration:
+        SPHttpClientCommonConfiguration, options: ISPHttpClientOptions,
+        oDataVersion: ODataVersion)
+      parameters:
+        - id: headers
+          type:
+            - Headers
+          description: ''
+        - id: configuration
+          type:
+            - '@@microsoft/sp-http.SPHttpClientCommonConfiguration'
+          description: ''
+        - id: options
+          type:
+            - '@@microsoft/sp-http.ISPHttpClientOptions'
+          description: ''
+        - id: oDataVersion
+          type:
+            - ODataVersion
+          description: ''
+  - uid: '@microsoft/sp-http.SPHttpClientHelper.cloneHeaders'
+    name: cloneHeaders
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function cloneHeaders(options: RequestInit)'
+      parameters:
+        - id: options
+          type:
+            - RequestInit
+          description: ''
+      return:
+        type:
+          - Headers
+  - uid: '@microsoft/sp-http.SPHttpClientHelper.handleAuthenticationErrors'
+    name: handleAuthenticationErrors
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      For both SPHttpClient and SPHttpClientBatch, we fetch a digest and then
+      use it to
+
+      to make a REST call.  If the REST fails in a way that the digest is
+      invalid,
+
+      we need to discard the bad digest.  This function is the common
+      implementation
+
+      of that logic, in case we need to add special cases in the future.
+    syntax:
+      content: >-
+        static function handleAuthenticationErrors(promise: Promise<Response>,
+        webUrl: string, digestCache: IDigestCache)
+      parameters:
+        - id: promise
+          type:
+            - Promise<Response>
+          description: the promise returned by IFetchProvider.fetch()
+        - id: webUrl
+          type:
+            - string
+          description: the cache key to clear
+        - id: digestCache
+          type:
+            - '@@microsoft/sp-http.IDigestCache'
+          description: the cache
+      return:
+        type:
+          - Promise<Response>

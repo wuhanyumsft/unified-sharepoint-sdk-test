@@ -1,0 +1,473 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.FailureTag'
+    name: FailureTag
+    fullName: FailureTag
+    children:
+      - '@ms/sp-pages.FailureTag.ErrorTag'
+      - '@ms/sp-pages.FailureTag.FailedCheckoutPageDoesNotExistOnServer'
+      - '@ms/sp-pages.FailureTag.FailedCreateBlankPageError1'
+      - '@ms/sp-pages.FailureTag.FailedCreateBlankPageError2'
+      - '@ms/sp-pages.FailureTag.FailedEnsureNoActionInProgress'
+      - '@ms/sp-pages.FailureTag.FailedEnsurePageExistsOnServer'
+      - '@ms/sp-pages.FailureTag.FailedExecuteActionUnExpected'
+      - '@ms/sp-pages.FailureTag.FailedLoad'
+      - '@ms/sp-pages.FailureTag.FailedRenderCanvasTag'
+      - '@ms/sp-pages.FailureTag.FailedRenderTag'
+      - '@ms/sp-pages.FailureTag.FailedResponseExceedStreamLimitation'
+      - '@ms/sp-pages.FailureTag.FailedResponseStatus'
+      - '@ms/sp-pages.FailureTag.FailedResponseStatus403'
+      - '@ms/sp-pages.FailureTag.FailedResponseStatus404'
+      - '@ms/sp-pages.FailureTag.FailedResponseStatus406'
+      - '@ms/sp-pages.FailureTag.FailedResponseStatus409'
+      - '@ms/sp-pages.FailureTag.FailedSaveCanvasTag'
+      - '@ms/sp-pages.FailureTag.FailedSaveFieldsToServerError1'
+      - '@ms/sp-pages.FailureTag.FailedSaveFieldsToServerError2'
+      - '@ms/sp-pages.FailureTag.FailedSaveFieldsToServerError3'
+      - '@ms/sp-pages.FailureTag.FailedSaveHeaderControl'
+      - '@ms/sp-pages.FailureTag.FailedSavePageError'
+      - '@ms/sp-pages.FailureTag.FailedToCheckoutPageError2'
+      - '@ms/sp-pages.FailureTag.FailedToCheckoutPageExpected'
+      - '@ms/sp-pages.FailureTag.FailedToDiscardPageError2'
+      - '@ms/sp-pages.FailureTag.FailedToGetFirstExperienceError1'
+      - '@ms/sp-pages.FailureTag.FailedToGetFirstExperienceError2'
+      - '@ms/sp-pages.FailureTag.FailedToGetPageVersion'
+      - '@ms/sp-pages.FailureTag.FailedToSavePageError2'
+      - '@ms/sp-pages.FailureTag.FailedToSavePageWithNewTitle'
+      - '@ms/sp-pages.FailureTag.FailedTransitionError1'
+      - '@ms/sp-pages.FailureTag.FailedTransitionError2'
+      - '@ms/sp-pages.FailureTag.UnsafeInPlaceNav'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.FailureTag.ErrorTag'
+    name: ErrorTag
+    fullName: ErrorTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string ErrorTag
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedCheckoutPageDoesNotExistOnServer'
+    name: FailedCheckoutPageDoesNotExistOnServer
+    fullName: FailedCheckoutPageDoesNotExistOnServer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedCheckoutPageDoesNotExistOnServer
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedCreateBlankPageError1'
+    name: FailedCreateBlankPageError1
+    fullName: FailedCreateBlankPageError1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedCreateBlankPageError1
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedCreateBlankPageError2'
+    name: FailedCreateBlankPageError2
+    fullName: FailedCreateBlankPageError2
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedCreateBlankPageError2
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedEnsureNoActionInProgress'
+    name: FailedEnsureNoActionInProgress
+    fullName: FailedEnsureNoActionInProgress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedEnsureNoActionInProgress
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedEnsurePageExistsOnServer'
+    name: FailedEnsurePageExistsOnServer
+    fullName: FailedEnsurePageExistsOnServer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedEnsurePageExistsOnServer
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedExecuteActionUnExpected'
+    name: FailedExecuteActionUnExpected
+    fullName: FailedExecuteActionUnExpected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedExecuteActionUnExpected
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedLoad'
+    name: FailedLoad
+    fullName: FailedLoad
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedLoad
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedRenderCanvasTag'
+    name: FailedRenderCanvasTag
+    fullName: FailedRenderCanvasTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedRenderCanvasTag
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedRenderTag'
+    name: FailedRenderTag
+    fullName: FailedRenderTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedRenderTag
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedResponseExceedStreamLimitation'
+    name: FailedResponseExceedStreamLimitation
+    fullName: FailedResponseExceedStreamLimitation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedResponseExceedStreamLimitation
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedResponseStatus'
+    name: FailedResponseStatus
+    fullName: FailedResponseStatus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedResponseStatus
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedResponseStatus403'
+    name: FailedResponseStatus403
+    fullName: FailedResponseStatus403
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedResponseStatus403
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedResponseStatus404'
+    name: FailedResponseStatus404
+    fullName: FailedResponseStatus404
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedResponseStatus404
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedResponseStatus406'
+    name: FailedResponseStatus406
+    fullName: FailedResponseStatus406
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedResponseStatus406
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedResponseStatus409'
+    name: FailedResponseStatus409
+    fullName: FailedResponseStatus409
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedResponseStatus409
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedSaveCanvasTag'
+    name: FailedSaveCanvasTag
+    fullName: FailedSaveCanvasTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedSaveCanvasTag
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedSaveFieldsToServerError1'
+    name: FailedSaveFieldsToServerError1
+    fullName: FailedSaveFieldsToServerError1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedSaveFieldsToServerError1
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedSaveFieldsToServerError2'
+    name: FailedSaveFieldsToServerError2
+    fullName: FailedSaveFieldsToServerError2
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedSaveFieldsToServerError2
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedSaveFieldsToServerError3'
+    name: FailedSaveFieldsToServerError3
+    fullName: FailedSaveFieldsToServerError3
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedSaveFieldsToServerError3
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedSaveHeaderControl'
+    name: FailedSaveHeaderControl
+    fullName: FailedSaveHeaderControl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedSaveHeaderControl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedSavePageError'
+    name: FailedSavePageError
+    fullName: FailedSavePageError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedSavePageError
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedToCheckoutPageError2'
+    name: FailedToCheckoutPageError2
+    fullName: FailedToCheckoutPageError2
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedToCheckoutPageError2
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedToCheckoutPageExpected'
+    name: FailedToCheckoutPageExpected
+    fullName: FailedToCheckoutPageExpected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedToCheckoutPageExpected
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedToDiscardPageError2'
+    name: FailedToDiscardPageError2
+    fullName: FailedToDiscardPageError2
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedToDiscardPageError2
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedToGetFirstExperienceError1'
+    name: FailedToGetFirstExperienceError1
+    fullName: FailedToGetFirstExperienceError1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedToGetFirstExperienceError1
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedToGetFirstExperienceError2'
+    name: FailedToGetFirstExperienceError2
+    fullName: FailedToGetFirstExperienceError2
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedToGetFirstExperienceError2
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedToGetPageVersion'
+    name: FailedToGetPageVersion
+    fullName: FailedToGetPageVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedToGetPageVersion
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedToSavePageError2'
+    name: FailedToSavePageError2
+    fullName: FailedToSavePageError2
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedToSavePageError2
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedToSavePageWithNewTitle'
+    name: FailedToSavePageWithNewTitle
+    fullName: FailedToSavePageWithNewTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedToSavePageWithNewTitle
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedTransitionError1'
+    name: FailedTransitionError1
+    fullName: FailedTransitionError1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedTransitionError1
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.FailedTransitionError2'
+    name: FailedTransitionError2
+    fullName: FailedTransitionError2
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string FailedTransitionError2
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.FailureTag.UnsafeInPlaceNav'
+    name: UnsafeInPlaceNav
+    fullName: UnsafeInPlaceNav
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string UnsafeInPlaceNav
+      return:
+        type:
+          - string

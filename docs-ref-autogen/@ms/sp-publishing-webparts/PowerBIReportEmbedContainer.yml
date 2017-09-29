@@ -1,0 +1,107 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.PowerBIReportEmbedContainer'
+    name: PowerBIReportEmbedContainer
+    fullName: PowerBIReportEmbedContainer
+    children:
+      - '@ms/sp-publishing-webparts.PowerBIReportEmbedContainer.componentDidMount'
+      - >-
+        @ms/sp-publishing-webparts.PowerBIReportEmbedContainer.componentDidUpdate
+      - >-
+        @ms/sp-publishing-webparts.PowerBIReportEmbedContainer.componentWillUnmount
+      - '@ms/sp-publishing-webparts.PowerBIReportEmbedContainer.constructor'
+      - '@ms/sp-publishing-webparts.PowerBIReportEmbedContainer.render'
+      - >-
+        @ms/sp-publishing-webparts.PowerBIReportEmbedContainer.shouldComponentUpdate
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.PowerBIReportEmbedContainer<@@ms/sp-publishing-webparts.IPowerBIReportEmbedContainerProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.PowerBIReportEmbedContainer.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.PowerBIReportEmbedContainer.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+  - uid: >-
+      @ms/sp-publishing-webparts.PowerBIReportEmbedContainer.componentWillUnmount
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.PowerBIReportEmbedContainer.constructor'
+    name: PowerBIReportEmbedContainer
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new PowerBIReportEmbedContainer(props:
+        IPowerBIReportEmbedContainerProps, state: void)
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IPowerBIReportEmbedContainerProps'
+          description: ''
+        - id: state
+          type:
+            - void
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.PowerBIReportEmbedContainer.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: >-
+      @ms/sp-publishing-webparts.PowerBIReportEmbedContainer.shouldComponentUpdate
+    name: shouldComponentUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function shouldComponentUpdate(nextProps:
+        IPowerBIReportEmbedContainerProps)
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-publishing-webparts.IPowerBIReportEmbedContainerProps'
+          description: ''
+      return:
+        type:
+          - boolean

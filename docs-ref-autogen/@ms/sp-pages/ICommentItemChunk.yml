@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ICommentItemChunk'
+    name: ICommentItemChunk
+    fullName: ICommentItemChunk
+    children:
+      - '@ms/sp-pages.ICommentItemChunk.comments'
+      - '@ms/sp-pages.ICommentItemChunk.count'
+      - '@ms/sp-pages.ICommentItemChunk.disabledState'
+      - '@ms/sp-pages.ICommentItemChunk.nextLink'
+      - '@ms/sp-pages.ICommentItemChunk.parentId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ICommentItemChunk.comments'
+    name: comments
+    fullName: comments
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'CommentItem[] comments'
+      return:
+        type:
+          - '@@ms/sp-pages.CommentItem[]'
+  - uid: '@ms/sp-pages.ICommentItemChunk.count'
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number count
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.ICommentItemChunk.disabledState'
+    name: disabledState
+    fullName: disabledState
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CommentDisabledState disabledState
+      return:
+        type:
+          - CommentDisabledState
+  - uid: '@ms/sp-pages.ICommentItemChunk.nextLink'
+    name: nextLink
+    fullName: nextLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string nextLink
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.ICommentItemChunk.parentId'
+    name: parentId
+    fullName: parentId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string parentId
+      return:
+        type:
+          - string

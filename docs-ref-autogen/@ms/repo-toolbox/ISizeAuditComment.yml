@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/repo-toolbox.ISizeAuditComment'
+    name: ISizeAuditComment
+    fullName: ISizeAuditComment
+    children:
+      - '@ms/repo-toolbox.ISizeAuditComment.body'
+      - '@ms/repo-toolbox.ISizeAuditComment.status'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/repo-toolbox'
+  - uid: '@ms/repo-toolbox.ISizeAuditComment.body'
+    name: body
+    fullName: body
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string body
+      return:
+        type:
+          - string
+  - uid: '@ms/repo-toolbox.ISizeAuditComment.status'
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CommentThreadStatus status
+      return:
+        type:
+          - CommentThreadStatus

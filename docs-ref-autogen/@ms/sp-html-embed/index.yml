@@ -1,0 +1,115 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-html-embed'
+    name: '@ms/sp-html-embed'
+    summary: ''
+    children:
+      - '@ms/sp-html-embed.EmbeddableServiceFactory'
+      - '@ms/sp-html-embed.EmbedServiceResponseCode'
+      - '@ms/sp-html-embed.IEmbedServiceResult'
+      - '@ms/sp-html-embed.IEmbedServiceResultAdaptor'
+      - '@ms/sp-html-embed.IEmbeddableService'
+      - '@ms/sp-html-embed.IEmbeddableUrlMetadata'
+      - '@ms/sp-html-embed.MockEmbeddableService'
+      - '@ms/sp-html-embed.O365VideoEmbeddableService'
+      - '@ms/sp-html-embed.IGetVideoIframeResult'
+      - '@ms/sp-html-embed.O365VideoURLHelper'
+      - '@ms/sp-html-embed.SPEmbeddableService'
+      - '@ms/sp-html-embed.HTMLEmbed'
+      - '@ms/sp-html-embed.IHTMLEmbedState'
+      - '@ms/sp-html-embed.EmbedCodeShownType'
+      - '@ms/sp-html-embed.EmbedCodeType'
+      - '@ms/sp-html-embed.EmbedDataSourceType'
+      - '@ms/sp-html-embed.IEmbedCode'
+      - '@ms/sp-html-embed.IEmbedDataProvider'
+      - '@ms/sp-html-embed.IEmbedDataSource'
+      - '@ms/sp-html-embed.IHTMLEmbedProps'
+      - '@ms/sp-html-embed.IHTMLEmbedRect'
+      - '@ms/sp-html-embed.BingPreviewLayout'
+      - '@ms/sp-html-embed.BingPreviewStyleGenerator'
+      - '@ms/sp-html-embed.IBingPreviewLayoutState'
+      - '@ms/sp-html-embed.HtmlGenerator'
+      - '@ms/sp-html-embed.IHtmlGeneratorProps'
+      - '@ms/sp-html-embed.HtmlGeneratorFactory'
+      - '@ms/sp-html-embed.HtmlGeneratorHelper'
+      - '@ms/sp-html-embed.IframeGenerator'
+      - '@ms/sp-html-embed.ImageGenerator'
+      - '@ms/sp-html-embed.HtmlValidator'
+      - '@ms/sp-html-embed.IValidateResult'
+      - '@ms/sp-html-embed.MockHtmlValidator'
+      - '@ms/sp-html-embed.SPWhitelistHtmlValidator'
+      - '@ms/sp-html-embed.Global'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@ms/sp-html-embed.EmbeddableServiceFactory'
+    name: EmbeddableServiceFactory
+  - uid: '@ms/sp-html-embed.EmbedServiceResponseCode'
+    name: EmbedServiceResponseCode
+  - uid: '@ms/sp-html-embed.IEmbedServiceResult'
+    name: IEmbedServiceResult
+  - uid: '@ms/sp-html-embed.IEmbedServiceResultAdaptor'
+    name: IEmbedServiceResultAdaptor
+  - uid: '@ms/sp-html-embed.IEmbeddableService'
+    name: IEmbeddableService
+  - uid: '@ms/sp-html-embed.IEmbeddableUrlMetadata'
+    name: IEmbeddableUrlMetadata
+  - uid: '@ms/sp-html-embed.MockEmbeddableService'
+    name: MockEmbeddableService
+  - uid: '@ms/sp-html-embed.O365VideoEmbeddableService'
+    name: O365VideoEmbeddableService
+  - uid: '@ms/sp-html-embed.IGetVideoIframeResult'
+    name: IGetVideoIframeResult
+  - uid: '@ms/sp-html-embed.O365VideoURLHelper'
+    name: O365VideoURLHelper
+  - uid: '@ms/sp-html-embed.SPEmbeddableService'
+    name: SPEmbeddableService
+  - uid: '@ms/sp-html-embed.HTMLEmbed'
+    name: HTMLEmbed
+  - uid: '@ms/sp-html-embed.IHTMLEmbedState'
+    name: IHTMLEmbedState
+  - uid: '@ms/sp-html-embed.EmbedCodeShownType'
+    name: EmbedCodeShownType
+  - uid: '@ms/sp-html-embed.EmbedCodeType'
+    name: EmbedCodeType
+  - uid: '@ms/sp-html-embed.EmbedDataSourceType'
+    name: EmbedDataSourceType
+  - uid: '@ms/sp-html-embed.IEmbedCode'
+    name: IEmbedCode
+  - uid: '@ms/sp-html-embed.IEmbedDataProvider'
+    name: IEmbedDataProvider
+  - uid: '@ms/sp-html-embed.IEmbedDataSource'
+    name: IEmbedDataSource
+  - uid: '@ms/sp-html-embed.IHTMLEmbedProps'
+    name: IHTMLEmbedProps
+  - uid: '@ms/sp-html-embed.IHTMLEmbedRect'
+    name: IHTMLEmbedRect
+  - uid: '@ms/sp-html-embed.BingPreviewLayout'
+    name: BingPreviewLayout
+  - uid: '@ms/sp-html-embed.BingPreviewStyleGenerator'
+    name: BingPreviewStyleGenerator
+  - uid: '@ms/sp-html-embed.IBingPreviewLayoutState'
+    name: IBingPreviewLayoutState
+  - uid: '@ms/sp-html-embed.HtmlGenerator'
+    name: HtmlGenerator
+  - uid: '@ms/sp-html-embed.IHtmlGeneratorProps'
+    name: IHtmlGeneratorProps
+  - uid: '@ms/sp-html-embed.HtmlGeneratorFactory'
+    name: HtmlGeneratorFactory
+  - uid: '@ms/sp-html-embed.HtmlGeneratorHelper'
+    name: HtmlGeneratorHelper
+  - uid: '@ms/sp-html-embed.IframeGenerator'
+    name: IframeGenerator
+  - uid: '@ms/sp-html-embed.ImageGenerator'
+    name: ImageGenerator
+  - uid: '@ms/sp-html-embed.HtmlValidator'
+    name: HtmlValidator
+  - uid: '@ms/sp-html-embed.IValidateResult'
+    name: IValidateResult
+  - uid: '@ms/sp-html-embed.MockHtmlValidator'
+    name: MockHtmlValidator
+  - uid: '@ms/sp-html-embed.SPWhitelistHtmlValidator'
+    name: SPWhitelistHtmlValidator
+  - uid: '@ms/sp-html-embed.Global'
+    name: Global

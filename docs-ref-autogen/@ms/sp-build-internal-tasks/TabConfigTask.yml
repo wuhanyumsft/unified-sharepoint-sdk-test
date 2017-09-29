@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.TabConfigTask'
+    name: TabConfigTask
+    fullName: TabConfigTask
+    children:
+      - '@ms/sp-build-internal-tasks.TabConfigTask.executeTask'
+      - '@ms/sp-build-internal-tasks.TabConfigTask.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Task merge specific project defined config properties (like which tasks to
+      run) with
+
+      generic config properties that are the same for all projects and contain
+
+      sensitive information.
+    extends:
+      name: >-
+        @@ms/sp-build-internal-tasks.TabTask<@@ms/sp-build-internal-tasks.ITabConfig>
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.TabConfigTask.executeTask'
+    name: executeTask
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function executeTask(gulp: any, completeCallback: (error?: string) =>
+        void)
+      parameters:
+        - id: gulp
+          type:
+            - any
+          description: ''
+        - id: completeCallback
+          type:
+            - '(error?: string) => void'
+          description: ''
+  - uid: '@ms/sp-build-internal-tasks.TabConfigTask.constructor'
+    name: TabConfigTask
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new TabConfigTask()
+      parameters: []

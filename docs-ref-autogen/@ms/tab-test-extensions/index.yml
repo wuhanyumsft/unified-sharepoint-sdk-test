@@ -1,0 +1,46 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/tab-test-extensions'
+    name: '@ms/tab-test-extensions'
+    summary: ''
+    children:
+      - '@ms/tab-test-extensions.TabTestGreenApplicationCustomizer'
+      - '@ms/tab-test-extensions.ITabApplicationCustomizerProperties'
+      - '@ms/tab-test-extensions.TabTestYellowApplicationCustomizer'
+      - '@ms/tab-test-extensions.ITabApplicationCustomizerProperties'
+      - '@ms/tab-test-extensions.TabTestCommandSet'
+      - '@ms/tab-test-extensions.ITabTestCommandSetProperties'
+      - '@ms/tab-test-extensions.TabTestCommandSetDialog'
+      - '@ms/tab-test-extensions.ITabTestCommandSetProperties'
+      - '@ms/tab-test-extensions.TabTestFieldCustomizer'
+      - '@ms/tab-test-extensions.ITabTestFieldCustomizerProperties'
+      - '@ms/tab-test-extensions.ReplaceTextFieldCustomizer'
+      - '@ms/tab-test-extensions.IReplaceTextFieldCustomizerProperties'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@ms/tab-test-extensions.TabTestGreenApplicationCustomizer'
+    name: TabTestGreenApplicationCustomizer
+  - uid: '@ms/tab-test-extensions.ITabApplicationCustomizerProperties'
+    name: ITabApplicationCustomizerProperties
+  - uid: '@ms/tab-test-extensions.TabTestYellowApplicationCustomizer'
+    name: TabTestYellowApplicationCustomizer
+  - uid: '@ms/tab-test-extensions.ITabApplicationCustomizerProperties'
+    name: ITabApplicationCustomizerProperties
+  - uid: '@ms/tab-test-extensions.TabTestCommandSet'
+    name: TabTestCommandSet
+  - uid: '@ms/tab-test-extensions.ITabTestCommandSetProperties'
+    name: ITabTestCommandSetProperties
+  - uid: '@ms/tab-test-extensions.TabTestCommandSetDialog'
+    name: TabTestCommandSetDialog
+  - uid: '@ms/tab-test-extensions.ITabTestCommandSetProperties'
+    name: ITabTestCommandSetProperties
+  - uid: '@ms/tab-test-extensions.TabTestFieldCustomizer'
+    name: TabTestFieldCustomizer
+  - uid: '@ms/tab-test-extensions.ITabTestFieldCustomizerProperties'
+    name: ITabTestFieldCustomizerProperties
+  - uid: '@ms/tab-test-extensions.ReplaceTextFieldCustomizer'
+    name: ReplaceTextFieldCustomizer
+  - uid: '@ms/tab-test-extensions.IReplaceTextFieldCustomizerProperties'
+    name: IReplaceTextFieldCustomizerProperties

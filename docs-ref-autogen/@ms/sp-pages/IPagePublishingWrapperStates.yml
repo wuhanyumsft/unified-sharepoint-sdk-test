@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IPagePublishingWrapperStates'
+    name: IPagePublishingWrapperStates
+    fullName: IPagePublishingWrapperStates
+    children:
+      - '@ms/sp-pages.IPagePublishingWrapperStates.isFadingOut'
+      - '@ms/sp-pages.IPagePublishingWrapperStates.isVisible'
+      - '@ms/sp-pages.IPagePublishingWrapperStates.pageSaveStatus'
+      - '@ms/sp-pages.IPagePublishingWrapperStates.statusMessage'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IPagePublishingWrapperStates.isFadingOut'
+    name: isFadingOut
+    fullName: isFadingOut
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isFadingOut
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IPagePublishingWrapperStates.isVisible'
+    name: isVisible
+    fullName: isVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isVisible
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IPagePublishingWrapperStates.pageSaveStatus'
+    name: pageSaveStatus
+    fullName: pageSaveStatus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageSaveStatus pageSaveStatus
+      return:
+        type:
+          - PageSaveStatus
+  - uid: '@ms/sp-pages.IPagePublishingWrapperStates.statusMessage'
+    name: statusMessage
+    fullName: statusMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string statusMessage
+      return:
+        type:
+          - string

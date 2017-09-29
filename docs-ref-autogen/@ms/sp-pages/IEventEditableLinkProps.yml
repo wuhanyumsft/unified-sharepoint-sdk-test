@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IEventEditableLinkProps'
+    name: IEventEditableLinkProps
+    fullName: IEventEditableLinkProps
+    children:
+      - '@ms/sp-pages.IEventEditableLinkProps.editing'
+      - '@ms/sp-pages.IEventEditableLinkProps.linkName'
+      - '@ms/sp-pages.IEventEditableLinkProps.linkUrl'
+      - '@ms/sp-pages.IEventEditableLinkProps.onChangeLink'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IEventEditableLinkProps.editing'
+    name: editing
+    fullName: editing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A boolean to indicate the display mode is in edit mode or not.
+    syntax:
+      content: boolean editing
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IEventEditableLinkProps.linkName'
+    name: linkName
+    fullName: linkName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The descriptive string of link.
+    syntax:
+      content: string linkName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IEventEditableLinkProps.linkUrl'
+    name: linkUrl
+    fullName: linkUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A string showing the Url of link.
+    syntax:
+      content: string linkUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IEventEditableLinkProps.onChangeLink'
+    name: onChangeLink
+    fullName: onChangeLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A function called when content of link is changed.
+    syntax:
+      content: '(url: string, name: string) => void onChangeLink'
+      return:
+        type:
+          - '(url: string, name: string) => void'

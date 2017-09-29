@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/evergreen.Configuration'
+    name: Configuration
+    fullName: Configuration
+    children:
+      - '@ms/evergreen.Configuration.getAllEvergreenPackages'
+      - '@ms/evergreen.Configuration.getPackageInformation'
+      - '@ms/evergreen.Configuration.load'
+    langs:
+      - typeScript
+    type: class
+    summary: Utility class which can read the Evergreen configuration file
+    package: '@ms/evergreen'
+  - uid: '@ms/evergreen.Configuration.getAllEvergreenPackages'
+    name: getAllEvergreenPackages
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns a list of all Evergreen packages
+    syntax:
+      content: function getAllEvergreenPackages()
+      parameters: []
+      return:
+        type:
+          - Array<string>
+  - uid: '@ms/evergreen.Configuration.getPackageInformation'
+    name: getPackageInformation
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getPackageInformation(pkgName: string)'
+      parameters:
+        - id: pkgName
+          type:
+            - string
+          description: ''
+  - uid: '@ms/evergreen.Configuration.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function load(config: RushConfiguration)'
+      parameters:
+        - id: config
+          type:
+            - RushConfiguration
+          description: ''
+      return:
+        type:
+          - '@@ms/evergreen.Configuration'

@@ -1,0 +1,128 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IFormsDataSource'
+    name: IFormsDataSource
+    fullName: IFormsDataSource
+    children:
+      - '@ms/sp-publishing-webparts.IFormsDataSource.createForm'
+      - '@ms/sp-publishing-webparts.IFormsDataSource.endPointUrl'
+      - '@ms/sp-publishing-webparts.IFormsDataSource.getAccessToken'
+      - '@ms/sp-publishing-webparts.IFormsDataSource.getForms'
+      - '@ms/sp-publishing-webparts.IFormsDataSource.getOrCreatePermissionToken'
+      - '@ms/sp-publishing-webparts.IFormsDataSource.getUserInfo'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Performs server-specific calls on behalf of the client. Methods on the
+      datasource
+
+      should only be called directly by the provider. Everyone else should call
+      the provider
+
+      instead.
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IFormsDataSource.createForm'
+    name: createForm
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the viewCount for the gives listItem id
+    syntax:
+      content: 'function createForm(form: IForm, isGroupForm: boolean)'
+      parameters:
+        - id: form
+          type:
+            - '@@ms/sp-publishing-webparts.IForm'
+          description: ''
+        - id: isGroupForm
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-publishing-webparts.IForm>
+  - uid: '@ms/sp-publishing-webparts.IFormsDataSource.endPointUrl'
+    name: endPointUrl
+    fullName: endPointUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets form endpoint URL
+    syntax:
+      content: string endPointUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IFormsDataSource.getAccessToken'
+    name: getAccessToken
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets form service access token
+    syntax:
+      content: function getAccessToken()
+      parameters: []
+      return:
+        type:
+          - Promise<string>
+  - uid: '@ms/sp-publishing-webparts.IFormsDataSource.getForms'
+    name: getForms
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get forms under an owner
+    syntax:
+      content: >-
+        function getForms(ownerTenantId: string, ownerId: string, isGroup:
+        boolean)
+      parameters:
+        - id: ownerTenantId
+          type:
+            - string
+          description: ''
+        - id: ownerId
+          type:
+            - string
+          description: ''
+        - id: isGroup
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - 'Promise<@@ms/sp-publishing-webparts.IForm[]>'
+  - uid: '@ms/sp-publishing-webparts.IFormsDataSource.getOrCreatePermissionToken'
+    name: getOrCreatePermissionToken
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get forms permission token
+    syntax:
+      content: 'function getOrCreatePermissionToken(formId: string)'
+      parameters:
+        - id: formId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-publishing-webparts.IFormsPermissionToken>
+  - uid: '@ms/sp-publishing-webparts.IFormsDataSource.getUserInfo'
+    name: getUserInfo
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets tenant Id
+    syntax:
+      content: function getUserInfo()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-publishing-webparts.IUserInfo>

@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-dialog.IInternalDialog'
+    name: IInternalDialog
+    fullName: IInternalDialog
+    children:
+      - '@microsoft/sp-dialog.IInternalDialog.onAfterClose'
+      - '@microsoft/sp-dialog.IInternalDialog.render'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      The internal interface for BaseDialog. We cast dialog objects to this
+      interface to use the internal API.
+    package: '@microsoft/sp-dialog'
+  - uid: '@microsoft/sp-dialog.IInternalDialog.onAfterClose'
+    name: onAfterClose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function onAfterClose()
+      parameters: []
+  - uid: '@microsoft/sp-dialog.IInternalDialog.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []

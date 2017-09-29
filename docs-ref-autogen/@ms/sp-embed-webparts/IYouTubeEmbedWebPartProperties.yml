@@ -1,0 +1,97 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-embed-webparts.IYouTubeEmbedWebPartProperties'
+    name: IYouTubeEmbedWebPartProperties
+    fullName: IYouTubeEmbedWebPartProperties
+    children:
+      - '@ms/sp-embed-webparts.IYouTubeEmbedWebPartProperties.captionText'
+      - '@ms/sp-embed-webparts.IYouTubeEmbedWebPartProperties.isPrivate'
+      - '@ms/sp-embed-webparts.IYouTubeEmbedWebPartProperties.showControls'
+      - '@ms/sp-embed-webparts.IYouTubeEmbedWebPartProperties.showInfo'
+      - '@ms/sp-embed-webparts.IYouTubeEmbedWebPartProperties.showRelatedVideos'
+      - '@ms/sp-embed-webparts.IYouTubeEmbedWebPartProperties.startTime'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-embed-webparts'
+  - uid: '@ms/sp-embed-webparts.IYouTubeEmbedWebPartProperties.captionText'
+    name: captionText
+    fullName: captionText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: caption to be displayed underneath video
+    syntax:
+      content: string captionText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.IYouTubeEmbedWebPartProperties.isPrivate'
+    name: isPrivate
+    fullName: isPrivate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: private mode
+    syntax:
+      content: boolean isPrivate
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-embed-webparts.IYouTubeEmbedWebPartProperties.showControls'
+    name: showControls
+    fullName: showControls
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: show player controls
+    syntax:
+      content: boolean showControls
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-embed-webparts.IYouTubeEmbedWebPartProperties.showInfo'
+    name: showInfo
+    fullName: showInfo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: show title and description
+    syntax:
+      content: boolean showInfo
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-embed-webparts.IYouTubeEmbedWebPartProperties.showRelatedVideos'
+    name: showRelatedVideos
+    fullName: showRelatedVideos
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: show related videos at the end
+    syntax:
+      content: boolean showRelatedVideos
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-embed-webparts.IYouTubeEmbedWebPartProperties.startTime'
+    name: startTime
+    fullName: startTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: start time of video
+    syntax:
+      content: string startTime
+      return:
+        type:
+          - string

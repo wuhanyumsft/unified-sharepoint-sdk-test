@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.ITabConfig'
+    name: ITabConfig
+    fullName: ITabConfig
+    children:
+      - '@ms/sp-build-internal-tasks.ITabConfig.Settings'
+      - '@ms/sp-build-internal-tasks.ITabConfig.TestUI'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Config properties for the Tab Config file that are customized on
+      a per-project basis.
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.ITabConfig.Settings'
+    name: Settings
+    fullName: Settings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ITabTestSettings Settings
+      return:
+        type:
+          - '@@ms/sp-build-internal-tasks.ITabTestSettings'
+  - uid: '@ms/sp-build-internal-tasks.ITabConfig.TestUI'
+    name: TestUI
+    fullName: TestUI
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      This is the container for putting your individual files into
+      'buckets' that denote where the test in terms of it's
+      development.
+    syntax:
+      content: ITestUI TestUI
+      return:
+        type:
+          - '@@ms/sp-build-internal-tasks.ITestUI'

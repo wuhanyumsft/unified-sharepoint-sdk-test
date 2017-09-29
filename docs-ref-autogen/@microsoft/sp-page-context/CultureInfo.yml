@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-page-context.CultureInfo'
+    name: CultureInfo
+    fullName: CultureInfo
+    children:
+      - '@microsoft/sp-page-context.CultureInfo.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      This class is primarily used with the PageContext class.  It provides
+      culture info
+
+      for the current user of the application.
+    package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.CultureInfo.constructor'
+    name: CultureInfo
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CultureInfo(data: ICultureInfoData)'
+      parameters:
+        - id: data
+          type:
+            - '@@microsoft/sp-page-context.ICultureInfoData'
+          description: ''

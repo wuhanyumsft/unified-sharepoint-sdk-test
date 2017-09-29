@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.GroupDataSource'
+    name: GroupDataSource
+    fullName: GroupDataSource
+    children:
+      - '@ms/sp-dataproviders.GroupDataSource.getGroup'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-dataproviders.OAuthDataSource'
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.GroupDataSource.getGroup'
+    name: getGroup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Query for OWA group details.
+    syntax:
+      content: 'function getGroup(groupId: string, queryString?: string)'
+      parameters:
+        - id: groupId
+          type:
+            - string
+          description: Identifier for the group
+        - id: queryString
+          type:
+            - string
+          description: |
+            OData query string
+          optional: true
+      return:
+        type:
+          - Promise<@@ms/sp-dataproviders.IGroupResponse>

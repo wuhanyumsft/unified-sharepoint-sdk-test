@@ -1,0 +1,72 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.EventsListDataProvider'
+    name: EventsListDataProvider
+    fullName: EventsListDataProvider
+    children:
+      - '@ms/sp-dataproviders.EventsListDataProvider.ensureEventsList'
+      - '@ms/sp-dataproviders.EventsListDataProvider.constructor'
+      - '@ms/sp-dataproviders.EventsListDataProvider.getEventsListPermission'
+      - '@ms/sp-dataproviders.EventsListDataProvider.getEventsLists'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.EventsListDataProvider.ensureEventsList'
+    name: ensureEventsList
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function ensureEventsList()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-dataproviders.IEventsList>
+  - uid: '@ms/sp-dataproviders.EventsListDataProvider.constructor'
+    name: EventsListDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new EventsListDataProvider(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+  - uid: '@ms/sp-dataproviders.EventsListDataProvider.getEventsListPermission'
+    name: getEventsListPermission
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getEventsListPermission(listId: string)'
+      parameters:
+        - id: listId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<SPPermission>
+  - uid: '@ms/sp-dataproviders.EventsListDataProvider.getEventsLists'
+    name: getEventsLists
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getEventsLists()
+      parameters: []
+      return:
+        type:
+          - 'Promise<@@ms/sp-dataproviders.IEventsList[]>'

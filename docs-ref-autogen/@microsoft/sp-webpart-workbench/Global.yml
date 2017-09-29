@@ -1,0 +1,169 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-workbench.Global'
+    package: '@microsoft/sp-webpart-workbench'
+    name: Global
+    children:
+      - '@microsoft/sp-webpart-workbench.disambiguatePath'
+      - '@microsoft/sp-webpart-workbench.generateWorkbenchPageContent'
+      - '@microsoft/sp-webpart-workbench.getAssemblyPath'
+      - '@microsoft/sp-webpart-workbench.getErrorBody'
+      - '@microsoft/sp-webpart-workbench.getPageWithBodyAndHead'
+      - '@microsoft/sp-webpart-workbench.getReactLines'
+      - '@microsoft/sp-webpart-workbench.getUrlForPath'
+      - '@microsoft/sp-webpart-workbench.htmlEncode'
+      - '@microsoft/sp-webpart-workbench.workbenchPage'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@microsoft/sp-webpart-workbench.disambiguatePath'
+    name: disambiguatePath
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function disambiguatePath(pathToDisambiguate: string)'
+      parameters:
+        - id: pathToDisambiguate
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-workbench.generateWorkbenchPageContent'
+    name: generateWorkbenchPageContent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function generateWorkbenchPageContent()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-workbench.getAssemblyPath'
+    name: getAssemblyPath
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getAssemblyPath()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-workbench.getErrorBody'
+    name: getErrorBody
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getErrorBody(errorMessage: string)'
+      parameters:
+        - id: errorMessage
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-workbench.getPageWithBodyAndHead'
+    name: getPageWithBodyAndHead
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getPageWithBodyAndHead(body: string, head?: string)'
+      parameters:
+        - id: body
+          type:
+            - string
+          description: ''
+        - id: head
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-workbench.getReactLines'
+    name: getReactLines
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getReactLines(str: string)'
+      parameters:
+        - id: str
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - ReactElement<void>
+  - uid: '@microsoft/sp-webpart-workbench.getUrlForPath'
+    name: getUrlForPath
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getUrlForPath(filePath: string)'
+      parameters:
+        - id: filePath
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-workbench.htmlEncode'
+    name: htmlEncode
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function htmlEncode(str: string)'
+      parameters:
+        - id: str
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-workbench.workbenchPage'
+    name: workbenchPage
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function workbenchPage(request: any, response: any)'
+      parameters:
+        - id: request
+          type:
+            - any
+          description: ''
+        - id: response
+          type:
+            - any
+          description: ''

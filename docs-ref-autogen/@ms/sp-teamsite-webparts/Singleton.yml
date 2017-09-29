@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.Singleton'
+    name: Singleton
+    fullName: Singleton<T>
+    children:
+      - '@ms/sp-teamsite-webparts.Singleton.claim'
+      - '@ms/sp-teamsite-webparts.Singleton.data'
+      - '@ms/sp-teamsite-webparts.Singleton.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.Singleton.claim'
+    name: claim
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function claim()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.Singleton.data'
+    name: data
+    fullName: data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: T data
+      return:
+        type:
+          - T
+  - uid: '@ms/sp-teamsite-webparts.Singleton.constructor'
+    name: Singleton
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Singleton(data?: T)'
+      parameters:
+        - id: data
+          type:
+            - T
+          description: ''
+          optional: true

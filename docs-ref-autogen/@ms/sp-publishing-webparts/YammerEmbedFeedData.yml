@@ -1,0 +1,148 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedFeedData'
+    name: YammerEmbedFeedData
+    fullName: YammerEmbedFeedData
+    children:
+      - '@ms/sp-publishing-webparts.YammerEmbedFeedData.equals'
+      - '@ms/sp-publishing-webparts.YammerEmbedFeedData.feedId'
+      - '@ms/sp-publishing-webparts.YammerEmbedFeedData.feedType'
+      - '@ms/sp-publishing-webparts.YammerEmbedFeedData.getEmbedAPIFeedTypeString'
+      - >-
+        @ms/sp-publishing-webparts.YammerEmbedFeedData.getLocalizedFeedTypeString
+      - '@ms/sp-publishing-webparts.YammerEmbedFeedData.isValid'
+      - '@ms/sp-publishing-webparts.YammerEmbedFeedData.network'
+      - '@ms/sp-publishing-webparts.YammerEmbedFeedData.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedFeedData.equals'
+    name: equals
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns true if rhs element corresponds to the same yammer feed as the
+      current object
+    syntax:
+      content: 'function equals(rhs: YammerEmbedFeedData)'
+      parameters:
+        - id: rhs
+          type:
+            - '@@ms/sp-publishing-webparts.YammerEmbedFeedData'
+          description: |
+            Object to check equality with
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedFeedData.feedId'
+    name: feedId
+    fullName: feedId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number feedId
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedFeedData.feedType'
+    name: feedType
+    fullName: feedType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: YammerFeedType feedType
+      return:
+        type:
+          - YammerFeedType
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedFeedData.getEmbedAPIFeedTypeString'
+    name: getEmbedAPIFeedTypeString
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns the string that should be passed to the yammer embed API as
+      'feedType'
+    syntax:
+      content: function getEmbedAPIFeedTypeString()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedFeedData.getLocalizedFeedTypeString'
+    name: getLocalizedFeedTypeString
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns a localized string corresponding to the feed type
+    syntax:
+      content: function getLocalizedFeedTypeString()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedFeedData.isValid'
+    name: isValid
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns true if the object represents a valid yammer feed type.
+    syntax:
+      content: function isValid()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedFeedData.network'
+    name: network
+    fullName: network
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string network
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedFeedData.constructor'
+    name: YammerEmbedFeedData
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new YammerEmbedFeedData(isValid: boolean, network: string, feedType:
+        YammerFeedType, feedId: number)
+      parameters:
+        - id: isValid
+          type:
+            - boolean
+          description: ''
+        - id: network
+          type:
+            - string
+          description: ''
+        - id: feedType
+          type:
+            - YammerFeedType
+          description: ''
+        - id: feedId
+          type:
+            - number
+          description: ''

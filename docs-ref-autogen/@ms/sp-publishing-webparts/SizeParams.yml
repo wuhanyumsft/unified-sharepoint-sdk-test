@@ -1,0 +1,65 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.SizeParams'
+    name: SizeParams
+    fullName: SizeParams
+    children:
+      - '@ms/sp-publishing-webparts.SizeParams.minWidth'
+      - '@ms/sp-publishing-webparts.SizeParams.stepSize'
+      - '@ms/sp-publishing-webparts.SizeParams.maxWidth'
+      - '@ms/sp-publishing-webparts.SizeParams.fullWidth'
+      - '@ms/sp-publishing-webparts.SizeParams.UploadingIconSize'
+      - '@ms/sp-publishing-webparts.SizeParams.TNarrow'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.SizeParams.minWidth'
+    name: minWidth
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+  - uid: '@ms/sp-publishing-webparts.SizeParams.stepSize'
+    name: stepSize
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+  - uid: '@ms/sp-publishing-webparts.SizeParams.maxWidth'
+    name: maxWidth
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 8
+  - uid: '@ms/sp-publishing-webparts.SizeParams.fullWidth'
+    name: fullWidth
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 12
+  - uid: '@ms/sp-publishing-webparts.SizeParams.UploadingIconSize'
+    name: UploadingIconSize
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 80
+  - uid: '@ms/sp-publishing-webparts.SizeParams.TNarrow'
+    name: TNarrow
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 280

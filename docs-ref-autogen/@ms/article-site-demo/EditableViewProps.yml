@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/article-site-demo.EditableViewProps'
+    name: EditableViewProps
+    fullName: EditableViewProps
+    children:
+      - '@ms/article-site-demo.EditableViewProps.pageManager'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/article-site-demo'
+  - uid: '@ms/article-site-demo.EditableViewProps.pageManager'
+    name: pageManager
+    fullName: pageManager
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageManager pageManager
+      return:
+        type:
+          - '@@ms/article-site-demo.PageManager'

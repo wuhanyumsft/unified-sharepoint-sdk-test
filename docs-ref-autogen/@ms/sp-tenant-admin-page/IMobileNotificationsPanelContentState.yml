@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IMobileNotificationsPanelContentState'
+    name: IMobileNotificationsPanelContentState
+    fullName: IMobileNotificationsPanelContentState
+    children:
+      - >-
+        @ms/sp-tenant-admin-page.IMobileNotificationsPanelContentState.isMobileNotificationsChecked
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-tenant-admin-page.IPanelContentState'
+    package: '@ms/sp-tenant-admin-page'
+  - uid: >-
+      @ms/sp-tenant-admin-page.IMobileNotificationsPanelContentState.isMobileNotificationsChecked
+    name: isMobileNotificationsChecked
+    fullName: isMobileNotificationsChecked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isMobileNotificationsChecked
+      return:
+        type:
+          - boolean

@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksMenuHostProps'
+    name: IQuickLinksMenuHostProps
+    fullName: IQuickLinksMenuHostProps
+    children:
+      - '@ms/sp-teamsite-webparts.IQuickLinksMenuHostProps.dispatcher'
+      - '@ms/sp-teamsite-webparts.IQuickLinksMenuHostProps.menuActionFactory'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksMenuHostProps.dispatcher'
+    name: dispatcher
+    fullName: dispatcher
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IQuickLinksDispatcher dispatcher
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IQuickLinksDispatcher'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksMenuHostProps.menuActionFactory'
+    name: menuActionFactory
+    fullName: menuActionFactory
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: MenuActionFactory menuActionFactory
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.MenuActionFactory'

@@ -1,0 +1,184 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities'
+    name: '@ms/sp-component-utilities'
+    summary: ''
+    children:
+      - '@ms/sp-component-utilities.QosMonitorType'
+      - '@ms/sp-component-utilities.SPUtility'
+      - '@ms/sp-component-utilities.BrowserUtilities'
+      - '@ms/sp-component-utilities.TimePicker'
+      - '@ms/sp-component-utilities.ITimePickerProps'
+      - '@ms/sp-component-utilities.TimeSpan'
+      - '@ms/sp-component-utilities.ITimeSpanProps'
+      - '@ms/sp-component-utilities.ITimeSpanState'
+      - '@ms/sp-component-utilities.ITimeSpanStrings'
+      - '@ms/sp-component-utilities.ExpectedFailure'
+      - '@ms/sp-component-utilities.UnexpectedFailure'
+      - '@ms/sp-component-utilities.DialogActionTypes'
+      - '@ms/sp-component-utilities.DialogUtility'
+      - '@ms/sp-component-utilities.PageDialog'
+      - '@ms/sp-component-utilities.IDialogProps'
+      - '@ms/sp-component-utilities.IDialogState'
+      - '@ms/sp-component-utilities.ExtensionHelper'
+      - '@ms/sp-component-utilities.IIconMap'
+      - '@ms/sp-component-utilities.FileTypeIconsLoader'
+      - '@ms/sp-component-utilities.Icons'
+      - '@ms/sp-component-utilities.IIcons'
+      - '@ms/sp-component-utilities.FileTypeIconDetailsListRenderer'
+      - '@ms/sp-component-utilities.IFileTypeIconDetailsListRendererProps'
+      - '@ms/sp-component-utilities.IContact'
+      - '@ms/sp-component-utilities.IIcsAttachment'
+      - '@ms/sp-component-utilities.IIcsEvent'
+      - '@ms/sp-component-utilities.IIcsRecurrence'
+      - '@ms/sp-component-utilities.ImageSourceType'
+      - '@ms/sp-component-utilities.IPreviewProps'
+      - '@ms/sp-component-utilities.IThumbnailRequest'
+      - '@ms/sp-component-utilities.MediaThumbnailService'
+      - '@ms/sp-component-utilities.PreviewHelper'
+      - '@ms/sp-component-utilities.PreviewUtility'
+      - '@ms/sp-component-utilities.IButtonOptions'
+      - '@ms/sp-component-utilities.IDataProvider'
+      - '@ms/sp-component-utilities.IDataProviderOptions'
+      - '@ms/sp-component-utilities.IDataRow'
+      - '@ms/sp-component-utilities.INewsItem'
+      - '@ms/sp-component-utilities.DomMeasurementCache'
+      - '@ms/sp-component-utilities.IAuthorResponseModel'
+      - '@ms/sp-component-utilities.IFileValidationResponse'
+      - '@ms/sp-component-utilities.IListData'
+      - '@ms/sp-component-utilities.IListFetchReponse'
+      - '@ms/sp-component-utilities.IRow'
+      - '@ms/sp-component-utilities.IListItemAllFields'
+      - '@ms/sp-component-utilities.IMediaServiceListSchema'
+      - '@ms/sp-component-utilities.IImageSize'
+      - '@ms/sp-component-utilities.IMediaServiceMetadata'
+      - '@ms/sp-component-utilities.ITag'
+      - '@ms/sp-component-utilities.ISharePointRestError'
+      - '@ms/sp-component-utilities.RemoteWebFileGetter'
+      - '@ms/sp-component-utilities.ScreenReaderAlert'
+      - '@ms/sp-component-utilities.ReadingMode'
+      - '@ms/sp-component-utilities.IScreenReaderAlertProps'
+      - '@ms/sp-component-utilities.HttpClientMock'
+      - '@ms/sp-component-utilities.ProvisionedServiceScope'
+      - '@ms/sp-component-utilities.O365VideoIframeUtilities'
+      - '@ms/sp-component-utilities.Global'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@ms/sp-component-utilities.QosMonitorType'
+    name: QosMonitorType
+  - uid: '@ms/sp-component-utilities.SPUtility'
+    name: SPUtility
+  - uid: '@ms/sp-component-utilities.BrowserUtilities'
+    name: BrowserUtilities
+  - uid: '@ms/sp-component-utilities.TimePicker'
+    name: TimePicker
+  - uid: '@ms/sp-component-utilities.ITimePickerProps'
+    name: ITimePickerProps
+  - uid: '@ms/sp-component-utilities.TimeSpan'
+    name: TimeSpan
+  - uid: '@ms/sp-component-utilities.ITimeSpanProps'
+    name: ITimeSpanProps
+  - uid: '@ms/sp-component-utilities.ITimeSpanState'
+    name: ITimeSpanState
+  - uid: '@ms/sp-component-utilities.ITimeSpanStrings'
+    name: ITimeSpanStrings
+  - uid: '@ms/sp-component-utilities.ExpectedFailure'
+    name: ExpectedFailure
+  - uid: '@ms/sp-component-utilities.UnexpectedFailure'
+    name: UnexpectedFailure
+  - uid: '@ms/sp-component-utilities.DialogActionTypes'
+    name: DialogActionTypes
+  - uid: '@ms/sp-component-utilities.DialogUtility'
+    name: DialogUtility
+  - uid: '@ms/sp-component-utilities.PageDialog'
+    name: PageDialog
+  - uid: '@ms/sp-component-utilities.IDialogProps'
+    name: IDialogProps
+  - uid: '@ms/sp-component-utilities.IDialogState'
+    name: IDialogState
+  - uid: '@ms/sp-component-utilities.ExtensionHelper'
+    name: ExtensionHelper
+  - uid: '@ms/sp-component-utilities.IIconMap'
+    name: IIconMap
+  - uid: '@ms/sp-component-utilities.FileTypeIconsLoader'
+    name: FileTypeIconsLoader
+  - uid: '@ms/sp-component-utilities.Icons'
+    name: Icons
+  - uid: '@ms/sp-component-utilities.IIcons'
+    name: IIcons
+  - uid: '@ms/sp-component-utilities.FileTypeIconDetailsListRenderer'
+    name: FileTypeIconDetailsListRenderer
+  - uid: '@ms/sp-component-utilities.IFileTypeIconDetailsListRendererProps'
+    name: IFileTypeIconDetailsListRendererProps
+  - uid: '@ms/sp-component-utilities.IContact'
+    name: IContact
+  - uid: '@ms/sp-component-utilities.IIcsAttachment'
+    name: IIcsAttachment
+  - uid: '@ms/sp-component-utilities.IIcsEvent'
+    name: IIcsEvent
+  - uid: '@ms/sp-component-utilities.IIcsRecurrence'
+    name: IIcsRecurrence
+  - uid: '@ms/sp-component-utilities.ImageSourceType'
+    name: ImageSourceType
+  - uid: '@ms/sp-component-utilities.IPreviewProps'
+    name: IPreviewProps
+  - uid: '@ms/sp-component-utilities.IThumbnailRequest'
+    name: IThumbnailRequest
+  - uid: '@ms/sp-component-utilities.MediaThumbnailService'
+    name: MediaThumbnailService
+  - uid: '@ms/sp-component-utilities.PreviewHelper'
+    name: PreviewHelper
+  - uid: '@ms/sp-component-utilities.PreviewUtility'
+    name: PreviewUtility
+  - uid: '@ms/sp-component-utilities.IButtonOptions'
+    name: IButtonOptions
+  - uid: '@ms/sp-component-utilities.IDataProvider'
+    name: IDataProvider
+  - uid: '@ms/sp-component-utilities.IDataProviderOptions'
+    name: IDataProviderOptions
+  - uid: '@ms/sp-component-utilities.IDataRow'
+    name: IDataRow
+  - uid: '@ms/sp-component-utilities.INewsItem'
+    name: INewsItem
+  - uid: '@ms/sp-component-utilities.DomMeasurementCache'
+    name: DomMeasurementCache
+  - uid: '@ms/sp-component-utilities.IAuthorResponseModel'
+    name: IAuthorResponseModel
+  - uid: '@ms/sp-component-utilities.IFileValidationResponse'
+    name: IFileValidationResponse
+  - uid: '@ms/sp-component-utilities.IListData'
+    name: IListData
+  - uid: '@ms/sp-component-utilities.IListFetchReponse'
+    name: IListFetchReponse
+  - uid: '@ms/sp-component-utilities.IRow'
+    name: IRow
+  - uid: '@ms/sp-component-utilities.IListItemAllFields'
+    name: IListItemAllFields
+  - uid: '@ms/sp-component-utilities.IMediaServiceListSchema'
+    name: IMediaServiceListSchema
+  - uid: '@ms/sp-component-utilities.IImageSize'
+    name: IImageSize
+  - uid: '@ms/sp-component-utilities.IMediaServiceMetadata'
+    name: IMediaServiceMetadata
+  - uid: '@ms/sp-component-utilities.ITag'
+    name: ITag
+  - uid: '@ms/sp-component-utilities.ISharePointRestError'
+    name: ISharePointRestError
+  - uid: '@ms/sp-component-utilities.RemoteWebFileGetter'
+    name: RemoteWebFileGetter
+  - uid: '@ms/sp-component-utilities.ScreenReaderAlert'
+    name: ScreenReaderAlert
+  - uid: '@ms/sp-component-utilities.ReadingMode'
+    name: ReadingMode
+  - uid: '@ms/sp-component-utilities.IScreenReaderAlertProps'
+    name: IScreenReaderAlertProps
+  - uid: '@ms/sp-component-utilities.HttpClientMock'
+    name: HttpClientMock
+  - uid: '@ms/sp-component-utilities.ProvisionedServiceScope'
+    name: ProvisionedServiceScope
+  - uid: '@ms/sp-component-utilities.O365VideoIframeUtilities'
+    name: O365VideoIframeUtilities
+  - uid: '@ms/sp-component-utilities.Global'
+    name: Global

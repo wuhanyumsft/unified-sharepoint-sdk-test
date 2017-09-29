@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IListOptions'
+    name: IListOptions
+    fullName: IListOptions
+    children:
+      - '@ms/sp-dataproviders.IListOptions.documentTypes'
+      - '@ms/sp-dataproviders.IListOptions.fieldDictionary'
+      - '@ms/sp-dataproviders.IListOptions.fields'
+      - '@ms/sp-dataproviders.IListOptions.filters'
+      - '@ms/sp-dataproviders.IListOptions.maxItemsPerPage'
+      - '@ms/sp-dataproviders.IListOptions.sortField'
+      - '@ms/sp-dataproviders.IListOptions.sortType'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IListOptions.documentTypes'
+    name: documentTypes
+    fullName: documentTypes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'DocumentType[] documentTypes'
+      return:
+        type:
+          - 'DocumentType[]'
+  - uid: '@ms/sp-dataproviders.IListOptions.fieldDictionary'
+    name: fieldDictionary
+    fullName: fieldDictionary
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: string]: IListField fieldDictionary'
+      return:
+        type:
+          - '[key: string]: @@ms/sp-dataproviders.IListField'
+  - uid: '@ms/sp-dataproviders.IListOptions.fields'
+    name: fields
+    fullName: fields
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] fields'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-dataproviders.IListOptions.filters'
+    name: filters
+    fullName: filters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ISearchQueryFilter[] filters'
+      return:
+        type:
+          - '@@ms/sp-dataproviders.ISearchQueryFilter[]'
+  - uid: '@ms/sp-dataproviders.IListOptions.maxItemsPerPage'
+    name: maxItemsPerPage
+    fullName: maxItemsPerPage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number maxItemsPerPage
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-dataproviders.IListOptions.sortField'
+    name: sortField
+    fullName: sortField
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string sortField
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IListOptions.sortType'
+    name: sortType
+    fullName: sortType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: SortType sortType
+      return:
+        type:
+          - SortType

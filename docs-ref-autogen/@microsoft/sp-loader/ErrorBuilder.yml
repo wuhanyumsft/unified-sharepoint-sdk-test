@@ -1,0 +1,525 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.ErrorBuilder'
+    name: ErrorBuilder
+    fullName: ErrorBuilder
+    children:
+      - '@microsoft/sp-loader.ErrorBuilder.buildLoadComponentDependencyError'
+      - >-
+        @microsoft/sp-loader.ErrorBuilder.buildLoadComponentDependencyFailoverPathError
+      - '@microsoft/sp-loader.ErrorBuilder.buildLoadComponentError'
+      - >-
+        @microsoft/sp-loader.ErrorBuilder.buildLoadComponentReturnsDefaultEmptyError
+      - '@microsoft/sp-loader.ErrorBuilder.buildLoadComponentReturnsEmptyError'
+      - '@microsoft/sp-loader.ErrorBuilder.buildLoadEntryPointError'
+      - '@microsoft/sp-loader.ErrorBuilder.buildLoadPathDependencyBlockedError'
+      - '@microsoft/sp-loader.ErrorBuilder.buildLoadPathDependencyError'
+      - '@microsoft/sp-loader.ErrorBuilder.buildLoadScriptWithStringError'
+      - '@microsoft/sp-loader.ErrorBuilder.buildManifestNotFoundError'
+      - >-
+        @microsoft/sp-loader.ErrorBuilder.buildModuleHasUndeclaredDependencyError
+      - '@microsoft/sp-loader.ErrorBuilder.buildUrlStatusClientErrorError'
+      - '@microsoft/sp-loader.ErrorBuilder.buildUrlStatusFileNotFoundError'
+      - '@microsoft/sp-loader.ErrorBuilder.buildUrlStatusForbiddenError'
+      - '@microsoft/sp-loader.ErrorBuilder.buildUrlStatusHttpsNetworkErrorError'
+      - >-
+        @microsoft/sp-loader.ErrorBuilder.buildUrlStatusLocalhostFileNotFoundError
+      - >-
+        @microsoft/sp-loader.ErrorBuilder.buildUrlStatusLocalhostNetworkErrorError
+      - '@microsoft/sp-loader.ErrorBuilder.buildUrlStatusNetworkErrorError'
+      - '@microsoft/sp-loader.ErrorBuilder.buildUrlStatusServerErrorError'
+      - '@microsoft/sp-loader.ErrorBuilder.buildUrlStatusUndefinedError'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.ErrorBuilder.buildLoadComponentDependencyError'
+    name: buildLoadComponentDependencyError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function buildLoadComponentDependencyError(manifest:
+        IClientSideComponentManifest, error: Error)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+        - id: error
+          type:
+            - Error
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-loader.SPLoaderError'
+  - uid: >-
+      @microsoft/sp-loader.ErrorBuilder.buildLoadComponentDependencyFailoverPathError
+    name: buildLoadComponentDependencyFailoverPathError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function buildLoadComponentDependencyFailoverPathError(manifest:
+        IClientSideComponentManifest, dependencyName: string, failoverPath:
+        string, error: Error)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+        - id: dependencyName
+          type:
+            - string
+          description: ''
+        - id: failoverPath
+          type:
+            - string
+          description: ''
+        - id: error
+          type:
+            - Error
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-loader.SPLoaderError'
+  - uid: '@microsoft/sp-loader.ErrorBuilder.buildLoadComponentError'
+    name: buildLoadComponentError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function buildLoadComponentError(manifest:
+        IClientSideComponentManifest, error: Error)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+        - id: error
+          type:
+            - Error
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-loader.SPLoaderError'
+  - uid: >-
+      @microsoft/sp-loader.ErrorBuilder.buildLoadComponentReturnsDefaultEmptyError
+    name: buildLoadComponentReturnsDefaultEmptyError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function buildLoadComponentReturnsDefaultEmptyError(manifest:
+        IClientSideComponentManifest)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-loader.SPLoaderError'
+  - uid: '@microsoft/sp-loader.ErrorBuilder.buildLoadComponentReturnsEmptyError'
+    name: buildLoadComponentReturnsEmptyError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function buildLoadComponentReturnsEmptyError(manifest:
+        IClientSideComponentManifest)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-loader.SPLoaderError'
+  - uid: '@microsoft/sp-loader.ErrorBuilder.buildLoadEntryPointError'
+    name: buildLoadEntryPointError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function buildLoadEntryPointError(manifest:
+        IClientSideComponentManifest, error: Error)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+        - id: error
+          type:
+            - Error
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-loader.SPLoaderError'
+  - uid: '@microsoft/sp-loader.ErrorBuilder.buildLoadPathDependencyBlockedError'
+    name: buildLoadPathDependencyBlockedError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function buildLoadPathDependencyBlockedError(manifest:
+        IClientSideComponentManifest, name: string)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+        - id: name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-loader.SPLoaderError'
+  - uid: '@microsoft/sp-loader.ErrorBuilder.buildLoadPathDependencyError'
+    name: buildLoadPathDependencyError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function buildLoadPathDependencyError(manifest:
+        IClientSideComponentManifest, dependencyName: string, error: Error)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+        - id: dependencyName
+          type:
+            - string
+          description: ''
+        - id: error
+          type:
+            - Error
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-loader.SPLoaderError'
+  - uid: '@microsoft/sp-loader.ErrorBuilder.buildLoadScriptWithStringError'
+    name: buildLoadScriptWithStringError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function buildLoadScriptWithStringError()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/sp-loader.SPLoaderError'
+  - uid: '@microsoft/sp-loader.ErrorBuilder.buildManifestNotFoundError'
+    name: buildManifestNotFoundError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function buildManifestNotFoundError(moduleConfiguration:
+        IComponentModuleConfiguration)
+      parameters:
+        - id: moduleConfiguration
+          type:
+            - IComponentModuleConfiguration
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-loader.SPLoaderError'
+  - uid: '@microsoft/sp-loader.ErrorBuilder.buildModuleHasUndeclaredDependencyError'
+    name: buildModuleHasUndeclaredDependencyError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function buildModuleHasUndeclaredDependencyError(manifest:
+        IClientSideComponentManifest, dependencyName: string)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+        - id: dependencyName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-loader.SPLoaderError'
+  - uid: '@microsoft/sp-loader.ErrorBuilder.buildUrlStatusClientErrorError'
+    name: buildUrlStatusClientErrorError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function buildUrlStatusClientErrorError(manifest:
+        IClientSideComponentManifest, resourceName: string, url: string)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+        - id: resourceName
+          type:
+            - string
+          description: ''
+        - id: url
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-loader.SPLoaderError'
+  - uid: '@microsoft/sp-loader.ErrorBuilder.buildUrlStatusFileNotFoundError'
+    name: buildUrlStatusFileNotFoundError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function buildUrlStatusFileNotFoundError(manifest:
+        IClientSideComponentManifest, resourceName: string, url: string)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+        - id: resourceName
+          type:
+            - string
+          description: ''
+        - id: url
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-loader.SPLoaderError'
+  - uid: '@microsoft/sp-loader.ErrorBuilder.buildUrlStatusForbiddenError'
+    name: buildUrlStatusForbiddenError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function buildUrlStatusForbiddenError(manifest:
+        IClientSideComponentManifest, resourceName: string, url: string)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+        - id: resourceName
+          type:
+            - string
+          description: ''
+        - id: url
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-loader.SPLoaderError'
+  - uid: '@microsoft/sp-loader.ErrorBuilder.buildUrlStatusHttpsNetworkErrorError'
+    name: buildUrlStatusHttpsNetworkErrorError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function buildUrlStatusHttpsNetworkErrorError(manifest:
+        IClientSideComponentManifest, resourceName: string, url: string)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+        - id: resourceName
+          type:
+            - string
+          description: ''
+        - id: url
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-loader.SPLoaderError'
+  - uid: '@microsoft/sp-loader.ErrorBuilder.buildUrlStatusLocalhostFileNotFoundError'
+    name: buildUrlStatusLocalhostFileNotFoundError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function buildUrlStatusLocalhostFileNotFoundError(manifest:
+        IClientSideComponentManifest, resourceName: string, url: string)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+        - id: resourceName
+          type:
+            - string
+          description: ''
+        - id: url
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-loader.SPLoaderError'
+  - uid: '@microsoft/sp-loader.ErrorBuilder.buildUrlStatusLocalhostNetworkErrorError'
+    name: buildUrlStatusLocalhostNetworkErrorError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function buildUrlStatusLocalhostNetworkErrorError(manifest:
+        IClientSideComponentManifest, resourceName: string, url: string)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+        - id: resourceName
+          type:
+            - string
+          description: ''
+        - id: url
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-loader.SPLoaderError'
+  - uid: '@microsoft/sp-loader.ErrorBuilder.buildUrlStatusNetworkErrorError'
+    name: buildUrlStatusNetworkErrorError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function buildUrlStatusNetworkErrorError(manifest:
+        IClientSideComponentManifest, resourceName: string, url: string)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+        - id: resourceName
+          type:
+            - string
+          description: ''
+        - id: url
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-loader.SPLoaderError'
+  - uid: '@microsoft/sp-loader.ErrorBuilder.buildUrlStatusServerErrorError'
+    name: buildUrlStatusServerErrorError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function buildUrlStatusServerErrorError(manifest:
+        IClientSideComponentManifest, resourceName: string, url: string)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+        - id: resourceName
+          type:
+            - string
+          description: ''
+        - id: url
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-loader.SPLoaderError'
+  - uid: '@microsoft/sp-loader.ErrorBuilder.buildUrlStatusUndefinedError'
+    name: buildUrlStatusUndefinedError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function buildUrlStatusUndefinedError(manifest:
+        IClientSideComponentManifest, resourceName: string, url: string)
+      parameters:
+        - id: manifest
+          type:
+            - IClientSideComponentManifest
+          description: ''
+        - id: resourceName
+          type:
+            - string
+          description: ''
+        - id: url
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-loader.SPLoaderError'

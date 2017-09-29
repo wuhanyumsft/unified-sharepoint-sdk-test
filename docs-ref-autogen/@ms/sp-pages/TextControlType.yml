@@ -1,0 +1,74 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.TextControlType'
+    name: TextControlType
+    fullName: TextControlType
+    children:
+      - '@ms/sp-pages.TextControlType.Header'
+      - '@ms/sp-pages.TextControlType.BodyText'
+      - '@ms/sp-pages.TextControlType.PullQuote'
+      - '@ms/sp-pages.TextControlType.Caption'
+      - '@ms/sp-pages.TextControlType.Title'
+      - '@ms/sp-pages.TextControlType.Subtitle'
+      - '@ms/sp-pages.TextControlType.Annotation'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.TextControlType.Header'
+    name: Header
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+  - uid: '@ms/sp-pages.TextControlType.BodyText'
+    name: BodyText
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-pages.TextControlType.PullQuote'
+    name: PullQuote
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+  - uid: '@ms/sp-pages.TextControlType.Caption'
+    name: Caption
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+  - uid: '@ms/sp-pages.TextControlType.Title'
+    name: Title
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+  - uid: '@ms/sp-pages.TextControlType.Subtitle'
+    name: Subtitle
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 5
+  - uid: '@ms/sp-pages.TextControlType.Annotation'
+    name: Annotation
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 6

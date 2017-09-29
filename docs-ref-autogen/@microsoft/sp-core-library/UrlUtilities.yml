@@ -1,0 +1,78 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.UrlUtilities'
+    name: UrlUtilities
+    fullName: UrlUtilities
+    children:
+      - '@microsoft/sp-core-library.UrlUtilities.convertToODataStringLiteral'
+      - '@microsoft/sp-core-library.UrlUtilities.removeEndSlash'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Common helper functions for working with URLs.  These utilities are
+      intended to be simple,
+
+      small, and very broadly applicable.
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.UrlUtilities.convertToODataStringLiteral'
+    name: convertToODataStringLiteral
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Converts a variable to an OData string literal suitable for usage in a
+      REST URL.
+
+      The returned string will be enclosed in single quotes, and any single
+      quotes
+
+      will be escaped.
+
+      Example usage:
+
+
+      const url = "/_api/web/GetFolderByServerRelativeUrl("
+            + UrlUtilities.convertToODataStringLiteral("/SitePages/Alice's%20Page")
+            + ")/Files";
+
+       // Produces this URL:
+       // "/_api/web/GetFolderByServerRelativeUrl('/SitePages/Alice''s%20Page')/Files"
+    syntax:
+      content: 'static function convertToODataStringLiteral(value: string)'
+      parameters:
+        - id: value
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-core-library.UrlUtilities.removeEndSlash'
+    name: removeEndSlash
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Removes any slash characters from the end of the URL.
+
+      This function assumes that the input is already a valid absolute or
+      server-relative URL.
+
+      Examples:
+        removeEndSlash('http://example.com/') ---> 'http://example.com'
+        removeEndSlash('/example')            ---> '/example'
+        removeEndSlash('/')                   ---> ''
+    syntax:
+      content: 'static function removeEndSlash(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: |
+            the URL to be normalized
+      return:
+        type:
+          - string

@@ -1,0 +1,87 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.SeeAllPageLayoutComponent'
+    name: SeeAllPageLayoutComponent
+    fullName: SeeAllPageLayoutComponent
+    children:
+      - '@ms/sp-pages.SeeAllPageLayoutComponent.componentWillMount'
+      - '@ms/sp-pages.SeeAllPageLayoutComponent.render'
+      - '@ms/sp-pages.SeeAllPageLayoutComponent.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >+
+      SeeAllPageLayoutComponent
+
+      There are two ways to use the see all page and its url query parameters.
+      Note, these methods
+
+      are not interchangeable. Use either one or the either method, but using
+      both is incompatible.
+
+
+      (1) Using the server relative URL of the page from which the original
+      webpart is on
+          and the unique webpart instance id of that webpart
+
+          Query Params:
+          'Page'       : Server relative URL to the origin page
+          'InstanceId' : Unique instance GUID of the webpart of which to see more contents
+
+          @example A valid 'see all' link for a highlighted content webpart on the page,
+            'http://microsoft.sharepoint.com/sites/foo/SitePages/bar.aspx', and the webpart has a
+            unique webpart instance id of '00000000-aaaa-bbbb-cccc-111111111111' would be:
+              http://microsoft.sharepoint.com/sites/foo/_layouts/15/SeeAll.aspx?
+                Page=/sites/foo/SitePages/bar.aspx&InstanceId=00000000-aaaa-bbbb-cccc-111111111111
+
+      ------ OR ------
+
+
+      (2) A bag of webpart properties independent from and can be agnostic to a
+      particular webpart on a page:
+
+          Query Params:
+          'p'       : Propertie bag object
+                      @see ISeeAllQueryParameters
+
+          @example A valid 'see all' link for a highlighted content webpart in a list format with a search
+            query that gets all content in a current site's site collection:
+              http://microsoft.sharepoint.com/sites/foo/_layouts/15/SeeAll.aspx?
+                ?p={"wp":1,"l":"List","q":{"contentLocation":2}}
+
+    extends:
+      name: '@@ms/sp-pages.SeeAllPageLayoutComponent<__type>'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SeeAllPageLayoutComponent.componentWillMount'
+    name: componentWillMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillMount()
+      parameters: []
+  - uid: '@ms/sp-pages.SeeAllPageLayoutComponent.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-pages.SeeAllPageLayoutComponent.constructor'
+    name: SeeAllPageLayoutComponent
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new SeeAllPageLayoutComponent()
+      parameters: []

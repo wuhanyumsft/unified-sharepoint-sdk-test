@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.SPServiceHealthDetailsList'
+    name: SPServiceHealthDetailsList
+    fullName: SPServiceHealthDetailsList
+    children:
+      - '@ms/sp-tenant-admin-page.SPServiceHealthDetailsList.render'
+      - '@ms/sp-tenant-admin-page.SPServiceHealthDetailsList.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      The component of service health DetailsList which will provide:
+        1. The summary of Service Health
+        2. The summary of incidents
+        3. The summary of advisories
+    extends:
+      name: >-
+        @@ms/sp-tenant-admin-page.SPServiceHealthDetailsList<@@ms/sp-tenant-admin-page.ISPServiceHealthDetailListProps>
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.SPServiceHealthDetailsList.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-tenant-admin-page.SPServiceHealthDetailsList.constructor'
+    name: SPServiceHealthDetailsList
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: >-
+      constructor that initializes the selection, starts to get the data with
+      data provider,
+
+      and initializes the state.
+    syntax:
+      content: 'new SPServiceHealthDetailsList(props: ISPServiceHealthDetailListProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-tenant-admin-page.ISPServiceHealthDetailListProps'
+          description: ''

@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-listview-extensibility.SelectedRowsChangedEventArgs'
+    name: SelectedRowsChangedEventArgs
+    fullName: SelectedRowsChangedEventArgs
+    children:
+      - >-
+        @microsoft/sp-listview-extensibility.SelectedRowsChangedEventArgs.selectedRows
+    langs:
+      - typeScript
+    type: class
+    summary: Arguments for the selected rows changed event.
+    extends:
+      name: '@@microsoft/sp-listview-extensibility.SelectedRowsChangedEventArgs'
+    package: '@microsoft/sp-listview-extensibility'
+  - uid: >-
+      @microsoft/sp-listview-extensibility.SelectedRowsChangedEventArgs.selectedRows
+    name: selectedRows
+    fullName: selectedRows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The list of rows that were selected in the list view at the time when the
+      event was fired.
+    syntax:
+      content: ReadonlyArray<RowAccessor> selectedRows
+      return:
+        type:
+          - ReadonlyArray<@@microsoft/sp-listview-extensibility.RowAccessor>

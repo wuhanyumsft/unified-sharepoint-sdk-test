@@ -1,0 +1,129 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.SPPageChrome'
+    name: SPPageChrome
+    fullName: SPPageChrome
+    children:
+      - '@microsoft/sp-application-base.SPPageChrome.appAndPropertyPaneDiv'
+      - '@microsoft/sp-application-base.SPPageChrome.appDiv'
+      - '@microsoft/sp-application-base.SPPageChrome.changeSuiteNavHeight'
+      - '@microsoft/sp-application-base.SPPageChrome.dialogContainerDiv'
+      - '@microsoft/sp-application-base.SPPageChrome.getInstance'
+      - '@microsoft/sp-application-base.SPPageChrome.propertyPaneContainerDiv'
+      - '@microsoft/sp-application-base.SPPageChrome.constructor'
+      - '@microsoft/sp-application-base.SPPageChrome.suiteNavDiv'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.SPPageChrome.appAndPropertyPaneDiv'
+    name: appAndPropertyPaneDiv
+    fullName: appAndPropertyPaneDiv
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLDivElement appAndPropertyPaneDiv
+      return:
+        type:
+          - HTMLDivElement
+  - uid: '@microsoft/sp-application-base.SPPageChrome.appDiv'
+    name: appDiv
+    fullName: appDiv
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLDivElement appDiv
+      return:
+        type:
+          - HTMLDivElement
+  - uid: '@microsoft/sp-application-base.SPPageChrome.changeSuiteNavHeight'
+    name: changeSuiteNavHeight
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function changeSuiteNavHeight(pixels: string)'
+      parameters:
+        - id: pixels
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-application-base.SPPageChrome.dialogContainerDiv'
+    name: dialogContainerDiv
+    fullName: dialogContainerDiv
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLDivElement dialogContainerDiv
+      return:
+        type:
+          - HTMLDivElement
+  - uid: '@microsoft/sp-application-base.SPPageChrome.getInstance'
+    name: getInstance
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getInstance(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+      return:
+        type:
+          - ISPPageChrome
+  - uid: '@microsoft/sp-application-base.SPPageChrome.propertyPaneContainerDiv'
+    name: propertyPaneContainerDiv
+    fullName: propertyPaneContainerDiv
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLDivElement propertyPaneContainerDiv
+      return:
+        type:
+          - HTMLDivElement
+  - uid: '@microsoft/sp-application-base.SPPageChrome.constructor'
+    name: SPPageChrome
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SPPageChrome(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+  - uid: '@microsoft/sp-application-base.SPPageChrome.suiteNavDiv'
+    name: suiteNavDiv
+    fullName: suiteNavDiv
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLDivElement suiteNavDiv
+      return:
+        type:
+          - HTMLDivElement

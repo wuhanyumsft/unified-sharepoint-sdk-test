@@ -1,0 +1,122 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.FilePickerRecentView'
+    name: FilePickerRecentView
+    fullName: FilePickerRecentView
+    children:
+      - '@ms/sp-filepicker.FilePickerRecentView.componentDidMount'
+      - '@ms/sp-filepicker.FilePickerRecentView.componentDidUpdate'
+      - '@ms/sp-filepicker.FilePickerRecentView.componentWillMount'
+      - '@ms/sp-filepicker.FilePickerRecentView.componentWillUnmount'
+      - '@ms/sp-filepicker.FilePickerRecentView.componentWillUpdate'
+      - '@ms/sp-filepicker.FilePickerRecentView.constructor'
+      - '@ms/sp-filepicker.FilePickerRecentView.render'
+      - '@ms/sp-filepicker.FilePickerRecentView.shouldComponentUpdate'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-filepicker.FilePickerRecentView<@@ms/sp-filepicker.IFilePickerRecentViewProps>
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.FilePickerRecentView.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-filepicker.FilePickerRecentView.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+  - uid: '@ms/sp-filepicker.FilePickerRecentView.componentWillMount'
+    name: componentWillMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillMount()
+      parameters: []
+  - uid: '@ms/sp-filepicker.FilePickerRecentView.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-filepicker.FilePickerRecentView.componentWillUpdate'
+    name: componentWillUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUpdate()
+      parameters: []
+  - uid: '@ms/sp-filepicker.FilePickerRecentView.constructor'
+    name: FilePickerRecentView
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new FilePickerRecentView(props: IFilePickerRecentViewProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-filepicker.IFilePickerRecentViewProps'
+          description: ''
+  - uid: '@ms/sp-filepicker.FilePickerRecentView.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-filepicker.FilePickerRecentView.shouldComponentUpdate'
+    name: shouldComponentUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function shouldComponentUpdate(nextProps: IFilePickerRecentViewProps,
+        nextState: IFilePickerRecentViewState)
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-filepicker.IFilePickerRecentViewProps'
+          description: ''
+        - id: nextState
+          type:
+            - '@@ms/sp-filepicker.IFilePickerRecentViewState'
+          description: ''
+      return:
+        type:
+          - boolean

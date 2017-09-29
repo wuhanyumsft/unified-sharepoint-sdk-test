@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.Brick'
+    name: Brick
+    fullName: Brick
+    children:
+      - '@ms/sp-component-layouts.Brick.constructor'
+      - '@ms/sp-component-layouts.Brick.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-component-layouts.Brick<@@ms/sp-component-layouts.IBrickProps>'
+    package: '@ms/sp-component-layouts'
+  - uid: '@ms/sp-component-layouts.Brick.constructor'
+    name: Brick
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Brick(params: IBrickProps)'
+      parameters:
+        - id: params
+          type:
+            - '@@ms/sp-component-layouts.IBrickProps'
+          description: ''
+  - uid: '@ms/sp-component-layouts.Brick.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

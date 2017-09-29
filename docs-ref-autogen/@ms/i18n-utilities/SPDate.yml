@@ -1,0 +1,89 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/i18n-utilities.SPDate'
+    name: SPDate
+    fullName: SPDate
+    children:
+      - '@ms/i18n-utilities.SPDate.convertFromUTC'
+      - '@ms/i18n-utilities.SPDate.convertToUTC'
+      - '@ms/i18n-utilities.SPDate.isSame'
+      - '@ms/i18n-utilities.SPDate.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: SPDate provides date and time components with time zone offset.
+    package: '@ms/i18n-utilities'
+  - uid: '@ms/i18n-utilities.SPDate.convertFromUTC'
+    name: convertFromUTC
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns the date converted to the time zone specified, for the UTC date
+      passed in during
+
+      the object creation.
+    syntax:
+      content: 'function convertFromUTC(toTimezone: SPTimeZone)'
+      parameters:
+        - id: toTimezone
+          type:
+            - SPTimeZone
+          description: ''
+      return:
+        type:
+          - '@@ms/i18n-utilities.SPDate'
+  - uid: '@ms/i18n-utilities.SPDate.convertToUTC'
+    name: convertToUTC
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns the UTC date for the date specified during the object creation
+      from the specified
+
+      time zone.
+    syntax:
+      content: 'function convertToUTC(fromTimezone: SPTimeZone)'
+      parameters:
+        - id: fromTimezone
+          type:
+            - SPTimeZone
+          description: ''
+      return:
+        type:
+          - '@@ms/i18n-utilities.SPDate'
+  - uid: '@ms/i18n-utilities.SPDate.isSame'
+    name: isSame
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isSame(inputDate: SPDate)'
+      parameters:
+        - id: inputDate
+          type:
+            - '@@ms/i18n-utilities.SPDate'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/i18n-utilities.SPDate.constructor'
+    name: SPDate
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Constructs the SPDate with the given data object.
+    syntax:
+      content: 'new SPDate(data: ISPDateData)'
+      parameters:
+        - id: data
+          type:
+            - '@@ms/i18n-utilities.ISPDateData'
+          description: |
+            SPDateData object.

@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/evergreen.ChangedProjects'
+    name: ChangedProjects
+    fullName: ChangedProjects
+    children:
+      - '@ms/evergreen.ChangedProjects.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/evergreen.ChangedProjects<@@ms/evergreen.IEvergreenEmailProps>'
+    package: '@ms/evergreen'
+  - uid: '@ms/evergreen.ChangedProjects.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []

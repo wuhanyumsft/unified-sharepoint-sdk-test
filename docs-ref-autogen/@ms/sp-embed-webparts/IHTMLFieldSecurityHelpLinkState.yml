@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-embed-webparts.IHTMLFieldSecurityHelpLinkState'
+    name: IHTMLFieldSecurityHelpLinkState
+    fullName: IHTMLFieldSecurityHelpLinkState
+    children:
+      - '@ms/sp-embed-webparts.IHTMLFieldSecurityHelpLinkState.visible'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-embed-webparts'
+  - uid: '@ms/sp-embed-webparts.IHTMLFieldSecurityHelpLinkState.visible'
+    name: visible
+    fullName: visible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean visible
+      return:
+        type:
+          - boolean

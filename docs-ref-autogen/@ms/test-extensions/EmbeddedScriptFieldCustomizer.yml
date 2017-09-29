@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/test-extensions.EmbeddedScriptFieldCustomizer'
+    name: EmbeddedScriptFieldCustomizer
+    fullName: EmbeddedScriptFieldCustomizer
+    children:
+      - '@ms/test-extensions.EmbeddedScriptFieldCustomizer.onInit'
+      - '@ms/test-extensions.EmbeddedScriptFieldCustomizer.onRenderCell'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      This class illustrates our proposed design for the future "citizen
+      developer" scenario,
+
+      i.e. allowing developers to write lightweight JavaScript without using a
+      toolchain
+
+      (TypeScript/gulp/etc).
+
+      In the original prototype, the script was embedded in the component
+      manifest, however
+
+      since we're not ready to ship that yet, in this sample it is simply stored
+      in the
+
+      EMBEDDED_SCRIPT string constant.
+    extends:
+      name: '@@ms/test-extensions.EmbeddedScriptFieldCustomizer<__type>'
+    package: '@ms/test-extensions'
+  - uid: '@ms/test-extensions.EmbeddedScriptFieldCustomizer.onInit'
+    name: onInit
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function onInit()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/test-extensions.EmbeddedScriptFieldCustomizer.onRenderCell'
+    name: onRenderCell
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onRenderCell(event: IFieldCustomizerCellEventParameters)'
+      parameters:
+        - id: event
+          type:
+            - IFieldCustomizerCellEventParameters
+          description: ''

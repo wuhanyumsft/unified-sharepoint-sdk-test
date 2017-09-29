@@ -1,0 +1,597 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper'
+    name: WebDriverWrapper
+    fullName: WebDriverWrapper
+    children:
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.acceptAlert'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.BING_DEVICE_LAB_URL'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.coordinateClick'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.DEFAULT_ELEMENT_WAIT_TIMEOUT'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.DEFAULT_SCRIPT_TIMEOUT'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.DEFAULT_WAITING_PAGE'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.DEFAULT_WAIT_TIMEOUT'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.executeAsyncJavaScript'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.executeJavaScript'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.focusElement'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.getBrowserType'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.getBrowserType'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.getCanGetBrowserLogs'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.getCanMaximize'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.getCurrentUrl'
+      - >-
+        @ms/sp-selenium-utilities.WebDriverWrapper.getInitializedWebDriverCompleted
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.getIsMobile'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.getIsMobile'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.getIsRemoteSession'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.getIsVsoBuild'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.getOpenToDimensions'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.getWebDriver'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.GET_SESSION_RETRY_ATTEMPTS'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.GET_SESSION_TIMEOUT'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.navigateTo'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.NAVIGATION_RETRIES'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.NAVIGATION_TIMEOUT'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.quit'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.sendKeysToElement'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.setCleanUpMode'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.takeScreenshot'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.wait'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.waitForElementLoad'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.waitForElementVisible'
+      - '@ms/sp-selenium-utilities.WebDriverWrapper.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-selenium-utilities'
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.acceptAlert'
+    name: acceptAlert
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function acceptAlert()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.BING_DEVICE_LAB_URL'
+    name: BING_DEVICE_LAB_URL
+    fullName: BING_DEVICE_LAB_URL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string BING_DEVICE_LAB_URL
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.coordinateClick'
+    name: coordinateClick
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function coordinateClick(el: WebElement, location: ILocation)'
+      parameters:
+        - id: el
+          type:
+            - WebElement
+          description: ''
+        - id: location
+          type:
+            - ILocation
+          description: ''
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.DEFAULT_ELEMENT_WAIT_TIMEOUT'
+    name: DEFAULT_ELEMENT_WAIT_TIMEOUT
+    fullName: DEFAULT_ELEMENT_WAIT_TIMEOUT
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number DEFAULT_ELEMENT_WAIT_TIMEOUT
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.DEFAULT_SCRIPT_TIMEOUT'
+    name: DEFAULT_SCRIPT_TIMEOUT
+    fullName: DEFAULT_SCRIPT_TIMEOUT
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number DEFAULT_SCRIPT_TIMEOUT
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.DEFAULT_WAITING_PAGE'
+    name: DEFAULT_WAITING_PAGE
+    fullName: DEFAULT_WAITING_PAGE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string DEFAULT_WAITING_PAGE
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.DEFAULT_WAIT_TIMEOUT'
+    name: DEFAULT_WAIT_TIMEOUT
+    fullName: DEFAULT_WAIT_TIMEOUT
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number DEFAULT_WAIT_TIMEOUT
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.executeAsyncJavaScript'
+    name: executeAsyncJavaScript
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function executeAsyncJavaScript<T>(script: Function, timeout: number,
+        args: any[])
+      parameters:
+        - id: script
+          type:
+            - Function
+          description: ''
+        - id: timeout
+          type:
+            - number
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - Promise<T>
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.executeJavaScript'
+    name: executeJavaScript
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function executeJavaScript<T>(script: Function, args: any[])'
+      parameters:
+        - id: script
+          type:
+            - Function
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - Promise<T>
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.focusElement'
+    name: focusElement
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function focusElement(el: WebElement)'
+      parameters:
+        - id: el
+          type:
+            - WebElement
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.getBrowserType'
+    name: getBrowserType
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function getBrowserType()
+      parameters: []
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.getBrowserType'
+    name: getBrowserType
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getBrowserType()
+      parameters: []
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.getCanGetBrowserLogs'
+    name: getCanGetBrowserLogs
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCanGetBrowserLogs()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.getCanMaximize'
+    name: getCanMaximize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCanMaximize()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.getCurrentUrl'
+    name: getCurrentUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCurrentUrl()
+      parameters: []
+      return:
+        type:
+          - Promise<string>
+  - uid: >-
+      @ms/sp-selenium-utilities.WebDriverWrapper.getInitializedWebDriverCompleted
+    name: getInitializedWebDriverCompleted
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getInitializedWebDriverCompleted()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.getIsMobile'
+    name: getIsMobile
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function getIsMobile()
+      parameters: []
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.getIsMobile'
+    name: getIsMobile
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getIsMobile()
+      parameters: []
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.getIsRemoteSession'
+    name: getIsRemoteSession
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getIsRemoteSession()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.getIsVsoBuild'
+    name: getIsVsoBuild
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getIsVsoBuild()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.getOpenToDimensions'
+    name: getOpenToDimensions
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getOpenToDimensions()
+      parameters: []
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.getWebDriver'
+    name: getWebDriver
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get the current webdriver instance
+    syntax:
+      content: function getWebDriver()
+      parameters: []
+      return:
+        type:
+          - Promise<WebDriver>
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.GET_SESSION_RETRY_ATTEMPTS'
+    name: GET_SESSION_RETRY_ATTEMPTS
+    fullName: GET_SESSION_RETRY_ATTEMPTS
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number GET_SESSION_RETRY_ATTEMPTS
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.GET_SESSION_TIMEOUT'
+    name: GET_SESSION_TIMEOUT
+    fullName: GET_SESSION_TIMEOUT
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number GET_SESSION_TIMEOUT
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.navigateTo'
+    name: navigateTo
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function navigateTo(url: string, timeout?: number, retries?: number)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+        - id: timeout
+          type:
+            - number
+          description: ''
+          optional: true
+        - id: retries
+          type:
+            - number
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<boolean>
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.NAVIGATION_RETRIES'
+    name: NAVIGATION_RETRIES
+    fullName: NAVIGATION_RETRIES
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number NAVIGATION_RETRIES
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.NAVIGATION_TIMEOUT'
+    name: NAVIGATION_TIMEOUT
+    fullName: NAVIGATION_TIMEOUT
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number NAVIGATION_TIMEOUT
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.quit'
+    name: quit
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function quit()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.sendKeysToElement'
+    name: sendKeysToElement
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function sendKeysToElement(getElement: () => Promise<WebElement>, keys:
+        string)
+      parameters:
+        - id: getElement
+          type:
+            - () => Promise<WebElement>
+          description: ''
+        - id: keys
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.setCleanUpMode'
+    name: setCleanUpMode
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function setCleanUpMode()
+      parameters: []
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.takeScreenshot'
+    name: takeScreenshot
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function takeScreenshot(name: string, folderPath?: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: folderPath
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<string>
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.wait'
+    name: wait
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function wait<T>(message: string, waitCallback: (driver?: WebDriver) =>
+        Promise<T>, timeout?: number)
+      parameters:
+        - id: message
+          type:
+            - string
+          description: ''
+        - id: waitCallback
+          type:
+            - '(driver?: WebDriver) => Promise<T>'
+          description: ''
+        - id: timeout
+          type:
+            - number
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<T>
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.waitForElementLoad'
+    name: waitForElementLoad
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function waitForElementLoad(getElement: (driver: WebDriver) =>
+        Promise<WebElement>, timeout?: number)
+      parameters:
+        - id: getElement
+          type:
+            - '(driver: WebDriver) => Promise<WebElement>'
+          description: ''
+        - id: timeout
+          type:
+            - number
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<WebElement>
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.waitForElementVisible'
+    name: waitForElementVisible
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function waitForElementVisible(getElement: (driver: WebDriver) =>
+        Promise<WebElement>, timeout?: number)
+      parameters:
+        - id: getElement
+          type:
+            - '(driver: WebDriver) => Promise<WebElement>'
+          description: ''
+        - id: timeout
+          type:
+            - number
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<WebElement>
+  - uid: '@ms/sp-selenium-utilities.WebDriverWrapper.constructor'
+    name: WebDriverWrapper
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new WebDriverWrapper(waitingPage?: string)'
+      parameters:
+        - id: waitingPage
+          type:
+            - string
+          description: ''
+          optional: true

@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksMenuHost'
+    name: QuickLinksMenuHost
+    fullName: QuickLinksMenuHost
+    children:
+      - '@ms/sp-teamsite-webparts.QuickLinksMenuHost.componentDidUpdate'
+      - '@ms/sp-teamsite-webparts.QuickLinksMenuHost.constructor'
+      - '@ms/sp-teamsite-webparts.QuickLinksMenuHost.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-teamsite-webparts.QuickLinksMenuHost<@@ms/sp-teamsite-webparts.IQuickLinksMenuHostProps>
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksMenuHost.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksMenuHost.constructor'
+    name: QuickLinksMenuHost
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new QuickLinksMenuHost(props: IQuickLinksMenuHostProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLinksMenuHostProps'
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksMenuHost.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

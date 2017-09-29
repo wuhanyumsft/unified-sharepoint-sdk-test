@@ -1,0 +1,115 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/article-site-demo'
+    name: '@ms/article-site-demo'
+    summary: ''
+    children:
+      - '@ms/article-site-demo.ArticleSiteApplication'
+      - '@ms/article-site-demo.BindableField'
+      - '@ms/article-site-demo.ApplicationConstants'
+      - '@ms/article-site-demo.ArticleFieldIds'
+      - '@ms/article-site-demo.ArticleFieldNames'
+      - '@ms/article-site-demo.DataModel'
+      - '@ms/article-site-demo.FieldSchema'
+      - '@ms/article-site-demo.ListSchema'
+      - '@ms/article-site-demo.IResponseObject'
+      - '@ms/article-site-demo.ISchemaObject'
+      - '@ms/article-site-demo.CachedPage'
+      - '@ms/article-site-demo.PageCache'
+      - '@ms/article-site-demo.PageManager'
+      - '@ms/article-site-demo.RichTextFieldDefinition'
+      - '@ms/article-site-demo.SimpleProvisioner'
+      - '@ms/article-site-demo.TextFieldDefinition'
+      - '@ms/article-site-demo.StringHelpers'
+      - '@ms/article-site-demo.ArticleView'
+      - '@ms/article-site-demo.ArticleViewProps'
+      - '@ms/article-site-demo.IItemContext'
+      - '@ms/article-site-demo.CanvasFieldView'
+      - '@ms/article-site-demo.CanvasFieldViewProps'
+      - '@ms/article-site-demo.BoundFieldView'
+      - '@ms/article-site-demo.BoundFieldViewProps'
+      - '@ms/article-site-demo.EditableView'
+      - '@ms/article-site-demo.EditableViewProps'
+      - '@ms/article-site-demo.ExclusiveBoundFieldView'
+      - '@ms/article-site-demo.IExclusiveBoundFieldView'
+      - '@ms/article-site-demo.PageView'
+      - '@ms/article-site-demo.PageViewState'
+      - '@ms/article-site-demo.RichTextFieldView'
+      - '@ms/article-site-demo.RichTextFieldViewProps'
+      - '@ms/article-site-demo.TextFieldView'
+      - '@ms/article-site-demo.TextFieldViewProps'
+      - '@ms/article-site-demo.WholePageRouter'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@ms/article-site-demo.ArticleSiteApplication'
+    name: ArticleSiteApplication
+  - uid: '@ms/article-site-demo.BindableField'
+    name: BindableField
+  - uid: '@ms/article-site-demo.ApplicationConstants'
+    name: ApplicationConstants
+  - uid: '@ms/article-site-demo.ArticleFieldIds'
+    name: ArticleFieldIds
+  - uid: '@ms/article-site-demo.ArticleFieldNames'
+    name: ArticleFieldNames
+  - uid: '@ms/article-site-demo.DataModel'
+    name: DataModel
+  - uid: '@ms/article-site-demo.FieldSchema'
+    name: FieldSchema
+  - uid: '@ms/article-site-demo.ListSchema'
+    name: ListSchema
+  - uid: '@ms/article-site-demo.IResponseObject'
+    name: IResponseObject
+  - uid: '@ms/article-site-demo.ISchemaObject'
+    name: ISchemaObject
+  - uid: '@ms/article-site-demo.CachedPage'
+    name: CachedPage
+  - uid: '@ms/article-site-demo.PageCache'
+    name: PageCache
+  - uid: '@ms/article-site-demo.PageManager'
+    name: PageManager
+  - uid: '@ms/article-site-demo.RichTextFieldDefinition'
+    name: RichTextFieldDefinition
+  - uid: '@ms/article-site-demo.SimpleProvisioner'
+    name: SimpleProvisioner
+  - uid: '@ms/article-site-demo.TextFieldDefinition'
+    name: TextFieldDefinition
+  - uid: '@ms/article-site-demo.StringHelpers'
+    name: StringHelpers
+  - uid: '@ms/article-site-demo.ArticleView'
+    name: ArticleView
+  - uid: '@ms/article-site-demo.ArticleViewProps'
+    name: ArticleViewProps
+  - uid: '@ms/article-site-demo.IItemContext'
+    name: IItemContext
+  - uid: '@ms/article-site-demo.CanvasFieldView'
+    name: CanvasFieldView
+  - uid: '@ms/article-site-demo.CanvasFieldViewProps'
+    name: CanvasFieldViewProps
+  - uid: '@ms/article-site-demo.BoundFieldView'
+    name: BoundFieldView
+  - uid: '@ms/article-site-demo.BoundFieldViewProps'
+    name: BoundFieldViewProps
+  - uid: '@ms/article-site-demo.EditableView'
+    name: EditableView
+  - uid: '@ms/article-site-demo.EditableViewProps'
+    name: EditableViewProps
+  - uid: '@ms/article-site-demo.ExclusiveBoundFieldView'
+    name: ExclusiveBoundFieldView
+  - uid: '@ms/article-site-demo.IExclusiveBoundFieldView'
+    name: IExclusiveBoundFieldView
+  - uid: '@ms/article-site-demo.PageView'
+    name: PageView
+  - uid: '@ms/article-site-demo.PageViewState'
+    name: PageViewState
+  - uid: '@ms/article-site-demo.RichTextFieldView'
+    name: RichTextFieldView
+  - uid: '@ms/article-site-demo.RichTextFieldViewProps'
+    name: RichTextFieldViewProps
+  - uid: '@ms/article-site-demo.TextFieldView'
+    name: TextFieldView
+  - uid: '@ms/article-site-demo.TextFieldViewProps'
+    name: TextFieldViewProps
+  - uid: '@ms/article-site-demo.WholePageRouter'
+    name: WholePageRouter

@@ -1,0 +1,128 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-workbench.PageStore'
+    name: PageStore
+    fullName: PageStore
+    children:
+      - '@microsoft/sp-webpart-workbench.PageStore.clearPageState'
+      - '@microsoft/sp-webpart-workbench.PageStore.getPageReadyPromise'
+      - '@microsoft/sp-webpart-workbench.PageStore.getPageState'
+      - '@microsoft/sp-webpart-workbench.PageStore.getSerializeCallback'
+      - '@microsoft/sp-webpart-workbench.PageStore.constructor'
+      - '@microsoft/sp-webpart-workbench.PageStore.savePageState'
+      - '@microsoft/sp-webpart-workbench.PageStore.setClearCallback'
+      - '@microsoft/sp-webpart-workbench.PageStore.setPageReady'
+      - '@microsoft/sp-webpart-workbench.PageStore.setSerializeCallback'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-webpart-workbench'
+  - uid: '@microsoft/sp-webpart-workbench.PageStore.clearPageState'
+    name: clearPageState
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clearPageState()
+      parameters: []
+  - uid: '@microsoft/sp-webpart-workbench.PageStore.getPageReadyPromise'
+    name: getPageReadyPromise
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getPageReadyPromise()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+  - uid: '@microsoft/sp-webpart-workbench.PageStore.getPageState'
+    name: getPageState
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getPageState()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-workbench.PageStore.getSerializeCallback'
+    name: getSerializeCallback
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getSerializeCallback()
+      parameters: []
+  - uid: '@microsoft/sp-webpart-workbench.PageStore.constructor'
+    name: PageStore
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PageStore(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+  - uid: '@microsoft/sp-webpart-workbench.PageStore.savePageState'
+    name: savePageState
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function savePageState()
+      parameters: []
+  - uid: '@microsoft/sp-webpart-workbench.PageStore.setClearCallback'
+    name: setClearCallback
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setClearCallback(callback: () => void)'
+      parameters:
+        - id: callback
+          type:
+            - () => void
+          description: ''
+  - uid: '@microsoft/sp-webpart-workbench.PageStore.setPageReady'
+    name: setPageReady
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function setPageReady()
+      parameters: []
+  - uid: '@microsoft/sp-webpart-workbench.PageStore.setSerializeCallback'
+    name: setSerializeCallback
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setSerializeCallback(callback: (toJson?: boolean) => string)'
+      parameters:
+        - id: callback
+          type:
+            - '(toJson?: boolean) => string'
+          description: ''

@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/empty-web-library'
+    name: '@ms/empty-web-library'
+    summary: ''
+    children:
+      - '@ms/empty-web-library.EmptyClass'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@ms/empty-web-library.EmptyClass'
+    name: EmptyClass

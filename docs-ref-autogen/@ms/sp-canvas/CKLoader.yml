@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.CKLoader'
+    name: CKLoader
+    fullName: CKLoader
+    children:
+      - '@ms/sp-canvas.CKLoader.loadModule'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.CKLoader.loadModule'
+    name: loadModule
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function loadModule(editorSrc?: string)'
+      parameters:
+        - id: editorSrc
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<editor>

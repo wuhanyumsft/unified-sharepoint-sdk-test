@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-workbench.IMobilePreviewDimensionInputProps'
+    name: IMobilePreviewDimensionInputProps
+    fullName: IMobilePreviewDimensionInputProps
+    children:
+      - >-
+        @microsoft/sp-webpart-workbench.IMobilePreviewDimensionInputProps.currentDevice
+      - >-
+        @microsoft/sp-webpart-workbench.IMobilePreviewDimensionInputProps.onChangedX
+      - >-
+        @microsoft/sp-webpart-workbench.IMobilePreviewDimensionInputProps.onChangedY
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-webpart-workbench'
+  - uid: >-
+      @microsoft/sp-webpart-workbench.IMobilePreviewDimensionInputProps.currentDevice
+    name: currentDevice
+    fullName: currentDevice
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IDevice currentDevice
+      return:
+        type:
+          - '@@microsoft/sp-webpart-workbench.IDevice'
+  - uid: >-
+      @microsoft/sp-webpart-workbench.IMobilePreviewDimensionInputProps.onChangedX
+    name: onChangedX
+    fullName: onChangedX
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(event: any) => void onChangedX'
+      return:
+        type:
+          - '(event: any) => void'
+  - uid: >-
+      @microsoft/sp-webpart-workbench.IMobilePreviewDimensionInputProps.onChangedY
+    name: onChangedY
+    fullName: onChangedY
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(event: any) => void onChangedY'
+      return:
+        type:
+          - '(event: any) => void'

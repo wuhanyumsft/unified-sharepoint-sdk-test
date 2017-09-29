@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.EmptyFolder'
+    name: EmptyFolder
+    fullName: EmptyFolder
+    children:
+      - '@ms/sp-teamsite-webparts.EmptyFolder.constructor'
+      - '@ms/sp-teamsite-webparts.EmptyFolder.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-teamsite-webparts.EmptyFolder<@@ms/sp-teamsite-webparts.IEmptyFolderProps>
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.EmptyFolder.constructor'
+    name: EmptyFolder
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new EmptyFolder(props: IEmptyFolderProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-teamsite-webparts.IEmptyFolderProps'
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.EmptyFolder.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

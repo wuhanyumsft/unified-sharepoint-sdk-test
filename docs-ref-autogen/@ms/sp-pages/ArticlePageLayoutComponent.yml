@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ArticlePageLayoutComponent'
+    name: ArticlePageLayoutComponent
+    fullName: ArticlePageLayoutComponent
+    children:
+      - '@ms/sp-pages.ArticlePageLayoutComponent.componentDidMount'
+      - '@ms/sp-pages.ArticlePageLayoutComponent.componentDidUpdate'
+      - '@ms/sp-pages.ArticlePageLayoutComponent.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.ArticlePageLayoutComponent<__type>'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ArticlePageLayoutComponent.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-pages.ArticlePageLayoutComponent.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+  - uid: '@ms/sp-pages.ArticlePageLayoutComponent.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

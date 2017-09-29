@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IUploadableFile'
+    name: IUploadableFile
+    fullName: IUploadableFile
+    children:
+      - '@microsoft/sp-build-core-tasks.IUploadableFile.azurePath'
+      - '@microsoft/sp-build-core-tasks.IUploadableFile.localPath'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.IUploadableFile.azurePath'
+    name: azurePath
+    fullName: azurePath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string azurePath
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IUploadableFile.localPath'
+    name: localPath
+    fullName: localPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string localPath
+      return:
+        type:
+          - string

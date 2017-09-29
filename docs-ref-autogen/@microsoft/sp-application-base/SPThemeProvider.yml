@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.SPThemeProvider'
+    name: SPThemeProvider
+    fullName: SPThemeProvider
+    children:
+      - '@microsoft/sp-application-base.SPThemeProvider.loadData'
+      - '@microsoft/sp-application-base.SPThemeProvider.loadThemedStyles'
+      - '@microsoft/sp-application-base.SPThemeProvider.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      The class controls applying a theme to the current Page.
+
+      The theme is a web level setting, if a theme is applied this class with
+      call loadtheme
+
+      which will update the styles that are registered with load-themed-styles.
+
+      The loadData method is called by the ThemeProvider class when it needs to
+      get the IThemeData.
+
+      Once it has theme data it will cache it in local storage using the
+      themedCssFolderUrl as the cache key.
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.SPThemeProvider.loadData'
+    name: loadData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function loadData()
+      parameters: []
+      return:
+        type:
+          - ODSPPromise<IThemeData>
+  - uid: '@microsoft/sp-application-base.SPThemeProvider.loadThemedStyles'
+    name: loadThemedStyles
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function loadThemedStyles()
+      parameters: []
+  - uid: '@microsoft/sp-application-base.SPThemeProvider.constructor'
+    name: SPThemeProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SPThemeProvider(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''

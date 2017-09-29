@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-odata-types.IODataListItem'
+    name: IODataListItem
+    fullName: IODataListItem
+    children:
+      - '@microsoft/sp-odata-types.IODataListItem.ContentTypeId'
+      - '@microsoft/sp-odata-types.IODataListItem.ID'
+      - '@microsoft/sp-odata-types.IODataListItem.Title'
+      - '@microsoft/sp-odata-types.IODataListItem.UniqueId'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Represents an OData SP.ListItem object.  For more information about this
+      object
+
+      see the MSDN documentation here:
+
+      https://msdn.microsoft.com/en-us/library/office/jj860569.aspx
+    package: '@microsoft/sp-odata-types'
+  - uid: '@microsoft/sp-odata-types.IODataListItem.ContentTypeId'
+    name: ContentTypeId
+    fullName: ContentTypeId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Example: { StrinValue: "0x010100C5..." }'
+    syntax:
+      content: function ContentTypeId
+      return:
+        type:
+          - function
+  - uid: '@microsoft/sp-odata-types.IODataListItem.ID'
+    name: ID
+    fullName: ID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number ID
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.IODataListItem.Title'
+    name: Title
+    fullName: Title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Title of the List Item
+    syntax:
+      content: string Title
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataListItem.UniqueId'
+    name: UniqueId
+    fullName: UniqueId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Example: "/Guid(d5369f3b-bd7a-412a-9c0f-7f0650bb5489)/"'
+    syntax:
+      content: string UniqueId
+      return:
+        type:
+          - string

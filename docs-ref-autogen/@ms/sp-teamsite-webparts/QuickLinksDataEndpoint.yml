@@ -1,0 +1,110 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksDataEndpoint'
+    name: QuickLinksDataEndpoint
+    fullName: QuickLinksDataEndpoint
+    children:
+      - '@ms/sp-teamsite-webparts.QuickLinksDataEndpoint.createOrUpdateQuickLink'
+      - '@ms/sp-teamsite-webparts.QuickLinksDataEndpoint.deleteQuickLink'
+      - '@ms/sp-teamsite-webparts.QuickLinksDataEndpoint.getItemMetadata'
+      - '@ms/sp-teamsite-webparts.QuickLinksDataEndpoint.getQuickLinks'
+      - '@ms/sp-teamsite-webparts.QuickLinksDataEndpoint.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksDataEndpoint.createOrUpdateQuickLink'
+    name: createOrUpdateQuickLink
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createOrUpdateQuickLink(newItem: IQuickLink, afterItemId:
+        number)
+      parameters:
+        - id: newItem
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLink'
+          description: ''
+        - id: afterItemId
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-teamsite-webparts.IServerCreateOrUpdateResult>
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksDataEndpoint.deleteQuickLink'
+    name: deleteQuickLink
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function deleteQuickLink(itemId: number)'
+      parameters:
+        - id: itemId
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-teamsite-webparts.IServerDeleteResult>
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksDataEndpoint.getItemMetadata'
+    name: getItemMetadata
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getItemMetadata(url: string, useContextWeb: boolean)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+        - id: useContextWeb
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-teamsite-webparts.IServerNewsItemMetadata>
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksDataEndpoint.getQuickLinks'
+    name: getQuickLinks
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getQuickLinks()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-teamsite-webparts.IServerGetItemsResult>
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksDataEndpoint.constructor'
+    name: QuickLinksDataEndpoint
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new QuickLinksDataEndpoint(webAbsoluteUrl: string, httpClient:
+        SPHttpClient)
+      parameters:
+        - id: webAbsoluteUrl
+          type:
+            - string
+          description: ''
+        - id: httpClient
+          type:
+            - SPHttpClient
+          description: ''

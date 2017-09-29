@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.IWrappedImageProps'
+    name: IWrappedImageProps
+    fullName: IWrappedImageProps
+    children:
+      - '@ms/sp-people-webparts.IWrappedImageProps.src'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-people-webparts'
+  - uid: '@ms/sp-people-webparts.IWrappedImageProps.src'
+    name: src
+    fullName: src
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string src
+      return:
+        type:
+          - string

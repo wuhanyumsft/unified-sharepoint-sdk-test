@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IFocusManager'
+    name: IFocusManager
+    fullName: IFocusManager
+    children:
+      - '@ms/sp-publishing-webparts.IFocusManager.getFocusEntityId'
+      - '@ms/sp-publishing-webparts.IFocusManager.setFocusEntityId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IFocusManager.getFocusEntityId'
+    name: getFocusEntityId
+    fullName: getFocusEntityId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => string getFocusEntityId
+      return:
+        type:
+          - () => string
+  - uid: '@ms/sp-publishing-webparts.IFocusManager.setFocusEntityId'
+    name: setFocusEntityId
+    fullName: setFocusEntityId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(entityId: string) => void setFocusEntityId'
+      return:
+        type:
+          - '(entityId: string) => void'

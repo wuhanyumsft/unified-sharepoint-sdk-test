@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-tslint-rules.Global'
+    package: '@microsoft/sp-tslint-rules'
+    name: Global
+    children:
+      - '@microsoft/sp-tslint-rules.initializeTslintTask'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@microsoft/sp-tslint-rules.initializeTslintTask'
+    name: initializeTslintTask
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function initializeTslintTask(tslintTask: TSLintTask)'
+      parameters:
+        - id: tslintTask
+          type:
+            - TSLintTask
+          description: ''

@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IControlData'
+    name: IControlData
+    fullName: IControlData
+    children:
+      - '@ms/sp-pages.IControlData.ControlName'
+      - '@ms/sp-pages.IControlData.ControlType'
+      - '@ms/sp-pages.IControlData.DataContext'
+      - '@ms/sp-pages.IControlData.IsInternalControl'
+      - '@ms/sp-pages.IControlData.Version'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IControlData.ControlName'
+    name: ControlName
+    fullName: ControlName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function ControlName
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-pages.IControlData.ControlType'
+    name: ControlType
+    fullName: ControlType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number ControlType
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.IControlData.DataContext'
+    name: DataContext
+    fullName: DataContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ControlContext DataContext
+      return:
+        type:
+          - ControlContext
+  - uid: '@ms/sp-pages.IControlData.IsInternalControl'
+    name: IsInternalControl
+    fullName: IsInternalControl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean IsInternalControl
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IControlData.Version'
+    name: Version
+    fullName: Version
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Version
+      return:
+        type:
+          - string

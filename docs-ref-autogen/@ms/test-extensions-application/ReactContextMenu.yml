@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/test-extensions-application.ReactContextMenu'
+    name: ReactContextMenu
+    fullName: ReactContextMenu
+    children:
+      - '@ms/test-extensions-application.ReactContextMenu.render'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      A simulation of the SharePoint list view right-click ("ECB") menu,
+      implemented as
+
+      a simple React component.
+    extends:
+      name: >-
+        @@ms/test-extensions-application.ReactContextMenu<@@ms/test-extensions-application.IReactContextMenuProps>
+    package: '@ms/test-extensions-application'
+  - uid: '@ms/test-extensions-application.ReactContextMenu.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

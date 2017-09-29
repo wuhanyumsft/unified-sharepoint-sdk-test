@@ -1,0 +1,123 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.Utils'
+    name: Utils
+    fullName: Utils
+    children:
+      - '@ms/sp-client-projects.Utils.default'
+      - '@ms/sp-client-projects.Utils.executeWithoutFailing'
+      - '@ms/sp-client-projects.Utils.isEmpty'
+      - '@ms/sp-client-projects.Utils.isNullOrUndefined'
+      - '@ms/sp-client-projects.Utils.objectEquals'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.Utils.default'
+    name: default
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function default<TObject>(value: TObject, defaultValue: TObject)'
+      parameters:
+        - id: value
+          type:
+            - TObject
+          description: ''
+        - id: defaultValue
+          type:
+            - TObject
+          description: ''
+      return:
+        type:
+          - TObject
+  - uid: '@ms/sp-client-projects.Utils.executeWithoutFailing'
+    name: executeWithoutFailing
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Execute the passed in delegate with a guarantee that no exception will
+      leak out.
+
+      Do not use this normally. Only in error handling scenarios where you would
+      like
+
+      to be a bit defesive.
+    syntax:
+      content: >-
+        static function executeWithoutFailing(method: () => void, logger: ILog,
+        logEntry: string)
+      parameters:
+        - id: method
+          type:
+            - () => void
+          description: ''
+        - id: logger
+          type:
+            - '@@ms/sp-client-projects.ILog'
+          description: ''
+        - id: logEntry
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-client-projects.Utils.isEmpty'
+    name: isEmpty
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isEmpty<TObject>(item: TObject)'
+      parameters:
+        - id: item
+          type:
+            - TObject
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-client-projects.Utils.isNullOrUndefined'
+    name: isNullOrUndefined
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isNullOrUndefined<TObject>(item: TObject)'
+      parameters:
+        - id: item
+          type:
+            - TObject
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-client-projects.Utils.objectEquals'
+    name: objectEquals
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function objectEquals(x: any, y: any)'
+      parameters:
+        - id: x
+          type:
+            - any
+          description: ''
+        - id: 'y'
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean

@@ -1,0 +1,108 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.MockFormsDataSource'
+    name: MockFormsDataSource
+    fullName: MockFormsDataSource
+    children:
+      - '@ms/sp-publishing-webparts.MockFormsDataSource.createForm'
+      - '@ms/sp-publishing-webparts.MockFormsDataSource.getAccessToken'
+      - '@ms/sp-publishing-webparts.MockFormsDataSource.getForms'
+      - >-
+        @ms/sp-publishing-webparts.MockFormsDataSource.getOrCreatePermissionToken
+      - '@ms/sp-publishing-webparts.MockFormsDataSource.getUserInfo'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.MockFormsDataSource.createForm'
+    name: createForm
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createForm(form: IForm, isGroupForm: boolean)'
+      parameters:
+        - id: form
+          type:
+            - '@@ms/sp-publishing-webparts.IForm'
+          description: ''
+        - id: isGroupForm
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-publishing-webparts.IForm>
+  - uid: '@ms/sp-publishing-webparts.MockFormsDataSource.getAccessToken'
+    name: getAccessToken
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getAccessToken()
+      parameters: []
+      return:
+        type:
+          - Promise<string>
+  - uid: '@ms/sp-publishing-webparts.MockFormsDataSource.getForms'
+    name: getForms
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getForms(ownerTenantId: string, ownerId: string, isGroup:
+        boolean)
+      parameters:
+        - id: ownerTenantId
+          type:
+            - string
+          description: ''
+        - id: ownerId
+          type:
+            - string
+          description: ''
+        - id: isGroup
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - 'Promise<@@ms/sp-publishing-webparts.IForm[]>'
+  - uid: '@ms/sp-publishing-webparts.MockFormsDataSource.getOrCreatePermissionToken'
+    name: getOrCreatePermissionToken
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getOrCreatePermissionToken(formId: string)'
+      parameters:
+        - id: formId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-publishing-webparts.IFormsPermissionToken>
+  - uid: '@ms/sp-publishing-webparts.MockFormsDataSource.getUserInfo'
+    name: getUserInfo
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getUserInfo()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-publishing-webparts.IUserInfo>

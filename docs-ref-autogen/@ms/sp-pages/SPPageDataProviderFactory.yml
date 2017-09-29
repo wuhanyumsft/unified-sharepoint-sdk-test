@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.SPPageDataProviderFactory'
+    name: SPPageDataProviderFactory
+    fullName: SPPageDataProviderFactory
+    children:
+      - '@ms/sp-pages.SPPageDataProviderFactory.Create'
+      - '@ms/sp-pages.SPPageDataProviderFactory.mockDataProvider'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SPPageDataProviderFactory.Create'
+    name: Create
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function Create(context: PageContext, spHttpClient: SPHttpClient,
+        shell?: any)
+      parameters:
+        - id: context
+          type:
+            - PageContext
+          description: ''
+        - id: spHttpClient
+          type:
+            - SPHttpClient
+          description: ''
+        - id: shell
+          type:
+            - any
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@ms/sp-pages.IPageDataProvider'
+  - uid: '@ms/sp-pages.SPPageDataProviderFactory.mockDataProvider'
+    name: mockDataProvider
+    fullName: mockDataProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Test Code can specify an IPageDataProvider
+    syntax:
+      content: static function mockDataProvider
+      return:
+        type:
+          - function

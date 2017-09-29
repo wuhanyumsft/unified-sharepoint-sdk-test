@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IEventsPageLayoutComponentState'
+    name: IEventsPageLayoutComponentState
+    fullName: IEventsPageLayoutComponentState
+    children:
+      - '@ms/sp-pages.IEventsPageLayoutComponentState.categories'
+      - '@ms/sp-pages.IEventsPageLayoutComponentState.eventsLists'
+      - '@ms/sp-pages.IEventsPageLayoutComponentState.hasAddListItemsPermission'
+      - '@ms/sp-pages.IEventsPageLayoutComponentState.selectedListId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IEventsPageLayoutComponentState.categories'
+    name: categories
+    fullName: categories
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] categories'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-pages.IEventsPageLayoutComponentState.eventsLists'
+    name: eventsLists
+    fullName: eventsLists
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IEventsList[] eventsLists'
+      return:
+        type:
+          - 'IEventsList[]'
+  - uid: '@ms/sp-pages.IEventsPageLayoutComponentState.hasAddListItemsPermission'
+    name: hasAddListItemsPermission
+    fullName: hasAddListItemsPermission
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasAddListItemsPermission
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IEventsPageLayoutComponentState.selectedListId'
+    name: selectedListId
+    fullName: selectedListId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string selectedListId
+      return:
+        type:
+          - string

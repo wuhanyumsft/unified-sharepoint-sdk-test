@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ExcelQueryParameters'
+    name: ExcelQueryParameters
+    fullName: ExcelQueryParameters
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: Excel specific query params apart from the common parameters.
+    package: '@ms/sp-publishing-webparts'

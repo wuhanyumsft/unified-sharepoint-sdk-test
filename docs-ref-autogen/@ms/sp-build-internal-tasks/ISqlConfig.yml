@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.ISqlConfig'
+    name: ISqlConfig
+    fullName: ISqlConfig
+    children:
+      - '@ms/sp-build-internal-tasks.ISqlConfig.database'
+      - '@ms/sp-build-internal-tasks.ISqlConfig.options'
+      - '@ms/sp-build-internal-tasks.ISqlConfig.password'
+      - '@ms/sp-build-internal-tasks.ISqlConfig.server'
+      - '@ms/sp-build-internal-tasks.ISqlConfig.user'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.ISqlConfig.database'
+    name: database
+    fullName: database
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string database
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ISqlConfig.options'
+    name: options
+    fullName: options
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function options
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-build-internal-tasks.ISqlConfig.password'
+    name: password
+    fullName: password
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string password
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ISqlConfig.server'
+    name: server
+    fullName: server
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string server
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-build-internal-tasks.ISqlConfig.user'
+    name: user
+    fullName: user
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string user
+      return:
+        type:
+          - string

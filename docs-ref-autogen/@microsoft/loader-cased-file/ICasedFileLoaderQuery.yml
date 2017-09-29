@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/loader-cased-file.ICasedFileLoaderQuery'
+    name: ICasedFileLoaderQuery
+    fullName: ICasedFileLoaderQuery
+    children:
+      - '@microsoft/loader-cased-file.ICasedFileLoaderQuery.name'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/loader-cased-file'
+  - uid: '@microsoft/loader-cased-file.ICasedFileLoaderQuery.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string

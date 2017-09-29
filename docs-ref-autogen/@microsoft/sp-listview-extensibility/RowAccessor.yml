@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-listview-extensibility.RowAccessor'
+    name: RowAccessor
+    fullName: RowAccessor
+    children:
+      - '@microsoft/sp-listview-extensibility.RowAccessor.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      Provides access to a ListView row, which is the visual presentation
+      of a SharePoint list item.
+    extends:
+      name: '@@microsoft/sp-listview-extensibility.ListItemAccessor'
+    package: '@microsoft/sp-listview-extensibility'
+  - uid: '@microsoft/sp-listview-extensibility.RowAccessor.constructor'
+    name: RowAccessor
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new RowAccessor()
+      parameters: []

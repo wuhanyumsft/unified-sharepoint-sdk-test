@@ -1,0 +1,207 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-connector-webparts.IMessageCardSection'
+    name: IMessageCardSection
+    fullName: IMessageCardSection
+    children:
+      - '@ms/sp-connector-webparts.IMessageCardSection.activityImage'
+      - '@ms/sp-connector-webparts.IMessageCardSection.activityImageSize'
+      - '@ms/sp-connector-webparts.IMessageCardSection.activityImageStyle'
+      - '@ms/sp-connector-webparts.IMessageCardSection.activitySubtitle'
+      - '@ms/sp-connector-webparts.IMessageCardSection.activityText'
+      - '@ms/sp-connector-webparts.IMessageCardSection.activityTitle'
+      - '@ms/sp-connector-webparts.IMessageCardSection.facts'
+      - '@ms/sp-connector-webparts.IMessageCardSection.heroImage'
+      - '@ms/sp-connector-webparts.IMessageCardSection.images'
+      - '@ms/sp-connector-webparts.IMessageCardSection.potentialAction'
+      - '@ms/sp-connector-webparts.IMessageCardSection.startGroup'
+      - '@ms/sp-connector-webparts.IMessageCardSection.style'
+      - '@ms/sp-connector-webparts.IMessageCardSection.text'
+      - '@ms/sp-connector-webparts.IMessageCardSection.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-connector-webparts'
+  - uid: '@ms/sp-connector-webparts.IMessageCardSection.activityImage'
+    name: activityImage
+    fullName: activityImage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string activityImage
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-connector-webparts.IMessageCardSection.activityImageSize'
+    name: activityImageSize
+    fullName: activityImageSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Size activityImageSize
+      return:
+        type:
+          - Size
+  - uid: '@ms/sp-connector-webparts.IMessageCardSection.activityImageStyle'
+    name: activityImageStyle
+    fullName: activityImageStyle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ImageStyle activityImageStyle
+      return:
+        type:
+          - ImageStyle
+  - uid: '@ms/sp-connector-webparts.IMessageCardSection.activitySubtitle'
+    name: activitySubtitle
+    fullName: activitySubtitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string activitySubtitle
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-connector-webparts.IMessageCardSection.activityText'
+    name: activityText
+    fullName: activityText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string activityText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-connector-webparts.IMessageCardSection.activityTitle'
+    name: activityTitle
+    fullName: activityTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string activityTitle
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-connector-webparts.IMessageCardSection.facts'
+    name: facts
+    fullName: facts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IMessageCardFact[] facts'
+      return:
+        type:
+          - '@@ms/sp-connector-webparts.IMessageCardFact[]'
+  - uid: '@ms/sp-connector-webparts.IMessageCardSection.heroImage'
+    name: heroImage
+    fullName: heroImage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IMessageCardImage heroImage
+      return:
+        type:
+          - '@@ms/sp-connector-webparts.IMessageCardImage'
+  - uid: '@ms/sp-connector-webparts.IMessageCardSection.images'
+    name: images
+    fullName: images
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IMessageCardImage[] images'
+      return:
+        type:
+          - '@@ms/sp-connector-webparts.IMessageCardImage[]'
+  - uid: '@ms/sp-connector-webparts.IMessageCardSection.potentialAction'
+    name: potentialAction
+    fullName: potentialAction
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IMessageCardAction[] potentialAction'
+      return:
+        type:
+          - '@@ms/sp-connector-webparts.IMessageCardAction[]'
+  - uid: '@ms/sp-connector-webparts.IMessageCardSection.startGroup'
+    name: startGroup
+    fullName: startGroup
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean startGroup
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-connector-webparts.IMessageCardSection.style'
+    name: style
+    fullName: style
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string style
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-connector-webparts.IMessageCardSection.text'
+    name: text
+    fullName: text
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string text
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-connector-webparts.IMessageCardSection.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-page-context.O365GroupAssociationType'
+    name: O365GroupAssociationType
+    fullName: O365GroupAssociationType
+    children:
+      - '@microsoft/sp-page-context.O365GroupAssociationType.Unknown'
+      - '@microsoft/sp-page-context.O365GroupAssociationType.Private'
+      - '@microsoft/sp-page-context.O365GroupAssociationType.Public'
+    langs:
+      - typeScript
+    type: enum
+    summary: '{@inheritdoc  O365GroupAssociation.type}'
+    package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.O365GroupAssociationType.Unknown'
+    name: Unknown
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+  - uid: '@microsoft/sp-page-context.O365GroupAssociationType.Private'
+    name: Private
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@microsoft/sp-page-context.O365GroupAssociationType.Public'
+    name: Public
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2

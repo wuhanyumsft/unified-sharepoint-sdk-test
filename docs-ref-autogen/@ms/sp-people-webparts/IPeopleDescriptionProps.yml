@@ -1,0 +1,111 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.IPeopleDescriptionProps'
+    name: IPeopleDescriptionProps
+    fullName: IPeopleDescriptionProps
+    children:
+      - '@ms/sp-people-webparts.IPeopleDescriptionProps.className'
+      - '@ms/sp-people-webparts.IPeopleDescriptionProps.content'
+      - '@ms/sp-people-webparts.IPeopleDescriptionProps.isEditMode'
+      - '@ms/sp-people-webparts.IPeopleDescriptionProps.lines'
+      - '@ms/sp-people-webparts.IPeopleDescriptionProps.maxCharactersNumber'
+      - '@ms/sp-people-webparts.IPeopleDescriptionProps.onChangeDescription'
+      - '@ms/sp-people-webparts.IPeopleDescriptionProps.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-people-webparts'
+  - uid: '@ms/sp-people-webparts.IPeopleDescriptionProps.className'
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: String of class name.
+    syntax:
+      content: string className
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IPeopleDescriptionProps.content'
+    name: content
+    fullName: content
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: People description content.
+    syntax:
+      content: string content
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IPeopleDescriptionProps.isEditMode'
+    name: isEditMode
+    fullName: isEditMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A boolean to indicate if the component is in edit mode.
+    syntax:
+      content: boolean isEditMode
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-people-webparts.IPeopleDescriptionProps.lines'
+    name: lines
+    fullName: lines
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The lines that LessText component shows.
+    syntax:
+      content: number lines
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-people-webparts.IPeopleDescriptionProps.maxCharactersNumber'
+    name: maxCharactersNumber
+    fullName: maxCharactersNumber
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The maximum number of input characters allowed in PeopleDescription
+      component.
+    syntax:
+      content: number maxCharactersNumber
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-people-webparts.IPeopleDescriptionProps.onChangeDescription'
+    name: onChangeDescription
+    fullName: onChangeDescription
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback when content of description is changed.
+    syntax:
+      content: '(content: string) => void onChangeDescription'
+      return:
+        type:
+          - '(content: string) => void'
+  - uid: '@ms/sp-people-webparts.IPeopleDescriptionProps.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The width of current people card. The unit is pixel.
+    syntax:
+      content: number width
+      return:
+        type:
+          - number

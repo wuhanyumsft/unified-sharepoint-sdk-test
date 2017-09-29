@@ -1,0 +1,65 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.PeopleSearcher'
+    name: PeopleSearcher
+    fullName: PeopleSearcher
+    children:
+      - '@ms/sp-people-webparts.PeopleSearcher.componentWillUnmount'
+      - '@ms/sp-people-webparts.PeopleSearcher.focus'
+      - '@ms/sp-people-webparts.PeopleSearcher.constructor'
+      - '@ms/sp-people-webparts.PeopleSearcher.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-people-webparts.PeopleSearcher<@@ms/sp-people-webparts.IPeopleSearcherProps>
+    package: '@ms/sp-people-webparts'
+  - uid: '@ms/sp-people-webparts.PeopleSearcher.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-people-webparts.PeopleSearcher.focus'
+    name: focus
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+  - uid: '@ms/sp-people-webparts.PeopleSearcher.constructor'
+    name: PeopleSearcher
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PeopleSearcher(props: IPeopleSearcherProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-people-webparts.IPeopleSearcherProps'
+          description: ''
+  - uid: '@ms/sp-people-webparts.PeopleSearcher.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

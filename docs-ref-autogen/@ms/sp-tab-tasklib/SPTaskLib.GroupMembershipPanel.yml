@@ -1,0 +1,151 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel'
+    name: GroupMembershipPanel
+    fullName: GroupMembershipPanel
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel.AddTaskDismissPanel'
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel.AddTaskLaunchGroupMembershipPanelFromHeader
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel.AddTaskSwitchToAddMembers
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel.getAddMembersButtonText
+      - '@ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel.getCancelButtonText'
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel.getGroupMemberPersonaCount
+      - '@ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel.getMemberCount'
+      - '@ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel.getPeoplePicker'
+      - '@ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel.getSaveButtonText'
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel.WaitForGroupMemberPersonaCount
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel.AddTaskDismissPanel'
+    name: AddTaskDismissPanel
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function AddTaskDismissPanel()
+      parameters: []
+  - uid: >-
+      @ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel.AddTaskLaunchGroupMembershipPanelFromHeader
+    name: AddTaskLaunchGroupMembershipPanelFromHeader
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function AddTaskLaunchGroupMembershipPanelFromHeader()
+      parameters: []
+  - uid: >-
+      @ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel.AddTaskSwitchToAddMembers
+    name: AddTaskSwitchToAddMembers
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function AddTaskSwitchToAddMembers()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel.getAddMembersButtonText'
+    name: getAddMembersButtonText
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getAddMembersButtonText()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel.getCancelButtonText'
+    name: getCancelButtonText
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCancelButtonText()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: >-
+      @ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel.getGroupMemberPersonaCount
+    name: getGroupMemberPersonaCount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getGroupMemberPersonaCount()
+      parameters: []
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel.getMemberCount'
+    name: getMemberCount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMemberCount()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel.getPeoplePicker'
+    name: getPeoplePicker
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getPeoplePicker()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel.getSaveButtonText'
+    name: getSaveButtonText
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getSaveButtonText()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: >-
+      @ms/sp-tab-tasklib.SPTaskLib.GroupMembershipPanel.WaitForGroupMemberPersonaCount
+    name: WaitForGroupMemberPersonaCount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function WaitForGroupMemberPersonaCount()
+      parameters: []
+      return:
+        type:
+          - Waiter

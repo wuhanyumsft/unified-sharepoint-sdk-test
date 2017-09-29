@@ -1,0 +1,235 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.PreviewUtility'
+    name: PreviewUtility
+    fullName: PreviewUtility
+    children:
+      - '@ms/sp-component-utilities.PreviewUtility.getAlternateUrl'
+      - '@ms/sp-component-utilities.PreviewUtility.getDefaultImage'
+      - '@ms/sp-component-utilities.PreviewUtility.getDefaultImageById'
+      - '@ms/sp-component-utilities.PreviewUtility.getPreviewSupportedMap'
+      - '@ms/sp-component-utilities.PreviewUtility.isImage'
+      - '@ms/sp-component-utilities.PreviewUtility.isVideo'
+      - '@ms/sp-component-utilities.PreviewUtility.mediaServiceSupportedMap'
+      - '@ms/sp-component-utilities.PreviewUtility.normalizeHeight'
+      - '@ms/sp-component-utilities.PreviewUtility.normalizeWidth'
+      - '@ms/sp-component-utilities.PreviewUtility.normalizeWidthToResolution'
+      - '@ms/sp-component-utilities.PreviewUtility.scaleByPixelRatio'
+    langs:
+      - typeScript
+    type: class
+    summary: Internal Utility for PreviewHelper and MediaThumbnailService class
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.PreviewUtility.getAlternateUrl'
+    name: getAlternateUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns alternatate URL for the given URL. It takes care of
+      encoded/decoded URL.
+
+      Note: width and height parameters are scaled window.devicePixelRatio times
+    syntax:
+      content: >-
+        static function getAlternateUrl(path: string, width?: number, height?:
+        number)
+      parameters:
+        - id: path
+          type:
+            - string
+          description: >-
+            Relative path of the sharepoint resource. It works for absolute URL
+            but recommended to use relative Url
+                        as authority is always subject to change upon tenant migration
+        - id: width
+          type:
+            - number
+          description: Optional width if provided will be appended as width query parameter
+          optional: true
+        - id: height
+          type:
+            - number
+          description: >
+            Optional height if provided will be appended as width query
+            parameter
+          optional: true
+  - uid: '@ms/sp-component-utilities.PreviewUtility.getDefaultImage'
+    name: getDefaultImage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Returns default image url if path is pointing to it
+      According to width, it will use different sets of images
+      Note: width parameter is scaled window.devicePixelRatio times
+    syntax:
+      content: 'static function getDefaultImage(path: string, width?: number)'
+      parameters:
+        - id: path
+          type:
+            - string
+          description: ''
+        - id: width
+          type:
+            - number
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-component-utilities.PreviewUtility.getDefaultImageById'
+    name: getDefaultImageById
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Get default image based on the index for Hero web part
+      Note: width parameter is scaled window.devicePixelRatio times
+    syntax:
+      content: 'static function getDefaultImageById(id: number, width?: number)'
+      parameters:
+        - id: id
+          type:
+            - number
+          description: ''
+        - id: width
+          type:
+            - number
+          description: ''
+          optional: true
+  - uid: '@ms/sp-component-utilities.PreviewUtility.getPreviewSupportedMap'
+    name: getPreviewSupportedMap
+    fullName: getPreviewSupportedMap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Set<string> getPreviewSupportedMap
+      return:
+        type:
+          - Set<string>
+  - uid: '@ms/sp-component-utilities.PreviewUtility.isImage'
+    name: isImage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isImage(ext: string)'
+      parameters:
+        - id: ext
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-utilities.PreviewUtility.isVideo'
+    name: isVideo
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isVideo(ext: string)'
+      parameters:
+        - id: ext
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-utilities.PreviewUtility.mediaServiceSupportedMap'
+    name: mediaServiceSupportedMap
+    fullName: mediaServiceSupportedMap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: List of file types supported by Media TA service for thumbnail
+    syntax:
+      content: static Set<string> mediaServiceSupportedMap
+      return:
+        type:
+          - Set<string>
+  - uid: '@ms/sp-component-utilities.PreviewUtility.normalizeHeight'
+    name: normalizeHeight
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Normalizes width based on device pixel ration and supported width
+      breakpoints
+    syntax:
+      content: 'static function normalizeHeight(height: number)'
+      parameters:
+        - id: height
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.PreviewUtility.normalizeWidth'
+    name: normalizeWidth
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Normalizes width based on device pixel ration and supported width
+      breakpoints
+    syntax:
+      content: 'static function normalizeWidth(width: number)'
+      parameters:
+        - id: width
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.PreviewUtility.normalizeWidthToResolution'
+    name: normalizeWidthToResolution
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function normalizeWidthToResolution(width: number)'
+      parameters:
+        - id: width
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-component-utilities.PreviewUtility.scaleByPixelRatio'
+    name: scaleByPixelRatio
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function scaleByPixelRatio(width: number)'
+      parameters:
+        - id: width
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - number

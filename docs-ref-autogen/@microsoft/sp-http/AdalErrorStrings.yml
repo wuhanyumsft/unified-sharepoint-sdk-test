@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.AdalErrorStrings'
+    name: AdalErrorStrings
+    fullName: AdalErrorStrings
+    children:
+      - '@microsoft/sp-http.AdalErrorStrings.tokenRenewalFailureError'
+    langs:
+      - typeScript
+    type: class
+    summary: Error strings used in ADAL.js when you cannot acquire a token
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.AdalErrorStrings.tokenRenewalFailureError'
+    name: tokenRenewalFailureError
+    fullName: tokenRenewalFailureError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string tokenRenewalFailureError
+      return:
+        type:
+          - string

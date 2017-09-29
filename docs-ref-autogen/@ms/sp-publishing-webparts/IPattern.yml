@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IPattern'
+    name: IPattern
+    fullName: IPattern
+    children:
+      - '@ms/sp-publishing-webparts.IPattern.dayOfMonth'
+      - '@ms/sp-publishing-webparts.IPattern.daysOfWeek'
+      - '@ms/sp-publishing-webparts.IPattern.firstDayOfWeek'
+      - '@ms/sp-publishing-webparts.IPattern.index'
+      - '@ms/sp-publishing-webparts.IPattern.interval'
+      - '@ms/sp-publishing-webparts.IPattern.month'
+      - '@ms/sp-publishing-webparts.IPattern.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IPattern.dayOfMonth'
+    name: dayOfMonth
+    fullName: dayOfMonth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The day of month of the recurrence.
+    syntax:
+      content: number dayOfMonth
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IPattern.daysOfWeek'
+    name: daysOfWeek
+    fullName: daysOfWeek
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The days of week of the recurrence.
+    syntax:
+      content: 'DayOfWeek[] daysOfWeek'
+      return:
+        type:
+          - 'DayOfWeek[]'
+  - uid: '@ms/sp-publishing-webparts.IPattern.firstDayOfWeek'
+    name: firstDayOfWeek
+    fullName: firstDayOfWeek
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The first day of week of the recurrence.
+    syntax:
+      content: DayOfWeek firstDayOfWeek
+      return:
+        type:
+          - DayOfWeek
+  - uid: '@ms/sp-publishing-webparts.IPattern.index'
+    name: index
+    fullName: index
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The index of the recurrence.
+    syntax:
+      content: function index
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-publishing-webparts.IPattern.interval'
+    name: interval
+    fullName: interval
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The interval of the recurrence.
+    syntax:
+      content: number interval
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IPattern.month'
+    name: month
+    fullName: month
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The month of the recurrence.
+    syntax:
+      content: number month
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IPattern.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The recurrence type of the pattern.
+    syntax:
+      content: function type
+      return:
+        type:
+          - function

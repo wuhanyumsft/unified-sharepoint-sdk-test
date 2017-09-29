@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.CommentStore'
+    name: CommentStore
+    fullName: CommentStore
+    children:
+      - '@ms/sp-pages.CommentStore.constructor'
+      - '@ms/sp-pages.CommentStore.findById'
+      - '@ms/sp-pages.CommentStore.processAction'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.BaseStore'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.CommentStore.constructor'
+    name: CommentStore
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new CommentStore()
+      parameters: []
+  - uid: '@ms/sp-pages.CommentStore.findById'
+    name: findById
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function findById(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-pages.CommentStore.processAction'
+    name: processAction
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function processAction(action: BaseAction)'
+      parameters:
+        - id: action
+          type:
+            - '@@ms/sp-pages.BaseAction'
+          description: ''

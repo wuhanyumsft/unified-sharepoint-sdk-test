@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IFileInput'
+    name: IFileInput
+    fullName: IFileInput
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.IFileInput.contents'
+      - '@ms/sp-tab-tasklib.SPTaskLib.IFileInput.name'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IFileInput.contents'
+    name: contents
+    fullName: contents
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] contents'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.IFileInput.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string

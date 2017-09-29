@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IListItemEditor'
+    name: IListItemEditor
+    fullName: IListItemEditor
+    children:
+      - '@ms/sp-dataproviders.IListItemEditor.email'
+      - '@ms/sp-dataproviders.IListItemEditor.id'
+      - '@ms/sp-dataproviders.IListItemEditor.picture'
+      - '@ms/sp-dataproviders.IListItemEditor.sip'
+      - '@ms/sp-dataproviders.IListItemEditor.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IListItemEditor.email'
+    name: email
+    fullName: email
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string email
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IListItemEditor.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IListItemEditor.picture'
+    name: picture
+    fullName: picture
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string picture
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IListItemEditor.sip'
+    name: sip
+    fullName: sip
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string sip
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IListItemEditor.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

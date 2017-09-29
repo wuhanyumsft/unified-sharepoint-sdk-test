@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.IPackageFileHandlerConfig'
+    name: IPackageFileHandlerConfig
+    fullName: IPackageFileHandlerConfig
+    children:
+      - '@ms/sp-build-internal-tasks.IPackageFileHandlerConfig.packageFilePaths'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.IPackageFileHandlerConfig.packageFilePaths'
+    name: packageFilePaths
+    fullName: packageFilePaths
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] packageFilePaths'
+      return:
+        type:
+          - 'string[]'

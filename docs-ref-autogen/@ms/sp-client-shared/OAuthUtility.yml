@@ -1,0 +1,86 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-shared.OAuthUtility'
+    name: OAuthUtility
+    fullName: OAuthUtility
+    children:
+      - '@ms/sp-client-shared.OAuthUtility.clearCachedToken'
+      - '@ms/sp-client-shared.OAuthUtility.getOAuthToken'
+      - '@ms/sp-client-shared.OAuthUtility.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      The TokenUtility class facilitates getting a OAuth token for a given
+      resource.
+
+      It handles caching and token expiration in a way that is transparent to
+      the library user.
+    package: '@ms/sp-client-shared'
+  - uid: '@ms/sp-client-shared.OAuthUtility.clearCachedToken'
+    name: clearCachedToken
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Clears the token from a given resource from the internal cache. If there
+      is no token
+
+      cached for the resource the method does nothing.
+    syntax:
+      content: 'function clearCachedToken(resource: string)'
+      parameters:
+        - id: resource
+          type:
+            - string
+          description: |
+            resource for which the token should be cleared from the cache
+  - uid: '@ms/sp-client-shared.OAuthUtility.getOAuthToken'
+    name: getOAuthToken
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Fetches the OAuth token for a resource if the user that's currently logged
+      in has
+
+      access to that resource.
+
+      If the promise returned by this method rejects, there is no point in
+      retrying the same call.
+
+      If the response from the server signals that the request should be retried
+      this function will do this by itself.
+
+
+      An example of a resource would be https://sdfpilot.outlook.com
+    syntax:
+      content: 'function getOAuthToken(resource: string, webUrl: string)'
+      parameters:
+        - id: resource
+          type:
+            - string
+          description: the resource for which the token should be obtained
+        - id: webUrl
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-client-shared.IOAuthToken>
+  - uid: '@ms/sp-client-shared.OAuthUtility.constructor'
+    name: OAuthUtility
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new OAuthUtility(context: IOAuthUtilityContext)'
+      parameters:
+        - id: context
+          type:
+            - '@@ms/sp-client-shared.IOAuthUtilityContext'
+          description: ''

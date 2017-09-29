@@ -1,0 +1,262 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration'
+    name: UserVoiceWidgetConfiguration
+    fullName: UserVoiceWidgetConfiguration
+    children:
+      - '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.accentColor'
+      - '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.buttons'
+      - '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.configuation'
+      - '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.forumId'
+      - '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.forumUrl'
+      - '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.height'
+      - '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.locale'
+      - '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.onUserVoiceFailure'
+      - '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.onUserVoiceStart'
+      - '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.onUserVoiceSuccess'
+      - '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.position'
+      - >-
+        @ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.postSuggestionEnabled
+      - '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.screenshotEnabled'
+      - '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.smartvoteEnabled'
+      - '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.target'
+      - '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.userEmail'
+      - '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.width'
+      - '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.workloadId'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.accentColor'
+    name: accentColor
+    fullName: accentColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string accentColor
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.buttons'
+    name: buttons
+    fullName: buttons
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<UserVoiceButtonConfiguration> buttons
+      return:
+        type:
+          - Array<@@ms/sp-tenant-admin-page.UserVoiceButtonConfiguration>
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.configuation'
+    name: configuation
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function configuation()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.forumId'
+    name: forumId
+    fullName: forumId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string forumId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.forumUrl'
+    name: forumUrl
+    fullName: forumUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string forumUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.height'
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string height
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.locale'
+    name: locale
+    fullName: locale
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string locale
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.onUserVoiceFailure'
+    name: onUserVoiceFailure
+    fullName: onUserVoiceFailure
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(T: string, T2: string) => void onUserVoiceFailure'
+      return:
+        type:
+          - '(T: string, T2: string) => void'
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.onUserVoiceStart'
+    name: onUserVoiceStart
+    fullName: onUserVoiceStart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(T: string) => void onUserVoiceStart'
+      return:
+        type:
+          - '(T: string) => void'
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.onUserVoiceSuccess'
+    name: onUserVoiceSuccess
+    fullName: onUserVoiceSuccess
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(T: string) => void onUserVoiceSuccess'
+      return:
+        type:
+          - '(T: string) => void'
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.position'
+    name: position
+    fullName: position
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string position
+      return:
+        type:
+          - string
+  - uid: >-
+      @ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.postSuggestionEnabled
+    name: postSuggestionEnabled
+    fullName: postSuggestionEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean postSuggestionEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.screenshotEnabled'
+    name: screenshotEnabled
+    fullName: screenshotEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean screenshotEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.smartvoteEnabled'
+    name: smartvoteEnabled
+    fullName: smartvoteEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean smartvoteEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.target'
+    name: target
+    fullName: target
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string target
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.userEmail'
+    name: userEmail
+    fullName: userEmail
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string userEmail
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string width
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.UserVoiceWidgetConfiguration.workloadId'
+    name: workloadId
+    fullName: workloadId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string workloadId
+      return:
+        type:
+          - string

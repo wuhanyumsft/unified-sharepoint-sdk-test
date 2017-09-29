@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IActivityItemFromServer'
+    name: IActivityItemFromServer
+    fullName: IActivityItemFromServer
+    children:
+      - '@ms/sp-teamsite-webparts.IActivityItemFromServer.ServerRedirectedUrl'
+      - '@ms/sp-teamsite-webparts.IActivityItemFromServer.TemplateType'
+      - '@ms/sp-teamsite-webparts.IActivityItemFromServer.Title'
+      - '@ms/sp-teamsite-webparts.IActivityItemFromServer.Type'
+      - '@ms/sp-teamsite-webparts.IActivityItemFromServer.Url'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IActivityItemFromServer.ServerRedirectedUrl'
+    name: ServerRedirectedUrl
+    fullName: ServerRedirectedUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ServerRedirectedUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivityItemFromServer.TemplateType'
+    name: TemplateType
+    fullName: TemplateType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string TemplateType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivityItemFromServer.Title'
+    name: Title
+    fullName: Title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IActivityItemFromServer.Type'
+    name: Type
+    fullName: Type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: String Type
+      return:
+        type:
+          - String
+  - uid: '@ms/sp-teamsite-webparts.IActivityItemFromServer.Url'
+    name: Url
+    fullName: Url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Url
+      return:
+        type:
+          - string

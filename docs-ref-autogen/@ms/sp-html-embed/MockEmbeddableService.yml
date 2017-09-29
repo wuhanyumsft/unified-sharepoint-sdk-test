@@ -1,0 +1,82 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-html-embed.MockEmbeddableService'
+    name: MockEmbeddableService
+    fullName: MockEmbeddableService
+    children:
+      - '@ms/sp-html-embed.MockEmbeddableService.errorFlagStr'
+      - '@ms/sp-html-embed.MockEmbeddableService.errorMessage'
+      - '@ms/sp-html-embed.MockEmbeddableService.getEmbeddableHtmlCode'
+      - '@ms/sp-html-embed.MockEmbeddableService.constructor'
+      - '@ms/sp-html-embed.MockEmbeddableService.startMockURL'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-html-embed'
+  - uid: '@ms/sp-html-embed.MockEmbeddableService.errorFlagStr'
+    name: errorFlagStr
+    fullName: errorFlagStr
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string errorFlagStr
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.MockEmbeddableService.errorMessage'
+    name: errorMessage
+    fullName: errorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string errorMessage
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.MockEmbeddableService.getEmbeddableHtmlCode'
+    name: getEmbeddableHtmlCode
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getEmbeddableHtmlCode()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-html-embed.IEmbedServiceResult>
+  - uid: '@ms/sp-html-embed.MockEmbeddableService.constructor'
+    name: MockEmbeddableService
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new MockEmbeddableService(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-html-embed.MockEmbeddableService.startMockURL'
+    name: startMockURL
+    fullName: startMockURL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string startMockURL
+      return:
+        type:
+          - string

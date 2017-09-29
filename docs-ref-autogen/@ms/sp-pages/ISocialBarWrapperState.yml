@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ISocialBarWrapperState'
+    name: ISocialBarWrapperState
+    fullName: ISocialBarWrapperState
+    children:
+      - '@ms/sp-pages.ISocialBarWrapperState.socialBarComponent'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ISocialBarWrapperState.socialBarComponent'
+    name: socialBarComponent
+    fullName: socialBarComponent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any socialBarComponent
+      return:
+        type:
+          - any

@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.SPImageToolbar'
+    name: SPImageToolbar
+    fullName: SPImageToolbar
+    children:
+      - '@ms/sp-publishing-webparts.SPImageToolbar.focus'
+      - '@ms/sp-publishing-webparts.SPImageToolbar.render'
+      - '@ms/sp-publishing-webparts.SPImageToolbar.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.SPImageToolbar<@@ms/sp-publishing-webparts.IEditToolbarProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.SPImageToolbar.focus'
+    name: focus
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+  - uid: '@ms/sp-publishing-webparts.SPImageToolbar.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-publishing-webparts.SPImageToolbar.constructor'
+    name: SPImageToolbar
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SPImageToolbar(props: IEditToolbarProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IEditToolbarProps'
+          description: ''

@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISaveViewDialogProps'
+    name: ISaveViewDialogProps
+    fullName: ISaveViewDialogProps
+    children:
+      - '@ms/sp-tenant-admin-page.ISaveViewDialogProps.dismiss'
+      - '@ms/sp-tenant-admin-page.ISaveViewDialogProps.query'
+      - '@ms/sp-tenant-admin-page.ISaveViewDialogProps.saveView'
+      - '@ms/sp-tenant-admin-page.ISaveViewDialogProps.selectedViewTitle'
+      - '@ms/sp-tenant-admin-page.ISaveViewDialogProps.viewManager'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ISaveViewDialogProps.dismiss'
+    name: dismiss
+    fullName: dismiss
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void dismiss
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-tenant-admin-page.ISaveViewDialogProps.query'
+    name: query
+    fullName: query
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISiteQueryConditions query
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISiteQueryConditions'
+  - uid: '@ms/sp-tenant-admin-page.ISaveViewDialogProps.saveView'
+    name: saveView
+    fullName: saveView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(viewTitle: string) => void saveView'
+      return:
+        type:
+          - '(viewTitle: string) => void'
+  - uid: '@ms/sp-tenant-admin-page.ISaveViewDialogProps.selectedViewTitle'
+    name: selectedViewTitle
+    fullName: selectedViewTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string selectedViewTitle
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ISaveViewDialogProps.viewManager'
+    name: viewManager
+    fullName: viewManager
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ViewManager viewManager
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ViewManager'

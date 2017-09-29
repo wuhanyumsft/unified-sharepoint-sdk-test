@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IRecipeProgressPanelState'
+    name: IRecipeProgressPanelState
+    fullName: IRecipeProgressPanelState
+    children:
+      - '@ms/sp-pages.IRecipeProgressPanelState.isOpen'
+      - '@ms/sp-pages.IRecipeProgressPanelState.stageOutcomesKnown'
+      - '@ms/sp-pages.IRecipeProgressPanelState.stagesRetrieved'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IRecipeProgressPanelState.isOpen'
+    name: isOpen
+    fullName: isOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isOpen
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IRecipeProgressPanelState.stageOutcomesKnown'
+    name: stageOutcomesKnown
+    fullName: stageOutcomesKnown
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number stageOutcomesKnown
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.IRecipeProgressPanelState.stagesRetrieved'
+    name: stagesRetrieved
+    fullName: stagesRetrieved
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean stagesRetrieved
+      return:
+        type:
+          - boolean

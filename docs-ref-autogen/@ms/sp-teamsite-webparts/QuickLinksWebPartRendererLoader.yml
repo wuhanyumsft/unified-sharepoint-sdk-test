@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksWebPartRendererLoader'
+    name: QuickLinksWebPartRendererLoader
+    fullName: QuickLinksWebPartRendererLoader
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'

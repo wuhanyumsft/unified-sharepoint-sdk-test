@@ -1,0 +1,82 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneAccessor'
+    name: IPropertyPaneAccessor
+    fullName: IPropertyPaneAccessor
+    children:
+      - '@microsoft/sp-webpart-base.IPropertyPaneAccessor.isPropertyPaneOpen'
+      - '@microsoft/sp-webpart-base.IPropertyPaneAccessor.isRenderedByWebPart'
+      - '@microsoft/sp-webpart-base.IPropertyPaneAccessor.open'
+      - '@microsoft/sp-webpart-base.IPropertyPaneAccessor.refresh'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Web part context property pane accessor interface. Provides some most
+      commonly used utilities
+
+      to access the property pane.
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneAccessor.isPropertyPaneOpen'
+    name: isPropertyPaneOpen
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns true if the PropertyPane is open.
+    syntax:
+      content: function isPropertyPaneOpen()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneAccessor.isRenderedByWebPart'
+    name: isRenderedByWebPart
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Indicates whether the PropertyPane was initially opened by the web part. 
+      For example, if the
+
+      web part calls this.context.propertyPane.open() then the property would be
+      true, whereas if
+
+      the property pane was opened by the host, then the value will be false.
+    syntax:
+      content: function isRenderedByWebPart()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneAccessor.open'
+    name: open
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      This API should be used to open the PropertyPane to help configure the web
+      part.
+    syntax:
+      content: function open()
+      parameters: []
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneAccessor.refresh'
+    name: refresh
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      This API should be used to invoke the PropertyPane to help configure the
+      web part.
+
+      This operation only works when the PropertyPane is already open for the
+      currently active web part.
+
+      If the PropertyPane is opened for another web part, calling the refresh
+      API will have no impact.
+    syntax:
+      content: function refresh()
+      parameters: []

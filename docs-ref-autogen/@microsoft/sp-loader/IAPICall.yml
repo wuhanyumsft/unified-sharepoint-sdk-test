@@ -1,0 +1,71 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.IAPICall'
+    name: IAPICall
+    fullName: IAPICall
+    children:
+      - '@microsoft/sp-loader.IAPICall.duration'
+      - '@microsoft/sp-loader.IAPICall.endTime'
+      - '@microsoft/sp-loader.IAPICall.name'
+      - '@microsoft/sp-loader.IAPICall.startTime'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface to represent API calls obtained from the RumOne data
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.IAPICall.duration'
+    name: duration
+    fullName: duration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: String value that gives the duration in miliseconds of the API call
+    syntax:
+      content: number duration
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-loader.IAPICall.endTime'
+    name: endTime
+    fullName: endTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: String that gives an ISO date value for the end time of the API call
+    syntax:
+      content: number endTime
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-loader.IAPICall.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      String that gives the name of the entity that made the API call
+      Example: httpClient
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-loader.IAPICall.startTime'
+    name: startTime
+    fullName: startTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      String that gives an ISO date value for the start time of the API call
+      Example: '2016-08-05T19:09:20.192Z'
+    syntax:
+      content: number startTime
+      return:
+        type:
+          - number

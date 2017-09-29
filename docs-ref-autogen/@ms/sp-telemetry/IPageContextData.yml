@@ -1,0 +1,165 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-telemetry.IPageContextData'
+    name: IPageContextData
+    fullName: IPageContextData
+    children:
+      - '@ms/sp-telemetry.IPageContextData.accountType'
+      - '@ms/sp-telemetry.IPageContextData.environment'
+      - '@ms/sp-telemetry.IPageContextData.farmLabel'
+      - '@ms/sp-telemetry.IPageContextData.isAuthenticated'
+      - '@ms/sp-telemetry.IPageContextData.manifest'
+      - '@ms/sp-telemetry.IPageContextData.market'
+      - '@ms/sp-telemetry.IPageContextData.session'
+      - '@ms/sp-telemetry.IPageContextData.siteSubscriptionId'
+      - '@ms/sp-telemetry.IPageContextData.userId'
+      - '@ms/sp-telemetry.IPageContextData.version'
+      - '@ms/sp-telemetry.IPageContextData.workload'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.IPageContextData.accountType'
+    name: accountType
+    fullName: accountType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: AccountType accountType
+      return:
+        type:
+          - AccountType
+  - uid: '@ms/sp-telemetry.IPageContextData.environment'
+    name: environment
+    fullName: environment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string environment
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.IPageContextData.farmLabel'
+    name: farmLabel
+    fullName: farmLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string farmLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.IPageContextData.isAuthenticated'
+    name: isAuthenticated
+    fullName: isAuthenticated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isAuthenticated
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-telemetry.IPageContextData.manifest'
+    name: manifest
+    fullName: manifest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string manifest
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.IPageContextData.market'
+    name: market
+    fullName: market
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string market
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.IPageContextData.session'
+    name: session
+    fullName: session
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string session
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.IPageContextData.siteSubscriptionId'
+    name: siteSubscriptionId
+    fullName: siteSubscriptionId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteSubscriptionId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.IPageContextData.userId'
+    name: userId
+    fullName: userId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string userId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.IPageContextData.version'
+    name: version
+    fullName: version
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string version
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.IPageContextData.workload'
+    name: workload
+    fullName: workload
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string workload
+      return:
+        type:
+          - string

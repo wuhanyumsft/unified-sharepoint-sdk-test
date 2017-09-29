@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.DeleteQuickLinkMenuAction'
+    name: DeleteQuickLinkMenuAction
+    fullName: DeleteQuickLinkMenuAction
+    children:
+      - '@ms/sp-teamsite-webparts.DeleteQuickLinkMenuAction.constructor'
+      - '@ms/sp-teamsite-webparts.DeleteQuickLinkMenuAction.isVisible'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-teamsite-webparts.DeleteQuickLinkMenuAction'
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.DeleteQuickLinkMenuAction.constructor'
+    name: DeleteQuickLinkMenuAction
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new DeleteQuickLinkMenuAction(provider: IQuickLinksProvider, dispatcher:
+        IQuickLinksDispatcher)
+      parameters:
+        - id: provider
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLinksProvider'
+          description: ''
+        - id: dispatcher
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLinksDispatcher'
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.DeleteQuickLinkMenuAction.isVisible'
+    name: isVisible
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isVisible(quickItem: IQuickLink)'
+      parameters:
+        - id: quickItem
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLink'
+          description: ''
+      return:
+        type:
+          - boolean

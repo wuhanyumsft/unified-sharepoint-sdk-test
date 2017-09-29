@@ -1,0 +1,126 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.FeedDataProvider'
+    name: FeedDataProvider
+    fullName: FeedDataProvider
+    children:
+      - '@ms/sp-publishing-webparts.FeedDataProvider.constructor'
+      - '@ms/sp-publishing-webparts.FeedDataProvider.getCurrentUser'
+      - '@ms/sp-publishing-webparts.FeedDataProvider.getDirectoryInfo'
+      - '@ms/sp-publishing-webparts.FeedDataProvider.getFeed'
+      - '@ms/sp-publishing-webparts.FeedDataProvider.postMessage'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.FeedDataProvider.constructor'
+    name: FeedDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new FeedDataProvider(serviceScope: ServiceScope, baseEndpoint: string,
+        workfeedEndpoint: string)
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+        - id: baseEndpoint
+          type:
+            - string
+          description: ''
+        - id: workfeedEndpoint
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.FeedDataProvider.getCurrentUser'
+    name: getCurrentUser
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCurrentUser()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-publishing-webparts.ICurrentUser>
+  - uid: '@ms/sp-publishing-webparts.FeedDataProvider.getDirectoryInfo'
+    name: getDirectoryInfo
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getDirectoryInfo<T>(groupId: string, tennentId: string)'
+      parameters:
+        - id: groupId
+          type:
+            - string
+          description: ''
+        - id: tennentId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<T>
+  - uid: '@ms/sp-publishing-webparts.FeedDataProvider.getFeed'
+    name: getFeed
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getFeed(groupId: string, networkId: string, feedType: FeedType)'
+      parameters:
+        - id: groupId
+          type:
+            - string
+          description: ''
+        - id: networkId
+          type:
+            - string
+          description: ''
+        - id: feedType
+          type:
+            - FeedType
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-publishing-webparts.IFeed>
+  - uid: '@ms/sp-publishing-webparts.FeedDataProvider.postMessage'
+    name: postMessage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function postMessage(messageBody: string, groupId: string, networkId:
+        string)
+      parameters:
+        - id: messageBody
+          type:
+            - string
+          description: ''
+        - id: groupId
+          type:
+            - string
+          description: ''
+        - id: networkId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<void>

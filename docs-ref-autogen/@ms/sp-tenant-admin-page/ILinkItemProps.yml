@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ILinkItemProps'
+    name: ILinkItemProps
+    fullName: ILinkItemProps
+    children:
+      - '@ms/sp-tenant-admin-page.ILinkItemProps.linkName'
+      - '@ms/sp-tenant-admin-page.ILinkItemProps.linkUrl'
+      - '@ms/sp-tenant-admin-page.ILinkItemProps.openInNewWindow'
+      - '@ms/sp-tenant-admin-page.ILinkItemProps.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ILinkItemProps.linkName'
+    name: linkName
+    fullName: linkName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string linkName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ILinkItemProps.linkUrl'
+    name: linkUrl
+    fullName: linkUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string linkUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.ILinkItemProps.openInNewWindow'
+    name: openInNewWindow
+    fullName: openInNewWindow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean openInNewWindow
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.ILinkItemProps.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

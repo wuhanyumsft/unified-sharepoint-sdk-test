@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/test-extensions-application.ReactCell'
+    name: ReactCell
+    fullName: ReactCell
+    children:
+      - '@ms/test-extensions-application.ReactCell.componentDidMount'
+      - '@ms/test-extensions-application.ReactCell.componentWillUnmount'
+      - '@ms/test-extensions-application.ReactCell.render'
+    langs:
+      - typeScript
+    type: class
+    summary: Renders a table cell inside a row of the the ReactListView component.
+    extends:
+      name: >-
+        @@ms/test-extensions-application.ReactCell<@@ms/test-extensions-application.IReactCellProps>
+    package: '@ms/test-extensions-application'
+  - uid: '@ms/test-extensions-application.ReactCell.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/test-extensions-application.ReactCell.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/test-extensions-application.ReactCell.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

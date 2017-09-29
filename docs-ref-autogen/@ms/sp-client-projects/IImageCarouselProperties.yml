@@ -1,0 +1,333 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties'
+    name: IImageCarouselProperties
+    fullName: IImageCarouselProperties
+    children:
+      - '@ms/sp-client-projects.IImageCarouselProperties.accessibility'
+      - '@ms/sp-client-projects.IImageCarouselProperties.adaptiveHeight'
+      - '@ms/sp-client-projects.IImageCarouselProperties.arrows'
+      - '@ms/sp-client-projects.IImageCarouselProperties.autoplay'
+      - '@ms/sp-client-projects.IImageCarouselProperties.autoplaySpeed'
+      - '@ms/sp-client-projects.IImageCarouselProperties.centerMode'
+      - '@ms/sp-client-projects.IImageCarouselProperties.cssEase'
+      - '@ms/sp-client-projects.IImageCarouselProperties.dots'
+      - '@ms/sp-client-projects.IImageCarouselProperties.draggable'
+      - '@ms/sp-client-projects.IImageCarouselProperties.infinite'
+      - '@ms/sp-client-projects.IImageCarouselProperties.lazyLoad'
+      - '@ms/sp-client-projects.IImageCarouselProperties.listName'
+      - '@ms/sp-client-projects.IImageCarouselProperties.pauseOnDotsHover'
+      - '@ms/sp-client-projects.IImageCarouselProperties.pauseOnHover'
+      - '@ms/sp-client-projects.IImageCarouselProperties.rows'
+      - '@ms/sp-client-projects.IImageCarouselProperties.slidesPerRow'
+      - '@ms/sp-client-projects.IImageCarouselProperties.slidesToScroll'
+      - '@ms/sp-client-projects.IImageCarouselProperties.slidesToShow'
+      - '@ms/sp-client-projects.IImageCarouselProperties.speed'
+      - '@ms/sp-client-projects.IImageCarouselProperties.swipe'
+      - '@ms/sp-client-projects.IImageCarouselProperties.variableWidth'
+      - '@ms/sp-client-projects.IImageCarouselProperties.vertical'
+      - '@ms/sp-client-projects.IImageCarouselProperties.verticalSwiping'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.accessibility'
+    name: accessibility
+    fullName: accessibility
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean accessibility
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.adaptiveHeight'
+    name: adaptiveHeight
+    fullName: adaptiveHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean adaptiveHeight
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.arrows'
+    name: arrows
+    fullName: arrows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean arrows
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.autoplay'
+    name: autoplay
+    fullName: autoplay
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean autoplay
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.autoplaySpeed'
+    name: autoplaySpeed
+    fullName: autoplaySpeed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number autoplaySpeed
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.centerMode'
+    name: centerMode
+    fullName: centerMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean centerMode
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.cssEase'
+    name: cssEase
+    fullName: cssEase
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string cssEase
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.dots'
+    name: dots
+    fullName: dots
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean dots
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.draggable'
+    name: draggable
+    fullName: draggable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean draggable
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.infinite'
+    name: infinite
+    fullName: infinite
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean infinite
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.lazyLoad'
+    name: lazyLoad
+    fullName: lazyLoad
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string lazyLoad
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.listName'
+    name: listName
+    fullName: listName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string listName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.pauseOnDotsHover'
+    name: pauseOnDotsHover
+    fullName: pauseOnDotsHover
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean pauseOnDotsHover
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.pauseOnHover'
+    name: pauseOnHover
+    fullName: pauseOnHover
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean pauseOnHover
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.rows'
+    name: rows
+    fullName: rows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number rows
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.slidesPerRow'
+    name: slidesPerRow
+    fullName: slidesPerRow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number slidesPerRow
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.slidesToScroll'
+    name: slidesToScroll
+    fullName: slidesToScroll
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number slidesToScroll
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.slidesToShow'
+    name: slidesToShow
+    fullName: slidesToShow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number slidesToShow
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.speed'
+    name: speed
+    fullName: speed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number speed
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.swipe'
+    name: swipe
+    fullName: swipe
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean swipe
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.variableWidth'
+    name: variableWidth
+    fullName: variableWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean variableWidth
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.vertical'
+    name: vertical
+    fullName: vertical
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean vertical
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-client-projects.IImageCarouselProperties.verticalSwiping'
+    name: verticalSwiping
+    fullName: verticalSwiping
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean verticalSwiping
+      return:
+        type:
+          - boolean

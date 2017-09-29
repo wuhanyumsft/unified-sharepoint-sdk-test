@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.ListFieldDataSource'
+    name: ListFieldDataSource
+    fullName: ListFieldDataSource
+    children:
+      - '@ms/sp-dataproviders.ListFieldDataSource.getFieldsForList'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-dataproviders.SPDataSource'
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.ListFieldDataSource.getFieldsForList'
+    name: getFieldsForList
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Query for lists available within a web site with OData query
+      functionality.
+
+      Parameter values must be sanitized for the url beforehand.
+    syntax:
+      content: >-
+        function getFieldsForList(webAbsoluteUrl: string, listId: string,
+        queryString?: string)
+      parameters:
+        - id: webAbsoluteUrl
+          type:
+            - string
+          description: path to the site containing the lists
+        - id: listId
+          type:
+            - string
+          description: identifier of the SharePoint list as a guid in string format
+        - id: queryString
+          type:
+            - string
+          description: >
+            OData query string options including $orderby, $top, $skip, $filter,
+            $select
+
+            See:
+            http://www.odata.org/documentation/odata-version-2-0/uri-conventions/#QueryStringOptions
+          optional: true
+      return:
+        type:
+          - 'Promise<@@ms/sp-dataproviders.IListField[]>'

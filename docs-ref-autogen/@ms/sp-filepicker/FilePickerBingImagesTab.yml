@@ -1,0 +1,76 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-filepicker.FilePickerBingImagesTab'
+    name: FilePickerBingImagesTab
+    fullName: FilePickerBingImagesTab
+    children:
+      - '@ms/sp-filepicker.FilePickerBingImagesTab.componentDidMount'
+      - '@ms/sp-filepicker.FilePickerBingImagesTab.componentDidUpdate'
+      - '@ms/sp-filepicker.FilePickerBingImagesTab.componentWillUnmount'
+      - '@ms/sp-filepicker.FilePickerBingImagesTab.constructor'
+      - '@ms/sp-filepicker.FilePickerBingImagesTab.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-filepicker.FilePickerBingImagesTab<@@ms/sp-filepicker.IFilePickerBingImagesTabProps>
+    package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.FilePickerBingImagesTab.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-filepicker.FilePickerBingImagesTab.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+  - uid: '@ms/sp-filepicker.FilePickerBingImagesTab.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-filepicker.FilePickerBingImagesTab.constructor'
+    name: FilePickerBingImagesTab
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new FilePickerBingImagesTab(props: IFilePickerBingImagesTabProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-filepicker.IFilePickerBingImagesTabProps'
+          description: ''
+  - uid: '@ms/sp-filepicker.FilePickerBingImagesTab.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

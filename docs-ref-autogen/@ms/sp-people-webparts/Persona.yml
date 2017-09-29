@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.Persona'
+    name: Persona
+    fullName: Persona
+    children:
+      - '@ms/sp-people-webparts.Persona.render'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      Persona component based on Fabirc-React Persona component.
+      It detects if the image is doughboy and fallback back to textboy.
+    extends:
+      name: '@@ms/sp-people-webparts.Persona'
+    package: '@ms/sp-people-webparts'
+  - uid: '@ms/sp-people-webparts.Persona.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IImageFilterOptions'
+    name: IImageFilterOptions
+    fullName: IImageFilterOptions
+    children:
+      - '@ms/sp-publishing-webparts.IImageFilterOptions.isRecursive'
+      - '@ms/sp-publishing-webparts.IImageFilterOptions.maxItemsCount'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IImageFilterOptions.isRecursive'
+    name: isRecursive
+    fullName: isRecursive
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isRecursive
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IImageFilterOptions.maxItemsCount'
+    name: maxItemsCount
+    fullName: maxItemsCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number maxItemsCount
+      return:
+        type:
+          - number

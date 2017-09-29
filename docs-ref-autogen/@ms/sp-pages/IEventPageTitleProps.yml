@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IEventPageTitleProps'
+    name: IEventPageTitleProps
+    fullName: IEventPageTitleProps
+    children:
+      - '@ms/sp-pages.IEventPageTitleProps.initBannerUrl'
+      - '@ms/sp-pages.IEventPageTitleProps.initEndTime'
+      - '@ms/sp-pages.IEventPageTitleProps.initStartTime'
+      - '@ms/sp-pages.IEventPageTitleProps.initTitle'
+      - '@ms/sp-pages.IEventPageTitleProps.newEvent'
+      - '@ms/sp-pages.IEventPageTitleProps.textAlignCenter'
+      - '@ms/sp-pages.IEventPageTitleProps.webPartManager'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IEventPageTitleProps.initBannerUrl'
+    name: initBannerUrl
+    fullName: initBannerUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string initBannerUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IEventPageTitleProps.initEndTime'
+    name: initEndTime
+    fullName: initEndTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Date initEndTime
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-pages.IEventPageTitleProps.initStartTime'
+    name: initStartTime
+    fullName: initStartTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Date initStartTime
+      return:
+        type:
+          - Date
+  - uid: '@ms/sp-pages.IEventPageTitleProps.initTitle'
+    name: initTitle
+    fullName: initTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string initTitle
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IEventPageTitleProps.newEvent'
+    name: newEvent
+    fullName: newEvent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean newEvent
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IEventPageTitleProps.textAlignCenter'
+    name: textAlignCenter
+    fullName: textAlignCenter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean textAlignCenter
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IEventPageTitleProps.webPartManager'
+    name: webPartManager
+    fullName: webPartManager
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ClientSideWebPartManager webPartManager
+      return:
+        type:
+          - ClientSideWebPartManager

@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/article-site-demo.TextFieldViewProps'
+    name: TextFieldViewProps
+    fullName: TextFieldViewProps
+    children:
+      - '@ms/article-site-demo.TextFieldViewProps.className'
+      - '@ms/article-site-demo.TextFieldViewProps.defaultText'
+      - '@ms/article-site-demo.TextFieldViewProps.tag'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/article-site-demo.TextFieldViewProps'
+    package: '@ms/article-site-demo'
+  - uid: '@ms/article-site-demo.TextFieldViewProps.className'
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string className
+      return:
+        type:
+          - string
+  - uid: '@ms/article-site-demo.TextFieldViewProps.defaultText'
+    name: defaultText
+    fullName: defaultText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string defaultText
+      return:
+        type:
+          - string
+  - uid: '@ms/article-site-demo.TextFieldViewProps.tag'
+    name: tag
+    fullName: tag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string tag
+      return:
+        type:
+          - string

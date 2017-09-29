@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.FilePickerWrapper'
+    name: FilePickerWrapper
+    fullName: FilePickerWrapper
+    children:
+      - '@ms/sp-teamsite-webparts.FilePickerWrapper.constructor'
+      - '@ms/sp-teamsite-webparts.FilePickerWrapper.openFilePicker'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.FilePickerWrapper.constructor'
+    name: FilePickerWrapper
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new FilePickerWrapper(props: IFilePickerProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-teamsite-webparts.IFilePickerProps'
+          description: ''
+  - uid: '@ms/sp-teamsite-webparts.FilePickerWrapper.openFilePicker'
+    name: openFilePicker
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function openFilePicker(callbacks?: IFilePickerCallbacks)'
+      parameters:
+        - id: callbacks
+          type:
+            - '@@ms/sp-teamsite-webparts.IFilePickerCallbacks'
+          description: ''
+          optional: true

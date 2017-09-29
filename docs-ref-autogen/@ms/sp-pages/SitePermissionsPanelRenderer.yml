@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.SitePermissionsPanelRenderer'
+    name: SitePermissionsPanelRenderer
+    fullName: SitePermissionsPanelRenderer
+    children:
+      - '@ms/sp-pages.SitePermissionsPanelRenderer.renderSitePermissionsPanel'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SitePermissionsPanelRenderer.renderSitePermissionsPanel'
+    name: renderSitePermissionsPanel
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function renderSitePermissionsPanel(props:
+        ISitePermissionsPanelContainerProps)
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.ISitePermissionsPanelContainerProps'
+          description: ''

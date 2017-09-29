@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-bingmap.IPushPinRenderSettings'
+    name: IPushPinRenderSettings
+    fullName: IPushPinRenderSettings
+    children:
+      - '@ms/sp-bingmap.IPushPinRenderSettings.focusedIndex'
+      - '@ms/sp-bingmap.IPushPinRenderSettings.isDraggable'
+      - '@ms/sp-bingmap.IPushPinRenderSettings.onClick'
+      - '@ms/sp-bingmap.IPushPinRenderSettings.onDragEnd'
+      - '@ms/sp-bingmap.IPushPinRenderSettings.shouldShowTitle'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface for rendering a set of push pins.
+    package: '@ms/sp-bingmap'
+  - uid: '@ms/sp-bingmap.IPushPinRenderSettings.focusedIndex'
+    name: focusedIndex
+    fullName: focusedIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number focusedIndex
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-bingmap.IPushPinRenderSettings.isDraggable'
+    name: isDraggable
+    fullName: isDraggable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isDraggable
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-bingmap.IPushPinRenderSettings.onClick'
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(index: number) => void onClick'
+      return:
+        type:
+          - '(index: number) => void'
+  - uid: '@ms/sp-bingmap.IPushPinRenderSettings.onDragEnd'
+    name: onDragEnd
+    fullName: onDragEnd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(index: number, event: IMouseEventArgs) => void onDragEnd'
+      return:
+        type:
+          - '(index: number, event: IMouseEventArgs) => void'
+  - uid: '@ms/sp-bingmap.IPushPinRenderSettings.shouldShowTitle'
+    name: shouldShowTitle
+    fullName: shouldShowTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean shouldShowTitle
+      return:
+        type:
+          - boolean

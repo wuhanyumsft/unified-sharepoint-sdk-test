@@ -1,0 +1,18 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.BaseDataWebPart'
+    name: BaseDataWebPart
+    fullName: BaseDataWebPart<TProperties>
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      This is a prototype at the current point. The goal is to build some base
+      code that will
+
+      help our customers follow the performance best practices to build web
+      parts.
+    extends:
+      name: '@@ms/sp-webpart-shared.BaseDataWebPart<TProperties>'
+    package: '@ms/sp-webpart-shared'

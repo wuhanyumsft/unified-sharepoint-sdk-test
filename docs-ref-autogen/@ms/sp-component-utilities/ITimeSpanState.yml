@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.ITimeSpanState'
+    name: ITimeSpanState
+    fullName: ITimeSpanState
+    children:
+      - '@ms/sp-component-utilities.ITimeSpanState.showErrorMessage'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.ITimeSpanState.showErrorMessage'
+    name: showErrorMessage
+    fullName: showErrorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether to show the start end time sequence error message.
+    syntax:
+      content: boolean showErrorMessage
+      return:
+        type:
+          - boolean

@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.IListItem'
+    name: IListItem
+    fullName: IListItem
+    children:
+      - '@ms/sp-client-projects.IListItem.Details'
+      - '@ms/sp-client-projects.IListItem.ID'
+      - '@ms/sp-client-projects.IListItem.Title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.IListItem.Details'
+    name: Details
+    fullName: Details
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Details
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IListItem.ID'
+    name: ID
+    fullName: ID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ID
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IListItem.Title'
+    name: Title
+    fullName: Title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Title
+      return:
+        type:
+          - string

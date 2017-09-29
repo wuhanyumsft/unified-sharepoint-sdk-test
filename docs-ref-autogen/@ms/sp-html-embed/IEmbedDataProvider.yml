@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-html-embed.IEmbedDataProvider'
+    name: IEmbedDataProvider
+    fullName: IEmbedDataProvider
+    children:
+      - '@ms/sp-html-embed.IEmbedDataProvider.embeddableService'
+      - '@ms/sp-html-embed.IEmbedDataProvider.onEmbedResultChanged'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-html-embed'
+  - uid: '@ms/sp-html-embed.IEmbedDataProvider.embeddableService'
+    name: embeddableService
+    fullName: embeddableService
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IEmbeddableService embeddableService
+      return:
+        type:
+          - '@@ms/sp-html-embed.IEmbeddableService'
+  - uid: '@ms/sp-html-embed.IEmbedDataProvider.onEmbedResultChanged'
+    name: onEmbedResultChanged
+    fullName: onEmbedResultChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(embedResult: IEmbedServiceResult) => void onEmbedResultChanged'
+      return:
+        type:
+          - '(embedResult: IEmbedServiceResult) => void'

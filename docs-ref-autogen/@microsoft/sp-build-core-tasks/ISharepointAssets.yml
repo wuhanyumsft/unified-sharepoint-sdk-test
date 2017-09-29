@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.ISharepointAssets'
+    name: ISharepointAssets
+    fullName: ISharepointAssets<T>
+    children:
+      - '@microsoft/sp-build-core-tasks.ISharepointAssets.elementFiles'
+      - '@microsoft/sp-build-core-tasks.ISharepointAssets.elementManifests'
+      - '@microsoft/sp-build-core-tasks.ISharepointAssets.upgradeActions'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      A list of asset files which will be automatically included.
+      These are expected to be exist in the sharepointAssetDir.
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.ISharepointAssets.elementFiles'
+    name: elementFiles
+    fullName: elementFiles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A list of element manifest filenames.
+    syntax:
+      content: 'T[] elementFiles'
+      return:
+        type:
+          - 'T[]'
+  - uid: '@microsoft/sp-build-core-tasks.ISharepointAssets.elementManifests'
+    name: elementManifests
+    fullName: elementManifests
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A list of element filenames.
+
+      Any supported files that accompany the element manifest will be an element
+      file.
+
+      For example, the list instance schema is an element manifest that is
+      associated with a
+
+      list instance that is defined in an element manifest.
+    syntax:
+      content: 'T[] elementManifests'
+      return:
+        type:
+          - 'T[]'
+  - uid: '@microsoft/sp-build-core-tasks.ISharepointAssets.upgradeActions'
+    name: upgradeActions
+    fullName: upgradeActions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A list of upgrade action filenames
+    syntax:
+      content: 'T[] upgradeActions'
+      return:
+        type:
+          - 'T[]'

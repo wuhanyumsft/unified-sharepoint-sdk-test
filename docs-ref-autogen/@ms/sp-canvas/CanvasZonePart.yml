@@ -1,0 +1,204 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.CanvasZonePart'
+    name: CanvasZonePart
+    fullName: CanvasZonePart
+    children:
+      - '@ms/sp-canvas.CanvasZonePart.addControl'
+      - '@ms/sp-canvas.CanvasZonePart.constructor'
+      - '@ms/sp-canvas.CanvasZonePart.changeZone'
+      - '@ms/sp-canvas.CanvasZonePart.changeZoneIndex'
+      - '@ms/sp-canvas.CanvasZonePart.columnDefinitionMap'
+      - '@ms/sp-canvas.CanvasZonePart.dispose'
+      - '@ms/sp-canvas.CanvasZonePart.fetchAllControls'
+      - '@ms/sp-canvas.CanvasZonePart.fetchControl'
+      - '@ms/sp-canvas.CanvasZonePart.isEmpty'
+      - '@ms/sp-canvas.CanvasZonePart.moveControl'
+      - '@ms/sp-canvas.CanvasZonePart.removeControl'
+    langs:
+      - typeScript
+    type: class
+    summary: Represents a Canvas Zone Layout Part
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.CanvasZonePart.addControl'
+    name: addControl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Adds a new control in the pertinent zone.
+      If section doesnt exist then create a new section
+    syntax:
+      content: 'function addControl(canvasControl: ICanvasControl)'
+      parameters:
+        - id: canvasControl
+          type:
+            - '@@ms/sp-canvas.ICanvasControl'
+          description: represents the control to add
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.CanvasZonePart.constructor'
+    name: CanvasZonePart
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Creates a new instance of a CanvasZonePart
+    syntax:
+      content: >-
+        new CanvasZonePart(zoneIdx: number, map: Map<string>, webPartManager:
+        ClientSideWebPartManager)
+      parameters:
+        - id: zoneIdx
+          type:
+            - number
+          description: |
+            represents the zone index
+        - id: map
+          type:
+            - Map<string>
+          description: ''
+        - id: webPartManager
+          type:
+            - ClientSideWebPartManager
+          description: ''
+  - uid: '@ms/sp-canvas.CanvasZonePart.changeZone'
+    name: changeZone
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Modify the current state of the zone to reflect new sections and/or
+      section factors.
+    syntax:
+      content: 'function changeZone(zoneType: CanvasControlType)'
+      parameters:
+        - id: zoneType
+          type:
+            - CanvasControlType
+          description: >
+            The key into the CanvasZonePart.columnDefinitionMap for the new
+            section count
+              and respective section factors.
+  - uid: '@ms/sp-canvas.CanvasZonePart.changeZoneIndex'
+    name: changeZoneIndex
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Changes the zone index when the zone is moved
+    syntax:
+      content: 'function changeZoneIndex(newZoneIndex: number)'
+      parameters:
+        - id: newZoneIndex
+          type:
+            - number
+          description: ''
+  - uid: '@ms/sp-canvas.CanvasZonePart.columnDefinitionMap'
+    name: columnDefinitionMap
+    fullName: columnDefinitionMap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Map<CanvasControlType> columnDefinitionMap
+      return:
+        type:
+          - Map<CanvasControlType>
+  - uid: '@ms/sp-canvas.CanvasZonePart.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Disposes the zone
+    syntax:
+      content: function dispose()
+      parameters: []
+  - uid: '@ms/sp-canvas.CanvasZonePart.fetchAllControls'
+    name: fetchAllControls
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Fetch all controls that are available in that zone
+    syntax:
+      content: 'function fetchAllControls(includeEmptySections: boolean)'
+      parameters:
+        - id: includeEmptySections
+          type:
+            - boolean
+          description: ''
+  - uid: '@ms/sp-canvas.CanvasZonePart.fetchControl'
+    name: fetchControl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Fetches a control from the zone if available
+    syntax:
+      content: 'function fetchControl(controlPosition: IControlPosition)'
+      parameters:
+        - id: controlPosition
+          type:
+            - '@@ms/sp-canvas.IControlPosition'
+          description: represents the position of the control
+      return:
+        type:
+          - '@@ms/sp-canvas.ICanvasControl'
+  - uid: '@ms/sp-canvas.CanvasZonePart.isEmpty'
+    name: isEmpty
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Determines if the underlying layout is empty
+    syntax:
+      content: function isEmpty()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.CanvasZonePart.moveControl'
+    name: moveControl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Moves a control inside the zone.
+    syntax:
+      content: >-
+        function moveControl(control: ICanvasControl, newControlPosition:
+        IControlPosition)
+      parameters:
+        - id: control
+          type:
+            - '@@ms/sp-canvas.ICanvasControl'
+          description: The control to be moved
+        - id: newControlPosition
+          type:
+            - '@@ms/sp-canvas.IControlPosition'
+          description: |
+            The position where the control will be moved to
+  - uid: '@ms/sp-canvas.CanvasZonePart.removeControl'
+    name: removeControl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes a control
+    syntax:
+      content: 'function removeControl(controlPosition: IControlPosition)'
+      parameters:
+        - id: controlPosition
+          type:
+            - '@@ms/sp-canvas.IControlPosition'
+          description: represents the control to remove
+      return:
+        type:
+          - string

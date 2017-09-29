@@ -1,0 +1,261 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISiteDataProvider'
+    name: ISiteDataProvider
+    fullName: ISiteDataProvider
+    children:
+      - '@ms/sp-tenant-admin-page.ISiteDataProvider.addView'
+      - '@ms/sp-tenant-admin-page.ISiteDataProvider.deleteSites'
+      - '@ms/sp-tenant-admin-page.ISiteDataProvider.getAllViews'
+      - '@ms/sp-tenant-admin-page.ISiteDataProvider.getDefaultView'
+      - '@ms/sp-tenant-admin-page.ISiteDataProvider.getFilterValues'
+      - '@ms/sp-tenant-admin-page.ISiteDataProvider.getSecondaryAdministrators'
+      - '@ms/sp-tenant-admin-page.ISiteDataProvider.getSiteDescription'
+      - '@ms/sp-tenant-admin-page.ISiteDataProvider.getSPListId'
+      - '@ms/sp-tenant-admin-page.ISiteDataProvider.getTenantSharingStatus'
+      - '@ms/sp-tenant-admin-page.ISiteDataProvider.queryNextSitePage'
+      - '@ms/sp-tenant-admin-page.ISiteDataProvider.querySites'
+      - '@ms/sp-tenant-admin-page.ISiteDataProvider.restoreDeletedSites'
+      - '@ms/sp-tenant-admin-page.ISiteDataProvider.saveView'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ISiteDataProvider.addView'
+    name: addView
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Create a new view in the SPList
+    syntax:
+      content: >-
+        function addView(viewTitle: string, query: ISiteQueryConditions,
+        viewFields: string[])
+      parameters:
+        - id: viewTitle
+          type:
+            - string
+          description: ''
+        - id: query
+          type:
+            - '@@ms/sp-tenant-admin-page.ISiteQueryConditions'
+          description: ''
+        - id: viewFields
+          type:
+            - 'string[]'
+          description: ''
+      return:
+        type:
+          - Promise<string>
+  - uid: '@ms/sp-tenant-admin-page.ISiteDataProvider.deleteSites'
+    name: deleteSites
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Delete sites to recycle bin.
+    syntax:
+      content: 'function deleteSites(siteIds: string[])'
+      parameters:
+        - id: siteIds
+          type:
+            - 'string[]'
+          description: ''
+      return:
+        type:
+          - 'Promise<@@ms/sp-tenant-admin-page.IResponseRemoveSite[]>'
+  - uid: '@ms/sp-tenant-admin-page.ISiteDataProvider.getAllViews'
+    name: getAllViews
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get all views from the SPList
+    syntax:
+      content: function getAllViews()
+      parameters: []
+      return:
+        type:
+          - Promise<IView>
+  - uid: '@ms/sp-tenant-admin-page.ISiteDataProvider.getDefaultView'
+    name: getDefaultView
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get the default view for SPList
+    syntax:
+      content: function getDefaultView()
+      parameters: []
+      return:
+        type:
+          - Promise<string>
+  - uid: '@ms/sp-tenant-admin-page.ISiteDataProvider.getFilterValues'
+    name: getFilterValues
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getFilterValues(columnKey: string)'
+      parameters:
+        - id: columnKey
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - 'Promise<string[]>'
+  - uid: '@ms/sp-tenant-admin-page.ISiteDataProvider.getSecondaryAdministrators'
+    name: getSecondaryAdministrators
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getSecondaryAdministrators(siteId: string)'
+      parameters:
+        - id: siteId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - >-
+            Promise<@@ms/sp-tenant-admin-page.IResponseGetSecondaryAdministrator[]>
+  - uid: '@ms/sp-tenant-admin-page.ISiteDataProvider.getSiteDescription'
+    name: getSiteDescription
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get the description of a site
+    syntax:
+      content: 'function getSiteDescription(siteId: string)'
+      parameters:
+        - id: siteId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<string>
+  - uid: '@ms/sp-tenant-admin-page.ISiteDataProvider.getSPListId'
+    name: getSPListId
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get the Guid of current SPList
+    syntax:
+      content: function getSPListId()
+      parameters: []
+      return:
+        type:
+          - Promise<string>
+  - uid: '@ms/sp-tenant-admin-page.ISiteDataProvider.getTenantSharingStatus'
+    name: getTenantSharingStatus
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get the tenant level sharing status.
+    syntax:
+      content: function getTenantSharingStatus()
+      parameters: []
+      return:
+        type:
+          - Promise<SharingStatus>
+  - uid: '@ms/sp-tenant-admin-page.ISiteDataProvider.queryNextSitePage'
+    name: queryNextSitePage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get the next page link of sites
+    syntax:
+      content: 'function queryNextSitePage(queryOptions: ISitesQueryOptions)'
+      parameters:
+        - id: queryOptions
+          type:
+            - '@@ms/sp-tenant-admin-page.ISitesQueryOptions'
+          description: ''
+      return:
+        type:
+          - 'Promise<@@ms/sp-tenant-admin-page.ISiteInfo[]>'
+  - uid: '@ms/sp-tenant-admin-page.ISiteDataProvider.querySites'
+    name: querySites
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function querySites(queryOptions: ISitesQueryOptions, queryParameters?:
+        string)
+      parameters:
+        - id: queryOptions
+          type:
+            - '@@ms/sp-tenant-admin-page.ISitesQueryOptions'
+          description: ''
+        - id: queryParameters
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - 'Promise<@@ms/sp-tenant-admin-page.ISiteInfo[]>'
+  - uid: '@ms/sp-tenant-admin-page.ISiteDataProvider.restoreDeletedSites'
+    name: restoreDeletedSites
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Restore deleted sites from recycle bin.
+    syntax:
+      content: 'function restoreDeletedSites(siteIds: string[])'
+      parameters:
+        - id: siteIds
+          type:
+            - 'string[]'
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-tenant-admin-page.IResponseRestoreDeletedSite>
+  - uid: '@ms/sp-tenant-admin-page.ISiteDataProvider.saveView'
+    name: saveView
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Overwrite an existing view in the SPList
+    syntax:
+      content: >-
+        function saveView(viewId: string, viewTitle: string, query:
+        ISiteQueryConditions, viewFields: string[])
+      parameters:
+        - id: viewId
+          type:
+            - string
+          description: ''
+        - id: viewTitle
+          type:
+            - string
+          description: ''
+        - id: query
+          type:
+            - '@@ms/sp-tenant-admin-page.ISiteQueryConditions'
+          description: ''
+        - id: viewFields
+          type:
+            - 'string[]'
+          description: ''
+      return:
+        type:
+          - Promise<void>

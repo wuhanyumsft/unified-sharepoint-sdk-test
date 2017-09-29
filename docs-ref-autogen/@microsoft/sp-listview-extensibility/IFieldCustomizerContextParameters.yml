@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-listview-extensibility.IFieldCustomizerContextParameters'
+    name: IFieldCustomizerContextParameters
+    fullName: IFieldCustomizerContextParameters
+    children:
+      - >-
+        @microsoft/sp-listview-extensibility.IFieldCustomizerContextParameters.field
+      - >-
+        @microsoft/sp-listview-extensibility.IFieldCustomizerContextParameters.listView
+    langs:
+      - typeScript
+    type: interface
+    summary: Constructor parameters for FieldCustomizerContext.
+    package: '@microsoft/sp-listview-extensibility'
+  - uid: >-
+      @microsoft/sp-listview-extensibility.IFieldCustomizerContextParameters.field
+    name: field
+    fullName: field
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: SPField field
+      return:
+        type:
+          - SPField
+  - uid: >-
+      @microsoft/sp-listview-extensibility.IFieldCustomizerContextParameters.listView
+    name: listView
+    fullName: listView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ListViewAccessor listView
+      return:
+        type:
+          - ListViewAccessor

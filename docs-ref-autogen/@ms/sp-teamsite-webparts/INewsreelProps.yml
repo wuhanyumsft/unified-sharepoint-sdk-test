@@ -1,0 +1,167 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.INewsreelProps'
+    name: INewsreelProps
+    fullName: INewsreelProps
+    children:
+      - '@ms/sp-teamsite-webparts.INewsreelProps.addButtonLabel'
+      - '@ms/sp-teamsite-webparts.INewsreelProps.helpItems'
+      - '@ms/sp-teamsite-webparts.INewsreelProps.isEditMode'
+      - '@ms/sp-teamsite-webparts.INewsreelProps.isLoading'
+      - '@ms/sp-teamsite-webparts.INewsreelProps.isMobileBrowser'
+      - '@ms/sp-teamsite-webparts.INewsreelProps.locale'
+      - '@ms/sp-teamsite-webparts.INewsreelProps.newsItems'
+      - '@ms/sp-teamsite-webparts.INewsreelProps.pageContext'
+      - '@ms/sp-teamsite-webparts.INewsreelProps.seeAllButtonLabel'
+      - '@ms/sp-teamsite-webparts.INewsreelProps.showAddButton'
+      - '@ms/sp-teamsite-webparts.INewsreelProps.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.INewsreelProps.addButtonLabel'
+    name: addButtonLabel
+    fullName: addButtonLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string addButtonLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.INewsreelProps.helpItems'
+    name: helpItems
+    fullName: helpItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'INewsItem[] helpItems'
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.INewsItem[]'
+  - uid: '@ms/sp-teamsite-webparts.INewsreelProps.isEditMode'
+    name: isEditMode
+    fullName: isEditMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isEditMode
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.INewsreelProps.isLoading'
+    name: isLoading
+    fullName: isLoading
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isLoading
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.INewsreelProps.isMobileBrowser'
+    name: isMobileBrowser
+    fullName: isMobileBrowser
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isMobileBrowser
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.INewsreelProps.locale'
+    name: locale
+    fullName: locale
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string locale
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.INewsreelProps.newsItems'
+    name: newsItems
+    fullName: newsItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'INewsItem[] newsItems'
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.INewsItem[]'
+  - uid: '@ms/sp-teamsite-webparts.INewsreelProps.pageContext'
+    name: pageContext
+    fullName: pageContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageContext pageContext
+      return:
+        type:
+          - PageContext
+  - uid: '@ms/sp-teamsite-webparts.INewsreelProps.seeAllButtonLabel'
+    name: seeAllButtonLabel
+    fullName: seeAllButtonLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string seeAllButtonLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.INewsreelProps.showAddButton'
+    name: showAddButton
+    fullName: showAddButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showAddButton
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.INewsreelProps.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

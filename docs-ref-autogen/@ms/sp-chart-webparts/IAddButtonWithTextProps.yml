@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-chart-webparts.IAddButtonWithTextProps'
+    name: IAddButtonWithTextProps
+    fullName: IAddButtonWithTextProps
+    children:
+      - '@ms/sp-chart-webparts.IAddButtonWithTextProps.disabled'
+      - '@ms/sp-chart-webparts.IAddButtonWithTextProps.onClick'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-chart-webparts'
+  - uid: '@ms/sp-chart-webparts.IAddButtonWithTextProps.disabled'
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean disabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-chart-webparts.IAddButtonWithTextProps.onClick'
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onClick
+      return:
+        type:
+          - () => void

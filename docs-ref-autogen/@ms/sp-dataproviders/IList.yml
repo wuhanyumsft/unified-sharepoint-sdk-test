@@ -1,0 +1,665 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IList'
+    name: IList
+    fullName: IList
+    children:
+      - '@ms/sp-dataproviders.IList.AllowContentTypes'
+      - '@ms/sp-dataproviders.IList.BaseTemplate'
+      - '@ms/sp-dataproviders.IList.BaseType'
+      - '@ms/sp-dataproviders.IList.ContentTypesEnabled'
+      - '@ms/sp-dataproviders.IList.CrawlNonDefaultViews'
+      - '@ms/sp-dataproviders.IList.Created'
+      - '@ms/sp-dataproviders.IList.DefaultContentApprovalWorkflowId'
+      - '@ms/sp-dataproviders.IList.DefaultViewUrl'
+      - '@ms/sp-dataproviders.IList.Description'
+      - '@ms/sp-dataproviders.IList.Direction'
+      - '@ms/sp-dataproviders.IList.DocumentTemplateUrl'
+      - '@ms/sp-dataproviders.IList.DraftVersionVisibility'
+      - '@ms/sp-dataproviders.IList.EnableAttachments'
+      - '@ms/sp-dataproviders.IList.EnableFolderCreation'
+      - '@ms/sp-dataproviders.IList.EnableMinorVersions'
+      - '@ms/sp-dataproviders.IList.EnableModeration'
+      - '@ms/sp-dataproviders.IList.EnableVersioning'
+      - '@ms/sp-dataproviders.IList.EntityTypeName'
+      - '@ms/sp-dataproviders.IList.FileSavePostProcessingEnabled'
+      - '@ms/sp-dataproviders.IList.ForceCheckout'
+      - '@ms/sp-dataproviders.IList.HasExternalDataSource'
+      - '@ms/sp-dataproviders.IList.Hidden'
+      - '@ms/sp-dataproviders.IList.Id'
+      - '@ms/sp-dataproviders.IList.ImageUrl'
+      - '@ms/sp-dataproviders.IList.IrmEnabled'
+      - '@ms/sp-dataproviders.IList.IrmExpire'
+      - '@ms/sp-dataproviders.IList.IrmReject'
+      - '@ms/sp-dataproviders.IList.IsApplicationList'
+      - '@ms/sp-dataproviders.IList.IsCatalog'
+      - '@ms/sp-dataproviders.IList.IsPrivate'
+      - '@ms/sp-dataproviders.IList.ItemCount'
+      - '@ms/sp-dataproviders.IList.LastItemDeletedDate'
+      - '@ms/sp-dataproviders.IList.LastItemModifiedDate'
+      - '@ms/sp-dataproviders.IList.LastItemUserModifiedDate'
+      - '@ms/sp-dataproviders.IList.ListExperienceOptions'
+      - '@ms/sp-dataproviders.IList.ListItemEntityTypeFullName'
+      - '@ms/sp-dataproviders.IList.MajorVersionLimit'
+      - '@ms/sp-dataproviders.IList.MajorWithMinorVersionsLimit'
+      - '@ms/sp-dataproviders.IList.MultipleDataList'
+      - '@ms/sp-dataproviders.IList.NoCrawl'
+      - '@ms/sp-dataproviders.IList.ParentWebUrl'
+      - '@ms/sp-dataproviders.IList.ParserDisabled'
+      - '@ms/sp-dataproviders.IList.RootFolder'
+      - '@ms/sp-dataproviders.IList.ServerTemplateCanCreateFolders'
+      - '@ms/sp-dataproviders.IList.TemplateFeatureId'
+      - '@ms/sp-dataproviders.IList.Title'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Result from the _api/web/Lists end point when querying on list meta data.
+
+      See: https://msdn.microsoft.com/en-us/library/office/dn531433.aspx, "List
+      and list items REST API reference"
+
+      All properties declared as optional because the API request can specify a
+      subset of columns to be returned.
+
+      Properties confirmed via the Fiddler trace results used to create the Mock
+      test data.
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IList.AllowContentTypes'
+    name: AllowContentTypes
+    fullName: AllowContentTypes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean AllowContentTypes
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.BaseTemplate'
+    name: BaseTemplate
+    fullName: BaseTemplate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number BaseTemplate
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-dataproviders.IList.BaseType'
+    name: BaseType
+    fullName: BaseType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number BaseType
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-dataproviders.IList.ContentTypesEnabled'
+    name: ContentTypesEnabled
+    fullName: ContentTypesEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean ContentTypesEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.CrawlNonDefaultViews'
+    name: CrawlNonDefaultViews
+    fullName: CrawlNonDefaultViews
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean CrawlNonDefaultViews
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.Created'
+    name: Created
+    fullName: Created
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Created
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IList.DefaultContentApprovalWorkflowId'
+    name: DefaultContentApprovalWorkflowId
+    fullName: DefaultContentApprovalWorkflowId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string DefaultContentApprovalWorkflowId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IList.DefaultViewUrl'
+    name: DefaultViewUrl
+    fullName: DefaultViewUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string DefaultViewUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IList.Description'
+    name: Description
+    fullName: Description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Description
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IList.Direction'
+    name: Direction
+    fullName: Direction
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Direction
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IList.DocumentTemplateUrl'
+    name: DocumentTemplateUrl
+    fullName: DocumentTemplateUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string DocumentTemplateUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IList.DraftVersionVisibility'
+    name: DraftVersionVisibility
+    fullName: DraftVersionVisibility
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number DraftVersionVisibility
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-dataproviders.IList.EnableAttachments'
+    name: EnableAttachments
+    fullName: EnableAttachments
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean EnableAttachments
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.EnableFolderCreation'
+    name: EnableFolderCreation
+    fullName: EnableFolderCreation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean EnableFolderCreation
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.EnableMinorVersions'
+    name: EnableMinorVersions
+    fullName: EnableMinorVersions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean EnableMinorVersions
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.EnableModeration'
+    name: EnableModeration
+    fullName: EnableModeration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean EnableModeration
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.EnableVersioning'
+    name: EnableVersioning
+    fullName: EnableVersioning
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean EnableVersioning
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.EntityTypeName'
+    name: EntityTypeName
+    fullName: EntityTypeName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string EntityTypeName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IList.FileSavePostProcessingEnabled'
+    name: FileSavePostProcessingEnabled
+    fullName: FileSavePostProcessingEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean FileSavePostProcessingEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.ForceCheckout'
+    name: ForceCheckout
+    fullName: ForceCheckout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean ForceCheckout
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.HasExternalDataSource'
+    name: HasExternalDataSource
+    fullName: HasExternalDataSource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean HasExternalDataSource
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.Hidden'
+    name: Hidden
+    fullName: Hidden
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean Hidden
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.Id'
+    name: Id
+    fullName: Id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IList.ImageUrl'
+    name: ImageUrl
+    fullName: ImageUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ImageUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IList.IrmEnabled'
+    name: IrmEnabled
+    fullName: IrmEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean IrmEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.IrmExpire'
+    name: IrmExpire
+    fullName: IrmExpire
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean IrmExpire
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.IrmReject'
+    name: IrmReject
+    fullName: IrmReject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean IrmReject
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.IsApplicationList'
+    name: IsApplicationList
+    fullName: IsApplicationList
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean IsApplicationList
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.IsCatalog'
+    name: IsCatalog
+    fullName: IsCatalog
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean IsCatalog
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.IsPrivate'
+    name: IsPrivate
+    fullName: IsPrivate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean IsPrivate
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.ItemCount'
+    name: ItemCount
+    fullName: ItemCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number ItemCount
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-dataproviders.IList.LastItemDeletedDate'
+    name: LastItemDeletedDate
+    fullName: LastItemDeletedDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string LastItemDeletedDate
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IList.LastItemModifiedDate'
+    name: LastItemModifiedDate
+    fullName: LastItemModifiedDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string LastItemModifiedDate
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IList.LastItemUserModifiedDate'
+    name: LastItemUserModifiedDate
+    fullName: LastItemUserModifiedDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string LastItemUserModifiedDate
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IList.ListExperienceOptions'
+    name: ListExperienceOptions
+    fullName: ListExperienceOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number ListExperienceOptions
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-dataproviders.IList.ListItemEntityTypeFullName'
+    name: ListItemEntityTypeFullName
+    fullName: ListItemEntityTypeFullName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ListItemEntityTypeFullName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IList.MajorVersionLimit'
+    name: MajorVersionLimit
+    fullName: MajorVersionLimit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number MajorVersionLimit
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-dataproviders.IList.MajorWithMinorVersionsLimit'
+    name: MajorWithMinorVersionsLimit
+    fullName: MajorWithMinorVersionsLimit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number MajorWithMinorVersionsLimit
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-dataproviders.IList.MultipleDataList'
+    name: MultipleDataList
+    fullName: MultipleDataList
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean MultipleDataList
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.NoCrawl'
+    name: NoCrawl
+    fullName: NoCrawl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean NoCrawl
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.ParentWebUrl'
+    name: ParentWebUrl
+    fullName: ParentWebUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ParentWebUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IList.ParserDisabled'
+    name: ParserDisabled
+    fullName: ParserDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean ParserDisabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.RootFolder'
+    name: RootFolder
+    fullName: RootFolder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function RootFolder
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-dataproviders.IList.ServerTemplateCanCreateFolders'
+    name: ServerTemplateCanCreateFolders
+    fullName: ServerTemplateCanCreateFolders
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean ServerTemplateCanCreateFolders
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-dataproviders.IList.TemplateFeatureId'
+    name: TemplateFeatureId
+    fullName: TemplateFeatureId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string TemplateFeatureId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IList.Title'
+    name: Title
+    fullName: Title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Title
+      return:
+        type:
+          - string

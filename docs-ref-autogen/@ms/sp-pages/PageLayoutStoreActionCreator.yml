@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.PageLayoutStoreActionCreator'
+    name: PageLayoutStoreActionCreator
+    fullName: PageLayoutStoreActionCreator
+    children:
+      - '@ms/sp-pages.PageLayoutStoreActionCreator.changeCurrentPageLayout'
+    langs:
+      - typeScript
+    type: class
+    summary: Contains all actions related to change page layout
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.PageLayoutStoreActionCreator.changeCurrentPageLayout'
+    name: changeCurrentPageLayout
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function changeCurrentPageLayout(pageLayoutType: string)'
+      parameters:
+        - id: pageLayoutType
+          type:
+            - string
+          description: ''

@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-html-embed.IBingPreviewLayoutState'
+    name: IBingPreviewLayoutState
+    fullName: IBingPreviewLayoutState
+    children:
+      - '@ms/sp-html-embed.IBingPreviewLayoutState.isValidUrl'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-html-embed'
+  - uid: '@ms/sp-html-embed.IBingPreviewLayoutState.isValidUrl'
+    name: isValidUrl
+    fullName: isValidUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isValidUrl
+      return:
+        type:
+          - boolean

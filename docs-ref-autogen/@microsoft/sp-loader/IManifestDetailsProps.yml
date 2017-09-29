@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.IManifestDetailsProps'
+    name: IManifestDetailsProps
+    fullName: IManifestDetailsProps
+    children:
+      - '@microsoft/sp-loader.IManifestDetailsProps.manifest'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.IManifestDetailsProps.manifest'
+    name: manifest
+    fullName: manifest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IManifestStoreEntry manifest
+      return:
+        type:
+          - '@@microsoft/sp-loader.IManifestStoreEntry'

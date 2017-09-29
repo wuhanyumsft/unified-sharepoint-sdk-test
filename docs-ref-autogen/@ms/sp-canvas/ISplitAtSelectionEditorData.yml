@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ISplitAtSelectionEditorData'
+    name: ISplitAtSelectionEditorData
+    fullName: ISplitAtSelectionEditorData
+    children:
+      - '@ms/sp-canvas.ISplitAtSelectionEditorData.postSelectionData'
+      - '@ms/sp-canvas.ISplitAtSelectionEditorData.preSelectionData'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ISplitAtSelectionEditorData.postSelectionData'
+    name: postSelectionData
+    fullName: postSelectionData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string postSelectionData
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.ISplitAtSelectionEditorData.preSelectionData'
+    name: preSelectionData
+    fullName: preSelectionData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string preSelectionData
+      return:
+        type:
+          - string

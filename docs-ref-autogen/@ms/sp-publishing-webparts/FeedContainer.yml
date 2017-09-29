@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.FeedContainer'
+    name: FeedContainer
+    fullName: FeedContainer
+    children:
+      - '@ms/sp-publishing-webparts.FeedContainer.componentWillReceiveProps'
+      - '@ms/sp-publishing-webparts.FeedContainer.constructor'
+      - '@ms/sp-publishing-webparts.FeedContainer.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.FeedContainer<@@ms/sp-publishing-webparts.IFeedContainerProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.FeedContainer.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: IFeedContainerProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-publishing-webparts.IFeedContainerProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.FeedContainer.constructor'
+    name: FeedContainer
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new FeedContainer(props: IFeedContainerProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IFeedContainerProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.FeedContainer.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

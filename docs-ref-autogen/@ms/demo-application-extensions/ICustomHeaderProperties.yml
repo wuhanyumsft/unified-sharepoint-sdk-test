@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/demo-application-extensions.ICustomHeaderProperties'
+    name: ICustomHeaderProperties
+    fullName: ICustomHeaderProperties
+    children:
+      - '@ms/demo-application-extensions.ICustomHeaderProperties.testMessage'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/demo-application-extensions'
+  - uid: '@ms/demo-application-extensions.ICustomHeaderProperties.testMessage'
+    name: testMessage
+    fullName: testMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A debug message to display
+    syntax:
+      content: string testMessage
+      return:
+        type:
+          - string

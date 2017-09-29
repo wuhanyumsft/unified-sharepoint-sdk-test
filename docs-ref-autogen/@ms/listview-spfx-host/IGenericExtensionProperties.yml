@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/listview-spfx-host.IGenericExtensionProperties'
+    name: IGenericExtensionProperties
+    fullName: IGenericExtensionProperties
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      This is just an empty interface to represent the type of the extension
+      properties
+    package: '@ms/listview-spfx-host'

@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IWebPartFormProps'
+    name: IWebPartFormProps
+    fullName: IWebPartFormProps
+    children:
+      - '@microsoft/sp-webpart-base.IWebPartFormProps.isClassicSharePointPage'
+    langs:
+      - typeScript
+    type: interface
+    summary: Used to pass the environment type (classic page or not) to WebPartForm.
+    extends:
+      name: any
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IWebPartFormProps.isClassicSharePointPage'
+    name: isClassicSharePointPage
+    fullName: isClassicSharePointPage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isClassicSharePointPage
+      return:
+        type:
+          - boolean

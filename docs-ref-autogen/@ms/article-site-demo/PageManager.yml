@@ -1,0 +1,262 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/article-site-demo.PageManager'
+    name: PageManager
+    fullName: PageManager
+    children:
+      - '@ms/article-site-demo.PageManager.bindableFieldsById'
+      - '@ms/article-site-demo.PageManager.currentUrl'
+      - '@ms/article-site-demo.PageManager.currentUrlQuery'
+      - '@ms/article-site-demo.PageManager.editing'
+      - '@ms/article-site-demo.PageManager.listSchema'
+      - '@ms/article-site-demo.PageManager.loadPage'
+      - '@ms/article-site-demo.PageManager.notifyEdited'
+      - '@ms/article-site-demo.PageManager.onPageLoaded'
+      - '@ms/article-site-demo.PageManager.constructor'
+      - '@ms/article-site-demo.PageManager.performCancelEditing'
+      - '@ms/article-site-demo.PageManager.performCreateNewPage'
+      - '@ms/article-site-demo.PageManager.performDeletePage'
+      - '@ms/article-site-demo.PageManager.performSaveAndStopEditing'
+      - '@ms/article-site-demo.PageManager.performStartEditing'
+      - '@ms/article-site-demo.PageManager.registerExclusiveBinding'
+      - '@ms/article-site-demo.PageManager.saveAllExclusiveBindings'
+      - '@ms/article-site-demo.PageManager.tryNavigateToPage'
+      - '@ms/article-site-demo.PageManager.unregisterExclusiveBinding'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/article-site-demo'
+  - uid: '@ms/article-site-demo.PageManager.bindableFieldsById'
+    name: bindableFieldsById
+    fullName: bindableFieldsById
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Map<string> bindableFieldsById
+      return:
+        type:
+          - Map<string>
+  - uid: '@ms/article-site-demo.PageManager.currentUrl'
+    name: currentUrl
+    fullName: currentUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string currentUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/article-site-demo.PageManager.currentUrlQuery'
+    name: currentUrlQuery
+    fullName: currentUrlQuery
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Map<string> currentUrlQuery
+      return:
+        type:
+          - Map<string>
+  - uid: '@ms/article-site-demo.PageManager.editing'
+    name: editing
+    fullName: editing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean editing
+      return:
+        type:
+          - boolean
+  - uid: '@ms/article-site-demo.PageManager.listSchema'
+    name: listSchema
+    fullName: listSchema
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ListSchema listSchema
+      return:
+        type:
+          - '@@ms/article-site-demo.ListSchema'
+  - uid: '@ms/article-site-demo.PageManager.loadPage'
+    name: loadPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function loadPage(absoluteUrl: string, page: CachedPage)'
+      parameters:
+        - id: absoluteUrl
+          type:
+            - string
+          description: ''
+        - id: page
+          type:
+            - '@@ms/article-site-demo.CachedPage'
+          description: ''
+  - uid: '@ms/article-site-demo.PageManager.notifyEdited'
+    name: notifyEdited
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function notifyEdited()
+      parameters: []
+  - uid: '@ms/article-site-demo.PageManager.onPageLoaded'
+    name: onPageLoaded
+    fullName: onPageLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void onPageLoaded
+      return:
+        type:
+          - () => void
+  - uid: '@ms/article-site-demo.PageManager.constructor'
+    name: PageManager
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PageManager(shell: IShell)'
+      parameters:
+        - id: shell
+          type:
+            - IShell
+          description: ''
+  - uid: '@ms/article-site-demo.PageManager.performCancelEditing'
+    name: performCancelEditing
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function performCancelEditing()
+      parameters: []
+  - uid: '@ms/article-site-demo.PageManager.performCreateNewPage'
+    name: performCreateNewPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function performCreateNewPage(pageName: string)'
+      parameters:
+        - id: pageName
+          type:
+            - string
+          description: ''
+  - uid: '@ms/article-site-demo.PageManager.performDeletePage'
+    name: performDeletePage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function performDeletePage()
+      parameters: []
+  - uid: '@ms/article-site-demo.PageManager.performSaveAndStopEditing'
+    name: performSaveAndStopEditing
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function performSaveAndStopEditing()
+      parameters: []
+  - uid: '@ms/article-site-demo.PageManager.performStartEditing'
+    name: performStartEditing
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function performStartEditing()
+      parameters: []
+  - uid: '@ms/article-site-demo.PageManager.registerExclusiveBinding'
+    name: registerExclusiveBinding
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function registerExclusiveBinding(exclusiveBoundFieldView:
+        IExclusiveBoundFieldView)
+      parameters:
+        - id: exclusiveBoundFieldView
+          type:
+            - '@@ms/article-site-demo.IExclusiveBoundFieldView'
+          description: ''
+  - uid: '@ms/article-site-demo.PageManager.saveAllExclusiveBindings'
+    name: saveAllExclusiveBindings
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function saveAllExclusiveBindings()
+      parameters: []
+  - uid: '@ms/article-site-demo.PageManager.tryNavigateToPage'
+    name: tryNavigateToPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function tryNavigateToPage(absoluteUrl: string)'
+      parameters:
+        - id: absoluteUrl
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/article-site-demo.PageManager.unregisterExclusiveBinding'
+    name: unregisterExclusiveBinding
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function unregisterExclusiveBinding(exclusiveBoundFieldView:
+        IExclusiveBoundFieldView)
+      parameters:
+        - id: exclusiveBoundFieldView
+          type:
+            - '@@ms/article-site-demo.IExclusiveBoundFieldView'
+          description: ''

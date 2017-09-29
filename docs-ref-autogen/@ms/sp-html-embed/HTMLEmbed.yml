@@ -1,0 +1,145 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-html-embed.HTMLEmbed'
+    name: HTMLEmbed
+    fullName: HTMLEmbed
+    children:
+      - '@ms/sp-html-embed.HTMLEmbed.componentDidMount'
+      - '@ms/sp-html-embed.HTMLEmbed.componentDidUpdate'
+      - '@ms/sp-html-embed.HTMLEmbed.componentWillMount'
+      - '@ms/sp-html-embed.HTMLEmbed.componentWillReceiveProps'
+      - '@ms/sp-html-embed.HTMLEmbed.focus'
+      - '@ms/sp-html-embed.HTMLEmbed.getErrorMessage'
+      - '@ms/sp-html-embed.HTMLEmbed.getMetadata'
+      - '@ms/sp-html-embed.HTMLEmbed.constructor'
+      - '@ms/sp-html-embed.HTMLEmbed.render'
+      - '@ms/sp-html-embed.HTMLEmbed.validateDone'
+    langs:
+      - typeScript
+    type: class
+    summary: A client side webpart to embed some code on a page.
+    extends:
+      name: '@@ms/sp-html-embed.HTMLEmbed<@@ms/sp-html-embed.IHTMLEmbedProps>'
+    package: '@ms/sp-html-embed'
+  - uid: '@ms/sp-html-embed.HTMLEmbed.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-html-embed.HTMLEmbed.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+  - uid: '@ms/sp-html-embed.HTMLEmbed.componentWillMount'
+    name: componentWillMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillMount()
+      parameters: []
+  - uid: '@ms/sp-html-embed.HTMLEmbed.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: IHTMLEmbedProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-html-embed.IHTMLEmbedProps'
+          description: ''
+  - uid: '@ms/sp-html-embed.HTMLEmbed.focus'
+    name: focus
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+  - uid: '@ms/sp-html-embed.HTMLEmbed.getErrorMessage'
+    name: getErrorMessage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getErrorMessage()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.HTMLEmbed.getMetadata'
+    name: getMetadata
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMetadata()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-html-embed.IEmbeddableUrlMetadata'
+  - uid: '@ms/sp-html-embed.HTMLEmbed.constructor'
+    name: HTMLEmbed
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new HTMLEmbed(props: IHTMLEmbedProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-html-embed.IHTMLEmbedProps'
+          description: ''
+  - uid: '@ms/sp-html-embed.HTMLEmbed.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Main entry point, called by the ClientSideWebPart Manager. Loads the
+      webpart's DOM manipulation.
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-html-embed.HTMLEmbed.validateDone'
+    name: validateDone
+    fullName: validateDone
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string validateDone
+      return:
+        type:
+          - string

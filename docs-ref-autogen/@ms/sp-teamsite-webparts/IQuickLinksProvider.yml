@@ -1,0 +1,356 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksProvider'
+    name: IQuickLinksProvider
+    fullName: IQuickLinksProvider
+    children:
+      - '@ms/sp-teamsite-webparts.IQuickLinksProvider.createOrUpdateQuickLink'
+      - '@ms/sp-teamsite-webparts.IQuickLinksProvider.deleteQuickLink'
+      - '@ms/sp-teamsite-webparts.IQuickLinksProvider.generateRenderInfo'
+      - '@ms/sp-teamsite-webparts.IQuickLinksProvider.getDefaultImageUrl'
+      - '@ms/sp-teamsite-webparts.IQuickLinksProvider.getDefaultRenderInfo'
+      - '@ms/sp-teamsite-webparts.IQuickLinksProvider.getHostPageLoggingType'
+      - '@ms/sp-teamsite-webparts.IQuickLinksProvider.getItemMetadata'
+      - '@ms/sp-teamsite-webparts.IQuickLinksProvider.getQuickLinks'
+      - '@ms/sp-teamsite-webparts.IQuickLinksProvider.getRelativePath'
+      - '@ms/sp-teamsite-webparts.IQuickLinksProvider.getSiteActivity'
+      - '@ms/sp-teamsite-webparts.IQuickLinksProvider.getThumbnailUrl'
+      - '@ms/sp-teamsite-webparts.IQuickLinksProvider.hasEditPermissions'
+      - '@ms/sp-teamsite-webparts.IQuickLinksProvider.isInternalUrl'
+      - '@ms/sp-teamsite-webparts.IQuickLinksProvider.normalizeGuidSet'
+      - '@ms/sp-teamsite-webparts.IQuickLinksProvider.uploadImage'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Provides data in response to call from the client by routing them through
+      QuickLinksDataSource or webpart properties.
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksProvider.createOrUpdateQuickLink'
+    name: createOrUpdateQuickLink
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Creates a new quick item or updates an existing one. The id field in
+      newItem
+
+      determines whether this is a create or an update. If the id is specified,
+
+      this is an update. Otherwise, it is a create. Next, the location of
+      newItem is set.
+
+      The location that newItem is placed is based on afterItemId. The server
+      will attempt to place
+
+      newItem directly after the item with id equal to afterItemId, if
+      afterItemId is negative
+
+      or no item with that id can be found, newItem will be placed at the
+      beginning.
+
+      If afterItemId is 0 and this is an update, newItem will not be moved from
+      its
+
+      previous place. If afterItemId is 0 and this is a create, newItem will
+
+      be placed at the beginning.
+
+      The isMove parameter does not change the behavior on the server, but
+
+      affects the text of the error messages on failure.
+    syntax:
+      content: >-
+        function createOrUpdateQuickLink(newItem: IQuickLink, afterItemId:
+        number, isMove?: boolean)
+      parameters:
+        - id: newItem
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLink'
+          description: ''
+        - id: afterItemId
+          type:
+            - number
+          description: ''
+        - id: isMove
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - >-
+            Promise<@@ms/sp-teamsite-webparts.IResult<@@ms/sp-teamsite-webparts.IQuickLink>>
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksProvider.deleteQuickLink'
+    name: deleteQuickLink
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Deletes the quick item with the indicated item id
+    syntax:
+      content: 'function deleteQuickLink(itemId: number)'
+      parameters:
+        - id: itemId
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-teamsite-webparts.IResult<void>>
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksProvider.generateRenderInfo'
+    name: generateRenderInfo
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function generateRenderInfo(item: IQuickLink, pictureUrlOverride?:
+        string)
+      parameters:
+        - id: item
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLink'
+          description: ''
+        - id: pictureUrlOverride
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IQuickLinkRenderInfo'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksProvider.getDefaultImageUrl'
+    name: getDefaultImageUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the default image url for a quick item of unknown type.
+    syntax:
+      content: function getDefaultImageUrl()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksProvider.getDefaultRenderInfo'
+    name: getDefaultRenderInfo
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns default render behavior for a generic quick item.
+    syntax:
+      content: function getDefaultRenderInfo()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IQuickLinkRenderInfo'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksProvider.getHostPageLoggingType'
+    name: getHostPageLoggingType
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns the logging type enum element associated with the page hosting
+      this webpart.
+    syntax:
+      content: function getHostPageLoggingType()
+      parameters: []
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksProvider.getItemMetadata'
+    name: getItemMetadata
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Given a url, attempts to retrieve metadata about it, such as its title
+
+      and object type. If useContextWeb is true, it assumes the url
+
+      is in the same web as the current context web. This is faster but will
+
+      fail if the url is not in the current context web.
+
+      If the guid of the item can be decided before sending the request, it
+      should be passed in order
+
+      to get the preview image from thumbnail service. Otherwise the legacy
+      preview service will be used.
+    syntax:
+      content: >-
+        function getItemMetadata(url: string, useContextWeb: boolean,
+        itemGuidSet?: IGuidSet)
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+        - id: useContextWeb
+          type:
+            - boolean
+          description: ''
+        - id: itemGuidSet
+          type:
+            - '@@ms/sp-teamsite-webparts.IGuidSet'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@@ms/sp-teamsite-webparts.IQuickLink>
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksProvider.getQuickLinks'
+    name: getQuickLinks
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Retrieves highest ranked quick links.
+    syntax:
+      content: function getQuickLinks()
+      parameters: []
+      return:
+        type:
+          - 'Promise<@@ms/sp-teamsite-webparts.IQuickLink[]>'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksProvider.getRelativePath'
+    name: getRelativePath
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get the server relative url for the given url.
+    syntax:
+      content: 'function getRelativePath(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: |
+            url string
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksProvider.getSiteActivity'
+    name: getSiteActivity
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Retrieves the most recent changes made within the current site. Only
+      changes related to
+
+      files, folders, lists, and list items are displayed.
+    syntax:
+      content: function getSiteActivity()
+      parameters: []
+      return:
+        type:
+          - 'Promise<@@ms/sp-teamsite-webparts.IActivity[]>'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksProvider.getThumbnailUrl'
+    name: getThumbnailUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns a preview url for the image specified by the given guids. If webId
+      or siteId are unspecified, the web
+
+      and site ids of the current web and site are used.
+    syntax:
+      content: >-
+        function getThumbnailUrl(imageGuidSet: IGuidSet, link?: string, width?:
+        number)
+      parameters:
+        - id: imageGuidSet
+          type:
+            - '@@ms/sp-teamsite-webparts.IGuidSet'
+          description: ''
+        - id: link
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: width
+          type:
+            - number
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksProvider.hasEditPermissions'
+    name: hasEditPermissions
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Returns true if and only if the current user has permission
+      to edit quick links.
+    syntax:
+      content: function hasEditPermissions()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksProvider.isInternalUrl'
+    name: isInternalUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Check if the Url returned from the service is a same tenant URL.
+    syntax:
+      content: 'function isInternalUrl(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: |
+            url string
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksProvider.normalizeGuidSet'
+    name: normalizeGuidSet
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Normalizes all of the guids in guidSet to a standard format.
+
+      The fields siteId and webId will be filled with the value in current page
+      context if they are undefined.
+    syntax:
+      content: 'function normalizeGuidSet(guidSet: IGuidSet)'
+      parameters:
+        - id: guidSet
+          type:
+            - '@@ms/sp-teamsite-webparts.IGuidSet'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IGuidSet'
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksProvider.uploadImage'
+    name: uploadImage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Uploads the supplied image file.
+    syntax:
+      content: 'function uploadImage(file: File)'
+      parameters:
+        - id: file
+          type:
+            - File
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-teamsite-webparts.IUploadImageResult>

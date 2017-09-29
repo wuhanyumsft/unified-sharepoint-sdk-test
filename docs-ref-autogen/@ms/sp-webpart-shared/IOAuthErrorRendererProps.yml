@@ -1,0 +1,97 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.IOAuthErrorRendererProps'
+    name: IOAuthErrorRendererProps
+    fullName: IOAuthErrorRendererProps
+    children:
+      - '@ms/sp-webpart-shared.IOAuthErrorRendererProps.contentClassName'
+      - '@ms/sp-webpart-shared.IOAuthErrorRendererProps.customErrorMessage'
+      - '@ms/sp-webpart-shared.IOAuthErrorRendererProps.error'
+      - '@ms/sp-webpart-shared.IOAuthErrorRendererProps.webpartAlias'
+      - '@ms/sp-webpart-shared.IOAuthErrorRendererProps.webpartIcon'
+      - '@ms/sp-webpart-shared.IOAuthErrorRendererProps.webpartName'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.IOAuthErrorRendererProps.contentClassName'
+    name: contentClassName
+    fullName: contentClassName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Optional CSS class name for the root element of content. Use this to
+      apply custom styles to the placeholder.
+    syntax:
+      content: string contentClassName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IOAuthErrorRendererProps.customErrorMessage'
+    name: customErrorMessage
+    fullName: customErrorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional override of the error message to be displayed
+    syntax:
+      content: string customErrorMessage
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IOAuthErrorRendererProps.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Full Error from token auth
+    syntax:
+      content: OAuthUtilityError error
+      return:
+        type:
+          - OAuthUtilityError
+  - uid: '@ms/sp-webpart-shared.IOAuthErrorRendererProps.webpartAlias'
+    name: webpartAlias
+    fullName: webpartAlias
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Alias of the webpart for diagnostics
+    syntax:
+      content: string webpartAlias
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IOAuthErrorRendererProps.webpartIcon'
+    name: webpartIcon
+    fullName: webpartIcon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Icon of webpart to show in the placeholder
+    syntax:
+      content: string webpartIcon
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.IOAuthErrorRendererProps.webpartName'
+    name: webpartName
+    fullName: webpartName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Name of webpart to show under the webpart icon
+    syntax:
+      content: string webpartName
+      return:
+        type:
+          - string

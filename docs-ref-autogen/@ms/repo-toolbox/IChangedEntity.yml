@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/repo-toolbox.IChangedEntity'
+    name: IChangedEntity
+    fullName: IChangedEntity<TSize>
+    children:
+      - '@ms/repo-toolbox.IChangedEntity.entityName'
+      - '@ms/repo-toolbox.IChangedEntity.newSizes'
+      - '@ms/repo-toolbox.IChangedEntity.oldSizes'
+      - '@ms/repo-toolbox.IChangedEntity.projectName'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/repo-toolbox'
+  - uid: '@ms/repo-toolbox.IChangedEntity.entityName'
+    name: entityName
+    fullName: entityName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string entityName
+      return:
+        type:
+          - string
+  - uid: '@ms/repo-toolbox.IChangedEntity.newSizes'
+    name: newSizes
+    fullName: newSizes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: TSize newSizes
+      return:
+        type:
+          - TSize
+  - uid: '@ms/repo-toolbox.IChangedEntity.oldSizes'
+    name: oldSizes
+    fullName: oldSizes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: TSize oldSizes
+      return:
+        type:
+          - TSize
+  - uid: '@ms/repo-toolbox.IChangedEntity.projectName'
+    name: projectName
+    fullName: projectName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string projectName
+      return:
+        type:
+          - string

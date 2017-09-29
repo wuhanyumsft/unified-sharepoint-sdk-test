@@ -1,0 +1,78 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-client-preview.ResourceKey'
+    name: ResourceKey
+    fullName: ResourceKey
+    children:
+      - '@microsoft/sp-client-preview.ResourceKey.create'
+      - '@microsoft/sp-client-preview.ResourceKey.id'
+      - '@microsoft/sp-client-preview.ResourceKey.name'
+      - '@microsoft/sp-client-preview.ResourceKey.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: Represents a ResourceKey
+    package: '@microsoft/sp-client-preview'
+  - uid: '@microsoft/sp-client-preview.ResourceKey.create'
+    name: create
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates an instance of the ResourceKey
+    syntax:
+      content: 'static function create(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: |
+            represents the name of the resource
+      return:
+        type:
+          - '@@microsoft/sp-client-preview.IResourceKey'
+  - uid: '@microsoft/sp-client-preview.ResourceKey.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-client-preview.ResourceKey.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-client-preview.ResourceKey.constructor'
+    name: ResourceKey
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Initializes an instance of the ResourceKey
+    syntax:
+      content: 'new ResourceKey(id: string, name: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: represents the resource id
+        - id: name
+          type:
+            - string
+          description: |
+            represents the resource name

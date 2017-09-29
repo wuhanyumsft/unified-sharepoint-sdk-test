@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.ISearchAPIRawResponseRowData'
+    name: ISearchAPIRawResponseRowData
+    fullName: ISearchAPIRawResponseRowData
+    children:
+      - '@ms/sp-dataproviders.ISearchAPIRawResponseRowData.Key'
+      - '@ms/sp-dataproviders.ISearchAPIRawResponseRowData.Value'
+      - '@ms/sp-dataproviders.ISearchAPIRawResponseRowData.ValueType'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.ISearchAPIRawResponseRowData.Key'
+    name: Key
+    fullName: Key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Key
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIRawResponseRowData.Value'
+    name: Value
+    fullName: Value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Value
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIRawResponseRowData.ValueType'
+    name: ValueType
+    fullName: ValueType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ValueType
+      return:
+        type:
+          - string

@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.TextResourceRequest'
+    name: TextResourceRequest
+    fullName: TextResourceRequest
+    children:
+      - '@ms/sp-client-projects.TextResourceRequest.key'
+      - '@ms/sp-client-projects.TextResourceRequest.url'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.TextResourceRequest.key'
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string key
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.TextResourceRequest.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string url
+      return:
+        type:
+          - string

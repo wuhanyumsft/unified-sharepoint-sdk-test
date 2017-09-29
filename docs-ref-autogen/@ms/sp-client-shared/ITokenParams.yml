@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-shared.ITokenParams'
+    name: ITokenParams
+    fullName: ITokenParams
+    children:
+      - '@ms/sp-client-shared.ITokenParams.accessToken'
+      - '@ms/sp-client-shared.ITokenParams.expiresOn'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-client-shared'
+  - uid: '@ms/sp-client-shared.ITokenParams.accessToken'
+    name: accessToken
+    fullName: accessToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string accessToken
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-shared.ITokenParams.expiresOn'
+    name: expiresOn
+    fullName: expiresOn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number expiresOn
+      return:
+        type:
+          - number

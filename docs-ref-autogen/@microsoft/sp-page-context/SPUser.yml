@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-page-context.SPUser'
+    name: SPUser
+    fullName: SPUser
+    children:
+      - '@microsoft/sp-page-context.SPUser.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      This class is primarily used with the PageContext class.  It provides
+      contextual information
+
+      for the SharePoint user that is accessing the page.
+    package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.SPUser.constructor'
+    name: SPUser
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SPUser(data: ISPUserData)'
+      parameters:
+        - id: data
+          type:
+            - '@@microsoft/sp-page-context.ISPUserData'
+          description: ''

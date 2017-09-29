@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.IRestResponse'
+    name: IRestResponse
+    fullName: IRestResponse
+    children:
+      - '@microsoft/sp-http.IRestResponse.FormDigestTimeoutSeconds'
+      - '@microsoft/sp-http.IRestResponse.FormDigestValue'
+    langs:
+      - typeScript
+    type: interface
+    summary: Represents the JSON response of the /_api/contextinfo REST call.
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.IRestResponse.FormDigestTimeoutSeconds'
+    name: FormDigestTimeoutSeconds
+    fullName: FormDigestTimeoutSeconds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number FormDigestTimeoutSeconds
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-http.IRestResponse.FormDigestValue'
+    name: FormDigestValue
+    fullName: FormDigestValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string FormDigestValue
+      return:
+        type:
+          - string

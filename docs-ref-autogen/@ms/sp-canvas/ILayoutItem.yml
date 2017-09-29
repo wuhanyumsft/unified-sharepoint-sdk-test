@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.ILayoutItem'
+    name: ILayoutItem
+    fullName: ILayoutItem
+    children:
+      - '@ms/sp-canvas.ILayoutItem.index'
+    langs:
+      - typeScript
+    type: interface
+    summary: Represents the contract for an item in a layout part
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.ILayoutItem.index'
+    name: index
+    fullName: index
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number index
+      return:
+        type:
+          - number

@@ -1,0 +1,86 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas-toolbox.LessText'
+    name: LessText
+    fullName: LessText
+    children:
+      - '@ms/sp-canvas-toolbox.LessText.componentDidMount'
+      - '@ms/sp-canvas-toolbox.LessText.componentDidUpdate'
+      - '@ms/sp-canvas-toolbox.LessText.componentWillUnmount'
+      - '@ms/sp-canvas-toolbox.LessText.constructor'
+      - '@ms/sp-canvas-toolbox.LessText.render'
+      - '@ms/sp-canvas-toolbox.LessText.update'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-canvas-toolbox.LessText<@@ms/sp-canvas-toolbox.ILessTextProps>'
+    package: '@ms/sp-canvas-toolbox'
+  - uid: '@ms/sp-canvas-toolbox.LessText.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-canvas-toolbox.LessText.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+  - uid: '@ms/sp-canvas-toolbox.LessText.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-canvas-toolbox.LessText.constructor'
+    name: LessText
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new LessText(props: ILessTextProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-canvas-toolbox.ILessTextProps'
+          description: ''
+  - uid: '@ms/sp-canvas-toolbox.LessText.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-canvas-toolbox.LessText.update'
+    name: update
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Call update at runtime to truncate the text whenever on needs.
+    syntax:
+      content: function update()
+      parameters: []

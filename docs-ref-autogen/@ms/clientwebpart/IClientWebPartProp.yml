@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/clientwebpart.IClientWebPartProp'
+    name: IClientWebPartProp
+    fullName: IClientWebPartProp
+    children:
+      - '@ms/clientwebpart.IClientWebPartProp.defaultValue'
+      - '@ms/clientwebpart.IClientWebPartProp.enumItems'
+      - '@ms/clientwebpart.IClientWebPartProp.name'
+      - '@ms/clientwebpart.IClientWebPartProp.requiresDesignerPermission'
+      - '@ms/clientwebpart.IClientWebPartProp.type'
+      - '@ms/clientwebpart.IClientWebPartProp.webCategory'
+      - '@ms/clientwebpart.IClientWebPartProp.webDisplayName'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/clientwebpart'
+  - uid: '@ms/clientwebpart.IClientWebPartProp.defaultValue'
+    name: defaultValue
+    fullName: defaultValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string defaultValue
+      return:
+        type:
+          - string
+  - uid: '@ms/clientwebpart.IClientWebPartProp.enumItems'
+    name: enumItems
+    fullName: enumItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function enumItems
+      return:
+        type:
+          - function
+  - uid: '@ms/clientwebpart.IClientWebPartProp.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: '@ms/clientwebpart.IClientWebPartProp.requiresDesignerPermission'
+    name: requiresDesignerPermission
+    fullName: requiresDesignerPermission
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string requiresDesignerPermission
+      return:
+        type:
+          - string
+  - uid: '@ms/clientwebpart.IClientWebPartProp.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string type
+      return:
+        type:
+          - string
+  - uid: '@ms/clientwebpart.IClientWebPartProp.webCategory'
+    name: webCategory
+    fullName: webCategory
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webCategory
+      return:
+        type:
+          - string
+  - uid: '@ms/clientwebpart.IClientWebPartProp.webDisplayName'
+    name: webDisplayName
+    fullName: webDisplayName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webDisplayName
+      return:
+        type:
+          - string

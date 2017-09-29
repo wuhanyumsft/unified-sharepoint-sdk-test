@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IMessageContent'
+    name: IMessageContent
+    fullName: IMessageContent
+    children:
+      - '@ms/sp-tenant-admin-page.IMessageContent.MessageText'
+      - '@ms/sp-tenant-admin-page.IMessageContent.PublishedTime'
+    langs:
+      - typeScript
+    type: interface
+    summary: The item of message's history content
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IMessageContent.MessageText'
+    name: MessageText
+    fullName: MessageText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The message content.
+    syntax:
+      content: string MessageText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IMessageContent.PublishedTime'
+    name: PublishedTime
+    fullName: PublishedTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The time when this message was published.
+    syntax:
+      content: string PublishedTime
+      return:
+        type:
+          - string

@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.CommentsChunkLoader'
+    name: CommentsChunkLoader
+    fullName: CommentsChunkLoader
+    children:
+      - '@ms/sp-pages.CommentsChunkLoader.constructor'
+      - '@ms/sp-pages.CommentsChunkLoader.load'
+      - '@ms/sp-pages.CommentsChunkLoader.waitForLoad'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.CommentsChunkLoader.constructor'
+    name: CommentsChunkLoader
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new CommentsChunkLoader()
+      parameters: []
+  - uid: '@ms/sp-pages.CommentsChunkLoader.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function load()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-pages.CommentsChunkLoader.waitForLoad'
+    name: waitForLoad
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function waitForLoad()
+      parameters: []
+      return:
+        type:
+          - Promise<void>

@@ -1,0 +1,1309 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.Global'
+    package: '@ms/sp-tenant-admin-page'
+    name: Global
+    children:
+      - '@ms/sp-tenant-admin-page.activePageKey'
+      - '@ms/sp-tenant-admin-page.AddItems'
+      - '@ms/sp-tenant-admin-page.columnMenuKey'
+      - '@ms/sp-tenant-admin-page.columns'
+      - '@ms/sp-tenant-admin-page.createEmptyReducer'
+      - '@ms/sp-tenant-admin-page.createStoreForPageState'
+      - '@ms/sp-tenant-admin-page.ensureGeoLocationsPage'
+      - '@ms/sp-tenant-admin-page.ensureHomePage'
+      - '@ms/sp-tenant-admin-page.ensureRecycleBinPage'
+      - '@ms/sp-tenant-admin-page.ensureSettingsPage'
+      - '@ms/sp-tenant-admin-page.ensureSiteManagementPage'
+      - '@ms/sp-tenant-admin-page.geoLocations'
+      - '@ms/sp-tenant-admin-page.getActivePageKey'
+      - '@ms/sp-tenant-admin-page.getActivePageState'
+      - '@ms/sp-tenant-admin-page.getGeoLocationState'
+      - '@ms/sp-tenant-admin-page.keyToIndexMap'
+      - '@ms/sp-tenant-admin-page.keyToIndexMapRemoveSites'
+      - '@ms/sp-tenant-admin-page.mapStateToProps'
+      - '@ms/sp-tenant-admin-page.mapStateToProps'
+      - '@ms/sp-tenant-admin-page.mapStateToProps'
+      - '@ms/sp-tenant-admin-page.mapStateToProps'
+      - '@ms/sp-tenant-admin-page.mapStateToProps'
+      - '@ms/sp-tenant-admin-page.mapStateToProps'
+      - '@ms/sp-tenant-admin-page.mapStateToProps'
+      - '@ms/sp-tenant-admin-page.mapStateToProps'
+      - '@ms/sp-tenant-admin-page.mapStateToProps'
+      - '@ms/sp-tenant-admin-page.mapStateToProps'
+      - '@ms/sp-tenant-admin-page.mapStateToProps'
+      - '@ms/sp-tenant-admin-page.mapStateToProps'
+      - '@ms/sp-tenant-admin-page.mapStateToProps'
+      - '@ms/sp-tenant-admin-page.mapStateToProps'
+      - '@ms/sp-tenant-admin-page.messages'
+      - '@ms/sp-tenant-admin-page.mountContainerWithPageState'
+      - '@ms/sp-tenant-admin-page.notification'
+      - '@ms/sp-tenant-admin-page.promisesAllCompleted'
+      - '@ms/sp-tenant-admin-page.qos'
+      - '@ms/sp-tenant-admin-page.query'
+      - '@ms/sp-tenant-admin-page.reducerA'
+      - '@ms/sp-tenant-admin-page.reducerB'
+      - '@ms/sp-tenant-admin-page.reduceReducers'
+      - '@ms/sp-tenant-admin-page.RemoveItems'
+      - '@ms/sp-tenant-admin-page.runWithQos'
+      - '@ms/sp-tenant-admin-page.selectedView'
+      - '@ms/sp-tenant-admin-page.selections'
+      - '@ms/sp-tenant-admin-page.shallowPresentationalWithPageState'
+      - '@ms/sp-tenant-admin-page.showColumnsEditor'
+      - '@ms/sp-tenant-admin-page.showCreateSitePanel'
+      - '@ms/sp-tenant-admin-page.showFilterPane'
+      - '@ms/sp-tenant-admin-page.showSaveViewDialog'
+      - '@ms/sp-tenant-admin-page.showSharingPoliciesPanel'
+      - '@ms/sp-tenant-admin-page.showSiteInfoPane'
+      - '@ms/sp-tenant-admin-page.sites'
+      - '@ms/sp-tenant-admin-page.sitesCreationInProgress'
+      - '@ms/sp-tenant-admin-page.siteUpdateInfoItems'
+      - '@ms/sp-tenant-admin-page.stubQosMonitor'
+      - '@ms/sp-tenant-admin-page.updateO365RelatedColumnsInProgress'
+      - '@ms/sp-tenant-admin-page.viewModified'
+      - '@ms/sp-tenant-admin-page.views'
+      - '@ms/sp-tenant-admin-page.withQos'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@ms/sp-tenant-admin-page.activePageKey'
+    name: activePageKey
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function activePageKey(state: string, action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - string
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.AddItems'
+    name: AddItems
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function AddItems(existingiItems: ISiteUpdateInfo[], itemsToBeAdded:
+        ISiteUpdateInfo[])
+      parameters:
+        - id: existingiItems
+          type:
+            - '@@ms/sp-tenant-admin-page.ISiteUpdateInfo[]'
+          description: ''
+        - id: itemsToBeAdded
+          type:
+            - '@@ms/sp-tenant-admin-page.ISiteUpdateInfo[]'
+          description: ''
+  - uid: '@ms/sp-tenant-admin-page.columnMenuKey'
+    name: columnMenuKey
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function columnMenuKey(state: string, action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - string
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.columns'
+    name: columns
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function columns(state: IColumnState[], action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IColumnState[]'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+  - uid: '@ms/sp-tenant-admin-page.createEmptyReducer'
+    name: createEmptyReducer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Creates a reducer that if `undefined` is passed in as the state, return
+      the specified initial state. Otherwise,
+
+      return the passed in state.
+    syntax:
+      content: 'function createEmptyReducer(initialState: IAnyState)'
+      parameters:
+        - id: initialState
+          type:
+            - IAnyState
+          description: the initial state.
+      return:
+        type:
+          - Reducer<IAnyState>
+  - uid: '@ms/sp-tenant-admin-page.createStoreForPageState'
+    name: createStoreForPageState
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: |-
+      Create a Redux store with a reducer that always returns the same state.
+      The active page state of this state is the parameter passed in.
+    syntax:
+      content: 'function createStoreForPageState(pageState?: IPageState)'
+      parameters:
+        - id: pageState
+          type:
+            - IPageState
+          description: the page state.
+          optional: true
+      return:
+        type:
+          - Store<@@ms/sp-tenant-admin-page.IState>
+  - uid: '@ms/sp-tenant-admin-page.ensureGeoLocationsPage'
+    name: ensureGeoLocationsPage
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function ensureGeoLocationsPage()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-tenant-admin-page.IPageDefinitionLazyPart>
+  - uid: '@ms/sp-tenant-admin-page.ensureHomePage'
+    name: ensureHomePage
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function ensureHomePage()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-tenant-admin-page.IPageDefinitionLazyPart>
+  - uid: '@ms/sp-tenant-admin-page.ensureRecycleBinPage'
+    name: ensureRecycleBinPage
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function ensureRecycleBinPage()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-tenant-admin-page.IPageDefinitionLazyPart>
+  - uid: '@ms/sp-tenant-admin-page.ensureSettingsPage'
+    name: ensureSettingsPage
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function ensureSettingsPage()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-tenant-admin-page.IPageDefinitionLazyPart>
+  - uid: '@ms/sp-tenant-admin-page.ensureSiteManagementPage'
+    name: ensureSiteManagementPage
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function ensureSiteManagementPage()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-tenant-admin-page.IPageDefinitionLazyPart>
+  - uid: '@ms/sp-tenant-admin-page.geoLocations'
+    name: geoLocations
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function geoLocations(state: IGeoLocationState, action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IGeoLocationState'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IGeoLocationState'
+  - uid: '@ms/sp-tenant-admin-page.getActivePageKey'
+    name: getActivePageKey
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Get the page key of the active page. If `state` is not passed in, it will
+      use the state in `AppContext`.
+    syntax:
+      content: 'function getActivePageKey(state?: IState)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IState'
+          description: the state of the application.
+          optional: true
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.getActivePageState'
+    name: getActivePageState
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: 'Get the state of the active page. If it doesn''t exist, return `undefined`.'
+    syntax:
+      content: 'function getActivePageState(state: IState)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IState'
+          description: the state of the application.
+      return:
+        type:
+          - IPageState
+  - uid: '@ms/sp-tenant-admin-page.getGeoLocationState'
+    name: getGeoLocationState
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Get the geo location state that includes information about current geo
+      location of the application.
+    syntax:
+      content: 'function getGeoLocationState(state: IState)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IState'
+          description: the state of the application.
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IGeoLocationState'
+  - uid: '@ms/sp-tenant-admin-page.keyToIndexMap'
+    name: keyToIndexMap
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function keyToIndexMap(state: Map<string>, action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - Map<string>
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+      return:
+        type:
+          - Map<string>
+  - uid: '@ms/sp-tenant-admin-page.keyToIndexMapRemoveSites'
+    name: keyToIndexMapRemoveSites
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function keyToIndexMapRemoveSites(state: IDataState, action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IDataState'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IDataState'
+  - uid: '@ms/sp-tenant-admin-page.mapStateToProps'
+    name: mapStateToProps
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function mapStateToProps(state: IState, ownProps:
+        ISharingPoliciesPanelProps)
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IState'
+          description: ''
+        - id: ownProps
+          type:
+            - '@@ms/sp-tenant-admin-page.ISharingPoliciesPanelProps'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISharingPoliciesPanelProps'
+  - uid: '@ms/sp-tenant-admin-page.mapStateToProps'
+    name: mapStateToProps
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function mapStateToProps(state: IState, ownProps:
+        ISiteAdministratorPanelProps)
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IState'
+          description: ''
+        - id: ownProps
+          type:
+            - '@@ms/sp-tenant-admin-page.ISiteAdministratorPanelProps'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISiteAdministratorPanelProps'
+  - uid: '@ms/sp-tenant-admin-page.mapStateToProps'
+    name: mapStateToProps
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function mapStateToProps(state: IState, ownProps:
+        ISiteAdministratorPanelProps)
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IState'
+          description: ''
+        - id: ownProps
+          type:
+            - '@@ms/sp-tenant-admin-page.ISiteAdministratorPanelProps'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISiteAdministratorPanelProps'
+  - uid: '@ms/sp-tenant-admin-page.mapStateToProps'
+    name: mapStateToProps
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function mapStateToProps(state: IState, ownProps: ISiteInfoPanelProps)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IState'
+          description: ''
+        - id: ownProps
+          type:
+            - '@@ms/sp-tenant-admin-page.ISiteInfoPanelProps'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISiteInfoPanelProps'
+  - uid: '@ms/sp-tenant-admin-page.mapStateToProps'
+    name: mapStateToProps
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function mapStateToProps(state: IState, ownProps?: ISaveViewDialogProps)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IState'
+          description: ''
+        - id: ownProps
+          type:
+            - '@@ms/sp-tenant-admin-page.ISaveViewDialogProps'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISaveViewDialogProps'
+  - uid: '@ms/sp-tenant-admin-page.mapStateToProps'
+    name: mapStateToProps
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function mapStateToProps(state: IState, ownProps?: ISiteListProps)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IState'
+          description: ''
+        - id: ownProps
+          type:
+            - '@@ms/sp-tenant-admin-page.ISiteListProps'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISiteListProps'
+  - uid: '@ms/sp-tenant-admin-page.mapStateToProps'
+    name: mapStateToProps
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function mapStateToProps(state: IState, ownProps?:
+        IGeoLocationMapWidgetProps)
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IState'
+          description: ''
+        - id: ownProps
+          type:
+            - '@@ms/sp-tenant-admin-page.IGeoLocationMapWidgetProps'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IGeoLocationMapWidgetProps'
+  - uid: '@ms/sp-tenant-admin-page.mapStateToProps'
+    name: mapStateToProps
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function mapStateToProps(state: IState, ownProps?:
+        IGeoQuotaPieChartWidgetProps)
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IState'
+          description: ''
+        - id: ownProps
+          type:
+            - '@@ms/sp-tenant-admin-page.IGeoQuotaPieChartWidgetProps'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IGeoQuotaPieChartWidgetProps'
+  - uid: '@ms/sp-tenant-admin-page.mapStateToProps'
+    name: mapStateToProps
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function mapStateToProps(state: IState, ownProps?: ICommandBarProps)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IState'
+          description: ''
+        - id: ownProps
+          type:
+            - '@@ms/sp-tenant-admin-page.ICommandBarProps'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ICommandBarProps'
+  - uid: '@ms/sp-tenant-admin-page.mapStateToProps'
+    name: mapStateToProps
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function mapStateToProps(state: IState, ownProps: IColumnsEditorProps)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IState'
+          description: ''
+        - id: ownProps
+          type:
+            - '@@ms/sp-tenant-admin-page.IColumnsEditorProps'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IColumnsEditorProps'
+  - uid: '@ms/sp-tenant-admin-page.mapStateToProps'
+    name: mapStateToProps
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function mapStateToProps(state: IState, ownProps?: ICommandBarProps)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IState'
+          description: ''
+        - id: ownProps
+          type:
+            - '@@ms/sp-tenant-admin-page.ICommandBarProps'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ICommandBarProps'
+  - uid: '@ms/sp-tenant-admin-page.mapStateToProps'
+    name: mapStateToProps
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function mapStateToProps(state: IState, ownProps?: IDeleteDialogProps)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IState'
+          description: ''
+        - id: ownProps
+          type:
+            - '@@ms/sp-tenant-admin-page.IDeleteDialogProps'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IDeleteDialogProps'
+  - uid: '@ms/sp-tenant-admin-page.mapStateToProps'
+    name: mapStateToProps
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function mapStateToProps(state: IState, ownProps?:
+        ICreateSitePanelProps)
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IState'
+          description: ''
+        - id: ownProps
+          type:
+            - '@@ms/sp-tenant-admin-page.ICreateSitePanelProps'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ICreateSitePanelProps'
+  - uid: '@ms/sp-tenant-admin-page.mapStateToProps'
+    name: mapStateToProps
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function mapStateToProps(state: IState, ownProps?:
+        IContactOwnerCalloutProps)
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IState'
+          description: ''
+        - id: ownProps
+          type:
+            - '@@ms/sp-tenant-admin-page.IContactOwnerCalloutProps'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IContactOwnerCalloutProps'
+  - uid: '@ms/sp-tenant-admin-page.messages'
+    name: messages
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function messages(state: IFrameworkMessage[], action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IFrameworkMessage[]'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+  - uid: '@ms/sp-tenant-admin-page.mountContainerWithPageState'
+    name: mountContainerWithPageState
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Get the React wrapper of the passed-in "container" component.
+    syntax:
+      content: >-
+        function mountContainerWithPageState<P>(containerType: any, pageState?:
+        IPageState, props?: P)
+      parameters:
+        - id: containerType
+          type:
+            - any
+          description: A React container component type.
+        - id: pageState
+          type:
+            - IPageState
+          description: >-
+            The page state that will be connected to the presentational
+            component.
+          optional: true
+        - id: props
+          type:
+            - P
+          description: The properties to create the component.
+          optional: true
+      return:
+        type:
+          - ReactWrapper<P>
+  - uid: '@ms/sp-tenant-admin-page.notification'
+    name: notification
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function notification(state: INotificationState, action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.INotificationState'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.INotificationState'
+  - uid: '@ms/sp-tenant-admin-page.promisesAllCompleted'
+    name: promisesAllCompleted
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >
+      Returns a single `Promise` that resolves when all of the promises in the
+      array are completed.
+
+      The difference with `promisesAllCompleted()` and `Promise.all()` is that
+      `Promise.all()` rejects with the
+
+      reason of the first promise that rejects. While `promisesAllCompleted()`
+      never rejects. It will resolve
+
+      with an array of the results/reasons of all promises.
+
+
+      You need to check the object in the results/reasons to tell if a promise
+      is fulfilled or rejected. If you
+
+      always reject a promise with an `Error` object, you can easily find the
+      answer by checking the type of the
+
+      object.
+    syntax:
+      content: 'function promisesAllCompleted(promises: Promise<any>[])'
+      parameters:
+        - id: promises
+          type:
+            - 'Promise<any>[]'
+          description: ''
+      return:
+        type:
+          - 'Promise<any[]>'
+  - uid: '@ms/sp-tenant-admin-page.qos'
+    name: qos
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: |
+      This is a decorator to monitor QoS of a function.
+      Example:
+
+      class SomeDataProvider {
+        @qos('SomeDataProvider.getSomeData')
+        public getSomeData(): Promise<ISomeData> {
+          ...
+        }
+      }
+    syntax:
+      content: 'function qos(scenarioName: string)'
+      parameters:
+        - id: scenarioName
+          type:
+            - string
+          description: |+
+
+  - uid: '@ms/sp-tenant-admin-page.query'
+    name: query
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function query(state: ISiteQueryConditions, action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.ISiteQueryConditions'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISiteQueryConditions'
+  - uid: '@ms/sp-tenant-admin-page.reducerA'
+    name: reducerA
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function reducerA(state: IMockState, action: Action)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IMockState'
+          description: ''
+        - id: action
+          type:
+            - Action
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IMockState'
+  - uid: '@ms/sp-tenant-admin-page.reducerB'
+    name: reducerB
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function reducerB(state: IMockState, action: Action)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.IMockState'
+          description: ''
+        - id: action
+          type:
+            - Action
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IMockState'
+  - uid: '@ms/sp-tenant-admin-page.reduceReducers'
+    name: reduceReducers
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Create a new reducer based on the passed in reducers.
+
+      The new reducer will call the passed in reducers one by one, in order.
+
+      If no reducers is passed in, it will create a new reducer that returns
+      state as is.
+    syntax:
+      content: 'function reduceReducers(reducers: Reducer<IAnyState>[])'
+      parameters:
+        - id: reducers
+          type:
+            - 'Reducer<IAnyState>[]'
+          description: a list of reducers.
+      return:
+        type:
+          - Reducer<IAnyState>
+  - uid: '@ms/sp-tenant-admin-page.RemoveItems'
+    name: RemoveItems
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function RemoveItems(items: ISiteUpdateInfo[], keys: string[])'
+      parameters:
+        - id: items
+          type:
+            - '@@ms/sp-tenant-admin-page.ISiteUpdateInfo[]'
+          description: ''
+        - id: keys
+          type:
+            - 'string[]'
+          description: ''
+  - uid: '@ms/sp-tenant-admin-page.runWithQos'
+    name: runWithQos
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >
+      This function is to call a function with QoS monitor supported.
+
+      The passed in function cannot have parameters. So, typically you want to
+      use an anonymous arrow function.
+
+      Example:
+
+
+      // No QoS
+
+      const result = someFunction(a, b, c);
+
+      // Run with QoS
+
+      const result = runWithQos('SomeScenario', () => {
+        return someFunction(a, b, c);
+      });
+    syntax:
+      content: >-
+        function runWithQos<T>(scenarioName: string, theFunction: () =>
+        FunctionResult<T>)
+      parameters:
+        - id: scenarioName
+          type:
+            - string
+          description: ''
+        - id: theFunction
+          type:
+            - () => FunctionResult<T>
+          description: ''
+      return:
+        type:
+          - FunctionResult<T>
+  - uid: '@ms/sp-tenant-admin-page.selectedView'
+    name: selectedView
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function selectedView(state: string, action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - string
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.selections'
+    name: selections
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function selections(state: string[], action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - 'string[]'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+  - uid: '@ms/sp-tenant-admin-page.shallowPresentationalWithPageState'
+    name: shallowPresentationalWithPageState
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Get the shallow wrapper of the "presentational" component for the
+      passed-in "container" component.
+    syntax:
+      content: >-
+        function shallowPresentationalWithPageState<P>(containerType: any,
+        pageState?: IPageState, props?: P)
+      parameters:
+        - id: containerType
+          type:
+            - any
+          description: A React container component type.
+        - id: pageState
+          type:
+            - IPageState
+          description: >-
+            The page state that will be connected to the presentational
+            component.
+          optional: true
+        - id: props
+          type:
+            - P
+          description: The properties to create the component.
+          optional: true
+      return:
+        type:
+          - ShallowWrapper<P>
+  - uid: '@ms/sp-tenant-admin-page.showColumnsEditor'
+    name: showColumnsEditor
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function showColumnsEditor(state: boolean, action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - boolean
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.showCreateSitePanel'
+    name: showCreateSitePanel
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function showCreateSitePanel(state: boolean, action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - boolean
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.showFilterPane'
+    name: showFilterPane
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function showFilterPane(state: boolean, action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - boolean
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.showSaveViewDialog'
+    name: showSaveViewDialog
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function showSaveViewDialog(state: boolean, action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - boolean
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.showSharingPoliciesPanel'
+    name: showSharingPoliciesPanel
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function showSharingPoliciesPanel(state: boolean, action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - boolean
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.showSiteInfoPane'
+    name: showSiteInfoPane
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function showSiteInfoPane(state: ISiteManagementState, action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.ISiteManagementState'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.ISiteManagementState'
+  - uid: '@ms/sp-tenant-admin-page.sites'
+    name: sites
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function sites(state: ISiteInfo[], action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.ISiteInfo[]'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+  - uid: '@ms/sp-tenant-admin-page.sitesCreationInProgress'
+    name: sitesCreationInProgress
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function sitesCreationInProgress(items: ISiteUpdateInfo[])'
+      parameters:
+        - id: items
+          type:
+            - '@@ms/sp-tenant-admin-page.ISiteUpdateInfo[]'
+          description: ''
+      return:
+        type:
+          - Set<string>
+  - uid: '@ms/sp-tenant-admin-page.siteUpdateInfoItems'
+    name: siteUpdateInfoItems
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function siteUpdateInfoItems(state: ISiteUpdateInfo[], action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - '@@ms/sp-tenant-admin-page.ISiteUpdateInfo[]'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+  - uid: '@ms/sp-tenant-admin-page.stubQosMonitor'
+    name: stubQosMonitor
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function stubQosMonitor()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.updateO365RelatedColumnsInProgress'
+    name: updateO365RelatedColumnsInProgress
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function updateO365RelatedColumnsInProgress(items: ISiteUpdateInfo[])'
+      parameters:
+        - id: items
+          type:
+            - '@@ms/sp-tenant-admin-page.ISiteUpdateInfo[]'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.viewModified'
+    name: viewModified
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function viewModified(state: boolean, action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - boolean
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.views'
+    name: views
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function views(state: [key: string]: IView, action: IAction)'
+      parameters:
+        - id: state
+          type:
+            - '[key: string]: @@ms/sp-tenant-admin-page.IView'
+          description: ''
+        - id: action
+          type:
+            - '@@ms/sp-tenant-admin-page.IAction'
+          description: ''
+  - uid: '@ms/sp-tenant-admin-page.withQos'
+    name: withQos
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: |
+      This function is to wrap a function to monitor QoS.
+      Example:
+
+      // No QoS
+      someFunction(a, b, c);
+      // With QoS
+      withQos('SomeScenario', someFunction)(a, b, c);
+    syntax:
+      content: 'function withQos<T>(scenarioName: string, theFunction: Function<T>)'
+      parameters:
+        - id: scenarioName
+          type:
+            - string
+          description: ''
+        - id: theFunction
+          type:
+            - Function<T>
+          description: ''
+      return:
+        type:
+          - Function<T>

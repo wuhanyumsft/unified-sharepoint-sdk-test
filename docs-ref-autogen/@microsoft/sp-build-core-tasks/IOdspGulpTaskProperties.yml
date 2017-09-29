@@ -1,0 +1,201 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IOdspGulpTaskProperties'
+    name: IOdspGulpTaskProperties
+    fullName: IOdspGulpTaskProperties
+    children:
+      - '@microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.bundledExternals'
+      - '@microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.bundleEntries'
+      - '@microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.deployEntries'
+      - >-
+        @microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.devDeployManifestFileUrl
+      - >-
+        @microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.devDeployModuleLoaderUrl
+      - >-
+        @microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.discoveredLocalizedResources
+      - >-
+        @microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.initialWebpackStats
+      - '@microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.linkedExternals'
+      - '@microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.manifests'
+      - >-
+        @microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.webpackLibraryName
+      - >-
+        @microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.webpackLibraryNameIsTemporary
+      - '@microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.webpackStats'
+    langs:
+      - typeScript
+    type: interface
+    summary: Common properties that are shared between tasks.
+    extends:
+      name: '@@microsoft/sp-build-core-tasks.IConfigJson'
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.bundledExternals'
+    name: bundledExternals
+    fullName: bundledExternals
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A list of externals that were specified in config.json that were later
+      bundled.
+    syntax:
+      content: 'string[] bundledExternals'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.bundleEntries'
+    name: bundleEntries
+    fullName: bundleEntries
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Data describing each bundled entry.
+    syntax:
+      content: 'IBundleEntry[] bundleEntries'
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IBundleEntry[]'
+  - uid: '@microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.deployEntries'
+    name: deployEntries
+    fullName: deployEntries
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Data describing each deployed entry
+    syntax:
+      content: 'IDeployEntry[] deployEntries'
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IDeployEntry[]'
+  - uid: >-
+      @microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.devDeployManifestFileUrl
+    name: devDeployManifestFileUrl
+    fullName: devDeployManifestFileUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The URL to which the manifests.js file has been deployed after running
+      dev-deploy.
+    syntax:
+      content: string devDeployManifestFileUrl
+      return:
+        type:
+          - string
+  - uid: >-
+      @microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.devDeployModuleLoaderUrl
+    name: devDeployModuleLoaderUrl
+    fullName: devDeployModuleLoaderUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The URL to which the module loader, if deployed, has been deployed after
+      running dev-deploy.
+    syntax:
+      content: string devDeployModuleLoaderUrl
+      return:
+        type:
+          - string
+  - uid: >-
+      @microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.discoveredLocalizedResources
+    name: discoveredLocalizedResources
+    fullName: discoveredLocalizedResources
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Files discovered for the localized resources specified in config.json
+    syntax:
+      content: '[key: string]: ILocaleMap discoveredLocalizedResources'
+      return:
+        type:
+          - '[key: string]: @@microsoft/sp-build-core-tasks.ILocaleMap'
+  - uid: '@microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.initialWebpackStats'
+    name: initialWebpackStats
+    fullName: initialWebpackStats
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The webpack stats object for the base bundle.
+    syntax:
+      content: Stats initialWebpackStats
+      return:
+        type:
+          - Stats
+  - uid: '@microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.linkedExternals'
+    name: linkedExternals
+    fullName: linkedExternals
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A map of linked externals.
+    syntax:
+      content: IExternalProjectMap linkedExternals
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IExternalProjectMap'
+  - uid: '@microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.manifests'
+    name: manifests
+    fullName: manifests
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Memoization of the manifest objects.
+    syntax:
+      content: '[key: string]: IClientSideComponentManifest manifests'
+      return:
+        type:
+          - '[key: string]: IClientSideComponentManifest'
+  - uid: '@microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.webpackLibraryName'
+    name: webpackLibraryName
+    fullName: webpackLibraryName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name to use in the "library" property of the webpack configuration.
+    syntax:
+      content: string webpackLibraryName
+      return:
+        type:
+          - string
+  - uid: >-
+      @microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.webpackLibraryNameIsTemporary
+    name: webpackLibraryNameIsTemporary
+    fullName: webpackLibraryNameIsTemporary
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If true, webpackLibraryName is the temporary name used in the webpack
+      config when we have multiple
+       entrypoints. In the post-webpack steps, we need to update the library name to the standard
+       format in the "define(<name>, ..." function.
+    syntax:
+      content: boolean webpackLibraryNameIsTemporary
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-build-core-tasks.IOdspGulpTaskProperties.webpackStats'
+    name: webpackStats
+    fullName: webpackStats
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The webpack stats object for the last-run webpack task.
+    syntax:
+      content: Stats webpackStats
+      return:
+        type:
+          - Stats

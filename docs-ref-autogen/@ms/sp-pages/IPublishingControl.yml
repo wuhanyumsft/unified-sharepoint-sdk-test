@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IPublishingControl'
+    name: IPublishingControl
+    fullName: IPublishingControl
+    children:
+      - '@ms/sp-pages.IPublishingControl.id'
+      - '@ms/sp-pages.IPublishingControl.onDisplayModeChange'
+      - '@ms/sp-pages.IPublishingControl.save'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Publishing page events are exposed to controls through IPublishingControl
+      interface
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IPublishingControl.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: control id
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IPublishingControl.onDisplayModeChange'
+    name: onDisplayModeChange
+    fullName: onDisplayModeChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: callback function when display mode changes
+    syntax:
+      content: ListenerFunc onDisplayModeChange
+      return:
+        type:
+          - ListenerFunc
+  - uid: '@ms/sp-pages.IPublishingControl.save'
+    name: save
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: save control data to fields
+    syntax:
+      content: 'function save(data?: IWebPartData)'
+      parameters:
+        - id: data
+          type:
+            - IWebPartData
+          description: ''
+          optional: true

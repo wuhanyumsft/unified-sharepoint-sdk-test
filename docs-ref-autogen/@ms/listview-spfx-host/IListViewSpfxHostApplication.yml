@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/listview-spfx-host.IListViewSpfxHostApplication'
+    name: IListViewSpfxHostApplication
+    fullName: IListViewSpfxHostApplication
+    children:
+      - '@ms/listview-spfx-host.IListViewSpfxHostApplication.adapter'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      This interface describes the client-side application object for
+      "@ms/listview-spfx-host",
+
+      as returned by the sp-loader.
+    package: '@ms/listview-spfx-host'
+  - uid: '@ms/listview-spfx-host.IListViewSpfxHostApplication.adapter'
+    name: adapter
+    fullName: adapter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISpfxAdapter adapter
+      return:
+        type:
+          - '@@ms/listview-spfx-host.ISpfxAdapter'

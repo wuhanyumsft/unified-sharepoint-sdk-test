@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/listview-spfx-host.IRow'
+    name: IRow
+    fullName: IRow
+    children:
+      - '@ms/listview-spfx-host.IRow.values'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      This interface should be implemented by the ListView application.
+      It represents the SPListItem being rendered by the ListView.
+    package: '@ms/listview-spfx-host'
+  - uid: '@ms/listview-spfx-host.IRow.values'
+    name: values
+    fullName: values
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A map of column values for the row. They key is the column internal name
+      and the value
+
+      is its corresponding value in the row.
+    syntax:
+      content: '[key: string]: any values'
+      return:
+        type:
+          - '[key: string]: any'

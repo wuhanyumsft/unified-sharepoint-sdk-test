@@ -1,0 +1,216 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.BaseRte'
+    name: BaseRte
+    fullName: BaseRte<P>
+    children:
+      - '@ms/sp-canvas.BaseRte.constructor'
+      - '@ms/sp-canvas.BaseRte.componentDidMount'
+      - '@ms/sp-canvas.BaseRte.componentDidUpdate'
+      - '@ms/sp-canvas.BaseRte.componentWillMount'
+      - '@ms/sp-canvas.BaseRte.componentWillUnmount'
+      - '@ms/sp-canvas.BaseRte.componentWillUpdate'
+      - '@ms/sp-canvas.BaseRte.focusFormattingBar'
+      - '@ms/sp-canvas.BaseRte.getFormatHandler'
+      - '@ms/sp-canvas.BaseRte.isFormatActive'
+      - '@ms/sp-canvas.BaseRte.removeFontColorFormat'
+      - '@ms/sp-canvas.BaseRte.removeHighlightColor'
+      - '@ms/sp-canvas.BaseRte.render'
+      - '@ms/sp-canvas.BaseRte.serialize'
+      - '@ms/sp-canvas.BaseRte.setDisplayMode'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-canvas.BaseRte<P>'
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.BaseRte.constructor'
+    name: BaseRte
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BaseRte(props: P, rteOptions?: IRichTextEditorOptions)'
+      parameters:
+        - id: props
+          type:
+            - P
+          description: ''
+        - id: rteOptions
+          type:
+            - '@@ms/sp-canvas.IRichTextEditorOptions'
+          description: ''
+          optional: true
+  - uid: '@ms/sp-canvas.BaseRte.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-canvas.BaseRte.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentDidUpdate(prevProps: P, prevState: S)'
+      parameters:
+        - id: prevProps
+          type:
+            - P
+          description: ''
+        - id: prevState
+          type:
+            - S
+          description: ''
+  - uid: '@ms/sp-canvas.BaseRte.componentWillMount'
+    name: componentWillMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillMount()
+      parameters: []
+  - uid: '@ms/sp-canvas.BaseRte.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-canvas.BaseRte.componentWillUpdate'
+    name: componentWillUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillUpdate(nextProps: P, nextState: S)'
+      parameters:
+        - id: nextProps
+          type:
+            - P
+          description: ''
+        - id: nextState
+          type:
+            - S
+          description: ''
+  - uid: '@ms/sp-canvas.BaseRte.focusFormattingBar'
+    name: focusFormattingBar
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focusFormattingBar()
+      parameters: []
+  - uid: '@ms/sp-canvas.BaseRte.getFormatHandler'
+    name: getFormatHandler
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getFormatHandler(format: function)'
+      parameters:
+        - id: format
+          type:
+            - function
+          description: ''
+      return:
+        type:
+          - FormatHandler
+  - uid: '@ms/sp-canvas.BaseRte.isFormatActive'
+    name: isFormatActive
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isFormatActive(format: function)'
+      parameters:
+        - id: format
+          type:
+            - function
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.BaseRte.removeFontColorFormat'
+    name: removeFontColorFormat
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function removeFontColorFormat()
+      parameters: []
+  - uid: '@ms/sp-canvas.BaseRte.removeHighlightColor'
+    name: removeHighlightColor
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function removeHighlightColor()
+      parameters: []
+  - uid: '@ms/sp-canvas.BaseRte.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<P>
+  - uid: '@ms/sp-canvas.BaseRte.serialize'
+    name: serialize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Return the serialized instance of this control
+    syntax:
+      content: function serialize()
+      parameters: []
+      return:
+        type:
+          - P
+  - uid: '@ms/sp-canvas.BaseRte.setDisplayMode'
+    name: setDisplayMode
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setDisplayMode(newMode: DisplayMode)'
+      parameters:
+        - id: newMode
+          type:
+            - DisplayMode
+          description: ''

@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.PptQueryParameters'
+    name: PptQueryParameters
+    fullName: PptQueryParameters
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: PPT specific query params apart from the common parameters.
+    package: '@ms/sp-publishing-webparts'

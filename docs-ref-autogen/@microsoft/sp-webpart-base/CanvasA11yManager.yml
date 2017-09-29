@@ -1,0 +1,154 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.CanvasA11yManager'
+    name: CanvasA11yManager
+    fullName: CanvasA11yManager
+    children:
+      - '@microsoft/sp-webpart-base.CanvasA11yManager.ariaAlert'
+      - '@microsoft/sp-webpart-base.CanvasA11yManager.constructor'
+      - '@microsoft/sp-webpart-base.CanvasA11yManager.clearState'
+      - '@microsoft/sp-webpart-base.CanvasA11yManager.navigateInside'
+      - '@microsoft/sp-webpart-base.CanvasA11yManager.navigateOutOf'
+      - '@microsoft/sp-webpart-base.CanvasA11yManager.navigateTo'
+      - '@microsoft/sp-webpart-base.CanvasA11yManager.restoreState'
+      - '@microsoft/sp-webpart-base.CanvasA11yManager.saveState'
+      - '@microsoft/sp-webpart-base.CanvasA11yManager.skipEvent'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.CanvasA11yManager.ariaAlert'
+    name: ariaAlert
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function ariaAlert(message: string)'
+      parameters:
+        - id: message
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-webpart-base.CanvasA11yManager.constructor'
+    name: CanvasA11yManager
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CanvasA11yManager(canvasElement: HTMLElement, shouldHandleKeyDown:
+        boolean)
+      parameters:
+        - id: canvasElement
+          type:
+            - HTMLElement
+          description: ''
+        - id: shouldHandleKeyDown
+          type:
+            - boolean
+          description: ''
+  - uid: '@microsoft/sp-webpart-base.CanvasA11yManager.clearState'
+    name: clearState
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clearState()
+      parameters: []
+  - uid: '@microsoft/sp-webpart-base.CanvasA11yManager.navigateInside'
+    name: navigateInside
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function navigateInside(elem: HTMLElement)'
+      parameters:
+        - id: elem
+          type:
+            - HTMLElement
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.CanvasA11yManager.navigateOutOf'
+    name: navigateOutOf
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function navigateOutOf(elem: HTMLElement)'
+      parameters:
+        - id: elem
+          type:
+            - HTMLElement
+          description: ''
+  - uid: '@microsoft/sp-webpart-base.CanvasA11yManager.navigateTo'
+    name: navigateTo
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function navigateTo(elem: HTMLElement)'
+      parameters:
+        - id: elem
+          type:
+            - HTMLElement
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.CanvasA11yManager.restoreState'
+    name: restoreState
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function restoreState()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.CanvasA11yManager.saveState'
+    name: saveState
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function saveState(elem?: HTMLElement)'
+      parameters:
+        - id: elem
+          type:
+            - HTMLElement
+          description: ''
+          optional: true
+  - uid: '@microsoft/sp-webpart-base.CanvasA11yManager.skipEvent'
+    name: skipEvent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function skipEvent(e: KeyboardEvent)'
+      parameters:
+        - id: e
+          type:
+            - KeyboardEvent
+          description: ''

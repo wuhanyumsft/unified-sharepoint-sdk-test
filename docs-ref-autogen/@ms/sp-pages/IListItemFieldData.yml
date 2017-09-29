@@ -1,0 +1,207 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IListItemFieldData'
+    name: IListItemFieldData
+    fullName: IListItemFieldData
+    children:
+      - '@ms/sp-pages.IListItemFieldData.BannerImageUrl'
+      - '@ms/sp-pages.IListItemFieldData.CanvasContent1'
+      - '@ms/sp-pages.IListItemFieldData.CheckoutUserId'
+      - '@ms/sp-pages.IListItemFieldData.FileLeafRef'
+      - '@ms/sp-pages.IListItemFieldData.Id'
+      - '@ms/sp-pages.IListItemFieldData.IsWebWelcomePage'
+      - '@ms/sp-pages.IListItemFieldData.LayoutWebpartsContent'
+      - '@ms/sp-pages.IListItemFieldData.Modified'
+      - '@ms/sp-pages.IListItemFieldData.OData__UIVersionString'
+      - '@ms/sp-pages.IListItemFieldData.PageLayoutType'
+      - '@ms/sp-pages.IListItemFieldData.PromotedState'
+      - '@ms/sp-pages.IListItemFieldData.Title'
+      - '@ms/sp-pages.IListItemFieldData.UniqueId'
+      - '@ms/sp-pages.IListItemFieldData.VersionInfo'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IListItemFieldData.BannerImageUrl'
+    name: BannerImageUrl
+    fullName: BannerImageUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string BannerImageUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IListItemFieldData.CanvasContent1'
+    name: CanvasContent1
+    fullName: CanvasContent1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string CanvasContent1
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IListItemFieldData.CheckoutUserId'
+    name: CheckoutUserId
+    fullName: CheckoutUserId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string CheckoutUserId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IListItemFieldData.FileLeafRef'
+    name: FileLeafRef
+    fullName: FileLeafRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string FileLeafRef
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IListItemFieldData.Id'
+    name: Id
+    fullName: Id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number Id
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.IListItemFieldData.IsWebWelcomePage'
+    name: IsWebWelcomePage
+    fullName: IsWebWelcomePage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean IsWebWelcomePage
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IListItemFieldData.LayoutWebpartsContent'
+    name: LayoutWebpartsContent
+    fullName: LayoutWebpartsContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string LayoutWebpartsContent
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IListItemFieldData.Modified'
+    name: Modified
+    fullName: Modified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Modified
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IListItemFieldData.OData__UIVersionString'
+    name: OData__UIVersionString
+    fullName: OData__UIVersionString
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string OData__UIVersionString
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IListItemFieldData.PageLayoutType'
+    name: PageLayoutType
+    fullName: PageLayoutType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string PageLayoutType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IListItemFieldData.PromotedState'
+    name: PromotedState
+    fullName: PromotedState
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PromotedState PromotedState
+      return:
+        type:
+          - PromotedState
+  - uid: '@ms/sp-pages.IListItemFieldData.Title'
+    name: Title
+    fullName: Title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IListItemFieldData.UniqueId'
+    name: UniqueId
+    fullName: UniqueId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string UniqueId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.IListItemFieldData.VersionInfo'
+    name: VersionInfo
+    fullName: VersionInfo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ILastVersionInfo VersionInfo
+      return:
+        type:
+          - '@@ms/sp-pages.ILastVersionInfo'

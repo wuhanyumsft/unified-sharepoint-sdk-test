@@ -1,0 +1,128 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.SharePointDataProvider'
+    name: SharePointDataProvider
+    fullName: SharePointDataProvider
+    children:
+      - '@ms/sp-publishing-webparts.SharePointDataProvider.getGroupCalendarUrl'
+      - '@ms/sp-publishing-webparts.SharePointDataProvider.getRegionalSetting'
+      - >-
+        @ms/sp-publishing-webparts.SharePointDataProvider.getSiteRegionalSettings
+      - '@ms/sp-publishing-webparts.SharePointDataProvider.getTimeZoneOffset'
+      - >-
+        @ms/sp-publishing-webparts.SharePointDataProvider.getUserRegionalSettings
+      - '@ms/sp-publishing-webparts.SharePointDataProvider.constructor'
+      - '@ms/sp-publishing-webparts.SharePointDataProvider.utcToLocalTime'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.SharePointDataProvider.getGroupCalendarUrl'
+    name: getGroupCalendarUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getGroupCalendarUrl(groupId: string)'
+      parameters:
+        - id: groupId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<string>
+  - uid: '@ms/sp-publishing-webparts.SharePointDataProvider.getRegionalSetting'
+    name: getRegionalSetting
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getRegionalSetting()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-publishing-webparts.IRegionalSettings>
+  - uid: '@ms/sp-publishing-webparts.SharePointDataProvider.getSiteRegionalSettings'
+    name: getSiteRegionalSettings
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getSiteRegionalSettings()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-publishing-webparts.IRegionalSettings>
+  - uid: '@ms/sp-publishing-webparts.SharePointDataProvider.getTimeZoneOffset'
+    name: getTimeZoneOffset
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      The SPS-TimeZone from user profile only contains timezone name, this
+      method is to find the timezone offset value
+
+      according to timezone name.
+    syntax:
+      content: 'function getTimeZoneOffset(setting: IRegionalSettings)'
+      parameters:
+        - id: setting
+          type:
+            - '@@ms/sp-publishing-webparts.IRegionalSettings'
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-publishing-webparts.IRegionalSettings>
+  - uid: '@ms/sp-publishing-webparts.SharePointDataProvider.getUserRegionalSettings'
+    name: getUserRegionalSettings
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getUserRegionalSettings()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-publishing-webparts.IRegionalSettings>
+  - uid: '@ms/sp-publishing-webparts.SharePointDataProvider.constructor'
+    name: SharePointDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SharePointDataProvider(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.SharePointDataProvider.utcToLocalTime'
+    name: utcToLocalTime
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function utcToLocalTime(utcDates: string[])'
+      parameters:
+        - id: utcDates
+          type:
+            - 'string[]'
+          description: ''
+      return:
+        type:
+          - 'Promise<string[]>'

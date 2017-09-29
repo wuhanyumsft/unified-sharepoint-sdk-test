@@ -1,0 +1,36 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/repo-toolbox.TelemetryCollector'
+    name: TelemetryCollector
+    fullName: TelemetryCollector
+    children:
+      - '@ms/repo-toolbox.TelemetryCollector.run'
+      - '@ms/repo-toolbox.TelemetryCollector.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/repo-toolbox'
+  - uid: '@ms/repo-toolbox.TelemetryCollector.run'
+    name: run
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function run()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/repo-toolbox.TelemetryCollector.constructor'
+    name: TelemetryCollector
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new TelemetryCollector()
+      parameters: []

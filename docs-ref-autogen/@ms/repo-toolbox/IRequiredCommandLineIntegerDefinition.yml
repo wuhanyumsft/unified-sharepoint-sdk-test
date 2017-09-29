@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/repo-toolbox.IRequiredCommandLineIntegerDefinition'
+    name: IRequiredCommandLineIntegerDefinition
+    fullName: IRequiredCommandLineIntegerDefinition
+    children:
+      - '@ms/repo-toolbox.IRequiredCommandLineIntegerDefinition.getDefaultValue'
+      - '@ms/repo-toolbox.IRequiredCommandLineIntegerDefinition.required'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/repo-toolbox'
+  - uid: '@ms/repo-toolbox.IRequiredCommandLineIntegerDefinition.getDefaultValue'
+    name: getDefaultValue
+    fullName: getDefaultValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => number getDefaultValue
+      return:
+        type:
+          - () => number
+  - uid: '@ms/repo-toolbox.IRequiredCommandLineIntegerDefinition.required'
+    name: required
+    fullName: required
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean required
+      return:
+        type:
+          - boolean

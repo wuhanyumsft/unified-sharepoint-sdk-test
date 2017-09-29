@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IAction'
+    name: IAction
+    fullName: IAction
+    children:
+      - '@ms/sp-pages.IAction.toLogEntry'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface for all actions
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IAction.toLogEntry'
+    name: toLogEntry
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Converts the action to a loggable object. Make sure the LogEntry does not
+      have any PII.
+
+      Return null if you do not want the action to be logged.
+    syntax:
+      content: function toLogEntry()
+      parameters: []
+      return:
+        type:
+          - _ILogEntry

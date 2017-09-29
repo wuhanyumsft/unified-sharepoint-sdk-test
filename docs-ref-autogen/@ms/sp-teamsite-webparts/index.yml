@@ -1,0 +1,673 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts'
+    name: '@ms/sp-teamsite-webparts'
+    summary: ''
+    children:
+      - '@ms/sp-teamsite-webparts.PersonUtility'
+      - '@ms/sp-teamsite-webparts.IPerson'
+      - '@ms/sp-teamsite-webparts.ResponsiveUtilities'
+      - '@ms/sp-teamsite-webparts.UrlUtility'
+      - '@ms/sp-teamsite-webparts.ListCreationPanelContainer'
+      - '@ms/sp-teamsite-webparts.IListCreationPanelContainerProps'
+      - '@ms/sp-teamsite-webparts.ListCreationPanelRender'
+      - '@ms/sp-teamsite-webparts.QuickLinksAddDeleteItem'
+      - '@ms/sp-teamsite-webparts.QuickLinksEditItem'
+      - '@ms/sp-teamsite-webparts.QuickLinksReorder'
+      - '@ms/sp-teamsite-webparts.BlogsWebPart'
+      - '@ms/sp-teamsite-webparts.IBlogsWebPartProps'
+      - '@ms/sp-teamsite-webparts.DetailsListConnector'
+      - '@ms/sp-teamsite-webparts.IDetailsListConnectorProps'
+      - '@ms/sp-teamsite-webparts.IDetailsListConnectorState'
+      - '@ms/sp-teamsite-webparts.EmptyFolderSize'
+      - '@ms/sp-teamsite-webparts.EmptyFolder'
+      - '@ms/sp-teamsite-webparts.IEmptyFolderProps'
+      - '@ms/sp-teamsite-webparts.WebpartHeight'
+      - '@ms/sp-teamsite-webparts.ListWebPart'
+      - '@ms/sp-teamsite-webparts.IListWebPartProps'
+      - '@ms/sp-teamsite-webparts.ListWebPartSetup'
+      - '@ms/sp-teamsite-webparts.IListWebPartSetupProps'
+      - '@ms/sp-teamsite-webparts.IListWebPartSetupState'
+      - '@ms/sp-teamsite-webparts.ListsProvider'
+      - '@ms/sp-teamsite-webparts.IListDataSource'
+      - '@ms/sp-teamsite-webparts.IListInfo'
+      - '@ms/sp-teamsite-webparts.ViewsDataSource'
+      - '@ms/sp-teamsite-webparts.IRawResponseData'
+      - '@ms/sp-teamsite-webparts.IViewsDataSourceView'
+      - '@ms/sp-teamsite-webparts.ViewsProvider'
+      - '@ms/sp-teamsite-webparts.IViewInfo'
+      - '@ms/sp-teamsite-webparts.IViewsDataSource'
+      - '@ms/sp-teamsite-webparts.ListDataSource'
+      - '@ms/sp-teamsite-webparts.MockViewsDataSource'
+      - '@ms/sp-teamsite-webparts.NewsL1'
+      - '@ms/sp-teamsite-webparts.NewsL2'
+      - '@ms/sp-teamsite-webparts.NewsWebPart'
+      - '@ms/sp-teamsite-webparts.INewsWebPartProps'
+      - '@ms/sp-teamsite-webparts.NewsPropertyPaneLayout'
+      - '@ms/sp-teamsite-webparts.NewsPropertyPaneSettings'
+      - '@ms/sp-teamsite-webparts.Newsfeed'
+      - '@ms/sp-teamsite-webparts.INewsfeedProps'
+      - '@ms/sp-teamsite-webparts.INewsfeedState'
+      - '@ms/sp-teamsite-webparts.NewsfeedItem'
+      - '@ms/sp-teamsite-webparts.INewsfeedPropsItem'
+      - '@ms/sp-teamsite-webparts.NewsfeedWebPart'
+      - '@ms/sp-teamsite-webparts.INewsfeedWebPartProps'
+      - '@ms/sp-teamsite-webparts.NewsreelWebPart'
+      - '@ms/sp-teamsite-webparts.INewsreelWebPartProps'
+      - '@ms/sp-teamsite-webparts.Metadata'
+      - '@ms/sp-teamsite-webparts.IMetadataProps'
+      - '@ms/sp-teamsite-webparts.NewsItem'
+      - '@ms/sp-teamsite-webparts.INewsItemProps'
+      - '@ms/sp-teamsite-webparts.Newsreel'
+      - '@ms/sp-teamsite-webparts.INewsreelProps'
+      - '@ms/sp-teamsite-webparts.INewsreelState'
+      - '@ms/sp-teamsite-webparts.ViewCounts'
+      - '@ms/sp-teamsite-webparts.IViewCountsProps'
+      - '@ms/sp-teamsite-webparts.INewsreelDataProvider'
+      - '@ms/sp-teamsite-webparts.NewsreelDataProvider'
+      - '@ms/sp-teamsite-webparts.INewsreelDataSource'
+      - '@ms/sp-teamsite-webparts.MockNewsreelDataSource'
+      - '@ms/sp-teamsite-webparts.ViewCountCellKeys'
+      - '@ms/sp-teamsite-webparts.NewsreelDataSource'
+      - '@ms/sp-teamsite-webparts.IViewCountCellObject'
+      - '@ms/sp-teamsite-webparts.IViewCountResponseObject'
+      - '@ms/sp-teamsite-webparts.INewsItem'
+      - '@ms/sp-teamsite-webparts.AssetsHelper'
+      - '@ms/sp-teamsite-webparts.Carousel'
+      - '@ms/sp-teamsite-webparts.ICarouselCellDimensions'
+      - '@ms/sp-teamsite-webparts.ICarouselProps'
+      - '@ms/sp-teamsite-webparts.ICarouselState'
+      - '@ms/sp-teamsite-webparts.MockQuickLinksDataEndpoint'
+      - '@ms/sp-teamsite-webparts.QuickLinksDataEndpoint'
+      - '@ms/sp-teamsite-webparts.QuickLinksProviderBase'
+      - '@ms/sp-teamsite-webparts.QuickLinksSPListProvider'
+      - '@ms/sp-teamsite-webparts.QuickLinksWebpartPropertyProvider'
+      - '@ms/sp-teamsite-webparts.FilePickerLoader'
+      - '@ms/sp-teamsite-webparts.FilePickerWrapper'
+      - '@ms/sp-teamsite-webparts.IFilePickerCallbacks'
+      - '@ms/sp-teamsite-webparts.IFilePickerProps'
+      - '@ms/sp-teamsite-webparts.QuickLinksFilePicker'
+      - '@ms/sp-teamsite-webparts.IQuickLinksFilePickerProps'
+      - '@ms/sp-teamsite-webparts.QuickLinkActions'
+      - '@ms/sp-teamsite-webparts.IQuickLinkAction'
+      - '@ms/sp-teamsite-webparts.IQuickLinkActionsProps'
+      - '@ms/sp-teamsite-webparts.QuickLinkTile'
+      - '@ms/sp-teamsite-webparts.IQuickLinkTileProps'
+      - '@ms/sp-teamsite-webparts.TileType'
+      - '@ms/sp-teamsite-webparts.QuickLinkTile'
+      - '@ms/sp-teamsite-webparts.IQuickLinkTileProps'
+      - '@ms/sp-teamsite-webparts.QuickLinksCardRenderer'
+      - '@ms/sp-teamsite-webparts.IQuickLinksCardRendererProps'
+      - '@ms/sp-teamsite-webparts.QuickLinksDataAdapter'
+      - '@ms/sp-teamsite-webparts.QuickLinksDataSource'
+      - '@ms/sp-teamsite-webparts.IParsedErrorCode'
+      - '@ms/sp-teamsite-webparts.IQuickLinksDataEndpoint'
+      - '@ms/sp-teamsite-webparts.IServerAuthorField'
+      - '@ms/sp-teamsite-webparts.IServerCreateOrUpdateResult'
+      - '@ms/sp-teamsite-webparts.IServerDeleteResult'
+      - '@ms/sp-teamsite-webparts.IServerError'
+      - '@ms/sp-teamsite-webparts.IServerGetItemsResult'
+      - '@ms/sp-teamsite-webparts.IServerListData'
+      - '@ms/sp-teamsite-webparts.IServerNewsItemMetadata'
+      - '@ms/sp-teamsite-webparts.IServerNewsItemRow'
+      - '@ms/sp-teamsite-webparts.IServerPropertiesField'
+      - '@ms/sp-teamsite-webparts.IServerSpotlightInfo'
+      - '@ms/sp-teamsite-webparts.QuickLinksDispatcher'
+      - '@ms/sp-teamsite-webparts.Singleton'
+      - '@ms/sp-teamsite-webparts.QuickLinksDisplayFieldMap'
+      - '@ms/sp-teamsite-webparts.QuickLinksFlight'
+      - '@ms/sp-teamsite-webparts.QuickLinksHeader'
+      - '@ms/sp-teamsite-webparts.IQuickLinksHeaderProps'
+      - '@ms/sp-teamsite-webparts.IQuickLinksHeaderState'
+      - '@ms/sp-teamsite-webparts.QuickLinksList'
+      - '@ms/sp-teamsite-webparts.IQuickLinksListProps'
+      - '@ms/sp-teamsite-webparts.IQuickLinksListStates'
+      - '@ms/sp-teamsite-webparts.QuickLinksMenuHost'
+      - '@ms/sp-teamsite-webparts.IQuickLinksMenuHostProps'
+      - '@ms/sp-teamsite-webparts.IQuickLinksMenuHostState'
+      - '@ms/sp-teamsite-webparts.QuickLinksMigrationManager'
+      - '@ms/sp-teamsite-webparts.QuickLinksImagePreview'
+      - '@ms/sp-teamsite-webparts.IImagePreviewFieldValues'
+      - '@ms/sp-teamsite-webparts.IQuickLinksImagePreviewProps'
+      - '@ms/sp-teamsite-webparts.IQuickLinksImagePreviewState'
+      - '@ms/sp-teamsite-webparts.QuickLinksImagePreview'
+      - '@ms/sp-teamsite-webparts.IQuickLinksImagePreviewProps'
+      - '@ms/sp-teamsite-webparts.IQuickLinksImagePreviewState'
+      - '@ms/sp-teamsite-webparts.QuickLinksPanel'
+      - '@ms/sp-teamsite-webparts.IQuickLinksPanelProps'
+      - '@ms/sp-teamsite-webparts.IQuickLinksPanelState'
+      - '@ms/sp-teamsite-webparts.QuickLinksPanelLoader'
+      - '@ms/sp-teamsite-webparts.IImageRenderInfo'
+      - '@ms/sp-teamsite-webparts.QuickLinksWebPart'
+      - '@ms/sp-teamsite-webparts.QuickLinksWebPartRenderer'
+      - '@ms/sp-teamsite-webparts.IQuickLinksWebPartRendererProps'
+      - '@ms/sp-teamsite-webparts.IQuickLinksWebPartRendererState'
+      - '@ms/sp-teamsite-webparts.QuickLinksWebPartRendererLoader'
+      - '@ms/sp-teamsite-webparts.ShortcutsArea'
+      - '@ms/sp-teamsite-webparts.ShortcutsAreaBox'
+      - '@ms/sp-teamsite-webparts.IShortcutsAreaBoxProps'
+      - '@ms/sp-teamsite-webparts.IShortcutsAreaProps'
+      - '@ms/sp-teamsite-webparts.ShortcutsPanel'
+      - '@ms/sp-teamsite-webparts.ShortcutsPanelState'
+      - '@ms/sp-teamsite-webparts.IShortcutItem'
+      - '@ms/sp-teamsite-webparts.IShortcutsPanel'
+      - '@ms/sp-teamsite-webparts.IShortcutsPanelFieldValues'
+      - '@ms/sp-teamsite-webparts.IShortcutsPanelProps'
+      - '@ms/sp-teamsite-webparts.IShortcutsPanelState'
+      - '@ms/sp-teamsite-webparts.IShortcutsPanelStrings'
+      - '@ms/sp-teamsite-webparts.IShortcutsResult'
+      - '@ms/sp-teamsite-webparts.ShortcutsPanelStateManager'
+      - '@ms/sp-teamsite-webparts.HostPageLoggingType'
+      - '@ms/sp-teamsite-webparts.QuickLinkFlags'
+      - '@ms/sp-teamsite-webparts.QuickLinkType'
+      - '@ms/sp-teamsite-webparts.QuickLinksChangeType'
+      - '@ms/sp-teamsite-webparts.QuickLinksEvent'
+      - '@ms/sp-teamsite-webparts.QuickLinksResultCode'
+      - '@ms/sp-teamsite-webparts.QuickLinksLayoutId'
+      - '@ms/sp-teamsite-webparts.ICompactImageRenderInfo'
+      - '@ms/sp-teamsite-webparts.IContextMenuOpenedEventObject'
+      - '@ms/sp-teamsite-webparts.IFlaggable'
+      - '@ms/sp-teamsite-webparts.IGuidSet'
+      - '@ms/sp-teamsite-webparts.IPageContextInfo'
+      - '@ms/sp-teamsite-webparts.IQuickLink'
+      - '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo'
+      - '@ms/sp-teamsite-webparts.IQuickLinksChange'
+      - '@ms/sp-teamsite-webparts.IQuickLinksDispatcher'
+      - '@ms/sp-teamsite-webparts.IQuickLinksProvider'
+      - '@ms/sp-teamsite-webparts.IQuickLinksWebPartProps'
+      - '@ms/sp-teamsite-webparts.IResult'
+      - '@ms/sp-teamsite-webparts.ISingleton'
+      - '@ms/sp-teamsite-webparts.IUploadImageResult'
+      - '@ms/sp-teamsite-webparts.BaseMoveQuickLinkMenuAction'
+      - '@ms/sp-teamsite-webparts.BaseQuickLinkMenuAction'
+      - '@ms/sp-teamsite-webparts.DeleteQuickLinkMenuAction'
+      - '@ms/sp-teamsite-webparts.EditQuickLinkMenuAction'
+      - '@ms/sp-teamsite-webparts.MenuActionFactory'
+      - '@ms/sp-teamsite-webparts.MoveLeftQuickLinkMenuAction'
+      - '@ms/sp-teamsite-webparts.MoveRightQuickLinkMenuAction'
+      - '@ms/sp-teamsite-webparts.OpenQuickLinkMenuAction'
+      - '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneEdit'
+      - '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneLayout'
+      - '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneSettings'
+      - '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneTextField'
+      - '@ms/sp-teamsite-webparts.IQuickLinksPropertyPaneTextFieldProps'
+      - '@ms/sp-teamsite-webparts.IQuickLinksPropertyPaneTextFieldState'
+      - '@ms/sp-teamsite-webparts.MockQuickLinksDataEndpoint'
+      - '@ms/sp-teamsite-webparts.IResult'
+      - '@ms/sp-teamsite-webparts.AssetsHelper'
+      - '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper'
+      - '@ms/sp-teamsite-webparts.SiteActivityList'
+      - '@ms/sp-teamsite-webparts.ISiteActivityListProps'
+      - '@ms/sp-teamsite-webparts.ISiteActivityListStates'
+      - '@ms/sp-teamsite-webparts.SiteActivityProvider'
+      - '@ms/sp-teamsite-webparts.SiteActivityWebPart'
+      - '@ms/sp-teamsite-webparts.ISiteActivityWebPartProps'
+      - '@ms/sp-teamsite-webparts.ISiteActivityWebPartState'
+      - '@ms/sp-teamsite-webparts.ActivityType'
+      - '@ms/sp-teamsite-webparts.HomeApiSiteActivityDataSource'
+      - '@ms/sp-teamsite-webparts.IActivityFromServer'
+      - '@ms/sp-teamsite-webparts.IActivityItemFromServer'
+      - '@ms/sp-teamsite-webparts.ISiteReferenceFromServer'
+      - '@ms/sp-teamsite-webparts.IUserFromServer'
+      - '@ms/sp-teamsite-webparts.SiteActivityDataSource'
+      - '@ms/sp-teamsite-webparts.ActivityObjectType'
+      - '@ms/sp-teamsite-webparts.AggregateType'
+      - '@ms/sp-teamsite-webparts.ChangeActivityType'
+      - '@ms/sp-teamsite-webparts.ChangeObjectType'
+      - '@ms/sp-teamsite-webparts.ChangeType'
+      - '@ms/sp-teamsite-webparts.DataSourceType'
+      - '@ms/sp-teamsite-webparts.HostPageLoggingType'
+      - '@ms/sp-teamsite-webparts.ListTemplateType'
+      - '@ms/sp-teamsite-webparts.IActivity'
+      - '@ms/sp-teamsite-webparts.IActivityAggregate'
+      - '@ms/sp-teamsite-webparts.IActivityQueryParams'
+      - '@ms/sp-teamsite-webparts.IItemInformation'
+      - '@ms/sp-teamsite-webparts.ISiteActivityDataSource'
+      - '@ms/sp-teamsite-webparts.MockSiteActivityDataSource'
+      - '@ms/sp-teamsite-webparts.Global'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@ms/sp-teamsite-webparts.PersonUtility'
+    name: PersonUtility
+  - uid: '@ms/sp-teamsite-webparts.IPerson'
+    name: IPerson
+  - uid: '@ms/sp-teamsite-webparts.ResponsiveUtilities'
+    name: ResponsiveUtilities
+  - uid: '@ms/sp-teamsite-webparts.UrlUtility'
+    name: UrlUtility
+  - uid: '@ms/sp-teamsite-webparts.ListCreationPanelContainer'
+    name: ListCreationPanelContainer
+  - uid: '@ms/sp-teamsite-webparts.IListCreationPanelContainerProps'
+    name: IListCreationPanelContainerProps
+  - uid: '@ms/sp-teamsite-webparts.ListCreationPanelRender'
+    name: ListCreationPanelRender
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksAddDeleteItem'
+    name: QuickLinksAddDeleteItem
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksEditItem'
+    name: QuickLinksEditItem
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksReorder'
+    name: QuickLinksReorder
+  - uid: '@ms/sp-teamsite-webparts.BlogsWebPart'
+    name: BlogsWebPart
+  - uid: '@ms/sp-teamsite-webparts.IBlogsWebPartProps'
+    name: IBlogsWebPartProps
+  - uid: '@ms/sp-teamsite-webparts.DetailsListConnector'
+    name: DetailsListConnector
+  - uid: '@ms/sp-teamsite-webparts.IDetailsListConnectorProps'
+    name: IDetailsListConnectorProps
+  - uid: '@ms/sp-teamsite-webparts.IDetailsListConnectorState'
+    name: IDetailsListConnectorState
+  - uid: '@ms/sp-teamsite-webparts.EmptyFolderSize'
+    name: EmptyFolderSize
+  - uid: '@ms/sp-teamsite-webparts.EmptyFolder'
+    name: EmptyFolder
+  - uid: '@ms/sp-teamsite-webparts.IEmptyFolderProps'
+    name: IEmptyFolderProps
+  - uid: '@ms/sp-teamsite-webparts.WebpartHeight'
+    name: WebpartHeight
+  - uid: '@ms/sp-teamsite-webparts.ListWebPart'
+    name: ListWebPart
+  - uid: '@ms/sp-teamsite-webparts.IListWebPartProps'
+    name: IListWebPartProps
+  - uid: '@ms/sp-teamsite-webparts.ListWebPartSetup'
+    name: ListWebPartSetup
+  - uid: '@ms/sp-teamsite-webparts.IListWebPartSetupProps'
+    name: IListWebPartSetupProps
+  - uid: '@ms/sp-teamsite-webparts.IListWebPartSetupState'
+    name: IListWebPartSetupState
+  - uid: '@ms/sp-teamsite-webparts.ListsProvider'
+    name: ListsProvider
+  - uid: '@ms/sp-teamsite-webparts.IListDataSource'
+    name: IListDataSource
+  - uid: '@ms/sp-teamsite-webparts.IListInfo'
+    name: IListInfo
+  - uid: '@ms/sp-teamsite-webparts.ViewsDataSource'
+    name: ViewsDataSource
+  - uid: '@ms/sp-teamsite-webparts.IRawResponseData'
+    name: IRawResponseData
+  - uid: '@ms/sp-teamsite-webparts.IViewsDataSourceView'
+    name: IViewsDataSourceView
+  - uid: '@ms/sp-teamsite-webparts.ViewsProvider'
+    name: ViewsProvider
+  - uid: '@ms/sp-teamsite-webparts.IViewInfo'
+    name: IViewInfo
+  - uid: '@ms/sp-teamsite-webparts.IViewsDataSource'
+    name: IViewsDataSource
+  - uid: '@ms/sp-teamsite-webparts.ListDataSource'
+    name: ListDataSource
+  - uid: '@ms/sp-teamsite-webparts.MockViewsDataSource'
+    name: MockViewsDataSource
+  - uid: '@ms/sp-teamsite-webparts.NewsL1'
+    name: NewsL1
+  - uid: '@ms/sp-teamsite-webparts.NewsL2'
+    name: NewsL2
+  - uid: '@ms/sp-teamsite-webparts.NewsWebPart'
+    name: NewsWebPart
+  - uid: '@ms/sp-teamsite-webparts.INewsWebPartProps'
+    name: INewsWebPartProps
+  - uid: '@ms/sp-teamsite-webparts.NewsPropertyPaneLayout'
+    name: NewsPropertyPaneLayout
+  - uid: '@ms/sp-teamsite-webparts.NewsPropertyPaneSettings'
+    name: NewsPropertyPaneSettings
+  - uid: '@ms/sp-teamsite-webparts.Newsfeed'
+    name: Newsfeed
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedProps'
+    name: INewsfeedProps
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedState'
+    name: INewsfeedState
+  - uid: '@ms/sp-teamsite-webparts.NewsfeedItem'
+    name: NewsfeedItem
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedPropsItem'
+    name: INewsfeedPropsItem
+  - uid: '@ms/sp-teamsite-webparts.NewsfeedWebPart'
+    name: NewsfeedWebPart
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedWebPartProps'
+    name: INewsfeedWebPartProps
+  - uid: '@ms/sp-teamsite-webparts.NewsreelWebPart'
+    name: NewsreelWebPart
+  - uid: '@ms/sp-teamsite-webparts.INewsreelWebPartProps'
+    name: INewsreelWebPartProps
+  - uid: '@ms/sp-teamsite-webparts.Metadata'
+    name: Metadata
+  - uid: '@ms/sp-teamsite-webparts.IMetadataProps'
+    name: IMetadataProps
+  - uid: '@ms/sp-teamsite-webparts.NewsItem'
+    name: NewsItem
+  - uid: '@ms/sp-teamsite-webparts.INewsItemProps'
+    name: INewsItemProps
+  - uid: '@ms/sp-teamsite-webparts.Newsreel'
+    name: Newsreel
+  - uid: '@ms/sp-teamsite-webparts.INewsreelProps'
+    name: INewsreelProps
+  - uid: '@ms/sp-teamsite-webparts.INewsreelState'
+    name: INewsreelState
+  - uid: '@ms/sp-teamsite-webparts.ViewCounts'
+    name: ViewCounts
+  - uid: '@ms/sp-teamsite-webparts.IViewCountsProps'
+    name: IViewCountsProps
+  - uid: '@ms/sp-teamsite-webparts.INewsreelDataProvider'
+    name: INewsreelDataProvider
+  - uid: '@ms/sp-teamsite-webparts.NewsreelDataProvider'
+    name: NewsreelDataProvider
+  - uid: '@ms/sp-teamsite-webparts.INewsreelDataSource'
+    name: INewsreelDataSource
+  - uid: '@ms/sp-teamsite-webparts.MockNewsreelDataSource'
+    name: MockNewsreelDataSource
+  - uid: '@ms/sp-teamsite-webparts.ViewCountCellKeys'
+    name: ViewCountCellKeys
+  - uid: '@ms/sp-teamsite-webparts.NewsreelDataSource'
+    name: NewsreelDataSource
+  - uid: '@ms/sp-teamsite-webparts.IViewCountCellObject'
+    name: IViewCountCellObject
+  - uid: '@ms/sp-teamsite-webparts.IViewCountResponseObject'
+    name: IViewCountResponseObject
+  - uid: '@ms/sp-teamsite-webparts.INewsItem'
+    name: INewsItem
+  - uid: '@ms/sp-teamsite-webparts.AssetsHelper'
+    name: AssetsHelper
+  - uid: '@ms/sp-teamsite-webparts.Carousel'
+    name: Carousel
+  - uid: '@ms/sp-teamsite-webparts.ICarouselCellDimensions'
+    name: ICarouselCellDimensions
+  - uid: '@ms/sp-teamsite-webparts.ICarouselProps'
+    name: ICarouselProps
+  - uid: '@ms/sp-teamsite-webparts.ICarouselState'
+    name: ICarouselState
+  - uid: '@ms/sp-teamsite-webparts.MockQuickLinksDataEndpoint'
+    name: MockQuickLinksDataEndpoint
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksDataEndpoint'
+    name: QuickLinksDataEndpoint
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksProviderBase'
+    name: QuickLinksProviderBase
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksSPListProvider'
+    name: QuickLinksSPListProvider
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksWebpartPropertyProvider'
+    name: QuickLinksWebpartPropertyProvider
+  - uid: '@ms/sp-teamsite-webparts.FilePickerLoader'
+    name: FilePickerLoader
+  - uid: '@ms/sp-teamsite-webparts.FilePickerWrapper'
+    name: FilePickerWrapper
+  - uid: '@ms/sp-teamsite-webparts.IFilePickerCallbacks'
+    name: IFilePickerCallbacks
+  - uid: '@ms/sp-teamsite-webparts.IFilePickerProps'
+    name: IFilePickerProps
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksFilePicker'
+    name: QuickLinksFilePicker
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksFilePickerProps'
+    name: IQuickLinksFilePickerProps
+  - uid: '@ms/sp-teamsite-webparts.QuickLinkActions'
+    name: QuickLinkActions
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkAction'
+    name: IQuickLinkAction
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkActionsProps'
+    name: IQuickLinkActionsProps
+  - uid: '@ms/sp-teamsite-webparts.QuickLinkTile'
+    name: QuickLinkTile
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkTileProps'
+    name: IQuickLinkTileProps
+  - uid: '@ms/sp-teamsite-webparts.TileType'
+    name: TileType
+  - uid: '@ms/sp-teamsite-webparts.QuickLinkTile'
+    name: QuickLinkTile
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkTileProps'
+    name: IQuickLinkTileProps
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksCardRenderer'
+    name: QuickLinksCardRenderer
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksCardRendererProps'
+    name: IQuickLinksCardRendererProps
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksDataAdapter'
+    name: QuickLinksDataAdapter
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksDataSource'
+    name: QuickLinksDataSource
+  - uid: '@ms/sp-teamsite-webparts.IParsedErrorCode'
+    name: IParsedErrorCode
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksDataEndpoint'
+    name: IQuickLinksDataEndpoint
+  - uid: '@ms/sp-teamsite-webparts.IServerAuthorField'
+    name: IServerAuthorField
+  - uid: '@ms/sp-teamsite-webparts.IServerCreateOrUpdateResult'
+    name: IServerCreateOrUpdateResult
+  - uid: '@ms/sp-teamsite-webparts.IServerDeleteResult'
+    name: IServerDeleteResult
+  - uid: '@ms/sp-teamsite-webparts.IServerError'
+    name: IServerError
+  - uid: '@ms/sp-teamsite-webparts.IServerGetItemsResult'
+    name: IServerGetItemsResult
+  - uid: '@ms/sp-teamsite-webparts.IServerListData'
+    name: IServerListData
+  - uid: '@ms/sp-teamsite-webparts.IServerNewsItemMetadata'
+    name: IServerNewsItemMetadata
+  - uid: '@ms/sp-teamsite-webparts.IServerNewsItemRow'
+    name: IServerNewsItemRow
+  - uid: '@ms/sp-teamsite-webparts.IServerPropertiesField'
+    name: IServerPropertiesField
+  - uid: '@ms/sp-teamsite-webparts.IServerSpotlightInfo'
+    name: IServerSpotlightInfo
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksDispatcher'
+    name: QuickLinksDispatcher
+  - uid: '@ms/sp-teamsite-webparts.Singleton'
+    name: Singleton
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksDisplayFieldMap'
+    name: QuickLinksDisplayFieldMap
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksFlight'
+    name: QuickLinksFlight
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksHeader'
+    name: QuickLinksHeader
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksHeaderProps'
+    name: IQuickLinksHeaderProps
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksHeaderState'
+    name: IQuickLinksHeaderState
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksList'
+    name: QuickLinksList
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksListProps'
+    name: IQuickLinksListProps
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksListStates'
+    name: IQuickLinksListStates
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksMenuHost'
+    name: QuickLinksMenuHost
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksMenuHostProps'
+    name: IQuickLinksMenuHostProps
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksMenuHostState'
+    name: IQuickLinksMenuHostState
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksMigrationManager'
+    name: QuickLinksMigrationManager
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksImagePreview'
+    name: QuickLinksImagePreview
+  - uid: '@ms/sp-teamsite-webparts.IImagePreviewFieldValues'
+    name: IImagePreviewFieldValues
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksImagePreviewProps'
+    name: IQuickLinksImagePreviewProps
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksImagePreviewState'
+    name: IQuickLinksImagePreviewState
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksImagePreview'
+    name: QuickLinksImagePreview
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksImagePreviewProps'
+    name: IQuickLinksImagePreviewProps
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksImagePreviewState'
+    name: IQuickLinksImagePreviewState
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksPanel'
+    name: QuickLinksPanel
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksPanelProps'
+    name: IQuickLinksPanelProps
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksPanelState'
+    name: IQuickLinksPanelState
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksPanelLoader'
+    name: QuickLinksPanelLoader
+  - uid: '@ms/sp-teamsite-webparts.IImageRenderInfo'
+    name: IImageRenderInfo
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksWebPart'
+    name: QuickLinksWebPart
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksWebPartRenderer'
+    name: QuickLinksWebPartRenderer
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksWebPartRendererProps'
+    name: IQuickLinksWebPartRendererProps
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksWebPartRendererState'
+    name: IQuickLinksWebPartRendererState
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksWebPartRendererLoader'
+    name: QuickLinksWebPartRendererLoader
+  - uid: '@ms/sp-teamsite-webparts.ShortcutsArea'
+    name: ShortcutsArea
+  - uid: '@ms/sp-teamsite-webparts.ShortcutsAreaBox'
+    name: ShortcutsAreaBox
+  - uid: '@ms/sp-teamsite-webparts.IShortcutsAreaBoxProps'
+    name: IShortcutsAreaBoxProps
+  - uid: '@ms/sp-teamsite-webparts.IShortcutsAreaProps'
+    name: IShortcutsAreaProps
+  - uid: '@ms/sp-teamsite-webparts.ShortcutsPanel'
+    name: ShortcutsPanel
+  - uid: '@ms/sp-teamsite-webparts.ShortcutsPanelState'
+    name: ShortcutsPanelState
+  - uid: '@ms/sp-teamsite-webparts.IShortcutItem'
+    name: IShortcutItem
+  - uid: '@ms/sp-teamsite-webparts.IShortcutsPanel'
+    name: IShortcutsPanel
+  - uid: '@ms/sp-teamsite-webparts.IShortcutsPanelFieldValues'
+    name: IShortcutsPanelFieldValues
+  - uid: '@ms/sp-teamsite-webparts.IShortcutsPanelProps'
+    name: IShortcutsPanelProps
+  - uid: '@ms/sp-teamsite-webparts.IShortcutsPanelState'
+    name: IShortcutsPanelState
+  - uid: '@ms/sp-teamsite-webparts.IShortcutsPanelStrings'
+    name: IShortcutsPanelStrings
+  - uid: '@ms/sp-teamsite-webparts.IShortcutsResult'
+    name: IShortcutsResult
+  - uid: '@ms/sp-teamsite-webparts.ShortcutsPanelStateManager'
+    name: ShortcutsPanelStateManager
+  - uid: '@ms/sp-teamsite-webparts.HostPageLoggingType'
+    name: HostPageLoggingType
+  - uid: '@ms/sp-teamsite-webparts.QuickLinkFlags'
+    name: QuickLinkFlags
+  - uid: '@ms/sp-teamsite-webparts.QuickLinkType'
+    name: QuickLinkType
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksChangeType'
+    name: QuickLinksChangeType
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksEvent'
+    name: QuickLinksEvent
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksResultCode'
+    name: QuickLinksResultCode
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksLayoutId'
+    name: QuickLinksLayoutId
+  - uid: '@ms/sp-teamsite-webparts.ICompactImageRenderInfo'
+    name: ICompactImageRenderInfo
+  - uid: '@ms/sp-teamsite-webparts.IContextMenuOpenedEventObject'
+    name: IContextMenuOpenedEventObject
+  - uid: '@ms/sp-teamsite-webparts.IFlaggable'
+    name: IFlaggable
+  - uid: '@ms/sp-teamsite-webparts.IGuidSet'
+    name: IGuidSet
+  - uid: '@ms/sp-teamsite-webparts.IPageContextInfo'
+    name: IPageContextInfo
+  - uid: '@ms/sp-teamsite-webparts.IQuickLink'
+    name: IQuickLink
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinkRenderInfo'
+    name: IQuickLinkRenderInfo
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksChange'
+    name: IQuickLinksChange
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksDispatcher'
+    name: IQuickLinksDispatcher
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksProvider'
+    name: IQuickLinksProvider
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksWebPartProps'
+    name: IQuickLinksWebPartProps
+  - uid: '@ms/sp-teamsite-webparts.IResult'
+    name: IResult
+  - uid: '@ms/sp-teamsite-webparts.ISingleton'
+    name: ISingleton
+  - uid: '@ms/sp-teamsite-webparts.IUploadImageResult'
+    name: IUploadImageResult
+  - uid: '@ms/sp-teamsite-webparts.BaseMoveQuickLinkMenuAction'
+    name: BaseMoveQuickLinkMenuAction
+  - uid: '@ms/sp-teamsite-webparts.BaseQuickLinkMenuAction'
+    name: BaseQuickLinkMenuAction
+  - uid: '@ms/sp-teamsite-webparts.DeleteQuickLinkMenuAction'
+    name: DeleteQuickLinkMenuAction
+  - uid: '@ms/sp-teamsite-webparts.EditQuickLinkMenuAction'
+    name: EditQuickLinkMenuAction
+  - uid: '@ms/sp-teamsite-webparts.MenuActionFactory'
+    name: MenuActionFactory
+  - uid: '@ms/sp-teamsite-webparts.MoveLeftQuickLinkMenuAction'
+    name: MoveLeftQuickLinkMenuAction
+  - uid: '@ms/sp-teamsite-webparts.MoveRightQuickLinkMenuAction'
+    name: MoveRightQuickLinkMenuAction
+  - uid: '@ms/sp-teamsite-webparts.OpenQuickLinkMenuAction'
+    name: OpenQuickLinkMenuAction
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneEdit'
+    name: QuickLinksPropertyPaneEdit
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneLayout'
+    name: QuickLinksPropertyPaneLayout
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneSettings'
+    name: QuickLinksPropertyPaneSettings
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksPropertyPaneTextField'
+    name: QuickLinksPropertyPaneTextField
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksPropertyPaneTextFieldProps'
+    name: IQuickLinksPropertyPaneTextFieldProps
+  - uid: '@ms/sp-teamsite-webparts.IQuickLinksPropertyPaneTextFieldState'
+    name: IQuickLinksPropertyPaneTextFieldState
+  - uid: '@ms/sp-teamsite-webparts.MockQuickLinksDataEndpoint'
+    name: MockQuickLinksDataEndpoint
+  - uid: '@ms/sp-teamsite-webparts.IResult'
+    name: IResult
+  - uid: '@ms/sp-teamsite-webparts.AssetsHelper'
+    name: AssetsHelper
+  - uid: '@ms/sp-teamsite-webparts.SiteActivityAggregateHelper'
+    name: SiteActivityAggregateHelper
+  - uid: '@ms/sp-teamsite-webparts.SiteActivityList'
+    name: SiteActivityList
+  - uid: '@ms/sp-teamsite-webparts.ISiteActivityListProps'
+    name: ISiteActivityListProps
+  - uid: '@ms/sp-teamsite-webparts.ISiteActivityListStates'
+    name: ISiteActivityListStates
+  - uid: '@ms/sp-teamsite-webparts.SiteActivityProvider'
+    name: SiteActivityProvider
+  - uid: '@ms/sp-teamsite-webparts.SiteActivityWebPart'
+    name: SiteActivityWebPart
+  - uid: '@ms/sp-teamsite-webparts.ISiteActivityWebPartProps'
+    name: ISiteActivityWebPartProps
+  - uid: '@ms/sp-teamsite-webparts.ISiteActivityWebPartState'
+    name: ISiteActivityWebPartState
+  - uid: '@ms/sp-teamsite-webparts.ActivityType'
+    name: ActivityType
+  - uid: '@ms/sp-teamsite-webparts.HomeApiSiteActivityDataSource'
+    name: HomeApiSiteActivityDataSource
+  - uid: '@ms/sp-teamsite-webparts.IActivityFromServer'
+    name: IActivityFromServer
+  - uid: '@ms/sp-teamsite-webparts.IActivityItemFromServer'
+    name: IActivityItemFromServer
+  - uid: '@ms/sp-teamsite-webparts.ISiteReferenceFromServer'
+    name: ISiteReferenceFromServer
+  - uid: '@ms/sp-teamsite-webparts.IUserFromServer'
+    name: IUserFromServer
+  - uid: '@ms/sp-teamsite-webparts.SiteActivityDataSource'
+    name: SiteActivityDataSource
+  - uid: '@ms/sp-teamsite-webparts.ActivityObjectType'
+    name: ActivityObjectType
+  - uid: '@ms/sp-teamsite-webparts.AggregateType'
+    name: AggregateType
+  - uid: '@ms/sp-teamsite-webparts.ChangeActivityType'
+    name: ChangeActivityType
+  - uid: '@ms/sp-teamsite-webparts.ChangeObjectType'
+    name: ChangeObjectType
+  - uid: '@ms/sp-teamsite-webparts.ChangeType'
+    name: ChangeType
+  - uid: '@ms/sp-teamsite-webparts.DataSourceType'
+    name: DataSourceType
+  - uid: '@ms/sp-teamsite-webparts.HostPageLoggingType'
+    name: HostPageLoggingType
+  - uid: '@ms/sp-teamsite-webparts.ListTemplateType'
+    name: ListTemplateType
+  - uid: '@ms/sp-teamsite-webparts.IActivity'
+    name: IActivity
+  - uid: '@ms/sp-teamsite-webparts.IActivityAggregate'
+    name: IActivityAggregate
+  - uid: '@ms/sp-teamsite-webparts.IActivityQueryParams'
+    name: IActivityQueryParams
+  - uid: '@ms/sp-teamsite-webparts.IItemInformation'
+    name: IItemInformation
+  - uid: '@ms/sp-teamsite-webparts.ISiteActivityDataSource'
+    name: ISiteActivityDataSource
+  - uid: '@ms/sp-teamsite-webparts.MockSiteActivityDataSource'
+    name: MockSiteActivityDataSource
+  - uid: '@ms/sp-teamsite-webparts.Global'
+    name: Global

@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedState'
+    name: INewsfeedState
+    fullName: INewsfeedState
+    children:
+      - '@ms/sp-teamsite-webparts.INewsfeedState.currentBreakpoint'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedState.currentBreakpoint'
+    name: currentBreakpoint
+    fullName: currentBreakpoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: BREAKPOINT_SIZE currentBreakpoint
+      return:
+        type:
+          - BREAKPOINT_SIZE

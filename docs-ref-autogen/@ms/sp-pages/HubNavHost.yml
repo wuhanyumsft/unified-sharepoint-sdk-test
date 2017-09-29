@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.HubNavHost'
+    name: HubNavHost
+    fullName: HubNavHost
+    children:
+      - '@ms/sp-pages.HubNavHost.componentDidMount'
+      - '@ms/sp-pages.HubNavHost.constructor'
+      - '@ms/sp-pages.HubNavHost.render'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Wrapper for the React HubNav control.
+
+      This class should ONLY contain the SP-CLIENT specific details of the hub
+      nav host.
+    extends:
+      name: '@@ms/sp-pages.BasePublishingControl<@@ms/sp-pages.IHubNavHostProps>'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.HubNavHost.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-pages.HubNavHost.constructor'
+    name: HubNavHost
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new HubNavHost(props: IHubNavHostProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.IHubNavHostProps'
+          description: ''
+  - uid: '@ms/sp-pages.HubNavHost.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

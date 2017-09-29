@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-workbench.MobilePreviewURLEntry'
+    name: MobilePreviewURLEntry
+    fullName: MobilePreviewURLEntry
+    children:
+      - '@microsoft/sp-webpart-workbench.MobilePreviewURLEntry.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@microsoft/sp-webpart-workbench.MobilePreviewURLEntry<@@microsoft/sp-webpart-workbench.IMobilePreviewURLEntryProps>
+    package: '@microsoft/sp-webpart-workbench'
+  - uid: '@microsoft/sp-webpart-workbench.MobilePreviewURLEntry.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

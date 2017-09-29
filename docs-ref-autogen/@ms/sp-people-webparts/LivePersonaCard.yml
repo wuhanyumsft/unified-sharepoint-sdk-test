@@ -1,0 +1,91 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.LivePersonaCard'
+    name: LivePersonaCard
+    fullName: LivePersonaCard
+    children:
+      - '@ms/sp-people-webparts.LivePersonaCard.activate'
+      - '@ms/sp-people-webparts.LivePersonaCard.componentDidMount'
+      - '@ms/sp-people-webparts.LivePersonaCard.componentDidUpdate'
+      - '@ms/sp-people-webparts.LivePersonaCard.componentWillReceiveProps'
+      - '@ms/sp-people-webparts.LivePersonaCard.componentWillUnmount'
+      - '@ms/sp-people-webparts.LivePersonaCard.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-people-webparts.LivePersonaCard<@@ms/sp-people-webparts.ILivePersonaCardProps>
+    package: '@ms/sp-people-webparts'
+  - uid: '@ms/sp-people-webparts.LivePersonaCard.activate'
+    name: activate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function activate()
+      parameters: []
+  - uid: '@ms/sp-people-webparts.LivePersonaCard.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-people-webparts.LivePersonaCard.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentDidUpdate(prevProps: ILivePersonaCardProps)'
+      parameters:
+        - id: prevProps
+          type:
+            - '@@ms/sp-people-webparts.ILivePersonaCardProps'
+          description: ''
+  - uid: '@ms/sp-people-webparts.LivePersonaCard.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: ILivePersonaCardProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - '@@ms/sp-people-webparts.ILivePersonaCardProps'
+          description: ''
+  - uid: '@ms/sp-people-webparts.LivePersonaCard.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-people-webparts.LivePersonaCard.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

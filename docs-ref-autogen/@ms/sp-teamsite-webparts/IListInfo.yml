@@ -1,0 +1,123 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IListInfo'
+    name: IListInfo
+    fullName: IListInfo
+    children:
+      - '@ms/sp-teamsite-webparts.IListInfo.BaseTemplate'
+      - '@ms/sp-teamsite-webparts.IListInfo.DefaultViewUrl'
+      - '@ms/sp-teamsite-webparts.IListInfo.Description'
+      - '@ms/sp-teamsite-webparts.IListInfo.Id'
+      - '@ms/sp-teamsite-webparts.IListInfo.ItemCount'
+      - '@ms/sp-teamsite-webparts.IListInfo.ParentWebServerRelativeUrl'
+      - '@ms/sp-teamsite-webparts.IListInfo.ServerRelativeListUrl'
+      - '@ms/sp-teamsite-webparts.IListInfo.Title'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IListInfo.BaseTemplate'
+    name: BaseTemplate
+    fullName: BaseTemplate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number BaseTemplate
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-teamsite-webparts.IListInfo.DefaultViewUrl'
+    name: DefaultViewUrl
+    fullName: DefaultViewUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string DefaultViewUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IListInfo.Description'
+    name: Description
+    fullName: Description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Description
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IListInfo.Id'
+    name: Id
+    fullName: Id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IListInfo.ItemCount'
+    name: ItemCount
+    fullName: ItemCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number ItemCount
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-teamsite-webparts.IListInfo.ParentWebServerRelativeUrl'
+    name: ParentWebServerRelativeUrl
+    fullName: ParentWebServerRelativeUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ParentWebServerRelativeUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IListInfo.ServerRelativeListUrl'
+    name: ServerRelativeListUrl
+    fullName: ServerRelativeListUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ServerRelativeListUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.IListInfo.Title'
+    name: Title
+    fullName: Title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Title
+      return:
+        type:
+          - string

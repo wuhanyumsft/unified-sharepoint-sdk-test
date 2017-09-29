@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.PublisherSwitch'
+    name: PublisherSwitch
+    fullName: PublisherSwitch
+    children:
+      - '@ms/sp-publishing-webparts.PublisherSwitch.constructor'
+      - '@ms/sp-publishing-webparts.PublisherSwitch.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-publishing-webparts.PublisherSwitch<@@ms/sp-publishing-webparts.IPublisherSwitchProps>
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.PublisherSwitch.constructor'
+    name: PublisherSwitch
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PublisherSwitch(props: IPublisherSwitchProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-publishing-webparts.IPublisherSwitchProps'
+          description: ''
+  - uid: '@ms/sp-publishing-webparts.PublisherSwitch.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

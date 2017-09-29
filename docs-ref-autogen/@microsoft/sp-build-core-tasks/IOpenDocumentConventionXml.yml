@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IOpenDocumentConventionXml'
+    name: IOpenDocumentConventionXml
+    fullName: IOpenDocumentConventionXml
+    children:
+      - '@microsoft/sp-build-core-tasks.IOpenDocumentConventionXml.relationships'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@microsoft/sp-build-core-tasks.IXml'
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.IOpenDocumentConventionXml.relationships'
+    name: relationships
+    fullName: relationships
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IXml relationships
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IXml'

@@ -1,0 +1,176 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/i18n-utilities.LocaleFormat'
+    name: LocaleFormat
+    fullName: LocaleFormat
+    children:
+      - '@ms/i18n-utilities.LocaleFormat.formatDate'
+      - '@ms/i18n-utilities.LocaleFormat.formatNumber'
+      - '@ms/i18n-utilities.LocaleFormat.formatRelativeTime'
+      - '@ms/i18n-utilities.LocaleFormat.formatRelativeTimeApproximate'
+      - '@ms/i18n-utilities.LocaleFormat.parseDate'
+      - '@ms/i18n-utilities.LocaleFormat.parseNumber'
+    langs:
+      - typeScript
+    type: class
+    summary: A set of utility functions for localizing dates and numbers.
+    package: '@ms/i18n-utilities'
+  - uid: '@ms/i18n-utilities.LocaleFormat.formatDate'
+    name: formatDate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Format a date in the user's locale according to the specified options.
+    syntax:
+      content: 'static function formatDate(value: Date, options?: IDateFormatterOptions)'
+      parameters:
+        - id: value
+          type:
+            - Date
+          description: The date to format.
+        - id: options
+          type:
+            - '@@ms/i18n-utilities.IDateFormatterOptions'
+          description: |
+            Optional options for formatting.
+          optional: true
+      return:
+        type:
+          - string
+  - uid: '@ms/i18n-utilities.LocaleFormat.formatNumber'
+    name: formatNumber
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Format a number in the user's locale according to the specified options.
+    syntax:
+      content: >-
+        static function formatNumber(value: number, options?:
+        INumberFormatterOptions)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: The number to format.
+        - id: options
+          type:
+            - '@@ms/i18n-utilities.INumberFormatterOptions'
+          description: |
+            Optional options for formatting.
+          optional: true
+      return:
+        type:
+          - string
+  - uid: '@ms/i18n-utilities.LocaleFormat.formatRelativeTime'
+    name: formatRelativeTime
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Format a number of specified time units in the user's locale according to
+      the specified options as a relative date
+       time.
+    syntax:
+      content: >-
+        static function formatRelativeTime(value: number, unit: string,
+        options?: IRelativeTimeFormatterOptions)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: The number of units.
+        - id: unit
+          type:
+            - string
+          description: 'The time unit. Valid options include "day", "week", "month", etc.'
+        - id: options
+          type:
+            - '@@ms/i18n-utilities.IRelativeTimeFormatterOptions'
+          description: |
+            Optional options for formatting.
+          optional: true
+      return:
+        type:
+          - string
+  - uid: '@ms/i18n-utilities.LocaleFormat.formatRelativeTimeApproximate'
+    name: formatRelativeTimeApproximate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Format a date as relative to the current time.
+    syntax:
+      content: >-
+        static function formatRelativeTimeApproximate(value: Date, options?:
+        IRelativeTimeFormatterOptions)
+      parameters:
+        - id: value
+          type:
+            - Date
+          description: The date.
+        - id: options
+          type:
+            - '@@ms/i18n-utilities.IRelativeTimeFormatterOptions'
+          description: |
+            Optional options for formatting.
+          optional: true
+      return:
+        type:
+          - string
+  - uid: '@ms/i18n-utilities.LocaleFormat.parseDate'
+    name: parseDate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Parse a string into a Date according to the specified options. The date is
+      expected to be formatted according
+       to the user's locale.
+    syntax:
+      content: 'static function parseDate(value: string, options?: IDateParserOptions)'
+      parameters:
+        - id: value
+          type:
+            - string
+          description: The string value to parse.
+        - id: options
+          type:
+            - '@@ms/i18n-utilities.IDateParserOptions'
+          description: |
+            Optional options for parsing.
+          optional: true
+      return:
+        type:
+          - Date
+  - uid: '@ms/i18n-utilities.LocaleFormat.parseNumber'
+    name: parseNumber
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Parse a string into a number according to the specified options. The
+      number is expected to be formatted according
+       to the user's locale.
+    syntax:
+      content: >-
+        static function parseNumber(value: string, options?:
+        INumberParserOptions)
+      parameters:
+        - id: value
+          type:
+            - string
+          description: The string value to parse.
+        - id: options
+          type:
+            - '@@ms/i18n-utilities.INumberParserOptions'
+          description: |
+            Optional options for parsing.
+          optional: true
+      return:
+        type:
+          - number

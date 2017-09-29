@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-layouts.ICompactCardWrapperState'
+    name: ICompactCardWrapperState
+    fullName: ICompactCardWrapperState
+    children:
+      - '@ms/sp-component-layouts.ICompactCardWrapperState.isFocusInside'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-component-layouts'
+  - uid: '@ms/sp-component-layouts.ICompactCardWrapperState.isFocusInside'
+    name: isFocusInside
+    fullName: isFocusInside
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Indicates whether the current item or inner control of current item is
+      being focused.
+    syntax:
+      content: boolean isFocusInside
+      return:
+        type:
+          - boolean

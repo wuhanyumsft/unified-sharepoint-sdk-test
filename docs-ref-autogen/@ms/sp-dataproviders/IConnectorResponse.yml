@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IConnectorResponse'
+    name: IConnectorResponse
+    fullName: IConnectorResponse
+    children:
+      - '@ms/sp-dataproviders.IConnectorResponse.@odata.context'
+      - '@ms/sp-dataproviders.IConnectorResponse.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IConnectorResponse.@odata.context'
+    name: '@odata.context'
+    fullName: '@odata.context'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string @odata.context
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.IConnectorResponse.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IConnectorValue[] value'
+      return:
+        type:
+          - '@@ms/sp-dataproviders.IConnectorValue[]'

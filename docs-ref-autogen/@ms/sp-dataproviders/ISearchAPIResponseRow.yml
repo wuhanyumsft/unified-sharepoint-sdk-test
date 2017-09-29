@@ -1,0 +1,417 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow'
+    name: ISearchAPIResponseRow
+    fullName: ISearchAPIResponseRow
+    children:
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.DefaultEncodingURL'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.EditorOwsUser'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.FileExtension'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.Filename'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.FileType'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.JobTitle'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.key'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.LastModifiedTime'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.ListID'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.ListItemId'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.ListItemID'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.MobilePhone'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.ModifiedBy'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.ModifiedOwsDate'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.OrgNames'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.Path'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.PictureThumbnailURL'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.SiteID'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.SiteName'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.SitePath'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.SiteTitle'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.sortValue'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.Title'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.UniqueID'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.UserName'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.ViewCountLifetime'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.WebId'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.WorkEmail'
+      - '@ms/sp-dataproviders.ISearchAPIResponseRow.WorkPhone'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.DefaultEncodingURL'
+    name: DefaultEncodingURL
+    fullName: DefaultEncodingURL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string DefaultEncodingURL
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.EditorOwsUser'
+    name: EditorOwsUser
+    fullName: EditorOwsUser
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string EditorOwsUser
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.FileExtension'
+    name: FileExtension
+    fullName: FileExtension
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string FileExtension
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.Filename'
+    name: Filename
+    fullName: Filename
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Filename
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.FileType'
+    name: FileType
+    fullName: FileType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string FileType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.JobTitle'
+    name: JobTitle
+    fullName: JobTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string JobTitle
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.key'
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string key
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.LastModifiedTime'
+    name: LastModifiedTime
+    fullName: LastModifiedTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string LastModifiedTime
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.ListID'
+    name: ListID
+    fullName: ListID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ListID
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.ListItemId'
+    name: ListItemId
+    fullName: ListItemId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ListItemId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.ListItemID'
+    name: ListItemID
+    fullName: ListItemID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ListItemID
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.MobilePhone'
+    name: MobilePhone
+    fullName: MobilePhone
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string MobilePhone
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.ModifiedBy'
+    name: ModifiedBy
+    fullName: ModifiedBy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ModifiedBy
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.ModifiedOwsDate'
+    name: ModifiedOwsDate
+    fullName: ModifiedOwsDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ModifiedOwsDate
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.OrgNames'
+    name: OrgNames
+    fullName: OrgNames
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string OrgNames
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.Path'
+    name: Path
+    fullName: Path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Path
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.PictureThumbnailURL'
+    name: PictureThumbnailURL
+    fullName: PictureThumbnailURL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string PictureThumbnailURL
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.SiteID'
+    name: SiteID
+    fullName: SiteID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string SiteID
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.SiteName'
+    name: SiteName
+    fullName: SiteName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string SiteName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.SitePath'
+    name: SitePath
+    fullName: SitePath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string SitePath
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.SiteTitle'
+    name: SiteTitle
+    fullName: SiteTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string SiteTitle
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.sortValue'
+    name: sortValue
+    fullName: sortValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number sortValue
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.Title'
+    name: Title
+    fullName: Title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.UniqueID'
+    name: UniqueID
+    fullName: UniqueID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string UniqueID
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.UserName'
+    name: UserName
+    fullName: UserName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string UserName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.ViewCountLifetime'
+    name: ViewCountLifetime
+    fullName: ViewCountLifetime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ViewCountLifetime
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.WebId'
+    name: WebId
+    fullName: WebId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string WebId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.WorkEmail'
+    name: WorkEmail
+    fullName: WorkEmail
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string WorkEmail
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ISearchAPIResponseRow.WorkPhone'
+    name: WorkPhone
+    fullName: WorkPhone
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string WorkPhone
+      return:
+        type:
+          - string

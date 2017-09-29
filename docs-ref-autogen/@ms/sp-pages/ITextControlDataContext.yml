@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ITextControlDataContext'
+    name: ITextControlDataContext
+    fullName: ITextControlDataContext
+    children:
+      - '@ms/sp-pages.ITextControlDataContext.NoDefaultValue'
+      - '@ms/sp-pages.ITextControlDataContext.Subtype'
+      - '@ms/sp-pages.ITextControlDataContext.Value'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ITextControlDataContext.NoDefaultValue'
+    name: NoDefaultValue
+    fullName: NoDefaultValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean NoDefaultValue
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.ITextControlDataContext.Subtype'
+    name: Subtype
+    fullName: Subtype
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: TextControlType Subtype
+      return:
+        type:
+          - TextControlType
+  - uid: '@ms/sp-pages.ITextControlDataContext.Value'
+    name: Value
+    fullName: Value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Value
+      return:
+        type:
+          - string

@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.CategoryCombobox'
+    name: CategoryCombobox
+    fullName: CategoryCombobox
+    children:
+      - '@ms/sp-pages.CategoryCombobox.constructor'
+      - '@ms/sp-pages.CategoryCombobox.componentDidMount'
+      - '@ms/sp-pages.CategoryCombobox.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.CategoryCombobox<@@ms/sp-pages.ICategoryComboboxProps>'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.CategoryCombobox.constructor'
+    name: CategoryCombobox
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CategoryCombobox(props: ICategoryComboboxProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-pages.ICategoryComboboxProps'
+          description: ''
+  - uid: '@ms/sp-pages.CategoryCombobox.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-pages.CategoryCombobox.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

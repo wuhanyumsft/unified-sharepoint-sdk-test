@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.CommentDisableToggle'
+    name: CommentDisableToggle
+    fullName: CommentDisableToggle
+    children:
+      - '@ms/sp-pages.CommentDisableToggle.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-pages.CommentDisableToggle<@@ms/sp-pages.ICommentDisableToggleProps>
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.CommentDisableToggle.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

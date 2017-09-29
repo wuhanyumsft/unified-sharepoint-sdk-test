@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IExportEventButtonProps'
+    name: IExportEventButtonProps
+    fullName: IExportEventButtonProps
+    children:
+      - '@ms/sp-publishing-webparts.IExportEventButtonProps.event'
+      - '@ms/sp-publishing-webparts.IExportEventButtonProps.store'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IExportEventButtonProps.event'
+    name: event
+    fullName: event
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IExchangeCalendarEvent event
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IExchangeCalendarEvent'
+  - uid: '@ms/sp-publishing-webparts.IExportEventButtonProps.store'
+    name: store
+    fullName: store
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: EventsStore store
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.EventsStore'

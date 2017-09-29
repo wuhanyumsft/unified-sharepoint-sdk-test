@@ -1,0 +1,102 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ISharePointDataSource'
+    name: ISharePointDataSource
+    fullName: ISharePointDataSource
+    children:
+      - '@ms/sp-publishing-webparts.ISharePointDataSource.currentUICultureName'
+      - '@ms/sp-publishing-webparts.ISharePointDataSource.groupId'
+      - '@ms/sp-publishing-webparts.ISharePointDataSource.isAnonymousGuestUser'
+      - '@ms/sp-publishing-webparts.ISharePointDataSource.isExternalGuestUser'
+      - '@ms/sp-publishing-webparts.ISharePointDataSource.themeColor'
+      - '@ms/sp-publishing-webparts.ISharePointDataSource.webTemplate'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Performs server-specific calls on behalf of the client. Methods on the
+      datasource
+
+      should only be called directly by the provider. Everyone else should call
+      the provider
+
+      instead.
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ISharePointDataSource.currentUICultureName'
+    name: currentUICultureName
+    fullName: currentUICultureName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the web template of the current site
+    syntax:
+      content: string currentUICultureName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ISharePointDataSource.groupId'
+    name: groupId
+    fullName: groupId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the group id of the current site
+    syntax:
+      content: string groupId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ISharePointDataSource.isAnonymousGuestUser'
+    name: isAnonymousGuestUser
+    fullName: isAnonymousGuestUser
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets if the current user is anonymouse guest
+    syntax:
+      content: boolean isAnonymousGuestUser
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ISharePointDataSource.isExternalGuestUser'
+    name: isExternalGuestUser
+    fullName: isExternalGuestUser
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets if the current suer is external guest
+    syntax:
+      content: boolean isExternalGuestUser
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ISharePointDataSource.themeColor'
+    name: themeColor
+    fullName: themeColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the theme color of the current site
+    syntax:
+      content: string themeColor
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ISharePointDataSource.webTemplate'
+    name: webTemplate
+    fullName: webTemplate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the web template of the current site
+    syntax:
+      content: string webTemplate
+      return:
+        type:
+          - string

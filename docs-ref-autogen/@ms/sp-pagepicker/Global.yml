@@ -1,0 +1,23 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pagepicker.Global'
+    package: '@ms/sp-pagepicker'
+    name: Global
+    children:
+      - '@ms/sp-pagepicker.PagePickerSuggestionsNoResult'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@ms/sp-pagepicker.PagePickerSuggestionsNoResult'
+    name: PagePickerSuggestionsNoResult
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function PagePickerSuggestionsNoResult()
+      parameters: []
+      return:
+        type:
+          - Element

@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.ISearchAPISortField'
+    name: ISearchAPISortField
+    fullName: ISearchAPISortField
+    children:
+      - '@ms/sp-dataproviders.ISearchAPISortField.Direction'
+      - '@ms/sp-dataproviders.ISearchAPISortField.Property'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.ISearchAPISortField.Direction'
+    name: Direction
+    fullName: Direction
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: SearchAPISortDirection Direction
+      return:
+        type:
+          - '@@ms/sp-dataproviders.SearchAPISortDirection'
+  - uid: '@ms/sp-dataproviders.ISearchAPISortField.Property'
+    name: Property
+    fullName: Property
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Property
+      return:
+        type:
+          - string

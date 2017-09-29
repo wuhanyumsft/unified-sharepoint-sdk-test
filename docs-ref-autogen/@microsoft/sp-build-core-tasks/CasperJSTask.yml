@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.CasperJSTask'
+    name: CasperJSTask
+    fullName: CasperJSTask
+    children:
+      - '@microsoft/sp-build-core-tasks.CasperJSTask.constructor'
+      - '@microsoft/sp-build-core-tasks.CasperJSTask.executeTask'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      CasperJS is a browser navigation scripting & testing utility written in
+      Javascript for PhantomJS or SlimerJS.
+
+      This CasperJS task searches for files with the extension casperjstest.js
+      and spawns child processes to execute
+
+      CasperJS tests. Test results will be reported to the build system and all
+      errors will cause a build break.
+
+      PhantomJS has a known bug where it doesn't output errors to stderr, so
+      some of the detailed error information
+
+      will be contained in the test result output.
+    extends:
+      name: '@@microsoft/sp-build-core-tasks.CasperJSTask<void>'
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.CasperJSTask.constructor'
+    name: CasperJSTask
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new CasperJSTask()
+      parameters: []
+  - uid: '@microsoft/sp-build-core-tasks.CasperJSTask.executeTask'
+    name: executeTask
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function executeTask(gulp: any, completeCallback: (result?: string) =>
+        void)
+      parameters:
+        - id: gulp
+          type:
+            - any
+          description: ''
+        - id: completeCallback
+          type:
+            - '(result?: string) => void'
+          description: ''
+      return:
+        type:
+          - ReadWriteStream

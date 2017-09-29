@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IHighChartsComponent'
+    name: IHighChartsComponent
+    fullName: IHighChartsComponent
+    children:
+      - '@ms/sp-tenant-admin-page.IHighChartsComponent.chartStyle'
+      - '@ms/sp-tenant-admin-page.IHighChartsComponent.options'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IHighChartsComponent.chartStyle'
+    name: chartStyle
+    fullName: chartStyle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string chartStyle
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IHighChartsComponent.options'
+    name: options
+    fullName: options
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Options options
+      return:
+        type:
+          - Options

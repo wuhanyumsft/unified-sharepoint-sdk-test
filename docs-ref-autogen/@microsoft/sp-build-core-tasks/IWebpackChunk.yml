@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IWebpackChunk'
+    name: IWebpackChunk
+    fullName: IWebpackChunk
+    children:
+      - '@microsoft/sp-build-core-tasks.IWebpackChunk.entry'
+      - '@microsoft/sp-build-core-tasks.IWebpackChunk.files'
+      - '@microsoft/sp-build-core-tasks.IWebpackChunk.hash'
+      - '@microsoft/sp-build-core-tasks.IWebpackChunk.id'
+      - '@microsoft/sp-build-core-tasks.IWebpackChunk.names'
+      - '@microsoft/sp-build-core-tasks.IWebpackChunk.size'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: '@microsoft/sp-build-core-tasks.IWebpackChunk.entry'
+    name: entry
+    fullName: entry
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean entry
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-build-core-tasks.IWebpackChunk.files'
+    name: files
+    fullName: files
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] files'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@microsoft/sp-build-core-tasks.IWebpackChunk.hash'
+    name: hash
+    fullName: hash
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string hash
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IWebpackChunk.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number id
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-build-core-tasks.IWebpackChunk.names'
+    name: names
+    fullName: names
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] names'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@microsoft/sp-build-core-tasks.IWebpackChunk.size'
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number size
+      return:
+        type:
+          - number

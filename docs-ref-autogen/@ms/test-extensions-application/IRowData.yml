@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/test-extensions-application.IRowData'
+    name: IRowData
+    fullName: IRowData
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/test-extensions-application'

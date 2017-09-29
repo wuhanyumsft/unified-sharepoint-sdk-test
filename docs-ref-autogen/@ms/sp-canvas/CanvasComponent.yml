@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.CanvasComponent'
+    name: CanvasComponent
+    fullName: CanvasComponent
+    children:
+      - '@ms/sp-canvas.CanvasComponent.constructor'
+      - '@ms/sp-canvas.CanvasComponent.componentDidMount'
+      - '@ms/sp-canvas.CanvasComponent.componentDidUpdate'
+      - '@ms/sp-canvas.CanvasComponent.componentWillUnmount'
+      - '@ms/sp-canvas.CanvasComponent.getChildContext'
+      - '@ms/sp-canvas.CanvasComponent.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-canvas.CanvasComponent<@@ms/sp-canvas.ICanvasComponentProps>'
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.CanvasComponent.constructor'
+    name: CanvasComponent
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CanvasComponent(props: ICanvasComponentProps, context:
+        ICanvasContext)
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-canvas.ICanvasComponentProps'
+          description: ''
+        - id: context
+          type:
+            - '@@ms/sp-canvas.ICanvasContext'
+          description: ''
+  - uid: '@ms/sp-canvas.CanvasComponent.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@ms/sp-canvas.CanvasComponent.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+  - uid: '@ms/sp-canvas.CanvasComponent.componentWillUnmount'
+    name: componentWillUnmount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+  - uid: '@ms/sp-canvas.CanvasComponent.getChildContext'
+    name: getChildContext
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getChildContext()
+      parameters: []
+      return:
+        type:
+          - '@@ms/sp-canvas.ICanvasContext'
+  - uid: '@ms/sp-canvas.CanvasComponent.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@ms/sp-canvas.ICanvasComponentProps>

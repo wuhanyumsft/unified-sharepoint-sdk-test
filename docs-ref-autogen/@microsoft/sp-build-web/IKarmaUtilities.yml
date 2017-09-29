@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-web.IKarmaUtilities'
+    name: IKarmaUtilities
+    fullName: IKarmaUtilities
+    children:
+      - '@microsoft/sp-build-web.IKarmaUtilities.mkdirIfNotExists'
+      - '@microsoft/sp-build-web.IKarmaUtilities.normalizeWinPath'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-build-web'
+  - uid: '@microsoft/sp-build-web.IKarmaUtilities.mkdirIfNotExists'
+    name: mkdirIfNotExists
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function mkdirIfNotExists(path: string, callback: () => void)'
+      parameters:
+        - id: path
+          type:
+            - string
+          description: ''
+        - id: callback
+          type:
+            - () => void
+          description: ''
+  - uid: '@microsoft/sp-build-web.IKarmaUtilities.normalizeWinPath'
+    name: normalizeWinPath
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function normalizeWinPath(path: string)'
+      parameters:
+        - id: path
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string

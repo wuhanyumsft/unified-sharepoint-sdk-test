@@ -1,0 +1,104 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.ConnectorDataProvider'
+    name: ConnectorDataProvider
+    fullName: ConnectorDataProvider
+    children:
+      - '@ms/sp-dataproviders.ConnectorDataProvider.deleteConfiguration'
+      - '@ms/sp-dataproviders.ConnectorDataProvider.getConnectorProfiles'
+      - '@ms/sp-dataproviders.ConnectorDataProvider.getItems'
+      - '@ms/sp-dataproviders.ConnectorDataProvider.id'
+      - '@ms/sp-dataproviders.ConnectorDataProvider.title'
+    langs:
+      - typeScript
+    type: class
+    summary: A data provider for the OWA O365 Connector API.
+    extends:
+      name: >-
+        @@ms/sp-dataproviders.BaseDataProvider<@@ms/sp-dataproviders.IConnectorDataProviderRequest>
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.ConnectorDataProvider.deleteConfiguration'
+    name: deleteConfiguration
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function deleteConfiguration(groupAddress: string, webpartId: string)'
+      parameters:
+        - id: groupAddress
+          type:
+            - string
+          description: ''
+        - id: webpartId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-dataproviders.ConnectorDataProvider.getConnectorProfiles'
+    name: getConnectorProfiles
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getConnectorProfiles(groupAddress: string, webpartId: string)'
+      parameters:
+        - id: groupAddress
+          type:
+            - string
+          description: ''
+        - id: webpartId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - 'Promise<@@ms/sp-dataproviders.IConnectorProfile[]>'
+  - uid: '@ms/sp-dataproviders.ConnectorDataProvider.getItems'
+    name: getItems
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getItems(request: IConnectorDataProviderRequest)'
+      parameters:
+        - id: request
+          type:
+            - '@@ms/sp-dataproviders.IConnectorDataProviderRequest'
+          description: ''
+      return:
+        type:
+          - 'Promise<@@ms/sp-dataproviders.IConnectorValue[]>'
+  - uid: '@ms/sp-dataproviders.ConnectorDataProvider.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-dataproviders.ConnectorDataProvider.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

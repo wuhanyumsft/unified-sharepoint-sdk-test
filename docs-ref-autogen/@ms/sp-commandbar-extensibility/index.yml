@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-commandbar-extensibility'
+    name: '@ms/sp-commandbar-extensibility'
+    summary: ''
+    children:
+      - '@ms/sp-commandbar-extensibility.BaseCommandBarCustomizer'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@ms/sp-commandbar-extensibility.BaseCommandBarCustomizer'
+    name: BaseCommandBarCustomizer

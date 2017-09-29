@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/evergreen.IPackageUpdate'
+    name: IPackageUpdate
+    fullName: IPackageUpdate
+    children:
+      - '@ms/evergreen.IPackageUpdate.changeComments'
+      - '@ms/evergreen.IPackageUpdate.changed'
+      - '@ms/evergreen.IPackageUpdate.newVersion'
+      - '@ms/evergreen.IPackageUpdate.oldVersion'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/evergreen'
+  - uid: '@ms/evergreen.IPackageUpdate.changeComments'
+    name: changeComments
+    fullName: changeComments
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function changeComments
+      return:
+        type:
+          - function
+  - uid: '@ms/evergreen.IPackageUpdate.changed'
+    name: changed
+    fullName: changed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean changed
+      return:
+        type:
+          - boolean
+  - uid: '@ms/evergreen.IPackageUpdate.newVersion'
+    name: newVersion
+    fullName: newVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string newVersion
+      return:
+        type:
+          - string
+  - uid: '@ms/evergreen.IPackageUpdate.oldVersion'
+    name: oldVersion
+    fullName: oldVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string oldVersion
+      return:
+        type:
+          - string

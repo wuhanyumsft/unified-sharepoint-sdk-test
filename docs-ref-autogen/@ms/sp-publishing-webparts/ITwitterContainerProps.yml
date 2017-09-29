@@ -1,0 +1,123 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ITwitterContainerProps'
+    name: ITwitterContainerProps
+    fullName: ITwitterContainerProps
+    children:
+      - '@ms/sp-publishing-webparts.ITwitterContainerProps.displayAs'
+      - '@ms/sp-publishing-webparts.ITwitterContainerProps.displayBorders'
+      - '@ms/sp-publishing-webparts.ITwitterContainerProps.displayFooter'
+      - '@ms/sp-publishing-webparts.ITwitterContainerProps.displayHeader'
+      - '@ms/sp-publishing-webparts.ITwitterContainerProps.limit'
+      - '@ms/sp-publishing-webparts.ITwitterContainerProps.term'
+      - '@ms/sp-publishing-webparts.ITwitterContainerProps.tweetSourceType'
+      - '@ms/sp-publishing-webparts.ITwitterContainerProps.widthSlider'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ITwitterContainerProps.displayAs'
+    name: displayAs
+    fullName: displayAs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Display the feed as list or grid.
+    syntax:
+      content: function displayAs
+      return:
+        type:
+          - function
+  - uid: '@ms/sp-publishing-webparts.ITwitterContainerProps.displayBorders'
+    name: displayBorders
+    fullName: displayBorders
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'If true, display the feed borders.'
+    syntax:
+      content: boolean displayBorders
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ITwitterContainerProps.displayFooter'
+    name: displayFooter
+    fullName: displayFooter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'If true, display the feed footer.'
+    syntax:
+      content: boolean displayFooter
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ITwitterContainerProps.displayHeader'
+    name: displayHeader
+    fullName: displayHeader
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'If true, display the feed header.'
+    syntax:
+      content: boolean displayHeader
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ITwitterContainerProps.limit'
+    name: limit
+    fullName: limit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Maximum number of tweets to show in the feed.
+    syntax:
+      content: string limit
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ITwitterContainerProps.term'
+    name: term
+    fullName: term
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Tweet hashtag.
+    syntax:
+      content: string term
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ITwitterContainerProps.tweetSourceType'
+    name: tweetSourceType
+    fullName: tweetSourceType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Type of the source for the tweets (User, Collection or Search).'
+    syntax:
+      content: string tweetSourceType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ITwitterContainerProps.widthSlider'
+    name: widthSlider
+    fullName: widthSlider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Control the width of the feed.
+    syntax:
+      content: number widthSlider
+      return:
+        type:
+          - number

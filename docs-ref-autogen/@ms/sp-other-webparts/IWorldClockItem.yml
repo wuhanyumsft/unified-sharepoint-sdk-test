@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-other-webparts.IWorldClockItem'
+    name: IWorldClockItem
+    fullName: IWorldClockItem
+    children:
+      - '@ms/sp-other-webparts.IWorldClockItem.cityPath'
+      - '@ms/sp-other-webparts.IWorldClockItem.creationTime'
+      - '@ms/sp-other-webparts.IWorldClockItem.id'
+      - '@ms/sp-other-webparts.IWorldClockItem.utcOffset'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface for World Clock item.
+    package: '@ms/sp-other-webparts'
+  - uid: '@ms/sp-other-webparts.IWorldClockItem.cityPath'
+    name: cityPath
+    fullName: cityPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Universal city path, regardless of locale.'
+    syntax:
+      content: string cityPath
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-other-webparts.IWorldClockItem.creationTime'
+    name: creationTime
+    fullName: creationTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Used for sorting in order of clocks being added.
+    syntax:
+      content: number creationTime
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-other-webparts.IWorldClockItem.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: GUID identifier of this clock object.
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-other-webparts.IWorldClockItem.utcOffset'
+    name: utcOffset
+    fullName: utcOffset
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Shows how offset the clock is from UTC in milliseconds.
+    syntax:
+      content: number utcOffset
+      return:
+        type:
+          - number

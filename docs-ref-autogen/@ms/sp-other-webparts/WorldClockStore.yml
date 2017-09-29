@@ -1,0 +1,455 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-other-webparts.WorldClockStore'
+    name: WorldClockStore
+    fullName: WorldClockStore
+    children:
+      - '@ms/sp-other-webparts.WorldClockStore.addClock'
+      - '@ms/sp-other-webparts.WorldClockStore.addListener'
+      - '@ms/sp-other-webparts.WorldClockStore.attachWebPart'
+      - '@ms/sp-other-webparts.WorldClockStore.citiesDropdownOptions'
+      - '@ms/sp-other-webparts.WorldClockStore.detachWebPart'
+      - '@ms/sp-other-webparts.WorldClockStore.editClock'
+      - '@ms/sp-other-webparts.WorldClockStore.emitChange'
+      - '@ms/sp-other-webparts.WorldClockStore.generateNewItem'
+      - '@ms/sp-other-webparts.WorldClockStore.getSPHttpClient'
+      - '@ms/sp-other-webparts.WorldClockStore.initialize'
+      - '@ms/sp-other-webparts.WorldClockStore.pathToDisplayNameMap'
+      - '@ms/sp-other-webparts.WorldClockStore.pathToEnNameMap'
+      - '@ms/sp-other-webparts.WorldClockStore.props'
+      - '@ms/sp-other-webparts.WorldClockStore.removeClock'
+      - '@ms/sp-other-webparts.WorldClockStore.removeListener'
+      - '@ms/sp-other-webparts.WorldClockStore.resetPaneFields'
+      - '@ms/sp-other-webparts.WorldClockStore.set24'
+      - '@ms/sp-other-webparts.WorldClockStore.setClockList'
+      - '@ms/sp-other-webparts.WorldClockStore.setDefaults'
+      - '@ms/sp-other-webparts.WorldClockStore.setDisplayMode'
+      - '@ms/sp-other-webparts.WorldClockStore.setHome'
+      - '@ms/sp-other-webparts.WorldClockStore.setPaneIsHome'
+      - '@ms/sp-other-webparts.WorldClockStore.setSelectedCityPath'
+      - '@ms/sp-other-webparts.WorldClockStore.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: Property store implementation for World Clock web part
+    package: '@ms/sp-other-webparts'
+  - uid: '@ms/sp-other-webparts.WorldClockStore.addClock'
+    name: addClock
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Callback function that adds clock to our clock list.
+    syntax:
+      content: >-
+        function addClock(item: IWorldClockItem, isHome: boolean, webPartId:
+        string)
+      parameters:
+        - id: item
+          type:
+            - '@@ms/sp-other-webparts.IWorldClockItem'
+          description: ''
+        - id: isHome
+          type:
+            - boolean
+          description: ''
+        - id: webPartId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-other-webparts.WorldClockStore.addListener'
+    name: addListener
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(callbackFn: () => void, webPartId: string)'
+      parameters:
+        - id: callbackFn
+          type:
+            - () => void
+          description: ''
+        - id: webPartId
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-other-webparts.WorldClockStore.attachWebPart'
+    name: attachWebPart
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function attachWebPart(webPart: WorldClockWebPart)'
+      parameters:
+        - id: webPart
+          type:
+            - '@@ms/sp-other-webparts.WorldClockWebPart'
+          description: ''
+  - uid: '@ms/sp-other-webparts.WorldClockStore.citiesDropdownOptions'
+    name: citiesDropdownOptions
+    fullName: citiesDropdownOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IDropdownOption[] citiesDropdownOptions'
+      return:
+        type:
+          - '@@ms/sp-other-webparts.IDropdownOption[]'
+  - uid: '@ms/sp-other-webparts.WorldClockStore.detachWebPart'
+    name: detachWebPart
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function detachWebPart(webPartId: string)'
+      parameters:
+        - id: webPartId
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-other-webparts.WorldClockStore.editClock'
+    name: editClock
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Callback function that edits a clock with a specific ID.
+    syntax:
+      content: >-
+        function editClock(clockId: string, cityPath: string, isHome: boolean,
+        webPartId: string)
+      parameters:
+        - id: clockId
+          type:
+            - string
+          description: ''
+        - id: cityPath
+          type:
+            - string
+          description: ''
+        - id: isHome
+          type:
+            - boolean
+          description: ''
+        - id: webPartId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@ms/sp-other-webparts.WorldClockStore.emitChange'
+    name: emitChange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emitChange(webPartId: string)'
+      parameters:
+        - id: webPartId
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-other-webparts.WorldClockStore.generateNewItem'
+    name: generateNewItem
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Takes in time zone and outputs a IWorldClockItem object.
+    syntax:
+      content: 'function generateNewItem(cityPath: string)'
+      parameters:
+        - id: cityPath
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-other-webparts.IWorldClockItem'
+  - uid: '@ms/sp-other-webparts.WorldClockStore.getSPHttpClient'
+    name: getSPHttpClient
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getSPHttpClient(webPartId: string)'
+      parameters:
+        - id: webPartId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - SPHttpClient
+  - uid: '@ms/sp-other-webparts.WorldClockStore.initialize'
+    name: initialize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Called on the first render of the web part to give a web part pointer to
+      the store.
+
+      Then, it sets defaults if the web part has just been created.
+    syntax:
+      content: 'function initialize(webPartId: string)'
+      parameters:
+        - id: webPartId
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-other-webparts.WorldClockStore.pathToDisplayNameMap'
+    name: pathToDisplayNameMap
+    fullName: pathToDisplayNameMap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: string]: string pathToDisplayNameMap'
+      return:
+        type:
+          - '[key: string]: string'
+  - uid: '@ms/sp-other-webparts.WorldClockStore.pathToEnNameMap'
+    name: pathToEnNameMap
+    fullName: pathToEnNameMap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This is used for searching, because Bing doesn't find paths in form of
+
+      %Region/%This_City for some cities, so searching this way solves the
+      problem.
+    syntax:
+      content: '[key: string]: string pathToEnNameMap'
+      return:
+        type:
+          - '[key: string]: string'
+  - uid: '@ms/sp-other-webparts.WorldClockStore.props'
+    name: props
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Getter functions used to make code cleaner when store values are being
+      accessed
+    syntax:
+      content: 'function props(webPartId: string)'
+      parameters:
+        - id: webPartId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-other-webparts.IWorldClockWebPartProps'
+  - uid: '@ms/sp-other-webparts.WorldClockStore.removeClock'
+    name: removeClock
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes a specific clock.
+    syntax:
+      content: 'function removeClock(targetItem: IWorldClockItem, webPartId: string)'
+      parameters:
+        - id: targetItem
+          type:
+            - '@@ms/sp-other-webparts.IWorldClockItem'
+          description: ''
+        - id: webPartId
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-other-webparts.WorldClockStore.removeListener'
+    name: removeListener
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(callbackFn: () => void, webPartId: string)'
+      parameters:
+        - id: callbackFn
+          type:
+            - () => void
+          description: ''
+        - id: webPartId
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-other-webparts.WorldClockStore.resetPaneFields'
+    name: resetPaneFields
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function resetPaneFields(webPartId: string)'
+      parameters:
+        - id: webPartId
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-other-webparts.WorldClockStore.set24'
+    name: set24
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Callback function triggered by property pane when the toggle is switched
+      between 12 and 24 hours format.
+    syntax:
+      content: 'function set24(is24: boolean, webPartId: string)'
+      parameters:
+        - id: is24
+          type:
+            - boolean
+          description: ''
+        - id: webPartId
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-other-webparts.WorldClockStore.setClockList'
+    name: setClockList
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Reassigns the internal clock list to the new one and emits the change.
+    syntax:
+      content: 'function setClockList(clockList: IWorldClockItem[], webPartId: string)'
+      parameters:
+        - id: clockList
+          type:
+            - '@@ms/sp-other-webparts.IWorldClockItem[]'
+          description: ''
+        - id: webPartId
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-other-webparts.WorldClockStore.setDefaults'
+    name: setDefaults
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setDefaults(webPartId: string)'
+      parameters:
+        - id: webPartId
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-other-webparts.WorldClockStore.setDisplayMode'
+    name: setDisplayMode
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setDisplayMode(mode: DisplayMode, webPartId: string)'
+      parameters:
+        - id: mode
+          type:
+            - DisplayMode
+          description: ''
+        - id: webPartId
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-other-webparts.WorldClockStore.setHome'
+    name: setHome
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setHome(clockId: string, offset: number, webPartId: string)'
+      parameters:
+        - id: clockId
+          type:
+            - string
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: webPartId
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-other-webparts.WorldClockStore.setPaneIsHome'
+    name: setPaneIsHome
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setPaneIsHome(isHome: boolean, webPartId: string)'
+      parameters:
+        - id: isHome
+          type:
+            - boolean
+          description: ''
+        - id: webPartId
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-other-webparts.WorldClockStore.setSelectedCityPath'
+    name: setSelectedCityPath
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setSelectedCityPath(cityPath: string, webPartId: string)'
+      parameters:
+        - id: cityPath
+          type:
+            - string
+          description: ''
+        - id: webPartId
+          type:
+            - string
+          description: ''
+  - uid: '@ms/sp-other-webparts.WorldClockStore.constructor'
+    name: WorldClockStore
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new WorldClockStore()
+      parameters: []

@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-loader.TraceListHeader'
+    name: TraceListHeader
+    fullName: TraceListHeader
+    children:
+      - '@microsoft/sp-loader.TraceListHeader.render'
+      - '@microsoft/sp-loader.TraceListHeader.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@microsoft/sp-loader.TraceListHeader<@@microsoft/sp-loader.ITraceListHeaderProps>
+    package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.TraceListHeader.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@microsoft/sp-loader.ITraceListHeaderProps>
+  - uid: '@microsoft/sp-loader.TraceListHeader.constructor'
+    name: TraceListHeader
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new TraceListHeader(props: ITraceListHeaderProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@microsoft/sp-loader.ITraceListHeaderProps'
+          description: ''

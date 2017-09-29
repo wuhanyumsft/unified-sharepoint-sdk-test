@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.ListViewWebpart'
+    name: ListViewWebpart
+    fullName: ListViewWebpart
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.ListViewWebpart.IsWebpartUpdated'
+      - '@ms/sp-tab-tasklib.SPTaskLib.ListViewWebpart.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-tab-tasklib.SPTaskLib.BaseWebpart'
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.ListViewWebpart.IsWebpartUpdated'
+    name: IsWebpartUpdated
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function IsWebpartUpdated()
+      parameters: []
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.ListViewWebpart.constructor'
+    name: ListViewWebpart
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ListViewWebpart(type: WebpartType)'
+      parameters:
+        - id: type
+          type:
+            - WebpartType
+          description: ''

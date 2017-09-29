@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-connector-webparts.IMessageCardCommandAction'
+    name: IMessageCardCommandAction
+    fullName: IMessageCardCommandAction
+    children:
+      - '@ms/sp-connector-webparts.IMessageCardCommandAction.addInId'
+      - '@ms/sp-connector-webparts.IMessageCardCommandAction.desktopCommandId'
+      - >-
+        @ms/sp-connector-webparts.IMessageCardCommandAction.initializationContext
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@ms/sp-connector-webparts.IMessageCardAction'
+    package: '@ms/sp-connector-webparts'
+  - uid: '@ms/sp-connector-webparts.IMessageCardCommandAction.addInId'
+    name: addInId
+    fullName: addInId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string addInId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-connector-webparts.IMessageCardCommandAction.desktopCommandId'
+    name: desktopCommandId
+    fullName: desktopCommandId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string desktopCommandId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-connector-webparts.IMessageCardCommandAction.initializationContext'
+    name: initializationContext
+    fullName: initializationContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string initializationContext
+      return:
+        type:
+          - string

@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.CAMLQueryBuilder'
+    name: CAMLQueryBuilder
+    fullName: CAMLQueryBuilder
+    children:
+      - '@ms/sp-dataproviders.CAMLQueryBuilder.generateCAMLQuery'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.CAMLQueryBuilder.generateCAMLQuery'
+    name: generateCAMLQuery
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Helper method to build CAML query XML.
+    syntax:
+      content: 'static function generateCAMLQuery(options: IListOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@@ms/sp-dataproviders.IListOptions'
+          description: |
+            query options in IListOptions format
+      return:
+        type:
+          - string

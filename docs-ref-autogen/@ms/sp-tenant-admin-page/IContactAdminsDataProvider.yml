@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IContactAdminsDataProvider'
+    name: IContactAdminsDataProvider
+    fullName: IContactAdminsDataProvider
+    children:
+      - '@ms/sp-tenant-admin-page.IContactAdminsDataProvider.contactAdminsByEmail'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IContactAdminsDataProvider.contactAdminsByEmail'
+    name: contactAdminsByEmail
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function contactAdminsByEmail(subject: string, message: string, siteIds:
+        string[])
+      parameters:
+        - id: subject
+          type:
+            - string
+          description: ''
+        - id: message
+          type:
+            - string
+          description: ''
+        - id: siteIds
+          type:
+            - 'string[]'
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-tenant-admin-page.IContactAdminsResponse>

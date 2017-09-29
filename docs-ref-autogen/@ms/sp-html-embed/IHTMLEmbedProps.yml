@@ -1,0 +1,193 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-html-embed.IHTMLEmbedProps'
+    name: IHTMLEmbedProps
+    fullName: IHTMLEmbedProps
+    children:
+      - '@ms/sp-html-embed.IHTMLEmbedProps.boundingRect'
+      - '@ms/sp-html-embed.IHTMLEmbedProps.className'
+      - '@ms/sp-html-embed.IHTMLEmbedProps.embedCode'
+      - '@ms/sp-html-embed.IHTMLEmbedProps.embeddableService'
+      - '@ms/sp-html-embed.IHTMLEmbedProps.embedDataSource'
+      - '@ms/sp-html-embed.IHTMLEmbedProps.htmlValidator'
+      - '@ms/sp-html-embed.IHTMLEmbedProps.isNarrowContainer'
+      - '@ms/sp-html-embed.IHTMLEmbedProps.onNotifyRenderResult'
+      - '@ms/sp-html-embed.IHTMLEmbedProps.qosPrefixName'
+      - '@ms/sp-html-embed.IHTMLEmbedProps.renderError'
+      - '@ms/sp-html-embed.IHTMLEmbedProps.renderLoadingIndicator'
+      - '@ms/sp-html-embed.IHTMLEmbedProps.shouldScale'
+      - '@ms/sp-html-embed.IHTMLEmbedProps.titleMetaDataOverride'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-html-embed'
+  - uid: '@ms/sp-html-embed.IHTMLEmbedProps.boundingRect'
+    name: boundingRect
+    fullName: boundingRect
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IHTMLEmbedRect boundingRect
+      return:
+        type:
+          - '@@ms/sp-html-embed.IHTMLEmbedRect'
+  - uid: '@ms/sp-html-embed.IHTMLEmbedProps.className'
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string className
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IHTMLEmbedProps.embedCode'
+    name: embedCode
+    fullName: embedCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IEmbedCode embedCode
+      return:
+        type:
+          - '@@ms/sp-html-embed.IEmbedCode'
+  - uid: '@ms/sp-html-embed.IHTMLEmbedProps.embeddableService'
+    name: embeddableService
+    fullName: embeddableService
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IEmbeddableService embeddableService
+      return:
+        type:
+          - '@@ms/sp-html-embed.IEmbeddableService'
+  - uid: '@ms/sp-html-embed.IHTMLEmbedProps.embedDataSource'
+    name: embedDataSource
+    fullName: embedDataSource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IEmbedDataSource embedDataSource
+      return:
+        type:
+          - '@@ms/sp-html-embed.IEmbedDataSource'
+  - uid: '@ms/sp-html-embed.IHTMLEmbedProps.htmlValidator'
+    name: htmlValidator
+    fullName: htmlValidator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HtmlValidator htmlValidator
+      return:
+        type:
+          - '@@ms/sp-html-embed.HtmlValidator'
+  - uid: '@ms/sp-html-embed.IHTMLEmbedProps.isNarrowContainer'
+    name: isNarrowContainer
+    fullName: isNarrowContainer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isNarrowContainer
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-html-embed.IHTMLEmbedProps.onNotifyRenderResult'
+    name: onNotifyRenderResult
+    fullName: onNotifyRenderResult
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(errorMessage: string) => void onNotifyRenderResult'
+      return:
+        type:
+          - '(errorMessage: string) => void'
+  - uid: '@ms/sp-html-embed.IHTMLEmbedProps.qosPrefixName'
+    name: qosPrefixName
+    fullName: qosPrefixName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string qosPrefixName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-html-embed.IHTMLEmbedProps.renderError'
+    name: renderError
+    fullName: renderError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(errorMessage: string) => Element renderError'
+      return:
+        type:
+          - '(errorMessage: string) => Element'
+  - uid: '@ms/sp-html-embed.IHTMLEmbedProps.renderLoadingIndicator'
+    name: renderLoadingIndicator
+    fullName: renderLoadingIndicator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => Element renderLoadingIndicator
+      return:
+        type:
+          - () => Element
+  - uid: '@ms/sp-html-embed.IHTMLEmbedProps.shouldScale'
+    name: shouldScale
+    fullName: shouldScale
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean shouldScale
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-html-embed.IHTMLEmbedProps.titleMetaDataOverride'
+    name: titleMetaDataOverride
+    fullName: titleMetaDataOverride
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string titleMetaDataOverride
+      return:
+        type:
+          - string

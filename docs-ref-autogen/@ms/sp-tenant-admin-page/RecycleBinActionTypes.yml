@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.RecycleBinActionTypes'
+    name: RecycleBinActionTypes
+    fullName: RecycleBinActionTypes
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-tenant-admin-page.SiteManagementActionTypes'
+    package: '@ms/sp-tenant-admin-page'

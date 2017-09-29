@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.TestWebPartV2'
+    name: TestWebPartV2
+    fullName: TestWebPartV2
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      This is a newer version of TestWebPart. To keep it simple, its properties
+      are an extended version of
+
+      TestWebPart properties and it overrides dataVersion property to reflect
+      that it has a new data schema.
+
+      On deserialization, it checks the data versions and handles some upgrading
+      scenarios
+    extends:
+      name: >-
+        @@microsoft/sp-webpart-base.BaseTestWebPart<@@microsoft/sp-webpart-base.ITestWebPartPropsV2>
+    package: '@microsoft/sp-webpart-base'

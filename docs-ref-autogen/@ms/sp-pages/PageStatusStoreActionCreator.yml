@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.PageStatusStoreActionCreator'
+    name: PageStatusStoreActionCreator
+    fullName: PageStatusStoreActionCreator
+    children:
+      - '@ms/sp-pages.PageStatusStoreActionCreator.pageCheckedOut'
+      - '@ms/sp-pages.PageStatusStoreActionCreator.pageDirty'
+      - '@ms/sp-pages.PageStatusStoreActionCreator.pageSaved'
+      - '@ms/sp-pages.PageStatusStoreActionCreator.setSaveStatus'
+      - '@ms/sp-pages.PageStatusStoreActionCreator.showError'
+    langs:
+      - typeScript
+    type: class
+    summary: Contains all actions related to page status and errors
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.PageStatusStoreActionCreator.pageCheckedOut'
+    name: pageCheckedOut
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function pageCheckedOut()
+      parameters: []
+  - uid: '@ms/sp-pages.PageStatusStoreActionCreator.pageDirty'
+    name: pageDirty
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function pageDirty()
+      parameters: []
+  - uid: '@ms/sp-pages.PageStatusStoreActionCreator.pageSaved'
+    name: pageSaved
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function pageSaved()
+      parameters: []
+  - uid: '@ms/sp-pages.PageStatusStoreActionCreator.setSaveStatus'
+    name: setSaveStatus
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function setSaveStatus(status: PageSaveStatus)'
+      parameters:
+        - id: status
+          type:
+            - PageSaveStatus
+          description: ''
+  - uid: '@ms/sp-pages.PageStatusStoreActionCreator.showError'
+    name: showError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function showError(message: string, title?: string)'
+      parameters:
+        - id: message
+          type:
+            - string
+          description: ''
+        - id: title
+          type:
+            - string
+          description: ''
+          optional: true

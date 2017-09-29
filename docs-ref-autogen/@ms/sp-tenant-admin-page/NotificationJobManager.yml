@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.NotificationJobManager'
+    name: NotificationJobManager
+    fullName: NotificationJobManager
+    children:
+      - '@ms/sp-tenant-admin-page.NotificationJobManager.finalize'
+      - '@ms/sp-tenant-admin-page.NotificationJobManager.register'
+      - '@ms/sp-tenant-admin-page.NotificationJobManager.start'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.NotificationJobManager.finalize'
+    name: finalize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function finalize()
+      parameters: []
+  - uid: '@ms/sp-tenant-admin-page.NotificationJobManager.register'
+    name: register
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function register(jobs: INotificationJob[])'
+      parameters:
+        - id: jobs
+          type:
+            - '@@ms/sp-tenant-admin-page.INotificationJob[]'
+          description: ''
+  - uid: '@ms/sp-tenant-admin-page.NotificationJobManager.start'
+    name: start
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function start()
+      parameters: []

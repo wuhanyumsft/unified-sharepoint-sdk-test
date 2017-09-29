@@ -1,0 +1,88 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.HttpClientHelper'
+    name: HttpClientHelper
+    fullName: HttpClientHelper
+    children:
+      - '@microsoft/sp-http.HttpClientHelper.fetchCore'
+      - '@microsoft/sp-http.HttpClientHelper.constructor'
+      - '@microsoft/sp-http.HttpClientHelper.overrideHttpMethod'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      Private - this class contains some internal code shared between HttpClient
+      and SPHttpClient.
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.HttpClientHelper.fetchCore'
+    name: fetchCore
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      All network requests are routed through this method, which calls the
+      underlying IFetchProvider.fetch().
+    syntax:
+      content: >-
+        function fetchCore(configuration: HttpClientConfiguration, request:
+        Request)
+      parameters:
+        - id: configuration
+          type:
+            - '@@microsoft/sp-http.HttpClientConfiguration'
+          description: ''
+        - id: request
+          type:
+            - Request
+          description: ''
+      return:
+        type:
+          - Promise<Response>
+  - uid: '@microsoft/sp-http.HttpClientHelper.constructor'
+    name: HttpClientHelper
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: >-
+      The “logSource” parameter should be a name like “HttpClient” or
+      “SPHttpClient” to indicate
+
+      the original caller's class name.
+    syntax:
+      content: 'new HttpClientHelper(serviceScope: ServiceScope, logSource: string)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+        - id: logSource
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-http.HttpClientHelper.overrideHttpMethod'
+    name: overrideHttpMethod
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Clones the original options and sets the method to the passed in method
+      name.
+    syntax:
+      content: >-
+        function overrideHttpMethod(options: IHttpClientOptions,
+        httpRequestMethod: string)
+      parameters:
+        - id: options
+          type:
+            - IHttpClientOptions
+          description: ''
+        - id: httpRequestMethod
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-http.IHttpClientOptions'

@@ -1,0 +1,110 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.CreateSitePanel'
+    name: CreateSitePanel
+    fullName: CreateSitePanel
+    children:
+      - '@ms/sp-tab-tasklib.SPTaskLib.CreateSitePanel.AddTaskChooseTemplate'
+      - '@ms/sp-tab-tasklib.SPTaskLib.CreateSitePanel.AddTaskCreateSite'
+      - '@ms/sp-tab-tasklib.SPTaskLib.CreateSitePanel.AddTaskFinish'
+      - '@ms/sp-tab-tasklib.SPTaskLib.CreateSitePanel.AddTaskVerifyForm'
+      - '@ms/sp-tab-tasklib.SPTaskLib.CreateSitePanel.constructor'
+      - '@ms/sp-tab-tasklib.SPTaskLib.CreateSitePanel.WaitForPanel'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tab-tasklib'
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.CreateSitePanel.AddTaskChooseTemplate'
+    name: AddTaskChooseTemplate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function AddTaskChooseTemplate(templateOption: CreateSiteTemplateOption)'
+      parameters:
+        - id: templateOption
+          type:
+            - CreateSiteTemplateOption
+          description: ''
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.CreateSitePanel.AddTaskCreateSite'
+    name: AddTaskCreateSite
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function AddTaskCreateSite(createSiteParam: ICreateSiteParams)'
+      parameters:
+        - id: createSiteParam
+          type:
+            - '@@ms/sp-tab-tasklib.SPTaskLib.ICreateSiteParams'
+          description: ''
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.CreateSitePanel.AddTaskFinish'
+    name: AddTaskFinish
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function AddTaskFinish()
+      parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.CreateSitePanel.AddTaskVerifyForm'
+    name: AddTaskVerifyForm
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function AddTaskVerifyForm(formType: CreateSitePanelForm, siteTemplate:
+        CreateSiteTemplateOption)
+      parameters:
+        - id: formType
+          type:
+            - CreateSitePanelForm
+          description: ''
+        - id: siteTemplate
+          type:
+            - CreateSiteTemplateOption
+          description: ''
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.CreateSitePanel.constructor'
+    name: CreateSitePanel
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CreateSitePanel(inPage: boolean, SPHomePanel: boolean)'
+      parameters:
+        - id: inPage
+          type:
+            - boolean
+          description: ''
+        - id: SPHomePanel
+          type:
+            - boolean
+          description: ''
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.CreateSitePanel.WaitForPanel'
+    name: WaitForPanel
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function WaitForPanel(SPHomePanel: boolean)'
+      parameters:
+        - id: SPHomePanel
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - Waiter

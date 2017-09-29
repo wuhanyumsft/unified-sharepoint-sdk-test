@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ISitePeoplePickerState'
+    name: ISitePeoplePickerState
+    fullName: ISitePeoplePickerState
+    children:
+      - '@ms/sp-tenant-admin-page.ISitePeoplePickerState.shouldResolveQuery'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ISitePeoplePickerState.shouldResolveQuery'
+    name: shouldResolveQuery
+    fullName: shouldResolveQuery
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean shouldResolveQuery
+      return:
+        type:
+          - boolean

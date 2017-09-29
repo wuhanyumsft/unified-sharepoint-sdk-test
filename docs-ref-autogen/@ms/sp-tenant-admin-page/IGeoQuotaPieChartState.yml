@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IGeoQuotaPieChartState'
+    name: IGeoQuotaPieChartState
+    fullName: IGeoQuotaPieChartState
+    children:
+      - '@ms/sp-tenant-admin-page.IGeoQuotaPieChartState.error'
+      - '@ms/sp-tenant-admin-page.IGeoQuotaPieChartState.storageQuotaData'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IGeoQuotaPieChartState.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The error returned when calling API.
+    syntax:
+      content: Error error
+      return:
+        type:
+          - Error
+  - uid: '@ms/sp-tenant-admin-page.IGeoQuotaPieChartState.storageQuotaData'
+    name: storageQuotaData
+    fullName: storageQuotaData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The storage quota data source for highcharts.
+    syntax:
+      content: IStorageQuotaData storageQuotaData
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IStorageQuotaData'

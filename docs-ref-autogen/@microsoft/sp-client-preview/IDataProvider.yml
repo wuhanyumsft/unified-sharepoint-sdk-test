@@ -1,0 +1,68 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-client-preview.IDataProvider'
+    name: IDataProvider
+    fullName: IDataProvider
+    children:
+      - '@microsoft/sp-client-preview.IDataProvider.getData'
+      - '@microsoft/sp-client-preview.IDataProvider.onDataError'
+      - '@microsoft/sp-client-preview.IDataProvider.onDataSuccess'
+    langs:
+      - typeScript
+    type: interface
+    summary: Represents the interface for a data provider
+    package: '@microsoft/sp-client-preview'
+  - uid: '@microsoft/sp-client-preview.IDataProvider.getData'
+    name: getData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Module to fetch data
+    syntax:
+      content: >-
+        function getData(request: IDataRequest, onSuccess: (response:
+        IDataResponse) => void, onError: (error: IDataError) => void)
+      parameters:
+        - id: request
+          type:
+            - '@@microsoft/sp-client-preview.IDataRequest'
+          description: represents the input request
+        - id: onSuccess
+          type:
+            - '(response: IDataResponse) => void'
+          description: represents the success delegate
+        - id: onError
+          type:
+            - '(error: IDataError) => void'
+          description: |
+            represents the error delegate
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-client-preview.IDataProvider.onDataError'
+    name: onDataError
+    fullName: onDataError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Error delegate
+    syntax:
+      content: '(error: IDataError) => void onDataError'
+      return:
+        type:
+          - '(error: IDataError) => void'
+  - uid: '@microsoft/sp-client-preview.IDataProvider.onDataSuccess'
+    name: onDataSuccess
+    fullName: onDataSuccess
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Success delegate
+    syntax:
+      content: '(response: IDataResponse) => void onDataSuccess'
+      return:
+        type:
+          - '(response: IDataResponse) => void'

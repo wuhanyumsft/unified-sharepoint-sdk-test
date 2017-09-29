@@ -1,0 +1,159 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneData'
+    name: IPropertyPaneData
+    fullName: IPropertyPaneData
+    children:
+      - '@microsoft/sp-webpart-base.IPropertyPaneData.configuration'
+      - '@microsoft/sp-webpart-base.IPropertyPaneData.isReactive'
+      - '@microsoft/sp-webpart-base.IPropertyPaneData.onConfigurationEvent'
+      - '@microsoft/sp-webpart-base.IPropertyPaneData.onPropertyPaneFieldChanged'
+      - '@microsoft/sp-webpart-base.IPropertyPaneData.onRendered'
+      - '@microsoft/sp-webpart-base.IPropertyPaneData.properties'
+      - '@microsoft/sp-webpart-base.IPropertyPaneData.render'
+      - '@microsoft/sp-webpart-base.IPropertyPaneData.shouldResetState'
+      - '@microsoft/sp-webpart-base.IPropertyPaneData.title'
+      - '@microsoft/sp-webpart-base.IPropertyPaneData.webPartId'
+    langs:
+      - typeScript
+    type: interface
+    summary: Web part - PropertyPane data contract.
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneData.configuration'
+    name: configuration
+    fullName: configuration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Property pane configuration.
+    syntax:
+      content: IPropertyPaneConfiguration configuration
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.IPropertyPaneConfiguration'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneData.isReactive'
+    name: isReactive
+    fullName: isReactive
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates whether the web part's configuration is reactive or not.
+    syntax:
+      content: boolean isReactive
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneData.onConfigurationEvent'
+    name: onConfigurationEvent
+    fullName: onConfigurationEvent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Single callback for all the possible configuration events of the
+      PropertyPane.
+    syntax:
+      content: '(eventType: WebPartConfigurationEvent) => void onConfigurationEvent'
+      return:
+        type:
+          - '(eventType: WebPartConfigurationEvent) => void'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneData.onPropertyPaneFieldChanged'
+    name: onPropertyPaneFieldChanged
+    fullName: onPropertyPaneFieldChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Notification event fired when the property pane field is changed and
+      has already been validated and modified.
+    syntax:
+      content: '(propertyName: string, newValue: any) => void onPropertyPaneFieldChanged'
+      return:
+        type:
+          - '(propertyName: string, newValue: any) => void'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneData.onRendered'
+    name: onRendered
+    fullName: onRendered
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Event callback fired after the PropertyPane is rendered.
+    syntax:
+      content: () => void onRendered
+      return:
+        type:
+          - () => void
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneData.properties'
+    name: properties
+    fullName: properties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Property bag from the web part.
+    syntax:
+      content: any properties
+      return:
+        type:
+          - any
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneData.render'
+    name: render
+    fullName: render
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback to re-render the PropertyPane.
+    syntax:
+      content: () => void render
+      return:
+        type:
+          - () => void
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneData.shouldResetState'
+    name: shouldResetState
+    fullName: shouldResetState
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Indicates whether the PropertyPane state should reset or not.
+      'shouldResetState' will be true in the following cases:
+         1. When the PropertyPane becomes visible from hidden state.
+         2. Switching between the web parts while the PropertyPane is open.
+    syntax:
+      content: boolean shouldResetState
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneData.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Title of the web part.
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneData.webPartId'
+    name: webPartId
+    fullName: webPartId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Web part instance id.
+    syntax:
+      content: string webPartId
+      return:
+        type:
+          - string

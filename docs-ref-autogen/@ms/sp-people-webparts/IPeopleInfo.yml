@@ -1,0 +1,123 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-people-webparts.IPeopleInfo'
+    name: IPeopleInfo
+    fullName: IPeopleInfo
+    children:
+      - '@ms/sp-people-webparts.IPeopleInfo.description'
+      - '@ms/sp-people-webparts.IPeopleInfo.email'
+      - '@ms/sp-people-webparts.IPeopleInfo.id'
+      - '@ms/sp-people-webparts.IPeopleInfo.imageUrl'
+      - '@ms/sp-people-webparts.IPeopleInfo.linkName'
+      - '@ms/sp-people-webparts.IPeopleInfo.linkUrl'
+      - '@ms/sp-people-webparts.IPeopleInfo.name'
+      - '@ms/sp-people-webparts.IPeopleInfo.role'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-people-webparts'
+  - uid: '@ms/sp-people-webparts.IPeopleInfo.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The descriptive content of person.
+    syntax:
+      content: string description
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IPeopleInfo.email'
+    name: email
+    fullName: email
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The string of email address.
+    syntax:
+      content: string email
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IPeopleInfo.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The string of unique personal id.
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IPeopleInfo.imageUrl'
+    name: imageUrl
+    fullName: imageUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The string of image URL for getting the avatar.
+    syntax:
+      content: string imageUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IPeopleInfo.linkName'
+    name: linkName
+    fullName: linkName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The link name displayed for the link area.
+    syntax:
+      content: string linkName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IPeopleInfo.linkUrl'
+    name: linkUrl
+    fullName: linkUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The link Url for displayed person.
+    syntax:
+      content: string linkUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IPeopleInfo.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The string of full name.
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-people-webparts.IPeopleInfo.role'
+    name: role
+    fullName: role
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The string of the personal role in the company/group.
+    syntax:
+      content: string role
+      return:
+        type:
+          - string

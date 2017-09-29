@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedPropsItem'
+    name: INewsfeedPropsItem
+    fullName: INewsfeedPropsItem
+    children:
+      - '@ms/sp-teamsite-webparts.INewsfeedPropsItem.currentBreakpoint'
+      - '@ms/sp-teamsite-webparts.INewsfeedPropsItem.id'
+      - '@ms/sp-teamsite-webparts.INewsfeedPropsItem.isFeatured'
+      - '@ms/sp-teamsite-webparts.INewsfeedPropsItem.locale'
+      - '@ms/sp-teamsite-webparts.INewsfeedPropsItem.newsItem'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedPropsItem.currentBreakpoint'
+    name: currentBreakpoint
+    fullName: currentBreakpoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => BREAKPOINT_SIZE currentBreakpoint
+      return:
+        type:
+          - () => BREAKPOINT_SIZE
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedPropsItem.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number id
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedPropsItem.isFeatured'
+    name: isFeatured
+    fullName: isFeatured
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isFeatured
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedPropsItem.locale'
+    name: locale
+    fullName: locale
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string locale
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-teamsite-webparts.INewsfeedPropsItem.newsItem'
+    name: newsItem
+    fullName: newsItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: INewsItem newsItem
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.INewsItem'

@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/loader-cased-file.Global'
+    package: '@microsoft/loader-cased-file'
+    name: Global
+    children:
+      - '@microsoft/loader-cased-file.casedFileLoader'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@microsoft/loader-cased-file.casedFileLoader'
+    name: casedFileLoader
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function casedFileLoader(content: any)'
+      parameters:
+        - id: content
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - string

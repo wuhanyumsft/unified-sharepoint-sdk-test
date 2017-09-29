@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.DialogManagerConfiguration'
+    name: DialogManagerConfiguration
+    fullName: DialogManagerConfiguration
+    children:
+      - '@microsoft/sp-application-base.DialogManagerConfiguration.dispose'
+      - '@microsoft/sp-application-base.DialogManagerConfiguration.initialize'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      A singleton class that allows the application to configure the behavior of
+      dialog manager. If @microsoft/sp-dialog
+
+      package is loaded on the page and a dialog manager is instantiated on the
+      page, it will look for this singleton
+
+      as its configuration.
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.DialogManagerConfiguration.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Disposes the current configuration. Use this when the application is being
+      disposed. This will make sure that
+
+      this config is not re-used in case another application is loaded on the
+      same page.
+
+      IMPORTANT NOTE: SPFx assumption is that there is only one active
+      application on the page at a given time.
+    syntax:
+      content: function dispose()
+      parameters: []
+  - uid: '@microsoft/sp-application-base.DialogManagerConfiguration.initialize'
+    name: initialize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: initialize dialog manager configuration.
+    syntax:
+      content: 'function initialize(domElement: HTMLDivElement, allowDialogs: boolean)'
+      parameters:
+        - id: domElement
+          type:
+            - HTMLDivElement
+          description: The container element for dialogs
+        - id: allowDialogs
+          type:
+            - boolean
+          description: >
+            Whether the dialogs should be allowed. This defaults to true and can
+            be updated later using
+
+            allowDialogs property.

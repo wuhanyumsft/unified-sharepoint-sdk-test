@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.AggregateType'
+    name: AggregateType
+    fullName: AggregateType
+    children:
+      - '@ms/sp-teamsite-webparts.AggregateType.ByItem'
+      - '@ms/sp-teamsite-webparts.AggregateType.ByUser'
+      - '@ms/sp-teamsite-webparts.AggregateType.None'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.AggregateType.ByItem'
+    name: ByItem
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.AggregateType.ByUser'
+    name: ByUser
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+  - uid: '@ms/sp-teamsite-webparts.AggregateType.None'
+    name: None
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field

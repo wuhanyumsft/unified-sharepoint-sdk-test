@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.IFunctionMap'
+    name: IFunctionMap
+    fullName: IFunctionMap
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: function number and the detail of this function
+    package: '@ms/sp-build-internal-tasks'

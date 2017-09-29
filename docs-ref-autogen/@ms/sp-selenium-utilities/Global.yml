@@ -1,0 +1,93 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-selenium-utilities.Global'
+    package: '@ms/sp-selenium-utilities'
+    name: Global
+    children:
+      - '@ms/sp-selenium-utilities.disposeTestObjects'
+      - '@ms/sp-selenium-utilities.doCleanUp'
+      - '@ms/sp-selenium-utilities.getBrowserLogs'
+      - '@ms/sp-selenium-utilities.setCurrentTab'
+      - '@ms/sp-selenium-utilities.takeScreenshot'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@ms/sp-selenium-utilities.disposeTestObjects'
+    name: disposeTestObjects
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function disposeTestObjects()
+      parameters: []
+      return:
+        type:
+          - afterTest
+  - uid: '@ms/sp-selenium-utilities.doCleanUp'
+    name: doCleanUp
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function doCleanUp(name: string, timeout: number, promiseCallback:
+        (mochaTestContext: IMochaTestContext, currentTest: IMochaTest,
+        testContext: TestContext) => Promise<any>)
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: timeout
+          type:
+            - number
+          description: ''
+        - id: promiseCallback
+          type:
+            - >-
+              (mochaTestContext: IMochaTestContext, currentTest: IMochaTest,
+              testContext: TestContext) => Promise<any>
+          description: ''
+      return:
+        type:
+          - afterTest
+  - uid: '@ms/sp-selenium-utilities.getBrowserLogs'
+    name: getBrowserLogs
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getBrowserLogs()
+      parameters: []
+      return:
+        type:
+          - afterTest
+  - uid: '@ms/sp-selenium-utilities.setCurrentTab'
+    name: setCurrentTab
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function setCurrentTab()
+      parameters: []
+  - uid: '@ms/sp-selenium-utilities.takeScreenshot'
+    name: takeScreenshot
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function takeScreenshot()
+      parameters: []
+      return:
+        type:
+          - afterTest

@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.VerifyCoverageTask'
+    name: VerifyCoverageTask
+    fullName: VerifyCoverageTask
+    children:
+      - '@ms/sp-build-internal-tasks.VerifyCoverageTask.executeTask'
+      - '@ms/sp-build-internal-tasks.VerifyCoverageTask.loadSchema'
+      - '@ms/sp-build-internal-tasks.VerifyCoverageTask.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-build-internal-tasks.VerifyCoverageTask<@@ms/sp-build-internal-tasks.IVerifyCoverageConfig>
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.VerifyCoverageTask.executeTask'
+    name: executeTask
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function executeTask(gulp: any, completeCallback: (result?: string) =>
+        void)
+      parameters:
+        - id: gulp
+          type:
+            - any
+          description: ''
+        - id: completeCallback
+          type:
+            - '(result?: string) => void'
+          description: ''
+      return:
+        type:
+          - ReadWriteStream
+  - uid: '@ms/sp-build-internal-tasks.VerifyCoverageTask.loadSchema'
+    name: loadSchema
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function loadSchema()
+      parameters: []
+      return:
+        type:
+          - Object
+  - uid: '@ms/sp-build-internal-tasks.VerifyCoverageTask.constructor'
+    name: VerifyCoverageTask
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new VerifyCoverageTask()
+      parameters: []

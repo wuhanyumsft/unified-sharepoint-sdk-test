@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationMapWidgetState'
+    name: IGeoLocationMapWidgetState
+    fullName: IGeoLocationMapWidgetState
+    children:
+      - '@ms/sp-tenant-admin-page.IGeoLocationMapWidgetState.error'
+      - >-
+        @ms/sp-tenant-admin-page.IGeoLocationMapWidgetState.locationInformationCollection
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationMapWidgetState.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The error returned when calling API.
+    syntax:
+      content: Error error
+      return:
+        type:
+          - Error
+  - uid: >-
+      @ms/sp-tenant-admin-page.IGeoLocationMapWidgetState.locationInformationCollection
+    name: locationInformationCollection
+    fullName: locationInformationCollection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The geo location data source for highmaps.
+    syntax:
+      content: 'IGeoLocationInformation[] locationInformationCollection'
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.IGeoLocationInformation[]'

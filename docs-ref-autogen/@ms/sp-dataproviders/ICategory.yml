@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.ICategory'
+    name: ICategory
+    fullName: ICategory
+    children:
+      - '@ms/sp-dataproviders.ICategory.categories'
+      - '@ms/sp-dataproviders.ICategory.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.ICategory.categories'
+    name: categories
+    fullName: categories
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: All category values.
+    syntax:
+      content: 'string[] categories'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-dataproviders.ICategory.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Category type.
+    syntax:
+      content: string type
+      return:
+        type:
+          - string

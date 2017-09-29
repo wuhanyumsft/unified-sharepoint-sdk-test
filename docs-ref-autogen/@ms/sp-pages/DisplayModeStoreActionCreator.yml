@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.DisplayModeStoreActionCreator'
+    name: DisplayModeStoreActionCreator
+    fullName: DisplayModeStoreActionCreator
+    children:
+      - '@ms/sp-pages.DisplayModeStoreActionCreator.cancelEdit'
+      - '@ms/sp-pages.DisplayModeStoreActionCreator.edit'
+    langs:
+      - typeScript
+    type: class
+    summary: Contains all actions related to change display mode
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.DisplayModeStoreActionCreator.cancelEdit'
+    name: cancelEdit
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function cancelEdit(opts: IDisplayModeStoreActionOptions)'
+      parameters:
+        - id: opts
+          type:
+            - '@@ms/sp-pages.IDisplayModeStoreActionOptions'
+          description: ''
+  - uid: '@ms/sp-pages.DisplayModeStoreActionCreator.edit'
+    name: edit
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function edit(opts: IDisplayModeStoreActionOptions)'
+      parameters:
+        - id: opts
+          type:
+            - '@@ms/sp-pages.IDisplayModeStoreActionOptions'
+          description: ''

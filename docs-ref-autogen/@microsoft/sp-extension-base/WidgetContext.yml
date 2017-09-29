@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-extension-base.WidgetContext'
+    name: WidgetContext
+    fullName: WidgetContext
+    children:
+      - '@microsoft/sp-extension-base.WidgetContext.extraThing'
+      - '@microsoft/sp-extension-base.WidgetContext.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@microsoft/sp-extension-base.ExtensionContext'
+    package: '@microsoft/sp-extension-base'
+  - uid: '@microsoft/sp-extension-base.WidgetContext.extraThing'
+    name: extraThing
+    fullName: extraThing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string extraThing
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-extension-base.WidgetContext.constructor'
+    name: WidgetContext
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new WidgetContext(parameters: IWidgetContextParameters)'
+      parameters:
+        - id: parameters
+          type:
+            - '@@microsoft/sp-extension-base.IWidgetContextParameters'
+          description: ''

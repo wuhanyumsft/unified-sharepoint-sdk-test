@@ -1,0 +1,46 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.ReadOnlyReasonCode'
+    name: ReadOnlyReasonCode
+    fullName: ReadOnlyReasonCode
+    children:
+      - '@ms/sp-tenant-admin-page.ReadOnlyReasonCode.NotApplicable'
+      - '@ms/sp-tenant-admin-page.ReadOnlyReasonCode.SPOSyncReadOnlyByODBSync'
+      - >-
+        @ms/sp-tenant-admin-page.ReadOnlyReasonCode.SPOSyncReadOnlyByNewTenantOrCVRed
+    langs:
+      - typeScript
+    type: enum
+    summary: >-
+      This enum is to match read only reason code which is a property in the
+      response data of backend RESTful API:
+
+      /_api/SPOInternalUseOnly.TenantAdminSettings/ShowNextGenerationSyncClientOnTeamSite
+
+      It is defined in sporel/spo/dev/TenantOM/TenantAdminDataContracts.cs
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.ReadOnlyReasonCode.NotApplicable'
+    name: NotApplicable
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+  - uid: '@ms/sp-tenant-admin-page.ReadOnlyReasonCode.SPOSyncReadOnlyByODBSync'
+    name: SPOSyncReadOnlyByODBSync
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: >-
+      @ms/sp-tenant-admin-page.ReadOnlyReasonCode.SPOSyncReadOnlyByNewTenantOrCVRed
+    name: SPOSyncReadOnlyByNewTenantOrCVRed
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2

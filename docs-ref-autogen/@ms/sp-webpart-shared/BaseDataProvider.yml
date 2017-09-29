@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.BaseDataProvider'
+    name: BaseDataProvider
+    fullName: BaseDataProvider
+    children:
+      - '@ms/sp-webpart-shared.BaseDataProvider.constructor'
+      - '@ms/sp-webpart-shared.BaseDataProvider.configuration'
+      - '@ms/sp-webpart-shared.BaseDataProvider.requestData'
+    langs:
+      - typeScript
+    type: class
+    summary: Base data provider.
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.BaseDataProvider.constructor'
+    name: BaseDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BaseDataProvider(configuration: IDataProviderConfiguration)'
+      parameters:
+        - id: configuration
+          type:
+            - '@@ms/sp-webpart-shared.IDataProviderConfiguration'
+          description: ''
+  - uid: '@ms/sp-webpart-shared.BaseDataProvider.configuration'
+    name: configuration
+    fullName: configuration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IDataProviderConfiguration configuration
+      return:
+        type:
+          - '@@ms/sp-webpart-shared.IDataProviderConfiguration'
+  - uid: '@ms/sp-webpart-shared.BaseDataProvider.requestData'
+    name: requestData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function requestData<TData>(request: IRequest<TData>)'
+      parameters:
+        - id: request
+          type:
+            - '@@ms/sp-webpart-shared.IRequest<TData>'
+          description: ''
+      return:
+        type:
+          - Promise<TData>

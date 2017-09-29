@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/listview-spfx-host.SpfxAdapter'
+    name: SpfxAdapter
+    fullName: SpfxAdapter
+    children:
+      - '@ms/listview-spfx-host.SpfxAdapter.createListViewAdapter'
+      - '@ms/listview-spfx-host.SpfxAdapter.definePlaceholders'
+      - '@ms/listview-spfx-host.SpfxAdapter.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/listview-spfx-host'
+  - uid: '@ms/listview-spfx-host.SpfxAdapter.createListViewAdapter'
+    name: createListViewAdapter
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function createListViewAdapter()
+      parameters: []
+      return:
+        type:
+          - '@@ms/listview-spfx-host.ListViewAdapter'
+  - uid: '@ms/listview-spfx-host.SpfxAdapter.definePlaceholders'
+    name: definePlaceholders
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function definePlaceholders(definitions: IPlaceholderSimpleDefinition[])'
+      parameters:
+        - id: definitions
+          type:
+            - '@@ms/listview-spfx-host.IPlaceholderSimpleDefinition[]'
+          description: ''
+  - uid: '@ms/listview-spfx-host.SpfxAdapter.constructor'
+    name: SpfxAdapter
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SpfxAdapter(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''

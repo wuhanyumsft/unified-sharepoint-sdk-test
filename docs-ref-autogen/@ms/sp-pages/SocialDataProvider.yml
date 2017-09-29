@@ -1,0 +1,106 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.SocialDataProvider'
+    name: SocialDataProvider
+    fullName: SocialDataProvider
+    children:
+      - '@ms/sp-pages.SocialDataProvider.fetchNextPageLikes'
+      - '@ms/sp-pages.SocialDataProvider.getPageLikes'
+      - '@ms/sp-pages.SocialDataProvider.likeLimitExceededError'
+      - '@ms/sp-pages.SocialDataProvider.likePage'
+      - '@ms/sp-pages.SocialDataProvider.constructor'
+      - '@ms/sp-pages.SocialDataProvider.unlikePage'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SocialDataProvider.fetchNextPageLikes'
+    name: fetchNextPageLikes
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fetchNextPageLikes(nextLink: string)'
+      parameters:
+        - id: nextLink
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<@@ms/sp-pages.ILikeChunk>
+  - uid: '@ms/sp-pages.SocialDataProvider.getPageLikes'
+    name: getPageLikes
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getPageLikes()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-pages.ILikeChunk>
+  - uid: '@ms/sp-pages.SocialDataProvider.likeLimitExceededError'
+    name: likeLimitExceededError
+    fullName: likeLimitExceededError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static LikeLimitExceededError likeLimitExceededError
+      return:
+        type:
+          - '@@ms/sp-pages.LikeLimitExceededError'
+  - uid: '@ms/sp-pages.SocialDataProvider.likePage'
+    name: likePage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function likePage()
+      parameters: []
+      return:
+        type:
+          - Promise<__type>
+  - uid: '@ms/sp-pages.SocialDataProvider.constructor'
+    name: SocialDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new SocialDataProvider(pageContext: PageContext, spHttpClient:
+        SPHttpClient)
+      parameters:
+        - id: pageContext
+          type:
+            - PageContext
+          description: ''
+        - id: spHttpClient
+          type:
+            - SPHttpClient
+          description: ''
+  - uid: '@ms/sp-pages.SocialDataProvider.unlikePage'
+    name: unlikePage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function unlikePage()
+      parameters: []
+      return:
+        type:
+          - Promise<__type>

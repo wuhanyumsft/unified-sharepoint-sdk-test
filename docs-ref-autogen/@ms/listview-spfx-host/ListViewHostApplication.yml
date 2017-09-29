@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/listview-spfx-host.ListViewHostApplication'
+    name: ListViewHostApplication
+    fullName: ListViewHostApplication
+    children:
+      - '@ms/listview-spfx-host.ListViewHostApplication.suiteNavConfiguration'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/listview-spfx-host.ListViewHostApplication'
+    package: '@ms/listview-spfx-host'
+  - uid: '@ms/listview-spfx-host.ListViewHostApplication.suiteNavConfiguration'
+    name: suiteNavConfiguration
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function suiteNavConfiguration()
+      parameters: []
+      return:
+        type:
+          - ISuiteNavManagerConfiguration

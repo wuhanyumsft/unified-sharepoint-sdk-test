@@ -1,0 +1,133 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-component-utilities.PreviewHelper'
+    name: PreviewHelper
+    fullName: PreviewHelper
+    children:
+      - '@ms/sp-component-utilities.PreviewHelper.getPreviewImageUrl'
+      - >-
+        @ms/sp-component-utilities.PreviewHelper.hasThumbnailOrFileTypeSupportsPreview
+      - '@ms/sp-component-utilities.PreviewHelper.isImage'
+      - '@ms/sp-component-utilities.PreviewHelper.isVideo'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-component-utilities'
+  - uid: '@ms/sp-component-utilities.PreviewHelper.getPreviewImageUrl'
+    name: getPreviewImageUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns preview image URL for supported file extentions using
+      getPreview.aspx service
+
+      Note: width parameter is scaled window.devicePixelRatio times to handle
+      high DPI for example
+    syntax:
+      content: >-
+        static function getPreviewImageUrl(fileType: string, thumbnail: string,
+        baseUrl: string, path: string, siteId: string, webId: string, uniqueId:
+        string, width?: number, omitClientType?: boolean)
+      parameters:
+        - id: fileType
+          type:
+            - string
+          description: ''
+        - id: thumbnail
+          type:
+            - string
+          description: ''
+        - id: baseUrl
+          type:
+            - string
+          description: ''
+        - id: path
+          type:
+            - string
+          description: ''
+        - id: siteId
+          type:
+            - string
+          description: ''
+        - id: webId
+          type:
+            - string
+          description: ''
+        - id: uniqueId
+          type:
+            - string
+          description: ''
+        - id: width
+          type:
+            - number
+          description: ''
+          optional: true
+        - id: omitClientType
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+  - uid: >-
+      @ms/sp-component-utilities.PreviewHelper.hasThumbnailOrFileTypeSupportsPreview
+    name: hasThumbnailOrFileTypeSupportsPreview
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns true if the filetype is supported for preview.
+    syntax:
+      content: >-
+        static function hasThumbnailOrFileTypeSupportsPreview(fileType: string,
+        thumbnail: string)
+      parameters:
+        - id: fileType
+          type:
+            - string
+          description: ''
+        - id: thumbnail
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-utilities.PreviewHelper.isImage'
+    name: isImage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isImage(ext: string)'
+      parameters:
+        - id: ext
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-component-utilities.PreviewHelper.isVideo'
+    name: isVideo
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isVideo(ext: string)'
+      parameters:
+        - id: ext
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean

@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-connector-webparts.ConnectorConfiguration'
+    name: ConnectorConfiguration
+    fullName: ConnectorConfiguration
+    children:
+      - '@ms/sp-connector-webparts.ConnectorConfiguration.constructor'
+      - '@ms/sp-connector-webparts.ConnectorConfiguration.openConfiguration'
+      - '@ms/sp-connector-webparts.ConnectorConfiguration.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@ms/sp-connector-webparts.ConnectorConfiguration<@@ms/sp-connector-webparts.IConnectorConfigurationProperties>
+    package: '@ms/sp-connector-webparts'
+  - uid: '@ms/sp-connector-webparts.ConnectorConfiguration.constructor'
+    name: ConnectorConfiguration
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ConnectorConfiguration(props: IConnectorConfigurationProperties)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-connector-webparts.IConnectorConfigurationProperties'
+          description: ''
+  - uid: '@ms/sp-connector-webparts.ConnectorConfiguration.openConfiguration'
+    name: openConfiguration
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function openConfiguration(hostOptions: IConnectorHostOptions)'
+      parameters:
+        - id: hostOptions
+          type:
+            - '@@ms/sp-connector-webparts.IConnectorHostOptions'
+          description: ''
+  - uid: '@ms/sp-connector-webparts.ConnectorConfiguration.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

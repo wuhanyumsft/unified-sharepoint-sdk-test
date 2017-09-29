@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IOAuthDataSourceOptions'
+    name: IOAuthDataSourceOptions
+    fullName: IOAuthDataSourceOptions
+    children:
+      - '@ms/sp-dataproviders.IOAuthDataSourceOptions.httpClient'
+      - '@ms/sp-dataproviders.IOAuthDataSourceOptions.pageContext'
+      - '@ms/sp-dataproviders.IOAuthDataSourceOptions.tokenProvider'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IOAuthDataSourceOptions.httpClient'
+    name: httpClient
+    fullName: httpClient
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HttpClient httpClient
+      return:
+        type:
+          - HttpClient
+  - uid: '@ms/sp-dataproviders.IOAuthDataSourceOptions.pageContext'
+    name: pageContext
+    fullName: pageContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageContext pageContext
+      return:
+        type:
+          - PageContext
+  - uid: '@ms/sp-dataproviders.IOAuthDataSourceOptions.tokenProvider'
+    name: tokenProvider
+    fullName: tokenProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: OAuthTokenProvider tokenProvider
+      return:
+        type:
+          - OAuthTokenProvider

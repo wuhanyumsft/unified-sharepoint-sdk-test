@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IEventsListDataProvider'
+    name: IEventsListDataProvider
+    fullName: IEventsListDataProvider
+    children:
+      - '@ms/sp-dataproviders.IEventsListDataProvider.ensureEventsList'
+      - '@ms/sp-dataproviders.IEventsListDataProvider.getEventsListPermission'
+      - '@ms/sp-dataproviders.IEventsListDataProvider.getEventsLists'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IEventsListDataProvider.ensureEventsList'
+    name: ensureEventsList
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Ensure there is an events list in the site.
+      It will throw exception if the user does not have permission.
+    syntax:
+      content: function ensureEventsList()
+      parameters: []
+      return:
+        type:
+          - Promise<@@ms/sp-dataproviders.IEventsList>
+  - uid: '@ms/sp-dataproviders.IEventsListDataProvider.getEventsListPermission'
+    name: getEventsListPermission
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get permissions for the events list.
+    syntax:
+      content: 'function getEventsListPermission(listId: string)'
+      parameters:
+        - id: listId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<SPPermission>
+  - uid: '@ms/sp-dataproviders.IEventsListDataProvider.getEventsLists'
+    name: getEventsLists
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get all events lists information from current web site.
+    syntax:
+      content: function getEventsLists()
+      parameters: []
+      return:
+        type:
+          - 'Promise<@@ms/sp-dataproviders.IEventsList[]>'

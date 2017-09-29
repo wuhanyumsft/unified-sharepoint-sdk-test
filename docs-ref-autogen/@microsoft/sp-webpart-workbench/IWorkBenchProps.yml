@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-workbench.IWorkBenchProps'
+    name: IWorkBenchProps
+    fullName: IWorkBenchProps
+    children:
+      - '@microsoft/sp-webpart-workbench.IWorkBenchProps.a11yManagerId'
+      - '@microsoft/sp-webpart-workbench.IWorkBenchProps.pageStore'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-webpart-workbench'
+  - uid: '@microsoft/sp-webpart-workbench.IWorkBenchProps.a11yManagerId'
+    name: a11yManagerId
+    fullName: a11yManagerId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string a11yManagerId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-workbench.IWorkBenchProps.pageStore'
+    name: pageStore
+    fullName: pageStore
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageStore pageStore
+      return:
+        type:
+          - '@@microsoft/sp-webpart-workbench.PageStore'

@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/repo-toolbox.IWebpackChunkSize'
+    name: IWebpackChunkSize
+    fullName: IWebpackChunkSize
+    children:
+      - '@ms/repo-toolbox.IWebpackChunkSize.actualSize'
+      - '@ms/repo-toolbox.IWebpackChunkSize.webpackSize'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/repo-toolbox'
+  - uid: '@ms/repo-toolbox.IWebpackChunkSize.actualSize'
+    name: actualSize
+    fullName: actualSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: This property reflects the minified size on disk.
+    syntax:
+      content: number actualSize
+      return:
+        type:
+          - number
+  - uid: '@ms/repo-toolbox.IWebpackChunkSize.webpackSize'
+    name: webpackSize
+    fullName: webpackSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: This property reflects the pre-minified size as reported by webpack.
+    syntax:
+      content: number webpackSize
+      return:
+        type:
+          - number

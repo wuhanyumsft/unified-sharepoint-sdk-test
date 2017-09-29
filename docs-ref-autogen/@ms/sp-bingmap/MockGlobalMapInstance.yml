@@ -1,0 +1,125 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-bingmap.MockGlobalMapInstance'
+    name: MockGlobalMapInstance
+    fullName: MockGlobalMapInstance
+    children:
+      - '@ms/sp-bingmap.MockGlobalMapInstance.get'
+      - '@ms/sp-bingmap.MockGlobalMapInstance.getLength'
+      - '@ms/sp-bingmap.MockGlobalMapInstance.push'
+      - '@ms/sp-bingmap.MockGlobalMapInstance.removeAt'
+      - '@ms/sp-bingmap.MockGlobalMapInstance.setMapType'
+      - '@ms/sp-bingmap.MockGlobalMapInstance.setOptions'
+      - '@ms/sp-bingmap.MockGlobalMapInstance.setView'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-bingmap'
+  - uid: '@ms/sp-bingmap.MockGlobalMapInstance.get'
+    name: get
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-bingmap.MockGlobalPushPin'
+  - uid: '@ms/sp-bingmap.MockGlobalMapInstance.getLength'
+    name: getLength
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getLength()
+      parameters: []
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-bingmap.MockGlobalMapInstance.push'
+    name: push
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function push(object: Object)'
+      parameters:
+        - id: object
+          type:
+            - Object
+          description: ''
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-bingmap.MockGlobalMapInstance.removeAt'
+    name: removeAt
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - any
+  - uid: '@ms/sp-bingmap.MockGlobalMapInstance.setMapType'
+    name: setMapType
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMapType(mapTypeId: MapTypeId)'
+      parameters:
+        - id: mapTypeId
+          type:
+            - MapTypeId
+          description: ''
+  - uid: '@ms/sp-bingmap.MockGlobalMapInstance.setOptions'
+    name: setOptions
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setOptions(options?: IAutosuggestOptions)'
+      parameters:
+        - id: options
+          type:
+            - IAutosuggestOptions
+          description: ''
+          optional: true
+  - uid: '@ms/sp-bingmap.MockGlobalMapInstance.setView'
+    name: setView
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setView(options: IViewOptions)'
+      parameters:
+        - id: options
+          type:
+            - IViewOptions
+          description: ''

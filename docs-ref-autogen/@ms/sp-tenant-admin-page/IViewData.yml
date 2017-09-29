@@ -1,0 +1,599 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IViewData'
+    name: IViewData
+    fullName: IViewData
+    children:
+      - '@ms/sp-tenant-admin-page.IViewData.Aggregations'
+      - '@ms/sp-tenant-admin-page.IViewData.AggregationStatus'
+      - '@ms/sp-tenant-admin-page.IViewData.BaseViewId'
+      - '@ms/sp-tenant-admin-page.IViewData.DefaultView'
+      - '@ms/sp-tenant-admin-page.IViewData.DefaultViewForContentType'
+      - '@ms/sp-tenant-admin-page.IViewData.EditorModified'
+      - '@ms/sp-tenant-admin-page.IViewData.Formats'
+      - '@ms/sp-tenant-admin-page.IViewData.Hidden'
+      - '@ms/sp-tenant-admin-page.IViewData.HtmlSchemaXml'
+      - '@ms/sp-tenant-admin-page.IViewData.Id'
+      - '@ms/sp-tenant-admin-page.IViewData.ImageUrl'
+      - '@ms/sp-tenant-admin-page.IViewData.IncludeRootFolder'
+      - '@ms/sp-tenant-admin-page.IViewData.JSLink'
+      - '@ms/sp-tenant-admin-page.IViewData.ListViewXml'
+      - '@ms/sp-tenant-admin-page.IViewData.Method'
+      - '@ms/sp-tenant-admin-page.IViewData.MobileDefaultView'
+      - '@ms/sp-tenant-admin-page.IViewData.MobileView'
+      - '@ms/sp-tenant-admin-page.IViewData.ModerationType'
+      - '@ms/sp-tenant-admin-page.IViewData.odata.editLink'
+      - '@ms/sp-tenant-admin-page.IViewData.odata.id'
+      - '@ms/sp-tenant-admin-page.IViewData.odata.type'
+      - '@ms/sp-tenant-admin-page.IViewData.OrderedView'
+      - '@ms/sp-tenant-admin-page.IViewData.Paged'
+      - '@ms/sp-tenant-admin-page.IViewData.PersonalView'
+      - '@ms/sp-tenant-admin-page.IViewData.ReadOnlyView'
+      - '@ms/sp-tenant-admin-page.IViewData.RequiresClientIntegration'
+      - '@ms/sp-tenant-admin-page.IViewData.RowLimit'
+      - '@ms/sp-tenant-admin-page.IViewData.Scope'
+      - '@ms/sp-tenant-admin-page.IViewData.ServerRelativePath'
+      - '@ms/sp-tenant-admin-page.IViewData.ServerRelativeUrl'
+      - '@ms/sp-tenant-admin-page.IViewData.StyleId'
+      - '@ms/sp-tenant-admin-page.IViewData.TabularView'
+      - '@ms/sp-tenant-admin-page.IViewData.Threaded'
+      - '@ms/sp-tenant-admin-page.IViewData.Title'
+      - '@ms/sp-tenant-admin-page.IViewData.Toolbar'
+      - '@ms/sp-tenant-admin-page.IViewData.ToolbarTemplateName'
+      - '@ms/sp-tenant-admin-page.IViewData.ViewData'
+      - '@ms/sp-tenant-admin-page.IViewData.ViewJoins'
+      - '@ms/sp-tenant-admin-page.IViewData.ViewProjectedFields'
+      - '@ms/sp-tenant-admin-page.IViewData.ViewQuery'
+      - '@ms/sp-tenant-admin-page.IViewData.ViewType'
+      - '@ms/sp-tenant-admin-page.IViewData.VisualizationInfo'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IViewData.Aggregations'
+    name: Aggregations
+    fullName: Aggregations
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: __type Aggregations
+      return:
+        type:
+          - __type
+  - uid: '@ms/sp-tenant-admin-page.IViewData.AggregationStatus'
+    name: AggregationStatus
+    fullName: AggregationStatus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: __type AggregationStatus
+      return:
+        type:
+          - __type
+  - uid: '@ms/sp-tenant-admin-page.IViewData.BaseViewId'
+    name: BaseViewId
+    fullName: BaseViewId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number BaseViewId
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tenant-admin-page.IViewData.DefaultView'
+    name: DefaultView
+    fullName: DefaultView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean DefaultView
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IViewData.DefaultViewForContentType'
+    name: DefaultViewForContentType
+    fullName: DefaultViewForContentType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean DefaultViewForContentType
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IViewData.EditorModified'
+    name: EditorModified
+    fullName: EditorModified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean EditorModified
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IViewData.Formats'
+    name: Formats
+    fullName: Formats
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: __type Formats
+      return:
+        type:
+          - __type
+  - uid: '@ms/sp-tenant-admin-page.IViewData.Hidden'
+    name: Hidden
+    fullName: Hidden
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean Hidden
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IViewData.HtmlSchemaXml'
+    name: HtmlSchemaXml
+    fullName: HtmlSchemaXml
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string HtmlSchemaXml
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IViewData.Id'
+    name: Id
+    fullName: Id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IViewData.ImageUrl'
+    name: ImageUrl
+    fullName: ImageUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ImageUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IViewData.IncludeRootFolder'
+    name: IncludeRootFolder
+    fullName: IncludeRootFolder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean IncludeRootFolder
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IViewData.JSLink'
+    name: JSLink
+    fullName: JSLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string JSLink
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IViewData.ListViewXml'
+    name: ListViewXml
+    fullName: ListViewXml
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ListViewXml
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IViewData.Method'
+    name: Method
+    fullName: Method
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: __type Method
+      return:
+        type:
+          - __type
+  - uid: '@ms/sp-tenant-admin-page.IViewData.MobileDefaultView'
+    name: MobileDefaultView
+    fullName: MobileDefaultView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean MobileDefaultView
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IViewData.MobileView'
+    name: MobileView
+    fullName: MobileView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean MobileView
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IViewData.ModerationType'
+    name: ModerationType
+    fullName: ModerationType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: __type ModerationType
+      return:
+        type:
+          - __type
+  - uid: '@ms/sp-tenant-admin-page.IViewData.odata.editLink'
+    name: odata.editLink
+    fullName: odata.editLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string odata.editLink
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IViewData.odata.id'
+    name: odata.id
+    fullName: odata.id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string odata.id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IViewData.odata.type'
+    name: odata.type
+    fullName: odata.type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string odata.type
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IViewData.OrderedView'
+    name: OrderedView
+    fullName: OrderedView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean OrderedView
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IViewData.Paged'
+    name: Paged
+    fullName: Paged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean Paged
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IViewData.PersonalView'
+    name: PersonalView
+    fullName: PersonalView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean PersonalView
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IViewData.ReadOnlyView'
+    name: ReadOnlyView
+    fullName: ReadOnlyView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean ReadOnlyView
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IViewData.RequiresClientIntegration'
+    name: RequiresClientIntegration
+    fullName: RequiresClientIntegration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean RequiresClientIntegration
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IViewData.RowLimit'
+    name: RowLimit
+    fullName: RowLimit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number RowLimit
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tenant-admin-page.IViewData.Scope'
+    name: Scope
+    fullName: Scope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number Scope
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-tenant-admin-page.IViewData.ServerRelativePath'
+    name: ServerRelativePath
+    fullName: ServerRelativePath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: __type ServerRelativePath
+      return:
+        type:
+          - __type
+  - uid: '@ms/sp-tenant-admin-page.IViewData.ServerRelativeUrl'
+    name: ServerRelativeUrl
+    fullName: ServerRelativeUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ServerRelativeUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IViewData.StyleId'
+    name: StyleId
+    fullName: StyleId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string StyleId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IViewData.TabularView'
+    name: TabularView
+    fullName: TabularView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean TabularView
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IViewData.Threaded'
+    name: Threaded
+    fullName: Threaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean Threaded
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IViewData.Title'
+    name: Title
+    fullName: Title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IViewData.Toolbar'
+    name: Toolbar
+    fullName: Toolbar
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: __type Toolbar
+      return:
+        type:
+          - __type
+  - uid: '@ms/sp-tenant-admin-page.IViewData.ToolbarTemplateName'
+    name: ToolbarTemplateName
+    fullName: ToolbarTemplateName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ToolbarTemplateName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IViewData.ViewData'
+    name: ViewData
+    fullName: ViewData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: __type ViewData
+      return:
+        type:
+          - __type
+  - uid: '@ms/sp-tenant-admin-page.IViewData.ViewJoins'
+    name: ViewJoins
+    fullName: ViewJoins
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: __type ViewJoins
+      return:
+        type:
+          - __type
+  - uid: '@ms/sp-tenant-admin-page.IViewData.ViewProjectedFields'
+    name: ViewProjectedFields
+    fullName: ViewProjectedFields
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: __type ViewProjectedFields
+      return:
+        type:
+          - __type
+  - uid: '@ms/sp-tenant-admin-page.IViewData.ViewQuery'
+    name: ViewQuery
+    fullName: ViewQuery
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ViewQuery
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IViewData.ViewType'
+    name: ViewType
+    fullName: ViewType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ViewType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IViewData.VisualizationInfo'
+    name: VisualizationInfo
+    fullName: VisualizationInfo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: __type VisualizationInfo
+      return:
+        type:
+          - __type

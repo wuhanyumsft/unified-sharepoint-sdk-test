@@ -1,0 +1,85 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-core-tasks.IExtendedWebpackModule'
+    name: IExtendedWebpackModule
+    fullName: IExtendedWebpackModule
+    children:
+      - >-
+        @microsoft/sp-build-core-tasks.IExtendedWebpackModule.configExternalFullPath
+      - '@microsoft/sp-build-core-tasks.IExtendedWebpackModule.externalName'
+      - '@microsoft/sp-build-core-tasks.IExtendedWebpackModule.isExternalUrl'
+      - '@microsoft/sp-build-core-tasks.IExtendedWebpackModule.nonAmdConfig'
+      - '@microsoft/sp-build-core-tasks.IExtendedWebpackModule.renameCallbacks'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@microsoft/sp-build-core-tasks.IWebpackModule'
+    package: '@microsoft/sp-build-core-tasks'
+  - uid: >-
+      @microsoft/sp-build-core-tasks.IExtendedWebpackModule.configExternalFullPath
+    name: configExternalFullPath
+    fullName: configExternalFullPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string configExternalFullPath
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IExtendedWebpackModule.externalName'
+    name: externalName
+    fullName: externalName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string externalName
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.IExtendedWebpackModule.isExternalUrl'
+    name: isExternalUrl
+    fullName: isExternalUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isExternalUrl
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-build-core-tasks.IExtendedWebpackModule.nonAmdConfig'
+    name: nonAmdConfig
+    fullName: nonAmdConfig
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: INonAMDExternalModuleConfig nonAmdConfig
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.INonAMDExternalModuleConfig'
+  - uid: '@microsoft/sp-build-core-tasks.IExtendedWebpackModule.renameCallbacks'
+    name: renameCallbacks
+    fullName: renameCallbacks
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(filename: string) => void[] renameCallbacks'
+      return:
+        type:
+          - '(filename: string) => void[]'

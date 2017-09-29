@@ -1,0 +1,104 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-build-internal-tasks.ResxToJsonAndTsTask'
+    name: ResxToJsonAndTsTask
+    fullName: ResxToJsonAndTsTask
+    children:
+      - '@ms/sp-build-internal-tasks.ResxToJsonAndTsTask.executeTask'
+      - '@ms/sp-build-internal-tasks.ResxToJsonAndTsTask.getCleanMatch'
+      - '@ms/sp-build-internal-tasks.ResxToJsonAndTsTask.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      A task which reads all .resx files from a directory and converts them into
+      two files, a RESX.json and
+
+      a RESX.ts. The RESX.ts file is used to provide typings, and the strings
+      here are dynamically replaced
+
+      at bundle-time by webpack's i18n plugin. The .JSON file that is created is
+      later collected into a
+
+      combined en-us.json file in the strings dir.
+
+      Example:
+       IN:
+        RESX:
+         <?xml version="1.0" encoding="utf-8"?>
+         <root>
+           <data name="helloWorld" xml:space="preserve">
+             <value>Hello, World! Bar!</value>
+             <comment>A greeting to the world of Bar!</comment>
+           </data>
+         </root>
+
+       OUT:
+        RESX.COMMENTED.JSON:
+        {
+           "_a1b2c3": {
+             "helloWorld": {
+               "value": "Hello, World! Bar!",
+               "comment": "A greeting to the world of Bar!"
+             }
+           }
+         }
+
+        RESX.TS:
+         const strings = require('StringsBundle-ExternalBundleDoNotChange');
+         export interface IStrings {
+           helloWorld: string;
+         }
+
+         export default strings['_a1b2c3'] as IStrings;
+    extends:
+      name: >-
+        @@ms/sp-build-internal-tasks.LocalizeGulpTask<@@ms/sp-build-internal-tasks.IResx2JsTaskConfig>
+    package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.ResxToJsonAndTsTask.executeTask'
+    name: executeTask
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function executeTask(gulp: any, completeCallback: (error?: string) =>
+        void)
+      parameters:
+        - id: gulp
+          type:
+            - any
+          description: ''
+        - id: completeCallback
+          type:
+            - '(error?: string) => void'
+          description: ''
+      return:
+        type:
+          - ReadWriteStream
+  - uid: '@ms/sp-build-internal-tasks.ResxToJsonAndTsTask.getCleanMatch'
+    name: getCleanMatch
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getCleanMatch(buildConfig: IBuildConfig)'
+      parameters:
+        - id: buildConfig
+          type:
+            - IBuildConfig
+          description: ''
+  - uid: '@ms/sp-build-internal-tasks.ResxToJsonAndTsTask.constructor'
+    name: ResxToJsonAndTsTask
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new ResxToJsonAndTsTask()
+      parameters: []

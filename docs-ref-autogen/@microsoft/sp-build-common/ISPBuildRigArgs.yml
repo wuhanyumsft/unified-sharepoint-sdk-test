@@ -1,0 +1,46 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-build-common.ISPBuildRigArgs'
+    name: ISPBuildRigArgs
+    fullName: ISPBuildRigArgs
+    children:
+      - '@microsoft/sp-build-common.ISPBuildRigArgs.locale'
+      - '@microsoft/sp-build-common.ISPBuildRigArgs.minimal'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@microsoft/sp-build-common.ICoreBuildArgs'
+    package: '@microsoft/sp-build-common'
+  - uid: '@microsoft/sp-build-common.ISPBuildRigArgs.locale'
+    name: locale
+    fullName: locale
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      All SPFx build rigs can be tested in a specific locale using this flag,
+      which is defined in the localization code
+    syntax:
+      content: string locale
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-common.ISPBuildRigArgs.minimal'
+    name: minimal
+    fullName: minimal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      When this flag is enabled, certain expensive build steps will be disabled.
+      This should allow the developer to quickly refresh their repository after
+      pulling from master, or in the inner loop (when doing serve)
+    syntax:
+      content: boolean minimal
+      return:
+        type:
+          - boolean

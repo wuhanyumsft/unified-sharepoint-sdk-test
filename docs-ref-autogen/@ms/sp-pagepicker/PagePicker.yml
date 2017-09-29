@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pagepicker.PagePicker'
+    name: PagePicker
+    fullName: PagePicker
+    children:
+      - '@ms/sp-pagepicker.PagePicker.close'
+      - '@ms/sp-pagepicker.PagePicker.open'
+      - '@ms/sp-pagepicker.PagePicker.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-pagepicker'
+  - uid: '@ms/sp-pagepicker.PagePicker.close'
+    name: close
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function close()
+      parameters: []
+  - uid: '@ms/sp-pagepicker.PagePicker.open'
+    name: open
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function open(link?: ILink)'
+      parameters:
+        - id: link
+          type:
+            - '@@ms/sp-pagepicker.ILink'
+          description: ''
+          optional: true
+  - uid: '@ms/sp-pagepicker.PagePicker.constructor'
+    name: PagePicker
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PagePicker(config: IPagePickerConfig)'
+      parameters:
+        - id: config
+          type:
+            - '@@ms/sp-pagepicker.IPagePickerConfig'
+          description: ''

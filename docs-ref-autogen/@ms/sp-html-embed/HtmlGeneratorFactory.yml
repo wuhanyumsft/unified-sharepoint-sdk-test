@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-html-embed.HtmlGeneratorFactory'
+    name: HtmlGeneratorFactory
+    fullName: HtmlGeneratorFactory
+    children:
+      - '@ms/sp-html-embed.HtmlGeneratorFactory.createHtmlGenerator'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-html-embed'
+  - uid: '@ms/sp-html-embed.HtmlGeneratorFactory.createHtmlGenerator'
+    name: createHtmlGenerator
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function createHtmlGenerator(htmlGeneratorProps:
+        IHtmlGeneratorProps)
+      parameters:
+        - id: htmlGeneratorProps
+          type:
+            - '@@ms/sp-html-embed.IHtmlGeneratorProps'
+          description: ''
+      return:
+        type:
+          - '@@ms/sp-html-embed.HtmlGenerator'

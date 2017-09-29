@@ -1,0 +1,85 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.SiteCollectionManagementServiceMockDataProvider'
+    name: SiteCollectionManagementServiceMockDataProvider
+    fullName: SiteCollectionManagementServiceMockDataProvider
+    children:
+      - >-
+        @ms/sp-tenant-admin-page.SiteCollectionManagementServiceMockDataProvider.office365ProvidedSharepointSiteActivityDataReady
+      - >-
+        @ms/sp-tenant-admin-page.SiteCollectionManagementServiceMockDataProvider.sitesCreationInProgress
+      - >-
+        @ms/sp-tenant-admin-page.SiteCollectionManagementServiceMockDataProvider.updateOffice365ProvidedSharepointSiteActivityData
+      - >-
+        @ms/sp-tenant-admin-page.SiteCollectionManagementServiceMockDataProvider.updateOffice365ProvidedSharepointSiteActivityDataExternal
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: >-
+      @ms/sp-tenant-admin-page.SiteCollectionManagementServiceMockDataProvider.office365ProvidedSharepointSiteActivityDataReady
+    name: office365ProvidedSharepointSiteActivityDataReady
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function office365ProvidedSharepointSiteActivityDataReady()
+      parameters: []
+      return:
+        type:
+          - Promise<boolean>
+  - uid: >-
+      @ms/sp-tenant-admin-page.SiteCollectionManagementServiceMockDataProvider.sitesCreationInProgress
+    name: sitesCreationInProgress
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function sitesCreationInProgress(createdModernSiteUrls: string[])'
+      parameters:
+        - id: createdModernSiteUrls
+          type:
+            - 'string[]'
+          description: ''
+      return:
+        type:
+          - 'Promise<@@ms/sp-tenant-admin-page.ISiteProperties[]>'
+  - uid: >-
+      @ms/sp-tenant-admin-page.SiteCollectionManagementServiceMockDataProvider.updateOffice365ProvidedSharepointSiteActivityData
+    name: updateOffice365ProvidedSharepointSiteActivityData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function updateOffice365ProvidedSharepointSiteActivityData(bearToken:
+        string)
+      parameters:
+        - id: bearToken
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<boolean>
+  - uid: >-
+      @ms/sp-tenant-admin-page.SiteCollectionManagementServiceMockDataProvider.updateOffice365ProvidedSharepointSiteActivityDataExternal
+    name: updateOffice365ProvidedSharepointSiteActivityDataExternal
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function updateOffice365ProvidedSharepointSiteActivityDataExternal()
+      parameters: []
+      return:
+        type:
+          - Promise<boolean>

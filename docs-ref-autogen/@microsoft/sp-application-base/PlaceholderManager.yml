@@ -1,0 +1,78 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.PlaceholderManager'
+    name: PlaceholderManager
+    fullName: PlaceholderManager
+    children:
+      - '@microsoft/sp-application-base.PlaceholderManager.initializePlaceholders'
+      - '@microsoft/sp-application-base.PlaceholderManager.constructor'
+      - '@microsoft/sp-application-base.PlaceholderManager.registerPlaceholders'
+      - '@microsoft/sp-application-base.PlaceholderManager.serviceKey'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      PlaceholderManager is a service registered with the application's root
+      ServiceScope.
+
+      The host application uses this object to define the placeholders which
+      will
+
+      be consumed by third party extensions.  The PlaceholderCollection then
+      obtains its
+
+      data from the PlaceholderManager.
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.PlaceholderManager.initializePlaceholders'
+    name: initializePlaceholders
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Initializes the collection of placeholders for use by application
+      customizers.
+    syntax:
+      content: 'function initializePlaceholders(definitions: IPlaceholderDefinition[])'
+      parameters:
+        - id: definitions
+          type:
+            - '@@microsoft/sp-application-base.IPlaceholderDefinition[]'
+          description: ''
+  - uid: '@microsoft/sp-application-base.PlaceholderManager.constructor'
+    name: PlaceholderManager
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PlaceholderManager(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+  - uid: '@microsoft/sp-application-base.PlaceholderManager.registerPlaceholders'
+    name: registerPlaceholders
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Register the placeholders in the current page.
+    syntax:
+      content: function registerPlaceholders()
+      parameters: []
+  - uid: '@microsoft/sp-application-base.PlaceholderManager.serviceKey'
+    name: serviceKey
+    fullName: serviceKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The service key for PlaceholderManager.
+    syntax:
+      content: static ServiceKey<PlaceholderManager> serviceKey
+      return:
+        type:
+          - ServiceKey<@@microsoft/sp-application-base.PlaceholderManager>

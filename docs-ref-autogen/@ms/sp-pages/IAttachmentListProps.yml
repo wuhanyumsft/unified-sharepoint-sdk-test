@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IAttachmentListProps'
+    name: IAttachmentListProps
+    fullName: IAttachmentListProps
+    children:
+      - '@ms/sp-pages.IAttachmentListProps.editing'
+      - '@ms/sp-pages.IAttachmentListProps.items'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IAttachmentListProps.editing'
+    name: editing
+    fullName: editing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean editing
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.IAttachmentListProps.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IAttachment[] items'
+      return:
+        type:
+          - 'IAttachment[]'

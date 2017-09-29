@@ -1,0 +1,68 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.SPMessageCenterColumnKeys'
+    name: SPMessageCenterColumnKeys
+    fullName: SPMessageCenterColumnKeys
+    children:
+      - >-
+        @ms/sp-tenant-admin-page.SPMessageCenterColumnKeys.ACTION_REQUIRE_BY_DATE
+      - '@ms/sp-tenant-admin-page.SPMessageCenterColumnKeys.DELETE'
+      - '@ms/sp-tenant-admin-page.SPMessageCenterColumnKeys.START_TIME'
+      - '@ms/sp-tenant-admin-page.SPMessageCenterColumnKeys.TITLE'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.SPMessageCenterColumnKeys.ACTION_REQUIRE_BY_DATE'
+    name: ACTION_REQUIRE_BY_DATE
+    fullName: ACTION_REQUIRE_BY_DATE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string ACTION_REQUIRE_BY_DATE
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.SPMessageCenterColumnKeys.DELETE'
+    name: DELETE
+    fullName: DELETE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string DELETE
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.SPMessageCenterColumnKeys.START_TIME'
+    name: START_TIME
+    fullName: START_TIME
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string START_TIME
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.SPMessageCenterColumnKeys.TITLE'
+    name: TITLE
+    fullName: TITLE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string TITLE
+      return:
+        type:
+          - string

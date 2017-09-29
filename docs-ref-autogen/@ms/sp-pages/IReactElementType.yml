@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.IReactElementType'
+    name: IReactElementType
+    fullName: IReactElementType
+    children:
+      - '@ms/sp-pages.IReactElementType.children'
+      - '@ms/sp-pages.IReactElementType.key'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.IReactElementType.children'
+    name: children
+    fullName: children
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ReactNode[] children'
+      return:
+        type:
+          - 'ReactNode[]'
+  - uid: '@ms/sp-pages.IReactElementType.key'
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string key
+      return:
+        type:
+          - string

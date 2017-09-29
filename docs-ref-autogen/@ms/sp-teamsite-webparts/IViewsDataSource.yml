@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.IViewsDataSource'
+    name: IViewsDataSource
+    fullName: IViewsDataSource
+    children:
+      - '@ms/sp-teamsite-webparts.IViewsDataSource.getViews'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.IViewsDataSource.getViews'
+    name: getViews
+    fullName: getViews
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        (webAbsoluteUrl: string, listId: string) =>
+        Promise<IViewsDataSourceView[]> getViews
+      return:
+        type:
+          - >-
+            (webAbsoluteUrl: string, listId: string) =>
+            Promise<IViewsDataSourceView[]>

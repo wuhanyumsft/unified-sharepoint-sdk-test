@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-teamsite-webparts.MoveRightQuickLinkMenuAction'
+    name: MoveRightQuickLinkMenuAction
+    fullName: MoveRightQuickLinkMenuAction
+    children:
+      - '@ms/sp-teamsite-webparts.MoveRightQuickLinkMenuAction.isVisible'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-teamsite-webparts.MoveRightQuickLinkMenuAction'
+    package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.MoveRightQuickLinkMenuAction.isVisible'
+    name: isVisible
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isVisible(quickItem: IQuickLink)'
+      parameters:
+        - id: quickItem
+          type:
+            - '@@ms/sp-teamsite-webparts.IQuickLink'
+          description: ''
+      return:
+        type:
+          - boolean

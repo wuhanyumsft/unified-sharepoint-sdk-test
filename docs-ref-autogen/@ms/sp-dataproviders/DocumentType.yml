@@ -1,0 +1,74 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.DocumentType'
+    name: DocumentType
+    fullName: DocumentType
+    children:
+      - '@ms/sp-dataproviders.DocumentType.Word'
+      - '@ms/sp-dataproviders.DocumentType.Excel'
+      - '@ms/sp-dataproviders.DocumentType.PowerPoint'
+      - '@ms/sp-dataproviders.DocumentType.OneNote'
+      - '@ms/sp-dataproviders.DocumentType.Visio'
+      - '@ms/sp-dataproviders.DocumentType.PDF'
+      - '@ms/sp-dataproviders.DocumentType.Any'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.DocumentType.Word'
+    name: Word
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@ms/sp-dataproviders.DocumentType.Excel'
+    name: Excel
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+  - uid: '@ms/sp-dataproviders.DocumentType.PowerPoint'
+    name: PowerPoint
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+  - uid: '@ms/sp-dataproviders.DocumentType.OneNote'
+    name: OneNote
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+  - uid: '@ms/sp-dataproviders.DocumentType.Visio'
+    name: Visio
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 5
+  - uid: '@ms/sp-dataproviders.DocumentType.PDF'
+    name: PDF
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 10
+  - uid: '@ms/sp-dataproviders.DocumentType.Any'
+    name: Any
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 99

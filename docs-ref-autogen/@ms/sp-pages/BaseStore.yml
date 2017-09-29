@@ -1,0 +1,121 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.BaseStore'
+    name: BaseStore
+    fullName: BaseStore
+    children:
+      - '@ms/sp-pages.BaseStore.addListener'
+      - '@ms/sp-pages.BaseStore.addProcessActionCallback'
+      - '@ms/sp-pages.BaseStore.constructor'
+      - '@ms/sp-pages.BaseStore.count'
+      - '@ms/sp-pages.BaseStore.dispose'
+      - '@ms/sp-pages.BaseStore.emitChange'
+      - '@ms/sp-pages.BaseStore.removeAllListeners'
+      - '@ms/sp-pages.BaseStore.removeListener'
+    langs:
+      - typeScript
+    type: class
+    summary: Contains common implementation for store in flux data flow model
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.BaseStore.addListener'
+    name: addListener
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Add a listener to this store
+    syntax:
+      content: 'function addListener(listener: (storeNames: string[]) => void)'
+      parameters:
+        - id: listener
+          type:
+            - '(storeNames: string[]) => void'
+          description: ''
+  - uid: '@ms/sp-pages.BaseStore.addProcessActionCallback'
+    name: addProcessActionCallback
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds an action callback for everyone action.
+    syntax:
+      content: >-
+        function addProcessActionCallback(callback: (action: BaseAction) =>
+        void)
+      parameters:
+        - id: callback
+          type:
+            - '(action: BaseAction) => void'
+          description: ''
+  - uid: '@ms/sp-pages.BaseStore.constructor'
+    name: BaseStore
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Initializes a new instance of BaseStore
+    syntax:
+      content: new BaseStore()
+      parameters: []
+  - uid: '@ms/sp-pages.BaseStore.count'
+    name: count
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes a listener from the store
+    syntax:
+      content: function count()
+      parameters: []
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.BaseStore.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Disposes all listeners
+    syntax:
+      content: function dispose()
+      parameters: []
+  - uid: '@ms/sp-pages.BaseStore.emitChange'
+    name: emitChange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Invokes all listeners tied to this store
+    syntax:
+      content: 'function emitChange(storesUpdated?: string[])'
+      parameters:
+        - id: storesUpdated
+          type:
+            - 'string[]'
+          description: ''
+          optional: true
+  - uid: '@ms/sp-pages.BaseStore.removeAllListeners'
+    name: removeAllListeners
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes all the registered listeners
+    syntax:
+      content: function removeAllListeners()
+      parameters: []
+  - uid: '@ms/sp-pages.BaseStore.removeListener'
+    name: removeListener
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes a listener from the store
+    syntax:
+      content: 'function removeListener(listener: (storeNames: string[]) => void)'
+      parameters:
+        - id: listener
+          type:
+            - '(storeNames: string[]) => void'
+          description: ''

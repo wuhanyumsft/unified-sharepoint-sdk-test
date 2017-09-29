@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.SignalProvider'
+    name: SignalProvider
+    fullName: SignalProvider
+    children:
+      - '@ms/sp-pages.SignalProvider.sendModifiedSignal'
+      - '@ms/sp-pages.SignalProvider.sendViewSignal'
+      - '@ms/sp-pages.SignalProvider.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      data provider provides for sending signals to signal store
+      used by search analytics
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SignalProvider.sendModifiedSignal'
+    name: sendModifiedSignal
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Send modified signal to signal store
+      Note: once switching to activity request API,
+      modified signal will be auto recorded on the server side
+      through 'FileModified' operation.
+    syntax:
+      content: function sendModifiedSignal()
+      parameters: []
+  - uid: '@ms/sp-pages.SignalProvider.sendViewSignal'
+    name: sendViewSignal
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Send view signal to signal store
+    syntax:
+      content: 'function sendViewSignal(defer?: boolean)'
+      parameters:
+        - id: defer
+          type:
+            - boolean
+          description: ''
+          optional: true
+  - uid: '@ms/sp-pages.SignalProvider.constructor'
+    name: SignalProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SignalProvider(pageContext: PageContext, spHttpClient: SPHttpClient)'
+      parameters:
+        - id: pageContext
+          type:
+            - PageContext
+          description: ''
+        - id: spHttpClient
+          type:
+            - SPHttpClient
+          description: ''

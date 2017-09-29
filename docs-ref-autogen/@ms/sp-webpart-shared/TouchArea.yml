@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.TouchArea'
+    name: TouchArea
+    fullName: TouchArea
+    children:
+      - '@ms/sp-webpart-shared.TouchArea.render'
+      - '@ms/sp-webpart-shared.TouchArea.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-webpart-shared.TouchArea<@@ms/sp-webpart-shared.ITouchAreaProps>'
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.TouchArea.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-webpart-shared.TouchArea.constructor'
+    name: TouchArea
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new TouchArea()
+      parameters: []

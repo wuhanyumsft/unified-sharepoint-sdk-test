@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.IColumnDefinition'
+    name: IColumnDefinition
+    fullName: IColumnDefinition
+    children:
+      - '@ms/sp-canvas.IColumnDefinition.factor'
+      - '@ms/sp-canvas.IColumnDefinition.sections'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.IColumnDefinition.factor'
+    name: factor
+    fullName: factor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'number[] factor'
+      return:
+        type:
+          - 'number[]'
+  - uid: '@ms/sp-canvas.IColumnDefinition.sections'
+    name: sections
+    fullName: sections
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number sections
+      return:
+        type:
+          - number

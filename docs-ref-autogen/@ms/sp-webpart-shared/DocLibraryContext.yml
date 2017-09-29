@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared.DocLibraryContext'
+    name: DocLibraryContext
+    fullName: DocLibraryContext
+    children:
+      - '@ms/sp-webpart-shared.DocLibraryContext.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.DocLibraryContext.constructor'
+    name: DocLibraryContext
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new DocLibraryContext(serviceScope: ServiceScope, errorCallback?: () =>
+        void)
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+        - id: errorCallback
+          type:
+            - () => void
+          description: ''
+          optional: true

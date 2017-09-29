@@ -1,0 +1,167 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IDocumentCardProps'
+    name: IDocumentCardProps
+    fullName: IDocumentCardProps
+    children:
+      - '@ms/sp-publishing-webparts.IDocumentCardProps.authorName'
+      - '@ms/sp-publishing-webparts.IDocumentCardProps.listId'
+      - '@ms/sp-publishing-webparts.IDocumentCardProps.modifiedDate'
+      - '@ms/sp-publishing-webparts.IDocumentCardProps.photoUrl'
+      - '@ms/sp-publishing-webparts.IDocumentCardProps.resolution'
+      - '@ms/sp-publishing-webparts.IDocumentCardProps.serverRelativeUrl'
+      - '@ms/sp-publishing-webparts.IDocumentCardProps.siteId'
+      - '@ms/sp-publishing-webparts.IDocumentCardProps.title'
+      - '@ms/sp-publishing-webparts.IDocumentCardProps.uniqueId'
+      - '@ms/sp-publishing-webparts.IDocumentCardProps.webAbsoluteUrl'
+      - '@ms/sp-publishing-webparts.IDocumentCardProps.webId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: any
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IDocumentCardProps.authorName'
+    name: authorName
+    fullName: authorName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string authorName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDocumentCardProps.listId'
+    name: listId
+    fullName: listId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string listId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDocumentCardProps.modifiedDate'
+    name: modifiedDate
+    fullName: modifiedDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string modifiedDate
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDocumentCardProps.photoUrl'
+    name: photoUrl
+    fullName: photoUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string photoUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDocumentCardProps.resolution'
+    name: resolution
+    fullName: resolution
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number resolution
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.IDocumentCardProps.serverRelativeUrl'
+    name: serverRelativeUrl
+    fullName: serverRelativeUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string serverRelativeUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDocumentCardProps.siteId'
+    name: siteId
+    fullName: siteId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDocumentCardProps.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDocumentCardProps.uniqueId'
+    name: uniqueId
+    fullName: uniqueId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string uniqueId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDocumentCardProps.webAbsoluteUrl'
+    name: webAbsoluteUrl
+    fullName: webAbsoluteUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webAbsoluteUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IDocumentCardProps.webId'
+    name: webId
+    fullName: webId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webId
+      return:
+        type:
+          - string

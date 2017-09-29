@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pagepicker.IRefinement'
+    name: IRefinement
+    fullName: IRefinement
+    children:
+      - '@ms/sp-pagepicker.IRefinement.RefinementCount'
+      - '@ms/sp-pagepicker.IRefinement.RefinementName'
+      - '@ms/sp-pagepicker.IRefinement.RefinementToken'
+      - '@ms/sp-pagepicker.IRefinement.RefinementValue'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pagepicker'
+  - uid: '@ms/sp-pagepicker.IRefinement.RefinementCount'
+    name: RefinementCount
+    fullName: RefinementCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string RefinementCount
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pagepicker.IRefinement.RefinementName'
+    name: RefinementName
+    fullName: RefinementName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string RefinementName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pagepicker.IRefinement.RefinementToken'
+    name: RefinementToken
+    fullName: RefinementToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string RefinementToken
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pagepicker.IRefinement.RefinementValue'
+    name: RefinementValue
+    fullName: RefinementValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string RefinementValue
+      return:
+        type:
+          - string

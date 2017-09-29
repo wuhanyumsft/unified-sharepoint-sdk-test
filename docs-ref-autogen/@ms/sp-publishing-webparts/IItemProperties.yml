@@ -1,0 +1,304 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IItemProperties'
+    name: IItemProperties
+    fullName: IItemProperties
+    children:
+      - '@ms/sp-publishing-webparts.IItemProperties.alternateText'
+      - '@ms/sp-publishing-webparts.IItemProperties.callToActionLink'
+      - '@ms/sp-publishing-webparts.IItemProperties.callToActionText'
+      - '@ms/sp-publishing-webparts.IItemProperties.color'
+      - '@ms/sp-publishing-webparts.IItemProperties.description'
+      - '@ms/sp-publishing-webparts.IItemProperties.featureText'
+      - '@ms/sp-publishing-webparts.IItemProperties.id'
+      - '@ms/sp-publishing-webparts.IItemProperties.image'
+      - '@ms/sp-publishing-webparts.IItemProperties.imageDisplayOption'
+      - '@ms/sp-publishing-webparts.IItemProperties.isCustomImageLoaded'
+      - '@ms/sp-publishing-webparts.IItemProperties.isDefaultImage'
+      - '@ms/sp-publishing-webparts.IItemProperties.isDefaultImageLoaded'
+      - '@ms/sp-publishing-webparts.IItemProperties.link'
+      - '@ms/sp-publishing-webparts.IItemProperties.previewImage'
+      - '@ms/sp-publishing-webparts.IItemProperties.showCallToAction'
+      - '@ms/sp-publishing-webparts.IItemProperties.showDescription'
+      - '@ms/sp-publishing-webparts.IItemProperties.showFeatureText'
+      - '@ms/sp-publishing-webparts.IItemProperties.showTitle'
+      - '@ms/sp-publishing-webparts.IItemProperties.title'
+      - '@ms/sp-publishing-webparts.IItemProperties.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IItemProperties.alternateText'
+    name: alternateText
+    fullName: alternateText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Alternate text for the image, leveraged in screen readers.'
+    syntax:
+      content: string alternateText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IItemProperties.callToActionLink'
+    name: callToActionLink
+    fullName: callToActionLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string callToActionLink
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IItemProperties.callToActionText'
+    name: callToActionText
+    fullName: callToActionText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string callToActionText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IItemProperties.color'
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: background color if no image is shown
+    syntax:
+      content: ColorOption color
+      return:
+        type:
+          - ColorOption
+  - uid: '@ms/sp-publishing-webparts.IItemProperties.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Description text that may be shown for a given layout.
+      This is not currently in use, but may be enabled in the future.
+    syntax:
+      content: string description
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IItemProperties.featureText'
+    name: featureText
+    fullName: featureText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Feature text that may be shown for a stack layout.
+    syntax:
+      content: string featureText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IItemProperties.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The id used to identify the here item
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IItemProperties.image'
+    name: image
+    fullName: image
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Filled in customer image, will cover whole space'
+    syntax:
+      content: IImageProperties image
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IImageProperties'
+  - uid: '@ms/sp-publishing-webparts.IItemProperties.imageDisplayOption'
+    name: imageDisplayOption
+    fullName: imageDisplayOption
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Image display option
+      for these to be taken from our static resources CDN.
+      if ImageDisplayOption.CustomerImage, will show image property
+      if ImageDisplayOption.Auto, will show previewImage property
+      if ImageDisplayOption.ThemeColor, will show color
+    syntax:
+      content: ImageDisplayOption imageDisplayOption
+      return:
+        type:
+          - ImageDisplayOption
+  - uid: '@ms/sp-publishing-webparts.IItemProperties.isCustomImageLoaded'
+    name: isCustomImageLoaded
+    fullName: isCustomImageLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the custom image is loaded.
+    syntax:
+      content: boolean isCustomImageLoaded
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IItemProperties.isDefaultImage'
+    name: isDefaultImage
+    fullName: isDefaultImage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      if imageDisplayOption.CustomerImage, we will have default stock image,
+      this property
+
+      will be true, if user change to his/her own image, this will be false
+    syntax:
+      content: boolean isDefaultImage
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IItemProperties.isDefaultImageLoaded'
+    name: isDefaultImageLoaded
+    fullName: isDefaultImageLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the default image is loaded.
+    syntax:
+      content: boolean isDefaultImageLoaded
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IItemProperties.link'
+    name: link
+    fullName: link
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Quick link of document or image(video) this image or text represent
+    syntax:
+      content: string link
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IItemProperties.previewImage'
+    name: previewImage
+    fullName: previewImage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Filled in default image, will cover whole space'
+    syntax:
+      content: IImageProperties previewImage
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IImageProperties'
+  - uid: '@ms/sp-publishing-webparts.IItemProperties.showCallToAction'
+    name: showCallToAction
+    fullName: showCallToAction
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showCallToAction
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IItemProperties.showDescription'
+    name: showDescription
+    fullName: showDescription
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Whether the description is shown.
+      This is not currently in use, but may be enabled in the future.
+    syntax:
+      content: boolean showDescription
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IItemProperties.showFeatureText'
+    name: showFeatureText
+    fullName: showFeatureText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the feature is shown.
+    syntax:
+      content: boolean showFeatureText
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IItemProperties.showTitle'
+    name: showTitle
+    fullName: showTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the title is shown.
+    syntax:
+      content: boolean showTitle
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.IItemProperties.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Provide a title that can be overlaid on top of the image
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IItemProperties.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The content type of the link target
+    syntax:
+      content: string type
+      return:
+        type:
+          - string

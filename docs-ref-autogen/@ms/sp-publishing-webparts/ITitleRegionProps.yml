@@ -1,0 +1,223 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.ITitleRegionProps'
+    name: ITitleRegionProps
+    fullName: ITitleRegionProps
+    children:
+      - '@ms/sp-publishing-webparts.ITitleRegionProps.altText'
+      - '@ms/sp-publishing-webparts.ITitleRegionProps.dateBox'
+      - '@ms/sp-publishing-webparts.ITitleRegionProps.focusOnInput'
+      - '@ms/sp-publishing-webparts.ITitleRegionProps.imageSource'
+      - '@ms/sp-publishing-webparts.ITitleRegionProps.imageSourceType'
+      - '@ms/sp-publishing-webparts.ITitleRegionProps.listId'
+      - '@ms/sp-publishing-webparts.ITitleRegionProps.siteId'
+      - '@ms/sp-publishing-webparts.ITitleRegionProps.textAlignCenter'
+      - '@ms/sp-publishing-webparts.ITitleRegionProps.title'
+      - '@ms/sp-publishing-webparts.ITitleRegionProps.titleAriaLabel'
+      - '@ms/sp-publishing-webparts.ITitleRegionProps.titlePlaceholder'
+      - '@ms/sp-publishing-webparts.ITitleRegionProps.translateX'
+      - '@ms/sp-publishing-webparts.ITitleRegionProps.translateY'
+      - '@ms/sp-publishing-webparts.ITitleRegionProps.uniqueId'
+      - '@ms/sp-publishing-webparts.ITitleRegionProps.webId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.ITitleRegionProps.altText'
+    name: altText
+    fullName: altText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string altText
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ITitleRegionProps.dateBox'
+    name: dateBox
+    fullName: dateBox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IDateBoxProps dateBox
+      return:
+        type:
+          - IDateBoxProps
+  - uid: '@ms/sp-publishing-webparts.ITitleRegionProps.focusOnInput'
+    name: focusOnInput
+    fullName: focusOnInput
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Set focus on the title region when DOM is mounted.
+      After mounted, this value will be changed to false.
+    syntax:
+      content: boolean focusOnInput
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ITitleRegionProps.imageSource'
+    name: imageSource
+    fullName: imageSource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string imageSource
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ITitleRegionProps.imageSourceType'
+    name: imageSourceType
+    fullName: imageSourceType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ImageSourceType imageSourceType
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.ImageSourceType'
+  - uid: '@ms/sp-publishing-webparts.ITitleRegionProps.listId'
+    name: listId
+    fullName: listId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string listId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ITitleRegionProps.siteId'
+    name: siteId
+    fullName: siteId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ITitleRegionProps.textAlignCenter'
+    name: textAlignCenter
+    fullName: textAlignCenter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean textAlignCenter
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.ITitleRegionProps.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ITitleRegionProps.titleAriaLabel'
+    name: titleAriaLabel
+    fullName: titleAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string titleAriaLabel
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ITitleRegionProps.titlePlaceholder'
+    name: titlePlaceholder
+    fullName: titlePlaceholder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string titlePlaceholder
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ITitleRegionProps.translateX'
+    name: translateX
+    fullName: translateX
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number translateX
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.ITitleRegionProps.translateY'
+    name: translateY
+    fullName: translateY
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number translateY
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-publishing-webparts.ITitleRegionProps.uniqueId'
+    name: uniqueId
+    fullName: uniqueId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string uniqueId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.ITitleRegionProps.webId'
+    name: webId
+    fullName: webId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webId
+      return:
+        type:
+          - string

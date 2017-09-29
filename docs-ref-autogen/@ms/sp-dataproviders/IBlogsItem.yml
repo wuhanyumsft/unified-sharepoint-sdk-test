@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-dataproviders.IBlogsItem'
+    name: IBlogsItem
+    fullName: IBlogsItem
+    children:
+      - '@ms/sp-dataproviders.IBlogsItem.version'
+    langs:
+      - typeScript
+    type: interface
+    summary: Contains metadata about a blog item.
+    extends:
+      name: any
+    package: '@ms/sp-dataproviders'
+  - uid: '@ms/sp-dataproviders.IBlogsItem.version'
+    name: version
+    fullName: version
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string version
+      return:
+        type:
+          - string

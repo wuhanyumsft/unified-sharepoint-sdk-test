@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-publishing-webparts.IFormsPermissionRequest'
+    name: IFormsPermissionRequest
+    fullName: IFormsPermissionRequest
+    children:
+      - '@ms/sp-publishing-webparts.IFormsPermissionRequest.name'
+      - '@ms/sp-publishing-webparts.IFormsPermissionRequest.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: Contains metadata about forms perission token.
+    package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.IFormsPermissionRequest.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: token name
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.IFormsPermissionRequest.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: token type
+    syntax:
+      content: string type
+      return:
+        type:
+          - string

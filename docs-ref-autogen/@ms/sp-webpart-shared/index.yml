@@ -1,0 +1,295 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-webpart-shared'
+    name: '@ms/sp-webpart-shared'
+    summary: ''
+    children:
+      - '@ms/sp-webpart-shared.WebViewUtility'
+      - '@ms/sp-webpart-shared.BaseCollection'
+      - '@ms/sp-webpart-shared.RefreshType'
+      - '@ms/sp-webpart-shared.BaseCollectionWebPart'
+      - '@ms/sp-webpart-shared.IBaseCollectionWebPartLayoutState'
+      - '@ms/sp-webpart-shared.IBaseCollectionWebPartOptions'
+      - '@ms/sp-webpart-shared.IBaseCollectionWebPartProperties'
+      - '@ms/sp-webpart-shared.IBaseCollectionWebPartViewProperties'
+      - '@ms/sp-webpart-shared.IBaseCollectionWebPartViewState'
+      - '@ms/sp-webpart-shared.IDataProviderInfo'
+      - '@ms/sp-webpart-shared.IDataProviderOption'
+      - '@ms/sp-webpart-shared.ILayoutInfo'
+      - '@ms/sp-webpart-shared.ILayoutOption'
+      - '@ms/sp-webpart-shared.IMessageView'
+      - '@ms/sp-webpart-shared.BingImageSearch'
+      - '@ms/sp-webpart-shared.IBingImageSearchItem'
+      - '@ms/sp-webpart-shared.IBingImageSearchResponse'
+      - '@ms/sp-webpart-shared.IBingImageSearchThumbnail'
+      - '@ms/sp-webpart-shared.CaptionElementAlignPosition'
+      - '@ms/sp-webpart-shared.CaptionElementType'
+      - '@ms/sp-webpart-shared.CaptionElement'
+      - '@ms/sp-webpart-shared.ICaptionElementProps'
+      - '@ms/sp-webpart-shared.BaseDataProvider'
+      - '@ms/sp-webpart-shared.BaseDataWebPart'
+      - '@ms/sp-webpart-shared.IDataProvider'
+      - '@ms/sp-webpart-shared.IDataProviderConfiguration'
+      - '@ms/sp-webpart-shared.IRequest'
+      - '@ms/sp-webpart-shared.IResponse'
+      - '@ms/sp-webpart-shared.IResponseMetadata'
+      - '@ms/sp-webpart-shared.MysiteCacheDataProvider'
+      - '@ms/sp-webpart-shared.WebPartDataProvider'
+      - '@ms/sp-webpart-shared.TestDatawebPart'
+      - '@ms/sp-webpart-shared.ITestDataProperties'
+      - '@ms/sp-webpart-shared.ITestResponseData'
+      - '@ms/sp-webpart-shared.DateBoxSize'
+      - '@ms/sp-webpart-shared.DateBox'
+      - '@ms/sp-webpart-shared.IDateBoxProps'
+      - '@ms/sp-webpart-shared.CalculatedField'
+      - '@ms/sp-webpart-shared.DisplayFieldMap'
+      - '@ms/sp-webpart-shared.MappedField'
+      - '@ms/sp-webpart-shared.IDisplayField'
+      - '@ms/sp-webpart-shared.IData'
+      - '@ms/sp-webpart-shared.IDisplay'
+      - '@ms/sp-webpart-shared.DocLibraryContext'
+      - '@ms/sp-webpart-shared.IGetListWithRootFolderResult'
+      - '@ms/sp-webpart-shared.IListRootFolder'
+      - '@ms/sp-webpart-shared.ISiteContext'
+      - '@ms/sp-webpart-shared.ISPLazyLoaderProps'
+      - '@ms/sp-webpart-shared.LazyEventHandler'
+      - '@ms/sp-webpart-shared.LazyLoader'
+      - '@ms/sp-webpart-shared.ILazyLoaderProps'
+      - '@ms/sp-webpart-shared.ILazyLoaderState'
+      - '@ms/sp-webpart-shared.SPLazyLoader'
+      - '@ms/sp-webpart-shared.ILessTextProps'
+      - '@ms/sp-webpart-shared.LessText'
+      - '@ms/sp-webpart-shared.LightBox'
+      - '@ms/sp-webpart-shared.ILightBoxProps'
+      - '@ms/sp-webpart-shared.ILightBoxState'
+      - '@ms/sp-webpart-shared.ButtonDirection'
+      - '@ms/sp-webpart-shared.SlideChangeButton'
+      - '@ms/sp-webpart-shared.ISlideChangeButtonProps'
+      - '@ms/sp-webpart-shared.IMySiteWebPartCacheDataItem'
+      - '@ms/sp-webpart-shared.MySiteWebPartCacheDataProvider'
+      - '@ms/sp-webpart-shared.MySiteWebPartCacheHelper'
+      - '@ms/sp-webpart-shared.MySiteWebPartCacheManager'
+      - '@ms/sp-webpart-shared.IOAuthErrorRendererProps'
+      - '@ms/sp-webpart-shared.OAuthErrorRenderer'
+      - '@ms/sp-webpart-shared.PageType'
+      - '@ms/sp-webpart-shared.IPageProps'
+      - '@ms/sp-webpart-shared.IPaginationProps'
+      - '@ms/sp-webpart-shared.Page'
+      - '@ms/sp-webpart-shared.Pagination'
+      - '@ms/sp-webpart-shared.Parallax'
+      - '@ms/sp-webpart-shared.Permissions'
+      - '@ms/sp-webpart-shared.IPlaceholderButtonProps'
+      - '@ms/sp-webpart-shared.IPlaceholderProps'
+      - '@ms/sp-webpart-shared.Placeholder'
+      - '@ms/sp-webpart-shared.BREAKPOINT_SIZE'
+      - '@ms/sp-webpart-shared.ResponsiveUI'
+      - '@ms/sp-webpart-shared.SetUtilities'
+      - '@ms/sp-webpart-shared.LocalFilePreview'
+      - '@ms/sp-webpart-shared.IFilePickerExternalImagesToUpload'
+      - '@ms/sp-webpart-shared.ILocalFilePreviewProps'
+      - '@ms/sp-webpart-shared.ILocalFilePreviewState'
+      - '@ms/sp-webpart-shared.SPFileHandler'
+      - '@ms/sp-webpart-shared.IFileUploadResponse'
+      - '@ms/sp-webpart-shared.TextTruncate'
+      - '@ms/sp-webpart-shared.SwipeDirection'
+      - '@ms/sp-webpart-shared.TouchArea'
+      - '@ms/sp-webpart-shared.ITouchAreaProps'
+      - '@ms/sp-webpart-shared.WebPartChrome'
+      - '@ms/sp-webpart-shared.IWebPartChromeProps'
+      - '@ms/sp-webpart-shared.WebPartTitle'
+      - '@ms/sp-webpart-shared.IWebPartTitleProps'
+      - '@ms/sp-webpart-shared.Global'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@ms/sp-webpart-shared.WebViewUtility'
+    name: WebViewUtility
+  - uid: '@ms/sp-webpart-shared.BaseCollection'
+    name: BaseCollection
+  - uid: '@ms/sp-webpart-shared.RefreshType'
+    name: RefreshType
+  - uid: '@ms/sp-webpart-shared.BaseCollectionWebPart'
+    name: BaseCollectionWebPart
+  - uid: '@ms/sp-webpart-shared.IBaseCollectionWebPartLayoutState'
+    name: IBaseCollectionWebPartLayoutState
+  - uid: '@ms/sp-webpart-shared.IBaseCollectionWebPartOptions'
+    name: IBaseCollectionWebPartOptions
+  - uid: '@ms/sp-webpart-shared.IBaseCollectionWebPartProperties'
+    name: IBaseCollectionWebPartProperties
+  - uid: '@ms/sp-webpart-shared.IBaseCollectionWebPartViewProperties'
+    name: IBaseCollectionWebPartViewProperties
+  - uid: '@ms/sp-webpart-shared.IBaseCollectionWebPartViewState'
+    name: IBaseCollectionWebPartViewState
+  - uid: '@ms/sp-webpart-shared.IDataProviderInfo'
+    name: IDataProviderInfo
+  - uid: '@ms/sp-webpart-shared.IDataProviderOption'
+    name: IDataProviderOption
+  - uid: '@ms/sp-webpart-shared.ILayoutInfo'
+    name: ILayoutInfo
+  - uid: '@ms/sp-webpart-shared.ILayoutOption'
+    name: ILayoutOption
+  - uid: '@ms/sp-webpart-shared.IMessageView'
+    name: IMessageView
+  - uid: '@ms/sp-webpart-shared.BingImageSearch'
+    name: BingImageSearch
+  - uid: '@ms/sp-webpart-shared.IBingImageSearchItem'
+    name: IBingImageSearchItem
+  - uid: '@ms/sp-webpart-shared.IBingImageSearchResponse'
+    name: IBingImageSearchResponse
+  - uid: '@ms/sp-webpart-shared.IBingImageSearchThumbnail'
+    name: IBingImageSearchThumbnail
+  - uid: '@ms/sp-webpart-shared.CaptionElementAlignPosition'
+    name: CaptionElementAlignPosition
+  - uid: '@ms/sp-webpart-shared.CaptionElementType'
+    name: CaptionElementType
+  - uid: '@ms/sp-webpart-shared.CaptionElement'
+    name: CaptionElement
+  - uid: '@ms/sp-webpart-shared.ICaptionElementProps'
+    name: ICaptionElementProps
+  - uid: '@ms/sp-webpart-shared.BaseDataProvider'
+    name: BaseDataProvider
+  - uid: '@ms/sp-webpart-shared.BaseDataWebPart'
+    name: BaseDataWebPart
+  - uid: '@ms/sp-webpart-shared.IDataProvider'
+    name: IDataProvider
+  - uid: '@ms/sp-webpart-shared.IDataProviderConfiguration'
+    name: IDataProviderConfiguration
+  - uid: '@ms/sp-webpart-shared.IRequest'
+    name: IRequest
+  - uid: '@ms/sp-webpart-shared.IResponse'
+    name: IResponse
+  - uid: '@ms/sp-webpart-shared.IResponseMetadata'
+    name: IResponseMetadata
+  - uid: '@ms/sp-webpart-shared.MysiteCacheDataProvider'
+    name: MysiteCacheDataProvider
+  - uid: '@ms/sp-webpart-shared.WebPartDataProvider'
+    name: WebPartDataProvider
+  - uid: '@ms/sp-webpart-shared.TestDatawebPart'
+    name: TestDatawebPart
+  - uid: '@ms/sp-webpart-shared.ITestDataProperties'
+    name: ITestDataProperties
+  - uid: '@ms/sp-webpart-shared.ITestResponseData'
+    name: ITestResponseData
+  - uid: '@ms/sp-webpart-shared.DateBoxSize'
+    name: DateBoxSize
+  - uid: '@ms/sp-webpart-shared.DateBox'
+    name: DateBox
+  - uid: '@ms/sp-webpart-shared.IDateBoxProps'
+    name: IDateBoxProps
+  - uid: '@ms/sp-webpart-shared.CalculatedField'
+    name: CalculatedField
+  - uid: '@ms/sp-webpart-shared.DisplayFieldMap'
+    name: DisplayFieldMap
+  - uid: '@ms/sp-webpart-shared.MappedField'
+    name: MappedField
+  - uid: '@ms/sp-webpart-shared.IDisplayField'
+    name: IDisplayField
+  - uid: '@ms/sp-webpart-shared.IData'
+    name: IData
+  - uid: '@ms/sp-webpart-shared.IDisplay'
+    name: IDisplay
+  - uid: '@ms/sp-webpart-shared.DocLibraryContext'
+    name: DocLibraryContext
+  - uid: '@ms/sp-webpart-shared.IGetListWithRootFolderResult'
+    name: IGetListWithRootFolderResult
+  - uid: '@ms/sp-webpart-shared.IListRootFolder'
+    name: IListRootFolder
+  - uid: '@ms/sp-webpart-shared.ISiteContext'
+    name: ISiteContext
+  - uid: '@ms/sp-webpart-shared.ISPLazyLoaderProps'
+    name: ISPLazyLoaderProps
+  - uid: '@ms/sp-webpart-shared.LazyEventHandler'
+    name: LazyEventHandler
+  - uid: '@ms/sp-webpart-shared.LazyLoader'
+    name: LazyLoader
+  - uid: '@ms/sp-webpart-shared.ILazyLoaderProps'
+    name: ILazyLoaderProps
+  - uid: '@ms/sp-webpart-shared.ILazyLoaderState'
+    name: ILazyLoaderState
+  - uid: '@ms/sp-webpart-shared.SPLazyLoader'
+    name: SPLazyLoader
+  - uid: '@ms/sp-webpart-shared.ILessTextProps'
+    name: ILessTextProps
+  - uid: '@ms/sp-webpart-shared.LessText'
+    name: LessText
+  - uid: '@ms/sp-webpart-shared.LightBox'
+    name: LightBox
+  - uid: '@ms/sp-webpart-shared.ILightBoxProps'
+    name: ILightBoxProps
+  - uid: '@ms/sp-webpart-shared.ILightBoxState'
+    name: ILightBoxState
+  - uid: '@ms/sp-webpart-shared.ButtonDirection'
+    name: ButtonDirection
+  - uid: '@ms/sp-webpart-shared.SlideChangeButton'
+    name: SlideChangeButton
+  - uid: '@ms/sp-webpart-shared.ISlideChangeButtonProps'
+    name: ISlideChangeButtonProps
+  - uid: '@ms/sp-webpart-shared.IMySiteWebPartCacheDataItem'
+    name: IMySiteWebPartCacheDataItem
+  - uid: '@ms/sp-webpart-shared.MySiteWebPartCacheDataProvider'
+    name: MySiteWebPartCacheDataProvider
+  - uid: '@ms/sp-webpart-shared.MySiteWebPartCacheHelper'
+    name: MySiteWebPartCacheHelper
+  - uid: '@ms/sp-webpart-shared.MySiteWebPartCacheManager'
+    name: MySiteWebPartCacheManager
+  - uid: '@ms/sp-webpart-shared.IOAuthErrorRendererProps'
+    name: IOAuthErrorRendererProps
+  - uid: '@ms/sp-webpart-shared.OAuthErrorRenderer'
+    name: OAuthErrorRenderer
+  - uid: '@ms/sp-webpart-shared.PageType'
+    name: PageType
+  - uid: '@ms/sp-webpart-shared.IPageProps'
+    name: IPageProps
+  - uid: '@ms/sp-webpart-shared.IPaginationProps'
+    name: IPaginationProps
+  - uid: '@ms/sp-webpart-shared.Page'
+    name: Page
+  - uid: '@ms/sp-webpart-shared.Pagination'
+    name: Pagination
+  - uid: '@ms/sp-webpart-shared.Parallax'
+    name: Parallax
+  - uid: '@ms/sp-webpart-shared.Permissions'
+    name: Permissions
+  - uid: '@ms/sp-webpart-shared.IPlaceholderButtonProps'
+    name: IPlaceholderButtonProps
+  - uid: '@ms/sp-webpart-shared.IPlaceholderProps'
+    name: IPlaceholderProps
+  - uid: '@ms/sp-webpart-shared.Placeholder'
+    name: Placeholder
+  - uid: '@ms/sp-webpart-shared.BREAKPOINT_SIZE'
+    name: BREAKPOINT_SIZE
+  - uid: '@ms/sp-webpart-shared.ResponsiveUI'
+    name: ResponsiveUI
+  - uid: '@ms/sp-webpart-shared.SetUtilities'
+    name: SetUtilities
+  - uid: '@ms/sp-webpart-shared.LocalFilePreview'
+    name: LocalFilePreview
+  - uid: '@ms/sp-webpart-shared.IFilePickerExternalImagesToUpload'
+    name: IFilePickerExternalImagesToUpload
+  - uid: '@ms/sp-webpart-shared.ILocalFilePreviewProps'
+    name: ILocalFilePreviewProps
+  - uid: '@ms/sp-webpart-shared.ILocalFilePreviewState'
+    name: ILocalFilePreviewState
+  - uid: '@ms/sp-webpart-shared.SPFileHandler'
+    name: SPFileHandler
+  - uid: '@ms/sp-webpart-shared.IFileUploadResponse'
+    name: IFileUploadResponse
+  - uid: '@ms/sp-webpart-shared.TextTruncate'
+    name: TextTruncate
+  - uid: '@ms/sp-webpart-shared.SwipeDirection'
+    name: SwipeDirection
+  - uid: '@ms/sp-webpart-shared.TouchArea'
+    name: TouchArea
+  - uid: '@ms/sp-webpart-shared.ITouchAreaProps'
+    name: ITouchAreaProps
+  - uid: '@ms/sp-webpart-shared.WebPartChrome'
+    name: WebPartChrome
+  - uid: '@ms/sp-webpart-shared.IWebPartChromeProps'
+    name: IWebPartChromeProps
+  - uid: '@ms/sp-webpart-shared.WebPartTitle'
+    name: WebPartTitle
+  - uid: '@ms/sp-webpart-shared.IWebPartTitleProps'
+    name: IWebPartTitleProps
+  - uid: '@ms/sp-webpart-shared.Global'
+    name: Global

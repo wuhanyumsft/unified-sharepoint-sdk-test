@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-client-projects.IDividerWebPartProps'
+    name: IDividerWebPartProps
+    fullName: IDividerWebPartProps
+    children:
+      - '@ms/sp-client-projects.IDividerWebPartProps.color'
+      - '@ms/sp-client-projects.IDividerWebPartProps.marginBottom'
+      - '@ms/sp-client-projects.IDividerWebPartProps.marginTop'
+      - '@ms/sp-client-projects.IDividerWebPartProps.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface for the Divider WebPart properties.
+    package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.IDividerWebPartProps.color'
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string color
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-projects.IDividerWebPartProps.marginBottom'
+    name: marginBottom
+    fullName: marginBottom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number marginBottom
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-client-projects.IDividerWebPartProps.marginTop'
+    name: marginTop
+    fullName: marginTop
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number marginTop
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-client-projects.IDividerWebPartProps.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number width
+      return:
+        type:
+          - number

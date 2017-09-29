@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.UserVoiceWidgetMode'
+    name: UserVoiceWidgetMode
+    fullName: UserVoiceWidgetMode
+    children:
+      - '@ms/sp-pages.UserVoiceWidgetMode.contact'
+      - '@ms/sp-pages.UserVoiceWidgetMode.feedback'
+      - '@ms/sp-pages.UserVoiceWidgetMode.satisfaction'
+      - '@ms/sp-pages.UserVoiceWidgetMode.smartvote'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.UserVoiceWidgetMode.contact'
+    name: contact
+    children: []
+    langs:
+      - typeScript
+    summary: Contact Form Type
+    type: field
+  - uid: '@ms/sp-pages.UserVoiceWidgetMode.feedback'
+    name: feedback
+    children: []
+    langs:
+      - typeScript
+    summary: Feedback Form Type
+    type: field
+  - uid: '@ms/sp-pages.UserVoiceWidgetMode.satisfaction'
+    name: satisfaction
+    children: []
+    langs:
+      - typeScript
+    summary: Satisfaction Form Type
+    type: field
+  - uid: '@ms/sp-pages.UserVoiceWidgetMode.smartvote'
+    name: smartvote
+    children: []
+    langs:
+      - typeScript
+    summary: Smartvote Form Type
+    type: field

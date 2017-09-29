@@ -1,0 +1,46 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-canvas.CanvasSection'
+    name: CanvasSection
+    fullName: CanvasSection
+    children:
+      - '@ms/sp-canvas.CanvasSection.constructor'
+      - '@ms/sp-canvas.CanvasSection.render'
+    langs:
+      - typeScript
+    type: class
+    summary: Represents a Section layout component
+    extends:
+      name: '@@ms/sp-canvas.CanvasSection<@@ms/sp-canvas.ICanvasSectionProps>'
+    package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.CanvasSection.constructor'
+    name: CanvasSection
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CanvasSection(props: ICanvasSectionProps, context: ICanvasContext)'
+      parameters:
+        - id: props
+          type:
+            - '@@ms/sp-canvas.ICanvasSectionProps'
+          description: ''
+        - id: context
+          type:
+            - '@@ms/sp-canvas.ICanvasContext'
+          description: ''
+  - uid: '@ms/sp-canvas.CanvasSection.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@ms/sp-canvas.ICanvasSectionProps>

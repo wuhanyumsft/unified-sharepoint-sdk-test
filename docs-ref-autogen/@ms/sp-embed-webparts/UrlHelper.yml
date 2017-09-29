@@ -1,0 +1,107 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-embed-webparts.UrlHelper'
+    name: UrlHelper
+    fullName: UrlHelper
+    children:
+      - '@ms/sp-embed-webparts.UrlHelper.getHostnameFromUrl'
+      - '@ms/sp-embed-webparts.UrlHelper.isApprovedURL'
+      - '@ms/sp-embed-webparts.UrlHelper.isStartWithHttp'
+      - '@ms/sp-embed-webparts.UrlHelper.isValidURL'
+      - '@ms/sp-embed-webparts.UrlHelper.isYoutubeURL'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@ms/sp-embed-webparts'
+  - uid: '@ms/sp-embed-webparts.UrlHelper.getHostnameFromUrl'
+    name: getHostnameFromUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getHostnameFromUrl(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-embed-webparts.UrlHelper.isApprovedURL'
+    name: isApprovedURL
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function isApprovedURL(embedCode: string, approvedDomains:
+        string[])
+      parameters:
+        - id: embedCode
+          type:
+            - string
+          description: ''
+        - id: approvedDomains
+          type:
+            - 'string[]'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-embed-webparts.UrlHelper.isStartWithHttp'
+    name: isStartWithHttp
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isStartWithHttp(embedCode: string)'
+      parameters:
+        - id: embedCode
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-embed-webparts.UrlHelper.isValidURL'
+    name: isValidURL
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isValidURL(embedCode: string)'
+      parameters:
+        - id: embedCode
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-embed-webparts.UrlHelper.isYoutubeURL'
+    name: isYoutubeURL
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isYoutubeURL(embedCode: string)'
+      parameters:
+        - id: embedCode
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean

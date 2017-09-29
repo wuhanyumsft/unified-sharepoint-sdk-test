@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.ICommentContainerProps'
+    name: ICommentContainerProps
+    fullName: ICommentContainerProps
+    children:
+      - '@ms/sp-pages.ICommentContainerProps.deleteAllPermission'
+      - '@ms/sp-pages.ICommentContainerProps.disableEditing'
+      - '@ms/sp-pages.ICommentContainerProps.isToggleVisible'
+      - '@ms/sp-pages.ICommentContainerProps.likesFeatureEnabled'
+      - '@ms/sp-pages.ICommentContainerProps.onDisabledChange'
+      - '@ms/sp-pages.ICommentContainerProps.user'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ICommentContainerProps.deleteAllPermission'
+    name: deleteAllPermission
+    fullName: deleteAllPermission
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean deleteAllPermission
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.ICommentContainerProps.disableEditing'
+    name: disableEditing
+    fullName: disableEditing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean disableEditing
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.ICommentContainerProps.isToggleVisible'
+    name: isToggleVisible
+    fullName: isToggleVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isToggleVisible
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.ICommentContainerProps.likesFeatureEnabled'
+    name: likesFeatureEnabled
+    fullName: likesFeatureEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean likesFeatureEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.ICommentContainerProps.onDisabledChange'
+    name: onDisabledChange
+    fullName: onDisabledChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(disabled: boolean) => void onDisabledChange'
+      return:
+        type:
+          - '(disabled: boolean) => void'
+  - uid: '@ms/sp-pages.ICommentContainerProps.user'
+    name: user
+    fullName: user
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IUserObject user
+      return:
+        type:
+          - '@@ms/sp-pages.IUserObject'

@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-pages.HeaderControl'
+    name: HeaderControl
+    fullName: HeaderControl
+    children:
+      - '@ms/sp-pages.HeaderControl.constructor'
+      - '@ms/sp-pages.HeaderControl.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@ms/sp-pages.BasePublishingControl<@@ms/sp-pages.IHeaderControlProps>'
+    package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.HeaderControl.constructor'
+    name: HeaderControl
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new HeaderControl()
+      parameters: []
+  - uid: '@ms/sp-pages.HeaderControl.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

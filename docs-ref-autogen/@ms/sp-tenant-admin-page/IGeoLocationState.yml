@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationState'
+    name: IGeoLocationState
+    fullName: IGeoLocationState
+    children:
+      - '@ms/sp-tenant-admin-page.IGeoLocationState.geoLocation'
+      - '@ms/sp-tenant-admin-page.IGeoLocationState.isDefaultGeoLocation'
+      - '@ms/sp-tenant-admin-page.IGeoLocationState.isGeoTenant'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationState.geoLocation'
+    name: geoLocation
+    fullName: geoLocation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string geoLocation
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationState.isDefaultGeoLocation'
+    name: isDefaultGeoLocation
+    fullName: isDefaultGeoLocation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isDefaultGeoLocation
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tenant-admin-page.IGeoLocationState.isGeoTenant'
+    name: isGeoTenant
+    fullName: isGeoTenant
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isGeoTenant
+      return:
+        type:
+          - boolean
