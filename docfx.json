@@ -3,8 +3,10 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/*.yml"
         ],
+        "src": "docs-ref-autogen",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -13,7 +15,18 @@
           "LICENSE-CODE",
           "ThirdPartyNotices"
         ]
-      }
+      },
+      {
+        "files": [
+          "**/*.yml"
+        ],
+        "src": "bread",
+        "dest": "bread",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      },
     ],
     "resource": [
       {
@@ -29,7 +42,9 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "breadcrumb_path": "/javascript/api/azure-iot-docs-sdk-typescript/bread/toc.json",
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "sharepoint-sdk-test"
