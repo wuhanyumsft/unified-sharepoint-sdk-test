@@ -4,6 +4,7 @@ items:
     name: PageCacheManager
     fullName: PageCacheManager
     children:
+      - '@ms/sp-pages.PageCacheManager.cacheDuration'
       - '@ms/sp-pages.PageCacheManager.cacheItem'
       - '@ms/sp-pages.PageCacheManager.cachePage'
       - '@ms/sp-pages.PageCacheManager.flush'
@@ -15,6 +16,19 @@ items:
     type: class
     summary: Manages cache for list item fields
     package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.PageCacheManager.cacheDuration'
+    name: cacheDuration
+    fullName: cacheDuration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static number cacheDuration
+      return:
+        type:
+          - number
   - uid: '@ms/sp-pages.PageCacheManager.cacheItem'
     name: cacheItem
     children: []

@@ -4,6 +4,7 @@ items:
     name: EventPageLayout
     fullName: EventPageLayout
     children:
+      - '@ms/sp-pages.EventPageLayout.commandBarUpdate'
       - '@ms/sp-pages.EventPageLayout.constructor'
       - '@ms/sp-pages.EventPageLayout.render'
       - '@ms/sp-pages.EventPageLayout.unmount'
@@ -14,6 +15,19 @@ items:
     extends:
       name: '@@ms/sp-pages.BasePageLayout'
     package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.EventPageLayout.commandBarUpdate'
+    name: commandBarUpdate
+    fullName: commandBarUpdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ICommandbarProps commandBarUpdate
+      return:
+        type:
+          - '@@ms/sp-pages.ICommandbarProps'
   - uid: '@ms/sp-pages.EventPageLayout.constructor'
     name: EventPageLayout
     children: []

@@ -4,6 +4,7 @@ items:
     name: PromptDialog
     fullName: PromptDialog
     children:
+      - '@microsoft/sp-dialog.PromptDialog.config'
       - '@microsoft/sp-dialog.PromptDialog.constructor'
       - '@microsoft/sp-dialog.PromptDialog.render'
       - '@microsoft/sp-dialog.PromptDialog.resolve'
@@ -16,6 +17,19 @@ items:
     extends:
       name: '@@microsoft/sp-dialog.BaseDialog'
     package: '@microsoft/sp-dialog'
+  - uid: '@microsoft/sp-dialog.PromptDialog.config'
+    name: config
+    fullName: config
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IDialogConfiguration config
+      return:
+        type:
+          - '@@microsoft/sp-dialog.IDialogConfiguration'
   - uid: '@microsoft/sp-dialog.PromptDialog.constructor'
     name: PromptDialog
     children: []

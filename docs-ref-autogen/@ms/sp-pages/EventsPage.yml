@@ -5,6 +5,7 @@ items:
     fullName: EventsPage
     children:
       - '@ms/sp-pages.EventsPage.componentWillMount'
+      - '@ms/sp-pages.EventsPage.pageLayout'
     langs:
       - typeScript
     type: class
@@ -22,3 +23,16 @@ items:
     syntax:
       content: function componentWillMount()
       parameters: []
+  - uid: '@ms/sp-pages.EventsPage.pageLayout'
+    name: pageLayout
+    fullName: pageLayout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string pageLayout
+      return:
+        type:
+          - string

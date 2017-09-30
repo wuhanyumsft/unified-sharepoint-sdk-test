@@ -26,6 +26,7 @@ items:
 
       way it did at the time when it was tested.)
     package: '@microsoft/sp-http'
+    isPreview: true
   - uid: '@microsoft/sp-http.IGraphHttpClientConfigurations.v1'
     name: v1
     fullName: v1

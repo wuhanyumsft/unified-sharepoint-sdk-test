@@ -9,7 +9,12 @@ items:
       - '@ms/sp-a11y.A11yAttribute.getFromElementByType'
       - '@ms/sp-a11y.A11yAttribute.getFromElementOrParentsByType'
       - '@ms/sp-a11y.A11yAttribute.getPrefix'
+      - '@ms/sp-a11y.A11yAttribute.name'
+      - '@ms/sp-a11y.A11yAttribute.params'
+      - '@ms/sp-a11y.A11yAttribute.prefix'
       - '@ms/sp-a11y.A11yAttribute.setOnElement'
+      - '@ms/sp-a11y.A11yAttribute.type'
+      - '@ms/sp-a11y.A11yAttribute.value'
     langs:
       - typeScript
     type: class
@@ -180,6 +185,50 @@ items:
       return:
         type:
           - string
+  - uid: '@ms/sp-a11y.A11yAttribute.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The attribute name that should be set on the element
+      The format of the name is <prefix>-<type>-<param1>-<param2>-...
+      For example: data-sp-a11y-nextfocusonkey-9
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-a11y.A11yAttribute.params'
+    name: params
+    fullName: params
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The attribute parameters extracted from its name
+      Example: data-sp-a11y-type-p1-p2-p3 => ['p1','p2','p3']
+    syntax:
+      content: 'string[] params'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-a11y.A11yAttribute.prefix'
+    name: prefix
+    fullName: prefix
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The attribute prefix (The name without parameters)
+    syntax:
+      content: string prefix
+      return:
+        type:
+          - string
   - uid: '@ms/sp-a11y.A11yAttribute.setOnElement'
     name: setOnElement
     children: []
@@ -194,3 +243,29 @@ items:
           type:
             - HTMLElement
           description: ''
+  - uid: '@ms/sp-a11y.A11yAttribute.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The attribute type
+    syntax:
+      content: A11yAttributeType type
+      return:
+        type:
+          - A11yAttributeType
+  - uid: '@ms/sp-a11y.A11yAttribute.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The attribute value
+    syntax:
+      content: string value
+      return:
+        type:
+          - string

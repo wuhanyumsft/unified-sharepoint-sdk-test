@@ -4,6 +4,7 @@ items:
     name: SocialChunkLoader
     fullName: SocialChunkLoader
     children:
+      - '@ms/sp-pages.SocialChunkLoader.instance'
       - '@ms/sp-pages.SocialChunkLoader.load'
       - '@ms/sp-pages.SocialChunkLoader.constructor'
       - '@ms/sp-pages.SocialChunkLoader.waitForLoad'
@@ -12,6 +13,19 @@ items:
     type: class
     summary: ''
     package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SocialChunkLoader.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static SocialChunkLoader instance
+      return:
+        type:
+          - '@@ms/sp-pages.SocialChunkLoader'
   - uid: '@ms/sp-pages.SocialChunkLoader.load'
     name: load
     children: []

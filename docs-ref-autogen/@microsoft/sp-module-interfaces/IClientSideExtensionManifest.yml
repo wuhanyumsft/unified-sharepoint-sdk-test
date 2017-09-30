@@ -13,6 +13,7 @@ items:
     extends:
       name: '@@microsoft/sp-module-interfaces.IClientSideComponentManifest'
     package: '@microsoft/sp-module-interfaces'
+    isPreview: true
   - uid: '@microsoft/sp-module-interfaces.IClientSideExtensionManifest.extensionType'
     name: extensionType
     fullName: extensionType

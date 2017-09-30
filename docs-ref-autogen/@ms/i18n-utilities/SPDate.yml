@@ -6,8 +6,16 @@ items:
     children:
       - '@ms/i18n-utilities.SPDate.convertFromUTC'
       - '@ms/i18n-utilities.SPDate.convertToUTC'
+      - '@ms/i18n-utilities.SPDate.date'
+      - '@ms/i18n-utilities.SPDate.fullYear'
+      - '@ms/i18n-utilities.SPDate.hours'
       - '@ms/i18n-utilities.SPDate.isSame'
+      - '@ms/i18n-utilities.SPDate.milliseconds'
+      - '@ms/i18n-utilities.SPDate.minutes'
+      - '@ms/i18n-utilities.SPDate.month'
+      - '@ms/i18n-utilities.SPDate.seconds'
       - '@ms/i18n-utilities.SPDate.constructor'
+      - '@ms/i18n-utilities.SPDate.timezoneOffset'
     langs:
       - typeScript
     type: class
@@ -55,6 +63,47 @@ items:
       return:
         type:
           - '@@ms/i18n-utilities.SPDate'
+  - uid: '@ms/i18n-utilities.SPDate.date'
+    name: date
+    fullName: date
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A number, between 1 and 31, representing the day of the month for the
+      given date.
+    syntax:
+      content: number date
+      return:
+        type:
+          - number
+  - uid: '@ms/i18n-utilities.SPDate.fullYear'
+    name: fullYear
+    fullName: fullYear
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A four digit number corresponding to the year of the given date.
+    syntax:
+      content: number fullYear
+      return:
+        type:
+          - number
+  - uid: '@ms/i18n-utilities.SPDate.hours'
+    name: hours
+    fullName: hours
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'A number, between 0 and 23, representing the hour for the given date.'
+    syntax:
+      content: number hours
+      return:
+        type:
+          - number
   - uid: '@ms/i18n-utilities.SPDate.isSame'
     name: isSame
     children: []
@@ -72,6 +121,62 @@ items:
       return:
         type:
           - boolean
+  - uid: '@ms/i18n-utilities.SPDate.milliseconds'
+    name: milliseconds
+    fullName: milliseconds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A number, between 0 and 999, representing the milliseconds for the given
+      date.
+    syntax:
+      content: number milliseconds
+      return:
+        type:
+          - number
+  - uid: '@ms/i18n-utilities.SPDate.minutes'
+    name: minutes
+    fullName: minutes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'A number, between 0 and 59, representing the minutes in the given date.'
+    syntax:
+      content: number minutes
+      return:
+        type:
+          - number
+  - uid: '@ms/i18n-utilities.SPDate.month'
+    name: month
+    fullName: month
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      A number, between 0 and 11, representing the month in the given date.
+      0 corresponds to January, 1 to February, and so on.
+    syntax:
+      content: number month
+      return:
+        type:
+          - number
+  - uid: '@ms/i18n-utilities.SPDate.seconds'
+    name: seconds
+    fullName: seconds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'A number, between 0 and 59, representing the seconds in the given date.'
+    syntax:
+      content: number seconds
+      return:
+        type:
+          - number
   - uid: '@ms/i18n-utilities.SPDate.constructor'
     name: SPDate
     children: []
@@ -87,3 +192,16 @@ items:
             - '@@ms/i18n-utilities.ISPDateData'
           description: |
             SPDateData object.
+  - uid: '@ms/i18n-utilities.SPDate.timezoneOffset'
+    name: timezoneOffset
+    fullName: timezoneOffset
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'A number representing the time-zone offset from UTC, in minutes.'
+    syntax:
+      content: number timezoneOffset
+      return:
+        type:
+          - number

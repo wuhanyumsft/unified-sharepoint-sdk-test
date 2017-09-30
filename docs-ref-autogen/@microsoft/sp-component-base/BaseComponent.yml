@@ -5,7 +5,11 @@ items:
     fullName: BaseComponent
     children:
       - '@microsoft/sp-component-base.BaseComponent.constructor'
+      - '@microsoft/sp-component-base.BaseComponent.componentId'
       - '@microsoft/sp-component-base.BaseComponent.dispose'
+      - '@microsoft/sp-component-base.BaseComponent.instanceId'
+      - '@microsoft/sp-component-base.BaseComponent.isDisposed'
+      - '@microsoft/sp-component-base.BaseComponent.manifest'
     langs:
       - typeScript
     type: class
@@ -13,6 +17,7 @@ items:
       Base class for client-side components such as BaseClientSideWebPart,
       BaseExtension, etc.
     package: '@microsoft/sp-component-base'
+    isPreview: true
   - uid: '@microsoft/sp-component-base.BaseComponent.constructor'
     name: BaseComponent
     children: []
@@ -27,6 +32,21 @@ items:
     syntax:
       content: new BaseComponent()
       parameters: []
+  - uid: '@microsoft/sp-component-base.BaseComponent.componentId'
+    name: componentId
+    fullName: componentId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Returns the component identifier as defined in the component’s associated
+      manifest.
+    syntax:
+      content: string componentId
+      return:
+        type:
+          - string
   - uid: '@microsoft/sp-component-base.BaseComponent.dispose'
     name: dispose
     children: []
@@ -47,3 +67,46 @@ items:
     syntax:
       content: function dispose()
       parameters: []
+  - uid: '@microsoft/sp-component-base.BaseComponent.instanceId'
+    name: instanceId
+    fullName: instanceId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Unique identifier for the instance of the component.
+
+      The same component can be instantiated several times, and each instance
+      will have a different id.
+    syntax:
+      content: string instanceId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-component-base.BaseComponent.isDisposed'
+    name: isDisposed
+    fullName: isDisposed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns true if the component has been already disposed.
+    syntax:
+      content: boolean isDisposed
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-component-base.BaseComponent.manifest'
+    name: manifest
+    fullName: manifest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns the manifest for the component.
+    syntax:
+      content: IClientSideComponentManifest manifest
+      return:
+        type:
+          - IClientSideComponentManifest

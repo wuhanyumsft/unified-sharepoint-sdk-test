@@ -9,6 +9,7 @@ items:
       - '@ms/test-extensions-application.RowStore.getValueByName'
       - '@ms/test-extensions-application.RowStore.rowAdapter'
       - '@ms/test-extensions-application.RowStore.constructor'
+      - '@ms/test-extensions-application.RowStore.values'
     langs:
       - typeScript
     type: class
@@ -93,3 +94,16 @@ items:
           type:
             - '@@ms/test-extensions-application.IListViewRowValues'
           description: ''
+  - uid: '@ms/test-extensions-application.RowStore.values'
+    name: values
+    fullName: values
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IListViewRowValues values
+      return:
+        type:
+          - '@@ms/test-extensions-application.IListViewRowValues'

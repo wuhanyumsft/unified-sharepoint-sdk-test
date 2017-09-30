@@ -5,7 +5,10 @@ items:
     fullName: BasePageLayout
     children:
       - '@ms/sp-pages.BasePageLayout.constructor'
+      - '@ms/sp-pages.BasePageLayout.commandBarUpdate'
+      - '@ms/sp-pages.BasePageLayout.ID'
       - '@ms/sp-pages.BasePageLayout.render'
+      - '@ms/sp-pages.BasePageLayout.type'
       - '@ms/sp-pages.BasePageLayout.unmount'
     langs:
       - typeScript
@@ -30,6 +33,32 @@ items:
           type:
             - HTMLElement
           description: ''
+  - uid: '@ms/sp-pages.BasePageLayout.commandBarUpdate'
+    name: commandBarUpdate
+    fullName: commandBarUpdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the command bar update for this page layout
+    syntax:
+      content: ICommandbarProps commandBarUpdate
+      return:
+        type:
+          - '@@ms/sp-pages.ICommandbarProps'
+  - uid: '@ms/sp-pages.BasePageLayout.ID'
+    name: ID
+    fullName: ID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Page layout ID, it is a GUID.'
+    syntax:
+      content: Guid ID
+      return:
+        type:
+          - Guid
   - uid: '@ms/sp-pages.BasePageLayout.render'
     name: render
     children: []
@@ -49,6 +78,19 @@ items:
             - () => void
           description: ''
           optional: true
+  - uid: '@ms/sp-pages.BasePageLayout.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Page layout type
+    syntax:
+      content: string type
+      return:
+        type:
+          - string
   - uid: '@ms/sp-pages.BasePageLayout.unmount'
     name: unmount
     children: []

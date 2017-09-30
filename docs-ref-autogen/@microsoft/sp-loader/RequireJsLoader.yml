@@ -6,6 +6,7 @@ items:
     children:
       - '@microsoft/sp-loader.RequireJsLoader.configure'
       - '@microsoft/sp-loader.RequireJsLoader.ensure'
+      - '@microsoft/sp-loader.RequireJsLoader.instance'
       - '@microsoft/sp-loader.RequireJsLoader.requireConfig'
       - '@microsoft/sp-loader.RequireJsLoader.requireDelete'
       - '@microsoft/sp-loader.RequireJsLoader.requireLoad'
@@ -56,6 +57,19 @@ items:
           type:
             - any
           description: ''
+  - uid: '@microsoft/sp-loader.RequireJsLoader.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static RequireJsLoader instance
+      return:
+        type:
+          - '@@microsoft/sp-loader.RequireJsLoader'
   - uid: '@microsoft/sp-loader.RequireJsLoader.requireConfig'
     name: requireConfig
     children: []

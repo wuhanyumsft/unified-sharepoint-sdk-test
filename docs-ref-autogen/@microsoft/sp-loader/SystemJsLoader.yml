@@ -8,6 +8,7 @@ items:
       - '@microsoft/sp-loader.SystemJsLoader.delete'
       - '@microsoft/sp-loader.SystemJsLoader.ensure'
       - '@microsoft/sp-loader.SystemJsLoader.getDependencies'
+      - '@microsoft/sp-loader.SystemJsLoader.instance'
       - '@microsoft/sp-loader.SystemJsLoader.pluginName'
       - '@microsoft/sp-loader.SystemJsLoader.systemConfig'
       - '@microsoft/sp-loader.SystemJsLoader.systemDelete'
@@ -94,6 +95,19 @@ items:
           type:
             - IClientSideComponentManifest
           description: ''
+  - uid: '@microsoft/sp-loader.SystemJsLoader.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static SystemJsLoader instance
+      return:
+        type:
+          - '@@microsoft/sp-loader.SystemJsLoader'
   - uid: '@microsoft/sp-loader.SystemJsLoader.pluginName'
     name: pluginName
     fullName: pluginName

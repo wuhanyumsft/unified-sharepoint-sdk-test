@@ -6,6 +6,7 @@ items:
     children:
       - '@ms/sp-pages.AppDispatcher.constructor'
       - '@ms/sp-pages.AppDispatcher.dispatch'
+      - '@ms/sp-pages.AppDispatcher.instance'
     langs:
       - typeScript
     type: class
@@ -37,3 +38,16 @@ items:
           type:
             - __type
           description: ''
+  - uid: '@ms/sp-pages.AppDispatcher.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static AppDispatcher instance
+      return:
+        type:
+          - '@@ms/sp-pages.AppDispatcher'

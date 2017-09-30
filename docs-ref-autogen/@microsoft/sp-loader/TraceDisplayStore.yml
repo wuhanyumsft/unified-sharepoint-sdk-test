@@ -5,7 +5,10 @@ items:
     fullName: TraceDisplayStore
     children:
       - '@microsoft/sp-loader.TraceDisplayStore.applyTraceFilter'
+      - '@microsoft/sp-loader.TraceDisplayStore.currentFilter'
+      - '@microsoft/sp-loader.TraceDisplayStore.instance'
       - '@microsoft/sp-loader.TraceDisplayStore.constructor'
+      - '@microsoft/sp-loader.TraceDisplayStore.traces'
     langs:
       - typeScript
     type: class
@@ -30,6 +33,32 @@ items:
           type:
             - '@@microsoft/sp-loader.ITraceFilter'
           description: ''
+  - uid: '@microsoft/sp-loader.TraceDisplayStore.currentFilter'
+    name: currentFilter
+    fullName: currentFilter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ITraceFilter currentFilter
+      return:
+        type:
+          - '@@microsoft/sp-loader.ITraceFilter'
+  - uid: '@microsoft/sp-loader.TraceDisplayStore.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static TraceDisplayStore instance
+      return:
+        type:
+          - '@@microsoft/sp-loader.TraceDisplayStore'
   - uid: '@microsoft/sp-loader.TraceDisplayStore.constructor'
     name: TraceDisplayStore
     children: []
@@ -40,3 +69,16 @@ items:
     syntax:
       content: new TraceDisplayStore()
       parameters: []
+  - uid: '@microsoft/sp-loader.TraceDisplayStore.traces'
+    name: traces
+    fullName: traces
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '_LogEvent[] traces'
+      return:
+        type:
+          - '_LogEvent[]'

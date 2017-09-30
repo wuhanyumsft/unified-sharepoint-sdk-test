@@ -6,7 +6,9 @@ items:
     children:
       - '@ms/test-extensions-application.ColumnStore.columnAdapter'
       - '@ms/test-extensions-application.ColumnStore.constructor'
+      - '@ms/test-extensions-application.ColumnStore.field'
       - '@ms/test-extensions-application.ColumnStore.fillAdapter'
+      - '@ms/test-extensions-application.ColumnStore.visible'
     langs:
       - typeScript
     type: class
@@ -39,6 +41,21 @@ items:
           type:
             - SPField
           description: ''
+  - uid: '@ms/test-extensions-application.ColumnStore.field'
+    name: field
+    fullName: field
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The server-side definition of the field.
+      This property is read-only.
+    syntax:
+      content: SPField field
+      return:
+        type:
+          - SPField
   - uid: '@ms/test-extensions-application.ColumnStore.fillAdapter'
     name: fillAdapter
     children: []
@@ -53,3 +70,16 @@ items:
           type:
             - IListViewAdapter
           description: ''
+  - uid: '@ms/test-extensions-application.ColumnStore.visible'
+    name: visible
+    fullName: visible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether to show this column in the list view.
+    syntax:
+      content: boolean visible
+      return:
+        type:
+          - boolean

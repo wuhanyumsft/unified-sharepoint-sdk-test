@@ -5,6 +5,7 @@ items:
     fullName: CanvasWebPartHost
     children:
       - '@ms/sp-canvas.CanvasWebPartHost.constructor'
+      - '@ms/sp-canvas.CanvasWebPartHost.serviceScope'
       - '@ms/sp-canvas.CanvasWebPartHost.setDirty'
       - '@ms/sp-canvas.CanvasWebPartHost.webPartConfigurationEventCallback'
     langs:
@@ -57,6 +58,19 @@ items:
             - '(id: string) => void'
           description: ''
           optional: true
+  - uid: '@ms/sp-canvas.CanvasWebPartHost.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope
   - uid: '@ms/sp-canvas.CanvasWebPartHost.setDirty'
     name: setDirty
     children: []

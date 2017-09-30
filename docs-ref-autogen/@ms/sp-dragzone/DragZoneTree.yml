@@ -6,8 +6,11 @@ items:
     children:
       - '@ms/sp-dragzone.DragZoneTree.addDisallowedStyles'
       - '@ms/sp-dragzone.DragZoneTree.applyRemoveCssToDataDragDisallowed'
+      - '@ms/sp-dragzone.DragZoneTree.currentPosition'
+      - '@ms/sp-dragzone.DragZoneTree.depth'
       - '@ms/sp-dragzone.DragZoneTree.constructor'
       - '@ms/sp-dragzone.DragZoneTree.getBottomMostElementFromMousePosition'
+      - '@ms/sp-dragzone.DragZoneTree.getDraggedItem'
       - '@ms/sp-dragzone.DragZoneTree.getDraggedItemPosition'
       - '@ms/sp-dragzone.DragZoneTree.getDraggedOverElement'
       - '@ms/sp-dragzone.DragZoneTree.getElementFromPosition'
@@ -20,6 +23,7 @@ items:
       - '@ms/sp-dragzone.DragZoneTree.isDragAllowed'
       - '@ms/sp-dragzone.DragZoneTree.isLeafElement'
       - '@ms/sp-dragzone.DragZoneTree.refreshPositionMatrix'
+      - '@ms/sp-dragzone.DragZoneTree.startPosition'
     langs:
       - typeScript
     type: class
@@ -74,6 +78,32 @@ items:
           type:
             - string
           description: ''
+  - uid: '@ms/sp-dragzone.DragZoneTree.currentPosition'
+    name: currentPosition
+    fullName: currentPosition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IPoint currentPosition
+      return:
+        type:
+          - '@@ms/sp-dragzone.IPoint'
+  - uid: '@ms/sp-dragzone.DragZoneTree.depth'
+    name: depth
+    fullName: depth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number depth
+      return:
+        type:
+          - number
   - uid: '@ms/sp-dragzone.DragZoneTree.constructor'
     name: DragZoneTree
     children: []
@@ -114,6 +144,19 @@ items:
             - string
           description: ''
           optional: true
+      return:
+        type:
+          - Element
+  - uid: '@ms/sp-dragzone.DragZoneTree.getDraggedItem'
+    name: getDraggedItem
+    fullName: getDraggedItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Element getDraggedItem
       return:
         type:
           - Element
@@ -328,3 +371,16 @@ items:
     syntax:
       content: function refreshPositionMatrix()
       parameters: []
+  - uid: '@ms/sp-dragzone.DragZoneTree.startPosition'
+    name: startPosition
+    fullName: startPosition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IPoint startPosition
+      return:
+        type:
+          - '@@ms/sp-dragzone.IPoint'

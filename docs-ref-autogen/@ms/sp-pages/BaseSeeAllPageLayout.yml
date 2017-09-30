@@ -4,6 +4,7 @@ items:
     name: BaseSeeAllPageLayout
     fullName: BaseSeeAllPageLayout
     children:
+      - '@ms/sp-pages.BaseSeeAllPageLayout.commandBarUpdate'
       - '@ms/sp-pages.BaseSeeAllPageLayout.render'
       - '@ms/sp-pages.BaseSeeAllPageLayout.unmount'
     langs:
@@ -13,6 +14,19 @@ items:
     extends:
       name: '@@ms/sp-pages.BasePageLayout'
     package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.BaseSeeAllPageLayout.commandBarUpdate'
+    name: commandBarUpdate
+    fullName: commandBarUpdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ICommandbarProps commandBarUpdate
+      return:
+        type:
+          - '@@ms/sp-pages.ICommandbarProps'
   - uid: '@ms/sp-pages.BaseSeeAllPageLayout.render'
     name: render
     children: []

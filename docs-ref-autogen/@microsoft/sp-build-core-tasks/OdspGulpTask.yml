@@ -7,6 +7,9 @@ items:
       - '@microsoft/sp-build-core-tasks.OdspGulpTask.executeTask'
       - '@microsoft/sp-build-core-tasks.OdspGulpTask.getManifest'
       - '@microsoft/sp-build-core-tasks.OdspGulpTask.getPackageVersion'
+      - '@microsoft/sp-build-core-tasks.OdspGulpTask.npmBuild'
+      - '@microsoft/sp-build-core-tasks.OdspGulpTask.outputDirectory'
+      - '@microsoft/sp-build-core-tasks.OdspGulpTask.properties'
       - '@microsoft/sp-build-core-tasks.OdspGulpTask.resolveResources'
     langs:
       - typeScript
@@ -65,6 +68,45 @@ items:
       return:
         type:
           - string
+  - uid: '@microsoft/sp-build-core-tasks.OdspGulpTask.npmBuild'
+    name: npmBuild
+    fullName: npmBuild
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean npmBuild
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-build-core-tasks.OdspGulpTask.outputDirectory'
+    name: outputDirectory
+    fullName: outputDirectory
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string outputDirectory
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-build-core-tasks.OdspGulpTask.properties'
+    name: properties
+    fullName: properties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IOdspGulpTaskProperties properties
+      return:
+        type:
+          - '@@microsoft/sp-build-core-tasks.IOdspGulpTaskProperties'
   - uid: '@microsoft/sp-build-core-tasks.OdspGulpTask.resolveResources'
     name: resolveResources
     children: []

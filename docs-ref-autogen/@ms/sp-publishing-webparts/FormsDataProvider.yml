@@ -5,6 +5,7 @@ items:
     fullName: FormsDataProvider
     children:
       - '@ms/sp-publishing-webparts.FormsDataProvider.createForm'
+      - '@ms/sp-publishing-webparts.FormsDataProvider.endPointUrl'
       - '@ms/sp-publishing-webparts.FormsDataProvider.constructor'
       - '@ms/sp-publishing-webparts.FormsDataProvider.getAccessToken'
       - '@ms/sp-publishing-webparts.FormsDataProvider.getDesignPageUrl'
@@ -39,6 +40,19 @@ items:
       return:
         type:
           - Promise<@@ms/sp-publishing-webparts.IForm>
+  - uid: '@ms/sp-publishing-webparts.FormsDataProvider.endPointUrl'
+    name: endPointUrl
+    fullName: endPointUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string endPointUrl
+      return:
+        type:
+          - string
   - uid: '@ms/sp-publishing-webparts.FormsDataProvider.constructor'
     name: FormsDataProvider
     children: []

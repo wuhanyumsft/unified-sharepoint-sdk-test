@@ -4,6 +4,9 @@ items:
     name: SPLoaderError
     fullName: SPLoaderError
     children:
+      - '@microsoft/sp-loader.SPLoaderError.category'
+      - '@microsoft/sp-loader.SPLoaderError.id'
+      - '@microsoft/sp-loader.SPLoaderError.isExpected'
       - '@microsoft/sp-loader.SPLoaderError.constructor'
     langs:
       - typeScript
@@ -12,6 +15,48 @@ items:
     extends:
       name: '@@microsoft/sp-loader.SPLoaderError'
     package: '@microsoft/sp-loader'
+  - uid: '@microsoft/sp-loader.SPLoaderError.category'
+    name: category
+    fullName: category
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Error category.
+    syntax:
+      content: string category
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-loader.SPLoaderError.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Error id.
+    syntax:
+      content: number id
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-loader.SPLoaderError.isExpected'
+    name: isExpected
+    fullName: isExpected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      True if the error is an expected error.
+      This can happen when it's surfacing an error that happened in the loader,
+      or there is a transient network problem.
+    syntax:
+      content: boolean isExpected
+      return:
+        type:
+          - boolean
   - uid: '@microsoft/sp-loader.SPLoaderError.constructor'
     name: SPLoaderError
     children: []

@@ -4,8 +4,16 @@ items:
     name: BaseTestWebPart
     fullName: BaseTestWebPart<P>
     children:
+      - '@microsoft/sp-webpart-base.BaseTestWebPart.publicContext'
+      - '@microsoft/sp-webpart-base.BaseTestWebPart.publicDisplayMode'
+      - '@microsoft/sp-webpart-base.BaseTestWebPart.publicDomElement'
+      - '@microsoft/sp-webpart-base.BaseTestWebPart.publicHost'
+      - '@microsoft/sp-webpart-base.BaseTestWebPart.publicInstanceId'
+      - '@microsoft/sp-webpart-base.BaseTestWebPart.publicManifest'
+      - '@microsoft/sp-webpart-base.BaseTestWebPart.publicProperties'
       - >-
         @microsoft/sp-webpart-base.BaseTestWebPart.publicPropertyPaneConfiguration
+      - '@microsoft/sp-webpart-base.BaseTestWebPart.publicRenderedOnce'
       - '@microsoft/sp-webpart-base.BaseTestWebPart.render'
     langs:
       - typeScript
@@ -14,6 +22,97 @@ items:
     extends:
       name: '@@microsoft/sp-webpart-base.BaseClientSideWebPart<P>'
     package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.BaseTestWebPart.publicContext'
+    name: publicContext
+    fullName: publicContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IWebPartContext publicContext
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.IWebPartContext'
+  - uid: '@microsoft/sp-webpart-base.BaseTestWebPart.publicDisplayMode'
+    name: publicDisplayMode
+    fullName: publicDisplayMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DisplayMode publicDisplayMode
+      return:
+        type:
+          - DisplayMode
+  - uid: '@microsoft/sp-webpart-base.BaseTestWebPart.publicDomElement'
+    name: publicDomElement
+    fullName: publicDomElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement publicDomElement
+      return:
+        type:
+          - HTMLElement
+  - uid: '@microsoft/sp-webpart-base.BaseTestWebPart.publicHost'
+    name: publicHost
+    fullName: publicHost
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IWebPartHost publicHost
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.IWebPartHost'
+  - uid: '@microsoft/sp-webpart-base.BaseTestWebPart.publicInstanceId'
+    name: publicInstanceId
+    fullName: publicInstanceId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string publicInstanceId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.BaseTestWebPart.publicManifest'
+    name: publicManifest
+    fullName: publicManifest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IClientSideWebPartManifestInstance<any> publicManifest
+      return:
+        type:
+          - IClientSideWebPartManifestInstance<any>
+  - uid: '@microsoft/sp-webpart-base.BaseTestWebPart.publicProperties'
+    name: publicProperties
+    fullName: publicProperties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: P publicProperties
+      return:
+        type:
+          - P
   - uid: '@microsoft/sp-webpart-base.BaseTestWebPart.publicPropertyPaneConfiguration'
     name: publicPropertyPaneConfiguration
     children: []
@@ -27,6 +126,19 @@ items:
       return:
         type:
           - '@@microsoft/sp-webpart-base.IPropertyPaneConfiguration'
+  - uid: '@microsoft/sp-webpart-base.BaseTestWebPart.publicRenderedOnce'
+    name: publicRenderedOnce
+    fullName: publicRenderedOnce
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean publicRenderedOnce
+      return:
+        type:
+          - boolean
   - uid: '@microsoft/sp-webpart-base.BaseTestWebPart.render'
     name: render
     children: []

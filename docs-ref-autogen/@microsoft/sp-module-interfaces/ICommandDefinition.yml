@@ -17,6 +17,7 @@ items:
 
       a UI surface such as a menu, tool bar, etc.
     package: '@microsoft/sp-module-interfaces'
+    isPreview: true
   - uid: '@microsoft/sp-module-interfaces.ICommandDefinition.ariaLabel'
     name: ariaLabel
     fullName: ariaLabel

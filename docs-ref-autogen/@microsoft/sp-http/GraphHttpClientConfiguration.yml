@@ -25,6 +25,7 @@ items:
     extends:
       name: '@@microsoft/sp-http.HttpClientConfiguration'
     package: '@microsoft/sp-http'
+    isPreview: true
   - uid: '@microsoft/sp-http.GraphHttpClientConfiguration.constructor'
     name: GraphHttpClientConfiguration
     children: []

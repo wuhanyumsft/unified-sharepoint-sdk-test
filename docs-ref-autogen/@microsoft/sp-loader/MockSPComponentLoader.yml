@@ -8,6 +8,7 @@ items:
       - '@microsoft/sp-loader.MockSPComponentLoader.loadComponentById'
       - '@microsoft/sp-loader.MockSPComponentLoader.loadCss'
       - '@microsoft/sp-loader.MockSPComponentLoader.loadScript'
+      - '@microsoft/sp-loader.MockSPComponentLoader.manifests'
       - '@microsoft/sp-loader.MockSPComponentLoader.registerManifests'
       - '@microsoft/sp-loader.MockSPComponentLoader.startApplication'
       - '@microsoft/sp-loader.MockSPComponentLoader.tryGetManifestById'
@@ -93,6 +94,19 @@ items:
       return:
         type:
           - Promise<TModule>
+  - uid: '@microsoft/sp-loader.MockSPComponentLoader.manifests'
+    name: manifests
+    fullName: manifests
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IClientSideComponentManifest[] manifests'
+      return:
+        type:
+          - 'IClientSideComponentManifest[]'
   - uid: '@microsoft/sp-loader.MockSPComponentLoader.registerManifests'
     name: registerManifests
     children: []

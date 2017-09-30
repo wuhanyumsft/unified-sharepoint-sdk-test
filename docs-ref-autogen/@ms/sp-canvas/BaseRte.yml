@@ -10,9 +10,15 @@ items:
       - '@ms/sp-canvas.BaseRte.componentWillMount'
       - '@ms/sp-canvas.BaseRte.componentWillUnmount'
       - '@ms/sp-canvas.BaseRte.componentWillUpdate'
+      - '@ms/sp-canvas.BaseRte.config'
       - '@ms/sp-canvas.BaseRte.focusFormattingBar'
+      - '@ms/sp-canvas.BaseRte.fontColor'
+      - '@ms/sp-canvas.BaseRte.fontSizeStyle'
       - '@ms/sp-canvas.BaseRte.getFormatHandler'
+      - '@ms/sp-canvas.BaseRte.highlightColor'
       - '@ms/sp-canvas.BaseRte.isFormatActive'
+      - '@ms/sp-canvas.BaseRte.isLinkSelected'
+      - '@ms/sp-canvas.BaseRte.isTableSelected'
       - '@ms/sp-canvas.BaseRte.removeFontColorFormat'
       - '@ms/sp-canvas.BaseRte.removeHighlightColor'
       - '@ms/sp-canvas.BaseRte.render'
@@ -110,6 +116,19 @@ items:
           type:
             - S
           description: ''
+  - uid: '@ms/sp-canvas.BaseRte.config'
+    name: config
+    fullName: config
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IRichTextEditorConfiguration config
+      return:
+        type:
+          - '@@ms/sp-canvas.IRichTextEditorConfiguration'
   - uid: '@ms/sp-canvas.BaseRte.focusFormattingBar'
     name: focusFormattingBar
     children: []
@@ -120,6 +139,32 @@ items:
     syntax:
       content: function focusFormattingBar()
       parameters: []
+  - uid: '@ms/sp-canvas.BaseRte.fontColor'
+    name: fontColor
+    fullName: fontColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string fontColor
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.BaseRte.fontSizeStyle'
+    name: fontSizeStyle
+    fullName: fontSizeStyle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string fontSizeStyle
+      return:
+        type:
+          - string
   - uid: '@ms/sp-canvas.BaseRte.getFormatHandler'
     name: getFormatHandler
     children: []
@@ -137,6 +182,19 @@ items:
       return:
         type:
           - FormatHandler
+  - uid: '@ms/sp-canvas.BaseRte.highlightColor'
+    name: highlightColor
+    fullName: highlightColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string highlightColor
+      return:
+        type:
+          - string
   - uid: '@ms/sp-canvas.BaseRte.isFormatActive'
     name: isFormatActive
     children: []
@@ -151,6 +209,32 @@ items:
           type:
             - function
           description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.BaseRte.isLinkSelected'
+    name: isLinkSelected
+    fullName: isLinkSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isLinkSelected
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.BaseRte.isTableSelected'
+    name: isTableSelected
+    fullName: isTableSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isTableSelected
       return:
         type:
           - boolean

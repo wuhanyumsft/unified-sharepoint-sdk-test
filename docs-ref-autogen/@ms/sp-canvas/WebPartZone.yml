@@ -9,6 +9,8 @@ items:
       - '@ms/sp-canvas.WebPartZone.focus'
       - '@ms/sp-canvas.WebPartZone.handleConfigureButtonClicked'
       - '@ms/sp-canvas.WebPartZone.handleDeleteButtonClicked'
+      - '@ms/sp-canvas.WebPartZone.instanceId'
+      - '@ms/sp-canvas.WebPartZone.isFocusable'
       - '@ms/sp-canvas.WebPartZone.render'
       - '@ms/sp-canvas.WebPartZone.serialize'
       - '@ms/sp-canvas.WebPartZone.setDisplayMode'
@@ -79,6 +81,32 @@ items:
     syntax:
       content: function handleDeleteButtonClicked()
       parameters: []
+  - uid: '@ms/sp-canvas.WebPartZone.instanceId'
+    name: instanceId
+    fullName: instanceId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string instanceId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.WebPartZone.isFocusable'
+    name: isFocusable
+    fullName: isFocusable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isFocusable
+      return:
+        type:
+          - boolean
   - uid: '@ms/sp-canvas.WebPartZone.render'
     name: render
     children: []

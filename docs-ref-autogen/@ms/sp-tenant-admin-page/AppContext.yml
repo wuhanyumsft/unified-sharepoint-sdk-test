@@ -5,7 +5,9 @@ items:
     fullName: AppContext
     children:
       - '@ms/sp-tenant-admin-page.AppContext.app'
+      - '@ms/sp-tenant-admin-page.AppContext.monitors'
       - '@ms/sp-tenant-admin-page.AppContext.pageContext'
+      - '@ms/sp-tenant-admin-page.AppContext.reduxStore'
       - '@ms/sp-tenant-admin-page.AppContext.serviceScope'
     langs:
       - typeScript
@@ -25,6 +27,19 @@ items:
       return:
         type:
           - BaseApplication
+  - uid: '@ms/sp-tenant-admin-page.AppContext.monitors'
+    name: monitors
+    fullName: monitors
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static MonitorRegistry monitors
+      return:
+        type:
+          - '@@ms/sp-tenant-admin-page.MonitorRegistry'
   - uid: '@ms/sp-tenant-admin-page.AppContext.pageContext'
     name: pageContext
     fullName: pageContext
@@ -38,6 +53,19 @@ items:
       return:
         type:
           - PageContext
+  - uid: '@ms/sp-tenant-admin-page.AppContext.reduxStore'
+    name: reduxStore
+    fullName: reduxStore
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Store<IState> reduxStore
+      return:
+        type:
+          - Store<@@ms/sp-tenant-admin-page.IState>
   - uid: '@ms/sp-tenant-admin-page.AppContext.serviceScope'
     name: serviceScope
     fullName: serviceScope

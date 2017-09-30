@@ -6,6 +6,10 @@ items:
     children:
       - '@microsoft/sp-dialog.BaseDialog.constructor'
       - '@microsoft/sp-dialog.BaseDialog.close'
+      - '@microsoft/sp-dialog.BaseDialog.isHidden'
+      - '@microsoft/sp-dialog.BaseDialog.isOpen'
+      - '@microsoft/sp-dialog.BaseDialog.isSecondary'
+      - '@microsoft/sp-dialog.BaseDialog.secondaryDialogProvider'
       - '@microsoft/sp-dialog.BaseDialog.show'
     langs:
       - typeScript
@@ -16,6 +20,7 @@ items:
 
       dialogs to the user inside SharePoint Framework components.
     package: '@microsoft/sp-dialog'
+    isPreview: true
   - uid: '@microsoft/sp-dialog.BaseDialog.constructor'
     name: BaseDialog
     children: []
@@ -91,6 +96,75 @@ items:
       return:
         type:
           - Promise<void>
+  - uid: '@microsoft/sp-dialog.BaseDialog.isHidden'
+    name: isHidden
+    fullName: isHidden
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If the dialog is visually hidden. This happens when the dialog goes behind
+      a secondary dialog.
+
+      Note that this is different from closed, because the dialog still has the
+      permission to show and will
+
+      eventually unhide. This returns false if the dialog is closed.
+    syntax:
+      content: boolean isHidden
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-dialog.BaseDialog.isOpen'
+    name: isOpen
+    fullName: isOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If the dialog is visually open. This returns true during onBeforeOpen()
+      because there is a visual component.
+
+      It returns false when the dialog is hidden.
+    syntax:
+      content: boolean isOpen
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-dialog.BaseDialog.isSecondary'
+    name: isSecondary
+    fullName: isSecondary
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If the dialog is a secondary dialog. This means that there is another
+      dialog hidden behind this dialog.
+    syntax:
+      content: boolean isSecondary
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-dialog.BaseDialog.secondaryDialogProvider'
+    name: secondaryDialogProvider
+    fullName: secondaryDialogProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An active dialog is permitted to show a secondary dialog on top of itself.
+      By design, only two layers of
+
+      dialogs are permitted.
+    syntax:
+      content: SecondaryDialogProvider secondaryDialogProvider
+      return:
+        type:
+          - SecondaryDialogProvider
   - uid: '@microsoft/sp-dialog.BaseDialog.show'
     name: show
     children: []

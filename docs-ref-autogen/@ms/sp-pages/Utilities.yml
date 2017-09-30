@@ -33,6 +33,7 @@ items:
       - '@ms/sp-pages.Utilities.isRTL'
       - '@ms/sp-pages.Utilities.isSaveResponseSuccessful'
       - '@ms/sp-pages.Utilities.isTeamsWebView'
+      - '@ms/sp-pages.Utilities.isUneditedHomePage'
       - '@ms/sp-pages.Utilities.isWebViewHosted'
       - '@ms/sp-pages.Utilities.isXSite'
       - '@ms/sp-pages.Utilities.loadTheme'
@@ -55,6 +56,7 @@ items:
       - '@ms/sp-pages.Utilities.setCustomTitleRegion'
       - '@ms/sp-pages.Utilities.shell'
       - '@ms/sp-pages.Utilities.spPageContextInfo'
+      - '@ms/sp-pages.Utilities.state'
       - '@ms/sp-pages.Utilities.suiteNavConfiguration'
       - '@ms/sp-pages.Utilities.transitionToNewPage'
       - '@ms/sp-pages.Utilities.url'
@@ -546,6 +548,19 @@ items:
       return:
         type:
           - boolean
+  - uid: '@ms/sp-pages.Utilities.isUneditedHomePage'
+    name: isUneditedHomePage
+    fullName: isUneditedHomePage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static boolean isUneditedHomePage
+      return:
+        type:
+          - boolean
   - uid: '@ms/sp-pages.Utilities.isWebViewHosted'
     name: isWebViewHosted
     children: []
@@ -893,6 +908,19 @@ items:
       return:
         type:
           - any
+  - uid: '@ms/sp-pages.Utilities.state'
+    name: state
+    fullName: state
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static IHistoryStateData state
+      return:
+        type:
+          - '@@ms/sp-pages.IHistoryStateData'
   - uid: '@ms/sp-pages.Utilities.suiteNavConfiguration'
     name: suiteNavConfiguration
     fullName: suiteNavConfiguration

@@ -4,16 +4,32 @@ items:
     name: ItemTypeStringUtility
     fullName: ItemTypeStringUtility
     children:
+      - '@ms/sp-filepicker.ItemTypeStringUtility.genericItemPlaceholder'
       - '@ms/sp-filepicker.ItemTypeStringUtility.getAddOrChangeLinkLabel'
       - '@ms/sp-filepicker.ItemTypeStringUtility.getChooseLinkLabel'
       - '@ms/sp-filepicker.ItemTypeStringUtility.getUploadButtonText'
       - '@ms/sp-filepicker.ItemTypeStringUtility.getUploadHeading'
       - '@ms/sp-filepicker.ItemTypeStringUtility.constructor'
+      - '@ms/sp-filepicker.ItemTypeStringUtility.screenReaderFileType'
+      - '@ms/sp-filepicker.ItemTypeStringUtility.specificItemPlaceholder'
     langs:
       - typeScript
     type: class
     summary: ''
     package: '@ms/sp-filepicker'
+  - uid: '@ms/sp-filepicker.ItemTypeStringUtility.genericItemPlaceholder'
+    name: genericItemPlaceholder
+    fullName: genericItemPlaceholder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string genericItemPlaceholder
+      return:
+        type:
+          - string
   - uid: '@ms/sp-filepicker.ItemTypeStringUtility.getAddOrChangeLinkLabel'
     name: getAddOrChangeLinkLabel
     children: []
@@ -96,3 +112,29 @@ items:
           type:
             - Set<FilePickerItemType>
           description: ''
+  - uid: '@ms/sp-filepicker.ItemTypeStringUtility.screenReaderFileType'
+    name: screenReaderFileType
+    fullName: screenReaderFileType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string screenReaderFileType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-filepicker.ItemTypeStringUtility.specificItemPlaceholder'
+    name: specificItemPlaceholder
+    fullName: specificItemPlaceholder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string specificItemPlaceholder
+      return:
+        type:
+          - string

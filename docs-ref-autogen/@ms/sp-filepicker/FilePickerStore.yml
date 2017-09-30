@@ -7,6 +7,7 @@ items:
       - '@ms/sp-filepicker.FilePickerStore.addListener'
       - '@ms/sp-filepicker.FilePickerStore.dispatch'
       - '@ms/sp-filepicker.FilePickerStore.constructor'
+      - '@ms/sp-filepicker.FilePickerStore.instance'
       - '@ms/sp-filepicker.FilePickerStore.removeAllListeners'
       - '@ms/sp-filepicker.FilePickerStore.removeListener'
     langs:
@@ -52,6 +53,19 @@ items:
     syntax:
       content: new FilePickerStore()
       parameters: []
+  - uid: '@ms/sp-filepicker.FilePickerStore.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static FilePickerStore instance
+      return:
+        type:
+          - '@@ms/sp-filepicker.FilePickerStore'
   - uid: '@ms/sp-filepicker.FilePickerStore.removeAllListeners'
     name: removeAllListeners
     children: []

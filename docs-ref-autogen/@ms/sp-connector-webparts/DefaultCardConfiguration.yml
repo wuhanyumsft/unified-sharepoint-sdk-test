@@ -3,9 +3,23 @@ items:
   - uid: '@ms/sp-connector-webparts.DefaultCardConfiguration'
     name: DefaultCardConfiguration
     fullName: DefaultCardConfiguration
-    children: []
+    children:
+      - '@ms/sp-connector-webparts.DefaultCardConfiguration.configuration'
     langs:
       - typeScript
     type: class
     summary: ''
     package: '@ms/sp-connector-webparts'
+  - uid: '@ms/sp-connector-webparts.DefaultCardConfiguration.configuration'
+    name: configuration
+    fullName: configuration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static IHostConfig configuration
+      return:
+        type:
+          - IHostConfig

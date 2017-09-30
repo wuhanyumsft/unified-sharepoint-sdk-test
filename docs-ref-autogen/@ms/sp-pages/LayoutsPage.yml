@@ -7,6 +7,7 @@ items:
       - '@ms/sp-pages.LayoutsPage.componentWillMount'
       - '@ms/sp-pages.LayoutsPage.componentWillUpdate'
       - '@ms/sp-pages.LayoutsPage.isLayoutsPage'
+      - '@ms/sp-pages.LayoutsPage.pageLayout'
     langs:
       - typeScript
     type: class
@@ -47,3 +48,16 @@ items:
       return:
         type:
           - boolean
+  - uid: '@ms/sp-pages.LayoutsPage.pageLayout'
+    name: pageLayout
+    fullName: pageLayout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string pageLayout
+      return:
+        type:
+          - string

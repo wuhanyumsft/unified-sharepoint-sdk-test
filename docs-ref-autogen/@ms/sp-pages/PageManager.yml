@@ -4,18 +4,56 @@ items:
     name: PageManager
     fullName: PageManager
     children:
+      - '@ms/sp-pages.PageManager.a11yManager'
+      - '@ms/sp-pages.PageManager.autoSaver'
       - '@ms/sp-pages.PageManager.commentsDataProvider'
+      - '@ms/sp-pages.PageManager.controls'
+      - '@ms/sp-pages.PageManager.firstRunDataProvider'
       - '@ms/sp-pages.PageManager.getWebPartManifest'
       - '@ms/sp-pages.PageManager.initialize'
+      - '@ms/sp-pages.PageManager.instance'
       - '@ms/sp-pages.PageManager.loadAlternativeUrlMap'
+      - '@ms/sp-pages.PageManager.pageContext'
+      - '@ms/sp-pages.PageManager.pageDataProvider'
       - '@ms/sp-pages.PageManager.register'
       - '@ms/sp-pages.PageManager.savePage'
+      - '@ms/sp-pages.PageManager.serviceScope'
+      - '@ms/sp-pages.PageManager.signalProvider'
+      - '@ms/sp-pages.PageManager.socialDataProvider'
+      - '@ms/sp-pages.PageManager.suiteNavManager'
       - '@ms/sp-pages.PageManager.unregister'
+      - '@ms/sp-pages.PageManager.webPartManager'
     langs:
       - typeScript
     type: class
     summary: ''
     package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.PageManager.a11yManager'
+    name: a11yManager
+    fullName: a11yManager
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: A11yManager a11yManager
+      return:
+        type:
+          - A11yManager
+  - uid: '@ms/sp-pages.PageManager.autoSaver'
+    name: autoSaver
+    fullName: autoSaver
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: AutoSaveTimer autoSaver
+      return:
+        type:
+          - '@@ms/sp-pages.AutoSaveTimer'
   - uid: '@ms/sp-pages.PageManager.commentsDataProvider'
     name: commentsDataProvider
     children: []
@@ -29,6 +67,32 @@ items:
       return:
         type:
           - Promise<@@ms/sp-pages.CommentsDataProvider>
+  - uid: '@ms/sp-pages.PageManager.controls'
+    name: controls
+    fullName: controls
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<IPublishingControl> controls
+      return:
+        type:
+          - Array<@@ms/sp-pages.IPublishingControl>
+  - uid: '@ms/sp-pages.PageManager.firstRunDataProvider'
+    name: firstRunDataProvider
+    fullName: firstRunDataProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: FirstRunDataProvider firstRunDataProvider
+      return:
+        type:
+          - '@@ms/sp-pages.FirstRunDataProvider'
   - uid: '@ms/sp-pages.PageManager.getWebPartManifest'
     name: getWebPartManifest
     children: []
@@ -75,6 +139,19 @@ items:
             - A11yManager
           description: ''
           optional: true
+  - uid: '@ms/sp-pages.PageManager.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static PageManager instance
+      return:
+        type:
+          - '@@ms/sp-pages.PageManager'
   - uid: '@ms/sp-pages.PageManager.loadAlternativeUrlMap'
     name: loadAlternativeUrlMap
     children: []
@@ -92,6 +169,32 @@ items:
             - IAlternativeUrlTable
           description: ''
           optional: true
+  - uid: '@ms/sp-pages.PageManager.pageContext'
+    name: pageContext
+    fullName: pageContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageContext pageContext
+      return:
+        type:
+          - PageContext
+  - uid: '@ms/sp-pages.PageManager.pageDataProvider'
+    name: pageDataProvider
+    fullName: pageDataProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IPageDataProvider pageDataProvider
+      return:
+        type:
+          - '@@ms/sp-pages.IPageDataProvider'
   - uid: '@ms/sp-pages.PageManager.register'
     name: register
     children: []
@@ -116,6 +219,58 @@ items:
     syntax:
       content: function savePage()
       parameters: []
+  - uid: '@ms/sp-pages.PageManager.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope
+  - uid: '@ms/sp-pages.PageManager.signalProvider'
+    name: signalProvider
+    fullName: signalProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: SignalProvider signalProvider
+      return:
+        type:
+          - '@@ms/sp-pages.SignalProvider'
+  - uid: '@ms/sp-pages.PageManager.socialDataProvider'
+    name: socialDataProvider
+    fullName: socialDataProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Promise<SocialDataProvider> socialDataProvider
+      return:
+        type:
+          - Promise<@@ms/sp-pages.SocialDataProvider>
+  - uid: '@ms/sp-pages.PageManager.suiteNavManager'
+    name: suiteNavManager
+    fullName: suiteNavManager
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISuiteNavManager suiteNavManager
+      return:
+        type:
+          - ISuiteNavManager
   - uid: '@ms/sp-pages.PageManager.unregister'
     name: unregister
     children: []
@@ -130,3 +285,16 @@ items:
           type:
             - '@@ms/sp-pages.IPublishingControl'
           description: ''
+  - uid: '@ms/sp-pages.PageManager.webPartManager'
+    name: webPartManager
+    fullName: webPartManager
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Get the ClientSideWebPartManager for WebParts in the page layout
+    syntax:
+      content: ClientSideWebPartManager webPartManager
+      return:
+        type:
+          - ClientSideWebPartManager

@@ -5,6 +5,7 @@ items:
     fullName: AddressStore
     children:
       - '@microsoft/sp-loader.AddressStore.getNormalizedName'
+      - '@microsoft/sp-loader.AddressStore.instance'
       - '@microsoft/sp-loader.AddressStore.set'
       - '@microsoft/sp-loader.AddressStore.tryGetAddress'
     langs:
@@ -31,6 +32,19 @@ items:
             - string
           description: |
             Address
+  - uid: '@microsoft/sp-loader.AddressStore.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static AddressStore instance
+      return:
+        type:
+          - '@@microsoft/sp-loader.AddressStore'
   - uid: '@microsoft/sp-loader.AddressStore.set'
     name: set
     children: []

@@ -28,6 +28,7 @@ items:
       name: >-
         @@microsoft/sp-webpart-base.PropertyPaneCustomFieldHost<@@microsoft/sp-webpart-base.IPropertyPaneCustomFieldInternalProps>
     package: '@microsoft/sp-webpart-base'
+    isPreview: true
   - uid: '@microsoft/sp-webpart-base.PropertyPaneCustomFieldHost.componentDidMount'
     name: componentDidMount
     children: []

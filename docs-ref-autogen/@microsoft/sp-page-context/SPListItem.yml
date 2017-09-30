@@ -4,6 +4,7 @@ items:
     name: SPListItem
     fullName: SPListItem
     children:
+      - '@microsoft/sp-page-context.SPListItem.id'
       - '@microsoft/sp-page-context.SPListItem.constructor'
     langs:
       - typeScript
@@ -14,6 +15,19 @@ items:
 
       information for the SharePoint list item that hosts the page.
     package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.SPListItem.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The number that identifies the SPListItem on the server.
+    syntax:
+      content: number id
+      return:
+        type:
+          - number
   - uid: '@microsoft/sp-page-context.SPListItem.constructor'
     name: SPListItem
     children: []

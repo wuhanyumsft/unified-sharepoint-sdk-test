@@ -8,6 +8,7 @@ items:
       - '@ms/sp-canvas.SPRteLinkDialog.componentWillReceiveProps'
       - '@ms/sp-canvas.SPRteLinkDialog.render'
       - '@ms/sp-canvas.SPRteLinkDialog.constructor'
+      - '@ms/sp-canvas.SPRteLinkDialog.textFieldValue'
     langs:
       - typeScript
     type: class
@@ -70,3 +71,16 @@ items:
           type:
             - '@@ms/sp-canvas.ISPRteLinkDialogProps'
           description: ''
+  - uid: '@ms/sp-canvas.SPRteLinkDialog.textFieldValue'
+    name: textFieldValue
+    fullName: textFieldValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string textFieldValue
+      return:
+        type:
+          - string

@@ -4,6 +4,7 @@ items:
     name: ReportArticlePageLayout
     fullName: ReportArticlePageLayout
     children:
+      - '@ms/sp-pages.ReportArticlePageLayout.commandBarUpdate'
       - '@ms/sp-pages.ReportArticlePageLayout.render'
       - '@ms/sp-pages.ReportArticlePageLayout.constructor'
       - '@ms/sp-pages.ReportArticlePageLayout.unmount'
@@ -14,6 +15,19 @@ items:
     extends:
       name: '@@ms/sp-pages.BasePageLayout'
     package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.ReportArticlePageLayout.commandBarUpdate'
+    name: commandBarUpdate
+    fullName: commandBarUpdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ICommandbarProps commandBarUpdate
+      return:
+        type:
+          - '@@ms/sp-pages.ICommandbarProps'
   - uid: '@ms/sp-pages.ReportArticlePageLayout.render'
     name: render
     children: []

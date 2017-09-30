@@ -4,12 +4,26 @@ items:
     name: SPSiteActivityDataProvider
     fullName: SPSiteActivityDataProvider
     children:
+      - '@ms/sp-tenant-admin-page.SPSiteActivityDataProvider.asOfDate'
       - '@ms/sp-tenant-admin-page.SPSiteActivityDataProvider.getActivityCsvData'
     langs:
       - typeScript
     type: class
     summary: ''
     package: '@ms/sp-tenant-admin-page'
+  - uid: '@ms/sp-tenant-admin-page.SPSiteActivityDataProvider.asOfDate'
+    name: asOfDate
+    fullName: asOfDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string asOfDate
+      return:
+        type:
+          - string
   - uid: '@ms/sp-tenant-admin-page.SPSiteActivityDataProvider.getActivityCsvData'
     name: getActivityCsvData
     children: []

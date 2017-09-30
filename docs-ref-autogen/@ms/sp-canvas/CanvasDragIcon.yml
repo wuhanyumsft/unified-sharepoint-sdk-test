@@ -5,6 +5,7 @@ items:
     fullName: CanvasDragIcon
     children:
       - '@ms/sp-canvas.CanvasDragIcon.constructor'
+      - '@ms/sp-canvas.CanvasDragIcon.HTMLIcon'
       - '@ms/sp-canvas.CanvasDragIcon.setDisallowedIcon'
       - '@ms/sp-canvas.CanvasDragIcon.setMoveIconBasedOnControl'
       - '@ms/sp-canvas.CanvasDragIcon.setMoveIconBasedOnZone'
@@ -24,6 +25,19 @@ items:
     syntax:
       content: new CanvasDragIcon()
       parameters: []
+  - uid: '@ms/sp-canvas.CanvasDragIcon.HTMLIcon'
+    name: HTMLIcon
+    fullName: HTMLIcon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement HTMLIcon
+      return:
+        type:
+          - HTMLElement
   - uid: '@ms/sp-canvas.CanvasDragIcon.setDisallowedIcon'
     name: setDisallowedIcon
     children: []

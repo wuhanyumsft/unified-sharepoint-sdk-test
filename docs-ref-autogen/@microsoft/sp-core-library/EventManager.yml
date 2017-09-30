@@ -5,6 +5,7 @@ items:
     fullName: EventManager
     children:
       - '@microsoft/sp-core-library.EventManager.constructor'
+      - '@microsoft/sp-core-library.EventManager.instance'
       - '@microsoft/sp-core-library.EventManager.registerEvent'
       - '@microsoft/sp-core-library.EventManager.unregisterEvent'
     langs:
@@ -36,6 +37,19 @@ items:
     syntax:
       content: new EventManager()
       parameters: []
+  - uid: '@microsoft/sp-core-library.EventManager.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Instance of the EventManager.
+    syntax:
+      content: static EventManager instance
+      return:
+        type:
+          - '@@microsoft/sp-core-library.EventManager'
   - uid: '@microsoft/sp-core-library.EventManager.registerEvent'
     name: registerEvent
     children: []

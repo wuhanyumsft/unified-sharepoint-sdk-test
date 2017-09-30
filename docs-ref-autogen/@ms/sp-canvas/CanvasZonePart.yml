@@ -10,11 +10,15 @@ items:
       - '@ms/sp-canvas.CanvasZonePart.changeZoneIndex'
       - '@ms/sp-canvas.CanvasZonePart.columnDefinitionMap'
       - '@ms/sp-canvas.CanvasZonePart.dispose'
+      - '@ms/sp-canvas.CanvasZonePart.elementKey'
       - '@ms/sp-canvas.CanvasZonePart.fetchAllControls'
       - '@ms/sp-canvas.CanvasZonePart.fetchControl'
+      - '@ms/sp-canvas.CanvasZonePart.index'
       - '@ms/sp-canvas.CanvasZonePart.isEmpty'
+      - '@ms/sp-canvas.CanvasZonePart.layoutType'
       - '@ms/sp-canvas.CanvasZonePart.moveControl'
       - '@ms/sp-canvas.CanvasZonePart.removeControl'
+      - '@ms/sp-canvas.CanvasZonePart.sections'
     langs:
       - typeScript
     type: class
@@ -120,6 +124,26 @@ items:
     syntax:
       content: function dispose()
       parameters: []
+  - uid: '@ms/sp-canvas.CanvasZonePart.elementKey'
+    name: elementKey
+    fullName: elementKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Key used by react to identify the DOM element that this zone part will be
+      props to.
+
+      Each CanvasZone needs a unique key that is persisted between serialization
+      operations so react
+
+      can keep track of reordering operations
+    syntax:
+      content: string elementKey
+      return:
+        type:
+          - string
   - uid: '@ms/sp-canvas.CanvasZonePart.fetchAllControls'
     name: fetchAllControls
     children: []
@@ -151,6 +175,19 @@ items:
       return:
         type:
           - '@@ms/sp-canvas.ICanvasControl'
+  - uid: '@ms/sp-canvas.CanvasZonePart.index'
+    name: index
+    fullName: index
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the index associated with this zone
+    syntax:
+      content: number index
+      return:
+        type:
+          - number
   - uid: '@ms/sp-canvas.CanvasZonePart.isEmpty'
     name: isEmpty
     children: []
@@ -164,6 +201,19 @@ items:
       return:
         type:
           - boolean
+  - uid: '@ms/sp-canvas.CanvasZonePart.layoutType'
+    name: layoutType
+    fullName: layoutType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CanvasControlType layoutType
+      return:
+        type:
+          - CanvasControlType
   - uid: '@ms/sp-canvas.CanvasZonePart.moveControl'
     name: moveControl
     children: []
@@ -202,3 +252,16 @@ items:
       return:
         type:
           - string
+  - uid: '@ms/sp-canvas.CanvasZonePart.sections'
+    name: sections
+    fullName: sections
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the sections associated with the current zone
+    syntax:
+      content: 'CanvasSectionPart[] sections'
+      return:
+        type:
+          - '@@ms/sp-canvas.CanvasSectionPart[]'

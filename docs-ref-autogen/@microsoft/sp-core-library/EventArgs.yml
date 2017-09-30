@@ -13,3 +13,4 @@ items:
       Use as a parameter for the Event class to provide type safety on the event
       arguments.
     package: '@microsoft/sp-core-library'
+    isPreview: true

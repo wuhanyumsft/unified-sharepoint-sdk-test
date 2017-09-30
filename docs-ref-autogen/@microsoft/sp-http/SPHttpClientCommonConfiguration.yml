@@ -4,6 +4,8 @@ items:
     name: SPHttpClientCommonConfiguration
     fullName: SPHttpClientCommonConfiguration
     children:
+      - '@microsoft/sp-http.SPHttpClientCommonConfiguration.jsonRequest'
+      - '@microsoft/sp-http.SPHttpClientCommonConfiguration.jsonResponse'
       - '@microsoft/sp-http.SPHttpClientCommonConfiguration.overrideWith'
       - '@microsoft/sp-http.SPHttpClientCommonConfiguration.constructor'
     langs:
@@ -15,6 +17,32 @@ items:
     extends:
       name: '@@microsoft/sp-http.HttpClientConfiguration'
     package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.SPHttpClientCommonConfiguration.jsonRequest'
+    name: jsonRequest
+    fullName: jsonRequest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc ISPHttpClientCommonConfiguration.jsonRequest}'
+    syntax:
+      content: boolean jsonRequest
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-http.SPHttpClientCommonConfiguration.jsonResponse'
+    name: jsonResponse
+    fullName: jsonResponse
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc ISPHttpClientCommonConfiguration.jsonResponse}'
+    syntax:
+      content: boolean jsonResponse
+      return:
+        type:
+          - boolean
   - uid: '@microsoft/sp-http.SPHttpClientCommonConfiguration.overrideWith'
     name: overrideWith
     children: []

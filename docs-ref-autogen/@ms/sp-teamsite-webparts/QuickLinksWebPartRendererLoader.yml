@@ -3,9 +3,23 @@ items:
   - uid: '@ms/sp-teamsite-webparts.QuickLinksWebPartRendererLoader'
     name: QuickLinksWebPartRendererLoader
     fullName: QuickLinksWebPartRendererLoader
-    children: []
+    children:
+      - '@ms/sp-teamsite-webparts.QuickLinksWebPartRendererLoader.module'
     langs:
       - typeScript
     type: class
     summary: ''
     package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksWebPartRendererLoader.module'
+    name: module
+    fullName: module
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Promise<any> module
+      return:
+        type:
+          - Promise<any>

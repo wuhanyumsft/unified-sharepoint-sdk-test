@@ -9,6 +9,7 @@ items:
       - '@microsoft/sp-loader.BaseComponentLoader.loadComponentById'
       - '@microsoft/sp-loader.BaseComponentLoader.loadCss'
       - '@microsoft/sp-loader.BaseComponentLoader.loadScript'
+      - '@microsoft/sp-loader.BaseComponentLoader.manifests'
       - '@microsoft/sp-loader.BaseComponentLoader.registerManifests'
       - '@microsoft/sp-loader.BaseComponentLoader.startApplication'
       - '@microsoft/sp-loader.BaseComponentLoader.tryGetManifestById'
@@ -119,6 +120,19 @@ items:
       return:
         type:
           - Promise<TModule>
+  - uid: '@microsoft/sp-loader.BaseComponentLoader.manifests'
+    name: manifests
+    fullName: manifests
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: All registered manifests.
+    syntax:
+      content: 'IClientSideComponentManifest[] manifests'
+      return:
+        type:
+          - 'IClientSideComponentManifest[]'
   - uid: '@microsoft/sp-loader.BaseComponentLoader.registerManifests'
     name: registerManifests
     children: []

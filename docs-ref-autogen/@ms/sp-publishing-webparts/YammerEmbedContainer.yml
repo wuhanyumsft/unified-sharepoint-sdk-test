@@ -11,6 +11,7 @@ items:
       - '@ms/sp-publishing-webparts.YammerEmbedContainer.render'
       - '@ms/sp-publishing-webparts.YammerEmbedContainer.shouldComponentUpdate'
       - '@ms/sp-publishing-webparts.YammerEmbedContainer.showPropertyPane'
+      - '@ms/sp-publishing-webparts.YammerEmbedContainer.title'
       - '@ms/sp-publishing-webparts.YammerEmbedContainer.constructor'
     langs:
       - typeScript
@@ -115,6 +116,19 @@ items:
     syntax:
       content: function showPropertyPane()
       parameters: []
+  - uid: '@ms/sp-publishing-webparts.YammerEmbedContainer.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
   - uid: '@ms/sp-publishing-webparts.YammerEmbedContainer.constructor'
     name: YammerEmbedContainer
     children: []

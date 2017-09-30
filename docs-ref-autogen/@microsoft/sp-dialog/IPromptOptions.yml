@@ -12,6 +12,7 @@ items:
     extends:
       name: '@@microsoft/sp-dialog.IDialogShowOptions'
     package: '@microsoft/sp-dialog'
+    isPreview: true
   - uid: '@microsoft/sp-dialog.IPromptOptions.defaultValue'
     name: defaultValue
     fullName: defaultValue

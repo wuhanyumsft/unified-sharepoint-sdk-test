@@ -4,8 +4,15 @@ items:
     name: OAuthUtilityError
     fullName: OAuthUtilityError
     children:
+      - '@ms/sp-client-shared.OAuthUtilityError.correlationId'
+      - '@ms/sp-client-shared.OAuthUtilityError.cultureName'
       - '@ms/sp-client-shared.OAuthUtilityError.Error'
+      - '@ms/sp-client-shared.OAuthUtilityError.httpResponseStatus'
+      - '@ms/sp-client-shared.OAuthUtilityError.message'
       - '@ms/sp-client-shared.OAuthUtilityError.constructor'
+      - '@ms/sp-client-shared.OAuthUtilityError.redirectUrl'
+      - '@ms/sp-client-shared.OAuthUtilityError.serverErrorCode'
+      - '@ms/sp-client-shared.OAuthUtilityError.type'
     langs:
       - typeScript
     type: class
@@ -13,6 +20,32 @@ items:
     extends:
       name: Error
     package: '@ms/sp-client-shared'
+  - uid: '@ms/sp-client-shared.OAuthUtilityError.correlationId'
+    name: correlationId
+    fullName: correlationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string correlationId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-shared.OAuthUtilityError.cultureName'
+    name: cultureName
+    fullName: cultureName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string cultureName
+      return:
+        type:
+          - string
   - uid: '@ms/sp-client-shared.OAuthUtilityError.Error'
     name: Error
     fullName: Error
@@ -26,6 +59,32 @@ items:
       return:
         type:
           - ErrorConstructor
+  - uid: '@ms/sp-client-shared.OAuthUtilityError.httpResponseStatus'
+    name: httpResponseStatus
+    fullName: httpResponseStatus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number httpResponseStatus
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-client-shared.OAuthUtilityError.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string message
+      return:
+        type:
+          - string
   - uid: '@ms/sp-client-shared.OAuthUtilityError.constructor'
     name: OAuthUtilityError
     children: []
@@ -46,3 +105,49 @@ items:
           type:
             - '@@ms/sp-client-shared.IOAuthUtilityErrorContext'
           description: ''
+  - uid: '@ms/sp-client-shared.OAuthUtilityError.redirectUrl'
+    name: redirectUrl
+    fullName: redirectUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string redirectUrl
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-client-shared.OAuthUtilityError.serverErrorCode'
+    name: serverErrorCode
+    fullName: serverErrorCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      serverErrorCode is set only if the type of the OAuthUtilityError
+      containing this object
+
+      is serverError.
+
+      Server error codes are defined in the
+      SPDelegationTokenServiceProviderErrorCodes class
+    syntax:
+      content: number serverErrorCode
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-client-shared.OAuthUtilityError.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number type
+      return:
+        type:
+          - number

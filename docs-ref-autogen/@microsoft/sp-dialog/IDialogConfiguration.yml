@@ -10,6 +10,7 @@ items:
     type: interface
     summary: The interface for dialog configuration
     package: '@microsoft/sp-dialog'
+    isPreview: true
   - uid: '@microsoft/sp-dialog.IDialogConfiguration.isBlocking'
     name: isBlocking
     fullName: isBlocking

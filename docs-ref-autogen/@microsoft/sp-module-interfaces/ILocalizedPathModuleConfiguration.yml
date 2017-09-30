@@ -19,6 +19,7 @@ items:
     extends:
       name: '@@microsoft/sp-module-interfaces.IModuleConfiguration'
     package: '@microsoft/sp-module-interfaces'
+    isPreview: true
   - uid: >-
       @microsoft/sp-module-interfaces.ILocalizedPathModuleConfiguration.defaultPath
     name: defaultPath

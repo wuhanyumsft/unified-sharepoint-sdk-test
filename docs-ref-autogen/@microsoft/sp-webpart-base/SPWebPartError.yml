@@ -4,8 +4,10 @@ items:
     name: SPWebPartError
     fullName: SPWebPartError
     children:
+      - '@microsoft/sp-webpart-base.SPWebPartError.category'
       - '@microsoft/sp-webpart-base.SPWebPartError.create'
       - '@microsoft/sp-webpart-base.SPWebPartError.createWithLogProperties'
+      - '@microsoft/sp-webpart-base.SPWebPartError.id'
     langs:
       - typeScript
     type: class
@@ -13,6 +15,19 @@ items:
     extends:
       name: '@@microsoft/sp-webpart-base.SPWebPartError'
     package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.SPWebPartError.category'
+    name: category
+    fullName: category
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns 'SPWebPartErrorCode'.
+    syntax:
+      content: string category
+      return:
+        type:
+          - string
   - uid: '@microsoft/sp-webpart-base.SPWebPartError.create'
     name: create
     children: []
@@ -61,3 +76,16 @@ items:
       return:
         type:
           - '@@microsoft/sp-webpart-base.SPWebPartError'
+  - uid: '@microsoft/sp-webpart-base.SPWebPartError.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number id
+      return:
+        type:
+          - number

@@ -15,6 +15,7 @@ items:
 
       custom content.
     package: '@microsoft/sp-application-base'
+    isPreview: true
   - uid: '@microsoft/sp-application-base.PlaceholderName.Top'
     name: Top
     children: []

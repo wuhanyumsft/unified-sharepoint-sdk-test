@@ -4,6 +4,7 @@ items:
     name: RowWrapper
     fullName: RowWrapper
     children:
+      - '@ms/listview-spfx-host.RowWrapper.fields'
       - '@ms/listview-spfx-host.RowWrapper.getValue'
       - '@ms/listview-spfx-host.RowWrapper.getValueByName'
       - '@ms/listview-spfx-host.RowWrapper.constructor'
@@ -14,6 +15,19 @@ items:
     extends:
       name: '@@ms/listview-spfx-host.RowWrapper'
     package: '@ms/listview-spfx-host'
+  - uid: '@ms/listview-spfx-host.RowWrapper.fields'
+    name: fields
+    fullName: fields
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ReadonlyArray<SPField> fields
+      return:
+        type:
+          - ReadonlyArray<SPField>
   - uid: '@ms/listview-spfx-host.RowWrapper.getValue'
     name: getValue
     children: []

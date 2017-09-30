@@ -4,9 +4,12 @@ items:
     name: DesignPackage
     fullName: DesignPackage
     children:
+      - '@ms/sp-pages.DesignPackage.chromeOptions'
       - '@ms/sp-pages.DesignPackage.constructor'
+      - '@ms/sp-pages.DesignPackage.layouts'
       - '@ms/sp-pages.DesignPackage.reportSiteDesignPackageJSON'
       - '@ms/sp-pages.DesignPackage.teamSiteDesignPackageJSON'
+      - '@ms/sp-pages.DesignPackage.templates'
     langs:
       - typeScript
     type: class
@@ -14,6 +17,19 @@ items:
       Client side representation of site design package data
       It includes chrome options, available page layouts, and page templates.
     package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.DesignPackage.chromeOptions'
+    name: chromeOptions
+    fullName: chromeOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IChromeOptions chromeOptions
+      return:
+        type:
+          - IChromeOptions
   - uid: '@ms/sp-pages.DesignPackage.constructor'
     name: DesignPackage
     children: []
@@ -28,6 +44,19 @@ items:
           type:
             - string
           description: ''
+  - uid: '@ms/sp-pages.DesignPackage.layouts'
+    name: layouts
+    fullName: layouts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'PageLayout[] layouts'
+      return:
+        type:
+          - 'PageLayout[]'
   - uid: '@ms/sp-pages.DesignPackage.reportSiteDesignPackageJSON'
     name: reportSiteDesignPackageJSON
     fullName: reportSiteDesignPackageJSON
@@ -54,3 +83,16 @@ items:
       return:
         type:
           - string
+  - uid: '@ms/sp-pages.DesignPackage.templates'
+    name: templates
+    fullName: templates
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Map<string> templates
+      return:
+        type:
+          - Map<string>

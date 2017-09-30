@@ -4,7 +4,10 @@ items:
     name: SPRteCKEditorConfiguration
     fullName: SPRteCKEditorConfiguration
     children:
+      - '@ms/sp-canvas.SPRteCKEditorConfiguration.editorElementClassName'
+      - '@ms/sp-canvas.SPRteCKEditorConfiguration.formats'
       - '@ms/sp-canvas.SPRteCKEditorConfiguration.constructor'
+      - '@ms/sp-canvas.SPRteCKEditorConfiguration.supportedFormatsArray'
     langs:
       - typeScript
     type: class
@@ -16,6 +19,32 @@ items:
       Should this change in the future, we'll need to change this to non-static
       design
     package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.SPRteCKEditorConfiguration.editorElementClassName'
+    name: editorElementClassName
+    fullName: editorElementClassName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string editorElementClassName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.SPRteCKEditorConfiguration.formats'
+    name: formats
+    fullName: formats
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Map<string> formats
+      return:
+        type:
+          - Map<string>
   - uid: '@ms/sp-canvas.SPRteCKEditorConfiguration.constructor'
     name: SPRteCKEditorConfiguration
     children: []
@@ -26,3 +55,16 @@ items:
     syntax:
       content: new SPRteCKEditorConfiguration()
       parameters: []
+  - uid: '@ms/sp-canvas.SPRteCKEditorConfiguration.supportedFormatsArray'
+    name: supportedFormatsArray
+    fullName: supportedFormatsArray
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IRichTextFormat[] supportedFormatsArray'
+      return:
+        type:
+          - '@@ms/sp-canvas.IRichTextFormat[]'

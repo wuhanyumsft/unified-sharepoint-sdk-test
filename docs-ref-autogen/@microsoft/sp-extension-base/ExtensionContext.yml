@@ -5,6 +5,9 @@ items:
     fullName: ExtensionContext
     children:
       - '@microsoft/sp-extension-base.ExtensionContext.constructor'
+      - '@microsoft/sp-extension-base.ExtensionContext.graphHttpClient'
+      - '@microsoft/sp-extension-base.ExtensionContext.httpClient'
+      - '@microsoft/sp-extension-base.ExtensionContext.spHttpClient'
     langs:
       - typeScript
     type: class
@@ -30,3 +33,42 @@ items:
           type:
             - '@@microsoft/sp-extension-base.IExtensionContextParameters'
           description: ''
+  - uid: '@microsoft/sp-extension-base.ExtensionContext.graphHttpClient'
+    name: graphHttpClient
+    fullName: graphHttpClient
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The instance of GraphHttpClient created for this instance of extension
+    syntax:
+      content: GraphHttpClient graphHttpClient
+      return:
+        type:
+          - GraphHttpClient
+  - uid: '@microsoft/sp-extension-base.ExtensionContext.httpClient'
+    name: httpClient
+    fullName: httpClient
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The instance of HttpClient created for this instance of extension
+    syntax:
+      content: HttpClient httpClient
+      return:
+        type:
+          - HttpClient
+  - uid: '@microsoft/sp-extension-base.ExtensionContext.spHttpClient'
+    name: spHttpClient
+    fullName: spHttpClient
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The instance of SpHttpClient created for this instance of extension
+    syntax:
+      content: SPHttpClient spHttpClient
+      return:
+        type:
+          - SPHttpClient

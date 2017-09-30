@@ -4,7 +4,9 @@ items:
     name: SPFileHandler
     fullName: SPFileHandler
     children:
+      - '@ms/sp-webpart-shared.SPFileHandler.containerUrl'
       - '@ms/sp-webpart-shared.SPFileHandler.getPageName'
+      - '@ms/sp-webpart-shared.SPFileHandler.pagePathName'
       - '@ms/sp-webpart-shared.SPFileHandler.readFile'
       - '@ms/sp-webpart-shared.SPFileHandler.removeExtension'
       - '@ms/sp-webpart-shared.SPFileHandler.replaceSpecialCharacters'
@@ -17,6 +19,19 @@ items:
     type: class
     summary: ''
     package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.SPFileHandler.containerUrl'
+    name: containerUrl
+    fullName: containerUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Change the container in the upload end point url
+    syntax:
+      content: void containerUrl
+      return:
+        type:
+          - void
   - uid: '@ms/sp-webpart-shared.SPFileHandler.getPageName'
     name: getPageName
     children: []
@@ -31,6 +46,24 @@ items:
           type:
             - string
           description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.SPFileHandler.pagePathName'
+    name: pagePathName
+    fullName: pagePathName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Leaf URL portion of the page as serverRequestPath doesn't change within
+      the session.
+
+      Note that page renames don't chang the pathname after the page title was
+      first entered.
+    syntax:
+      content: static string pagePathName
       return:
         type:
           - string

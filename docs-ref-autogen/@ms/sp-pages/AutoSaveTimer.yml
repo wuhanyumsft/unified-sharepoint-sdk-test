@@ -6,6 +6,8 @@ items:
     children:
       - '@ms/sp-pages.AutoSaveTimer.constructor'
       - '@ms/sp-pages.AutoSaveTimer.clearAutoSaveTimer'
+      - '@ms/sp-pages.AutoSaveTimer.isPageDirty'
+      - '@ms/sp-pages.AutoSaveTimer.isSaveInProgress'
       - '@ms/sp-pages.AutoSaveTimer.pageContentChanged'
       - '@ms/sp-pages.AutoSaveTimer.resetAutoSaveAttempts'
     langs:
@@ -37,6 +39,32 @@ items:
     syntax:
       content: function clearAutoSaveTimer()
       parameters: []
+  - uid: '@ms/sp-pages.AutoSaveTimer.isPageDirty'
+    name: isPageDirty
+    fullName: isPageDirty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Boolean isPageDirty
+      return:
+        type:
+          - Boolean
+  - uid: '@ms/sp-pages.AutoSaveTimer.isSaveInProgress'
+    name: isSaveInProgress
+    fullName: isSaveInProgress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Boolean isSaveInProgress
+      return:
+        type:
+          - Boolean
   - uid: '@ms/sp-pages.AutoSaveTimer.pageContentChanged'
     name: pageContentChanged
     children: []

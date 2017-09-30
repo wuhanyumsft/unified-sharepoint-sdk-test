@@ -15,6 +15,7 @@ items:
       - '@ms/sp-tab-tasklib.SPTaskLib.Canvas.AddTaskOpenToolbox'
       - '@ms/sp-tab-tasklib.SPTaskLib.Canvas.AddTaskOpenZonePropertyPane'
       - '@ms/sp-tab-tasklib.SPTaskLib.Canvas.AddTaskReduceZone'
+      - '@ms/sp-tab-tasklib.SPTaskLib.Canvas.canvasContentClassName'
       - '@ms/sp-tab-tasklib.SPTaskLib.Canvas.GetPageCanvasContent'
       - '@ms/sp-tab-tasklib.SPTaskLib.Canvas.SelectedWebpart'
       - '@ms/sp-tab-tasklib.SPTaskLib.Canvas.WaitForNumberOfControls'
@@ -256,6 +257,19 @@ items:
           type:
             - number
           description: ''
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.Canvas.canvasContentClassName'
+    name: canvasContentClassName
+    fullName: canvasContentClassName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string canvasContentClassName
+      return:
+        type:
+          - string
   - uid: '@ms/sp-tab-tasklib.SPTaskLib.Canvas.GetPageCanvasContent'
     name: GetPageCanvasContent
     children: []

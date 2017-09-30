@@ -13,6 +13,7 @@ items:
       Static Dialog class to provide API for showing static dialogs such as
       alert and prompt
     package: '@microsoft/sp-dialog'
+    isPreview: true
   - uid: '@microsoft/sp-dialog.Dialog.alert'
     name: alert
     children: []

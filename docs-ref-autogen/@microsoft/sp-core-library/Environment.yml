@@ -3,7 +3,8 @@ items:
   - uid: '@microsoft/sp-core-library.Environment'
     name: Environment
     fullName: Environment
-    children: []
+    children:
+      - '@microsoft/sp-core-library.Environment.type'
     langs:
       - typeScript
     type: class
@@ -13,3 +14,18 @@ items:
 
       its components.
     package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.Environment.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An enum that describes which type of enviroment the framework is running
+      in.
+    syntax:
+      content: static EnvironmentType type
+      return:
+        type:
+          - EnvironmentType

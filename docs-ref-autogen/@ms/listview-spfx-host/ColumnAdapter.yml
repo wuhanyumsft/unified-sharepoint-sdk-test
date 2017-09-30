@@ -4,7 +4,12 @@ items:
     name: ColumnAdapter
     fullName: ColumnAdapter
     children:
+      - '@ms/listview-spfx-host.ColumnAdapter.accessor'
       - '@ms/listview-spfx-host.ColumnAdapter.constructor'
+      - '@ms/listview-spfx-host.ColumnAdapter.data'
+      - '@ms/listview-spfx-host.ColumnAdapter.fieldCustomizer'
+      - '@ms/listview-spfx-host.ColumnAdapter.fieldCustomizerLoaded'
+      - '@ms/listview-spfx-host.ColumnAdapter.listViewAdapter'
       - '@ms/listview-spfx-host.ColumnAdapter.renderCell'
     langs:
       - typeScript
@@ -15,6 +20,19 @@ items:
 
       This is a sealed class. Do not extend it.
     package: '@ms/listview-spfx-host'
+  - uid: '@ms/listview-spfx-host.ColumnAdapter.accessor'
+    name: accessor
+    fullName: accessor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ColumnWrapper accessor
+      return:
+        type:
+          - '@@ms/listview-spfx-host.ColumnWrapper'
   - uid: '@ms/listview-spfx-host.ColumnAdapter.constructor'
     name: ColumnAdapter
     children: []
@@ -33,6 +51,59 @@ items:
           type:
             - '@@ms/listview-spfx-host.IListViewAdapter'
           description: ''
+  - uid: '@ms/listview-spfx-host.ColumnAdapter.data'
+    name: data
+    fullName: data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IColumn data
+      return:
+        type:
+          - '@@ms/listview-spfx-host.IColumn'
+  - uid: '@ms/listview-spfx-host.ColumnAdapter.fieldCustomizer'
+    name: fieldCustomizer
+    fullName: fieldCustomizer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: BaseFieldCustomizer<IGenericExtensionProperties> fieldCustomizer
+      return:
+        type:
+          - >-
+            BaseFieldCustomizer<@@ms/listview-spfx-host.IGenericExtensionProperties>
+  - uid: '@ms/listview-spfx-host.ColumnAdapter.fieldCustomizerLoaded'
+    name: fieldCustomizerLoaded
+    fullName: fieldCustomizerLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean fieldCustomizerLoaded
+      return:
+        type:
+          - boolean
+  - uid: '@ms/listview-spfx-host.ColumnAdapter.listViewAdapter'
+    name: listViewAdapter
+    fullName: listViewAdapter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IListViewAdapter listViewAdapter
+      return:
+        type:
+          - '@@ms/listview-spfx-host.IListViewAdapter'
   - uid: '@ms/listview-spfx-host.ColumnAdapter.renderCell'
     name: renderCell
     children: []

@@ -9,6 +9,11 @@ items:
       - '@ms/sp-publishing-webparts.EventsStore.getEventWithAttachments'
       - '@ms/sp-publishing-webparts.EventsStore.getPageEvents'
       - '@ms/sp-publishing-webparts.EventsStore.getSeriesMasterEvent'
+      - '@ms/sp-publishing-webparts.EventsStore.hasMoreEvents'
+      - '@ms/sp-publishing-webparts.EventsStore.hasPrevEvents'
+      - '@ms/sp-publishing-webparts.EventsStore.periodType'
+      - '@ms/sp-publishing-webparts.EventsStore.selectedGroup'
+      - '@ms/sp-publishing-webparts.EventsStore.showPerPage'
       - '@ms/sp-publishing-webparts.EventsStore.switchPeriod'
       - '@ms/sp-publishing-webparts.EventsStore.switchToFirstPage'
     langs:
@@ -94,6 +99,73 @@ items:
       return:
         type:
           - Promise<@@ms/sp-publishing-webparts.IExchangeCalendarEvent>
+  - uid: '@ms/sp-publishing-webparts.EventsStore.hasMoreEvents'
+    name: hasMoreEvents
+    fullName: hasMoreEvents
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasMoreEvents
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.EventsStore.hasPrevEvents'
+    name: hasPrevEvents
+    fullName: hasPrevEvents
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasPrevEvents
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.EventsStore.periodType'
+    name: periodType
+    fullName: periodType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PeriodType periodType
+      return:
+        type:
+          - PeriodType
+  - uid: '@ms/sp-publishing-webparts.EventsStore.selectedGroup'
+    name: selectedGroup
+    fullName: selectedGroup
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IExchangeGroup selectedGroup
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IExchangeGroup'
+  - uid: '@ms/sp-publishing-webparts.EventsStore.showPerPage'
+    name: showPerPage
+    fullName: showPerPage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Get the number of events to show per page.
+      Set the number of events to show per page.
+    syntax:
+      content: number showPerPage
+      return:
+        type:
+          - number
   - uid: '@ms/sp-publishing-webparts.EventsStore.switchPeriod'
     name: switchPeriod
     children: []

@@ -4,6 +4,7 @@ items:
     name: ListViewWrapper
     fullName: ListViewWrapper
     children:
+      - '@ms/listview-spfx-host.ListViewWrapper.columns'
       - '@ms/listview-spfx-host.ListViewWrapper.constructor'
       - '@ms/listview-spfx-host.ListViewWrapper.tryGetColumnByName'
     langs:
@@ -13,6 +14,19 @@ items:
     extends:
       name: '@@ms/listview-spfx-host.ListViewWrapper'
     package: '@ms/listview-spfx-host'
+  - uid: '@ms/listview-spfx-host.ListViewWrapper.columns'
+    name: columns
+    fullName: columns
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ReadonlyArray<ColumnAccessor> columns
+      return:
+        type:
+          - ReadonlyArray<ColumnAccessor>
   - uid: '@ms/listview-spfx-host.ListViewWrapper.constructor'
     name: ListViewWrapper
     children: []

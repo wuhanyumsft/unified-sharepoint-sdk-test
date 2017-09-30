@@ -5,6 +5,8 @@ items:
     fullName: PlaceholderContent
     children:
       - '@microsoft/sp-application-base.PlaceholderContent.dispose'
+      - '@microsoft/sp-application-base.PlaceholderContent.domElement'
+      - '@microsoft/sp-application-base.PlaceholderContent.name'
       - '@microsoft/sp-application-base.PlaceholderContent.constructor'
     langs:
       - typeScript
@@ -13,6 +15,7 @@ items:
       Represents custom content that is rendered inside a placeholder on a
       SharePoint page.
     package: '@microsoft/sp-application-base'
+    isPreview: true
   - uid: '@microsoft/sp-application-base.PlaceholderContent.dispose'
     name: dispose
     children: []
@@ -25,6 +28,36 @@ items:
     syntax:
       content: function dispose()
       parameters: []
+  - uid: '@microsoft/sp-application-base.PlaceholderContent.domElement'
+    name: domElement
+    fullName: domElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The Document Object Model (DOM) element where the owner should render its
+      custom content.
+    syntax:
+      content: HTMLDivElement domElement
+      return:
+        type:
+          - HTMLDivElement
+  - uid: '@microsoft/sp-application-base.PlaceholderContent.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Identifies the placeholder that this content was added to.
+      Example: PlaceholderName.Top
+    syntax:
+      content: PlaceholderName name
+      return:
+        type:
+          - PlaceholderName
   - uid: '@microsoft/sp-application-base.PlaceholderContent.constructor'
     name: PlaceholderContent
     children: []

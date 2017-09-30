@@ -4,6 +4,8 @@ items:
     name: PlaceholderProvider
     fullName: PlaceholderProvider
     children:
+      - '@microsoft/sp-application-base.PlaceholderProvider.changedEvent'
+      - '@microsoft/sp-application-base.PlaceholderProvider.placeholderNames'
       - '@microsoft/sp-application-base.PlaceholderProvider.constructor'
       - '@microsoft/sp-application-base.PlaceholderProvider.tryCreateContent'
     langs:
@@ -16,6 +18,35 @@ items:
       third party components to inject custom content into designated regions on
       the page.
     package: '@microsoft/sp-application-base'
+    isPreview: true
+  - uid: '@microsoft/sp-application-base.PlaceholderProvider.changedEvent'
+    name: changedEvent
+    fullName: changedEvent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This event is raised when the list of currently available placeholders is
+      changed.
+    syntax:
+      content: Event<EventArgs> changedEvent
+      return:
+        type:
+          - Event<EventArgs>
+  - uid: '@microsoft/sp-application-base.PlaceholderProvider.placeholderNames'
+    name: placeholderNames
+    fullName: placeholderNames
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns the names of the currently available placeholders.
+    syntax:
+      content: ReadonlyArray<PlaceholderName> placeholderNames
+      return:
+        type:
+          - ReadonlyArray<PlaceholderName>
   - uid: '@microsoft/sp-application-base.PlaceholderProvider.constructor'
     name: PlaceholderProvider
     children: []

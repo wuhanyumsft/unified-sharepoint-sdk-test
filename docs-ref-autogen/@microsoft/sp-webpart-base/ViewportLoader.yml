@@ -4,6 +4,7 @@ items:
     name: ViewportLoader
     fullName: ViewportLoader
     children:
+      - '@microsoft/sp-webpart-base.ViewportLoader.instance'
       - '@microsoft/sp-webpart-base.ViewportLoader.isInIntialViewport'
       - '@microsoft/sp-webpart-base.ViewportLoader.loadOutsideViewPort'
       - '@microsoft/sp-webpart-base.ViewportLoader.register'
@@ -36,6 +37,19 @@ items:
 
       in the view.
     package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.ViewportLoader.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ViewportLoader instance
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.ViewportLoader'
   - uid: '@microsoft/sp-webpart-base.ViewportLoader.isInIntialViewport'
     name: isInIntialViewport
     children: []

@@ -10,6 +10,7 @@ items:
       - '@ms/sp-pages.SPPagePerfLogger.endPerfMarkForComponent'
       - '@ms/sp-pages.SPPagePerfLogger.endPerfMarkForComponentWithTimestamp'
       - '@ms/sp-pages.SPPagePerfLogger.endPerfMeasurement'
+      - '@ms/sp-pages.SPPagePerfLogger.instance'
       - '@ms/sp-pages.SPPagePerfLogger.overWritePageLayoutType'
       - '@ms/sp-pages.SPPagePerfLogger.performanceMark'
       - '@ms/sp-pages.SPPagePerfLogger.constructor'
@@ -104,6 +105,19 @@ items:
     syntax:
       content: function endPerfMeasurement()
       parameters: []
+  - uid: '@ms/sp-pages.SPPagePerfLogger.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static SPPagePerfLogger instance
+      return:
+        type:
+          - '@@ms/sp-pages.SPPagePerfLogger'
   - uid: '@ms/sp-pages.SPPagePerfLogger.overWritePageLayoutType'
     name: overWritePageLayoutType
     children: []

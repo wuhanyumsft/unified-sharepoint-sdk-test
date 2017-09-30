@@ -4,7 +4,14 @@ items:
     name: SPUser
     fullName: SPUser
     children:
+      - '@microsoft/sp-page-context.SPUser.displayName'
+      - '@microsoft/sp-page-context.SPUser.email'
+      - '@microsoft/sp-page-context.SPUser.isAnonymousGuestUser'
+      - '@microsoft/sp-page-context.SPUser.isExternalGuestUser'
+      - '@microsoft/sp-page-context.SPUser.loginName'
+      - '@microsoft/sp-page-context.SPUser.preferUserTimeZone'
       - '@microsoft/sp-page-context.SPUser.constructor'
+      - '@microsoft/sp-page-context.SPUser.timeZoneInfo'
     langs:
       - typeScript
     type: class
@@ -14,6 +21,94 @@ items:
 
       for the SharePoint user that is accessing the page.
     package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.SPUser.displayName'
+    name: displayName
+    fullName: displayName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The display name for the current user.
+      Example: "John Doe"
+    syntax:
+      content: string displayName
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.SPUser.email'
+    name: email
+    fullName: email
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The email address for the current user.
+      Example: "example@contoso.com"
+    syntax:
+      content: string email
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.SPUser.isAnonymousGuestUser'
+    name: isAnonymousGuestUser
+    fullName: isAnonymousGuestUser
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns if the current user is an anonymous guest.
+    syntax:
+      content: boolean isAnonymousGuestUser
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-page-context.SPUser.isExternalGuestUser'
+    name: isExternalGuestUser
+    fullName: isExternalGuestUser
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns true if the current user is an external guest.
+    syntax:
+      content: boolean isExternalGuestUser
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-page-context.SPUser.loginName'
+    name: loginName
+    fullName: loginName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The login name for current user.
+      Example: "i:0#.w|domain\user"
+    syntax:
+      content: string loginName
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.SPUser.preferUserTimeZone'
+    name: preferUserTimeZone
+    fullName: preferUserTimeZone
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This boolean represents if a the user or web's time zone settings should
+      be used
+
+      to display the current time.
+    syntax:
+      content: boolean preferUserTimeZone
+      return:
+        type:
+          - boolean
   - uid: '@microsoft/sp-page-context.SPUser.constructor'
     name: SPUser
     children: []
@@ -28,3 +123,18 @@ items:
           type:
             - '@@microsoft/sp-page-context.ISPUserData'
           description: ''
+  - uid: '@microsoft/sp-page-context.SPUser.timeZoneInfo'
+    name: timeZoneInfo
+    fullName: timeZoneInfo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Returns the user's regional timezone settings or undefined if they haven't
+      been set.
+    syntax:
+      content: SPTimeZone timeZoneInfo
+      return:
+        type:
+          - SPTimeZone

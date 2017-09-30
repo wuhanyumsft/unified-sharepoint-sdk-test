@@ -5,6 +5,7 @@ items:
     fullName: PageManager
     children:
       - '@microsoft/sp-page-context.PageManager.navigateToPage'
+      - '@microsoft/sp-page-context.PageManager.pageContext'
       - '@microsoft/sp-page-context.PageManager.constructor'
       - '@microsoft/sp-page-context.PageManager.serviceKey'
     langs:
@@ -66,6 +67,19 @@ items:
       return:
         type:
           - Promise<void>
+  - uid: '@microsoft/sp-page-context.PageManager.pageContext'
+    name: pageContext
+    fullName: pageContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageContext pageContext
+      return:
+        type:
+          - '@@microsoft/sp-page-context.PageContext'
   - uid: '@microsoft/sp-page-context.PageManager.constructor'
     name: PageManager
     children: []

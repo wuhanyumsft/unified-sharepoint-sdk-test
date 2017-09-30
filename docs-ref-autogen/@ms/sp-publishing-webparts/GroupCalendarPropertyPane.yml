@@ -4,8 +4,13 @@ items:
     name: GroupCalendarPropertyPane
     fullName: GroupCalendarPropertyPane
     children:
+      - '@ms/sp-publishing-webparts.GroupCalendarPropertyPane.dropdown'
       - '@ms/sp-publishing-webparts.GroupCalendarPropertyPane.getSettings'
       - '@ms/sp-publishing-webparts.GroupCalendarPropertyPane.constructor'
+      - '@ms/sp-publishing-webparts.GroupCalendarPropertyPane.hasError'
+      - '@ms/sp-publishing-webparts.GroupCalendarPropertyPane.properties'
+      - '@ms/sp-publishing-webparts.GroupCalendarPropertyPane.screenReaderAlert'
+      - '@ms/sp-publishing-webparts.GroupCalendarPropertyPane.slider'
       - >-
         @ms/sp-publishing-webparts.GroupCalendarPropertyPane.updateDropdownOptions
     langs:
@@ -13,6 +18,19 @@ items:
     type: class
     summary: ''
     package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.GroupCalendarPropertyPane.dropdown'
+    name: dropdown
+    fullName: dropdown
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IPropertyPaneField<any> dropdown
+      return:
+        type:
+          - IPropertyPaneField<any>
   - uid: '@ms/sp-publishing-webparts.GroupCalendarPropertyPane.getSettings'
     name: getSettings
     children: []
@@ -46,6 +64,58 @@ items:
           type:
             - () => Promise<void>
           description: ''
+  - uid: '@ms/sp-publishing-webparts.GroupCalendarPropertyPane.hasError'
+    name: hasError
+    fullName: hasError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasError
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.GroupCalendarPropertyPane.properties'
+    name: properties
+    fullName: properties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IGroupCalendarProperties properties
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IGroupCalendarProperties'
+  - uid: '@ms/sp-publishing-webparts.GroupCalendarPropertyPane.screenReaderAlert'
+    name: screenReaderAlert
+    fullName: screenReaderAlert
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IPropertyPaneField<IPropertyPaneCustomFieldProps> screenReaderAlert
+      return:
+        type:
+          - IPropertyPaneField<IPropertyPaneCustomFieldProps>
+  - uid: '@ms/sp-publishing-webparts.GroupCalendarPropertyPane.slider'
+    name: slider
+    fullName: slider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IPropertyPaneField<IPropertyPaneSliderProps> slider
+      return:
+        type:
+          - IPropertyPaneField<IPropertyPaneSliderProps>
   - uid: '@ms/sp-publishing-webparts.GroupCalendarPropertyPane.updateDropdownOptions'
     name: updateDropdownOptions
     children: []

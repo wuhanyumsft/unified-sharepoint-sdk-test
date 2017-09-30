@@ -11,6 +11,7 @@ items:
     type: interface
     summary: Interface for classes that can be disposed.
     package: '@microsoft/sp-core-library'
+    isPreview: true
   - uid: '@microsoft/sp-core-library.IDisposable.dispose'
     name: dispose
     children: []

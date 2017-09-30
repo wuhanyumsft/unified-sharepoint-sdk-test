@@ -7,6 +7,7 @@ items:
       - '@ms/sp-webpart-shared.DisplayFieldMap.constructor'
       - '@ms/sp-webpart-shared.DisplayFieldMap.fieldLinkUrl'
       - '@ms/sp-webpart-shared.DisplayFieldMap.fieldValue'
+      - '@ms/sp-webpart-shared.DisplayFieldMap.map'
       - '@ms/sp-webpart-shared.DisplayFieldMap.transpose'
       - '@ms/sp-webpart-shared.DisplayFieldMap.transposeRow'
     langs:
@@ -70,6 +71,19 @@ items:
       return:
         type:
           - Object
+  - uid: '@ms/sp-webpart-shared.DisplayFieldMap.map'
+    name: map
+    fullName: map
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'MappedField[] map'
+      return:
+        type:
+          - 'MappedField[]'
   - uid: '@ms/sp-webpart-shared.DisplayFieldMap.transpose'
     name: transpose
     children: []

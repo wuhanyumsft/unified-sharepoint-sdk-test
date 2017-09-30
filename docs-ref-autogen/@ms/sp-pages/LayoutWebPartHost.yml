@@ -4,7 +4,9 @@ items:
     name: LayoutWebPartHost
     fullName: LayoutWebPartHost
     children:
+      - '@ms/sp-pages.LayoutWebPartHost.currentlyConfiguredWebPartId'
       - '@ms/sp-pages.LayoutWebPartHost.constructor'
+      - '@ms/sp-pages.LayoutWebPartHost.serviceScope'
       - '@ms/sp-pages.LayoutWebPartHost.setDirty'
       - '@ms/sp-pages.LayoutWebPartHost.webPartConfigurationEventCallback'
     langs:
@@ -14,6 +16,19 @@ items:
       LayoutWebPartHost is the IWebPartHost implementation used by the page
       layout.
     package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.LayoutWebPartHost.currentlyConfiguredWebPartId'
+    name: currentlyConfiguredWebPartId
+    fullName: currentlyConfiguredWebPartId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string currentlyConfiguredWebPartId
+      return:
+        type:
+          - string
   - uid: '@ms/sp-pages.LayoutWebPartHost.constructor'
     name: LayoutWebPartHost
     children: []
@@ -34,6 +49,19 @@ items:
           type:
             - () => void
           description: ''
+  - uid: '@ms/sp-pages.LayoutWebPartHost.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope
   - uid: '@ms/sp-pages.LayoutWebPartHost.setDirty'
     name: setDirty
     children: []

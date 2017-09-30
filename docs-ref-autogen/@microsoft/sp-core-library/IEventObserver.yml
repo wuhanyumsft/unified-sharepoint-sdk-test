@@ -22,6 +22,7 @@ items:
     extends:
       name: '@@microsoft/sp-core-library.IDisposable'
     package: '@microsoft/sp-core-library'
+    isPreview: true
   - uid: '@microsoft/sp-core-library.IEventObserver.componentId'
     name: componentId
     fullName: componentId

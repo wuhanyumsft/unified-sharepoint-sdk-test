@@ -12,6 +12,7 @@ items:
       - '@ms/sp-publishing-webparts.TitleImage.focalPointMove'
       - '@ms/sp-publishing-webparts.TitleImage.focalPointStart'
       - '@ms/sp-publishing-webparts.TitleImage.focus'
+      - '@ms/sp-publishing-webparts.TitleImage.newTitle'
       - '@ms/sp-publishing-webparts.TitleImage.render'
       - '@ms/sp-publishing-webparts.TitleImage.setDefaultImage'
       - '@ms/sp-publishing-webparts.TitleImage.setFocalPoint'
@@ -126,6 +127,19 @@ items:
     syntax:
       content: function focus()
       parameters: []
+  - uid: '@ms/sp-publishing-webparts.TitleImage.newTitle'
+    name: newTitle
+    fullName: newTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string newTitle
+      return:
+        type:
+          - string
   - uid: '@ms/sp-publishing-webparts.TitleImage.render'
     name: render
     children: []

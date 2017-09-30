@@ -4,7 +4,17 @@ items:
     name: URL
     fullName: URL
     children:
+      - '@microsoft/sp-polyfills.URL.hash'
+      - '@microsoft/sp-polyfills.URL.host'
+      - '@microsoft/sp-polyfills.URL.hostname'
+      - '@microsoft/sp-polyfills.URL.href'
+      - '@microsoft/sp-polyfills.URL.origin'
+      - '@microsoft/sp-polyfills.URL.password'
+      - '@microsoft/sp-polyfills.URL.pathname'
+      - '@microsoft/sp-polyfills.URL.port'
+      - '@microsoft/sp-polyfills.URL.protocol'
       - '@microsoft/sp-polyfills.URL.constructor'
+      - '@microsoft/sp-polyfills.URL.username'
     langs:
       - typeScript
     type: class
@@ -12,6 +22,123 @@ items:
     extends:
       name: '@@microsoft/sp-polyfills.BaseURL'
     package: '@microsoft/sp-polyfills'
+  - uid: '@microsoft/sp-polyfills.URL.hash'
+    name: hash
+    fullName: hash
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string hash
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-polyfills.URL.host'
+    name: host
+    fullName: host
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string host
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-polyfills.URL.hostname'
+    name: hostname
+    fullName: hostname
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string hostname
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-polyfills.URL.href'
+    name: href
+    fullName: href
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string href
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-polyfills.URL.origin'
+    name: origin
+    fullName: origin
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string origin
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-polyfills.URL.password'
+    name: password
+    fullName: password
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string password
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-polyfills.URL.pathname'
+    name: pathname
+    fullName: pathname
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string pathname
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-polyfills.URL.port'
+    name: port
+    fullName: port
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string port
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-polyfills.URL.protocol'
+    name: protocol
+    fullName: protocol
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string protocol
+      return:
+        type:
+          - string
   - uid: '@microsoft/sp-polyfills.URL.constructor'
     name: URL
     children: []
@@ -31,3 +158,16 @@ items:
             - string
           description: ''
           optional: true
+  - uid: '@microsoft/sp-polyfills.URL.username'
+    name: username
+    fullName: username
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string username
+      return:
+        type:
+          - string

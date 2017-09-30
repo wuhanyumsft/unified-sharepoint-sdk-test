@@ -5,6 +5,7 @@ items:
     fullName: TelemetrySettingsManager
     children:
       - '@ms/sp-telemetry.TelemetrySettingsManager.initialize'
+      - '@ms/sp-telemetry.TelemetrySettingsManager.isInitialized'
       - '@ms/sp-telemetry.TelemetrySettingsManager.settings'
       - '@ms/sp-telemetry.TelemetrySettingsManager.updateSettings'
     langs:
@@ -28,6 +29,19 @@ items:
           type:
             - '@@ms/sp-telemetry.ITelemetrySettings'
           description: ''
+  - uid: '@ms/sp-telemetry.TelemetrySettingsManager.isInitialized'
+    name: isInitialized
+    fullName: isInitialized
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static boolean isInitialized
+      return:
+        type:
+          - boolean
   - uid: '@ms/sp-telemetry.TelemetrySettingsManager.settings'
     name: settings
     fullName: settings

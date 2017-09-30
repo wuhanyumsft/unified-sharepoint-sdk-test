@@ -8,6 +8,8 @@ items:
       - '@ms/sp-canvas.CanvasFullWidthSection.componentDidMount'
       - '@ms/sp-canvas.CanvasFullWidthSection.isFullWidth'
       - '@ms/sp-canvas.CanvasFullWidthSection.isFullWidthControl'
+      - >-
+        @ms/sp-canvas.CanvasFullWidthSection.isMigratingEmbedToolboxKillSwitchActivated
       - '@ms/sp-canvas.CanvasFullWidthSection.setFullWidthWebPartProperty'
     langs:
       - typeScript
@@ -77,6 +79,20 @@ items:
           type:
             - '@@ms/sp-canvas.ICanvasControl'
           description: ''
+      return:
+        type:
+          - boolean
+  - uid: >-
+      @ms/sp-canvas.CanvasFullWidthSection.isMigratingEmbedToolboxKillSwitchActivated
+    name: isMigratingEmbedToolboxKillSwitchActivated
+    fullName: isMigratingEmbedToolboxKillSwitchActivated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static boolean isMigratingEmbedToolboxKillSwitchActivated
       return:
         type:
           - boolean

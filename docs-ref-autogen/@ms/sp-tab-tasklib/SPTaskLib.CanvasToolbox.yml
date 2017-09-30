@@ -8,6 +8,8 @@ items:
         @ms/sp-tab-tasklib.SPTaskLib.CanvasToolbox.AddTaskAddControlFromLargeToolbox
       - '@ms/sp-tab-tasklib.SPTaskLib.CanvasToolbox.AddTaskExpandToolbox'
       - '@ms/sp-tab-tasklib.SPTaskLib.CanvasToolbox.AddTaskOpenToolbox'
+      - >-
+        @ms/sp-tab-tasklib.SPTaskLib.CanvasToolbox.canvasLargeToolboxBodyAutomationId
     langs:
       - typeScript
     type: class
@@ -44,3 +46,17 @@ items:
     syntax:
       content: static function AddTaskOpenToolbox()
       parameters: []
+  - uid: >-
+      @ms/sp-tab-tasklib.SPTaskLib.CanvasToolbox.canvasLargeToolboxBodyAutomationId
+    name: canvasLargeToolboxBodyAutomationId
+    fullName: canvasLargeToolboxBodyAutomationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string canvasLargeToolboxBodyAutomationId
+      return:
+        type:
+          - string

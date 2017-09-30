@@ -4,6 +4,7 @@ items:
     name: ScrollEventHandler
     fullName: ScrollEventHandler
     children:
+      - '@microsoft/sp-webpart-base.ScrollEventHandler.instance'
       - '@microsoft/sp-webpart-base.ScrollEventHandler.register'
       - '@microsoft/sp-webpart-base.ScrollEventHandler.reset'
       - '@microsoft/sp-webpart-base.ScrollEventHandler.unregister'
@@ -18,6 +19,19 @@ items:
 
       It also notifies on window resize besides scroll event
     package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.ScrollEventHandler.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ScrollEventHandler instance
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.ScrollEventHandler'
   - uid: '@microsoft/sp-webpart-base.ScrollEventHandler.register'
     name: register
     children: []

@@ -27,6 +27,7 @@ items:
 
       class instead.
     package: '@microsoft/sp-http'
+    isPreview: true
   - uid: '@microsoft/sp-http.GraphHttpClient.configurations'
     name: configurations
     fullName: configurations

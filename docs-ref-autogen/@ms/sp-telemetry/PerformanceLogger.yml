@@ -10,6 +10,7 @@ items:
       - '@ms/sp-telemetry.PerformanceLogger.endMarkForApi'
       - '@ms/sp-telemetry.PerformanceLogger.endMarkForComponent'
       - '@ms/sp-telemetry.PerformanceLogger.endMarkForComponentWithTimestamp'
+      - '@ms/sp-telemetry.PerformanceLogger.fullPageLoad'
       - '@ms/sp-telemetry.PerformanceLogger.getApiEndTime'
       - '@ms/sp-telemetry.PerformanceLogger.getApiStartTime'
       - '@ms/sp-telemetry.PerformanceLogger.getApplicationStartTime'
@@ -26,6 +27,7 @@ items:
       - '@ms/sp-telemetry.PerformanceLogger.markSpLoaderStart'
       - '@ms/sp-telemetry.PerformanceLogger.now'
       - '@ms/sp-telemetry.PerformanceLogger.removeListener'
+      - '@ms/sp-telemetry.PerformanceLogger.scenarioId'
       - '@ms/sp-telemetry.PerformanceLogger.shouldSkipComponent'
       - '@ms/sp-telemetry.PerformanceLogger.skipComponent'
       - '@ms/sp-telemetry.PerformanceLogger.startMarkForApi'
@@ -180,6 +182,24 @@ items:
             marks after the
 
             component is done loading.
+  - uid: '@ms/sp-telemetry.PerformanceLogger.fullPageLoad'
+    name: fullPageLoad
+    fullName: fullPageLoad
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Indicate whether the performance data is for a full page load or in place
+      page navigation.
+
+      Set the fullPageLoad to be true if the data is for a full page load,
+      otherwise set it to be false.
+    syntax:
+      content: static boolean fullPageLoad
+      return:
+        type:
+          - boolean
   - uid: '@ms/sp-telemetry.PerformanceLogger.getApiEndTime'
     name: getApiEndTime
     children: []
@@ -453,6 +473,19 @@ items:
           type:
             - () => void
           description: ''
+  - uid: '@ms/sp-telemetry.PerformanceLogger.scenarioId'
+    name: scenarioId
+    fullName: scenarioId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string scenarioId
+      return:
+        type:
+          - string
   - uid: '@ms/sp-telemetry.PerformanceLogger.shouldSkipComponent'
     name: shouldSkipComponent
     children: []

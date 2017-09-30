@@ -4,14 +4,53 @@ items:
     name: QuickLinksMigrationManager
     fullName: QuickLinksMigrationManager
     children:
+      - '@ms/sp-teamsite-webparts.QuickLinksMigrationManager.dataSource'
+      - '@ms/sp-teamsite-webparts.QuickLinksMigrationManager.dispatcher'
       - '@ms/sp-teamsite-webparts.QuickLinksMigrationManager.init'
       - '@ms/sp-teamsite-webparts.QuickLinksMigrationManager.migrate'
+      - '@ms/sp-teamsite-webparts.QuickLinksMigrationManager.provider'
       - '@ms/sp-teamsite-webparts.QuickLinksMigrationManager.constructor'
     langs:
       - typeScript
     type: class
     summary: ''
     package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksMigrationManager.dataSource'
+    name: dataSource
+    fullName: dataSource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Ensure the data source is Initialized, avoid creating duplicate data
+      source for webpart properties provider.
+
+      When webpart needs migration, there will be one data source instance
+      inside QuickLinksSPListProvider.
+
+      We will have two data source instance if we create a new one here, but
+      it's acceptable since migration
+
+      only happens only once per old webparts.
+    syntax:
+      content: QuickLinksDataSource dataSource
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.QuickLinksDataSource'
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksMigrationManager.dispatcher'
+    name: dispatcher
+    fullName: dispatcher
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IQuickLinksDispatcher dispatcher
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IQuickLinksDispatcher'
   - uid: '@ms/sp-teamsite-webparts.QuickLinksMigrationManager.init'
     name: init
     children: []
@@ -42,6 +81,19 @@ items:
       return:
         type:
           - Promise<void>
+  - uid: '@ms/sp-teamsite-webparts.QuickLinksMigrationManager.provider'
+    name: provider
+    fullName: provider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IQuickLinksProvider provider
+      return:
+        type:
+          - '@@ms/sp-teamsite-webparts.IQuickLinksProvider'
   - uid: '@ms/sp-teamsite-webparts.QuickLinksMigrationManager.constructor'
     name: QuickLinksMigrationManager
     children: []

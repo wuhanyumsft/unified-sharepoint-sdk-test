@@ -4,7 +4,11 @@ items:
     name: SPHttpClientConfiguration
     fullName: SPHttpClientConfiguration
     children:
+      - '@microsoft/sp-http.SPHttpClientConfiguration.defaultODataVersion'
+      - >-
+        @microsoft/sp-http.SPHttpClientConfiguration.defaultSameOriginCredentials
       - '@microsoft/sp-http.SPHttpClientConfiguration.overrideWith'
+      - '@microsoft/sp-http.SPHttpClientConfiguration.requestDigest'
       - '@microsoft/sp-http.SPHttpClientConfiguration.constructor'
     langs:
       - typeScript
@@ -26,6 +30,32 @@ items:
     extends:
       name: '@@microsoft/sp-http.SPHttpClientCommonConfiguration'
     package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.SPHttpClientConfiguration.defaultODataVersion'
+    name: defaultODataVersion
+    fullName: defaultODataVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc ISPHttpClientConfiguration.defaultODataVersion}'
+    syntax:
+      content: ODataVersion defaultODataVersion
+      return:
+        type:
+          - '@@microsoft/sp-http.ODataVersion'
+  - uid: '@microsoft/sp-http.SPHttpClientConfiguration.defaultSameOriginCredentials'
+    name: defaultSameOriginCredentials
+    fullName: defaultSameOriginCredentials
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc ISPHttpClientConfiguration.defaultSameOriginCredentials}'
+    syntax:
+      content: boolean defaultSameOriginCredentials
+      return:
+        type:
+          - boolean
   - uid: '@microsoft/sp-http.SPHttpClientConfiguration.overrideWith'
     name: overrideWith
     children: []
@@ -43,6 +73,19 @@ items:
       return:
         type:
           - '@@microsoft/sp-http.SPHttpClientConfiguration'
+  - uid: '@microsoft/sp-http.SPHttpClientConfiguration.requestDigest'
+    name: requestDigest
+    fullName: requestDigest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc ISPHttpClientConfiguration.requestDigest}'
+    syntax:
+      content: boolean requestDigest
+      return:
+        type:
+          - boolean
   - uid: '@microsoft/sp-http.SPHttpClientConfiguration.constructor'
     name: SPHttpClientConfiguration
     children: []

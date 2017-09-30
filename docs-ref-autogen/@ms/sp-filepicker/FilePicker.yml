@@ -6,6 +6,7 @@ items:
     children:
       - '@ms/sp-filepicker.FilePicker.fetchData'
       - '@ms/sp-filepicker.FilePicker.constructor'
+      - '@ms/sp-filepicker.FilePicker.hasBeenInitialized'
       - '@ms/sp-filepicker.FilePicker.initialize'
       - '@ms/sp-filepicker.FilePicker.open'
     langs:
@@ -40,6 +41,19 @@ items:
           type:
             - ServiceScope
           description: ''
+  - uid: '@ms/sp-filepicker.FilePicker.hasBeenInitialized'
+    name: hasBeenInitialized
+    fullName: hasBeenInitialized
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasBeenInitialized
+      return:
+        type:
+          - boolean
   - uid: '@ms/sp-filepicker.FilePicker.initialize'
     name: initialize
     children: []

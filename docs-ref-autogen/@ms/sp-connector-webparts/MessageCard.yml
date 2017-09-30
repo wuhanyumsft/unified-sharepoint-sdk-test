@@ -6,6 +6,9 @@ items:
     children:
       - '@ms/sp-connector-webparts.MessageCard.parse'
       - '@ms/sp-connector-webparts.MessageCard.render'
+      - '@ms/sp-connector-webparts.MessageCard.style'
+      - '@ms/sp-connector-webparts.MessageCard.summary'
+      - '@ms/sp-connector-webparts.MessageCard.themeColor'
     langs:
       - typeScript
     type: class
@@ -42,3 +45,42 @@ items:
       return:
         type:
           - HTMLElement
+  - uid: '@ms/sp-connector-webparts.MessageCard.style'
+    name: style
+    fullName: style
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string style
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-connector-webparts.MessageCard.summary'
+    name: summary
+    fullName: summary
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string summary
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-connector-webparts.MessageCard.themeColor'
+    name: themeColor
+    fullName: themeColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string themeColor
+      return:
+        type:
+          - string

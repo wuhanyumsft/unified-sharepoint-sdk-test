@@ -5,6 +5,7 @@ items:
     fullName: LogManager
     children:
       - '@ms/sp-telemetry.LogManager.addHandler'
+      - '@ms/sp-telemetry.LogManager.events'
       - '@ms/sp-telemetry.LogManager.log'
       - '@ms/sp-telemetry.LogManager.removeHandler'
       - '@ms/sp-telemetry.LogManager.reset'
@@ -36,6 +37,19 @@ items:
           type:
             - '(e: LogEvent) => void'
           description: ''
+  - uid: '@ms/sp-telemetry.LogManager.events'
+    name: events
+    fullName: events
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static CircularBuffer<LogEvent> events
+      return:
+        type:
+          - '@@ms/sp-telemetry.CircularBuffer<@@ms/sp-telemetry.LogEvent>'
   - uid: '@ms/sp-telemetry.LogManager.log'
     name: log
     children: []

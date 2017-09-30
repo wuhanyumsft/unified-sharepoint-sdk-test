@@ -5,9 +5,14 @@ items:
     fullName: DeveloperToolsConsoleStore
     children:
       - '@microsoft/sp-loader.DeveloperToolsConsoleStore.constructor'
+      - '@microsoft/sp-loader.DeveloperToolsConsoleStore.height'
+      - '@microsoft/sp-loader.DeveloperToolsConsoleStore.instance'
       - '@microsoft/sp-loader.DeveloperToolsConsoleStore.registerTab'
       - '@microsoft/sp-loader.DeveloperToolsConsoleStore.resizeConsole'
+      - '@microsoft/sp-loader.DeveloperToolsConsoleStore.selectedTabId'
       - '@microsoft/sp-loader.DeveloperToolsConsoleStore.showHideConsole'
+      - '@microsoft/sp-loader.DeveloperToolsConsoleStore.tabs'
+      - '@microsoft/sp-loader.DeveloperToolsConsoleStore.visible'
     langs:
       - typeScript
     type: class
@@ -25,6 +30,32 @@ items:
     syntax:
       content: new DeveloperToolsConsoleStore()
       parameters: []
+  - uid: '@microsoft/sp-loader.DeveloperToolsConsoleStore.height'
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number height
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-loader.DeveloperToolsConsoleStore.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static DeveloperToolsConsoleStore instance
+      return:
+        type:
+          - '@@microsoft/sp-loader.DeveloperToolsConsoleStore'
   - uid: '@microsoft/sp-loader.DeveloperToolsConsoleStore.registerTab'
     name: registerTab
     children: []
@@ -53,6 +84,19 @@ items:
           type:
             - number
           description: ''
+  - uid: '@microsoft/sp-loader.DeveloperToolsConsoleStore.selectedTabId'
+    name: selectedTabId
+    fullName: selectedTabId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number selectedTabId
+      return:
+        type:
+          - number
   - uid: '@microsoft/sp-loader.DeveloperToolsConsoleStore.showHideConsole'
     name: showHideConsole
     children: []
@@ -67,3 +111,29 @@ items:
           type:
             - boolean
           description: ''
+  - uid: '@microsoft/sp-loader.DeveloperToolsConsoleStore.tabs'
+    name: tabs
+    fullName: tabs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'DeveloperToolsTab[] tabs'
+      return:
+        type:
+          - '@@microsoft/sp-loader.DeveloperToolsTab[]'
+  - uid: '@microsoft/sp-loader.DeveloperToolsConsoleStore.visible'
+    name: visible
+    fullName: visible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean visible
+      return:
+        type:
+          - boolean

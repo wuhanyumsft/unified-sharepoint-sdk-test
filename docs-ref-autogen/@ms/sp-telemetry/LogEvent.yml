@@ -4,14 +4,47 @@ items:
     name: LogEvent
     fullName: LogEvent
     children:
+      - '@ms/sp-telemetry.LogEvent.error'
+      - '@ms/sp-telemetry.LogEvent.level'
       - '@ms/sp-telemetry.LogEvent.log'
       - '@ms/sp-telemetry.LogEvent.constructor'
+      - '@ms/sp-telemetry.LogEvent.message'
+      - '@ms/sp-telemetry.LogEvent.prefix'
+      - '@ms/sp-telemetry.LogEvent.scope'
+      - '@ms/sp-telemetry.LogEvent.source'
+      - '@ms/sp-telemetry.LogEvent.timestamp'
       - '@ms/sp-telemetry.LogEvent.toString'
     langs:
       - typeScript
     type: class
     summary: An object that represents one log event.
     package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.LogEvent.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Error error
+      return:
+        type:
+          - Error
+  - uid: '@ms/sp-telemetry.LogEvent.level'
+    name: level
+    fullName: level
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: LogLevel level
+      return:
+        type:
+          - LogLevel
   - uid: '@ms/sp-telemetry.LogEvent.log'
     name: log
     children: []
@@ -74,6 +107,71 @@ items:
             - ServiceScope
           description: ''
           optional: true
+  - uid: '@ms/sp-telemetry.LogEvent.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string message
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.LogEvent.prefix'
+    name: prefix
+    fullName: prefix
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string prefix
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.LogEvent.scope'
+    name: scope
+    fullName: scope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: LogSource scope
+      return:
+        type:
+          - '@@ms/sp-telemetry.LogSource'
+  - uid: '@ms/sp-telemetry.LogEvent.source'
+    name: source
+    fullName: source
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string source
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-telemetry.LogEvent.timestamp'
+    name: timestamp
+    fullName: timestamp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number timestamp
+      return:
+        type:
+          - number
   - uid: '@ms/sp-telemetry.LogEvent.toString'
     name: toString
     children: []

@@ -5,6 +5,8 @@ items:
     fullName: DialogManager
     children:
       - '@microsoft/sp-dialog.DialogManager.alert'
+      - '@microsoft/sp-dialog.DialogManager.instance'
+      - '@microsoft/sp-dialog.DialogManager.isShowingDialog'
       - '@microsoft/sp-dialog.DialogManager.prompt'
       - '@microsoft/sp-dialog.DialogManager.show'
     langs:
@@ -34,6 +36,37 @@ items:
       return:
         type:
           - Promise<void>
+  - uid: '@microsoft/sp-dialog.DialogManager.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Get the singleton instance of DialogManager. It looks for a singleton
+      instance of DialogManagerConfiguration
+
+      to initialize and throws if it is not found. The configuration instance is
+      set on the page by the application.
+    syntax:
+      content: static DialogManager instance
+      return:
+        type:
+          - '@@microsoft/sp-dialog.DialogManager'
+  - uid: '@microsoft/sp-dialog.DialogManager.isShowingDialog'
+    name: isShowingDialog
+    fullName: isShowingDialog
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: If the manager has an open dialog
+    syntax:
+      content: boolean isShowingDialog
+      return:
+        type:
+          - boolean
   - uid: '@microsoft/sp-dialog.DialogManager.prompt'
     name: prompt
     children: []

@@ -4,8 +4,10 @@ items:
     name: PlaceholderManager
     fullName: PlaceholderManager
     children:
+      - '@microsoft/sp-application-base.PlaceholderManager.changedEvent'
       - '@microsoft/sp-application-base.PlaceholderManager.initializePlaceholders'
       - '@microsoft/sp-application-base.PlaceholderManager.constructor'
+      - '@microsoft/sp-application-base.PlaceholderManager.placeholders'
       - '@microsoft/sp-application-base.PlaceholderManager.registerPlaceholders'
       - '@microsoft/sp-application-base.PlaceholderManager.serviceKey'
     langs:
@@ -23,6 +25,19 @@ items:
 
       data from the PlaceholderManager.
     package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.PlaceholderManager.changedEvent'
+    name: changedEvent
+    fullName: changedEvent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The event raised when the application changes placeholder definitions
+    syntax:
+      content: Event<EventArgs> changedEvent
+      return:
+        type:
+          - Event<EventArgs>
   - uid: '@microsoft/sp-application-base.PlaceholderManager.initializePlaceholders'
     name: initializePlaceholders
     children: []
@@ -53,6 +68,19 @@ items:
           type:
             - ServiceScope
           description: ''
+  - uid: '@microsoft/sp-application-base.PlaceholderManager.placeholders'
+    name: placeholders
+    fullName: placeholders
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns undefined if initializePlaceholders() was not called yet.
+    syntax:
+      content: function placeholders
+      return:
+        type:
+          - function
   - uid: '@microsoft/sp-application-base.PlaceholderManager.registerPlaceholders'
     name: registerPlaceholders
     children: []

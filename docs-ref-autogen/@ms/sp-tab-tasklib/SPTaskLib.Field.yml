@@ -5,7 +5,10 @@ items:
     fullName: Field
     children:
       - '@ms/sp-tab-tasklib.SPTaskLib.Field.ConstructXml'
+      - '@ms/sp-tab-tasklib.SPTaskLib.Field.Description'
       - '@ms/sp-tab-tasklib.SPTaskLib.Field.constructor'
+      - '@ms/sp-tab-tasklib.SPTaskLib.Field.Name'
+      - '@ms/sp-tab-tasklib.SPTaskLib.Field.Type'
     langs:
       - typeScript
     type: class
@@ -21,6 +24,19 @@ items:
     syntax:
       content: function ConstructXml()
       parameters: []
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.Field.Description'
+    name: Description
+    fullName: Description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Description
       return:
         type:
           - string
@@ -67,3 +83,29 @@ items:
             - string
           description: ''
           optional: true
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.Field.Name'
+    name: Name
+    fullName: Name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Name
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.Field.Type'
+    name: Type
+    fullName: Type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: FieldType Type
+      return:
+        type:
+          - FieldType

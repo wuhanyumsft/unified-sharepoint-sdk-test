@@ -6,6 +6,7 @@ items:
     children:
       - '@ms/listview-spfx-host.SpfxAdapter.createListViewAdapter'
       - '@ms/listview-spfx-host.SpfxAdapter.definePlaceholders'
+      - '@ms/listview-spfx-host.SpfxAdapter.serviceScope'
       - '@ms/listview-spfx-host.SpfxAdapter.constructor'
     langs:
       - typeScript
@@ -39,6 +40,19 @@ items:
           type:
             - '@@ms/listview-spfx-host.IPlaceholderSimpleDefinition[]'
           description: ''
+  - uid: '@ms/listview-spfx-host.SpfxAdapter.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope
   - uid: '@ms/listview-spfx-host.SpfxAdapter.constructor'
     name: SpfxAdapter
     children: []

@@ -4,7 +4,9 @@ items:
     name: O365GroupAssociation
     fullName: O365GroupAssociation
     children:
+      - '@microsoft/sp-page-context.O365GroupAssociation.id'
       - '@microsoft/sp-page-context.O365GroupAssociation.constructor'
+      - '@microsoft/sp-page-context.O365GroupAssociation.type'
     langs:
       - typeScript
     type: class
@@ -14,6 +16,19 @@ items:
 
       group, this object provides contextual information about the group.
     package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.O365GroupAssociation.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The guid associated with the site's O365 Group.
+    syntax:
+      content: Guid id
+      return:
+        type:
+          - Guid
   - uid: '@microsoft/sp-page-context.O365GroupAssociation.constructor'
     name: O365GroupAssociation
     children: []
@@ -28,3 +43,18 @@ items:
           type:
             - '@@microsoft/sp-page-context.IO365GroupAssociationData'
           description: ''
+  - uid: '@microsoft/sp-page-context.O365GroupAssociation.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This enum identifies if the associated O365 Group private or public or
+      unknown.
+    syntax:
+      content: O365GroupAssociationType type
+      return:
+        type:
+          - O365GroupAssociationType

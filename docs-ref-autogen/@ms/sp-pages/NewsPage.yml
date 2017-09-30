@@ -3,7 +3,8 @@ items:
   - uid: '@ms/sp-pages.NewsPage'
     name: NewsPage
     fullName: NewsPage
-    children: []
+    children:
+      - '@ms/sp-pages.NewsPage.pageLayout'
     langs:
       - typeScript
     type: class
@@ -11,3 +12,16 @@ items:
     extends:
       name: '@@ms/sp-pages.NewsPage'
     package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.NewsPage.pageLayout'
+    name: pageLayout
+    fullName: pageLayout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string pageLayout
+      return:
+        type:
+          - string

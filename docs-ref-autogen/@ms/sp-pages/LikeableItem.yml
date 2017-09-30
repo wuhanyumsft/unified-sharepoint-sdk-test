@@ -7,8 +7,12 @@ items:
       - '@ms/sp-pages.LikeableItem.hasMoreLikes'
       - '@ms/sp-pages.LikeableItem.like'
       - '@ms/sp-pages.LikeableItem.constructor'
+      - '@ms/sp-pages.LikeableItem.likeCount'
+      - '@ms/sp-pages.LikeableItem.likedBy'
+      - '@ms/sp-pages.LikeableItem.nextLikesLink'
       - '@ms/sp-pages.LikeableItem.processLikeChunk'
       - '@ms/sp-pages.LikeableItem.unlike'
+      - '@ms/sp-pages.LikeableItem.userLiked'
     langs:
       - typeScript
     type: class
@@ -69,6 +73,45 @@ items:
             - boolean
           description: ''
           optional: true
+  - uid: '@ms/sp-pages.LikeableItem.likeCount'
+    name: likeCount
+    fullName: likeCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number likeCount
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.LikeableItem.likedBy'
+    name: likedBy
+    fullName: likedBy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IUserObject[] likedBy'
+      return:
+        type:
+          - '@@ms/sp-pages.IUserObject[]'
+  - uid: '@ms/sp-pages.LikeableItem.nextLikesLink'
+    name: nextLikesLink
+    fullName: nextLikesLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string nextLikesLink
+      return:
+        type:
+          - string
   - uid: '@ms/sp-pages.LikeableItem.processLikeChunk'
     name: processLikeChunk
     children: []
@@ -93,3 +136,16 @@ items:
     syntax:
       content: function unlike()
       parameters: []
+  - uid: '@ms/sp-pages.LikeableItem.userLiked'
+    name: userLiked
+    fullName: userLiked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean userLiked
+      return:
+        type:
+          - boolean

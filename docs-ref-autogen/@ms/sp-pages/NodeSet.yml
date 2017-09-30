@@ -6,6 +6,8 @@ items:
     children:
       - '@ms/sp-pages.NodeSet.addNode'
       - '@ms/sp-pages.NodeSet.addText'
+      - '@ms/sp-pages.NodeSet.postNodes'
+      - '@ms/sp-pages.NodeSet.preNodes'
     langs:
       - typeScript
     type: class
@@ -43,3 +45,29 @@ items:
           type:
             - number
           description: ''
+  - uid: '@ms/sp-pages.NodeSet.postNodes'
+    name: postNodes
+    fullName: postNodes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Node[] postNodes'
+      return:
+        type:
+          - 'Node[]'
+  - uid: '@ms/sp-pages.NodeSet.preNodes'
+    name: preNodes
+    fullName: preNodes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Node[] preNodes'
+      return:
+        type:
+          - 'Node[]'

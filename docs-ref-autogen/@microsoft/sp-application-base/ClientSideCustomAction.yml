@@ -15,6 +15,7 @@ items:
         @microsoft/sp-application-base.ClientSideCustomAction.requireSiteAdministrator
       - '@microsoft/sp-application-base.ClientSideCustomAction.rights'
       - '@microsoft/sp-application-base.ClientSideCustomAction.sequence'
+      - '@microsoft/sp-application-base.ClientSideCustomAction.tag'
       - '@microsoft/sp-application-base.ClientSideCustomAction.title'
     langs:
       - typeScript
@@ -128,6 +129,19 @@ items:
       return:
         type:
           - number
+  - uid: '@microsoft/sp-application-base.ClientSideCustomAction.tag'
+    name: tag
+    fullName: tag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns a tag that should be used for logging and telemetry purposes.
+    syntax:
+      content: string tag
+      return:
+        type:
+          - string
   - uid: '@microsoft/sp-application-base.ClientSideCustomAction.title'
     name: title
     fullName: title

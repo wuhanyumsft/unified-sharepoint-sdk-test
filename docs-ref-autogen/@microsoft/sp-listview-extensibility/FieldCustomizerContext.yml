@@ -4,6 +4,7 @@ items:
     name: FieldCustomizerContext
     fullName: FieldCustomizerContext
     children:
+      - '@microsoft/sp-listview-extensibility.FieldCustomizerContext.field'
       - '@microsoft/sp-listview-extensibility.FieldCustomizerContext.constructor'
       - >-
         @microsoft/sp-listview-extensibility.FieldCustomizerContext.tryGetListView
@@ -14,6 +15,21 @@ items:
     extends:
       name: '@@microsoft/sp-listview-extensibility.FieldCustomizerContext'
     package: '@microsoft/sp-listview-extensibility'
+  - uid: '@microsoft/sp-listview-extensibility.FieldCustomizerContext.field'
+    name: field
+    fullName: field
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Provides access to the SharePoint field that the customizer will operate
+      on.
+    syntax:
+      content: SPField field
+      return:
+        type:
+          - SPField
   - uid: '@microsoft/sp-listview-extensibility.FieldCustomizerContext.constructor'
     name: FieldCustomizerContext
     children: []

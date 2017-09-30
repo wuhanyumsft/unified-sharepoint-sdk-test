@@ -4,8 +4,15 @@ items:
     name: CommentStore
     fullName: CommentStore
     children:
+      - '@ms/sp-pages.CommentStore.commentCount'
+      - '@ms/sp-pages.CommentStore.comments'
       - '@ms/sp-pages.CommentStore.constructor'
+      - '@ms/sp-pages.CommentStore.disabled'
+      - '@ms/sp-pages.CommentStore.disabledAtSiteOrTenant'
       - '@ms/sp-pages.CommentStore.findById'
+      - '@ms/sp-pages.CommentStore.instance'
+      - '@ms/sp-pages.CommentStore.loaded'
+      - '@ms/sp-pages.CommentStore.nextLink'
       - '@ms/sp-pages.CommentStore.processAction'
     langs:
       - typeScript
@@ -14,6 +21,32 @@ items:
     extends:
       name: '@@ms/sp-pages.BaseStore'
     package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.CommentStore.commentCount'
+    name: commentCount
+    fullName: commentCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number commentCount
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.CommentStore.comments'
+    name: comments
+    fullName: comments
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'CommentItem[] comments'
+      return:
+        type:
+          - '@@ms/sp-pages.CommentItem[]'
   - uid: '@ms/sp-pages.CommentStore.constructor'
     name: CommentStore
     children: []
@@ -24,6 +57,32 @@ items:
     syntax:
       content: new CommentStore()
       parameters: []
+  - uid: '@ms/sp-pages.CommentStore.disabled'
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean disabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.CommentStore.disabledAtSiteOrTenant'
+    name: disabledAtSiteOrTenant
+    fullName: disabledAtSiteOrTenant
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean disabledAtSiteOrTenant
+      return:
+        type:
+          - boolean
   - uid: '@ms/sp-pages.CommentStore.findById'
     name: findById
     children: []
@@ -38,6 +97,45 @@ items:
           type:
             - string
           description: ''
+  - uid: '@ms/sp-pages.CommentStore.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static CommentStore instance
+      return:
+        type:
+          - '@@ms/sp-pages.CommentStore'
+  - uid: '@ms/sp-pages.CommentStore.loaded'
+    name: loaded
+    fullName: loaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean loaded
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.CommentStore.nextLink'
+    name: nextLink
+    fullName: nextLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string nextLink
+      return:
+        type:
+          - string
   - uid: '@ms/sp-pages.CommentStore.processAction'
     name: processAction
     children: []

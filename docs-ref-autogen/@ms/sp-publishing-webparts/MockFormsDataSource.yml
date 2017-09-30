@@ -5,6 +5,7 @@ items:
     fullName: MockFormsDataSource
     children:
       - '@ms/sp-publishing-webparts.MockFormsDataSource.createForm'
+      - '@ms/sp-publishing-webparts.MockFormsDataSource.endPointUrl'
       - '@ms/sp-publishing-webparts.MockFormsDataSource.getAccessToken'
       - '@ms/sp-publishing-webparts.MockFormsDataSource.getForms'
       - >-
@@ -36,6 +37,19 @@ items:
       return:
         type:
           - Promise<@@ms/sp-publishing-webparts.IForm>
+  - uid: '@ms/sp-publishing-webparts.MockFormsDataSource.endPointUrl'
+    name: endPointUrl
+    fullName: endPointUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string endPointUrl
+      return:
+        type:
+          - string
   - uid: '@ms/sp-publishing-webparts.MockFormsDataSource.getAccessToken'
     name: getAccessToken
     children: []

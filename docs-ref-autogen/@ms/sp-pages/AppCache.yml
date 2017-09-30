@@ -5,10 +5,13 @@ items:
     fullName: AppCache
     children:
       - '@ms/sp-pages.AppCache.constructor'
+      - '@ms/sp-pages.AppCache.cacheDuration'
       - '@ms/sp-pages.AppCache.cacheItem'
       - '@ms/sp-pages.AppCache.flush'
       - '@ms/sp-pages.AppCache.getItem'
+      - '@ms/sp-pages.AppCache.isEnabled'
       - '@ms/sp-pages.AppCache.key'
+      - '@ms/sp-pages.AppCache.namespace'
       - '@ms/sp-pages.AppCache.removeItem'
     langs:
       - typeScript
@@ -29,6 +32,19 @@ items:
           type:
             - number
           description: ''
+  - uid: '@ms/sp-pages.AppCache.cacheDuration'
+    name: cacheDuration
+    fullName: cacheDuration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number cacheDuration
+      return:
+        type:
+          - number
   - uid: '@ms/sp-pages.AppCache.cacheItem'
     name: cacheItem
     children: []
@@ -74,6 +90,19 @@ items:
       return:
         type:
           - __type
+  - uid: '@ms/sp-pages.AppCache.isEnabled'
+    name: isEnabled
+    fullName: isEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static boolean isEnabled
+      return:
+        type:
+          - boolean
   - uid: '@ms/sp-pages.AppCache.key'
     name: key
     children: []
@@ -88,6 +117,19 @@ items:
           type:
             - string
           description: ''
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.AppCache.namespace'
+    name: namespace
+    fullName: namespace
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string namespace
       return:
         type:
           - string

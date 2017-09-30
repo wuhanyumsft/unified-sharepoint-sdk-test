@@ -4,9 +4,12 @@ items:
     name: ListViewAdapter
     fullName: ListViewAdapter
     children:
+      - '@ms/listview-spfx-host.ListViewAdapter.accessor'
       - '@ms/listview-spfx-host.ListViewAdapter.addColumnAdapter'
+      - '@ms/listview-spfx-host.ListViewAdapter.columnAdapters'
       - '@ms/listview-spfx-host.ListViewAdapter.createRowAdapter'
       - '@ms/listview-spfx-host.ListViewAdapter.dispose'
+      - '@ms/listview-spfx-host.ListViewAdapter.fields'
       - '@ms/listview-spfx-host.ListViewAdapter.constructor'
       - '@ms/listview-spfx-host.ListViewAdapter.loadCommandSet'
       - '@ms/listview-spfx-host.ListViewAdapter.loadFieldCustomizers'
@@ -21,6 +24,19 @@ items:
 
       This is a sealed class. Do not extend it.
     package: '@ms/listview-spfx-host'
+  - uid: '@ms/listview-spfx-host.ListViewAdapter.accessor'
+    name: accessor
+    fullName: accessor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ListViewWrapper accessor
+      return:
+        type:
+          - '@@ms/listview-spfx-host.ListViewWrapper'
   - uid: '@ms/listview-spfx-host.ListViewAdapter.addColumnAdapter'
     name: addColumnAdapter
     children: []
@@ -38,6 +54,19 @@ items:
       return:
         type:
           - '@@ms/listview-spfx-host.IColumnAdapter'
+  - uid: '@ms/listview-spfx-host.ListViewAdapter.columnAdapters'
+    name: columnAdapters
+    fullName: columnAdapters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ReadonlyArray<ColumnAdapter> columnAdapters
+      return:
+        type:
+          - ReadonlyArray<@@ms/listview-spfx-host.ColumnAdapter>
   - uid: '@ms/listview-spfx-host.ListViewAdapter.createRowAdapter'
     name: createRowAdapter
     children: []
@@ -65,6 +94,19 @@ items:
     syntax:
       content: function dispose()
       parameters: []
+  - uid: '@ms/listview-spfx-host.ListViewAdapter.fields'
+    name: fields
+    fullName: fields
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ReadonlyArray<SPField> fields
+      return:
+        type:
+          - ReadonlyArray<SPField>
   - uid: '@ms/listview-spfx-host.ListViewAdapter.constructor'
     name: ListViewAdapter
     children: []

@@ -5,6 +5,7 @@ items:
     fullName: CommentsChunkLoader
     children:
       - '@ms/sp-pages.CommentsChunkLoader.constructor'
+      - '@ms/sp-pages.CommentsChunkLoader.instance'
       - '@ms/sp-pages.CommentsChunkLoader.load'
       - '@ms/sp-pages.CommentsChunkLoader.waitForLoad'
     langs:
@@ -22,6 +23,19 @@ items:
     syntax:
       content: new CommentsChunkLoader()
       parameters: []
+  - uid: '@ms/sp-pages.CommentsChunkLoader.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static CommentsChunkLoader instance
+      return:
+        type:
+          - '@@ms/sp-pages.CommentsChunkLoader'
   - uid: '@ms/sp-pages.CommentsChunkLoader.load'
     name: load
     children: []

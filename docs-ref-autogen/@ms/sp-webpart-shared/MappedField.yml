@@ -4,12 +4,44 @@ items:
     name: MappedField
     fullName: MappedField
     children:
+      - '@ms/sp-webpart-shared.MappedField.heading'
+      - '@ms/sp-webpart-shared.MappedField.linkUrls'
       - '@ms/sp-webpart-shared.MappedField.constructor'
+      - '@ms/sp-webpart-shared.MappedField.onRenderCell'
+      - '@ms/sp-webpart-shared.MappedField.sources'
+      - '@ms/sp-webpart-shared.MappedField.target'
+      - '@ms/sp-webpart-shared.MappedField.width'
     langs:
       - typeScript
     type: class
     summary: ''
     package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.MappedField.heading'
+    name: heading
+    fullName: heading
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string heading
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.MappedField.linkUrls'
+    name: linkUrls
+    fullName: linkUrls
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] linkUrls'
+      return:
+        type:
+          - 'string[]'
   - uid: '@ms/sp-webpart-shared.MappedField.constructor'
     name: MappedField
     children: []
@@ -35,3 +67,55 @@ items:
             - '(item?: IDataRow, index?: number) => ReactNode'
           description: ''
           optional: true
+  - uid: '@ms/sp-webpart-shared.MappedField.onRenderCell'
+    name: onRenderCell
+    fullName: onRenderCell
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(item?: IDataRow, index?: number) => ReactNode onRenderCell'
+      return:
+        type:
+          - '(item?: IDataRow, index?: number) => ReactNode'
+  - uid: '@ms/sp-webpart-shared.MappedField.sources'
+    name: sources
+    fullName: sources
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'string[] sources'
+      return:
+        type:
+          - 'string[]'
+  - uid: '@ms/sp-webpart-shared.MappedField.target'
+    name: target
+    fullName: target
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string target
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.MappedField.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number width
+      return:
+        type:
+          - number

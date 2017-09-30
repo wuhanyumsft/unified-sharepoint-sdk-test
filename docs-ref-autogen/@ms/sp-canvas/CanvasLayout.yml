@@ -8,6 +8,7 @@ items:
       - '@ms/sp-canvas.CanvasLayout.addControlComponent'
       - '@ms/sp-canvas.CanvasLayout.constructor'
       - '@ms/sp-canvas.CanvasLayout.cloneMergePosition'
+      - '@ms/sp-canvas.CanvasLayout.controlsState'
       - '@ms/sp-canvas.CanvasLayout.dispose'
       - '@ms/sp-canvas.CanvasLayout.fetchAllControls'
       - '@ms/sp-canvas.CanvasLayout.fetchControl'
@@ -23,6 +24,7 @@ items:
       - '@ms/sp-canvas.CanvasLayout.moveZone'
       - '@ms/sp-canvas.CanvasLayout.removeControl'
       - '@ms/sp-canvas.CanvasLayout.removeZone'
+      - '@ms/sp-canvas.CanvasLayout.zones'
     langs:
       - typeScript
     type: class
@@ -110,6 +112,19 @@ items:
       return:
         type:
           - '@@ms/sp-canvas.IControlPosition'
+  - uid: '@ms/sp-canvas.CanvasLayout.controlsState'
+    name: controlsState
+    fullName: controlsState
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the state information of specific layout controls
+    syntax:
+      content: ICanvasLayoutControlsState controlsState
+      return:
+        type:
+          - '@@ms/sp-canvas.ICanvasLayoutControlsState'
   - uid: '@ms/sp-canvas.CanvasLayout.dispose'
     name: dispose
     children: []
@@ -377,3 +392,16 @@ items:
             - number
           description: |
             Represents the index of the zone to remove
+  - uid: '@ms/sp-canvas.CanvasLayout.zones'
+    name: zones
+    fullName: zones
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the zones associated with the current layout
+    syntax:
+      content: 'CanvasZonePart[] zones'
+      return:
+        type:
+          - '@@ms/sp-canvas.CanvasZonePart[]'

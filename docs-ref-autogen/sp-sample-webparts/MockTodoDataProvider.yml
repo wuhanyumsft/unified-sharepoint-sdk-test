@@ -6,9 +6,11 @@ items:
     children:
       - sp-sample-webparts.MockTodoDataProvider.createItem
       - sp-sample-webparts.MockTodoDataProvider.deleteItem
+      - sp-sample-webparts.MockTodoDataProvider.maxNumberOfTasks
       - sp-sample-webparts.MockTodoDataProvider.constructor
       - sp-sample-webparts.MockTodoDataProvider.readItems
       - sp-sample-webparts.MockTodoDataProvider.readLists
+      - sp-sample-webparts.MockTodoDataProvider.selectedList
       - sp-sample-webparts.MockTodoDataProvider.updateItem
     langs:
       - typeScript
@@ -49,6 +51,19 @@ items:
       return:
         type:
           - 'Promise<@sp-sample-webparts.ITodoTask[]>'
+  - uid: sp-sample-webparts.MockTodoDataProvider.maxNumberOfTasks
+    name: maxNumberOfTasks
+    fullName: maxNumberOfTasks
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number maxNumberOfTasks
+      return:
+        type:
+          - number
   - uid: sp-sample-webparts.MockTodoDataProvider.constructor
     name: MockTodoDataProvider
     children: []
@@ -89,6 +104,19 @@ items:
       return:
         type:
           - 'Promise<@sp-sample-webparts.ITodoTaskList[]>'
+  - uid: sp-sample-webparts.MockTodoDataProvider.selectedList
+    name: selectedList
+    fullName: selectedList
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ITodoTaskList selectedList
+      return:
+        type:
+          - '@sp-sample-webparts.ITodoTaskList'
   - uid: sp-sample-webparts.MockTodoDataProvider.updateItem
     name: updateItem
     children: []

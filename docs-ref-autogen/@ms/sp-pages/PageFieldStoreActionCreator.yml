@@ -13,6 +13,7 @@ items:
       - '@ms/sp-pages.PageFieldStoreActionCreator.ensureValidPageTitle'
       - '@ms/sp-pages.PageFieldStoreActionCreator.getPageUrlFromServerAsync'
       - '@ms/sp-pages.PageFieldStoreActionCreator.getPreviousPageVersionInfoAsync'
+      - '@ms/sp-pages.PageFieldStoreActionCreator.isFirstTitleSave'
       - '@ms/sp-pages.PageFieldStoreActionCreator.pageTitleRenamedFailure'
       - '@ms/sp-pages.PageFieldStoreActionCreator.pageTitleRenamedSuccess'
       - '@ms/sp-pages.PageFieldStoreActionCreator.promotePageToNews'
@@ -171,6 +172,19 @@ items:
       return:
         type:
           - Promise<void>
+  - uid: '@ms/sp-pages.PageFieldStoreActionCreator.isFirstTitleSave'
+    name: isFirstTitleSave
+    fullName: isFirstTitleSave
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static boolean isFirstTitleSave
+      return:
+        type:
+          - boolean
   - uid: '@ms/sp-pages.PageFieldStoreActionCreator.pageTitleRenamedFailure'
     name: pageTitleRenamedFailure
     children: []

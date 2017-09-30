@@ -10,6 +10,7 @@ items:
       - '@ms/sp-telemetry.TraceLogger.logVerbose'
       - '@ms/sp-telemetry.TraceLogger.logVerboseData'
       - '@ms/sp-telemetry.TraceLogger.logVerboseWithLogEntry'
+      - '@ms/sp-telemetry.TraceLogger.shouldWriteToConsole'
     langs:
       - typeScript
     type: class
@@ -249,3 +250,18 @@ items:
             - string
           description: ''
           optional: true
+  - uid: '@ms/sp-telemetry.TraceLogger.shouldWriteToConsole'
+    name: shouldWriteToConsole
+    fullName: shouldWriteToConsole
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Indicates if the log entries should be output to the console.
+      This flag is set to true by default.
+    syntax:
+      content: static boolean shouldWriteToConsole
+      return:
+        type:
+          - boolean

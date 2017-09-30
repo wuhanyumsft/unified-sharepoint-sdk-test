@@ -10,6 +10,7 @@ items:
       - '@ms/sp-pages.EventDataSource.getEvent'
       - '@ms/sp-pages.EventDataSource.getInUsedCategoryList'
       - '@ms/sp-pages.EventDataSource.getPreDefinedCategoryList'
+      - '@ms/sp-pages.EventDataSource.isClassifiedErrorKillSwitchActivated'
       - '@ms/sp-pages.EventDataSource.updateEvent'
     langs:
       - typeScript
@@ -123,6 +124,19 @@ items:
       return:
         type:
           - Promise<ICategory>
+  - uid: '@ms/sp-pages.EventDataSource.isClassifiedErrorKillSwitchActivated'
+    name: isClassifiedErrorKillSwitchActivated
+    fullName: isClassifiedErrorKillSwitchActivated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static boolean isClassifiedErrorKillSwitchActivated
+      return:
+        type:
+          - boolean
   - uid: '@ms/sp-pages.EventDataSource.updateEvent'
     name: updateEvent
     children: []

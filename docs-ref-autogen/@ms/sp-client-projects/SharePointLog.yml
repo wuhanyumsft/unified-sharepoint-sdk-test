@@ -4,6 +4,7 @@ items:
     name: SharePointLog
     fullName: SharePointLog
     children:
+      - '@ms/sp-client-projects.SharePointLog.context'
       - '@ms/sp-client-projects.SharePointLog.debug'
       - '@ms/sp-client-projects.SharePointLog.engagement'
       - '@ms/sp-client-projects.SharePointLog.error'
@@ -17,6 +18,19 @@ items:
     type: class
     summary: ''
     package: '@ms/sp-client-projects'
+  - uid: '@ms/sp-client-projects.SharePointLog.context'
+    name: context
+    fullName: context
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: __type context
+      return:
+        type:
+          - __type
   - uid: '@ms/sp-client-projects.SharePointLog.debug'
     name: debug
     children: []

@@ -14,6 +14,7 @@ items:
       - '@ms/sp-other-webparts.WorldClockStore.generateNewItem'
       - '@ms/sp-other-webparts.WorldClockStore.getSPHttpClient'
       - '@ms/sp-other-webparts.WorldClockStore.initialize'
+      - '@ms/sp-other-webparts.WorldClockStore.instance'
       - '@ms/sp-other-webparts.WorldClockStore.pathToDisplayNameMap'
       - '@ms/sp-other-webparts.WorldClockStore.pathToEnNameMap'
       - '@ms/sp-other-webparts.WorldClockStore.props'
@@ -216,6 +217,19 @@ items:
           type:
             - string
           description: ''
+  - uid: '@ms/sp-other-webparts.WorldClockStore.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static WorldClockStore instance
+      return:
+        type:
+          - '@@ms/sp-other-webparts.WorldClockStore'
   - uid: '@ms/sp-other-webparts.WorldClockStore.pathToDisplayNameMap'
     name: pathToDisplayNameMap
     fullName: pathToDisplayNameMap

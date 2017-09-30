@@ -4,12 +4,27 @@ items:
     name: DocLibraryContext
     fullName: DocLibraryContext
     children:
+      - '@ms/sp-webpart-shared.DocLibraryContext.defaultDocumentLibrary'
       - '@ms/sp-webpart-shared.DocLibraryContext.constructor'
+      - '@ms/sp-webpart-shared.DocLibraryContext.siteContext'
     langs:
       - typeScript
     type: class
     summary: ''
     package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.DocLibraryContext.defaultDocumentLibrary'
+    name: defaultDocumentLibrary
+    fullName: defaultDocumentLibrary
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Promise<IGetListWithRootFolderResult> defaultDocumentLibrary
+      return:
+        type:
+          - Promise<@@ms/sp-webpart-shared.IGetListWithRootFolderResult>
   - uid: '@ms/sp-webpart-shared.DocLibraryContext.constructor'
     name: DocLibraryContext
     children: []
@@ -31,3 +46,16 @@ items:
             - () => void
           description: ''
           optional: true
+  - uid: '@ms/sp-webpart-shared.DocLibraryContext.siteContext'
+    name: siteContext
+    fullName: siteContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Promise<ISiteContext> siteContext
+      return:
+        type:
+          - Promise<@@ms/sp-webpart-shared.ISiteContext>

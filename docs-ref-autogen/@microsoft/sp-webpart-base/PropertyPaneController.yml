@@ -4,6 +4,8 @@ items:
     name: PropertyPaneController
     fullName: PropertyPaneController
     children:
+      - >-
+        @microsoft/sp-webpart-base.PropertyPaneController.currentlyConfiguredWebPartId
       - '@microsoft/sp-webpart-base.PropertyPaneController.isPropertyPaneOpen'
       - '@microsoft/sp-webpart-base.PropertyPaneController.isRenderedByWebPart'
       - '@microsoft/sp-webpart-base.PropertyPaneController.onWebPartDelete'
@@ -14,6 +16,20 @@ items:
     type: class
     summary: ''
     package: '@microsoft/sp-webpart-base'
+  - uid: >-
+      @microsoft/sp-webpart-base.PropertyPaneController.currentlyConfiguredWebPartId
+    name: currentlyConfiguredWebPartId
+    fullName: currentlyConfiguredWebPartId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Get the currently configured WebPart instance Id
+    syntax:
+      content: string currentlyConfiguredWebPartId
+      return:
+        type:
+          - string
   - uid: '@microsoft/sp-webpart-base.PropertyPaneController.isPropertyPaneOpen'
     name: isPropertyPaneOpen
     children: []

@@ -4,7 +4,10 @@ items:
     name: ApplicationCustomizerContext
     fullName: ApplicationCustomizerContext
     children:
+      - '@microsoft/sp-application-base.ApplicationCustomizerContext.application'
       - '@microsoft/sp-application-base.ApplicationCustomizerContext.constructor'
+      - >-
+        @microsoft/sp-application-base.ApplicationCustomizerContext.placeholderProvider
     langs:
       - typeScript
     type: class
@@ -12,6 +15,21 @@ items:
     extends:
       name: '@@microsoft/sp-application-base.ApplicationCustomizerContext'
     package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.ApplicationCustomizerContext.application'
+    name: application
+    fullName: application
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The application accessor provides access to metadata and events from the
+      application.
+    syntax:
+      content: ApplicationAccessor application
+      return:
+        type:
+          - '@@microsoft/sp-application-base.ApplicationAccessor'
   - uid: '@microsoft/sp-application-base.ApplicationCustomizerContext.constructor'
     name: ApplicationCustomizerContext
     children: []
@@ -34,3 +52,17 @@ items:
             - >-
               @@microsoft/sp-application-base.IApplicationCustomizerContextParameters
           description: ''
+  - uid: >-
+      @microsoft/sp-application-base.ApplicationCustomizerContext.placeholderProvider
+    name: placeholderProvider
+    fullName: placeholderProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Exposes a collection of content placeholders for use by third parties.
+    syntax:
+      content: PlaceholderProvider placeholderProvider
+      return:
+        type:
+          - '@@microsoft/sp-application-base.PlaceholderProvider'

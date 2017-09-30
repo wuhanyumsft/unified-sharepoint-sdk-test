@@ -4,6 +4,7 @@ items:
     name: QuickChartWebPart
     fullName: QuickChartWebPart
     children:
+      - '@ms/sp-chart-webparts.QuickChartWebPart.propertyPane'
       - '@ms/sp-chart-webparts.QuickChartWebPart.render'
     langs:
       - typeScript
@@ -13,6 +14,19 @@ items:
       name: >-
         @@ms/sp-chart-webparts.QuickChartWebPart<@@ms/sp-chart-webparts.IQuickChartWebPartProps>
     package: '@ms/sp-chart-webparts'
+  - uid: '@ms/sp-chart-webparts.QuickChartWebPart.propertyPane'
+    name: propertyPane
+    fullName: propertyPane
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: QuickChartPropertyPane propertyPane
+      return:
+        type:
+          - '@@ms/sp-chart-webparts.QuickChartPropertyPane'
   - uid: '@ms/sp-chart-webparts.QuickChartWebPart.render'
     name: render
     children: []

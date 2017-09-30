@@ -13,6 +13,7 @@ items:
     extends:
       name: '@@microsoft/sp-http.HttpClientResponse'
     package: '@microsoft/sp-http'
+    isPreview: true
   - uid: '@microsoft/sp-http.GraphHttpClientResponse.clone'
     name: clone
     children: []

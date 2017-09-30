@@ -50,6 +50,7 @@ items:
       return:
         type:
           - string
+    isPreview: true
   - uid: >-
       @microsoft/sp-odata-types.IODataUserCustomAction.ClientSideComponentProperties
     name: ClientSideComponentProperties
@@ -64,6 +65,7 @@ items:
       return:
         type:
           - string
+    isPreview: true
   - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.CommandUIExtension'
     name: CommandUIExtension
     fullName: CommandUIExtension

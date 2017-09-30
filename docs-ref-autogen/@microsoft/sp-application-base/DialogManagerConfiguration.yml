@@ -4,8 +4,11 @@ items:
     name: DialogManagerConfiguration
     fullName: DialogManagerConfiguration
     children:
+      - '@microsoft/sp-application-base.DialogManagerConfiguration.allowDialogs'
       - '@microsoft/sp-application-base.DialogManagerConfiguration.dispose'
+      - '@microsoft/sp-application-base.DialogManagerConfiguration.domElement'
       - '@microsoft/sp-application-base.DialogManagerConfiguration.initialize'
+      - '@microsoft/sp-application-base.DialogManagerConfiguration.instance'
     langs:
       - typeScript
     type: class
@@ -18,6 +21,32 @@ items:
 
       as its configuration.
     package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.DialogManagerConfiguration.allowDialogs'
+    name: allowDialogs
+    fullName: allowDialogs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      If the application allows showing dialogs. Application can change this
+      configuration in runtime. For example,
+
+      the application can decide to set this to false to block all dialogs based
+      on its current state. If this property
+
+      is false, the dialog manager will deny all requests to show dialogs.
+
+      Sets the allowDialogs.
+
+      Throws an error in the parameter value is undefined.
+
+      Throws an error if allowDialogs is undefined.
+    syntax:
+      content: boolean allowDialogs
+      return:
+        type:
+          - boolean
   - uid: '@microsoft/sp-application-base.DialogManagerConfiguration.dispose'
     name: dispose
     children: []
@@ -36,6 +65,23 @@ items:
     syntax:
       content: function dispose()
       parameters: []
+  - uid: '@microsoft/sp-application-base.DialogManagerConfiguration.domElement'
+    name: domElement
+    fullName: domElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The container div that the dialog manager will use to render the dialogs
+      in.
+
+      Throws an error if domElement is undefined.
+    syntax:
+      content: HTMLDivElement domElement
+      return:
+        type:
+          - HTMLDivElement
   - uid: '@microsoft/sp-application-base.DialogManagerConfiguration.initialize'
     name: initialize
     children: []
@@ -58,3 +104,16 @@ items:
             be updated later using
 
             allowDialogs property.
+  - uid: '@microsoft/sp-application-base.DialogManagerConfiguration.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static DialogManagerConfiguration instance
+      return:
+        type:
+          - '@@microsoft/sp-application-base.DialogManagerConfiguration'

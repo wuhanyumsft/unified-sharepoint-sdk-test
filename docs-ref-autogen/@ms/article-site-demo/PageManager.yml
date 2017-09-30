@@ -20,6 +20,7 @@ items:
       - '@ms/article-site-demo.PageManager.performStartEditing'
       - '@ms/article-site-demo.PageManager.registerExclusiveBinding'
       - '@ms/article-site-demo.PageManager.saveAllExclusiveBindings'
+      - '@ms/article-site-demo.PageManager.serviceScope'
       - '@ms/article-site-demo.PageManager.tryNavigateToPage'
       - '@ms/article-site-demo.PageManager.unregisterExclusiveBinding'
     langs:
@@ -227,6 +228,19 @@ items:
     syntax:
       content: function saveAllExclusiveBindings()
       parameters: []
+  - uid: '@ms/article-site-demo.PageManager.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope
   - uid: '@ms/article-site-demo.PageManager.tryNavigateToPage'
     name: tryNavigateToPage
     children: []

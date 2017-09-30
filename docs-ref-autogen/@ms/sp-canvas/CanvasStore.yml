@@ -4,12 +4,20 @@ items:
     name: CanvasStore
     fullName: CanvasStore
     children:
+      - '@ms/sp-canvas.CanvasStore.a11yManager'
       - '@ms/sp-canvas.CanvasStore.addControlToCanvas'
+      - '@ms/sp-canvas.CanvasStore.addReference'
+      - '@ms/sp-canvas.CanvasStore.canvasElement'
+      - '@ms/sp-canvas.CanvasStore.canvasLayout'
       - '@ms/sp-canvas.CanvasStore.constructor'
       - '@ms/sp-canvas.CanvasStore.closeToolbox'
+      - '@ms/sp-canvas.CanvasStore.confirmationDialogProps'
+      - '@ms/sp-canvas.CanvasStore.controlsProps'
       - '@ms/sp-canvas.CanvasStore.createQosScope'
       - '@ms/sp-canvas.CanvasStore.deleteControl'
+      - '@ms/sp-canvas.CanvasStore.deletedControlLayout'
       - '@ms/sp-canvas.CanvasStore.deserialize'
+      - '@ms/sp-canvas.CanvasStore.displayMode'
       - '@ms/sp-canvas.CanvasStore.dispose'
       - '@ms/sp-canvas.CanvasStore.fetchWebparts'
       - '@ms/sp-canvas.CanvasStore.fillToolboxItems'
@@ -25,18 +33,48 @@ items:
       - '@ms/sp-canvas.CanvasStore.handleDeleteZoneDialogDismiss'
       - '@ms/sp-canvas.CanvasStore.handleToolboxItemClick'
       - '@ms/sp-canvas.CanvasStore.handleWindowBlur'
+      - '@ms/sp-canvas.CanvasStore.hoveredControlId'
       - '@ms/sp-canvas.CanvasStore.isFullWidth'
+      - '@ms/sp-canvas.CanvasStore.isNarrowMode'
+      - '@ms/sp-canvas.CanvasStore.isPolarisMultiColumnEditEnabled'
+      - '@ms/sp-canvas.CanvasStore.isReorderingSupported'
+      - '@ms/sp-canvas.CanvasStore.isRTESettingsFlightEnabled'
+      - '@ms/sp-canvas.CanvasStore.notifyChanged'
       - '@ms/sp-canvas.CanvasStore.onViewportWebPartsRendered'
       - '@ms/sp-canvas.CanvasStore.openToolbox'
       - '@ms/sp-canvas.CanvasStore.reclaimFocus'
+      - '@ms/sp-canvas.CanvasStore.scrollableParent'
       - '@ms/sp-canvas.CanvasStore.scrollIntoView'
+      - '@ms/sp-canvas.CanvasStore.scrollThreshold'
+      - '@ms/sp-canvas.CanvasStore.selectedControlId'
+      - '@ms/sp-canvas.CanvasStore.selectedZoneIndex'
       - '@ms/sp-canvas.CanvasStore.serialize'
+      - '@ms/sp-canvas.CanvasStore.serviceScope'
+      - '@ms/sp-canvas.CanvasStore.shouldCenterAlign'
+      - '@ms/sp-canvas.CanvasStore.siteSupportsFullWidth'
+      - '@ms/sp-canvas.CanvasStore.toolbox'
+      - '@ms/sp-canvas.CanvasStore.toolboxProps'
       - '@ms/sp-canvas.CanvasStore.tryGeneratePreviewImageUrl'
+      - '@ms/sp-canvas.CanvasStore.webPartManager'
+      - '@ms/sp-canvas.CanvasStore.webPartsCount'
     langs:
       - typeScript
     type: class
     summary: ''
     package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.CanvasStore.a11yManager'
+    name: a11yManager
+    fullName: a11yManager
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: A11yManager a11yManager
+      return:
+        type:
+          - A11yManager
   - uid: '@ms/sp-canvas.CanvasStore.addControlToCanvas'
     name: addControlToCanvas
     children: []
@@ -58,6 +96,45 @@ items:
             - boolean
           description: ''
           optional: true
+  - uid: '@ms/sp-canvas.CanvasStore.addReference'
+    name: addReference
+    fullName: addReference
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(ref: CanvasControlComponent) => void addReference'
+      return:
+        type:
+          - '(ref: CanvasControlComponent) => void'
+  - uid: '@ms/sp-canvas.CanvasStore.canvasElement'
+    name: canvasElement
+    fullName: canvasElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement canvasElement
+      return:
+        type:
+          - HTMLElement
+  - uid: '@ms/sp-canvas.CanvasStore.canvasLayout'
+    name: canvasLayout
+    fullName: canvasLayout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CanvasLayout canvasLayout
+      return:
+        type:
+          - '@@ms/sp-canvas.CanvasLayout'
   - uid: '@ms/sp-canvas.CanvasStore.constructor'
     name: CanvasStore
     children: []
@@ -129,6 +206,32 @@ items:
             - MouseEvent
           description: ''
           optional: true
+  - uid: '@ms/sp-canvas.CanvasStore.confirmationDialogProps'
+    name: confirmationDialogProps
+    fullName: confirmationDialogProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IConfirmationDialogProps confirmationDialogProps
+      return:
+        type:
+          - '@@ms/sp-canvas.IConfirmationDialogProps'
+  - uid: '@ms/sp-canvas.CanvasStore.controlsProps'
+    name: controlsProps
+    fullName: controlsProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ICanvasControl[] controlsProps'
+      return:
+        type:
+          - '@@ms/sp-canvas.ICanvasControl[]'
   - uid: '@ms/sp-canvas.CanvasStore.createQosScope'
     name: createQosScope
     children: []
@@ -160,6 +263,19 @@ items:
           type:
             - '@@ms/sp-canvas.IControlPosition'
           description: ''
+  - uid: '@ms/sp-canvas.CanvasStore.deletedControlLayout'
+    name: deletedControlLayout
+    fullName: deletedControlLayout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IControlPosition deletedControlLayout
+      return:
+        type:
+          - '@@ms/sp-canvas.IControlPosition'
   - uid: '@ms/sp-canvas.CanvasStore.deserialize'
     name: deserialize
     children: []
@@ -178,6 +294,19 @@ items:
           type:
             - string
           description: ''
+  - uid: '@ms/sp-canvas.CanvasStore.displayMode'
+    name: displayMode
+    fullName: displayMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DisplayMode displayMode
+      return:
+        type:
+          - DisplayMode
   - uid: '@ms/sp-canvas.CanvasStore.dispose'
     name: dispose
     children: []
@@ -408,6 +537,24 @@ items:
           type:
             - MouseEvent
           description: ''
+  - uid: '@ms/sp-canvas.CanvasStore.hoveredControlId'
+    name: hoveredControlId
+    fullName: hoveredControlId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The hoveredControlId keeps track of which control the pointer is currently
+      over.
+
+      It is used as a workaround to track pointer events on web parts that have
+      IFrames.
+    syntax:
+      content: string hoveredControlId
+      return:
+        type:
+          - string
   - uid: '@ms/sp-canvas.CanvasStore.isFullWidth'
     name: isFullWidth
     children: []
@@ -425,6 +572,71 @@ items:
       return:
         type:
           - boolean
+  - uid: '@ms/sp-canvas.CanvasStore.isNarrowMode'
+    name: isNarrowMode
+    fullName: isNarrowMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isNarrowMode
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.CanvasStore.isPolarisMultiColumnEditEnabled'
+    name: isPolarisMultiColumnEditEnabled
+    fullName: isPolarisMultiColumnEditEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static boolean isPolarisMultiColumnEditEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.CanvasStore.isReorderingSupported'
+    name: isReorderingSupported
+    fullName: isReorderingSupported
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static boolean isReorderingSupported
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.CanvasStore.isRTESettingsFlightEnabled'
+    name: isRTESettingsFlightEnabled
+    fullName: isRTESettingsFlightEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static boolean isRTESettingsFlightEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.CanvasStore.notifyChanged'
+    name: notifyChanged
+    fullName: notifyChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void notifyChanged
+      return:
+        type:
+          - () => void
   - uid: '@ms/sp-canvas.CanvasStore.onViewportWebPartsRendered'
     name: onViewportWebPartsRendered
     children: []
@@ -479,6 +691,19 @@ items:
     syntax:
       content: function reclaimFocus()
       parameters: []
+  - uid: '@ms/sp-canvas.CanvasStore.scrollableParent'
+    name: scrollableParent
+    fullName: scrollableParent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement scrollableParent
+      return:
+        type:
+          - HTMLElement
   - uid: '@ms/sp-canvas.CanvasStore.scrollIntoView'
     name: scrollIntoView
     children: []
@@ -523,6 +748,45 @@ items:
             - boolean
           description: ''
           optional: true
+  - uid: '@ms/sp-canvas.CanvasStore.scrollThreshold'
+    name: scrollThreshold
+    fullName: scrollThreshold
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number scrollThreshold
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-canvas.CanvasStore.selectedControlId'
+    name: selectedControlId
+    fullName: selectedControlId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string selectedControlId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.CanvasStore.selectedZoneIndex'
+    name: selectedZoneIndex
+    fullName: selectedZoneIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number selectedZoneIndex
+      return:
+        type:
+          - number
   - uid: '@ms/sp-canvas.CanvasStore.serialize'
     name: serialize
     children: []
@@ -550,6 +814,71 @@ items:
       return:
         type:
           - string
+  - uid: '@ms/sp-canvas.CanvasStore.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope
+  - uid: '@ms/sp-canvas.CanvasStore.shouldCenterAlign'
+    name: shouldCenterAlign
+    fullName: shouldCenterAlign
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean shouldCenterAlign
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.CanvasStore.siteSupportsFullWidth'
+    name: siteSupportsFullWidth
+    fullName: siteSupportsFullWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean siteSupportsFullWidth
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-canvas.CanvasStore.toolbox'
+    name: toolbox
+    fullName: toolbox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void toolbox
+      return:
+        type:
+          - void
+  - uid: '@ms/sp-canvas.CanvasStore.toolboxProps'
+    name: toolboxProps
+    fullName: toolboxProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IToolboxSmallProps toolboxProps
+      return:
+        type:
+          - '@@ms/sp-canvas.IToolboxSmallProps'
   - uid: '@ms/sp-canvas.CanvasStore.tryGeneratePreviewImageUrl'
     name: tryGeneratePreviewImageUrl
     children: []
@@ -560,3 +889,29 @@ items:
     syntax:
       content: function tryGeneratePreviewImageUrl()
       parameters: []
+  - uid: '@ms/sp-canvas.CanvasStore.webPartManager'
+    name: webPartManager
+    fullName: webPartManager
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ClientSideWebPartManager webPartManager
+      return:
+        type:
+          - ClientSideWebPartManager
+  - uid: '@ms/sp-canvas.CanvasStore.webPartsCount'
+    name: webPartsCount
+    fullName: webPartsCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number webPartsCount
+      return:
+        type:
+          - number

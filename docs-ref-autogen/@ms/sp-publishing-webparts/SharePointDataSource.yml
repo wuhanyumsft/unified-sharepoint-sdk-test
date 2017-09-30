@@ -4,12 +4,70 @@ items:
     name: SharePointDataSource
     fullName: SharePointDataSource
     children:
+      - '@ms/sp-publishing-webparts.SharePointDataSource.currentUICultureName'
+      - '@ms/sp-publishing-webparts.SharePointDataSource.groupId'
+      - '@ms/sp-publishing-webparts.SharePointDataSource.isAnonymousGuestUser'
+      - '@ms/sp-publishing-webparts.SharePointDataSource.isExternalGuestUser'
       - '@ms/sp-publishing-webparts.SharePointDataSource.constructor'
+      - '@ms/sp-publishing-webparts.SharePointDataSource.themeColor'
+      - '@ms/sp-publishing-webparts.SharePointDataSource.webTemplate'
     langs:
       - typeScript
     type: class
     summary: ''
     package: '@ms/sp-publishing-webparts'
+  - uid: '@ms/sp-publishing-webparts.SharePointDataSource.currentUICultureName'
+    name: currentUICultureName
+    fullName: currentUICultureName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string currentUICultureName
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.SharePointDataSource.groupId'
+    name: groupId
+    fullName: groupId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string groupId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.SharePointDataSource.isAnonymousGuestUser'
+    name: isAnonymousGuestUser
+    fullName: isAnonymousGuestUser
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isAnonymousGuestUser
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-publishing-webparts.SharePointDataSource.isExternalGuestUser'
+    name: isExternalGuestUser
+    fullName: isExternalGuestUser
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isExternalGuestUser
+      return:
+        type:
+          - boolean
   - uid: '@ms/sp-publishing-webparts.SharePointDataSource.constructor'
     name: SharePointDataSource
     children: []
@@ -24,3 +82,29 @@ items:
           type:
             - PageContext
           description: ''
+  - uid: '@ms/sp-publishing-webparts.SharePointDataSource.themeColor'
+    name: themeColor
+    fullName: themeColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string themeColor
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-publishing-webparts.SharePointDataSource.webTemplate'
+    name: webTemplate
+    fullName: webTemplate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webTemplate
+      return:
+        type:
+          - string

@@ -6,7 +6,10 @@ items:
     children:
       - '@ms/sp-pages.BasePublishingControl.componentDidMount'
       - '@ms/sp-pages.BasePublishingControl.componentWillUnmount'
+      - '@ms/sp-pages.BasePublishingControl.id'
       - '@ms/sp-pages.BasePublishingControl.onDisplayModeChange'
+      - '@ms/sp-pages.BasePublishingControl.pageContext'
+      - '@ms/sp-pages.BasePublishingControl.pageManager'
       - '@ms/sp-pages.BasePublishingControl.save'
     langs:
       - typeScript
@@ -35,6 +38,19 @@ items:
     syntax:
       content: function componentWillUnmount()
       parameters: []
+  - uid: '@ms/sp-pages.BasePublishingControl.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
   - uid: '@ms/sp-pages.BasePublishingControl.onDisplayModeChange'
     name: onDisplayModeChange
     children: []
@@ -49,6 +65,32 @@ items:
           type:
             - 'string[]'
           description: ''
+  - uid: '@ms/sp-pages.BasePublishingControl.pageContext'
+    name: pageContext
+    fullName: pageContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageContext pageContext
+      return:
+        type:
+          - PageContext
+  - uid: '@ms/sp-pages.BasePublishingControl.pageManager'
+    name: pageManager
+    fullName: pageManager
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PageManager pageManager
+      return:
+        type:
+          - '@@ms/sp-pages.PageManager'
   - uid: '@ms/sp-pages.BasePublishingControl.save'
     name: save
     children: []

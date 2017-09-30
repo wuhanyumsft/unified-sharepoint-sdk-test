@@ -4,7 +4,11 @@ items:
     name: QosMonitor
     fullName: QosMonitor
     children:
+      - '@ms/sp-telemetry.QosMonitor.enabled'
+      - '@ms/sp-telemetry.QosMonitor.hasEnded'
+      - '@ms/sp-telemetry.QosMonitor.name'
       - '@ms/sp-telemetry.QosMonitor.constructor'
+      - '@ms/sp-telemetry.QosMonitor.shortEventName'
       - '@ms/sp-telemetry.QosMonitor.writeExpectedFailure'
       - '@ms/sp-telemetry.QosMonitor.writeSuccess'
       - '@ms/sp-telemetry.QosMonitor.writeUnexpectedFailure'
@@ -15,6 +19,45 @@ items:
       Qos logger
       This class represents the Qos monitor APIs
     package: '@ms/sp-telemetry'
+  - uid: '@ms/sp-telemetry.QosMonitor.enabled'
+    name: enabled
+    fullName: enabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean enabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-telemetry.QosMonitor.hasEnded'
+    name: hasEnded
+    fullName: hasEnded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasEnded
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-telemetry.QosMonitor.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
   - uid: '@ms/sp-telemetry.QosMonitor.constructor'
     name: QosMonitor
     children: []
@@ -31,6 +74,19 @@ items:
           description: |
             Unique name of the QoS scenario
             You will see start tag: SPPages.ScenarioName.Start
+  - uid: '@ms/sp-telemetry.QosMonitor.shortEventName'
+    name: shortEventName
+    fullName: shortEventName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string shortEventName
+      return:
+        type:
+          - string
   - uid: '@ms/sp-telemetry.QosMonitor.writeExpectedFailure'
     name: writeExpectedFailure
     children: []

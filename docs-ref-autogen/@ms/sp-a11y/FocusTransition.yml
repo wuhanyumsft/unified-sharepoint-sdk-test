@@ -4,8 +4,11 @@ items:
     name: FocusTransition
     fullName: FocusTransition
     children:
+      - '@ms/sp-a11y.FocusTransition.dest'
       - '@ms/sp-a11y.FocusTransition.constructor'
       - '@ms/sp-a11y.FocusTransition.forEachElementInPath'
+      - '@ms/sp-a11y.FocusTransition.root'
+      - '@ms/sp-a11y.FocusTransition.src'
     langs:
       - typeScript
     type: class
@@ -13,6 +16,19 @@ items:
       A class to model focus transition and provides useful APIs to deal with a
       focus transition.
     package: '@ms/sp-a11y'
+  - uid: '@ms/sp-a11y.FocusTransition.dest'
+    name: dest
+    fullName: dest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement dest
+      return:
+        type:
+          - HTMLElement
   - uid: '@ms/sp-a11y.FocusTransition.constructor'
     name: FocusTransition
     children: []
@@ -54,3 +70,29 @@ items:
           type:
             - '(element: HTMLElement, isOutward: boolean) => void'
           description: ''
+  - uid: '@ms/sp-a11y.FocusTransition.root'
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement root
+      return:
+        type:
+          - HTMLElement
+  - uid: '@ms/sp-a11y.FocusTransition.src'
+    name: src
+    fullName: src
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement src
+      return:
+        type:
+          - HTMLElement

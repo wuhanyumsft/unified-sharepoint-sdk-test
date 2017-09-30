@@ -6,6 +6,7 @@ items:
     children:
       - '@microsoft/sp-loader.ManifestStore.getManifest'
       - '@microsoft/sp-loader.ManifestStore.getRegisteredManifests'
+      - '@microsoft/sp-loader.ManifestStore.instance'
       - '@microsoft/sp-loader.ManifestStore.registerDebugManifests'
       - '@microsoft/sp-loader.ManifestStore.registerManifests'
       - '@microsoft/sp-loader.ManifestStore.registerPreloadedManifests'
@@ -59,6 +60,19 @@ items:
     syntax:
       content: function getRegisteredManifests()
       parameters: []
+  - uid: '@microsoft/sp-loader.ManifestStore.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ManifestStore instance
+      return:
+        type:
+          - '@@microsoft/sp-loader.ManifestStore'
   - uid: '@microsoft/sp-loader.ManifestStore.registerDebugManifests'
     name: registerDebugManifests
     children: []

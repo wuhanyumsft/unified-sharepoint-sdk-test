@@ -4,7 +4,10 @@ items:
     name: WebViewUtility
     fullName: WebViewUtility
     children:
+      - '@ms/sp-webpart-shared.WebViewUtility.documentCommand'
+      - '@ms/sp-webpart-shared.WebViewUtility.documentKey'
       - '@ms/sp-webpart-shared.WebViewUtility.getOpenDocumentAction'
+      - '@ms/sp-webpart-shared.WebViewUtility.webViewActionRole'
     langs:
       - typeScript
     type: class
@@ -13,6 +16,32 @@ items:
       Currently the main purpose is to help deal with link interception when
       layouts do not use anchor tags for their links.
     package: '@ms/sp-webpart-shared'
+  - uid: '@ms/sp-webpart-shared.WebViewUtility.documentCommand'
+    name: documentCommand
+    fullName: documentCommand
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string documentCommand
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-webpart-shared.WebViewUtility.documentKey'
+    name: documentKey
+    fullName: documentKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string documentKey
+      return:
+        type:
+          - string
   - uid: '@ms/sp-webpart-shared.WebViewUtility.getOpenDocumentAction'
     name: getOpenDocumentAction
     children: []
@@ -27,3 +56,16 @@ items:
           type:
             - string
           description: ''
+  - uid: '@ms/sp-webpart-shared.WebViewUtility.webViewActionRole'
+    name: webViewActionRole
+    fullName: webViewActionRole
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string webViewActionRole
+      return:
+        type:
+          - string

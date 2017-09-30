@@ -3,9 +3,37 @@ items:
   - uid: '@ms/sp-teamsite-webparts.FilePickerLoader'
     name: FilePickerLoader
     fullName: FilePickerLoader
-    children: []
+    children:
+      - '@ms/sp-teamsite-webparts.FilePickerLoader.filePickerWrapperModule'
+      - '@ms/sp-teamsite-webparts.FilePickerLoader.quickLinksFilePickerModule'
     langs:
       - typeScript
     type: class
     summary: ''
     package: '@ms/sp-teamsite-webparts'
+  - uid: '@ms/sp-teamsite-webparts.FilePickerLoader.filePickerWrapperModule'
+    name: filePickerWrapperModule
+    fullName: filePickerWrapperModule
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Promise<FilePickerWrapper> filePickerWrapperModule
+      return:
+        type:
+          - Promise<@@ms/sp-teamsite-webparts.FilePickerWrapper>
+  - uid: '@ms/sp-teamsite-webparts.FilePickerLoader.quickLinksFilePickerModule'
+    name: quickLinksFilePickerModule
+    fullName: quickLinksFilePickerModule
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Promise<QuickLinksFilePicker> quickLinksFilePickerModule
+      return:
+        type:
+          - Promise<@@ms/sp-teamsite-webparts.QuickLinksFilePicker>

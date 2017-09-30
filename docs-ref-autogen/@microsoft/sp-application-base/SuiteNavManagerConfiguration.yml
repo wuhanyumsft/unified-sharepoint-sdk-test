@@ -4,18 +4,58 @@ items:
     name: SuiteNavManagerConfiguration
     fullName: SuiteNavManagerConfiguration
     children:
+      - '@microsoft/sp-application-base.SuiteNavManagerConfiguration.cacheToken'
+      - >-
+        @microsoft/sp-application-base.SuiteNavManagerConfiguration.currentUICultureName
       - >-
         @microsoft/sp-application-base.SuiteNavManagerConfiguration.disableSuiteNav
+      - >-
+        @microsoft/sp-application-base.SuiteNavManagerConfiguration.hamburgerCallback
       - >-
         @microsoft/sp-application-base.SuiteNavManagerConfiguration.isSuiteNavDisabled
       - >-
         @microsoft/sp-application-base.SuiteNavManagerConfiguration.modifySuiteNavData
+      - >-
+        @microsoft/sp-application-base.SuiteNavManagerConfiguration.o365ShellRenderSettings
       - '@microsoft/sp-application-base.SuiteNavManagerConfiguration.constructor'
+      - >-
+        @microsoft/sp-application-base.SuiteNavManagerConfiguration.suiteNavPostRenderCallback
+      - >-
+        @microsoft/sp-application-base.SuiteNavManagerConfiguration.systemUserKey
+      - >-
+        @microsoft/sp-application-base.SuiteNavManagerConfiguration.webServerRelativeUrl
     langs:
       - typeScript
     type: class
     summary: ''
     package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.SuiteNavManagerConfiguration.cacheToken'
+    name: cacheToken
+    fullName: cacheToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the cache token.
+    syntax:
+      content: string cacheToken
+      return:
+        type:
+          - string
+  - uid: >-
+      @microsoft/sp-application-base.SuiteNavManagerConfiguration.currentUICultureName
+    name: currentUICultureName
+    fullName: currentUICultureName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Property representing the culture name (e.g. "en-us")
+    syntax:
+      content: string currentUICultureName
+      return:
+        type:
+          - string
   - uid: >-
       @microsoft/sp-application-base.SuiteNavManagerConfiguration.disableSuiteNav
     name: disableSuiteNav
@@ -27,6 +67,20 @@ items:
     syntax:
       content: function disableSuiteNav()
       parameters: []
+  - uid: >-
+      @microsoft/sp-application-base.SuiteNavManagerConfiguration.hamburgerCallback
+    name: hamburgerCallback
+    fullName: hamburgerCallback
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function hamburgerCallback
+      return:
+        type:
+          - function
   - uid: >-
       @microsoft/sp-application-base.SuiteNavManagerConfiguration.isSuiteNavDisabled
     name: isSuiteNavDisabled
@@ -59,6 +113,20 @@ items:
       return:
         type:
           - '@@microsoft/sp-application-base.ISuiteNavData'
+  - uid: >-
+      @microsoft/sp-application-base.SuiteNavManagerConfiguration.o365ShellRenderSettings
+    name: o365ShellRenderSettings
+    fullName: o365ShellRenderSettings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the o365ShellRenderSettings for rendering the SuiteNav.
+    syntax:
+      content: IO365ShellRenderSettings o365ShellRenderSettings
+      return:
+        type:
+          - '@@microsoft/sp-application-base.IO365ShellRenderSettings'
   - uid: '@microsoft/sp-application-base.SuiteNavManagerConfiguration.constructor'
     name: SuiteNavManagerConfiguration
     children: []
@@ -75,3 +143,46 @@ items:
           type:
             - '@@microsoft/sp-application-base.ISuiteNavConfigurationData'
           description: ''
+  - uid: >-
+      @microsoft/sp-application-base.SuiteNavManagerConfiguration.suiteNavPostRenderCallback
+    name: suiteNavPostRenderCallback
+    fullName: suiteNavPostRenderCallback
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void suiteNavPostRenderCallback
+      return:
+        type:
+          - () => void
+  - uid: '@microsoft/sp-application-base.SuiteNavManagerConfiguration.systemUserKey'
+    name: systemUserKey
+    fullName: systemUserKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the systemUserKey token.
+    syntax:
+      content: string systemUserKey
+      return:
+        type:
+          - string
+  - uid: >-
+      @microsoft/sp-application-base.SuiteNavManagerConfiguration.webServerRelativeUrl
+    name: webServerRelativeUrl
+    fullName: webServerRelativeUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Represents the web server relative url where we would ping the Suite Nav
+      service.
+    syntax:
+      content: string webServerRelativeUrl
+      return:
+        type:
+          - string

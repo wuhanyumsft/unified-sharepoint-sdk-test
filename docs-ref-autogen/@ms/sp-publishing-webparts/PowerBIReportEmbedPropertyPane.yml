@@ -7,6 +7,7 @@ items:
       - >-
         @ms/sp-publishing-webparts.PowerBIReportEmbedPropertyPane.getPropertyPanePages
       - '@ms/sp-publishing-webparts.PowerBIReportEmbedPropertyPane.constructor'
+      - '@ms/sp-publishing-webparts.PowerBIReportEmbedPropertyPane.properties'
     langs:
       - typeScript
     type: class
@@ -56,3 +57,16 @@ items:
           description: |+
             Webpart's properties
 
+  - uid: '@ms/sp-publishing-webparts.PowerBIReportEmbedPropertyPane.properties'
+    name: properties
+    fullName: properties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IPowerBIReportEmbedWebPartProps properties
+      return:
+        type:
+          - '@@ms/sp-publishing-webparts.IPowerBIReportEmbedWebPartProps'

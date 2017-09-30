@@ -4,9 +4,11 @@ items:
     name: RestApiError
     fullName: RestApiError
     children:
+      - '@ms/sp-pages.RestApiError.code'
       - '@ms/sp-pages.RestApiError.Error'
       - '@ms/sp-pages.RestApiError.message'
       - '@ms/sp-pages.RestApiError.constructor'
+      - '@ms/sp-pages.RestApiError.status'
     langs:
       - typeScript
     type: class
@@ -14,6 +16,19 @@ items:
     extends:
       name: Error
     package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.RestApiError.code'
+    name: code
+    fullName: code
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string code
+      return:
+        type:
+          - string
   - uid: '@ms/sp-pages.RestApiError.Error'
     name: Error
     fullName: Error
@@ -62,3 +77,16 @@ items:
           type:
             - string
           description: ''
+  - uid: '@ms/sp-pages.RestApiError.status'
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number status
+      return:
+        type:
+          - number

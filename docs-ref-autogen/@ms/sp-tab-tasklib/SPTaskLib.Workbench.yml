@@ -7,6 +7,8 @@ items:
       - '@ms/sp-tab-tasklib.SPTaskLib.Workbench.AddTaskClearSecurityDialog'
       - '@ms/sp-tab-tasklib.SPTaskLib.Workbench.AddTaskClearWarningDialog'
       - '@ms/sp-tab-tasklib.SPTaskLib.Workbench.AddTaskSavePage'
+      - '@ms/sp-tab-tasklib.SPTaskLib.Workbench.editMode'
+      - '@ms/sp-tab-tasklib.SPTaskLib.Workbench.pageContentClassName'
       - '@ms/sp-tab-tasklib.SPTaskLib.Workbench.PageReady'
       - '@ms/sp-tab-tasklib.SPTaskLib.Workbench.PageUrl'
       - '@ms/sp-tab-tasklib.SPTaskLib.Workbench.SelectedWebpart'
@@ -49,6 +51,32 @@ items:
     syntax:
       content: static function AddTaskSavePage()
       parameters: []
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.Workbench.editMode'
+    name: editMode
+    fullName: editMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static boolean editMode
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-tab-tasklib.SPTaskLib.Workbench.pageContentClassName'
+    name: pageContentClassName
+    fullName: pageContentClassName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string pageContentClassName
+      return:
+        type:
+          - string
   - uid: '@ms/sp-tab-tasklib.SPTaskLib.Workbench.PageReady'
     name: PageReady
     children: []

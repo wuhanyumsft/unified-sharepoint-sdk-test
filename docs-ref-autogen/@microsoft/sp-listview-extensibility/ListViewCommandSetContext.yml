@@ -4,6 +4,7 @@ items:
     name: ListViewCommandSetContext
     fullName: ListViewCommandSetContext
     children:
+      - '@microsoft/sp-listview-extensibility.ListViewCommandSetContext.listView'
       - >-
         @microsoft/sp-listview-extensibility.ListViewCommandSetContext.constructor
       - '@microsoft/sp-listview-extensibility.ListViewCommandSetContext.manifest'
@@ -14,6 +15,21 @@ items:
     extends:
       name: '@@microsoft/sp-listview-extensibility.ListViewCommandSetContext'
     package: '@microsoft/sp-listview-extensibility'
+  - uid: '@microsoft/sp-listview-extensibility.ListViewCommandSetContext.listView'
+    name: listView
+    fullName: listView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Provides access to the ListView control that the customizer will operate
+      on.
+    syntax:
+      content: ListViewAccessor listView
+      return:
+        type:
+          - '@@microsoft/sp-listview-extensibility.ListViewAccessor'
   - uid: '@microsoft/sp-listview-extensibility.ListViewCommandSetContext.constructor'
     name: ListViewCommandSetContext
     children: []

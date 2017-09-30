@@ -6,6 +6,7 @@ items:
     children:
       - '@ms/sp-canvas-toolbox.MockComponent.scheduleUpdate'
       - '@ms/sp-canvas-toolbox.MockComponent.setState'
+      - '@ms/sp-canvas-toolbox.MockComponent.state'
     langs:
       - typeScript
     type: class
@@ -43,3 +44,16 @@ items:
           type:
             - SetStateCallback<T>
           description: ''
+  - uid: '@ms/sp-canvas-toolbox.MockComponent.state'
+    name: state
+    fullName: state
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: T state
+      return:
+        type:
+          - T

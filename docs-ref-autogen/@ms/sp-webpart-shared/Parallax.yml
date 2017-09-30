@@ -5,6 +5,7 @@ items:
     fullName: Parallax
     children:
       - '@ms/sp-webpart-shared.Parallax.addParallax'
+      - '@ms/sp-webpart-shared.Parallax.instance'
       - '@ms/sp-webpart-shared.Parallax.removeParallax'
     langs:
       - typeScript
@@ -26,6 +27,19 @@ items:
             - HTMLElement
           description: |+
 
+  - uid: '@ms/sp-webpart-shared.Parallax.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static Parallax instance
+      return:
+        type:
+          - '@@ms/sp-webpart-shared.Parallax'
   - uid: '@ms/sp-webpart-shared.Parallax.removeParallax'
     name: removeParallax
     children: []

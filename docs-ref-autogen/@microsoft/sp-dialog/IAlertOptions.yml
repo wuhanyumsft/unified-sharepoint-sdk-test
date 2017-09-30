@@ -11,3 +11,4 @@ items:
     extends:
       name: '@@microsoft/sp-dialog.IDialogShowOptions'
     package: '@microsoft/sp-dialog'
+    isPreview: true

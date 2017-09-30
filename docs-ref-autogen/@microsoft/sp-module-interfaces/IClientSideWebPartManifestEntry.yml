@@ -119,6 +119,7 @@ items:
       return:
         type:
           - '@@microsoft/sp-module-interfaces.ILocalizedString'
+    isPreview: true
   - uid: '@microsoft/sp-module-interfaces.IClientSideWebPartManifestEntry.groupId'
     name: groupId
     fullName: groupId
@@ -142,6 +143,7 @@ items:
       return:
         type:
           - PredefinedGroup
+    isPreview: true
   - uid: >-
       @microsoft/sp-module-interfaces.IClientSideWebPartManifestEntry.iconImageUrl
     name: iconImageUrl

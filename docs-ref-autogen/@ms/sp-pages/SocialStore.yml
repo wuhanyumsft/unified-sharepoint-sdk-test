@@ -4,6 +4,7 @@ items:
     name: SocialStore
     fullName: SocialStore
     children:
+      - '@ms/sp-pages.SocialStore.instance'
       - '@ms/sp-pages.SocialStore.processAction'
       - '@ms/sp-pages.SocialStore.constructor'
     langs:
@@ -13,6 +14,19 @@ items:
     extends:
       name: '@@ms/sp-pages.BaseStore'
     package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.SocialStore.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static SocialStore instance
+      return:
+        type:
+          - '@@ms/sp-pages.SocialStore'
   - uid: '@ms/sp-pages.SocialStore.processAction'
     name: processAction
     children: []

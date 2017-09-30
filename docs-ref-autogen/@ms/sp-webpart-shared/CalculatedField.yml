@@ -5,6 +5,7 @@ items:
     fullName: CalculatedField
     children:
       - '@ms/sp-webpart-shared.CalculatedField.constructor'
+      - '@ms/sp-webpart-shared.CalculatedField.formatter'
     langs:
       - typeScript
     type: class
@@ -42,3 +43,16 @@ items:
             - '(item?: IDataRow, index?: number) => ReactNode'
           description: ''
           optional: true
+  - uid: '@ms/sp-webpart-shared.CalculatedField.formatter'
+    name: formatter
+    fullName: formatter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(row: IDataRow) => Object formatter'
+      return:
+        type:
+          - '(row: IDataRow) => Object'

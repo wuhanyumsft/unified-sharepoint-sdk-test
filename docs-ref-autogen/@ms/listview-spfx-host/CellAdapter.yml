@@ -5,7 +5,11 @@ items:
     fullName: CellAdapter
     children:
       - '@ms/listview-spfx-host.CellAdapter.constructor'
+      - '@ms/listview-spfx-host.CellAdapter.cellDiv'
+      - '@ms/listview-spfx-host.CellAdapter.column'
       - '@ms/listview-spfx-host.CellAdapter.dispose'
+      - '@ms/listview-spfx-host.CellAdapter.domElement'
+      - '@ms/listview-spfx-host.CellAdapter.error'
       - '@ms/listview-spfx-host.CellAdapter.row'
     langs:
       - typeScript
@@ -40,6 +44,34 @@ items:
           type:
             - HTMLDivElement
           description: ''
+  - uid: '@ms/listview-spfx-host.CellAdapter.cellDiv'
+    name: cellDiv
+    fullName: cellDiv
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLDivElement cellDiv
+      return:
+        type:
+          - HTMLDivElement
+    deprecated:
+      content: The property 'domElement' should now be used.
+  - uid: '@ms/listview-spfx-host.CellAdapter.column'
+    name: column
+    fullName: column
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ColumnAdapter column
+      return:
+        type:
+          - '@@ms/listview-spfx-host.ColumnAdapter'
   - uid: '@ms/listview-spfx-host.CellAdapter.dispose'
     name: dispose
     children: []
@@ -50,6 +82,32 @@ items:
     syntax:
       content: function dispose()
       parameters: []
+  - uid: '@ms/listview-spfx-host.CellAdapter.domElement'
+    name: domElement
+    fullName: domElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLDivElement domElement
+      return:
+        type:
+          - HTMLDivElement
+  - uid: '@ms/listview-spfx-host.CellAdapter.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Error error
+      return:
+        type:
+          - Error
   - uid: '@ms/listview-spfx-host.CellAdapter.row'
     name: row
     children: []

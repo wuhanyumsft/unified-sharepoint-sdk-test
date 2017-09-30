@@ -5,6 +5,8 @@ items:
     fullName: ClassicPageHost
     children:
       - '@ms/sp-classic-page.ClassicPageHost.constructor'
+      - '@ms/sp-classic-page.ClassicPageHost.isViewportLoadingDisabled'
+      - '@ms/sp-classic-page.ClassicPageHost.serviceScope'
       - '@ms/sp-classic-page.ClassicPageHost.setDirty'
       - '@ms/sp-classic-page.ClassicPageHost.webPartConfigurationEventCallback'
     langs:
@@ -28,6 +30,32 @@ items:
           type:
             - ServiceScope
           description: ''
+  - uid: '@ms/sp-classic-page.ClassicPageHost.isViewportLoadingDisabled'
+    name: isViewportLoadingDisabled
+    fullName: isViewportLoadingDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isViewportLoadingDisabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-classic-page.ClassicPageHost.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope
   - uid: '@ms/sp-classic-page.ClassicPageHost.setDirty'
     name: setDirty
     children: []

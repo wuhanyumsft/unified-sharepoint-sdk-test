@@ -7,10 +7,14 @@ items:
       - '@ms/sp-canvas.CanvasSectionPart.addControl'
       - '@ms/sp-canvas.CanvasSectionPart.constructor'
       - '@ms/sp-canvas.CanvasSectionPart.changeFactor'
+      - '@ms/sp-canvas.CanvasSectionPart.controls'
       - '@ms/sp-canvas.CanvasSectionPart.dispose'
+      - '@ms/sp-canvas.CanvasSectionPart.emptySectionControl'
       - '@ms/sp-canvas.CanvasSectionPart.emptySectionId'
+      - '@ms/sp-canvas.CanvasSectionPart.factor'
       - '@ms/sp-canvas.CanvasSectionPart.fetchAllControls'
       - '@ms/sp-canvas.CanvasSectionPart.fetchControl'
+      - '@ms/sp-canvas.CanvasSectionPart.index'
       - '@ms/sp-canvas.CanvasSectionPart.isEmpty'
       - '@ms/sp-canvas.CanvasSectionPart.moveControl'
       - '@ms/sp-canvas.CanvasSectionPart.removeControl'
@@ -71,6 +75,19 @@ items:
             - number
           description: |
             The new section factor.
+  - uid: '@ms/sp-canvas.CanvasSectionPart.controls'
+    name: controls
+    fullName: controls
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the controls associated with the current section
+    syntax:
+      content: 'ICanvasControl[] controls'
+      return:
+        type:
+          - '@@ms/sp-canvas.ICanvasControl[]'
   - uid: '@ms/sp-canvas.CanvasSectionPart.dispose'
     name: dispose
     children: []
@@ -81,6 +98,19 @@ items:
     syntax:
       content: function dispose()
       parameters: []
+  - uid: '@ms/sp-canvas.CanvasSectionPart.emptySectionControl'
+    name: emptySectionControl
+    fullName: emptySectionControl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ICanvasControl emptySectionControl
+      return:
+        type:
+          - '@@ms/sp-canvas.ICanvasControl'
   - uid: '@ms/sp-canvas.CanvasSectionPart.emptySectionId'
     name: emptySectionId
     fullName: emptySectionId
@@ -94,6 +124,19 @@ items:
       return:
         type:
           - function
+  - uid: '@ms/sp-canvas.CanvasSectionPart.factor'
+    name: factor
+    fullName: factor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the section factor.
+    syntax:
+      content: number factor
+      return:
+        type:
+          - number
   - uid: '@ms/sp-canvas.CanvasSectionPart.fetchAllControls'
     name: fetchAllControls
     children: []
@@ -124,6 +167,19 @@ items:
       return:
         type:
           - '@@ms/sp-canvas.ICanvasControl'
+  - uid: '@ms/sp-canvas.CanvasSectionPart.index'
+    name: index
+    fullName: index
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the index associated with this section
+    syntax:
+      content: number index
+      return:
+        type:
+          - number
   - uid: '@ms/sp-canvas.CanvasSectionPart.isEmpty'
     name: isEmpty
     children: []

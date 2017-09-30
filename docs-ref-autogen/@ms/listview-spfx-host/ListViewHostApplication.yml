@@ -4,6 +4,7 @@ items:
     name: ListViewHostApplication
     fullName: ListViewHostApplication
     children:
+      - '@ms/listview-spfx-host.ListViewHostApplication.adapter'
       - '@ms/listview-spfx-host.ListViewHostApplication.suiteNavConfiguration'
     langs:
       - typeScript
@@ -12,6 +13,19 @@ items:
     extends:
       name: '@@ms/listview-spfx-host.ListViewHostApplication'
     package: '@ms/listview-spfx-host'
+  - uid: '@ms/listview-spfx-host.ListViewHostApplication.adapter'
+    name: adapter
+    fullName: adapter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: SpfxAdapter adapter
+      return:
+        type:
+          - '@@ms/listview-spfx-host.SpfxAdapter'
   - uid: '@ms/listview-spfx-host.ListViewHostApplication.suiteNavConfiguration'
     name: suiteNavConfiguration
     children: []

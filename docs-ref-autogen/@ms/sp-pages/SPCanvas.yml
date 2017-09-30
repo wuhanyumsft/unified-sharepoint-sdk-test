@@ -8,6 +8,7 @@ items:
       - '@ms/sp-pages.SPCanvas.componentWillMount'
       - '@ms/sp-pages.SPCanvas.componentWillUnmount'
       - '@ms/sp-pages.SPCanvas.componentWillUpdate'
+      - '@ms/sp-pages.SPCanvas.count'
       - '@ms/sp-pages.SPCanvas.onDisplayModeChange'
       - '@ms/sp-pages.SPCanvas.openToolbox'
       - '@ms/sp-pages.SPCanvas.render'
@@ -64,6 +65,19 @@ items:
           type:
             - '@@ms/sp-pages.ISPCanvasProps'
           description: ''
+  - uid: '@ms/sp-pages.SPCanvas.count'
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number count
+      return:
+        type:
+          - number
   - uid: '@ms/sp-pages.SPCanvas.onDisplayModeChange'
     name: onDisplayModeChange
     children: []

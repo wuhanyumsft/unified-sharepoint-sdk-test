@@ -4,7 +4,14 @@ items:
     name: SPTimeZone
     fullName: SPTimeZone
     children:
+      - '@microsoft/sp-page-context.SPTimeZone.daylightDate'
+      - '@microsoft/sp-page-context.SPTimeZone.daylightOffset'
+      - '@microsoft/sp-page-context.SPTimeZone.description'
+      - '@microsoft/sp-page-context.SPTimeZone.id'
+      - '@microsoft/sp-page-context.SPTimeZone.offset'
       - '@microsoft/sp-page-context.SPTimeZone.constructor'
+      - '@microsoft/sp-page-context.SPTimeZone.standardDate'
+      - '@microsoft/sp-page-context.SPTimeZone.standardOffset'
     langs:
       - typeScript
     type: class
@@ -22,6 +29,79 @@ items:
 
       June 11, 2 A.M. PST = June 11, 9 A.M. - (480 minutes) - (-60  minutes)
     package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.SPTimeZone.daylightDate'
+    name: daylightDate
+    fullName: daylightDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the date on which daylight time begins for the time zone.
+    syntax:
+      content: ISPSystemTime daylightDate
+      return:
+        type:
+          - '@@microsoft/sp-page-context.ISPSystemTime'
+  - uid: '@microsoft/sp-page-context.SPTimeZone.daylightOffset'
+    name: daylightOffset
+    fullName: daylightOffset
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gets the offset in the number of minutes that daylight time for the time
+      zone differs
+
+      from Coordinated Universal Time (UTC).
+    syntax:
+      content: number daylightOffset
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-page-context.SPTimeZone.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the description for the time zone.
+    syntax:
+      content: string description
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.SPTimeZone.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the ID of the time zone.
+    syntax:
+      content: number id
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-page-context.SPTimeZone.offset'
+    name: offset
+    fullName: offset
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gets the offset in the number of minutes that the time zone differs from
+      Coordinated
+
+      Universal Time (UTC).
+    syntax:
+      content: number offset
+      return:
+        type:
+          - number
   - uid: '@microsoft/sp-page-context.SPTimeZone.constructor'
     name: SPTimeZone
     children: []
@@ -36,3 +116,33 @@ items:
           type:
             - '@@microsoft/sp-page-context.ISPTimeZoneData'
           description: ''
+  - uid: '@microsoft/sp-page-context.SPTimeZone.standardDate'
+    name: standardDate
+    fullName: standardDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the date on which standard time begins for the time zone.
+    syntax:
+      content: ISPSystemTime standardDate
+      return:
+        type:
+          - '@@microsoft/sp-page-context.ISPSystemTime'
+  - uid: '@microsoft/sp-page-context.SPTimeZone.standardOffset'
+    name: standardOffset
+    fullName: standardOffset
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gets the offset in the number of minutes that standard time for the time
+      zone differs
+
+      from coordinated universal time (UTC).
+    syntax:
+      content: number standardOffset
+      return:
+        type:
+          - number

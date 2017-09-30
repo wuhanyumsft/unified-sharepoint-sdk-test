@@ -7,6 +7,7 @@ items:
       - '@ms/sp-webpart-shared.BaseCollection.constructor'
       - '@ms/sp-webpart-shared.BaseCollection.focusOnTitle'
       - '@ms/sp-webpart-shared.BaseCollection.render'
+      - '@ms/sp-webpart-shared.BaseCollection.title'
     langs:
       - typeScript
     type: class
@@ -52,3 +53,16 @@ items:
       return:
         type:
           - Element
+  - uid: '@ms/sp-webpart-shared.BaseCollection.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

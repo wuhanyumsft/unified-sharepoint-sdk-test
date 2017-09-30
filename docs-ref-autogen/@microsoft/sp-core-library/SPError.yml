@@ -4,7 +4,9 @@ items:
     name: SPError
     fullName: SPError
     children:
+      - '@microsoft/sp-core-library.SPError.category'
       - '@microsoft/sp-core-library.SPError.Error'
+      - '@microsoft/sp-core-library.SPError.id'
       - '@microsoft/sp-core-library.SPError.innerError'
       - '@microsoft/sp-core-library.SPError.constructor'
       - '@microsoft/sp-core-library.SPError.toString'
@@ -27,6 +29,19 @@ items:
     extends:
       name: Error
     package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.SPError.category'
+    name: category
+    fullName: category
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Error category.
+    syntax:
+      content: string category
+      return:
+        type:
+          - string
   - uid: '@microsoft/sp-core-library.SPError.Error'
     name: Error
     fullName: Error
@@ -40,6 +55,21 @@ items:
       return:
         type:
           - ErrorConstructor
+  - uid: '@microsoft/sp-core-library.SPError.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Error id.
+      e.g. Value of the enum.
+    syntax:
+      content: number id
+      return:
+        type:
+          - number
   - uid: '@microsoft/sp-core-library.SPError.innerError'
     name: innerError
     fullName: innerError

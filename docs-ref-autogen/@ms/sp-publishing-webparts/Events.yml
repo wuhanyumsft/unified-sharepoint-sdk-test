@@ -8,6 +8,7 @@ items:
       - '@ms/sp-publishing-webparts.Events.constructor'
       - '@ms/sp-publishing-webparts.Events.render'
       - '@ms/sp-publishing-webparts.Events.setMobileView'
+      - '@ms/sp-publishing-webparts.Events.title'
     langs:
       - typeScript
     type: class
@@ -71,3 +72,16 @@ items:
           type:
             - boolean
           description: ''
+  - uid: '@ms/sp-publishing-webparts.Events.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

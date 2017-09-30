@@ -6,8 +6,10 @@ items:
     children:
       - sp-sample-webparts.TodoDataProvider.createItem
       - sp-sample-webparts.TodoDataProvider.deleteItem
+      - sp-sample-webparts.TodoDataProvider.maxNumberOfTasks
       - sp-sample-webparts.TodoDataProvider.readItems
       - sp-sample-webparts.TodoDataProvider.readLists
+      - sp-sample-webparts.TodoDataProvider.selectedList
       - sp-sample-webparts.TodoDataProvider.constructor
       - sp-sample-webparts.TodoDataProvider.updateItem
     langs:
@@ -51,6 +53,19 @@ items:
       return:
         type:
           - 'Promise<@sp-sample-webparts.ITodoTask[]>'
+  - uid: sp-sample-webparts.TodoDataProvider.maxNumberOfTasks
+    name: maxNumberOfTasks
+    fullName: maxNumberOfTasks
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number maxNumberOfTasks
+      return:
+        type:
+          - number
   - uid: sp-sample-webparts.TodoDataProvider.readItems
     name: readItems
     children: []
@@ -77,6 +92,19 @@ items:
       return:
         type:
           - 'Promise<@sp-sample-webparts.ITodoTaskList[]>'
+  - uid: sp-sample-webparts.TodoDataProvider.selectedList
+    name: selectedList
+    fullName: selectedList
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ITodoTaskList selectedList
+      return:
+        type:
+          - '@sp-sample-webparts.ITodoTaskList'
   - uid: sp-sample-webparts.TodoDataProvider.constructor
     name: TodoDataProvider
     children: []

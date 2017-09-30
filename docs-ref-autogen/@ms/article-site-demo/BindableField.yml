@@ -6,6 +6,7 @@ items:
     children:
       - '@ms/article-site-demo.BindableField.fieldSchema'
       - '@ms/article-site-demo.BindableField.originalValue'
+      - '@ms/article-site-demo.BindableField.value'
     langs:
       - typeScript
     type: class
@@ -34,6 +35,19 @@ items:
     summary: ''
     syntax:
       content: TField originalValue
+      return:
+        type:
+          - TField
+  - uid: '@ms/article-site-demo.BindableField.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: TField value
       return:
         type:
           - TField

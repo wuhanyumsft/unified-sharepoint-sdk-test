@@ -4,8 +4,11 @@ items:
     name: RowAdapter
     fullName: RowAdapter
     children:
+      - '@ms/listview-spfx-host.RowAdapter.accessor'
+      - '@ms/listview-spfx-host.RowAdapter.data'
       - '@ms/listview-spfx-host.RowAdapter.getUserData'
       - '@ms/listview-spfx-host.RowAdapter.getValueByName'
+      - '@ms/listview-spfx-host.RowAdapter.listViewAdapter'
       - '@ms/listview-spfx-host.RowAdapter.onDisposeCell'
       - '@ms/listview-spfx-host.RowAdapter.constructor'
       - '@ms/listview-spfx-host.RowAdapter.updateUserData'
@@ -18,6 +21,32 @@ items:
 
       This is a sealed class. Do not extend it.
     package: '@ms/listview-spfx-host'
+  - uid: '@ms/listview-spfx-host.RowAdapter.accessor'
+    name: accessor
+    fullName: accessor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: RowWrapper accessor
+      return:
+        type:
+          - '@@ms/listview-spfx-host.RowWrapper'
+  - uid: '@ms/listview-spfx-host.RowAdapter.data'
+    name: data
+    fullName: data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IRow data
+      return:
+        type:
+          - '@@ms/listview-spfx-host.IRow'
   - uid: '@ms/listview-spfx-host.RowAdapter.getUserData'
     name: getUserData
     children: []
@@ -52,6 +81,19 @@ items:
       return:
         type:
           - any
+  - uid: '@ms/listview-spfx-host.RowAdapter.listViewAdapter'
+    name: listViewAdapter
+    fullName: listViewAdapter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ListViewAdapter listViewAdapter
+      return:
+        type:
+          - '@@ms/listview-spfx-host.ListViewAdapter'
   - uid: '@ms/listview-spfx-host.RowAdapter.onDisposeCell'
     name: onDisposeCell
     children: []

@@ -7,6 +7,7 @@ items:
       - '@ms/sp-pages.CommentContext.DEFAULT_LIKE_COUNT'
       - '@ms/sp-pages.CommentContext.deleteAllPermission'
       - '@ms/sp-pages.CommentContext.disableEditing'
+      - '@ms/sp-pages.CommentContext.instance'
       - '@ms/sp-pages.CommentContext.isCurrentUser'
       - '@ms/sp-pages.CommentContext.likesFeatureEnabled'
       - '@ms/sp-pages.CommentContext.user'
@@ -54,6 +55,19 @@ items:
       return:
         type:
           - boolean
+  - uid: '@ms/sp-pages.CommentContext.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static CommentContext instance
+      return:
+        type:
+          - '@@ms/sp-pages.CommentContext'
   - uid: '@ms/sp-pages.CommentContext.isCurrentUser'
     name: isCurrentUser
     children: []

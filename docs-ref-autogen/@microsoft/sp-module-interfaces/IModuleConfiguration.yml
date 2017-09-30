@@ -11,6 +11,7 @@ items:
     type: interface
     summary: This is the base interface for a script module's definition.
     package: '@microsoft/sp-module-interfaces'
+    isPreview: true
   - uid: '@microsoft/sp-module-interfaces.IModuleConfiguration.shouldNotPreload'
     name: shouldNotPreload
     fullName: shouldNotPreload

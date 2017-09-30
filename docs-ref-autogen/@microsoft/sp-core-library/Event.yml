@@ -14,6 +14,7 @@ items:
       Representation of an event.
       It exposes an event that third parties can attach handlers to.
     package: '@microsoft/sp-core-library'
+    isPreview: true
   - uid: '@microsoft/sp-core-library.Event.add'
     name: add
     children: []

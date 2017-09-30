@@ -5,6 +5,7 @@ items:
     fullName: ConsoleLog
     children:
       - '@ms/sp-client-projects.ConsoleLog.constructor'
+      - '@ms/sp-client-projects.ConsoleLog.context'
       - '@ms/sp-client-projects.ConsoleLog.debug'
       - '@ms/sp-client-projects.ConsoleLog.engagement'
       - '@ms/sp-client-projects.ConsoleLog.error'
@@ -31,6 +32,19 @@ items:
           type:
             - any
           description: ''
+  - uid: '@ms/sp-client-projects.ConsoleLog.context'
+    name: context
+    fullName: context
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any context
+      return:
+        type:
+          - any
   - uid: '@ms/sp-client-projects.ConsoleLog.debug'
     name: debug
     children: []

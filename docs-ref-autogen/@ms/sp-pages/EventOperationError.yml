@@ -5,7 +5,10 @@ items:
     fullName: EventOperationError
     children:
       - '@ms/sp-pages.EventOperationError.Error'
+      - '@ms/sp-pages.EventOperationError.eventOperation'
       - '@ms/sp-pages.EventOperationError.constructor'
+      - '@ms/sp-pages.EventOperationError.eventOperationErrorType'
+      - '@ms/sp-pages.EventOperationError.innerEventError'
     langs:
       - typeScript
     type: class
@@ -26,6 +29,19 @@ items:
       return:
         type:
           - ErrorConstructor
+  - uid: '@ms/sp-pages.EventOperationError.eventOperation'
+    name: eventOperation
+    fullName: eventOperation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: EventOperationType eventOperation
+      return:
+        type:
+          - EventOperationType
   - uid: '@ms/sp-pages.EventOperationError.constructor'
     name: EventOperationError
     children: []
@@ -46,3 +62,29 @@ items:
           type:
             - IEventError
           description: ''
+  - uid: '@ms/sp-pages.EventOperationError.eventOperationErrorType'
+    name: eventOperationErrorType
+    fullName: eventOperationErrorType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: EventOperationErrorType eventOperationErrorType
+      return:
+        type:
+          - EventOperationErrorType
+  - uid: '@ms/sp-pages.EventOperationError.innerEventError'
+    name: innerEventError
+    fullName: innerEventError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IEventError innerEventError
+      return:
+        type:
+          - IEventError

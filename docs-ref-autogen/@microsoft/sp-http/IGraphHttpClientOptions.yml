@@ -19,3 +19,4 @@ items:
     extends:
       name: '@@microsoft/sp-http.IHttpClientOptions'
     package: '@microsoft/sp-http'
+    isPreview: true

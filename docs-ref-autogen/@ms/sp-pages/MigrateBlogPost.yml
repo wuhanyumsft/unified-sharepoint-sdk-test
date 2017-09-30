@@ -4,6 +4,7 @@ items:
     name: MigrateBlogPost
     fullName: MigrateBlogPost
     children:
+      - '@ms/sp-pages.MigrateBlogPost.fileGetter'
       - '@ms/sp-pages.MigrateBlogPost.serializeBlogPost'
       - '@ms/sp-pages.MigrateBlogPost.serializeDocumentControl'
       - '@ms/sp-pages.MigrateBlogPost.serializeImageControl'
@@ -15,6 +16,19 @@ items:
     type: class
     summary: ''
     package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.MigrateBlogPost.fileGetter'
+    name: fileGetter
+    fullName: fileGetter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static RemoteWebFileGetter fileGetter
+      return:
+        type:
+          - RemoteWebFileGetter
   - uid: '@ms/sp-pages.MigrateBlogPost.serializeBlogPost'
     name: serializeBlogPost
     children: []

@@ -5,9 +5,12 @@ items:
     fullName: Canvas
     children:
       - '@ms/sp-canvas.Canvas.constructor'
+      - '@ms/sp-canvas.Canvas.count'
+      - '@ms/sp-canvas.Canvas.displayMode'
       - '@ms/sp-canvas.Canvas.dispose'
       - '@ms/sp-canvas.Canvas.fetchWebparts'
       - '@ms/sp-canvas.Canvas.openToolbox'
+      - '@ms/sp-canvas.Canvas.previewImageUrl'
       - '@ms/sp-canvas.Canvas.render'
       - '@ms/sp-canvas.Canvas.serialize'
     langs:
@@ -45,6 +48,34 @@ items:
             - '@@ms/sp-canvas.ICanvasOptions'
           description: |
             The optional parameters of the Canvas.
+  - uid: '@ms/sp-canvas.Canvas.count'
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number count
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-canvas.Canvas.displayMode'
+    name: displayMode
+    fullName: displayMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Get the Canvas  DisplayMode.
+      Re-render the Canvas in a new DisplayMode.
+    syntax:
+      content: DisplayMode displayMode
+      return:
+        type:
+          - DisplayMode
   - uid: '@ms/sp-canvas.Canvas.dispose'
     name: dispose
     children: []
@@ -100,6 +131,23 @@ items:
       return:
         type:
           - boolean
+  - uid: '@ms/sp-canvas.Canvas.previewImageUrl'
+    name: previewImageUrl
+    fullName: previewImageUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Get the preview image url generated from webpart manager if it is
+      available.
+
+      The preview image is the first preview image provided by a webpart
+    syntax:
+      content: string previewImageUrl
+      return:
+        type:
+          - string
   - uid: '@ms/sp-canvas.Canvas.render'
     name: render
     children: []

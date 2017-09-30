@@ -39,6 +39,7 @@ items:
       - '@microsoft/sp-page-context.SPPermission.updatePersonalWebParts'
       - '@microsoft/sp-page-context.SPPermission.useClientIntegration'
       - '@microsoft/sp-page-context.SPPermission.useRemoteAPIs'
+      - '@microsoft/sp-page-context.SPPermission.value'
       - '@microsoft/sp-page-context.SPPermission.viewFormPages'
       - '@microsoft/sp-page-context.SPPermission.viewListItems'
       - '@microsoft/sp-page-context.SPPermission.viewPages'
@@ -585,6 +586,19 @@ items:
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
+  - uid: '@microsoft/sp-page-context.SPPermission.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns the value of this SPPermission object
+    syntax:
+      content: IODataBasePermission value
+      return:
+        type:
+          - IODataBasePermission
   - uid: '@microsoft/sp-page-context.SPPermission.viewFormPages'
     name: viewFormPages
     fullName: viewFormPages

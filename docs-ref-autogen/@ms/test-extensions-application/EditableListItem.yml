@@ -5,6 +5,7 @@ items:
     fullName: EditableListItem
     children:
       - '@ms/test-extensions-application.EditableListItem.constructor'
+      - '@ms/test-extensions-application.EditableListItem.fields'
       - '@ms/test-extensions-application.EditableListItem.getValue'
       - '@ms/test-extensions-application.EditableListItem.getValueByName'
     langs:
@@ -32,6 +33,19 @@ items:
           type:
             - '@@ms/test-extensions-application.IRowData'
           description: ''
+  - uid: '@ms/test-extensions-application.EditableListItem.fields'
+    name: fields
+    fullName: fields
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ReadonlyArray<SPField> fields
+      return:
+        type:
+          - ReadonlyArray<SPField>
   - uid: '@ms/test-extensions-application.EditableListItem.getValue'
     name: getValue
     children: []

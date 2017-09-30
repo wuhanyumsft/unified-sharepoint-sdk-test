@@ -60,6 +60,7 @@ items:
       return:
         type:
           - GraphHttpClient
+    isPreview: true
   - uid: '@microsoft/sp-webpart-base.IWebPartContext.host'
     name: host
     fullName: host

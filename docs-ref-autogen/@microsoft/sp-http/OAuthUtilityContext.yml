@@ -5,8 +5,10 @@ items:
     fullName: OAuthUtilityContext
     children:
       - '@microsoft/sp-http.OAuthUtilityContext.fetchWithDigest'
+      - '@microsoft/sp-http.OAuthUtilityContext.logger'
       - '@microsoft/sp-http.OAuthUtilityContext.constructor'
       - '@microsoft/sp-http.OAuthUtilityContext.qosMonitor'
+      - '@microsoft/sp-http.OAuthUtilityContext.webUrl'
     langs:
       - typeScript
     type: class
@@ -50,6 +52,19 @@ items:
       return:
         type:
           - Promise<@@microsoft/sp-http.SPHttpClientResponse>
+  - uid: '@microsoft/sp-http.OAuthUtilityContext.logger'
+    name: logger
+    fullName: logger
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ILogger logger
+      return:
+        type:
+          - ILogger
   - uid: '@microsoft/sp-http.OAuthUtilityContext.constructor'
     name: OAuthUtilityContext
     children: []
@@ -77,3 +92,16 @@ items:
       return:
         type:
           - IQosMonitor
+  - uid: '@microsoft/sp-http.OAuthUtilityContext.webUrl'
+    name: webUrl
+    fullName: webUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webUrl
+      return:
+        type:
+          - string

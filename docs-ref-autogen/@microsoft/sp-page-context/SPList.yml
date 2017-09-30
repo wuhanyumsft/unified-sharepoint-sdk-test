@@ -4,7 +4,11 @@ items:
     name: SPList
     fullName: SPList
     children:
+      - '@microsoft/sp-page-context.SPList.id'
+      - '@microsoft/sp-page-context.SPList.permissions'
+      - '@microsoft/sp-page-context.SPList.serverRelativeUrl'
       - '@microsoft/sp-page-context.SPList.constructor'
+      - '@microsoft/sp-page-context.SPList.title'
     langs:
       - typeScript
     type: class
@@ -14,6 +18,55 @@ items:
 
       information for the SharePoint list that hosts the page.
     package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.SPList.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The GUID that identifies the SPList on the server. This property could be
+      undefined
+
+      if the information isn't avalible.
+    syntax:
+      content: Guid id
+      return:
+        type:
+          - Guid
+  - uid: '@microsoft/sp-page-context.SPList.permissions'
+    name: permissions
+    fullName: permissions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Return the SPPermission object that represents the set of permissions that
+      the
+
+      current user has for interacting with the list.
+    syntax:
+      content: SPPermission permissions
+      return:
+        type:
+          - '@@microsoft/sp-page-context.SPPermission'
+  - uid: '@microsoft/sp-page-context.SPList.serverRelativeUrl'
+    name: serverRelativeUrl
+    fullName: serverRelativeUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Returns the server-relative URL for this SPList.
+      Example: "/sites/PubSite"
+    syntax:
+      content: string serverRelativeUrl
+      return:
+        type:
+          - string
   - uid: '@microsoft/sp-page-context.SPList.constructor'
     name: SPList
     children: []
@@ -28,3 +81,16 @@ items:
           type:
             - '@@microsoft/sp-page-context.ISPListData'
           description: ''
+  - uid: '@microsoft/sp-page-context.SPList.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns the title for this SPList.
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

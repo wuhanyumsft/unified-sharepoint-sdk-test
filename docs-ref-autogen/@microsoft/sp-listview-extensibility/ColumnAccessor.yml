@@ -5,6 +5,8 @@ items:
     fullName: ColumnAccessor
     children:
       - '@microsoft/sp-listview-extensibility.ColumnAccessor.constructor'
+      - '@microsoft/sp-listview-extensibility.ColumnAccessor.field'
+      - '@microsoft/sp-listview-extensibility.ColumnAccessor.visible'
     langs:
       - typeScript
     type: class
@@ -22,3 +24,33 @@ items:
     syntax:
       content: new ColumnAccessor()
       parameters: []
+  - uid: '@microsoft/sp-listview-extensibility.ColumnAccessor.field'
+    name: field
+    fullName: field
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The server-side definition of the field.
+      This property is read-only.
+    syntax:
+      content: SPField field
+      return:
+        type:
+          - SPField
+  - uid: '@microsoft/sp-listview-extensibility.ColumnAccessor.visible'
+    name: visible
+    fullName: visible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Whether to show this column in the list view.
+      This property is read-only.
+    syntax:
+      content: boolean visible
+      return:
+        type:
+          - boolean

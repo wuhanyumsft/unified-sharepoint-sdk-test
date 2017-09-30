@@ -6,6 +6,7 @@ items:
     children:
       - '@ms/sp-a11y.A11yManager.addFocusListener'
       - '@ms/sp-a11y.A11yManager.alert'
+      - '@ms/sp-a11y.A11yManager.config'
       - '@ms/sp-a11y.A11yManager.create'
       - '@ms/sp-a11y.A11yManager.createA11yAttribute'
       - '@ms/sp-a11y.A11yManager.focusById'
@@ -18,10 +19,13 @@ items:
       - '@ms/sp-a11y.A11yManager.getInstanceById'
       - '@ms/sp-a11y.A11yManager.getSavedActiveElement'
       - '@ms/sp-a11y.A11yManager.hasFocus'
+      - '@ms/sp-a11y.A11yManager.id'
       - '@ms/sp-a11y.A11yManager.isElementManaged'
       - '@ms/sp-a11y.A11yManager.manages'
+      - '@ms/sp-a11y.A11yManager.prefix'
       - '@ms/sp-a11y.A11yManager.removeFocusListener'
       - '@ms/sp-a11y.A11yManager.restoreFocus'
+      - '@ms/sp-a11y.A11yManager.root'
       - '@ms/sp-a11y.A11yManager.saveActiveElementAs'
       - '@ms/sp-a11y.A11yManager.saveLastActiveElementAs'
       - '@ms/sp-a11y.A11yManager.setA11yAttributesOnElement'
@@ -124,6 +128,19 @@ items:
           type:
             - string
           description: ''
+  - uid: '@ms/sp-a11y.A11yManager.config'
+    name: config
+    fullName: config
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The configuration of the manager
+    syntax:
+      content: IA11yManagerConfig config
+      return:
+        type:
+          - '@@ms/sp-a11y.IA11yManagerConfig'
   - uid: '@ms/sp-a11y.A11yManager.create'
     name: create
     children: []
@@ -352,6 +369,19 @@ items:
       return:
         type:
           - boolean
+  - uid: '@ms/sp-a11y.A11yManager.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A11yManager instance unique id
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
   - uid: '@ms/sp-a11y.A11yManager.isElementManaged'
     name: isElementManaged
     children: []
@@ -388,6 +418,19 @@ items:
       return:
         type:
           - boolean
+  - uid: '@ms/sp-a11y.A11yManager.prefix'
+    name: prefix
+    fullName: prefix
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The prefix used by all data attributes managed by this manager
+    syntax:
+      content: string prefix
+      return:
+        type:
+          - string
   - uid: '@ms/sp-a11y.A11yManager.removeFocusListener'
     name: removeFocusListener
     children: []
@@ -419,6 +462,19 @@ items:
       return:
         type:
           - boolean
+  - uid: '@ms/sp-a11y.A11yManager.root'
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The root element of the managed tree
+    syntax:
+      content: HTMLElement root
+      return:
+        type:
+          - HTMLElement
   - uid: '@ms/sp-a11y.A11yManager.saveActiveElementAs'
     name: saveActiveElementAs
     children: []

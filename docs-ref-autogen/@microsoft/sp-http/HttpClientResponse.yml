@@ -6,11 +6,19 @@ items:
     children:
       - '@microsoft/sp-http.HttpClientResponse.arrayBuffer'
       - '@microsoft/sp-http.HttpClientResponse.blob'
+      - '@microsoft/sp-http.HttpClientResponse.body'
+      - '@microsoft/sp-http.HttpClientResponse.bodyUsed'
       - '@microsoft/sp-http.HttpClientResponse.clone'
       - '@microsoft/sp-http.HttpClientResponse.formData'
+      - '@microsoft/sp-http.HttpClientResponse.headers'
       - '@microsoft/sp-http.HttpClientResponse.constructor'
       - '@microsoft/sp-http.HttpClientResponse.json'
+      - '@microsoft/sp-http.HttpClientResponse.ok'
+      - '@microsoft/sp-http.HttpClientResponse.status'
+      - '@microsoft/sp-http.HttpClientResponse.statusText'
       - '@microsoft/sp-http.HttpClientResponse.text'
+      - '@microsoft/sp-http.HttpClientResponse.type'
+      - '@microsoft/sp-http.HttpClientResponse.url'
     langs:
       - typeScript
     type: class
@@ -42,6 +50,34 @@ items:
       return:
         type:
           - Promise<Blob>
+  - uid: '@microsoft/sp-http.HttpClientResponse.body'
+    name: body
+    fullName: body
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This property is marked as alpha because it is not yet implemented by the
+      \@microsoft/sp-polyfills package.
+    syntax:
+      content: ReadableStream body
+      return:
+        type:
+          - ReadableStream
+  - uid: '@microsoft/sp-http.HttpClientResponse.bodyUsed'
+    name: bodyUsed
+    fullName: bodyUsed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc whatwg-fetch:Body.bodyUsed}'
+    syntax:
+      content: boolean bodyUsed
+      return:
+        type:
+          - boolean
   - uid: '@microsoft/sp-http.HttpClientResponse.clone'
     name: clone
     children: []
@@ -68,6 +104,19 @@ items:
       return:
         type:
           - Promise<FormData>
+  - uid: '@microsoft/sp-http.HttpClientResponse.headers'
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc whatwg-fetch:Response.headers}'
+    syntax:
+      content: Headers headers
+      return:
+        type:
+          - Headers
   - uid: '@microsoft/sp-http.HttpClientResponse.constructor'
     name: HttpClientResponse
     children: []
@@ -95,6 +144,45 @@ items:
       return:
         type:
           - Promise<any>
+  - uid: '@microsoft/sp-http.HttpClientResponse.ok'
+    name: ok
+    fullName: ok
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc whatwg-fetch:Response.ok}'
+    syntax:
+      content: boolean ok
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-http.HttpClientResponse.status'
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc whatwg-fetch:Response.status}'
+    syntax:
+      content: number status
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-http.HttpClientResponse.statusText'
+    name: statusText
+    fullName: statusText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc whatwg-fetch:Response.statusText}'
+    syntax:
+      content: string statusText
+      return:
+        type:
+          - string
   - uid: '@microsoft/sp-http.HttpClientResponse.text'
     name: text
     children: []
@@ -108,3 +196,29 @@ items:
       return:
         type:
           - Promise<string>
+  - uid: '@microsoft/sp-http.HttpClientResponse.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc whatwg-fetch:Response.type}'
+    syntax:
+      content: ResponseType type
+      return:
+        type:
+          - ResponseType
+  - uid: '@microsoft/sp-http.HttpClientResponse.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc whatwg-fetch:Response.url}'
+    syntax:
+      content: string url
+      return:
+        type:
+          - string

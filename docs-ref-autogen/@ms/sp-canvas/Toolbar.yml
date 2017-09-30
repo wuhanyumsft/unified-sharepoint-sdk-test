@@ -6,6 +6,7 @@ items:
     children:
       - '@ms/sp-canvas.Toolbar.getHeight'
       - '@ms/sp-canvas.Toolbar.render'
+      - '@ms/sp-canvas.Toolbar.toolBarElement'
     langs:
       - typeScript
     type: class
@@ -39,3 +40,16 @@ items:
       return:
         type:
           - ReactElement<@@ms/sp-canvas.IToolbarProps>
+  - uid: '@ms/sp-canvas.Toolbar.toolBarElement'
+    name: toolBarElement
+    fullName: toolBarElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement toolBarElement
+      return:
+        type:
+          - HTMLElement

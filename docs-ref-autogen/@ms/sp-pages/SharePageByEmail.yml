@@ -9,6 +9,7 @@ items:
       - '@ms/sp-pages.SharePageByEmail.componentWillMount'
       - '@ms/sp-pages.SharePageByEmail.componentWillReceiveProps'
       - '@ms/sp-pages.SharePageByEmail.fallbackShare'
+      - '@ms/sp-pages.SharePageByEmail.isSharePageByEmailEnabled'
       - '@ms/sp-pages.SharePageByEmail.render'
       - '@ms/sp-pages.SharePageByEmail.constructor'
     langs:
@@ -76,6 +77,19 @@ items:
     syntax:
       content: static function fallbackShare()
       parameters: []
+  - uid: '@ms/sp-pages.SharePageByEmail.isSharePageByEmailEnabled'
+    name: isSharePageByEmailEnabled
+    fullName: isSharePageByEmailEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static boolean isSharePageByEmailEnabled
+      return:
+        type:
+          - boolean
   - uid: '@ms/sp-pages.SharePageByEmail.render'
     name: render
     children: []

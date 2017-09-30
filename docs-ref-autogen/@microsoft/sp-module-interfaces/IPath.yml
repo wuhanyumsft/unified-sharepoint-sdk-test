@@ -14,6 +14,7 @@ items:
       paths. The paths in this object are
        loaded in exactly the same way as any other internal path.
     package: '@microsoft/sp-module-interfaces'
+    isPreview: true
   - uid: '@microsoft/sp-module-interfaces.IPath.debug'
     name: debug
     fullName: debug

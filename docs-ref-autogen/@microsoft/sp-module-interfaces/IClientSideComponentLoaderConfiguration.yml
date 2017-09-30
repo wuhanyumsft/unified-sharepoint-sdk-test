@@ -22,6 +22,7 @@ items:
       framework. It contains all data for loading an entrypoint script and its
       dependency scripts.
     package: '@microsoft/sp-module-interfaces'
+    isPreview: true
   - uid: >-
       @microsoft/sp-module-interfaces.IClientSideComponentLoaderConfiguration.entryModuleId
     name: entryModuleId

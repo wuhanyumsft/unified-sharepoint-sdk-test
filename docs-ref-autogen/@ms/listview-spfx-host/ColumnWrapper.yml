@@ -5,6 +5,8 @@ items:
     fullName: ColumnWrapper
     children:
       - '@ms/listview-spfx-host.ColumnWrapper.constructor'
+      - '@ms/listview-spfx-host.ColumnWrapper.field'
+      - '@ms/listview-spfx-host.ColumnWrapper.visible'
     langs:
       - typeScript
     type: class
@@ -26,3 +28,29 @@ items:
           type:
             - '@@ms/listview-spfx-host.ColumnAdapter'
           description: ''
+  - uid: '@ms/listview-spfx-host.ColumnWrapper.field'
+    name: field
+    fullName: field
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: SPField field
+      return:
+        type:
+          - SPField
+  - uid: '@ms/listview-spfx-host.ColumnWrapper.visible'
+    name: visible
+    fullName: visible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean visible
+      return:
+        type:
+          - boolean

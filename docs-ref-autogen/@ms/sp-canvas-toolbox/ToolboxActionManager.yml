@@ -9,6 +9,7 @@ items:
       - '@ms/sp-canvas-toolbox.ToolboxActionManager.collapseToolbox'
       - '@ms/sp-canvas-toolbox.ToolboxActionManager.expandToolbox'
       - '@ms/sp-canvas-toolbox.ToolboxActionManager.filter'
+      - '@ms/sp-canvas-toolbox.ToolboxActionManager.onCloseToolbox'
       - '@ms/sp-canvas-toolbox.ToolboxActionManager.openToolbox'
       - '@ms/sp-canvas-toolbox.ToolboxActionManager.switchToolboxLargeView'
       - '@ms/sp-canvas-toolbox.ToolboxActionManager.constructor'
@@ -80,6 +81,19 @@ items:
           type:
             - string
           description: ''
+  - uid: '@ms/sp-canvas-toolbox.ToolboxActionManager.onCloseToolbox'
+    name: onCloseToolbox
+    fullName: onCloseToolbox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void onCloseToolbox
+      return:
+        type:
+          - void
   - uid: '@ms/sp-canvas-toolbox.ToolboxActionManager.openToolbox'
     name: openToolbox
     children: []

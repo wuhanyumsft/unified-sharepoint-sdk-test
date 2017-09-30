@@ -10,6 +10,7 @@ items:
       - '@microsoft/sp-webpart-workbench.PageStore.getSerializeCallback'
       - '@microsoft/sp-webpart-workbench.PageStore.constructor'
       - '@microsoft/sp-webpart-workbench.PageStore.savePageState'
+      - '@microsoft/sp-webpart-workbench.PageStore.serviceScope'
       - '@microsoft/sp-webpart-workbench.PageStore.setClearCallback'
       - '@microsoft/sp-webpart-workbench.PageStore.setPageReady'
       - '@microsoft/sp-webpart-workbench.PageStore.setSerializeCallback'
@@ -88,6 +89,19 @@ items:
     syntax:
       content: function savePageState()
       parameters: []
+  - uid: '@microsoft/sp-webpart-workbench.PageStore.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope
   - uid: '@microsoft/sp-webpart-workbench.PageStore.setClearCallback'
     name: setClearCallback
     children: []

@@ -4,9 +4,13 @@ items:
     name: InvokeAddInCommandAction
     fullName: InvokeAddInCommandAction
     children:
+      - '@ms/sp-connector-webparts.InvokeAddInCommandAction.addInId'
+      - '@ms/sp-connector-webparts.InvokeAddInCommandAction.desktopCommandId'
       - '@ms/sp-connector-webparts.InvokeAddInCommandAction.execute'
       - '@ms/sp-connector-webparts.InvokeAddInCommandAction.getJsonTypeName'
+      - '@ms/sp-connector-webparts.InvokeAddInCommandAction.initializationContext'
       - '@ms/sp-connector-webparts.InvokeAddInCommandAction.constructor'
+      - '@ms/sp-connector-webparts.InvokeAddInCommandAction.title'
     langs:
       - typeScript
     type: class
@@ -14,6 +18,32 @@ items:
     extends:
       name: '@@ms/sp-connector-webparts.InvokeAddInCommandAction'
     package: '@ms/sp-connector-webparts'
+  - uid: '@ms/sp-connector-webparts.InvokeAddInCommandAction.addInId'
+    name: addInId
+    fullName: addInId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string addInId
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-connector-webparts.InvokeAddInCommandAction.desktopCommandId'
+    name: desktopCommandId
+    fullName: desktopCommandId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string desktopCommandId
+      return:
+        type:
+          - string
   - uid: '@ms/sp-connector-webparts.InvokeAddInCommandAction.execute'
     name: execute
     children: []
@@ -37,6 +67,19 @@ items:
       return:
         type:
           - string
+  - uid: '@ms/sp-connector-webparts.InvokeAddInCommandAction.initializationContext'
+    name: initializationContext
+    fullName: initializationContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any initializationContext
+      return:
+        type:
+          - any
   - uid: '@ms/sp-connector-webparts.InvokeAddInCommandAction.constructor'
     name: InvokeAddInCommandAction
     children: []
@@ -65,3 +108,16 @@ items:
           type:
             - string
           description: ''
+  - uid: '@ms/sp-connector-webparts.InvokeAddInCommandAction.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

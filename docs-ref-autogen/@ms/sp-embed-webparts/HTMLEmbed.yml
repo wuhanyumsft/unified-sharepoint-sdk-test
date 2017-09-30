@@ -4,6 +4,7 @@ items:
     name: HTMLEmbed
     fullName: HTMLEmbed
     children:
+      - '@ms/sp-embed-webparts.HTMLEmbed.captionText'
       - '@ms/sp-embed-webparts.HTMLEmbed.className'
       - '@ms/sp-embed-webparts.HTMLEmbed.getAccessibleTitle'
       - '@ms/sp-embed-webparts.HTMLEmbed.getRealWebPartDom'
@@ -26,6 +27,19 @@ items:
     extends:
       name: '@@ms/sp-embed-webparts.HTMLEmbed<@@ms/sp-embed-webparts.IHTMLEmbedProps>'
     package: '@ms/sp-embed-webparts'
+  - uid: '@ms/sp-embed-webparts.HTMLEmbed.captionText'
+    name: captionText
+    fullName: captionText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string captionText
+      return:
+        type:
+          - string
   - uid: '@ms/sp-embed-webparts.HTMLEmbed.className'
     name: className
     fullName: className

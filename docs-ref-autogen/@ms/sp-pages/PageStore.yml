@@ -4,8 +4,43 @@ items:
     name: PageStore
     fullName: PageStore
     children:
+      - '@ms/sp-pages.PageStore.actionType'
+      - '@ms/sp-pages.PageStore.availablePageLayouts'
+      - '@ms/sp-pages.PageStore.chromeOptions'
+      - '@ms/sp-pages.PageStore.currentPageLayout'
+      - '@ms/sp-pages.PageStore.currentPageLayoutType'
+      - '@ms/sp-pages.PageStore.currentRoute'
+      - '@ms/sp-pages.PageStore.didTransition'
+      - '@ms/sp-pages.PageStore.doesPageExistOnServer'
+      - '@ms/sp-pages.PageStore.editNavCloseCallback'
+      - '@ms/sp-pages.PageStore.editNavGroup'
+      - '@ms/sp-pages.PageStore.editNavParent'
+      - '@ms/sp-pages.PageStore.fields'
+      - '@ms/sp-pages.PageStore.fieldsToUpdate'
+      - '@ms/sp-pages.PageStore.forceUpdate'
+      - '@ms/sp-pages.PageStore.hasPageBeenRenamed'
+      - '@ms/sp-pages.PageStore.haveCanvasFieldsChanged'
+      - '@ms/sp-pages.PageStore.homePageDefaultContent'
+      - '@ms/sp-pages.PageStore.instance'
+      - '@ms/sp-pages.PageStore.isCustomTitleImageEnabled'
+      - '@ms/sp-pages.PageStore.isFirstRun'
+      - '@ms/sp-pages.PageStore.isLayoutSupported'
+      - '@ms/sp-pages.PageStore.isMultiPhaseRenderingEnabled'
+      - '@ms/sp-pages.PageStore.isNavOnTop'
+      - '@ms/sp-pages.PageStore.isPolarisMultiColumnEditEnabled'
+      - '@ms/sp-pages.PageStore.isTransitioning'
+      - '@ms/sp-pages.PageStore.mode'
+      - '@ms/sp-pages.PageStore.newLink'
+      - '@ms/sp-pages.PageStore.nextRoute'
+      - '@ms/sp-pages.PageStore.pageLayoutType'
+      - '@ms/sp-pages.PageStore.pageStatus'
       - '@ms/sp-pages.PageStore.constructor'
+      - '@ms/sp-pages.PageStore.pageTemplatesMap'
       - '@ms/sp-pages.PageStore.processAction'
+      - '@ms/sp-pages.PageStore.renderDeferredComponents'
+      - '@ms/sp-pages.PageStore.saveStatus'
+      - '@ms/sp-pages.PageStore.showEditNav'
+      - '@ms/sp-pages.PageStore.useTopNavFlightEnabled'
     langs:
       - typeScript
     type: class
@@ -13,6 +48,408 @@ items:
     extends:
       name: '@@ms/sp-pages.BaseStore'
     package: '@ms/sp-pages'
+  - uid: '@ms/sp-pages.PageStore.actionType'
+    name: actionType
+    fullName: actionType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the action type.
+    syntax:
+      content: ActionTypes actionType
+      return:
+        type:
+          - ActionTypes
+  - uid: '@ms/sp-pages.PageStore.availablePageLayouts'
+    name: availablePageLayouts
+    fullName: availablePageLayouts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Get all available page Layouts
+    syntax:
+      content: Map<string> availablePageLayouts
+      return:
+        type:
+          - Map<string>
+  - uid: '@ms/sp-pages.PageStore.chromeOptions'
+    name: chromeOptions
+    fullName: chromeOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Get chrome options.
+    syntax:
+      content: IChromeOptions chromeOptions
+      return:
+        type:
+          - IChromeOptions
+  - uid: '@ms/sp-pages.PageStore.currentPageLayout'
+    name: currentPageLayout
+    fullName: currentPageLayout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Get current page layout
+    syntax:
+      content: PageLayoutType currentPageLayout
+      return:
+        type:
+          - '@@ms/sp-pages.ISitePageFieldData.PageLayoutType'
+  - uid: '@ms/sp-pages.PageStore.currentPageLayoutType'
+    name: currentPageLayoutType
+    fullName: currentPageLayoutType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Get the current page layout type.
+    syntax:
+      content: string currentPageLayoutType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.PageStore.currentRoute'
+    name: currentRoute
+    fullName: currentRoute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the current route.
+    syntax:
+      content: string currentRoute
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.PageStore.didTransition'
+    name: didTransition
+    fullName: didTransition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets a value indicating whether a transition completed.
+    syntax:
+      content: boolean didTransition
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.PageStore.doesPageExistOnServer'
+    name: doesPageExistOnServer
+    fullName: doesPageExistOnServer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Checks if we have a real Page returned from the server or if we
+      are have the stub page.
+    syntax:
+      content: boolean doesPageExistOnServer
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.PageStore.editNavCloseCallback'
+    name: editNavCloseCallback
+    fullName: editNavCloseCallback
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Defines the callback when edit nav pane closes.
+    syntax:
+      content: () => void editNavCloseCallback
+      return:
+        type:
+          - () => void
+  - uid: '@ms/sp-pages.PageStore.editNavGroup'
+    name: editNavGroup
+    fullName: editNavGroup
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Defines the nav link group being edited in the edit nav pane.
+    syntax:
+      content: INavLinkGroup editNavGroup
+      return:
+        type:
+          - INavLinkGroup
+  - uid: '@ms/sp-pages.PageStore.editNavParent'
+    name: editNavParent
+    fullName: editNavParent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Defines view nav container for the edit nav.
+    syntax:
+      content: Component<any> editNavParent
+      return:
+        type:
+          - Component<any>
+  - uid: '@ms/sp-pages.PageStore.fields'
+    name: fields
+    fullName: fields
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Get all page fields
+      The fields are consistent with the server side list item fields
+    syntax:
+      content: PageFieldData fields
+      return:
+        type:
+          - '@@ms/sp-pages.PageFieldData'
+  - uid: '@ms/sp-pages.PageStore.fieldsToUpdate'
+    name: fieldsToUpdate
+    fullName: fieldsToUpdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Get all page fields being updated in the client side
+      The fields haven't been saved back to the server
+    syntax:
+      content: '[key: string]: string fieldsToUpdate'
+      return:
+        type:
+          - '[key: string]: string'
+  - uid: '@ms/sp-pages.PageStore.forceUpdate'
+    name: forceUpdate
+    fullName: forceUpdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: get the force update field.
+    syntax:
+      content: boolean forceUpdate
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.PageStore.hasPageBeenRenamed'
+    name: hasPageBeenRenamed
+    fullName: hasPageBeenRenamed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Get an indicator indicating if page has been renamed
+    syntax:
+      content: boolean hasPageBeenRenamed
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.PageStore.haveCanvasFieldsChanged'
+    name: haveCanvasFieldsChanged
+    fullName: haveCanvasFieldsChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Get an indicator indicating if canvas fields have changed
+    syntax:
+      content: boolean haveCanvasFieldsChanged
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.PageStore.homePageDefaultContent'
+    name: homePageDefaultContent
+    fullName: homePageDefaultContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Get the site home page default content
+    syntax:
+      content: string homePageDefaultContent
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.PageStore.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static PageStore instance
+      return:
+        type:
+          - '@@ms/sp-pages.PageStore'
+  - uid: '@ms/sp-pages.PageStore.isCustomTitleImageEnabled'
+    name: isCustomTitleImageEnabled
+    fullName: isCustomTitleImageEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isCustomTitleImageEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.PageStore.isFirstRun'
+    name: isFirstRun
+    fullName: isFirstRun
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: get an indicator indicating if it is a first run
+    syntax:
+      content: boolean isFirstRun
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.PageStore.isLayoutSupported'
+    name: isLayoutSupported
+    fullName: isLayoutSupported
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gets if multi-column editing is enabled (primarily for webpart container
+      spacing like title region).
+    syntax:
+      content: boolean isLayoutSupported
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.PageStore.isMultiPhaseRenderingEnabled'
+    name: isMultiPhaseRenderingEnabled
+    fullName: isMultiPhaseRenderingEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isMultiPhaseRenderingEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.PageStore.isNavOnTop'
+    name: isNavOnTop
+    fullName: isNavOnTop
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gets a value indicating whether the quick launch navigation menu is
+      currently rendered on top in the UI.
+    syntax:
+      content: boolean isNavOnTop
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.PageStore.isPolarisMultiColumnEditEnabled'
+    name: isPolarisMultiColumnEditEnabled
+    fullName: isPolarisMultiColumnEditEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Temporarily enable section editing for Polaris to per-user basis
+    syntax:
+      content: boolean isPolarisMultiColumnEditEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.PageStore.isTransitioning'
+    name: isTransitioning
+    fullName: isTransitioning
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gets a value indicating whether a route transition scenario is currently
+      in progress.
+    syntax:
+      content: boolean isTransitioning
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.PageStore.mode'
+    name: mode
+    fullName: mode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: get the current display mode for the app
+    syntax:
+      content: DisplayMode mode
+      return:
+        type:
+          - DisplayMode
+  - uid: '@ms/sp-pages.PageStore.newLink'
+    name: newLink
+    fullName: newLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the new page navigation node.
+    syntax:
+      content: INavLink newLink
+      return:
+        type:
+          - INavLink
+  - uid: '@ms/sp-pages.PageStore.nextRoute'
+    name: nextRoute
+    fullName: nextRoute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the next route in a route transition scenario.
+    syntax:
+      content: string nextRoute
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.PageStore.pageLayoutType'
+    name: pageLayoutType
+    fullName: pageLayoutType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Get the current page layout type
+    syntax:
+      content: string pageLayoutType
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-pages.PageStore.pageStatus'
+    name: pageStatus
+    fullName: pageStatus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: get the current page status
+    syntax:
+      content: string pageStatus
+      return:
+        type:
+          - string
   - uid: '@ms/sp-pages.PageStore.constructor'
     name: PageStore
     children: []
@@ -23,6 +460,19 @@ items:
     syntax:
       content: new PageStore()
       parameters: []
+  - uid: '@ms/sp-pages.PageStore.pageTemplatesMap'
+    name: pageTemplatesMap
+    fullName: pageTemplatesMap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: get the current page status
+    syntax:
+      content: Map<string> pageTemplatesMap
+      return:
+        type:
+          - Map<string>
   - uid: '@ms/sp-pages.PageStore.processAction'
     name: processAction
     children: []
@@ -37,3 +487,55 @@ items:
           type:
             - '@@ms/sp-pages.BaseAction'
           description: ''
+  - uid: '@ms/sp-pages.PageStore.renderDeferredComponents'
+    name: renderDeferredComponents
+    fullName: renderDeferredComponents
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates if deferred components should be rendered
+    syntax:
+      content: boolean renderDeferredComponents
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.PageStore.saveStatus'
+    name: saveStatus
+    fullName: saveStatus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: get the current page save status
+    syntax:
+      content: PageSaveStatus saveStatus
+      return:
+        type:
+          - PageSaveStatus
+  - uid: '@ms/sp-pages.PageStore.showEditNav'
+    name: showEditNav
+    fullName: showEditNav
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates if the edit nav pane should be shown.
+    syntax:
+      content: boolean showEditNav
+      return:
+        type:
+          - boolean
+  - uid: '@ms/sp-pages.PageStore.useTopNavFlightEnabled'
+    name: useTopNavFlightEnabled
+    fullName: useTopNavFlightEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean useTopNavFlightEnabled
+      return:
+        type:
+          - boolean

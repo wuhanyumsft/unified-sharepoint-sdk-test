@@ -5,9 +5,13 @@ items:
     fullName: MockLivePersonaCardModule
     children:
       - '@ms/sp-people-webparts.MockLivePersonaCardModule.addedPersonaToPage'
+      - '@ms/sp-people-webparts.MockLivePersonaCardModule.addedPersonaToPageCall'
       - '@ms/sp-people-webparts.MockLivePersonaCardModule.prepare'
       - '@ms/sp-people-webparts.MockLivePersonaCardModule.removedPersonaFromPage'
+      - >-
+        @ms/sp-people-webparts.MockLivePersonaCardModule.removedPersonaFromPageCall
       - '@ms/sp-people-webparts.MockLivePersonaCardModule.start'
+      - '@ms/sp-people-webparts.MockLivePersonaCardModule.startCall'
     langs:
       - typeScript
     type: class
@@ -60,6 +64,19 @@ items:
             - '@@ms/sp-people-webparts.IScenarioContextExtraProperties'
           description: ''
           optional: true
+  - uid: '@ms/sp-people-webparts.MockLivePersonaCardModule.addedPersonaToPageCall'
+    name: addedPersonaToPageCall
+    fullName: addedPersonaToPageCall
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'addedPersonaToPageArgs[] addedPersonaToPageCall'
+      return:
+        type:
+          - 'addedPersonaToPageArgs[]'
   - uid: '@ms/sp-people-webparts.MockLivePersonaCardModule.prepare'
     name: prepare
     children: []
@@ -88,6 +105,20 @@ items:
           type:
             - string
           description: ''
+  - uid: >-
+      @ms/sp-people-webparts.MockLivePersonaCardModule.removedPersonaFromPageCall
+    name: removedPersonaFromPageCall
+    fullName: removedPersonaFromPageCall
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'removedPersonaFromPageArgs[] removedPersonaFromPageCall'
+      return:
+        type:
+          - 'removedPersonaFromPageArgs[]'
   - uid: '@ms/sp-people-webparts.MockLivePersonaCardModule.start'
     name: start
     children: []
@@ -102,3 +133,16 @@ items:
           type:
             - '@@ms/sp-people-webparts.ILivePersonaCardConfiguration'
           description: ''
+  - uid: '@ms/sp-people-webparts.MockLivePersonaCardModule.startCall'
+    name: startCall
+    fullName: startCall
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'startArgs[] startCall'
+      return:
+        type:
+          - 'startArgs[]'

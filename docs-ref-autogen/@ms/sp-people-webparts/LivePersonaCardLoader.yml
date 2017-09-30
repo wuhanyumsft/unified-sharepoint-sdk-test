@@ -5,6 +5,7 @@ items:
     fullName: LivePersonaCardLoader
     children:
       - '@ms/sp-people-webparts.LivePersonaCardLoader.initialize'
+      - '@ms/sp-people-webparts.LivePersonaCardLoader.module'
     langs:
       - typeScript
     type: class
@@ -30,3 +31,16 @@ items:
           type:
             - IClientSideComponentLoaderConfiguration
           description: ''
+  - uid: '@ms/sp-people-webparts.LivePersonaCardLoader.module'
+    name: module
+    fullName: module
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Promise<LivePersonaCardModule> module
+      return:
+        type:
+          - Promise<@@ms/sp-people-webparts.LivePersonaCardModule>

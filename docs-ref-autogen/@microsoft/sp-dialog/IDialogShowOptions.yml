@@ -10,6 +10,7 @@ items:
     type: interface
     summary: Options for showing a dialog
     package: '@microsoft/sp-dialog'
+    isPreview: true
   - uid: '@microsoft/sp-dialog.IDialogShowOptions.confirmOpen'
     name: confirmOpen
     fullName: confirmOpen

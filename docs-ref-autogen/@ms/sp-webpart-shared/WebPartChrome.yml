@@ -6,6 +6,7 @@ items:
     children:
       - '@ms/sp-webpart-shared.WebPartChrome.focusOnTitle'
       - '@ms/sp-webpart-shared.WebPartChrome.render'
+      - '@ms/sp-webpart-shared.WebPartChrome.title'
     langs:
       - typeScript
     type: class
@@ -37,3 +38,16 @@ items:
       return:
         type:
           - Element
+  - uid: '@ms/sp-webpart-shared.WebPartChrome.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

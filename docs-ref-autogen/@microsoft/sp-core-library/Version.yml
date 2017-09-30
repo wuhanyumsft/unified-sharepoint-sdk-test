@@ -9,7 +9,11 @@ items:
       - '@microsoft/sp-core-library.Version.greaterThan'
       - '@microsoft/sp-core-library.Version.isValid'
       - '@microsoft/sp-core-library.Version.lessThan'
+      - '@microsoft/sp-core-library.Version.major'
+      - '@microsoft/sp-core-library.Version.minor'
       - '@microsoft/sp-core-library.Version.parse'
+      - '@microsoft/sp-core-library.Version.patch'
+      - '@microsoft/sp-core-library.Version.revision'
       - '@microsoft/sp-core-library.Version.satisfies'
       - '@microsoft/sp-core-library.Version.toString'
       - '@microsoft/sp-core-library.Version.tryParse'
@@ -139,6 +143,32 @@ items:
       return:
         type:
           - boolean
+  - uid: '@microsoft/sp-core-library.Version.major'
+    name: major
+    fullName: major
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The first number in the version string indicating the major version
+    syntax:
+      content: number major
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-core-library.Version.minor'
+    name: minor
+    fullName: minor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The second number in the version string indicating the minor version
+    syntax:
+      content: number minor
+      return:
+        type:
+          - number
   - uid: '@microsoft/sp-core-library.Version.parse'
     name: parse
     children: []
@@ -160,6 +190,40 @@ items:
       return:
         type:
           - '@@microsoft/sp-core-library.Version'
+  - uid: '@microsoft/sp-core-library.Version.patch'
+    name: patch
+    fullName: patch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The thrid number in the version string indicating the patch number in a
+      semantic version or the build number in
+
+      a .NET System.Version class
+
+      Set to undefined if the third number does not exist
+    syntax:
+      content: number patch
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-core-library.Version.revision'
+    name: revision
+    fullName: revision
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The fourth number in the version string indicating the revision number
+      Set to undefined if the fourth number does not exist
+    syntax:
+      content: number revision
+      return:
+        type:
+          - number
   - uid: '@microsoft/sp-core-library.Version.satisfies'
     name: satisfies
     children: []

@@ -16,6 +16,7 @@ items:
 
       this.secondaryManagerProvider inside a dialog.
     package: '@microsoft/sp-dialog'
+    isPreview: true
   - uid: '@microsoft/sp-dialog.SecondaryDialogProvider.alert'
     name: alert
     children: []

@@ -4,8 +4,17 @@ items:
     name: WebPartContext
     fullName: WebPartContext
     children:
+      - '@microsoft/sp-webpart-base.WebPartContext.domElement'
+      - '@microsoft/sp-webpart-base.WebPartContext.eventAggregator'
+      - '@microsoft/sp-webpart-base.WebPartContext.graphHttpClient'
+      - '@microsoft/sp-webpart-base.WebPartContext.host'
+      - '@microsoft/sp-webpart-base.WebPartContext.httpClient'
       - '@microsoft/sp-webpart-base.WebPartContext.manifest'
+      - '@microsoft/sp-webpart-base.WebPartContext.propertyPane'
+      - '@microsoft/sp-webpart-base.WebPartContext.spHttpClient'
+      - '@microsoft/sp-webpart-base.WebPartContext.statusRenderer'
       - '@microsoft/sp-webpart-base.WebPartContext.constructor'
+      - '@microsoft/sp-webpart-base.WebPartContext.webPartTag'
     langs:
       - typeScript
     type: class
@@ -17,6 +26,73 @@ items:
     extends:
       name: '@@microsoft/sp-webpart-base.WebPartContext'
     package: '@microsoft/sp-webpart-base'
+    isPreview: true
+  - uid: '@microsoft/sp-webpart-base.WebPartContext.domElement'
+    name: domElement
+    fullName: domElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Reference to the DOM element that hosts this client side component.
+    syntax:
+      content: HTMLElement domElement
+      return:
+        type:
+          - HTMLElement
+  - uid: '@microsoft/sp-webpart-base.WebPartContext.eventAggregator'
+    name: eventAggregator
+    fullName: eventAggregator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Web part event aggregator.
+    syntax:
+      content: IEventAggregator eventAggregator
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.IEventAggregator'
+  - uid: '@microsoft/sp-webpart-base.WebPartContext.graphHttpClient'
+    name: graphHttpClient
+    fullName: graphHttpClient
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: GraphHttpClient instance scoped to this web part.
+    syntax:
+      content: GraphHttpClient graphHttpClient
+      return:
+        type:
+          - GraphHttpClient
+    isPreview: true
+  - uid: '@microsoft/sp-webpart-base.WebPartContext.host'
+    name: host
+    fullName: host
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Web part host.
+    syntax:
+      content: IWebPartHost host
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.IWebPartHost'
+  - uid: '@microsoft/sp-webpart-base.WebPartContext.httpClient'
+    name: httpClient
+    fullName: httpClient
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: HttpClient instance scoped to this web part.
+    syntax:
+      content: HttpClient httpClient
+      return:
+        type:
+          - HttpClient
   - uid: '@microsoft/sp-webpart-base.WebPartContext.manifest'
     name: manifest
     fullName: manifest
@@ -30,6 +106,45 @@ items:
       return:
         type:
           - IClientSideWebPartManifestInstance<any>
+  - uid: '@microsoft/sp-webpart-base.WebPartContext.propertyPane'
+    name: propertyPane
+    fullName: propertyPane
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Accessor for common web part property pane operations.
+    syntax:
+      content: IPropertyPaneAccessor propertyPane
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.IPropertyPaneAccessor'
+  - uid: '@microsoft/sp-webpart-base.WebPartContext.spHttpClient'
+    name: spHttpClient
+    fullName: spHttpClient
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: SPHttpClient instance scoped to this web part.
+    syntax:
+      content: SPHttpClient spHttpClient
+      return:
+        type:
+          - SPHttpClient
+  - uid: '@microsoft/sp-webpart-base.WebPartContext.statusRenderer'
+    name: statusRenderer
+    fullName: statusRenderer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Web part status renderer.
+    syntax:
+      content: IClientSideWebPartStatusRenderer statusRenderer
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.IClientSideWebPartStatusRenderer'
   - uid: '@microsoft/sp-webpart-base.WebPartContext.constructor'
     name: WebPartContext
     children: []
@@ -44,3 +159,16 @@ items:
           type:
             - '@@microsoft/sp-webpart-base.IWebPartContextParameters'
           description: ''
+  - uid: '@microsoft/sp-webpart-base.WebPartContext.webPartTag'
+    name: webPartTag
+    fullName: webPartTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Web part tag to be used for logging and telemetry.
+    syntax:
+      content: string webPartTag
+      return:
+        type:
+          - string

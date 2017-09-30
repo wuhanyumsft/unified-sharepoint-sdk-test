@@ -5,11 +5,13 @@ items:
     fullName: ApplicationAccessor
     children:
       - '@microsoft/sp-application-base.ApplicationAccessor.constructor'
+      - '@microsoft/sp-application-base.ApplicationAccessor.navigatedEvent'
     langs:
       - typeScript
     type: class
     summary: Provides metadata and events of the SPFx application that's running.
     package: '@microsoft/sp-application-base'
+    isPreview: true
   - uid: '@microsoft/sp-application-base.ApplicationAccessor.constructor'
     name: ApplicationAccessor
     children: []
@@ -24,3 +26,16 @@ items:
           type:
             - ServiceScope
           description: ''
+  - uid: '@microsoft/sp-application-base.ApplicationAccessor.navigatedEvent'
+    name: navigatedEvent
+    fullName: navigatedEvent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Event that gets raised every time there is a page navigation
+    syntax:
+      content: Event<EventArgs> navigatedEvent
+      return:
+        type:
+          - Event<EventArgs>

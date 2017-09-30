@@ -4,6 +4,7 @@ items:
     name: ListItemAccessor
     fullName: ListItemAccessor
     children:
+      - '@microsoft/sp-listview-extensibility.ListItemAccessor.fields'
       - '@microsoft/sp-listview-extensibility.ListItemAccessor.getValue'
       - '@microsoft/sp-listview-extensibility.ListItemAccessor.getValueByName'
       - '@microsoft/sp-listview-extensibility.ListItemAccessor.constructor'
@@ -16,6 +17,21 @@ items:
 
       access to the associated SharePoint list item.
     package: '@microsoft/sp-listview-extensibility'
+  - uid: '@microsoft/sp-listview-extensibility.ListItemAccessor.fields'
+    name: fields
+    fullName: fields
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The SharePoint fields that are currently available in the editor for this
+      list item.
+    syntax:
+      content: ReadonlyArray<SPField> fields
+      return:
+        type:
+          - ReadonlyArray<SPField>
   - uid: '@microsoft/sp-listview-extensibility.ListItemAccessor.getValue'
     name: getValue
     children: []

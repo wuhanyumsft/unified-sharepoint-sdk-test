@@ -4,6 +4,7 @@ items:
     name: CoverageReporter
     fullName: CoverageReporter
     children:
+      - '@ms/sp-build-internal-tasks.CoverageReporter.codeChurnCovData'
       - '@ms/sp-build-internal-tasks.CoverageReporter.getCodeChurnCovReport'
       - '@ms/sp-build-internal-tasks.CoverageReporter.getFileCovReport'
     langs:
@@ -28,6 +29,19 @@ items:
 
       'VerifyCoverageTask' will skip the code churn coverage report generation.
     package: '@ms/sp-build-internal-tasks'
+  - uid: '@ms/sp-build-internal-tasks.CoverageReporter.codeChurnCovData'
+    name: codeChurnCovData
+    fullName: codeChurnCovData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ICoverageInfo codeChurnCovData
+      return:
+        type:
+          - '@@ms/sp-build-internal-tasks.ICoverageInfo'
   - uid: '@ms/sp-build-internal-tasks.CoverageReporter.getCodeChurnCovReport'
     name: getCodeChurnCovReport
     children: []

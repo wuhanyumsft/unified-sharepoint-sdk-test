@@ -5,7 +5,10 @@ items:
     fullName: MonitorableError
     children:
       - '@ms/sp-tenant-admin-page.MonitorableError.Error'
+      - '@ms/sp-tenant-admin-page.MonitorableError.extraData'
+      - '@ms/sp-tenant-admin-page.MonitorableError.innerError'
       - '@ms/sp-tenant-admin-page.MonitorableError.constructor'
+      - '@ms/sp-tenant-admin-page.MonitorableError.tagName'
       - '@ms/sp-tenant-admin-page.MonitorableError.type'
     langs:
       - typeScript
@@ -27,6 +30,32 @@ items:
       return:
         type:
           - ErrorConstructor
+  - uid: '@ms/sp-tenant-admin-page.MonitorableError.extraData'
+    name: extraData
+    fullName: extraData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IMonitorableErrorExtraData extraData
+      return:
+        type:
+          - IMonitorableErrorExtraData
+  - uid: '@ms/sp-tenant-admin-page.MonitorableError.innerError'
+    name: innerError
+    fullName: innerError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Error innerError
+      return:
+        type:
+          - Error
   - uid: '@ms/sp-tenant-admin-page.MonitorableError.constructor'
     name: MonitorableError
     children: []
@@ -54,6 +83,19 @@ items:
             - IMonitorableErrorExtraData
           description: ''
           optional: true
+  - uid: '@ms/sp-tenant-admin-page.MonitorableError.tagName'
+    name: tagName
+    fullName: tagName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string tagName
+      return:
+        type:
+          - string
   - uid: '@ms/sp-tenant-admin-page.MonitorableError.type'
     name: type
     fullName: type

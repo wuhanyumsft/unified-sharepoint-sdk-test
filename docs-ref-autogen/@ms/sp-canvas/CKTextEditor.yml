@@ -4,6 +4,9 @@ items:
     name: CKTextEditor
     fullName: CKTextEditor
     children:
+      - '@ms/sp-canvas.CKTextEditor.appliedFontColor'
+      - '@ms/sp-canvas.CKTextEditor.appliedFontSize'
+      - '@ms/sp-canvas.CKTextEditor.appliedHighlightColor'
       - '@ms/sp-canvas.CKTextEditor.constructor'
       - '@ms/sp-canvas.CKTextEditor.clearFormatting'
       - '@ms/sp-canvas.CKTextEditor.createNewEditor'
@@ -20,7 +23,9 @@ items:
       - '@ms/sp-canvas.CKTextEditor.getSelection'
       - '@ms/sp-canvas.CKTextEditor.getText'
       - '@ms/sp-canvas.CKTextEditor.isFormatAppliedToRange'
+      - '@ms/sp-canvas.CKTextEditor.isTableSelected'
       - '@ms/sp-canvas.CKTextEditor.moduleLoader'
+      - '@ms/sp-canvas.CKTextEditor.noColor'
       - '@ms/sp-canvas.CKTextEditor.onReady'
       - '@ms/sp-canvas.CKTextEditor.preloadEditor'
       - '@ms/sp-canvas.CKTextEditor.setSelection'
@@ -29,6 +34,45 @@ items:
     type: class
     summary: Implementation of IRichTextEditor for CKEditor @4.5.11
     package: '@ms/sp-canvas'
+  - uid: '@ms/sp-canvas.CKTextEditor.appliedFontColor'
+    name: appliedFontColor
+    fullName: appliedFontColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string appliedFontColor
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.CKTextEditor.appliedFontSize'
+    name: appliedFontSize
+    fullName: appliedFontSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string appliedFontSize
+      return:
+        type:
+          - string
+  - uid: '@ms/sp-canvas.CKTextEditor.appliedHighlightColor'
+    name: appliedHighlightColor
+    fullName: appliedHighlightColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string appliedHighlightColor
+      return:
+        type:
+          - string
   - uid: '@ms/sp-canvas.CKTextEditor.constructor'
     name: CKTextEditor
     children: []
@@ -410,6 +454,19 @@ items:
       return:
         type:
           - boolean
+  - uid: '@ms/sp-canvas.CKTextEditor.isTableSelected'
+    name: isTableSelected
+    fullName: isTableSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isTableSelected
+      return:
+        type:
+          - boolean
   - uid: '@ms/sp-canvas.CKTextEditor.moduleLoader'
     name: moduleLoader
     fullName: moduleLoader
@@ -423,6 +480,19 @@ items:
       return:
         type:
           - '@@ms/sp-canvas.IRichTextEditorLoader'
+  - uid: '@ms/sp-canvas.CKTextEditor.noColor'
+    name: noColor
+    fullName: noColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string noColor
+      return:
+        type:
+          - string
   - uid: '@ms/sp-canvas.CKTextEditor.onReady'
     name: onReady
     children: []

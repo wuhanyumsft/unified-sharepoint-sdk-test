@@ -5,6 +5,7 @@ items:
     fullName: PagePicker
     children:
       - '@ms/sp-pagepicker.PagePicker.close'
+      - '@ms/sp-pagepicker.PagePicker.isEnabled'
       - '@ms/sp-pagepicker.PagePicker.open'
       - '@ms/sp-pagepicker.PagePicker.constructor'
     langs:
@@ -22,6 +23,19 @@ items:
     syntax:
       content: function close()
       parameters: []
+  - uid: '@ms/sp-pagepicker.PagePicker.isEnabled'
+    name: isEnabled
+    fullName: isEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static boolean isEnabled
+      return:
+        type:
+          - boolean
   - uid: '@ms/sp-pagepicker.PagePicker.open'
     name: open
     children: []

@@ -8,6 +8,7 @@ items:
       - '@ms/sp-pages.BaseStore.addProcessActionCallback'
       - '@ms/sp-pages.BaseStore.constructor'
       - '@ms/sp-pages.BaseStore.count'
+      - '@ms/sp-pages.BaseStore.dispatchToken'
       - '@ms/sp-pages.BaseStore.dispose'
       - '@ms/sp-pages.BaseStore.emitChange'
       - '@ms/sp-pages.BaseStore.removeAllListeners'
@@ -70,6 +71,19 @@ items:
       return:
         type:
           - number
+  - uid: '@ms/sp-pages.BaseStore.dispatchToken'
+    name: dispatchToken
+    fullName: dispatchToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string dispatchToken
+      return:
+        type:
+          - string
   - uid: '@ms/sp-pages.BaseStore.dispose'
     name: dispose
     children: []

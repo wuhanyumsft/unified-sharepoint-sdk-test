@@ -5,6 +5,7 @@ items:
     fullName: DeveloperTools
     children:
       - '@microsoft/sp-loader.DeveloperTools.initialize'
+      - '@microsoft/sp-loader.DeveloperTools.instance'
       - '@microsoft/sp-loader.DeveloperTools.registerDeveloperToolsTab'
       - '@microsoft/sp-loader.DeveloperTools.showHideDeveloperTools'
       - '@microsoft/sp-loader.DeveloperTools.toggleDeveloperTools'
@@ -23,6 +24,19 @@ items:
     syntax:
       content: function initialize()
       parameters: []
+  - uid: '@microsoft/sp-loader.DeveloperTools.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static DeveloperTools instance
+      return:
+        type:
+          - '@@microsoft/sp-loader.DeveloperTools'
   - uid: '@microsoft/sp-loader.DeveloperTools.registerDeveloperToolsTab'
     name: registerDeveloperToolsTab
     children: []

@@ -6,6 +6,8 @@ items:
     children:
       - '@ms/sp-pages.CachedItem.create'
       - '@ms/sp-pages.CachedItem.fromJson'
+      - '@ms/sp-pages.CachedItem.timestamp'
+      - '@ms/sp-pages.CachedItem.value'
     langs:
       - typeScript
     type: class
@@ -45,3 +47,29 @@ items:
       return:
         type:
           - '@@ms/sp-pages.CachedItem'
+  - uid: '@ms/sp-pages.CachedItem.timestamp'
+    name: timestamp
+    fullName: timestamp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number timestamp
+      return:
+        type:
+          - number
+  - uid: '@ms/sp-pages.CachedItem.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any value
+      return:
+        type:
+          - any

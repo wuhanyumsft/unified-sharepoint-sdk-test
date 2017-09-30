@@ -11,6 +11,8 @@ items:
         @microsoft/sp-build-core-tasks.CumulativeManifestProcessor.generateCumulativeManifest
       - >-
         @microsoft/sp-build-core-tasks.CumulativeManifestProcessor.getManifestsFileWebpackConfig
+      - >-
+        @microsoft/sp-build-core-tasks.CumulativeManifestProcessor.manifestsFilePath
       - '@microsoft/sp-build-core-tasks.CumulativeManifestProcessor.reset'
     langs:
       - typeScript
@@ -117,6 +119,20 @@ items:
       return:
         type:
           - Configuration
+  - uid: >-
+      @microsoft/sp-build-core-tasks.CumulativeManifestProcessor.manifestsFilePath
+    name: manifestsFilePath
+    fullName: manifestsFilePath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string manifestsFilePath
+      return:
+        type:
+          - string
   - uid: '@microsoft/sp-build-core-tasks.CumulativeManifestProcessor.reset'
     name: reset
     children: []
