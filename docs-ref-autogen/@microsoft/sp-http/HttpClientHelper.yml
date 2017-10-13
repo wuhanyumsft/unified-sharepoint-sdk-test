@@ -72,12 +72,12 @@ items:
       name.
     syntax:
       content: >-
-        function overrideHttpMethod(options: IHttpClientOptions,
+        function overrideHttpMethod(options: IHttpClientOptions | undefined,
         httpRequestMethod: string)
       parameters:
         - id: options
           type:
-            - IHttpClientOptions
+            - IHttpClientOptions | undefined
           description: ''
         - id: httpRequestMethod
           type:

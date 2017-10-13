@@ -29,7 +29,7 @@ items:
       content: >-
         static function applyDefaultHeaders(headers: Headers, configuration:
         SPHttpClientCommonConfiguration, options: ISPHttpClientOptions,
-        oDataVersion: ODataVersion)
+        oDataVersion: ODataVersion | undefined)
       parameters:
         - id: headers
           type:
@@ -45,7 +45,7 @@ items:
           description: ''
         - id: oDataVersion
           type:
-            - ODataVersion
+            - ODataVersion | undefined
           description: ''
   - uid: '@microsoft/sp-http.SPHttpClientHelper.cloneHeaders'
     name: cloneHeaders

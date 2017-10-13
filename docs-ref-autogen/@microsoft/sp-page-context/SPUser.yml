@@ -131,7 +131,7 @@ items:
       Returns the user's regional timezone settings or undefined if they haven't
       been set.
     syntax:
-      content: SPTimeZone timeZoneInfo
+      content: SPTimeZone | undefined timeZoneInfo
       return:
         type:
-          - SPTimeZone
+          - SPTimeZone | undefined

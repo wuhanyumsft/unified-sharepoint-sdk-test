@@ -37,7 +37,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ListViewAccessor listView
+      content: ListViewAccessor | undefined listView
       return:
         type:
-          - ListViewAccessor
+          - ListViewAccessor | undefined

@@ -35,10 +35,10 @@ items:
       The application customizer loader handles initializing and rendering
       application customizers.
     syntax:
-      content: ApplicationCustomizerLoader applicationCustomizerLoader
+      content: ApplicationCustomizerLoader | undefined applicationCustomizerLoader
       return:
         type:
-          - ApplicationCustomizerLoader
+          - ApplicationCustomizerLoader | undefined
   - uid: '@microsoft/sp-application-base.IShell.environment'
     name: environment
     fullName: environment

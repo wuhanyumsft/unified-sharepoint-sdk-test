@@ -26,10 +26,10 @@ items:
     type: property
     summary: Get the currently configured WebPart instance Id
     syntax:
-      content: string currentlyConfiguredWebPartId
+      content: string | undefined currentlyConfiguredWebPartId
       return:
         type:
-          - string
+          - string | undefined
   - uid: '@microsoft/sp-webpart-base.PropertyPaneController.isPropertyPaneOpen'
     name: isPropertyPaneOpen
     children: []

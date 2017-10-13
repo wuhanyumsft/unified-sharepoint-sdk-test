@@ -34,10 +34,10 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number loadingTimer
+      content: number | undefined loadingTimer
       return:
         type:
-          - number
+          - number | undefined
   - uid: '@microsoft/sp-webpart-base.IActiveIndicatorCache.placeholder'
     name: placeholder
     fullName: placeholder
@@ -47,7 +47,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: PlaceholderSpinner placeholder
+      content: PlaceholderSpinner | undefined placeholder
       return:
         type:
-          - PlaceholderSpinner
+          - PlaceholderSpinner | undefined

@@ -53,10 +53,10 @@ items:
     type: property
     summary: A key to uniquely identify the field.
     syntax:
-      content: string key
+      content: string | number key
       return:
         type:
-          - string
+          - string | number
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneToggleProps.label'
     name: label
     fullName: label

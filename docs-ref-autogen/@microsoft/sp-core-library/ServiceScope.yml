@@ -261,7 +261,7 @@ items:
       parameters: []
       return:
         type:
-          - ServiceScope
+          - ServiceScope | undefined
   - uid: '@microsoft/sp-core-library.ServiceScope.provide'
     name: provide
     children: []

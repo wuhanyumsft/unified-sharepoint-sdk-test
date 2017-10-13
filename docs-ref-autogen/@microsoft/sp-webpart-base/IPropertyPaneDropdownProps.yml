@@ -75,7 +75,7 @@ items:
     type: property
     summary: The key of the initially selected option.
     syntax:
-      content: string selectedKey
+      content: string | number selectedKey
       return:
         type:
-          - string
+          - string | number

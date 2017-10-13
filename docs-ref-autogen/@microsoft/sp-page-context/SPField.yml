@@ -33,10 +33,10 @@ items:
       The unique identifier of the client-side component associated with the
       field.
     syntax:
-      content: Guid clientSideComponentId
+      content: Guid | undefined clientSideComponentId
       return:
         type:
-          - Guid
+          - Guid | undefined
   - uid: '@microsoft/sp-page-context.SPField.clientSideComponentProperties'
     name: clientSideComponentProperties
     fullName: clientSideComponentProperties

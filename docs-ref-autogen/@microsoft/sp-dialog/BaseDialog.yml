@@ -177,10 +177,10 @@ items:
 
       dialogs are permitted.
     syntax:
-      content: SecondaryDialogProvider secondaryDialogProvider
+      content: SecondaryDialogProvider | undefined secondaryDialogProvider
       return:
         type:
-          - SecondaryDialogProvider
+          - SecondaryDialogProvider | undefined
     remarks: >-
       Secondary dialogs do not have to wait for permission and will immediately
       be shown or rejected. All calls to

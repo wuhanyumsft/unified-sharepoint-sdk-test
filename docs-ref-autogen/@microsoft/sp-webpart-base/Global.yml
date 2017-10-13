@@ -93,7 +93,7 @@ items:
           description: ''
       return:
         type:
-          - Object
+          - Object | undefined
   - uid: '@microsoft/sp-webpart-base.executeAndReThrow'
     name: executeAndReThrow
     children: []
@@ -169,7 +169,7 @@ items:
           description: ''
       return:
         type:
-          - HTMLElement
+          - HTMLElement | undefined
   - uid: '@microsoft/sp-webpart-base.getFocusableChildren'
     name: getFocusableChildren
     children: []
@@ -358,11 +358,11 @@ items:
       - typeScript
     summary: ''
     syntax:
-      content: 'function isEnter(e: KeyboardEvent)'
+      content: 'function isEnter(e: KeyboardEvent | ReactKeyboardEvent)'
       parameters:
         - id: e
           type:
-            - KeyboardEvent
+            - KeyboardEvent | ReactKeyboardEvent
           description: ''
       return:
         type:
@@ -375,11 +375,11 @@ items:
       - typeScript
     summary: ''
     syntax:
-      content: 'function isEscape(e: KeyboardEvent)'
+      content: 'function isEscape(e: KeyboardEvent | ReactKeyboardEvent)'
       parameters:
         - id: e
           type:
-            - KeyboardEvent
+            - KeyboardEvent | ReactKeyboardEvent
           description: ''
       return:
         type:
@@ -393,8 +393,8 @@ items:
     summary: ''
     syntax:
       content: >-
-        function isKey(keyCode: number, e: KeyboardEvent, allowAlt: boolean,
-        allowCtrl: boolean, allowShift: boolean)
+        function isKey(keyCode: number, e: KeyboardEvent | ReactKeyboardEvent,
+        allowAlt: boolean, allowCtrl: boolean, allowShift: boolean)
       parameters:
         - id: keyCode
           type:
@@ -402,7 +402,7 @@ items:
           description: ''
         - id: e
           type:
-            - KeyboardEvent
+            - KeyboardEvent | ReactKeyboardEvent
           description: ''
         - id: allowAlt
           type:
@@ -427,11 +427,11 @@ items:
       - typeScript
     summary: ''
     syntax:
-      content: 'function isShiftTab(e: KeyboardEvent)'
+      content: 'function isShiftTab(e: KeyboardEvent | ReactKeyboardEvent)'
       parameters:
         - id: e
           type:
-            - KeyboardEvent
+            - KeyboardEvent | ReactKeyboardEvent
           description: ''
       return:
         type:
@@ -444,11 +444,11 @@ items:
       - typeScript
     summary: ''
     syntax:
-      content: 'function isTab(e: KeyboardEvent)'
+      content: 'function isTab(e: KeyboardEvent | ReactKeyboardEvent)'
       parameters:
         - id: e
           type:
-            - KeyboardEvent
+            - KeyboardEvent | ReactKeyboardEvent
           description: ''
       return:
         type:

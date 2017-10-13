@@ -94,10 +94,10 @@ items:
       If there is no O365Group associated with the current site, this property
       will be undefined.
     syntax:
-      content: O365GroupAssociation group
+      content: O365GroupAssociation | undefined group
       return:
         type:
-          - O365GroupAssociation
+          - O365GroupAssociation | undefined
   - uid: '@microsoft/sp-page-context.SPSite.id'
     name: id
     fullName: id

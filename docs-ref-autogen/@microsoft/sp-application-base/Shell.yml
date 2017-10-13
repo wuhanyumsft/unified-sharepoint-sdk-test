@@ -31,10 +31,10 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ApplicationCustomizerLoader applicationCustomizerLoader
+      content: ApplicationCustomizerLoader | undefined applicationCustomizerLoader
       return:
         type:
-          - ApplicationCustomizerLoader
+          - ApplicationCustomizerLoader | undefined
   - uid: '@microsoft/sp-application-base.Shell.environment'
     name: environment
     fullName: environment
@@ -148,12 +148,12 @@ items:
     summary: ''
     syntax:
       content: >-
-        function start(module: IClientSideApplicationWrapper, preloadedData:
-        IPreloadedData)
+        function start(module: IClientSideApplicationWrapper | BaseApplication,
+        preloadedData: IPreloadedData)
       parameters:
         - id: module
           type:
-            - IClientSideApplicationWrapper
+            - IClientSideApplicationWrapper | BaseApplication
           description: ''
         - id: preloadedData
           type:

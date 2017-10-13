@@ -185,10 +185,10 @@ items:
       Returns the web's regional timezone settings or undefined if they haven't
       been set.
     syntax:
-      content: SPTimeZone timeZoneInfo
+      content: SPTimeZone | undefined timeZoneInfo
       return:
         type:
-          - SPTimeZone
+          - SPTimeZone | undefined
   - uid: '@microsoft/sp-page-context.SPWeb.title'
     name: title
     fullName: title

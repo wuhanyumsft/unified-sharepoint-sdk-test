@@ -40,8 +40,8 @@ items:
       creator.
     syntax:
       content: >-
-        function createExtension(componentId: string, propertiesJson: string,
-        contextCreator: (extensionContextParameters:
+        function createExtension(componentId: string, propertiesJson: string |
+        undefined, contextCreator: (extensionContextParameters:
         IExtensionContextParameters) => ExtensionContext)
       parameters:
         - id: componentId
@@ -50,7 +50,7 @@ items:
           description: the client-side component ID for the extension.
         - id: propertiesJson
           type:
-            - string
+            - string | undefined
           description: a text string containing an optional JSON object.
         - id: contextCreator
           type:

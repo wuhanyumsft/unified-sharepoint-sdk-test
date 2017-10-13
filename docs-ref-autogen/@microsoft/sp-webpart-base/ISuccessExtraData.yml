@@ -34,10 +34,10 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean isInternal
+      content: boolean | undefined isInternal
       return:
         type:
-          - boolean
+          - boolean | undefined
   - uid: '@microsoft/sp-webpart-base.ISuccessExtraData.manifestId'
     name: manifestId
     fullName: manifestId

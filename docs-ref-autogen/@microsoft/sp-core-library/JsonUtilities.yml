@@ -34,4 +34,4 @@ items:
             the json string to encode.
       return:
         type:
-          - string
+          - string | undefined

@@ -68,7 +68,7 @@ items:
       parameters: []
       return:
         type:
-          - ListViewAccessor
+          - ListViewAccessor | undefined
     remarks: >-
       Although the SharePoint list view is the main usage scenario, field
       customizers

@@ -44,7 +44,7 @@ items:
           description: ''
       return:
         type:
-          - number
+          - number | void
   - uid: '@microsoft/sp-application-base.FlexPaneWrapper.OpenFlexPaneForProvider'
     name: OpenFlexPaneForProvider
     children: []

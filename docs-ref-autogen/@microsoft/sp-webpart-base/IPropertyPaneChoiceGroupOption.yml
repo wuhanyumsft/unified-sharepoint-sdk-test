@@ -94,10 +94,10 @@ items:
     type: property
     summary: A required key to uniquely identify the option.
     syntax:
-      content: string key
+      content: string | number key
       return:
         type:
-          - string
+          - string | number
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption.selectedImageSrc'
     name: selectedImageSrc
     fullName: selectedImageSrc

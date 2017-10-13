@@ -157,10 +157,10 @@ items:
       The method is used to get the validation error message and determine
       whether the input value is valid or not.
     syntax:
-      content: '(value: string) => string onGetErrorMessage'
+      content: '(value: string) => string | Promise onGetErrorMessage'
       return:
         type:
-          - '(value: string) => string'
+          - '(value: string) => string | Promise'
     remarks: |-
       When it returns string:
 

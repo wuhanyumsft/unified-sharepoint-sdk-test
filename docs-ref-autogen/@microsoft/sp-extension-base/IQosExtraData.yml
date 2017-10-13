@@ -34,10 +34,10 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean isInternal
+      content: boolean | undefined isInternal
       return:
         type:
-          - boolean
+          - boolean | undefined
   - uid: '@microsoft/sp-extension-base.IQosExtraData.manifestId'
     name: manifestId
     fullName: manifestId

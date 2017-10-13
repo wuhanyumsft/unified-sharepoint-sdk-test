@@ -44,8 +44,8 @@ items:
 
       (Support level: Readable) "Limited functionality: Feature X is disabled"
     syntax:
-      content: string warning
+      content: string | undefined warning
       return:
         type:
-          - string
+          - string | undefined
     remarks: Warning is unused when support level is "None".

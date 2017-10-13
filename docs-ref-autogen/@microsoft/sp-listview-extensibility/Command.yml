@@ -44,10 +44,10 @@ items:
 
       Example: "Show information.  Press ENTER to select."
     syntax:
-      content: string ariaLabel
+      content: string | undefined ariaLabel
       return:
         type:
-          - string
+          - string | undefined
   - uid: '@microsoft/sp-listview-extensibility.Command.iconImageUrl'
     name: iconImageUrl
     fullName: iconImageUrl
@@ -62,10 +62,10 @@ items:
       are defined by the type of extension; some extension types may not display
       the image at all.
     syntax:
-      content: string iconImageUrl
+      content: string | undefined iconImageUrl
       return:
         type:
-          - string
+          - string | undefined
     remarks: This must be a absolute URL.
   - uid: '@microsoft/sp-listview-extensibility.Command.id'
     name: id

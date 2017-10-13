@@ -21,7 +21,7 @@ items:
     type: property
     summary: The name of the icon to use from the Office Fabric icon set.
     syntax:
-      content: string officeFabricIconFontName
+      content: string | null officeFabricIconFontName
       return:
         type:
-          - string
+          - string | null

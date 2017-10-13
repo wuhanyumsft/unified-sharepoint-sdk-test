@@ -93,7 +93,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: SPHttpClientResponse response
+      content: SPHttpClientResponse | undefined response
       return:
         type:
-          - SPHttpClientResponse
+          - SPHttpClientResponse | undefined

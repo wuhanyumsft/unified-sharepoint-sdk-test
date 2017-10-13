@@ -46,10 +46,10 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string clientSideComponentProperties
+      content: string | undefined clientSideComponentProperties
       return:
         type:
-          - string
+          - string | undefined
   - uid: '@microsoft/sp-application-base.ClientSideCustomAction.location'
     name: location
     fullName: location
@@ -72,10 +72,10 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string registrationId
+      content: string | undefined registrationId
       return:
         type:
-          - string
+          - string | undefined
   - uid: '@microsoft/sp-application-base.ClientSideCustomAction.registrationType'
     name: registrationType
     fullName: registrationType
@@ -85,10 +85,10 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string registrationType
+      content: string | undefined registrationType
       return:
         type:
-          - string
+          - string | undefined
   - uid: >-
       @microsoft/sp-application-base.ClientSideCustomAction.requireSiteAdministrator
     name: requireSiteAdministrator
@@ -99,10 +99,10 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean requireSiteAdministrator
+      content: boolean | undefined requireSiteAdministrator
       return:
         type:
-          - boolean
+          - boolean | undefined
   - uid: '@microsoft/sp-application-base.ClientSideCustomAction.rights'
     name: rights
     fullName: rights
@@ -112,10 +112,10 @@ items:
     type: property
     summary: ''
     syntax:
-      content: SPPermission rights
+      content: SPPermission | undefined rights
       return:
         type:
-          - SPPermission
+          - SPPermission | undefined
   - uid: '@microsoft/sp-application-base.ClientSideCustomAction.sequence'
     name: sequence
     fullName: sequence
@@ -125,10 +125,10 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number sequence
+      content: number | undefined sequence
       return:
         type:
-          - number
+          - number | undefined
   - uid: '@microsoft/sp-application-base.ClientSideCustomAction.tag'
     name: tag
     fullName: tag
@@ -151,7 +151,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string title
+      content: string | undefined title
       return:
         type:
-          - string
+          - string | undefined

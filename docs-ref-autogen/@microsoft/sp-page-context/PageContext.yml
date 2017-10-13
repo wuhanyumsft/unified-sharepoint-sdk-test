@@ -132,10 +132,10 @@ items:
       If there is no list associated to the current page, this property will be
       undefined.
     syntax:
-      content: SPList list
+      content: SPList | undefined list
       return:
         type:
-          - SPList
+          - SPList | undefined
   - uid: '@microsoft/sp-page-context.PageContext.listItem'
     name: listItem
     fullName: listItem
@@ -150,10 +150,10 @@ items:
       If there is no list item associated to the current page, this property
       will be undefined.
     syntax:
-      content: SPListItem listItem
+      content: SPListItem | undefined listItem
       return:
         type:
-          - SPListItem
+          - SPListItem | undefined
   - uid: '@microsoft/sp-page-context.PageContext.constructor'
     name: PageContext
     children: []

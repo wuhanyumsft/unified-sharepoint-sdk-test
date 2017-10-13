@@ -66,10 +66,10 @@ items:
       This property is marked as alpha because it is not yet implemented by the
       \@microsoft/sp-polyfills package.
     syntax:
-      content: ReadableStream body
+      content: ReadableStream | null body
       return:
         type:
-          - ReadableStream
+          - ReadableStream | null
   - uid: '@microsoft/sp-http.HttpClientResponse.bodyUsed'
     name: bodyUsed
     fullName: bodyUsed

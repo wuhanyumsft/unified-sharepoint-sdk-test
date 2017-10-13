@@ -54,10 +54,10 @@ items:
     type: property
     summary: ''
     syntax:
-      content: Promise loadAndConfigureAdalJsModulePromise
+      content: Promise | undefined loadAndConfigureAdalJsModulePromise
       return:
         type:
-          - Promise
+          - Promise | undefined
   - uid: '@microsoft/sp-http.TestOAuth2TokenProvider.constructor'
     name: TestOAuth2TokenProvider
     children: []

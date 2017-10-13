@@ -19,8 +19,8 @@ items:
     summary: ''
     syntax:
       content: >-
-        static function render(context: IWebPartContext, data: IWebPartData,
-        onRenderComplete: () => void)
+        static function render(context: IWebPartContext, data: IWebPartData |
+        undefined, onRenderComplete: () => void)
       parameters:
         - id: context
           type:
@@ -28,7 +28,7 @@ items:
           description: ''
         - id: data
           type:
-            - IWebPartData
+            - IWebPartData | undefined
           description: ''
         - id: onRenderComplete
           type:

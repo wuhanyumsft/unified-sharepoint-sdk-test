@@ -79,10 +79,10 @@ items:
     type: property
     summary: Inner error.
     syntax:
-      content: Error innerError
+      content: Error | undefined innerError
       return:
         type:
-          - Error
+          - Error | undefined
   - uid: '@microsoft/sp-core-library.SPError.constructor'
     name: SPError
     children: []

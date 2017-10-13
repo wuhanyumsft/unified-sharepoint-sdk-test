@@ -383,4 +383,4 @@ items:
           optional: true
       return:
         type:
-          - string
+          - string | undefined

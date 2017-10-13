@@ -20,10 +20,10 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string key
+      content: string | undefined key
       return:
         type:
-          - string
+          - string | undefined
   - uid: '@microsoft/sp-core-library.IKeyValuePair.value'
     name: value
     fullName: value
@@ -33,7 +33,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string value
+      content: string | undefined value
       return:
         type:
-          - string
+          - string | undefined

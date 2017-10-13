@@ -114,11 +114,11 @@ items:
       - typeScript
     summary: Test whether a string is a valid version specifier.
     syntax:
-      content: 'static function isValid(versionString: string)'
+      content: 'static function isValid(versionString: string | undefined | null)'
       parameters:
         - id: versionString
           type:
-            - string
+            - string | undefined | null
           description: The version string
       return:
         type:
@@ -193,11 +193,11 @@ items:
 
       if the string cannot be parsed.
     syntax:
-      content: 'static function parse(versionString: string)'
+      content: 'static function parse(versionString: string | undefined | null)'
       parameters:
         - id: versionString
           type:
-            - string
+            - string | undefined | null
           description: A version string
       return:
         type:
@@ -211,10 +211,10 @@ items:
     type: property
     summary: 'The third number in the version string, or undefined if unspecified.'
     syntax:
-      content: number patch
+      content: number | undefined patch
       return:
         type:
-          - number
+          - number | undefined
     remarks: |-
       Typically a change in the patch version number indicates a small fix that
       does not affect the compatibility contract for the library.  For a .NET
@@ -228,10 +228,10 @@ items:
     type: property
     summary: 'The fourth number in the version string, or undefined if unspecified.'
     syntax:
-      content: number revision
+      content: number | undefined revision
       return:
         type:
-          - number
+          - number | undefined
     remarks: |-
       This number is not part of the Semantic Versioning (SemVer) standard used
       in JavaScript, but it is used by .NET version numbers.
@@ -300,12 +300,12 @@ items:
       Attempts to parse the input string to construct a new Version object.
       If the string cannot be parsed, then undefined is returned.
     syntax:
-      content: 'static function tryParse(versionString: string)'
+      content: 'static function tryParse(versionString: string | undefined | null)'
       parameters:
         - id: versionString
           type:
-            - string
+            - string | undefined | null
           description: A version string
       return:
         type:
-          - Version
+          - Version | undefined

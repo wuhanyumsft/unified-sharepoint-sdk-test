@@ -73,7 +73,7 @@ items:
           optional: true
       return:
         type:
-          - Promise<string>
+          - Promise<string | undefined>
     remarks: >-
       There might be a delay until the dialog is approved and shown by the
       application,

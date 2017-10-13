@@ -131,7 +131,7 @@ items:
       - typeScript
     summary: ''
     syntax:
-      content: 'function renderError(domElement: HTMLElement, error: Error)'
+      content: 'function renderError(domElement: HTMLElement, error: Error | string)'
       parameters:
         - id: domElement
           type:
@@ -139,5 +139,5 @@ items:
           description: ''
         - id: error
           type:
-            - Error
+            - Error | string
           description: ''

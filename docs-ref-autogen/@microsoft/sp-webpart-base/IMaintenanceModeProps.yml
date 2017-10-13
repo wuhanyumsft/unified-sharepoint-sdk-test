@@ -33,7 +33,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: IWebPartData data
+      content: IWebPartData | undefined data
       return:
         type:
-          - IWebPartData
+          - IWebPartData | undefined

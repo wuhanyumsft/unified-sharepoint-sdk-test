@@ -33,11 +33,13 @@ items:
       Throws an exception if the specified string is null, undefined, or an
       empty string.
     syntax:
-      content: 'static function isNonemptyString(value: string, variableName: string)'
+      content: >-
+        static function isNonemptyString(value: string | undefined | null,
+        variableName: string)
       parameters:
         - id: value
           type:
-            - string
+            - string | undefined | null
           description: the value to check
         - id: variableName
           type:
@@ -73,11 +75,13 @@ items:
       - typeScript
     summary: Throws an exception if the specified value is not true.
     syntax:
-      content: 'static function isTrue(value: boolean, variableName: string)'
+      content: >-
+        static function isTrue(value: boolean | undefined | null, variableName:
+        string)
       parameters:
         - id: value
           type:
-            - boolean
+            - boolean | undefined | null
           description: the value to check
         - id: variableName
           type:

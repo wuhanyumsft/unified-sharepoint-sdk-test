@@ -35,10 +35,10 @@ items:
     type: property
     summary: A key to uniquely identify this option.
     syntax:
-      content: string key
+      content: string | number key
       return:
         type:
-          - string
+          - string | number
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneDropdownOption.text'
     name: text
     fullName: text

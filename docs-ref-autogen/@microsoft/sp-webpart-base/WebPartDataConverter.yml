@@ -52,7 +52,7 @@ items:
           optional: true
       return:
         type:
-          - IWebPartData
+          - IWebPartData | undefined
   - uid: >-
       @microsoft/sp-webpart-base.WebPartDataConverter.convertServerProcessedDataToHtml
     name: convertServerProcessedDataToHtml
@@ -95,11 +95,11 @@ items:
     syntax:
       content: >-
         static function convertServerProcessedDataToHtml(serverContent:
-        ISerializedServerProcessedData)
+        ISerializedServerProcessedData | undefined)
       parameters:
         - id: serverContent
           type:
-            - ISerializedServerProcessedData
+            - ISerializedServerProcessedData | undefined
           description: ''
       return:
         type:

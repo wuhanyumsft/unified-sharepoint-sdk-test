@@ -89,7 +89,7 @@ items:
       - typeScript
     summary: Render the provided error message in the web part container div.
     syntax:
-      content: 'function renderError(domElement: HTMLElement, error: Error)'
+      content: 'function renderError(domElement: HTMLElement, error: Error | string)'
       parameters:
         - id: domElement
           type:
@@ -97,6 +97,6 @@ items:
           description: the web part container div.
         - id: error
           type:
-            - Error
+            - Error | string
           description: |
             the error message.

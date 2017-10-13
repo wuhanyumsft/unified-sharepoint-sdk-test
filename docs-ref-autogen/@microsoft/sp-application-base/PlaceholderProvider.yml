@@ -126,7 +126,7 @@ items:
           optional: true
       return:
         type:
-          - PlaceholderContent
+          - PlaceholderContent | undefined
     remarks: >-
       The host application makes no guarantees about the availability of a given
       placeholder.
