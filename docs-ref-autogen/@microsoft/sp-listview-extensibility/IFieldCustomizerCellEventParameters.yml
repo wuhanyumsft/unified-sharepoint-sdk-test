@@ -15,7 +15,7 @@ items:
     langs:
       - typeScript
     type: interface
-    summary: Event parmeters for BaseFieldCustomizer.onRenderCell()
+    summary: Event parameters for BaseFieldCustomizer.onRenderCell()
     package: '@microsoft/sp-listview-extensibility'
   - uid: >-
       @microsoft/sp-listview-extensibility.IFieldCustomizerCellEventParameters.domElement
@@ -69,7 +69,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: An implementor-defined storage property.
+    summary: An implementation defined storage property.
     syntax:
       content: any userData
       return:

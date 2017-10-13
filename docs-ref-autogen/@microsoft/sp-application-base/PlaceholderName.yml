@@ -9,11 +9,9 @@ items:
     langs:
       - typeScript
     type: enum
-    summary: >-
-      A "placeholder" is a region on the page where client-side components can
-      inject
-
-      custom content.
+    summary: |-
+      The identifier for a content placeholder, which is a region on the
+      page where third-party extensibility components can render custom content.
     package: '@microsoft/sp-application-base'
     isPreview: true
   - uid: '@microsoft/sp-application-base.PlaceholderName.Top'
@@ -21,7 +19,7 @@ items:
     children: []
     langs:
       - typeScript
-    summary: Placeholder that exists on the top of the page.
+    summary: A region at the top of the page.
     type: field
     numericValue: 1
   - uid: '@microsoft/sp-application-base.PlaceholderName.Bottom'
@@ -29,6 +27,6 @@ items:
     children: []
     langs:
       - typeScript
-    summary: Placeholder that exists on the bottom of the page.
+    summary: A region at the bottom of the page.
     type: field
     numericValue: 2

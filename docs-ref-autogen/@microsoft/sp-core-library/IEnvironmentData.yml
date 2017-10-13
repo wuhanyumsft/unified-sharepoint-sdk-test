@@ -8,7 +8,7 @@ items:
     langs:
       - typeScript
     type: interface
-    summary: Interface for properties neccesary for building a Environment object.
+    summary: Interface for properties necessary for building a Environment object.
     package: '@microsoft/sp-core-library'
   - uid: '@microsoft/sp-core-library.IEnvironmentData.type'
     name: type

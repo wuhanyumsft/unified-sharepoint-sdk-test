@@ -27,37 +27,7 @@ items:
     type: constructor
     langs:
       - typeScript
-    summary: >
-      Constructor for the BaseDialog class.
-
-      It is important to keep the constructor lightweight. Use onBeforeOpen()
-      for doing heavy-weight initializations
-
-      that are needed for rendering the dialog such as resource allocations and
-      asynchronous calls to fetch data. You
-
-      can use the constructor to set initial parameters of your dialog such as
-      references to resources in your
-
-      application. The reason for this is that dialogs are usually constructed
-      upon a UI event e.g. a button click,
-
-      but the dialog may not always be shown right after construction. Keeping
-      the constructor lightweight ensures
-
-      smooth user experience and avoids doing throw-away work in case the dialog
-      is not shown later e.g. if
-
-      the framework rejects it. Another benefit of doing this is avoiding memory
-      leaks by doing all the allocations and
-
-      disposals in symmetric onBeforeOpen() and onAfterClose() events. If you
-      allocate unmanaged resources in the
-
-      constructor, you have a memory leak because there is no guarantee
-      onAfterClose() will get called,
-
-      and onAfterClose() is your only opportunity to dispose.
+    summary: Constructor for the BaseDialog class.
     syntax:
       content: 'new BaseDialog(config?: IDialogConfiguration)'
       parameters:

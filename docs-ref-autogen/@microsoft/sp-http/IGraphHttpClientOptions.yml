@@ -7,15 +7,7 @@ items:
     langs:
       - typeScript
     type: interface
-    summary: >-
-      This interface defines the options for the GraphHttpClient operations such
-      as
-
-      get(), post(), fetch(), etc.  It is based on the WHATWG API standard
-
-      parameters that are documented here:
-
-      https://fetch.spec.whatwg.org/
+    summary: Options for HttpClient
     extends:
       name: '@@microsoft/sp-http.IHttpClientOptions'
     package: '@microsoft/sp-http'

@@ -8,7 +8,7 @@ items:
     langs:
       - typeScript
     type: interface
-    summary: Options for showing an prompt dialog
+    summary: Options for showing a prompt dialog
     extends:
       name: '@@microsoft/sp-dialog.IDialogShowOptions'
     package: '@microsoft/sp-dialog'

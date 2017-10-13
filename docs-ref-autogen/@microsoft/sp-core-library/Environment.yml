@@ -9,10 +9,8 @@ items:
       - typeScript
     type: class
     summary: >-
-      This class contains contextual information about the enviroment that is
-      hosting the framework and
-
-      its components.
+      Information about the system environment where the SharePoint Framework is
+      running.
     package: '@microsoft/sp-core-library'
   - uid: '@microsoft/sp-core-library.Environment.type'
     name: type
@@ -22,8 +20,8 @@ items:
       - typeScript
     type: property
     summary: >-
-      An enum that describes which type of enviroment the framework is running
-      in.
+      Indicates the general type of environment where the SharePoint Framework
+      is running.
     syntax:
       content: static EnvironmentType type
       return:

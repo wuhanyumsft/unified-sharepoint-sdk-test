@@ -19,7 +19,7 @@ items:
     langs:
       - typeScript
     summary: >-
-      The constructor for this class is marked as internal; third party code
+      The constructor for this class is marked as internal; third-party code
       should not inherit
 
       directly from this base class.

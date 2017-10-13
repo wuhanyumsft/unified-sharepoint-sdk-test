@@ -10,15 +10,10 @@ items:
       - typeScript
     type: interface
     summary: >-
-      Interface to define an object that can hook into events.
+      Used with the <xref:Event> system, this interface is implemented by
+      components that
 
-      It is used by the event system to automatically remove unusued event
-      handlers once the observer
-
-      has been disposed.
-
-      It is also used to detect performance and reliability issues in the event
-      handling.
+      can subscribe to events.
     extends:
       name: '@@microsoft/sp-core-library.IDisposable'
     package: '@microsoft/sp-core-library'
@@ -30,9 +25,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |-
-      Component id of the parent component.
-      In the case of the component object, its own component id.
+    summary: 'The component identifier, from the component''s manifest.'
     syntax:
       content: string componentId
       return:
@@ -45,9 +38,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |-
-      Instance id of the parent component.
-      In the case of the component object, its own instance id.
+    summary: The instance identifier for the component.
     syntax:
       content: string instanceId
       return:

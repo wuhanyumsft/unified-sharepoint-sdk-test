@@ -12,8 +12,8 @@ items:
       - typeScript
     type: enum
     summary: >-
-      An enum that describes which type of enviroment the framework is running
-      in.
+      Indicates the general type of environment where the SharePoint Framework
+      is running.
     package: '@microsoft/sp-core-library'
   - uid: '@microsoft/sp-core-library.EnvironmentType.ClassicSharePoint'
     name: ClassicSharePoint
@@ -21,8 +21,11 @@ items:
     langs:
       - typeScript
     summary: >-
-      Indicates that the framework was loaded from a classic server-rendered
-      SharePoint page
+      Indicates that the framework was hosted by a classic server-rendered
+      SharePoint page.
+
+      Some functionality may be limited, e.g. various extensibility APIs may not
+      be supported.
     type: field
   - uid: '@microsoft/sp-core-library.EnvironmentType.Local'
     name: Local
@@ -30,13 +33,16 @@ items:
     langs:
       - typeScript
     summary: >-
-      Represents the scenario of the framework hosted on a localhost server,
-      which typically cannot
+      Indicates that the SharePoint Framework is running on a page from a
+      "localhost" web server,
 
-      access any SharePoint REST APIs.
+      for example the SharePoint Workbench when hosted via "gulp serve". 
+      SharePoint REST API calls
 
-      Example: A developer uses gulp serve command to test their changes in
-      their browser of choice.
+      will not be available, and in general network access may not authenticate
+      properly.
+
+      Certain page context information may be using mock values for testing.
     type: field
   - uid: '@microsoft/sp-core-library.EnvironmentType.SharePoint'
     name: SharePoint
@@ -44,8 +50,10 @@ items:
     langs:
       - typeScript
     summary: >-
-      Indicates that the framework was loaded by a client-rendered SharePoint
-      page
+      Indicates that the SharePoint Framework is running on a modern SharePoint
+      web page,
+
+      with full framework functionality.  This is the normal usage scenario.
     type: field
   - uid: '@microsoft/sp-core-library.EnvironmentType.Test'
     name: Test
@@ -53,9 +61,9 @@ items:
     langs:
       - typeScript
     summary: >-
-      Represents the scenario of the framework hosted in a unit/integration
-      test.
+      Indicates that the SharePoint Framework is running inside a test harness,
+      e.g. a unit test.
 
-      Example: A developer running a unit test to verify changes to their web
-      part.
+      There may be no user interaction at all, and network access in general may
+      be disabled.
     type: field

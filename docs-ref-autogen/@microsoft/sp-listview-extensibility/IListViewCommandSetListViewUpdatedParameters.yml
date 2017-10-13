@@ -10,7 +10,7 @@ items:
     langs:
       - typeScript
     type: interface
-    summary: ''
+    summary: 'Parameters for <xref:BaseListViewCommandSet.onListViewUpdated>'
     package: '@microsoft/sp-listview-extensibility'
   - uid: >-
       @microsoft/sp-listview-extensibility.IListViewCommandSetListViewUpdatedParameters.selectedRows

@@ -21,7 +21,6 @@ items:
       - '@microsoft/sp-http.IHttpClientConfigurations'
       - '@microsoft/sp-http.HttpClientHelper'
       - '@microsoft/sp-http.HttpClientResponse'
-      - '@microsoft/sp-http.AdalErrorStrings'
       - '@microsoft/sp-http.OAuth2Constants'
       - '@microsoft/sp-http.OAuth2TokenProvider'
       - '@microsoft/sp-http.IAdalJsModule'
@@ -30,7 +29,10 @@ items:
       - '@microsoft/sp-http.OAuthTokenProvider'
       - '@microsoft/sp-http.OAuthUtilityContext'
       - '@microsoft/sp-http.TokenUtilityLogger'
+      - '@microsoft/sp-http.MockAdalJsAuthContext'
+      - '@microsoft/sp-http.IMockAdalJsAuthContextConfig'
       - '@microsoft/sp-http.IFetchProviderExpectations'
+      - '@microsoft/sp-http.TestOAuth2TokenProvider'
       - '@microsoft/sp-http.BatchedRequest'
       - '@microsoft/sp-http.DigestCache'
       - '@microsoft/sp-http.ICachedDigest'
@@ -93,8 +95,6 @@ references:
     name: HttpClientHelper
   - uid: '@microsoft/sp-http.HttpClientResponse'
     name: HttpClientResponse
-  - uid: '@microsoft/sp-http.AdalErrorStrings'
-    name: AdalErrorStrings
   - uid: '@microsoft/sp-http.OAuth2Constants'
     name: OAuth2Constants
   - uid: '@microsoft/sp-http.OAuth2TokenProvider'
@@ -111,8 +111,14 @@ references:
     name: OAuthUtilityContext
   - uid: '@microsoft/sp-http.TokenUtilityLogger'
     name: TokenUtilityLogger
+  - uid: '@microsoft/sp-http.MockAdalJsAuthContext'
+    name: MockAdalJsAuthContext
+  - uid: '@microsoft/sp-http.IMockAdalJsAuthContextConfig'
+    name: IMockAdalJsAuthContextConfig
   - uid: '@microsoft/sp-http.IFetchProviderExpectations'
     name: IFetchProviderExpectations
+  - uid: '@microsoft/sp-http.TestOAuth2TokenProvider'
+    name: TestOAuth2TokenProvider
   - uid: '@microsoft/sp-http.BatchedRequest'
     name: BatchedRequest
   - uid: '@microsoft/sp-http.DigestCache'

@@ -21,6 +21,10 @@ items:
     type: interface
     summary: The base context interface for client-side web parts.
     package: '@microsoft/sp-webpart-base'
+    deprecated:
+      content: |-
+        This interface will be removed in an upcoming release.  Use the
+        <xref:WebPartContext> class instead.
   - uid: '@microsoft/sp-webpart-base.IWebPartContext.domElement'
     name: domElement
     fullName: domElement

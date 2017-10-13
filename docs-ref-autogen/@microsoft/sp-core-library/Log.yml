@@ -11,15 +11,7 @@ items:
     langs:
       - typeScript
     type: class
-    summary: >-
-      The Log class provides static methods for logging messages at different
-      levels (verbose,
-
-      info, warning, error) and with context information. Context information
-      helps identify
-
-      which component generated the messages and makes the messages useful and
-      filterable.
+    summary: A basic redirectable logging system.
     package: '@microsoft/sp-core-library'
   - uid: '@microsoft/sp-core-library.Log.error'
     name: error
@@ -27,7 +19,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: Logs an error
+    summary: Logs an error.
     syntax:
       content: >-
         static function error(source: string, error: Error, scope?:
@@ -57,7 +49,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: Logs an informational message
+    summary: Logs a general informational message.
     syntax:
       content: >-
         static function info(source: string, message: string, scope?:
@@ -89,7 +81,11 @@ items:
     type: method
     langs:
       - typeScript
-    summary: Logs a verbose message
+    summary: >-
+      Logs a message which contains detailed information that is generally only
+      needed for
+
+      troubleshooting.
     syntax:
       content: >-
         static function verbose(source: string, message: string, scope?:
@@ -121,7 +117,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: Logs a warning
+    summary: Logs a warning.
     syntax:
       content: >-
         static function warn(source: string, message: string, scope?:

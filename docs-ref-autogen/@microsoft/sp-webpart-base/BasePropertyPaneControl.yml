@@ -8,7 +8,7 @@ items:
       - typeScript
     type: class
     summary: >-
-      Base implementation of IPropertyPaneControl. Derived clases will be able
+      Base implementation of IPropertyPaneControl. Derived classes will be able
       to use the
 
       ClientSideWebPartManager.setPropertyPaneControl API to enable

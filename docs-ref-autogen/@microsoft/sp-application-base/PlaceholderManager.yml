@@ -20,7 +20,7 @@ items:
       The host application uses this object to define the placeholders which
       will
 
-      be consumed by third party extensions.  The PlaceholderCollection then
+      be consumed by third-party extensions.  The PlaceholderCollection then
       obtains its
 
       data from the PlaceholderManager.

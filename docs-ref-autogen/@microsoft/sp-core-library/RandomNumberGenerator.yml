@@ -10,8 +10,10 @@ items:
     langs:
       - typeScript
     type: class
-    summary: |-
-      This is the default implementation of IRandomNumberGenerator that simply
+    summary: >-
+      This is the default implementation of <xref:IRandomNumberGenerator> that
+      simply
+
       calls Math.random().
     package: '@microsoft/sp-core-library'
   - uid: '@microsoft/sp-core-library.RandomNumberGenerator.generate'
@@ -20,7 +22,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: ''
+    summary: '{@inheritdoc IRandomNumberGenerator.generate}'
     syntax:
       content: function generate()
       parameters: []

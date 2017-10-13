@@ -17,7 +17,7 @@ items:
       Interface to be implemented by a component that should display the loading
       indicator and
 
-      error messages for a webpart.
+      error messages for a web part.
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IClientSideWebPartStatusRenderer.clearError'
     name: clearError
@@ -33,7 +33,7 @@ items:
           type:
             - HTMLElement
           description: |
-            the webpart container div.
+            the web part container div.
   - uid: >-
       @microsoft/sp-webpart-base.IClientSideWebPartStatusRenderer.clearLoadingIndicator
     name: clearLoadingIndicator
@@ -49,7 +49,7 @@ items:
           type:
             - Element
           description: |
-            the webpart container div.
+            the web part container div.
   - uid: >-
       @microsoft/sp-webpart-base.IClientSideWebPartStatusRenderer.displayLoadingIndicator
     name: displayLoadingIndicator
@@ -90,7 +90,7 @@ items:
         - id: domElement
           type:
             - HTMLElement
-          description: the webpart container div.
+          description: the web part container div.
         - id: error
           type:
             - Error

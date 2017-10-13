@@ -19,7 +19,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: The name of the icon to use from th office fabric icon set.
+    summary: The name of the icon to use from the Office Fabric icon set.
     syntax:
       content: string officeFabricIconFontName
       return:

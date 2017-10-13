@@ -13,7 +13,7 @@ items:
     langs:
       - typeScript
     type: class
-    summary: >
+    summary: >-
       GraphHttpClient is used to perform REST calls against Microsoft Graph. It
       adds default
 
@@ -21,11 +21,6 @@ items:
       performance of an application.
 
       https://developer.microsoft.com/en-us/graph/
-
-      For communicating with non-Graph services, use the HttpClient or
-      SPHttpClient
-
-      class instead.
     package: '@microsoft/sp-http'
     isPreview: true
   - uid: '@microsoft/sp-http.GraphHttpClient.configurations'
@@ -49,23 +44,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: >
-      Generally, the parameters and semantics for HttpClient.fetch() are
-      essentially
-
-      the same as the WHATWG API standard that is documented here:
-
-      https://fetch.spec.whatwg.org/
-
-      The GraphHttpClient subclass adds some additional behaviors that are
-      convenient when
-
-      working with SharePoint ODATA API's (which can be avoided by using
-
-      HttpClient instead):
-
-      - Default "Accept" and "Content-Type" headers are added if not explicitly
-      specified.
+    summary: Perform a REST service call.
     syntax:
       content: >-
         function fetch(url: string, configuration: GraphHttpClientConfiguration,
@@ -98,7 +77,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: 'Calls fetch(), but sets the method to ''GET''.'
+    summary: 'Calls fetch(), but sets the method to "GET".'
     syntax:
       content: >-
         function get(url: string, configuration: GraphHttpClientConfiguration,
@@ -143,7 +122,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: 'Calls fetch(), but sets the method to ''POST''.'
+    summary: 'Calls fetch(), but sets the method to "POST".'
     syntax:
       content: >-
         function post(url: string, configuration: GraphHttpClientConfiguration,

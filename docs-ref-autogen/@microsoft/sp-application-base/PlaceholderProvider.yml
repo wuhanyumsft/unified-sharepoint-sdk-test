@@ -12,11 +12,11 @@ items:
       - typeScript
     type: class
     summary: >-
-      Allows third party components to discover and use "placeholders". 
-      Placeholders allow
+      Allows third-party components to discover and use SharePoint
+      placeholders.  Placeholders
 
-      third party components to inject custom content into designated regions on
-      the page.
+      enable third-party components to render custom content into designated
+      regions on the page.
     package: '@microsoft/sp-application-base'
     isPreview: true
   - uid: '@microsoft/sp-application-base.PlaceholderProvider.changedEvent'

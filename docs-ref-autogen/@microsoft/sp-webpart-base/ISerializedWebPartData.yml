@@ -24,21 +24,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: >-
-      Definition: Web part data version. Note that data version is different
-      from the version field in the manifest.
-       The manifest version is used to control the versioning of the web part code, while data version is used to
-       control the versioning of the serialized data of the web part. Refer to dataVersion field of your web part
-       for more information.
-      Usage: versioning and evolving the serialized data of the web part
-
-      Required: yes
-
-      Type: Version
-
-      Supported values: MAJOR.MINOR
-
-      Example: "1.0"
+    summary: Web part data version.
     syntax:
       content: Version dataVersion
       return:
@@ -52,19 +38,8 @@ items:
       - typeScript
     type: property
     summary: >-
-      Definition: Web part specific properties. The individual web part owns the
-      definition of these properties.
-
-      Usage: used by the web part to manage its internal metadata and config
-      data. The framework code never
-                touches these properties.
-      Required: yes
-
-      Type: any
-
-      Supported values: any JSON stringifiable object hierarchy.
-
-      Example: { 'value': 'text value' }
+      Web part specific properties. The individual web part owns the definition
+      of these properties.
     syntax:
       content: any properties
       return:
@@ -78,10 +53,8 @@ items:
       - typeScript
     type: property
     summary: >-
-      Definition: The collections of data that can be processed by server side
-      services like search index and link fixup
-
-      Required: no
+      The collections of data that can be processed by server side services like
+      search index and link fixup.
     syntax:
       content: ISerializedServerProcessedData serverProcessedContent
       return:

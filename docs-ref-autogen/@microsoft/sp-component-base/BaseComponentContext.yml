@@ -22,7 +22,7 @@ items:
     langs:
       - typeScript
     summary: >-
-      The constructor for this class is marked as internal; third party code
+      The constructor for this class is marked as internal; third-party code
       should not inherit
 
       directly from this base class.
@@ -40,7 +40,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: Instance id for the client side component.
+    summary: '{@inheritdoc BaseComponent.instanceId}'
     syntax:
       content: string instanceId
       return:
@@ -86,7 +86,9 @@ items:
     langs:
       - typeScript
     type: property
-    summary: Service scope instance that is scoped to this particular web part.
+    summary: >-
+      The associated <xref:%40microsoft%2Fsp-core-library%3AServiceScope> for
+      this component.
     syntax:
       content: ServiceScope serviceScope
       return:

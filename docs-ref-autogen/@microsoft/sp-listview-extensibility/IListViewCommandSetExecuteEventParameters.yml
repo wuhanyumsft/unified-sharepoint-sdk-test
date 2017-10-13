@@ -12,7 +12,7 @@ items:
     langs:
       - typeScript
     type: interface
-    summary: ''
+    summary: 'Parameters for <xref:BaseListViewCommandSet.onExecute>'
     package: '@microsoft/sp-listview-extensibility'
   - uid: >-
       @microsoft/sp-listview-extensibility.IListViewCommandSetExecuteEventParameters.itemId

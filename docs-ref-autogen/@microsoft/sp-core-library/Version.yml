@@ -20,16 +20,7 @@ items:
     langs:
       - typeScript
     type: class
-    summary: >
-      This class represents versions that follow the string format of
-      MAJOR.MINOR[.PATCH[.REVISION]]
-
-      where MAJOR, MINOR, PATCH and REVISION are integers. PATCH and REVISION
-      are optional.
-
-      Leading zeros are allowed, but have no meaning in comparisons.
-
-      Examples: 1.0, 1.0.0, 1.0.0.0, 1.01, 01.02.03, 001.002.003.004
+    summary: 'Represents a version number with two, three, or four parts.'
     package: '@microsoft/sp-core-library'
   - uid: '@microsoft/sp-core-library.Version.compare'
     name: compare
@@ -37,7 +28,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: Compares two Version classes
+    summary: Compares two Version objects to determine which version is newer.
     syntax:
       content: 'static function compare(v1: Version, v2: Version)'
       parameters:
@@ -58,15 +49,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: >
-      Checks if this version is equal to the input parameter. Missing patch
-      number is treated as zero.
-
-      Examples:
-         1.0.0 equals 1.0.0 -> true
-         2.0.1 equals 2.0.0 -> false
-         3.0   equals 3.0.0 -> true
-         04.01 equals 4.1   -> true
+    summary: Tests whether this version is equal to the input parameter.
     syntax:
       content: 'function equals(compareWith: Version)'
       parameters:
@@ -84,13 +67,8 @@ items:
     langs:
       - typeScript
     summary: >-
-      Checks if this version is greater (i.e. newer) than the input parameter.
-      Missing patch number is treated as zero
-
-      Examples:
-         1.0.0 greaterThan 0.0.9 -> true
-         2.0   greaterThan 2.0.0 -> false
-         3.0.1 greaterThan 3.0   -> true
+      Tests whether this version is greater than (i.e. newer than) the input
+      parameter.
     syntax:
       content: 'function greaterThan(compareWith: Version)'
       parameters:
@@ -107,7 +85,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: Indicates whether a version string is valid
+    summary: Test whether a string is a valid version specifier.
     syntax:
       content: 'static function isValid(versionString: string)'
       parameters:
@@ -125,14 +103,8 @@ items:
     langs:
       - typeScript
     summary: >-
-      Checks if this version is less (i.e. older) than the input parameter.
-      Missing patch number is treated as zero
-
-      Examples:
-         0.9.9 lessThan 1.0.0 -> true
-         2.0   lessThan 2.0.0 -> false
-         3.0   lessThan 3.0.1 -> true
-         04.01 lessThan 4.1   -> false
+      Tests whether this version is less than (i.e. older than) the input
+      parameter.
     syntax:
       content: 'function lessThan(compareWith: Version)'
       parameters:
@@ -150,7 +122,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: The first number in the version string indicating the major version
+    summary: Returns the first component of the version string.
     syntax:
       content: number major
       return:
@@ -163,7 +135,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: The second number in the version string indicating the minor version
+    summary: Returns the second component of the version string.
     syntax:
       content: number minor
       return:
@@ -176,10 +148,10 @@ items:
     langs:
       - typeScript
     summary: >-
-      Constructs a new Version instance using the version string. tryParse
-      validates the input version string
+      Constructs a new Version instance using the version string.  An exception
+      is thrown
 
-      and throws error if it is invalid
+      if the string cannot be parsed.
     syntax:
       content: 'static function parse(versionString: string)'
       parameters:
@@ -197,13 +169,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: >-
-      The thrid number in the version string indicating the patch number in a
-      semantic version or the build number in
-
-      a .NET System.Version class
-
-      Set to undefined if the third number does not exist
+    summary: 'The third number in the version string, or undefined if unspecified.'
     syntax:
       content: number patch
       return:
@@ -216,9 +182,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |-
-      The fourth number in the version string indicating the revision number
-      Set to undefined if the fourth number does not exist
+    summary: 'The fourth number in the version string, or undefined if unspecified.'
     syntax:
       content: number revision
       return:
@@ -230,20 +194,11 @@ items:
     type: method
     langs:
       - typeScript
-    summary: >
-      Checks if this version satisfies the input parameter, therefore it's
-      backwards compatible.
+    summary: >-
+      Tests whether this version satisfies the compatibility requirements of the
+      input version,
 
-      They have to share the same major version, and the input parameter must be
-      an
-
-      equal or more recent version.
-
-      Examples:
-         1.0.0 satisfies 1.0.0 -> true
-         1.1.0 satisfies 1.0.0 -> true
-         2.0.0 satisfies 1.0.0 -> false
-         1.0.0 satisfies 1.1.0 -> false
+      i.e. is backwards compatible.
     syntax:
       content: 'function satisfies(compareWith: Version)'
       parameters:
@@ -260,9 +215,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: |
-      Object.prototype.toString override
-      The version string in MAJOR.MINOR[.PATCH[.REVISION]]
+    summary: Returns a string representation of the version.
     syntax:
       content: function toString()
       parameters: []
@@ -275,9 +228,9 @@ items:
     type: method
     langs:
       - typeScript
-    summary: >-
-      Tries to construct a new Version instance using the version string.
-      Returns undefined if not successful.
+    summary: |-
+      Attempts to parse the input string to construct a new Version object.
+      If the string cannot be parsed, then undefined is returned.
     syntax:
       content: 'static function tryParse(versionString: string)'
       parameters:

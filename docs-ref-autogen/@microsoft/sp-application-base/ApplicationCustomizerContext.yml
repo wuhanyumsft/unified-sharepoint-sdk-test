@@ -11,7 +11,7 @@ items:
     langs:
       - typeScript
     type: class
-    summary: This object provides contextual information for BaseApplicationCustomizer.
+    summary: 'The component context for <xref:BaseApplicationCustomizer>.'
     extends:
       name: '@@microsoft/sp-application-base.ApplicationCustomizerContext'
     package: '@microsoft/sp-application-base'
@@ -22,9 +22,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: >-
-      The application accessor provides access to metadata and events from the
-      application.
+    summary: Provides access to the client-side application that is currently running.
     syntax:
       content: ApplicationAccessor application
       return:

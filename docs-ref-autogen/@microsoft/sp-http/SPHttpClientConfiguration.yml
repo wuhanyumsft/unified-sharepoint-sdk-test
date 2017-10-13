@@ -13,20 +13,7 @@ items:
     langs:
       - typeScript
     type: class
-    summary: >-
-      The SPHttpClientConfiguration object provides a set of switches for
-      enabling/disabling
-
-      various features of the SPHttpClient class.  Normally these switches are
-      set
-
-      (e.g. when calling SPHttpClient.fetch()) by providing one of the
-      predefined defaults
-
-      from SPHttpClientConfigurations, however switches can also be changed via
-      the
-
-      SPHttpClientConfiguration.overrideWith() method.
+    summary: 'Configuration for <xref:SPHttpClient>.'
     extends:
       name: '@@microsoft/sp-http.SPHttpClientCommonConfiguration'
     package: '@microsoft/sp-http'

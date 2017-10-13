@@ -32,11 +32,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: >
-      Display name for the group.
-
-      For performance reasons, it's highly recommended to keep this name unique
-      within the property pane page.
+    summary: Display name for the group.
     syntax:
       content: string groupName
       return:
@@ -49,9 +45,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |
-      Indicates whether the PropertyPane group is collapsed or not.
-      Defaullt: false
+    summary: Indicates whether the PropertyPane group is collapsed or not.
     syntax:
       content: boolean isCollapsed
       return:

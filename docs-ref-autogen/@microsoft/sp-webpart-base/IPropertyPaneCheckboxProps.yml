@@ -19,9 +19,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |
-      Whether the property pane checkbox is checked or not.
-      Default value is false.
+    summary: Whether the property pane checkbox is checked or not.
     syntax:
       content: boolean checked
       return:

@@ -89,8 +89,6 @@ items:
     summary: >-
       Returns the locale identifier (LCID) for the default language of the
       website.
-
-      Example: 1033 represents the locale identifier for en-US.
     syntax:
       content: number language
       return:
@@ -103,9 +101,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |-
-      Returns the absolute URL of the website logo.
-      Example: https://example.com/sites/PubSite/SubWeb/logo.jpg
+    summary: Returns the absolute URL of the website logo.
     syntax:
       content: string logoUrl
       return:
@@ -135,9 +131,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |-
-      Returns the server-relative URL for this SPWeb.
-      Example: "/sites/PubSite/SubWeb"
+    summary: Returns the server-relative URL for this SPWeb.
     syntax:
       content: string serverRelativeUrl
       return:
@@ -169,9 +163,6 @@ items:
       definition or
 
       site template that was used to create the site.
-
-      Example: "1" represents the team site template when creating a new site on
-      SharePoint.
     syntax:
       content: string templateName
       return:

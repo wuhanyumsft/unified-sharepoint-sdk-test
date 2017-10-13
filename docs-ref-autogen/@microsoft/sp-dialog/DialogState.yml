@@ -15,7 +15,7 @@ items:
     langs:
       - typeScript
     type: enum
-    summary: The states for our intetnal state machine that manages dialogs
+    summary: The states for our internal state machine that manages dialogs
     package: '@microsoft/sp-dialog'
   - uid: '@microsoft/sp-dialog.DialogState.Aborted'
     name: Aborted

@@ -71,9 +71,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |-
-      A short label to be displayed by the associated button, menu item, etc.
-      Example: "Show information"
+    summary: 'A short label to be displayed by the associated button, menu item, etc.'
     syntax:
       content: string title
       return:

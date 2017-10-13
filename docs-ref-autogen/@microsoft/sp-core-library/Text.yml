@@ -8,11 +8,7 @@ items:
     langs:
       - typeScript
     type: class
-    summary: >-
-      Common helper functions for working with strings. These utilities are
-      intended to be simple,
-
-      small, and very broadly applicable.
+    summary: Operations for working with strings that contain text.
     package: '@microsoft/sp-core-library'
   - uid: '@microsoft/sp-core-library.Text.format'
     name: format
@@ -20,11 +16,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: >-
-      String Format, like C# string format.
-
-      Usage Example: StringUtilities.format("hello {0}!", "mike") will return
-      "hello mike!"
+    summary: Format a string by substituting parameters.
     syntax:
       content: 'static function format(s: string, values: any[])'
       parameters:

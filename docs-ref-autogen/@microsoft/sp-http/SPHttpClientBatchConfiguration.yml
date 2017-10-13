@@ -9,20 +9,7 @@ items:
     langs:
       - typeScript
     type: class
-    summary: >-
-      The SPHttpClientBatchConfiguration object provides a set of switches for
-      enabling/disabling
-
-      various features of the SPHttpClientBatch class.  Normally these switches
-      are set
-
-      (e.g. when calling SPHttpClientBatch.fetch()) by providing one of the
-      predefined defaults
-
-      from SPHttpClientBatchConfigurations, however switches can also be changed
-      via the
-
-      SPHttpClientBatchConfiguration.overrideWith() method.
+    summary: Configuration for SPHttpClientBatch.
     extends:
       name: '@@microsoft/sp-http.SPHttpClientCommonConfiguration'
     package: '@microsoft/sp-http'

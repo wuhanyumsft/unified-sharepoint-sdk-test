@@ -33,9 +33,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |-
-      Returns the absolute URL for this SPSite.
-      Example: "https://example.com/sites/PubSite"
+    summary: Returns the absolute URL for this SPSite.
     syntax:
       content: string absoluteUrl
       return:
@@ -145,9 +143,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |-
-      Returns the server-relative URL for this SPSite.
-      Example: "/sites/PubSite"
+    summary: Returns the server-relative URL for this SPSite.
     syntax:
       content: string serverRelativeUrl
       return:
@@ -160,9 +156,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |-
-      Returns serverRelativeUrl of the original request.
-      Example: "/teams/SPClientTest/SitePages/Home.aspx"
+    summary: Returns serverRelativeUrl of the original request.
     syntax:
       content: string serverRequestPath
       return:

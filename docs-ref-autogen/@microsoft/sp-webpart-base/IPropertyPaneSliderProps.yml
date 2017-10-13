@@ -89,11 +89,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: >-
-      Whether to show the value on the right of the Slider.
-
-      If you want to show the value by yourself, you may want to set this value
-      to false.
+    summary: Whether to show the value on the right of the Slider.
     syntax:
       content: boolean showValue
       return:

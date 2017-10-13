@@ -14,14 +14,11 @@ items:
     langs:
       - typeScript
     type: class
-    summary: >
+    summary: >-
       This is the base class that third parties should extend when implementing
 
       a client-side extension that provides a command set for a SharePoint list
       view.
-
-      In the component manifest, the "extensionType" should be set to
-      "ListViewCommandSet".
     extends:
       name: >-
         @@microsoft/sp-listview-extensibility.BaseListViewCommandSet<TProperties>
@@ -73,11 +70,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: |-
-      This event occurs whenever the ListView state changes.
-      It allows the implementor to tailor the appearance of the command.
-      For example, to hide the command, assign its property visible = false.
-      To customize the title, modify the command property title.
+    summary: This event occurs whenever the ListView state changes.
     syntax:
       content: >-
         function onListViewUpdated(event:

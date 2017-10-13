@@ -88,14 +88,8 @@ items:
       - typeScript
     type: property
     summary: >-
-      This property is provided to facilitate migration of legacy code. It
-      returns a JavaScript
-       object whose contents are similar to the _spPageContextInfo window variable from classic pages.
-       The contents of this variable may change in future releases of SharePoint. New projects are
-       encouraged to use the framework APIs instead, since they are documented and provide reliable
-       backwards compatibility guarantees. @remarks If certain functionality is exposed in the
-      legacyPageContext but does not seem to have a proper TypeScript API,
-      please file an issue on GitHub.”
+      An object providing classic SharePoint properties that may be required by
+      certain legacy scripts.
     syntax:
       content: any legacyPageContext
       return:

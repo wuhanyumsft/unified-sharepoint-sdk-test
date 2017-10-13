@@ -9,7 +9,7 @@ items:
     langs:
       - typeScript
     type: class
-    summary: Provides metadata and events of the SPFx application that's running.
+    summary: Provides access to the client-side application that is currently running.
     package: '@microsoft/sp-application-base'
     isPreview: true
   - uid: '@microsoft/sp-application-base.ApplicationAccessor.constructor'
@@ -18,7 +18,7 @@ items:
     type: constructor
     langs:
       - typeScript
-    summary: ''
+    summary: 'Constructs a new instance of the <xref:ApplicationAccessor> class.'
     syntax:
       content: 'new ApplicationAccessor(serviceScope: ServiceScope)'
       parameters:
@@ -33,7 +33,11 @@ items:
     langs:
       - typeScript
     type: property
-    summary: Event that gets raised every time there is a page navigation
+    summary: >-
+      An event that is fired when the application's top-level page context
+      navigates
+
+      to a new page.
     syntax:
       content: Event<EventArgs> navigatedEvent
       return:

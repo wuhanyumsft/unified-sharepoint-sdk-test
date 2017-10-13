@@ -12,7 +12,7 @@ items:
       - typeScript
     type: class
     summary: |-
-      This is the default implementation of ITimeProvider that simply
+      This is the default implementation of <xref:ITimeProvider> that simply
       calls the real browser APIs.
     package: '@microsoft/sp-core-library'
   - uid: '@microsoft/sp-core-library.TimeProvider.getDate'
@@ -21,7 +21,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: ''
+    summary: '{@inheritdoc ITimeProvider.getDate}'
     syntax:
       content: function getDate()
       parameters: []
@@ -34,7 +34,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: ''
+    summary: '{@inheritdoc ITimeProvider.getTimestamp}'
     syntax:
       content: function getTimestamp()
       parameters: []

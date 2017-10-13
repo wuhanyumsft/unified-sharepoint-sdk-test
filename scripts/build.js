@@ -11,7 +11,9 @@ var src = 'src/sp-client';
 var packageMappingFileRelativePath = 'package_service_mapping.json';
 var repoRelativePath = 'repo.json';
 var dest = 'docs-ref-autogen';
-var packagesToFilter = ['@ms/announcement-list-demo'];
+var packagesToParse = ['@microsoft/sp-application-base', '@microsoft/sp-component-base', '@microsoft/sp-core-library',
+'@microsoft/sp-dialog' ,'@microsoft/sp-extension-base','@microsoft/sp-http' ,'@microsoft/sp-listview-extensibility',
+'@microsoft/sp-odata-types', '@microsoft/sp-page-context', '@microsoft/sp-webpart-base'];
 
 
 // 1. prepare
@@ -38,7 +40,7 @@ function generatePackageDoc(packagePath, dest) {
     }
 
     var packageName = fse.readJsonSync(packagePath).name;
-    if (packagesToFilter.indexOf(packageName) < 0) {
+    if (packagesToParse.indexOf(packageName) >= 0) {
         console.log(packageName);
         console.log(dir);
         // packageName = packageName.replace(/\//g, '-');

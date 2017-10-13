@@ -14,7 +14,7 @@ items:
     langs:
       - typeScript
     type: interface
-    summary: Object that represents the data neccesary to build an SPUser object.
+    summary: Object that represents the data necessary to build an SPUser object.
     package: '@microsoft/sp-page-context'
   - uid: '@microsoft/sp-page-context.ISPUserData.displayName'
     name: displayName

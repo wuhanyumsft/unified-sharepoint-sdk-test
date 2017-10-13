@@ -5,13 +5,12 @@ items:
     fullName: OAuth2TokenProvider
     children:
       - '@microsoft/sp-http.OAuth2TokenProvider.getOAuthToken'
-      - '@microsoft/sp-http.OAuth2TokenProvider.initialize'
       - '@microsoft/sp-http.OAuth2TokenProvider.constructor'
       - '@microsoft/sp-http.OAuth2TokenProvider.serviceKey'
     langs:
       - typeScript
     type: class
-    summary: |-
+    summary: |
       This class allows a developer to obtain OAuth2 tokens.
       OAuth2 tokens are used to authenticate the user from the SharePoint page
       to other services such as PowerBI, Sway, Exchange, Yammer, etc.
@@ -45,26 +44,6 @@ items:
       return:
         type:
           - Promise<@@microsoft/sp-http.IOAuth2Token>
-  - uid: '@microsoft/sp-http.OAuth2TokenProvider.initialize'
-    name: initialize
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: |-
-      The initialize function should be called before the application/components
-      have a chance to make a OAuth2TokenProvider request.
-    syntax:
-      content: 'function initialize(azureInstanceUrl: string, azureTenantId: string)'
-      parameters:
-        - id: azureInstanceUrl
-          type:
-            - string
-          description: ''
-        - id: azureTenantId
-          type:
-            - string
-          description: ''
   - uid: '@microsoft/sp-http.OAuth2TokenProvider.constructor'
     name: OAuth2TokenProvider
     children: []

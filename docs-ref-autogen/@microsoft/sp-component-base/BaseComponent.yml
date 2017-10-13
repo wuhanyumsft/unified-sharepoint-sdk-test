@@ -14,8 +14,8 @@ items:
       - typeScript
     type: class
     summary: >-
-      Base class for client-side components such as BaseClientSideWebPart,
-      BaseExtension, etc.
+      The base class for client-side components such as BaseClientSideWebPart or
+      BaseExtension.
     package: '@microsoft/sp-component-base'
     isPreview: true
   - uid: '@microsoft/sp-component-base.BaseComponent.constructor'
@@ -25,7 +25,7 @@ items:
     langs:
       - typeScript
     summary: >-
-      The constructor for this class is marked as internal; third party code
+      The constructor for this class is marked as internal; third-party code
       should not inherit
 
       directly from this base class.
@@ -53,17 +53,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: >
-      Disposes the component.
-
-      In order to write component-specific dispose mechanism, use onDispose
-      instead.
-
-      The onDispose event should only be raised once - if
-
-      this._disposed was false when the function was called.
-
-      (Put another way, dispose() should be a no-op if this._disposed is true.)
+    summary: Disposes the component.
     syntax:
       content: function dispose()
       parameters: []
@@ -74,11 +64,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: >-
-      Unique identifier for the instance of the component.
-
-      The same component can be instantiated several times, and each instance
-      will have a different id.
+    summary: A unique identifier for the instance of the component.
     syntax:
       content: string instanceId
       return:
@@ -104,7 +90,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: Returns the manifest for the component.
+    summary: Provides access to the manifest for the client-side component.
     syntax:
       content: IClientSideComponentManifest manifest
       return:

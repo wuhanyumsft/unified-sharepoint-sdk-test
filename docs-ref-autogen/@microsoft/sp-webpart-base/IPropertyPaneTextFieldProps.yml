@@ -34,7 +34,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: 'Aria Label for textfield, if any.'
+    summary: 'Aria Label for text field, if any.'
     syntax:
       content: string ariaLabel
       return:
@@ -51,8 +51,6 @@ items:
     summary: >-
       Text field will start to validate after users stop typing for
       `deferredValidationTime` milliseconds.
-
-      Default value is 200.
     syntax:
       content: number deferredValidationTime
       return:
@@ -65,7 +63,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: The textfield input description.
+    summary: The text field input description.
     syntax:
       content: string description
       return:
@@ -78,7 +76,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: Whether the property pane textfield is enabled or not.
+    summary: Whether the property pane text field is enabled or not.
     syntax:
       content: boolean disabled
       return:
@@ -91,17 +89,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: >
-      If set, this will be displayed as an error message.
-
-      When onGetErrorMessage returns empty string, if this property has a value
-      set then this will
-
-      be displayed as the error message.
-
-
-      So, make sure to set this only if you want to see an error message
-      dispalyed for the text field.
+    summary: 'If set, this will be displayed as an error message.'
     syntax:
       content: string errorMessage
       return:
@@ -114,7 +102,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: Label for the textfield.
+    summary: Label for the text field.
     syntax:
       content: string label
       return:
@@ -127,9 +115,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |-
-      Maximum number of characters that the PropertyPaneTextField can have.
-      (If the value is set to a negative number, an exception will be thrown.)
+    summary: Maximum number of characters that the PropertyPaneTextField can have.
     syntax:
       content: number maxLength
       return:
@@ -142,9 +128,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |-
-      Whether or not the textfield is a multiline textfield.
-      Default value is false.
+    summary: Whether or not the text field is a multiline text field.
     syntax:
       content: boolean multiline
       return:
@@ -157,17 +141,9 @@ items:
     langs:
       - typeScript
     type: property
-    summary: >+
+    summary: >-
       The method is used to get the validation error message and determine
       whether the input value is valid or not.
-        When it returns string:
-        - If valid, it returns empty string.
-        - If invalid, it returns the error message string and an error message is displayed below the text field.
-
-        When it returns Promise<string>:
-        - The resolved value is display as error message.
-        - The rejected, the value is thrown away.
-
     syntax:
       content: '(value: string) => string onGetErrorMessage'
       return:
@@ -180,7 +156,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: placeholder text to be displayed in the Textfield.
+    summary: placeholder text to be displayed in the text field.
     syntax:
       content: string placeholder
       return:
@@ -193,9 +169,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |-
-      Whether or not the multiline textfield is resizable.
-      Default value is true.
+    summary: Whether or not the multiline text field is resizable.
     syntax:
       content: boolean resizable
       return:
@@ -208,11 +182,9 @@ items:
     langs:
       - typeScript
     type: property
-    summary: >
+    summary: >-
       Specifies the visible height of a text area(multiline text TextField), in
       lines.
-
-      This prop is used only when the multiline prop is set to true.
     syntax:
       content: number rows
       return:
@@ -225,9 +197,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |-
-      Whether or not the textfield is underlined.
-      Default value is false.
+    summary: Whether or not the text field is underlined.
     syntax:
       content: boolean underlined
       return:
@@ -240,9 +210,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |
-      Run validation when the PropertyPaneTextField is focused.
-      default value is false
+    summary: Run validation when the PropertyPaneTextField is focused.
     syntax:
       content: boolean validateOnFocusIn
       return:
@@ -255,9 +223,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |
-      Run validation when the PropertyPaneTextField is out of focus or on blur.
-      default value is false
+    summary: Run validation when the PropertyPaneTextField is out of focus or on blur.
     syntax:
       content: boolean validateOnFocusOut
       return:
@@ -271,7 +237,7 @@ items:
       - typeScript
     type: property
     summary: >-
-      Value to be displayed in the textfield when the value of the
+      Value to be displayed in the text field when the value of the
       targetProperty
 
       in the manifest's property bag is empty or contains null value.

@@ -10,7 +10,7 @@ items:
     langs:
       - typeScript
     type: interface
-    summary: Object that represents the data neccesary to build an CultureInfo object.
+    summary: Object that represents the data necessary to build an CultureInfo object.
     package: '@microsoft/sp-page-context'
   - uid: '@microsoft/sp-page-context.ICultureInfoData.currentCultureName'
     name: currentCultureName

@@ -20,9 +20,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |-
-      Strongly typed properties object. Specific to each field type.
-      Example: Checkbox has ICheckboxProps, TextField has ITextField props.
+    summary: Strongly typed properties object. Specific to each field type.
     syntax:
       content: TProperties properties
       return:
@@ -35,9 +33,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |
-      Whether this control should be focused.
-      default value is false.
+    summary: Whether this control should be focused.
     syntax:
       content: boolean shouldFocus
       return:

@@ -69,11 +69,6 @@ items:
     summary: >-
       Constructs a new instance of SPHttpClientCommonConfiguration with the
       specified flags.
-
-      The default values will be used for any flags that are missing or
-      undefined.
-
-      If overrideFlags is specified, it takes precedence over flags.
     syntax:
       content: >-
         new SPHttpClientCommonConfiguration(flags:

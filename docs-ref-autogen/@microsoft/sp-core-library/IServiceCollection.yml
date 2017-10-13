@@ -12,6 +12,10 @@ items:
       A shorthand pattern for extracting well-known services from a
       ServiceScope.
     package: '@microsoft/sp-core-library'
+    deprecated:
+      content: |-
+        This pattern has been superceded by the BaseComponentContext pattern.
+        This interface will be removed in a future release.
   - uid: '@microsoft/sp-core-library.IServiceCollection.serviceScope'
     name: serviceScope
     fullName: serviceScope

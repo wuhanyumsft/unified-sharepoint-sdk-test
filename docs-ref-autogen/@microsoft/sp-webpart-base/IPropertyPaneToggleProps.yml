@@ -24,9 +24,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |-
-      Checked state of the toggle.
-      If you are maintaining state yourself, use this property.
+    summary: Checked state of the toggle.
     syntax:
       content: boolean checked
       return:

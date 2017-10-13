@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.IMockAdalJsAuthContextConfig'
+    name: IMockAdalJsAuthContextConfig
+    fullName: IMockAdalJsAuthContextConfig
+    children:
+      - '@microsoft/sp-http.IMockAdalJsAuthContextConfig.displayCall'
+      - '@microsoft/sp-http.IMockAdalJsAuthContextConfig.redirectUri'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.IMockAdalJsAuthContextConfig.displayCall'
+    name: displayCall
+    fullName: displayCall
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(urlNavigate: string) => void displayCall'
+      return:
+        type:
+          - '(urlNavigate: string) => void'
+  - uid: '@microsoft/sp-http.IMockAdalJsAuthContextConfig.redirectUri'
+    name: redirectUri
+    fullName: redirectUri
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string redirectUri
+      return:
+        type:
+          - string

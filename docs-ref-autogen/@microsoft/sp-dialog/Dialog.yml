@@ -9,9 +9,7 @@ items:
     langs:
       - typeScript
     type: class
-    summary: >-
-      Static Dialog class to provide API for showing static dialogs such as
-      alert and prompt
+    summary: A static class for showing stock dialogs such as an alert or prompt.
     package: '@microsoft/sp-dialog'
     isPreview: true
   - uid: '@microsoft/sp-dialog.Dialog.alert'

@@ -11,7 +11,7 @@ items:
     type: interface
     summary: |-
       PropertyPane header.
-        This header remains same for all the pages.
+      This header remains same for all the pages.
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IPropertyPanePageHeader.description'
     name: description

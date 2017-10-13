@@ -14,21 +14,9 @@ items:
     type: class
     summary: >-
       The ServiceKey is a lookup key that is used when calling
-      ServiceScope.consume()
+      <xref:ServiceScope.consume>
 
-      to fetch a dependency.  The key also defines a default implementation of
-      the
-
-      dependency, which will be autocreated by the root scope if the dependency
-      is not found.
-
-      Providing a default implementation ensures that new dependencies can be
-      safely
-
-      introduced without inadvertently breaking components that are loaded by an
-      older host
-
-      (that does not provide the new dependency).
+      to fetch a dependency.
     package: '@microsoft/sp-core-library'
   - uid: '@microsoft/sp-core-library.ServiceKey.create'
     name: create
@@ -40,10 +28,7 @@ items:
       Constructs a new ServiceKey whose default implementation will be a new
       instance of
 
-      a TypeScript class that accepts the standard constructor parameter.  If
-      you want to
-
-      specify custom constructor parameters, use createCustom() instead.
+      a TypeScript class that accepts the standard constructor parameter.
     syntax:
       content: 'static function create<TKey>(name: string, serviceClass: function)'
       parameters:
@@ -51,9 +36,8 @@ items:
           type:
             - string
           description: >-
-            A name such as "MyApplication.IMyService" which should be unique
-            within
-              your application.
+            A name such as "my-package.IMyService" which should be unique across
+            packages.
         - id: serviceClass
           type:
             - function
@@ -79,13 +63,12 @@ items:
           type:
             - string
           description: >-
-            A name such as "MyApplication.IMyService" which should be unique
-            within
-              your application.
+            A name such as "my-package.IMyService" which should be unique across
+            packages.
         - id: defaultCreator
           type:
             - ServiceCreator<TKey>
-          description: A callback that returns an object that implements the T interface
+          description: a callback that returns an object that implements the T interface
       return:
         type:
           - '@@microsoft/sp-core-library.ServiceKey<TKey>'
@@ -96,7 +79,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: ''
+    summary: A callback function that constructs the default instance of this service.
     syntax:
       content: ServiceCreator<T> defaultCreator
       return:
@@ -109,7 +92,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: ''
+    summary: A unique identifier for this service.
     syntax:
       content: string id
       return:
@@ -122,7 +105,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: ''
+    summary: The name of the service.
     syntax:
       content: string name
       return:

@@ -10,9 +10,7 @@ items:
     langs:
       - typeScript
     type: class
-    summary: |-
-      Representation of an event.
-      It exposes an event that third parties can attach handlers to.
+    summary: Represents a framework event that components can subscribe to.
     package: '@microsoft/sp-core-library'
     isPreview: true
   - uid: '@microsoft/sp-core-library.Event.add'
@@ -21,11 +19,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: >-
-      Registers an event handler callback that will be invoked whenever the
-      event occurs.
-
-      The same object can add multiple event handlers to the same event.
+    summary: Registers a callback that will be invoked whenever the event occurs.
     syntax:
       content: >-
         function add(observer: IEventObserver, eventHandler: (eventArgs:
@@ -37,16 +31,13 @@ items:
           description: >-
             Indicates the object that is subscribing to the event: When the
             object is disposed,
-
-            the event handler will be automatically removed.
-
-            This object is also used for diagnostic purposes, e.g. if its event
-            handler fails to trap an exception
+              the event handler will be automatically removed.  This object is also used for diagnostic purposes,
+              e.g. detecting if the event handler failed to catch an exception.
         - id: eventHandler
           type:
             - '(eventArgs: TEventArgs) => void'
           description: |
-            A callback function that will be invoked whenever the event occurs.
+            A callback function that will be invoked whenever the event occurs
   - uid: '@microsoft/sp-core-library.Event.constructor'
     name: Event
     children: []
@@ -67,13 +58,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: >
-      Removes an event handler to the event.
-
-      Only removes the event handler passed as input.
-
-      If the event handler has already been removed, or it was never added, this
-      operation does nothing.
+    summary: Unregisters a callback that was registered using add().
     syntax:
       content: >-
         function remove(observer: IEventObserver, eventHandler: (eventArgs:
@@ -82,10 +67,12 @@ items:
         - id: observer
           type:
             - '@@microsoft/sp-core-library.IEventObserver'
-          description: Object that it's removing the event handler from the event
+          description: >-
+            This must be the same observer that was passed to the add()
+            function.
         - id: eventHandler
           type:
             - '(eventArgs: TEventArgs) => void'
-          description: >
-            Event handler to remove. It must be the same object instance that
-            was used in add.
+          description: |
+            The event handler to remove; this must be the same object instance
+              that was passed to the add() function.
