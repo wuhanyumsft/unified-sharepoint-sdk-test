@@ -13,6 +13,18 @@ items:
     type: class
     summary: A basic redirectable logging system.
     package: '@microsoft/sp-core-library'
+    remarks: >-
+      The Log class provides static methods for logging messages at different
+      levels (verbose,
+
+      info, warning, error) and with context information. Context information
+      helps identify
+
+      which component generated the messages and allows for filtering of log
+      events.  In a
+
+      SharePoint Framework application, these messages will appear on the
+      developer dashboard.
   - uid: '@microsoft/sp-core-library.Log.error'
     name: error
     children: []

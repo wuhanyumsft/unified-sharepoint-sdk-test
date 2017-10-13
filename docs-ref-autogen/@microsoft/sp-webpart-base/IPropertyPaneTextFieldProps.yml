@@ -56,6 +56,7 @@ items:
       return:
         type:
           - number
+    remarks: The default value is 200.
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneTextFieldProps.description'
     name: description
     fullName: description
@@ -95,6 +96,15 @@ items:
       return:
         type:
           - string
+    remarks: >-
+      When onGetErrorMessage returns empty string, if this property has a value
+      set then this will
+
+      be displayed as the error message.
+
+
+      So, make sure to set this only if you want to see an error message
+      displayed for the text field.
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneTextFieldProps.label'
     name: label
     fullName: label
@@ -121,6 +131,7 @@ items:
       return:
         type:
           - number
+    remarks: 'If the value is set to a negative number, an exception will be thrown.'
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneTextFieldProps.multiline'
     name: multiline
     fullName: multiline
@@ -134,6 +145,7 @@ items:
       return:
         type:
           - boolean
+    remarks: The default value is false.
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneTextFieldProps.onGetErrorMessage'
     name: onGetErrorMessage
     fullName: onGetErrorMessage
@@ -149,6 +161,18 @@ items:
       return:
         type:
           - '(value: string) => string'
+    remarks: |-
+      When it returns string:
+
+        - If valid, it returns empty string.
+
+        - If invalid, it returns the error message string and an error message is displayed below the text field.
+
+      When it returns Promise<string>:
+
+        - The resolved value is display as error message.
+
+        - The rejected, the value is thrown away.
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneTextFieldProps.placeholder'
     name: placeholder
     fullName: placeholder
@@ -175,6 +199,7 @@ items:
       return:
         type:
           - boolean
+    remarks: The default value is true.
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneTextFieldProps.rows'
     name: rows
     fullName: rows
@@ -190,6 +215,7 @@ items:
       return:
         type:
           - number
+    remarks: This prop is used only when the multiline prop is set to true.
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneTextFieldProps.underlined'
     name: underlined
     fullName: underlined
@@ -203,6 +229,7 @@ items:
       return:
         type:
           - boolean
+    remarks: The default value is false.
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneTextFieldProps.validateOnFocusIn'
     name: validateOnFocusIn
     fullName: validateOnFocusIn
@@ -216,6 +243,7 @@ items:
       return:
         type:
           - boolean
+    remarks: The default value is false.
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneTextFieldProps.validateOnFocusOut'
     name: validateOnFocusOut
     fullName: validateOnFocusOut
@@ -229,6 +257,7 @@ items:
       return:
         type:
           - boolean
+    remarks: The default value is false.
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneTextFieldProps.value'
     name: value
     fullName: value

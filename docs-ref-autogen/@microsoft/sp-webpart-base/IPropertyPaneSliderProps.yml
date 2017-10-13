@@ -95,6 +95,9 @@ items:
       return:
         type:
           - boolean
+    remarks: >-
+      If you want to show the value by yourself, you may want to set this value
+      to false.
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneSliderProps.step'
     name: step
     fullName: step

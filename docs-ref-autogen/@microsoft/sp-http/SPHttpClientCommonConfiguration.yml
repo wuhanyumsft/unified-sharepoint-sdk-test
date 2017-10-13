@@ -84,3 +84,8 @@ items:
             - '@@microsoft/sp-http.ISPHttpClientCommonConfiguration'
           description: ''
           optional: true
+    remarks: >-
+      The default values will be used for any flags that are missing or
+      undefined.
+
+      If overrideFlags is specified, it takes precedence over flags.

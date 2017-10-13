@@ -14,6 +14,11 @@ items:
       name: '@@microsoft/sp-http.HttpClientResponse'
     package: '@microsoft/sp-http'
     isPreview: true
+    remarks: >-
+      This is a placeholder.  In the future, additional GraphHttpClient-specific
+      functionality
+
+      may be added to this class.
   - uid: '@microsoft/sp-http.GraphHttpClientResponse.clone'
     name: clone
     children: []

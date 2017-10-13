@@ -66,6 +66,17 @@ items:
       return:
         type:
           - string
+    remarks: |-
+      Following values can be used:
+
+      _self - (default) Load the response in the current page.
+
+      _blank - Load the response into a new unnamed tab.
+
+      _parent - Load the response in the parent of the current page.
+                If no parent exists, then this option behaves same as "_self"
+
+      _top - Load the response into the original window.
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneLinkProps.text'
     name: text
     fullName: text

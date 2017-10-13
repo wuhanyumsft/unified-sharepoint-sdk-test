@@ -95,6 +95,30 @@ items:
       return:
         type:
           - any
+    remarks: >-
+      This property is provided to facilitate migration of legacy code. It
+      returns a JavaScript
+
+      object whose contents are similar to the _spPageContextInfo window
+      variable from classic pages.
+
+      The contents of this variable may change in future releases of
+      SharePoint.  For this reason,
+
+      new projects are encouraged to use the SharePoint Framework TypeScript
+      APIs instead, since they
+
+      are fully documented and provide reliable backwards compatibility
+      guarantees.
+
+
+      NOTE: If certain functionality is exposed in the legacyPageContext but
+      does not seem to have
+
+      a proper TypeScript API, please file an issue on GitHub.  The intention is
+      that no modern application
+
+      should need to rely on the legacyPageContext object.
   - uid: '@microsoft/sp-page-context.PageContext.list'
     name: list
     fullName: list

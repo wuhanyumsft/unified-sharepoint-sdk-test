@@ -94,6 +94,7 @@ items:
       return:
         type:
           - number
+    remarks: 'Example: 1033 represents the locale identifier for en-US.'
   - uid: '@microsoft/sp-page-context.SPWeb.logoUrl'
     name: logoUrl
     fullName: logoUrl
@@ -107,6 +108,7 @@ items:
       return:
         type:
           - string
+    remarks: 'Example: https://example.com/sites/PubSite/SubWeb/logo.jpg'
   - uid: '@microsoft/sp-page-context.SPWeb.permissions'
     name: permissions
     fullName: permissions
@@ -137,6 +139,7 @@ items:
       return:
         type:
           - string
+    remarks: 'Example: "/sites/PubSite/SubWeb"'
   - uid: '@microsoft/sp-page-context.SPWeb.constructor'
     name: SPWeb
     children: []
@@ -168,6 +171,9 @@ items:
       return:
         type:
           - string
+    remarks: >-
+      Example: "1" represents the team site template when creating a new site on
+      SharePoint.
   - uid: '@microsoft/sp-page-context.SPWeb.timeZoneInfo'
     name: timeZoneInfo
     fullName: timeZoneInfo

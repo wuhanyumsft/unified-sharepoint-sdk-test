@@ -31,6 +31,19 @@ items:
       return:
         type:
           - '[key: string]: string'
+    remarks: >-
+      SharePoint servers treat the values as HTML content and run services like
+      safety checks, search index
+
+      and link fixup on them.
+
+
+      Example:
+
+      {
+        'myRichDescription': '<div>Some standard <b>HTML content</b><a href='http://somelink'>A Link</a></div>'
+        'anotherRichText': <div class='aClass'><span style='color:red'>Some red text</div>
+      }
   - uid: '@microsoft/sp-webpart-base.ISerializedServerProcessedData.imageSources'
     name: imageSources
     fullName: imageSources
@@ -46,6 +59,17 @@ items:
       return:
         type:
           - '[key: string]: string'
+    remarks: >-
+      SharePoint servers treat the values as image sources and run services like
+      search index and link fixup on them.
+
+
+      Example:
+
+      {
+        'myImage1': 'http://res.contoso.com/path/to/file'
+        'myImage2': 'https://res.contoso.com/someName.jpg'
+      }
   - uid: '@microsoft/sp-webpart-base.ISerializedServerProcessedData.links'
     name: links
     fullName: links
@@ -59,6 +83,17 @@ items:
       return:
         type:
           - '[key: string]: string'
+    remarks: >-
+      SharePoint servers treat the values as links and run services like link
+      fixup on them.
+
+
+      Example:
+
+      {
+        'myWebURL': 'http://contoso.com'
+        'myFileLink': 'https://res.contoso.com/file.docx'
+      }
   - uid: >-
       @microsoft/sp-webpart-base.ISerializedServerProcessedData.searchablePlainTexts
     name: searchablePlainTexts
@@ -75,3 +110,17 @@ items:
       return:
         type:
           - '[key: string]: string'
+    remarks: >-
+      The values are HTML-encoded before being sent to the server. The encoded
+      values are visible to the search
+
+      indexer, but are not treated as valid HTML. So, other services such as
+      link fixup will not run on them.
+
+
+      Example:
+
+      {
+       'justSomeText': 'This is some plain text',
+       'anotherText': 'Can have <any> characters here: "<>&\''
+      }

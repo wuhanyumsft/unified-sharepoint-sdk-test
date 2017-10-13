@@ -14,6 +14,16 @@ items:
       Provides access to a ListView column, which is the visual presentation
       of a field.
     package: '@microsoft/sp-listview-extensibility'
+    remarks: >-
+      A SharePoint "field" (SPField) defines the data storage for a property of
+      a list item.
+
+      (If the list item represents a document, then the field is sometimes
+      called a "property".)
+
+
+      A "column" is the visual presentation of a field, when displayed by the
+      ListView.
   - uid: '@microsoft/sp-listview-extensibility.ColumnAccessor.constructor'
     name: ColumnAccessor
     children: []

@@ -10,6 +10,11 @@ items:
     type: class
     summary: Operations for working with strings that contain text.
     package: '@microsoft/sp-core-library'
+    remarks: >-
+      The utilities provided by this class are intended to be simple, small, and
+      very
+
+      broadly applicable.
   - uid: '@microsoft/sp-core-library.Text.format'
     name: format
     children: []

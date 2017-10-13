@@ -23,6 +23,12 @@ items:
 
       helps the service to monitor the performance of an application.
     package: '@microsoft/sp-http'
+    remarks: >-
+      For communicating with Microsoft Graph, use the <xref:GraphHttpClient>
+      class instead.
+
+      For communicating with other internet services, use the <xref:HttpClient>
+      class.
   - uid: '@microsoft/sp-http.SPHttpClient.beginBatch'
     name: beginBatch
     children: []

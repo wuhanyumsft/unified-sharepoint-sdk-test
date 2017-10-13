@@ -93,6 +93,20 @@ items:
       return:
         type:
           - number
+    remarks: |-
+      Values:
+
+      None: 0
+
+      User: 1
+
+      DistributionList: 2
+
+      SecurityGroup: 4
+
+      SharePointGroup: 8
+
+      All: 15
   - uid: '@microsoft/sp-odata-types.IODataUser.Title'
     name: Title
     fullName: Title

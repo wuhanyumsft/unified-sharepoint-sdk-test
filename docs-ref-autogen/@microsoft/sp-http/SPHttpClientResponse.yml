@@ -13,6 +13,11 @@ items:
     extends:
       name: '@@microsoft/sp-http.HttpClientResponse'
     package: '@microsoft/sp-http'
+    remarks: >-
+      This is a placeholder.  In the future, additional SPHttpClient-specific
+      functionality
+
+      may be added to this class.
   - uid: '@microsoft/sp-http.SPHttpClientResponse.clone'
     name: clone
     children: []

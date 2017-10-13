@@ -27,6 +27,31 @@ items:
       return:
         type:
           - boolean
+    remarks: >-
+      This flag instructs framework to store the value as HTML, so that
+      SharePoint can perform the following
+
+      services on it:
+
+      - normalizing HTML encodings
+
+      - stripping unsafe HTML tags (i.e. for usage with Element.innerHTML)
+
+      - search indexing
+
+      - SharePoint link fix-up
+
+
+      Only enable this flag for HTML content where these modifications are
+      acceptable. If non-HTML content is
+
+      provided, SharePoint framework might make modifications to convert it to
+      HTML valid. For plain text content
+
+      that simply needs to be exposed to the search index (without any
+      rewriting), use the isSearchablePlainText
+
+      flag instead.
   - uid: '@microsoft/sp-webpart-base.IWebPartPropertyMetadata.isImageSource'
     name: isImageSource
     fullName: isImageSource
@@ -76,3 +101,17 @@ items:
       return:
         type:
           - boolean
+    remarks: >-
+      This flag instructs the framework to store the property in a
+      representation that supports search indexing.
+
+      The content will be treated as plain text; SharePoint will not modify the
+      string in any way, and
+
+      special HTML characters may be stored encoded and appear in search
+      results. If your string contains
+
+      HTML markup, use the isHtmlString setting instead.
+
+      Security note: For security reasons, never assign a plain text string to
+      Element.innerHTML.

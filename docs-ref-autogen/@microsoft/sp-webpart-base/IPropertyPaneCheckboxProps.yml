@@ -25,6 +25,7 @@ items:
       return:
         type:
           - boolean
+    remarks: The default value is false.
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneCheckboxProps.disabled'
     name: disabled
     fullName: disabled

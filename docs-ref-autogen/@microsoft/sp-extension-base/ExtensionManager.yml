@@ -17,6 +17,15 @@ items:
 
       and access its managed extensions.
     package: '@microsoft/sp-extension-base'
+    remarks: >-
+      Any application that needs to use extensions, should use ExtensionManager
+      to create those extensions
+
+      by passing in their componentID and properties. ExtensionManager takes
+      care of loading modules and
+
+      creating the instances for the extensions and provides APIs to manage the
+      created extensions.
   - uid: '@microsoft/sp-extension-base.ExtensionManager.createExtension'
     name: createExtension
     children: []
@@ -87,6 +96,11 @@ items:
           description: |
             for validation purposes, a base class that the resulting object
               is expected to extend
+    remarks: >-
+      If you construct an instance of this class, you must dispose it by calling
+      ExtensionManager.dispose();
+
+      otherwise resource leaks may occur.
   - uid: '@microsoft/sp-extension-base.ExtensionManager.waitForInitialization'
     name: waitForInitialization
     children: []

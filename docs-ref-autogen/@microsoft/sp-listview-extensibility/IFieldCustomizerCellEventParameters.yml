@@ -75,3 +75,14 @@ items:
       return:
         type:
           - any
+    remarks: >-
+      For example, suppose that resources need to be allocated during rendering
+
+      (e.g. a renderer object, an HTTP request to be canceled, a cache slot,
+      etc).
+
+      The onRenderCell() implementation could store a key or handle in this
+      property,
+
+      and then onDisposeCell() can use this key to find the resource to be
+      freed.

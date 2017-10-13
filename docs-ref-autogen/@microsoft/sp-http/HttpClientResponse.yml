@@ -24,6 +24,11 @@ items:
     type: class
     summary: The Response subclass returned by methods such as HttpClient.fetch().
     package: '@microsoft/sp-http'
+    remarks: >-
+      This is a placeholder.  In the future, additional HttpClient-specific
+      functionality
+
+      may be added to this class.
   - uid: '@microsoft/sp-http.HttpClientResponse.arrayBuffer'
     name: arrayBuffer
     children: []

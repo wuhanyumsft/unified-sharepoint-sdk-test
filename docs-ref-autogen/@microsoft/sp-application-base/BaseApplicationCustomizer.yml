@@ -17,3 +17,11 @@ items:
     extends:
       name: '@@microsoft/sp-application-base.BaseApplicationCustomizer<TProperties>'
     package: '@microsoft/sp-application-base'
+    remarks: >-
+      Example usage scenarios for an application customizer might include:
+      rendering custom
+
+      UI elements inside a SharePoint content placeholder, tracking page load
+      statistics,
+
+      or automatically logging the user out after a certain time period.

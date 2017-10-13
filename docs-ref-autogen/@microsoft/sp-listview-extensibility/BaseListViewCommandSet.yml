@@ -23,6 +23,9 @@ items:
       name: >-
         @@microsoft/sp-listview-extensibility.BaseListViewCommandSet<TProperties>
     package: '@microsoft/sp-listview-extensibility'
+    remarks: >-
+      In the component manifest, the "extensionType" should be set to
+      "ListViewCommandSet".
   - uid: '@microsoft/sp-listview-extensibility.BaseListViewCommandSet.constructor'
     name: BaseListViewCommandSet
     children: []

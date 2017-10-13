@@ -29,3 +29,13 @@ items:
       return:
         type:
           - '(placeholderContent: PlaceholderContent) => void'
+    remarks: >-
+      To avoid a resource leak, use this callback to free any resources that
+      were allocated
+
+      when the placeholder content was rendered.  For example, if
+      ReactDOM.render() was
+
+      used to mount a React component, then the onDispose handler might call
+
+      ReactDOM.unmountComponentAtNode() to unmount it.

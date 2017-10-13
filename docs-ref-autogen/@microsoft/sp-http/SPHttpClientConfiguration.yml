@@ -17,6 +17,20 @@ items:
     extends:
       name: '@@microsoft/sp-http.SPHttpClientCommonConfiguration'
     package: '@microsoft/sp-http'
+    remarks: >-
+      The SPHttpClientConfiguration object provides a set of switches for
+      enabling/disabling
+
+      various features of the SPHttpClient class.  Normally these switches are
+      set
+
+      (e.g. when calling SPHttpClient.fetch()) by providing one of the
+      predefined defaults
+
+      from SPHttpClientConfigurations, however switches can also be changed via
+      the
+
+      SPHttpClientConfiguration.overrideWith() method.
   - uid: '@microsoft/sp-http.SPHttpClientConfiguration.defaultODataVersion'
     name: defaultODataVersion
     fullName: defaultODataVersion

@@ -22,6 +22,14 @@ items:
       - typeScript
     summary: Optional actions.
     type: field
+    remarks: >-
+      Typically used in a command bar at the top of a view, panel and inside an
+      inline command bar.
+
+      Examples: Command bar at the top of OneDrive, Outlook, SharePoint. Inline
+      command bar on the
+
+      top of SharePoint web parts.
   - uid: '@microsoft/sp-webpart-base.PropertyPaneButtonType.Compound'
     name: Compound
     children: []
@@ -29,6 +37,13 @@ items:
       - typeScript
     summary: Always used as a set with both Standard and Primary compound buttons.
     type: field
+    remarks: >-
+      Typically used in a confirmation dialog.
+
+      Examples: A confirmation dialog when a user discards a form or task with a
+      possible
+
+      significant time investment such as an email or a complex form
   - uid: '@microsoft/sp-webpart-base.PropertyPaneButtonType.Hero'
     name: Hero
     children: []
@@ -47,6 +62,23 @@ items:
 
       actions within the command bar.
     type: field
+    remarks: >-
+      Typically used in Command bar in small and medium responsive web
+      breakpoints. Also used on objects.
+
+      Examples: OneDrive small and medium responsive web breakpoint Command Bars
+      and view icons within the
+
+      Command Bar. In SharePoint and OneDrive, Cards with social actions and
+      images which allow users to
+
+      access the image picker. In SharePoint, formatting experiences such as
+      formatting a story within the
+
+      Authoring experience. In Calendar, in the bottom of an event creation
+      Callout when clicking inside
+
+      an empty time range.
   - uid: '@microsoft/sp-webpart-base.PropertyPaneButtonType.Normal'
     name: Normal
     children: []
@@ -54,6 +86,16 @@ items:
       - typeScript
     summary: Optional completion action.
     type: field
+    remarks: >-
+      Typically used at the end of a form or task when paired with the Primary
+      button OR
+
+      as a standalone button to undo an action.
+
+      Examples: "Done" button which closes a container but doesn't make a server
+      call or
+
+      an "Undo" button when a user is uploading a file in OneDrive.
   - uid: '@microsoft/sp-webpart-base.PropertyPaneButtonType.Primary'
     name: Primary
     children: []
@@ -61,3 +103,6 @@ items:
       - typeScript
     summary: Preferred completion action when paired with a Standard button.
     type: field
+    remarks: |-
+      Typically used at the end of a task or form.
+      Examples: "Create", "Save", "Send" which makes a server call.

@@ -17,6 +17,24 @@ items:
 
       access to the associated SharePoint list item.
     package: '@microsoft/sp-listview-extensibility'
+    remarks: >-
+      ListItemAccessor allows a field customizer extension to determine which
+      fields are available
+
+      in the editor and retrieve the current values for those fields.  In the
+      future, it may
+
+      also support validation and editing operations.
+
+
+      When the editor is the SharePoint list view, the ListViewAccessor uses the
+      RowAccessor
+
+      subclass instead of the ListItemAccessor base class.  This allows
+      additional functionality
+
+      to be exposed, for example determining whether the associated table row is
+      selected or not.
   - uid: '@microsoft/sp-listview-extensibility.ListItemAccessor.fields'
     name: fields
     fullName: fields
@@ -32,6 +50,17 @@ items:
       return:
         type:
           - ReadonlyArray<SPField>
+    remarks: >-
+      The set of available fields depends on the editing context.  For example,
+      if a list view
+
+      column is hidden, the corresponding field definition may not be loaded. 
+      Field customizers
+
+      should not assume that a given field will be available, even if it is
+      defined in the
+
+      content type.
   - uid: '@microsoft/sp-listview-extensibility.ListItemAccessor.getValue'
     name: getValue
     children: []

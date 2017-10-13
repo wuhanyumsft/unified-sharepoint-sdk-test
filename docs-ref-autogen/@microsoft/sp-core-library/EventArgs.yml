@@ -10,3 +10,8 @@ items:
     summary: 'The base class for event arguments used with the <xref:Event> class.'
     package: '@microsoft/sp-core-library'
     isPreview: true
+    remarks: >-
+      If certain event types need to provide additional details, they will
+      define a
+
+      subclass of EventArgs.

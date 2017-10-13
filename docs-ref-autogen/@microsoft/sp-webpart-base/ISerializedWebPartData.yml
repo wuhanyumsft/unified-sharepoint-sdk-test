@@ -30,6 +30,28 @@ items:
       return:
         type:
           - Version
+    remarks: >-
+      Note that data version is different from the version field in the
+      manifest.
+
+      The manifest version is used to control the versioning of the web part
+      code, while data version is used to
+
+      control the versioning of the serialized data of the web part. Refer to
+      dataVersion field of your web part
+
+      for more information.
+
+
+      Usage: versioning and evolving the serialized data of the web part
+
+      Required: yes
+
+      Type: Version
+
+      Supported values: MAJOR.MINOR
+
+      Example: "1.0"
   - uid: '@microsoft/sp-webpart-base.ISerializedWebPartData.properties'
     name: properties
     fullName: properties
@@ -45,6 +67,17 @@ items:
       return:
         type:
           - any
+    remarks: >-
+      Usage: used by the web part to manage its internal metadata and config
+      data. The framework code never
+             touches these properties.
+      Required: yes
+
+      Type: any
+
+      Supported values: any JSON stringifiable object hierarchy.
+
+      Example: { 'value': 'text value' }
   - uid: '@microsoft/sp-webpart-base.ISerializedWebPartData.serverProcessedContent'
     name: serverProcessedContent
     fullName: serverProcessedContent

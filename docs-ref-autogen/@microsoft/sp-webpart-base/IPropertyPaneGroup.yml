@@ -38,6 +38,9 @@ items:
       return:
         type:
           - string
+    remarks: >-
+      For performance reasons, it's highly recommended to keep this name unique
+      within the property pane page.
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneGroup.isCollapsed'
     name: isCollapsed
     fullName: isCollapsed
@@ -51,3 +54,4 @@ items:
       return:
         type:
           - boolean
+    remarks: The default value is false.

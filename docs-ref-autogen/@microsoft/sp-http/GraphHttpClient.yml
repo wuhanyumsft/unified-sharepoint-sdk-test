@@ -23,6 +23,12 @@ items:
       https://developer.microsoft.com/en-us/graph/
     package: '@microsoft/sp-http'
     isPreview: true
+    remarks: >-
+      For communicating with SharePoint, use the <xref:SPHttpClient> class
+      instead.
+
+      For communicating with other internet services, use the <xref:HttpClient>
+      class instead.
   - uid: '@microsoft/sp-http.GraphHttpClient.configurations'
     name: configurations
     fullName: configurations

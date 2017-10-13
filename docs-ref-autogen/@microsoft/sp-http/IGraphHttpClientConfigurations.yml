@@ -11,6 +11,23 @@ items:
     summary: Standard configurations for GraphHttpClient.
     package: '@microsoft/sp-http'
     isPreview: true
+    remarks: >-
+      This interface provides standard predefined GraphHttpClientConfiguration
+      objects for use with
+
+      the GraphHttpClient class.  In general, clients should choose the latest
+      available
+
+      version number, which enables all the switches that are recommended for
+      typical
+
+      scenarios.  (If new switches are introduced in the future, a new version
+      number
+
+      will be introduced, which ensures that existing code will continue to
+      function the
+
+      way it did at the time when it was tested.)
   - uid: '@microsoft/sp-http.IGraphHttpClientConfigurations.v1'
     name: v1
     fullName: v1

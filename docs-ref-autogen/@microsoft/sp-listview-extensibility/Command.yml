@@ -14,6 +14,21 @@ items:
     type: class
     summary: Represents a command belonging to a command set.
     package: '@microsoft/sp-listview-extensibility'
+    remarks: >-
+      The BaseListViewCommandSet extension type exposes generalized commands
+      that may be displayed as tool bar buttons,
+
+      context menu items, etc. These commands are initially defined in the
+      extension’s manifest file. At runtime, the
+
+      corresponding Command object can be obtained by calling
+      <xref:BaseListViewCommandSet.tryGetCommand>.
+
+      The command’s appearance can be customized by assigning its properties,
+      for example to hide a command that is not
+
+      contextually relevant, or to pluralize the title based on the number of
+      selected items.
   - uid: '@microsoft/sp-listview-extensibility.Command.ariaLabel'
     name: ariaLabel
     fullName: ariaLabel
@@ -51,6 +66,7 @@ items:
       return:
         type:
           - string
+    remarks: This must be a absolute URL.
   - uid: '@microsoft/sp-listview-extensibility.Command.id'
     name: id
     fullName: id
@@ -77,6 +93,20 @@ items:
       return:
         type:
           - string
+    remarks: >-
+      Example: "Show information"
+
+
+      Altering the title property is intended to allow minor changes to the
+      title, e.g. “Submit these 3 items” or
+
+      toggling between “Schedule” and “Unschedule”. Developers are discouraged
+      from assigning a title that radically
+
+      alters the meaning of the command, because administrators should be able
+      to examine the extension manifest to
+
+      understand which commands are being implemented by a given extension.
   - uid: '@microsoft/sp-listview-extensibility.Command.visible'
     name: visible
     fullName: visible

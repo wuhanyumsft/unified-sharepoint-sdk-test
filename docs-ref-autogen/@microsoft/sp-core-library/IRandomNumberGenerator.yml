@@ -12,6 +12,19 @@ items:
       This is a <xref:ServiceScope> contract for generating pseudorandom random
       numbers.
     package: '@microsoft/sp-core-library'
+    remarks: >-
+      This interface abstracts the functionality of the system Math.random() API
+
+      for usage with a <xref:ServiceScope>.  For example, a unit test might
+      replace
+
+      the default <xref:RandomNumberGenerator> service with a mock
+      implementation
+
+      that always returns the same sequence of random numbers, in order to
+      ensure that
+
+      test failures are always repeatable.
   - uid: '@microsoft/sp-core-library.IRandomNumberGenerator.generate'
     name: generate
     children: []

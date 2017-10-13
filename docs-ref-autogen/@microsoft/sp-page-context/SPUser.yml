@@ -34,6 +34,7 @@ items:
       return:
         type:
           - string
+    remarks: 'Example: "John Doe"'
   - uid: '@microsoft/sp-page-context.SPUser.email'
     name: email
     fullName: email
@@ -47,6 +48,7 @@ items:
       return:
         type:
           - string
+    remarks: 'Example: "example@contoso.com"'
   - uid: '@microsoft/sp-page-context.SPUser.isAnonymousGuestUser'
     name: isAnonymousGuestUser
     fullName: isAnonymousGuestUser
@@ -86,6 +88,7 @@ items:
       return:
         type:
           - string
+    remarks: 'Example: "i:0#.w|domain\user"'
   - uid: '@microsoft/sp-page-context.SPUser.preferUserTimeZone'
     name: preferUserTimeZone
     fullName: preferUserTimeZone

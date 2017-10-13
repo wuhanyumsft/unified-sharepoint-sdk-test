@@ -39,6 +39,7 @@ items:
       return:
         type:
           - string
+    remarks: 'Example: "https://example.com/sites/PubSite"'
   - uid: '@microsoft/sp-page-context.SPSite.cdnPrefix'
     name: cdnPrefix
     fullName: cdnPrefix
@@ -149,6 +150,7 @@ items:
       return:
         type:
           - string
+    remarks: 'Example: "/sites/PubSite"'
   - uid: '@microsoft/sp-page-context.SPSite.serverRequestPath'
     name: serverRequestPath
     fullName: serverRequestPath
@@ -162,6 +164,7 @@ items:
       return:
         type:
           - string
+    remarks: 'Example: "/teams/SPClientTest/SitePages/Home.aspx"'
   - uid: '@microsoft/sp-page-context.SPSite.sitePagesEnabled'
     name: sitePagesEnabled
     fullName: sitePagesEnabled

@@ -18,6 +18,18 @@ items:
       This class represents a globally unique identifier, as described by
       IETF RFC 4122.
     package: '@microsoft/sp-core-library'
+    remarks: >-
+      The input string is normalized and validated, which provides
+
+      important guarantees that simplify other code that works with the GUID.
+
+      This class also provides basic support for generating a pseudo-random
+      GUID;
+
+      however, be aware that the uniqueness depends on the browser's
+      Math.random()
+
+      function and may be not be suitable for some applications.
   - uid: '@microsoft/sp-core-library.Guid.empty'
     name: empty
     fullName: empty

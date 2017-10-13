@@ -19,6 +19,12 @@ items:
 
       a generic service.
     package: '@microsoft/sp-http'
+    remarks: >-
+      For communicating with SharePoint, use the <xref:SPHttpClient> class
+      instead.
+
+      For communicating with Microsoft Graph, use the <xref:GraphHttpClient>
+      class.
   - uid: '@microsoft/sp-http.HttpClient.configurations'
     name: configurations
     fullName: configurations

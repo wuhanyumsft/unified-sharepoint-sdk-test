@@ -51,6 +51,7 @@ items:
         type:
           - string
     isPreview: true
+    remarks: 'Example: "359af2a7-b73c-4aac-874c-60a865da0be7"'
   - uid: >-
       @microsoft/sp-odata-types.IODataUserCustomAction.ClientSideComponentProperties
     name: ClientSideComponentProperties
@@ -66,6 +67,17 @@ items:
         type:
           - string
     isPreview: true
+    remarks: >-
+      This property is only used when a ClientSideComponentId is specified. It
+      is optional.
+
+      If non-empty, the string must contain a JSON object with custom
+      initialization properties
+
+      whose format and meaning are defined by the client-side component.
+
+
+      Example: "{ \"maxItemsToShow\": 123 }"
   - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.CommandUIExtension'
     name: CommandUIExtension
     fullName: CommandUIExtension
@@ -154,6 +166,7 @@ items:
       return:
         type:
           - string
+    remarks: 'Example: "ClientSide.Application"'
   - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.RegistrationId'
     name: RegistrationId
     fullName: RegistrationId
@@ -186,6 +199,9 @@ items:
       return:
         type:
           - number
+    remarks: |-
+      Represents an SP.UserCustomActionRegistrationType value:
+      None = 0; List = 1; ContentType = 2; ProgId = 3; FileType = 4.
   - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.Rights'
     name: Rights
     fullName: Rights
@@ -304,3 +320,4 @@ items:
       return:
         type:
           - string
+    remarks: 'Example: "16.0.1.0"'

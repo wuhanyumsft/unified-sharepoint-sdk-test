@@ -15,6 +15,11 @@ items:
       Indicates the general type of environment where the SharePoint Framework
       is running.
     package: '@microsoft/sp-core-library'
+    remarks: >-
+      This enum is used by the <xref:Environment.type> property.  It provides a
+      way to distinguish
+
+      environments where certain functionality may be limited or disabled.
   - uid: '@microsoft/sp-core-library.EnvironmentType.ClassicSharePoint'
     name: ClassicSharePoint
     children: []

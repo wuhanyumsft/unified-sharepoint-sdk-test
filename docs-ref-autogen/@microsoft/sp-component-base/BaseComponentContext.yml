@@ -15,6 +15,25 @@ items:
     summary: The base class for context objects for client-side components.
     package: '@microsoft/sp-component-base'
     isPreview: true
+    remarks: >-
+      A "context" object is a collection of well-known services and other
+
+      objects that are likely to be needed by business logic that interacts with
+      a
+
+      associated component.  Each component type has its own specialized
+      subclass
+
+      of BaseComponentContext, e.g. WebPartContext for web parts,
+      ExtensionContext for
+
+      client-side extensions, and so on.
+
+
+      The constructor for this class is marked as internal; third-party code
+      should not inherit
+
+      directly from this base class.
   - uid: '@microsoft/sp-component-base.BaseComponentContext.constructor'
     name: BaseComponentContext
     children: []
@@ -94,3 +113,4 @@ items:
       return:
         type:
           - ServiceScope
+    remarks: A child service scope is created for each client-side component.

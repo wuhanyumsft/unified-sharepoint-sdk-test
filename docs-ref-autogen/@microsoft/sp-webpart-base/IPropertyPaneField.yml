@@ -26,6 +26,7 @@ items:
       return:
         type:
           - TProperties
+    remarks: 'Example: Checkbox has ICheckboxProps, TextField has ITextField props.'
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneField.shouldFocus'
     name: shouldFocus
     fullName: shouldFocus
@@ -39,6 +40,7 @@ items:
       return:
         type:
           - boolean
+    remarks: The default value is false.
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneField.targetProperty'
     name: targetProperty
     fullName: targetProperty

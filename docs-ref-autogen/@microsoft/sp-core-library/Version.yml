@@ -22,6 +22,20 @@ items:
     type: class
     summary: 'Represents a version number with two, three, or four parts.'
     package: '@microsoft/sp-core-library'
+    remarks: >-
+      This class represents versions that follow the string format of
+      MAJOR.MINOR[.PATCH[.REVISION]]
+
+      where the MAJOR, MINOR, PATCH and REVISION parts are integers. PATCH and
+      REVISION are optional.
+
+      Leading zero digits are allowed, but they are discarded.  Missing parts
+      are treated
+
+      as zeroes for comparisons.
+
+
+      Examples: 1.0, 1.0.0, 1.0.0.0, 1.01, 01.02.03, 001.002.003.004
   - uid: '@microsoft/sp-core-library.Version.compare'
     name: compare
     children: []
@@ -128,6 +142,9 @@ items:
       return:
         type:
           - number
+    remarks: |-
+      Typically a change in the major version number indicates a compatibility
+      break with previous versions.
   - uid: '@microsoft/sp-core-library.Version.minor'
     name: minor
     fullName: minor
@@ -141,6 +158,9 @@ items:
       return:
         type:
           - number
+    remarks: |-
+      Typically a change in the minor version number indicates that new features
+      were added, while remaining backwards compatible with previous releases.
   - uid: '@microsoft/sp-core-library.Version.parse'
     name: parse
     children: []
@@ -175,6 +195,10 @@ items:
       return:
         type:
           - number
+    remarks: |-
+      Typically a change in the patch version number indicates a small fix that
+      does not affect the compatibility contract for the library.  For a .NET
+      System.Version object, this is referred to as the "build" number.
   - uid: '@microsoft/sp-core-library.Version.revision'
     name: revision
     fullName: revision
@@ -188,6 +212,9 @@ items:
       return:
         type:
           - number
+    remarks: |-
+      This number is not part of the Semantic Versioning (SemVer) standard used
+      in JavaScript, but it is used by .NET version numbers.
   - uid: '@microsoft/sp-core-library.Version.satisfies'
     name: satisfies
     children: []

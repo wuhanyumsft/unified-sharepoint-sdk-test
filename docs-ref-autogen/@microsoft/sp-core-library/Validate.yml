@@ -12,6 +12,17 @@ items:
     type: class
     summary: Performs common validation tests for properties and function parameters.
     package: '@microsoft/sp-core-library'
+    remarks: >-
+      This class implements provides a standard way to validate properties and
+      function parameters.
+
+      Unlike debug assertions, Validate checks are always performed and will
+      always throw an error,
+
+      even in a production release.  As such, be careful not to overuse these
+      checks in a way
+
+      that might impact performance.
   - uid: '@microsoft/sp-core-library.Validate.isNonemptyString'
     name: isNonemptyString
     children: []

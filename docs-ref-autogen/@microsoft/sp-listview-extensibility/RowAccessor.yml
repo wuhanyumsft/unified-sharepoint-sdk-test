@@ -14,6 +14,17 @@ items:
     extends:
       name: '@@microsoft/sp-listview-extensibility.ListItemAccessor'
     package: '@microsoft/sp-listview-extensibility'
+    remarks: >-
+      A SharePoint "list item" (SPListItem) is a data storage record in the
+      content
+
+      management system; it stores an array of values for the associated fields.
+
+
+      A "row" is the visual presentation of a list item, when displayed by the
+      ListView;
+
+      it stores an array of cell values for the associated columns.
   - uid: '@microsoft/sp-listview-extensibility.RowAccessor.constructor'
     name: RowAccessor
     children: []

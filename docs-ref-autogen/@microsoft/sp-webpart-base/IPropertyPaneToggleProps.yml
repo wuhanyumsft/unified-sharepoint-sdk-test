@@ -30,6 +30,7 @@ items:
       return:
         type:
           - boolean
+    remarks: 'If you are maintaining state yourself, use this property.'
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneToggleProps.disabled'
     name: disabled
     fullName: disabled

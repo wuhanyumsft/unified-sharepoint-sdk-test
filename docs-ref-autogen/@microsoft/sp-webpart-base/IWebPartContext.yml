@@ -25,6 +25,12 @@ items:
       content: |-
         This interface will be removed in an upcoming release.  Use the
         <xref:WebPartContext> class instead.
+    remarks: |-
+      A "context" object is a collection of well-known services and other
+      objects that are likely to be needed by any business logic working with
+      a component.  Each component type has its own specialized extension of
+      this interface, e.g. IWebPartContext for web parts, IExtensionContext for
+      client-side extensions, etc.
   - uid: '@microsoft/sp-webpart-base.IWebPartContext.domElement'
     name: domElement
     fullName: domElement

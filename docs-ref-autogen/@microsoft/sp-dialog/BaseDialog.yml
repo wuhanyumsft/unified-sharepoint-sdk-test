@@ -21,6 +21,23 @@ items:
       dialogs to the user inside SharePoint Framework components.
     package: '@microsoft/sp-dialog'
     isPreview: true
+    remarks: >-
+      Extend this class to create dialogs for SharePoint Framework. By following
+      the guidelines in implementation,
+
+      the framework can ensure that the dialogs are shown in a user-friendly
+      manner. While the content of the dialog is
+
+      controlled by this class by implementing the render method, the framework
+      can decide when to show the dialog and
+
+      how to render the overlay and modal. The application on the page can also
+      have control on allowing dialogs to show.
+
+      Refer to the documentation of the individual methods and properties to
+      learn more about how to extend and use this
+
+      class.
   - uid: '@microsoft/sp-dialog.BaseDialog.constructor'
     name: BaseDialog
     children: []
@@ -46,6 +63,35 @@ items:
                 // If you need to refresh the cache (or fetch data) for rendering, do it in onBeforeOpen()
               }
           optional: true
+    remarks: >-
+      It is important to keep the constructor lightweight. Use onBeforeOpen()
+      for doing heavy-weight initialization
+
+      that is needed for rendering the dialog such as resource allocations and
+      asynchronous calls to fetch data. You
+
+      can use the constructor to set initial parameters of your dialog such as
+      references to resources in your
+
+      application. The reason for this is that dialogs are usually constructed
+      upon a UI event e.g. a button click,
+
+      but the dialog may not always be shown right after construction. Keeping
+      the constructor lightweight ensures
+
+      smooth user experience and avoids doing throw-away work in case the dialog
+      is not shown later e.g. if
+
+      the framework rejects it. Another benefit of doing this is avoiding memory
+      leaks by doing all the allocations and
+
+      disposals in symmetric onBeforeOpen() and onAfterClose() events. If you
+      allocate resources in the
+
+      constructor, you have a memory leak because there is no guarantee
+      onAfterClose() will get called,
+
+      and onAfterClose() is your only opportunity to dispose.
   - uid: '@microsoft/sp-dialog.BaseDialog.close'
     name: close
     children: []
@@ -135,6 +181,17 @@ items:
       return:
         type:
           - SecondaryDialogProvider
+    remarks: >-
+      Secondary dialogs do not have to wait for permission and will immediately
+      be shown or rejected. All calls to
+
+      show a secondary dialog reject while there is already a secondary dialog
+      showing.
+
+      This property may be undefined if a secondary dialog is not available i.e.
+      the current dialog is secondary itself
+
+      or the dialog is not active.
   - uid: '@microsoft/sp-dialog.BaseDialog.show'
     name: show
     children: []

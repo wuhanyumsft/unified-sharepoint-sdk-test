@@ -19,6 +19,29 @@ items:
       regions on the page.
     package: '@microsoft/sp-application-base'
     isPreview: true
+    remarks: >-
+      Placeholders are designated regions on the page, identified by one of the
+      predefined
+
+      <xref:PlaceholderName> constants.  Different applications and pages might
+      support different
+
+      placeholder names.  Placeholders can appear and disappear as the user
+      interacts with the page,
+
+      for example via in-place navigation.  Third-party components should not
+      assume that a given placeholder
+
+      will always be available.
+
+
+      Use <xref:PlaceholderProvider.tryCreateContent> to test whether a
+      placeholder is
+
+      available and add content to it.   Use the
+      <xref:PlaceholderProvider.changedEvent> event
+
+      to discover when new placeholders appear.
   - uid: '@microsoft/sp-application-base.PlaceholderProvider.changedEvent'
     name: changedEvent
     fullName: changedEvent
@@ -34,6 +57,14 @@ items:
       return:
         type:
           - Event<EventArgs>
+    remarks: >-
+      The application can change its list of available placeholders at any time.
+      This means that the existing
+
+      placeholders may get disposed or new placeholders may be added. Use this
+      event to discover new
+
+      placeholders when they appear.
   - uid: '@microsoft/sp-application-base.PlaceholderProvider.placeholderNames'
     name: placeholderNames
     fullName: placeholderNames

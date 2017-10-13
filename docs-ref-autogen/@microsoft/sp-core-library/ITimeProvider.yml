@@ -11,6 +11,17 @@ items:
     type: interface
     summary: 'This is a <xref:ServiceScope> contract for reading the system clock.'
     package: '@microsoft/sp-core-library'
+    remarks: >-
+      This interface abstracts the functionality of the system time APIs
+
+      for usage with a <xref:ServiceScope>.  For example, a unit test might
+      replace
+
+      the default <xref:TimeProvider> service with a mock implementation
+
+      that follows a manually incremented timeline, in order to ensure that
+
+      test failures are always repeatable.
   - uid: '@microsoft/sp-core-library.ITimeProvider.getDate'
     name: getDate
     children: []

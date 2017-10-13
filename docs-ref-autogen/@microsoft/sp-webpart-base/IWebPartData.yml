@@ -39,6 +39,28 @@ items:
       return:
         type:
           - string
+    remarks: >-
+      Note that data version is different from the version field in the
+      manifest.
+
+      The manifest version is used to control the versioning of the web part
+      code, while data version is used to
+
+      control the versioning of the serialized data of the web part. Refer to
+      dataVersion field of your web part
+
+      for more information.
+
+
+      Usage: versioning and evolving the serialized data of the web part
+
+      Required: yes
+
+      Type: string
+
+      Supported values: MAJOR.MINOR
+
+      Example: "1.0"
   - uid: '@microsoft/sp-webpart-base.IWebPartData.description'
     name: description
     fullName: description
@@ -52,6 +74,12 @@ items:
       return:
         type:
           - string
+    remarks: |-
+      Usage: display the description of the web part.
+      Required: no
+      Type: string
+      Supported values: string with the description.
+      Example: "Text"
   - uid: '@microsoft/sp-webpart-base.IWebPartData.id'
     name: id
     fullName: id
@@ -65,6 +93,12 @@ items:
       return:
         type:
           - string
+    remarks: |-
+      Usage: uniquely identify a web part.
+      Required: yes
+      Type: GUID
+      Supported values: any GUID
+      Example: "dbef608d-3ad5-4f8f-b139-d916f2f0a294"
   - uid: '@microsoft/sp-webpart-base.IWebPartData.instanceId'
     name: instanceId
     fullName: instanceId
@@ -83,6 +117,20 @@ items:
       return:
         type:
           - string
+    remarks: >-
+      how used: used by the framework to uniquely identify an instance of a web
+      part.
+
+      mandatory: yes
+
+      type: string
+
+      supported values: a unique string. Could be GUID or other uniquely
+      identifiable formats.
+
+      example: ["dbef608d-3ad5-4f8f-b139-d916f2f0a294"]
+
+      experimental: yes
   - uid: '@microsoft/sp-webpart-base.IWebPartData.properties'
     name: properties
     fullName: properties
@@ -98,6 +146,17 @@ items:
       return:
         type:
           - any
+    remarks: >-
+      Usage: used by the web part to manage its internal metadata and config
+      data. The framework code never
+                touches these properties.
+      Required: yes
+
+      Type: any
+
+      Supported values: any JSON stringifiable object hierarchy.
+
+      Example: { 'value': 'text value' }
   - uid: '@microsoft/sp-webpart-base.IWebPartData.serverProcessedContent'
     name: serverProcessedContent
     fullName: serverProcessedContent
@@ -128,3 +187,14 @@ items:
       return:
         type:
           - string
+    remarks: >-
+      Usage: display the name of the web part in the toolbox, web part gallery
+      and the page.
+
+      Required: yes
+
+      Type: string
+
+      Supported values: string less than 100 characters
+
+      Example: "Text"

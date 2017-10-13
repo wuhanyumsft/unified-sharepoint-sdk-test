@@ -16,6 +16,13 @@ items:
       SharePoint page.
     package: '@microsoft/sp-application-base'
     isPreview: true
+    remarks: >-
+      This object is returned by <xref:PlaceholderProvider.tryCreateContent>.
+
+      It provides access to a Document Object Model (DOM) element where the
+      owner can render
+
+      its custom content.
   - uid: '@microsoft/sp-application-base.PlaceholderContent.dispose'
     name: dispose
     children: []
@@ -43,6 +50,9 @@ items:
       return:
         type:
           - HTMLDivElement
+    remarks: |-
+      If the caller needs to be notified when the DOM element is disposed, use
+      the <xref:IPlaceholderCreateContentOptions.onDispose> callback.
   - uid: '@microsoft/sp-application-base.PlaceholderContent.name'
     name: name
     fullName: name
@@ -56,6 +66,7 @@ items:
       return:
         type:
           - PlaceholderName
+    remarks: 'Example: PlaceholderName.Top'
   - uid: '@microsoft/sp-application-base.PlaceholderContent.constructor'
     name: PlaceholderContent
     children: []

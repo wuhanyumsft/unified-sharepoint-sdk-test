@@ -13,6 +13,12 @@ items:
     type: enum
     summary: Browser support level for a component.
     package: '@microsoft/sp-core-library'
+    remarks: >-
+      Allow to establish different levels, including blocked, where the
+      component won't load, to
+
+      full functionality, where it should work and a failure is considered a
+      high severity problem.
   - uid: '@microsoft/sp-core-library.BrowserSupportLevel.None'
     name: None
     children: []
@@ -21,6 +27,11 @@ items:
     summary: 'None: Support level is not available. No assumptions can be made.'
     type: field
     numericValue: 0
+    remarks: >-
+      This value is meant to be used when there is no code to check the browser
+      support.
+
+      If any check is performed, this value should not be returned.
   - uid: '@microsoft/sp-core-library.BrowserSupportLevel.FullFunctionality'
     name: FullFunctionality
     children: []
