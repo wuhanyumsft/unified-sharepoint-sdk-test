@@ -259,6 +259,9 @@ items:
     syntax:
       content: function getParent()
       parameters: []
+      return:
+        type:
+          - ServiceScope
   - uid: '@microsoft/sp-core-library.ServiceScope.provide'
     name: provide
     children: []

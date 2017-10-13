@@ -39,6 +39,9 @@ items:
     syntax:
       content: function TestIncludeScripts()
       parameters: []
+      return:
+        type:
+          - 'string[]'
   - uid: '@microsoft/sp-extension-base.CommandSetDialog.TestName'
     name: TestName
     children: []

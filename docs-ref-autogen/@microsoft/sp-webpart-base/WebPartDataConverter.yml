@@ -50,6 +50,9 @@ items:
             this array
               take over the values in the HTML markup.
           optional: true
+      return:
+        type:
+          - IWebPartData
   - uid: >-
       @microsoft/sp-webpart-base.WebPartDataConverter.convertServerProcessedDataToHtml
     name: convertServerProcessedDataToHtml

@@ -32,3 +32,6 @@ items:
             - string
           description: |
             the json string to encode.
+      return:
+        type:
+          - string

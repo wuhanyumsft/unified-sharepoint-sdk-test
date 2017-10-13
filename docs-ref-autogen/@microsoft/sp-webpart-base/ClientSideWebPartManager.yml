@@ -126,6 +126,9 @@ items:
     syntax:
       content: function getWebPartManifests()
       parameters: []
+      return:
+        type:
+          - 'IClientSideWebPartManifest<any>[]'
   - uid: '@microsoft/sp-webpart-base.ClientSideWebPartManager.isPropertyPaneOpen'
     name: isPropertyPaneOpen
     children: []
@@ -378,3 +381,6 @@ items:
             - 'string[]'
           description: ''
           optional: true
+      return:
+        type:
+          - string

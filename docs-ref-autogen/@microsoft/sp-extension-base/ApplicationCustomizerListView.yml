@@ -41,6 +41,9 @@ items:
     syntax:
       content: function TestIncludeScripts()
       parameters: []
+      return:
+        type:
+          - 'string[]'
   - uid: '@microsoft/sp-extension-base.ApplicationCustomizerListView.TestName'
     name: TestName
     children: []

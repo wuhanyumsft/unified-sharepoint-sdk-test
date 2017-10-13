@@ -155,6 +155,9 @@ items:
           type:
             - string
           description: The input string.
+      return:
+        type:
+          - Guid
     remarks: |-
       Example syntaxes accepted by this function:
       'd5369f3b-bd7a-412a-9c0f-7f0650bb5489'

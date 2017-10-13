@@ -29,6 +29,9 @@ items:
           type:
             - '(visible: boolean) => any'
           description: ''
+      return:
+        type:
+          - number
   - uid: '@microsoft/sp-application-base.IFlexPane.OpenFlexPaneForProvider'
     name: OpenFlexPaneForProvider
     children: []

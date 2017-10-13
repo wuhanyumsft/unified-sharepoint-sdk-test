@@ -124,6 +124,9 @@ items:
             Additional options, for example to detect when the placeholder is
             disposed.
           optional: true
+      return:
+        type:
+          - PlaceholderContent
     remarks: >-
       The host application makes no guarantees about the availability of a given
       placeholder.

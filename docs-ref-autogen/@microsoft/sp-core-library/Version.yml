@@ -306,3 +306,6 @@ items:
           type:
             - string
           description: A version string
+      return:
+        type:
+          - Version

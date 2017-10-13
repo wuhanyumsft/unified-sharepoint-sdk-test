@@ -58,6 +58,9 @@ items:
             - string
           description: |
             the case insensitive key for the desired query parameter value.
+      return:
+        type:
+          - string
     remarks: |-
       Examples: this._queryParameterList = [
       {key: TEST, value: done},
@@ -83,6 +86,9 @@ items:
             - string
           description: |
             the case insensitive key for the desired query parameter value.
+      return:
+        type:
+          - function
     remarks: |-
       Examples: this._queryParameterList = [
       {key: TEST, value: done},

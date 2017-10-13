@@ -72,3 +72,6 @@ items:
           type:
             - string
           description: ''
+      return:
+        type:
+          - ColumnAccessor

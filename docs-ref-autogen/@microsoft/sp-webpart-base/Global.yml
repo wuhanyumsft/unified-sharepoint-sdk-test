@@ -91,6 +91,9 @@ items:
           type:
             - Object
           description: ''
+      return:
+        type:
+          - Object
   - uid: '@microsoft/sp-webpart-base.executeAndReThrow'
     name: executeAndReThrow
     children: []
@@ -164,6 +167,9 @@ items:
           type:
             - boolean
           description: ''
+      return:
+        type:
+          - HTMLElement
   - uid: '@microsoft/sp-webpart-base.getFocusableChildren'
     name: getFocusableChildren
     children: []
@@ -184,6 +190,9 @@ items:
           type:
             - boolean
           description: ''
+      return:
+        type:
+          - 'HTMLElement[]'
   - uid: '@microsoft/sp-webpart-base.getFocusableDescendants'
     name: getFocusableDescendants
     children: []
@@ -204,6 +213,9 @@ items:
           type:
             - boolean
           description: ''
+      return:
+        type:
+          - 'HTMLElement[]'
   - uid: '@microsoft/sp-webpart-base.getFocusableParent'
     name: getFocusableParent
     children: []
@@ -245,6 +257,9 @@ items:
           type:
             - HTMLElement
           description: ''
+      return:
+        type:
+          - 'HTMLElement[]'
   - uid: '@microsoft/sp-webpart-base.getNextFocusableElement'
     name: getNextFocusableElement
     children: []

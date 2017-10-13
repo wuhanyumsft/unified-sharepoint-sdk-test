@@ -66,6 +66,9 @@ items:
     syntax:
       content: function tryGetListView()
       parameters: []
+      return:
+        type:
+          - ListViewAccessor
     remarks: >-
       Although the SharePoint list view is the main usage scenario, field
       customizers

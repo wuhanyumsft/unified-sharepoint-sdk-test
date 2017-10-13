@@ -53,3 +53,6 @@ items:
     syntax:
       content: function getAll()
       parameters: []
+      return:
+        type:
+          - '@@microsoft/sp-application-base.ClientSideCustomAction[]'

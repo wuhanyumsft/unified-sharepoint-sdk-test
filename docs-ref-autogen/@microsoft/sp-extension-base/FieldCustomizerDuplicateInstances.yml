@@ -42,6 +42,9 @@ items:
     syntax:
       content: function TestIncludeScripts()
       parameters: []
+      return:
+        type:
+          - 'string[]'
   - uid: '@microsoft/sp-extension-base.FieldCustomizerDuplicateInstances.TestName'
     name: TestName
     children: []

@@ -42,6 +42,9 @@ items:
           type:
             - Headers
           description: ''
+      return:
+        type:
+          - ODataVersion
     remarks: |-
       If the "OData-Version" header is present, this returns the
       corresponding ODataVersion constant.  An error is thrown if
