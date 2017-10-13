@@ -121,6 +121,11 @@ items:
       return:
         type:
           - '@@microsoft/sp-core-library.Guid'
+    remarks: |-
+      Example syntaxes accepted by this function:
+      'd5369f3b-bd7a-412a-9c0f-7f0650bb5489'
+      '{d5369f3b-bd7a-412a-9c0f-7f0650bb5489}'
+      '/Guid(d5369f3b-bd7a-412a-9c0f-7f0650bb5489)'
   - uid: '@microsoft/sp-core-library.Guid.toString'
     name: toString
     children: []
@@ -150,3 +155,8 @@ items:
           type:
             - string
           description: The input string.
+    remarks: |-
+      Example syntaxes accepted by this function:
+      'd5369f3b-bd7a-412a-9c0f-7f0650bb5489'
+      '{d5369f3b-bd7a-412a-9c0f-7f0650bb5489}'
+      '/Guid(d5369f3b-bd7a-412a-9c0f-7f0650bb5489)'

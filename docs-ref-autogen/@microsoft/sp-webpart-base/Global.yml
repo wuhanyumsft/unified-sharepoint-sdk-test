@@ -586,6 +586,21 @@ items:
         type:
           - >-
             @@microsoft/sp-webpart-base.IPropertyPaneField<@@microsoft/sp-webpart-base.IPropertyPaneCustomFieldProps>
+    isPreview: true
+    remarks: >-
+      The purpose of the custom field is to help the web part developer to add a
+      custom control to
+
+      the PropertyPane. The PropertyPane supports a host of inbuilt field types.
+      While
+
+      this list meets the demands of most web parts, but there are exceptional
+      cases
+
+      when web parts have special needs and need a special control. The custom
+      field
+
+      helps fill that gap.
   - uid: '@microsoft/sp-webpart-base.PropertyPaneDropdown'
     name: PropertyPaneDropdown
     children: []

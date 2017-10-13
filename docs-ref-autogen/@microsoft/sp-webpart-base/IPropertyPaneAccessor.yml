@@ -43,6 +43,12 @@ items:
       return:
         type:
           - boolean
+    remarks: >-
+      For example, if the web part calls this.context.propertyPane.open() then
+      the property would be true,
+
+      whereas if the property pane was opened by the host, then the value will
+      be false.
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneAccessor.open'
     name: open
     children: []
@@ -67,3 +73,9 @@ items:
     syntax:
       content: function refresh()
       parameters: []
+    remarks: >-
+      This operation only works when the PropertyPane is already open for the
+      currently active web part.
+
+      If the PropertyPane is opened for another web part, calling the refresh
+      API will have no impact.

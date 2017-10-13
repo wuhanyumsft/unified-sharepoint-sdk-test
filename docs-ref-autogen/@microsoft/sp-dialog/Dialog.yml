@@ -39,6 +39,15 @@ items:
       return:
         type:
           - Promise<void>
+    remarks: >-
+      There might be a delay until the dialog is approved and shown by the
+      application, for
+
+      example, if there is another dialog currently being shown. The returned
+      promise resolves when the dialog is
+
+      successfully shown and closed. The promise rejects if the application
+      rejects the request for any reason.
   - uid: '@microsoft/sp-dialog.Dialog.prompt'
     name: prompt
     children: []
@@ -65,3 +74,12 @@ items:
       return:
         type:
           - Promise<string>
+    remarks: >-
+      There might be a delay until the dialog is approved and shown by the
+      application,
+
+      for example, if there is another dialog currently being shown. The
+      returned promise resolves when the dialog is
+
+      successfully shown and closed. The promise rejects if the application
+      rejects the request for any reason.

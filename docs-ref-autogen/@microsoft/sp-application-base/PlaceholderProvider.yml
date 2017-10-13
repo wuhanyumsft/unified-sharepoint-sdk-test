@@ -124,3 +124,14 @@ items:
             Additional options, for example to detect when the placeholder is
             disposed.
           optional: true
+    remarks: >-
+      The host application makes no guarantees about the availability of a given
+      placeholder.
+
+      In situations where an expected placeholder is not available, the
+      third-party extension
+
+      must handle it gracefully, e.g. by not rendering anything, or by choosing
+      an alternative
+
+      placeholder.

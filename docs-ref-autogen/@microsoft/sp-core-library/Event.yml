@@ -77,6 +77,15 @@ items:
             - '(eventArgs: TEventArgs) => void'
           description: |
             A callback function that will be invoked whenever the event occurs
+    remarks: >-
+      The same object can add multiple event handlers to the same event. Since
+      BaseComponent implements
+
+      the IEventObserver interface, a web part or extension can pass itself as
+      the observer. This will cause
+
+      the event handler to be automatically unsubscribed when the web part or
+      extension is disposed.
   - uid: '@microsoft/sp-core-library.Event.constructor'
     name: Event
     children: []
@@ -115,3 +124,8 @@ items:
           description: |
             The event handler to remove; this must be the same object instance
               that was passed to the add() function.
+    remarks: >-
+      If the event handler has already been removed, or if it was never added,
+      then this
+
+      method has no effect.

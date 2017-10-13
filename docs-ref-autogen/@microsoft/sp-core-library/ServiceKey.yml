@@ -57,6 +57,11 @@ items:
       return:
         type:
           - '@@microsoft/sp-core-library.ServiceKey<TKey>'
+    remarks: >-
+      If you want to specify custom constructor parameters, use
+      <xref:ServiceKey.createCustom>
+
+      instead.
   - uid: '@microsoft/sp-core-library.ServiceKey.createCustom'
     name: createCustom
     children: []

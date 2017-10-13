@@ -154,6 +154,15 @@ items:
       return:
         type:
           - T
+    remarks: >-
+      Components should call this function to "consume" a dependency, i.e. look
+      up the serviceKey
+
+      and return the registered service instance.  If the instance cannot be
+      found, then a default
+
+      instance will be automatically created and registered with the root
+      ServiceScope.
   - uid: '@microsoft/sp-core-library.ServiceScope.createAndProvide'
     name: createAndProvide
     children: []
@@ -212,6 +221,32 @@ items:
     syntax:
       content: function finish()
       parameters: []
+    remarks: >-
+      When a ServiceScope is first started, it is in an "unfinished" state where
+      provide() is
+
+      allowed but consume() is disallowed.  After calling finish(), then
+      consume() is allowed
+
+      but provide() is disallowed.
+
+
+      This formalism prevents a number of complex situations that could lead to
+      bugs.  For example,
+
+      supposed that Scope2 is a child of Scope1, and Scope1 provides instance A1
+      of interface A.
+
+      If someone consumes A1 from Scope2 (via inheritance) before
+      Scope2.provide() is called
+
+      with A2, then a subsequent call to Scope2.consume() might return a
+      different result than
+
+      the previous call.  This nondeterminism could cause unpredictable results
+      that are
+
+      difficult to diagnose.
   - uid: '@microsoft/sp-core-library.ServiceScope.getParent'
     name: getParent
     children: []
@@ -245,6 +280,14 @@ items:
       return:
         type:
           - T
+    remarks: >-
+      ServiceScope.provide() is used to register an implementation of the given
+      serviceKey
+
+      for the current scope.  It may only be used when the ServiceScope is in an
+      "unfinished"
+
+      state, i.e. before finish() has been called.
   - uid: '@microsoft/sp-core-library.ServiceScope.startNewChild'
     name: startNewChild
     children: []
@@ -258,6 +301,14 @@ items:
       return:
         type:
           - '@@microsoft/sp-core-library.ServiceScope'
+    remarks: >-
+      The service scopes form a tree structure, such that when consuming a
+      service,
+
+      if the key is not explicitly provided by a child scope, the parent
+      hierarchy
+
+      will be consulted.
   - uid: '@microsoft/sp-core-library.ServiceScope.startNewRoot'
     name: startNewRoot
     children: []
@@ -290,3 +341,27 @@ items:
             - () => void
           description: |
             A block of code that needs to call ServiceScope.consume()
+    remarks: >-
+      It is an error to call ServiceScope.consume() before finish() has been
+      called.
+
+      The most reliable way to protect your component against this error is to
+      perform the
+
+      consume() calls inside a whenFinished() callback.  If the service scope is
+      already
+
+      finished, then the callback will be executed immediately; otherwise, it
+      will be executed
+
+      later when the scope is finished.
+
+
+      NOTE: This is not an asynchronous callback.  ServiceScope initialization
+      is typically
+
+      inexpensive and short lived. However, the control flow often threads
+      through numerous
+
+      constructors and base classes, which can be simplified using
+      whenFinished().

@@ -74,6 +74,13 @@ items:
       return:
         type:
           - boolean
+    remarks: |-
+      Examples:
+
+         1.0.0 equals 1.0.0 -> true;
+         2.0.1 equals 2.0.0 -> false;
+         3.0   equals 3.0.0 -> true;
+         04.01 equals 4.1   -> true
   - uid: '@microsoft/sp-core-library.Version.greaterThan'
     name: greaterThan
     children: []
@@ -93,6 +100,12 @@ items:
       return:
         type:
           - boolean
+    remarks: |-
+      Examples:
+
+         1.0.0 greaterThan 0.0.9 -> true;
+         2.0   greaterThan 2.0.0 -> false;
+         3.0.1 greaterThan 3.0   -> true
   - uid: '@microsoft/sp-core-library.Version.isValid'
     name: isValid
     children: []
@@ -129,6 +142,13 @@ items:
       return:
         type:
           - boolean
+    remarks: |-
+      Examples:
+
+         0.9.9 lessThan 1.0.0 -> true;
+         2.0   lessThan 2.0.0 -> false;
+         3.0   lessThan 3.0.1 -> true;
+         04.01 lessThan 4.1   -> false
   - uid: '@microsoft/sp-core-library.Version.major'
     name: major
     fullName: major
@@ -236,6 +256,22 @@ items:
       return:
         type:
           - boolean
+    remarks: >-
+      In order to satisfy the compatibility requirements, this object must have
+      the same
+
+      major version number as the input parameter, and it must NOT be older than
+      the
+
+      input parameter.
+
+
+      Examples:
+
+         1.0.0 satisfies 1.0.0 -> true;
+         1.1.0 satisfies 1.0.0 -> true;
+         2.0.0 satisfies 1.0.0 -> false;
+         1.0.0 satisfies 1.1.0 -> false
   - uid: '@microsoft/sp-core-library.Version.toString'
     name: toString
     children: []
@@ -249,6 +285,11 @@ items:
       return:
         type:
           - string
+    remarks: >-
+      The value is normalized and may be different from the original string
+      (e.g. leading zeroes
+
+      may be removed).  However, the number of version parts will be unchanged.
   - uid: '@microsoft/sp-core-library.Version.tryParse'
     name: tryParse
     children: []

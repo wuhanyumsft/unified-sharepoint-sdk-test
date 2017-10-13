@@ -62,6 +62,22 @@ items:
       return:
         type:
           - IBrowserCompatibility
+    remarks: >-
+      The SharePoint Framework tracks browser compatibility for the application
+      and the framework.
+
+      Taken together, this information will determine the experience for the end
+      user.
+
+
+      Implement this method to report the level of support that your application
+      provides for the current web browser.
+
+      Since the User Agent field is impersonated by various browsers, it’s
+      recommended for the implementation to test
+
+      individual API features rather than trying to identify specific releases
+      of browsers.
   - uid: '@microsoft/sp-application-base.BaseApplication.suiteNavConfiguration'
     name: suiteNavConfiguration
     children: []

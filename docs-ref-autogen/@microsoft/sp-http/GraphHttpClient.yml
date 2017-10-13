@@ -77,6 +77,24 @@ items:
       return:
         type:
           - Promise<@@microsoft/sp-http.GraphHttpClientResponse>
+    remarks: >-
+      Generally, the parameters and semantics for HttpClient.fetch() are
+      essentially
+
+      the same as the WHATWG API standard that is documented here:
+
+      https://fetch.spec.whatwg.org/
+
+
+      The GraphHttpClient subclass adds some additional behaviors that are
+      convenient when
+
+      working with SharePoint ODATA API's (which can be avoided by using
+
+      HttpClient instead):
+
+      - Default "Accept" and "Content-Type" headers are added if not explicitly
+      specified.
   - uid: '@microsoft/sp-http.GraphHttpClient.get'
     name: get
     children: []

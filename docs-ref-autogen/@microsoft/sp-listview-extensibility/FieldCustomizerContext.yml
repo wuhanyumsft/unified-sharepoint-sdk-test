@@ -66,3 +66,11 @@ items:
     syntax:
       content: function tryGetListView()
       parameters: []
+    remarks: >-
+      Although the SharePoint list view is the main usage scenario, field
+      customizers
+
+      can be used by other user interface surfaces.  For example, in the future
+      SharePoint
+
+      may support field customizers on a display/edit form.

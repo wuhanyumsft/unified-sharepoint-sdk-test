@@ -84,6 +84,10 @@ items:
             - >-
               @@microsoft/sp-listview-extensibility.IListViewCommandSetListViewUpdatedParameters
           description: ''
+    remarks: |-
+      This event allows the implementor to tailor the appearance of the command.
+      For example, to hide the command, assign its property visible = false.
+      To customize the title, modify the command property title.
   - uid: '@microsoft/sp-listview-extensibility.BaseListViewCommandSet.tryGetCommand'
     name: tryGetCommand
     children: []

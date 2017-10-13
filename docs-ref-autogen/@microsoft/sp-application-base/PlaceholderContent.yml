@@ -35,6 +35,17 @@ items:
     syntax:
       content: function dispose()
       parameters: []
+    remarks: >-
+      This method can be called to immediately dispose the attached DOM element.
+      Otherwise, it
+
+      will be disposed by the application when the containing placeholder is
+      disposed. Calling dispose()
+
+      invokes the <xref:IPlaceholderCreateContentOptions.onDispose> callback,
+      removes the associated
+
+      DOM element from the page, and disposes the PlaceholderContent object.
   - uid: '@microsoft/sp-application-base.PlaceholderContent.domElement'
     name: domElement
     fullName: domElement

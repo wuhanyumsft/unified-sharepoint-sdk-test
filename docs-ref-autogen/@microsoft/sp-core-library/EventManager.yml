@@ -105,3 +105,6 @@ items:
           description: >
             Function to handle the event. Used to remove it from the list of
             listeners.
+    remarks: >-
+      If this is requested without adding an event handler first, it logs an
+      error.

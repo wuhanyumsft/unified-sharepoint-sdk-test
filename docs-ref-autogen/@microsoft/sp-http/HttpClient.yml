@@ -69,6 +69,14 @@ items:
       return:
         type:
           - Promise<@@microsoft/sp-http.HttpClientResponse>
+    remarks: >-
+      Although the SPHttpClient subclass adds additional enhancements, the
+      parameters and semantics
+
+      for HttpClient.fetch() are essentially the same as the WHATWG API standard
+      that is documented here:
+
+      https://fetch.spec.whatwg.org/
   - uid: '@microsoft/sp-http.HttpClient.get'
     name: get
     children: []

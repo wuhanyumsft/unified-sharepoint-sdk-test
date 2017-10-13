@@ -58,6 +58,14 @@ items:
             - string
           description: |
             the case insensitive key for the desired query parameter value.
+    remarks: |-
+      Examples: this._queryParameterList = [
+      {key: TEST, value: done},
+      {key: DEBUG, value: false},
+      {key: TEST, value: notdone}]
+        getValue('TEST') ---> 'done'
+        getValue('debug')  ---> 'false'
+        getValue('lost')  ---> undefined
   - uid: '@microsoft/sp-core-library.UrlQueryParameterCollection.getValues'
     name: getValues
     children: []
@@ -75,6 +83,14 @@ items:
             - string
           description: |
             the case insensitive key for the desired query parameter value.
+    remarks: |-
+      Examples: this._queryParameterList = [
+      {key: TEST, value: done},
+      {key: DEBUG, value: false},
+      {key: TEST, value: notdone}]
+        getValues('TEST') ---> ['done', 'notdone']
+        getValues('debug')  ---> ['false']
+        getValues('lost')  ---> undefined
   - uid: '@microsoft/sp-core-library.UrlQueryParameterCollection.constructor'
     name: UrlQueryParameterCollection
     children: []
