@@ -25,7 +25,7 @@ items:
       content: BrowserSupportLevel supportLevel
       return:
         type:
-          - BrowserSupportLevel
+          - '@@microsoft/sp-core-library.BrowserSupportLevel'
   - uid: '@microsoft/sp-core-library.IBrowserCompatibility.warning'
     name: warning
     fullName: warning

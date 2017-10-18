@@ -38,7 +38,7 @@ items:
       content: PopupWindowPosition positionWindowPosition
       return:
         type:
-          - PopupWindowPosition
+          - '@@microsoft/sp-webpart-base.PopupWindowPosition'
   - uid: '@microsoft/sp-webpart-base.IPopupWindowProps.title'
     name: title
     fullName: title

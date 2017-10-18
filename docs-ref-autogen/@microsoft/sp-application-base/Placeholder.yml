@@ -60,7 +60,7 @@ items:
       content: PlaceholderName name
       return:
         type:
-          - PlaceholderName
+          - '@@microsoft/sp-application-base.PlaceholderName'
   - uid: '@microsoft/sp-application-base.Placeholder.constructor'
     name: Placeholder
     children: []

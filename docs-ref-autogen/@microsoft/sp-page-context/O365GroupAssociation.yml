@@ -57,4 +57,4 @@ items:
       content: O365GroupAssociationType type
       return:
         type:
-          - O365GroupAssociationType
+          - '@@microsoft/sp-page-context.O365GroupAssociationType'

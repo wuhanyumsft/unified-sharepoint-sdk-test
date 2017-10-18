@@ -66,4 +66,4 @@ items:
       content: PropertyPaneFieldType type
       return:
         type:
-          - PropertyPaneFieldType
+          - '@@microsoft/sp-webpart-base.PropertyPaneFieldType'

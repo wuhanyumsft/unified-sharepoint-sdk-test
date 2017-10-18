@@ -77,7 +77,7 @@ items:
       content: ReadonlyArray<PlaceholderName> placeholderNames
       return:
         type:
-          - ReadonlyArray<PlaceholderName>
+          - ReadonlyArray<@@microsoft/sp-application-base.PlaceholderName>
   - uid: '@microsoft/sp-application-base.PlaceholderProvider.constructor'
     name: PlaceholderProvider
     children: []
@@ -115,7 +115,7 @@ items:
       parameters:
         - id: name
           type:
-            - PlaceholderName
+            - '@@microsoft/sp-application-base.PlaceholderName'
           description: The requested placeholder
         - id: options
           type:

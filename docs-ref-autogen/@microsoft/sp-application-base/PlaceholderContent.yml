@@ -76,7 +76,7 @@ items:
       content: PlaceholderName name
       return:
         type:
-          - PlaceholderName
+          - '@@microsoft/sp-application-base.PlaceholderName'
     remarks: 'Example: PlaceholderName.Top'
   - uid: '@microsoft/sp-application-base.PlaceholderContent.constructor'
     name: PlaceholderContent

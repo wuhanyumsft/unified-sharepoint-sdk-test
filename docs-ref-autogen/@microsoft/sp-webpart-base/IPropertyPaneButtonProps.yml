@@ -61,7 +61,7 @@ items:
       content: PropertyPaneButtonType buttonType
       return:
         type:
-          - PropertyPaneButtonType
+          - '@@microsoft/sp-webpart-base.PropertyPaneButtonType'
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneButtonProps.description'
     name: description
     fullName: description

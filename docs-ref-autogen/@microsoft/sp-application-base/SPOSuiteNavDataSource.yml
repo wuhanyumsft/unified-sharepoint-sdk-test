@@ -61,4 +61,4 @@ items:
       content: SuiteNavSource suiteNavService
       return:
         type:
-          - SuiteNavSource
+          - '@@microsoft/sp-application-base.SuiteNavSource'

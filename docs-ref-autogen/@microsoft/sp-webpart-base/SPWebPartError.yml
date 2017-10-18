@@ -40,7 +40,7 @@ items:
       parameters:
         - id: errorCode
           type:
-            - SPWebPartErrorCode
+            - '@@microsoft/sp-webpart-base.SPWebPartErrorCode'
           description: ''
         - id: params
           type:
@@ -63,7 +63,7 @@ items:
       parameters:
         - id: errorCode
           type:
-            - SPWebPartErrorCode
+            - '@@microsoft/sp-webpart-base.SPWebPartErrorCode'
           description: ''
         - id: logProperties
           type:

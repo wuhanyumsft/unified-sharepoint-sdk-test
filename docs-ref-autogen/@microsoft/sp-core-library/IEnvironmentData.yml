@@ -22,4 +22,4 @@ items:
       content: EnvironmentType type
       return:
         type:
-          - EnvironmentType
+          - '@@microsoft/sp-core-library.EnvironmentType'

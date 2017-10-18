@@ -129,7 +129,7 @@ items:
           description: instance id of the web part.
         - id: propertyPaneState
           type:
-            - PropertyPaneState
+            - '@@microsoft/sp-webpart-base.PropertyPaneState'
           description: indicates in what state the PropertyPane should be.
           optional: true
         - id: renderedByWebPart

@@ -30,7 +30,7 @@ items:
       content: Browser browser
       return:
         type:
-          - Browser
+          - '@@microsoft/sp-core-library.Browser'
   - uid: '@microsoft/sp-core-library.IBrowserInformation.browserVersion'
     name: browserVersion
     fullName: browserVersion
@@ -56,7 +56,7 @@ items:
       content: OS os
       return:
         type:
-          - OS
+          - '@@microsoft/sp-core-library.OS'
   - uid: '@microsoft/sp-core-library.IBrowserInformation.osVersion'
     name: osVersion
     fullName: osVersion

@@ -26,4 +26,4 @@ items:
       content: static EnvironmentType type
       return:
         type:
-          - EnvironmentType
+          - '@@microsoft/sp-core-library.EnvironmentType'
