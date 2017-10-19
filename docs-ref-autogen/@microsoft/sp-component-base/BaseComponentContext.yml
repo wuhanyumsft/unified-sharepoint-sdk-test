@@ -14,7 +14,6 @@ items:
     type: class
     summary: The base class for context objects for client-side components.
     package: '@microsoft/sp-component-base'
-    isPreview: true
     remarks: >-
       A "context" object is a collection of well-known services and other
 

@@ -12,7 +12,6 @@ items:
     type: class
     summary: Represents a framework event that components can subscribe to.
     package: '@microsoft/sp-core-library'
-    isPreview: true
     remarks: >-
       Examples of events in a web application might include: the user clicking a
       button, the system navigating to

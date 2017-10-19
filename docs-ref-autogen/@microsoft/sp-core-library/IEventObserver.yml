@@ -17,7 +17,6 @@ items:
     extends:
       name: '@@microsoft/sp-core-library.IDisposable'
     package: '@microsoft/sp-core-library'
-    isPreview: true
     remarks: >-
       IEventObserver is an abstraction of the key features that a component must
       have in order

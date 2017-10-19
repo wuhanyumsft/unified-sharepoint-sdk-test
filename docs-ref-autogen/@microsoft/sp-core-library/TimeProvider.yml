@@ -55,7 +55,6 @@ items:
         type:
           - >-
             @@microsoft/sp-core-library.ServiceKey<@@microsoft/sp-core-library.ITimeProvider>
-    isPreview: true
   - uid: '@microsoft/sp-core-library.TimeProvider.constructor'
     name: TimeProvider
     children: []

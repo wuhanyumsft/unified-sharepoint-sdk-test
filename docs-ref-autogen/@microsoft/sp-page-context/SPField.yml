@@ -21,7 +21,6 @@ items:
 
       A field represents the data model for a column in SharePoint list view.
     package: '@microsoft/sp-page-context'
-    isPreview: true
   - uid: '@microsoft/sp-page-context.SPField.clientSideComponentId'
     name: clientSideComponentId
     fullName: clientSideComponentId

@@ -17,7 +17,6 @@ items:
       The base class for client-side components such as BaseClientSideWebPart or
       BaseExtension.
     package: '@microsoft/sp-component-base'
-    isPreview: true
     remarks: >-
       The constructor for this class is marked as internal; third-party code
       should not inherit

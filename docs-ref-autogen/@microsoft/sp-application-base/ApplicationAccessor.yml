@@ -11,7 +11,6 @@ items:
     type: class
     summary: Provides access to the client-side application that is currently running.
     package: '@microsoft/sp-application-base'
-    isPreview: true
     remarks: >-
       The client-side application determines the user experience for an entire
       web page.

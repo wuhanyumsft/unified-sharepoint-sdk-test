@@ -18,7 +18,6 @@ items:
       enable third-party components to render custom content into designated
       regions on the page.
     package: '@microsoft/sp-application-base'
-    isPreview: true
     remarks: >-
       Placeholders are designated regions on the page, identified by one of the
       predefined

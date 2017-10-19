@@ -15,7 +15,6 @@ items:
       Represents custom content that is rendered inside a placeholder on a
       SharePoint page.
     package: '@microsoft/sp-application-base'
-    isPreview: true
     remarks: >-
       This object is returned by <xref:PlaceholderProvider.tryCreateContent>.
 

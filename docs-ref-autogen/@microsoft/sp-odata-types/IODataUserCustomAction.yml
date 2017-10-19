@@ -50,7 +50,6 @@ items:
       return:
         type:
           - string
-    isPreview: true
     remarks: 'Example: "359af2a7-b73c-4aac-874c-60a865da0be7"'
   - uid: >-
       @microsoft/sp-odata-types.IODataUserCustomAction.ClientSideComponentProperties
@@ -66,7 +65,6 @@ items:
       return:
         type:
           - string
-    isPreview: true
     remarks: >-
       This property is only used when a ClientSideComponentId is specified. It
       is optional.

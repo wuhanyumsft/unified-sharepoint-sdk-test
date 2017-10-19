@@ -13,7 +13,6 @@ items:
       The identifier for a content placeholder, which is a region on the
       page where third-party extensibility components can render custom content.
     package: '@microsoft/sp-application-base'
-    isPreview: true
     remarks: 'For more information about placeholders, see <xref:PlaceholderProvider>.'
   - uid: '@microsoft/sp-application-base.PlaceholderName.Top'
     name: Top
