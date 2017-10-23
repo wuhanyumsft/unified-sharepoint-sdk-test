@@ -15,22 +15,13 @@ items:
     extends:
       name: '@@microsoft/sp-extension-base.ExtensionContext'
     package: '@microsoft/sp-extension-base'
-    remarks: >-
-      The constructor for this class is marked as internal; third-party code
-      should not inherit
-
-      directly from this base class.
   - uid: '@microsoft/sp-extension-base.ExtensionContext.constructor'
     name: ExtensionContext
     children: []
     type: constructor
     langs:
       - typeScript
-    summary: >-
-      The constructor for this class is marked as internal; third-party code
-      should not inherit
-
-      directly from this base class.
+    summary: ''
     syntax:
       content: 'new ExtensionContext(parameters: IExtensionContextParameters)'
       parameters:

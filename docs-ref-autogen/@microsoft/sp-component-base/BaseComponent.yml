@@ -17,22 +17,13 @@ items:
       The base class for client-side components such as BaseClientSideWebPart or
       BaseExtension.
     package: '@microsoft/sp-component-base'
-    remarks: >-
-      The constructor for this class is marked as internal; third-party code
-      should not inherit
-
-      directly from this base class.
   - uid: '@microsoft/sp-component-base.BaseComponent.constructor'
     name: BaseComponent
     children: []
     type: constructor
     langs:
       - typeScript
-    summary: >-
-      The constructor for this class is marked as internal; third-party code
-      should not inherit
-
-      directly from this base class.
+    summary: ''
     syntax:
       content: new BaseComponent()
       parameters: []
