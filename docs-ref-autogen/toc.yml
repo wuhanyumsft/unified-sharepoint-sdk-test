@@ -137,6 +137,8 @@
       name: C
     - uid: '@microsoft/sp-core-library.DefaultLogHandler'
       name: DefaultLogHandler
+    - uid: '@microsoft/sp-core-library.DeferredClass'
+      name: DeferredClass
     - uid: '@microsoft/sp-core-library.DisplayMode'
       name: DisplayMode
     - uid: '@microsoft/sp-core-library.Environment'
@@ -482,6 +484,8 @@
       name: ClientSideWebPartStatusRenderer
     - uid: '@microsoft/sp-webpart-base.Compare'
       name: Compare
+    - uid: '@microsoft/sp-webpart-base.DeferredComponent'
+      name: DeferredComponent
     - uid: '@microsoft/sp-webpart-base.ErrorMessage'
       name: ErrorMessage
     - uid: '@microsoft/sp-webpart-base.EventAggregator'
@@ -498,6 +502,10 @@
       name: IClientSideWebPartInternal
     - uid: '@microsoft/sp-webpart-base.IClientSideWebPartStatusRenderer'
       name: IClientSideWebPartStatusRenderer
+    - uid: '@microsoft/sp-webpart-base.IDeferredComponentProps'
+      name: IDeferredComponentProps
+    - uid: '@microsoft/sp-webpart-base.IDeferredComponentState'
+      name: IDeferredComponentState
     - uid: '@microsoft/sp-webpart-base.IErrorMessageProps'
       name: IErrorMessageProps
     - uid: '@microsoft/sp-webpart-base.IEvent'

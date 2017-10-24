@@ -4,6 +4,9 @@ items:
     name: '@microsoft/sp-webpart-base'
     summary: ''
     children:
+      - '@microsoft/sp-webpart-base.DeferredComponent'
+      - '@microsoft/sp-webpart-base.IDeferredComponentProps'
+      - '@microsoft/sp-webpart-base.IDeferredComponentState'
       - '@microsoft/sp-webpart-base.IPlaceholderSpinnerProps'
       - '@microsoft/sp-webpart-base.PlaceholderSpinner'
       - '@microsoft/sp-webpart-base.IPlaceholderSpinnerState'
@@ -139,6 +142,12 @@ items:
     langs:
       - typeScript
 references:
+  - uid: '@microsoft/sp-webpart-base.DeferredComponent'
+    name: DeferredComponent
+  - uid: '@microsoft/sp-webpart-base.IDeferredComponentProps'
+    name: IDeferredComponentProps
+  - uid: '@microsoft/sp-webpart-base.IDeferredComponentState'
+    name: IDeferredComponentState
   - uid: '@microsoft/sp-webpart-base.IPlaceholderSpinnerProps'
     name: IPlaceholderSpinnerProps
   - uid: '@microsoft/sp-webpart-base.PlaceholderSpinner'
