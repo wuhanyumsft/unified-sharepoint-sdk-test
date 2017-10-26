@@ -75,6 +75,8 @@
       name: ISuiteNavOverrideStrings
     - uid: '@microsoft/sp-application-base.NavigationWrapper'
       name: NavigationWrapper
+    - uid: '@microsoft/sp-application-base.Navigator'
+      name: Navigator
     - uid: '@microsoft/sp-application-base.O365ShellWrapper'
       name: O365ShellWrapper
     - uid: '@microsoft/sp-application-base.OnPremSuiteNavDataSource'

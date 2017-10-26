@@ -23,6 +23,8 @@ items:
 
       the internal methods public or protected. These methods should not be
       available to web part developers.
+
+      See BaseClientSideWebPart.ts for documentation.
     extends:
       name: '@@microsoft/sp-webpart-base.IPropertyPaneControl'
     package: '@microsoft/sp-webpart-base'

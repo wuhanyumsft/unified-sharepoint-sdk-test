@@ -28,6 +28,9 @@ items:
       secondary dialog at a time. Additional requests
 
       to show more secondary dialogs are rejected.
+
+
+      See <xref:BaseDialog.secondaryDialogProvider> for how to use this.
   - uid: '@microsoft/sp-dialog.SecondaryDialogProvider.alert'
     name: alert
     children: []
@@ -49,8 +52,9 @@ items:
         - id: options
           type:
             - '@@microsoft/sp-dialog.IAlertOptions'
-          description: |
-            Dialog showing options @see <xref:IDialogShowOptions>
+          description: >
+            Dialog showing options. See <xref:IDialogShowOptions> for more
+            information.
           optional: true
       return:
         type:
@@ -76,9 +80,9 @@ items:
         - id: options
           type:
             - '@@microsoft/sp-dialog.IPromptOptions'
-          description: >
-            Dialog showing options @see <xref:IDialogShowOptions>.The
-            confirmOpen option will be ignored.
+          description: |
+            Dialog showing options. The confirmOpen option will be ignored.
+            See <xref:IDialogShowOptions> for more information.
           optional: true
       return:
         type:
@@ -105,9 +109,9 @@ items:
         - id: options
           type:
             - '@@microsoft/sp-dialog.IDialogShowOptions'
-          description: >
-            Dialog showing options @see <xref:IDialogShowOptions>.The
-            confirmOpen option will be ignored.
+          description: |
+            Dialog showing options. The confirmOpen option will be ignored.
+            See <xref:IDialogShowOptions> for more information.
           optional: true
       return:
         type:

@@ -13,4 +13,6 @@ items:
 
       if they want to utilize the Property Pane for configuration through the
       ClientSideWebPartManager.
+
+      See IClientSideWebPartInternal
     package: '@microsoft/sp-webpart-base'

@@ -6,6 +6,7 @@ items:
     children:
       - '@microsoft/sp-application-base.SuiteNavLinkIds.ABOUT_ME'
       - '@microsoft/sp-application-base.SuiteNavLinkIds.ADD_APP'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds.ADMIN'
       - '@microsoft/sp-application-base.SuiteNavLinkIds.ALCHEMY'
       - '@microsoft/sp-application-base.SuiteNavLinkIds.CALENDAR'
       - '@microsoft/sp-application-base.SuiteNavLinkIds.COMMUNITY'
@@ -67,6 +68,19 @@ items:
     summary: ''
     syntax:
       content: static string ADD_APP
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.ADMIN'
+    name: ADMIN
+    fullName: ADMIN
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string ADMIN
       return:
         type:
           - string

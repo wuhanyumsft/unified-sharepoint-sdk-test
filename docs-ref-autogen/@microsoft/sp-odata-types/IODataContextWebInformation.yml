@@ -17,7 +17,10 @@ items:
     type: interface
     summary: >-
       Represents an OData SP.ContextWebInformation object.  For more information
-      about this object
+      about this object,
+
+      see
+      <xref:https%3A%2F%2Fmsdn.microsoft.com%2Fen-us%2Flibrary%2Foffice%2Fjj860569.aspx>
     package: '@microsoft/sp-odata-types'
   - uid: >-
       @microsoft/sp-odata-types.IODataContextWebInformation.FormDigestTimeoutSeconds

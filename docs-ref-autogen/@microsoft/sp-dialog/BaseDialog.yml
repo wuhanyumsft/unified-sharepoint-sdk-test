@@ -205,8 +205,9 @@ items:
         - id: options
           type:
             - '@@microsoft/sp-dialog.IDialogShowOptions'
-          description: |
-            Dialog showing options @see <xref:IDialogShowOptions>
+          description: >
+            Dialog showing options.  See <xref:IDialogShowOptions> for more
+            information.
           optional: true
       return:
         type:

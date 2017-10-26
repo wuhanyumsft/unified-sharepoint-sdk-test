@@ -6,6 +6,7 @@ items:
     children:
       - '@microsoft/sp-http.SPHttpClientResponse.clone'
       - '@microsoft/sp-http.SPHttpClientResponse.constructor'
+      - '@microsoft/sp-http.SPHttpClientResponse.statusMessage'
     langs:
       - typeScript
     type: class
@@ -45,3 +46,18 @@ items:
           type:
             - Response
           description: ''
+  - uid: '@microsoft/sp-http.SPHttpClientResponse.statusMessage'
+    name: statusMessage
+    fullName: statusMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      User-friendly status message that includes the HTTP status, with the
+      correlation id and version of the server.
+    syntax:
+      content: string statusMessage
+      return:
+        type:
+          - string

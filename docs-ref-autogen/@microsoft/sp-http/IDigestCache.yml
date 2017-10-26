@@ -11,7 +11,7 @@ items:
     langs:
       - typeScript
     type: interface
-    summary: >-
+    summary: >
       IDigestCache is an internal service used by SPHttpClient to maintain a
       cache of request digests
 
@@ -22,11 +22,16 @@ items:
       header.  It is obtained
 
       by calling the "/_api/contextinfo" REST endpoint, and expires after a
-      server configurationurable amount
+      server configurable amount
 
-      of time.  For more information, see the MSDN article
+      of time.
 
-      "Complete basic operations using SharePoint 2013 REST endpoints".
+      For more information, see the MSDN article
+
+      [ "Complete basic operations using SharePoint 2013 REST endpoints"
+      ](https://msdn.microsoft.com/en-us/library/office/jj164022.aspx
+
+      )
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.IDigestCache.addDigestToCache'
     name: addDigestToCache

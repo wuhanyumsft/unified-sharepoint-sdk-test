@@ -8,7 +8,9 @@ items:
     langs:
       - typeScript
     type: class
-    summary: Utililty code to help manipulate JSON objects/strings.
+    summary: |-
+      Utililty code to help manipulate JSON objects/strings.
+      See <xref:http%3A%2F%2Fwww.json.org> for more information.
     package: '@microsoft/sp-core-library'
   - uid: '@microsoft/sp-core-library.JsonUtilities.encode'
     name: encode

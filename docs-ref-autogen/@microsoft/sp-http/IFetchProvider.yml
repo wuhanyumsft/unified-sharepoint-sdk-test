@@ -12,6 +12,10 @@ items:
       This is a ServiceScope interface that represents the basic contract of
       the ES6 Fetch API, without any additional SharePoint logic.
     package: '@microsoft/sp-http'
+    remarks: |-
+      See the
+      [| Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+      documentation for details.
   - uid: '@microsoft/sp-http.IFetchProvider.fetch'
     name: fetch
     children: []
@@ -31,3 +35,7 @@ items:
       return:
         type:
           - Promise<Response>
+    remarks: |-
+      See the
+      [| Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+      documentation for details.

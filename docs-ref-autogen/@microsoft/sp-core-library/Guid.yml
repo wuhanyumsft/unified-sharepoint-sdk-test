@@ -30,6 +30,10 @@ items:
       Math.random()
 
       function and may be not be suitable for some applications.
+
+
+      See [| RFC4122](https://www.ietf.org/rfc/rfc4122.txt) for more
+      information.
   - uid: '@microsoft/sp-core-library.Guid.empty'
     name: empty
     fullName: empty

@@ -26,6 +26,7 @@ items:
       - '@microsoft/sp-application-base.PlaceholderName'
       - '@microsoft/sp-application-base.PlaceholderProvider'
       - '@microsoft/sp-application-base.IPlaceholderCreateContentOptions'
+      - '@microsoft/sp-application-base.Navigator'
       - '@microsoft/sp-application-base.IComponentVisible'
       - '@microsoft/sp-application-base.ISPPage'
       - '@microsoft/sp-application-base.SPPageChrome'
@@ -106,6 +107,8 @@ references:
     name: PlaceholderProvider
   - uid: '@microsoft/sp-application-base.IPlaceholderCreateContentOptions'
     name: IPlaceholderCreateContentOptions
+  - uid: '@microsoft/sp-application-base.Navigator'
+    name: Navigator
   - uid: '@microsoft/sp-application-base.IComponentVisible'
     name: IComponentVisible
   - uid: '@microsoft/sp-application-base.ISPPage'

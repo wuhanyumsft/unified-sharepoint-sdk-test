@@ -10,6 +10,7 @@ items:
       - >-
         @microsoft/sp-webpart-base.ClientSideWebPartManager.fetchWebPartManifests
       - '@microsoft/sp-webpart-base.ClientSideWebPartManager.getWebPartManifests'
+      - '@microsoft/sp-webpart-base.ClientSideWebPartManager.isMaintenanceMode'
       - '@microsoft/sp-webpart-base.ClientSideWebPartManager.isPropertyPaneOpen'
       - >-
         @microsoft/sp-webpart-base.ClientSideWebPartManager.isPropertyPaneRenderedByWebPart
@@ -129,6 +130,19 @@ items:
       return:
         type:
           - 'IClientSideWebPartManifest<any>[]'
+  - uid: '@microsoft/sp-webpart-base.ClientSideWebPartManager.isMaintenanceMode'
+    name: isMaintenanceMode
+    fullName: isMaintenanceMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns true if the maintenanceMode query string parameter is provided.
+    syntax:
+      content: static boolean isMaintenanceMode
+      return:
+        type:
+          - boolean
   - uid: '@microsoft/sp-webpart-base.ClientSideWebPartManager.isPropertyPaneOpen'
     name: isPropertyPaneOpen
     children: []

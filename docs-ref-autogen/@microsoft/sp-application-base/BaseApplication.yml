@@ -33,7 +33,9 @@ items:
     langs:
       - typeScript
     type: property
-    summary: Overrides the alias value provided in the manifest.
+    summary: >-
+      Overrides the IClientSideComponentManifest.alias value provided in the
+      manifest.
     syntax:
       content: string alias
       return:

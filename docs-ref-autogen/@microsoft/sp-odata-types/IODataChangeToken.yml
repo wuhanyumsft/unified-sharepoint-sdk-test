@@ -10,7 +10,10 @@ items:
     type: interface
     summary: >-
       Represents an OData SP.ChangeToken object.  For more information about
-      this object
+      this object,
+
+      see
+      <xref:https%3A%2F%2Fmsdn.microsoft.com%2Fen-us%2Flibrary%2Foffice%2Fjj860569.aspx>
     package: '@microsoft/sp-odata-types'
   - uid: '@microsoft/sp-odata-types.IODataChangeToken.StringValue'
     name: StringValue

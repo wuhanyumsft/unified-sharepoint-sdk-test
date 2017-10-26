@@ -30,7 +30,7 @@ items:
     type: constructor
     langs:
       - typeScript
-    summary: ''
+    summary: See ClientSideWebPartManager
     syntax:
       content: 'new ClientSideWebPartMaintenanceModeManager(host: IWebPartHost)'
       parameters:
@@ -44,7 +44,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: ''
+    summary: See ClientSideWebPartManager
     syntax:
       content: 'function dispose(instanceId?: string)'
       parameters:
@@ -60,7 +60,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: ''
+    summary: See ClientSideWebPartManager
     syntax:
       content: 'function loadWebPart(context: IWebPartManagerContext)'
       parameters:
@@ -78,7 +78,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: ''
+    summary: See ClientSideWebPartManager
     syntax:
       content: 'function serialize(instanceId?: string)'
       parameters:
