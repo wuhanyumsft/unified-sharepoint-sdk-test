@@ -10,6 +10,14 @@ items:
     summary: Options for HttpClient
     extends:
       name: RequestInit
+    source:
+      path: httpClient/HttpClient.ts
+      startLine: 108
+      remote:
+        path: spfx-core/sp-http/src\httpClient/HttpClient.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
     remarks: |-
       This interface defines the options for the HttpClient operations such as

@@ -13,6 +13,14 @@ items:
       - typeScript
     type: class
     summary: Represents a command belonging to a command set.
+    source:
+      path: commandSet/Command.ts
+      startLine: 12
+      remote:
+        path: spfx-libraries/sp-listview-extensibility/src\commandSet/Command.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-listview-extensibility'
     remarks: >-
       The BaseListViewCommandSet extension type exposes generalized commands

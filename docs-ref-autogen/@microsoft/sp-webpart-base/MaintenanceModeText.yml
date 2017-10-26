@@ -12,6 +12,14 @@ items:
     extends:
       name: >-
         @@microsoft/sp-webpart-base.MaintenanceModeText<@@microsoft/sp-webpart-base.IMaintenanceModeTextProps>
+    source:
+      path: maintenanceMode/MaintenanceModeText.tsx
+      startLine: 14
+      remote:
+        path: spfx-core/sp-webpart-base/src\maintenanceMode/MaintenanceModeText.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.MaintenanceModeText.render'
     name: render

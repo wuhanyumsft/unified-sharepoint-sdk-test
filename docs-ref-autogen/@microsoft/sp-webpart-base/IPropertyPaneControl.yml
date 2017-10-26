@@ -15,4 +15,13 @@ items:
       ClientSideWebPartManager.
 
       See IClientSideWebPartInternal
+    source:
+      path: propertyPane/propertyPaneControl/IPropertyPaneControl.ts
+      startLine: 18
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneControl/IPropertyPaneControl.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'

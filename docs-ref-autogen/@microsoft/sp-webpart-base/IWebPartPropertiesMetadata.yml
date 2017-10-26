@@ -10,6 +10,14 @@ items:
     summary: >-
       This structure is used to define metadata for web part properties as a map
       of string to IWebPartPropertyMetadata
+    source:
+      path: core/IWebPartPropertiesMetadata.ts
+      startLine: 42
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/IWebPartPropertiesMetadata.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
     remarks: >-
       The key should be a JSON path to the property in web part properties. The

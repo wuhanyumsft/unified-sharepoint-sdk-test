@@ -11,6 +11,15 @@ items:
     summary: >-
       This is a <xref:ServiceScope> contract for generating pseudorandom random
       numbers.
+    source:
+      path: serviceScope/provider/RandomNumberGenerator.ts
+      startLine: 16
+      remote:
+        path: >-
+          spfx-core/sp-core-library/src\serviceScope/provider/RandomNumberGenerator.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-core-library'
     remarks: >-
       This interface abstracts the functionality of the system Math.random() API

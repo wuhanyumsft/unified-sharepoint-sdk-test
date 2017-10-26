@@ -13,6 +13,14 @@ items:
       function.
     extends:
       name: '@@microsoft/sp-webpart-base.ISuccessExtraData'
+    source:
+      path: core/ClientSideWebPartManager.ts
+      startLine: 82
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/ClientSideWebPartManager.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IUnexpectedFailureExtraData.instanceId'
     name: instanceId

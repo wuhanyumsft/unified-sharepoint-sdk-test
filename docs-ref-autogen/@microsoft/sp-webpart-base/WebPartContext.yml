@@ -25,6 +25,14 @@ items:
       a contextual instance to the http client.
     extends:
       name: '@@microsoft/sp-webpart-base.WebPartContext'
+    source:
+      path: core/WebPartContext.ts
+      startLine: 36
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/WebPartContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
     isPreview: true
   - uid: '@microsoft/sp-webpart-base.WebPartContext.domElement'

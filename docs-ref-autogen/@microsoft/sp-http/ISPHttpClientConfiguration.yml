@@ -14,6 +14,14 @@ items:
     summary: Flags interface for SPHttpClientConfiguration.
     extends:
       name: '@@microsoft/sp-http.ISPHttpClientCommonConfiguration'
+    source:
+      path: spHttpClient/SPHttpClientConfiguration.ts
+      startLine: 12
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/SPHttpClientConfiguration.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.ISPHttpClientConfiguration.defaultODataVersion'
     name: defaultODataVersion

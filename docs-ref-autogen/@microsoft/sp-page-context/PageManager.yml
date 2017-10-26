@@ -25,6 +25,14 @@ items:
       service call,
 
       but it is not a full cache with invalidation and change notifications.
+    source:
+      path: pageManager/PageManager.ts
+      startLine: 21
+      remote:
+        path: spfx-core/sp-page-context/src\pageManager/PageManager.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-page-context'
   - uid: '@microsoft/sp-page-context.PageManager.navigateToPage'
     name: navigateToPage

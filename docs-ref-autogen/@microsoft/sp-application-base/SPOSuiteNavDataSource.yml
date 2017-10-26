@@ -11,6 +11,15 @@ items:
       - typeScript
     type: class
     summary: ''
+    source:
+      path: suiteNav/dataAccess/SPOSuiteNavDataSource.ts
+      startLine: 16
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\suiteNav/dataAccess/SPOSuiteNavDataSource.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: '@microsoft/sp-application-base.SPOSuiteNavDataSource.loadData'
     name: loadData

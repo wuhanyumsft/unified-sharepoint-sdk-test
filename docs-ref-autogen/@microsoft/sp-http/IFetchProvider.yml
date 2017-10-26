@@ -11,6 +11,14 @@ items:
     summary: |-
       This is a ServiceScope interface that represents the basic contract of
       the ES6 Fetch API, without any additional SharePoint logic.
+    source:
+      path: httpClient/FetchProvider.ts
+      startLine: 14
+      remote:
+        path: spfx-core/sp-http/src\httpClient/FetchProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
     remarks: |-
       See the

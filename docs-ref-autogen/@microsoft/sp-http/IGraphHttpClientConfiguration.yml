@@ -10,5 +10,13 @@ items:
     summary: Flags interface for GraphHttpClientCommonConfiguration
     extends:
       name: '@@microsoft/sp-http.IHttpClientConfiguration'
+    source:
+      path: graphHttpClient/GraphHttpClientConfiguration.ts
+      startLine: 9
+      remote:
+        path: spfx-core/sp-http/src\graphHttpClient/GraphHttpClientConfiguration.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
     isPreview: true

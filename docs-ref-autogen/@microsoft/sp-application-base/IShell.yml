@@ -23,6 +23,14 @@ items:
       constructs the BaseApplication object, and initializes key services such
 
       as the page chrome, page context, or HTTP client.
+    source:
+      path: shell/Shell.ts
+      startLine: 46
+      remote:
+        path: spfx-core/sp-application-base/src\shell/Shell.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: '@microsoft/sp-application-base.IShell.applicationCustomizerLoader'
     name: applicationCustomizerLoader

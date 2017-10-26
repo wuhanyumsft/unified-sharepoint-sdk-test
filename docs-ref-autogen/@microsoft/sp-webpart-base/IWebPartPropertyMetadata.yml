@@ -13,6 +13,14 @@ items:
       - typeScript
     type: interface
     summary: This is the structure used for map values in IWebPartPropertiesMetadata
+    source:
+      path: core/IWebPartPropertiesMetadata.ts
+      startLine: 51
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/IWebPartPropertiesMetadata.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IWebPartPropertyMetadata.isHtmlString'
     name: isHtmlString

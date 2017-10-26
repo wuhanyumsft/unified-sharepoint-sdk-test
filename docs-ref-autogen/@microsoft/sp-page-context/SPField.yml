@@ -20,6 +20,14 @@ items:
       property of SPList and SPListItem classes.
 
       A field represents the data model for a column in SharePoint list view.
+    source:
+      path: SPField.ts
+      startLine: 36
+      remote:
+        path: spfx-core/sp-page-context/src\SPField.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-page-context'
   - uid: '@microsoft/sp-page-context.SPField.clientSideComponentId'
     name: clientSideComponentId

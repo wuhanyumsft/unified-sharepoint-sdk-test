@@ -12,6 +12,14 @@ items:
     summary: |-
       This interface represents the object returned from a successful request
       to the Azure AD for an OAuth2 token.
+    source:
+      path: oauthTokenProvider/OAuth2TokenProvider.ts
+      startLine: 11
+      remote:
+        path: spfx-core/sp-http/src\oauthTokenProvider/OAuth2TokenProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.IOAuth2Token.message'
     name: message

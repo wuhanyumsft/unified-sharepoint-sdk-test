@@ -15,6 +15,14 @@ items:
       - typeScript
     type: interface
     summary: ''
+    source:
+      path: SPField.ts
+      startLine: 7
+      remote:
+        path: spfx-core/sp-page-context/src\SPField.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-page-context'
   - uid: '@microsoft/sp-page-context.ISPFieldData.clientSideComponentId'
     name: clientSideComponentId

@@ -15,6 +15,14 @@ items:
     extends:
       name: >-
         @@microsoft/sp-dialog.PromptDialogReact<@@microsoft/sp-dialog.IPromptDialogReactProps>
+    source:
+      path: PromptDialog.tsx
+      startLine: 25
+      remote:
+        path: spfx-libraries/sp-dialog/src\PromptDialog.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-dialog'
   - uid: '@microsoft/sp-dialog.PromptDialogReact.componentDidUpdate'
     name: componentDidUpdate

@@ -13,6 +13,15 @@ items:
       - typeScript
     type: class
     summary: Provides access to a SharePoint ListView control.
+    source:
+      path: common/ListViewAccessor.ts
+      startLine: 78
+      remote:
+        path: >-
+          spfx-libraries/sp-listview-extensibility/src\common/ListViewAccessor.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-listview-extensibility'
   - uid: '@microsoft/sp-listview-extensibility.ListViewAccessor.columns'
     name: columns

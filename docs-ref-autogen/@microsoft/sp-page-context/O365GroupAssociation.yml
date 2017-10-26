@@ -15,6 +15,14 @@ items:
       associated with an O365
 
       group, this object provides contextual information about the group.
+    source:
+      path: O365GroupAssociation.ts
+      startLine: 35
+      remote:
+        path: spfx-core/sp-page-context/src\O365GroupAssociation.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-page-context'
   - uid: '@microsoft/sp-page-context.O365GroupAssociation.id'
     name: id

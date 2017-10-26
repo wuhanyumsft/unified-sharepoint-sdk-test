@@ -9,6 +9,14 @@ items:
       - typeScript
     type: interface
     summary: Standard configurations for GraphHttpClient.
+    source:
+      path: graphHttpClient/GraphHttpClientConfiguration.ts
+      startLine: 54
+      remote:
+        path: spfx-core/sp-http/src\graphHttpClient/GraphHttpClientConfiguration.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
     isPreview: true
     remarks: >-

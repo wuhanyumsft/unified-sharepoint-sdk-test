@@ -14,6 +14,14 @@ items:
 
       see
       <xref:https%3A%2F%2Fmsdn.microsoft.com%2Fen-us%2Flibrary%2Foffice%2Fjj860569.aspx>
+    source:
+      path: SmallTypes.ts
+      startLine: 7
+      remote:
+        path: spfx-core/sp-odata-types/src\SmallTypes.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-odata-types'
   - uid: '@microsoft/sp-odata-types.IODataChangeToken.StringValue'
     name: StringValue

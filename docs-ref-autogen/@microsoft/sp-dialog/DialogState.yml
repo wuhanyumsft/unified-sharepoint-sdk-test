@@ -16,6 +16,14 @@ items:
       - typeScript
     type: enum
     summary: The states for our internal state machine that manages dialogs
+    source:
+      path: BaseDialog.ts
+      startLine: 24
+      remote:
+        path: spfx-libraries/sp-dialog/src\BaseDialog.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-dialog'
   - uid: '@microsoft/sp-dialog.DialogState.Aborted'
     name: Aborted

@@ -11,6 +11,14 @@ items:
       - typeScript
     type: interface
     summary: Placeholder cache data for the Dom element
+    source:
+      path: core/ClientSideWebPartStatusRenderer.ts
+      startLine: 26
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/ClientSideWebPartStatusRenderer.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IActiveIndicatorCache.isErrorBeingRendered'
     name: isErrorBeingRendered

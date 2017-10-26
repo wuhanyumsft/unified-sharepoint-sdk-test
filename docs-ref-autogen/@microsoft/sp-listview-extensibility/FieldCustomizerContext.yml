@@ -14,6 +14,15 @@ items:
     summary: This object provides contextual information for BaseFieldCustomizer.
     extends:
       name: '@@microsoft/sp-listview-extensibility.FieldCustomizerContext'
+    source:
+      path: fieldCustomizer/FieldCustomizerContext.ts
+      startLine: 20
+      remote:
+        path: >-
+          spfx-libraries/sp-listview-extensibility/src\fieldCustomizer/FieldCustomizerContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-listview-extensibility'
   - uid: '@microsoft/sp-listview-extensibility.FieldCustomizerContext.field'
     name: field

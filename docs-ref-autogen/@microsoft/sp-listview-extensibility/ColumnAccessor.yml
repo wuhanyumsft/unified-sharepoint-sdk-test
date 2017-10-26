@@ -13,6 +13,15 @@ items:
     summary: |-
       Provides access to a ListView column, which is the visual presentation
       of a field.
+    source:
+      path: common/ListViewAccessor.ts
+      startLine: 18
+      remote:
+        path: >-
+          spfx-libraries/sp-listview-extensibility/src\common/ListViewAccessor.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-listview-extensibility'
     remarks: >-
       A SharePoint "field" (SPField) defines the data storage for a property of

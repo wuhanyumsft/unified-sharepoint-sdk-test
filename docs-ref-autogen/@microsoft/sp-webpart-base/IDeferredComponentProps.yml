@@ -11,6 +11,15 @@ items:
       - typeScript
     type: interface
     summary: Deferred component props.
+    source:
+      path: components/deferredComponent/DeferredComponent.tsx
+      startLine: 13
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\components/deferredComponent/DeferredComponent.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IDeferredComponentProps.deferredProps'
     name: deferredProps

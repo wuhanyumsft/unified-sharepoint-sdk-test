@@ -10,6 +10,14 @@ items:
       - typeScript
     type: class
     summary: Provides access to the client-side application that is currently running.
+    source:
+      path: extensibility/ApplicationAccessor.ts
+      startLine: 23
+      remote:
+        path: spfx-core/sp-application-base/src\extensibility/ApplicationAccessor.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
     remarks: >-
       The client-side application determines the user experience for an entire

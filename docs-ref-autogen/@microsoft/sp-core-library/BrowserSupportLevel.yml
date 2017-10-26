@@ -12,6 +12,14 @@ items:
       - typeScript
     type: enum
     summary: Browser support level for a component.
+    source:
+      path: IBrowserCompatibility.ts
+      startLine: 32
+      remote:
+        path: spfx-core/sp-core-library/src\IBrowserCompatibility.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-core-library'
     remarks: >-
       Allow to establish different levels, including blocked, where the

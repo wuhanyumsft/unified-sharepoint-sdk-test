@@ -42,6 +42,14 @@ items:
       for testing the
 
       OAuth2TokenProvider class
+    source:
+      path: oauthTokenProvider/test/MockAdalJsAuthContext.ts
+      startLine: 12
+      remote:
+        path: spfx-core/sp-http/src\oauthTokenProvider/test/MockAdalJsAuthContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.MockAdalJsAuthContext.acquireToken'
     name: acquireToken

@@ -12,6 +12,14 @@ items:
     summary: Configuration for SPHttpClientBatch.
     extends:
       name: '@@microsoft/sp-http.SPHttpClientCommonConfiguration'
+    source:
+      path: spHttpClient/SPHttpClientBatchConfiguration.ts
+      startLine: 25
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/SPHttpClientBatchConfiguration.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
     remarks: >-
       The SPHttpClientBatchConfiguration object provides a set of switches for

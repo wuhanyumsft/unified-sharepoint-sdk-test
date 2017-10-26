@@ -8,6 +8,14 @@ items:
       - typeScript
     type: class
     summary: 'The base class for event arguments used with the <xref:Event> class.'
+    source:
+      path: events/EventArgs.ts
+      startLine: 10
+      remote:
+        path: spfx-core/sp-core-library/src\events/EventArgs.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-core-library'
     remarks: >-
       If certain event types need to provide additional details, they will

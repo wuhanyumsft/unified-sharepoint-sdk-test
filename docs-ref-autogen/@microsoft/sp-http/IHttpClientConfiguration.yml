@@ -8,4 +8,12 @@ items:
       - typeScript
     type: interface
     summary: Flags interface for HttpClientConfiguration.
+    source:
+      path: httpClient/HttpClientConfiguration.ts
+      startLine: 8
+      remote:
+        path: spfx-core/sp-http/src\httpClient/HttpClientConfiguration.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'

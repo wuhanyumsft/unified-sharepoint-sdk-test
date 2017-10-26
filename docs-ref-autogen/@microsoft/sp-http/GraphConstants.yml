@@ -12,6 +12,14 @@ items:
     summary: |-
       Internal constants used for the Graph Http Client
       PBI 413231 - Remove hard-coded graph endpoint URL from GraphHttpClient.
+    source:
+      path: graphHttpClient/GraphConstants.ts
+      startLine: 6
+      remote:
+        path: spfx-core/sp-http/src\graphHttpClient/GraphConstants.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.GraphConstants.EDOG_OAUTH_TOKEN_URL'
     name: EDOG_OAUTH_TOKEN_URL

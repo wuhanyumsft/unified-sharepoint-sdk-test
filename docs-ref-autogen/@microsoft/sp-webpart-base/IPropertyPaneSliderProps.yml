@@ -16,6 +16,16 @@ items:
       - typeScript
     type: interface
     summary: PropertyPaneSliderProps component props.
+    source:
+      path: >-
+        propertyPane/propertyPaneFields/propertyPaneSlider/IPropertyPaneSlider.ts
+      startLine: 8
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFields/propertyPaneSlider/IPropertyPaneSlider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneSliderProps.ariaLabel'
     name: ariaLabel

@@ -10,6 +10,15 @@ items:
       - typeScript
     type: interface
     summary: Constructor parameters for ApplicationCustomizerContext.
+    source:
+      path: extensibility/ApplicationCustomizerContext.ts
+      startLine: 10
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/ApplicationCustomizerContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: >-
       @microsoft/sp-application-base.IApplicationCustomizerContextParameters.sequence

@@ -10,6 +10,15 @@ items:
       - typeScript
     type: interface
     summary: Property pane title bar properties.
+    source:
+      path: propertyPane/propertyPaneTitleBar/PropertyPaneTitleBar.tsx
+      startLine: 20
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneTitleBar/PropertyPaneTitleBar.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneTitleBarProps.onClose'
     name: onClose

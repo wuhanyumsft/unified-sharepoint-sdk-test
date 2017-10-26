@@ -46,6 +46,14 @@ items:
       - typeScript
     type: interface
     summary: Names for overrideable suite nav strings.
+    source:
+      path: suiteNav/ISuiteNavOverrideStrings.ts
+      startLine: 8
+      remote:
+        path: spfx-core/sp-application-base/src\suiteNav/ISuiteNavOverrideStrings.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: >-
       @microsoft/sp-application-base.ISuiteNavOverrideStrings.l_Shell15_Affordance_Text

@@ -19,6 +19,14 @@ items:
       - typeScript
     type: interface
     summary: Object that represents the data necessary to build an SPSite object.
+    source:
+      path: SPSite.ts
+      startLine: 9
+      remote:
+        path: spfx-core/sp-page-context/src\SPSite.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-page-context'
   - uid: '@microsoft/sp-page-context.ISPSiteData.absoluteUrl'
     name: absoluteUrl

@@ -13,6 +13,14 @@ items:
     extends:
       name: >-
         @@microsoft/sp-webpart-base.ErrorMessage<@@microsoft/sp-webpart-base.IErrorMessageProps>
+    source:
+      path: core/ErrorMessage.tsx
+      startLine: 22
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/ErrorMessage.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.ErrorMessage.constructor'
     name: ErrorMessage

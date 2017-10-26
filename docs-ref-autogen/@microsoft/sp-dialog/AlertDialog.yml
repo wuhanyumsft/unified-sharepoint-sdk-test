@@ -15,6 +15,14 @@ items:
       Third-party can use this by calling the static method Dialog.alert()
     extends:
       name: '@@microsoft/sp-dialog.BaseDialog'
+    source:
+      path: AlertDialog.tsx
+      startLine: 40
+      remote:
+        path: spfx-libraries/sp-dialog/src\AlertDialog.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-dialog'
   - uid: '@microsoft/sp-dialog.AlertDialog.constructor'
     name: AlertDialog

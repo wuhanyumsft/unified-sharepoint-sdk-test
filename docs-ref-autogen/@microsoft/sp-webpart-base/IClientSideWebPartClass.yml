@@ -11,6 +11,14 @@ items:
     summary: >-
       This interface describes the web part class type (versus a web part object
       instance).
+    source:
+      path: core/IClientSideWebPartInternal.ts
+      startLine: 18
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/IClientSideWebPartInternal.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IClientSideWebPartClass.constructor'
     name: IClientSideWebPartClass

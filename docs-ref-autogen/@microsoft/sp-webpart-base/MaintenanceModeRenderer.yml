@@ -9,6 +9,15 @@ items:
       - typeScript
     type: class
     summary: ''
+    source:
+      path: maintenanceMode/MaintenanceModeRenderer.ts
+      startLine: 28
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\maintenanceMode/MaintenanceModeRenderer.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.MaintenanceModeRenderer.render'
     name: render

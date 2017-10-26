@@ -13,6 +13,14 @@ items:
     summary: The Response subclass returned by methods such as SPHttpClient.fetch().
     extends:
       name: '@@microsoft/sp-http.HttpClientResponse'
+    source:
+      path: spHttpClient/SPHttpClientResponse.ts
+      startLine: 14
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/SPHttpClientResponse.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
     remarks: >-
       This is a placeholder.  In the future, additional SPHttpClient-specific

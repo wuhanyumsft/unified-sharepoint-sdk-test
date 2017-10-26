@@ -36,6 +36,14 @@ items:
       - typeScript
     type: interface
     summary: ''
+    source:
+      path: suiteNav/models/ISuiteNavData.ts
+      startLine: 14
+      remote:
+        path: spfx-core/sp-application-base/src\suiteNav/models/ISuiteNavData.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: '@microsoft/sp-application-base.ISuiteNavData.AboutMeLink'
     name: AboutMeLink

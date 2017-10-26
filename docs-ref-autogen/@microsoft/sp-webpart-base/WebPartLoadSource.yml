@@ -11,6 +11,14 @@ items:
       - typeScript
     type: enum
     summary: The source which triggered loading of the web part.
+    source:
+      path: core/ViewportLoader.ts
+      startLine: 21
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/ViewportLoader.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.WebPartLoadSource.viewport'
     name: viewport

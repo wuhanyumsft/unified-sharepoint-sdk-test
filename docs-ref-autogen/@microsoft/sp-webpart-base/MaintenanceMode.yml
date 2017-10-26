@@ -12,6 +12,14 @@ items:
     extends:
       name: >-
         @@microsoft/sp-webpart-base.MaintenanceMode<@@microsoft/sp-webpart-base.IMaintenanceModeProps>
+    source:
+      path: maintenanceMode/MaintenanceMode.tsx
+      startLine: 31
+      remote:
+        path: spfx-core/sp-webpart-base/src\maintenanceMode/MaintenanceMode.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.MaintenanceMode.render'
     name: render

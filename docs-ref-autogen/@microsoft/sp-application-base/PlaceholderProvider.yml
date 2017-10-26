@@ -17,6 +17,15 @@ items:
 
       enable third-party components to render custom content into designated
       regions on the page.
+    source:
+      path: extensibility/placeholder/PlaceholderProvider.ts
+      startLine: 45
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/placeholder/PlaceholderProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
     remarks: >-
       Placeholders are designated regions on the page, identified by one of the

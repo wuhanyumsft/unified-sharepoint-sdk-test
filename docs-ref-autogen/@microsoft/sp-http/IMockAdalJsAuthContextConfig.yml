@@ -10,6 +10,14 @@ items:
       - typeScript
     type: interface
     summary: ''
+    source:
+      path: oauthTokenProvider/test/MockAdalJsAuthContext.ts
+      startLine: 3
+      remote:
+        path: spfx-core/sp-http/src\oauthTokenProvider/test/MockAdalJsAuthContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.IMockAdalJsAuthContextConfig.displayCall'
     name: displayCall

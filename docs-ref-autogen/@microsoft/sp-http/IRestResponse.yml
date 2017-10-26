@@ -10,6 +10,14 @@ items:
       - typeScript
     type: interface
     summary: Represents the JSON response of the /_api/contextinfo REST call.
+    source:
+      path: spHttpClient/DigestCache.ts
+      startLine: 165
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/DigestCache.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.IRestResponse.FormDigestTimeoutSeconds'
     name: FormDigestTimeoutSeconds

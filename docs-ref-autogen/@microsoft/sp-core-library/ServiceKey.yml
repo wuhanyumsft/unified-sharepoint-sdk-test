@@ -17,6 +17,14 @@ items:
       <xref:ServiceScope.consume>
 
       to fetch a dependency.
+    source:
+      path: serviceScope/ServiceKey.ts
+      startLine: 21
+      remote:
+        path: spfx-core/sp-core-library/src\serviceScope/ServiceKey.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-core-library'
     remarks: >-
       Every service key also provides a default implementation of the

@@ -12,6 +12,14 @@ items:
     summary: >-
       Utility class to help fixup web part DOM in classic pages to make the
       behaviour consistent.
+    source:
+      path: core/classicPages/ClassicPageUtils.ts
+      startLine: 17
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/classicPages/ClassicPageUtils.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.ClassicPageUtils.disableAutomaticPostbacks'
     name: disableAutomaticPostbacks

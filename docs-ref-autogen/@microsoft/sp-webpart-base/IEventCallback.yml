@@ -8,4 +8,12 @@ items:
       - typeScript
     type: interface
     summary: Event callback
+    source:
+      path: core/events/IEvent.ts
+      startLine: 19
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/events/IEvent.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'

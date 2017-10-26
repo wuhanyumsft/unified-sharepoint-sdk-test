@@ -11,6 +11,14 @@ items:
       - typeScript
     type: class
     summary: ''
+    source:
+      path: oauthTokenProvider/OAuthUtilityContext.ts
+      startLine: 12
+      remote:
+        path: spfx-core/sp-http/src\oauthTokenProvider/OAuthUtilityContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.TokenUtilityLogger.logError'
     name: logError

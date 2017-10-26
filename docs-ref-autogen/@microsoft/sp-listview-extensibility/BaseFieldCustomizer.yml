@@ -20,6 +20,15 @@ items:
       "FieldCustomizer".
     extends:
       name: '@@microsoft/sp-listview-extensibility.BaseFieldCustomizer<TProperties>'
+    source:
+      path: fieldCustomizer/BaseFieldCustomizer.ts
+      startLine: 50
+      remote:
+        path: >-
+          spfx-libraries/sp-listview-extensibility/src\fieldCustomizer/BaseFieldCustomizer.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-listview-extensibility'
   - uid: '@microsoft/sp-listview-extensibility.BaseFieldCustomizer.onDisposeCell'
     name: onDisposeCell

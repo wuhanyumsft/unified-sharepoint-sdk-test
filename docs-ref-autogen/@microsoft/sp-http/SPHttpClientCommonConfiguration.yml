@@ -16,6 +16,14 @@ items:
       SPHttpClientBatchConfiguration.
     extends:
       name: '@@microsoft/sp-http.HttpClientConfiguration'
+    source:
+      path: spHttpClient/SPHttpClientCommonConfiguration.ts
+      startLine: 47
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/SPHttpClientCommonConfiguration.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.SPHttpClientCommonConfiguration.jsonRequest'
     name: jsonRequest

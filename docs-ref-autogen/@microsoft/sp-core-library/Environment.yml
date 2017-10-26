@@ -11,6 +11,14 @@ items:
     summary: >-
       Information about the system environment where the SharePoint Framework is
       running.
+    source:
+      path: Environment.ts
+      startLine: 55
+      remote:
+        path: spfx-core/sp-core-library/src\Environment.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-core-library'
   - uid: '@microsoft/sp-core-library.Environment.type'
     name: type

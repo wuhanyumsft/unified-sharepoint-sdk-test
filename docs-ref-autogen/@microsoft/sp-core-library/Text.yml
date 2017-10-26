@@ -9,6 +9,14 @@ items:
       - typeScript
     type: class
     summary: Operations for working with strings that contain text.
+    source:
+      path: Text.ts
+      startLine: 12
+      remote:
+        path: spfx-core/sp-core-library/src\Text.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-core-library'
     remarks: >-
       The utilities provided by this class are intended to be simple, small, and

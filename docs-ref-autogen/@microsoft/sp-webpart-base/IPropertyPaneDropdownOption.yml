@@ -12,6 +12,16 @@ items:
       - typeScript
     type: interface
     summary: PropertyPane drop down options.
+    source:
+      path: >-
+        propertyPane/propertyPaneFields/propertyPaneDropdown/IPropertyPaneDropdown.ts
+      startLine: 41
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFields/propertyPaneDropdown/IPropertyPaneDropdown.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneDropdownOption.index'
     name: index

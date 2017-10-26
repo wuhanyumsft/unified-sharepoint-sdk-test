@@ -97,6 +97,14 @@ items:
       3. No plans to add to add to the PageContext api
 
        @internal
+    source:
+      path: IODataPageContextInfo.ts
+      startLine: 14
+      remote:
+        path: spfx-core/sp-odata-types/src\IODataPageContextInfo.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-odata-types'
   - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.alertsEnabled'
     name: alertsEnabled

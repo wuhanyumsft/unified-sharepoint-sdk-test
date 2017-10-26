@@ -21,6 +21,14 @@ items:
       implemenation of how web parts display
 
       loading indicators and error messages.
+    source:
+      path: core/ClientSideWebPartStatusRenderer.ts
+      startLine: 40
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/ClientSideWebPartStatusRenderer.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.ClientSideWebPartStatusRenderer.clearError'
     name: clearError

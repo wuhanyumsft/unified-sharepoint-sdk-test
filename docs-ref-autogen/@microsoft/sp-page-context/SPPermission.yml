@@ -49,6 +49,14 @@ items:
       - typeScript
     type: class
     summary: Used to test whether the current user has a requested set of permissions.
+    source:
+      path: SPPermission.ts
+      startLine: 15
+      remote:
+        path: spfx-core/sp-page-context/src\SPPermission.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-page-context'
     remarks: >-
       Specifies the built-in permissions available in SharePoint Foundation

@@ -9,6 +9,14 @@ items:
       - typeScript
     type: interface
     summary: Standard configurations for HttpClient.
+    source:
+      path: httpClient/HttpClientConfiguration.ts
+      startLine: 82
+      remote:
+        path: spfx-core/sp-http/src\httpClient/HttpClientConfiguration.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
     remarks: >-
       This interface provides standard predefined HttpClientConfiguration

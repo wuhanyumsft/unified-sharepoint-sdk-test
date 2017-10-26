@@ -16,6 +16,14 @@ items:
 
       It is extended by IWebPartData which contains additional data added by the
       framework to the serialized data.
+    source:
+      path: core/ISerializedWebPartData.ts
+      startLine: 18
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/ISerializedWebPartData.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.ISerializedWebPartData.dataVersion'
     name: dataVersion

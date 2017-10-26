@@ -26,6 +26,14 @@ items:
 
       events, and provides the type safety. This class should not be exposed to
       third-parties directly.
+    source:
+      path: events/EventManager.ts
+      startLine: 23
+      remote:
+        path: spfx-core/sp-core-library/src\events/EventManager.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-core-library'
   - uid: '@microsoft/sp-core-library.EventManager.constructor'
     name: EventManager

@@ -10,6 +10,14 @@ items:
       - typeScript
     type: class
     summary: ''
+    source:
+      path: core/events/test/EventMocks.ts
+      startLine: 7
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/events/test/EventMocks.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.MockEvent.sourceId'
     name: sourceId

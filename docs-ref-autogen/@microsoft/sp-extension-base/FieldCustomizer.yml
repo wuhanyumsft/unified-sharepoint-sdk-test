@@ -14,6 +14,14 @@ items:
       - typeScript
     type: class
     summary: ''
+    source:
+      path: tab/FieldCustomizer.ts
+      startLine: 3
+      remote:
+        path: spfx-core/sp-extension-base/src\tab/FieldCustomizer.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-extension-base'
   - uid: '@microsoft/sp-extension-base.FieldCustomizer.constructor'
     name: FieldCustomizer

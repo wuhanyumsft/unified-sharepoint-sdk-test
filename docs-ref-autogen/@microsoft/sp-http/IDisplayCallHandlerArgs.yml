@@ -10,6 +10,14 @@ items:
       - typeScript
     type: interface
     summary: ''
+    source:
+      path: oauthTokenProvider/OAuth2TokenProvider.ts
+      startLine: 340
+      remote:
+        path: spfx-core/sp-http/src\oauthTokenProvider/OAuth2TokenProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.IDisplayCallHandlerArgs.redirectUri'
     name: redirectUri

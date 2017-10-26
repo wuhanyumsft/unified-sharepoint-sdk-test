@@ -15,6 +15,14 @@ items:
       by calling
 
       this.secondaryManagerProvider inside a dialog.
+    source:
+      path: Dialog.ts
+      startLine: 110
+      remote:
+        path: spfx-libraries/sp-dialog/src\Dialog.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-dialog'
     isPreview: true
     remarks: >-

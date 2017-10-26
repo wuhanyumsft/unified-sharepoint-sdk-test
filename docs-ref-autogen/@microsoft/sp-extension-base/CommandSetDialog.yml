@@ -14,6 +14,14 @@ items:
       - typeScript
     type: class
     summary: Tests that Command Set Extensions functions correctly with dialogs.
+    source:
+      path: tab/CommandSetDialog.ts
+      startLine: 6
+      remote:
+        path: spfx-core/sp-extension-base/src\tab/CommandSetDialog.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-extension-base'
   - uid: '@microsoft/sp-extension-base.CommandSetDialog.constructor'
     name: CommandSetDialog

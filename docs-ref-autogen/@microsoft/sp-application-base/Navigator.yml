@@ -19,6 +19,14 @@ items:
 
       Updates all SPFx-internal data structures with the information from the
       new URL.
+    source:
+      path: navigator/Navigator.ts
+      startLine: 18
+      remote:
+        path: spfx-core/sp-application-base/src\navigator/Navigator.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: '@microsoft/sp-application-base.Navigator.navigate'
     name: navigate

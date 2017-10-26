@@ -12,6 +12,14 @@ items:
       - typeScript
     type: class
     summary: A basic redirectable logging system.
+    source:
+      path: log/Log.ts
+      startLine: 20
+      remote:
+        path: spfx-core/sp-core-library/src\log/Log.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-core-library'
     remarks: >-
       The Log class provides static methods for logging messages at different

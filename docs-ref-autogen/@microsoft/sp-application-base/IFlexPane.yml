@@ -10,6 +10,14 @@ items:
       - typeScript
     type: interface
     summary: This is an interface for the O365Shell.FlexPane external 'module.'
+    source:
+      path: suiteNav/IO365Shell.ts
+      startLine: 58
+      remote:
+        path: spfx-core/sp-application-base/src\suiteNav/IO365Shell.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: '@microsoft/sp-application-base.IFlexPane.OnFlexPaneVisibilityChanged'
     name: OnFlexPaneVisibilityChanged

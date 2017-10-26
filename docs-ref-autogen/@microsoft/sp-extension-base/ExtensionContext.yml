@@ -14,6 +14,14 @@ items:
     summary: The base class for context objects for client-side extensions.
     extends:
       name: '@@microsoft/sp-extension-base.ExtensionContext'
+    source:
+      path: ExtensionContext.ts
+      startLine: 18
+      remote:
+        path: spfx-core/sp-extension-base/src\ExtensionContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-extension-base'
   - uid: '@microsoft/sp-extension-base.ExtensionContext.constructor'
     name: ExtensionContext

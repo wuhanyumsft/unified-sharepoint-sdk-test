@@ -18,6 +18,14 @@ items:
       operations against
 
       a generic service.
+    source:
+      path: httpClient/HttpClient.ts
+      startLine: 25
+      remote:
+        path: spfx-core/sp-http/src\httpClient/HttpClient.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
     remarks: >-
       For communicating with SharePoint, use the <xref:SPHttpClient> class

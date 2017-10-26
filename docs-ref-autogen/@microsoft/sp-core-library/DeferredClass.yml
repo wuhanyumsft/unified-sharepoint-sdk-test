@@ -16,6 +16,14 @@ items:
     summary: >-
       DeferredClass is a generic class to define the pattern of code loaded
       after the initial code download.
+    source:
+      path: deferredClass/DeferredClass.ts
+      startLine: 27
+      remote:
+        path: spfx-core/sp-core-library/src\deferredClass/DeferredClass.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-core-library'
   - uid: '@microsoft/sp-core-library.DeferredClass.create'
     name: create

@@ -10,6 +10,14 @@ items:
       - typeScript
     type: class
     summary: Configuration for HttpClient.
+    source:
+      path: httpClient/HttpClientConfiguration.ts
+      startLine: 23
+      remote:
+        path: spfx-core/sp-http/src\httpClient/HttpClientConfiguration.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
     remarks: >-
       The HttpClientConfiguration object provides a set of switches for

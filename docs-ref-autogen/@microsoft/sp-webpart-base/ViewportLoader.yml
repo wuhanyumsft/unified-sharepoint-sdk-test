@@ -36,6 +36,14 @@ items:
       part is
 
       in the view.
+    source:
+      path: core/ViewportLoader.ts
+      startLine: 52
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/ViewportLoader.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.ViewportLoader.instance'
     name: instance

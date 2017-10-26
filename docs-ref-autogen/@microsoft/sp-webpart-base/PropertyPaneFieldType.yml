@@ -24,6 +24,15 @@ items:
 
       Names should be consistent with those in office-ui-fabric-react, be
       careful to get letter casing correct.
+    source:
+      path: propertyPane/propertyPaneFields/propertyPaneField/IPropertyPaneField.ts
+      startLine: 52
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFields/propertyPaneField/IPropertyPaneField.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.PropertyPaneFieldType.Custom'
     name: Custom

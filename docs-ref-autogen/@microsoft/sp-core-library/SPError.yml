@@ -36,6 +36,14 @@ items:
       <xref:http%3A%2F%2Fstackoverflow.com%2Fquestions%2F1382107%2Fwhats-a-good-way-to-extend-error-in-javascript>
     extends:
       name: Error
+    source:
+      path: SPError.ts
+      startLine: 21
+      remote:
+        path: spfx-core/sp-core-library/src\SPError.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-core-library'
   - uid: '@microsoft/sp-core-library.SPError.category'
     name: category

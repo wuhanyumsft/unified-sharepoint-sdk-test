@@ -44,6 +44,14 @@ items:
       - typeScript
     type: class
     summary: ''
+    source:
+      path: suiteNav/models/SuiteNavLinkIds.ts
+      startLine: 8
+      remote:
+        path: spfx-core/sp-application-base/src\suiteNav/models/SuiteNavLinkIds.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: '@microsoft/sp-application-base.SuiteNavLinkIds.ABOUT_ME'
     name: ABOUT_ME

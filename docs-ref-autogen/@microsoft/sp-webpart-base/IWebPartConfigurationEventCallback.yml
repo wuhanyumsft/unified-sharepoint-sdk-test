@@ -8,4 +8,13 @@ items:
       - typeScript
     type: interface
     summary: Configuration event callback
+    source:
+      path: propertyPane/propertyPane/PropertyPaneDefinitions.ts
+      startLine: 112
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPane/PropertyPaneDefinitions.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'

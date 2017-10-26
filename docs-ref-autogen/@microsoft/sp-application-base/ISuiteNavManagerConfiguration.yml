@@ -27,6 +27,15 @@ items:
       - typeScript
     type: interface
     summary: Interface for the Suite Nav Manager Configuration
+    source:
+      path: suiteNav/ISuiteNavManagerConfiguration.ts
+      startLine: 14
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\suiteNav/ISuiteNavManagerConfiguration.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: '@microsoft/sp-application-base.ISuiteNavManagerConfiguration.cacheToken'
     name: cacheToken

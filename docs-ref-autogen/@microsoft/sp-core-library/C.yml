@@ -12,6 +12,14 @@ items:
       - typeScript
     type: class
     summary: ''
+    source:
+      path: serviceScope/test/ServiceScope.test.ts
+      startLine: 58
+      remote:
+        path: spfx-core/sp-core-library/src\serviceScope/test/ServiceScope.test.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-core-library'
   - uid: '@microsoft/sp-core-library.C.a'
     name: a

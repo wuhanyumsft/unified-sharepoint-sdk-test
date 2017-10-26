@@ -10,4 +10,12 @@ items:
     summary: Constructor parameters for ExtensionContext.
     extends:
       name: any
+    source:
+      path: ExtensionContext.ts
+      startLine: 10
+      remote:
+        path: spfx-core/sp-extension-base/src\ExtensionContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-extension-base'

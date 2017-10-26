@@ -13,6 +13,15 @@ items:
       - typeScript
     type: enum
     summary: The position of pop up window.
+    source:
+      path: propertyPane/propertyPaneFields/propertyPaneLink/IPropertyPaneLink.ts
+      startLine: 80
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFields/propertyPaneLink/IPropertyPaneLink.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.PopupWindowPosition.center'
     name: center

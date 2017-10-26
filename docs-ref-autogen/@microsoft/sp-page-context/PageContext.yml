@@ -32,6 +32,14 @@ items:
       custom
 
       application cache.
+    source:
+      path: PageContext.ts
+      startLine: 33
+      remote:
+        path: spfx-core/sp-page-context/src\PageContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-page-context'
   - uid: '@microsoft/sp-page-context.PageContext.cultureInfo'
     name: cultureInfo

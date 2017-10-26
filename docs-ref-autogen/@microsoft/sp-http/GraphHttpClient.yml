@@ -21,6 +21,14 @@ items:
       performance of an application.
 
       https://developer.microsoft.com/en-us/graph/
+    source:
+      path: graphHttpClient/GraphHttpClient.ts
+      startLine: 41
+      remote:
+        path: spfx-core/sp-http/src\graphHttpClient/GraphHttpClient.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
     isPreview: true
     remarks: >-

@@ -9,6 +9,14 @@ items:
       - typeScript
     type: interface
     summary: ''
+    source:
+      path: pageChrome/IComponentVisible.ts
+      startLine: 7
+      remote:
+        path: spfx-core/sp-application-base/src\pageChrome/IComponentVisible.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: '@microsoft/sp-application-base.IComponentVisible.setComponentVisibility'
     name: setComponentVisibility

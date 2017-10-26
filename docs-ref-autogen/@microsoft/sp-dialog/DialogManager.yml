@@ -13,6 +13,14 @@ items:
       - typeScript
     type: class
     summary: ''
+    source:
+      path: DialogManager.ts
+      startLine: 49
+      remote:
+        path: spfx-libraries/sp-dialog/src\DialogManager.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-dialog'
   - uid: '@microsoft/sp-dialog.DialogManager.alert'
     name: alert

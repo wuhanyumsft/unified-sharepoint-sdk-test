@@ -16,6 +16,14 @@ items:
     summary: 'Configuration for <xref:SPHttpClient>.'
     extends:
       name: '@@microsoft/sp-http.SPHttpClientCommonConfiguration'
+    source:
+      path: spHttpClient/SPHttpClientConfiguration.ts
+      startLine: 69
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/SPHttpClientConfiguration.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
     remarks: >-
       The SPHttpClientConfiguration object provides a set of switches for

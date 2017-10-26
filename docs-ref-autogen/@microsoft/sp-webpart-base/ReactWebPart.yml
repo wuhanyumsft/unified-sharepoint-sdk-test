@@ -16,6 +16,14 @@ items:
       webparts are expected to inherit from this class.
     extends:
       name: '@@microsoft/sp-webpart-base.BaseClientSideWebPart<TProperties>'
+    source:
+      path: core/baseWebParts/ReactWebPart.ts
+      startLine: 33
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/baseWebParts/ReactWebPart.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.ReactWebPart.constructor'
     name: ReactWebPart

@@ -23,6 +23,14 @@ items:
 
       Once it has theme data it will cache it in local storage using the
       themedCssFolderUrl as the cache key.
+    source:
+      path: pageChrome/SPThemeProvider.ts
+      startLine: 37
+      remote:
+        path: spfx-core/sp-application-base/src\pageChrome/SPThemeProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: '@microsoft/sp-application-base.SPThemeProvider.loadData'
     name: loadData

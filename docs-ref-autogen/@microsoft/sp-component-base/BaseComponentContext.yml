@@ -13,6 +13,14 @@ items:
       - typeScript
     type: class
     summary: The base class for context objects for client-side components.
+    source:
+      path: BaseComponentContext.ts
+      startLine: 65
+      remote:
+        path: spfx-core/sp-component-base/src\BaseComponentContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-component-base'
     remarks: >-
       A "context" object is a collection of well-known services and other

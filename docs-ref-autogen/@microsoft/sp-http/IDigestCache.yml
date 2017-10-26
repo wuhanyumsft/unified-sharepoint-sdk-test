@@ -32,6 +32,14 @@ items:
       ](https://msdn.microsoft.com/en-us/library/office/jj164022.aspx
 
       )
+    source:
+      path: spHttpClient/IDigestCache.ts
+      startLine: 16
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/IDigestCache.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.IDigestCache.addDigestToCache'
     name: addDigestToCache

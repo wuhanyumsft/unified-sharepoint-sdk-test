@@ -26,6 +26,16 @@ items:
       - typeScript
     type: interface
     summary: PropertyPaneTextField component props.
+    source:
+      path: >-
+        propertyPane/propertyPaneFields/propertyPaneTextField/IPropertyPaneTextField.ts
+      startLine: 8
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFields/propertyPaneTextField/IPropertyPaneTextField.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneTextFieldProps.ariaLabel'
     name: ariaLabel

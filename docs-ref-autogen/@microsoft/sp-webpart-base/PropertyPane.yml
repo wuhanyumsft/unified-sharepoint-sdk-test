@@ -18,6 +18,15 @@ items:
     extends:
       name: >-
         @@microsoft/sp-webpart-base.PropertyPane<@@microsoft/sp-webpart-base.IPropertyPaneProps>
+    source:
+      path: propertyPane/propertyPane/PropertyPane.tsx
+      startLine: 99
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPane/PropertyPane.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.PropertyPane.componentDidMount'
     name: componentDidMount

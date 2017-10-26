@@ -9,6 +9,14 @@ items:
       - typeScript
     type: interface
     summary: The interface for dialog configuration
+    source:
+      path: BaseDialog.ts
+      startLine: 12
+      remote:
+        path: spfx-libraries/sp-dialog/src\BaseDialog.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-dialog'
     isPreview: true
   - uid: '@microsoft/sp-dialog.IDialogConfiguration.isBlocking'

@@ -14,6 +14,14 @@ items:
       - typeScript
     type: class
     summary: The default implementation of IDigestCache.
+    source:
+      path: spHttpClient/DigestCache.ts
+      startLine: 24
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/DigestCache.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.DigestCache.addDigestToCache'
     name: addDigestToCache

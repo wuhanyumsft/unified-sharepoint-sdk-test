@@ -15,6 +15,14 @@ items:
     summary: >-
       Contains collections of data that can be processed by server side services
       like search index and link fixup
+    source:
+      path: core/ISerializedServerProcessedData.ts
+      startLine: 38
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/ISerializedServerProcessedData.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.ISerializedServerProcessedData.htmlStrings'
     name: htmlStrings

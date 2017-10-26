@@ -21,6 +21,14 @@ items:
     summary: >-
       Context object that needs to be passed to the web part manager to load a
       web part.
+    source:
+      path: core/IWebPartManagerContext.ts
+      startLine: 20
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/IWebPartManagerContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IWebPartManagerContext.addedFromPersistedData'
     name: addedFromPersistedData

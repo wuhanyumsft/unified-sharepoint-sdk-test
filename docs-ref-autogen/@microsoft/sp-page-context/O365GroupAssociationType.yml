@@ -11,6 +11,14 @@ items:
       - typeScript
     type: enum
     summary: '{@inheritdoc  O365GroupAssociation.type}'
+    source:
+      path: O365GroupAssociation.ts
+      startLine: 23
+      remote:
+        path: spfx-core/sp-page-context/src\O365GroupAssociation.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-page-context'
   - uid: '@microsoft/sp-page-context.O365GroupAssociationType.Unknown'
     name: Unknown

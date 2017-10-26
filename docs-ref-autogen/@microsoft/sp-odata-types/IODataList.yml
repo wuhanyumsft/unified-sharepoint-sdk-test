@@ -27,6 +27,14 @@ items:
       see the MSDN documentation here:
 
       https://msdn.microsoft.com/en-us/library/office/jj860569.aspx
+    source:
+      path: IODataList.ts
+      startLine: 10
+      remote:
+        path: spfx-core/sp-odata-types/src\IODataList.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-odata-types'
   - uid: '@microsoft/sp-odata-types.IODataList.BaseTemplate'
     name: BaseTemplate

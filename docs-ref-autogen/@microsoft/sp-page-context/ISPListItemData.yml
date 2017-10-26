@@ -9,6 +9,14 @@ items:
       - typeScript
     type: interface
     summary: Object that represents the data necessary to build an SPListItem object.
+    source:
+      path: SPListItem.ts
+      startLine: 8
+      remote:
+        path: spfx-core/sp-page-context/src\SPListItem.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-page-context'
   - uid: '@microsoft/sp-page-context.ISPListItemData.id'
     name: id

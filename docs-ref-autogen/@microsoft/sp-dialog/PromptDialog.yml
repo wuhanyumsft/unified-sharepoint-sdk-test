@@ -16,6 +16,14 @@ items:
       Third-party can use this by calling the static method Dialog.prompt()
     extends:
       name: '@@microsoft/sp-dialog.BaseDialog'
+    source:
+      path: PromptDialog.tsx
+      startLine: 81
+      remote:
+        path: spfx-libraries/sp-dialog/src\PromptDialog.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-dialog'
   - uid: '@microsoft/sp-dialog.PromptDialog.config'
     name: config

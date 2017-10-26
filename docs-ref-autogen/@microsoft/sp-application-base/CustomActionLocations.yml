@@ -22,6 +22,15 @@ items:
       For more info about custom actions, see this reference:
 
       https://msdn.microsoft.com/en-us/library/office/ms460194.aspx
+    source:
+      path: extensibility/customAction/CustomActionLocations.ts
+      startLine: 9
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/customAction/CustomActionLocations.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: >-
       @microsoft/sp-application-base.CustomActionLocations.APPLICATION_CUSTOMIZER

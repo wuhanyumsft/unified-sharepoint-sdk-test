@@ -15,6 +15,14 @@ items:
       - typeScript
     type: interface
     summary: Object that represents the data necessary to build an SPUser object.
+    source:
+      path: SPUser.ts
+      startLine: 9
+      remote:
+        path: spfx-core/sp-page-context/src\SPUser.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-page-context'
   - uid: '@microsoft/sp-page-context.ISPUserData.displayName'
     name: displayName

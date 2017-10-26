@@ -27,6 +27,16 @@ items:
     extends:
       name: >-
         @@microsoft/sp-webpart-base.PropertyPaneCustomFieldHost<@@microsoft/sp-webpart-base.IPropertyPaneCustomFieldInternalProps>
+    source:
+      path: >-
+        propertyPane/propertyPaneFields/propertyPaneCustomField/PropertyPaneCustomFieldHost.tsx
+      startLine: 21
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFields/propertyPaneCustomField/PropertyPaneCustomFieldHost.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
     isPreview: true
   - uid: '@microsoft/sp-webpart-base.PropertyPaneCustomFieldHost.componentDidMount'

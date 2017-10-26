@@ -15,6 +15,14 @@ items:
       needs to inherit from this class.
     extends:
       name: '@@microsoft/sp-webpart-base.BaseClientSideWebPart'
+    source:
+      path: core/BaseClientSideWebPart.ts
+      startLine: 75
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/BaseClientSideWebPart.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
     remarks: >-
       Along with the base functionality, this class provides some APIs that can

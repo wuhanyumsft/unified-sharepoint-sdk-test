@@ -22,6 +22,15 @@ items:
       when the web parts are rendered in maintenance mode.
     extends:
       name: '@@microsoft/sp-webpart-base.ClientSideWebPartManager'
+    source:
+      path: core/ClientSideWebPartMaintenanceModeManager.ts
+      startLine: 24
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\core/ClientSideWebPartMaintenanceModeManager.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: >-
       @microsoft/sp-webpart-base.ClientSideWebPartMaintenanceModeManager.constructor

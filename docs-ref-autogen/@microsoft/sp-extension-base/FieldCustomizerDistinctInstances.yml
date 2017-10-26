@@ -16,6 +16,15 @@ items:
       - typeScript
     type: class
     summary: ''
+    source:
+      path: tab/FieldCustomizerDistinctInstances.ts
+      startLine: 3
+      remote:
+        path: >-
+          spfx-core/sp-extension-base/src\tab/FieldCustomizerDistinctInstances.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-extension-base'
   - uid: '@microsoft/sp-extension-base.FieldCustomizerDistinctInstances.constructor'
     name: FieldCustomizerDistinctInstances

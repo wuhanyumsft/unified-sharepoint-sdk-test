@@ -11,6 +11,14 @@ items:
     summary: >-
       This interface represents the loaded module that has the extension as its
       default export
+    source:
+      path: ExtensionManager.ts
+      startLine: 30
+      remote:
+        path: spfx-core/sp-extension-base/src\ExtensionManager.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-extension-base'
   - uid: '@microsoft/sp-extension-base.IComponentModule.default'
     name: default

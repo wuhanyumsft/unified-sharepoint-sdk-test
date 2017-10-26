@@ -20,6 +20,14 @@ items:
       - typeScript
     type: interface
     summary: The base context interface for client-side web parts.
+    source:
+      path: core/IWebPartContext.ts
+      startLine: 38
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/IWebPartContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
     deprecated:
       content: |-

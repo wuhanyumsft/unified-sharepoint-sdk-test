@@ -10,6 +10,16 @@ items:
       - typeScript
     type: interface
     summary: PropertyPane ChoiceGroup props.
+    source:
+      path: >-
+        propertyPane/propertyPaneFields/propertyPaneChoiceGroup/IPropertyPaneChoiceGroup.ts
+      startLine: 20
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFields/propertyPaneChoiceGroup/IPropertyPaneChoiceGroup.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupProps.label'
     name: label

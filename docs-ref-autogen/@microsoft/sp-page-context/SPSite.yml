@@ -25,6 +25,14 @@ items:
 
       information for the SharePoint site collection ("site") that hosts the
       page.
+    source:
+      path: SPSite.ts
+      startLine: 29
+      remote:
+        path: spfx-core/sp-page-context/src\SPSite.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-page-context'
   - uid: '@microsoft/sp-page-context.SPSite.absoluteUrl'
     name: absoluteUrl

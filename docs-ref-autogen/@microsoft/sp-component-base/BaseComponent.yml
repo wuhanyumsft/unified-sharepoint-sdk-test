@@ -16,6 +16,14 @@ items:
     summary: >-
       The base class for client-side components such as BaseClientSideWebPart or
       BaseExtension.
+    source:
+      path: BaseComponent.ts
+      startLine: 12
+      remote:
+        path: spfx-core/sp-component-base/src\BaseComponent.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-component-base'
   - uid: '@microsoft/sp-component-base.BaseComponent.constructor'
     name: BaseComponent

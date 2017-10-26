@@ -21,6 +21,14 @@ items:
       in
 
       that order.
+    source:
+      path: test-api/MockFetchProvider.ts
+      startLine: 76
+      remote:
+        path: spfx-core/sp-http/src\test-api/MockFetchProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.MockFetchProvider.assertQueueEmpty'
     name: assertQueueEmpty

@@ -18,6 +18,14 @@ items:
       https://microsoft.sharepoint.com/teams/odsp/_layouts/OneNote.aspx
 
       ?id=/teams/odsp/Shared%20Documents/MI-6%20Team/MI-6%20Team/Global/SPO%20Flighting
+    source:
+      path: SPFlight.ts
+      startLine: 22
+      remote:
+        path: spfx-core/sp-core-library/src\SPFlight.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-core-library'
   - uid: '@microsoft/sp-core-library.SPFlight.initialize'
     name: initialize

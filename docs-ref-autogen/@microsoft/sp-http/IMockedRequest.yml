@@ -25,6 +25,14 @@ items:
       should
 
       be issued.
+    source:
+      path: test-api/MockFetchProvider.ts
+      startLine: 22
+      remote:
+        path: spfx-core/sp-http/src\test-api/MockFetchProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.IMockedRequest.expectedRequestHeaders'
     name: expectedRequestHeaders

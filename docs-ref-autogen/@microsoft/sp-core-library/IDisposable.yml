@@ -10,6 +10,14 @@ items:
       - typeScript
     type: interface
     summary: Implemented by an object that supports a disposal lifecycle.
+    source:
+      path: IDisposable.ts
+      startLine: 10
+      remote:
+        path: spfx-core/sp-core-library/src\IDisposable.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-core-library'
     remarks: |-
       The dispose event allows an object to free any resources that it allocated

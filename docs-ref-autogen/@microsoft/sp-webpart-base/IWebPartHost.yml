@@ -47,6 +47,14 @@ items:
         - The event aggregation service. Currently the web part manager hosts a single event
           event aggregator. But there are possibilities when a page can have multiple hosts
           and each host may want to scope its event aggregation service.
+    source:
+      path: core/IWebPartHost.ts
+      startLine: 38
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/IWebPartHost.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IWebPartHost.isViewportLoadingDisabled'
     name: isViewportLoadingDisabled

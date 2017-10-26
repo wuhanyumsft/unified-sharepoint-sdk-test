@@ -11,6 +11,14 @@ items:
     summary: ''
     extends:
       name: '@@microsoft/sp-component-base.BaseComponentContext'
+    source:
+      path: test/BaseComponentContext.test.ts
+      startLine: 8
+      remote:
+        path: spfx-core/sp-component-base/src\test/BaseComponentContext.test.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-component-base'
   - uid: '@microsoft/sp-component-base.TestComponent.constructor'
     name: TestComponent

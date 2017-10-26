@@ -10,6 +10,14 @@ items:
       - typeScript
     type: interface
     summary: ''
+    source:
+      path: maintenanceMode/IMaintenanceModeProps.ts
+      startLine: 8
+      remote:
+        path: spfx-core/sp-webpart-base/src\maintenanceMode/IMaintenanceModeProps.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IMaintenanceModeProps.context'
     name: context

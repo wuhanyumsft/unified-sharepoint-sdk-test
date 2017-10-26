@@ -13,6 +13,15 @@ items:
       of a SharePoint list item.
     extends:
       name: '@@microsoft/sp-listview-extensibility.ListItemAccessor'
+    source:
+      path: common/ListViewAccessor.ts
+      startLine: 51
+      remote:
+        path: >-
+          spfx-libraries/sp-listview-extensibility/src\common/ListViewAccessor.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-listview-extensibility'
     remarks: >-
       A SharePoint "list item" (SPListItem) is a data storage record in the

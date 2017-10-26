@@ -10,6 +10,15 @@ items:
       - typeScript
     type: interface
     summary: 'Options for the <xref:PlaceholderProvider.tryCreateContent> method.'
+    source:
+      path: extensibility/placeholder/PlaceholderProvider.ts
+      startLine: 14
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/placeholder/PlaceholderProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: '@microsoft/sp-application-base.IPlaceholderCreateContentOptions.onDispose'
     name: onDispose

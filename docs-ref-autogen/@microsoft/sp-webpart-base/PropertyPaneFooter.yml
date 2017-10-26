@@ -13,6 +13,15 @@ items:
     extends:
       name: >-
         @@microsoft/sp-webpart-base.PropertyPaneFooter<@@microsoft/sp-webpart-base.IPropertyPaneFooterProps>
+    source:
+      path: propertyPane/propertyPaneFooter/PropertyPaneFooter.tsx
+      startLine: 34
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFooter/PropertyPaneFooter.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.PropertyPaneFooter.constructor'
     name: PropertyPaneFooter

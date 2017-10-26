@@ -11,6 +11,14 @@ items:
     summary: Used to pass the environment type (classic page or not) to WebPartForm.
     extends:
       name: any
+    source:
+      path: components/webpartForm/WebPartForm.tsx
+      startLine: 16
+      remote:
+        path: spfx-core/sp-webpart-base/src\components/webpartForm/WebPartForm.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IWebPartFormProps.isClassicSharePointPage'
     name: isClassicSharePointPage

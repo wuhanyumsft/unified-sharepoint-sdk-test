@@ -29,6 +29,14 @@ items:
       Represents an OData SP.Web object.  For more information about this object
       see the MSDN documentation here:
       https://msdn.microsoft.com/en-us/library/office/jj860569.aspx
+    source:
+      path: IODataWeb.ts
+      startLine: 10
+      remote:
+        path: spfx-core/sp-odata-types/src\IODataWeb.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-odata-types'
   - uid: '@microsoft/sp-odata-types.IODataWeb.Created'
     name: Created

@@ -10,6 +10,14 @@ items:
       - typeScript
     type: class
     summary: A static class for showing stock dialogs such as an alert or prompt.
+    source:
+      path: Dialog.ts
+      startLine: 54
+      remote:
+        path: spfx-libraries/sp-dialog/src\Dialog.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-dialog'
     isPreview: true
   - uid: '@microsoft/sp-dialog.Dialog.alert'

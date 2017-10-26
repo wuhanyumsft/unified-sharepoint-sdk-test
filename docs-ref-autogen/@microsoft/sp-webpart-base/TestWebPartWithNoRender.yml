@@ -11,4 +11,12 @@ items:
     extends:
       name: >-
         @@microsoft/sp-webpart-base.BaseClientSideWebPart<@@microsoft/sp-webpart-base.ITestWebPartProps>
+    source:
+      path: core/test/TestWebPart.ts
+      startLine: 115
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/test/TestWebPart.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'

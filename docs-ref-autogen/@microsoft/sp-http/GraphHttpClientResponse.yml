@@ -12,6 +12,14 @@ items:
     summary: The Response subclass returned by methods such as GraphHttpClient.fetch().
     extends:
       name: '@@microsoft/sp-http.HttpClientResponse'
+    source:
+      path: graphHttpClient/GraphHttpClientResponse.ts
+      startLine: 14
+      remote:
+        path: spfx-core/sp-http/src\graphHttpClient/GraphHttpClientResponse.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
     isPreview: true
     remarks: >-

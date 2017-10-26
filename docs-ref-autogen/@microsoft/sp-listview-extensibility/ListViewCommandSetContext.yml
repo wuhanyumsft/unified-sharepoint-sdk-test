@@ -14,6 +14,15 @@ items:
     summary: This object provides contextual information for BaseListViewCommandSet.
     extends:
       name: '@@microsoft/sp-listview-extensibility.ListViewCommandSetContext'
+    source:
+      path: commandSet/ListViewCommandSetContext.ts
+      startLine: 24
+      remote:
+        path: >-
+          spfx-libraries/sp-listview-extensibility/src\commandSet/ListViewCommandSetContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-listview-extensibility'
   - uid: '@microsoft/sp-listview-extensibility.ListViewCommandSetContext.listView'
     name: listView

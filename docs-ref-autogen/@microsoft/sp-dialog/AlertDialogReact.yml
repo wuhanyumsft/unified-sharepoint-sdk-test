@@ -14,6 +14,14 @@ items:
     extends:
       name: >-
         @@microsoft/sp-dialog.AlertDialogReact<@@microsoft/sp-dialog.IAlertDialogReact>
+    source:
+      path: AlertDialog.tsx
+      startLine: 20
+      remote:
+        path: spfx-libraries/sp-dialog/src\AlertDialog.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-dialog'
   - uid: '@microsoft/sp-dialog.AlertDialogReact.render'
     name: render

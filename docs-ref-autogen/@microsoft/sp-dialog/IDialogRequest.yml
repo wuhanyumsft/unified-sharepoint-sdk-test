@@ -14,6 +14,14 @@ items:
       - typeScript
     type: interface
     summary: The data structure to store dialog requests in dialog manager
+    source:
+      path: DialogManager.ts
+      startLine: 37
+      remote:
+        path: spfx-libraries/sp-dialog/src\DialogManager.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-dialog'
   - uid: '@microsoft/sp-dialog.IDialogRequest.dialog'
     name: dialog

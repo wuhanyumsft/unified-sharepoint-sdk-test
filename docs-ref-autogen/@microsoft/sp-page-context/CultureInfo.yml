@@ -16,6 +16,14 @@ items:
       culture info
 
       for the current user of the application.
+    source:
+      path: CultureInfo.ts
+      startLine: 19
+      remote:
+        path: spfx-core/sp-page-context/src\CultureInfo.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-page-context'
   - uid: '@microsoft/sp-page-context.CultureInfo.constructor'
     name: CultureInfo

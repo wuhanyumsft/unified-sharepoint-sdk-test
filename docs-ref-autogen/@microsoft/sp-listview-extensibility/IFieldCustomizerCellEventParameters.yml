@@ -16,6 +16,15 @@ items:
       - typeScript
     type: interface
     summary: Event parameters for BaseFieldCustomizer.onRenderCell()
+    source:
+      path: fieldCustomizer/BaseFieldCustomizer.ts
+      startLine: 10
+      remote:
+        path: >-
+          spfx-libraries/sp-listview-extensibility/src\fieldCustomizer/BaseFieldCustomizer.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-listview-extensibility'
   - uid: >-
       @microsoft/sp-listview-extensibility.IFieldCustomizerCellEventParameters.domElement

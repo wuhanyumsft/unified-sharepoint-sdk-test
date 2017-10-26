@@ -15,6 +15,14 @@ items:
       - typeScript
     type: interface
     summary: Interface that represents the data neccesary to build an TimeZone object.
+    source:
+      path: SPTimeZone.ts
+      startLine: 22
+      remote:
+        path: spfx-core/sp-page-context/src\SPTimeZone.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-page-context'
   - uid: '@microsoft/sp-page-context.ISPTimeZoneData.daylightDate'
     name: daylightDate

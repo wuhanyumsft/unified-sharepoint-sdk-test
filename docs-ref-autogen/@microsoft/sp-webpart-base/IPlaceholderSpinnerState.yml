@@ -10,6 +10,15 @@ items:
       - typeScript
     type: interface
     summary: Placeholder spinner state
+    source:
+      path: components/placeHolder/PlaceholderSpinner.tsx
+      startLine: 19
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\components/placeHolder/PlaceholderSpinner.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IPlaceholderSpinnerState.removePlaceholder'
     name: removePlaceholder

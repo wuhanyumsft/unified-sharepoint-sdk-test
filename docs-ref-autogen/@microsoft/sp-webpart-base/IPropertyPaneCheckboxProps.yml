@@ -11,6 +11,16 @@ items:
       - typeScript
     type: interface
     summary: PropertyPane CheckBox component props.
+    source:
+      path: >-
+        propertyPane/propertyPaneFields/propertyPaneCheckBox/IPropertyPaneCheckbox.ts
+      startLine: 8
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFields/propertyPaneCheckBox/IPropertyPaneCheckbox.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneCheckboxProps.checked'
     name: checked

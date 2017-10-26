@@ -12,6 +12,14 @@ items:
       - typeScript
     type: enum
     summary: Server processed data type.
+    source:
+      path: core/ISerializedServerProcessedData.ts
+      startLine: 8
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/ISerializedServerProcessedData.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.ServerProcessedDataType.htmlString'
     name: htmlString

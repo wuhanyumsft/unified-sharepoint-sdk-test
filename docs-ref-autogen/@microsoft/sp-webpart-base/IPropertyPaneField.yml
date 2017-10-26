@@ -12,6 +12,15 @@ items:
       - typeScript
     type: interface
     summary: PropertyPane field.
+    source:
+      path: propertyPane/propertyPaneFields/propertyPaneField/IPropertyPaneField.ts
+      startLine: 8
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFields/propertyPaneField/IPropertyPaneField.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneField.properties'
     name: properties

@@ -16,6 +16,14 @@ items:
     summary: >-
       Tests that clicking a Command Set Extension Item adds a div to the html
       body.
+    source:
+      path: tab/CommandSet.ts
+      startLine: 6
+      remote:
+        path: spfx-core/sp-extension-base/src\tab/CommandSet.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-extension-base'
   - uid: '@microsoft/sp-extension-base.CommandSet.constructor'
     name: CommandSet

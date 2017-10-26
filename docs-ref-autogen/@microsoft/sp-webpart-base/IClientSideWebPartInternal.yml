@@ -27,6 +27,14 @@ items:
       See BaseClientSideWebPart.ts for documentation.
     extends:
       name: '@@microsoft/sp-webpart-base.IPropertyPaneControl'
+    source:
+      path: core/IClientSideWebPartInternal.ts
+      startLine: 34
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/IClientSideWebPartInternal.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IClientSideWebPartInternal.accessibleTitle'
     name: accessibleTitle

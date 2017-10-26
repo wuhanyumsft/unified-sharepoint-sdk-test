@@ -12,6 +12,14 @@ items:
     summary: ''
     extends:
       name: '@@microsoft/sp-extension-base.ExtensionContext'
+    source:
+      path: test/BaseExtension.test.ts
+      startLine: 20
+      remote:
+        path: spfx-core/sp-extension-base/src\test/BaseExtension.test.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-extension-base'
   - uid: '@microsoft/sp-extension-base.WidgetContext.extraThing'
     name: extraThing

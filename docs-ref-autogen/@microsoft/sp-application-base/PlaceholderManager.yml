@@ -24,6 +24,15 @@ items:
       obtains its
 
       data from the PlaceholderManager.
+    source:
+      path: extensibility/placeholder/PlaceholderManager.ts
+      startLine: 15
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/placeholder/PlaceholderManager.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: '@microsoft/sp-application-base.PlaceholderManager.changedEvent'
     name: changedEvent

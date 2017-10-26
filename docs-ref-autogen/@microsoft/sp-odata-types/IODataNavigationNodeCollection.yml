@@ -12,6 +12,14 @@ items:
     summary: |-
       Represents an OData Microsoft.SharePoint.Navigation.SPNavigation object.
       https://msdn.microsoft.com/en-us/library/office/ee557907.aspx
+    source:
+      path: IODataNavigationNodeCollection.ts
+      startLine: 52
+      remote:
+        path: spfx-core/sp-odata-types/src\IODataNavigationNodeCollection.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-odata-types'
   - uid: '@microsoft/sp-odata-types.IODataNavigationNodeCollection.quickLaunch'
     name: quickLaunch

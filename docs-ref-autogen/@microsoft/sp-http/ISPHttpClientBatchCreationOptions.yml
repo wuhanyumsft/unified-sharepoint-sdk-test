@@ -13,6 +13,14 @@ items:
       specifies options
 
       that affect the entire batch.
+    source:
+      path: spHttpClient/SPHttpClientBatch.ts
+      startLine: 316
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/SPHttpClientBatch.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.ISPHttpClientBatchCreationOptions.webUrl'
     name: webUrl

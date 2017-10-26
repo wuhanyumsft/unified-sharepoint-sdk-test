@@ -19,6 +19,14 @@ items:
       part data. This is a utility
 
       class to perform conversion between the two formats.
+    source:
+      path: core/WebPartDataConverter.ts
+      startLine: 23
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/WebPartDataConverter.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.WebPartDataConverter.convertHtmlToWebPartData'
     name: convertHtmlToWebPartData

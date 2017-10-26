@@ -13,6 +13,16 @@ items:
     summary: >-
       Specifies the type of option in a dropdown menu rendered by
       <xref:PropertyPaneDropdown>.
+    source:
+      path: >-
+        propertyPane/propertyPaneFields/propertyPaneDropdown/IPropertyPaneDropdown.ts
+      startLine: 68
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFields/propertyPaneDropdown/IPropertyPaneDropdown.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.PropertyPaneDropdownOptionType.Normal'
     name: Normal

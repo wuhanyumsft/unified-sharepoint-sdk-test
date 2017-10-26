@@ -12,6 +12,16 @@ items:
     summary: PropertyPane CustomPropertyField internal props.
     extends:
       name: '@@microsoft/sp-webpart-base.IPropertyPaneCustomFieldProps'
+    source:
+      path: >-
+        propertyPane/propertyPaneFields/propertyPaneCustomField/IPropertyPaneCustomField.ts
+      startLine: 65
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFields/propertyPaneCustomField/IPropertyPaneCustomField.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneCustomFieldInternalProps.onChanged'
     name: onChanged

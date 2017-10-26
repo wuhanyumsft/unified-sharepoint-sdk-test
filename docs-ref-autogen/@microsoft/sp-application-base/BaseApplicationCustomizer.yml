@@ -16,6 +16,15 @@ items:
       "ApplicationCustomizer".
     extends:
       name: '@@microsoft/sp-application-base.BaseApplicationCustomizer<TProperties>'
+    source:
+      path: extensibility/BaseApplicationCustomizer.ts
+      startLine: 18
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/BaseApplicationCustomizer.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
     remarks: >-
       Example usage scenarios for an application customizer might include:

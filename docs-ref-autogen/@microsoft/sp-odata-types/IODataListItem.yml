@@ -18,6 +18,14 @@ items:
       see the MSDN documentation here:
 
       https://msdn.microsoft.com/en-us/library/office/jj860569.aspx
+    source:
+      path: IODataListItem.ts
+      startLine: 8
+      remote:
+        path: spfx-core/sp-odata-types/src\IODataListItem.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-odata-types'
   - uid: '@microsoft/sp-odata-types.IODataListItem.ContentTypeId'
     name: ContentTypeId

@@ -18,6 +18,14 @@ items:
     summary: |-
       Represents an item in any suite nav menu (app launcher, settings, person).
       Properties are title-cased to match what the suite nav JS expects.
+    source:
+      path: suiteNav/models/ISuiteNavLink.ts
+      startLine: 9
+      remote:
+        path: spfx-core/sp-application-base/src\suiteNav/models/ISuiteNavLink.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: '@microsoft/sp-application-base.ISuiteNavLink.Id'
     name: Id

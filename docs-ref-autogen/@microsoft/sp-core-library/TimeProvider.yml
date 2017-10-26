@@ -14,6 +14,14 @@ items:
     summary: |-
       This is the default implementation of <xref:ITimeProvider> that simply
       calls the real browser APIs.
+    source:
+      path: serviceScope/provider/TimeProvider.ts
+      startLine: 35
+      remote:
+        path: spfx-core/sp-core-library/src\serviceScope/provider/TimeProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-core-library'
   - uid: '@microsoft/sp-core-library.TimeProvider.getDate'
     name: getDate

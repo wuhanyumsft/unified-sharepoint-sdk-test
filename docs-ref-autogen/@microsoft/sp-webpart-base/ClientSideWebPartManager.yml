@@ -52,6 +52,14 @@ items:
          - Help manage memory leak type issues in one place.
          - Integrate the web parts with the PropertyPane and other external entities.
          - Help troubleshoot web parts during escalations.
+    source:
+      path: core/ClientSideWebPartManager.ts
+      startLine: 103
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/ClientSideWebPartManager.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.ClientSideWebPartManager.constructor'
     name: ClientSideWebPartManager

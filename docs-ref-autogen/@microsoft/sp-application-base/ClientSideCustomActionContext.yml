@@ -15,6 +15,15 @@ items:
     summary: >-
       Client side custom action context. This object contains all the custom
       actions.
+    source:
+      path: extensibility/customAction/ClientSideCustomActionContext.ts
+      startLine: 9
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/customAction/ClientSideCustomActionContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: '@microsoft/sp-application-base.ClientSideCustomActionContext.customActions'
     name: customActions

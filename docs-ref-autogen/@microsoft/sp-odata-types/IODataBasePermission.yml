@@ -10,6 +10,14 @@ items:
       - typeScript
     type: interface
     summary: Data used for creating a SPPermission object.
+    source:
+      path: IODataBasePermission.ts
+      startLine: 6
+      remote:
+        path: spfx-core/sp-odata-types/src\IODataBasePermission.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-odata-types'
   - uid: '@microsoft/sp-odata-types.IODataBasePermission.High'
     name: High

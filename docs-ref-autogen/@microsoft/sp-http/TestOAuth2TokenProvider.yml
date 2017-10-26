@@ -17,6 +17,15 @@ items:
       the OAuth2TokenProvider.
     extends:
       name: '@@microsoft/sp-http.OAuth2TokenProvider'
+    source:
+      path: oauthTokenProvider/test/TestOAuth2TokenProvider.ts
+      startLine: 7
+      remote:
+        path: >-
+          spfx-core/sp-http/src\oauthTokenProvider/test/TestOAuth2TokenProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.TestOAuth2TokenProvider.authContext'
     name: authContext

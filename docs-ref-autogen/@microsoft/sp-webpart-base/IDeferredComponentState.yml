@@ -9,6 +9,15 @@ items:
       - typeScript
     type: interface
     summary: Deferred component state
+    source:
+      path: components/deferredComponent/DeferredComponent.tsx
+      startLine: 36
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\components/deferredComponent/DeferredComponent.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IDeferredComponentState.component'
     name: component

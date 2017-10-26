@@ -17,6 +17,14 @@ items:
       - typeScript
     type: class
     summary: ''
+    source:
+      path: utils/CanvasA11y.ts
+      startLine: 208
+      remote:
+        path: spfx-core/sp-webpart-base/src\utils/CanvasA11y.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.CanvasA11yManager.ariaAlert'
     name: ariaAlert

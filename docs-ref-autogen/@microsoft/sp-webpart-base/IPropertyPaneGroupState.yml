@@ -10,6 +10,15 @@ items:
       - typeScript
     type: interface
     summary: Interface for PropertyPaneGroup state.
+    source:
+      path: propertyPane/propertyPaneGroup/PropertyPaneGroup.tsx
+      startLine: 71
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneGroup/PropertyPaneGroup.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneGroupState.id'
     name: id

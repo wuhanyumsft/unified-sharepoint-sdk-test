@@ -14,6 +14,15 @@ items:
       - typeScript
     type: interface
     summary: Property pane footer properties.
+    source:
+      path: propertyPane/propertyPaneFooter/PropertyPaneFooter.tsx
+      startLine: 24
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFooter/PropertyPaneFooter.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneFooterProps.currentPage'
     name: currentPage

@@ -17,6 +17,14 @@ items:
     extends:
       name: >-
         @@microsoft/sp-dialog.FabricDialogWrapper<@@microsoft/sp-dialog.IFabricDialogWrapperProps>
+    source:
+      path: FabricDialogWrapper.tsx
+      startLine: 23
+      remote:
+        path: spfx-libraries/sp-dialog/src\FabricDialogWrapper.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-dialog'
   - uid: '@microsoft/sp-dialog.FabricDialogWrapper.close'
     name: close

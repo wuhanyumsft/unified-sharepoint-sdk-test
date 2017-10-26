@@ -13,6 +13,14 @@ items:
     extends:
       name: >-
         @@microsoft/sp-webpart-base.FriendlyErrorMessage<@@microsoft/sp-webpart-base.IFriendlyErrorMessageProps>
+    source:
+      path: core/FriendlyErrorMessage.tsx
+      startLine: 34
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/FriendlyErrorMessage.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.FriendlyErrorMessage.constructor'
     name: FriendlyErrorMessage

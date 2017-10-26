@@ -11,6 +11,15 @@ items:
       - typeScript
     type: interface
     summary: 'Parameters for <xref:BaseListViewCommandSet.onListViewUpdated>'
+    source:
+      path: commandSet/BaseListViewCommandSet.ts
+      startLine: 15
+      remote:
+        path: >-
+          spfx-libraries/sp-listview-extensibility/src\commandSet/BaseListViewCommandSet.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-listview-extensibility'
   - uid: >-
       @microsoft/sp-listview-extensibility.IListViewCommandSetListViewUpdatedParameters.selectedRows

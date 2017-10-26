@@ -17,6 +17,14 @@ items:
       and SPHttpClientBatch.
     extends:
       name: '@@microsoft/sp-http.HttpClientHelper'
+    source:
+      path: spHttpClient/SPHttpClientHelper.ts
+      startLine: 11
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/SPHttpClientHelper.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.SPHttpClientHelper.applyDefaultHeaders'
     name: applyDefaultHeaders

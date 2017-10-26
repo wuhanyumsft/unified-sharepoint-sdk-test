@@ -14,6 +14,14 @@ items:
     summary: Web part errors.
     extends:
       name: '@@microsoft/sp-webpart-base.SPWebPartError'
+    source:
+      path: core/error/SPWebPartError.ts
+      startLine: 69
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/error/SPWebPartError.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.SPWebPartError.category'
     name: category

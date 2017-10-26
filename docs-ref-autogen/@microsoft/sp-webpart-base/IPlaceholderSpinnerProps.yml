@@ -12,6 +12,15 @@ items:
     summary: >-
       Interface for properties used to display the loading spinner in the web
       part display area.
+    source:
+      path: components/placeHolder/IPlaceholderSpinnerProps.ts
+      startLine: 6
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\components/placeHolder/IPlaceholderSpinnerProps.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IPlaceholderSpinnerProps.hideSpinner'
     name: hideSpinner

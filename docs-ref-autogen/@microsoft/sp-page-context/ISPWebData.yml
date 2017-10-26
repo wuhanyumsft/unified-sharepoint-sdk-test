@@ -19,6 +19,14 @@ items:
       - typeScript
     type: interface
     summary: Object that represents the data necessary to build an SPWeb object.
+    source:
+      path: SPWeb.ts
+      startLine: 11
+      remote:
+        path: spfx-core/sp-page-context/src\SPWeb.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-page-context'
   - uid: '@microsoft/sp-page-context.ISPWebData.absoluteUrl'
     name: absoluteUrl

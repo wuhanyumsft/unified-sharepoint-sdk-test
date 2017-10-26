@@ -15,6 +15,14 @@ items:
       - typeScript
     type: class
     summary: ''
+    source:
+      path: core/test/WebPartMocks.ts
+      startLine: 80
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/test/WebPartMocks.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.MockWebPartHost.eventAggregator'
     name: eventAggregator

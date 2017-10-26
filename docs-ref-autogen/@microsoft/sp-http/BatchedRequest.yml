@@ -19,6 +19,14 @@ items:
       each
 
       queued REST request.
+    source:
+      path: spHttpClient/BatchedRequest.ts
+      startLine: 17
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/BatchedRequest.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.BatchedRequest.constructor'
     name: BatchedRequest

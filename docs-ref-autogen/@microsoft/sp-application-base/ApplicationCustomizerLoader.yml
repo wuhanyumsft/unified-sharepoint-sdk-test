@@ -11,6 +11,15 @@ items:
       - typeScript
     type: class
     summary: A helper class for loading ApplicationCustomizer extensions.
+    source:
+      path: extensibility/ApplicationCustomizerLoader.ts
+      startLine: 45
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/ApplicationCustomizerLoader.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: '@microsoft/sp-application-base.ApplicationCustomizerLoader.constructor'
     name: ApplicationCustomizerLoader

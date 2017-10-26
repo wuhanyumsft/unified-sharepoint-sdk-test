@@ -10,6 +10,15 @@ items:
       - typeScript
     type: enum
     summary: ''
+    source:
+      path: suiteNav/dataAccess/ISuiteNavDataSource.ts
+      startLine: 3
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\suiteNav/dataAccess/ISuiteNavDataSource.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: '@microsoft/sp-application-base.SuiteNavSource.OnPrem'
     name: OnPrem

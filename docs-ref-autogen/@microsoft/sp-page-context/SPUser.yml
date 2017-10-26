@@ -20,6 +20,14 @@ items:
       contextual information
 
       for the SharePoint user that is accessing the page.
+    source:
+      path: SPUser.ts
+      startLine: 25
+      remote:
+        path: spfx-core/sp-page-context/src\SPUser.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-page-context'
   - uid: '@microsoft/sp-page-context.SPUser.displayName'
     name: displayName

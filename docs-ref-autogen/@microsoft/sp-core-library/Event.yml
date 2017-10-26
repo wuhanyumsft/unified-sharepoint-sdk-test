@@ -11,6 +11,14 @@ items:
       - typeScript
     type: class
     summary: Represents a framework event that components can subscribe to.
+    source:
+      path: events/Event.ts
+      startLine: 27
+      remote:
+        path: spfx-core/sp-core-library/src\events/Event.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-core-library'
     remarks: >-
       Examples of events in a web application might include: the user clicking a

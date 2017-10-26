@@ -14,6 +14,14 @@ items:
       - typeScript
     type: class
     summary: ''
+    source:
+      path: tab/PropertyPaneBasic.ts
+      startLine: 4
+      remote:
+        path: spfx-core/sp-webpart-base/src\tab/PropertyPaneBasic.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.PropertyPaneBasic.constructor'
     name: PropertyPaneBasic

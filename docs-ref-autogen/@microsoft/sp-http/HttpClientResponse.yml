@@ -23,6 +23,14 @@ items:
       - typeScript
     type: class
     summary: The Response subclass returned by methods such as HttpClient.fetch().
+    source:
+      path: httpClient/HttpClientResponse.ts
+      startLine: 18
+      remote:
+        path: spfx-core/sp-http/src\httpClient/HttpClientResponse.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
     remarks: >-
       This is a placeholder.  In the future, additional HttpClient-specific

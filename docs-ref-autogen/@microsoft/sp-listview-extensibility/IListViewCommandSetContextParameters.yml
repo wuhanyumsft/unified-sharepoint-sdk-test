@@ -10,6 +10,15 @@ items:
       - typeScript
     type: interface
     summary: Constructor parameters for ListViewCommandSetContext.
+    source:
+      path: commandSet/ListViewCommandSetContext.ts
+      startLine: 16
+      remote:
+        path: >-
+          spfx-libraries/sp-listview-extensibility/src\commandSet/ListViewCommandSetContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-listview-extensibility'
   - uid: >-
       @microsoft/sp-listview-extensibility.IListViewCommandSetContextParameters.listView

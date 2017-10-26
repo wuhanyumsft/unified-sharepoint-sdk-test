@@ -14,6 +14,15 @@ items:
       - typeScript
     type: interface
     summary: Web part configuration settings
+    source:
+      path: propertyPane/propertyPane/IPropertyPane.ts
+      startLine: 77
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPane/IPropertyPane.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneConfiguration.currentPage'
     name: currentPage

@@ -28,6 +28,15 @@ items:
       - typeScript
     type: class
     summary: ''
+    source:
+      path: suiteNav/SuiteNavManagerConfiguration.ts
+      startLine: 33
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\suiteNav/SuiteNavManagerConfiguration.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: '@microsoft/sp-application-base.SuiteNavManagerConfiguration.cacheToken'
     name: cacheToken

@@ -30,6 +30,14 @@ items:
       call has completed.  Each call to fetch() also returns a promise that will
 
       resolve with an SPHttpClientResponse object for that particular request.
+    source:
+      path: spHttpClient/SPHttpClientBatch.ts
+      startLine: 48
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/SPHttpClientBatch.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.SPHttpClientBatch.configurations'
     name: configurations

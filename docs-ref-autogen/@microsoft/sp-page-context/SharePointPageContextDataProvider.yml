@@ -24,6 +24,15 @@ items:
       service call,
 
       but it is not a full cache with invalidation and change notifications.
+    source:
+      path: pageManager/SharePointPageContextDataProvider.ts
+      startLine: 18
+      remote:
+        path: >-
+          spfx-core/sp-page-context/src\pageManager/SharePointPageContextDataProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-page-context'
   - uid: >-
       @microsoft/sp-page-context.SharePointPageContextDataProvider.fetchComponentContextInfo

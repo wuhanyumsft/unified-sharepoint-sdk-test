@@ -8,4 +8,12 @@ items:
       - typeScript
     type: interface
     summary: Base webpart props that all webpart props need to inherit from.
+    source:
+      path: core/IWebPartProps.ts
+      startLine: 12
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/IWebPartProps.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'

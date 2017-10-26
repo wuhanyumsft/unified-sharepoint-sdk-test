@@ -14,6 +14,14 @@ items:
     summary: >-
       This class is useful for getting the webServerRelativeUrl to the
       GraphHttpClient
+    source:
+      path: graphHttpClient/GraphHttpClientContext.ts
+      startLine: 7
+      remote:
+        path: spfx-core/sp-http/src\graphHttpClient/GraphHttpClientContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.GraphHttpClientContext.getWebServerRelativeUrl'
     name: getWebServerRelativeUrl

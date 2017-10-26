@@ -13,6 +13,14 @@ items:
       - typeScript
     type: interface
     summary: Constructor parameters for a BaseComponentContext.
+    source:
+      path: BaseComponentContext.ts
+      startLine: 17
+      remote:
+        path: spfx-core/sp-component-base/src\BaseComponentContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-component-base'
   - uid: '@microsoft/sp-component-base.IComponentContextParameters.instanceId'
     name: instanceId

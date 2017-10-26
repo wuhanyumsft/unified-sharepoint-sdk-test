@@ -19,6 +19,14 @@ items:
       provides a supported way for showing
 
       dialogs to the user inside SharePoint Framework components.
+    source:
+      path: BaseDialog.ts
+      startLine: 96
+      remote:
+        path: spfx-libraries/sp-dialog/src\BaseDialog.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-dialog'
     isPreview: true
     remarks: >-

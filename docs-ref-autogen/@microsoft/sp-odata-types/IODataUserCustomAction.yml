@@ -34,6 +34,14 @@ items:
       see the MSDN documentation here:
 
       https://msdn.microsoft.com/en-us/library/office/dn531432.aspx#bk_UserCustomAction
+    source:
+      path: IODataUserCustomAction.ts
+      startLine: 10
+      remote:
+        path: spfx-core/sp-odata-types/src\IODataUserCustomAction.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-odata-types'
   - uid: '@microsoft/sp-odata-types.IODataUserCustomAction.ClientSideComponentId'
     name: ClientSideComponentId

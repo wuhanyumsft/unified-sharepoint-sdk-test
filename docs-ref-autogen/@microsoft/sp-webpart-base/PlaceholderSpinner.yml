@@ -19,6 +19,15 @@ items:
     extends:
       name: >-
         @@microsoft/sp-webpart-base.PlaceholderSpinner<@@microsoft/sp-webpart-base.IPlaceholderSpinnerProps>
+    source:
+      path: components/placeHolder/PlaceholderSpinner.tsx
+      startLine: 38
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\components/placeHolder/PlaceholderSpinner.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.PlaceholderSpinner.clearPlaceholder'
     name: clearPlaceholder

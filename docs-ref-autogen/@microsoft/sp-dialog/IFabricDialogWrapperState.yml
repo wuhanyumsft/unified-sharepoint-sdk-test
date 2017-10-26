@@ -11,6 +11,14 @@ items:
       - typeScript
     type: interface
     summary: ''
+    source:
+      path: FabricDialogWrapper.tsx
+      startLine: 17
+      remote:
+        path: spfx-libraries/sp-dialog/src\FabricDialogWrapper.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-dialog'
   - uid: '@microsoft/sp-dialog.IFabricDialogWrapperState.dialog'
     name: dialog

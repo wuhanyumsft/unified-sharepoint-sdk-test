@@ -13,6 +13,14 @@ items:
       nav
     extends:
       name: '@@microsoft/sp-application-base.IComponentVisible'
+    source:
+      path: suiteNav/SuiteNavManager.ts
+      startLine: 38
+      remote:
+        path: spfx-core/sp-application-base/src\suiteNav/SuiteNavManager.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: '@microsoft/sp-application-base.ISuiteNavManager.loadSuiteNav'
     name: loadSuiteNav

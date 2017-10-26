@@ -15,6 +15,15 @@ items:
       simply
 
       calls Math.random().
+    source:
+      path: serviceScope/provider/RandomNumberGenerator.ts
+      startLine: 31
+      remote:
+        path: >-
+          spfx-core/sp-core-library/src\serviceScope/provider/RandomNumberGenerator.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-core-library'
   - uid: '@microsoft/sp-core-library.RandomNumberGenerator.generate'
     name: generate

@@ -11,6 +11,14 @@ items:
       - typeScript
     type: class
     summary: Event Aggregator
+    source:
+      path: core/events/EventAggregator.ts
+      startLine: 20
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/events/EventAggregator.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.EventAggregator.raiseEvent'
     name: raiseEvent

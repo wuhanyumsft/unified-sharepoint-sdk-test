@@ -18,6 +18,14 @@ items:
       indicator and
 
       error messages for a web part.
+    source:
+      path: core/IClientSideWebPartStatusRenderer.ts
+      startLine: 9
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/IClientSideWebPartStatusRenderer.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IClientSideWebPartStatusRenderer.clearError'
     name: clearError

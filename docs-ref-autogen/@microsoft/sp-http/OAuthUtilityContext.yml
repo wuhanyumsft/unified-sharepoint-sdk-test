@@ -34,6 +34,14 @@ items:
       be
 
       used by other parts of our framework.
+    source:
+      path: oauthTokenProvider/OAuthUtilityContext.ts
+      startLine: 38
+      remote:
+        path: spfx-core/sp-http/src\oauthTokenProvider/OAuthUtilityContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.OAuthUtilityContext.fetchWithDigest'
     name: fetchWithDigest

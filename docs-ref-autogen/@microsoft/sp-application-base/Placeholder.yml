@@ -13,6 +13,15 @@ items:
       - typeScript
     type: class
     summary: Represents the placeholder div provided by the application
+    source:
+      path: extensibility/placeholder/Placeholder.ts
+      startLine: 38
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/placeholder/Placeholder.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: '@microsoft/sp-application-base.Placeholder.createPlaceholderContent'
     name: createPlaceholderContent

@@ -12,6 +12,14 @@ items:
     summary: Flags interface for SPHttpClientCommonConfiguration
     extends:
       name: '@@microsoft/sp-http.IHttpClientConfiguration'
+    source:
+      path: spHttpClient/SPHttpClientCommonConfiguration.ts
+      startLine: 9
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/SPHttpClientCommonConfiguration.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
   - uid: '@microsoft/sp-http.ISPHttpClientCommonConfiguration.jsonRequest'
     name: jsonRequest

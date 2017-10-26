@@ -17,6 +17,14 @@ items:
     summary: |-
       This class represents a globally unique identifier, as described by
       IETF RFC 4122.
+    source:
+      path: Guid.ts
+      startLine: 22
+      remote:
+        path: spfx-core/sp-core-library/src\Guid.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-core-library'
     remarks: >-
       The input string is normalized and validated, which provides

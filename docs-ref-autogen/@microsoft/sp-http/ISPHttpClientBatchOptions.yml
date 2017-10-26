@@ -14,4 +14,12 @@ items:
       https://fetch.spec.whatwg.org/
     extends:
       name: '@@microsoft/sp-http.IHttpClientOptions'
+    source:
+      path: spHttpClient/SPHttpClientBatch.ts
+      startLine: 337
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/SPHttpClientBatch.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'

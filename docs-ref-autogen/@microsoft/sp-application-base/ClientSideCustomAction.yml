@@ -21,6 +21,15 @@ items:
       - typeScript
     type: class
     summary: Client side custom action.
+    source:
+      path: extensibility/customAction/ClientSideCustomAction.ts
+      startLine: 11
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/customAction/ClientSideCustomAction.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: >-
       @microsoft/sp-application-base.ClientSideCustomAction.clientSideComponentId

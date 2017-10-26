@@ -12,6 +12,14 @@ items:
     summary: Structure representing webpart - webpart events
     extends:
       name: '@@microsoft/sp-webpart-base.IEvent<T>'
+    source:
+      path: core/IWebPartEvent.ts
+      startLine: 13
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/IWebPartEvent.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IWebPartEvent.source'
     name: source

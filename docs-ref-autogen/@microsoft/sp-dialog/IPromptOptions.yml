@@ -11,6 +11,14 @@ items:
     summary: Options for showing a prompt dialog
     extends:
       name: '@@microsoft/sp-dialog.IDialogShowOptions'
+    source:
+      path: Dialog.ts
+      startLine: 42
+      remote:
+        path: spfx-libraries/sp-dialog/src\Dialog.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-dialog'
     isPreview: true
   - uid: '@microsoft/sp-dialog.IPromptOptions.defaultValue'

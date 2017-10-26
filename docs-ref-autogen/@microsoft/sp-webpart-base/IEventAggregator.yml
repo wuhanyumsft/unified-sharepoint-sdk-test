@@ -15,6 +15,14 @@ items:
       format
 
       "eventName:action" e.g. "configure:start" and "configure:end"
+    source:
+      path: core/events/IEvent.ts
+      startLine: 29
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/events/IEvent.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IEventAggregator.raiseEvent'
     name: raiseEvent

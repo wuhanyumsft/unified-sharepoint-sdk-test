@@ -22,6 +22,14 @@ items:
       headers, manages the digest needed for writes, and collects telemetry that
 
       helps the service to monitor the performance of an application.
+    source:
+      path: spHttpClient/SPHttpClient.ts
+      startLine: 40
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/SPHttpClient.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
     remarks: >-
       For communicating with Microsoft Graph, use the <xref:GraphHttpClient>

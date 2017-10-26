@@ -10,5 +10,13 @@ items:
     summary: Options for showing an alert dialog
     extends:
       name: '@@microsoft/sp-dialog.IDialogShowOptions'
+    source:
+      path: Dialog.ts
+      startLine: 33
+      remote:
+        path: spfx-libraries/sp-dialog/src\Dialog.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-dialog'
     isPreview: true

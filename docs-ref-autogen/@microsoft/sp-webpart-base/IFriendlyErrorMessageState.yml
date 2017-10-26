@@ -9,6 +9,14 @@ items:
       - typeScript
     type: interface
     summary: Interface of IFriendlyErrorMessageState.
+    source:
+      path: core/FriendlyErrorMessage.tsx
+      startLine: 24
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/FriendlyErrorMessage.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IFriendlyErrorMessageState.isExpanded'
     name: isExpanded

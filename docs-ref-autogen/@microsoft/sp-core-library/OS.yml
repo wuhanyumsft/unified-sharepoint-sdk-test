@@ -15,6 +15,14 @@ items:
       - typeScript
     type: enum
     summary: Enum to identify OS.
+    source:
+      path: BrowserDetection.ts
+      startLine: 20
+      remote:
+        path: spfx-core/sp-core-library/src\BrowserDetection.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-core-library'
   - uid: '@microsoft/sp-core-library.OS.Other'
     name: Other

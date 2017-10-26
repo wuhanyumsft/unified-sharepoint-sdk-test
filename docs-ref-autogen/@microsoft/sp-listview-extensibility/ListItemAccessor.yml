@@ -16,6 +16,15 @@ items:
       ListItemAccessor provides
 
       access to the associated SharePoint list item.
+    source:
+      path: common/ListItemAccessor.ts
+      startLine: 19
+      remote:
+        path: >-
+          spfx-libraries/sp-listview-extensibility/src\common/ListItemAccessor.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-listview-extensibility'
     remarks: >-
       ListItemAccessor allows a field customizer extension to determine which

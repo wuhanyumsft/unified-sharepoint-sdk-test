@@ -16,6 +16,14 @@ items:
     summary: |-
       This is a test implementation of ITimeProvider that allows unit tests
       to simulate the system clock.
+    source:
+      path: test-api/MockTimeProvider.ts
+      startLine: 8
+      remote:
+        path: spfx-core/sp-core-library/src\test-api/MockTimeProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-core-library'
   - uid: '@microsoft/sp-core-library.MockTimeProvider.addMs'
     name: addMs

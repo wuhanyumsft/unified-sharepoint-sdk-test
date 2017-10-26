@@ -9,6 +9,14 @@ items:
       - typeScript
     type: interface
     summary: Standard configurations for SPHttpClient.
+    source:
+      path: spHttpClient/SPHttpClientBatchConfiguration.ts
+      startLine: 63
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/SPHttpClientBatchConfiguration.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-http'
     remarks: >-
       This interface provides standard predefined SPHttpClientBatchConfiguration

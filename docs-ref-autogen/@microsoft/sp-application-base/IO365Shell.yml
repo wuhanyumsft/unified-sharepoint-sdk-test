@@ -23,6 +23,14 @@ items:
       sources\Dev\SuiteControls\src\shell\g2\coreshim\O365Shell.cs
 
       ('Suite nav' and 'shell' are more or less synonymous in this context.)
+    source:
+      path: suiteNav/IO365Shell.ts
+      startLine: 79
+      remote:
+        path: spfx-core/sp-application-base/src\suiteNav/IO365Shell.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'
   - uid: '@microsoft/sp-application-base.IO365Shell.FlexPane'
     name: FlexPane

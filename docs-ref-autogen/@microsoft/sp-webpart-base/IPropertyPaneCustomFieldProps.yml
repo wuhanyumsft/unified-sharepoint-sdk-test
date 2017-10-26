@@ -12,6 +12,16 @@ items:
       - typeScript
     type: interface
     summary: PropertyPane CustomPropertyField props.
+    source:
+      path: >-
+        propertyPane/propertyPaneFields/propertyPaneCustomField/IPropertyPaneCustomField.ts
+      startLine: 8
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFields/propertyPaneCustomField/IPropertyPaneCustomField.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneCustomFieldProps.context'
     name: context

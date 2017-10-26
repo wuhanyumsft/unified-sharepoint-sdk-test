@@ -9,6 +9,14 @@ items:
       - typeScript
     type: interface
     summary: Webpart interface to support lazy loading
+    source:
+      path: core/IViewportAwareWebPart.ts
+      startLine: 8
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/IViewportAwareWebPart.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IViewportAwareWebPart.domElement'
     name: domElement

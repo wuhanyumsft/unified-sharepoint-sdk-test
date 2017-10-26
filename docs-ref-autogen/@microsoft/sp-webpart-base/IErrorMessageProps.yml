@@ -9,6 +9,14 @@ items:
       - typeScript
     type: interface
     summary: Interface of ErrorMessage.
+    source:
+      path: core/ErrorMessage.tsx
+      startLine: 12
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/ErrorMessage.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-webpart-base'
   - uid: '@microsoft/sp-webpart-base.IErrorMessageProps.errorMessage'
     name: errorMessage

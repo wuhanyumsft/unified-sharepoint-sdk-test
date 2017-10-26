@@ -16,6 +16,15 @@ items:
       - typeScript
     type: class
     summary: ''
+    source:
+      path: tab/FieldCustomizerDuplicateInstances.ts
+      startLine: 3
+      remote:
+        path: >-
+          spfx-core/sp-extension-base/src\tab/FieldCustomizerDuplicateInstances.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-extension-base'
   - uid: '@microsoft/sp-extension-base.FieldCustomizerDuplicateInstances.constructor'
     name: FieldCustomizerDuplicateInstances

@@ -8,4 +8,12 @@ items:
       - typeScript
     type: interface
     summary: ''
+    source:
+      path: pageChrome/SPThemeProvider.ts
+      startLine: 23
+      remote:
+        path: spfx-core/sp-application-base/src\pageChrome/SPThemeProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-application-base'

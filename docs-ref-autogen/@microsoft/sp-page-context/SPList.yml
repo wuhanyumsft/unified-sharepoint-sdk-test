@@ -17,6 +17,14 @@ items:
       contextual
 
       information for the SharePoint list that hosts the page.
+    source:
+      path: SPList.ts
+      startLine: 24
+      remote:
+        path: spfx-core/sp-page-context/src\SPList.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
     package: '@microsoft/sp-page-context'
   - uid: '@microsoft/sp-page-context.SPList.id'
     name: id
