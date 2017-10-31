@@ -128,6 +128,7 @@ items:
       - '@microsoft/sp-webpart-base.PropertyPanePage'
       - '@microsoft/sp-webpart-base.PropertyPaneTitleBar'
       - '@microsoft/sp-webpart-base.IPropertyPaneTitleBarProps'
+      - '@microsoft/sp-webpart-base.JsomWebPartTest'
       - '@microsoft/sp-webpart-base.PropertyPaneBasic'
       - '@microsoft/sp-webpart-base.MockClientSideWebPartManifests'
       - '@microsoft/sp-webpart-base.MockHost'
@@ -390,6 +391,8 @@ references:
     name: PropertyPaneTitleBar
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneTitleBarProps'
     name: IPropertyPaneTitleBarProps
+  - uid: '@microsoft/sp-webpart-base.JsomWebPartTest'
+    name: JsomWebPartTest
   - uid: '@microsoft/sp-webpart-base.PropertyPaneBasic'
     name: PropertyPaneBasic
   - uid: '@microsoft/sp-webpart-base.MockClientSideWebPartManifests'

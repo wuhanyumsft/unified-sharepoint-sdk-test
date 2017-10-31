@@ -638,6 +638,8 @@
       name: IWebPartPropertyMetadata
     - uid: '@microsoft/sp-webpart-base.IWebPartProps'
       name: IWebPartProps
+    - uid: '@microsoft/sp-webpart-base.JsomWebPartTest'
+      name: JsomWebPartTest
     - uid: '@microsoft/sp-webpart-base.KeyCodes'
       name: KeyCodes
     - uid: '@microsoft/sp-webpart-base.MaintenanceMode'
