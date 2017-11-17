@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.IAdalJsModule'
+    name: IAdalJsModule
+    fullName: IAdalJsModule
+    children:
+      - '@microsoft/sp-http.IAdalJsModule.inject'
+    langs:
+      - typeScript
+    type: interface
+    summary: Represents the exported module from the adal-angular npm package.
+    source:
+      path: oauthTokenProvider/OAuth2TokenProvider.ts
+      startLine: 28
+      remote:
+        path: spfx-core/sp-http/src\oauthTokenProvider/OAuth2TokenProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.IAdalJsModule.inject'
+    name: inject
+    fullName: inject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(configuration: Config) => AuthenticationContext inject'
+      return:
+        type:
+          - '(configuration: Config) => AuthenticationContext'

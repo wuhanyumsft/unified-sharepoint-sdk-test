@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.IPlaceholderEntry'
+    name: IPlaceholderEntry
+    fullName: IPlaceholderEntry
+    children:
+      - '@microsoft/sp-application-base.IPlaceholderEntry.placeholderContent'
+      - '@microsoft/sp-application-base.IPlaceholderEntry.sequence'
+    langs:
+      - typeScript
+    type: interface
+    summary: Contains the instance of PlaceholderContent and its metadata
+    source:
+      path: extensibility/placeholder/Placeholder.ts
+      startLine: 28
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/placeholder/Placeholder.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.IPlaceholderEntry.placeholderContent'
+    name: placeholderContent
+    fullName: placeholderContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PlaceholderContent placeholderContent
+      return:
+        type:
+          - '@@microsoft/sp-application-base.PlaceholderContent'
+  - uid: '@microsoft/sp-application-base.IPlaceholderEntry.sequence'
+    name: sequence
+    fullName: sequence
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number sequence
+      return:
+        type:
+          - number

@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-extension-base.MockNotExtension'
+    name: MockNotExtension
+    fullName: MockNotExtension
+    children:
+      - '@microsoft/sp-extension-base.MockNotExtension.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    source:
+      path: test/MockExtensions.ts
+      startLine: 20
+      remote:
+        path: spfx-core/sp-extension-base/src\test/MockExtensions.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-extension-base'
+  - uid: '@microsoft/sp-extension-base.MockNotExtension.constructor'
+    name: MockNotExtension
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new MockNotExtension()
+      parameters: []

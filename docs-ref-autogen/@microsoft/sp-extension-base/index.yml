@@ -1,0 +1,85 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-extension-base'
+    name: '@microsoft/sp-extension-base'
+    summary: ''
+    children:
+      - '@microsoft/sp-extension-base.BaseExtension'
+      - '@microsoft/sp-extension-base.ExtensionContext'
+      - '@microsoft/sp-extension-base.IExtensionContextParameters'
+      - '@microsoft/sp-extension-base.ExtensionManager'
+      - '@microsoft/sp-extension-base.IBaseExtensionImplementation'
+      - '@microsoft/sp-extension-base.IComponentModule'
+      - '@microsoft/sp-extension-base.IQosExtraData'
+      - '@microsoft/sp-extension-base.ApplicationCustomizerListView'
+      - '@microsoft/sp-extension-base.ApplicationCustomizerPages'
+      - '@microsoft/sp-extension-base.CommandSet'
+      - '@microsoft/sp-extension-base.CommandSetDialog'
+      - '@microsoft/sp-extension-base.CommandSetDistinctInstances'
+      - '@microsoft/sp-extension-base.FieldCustomizer'
+      - '@microsoft/sp-extension-base.FieldCustomizerDistinctInstances'
+      - '@microsoft/sp-extension-base.FieldCustomizerDuplicateInstances'
+      - '@microsoft/sp-extension-base.WidgetContext'
+      - '@microsoft/sp-extension-base.WidgetExtension'
+      - '@microsoft/sp-extension-base.WidgetManager'
+      - '@microsoft/sp-extension-base.IWidgetContextParameters'
+      - '@microsoft/sp-extension-base.MockBadExtension'
+      - '@microsoft/sp-extension-base.MockBadExtensionAsync'
+      - '@microsoft/sp-extension-base.MockExtension'
+      - '@microsoft/sp-extension-base.MockExtension2'
+      - '@microsoft/sp-extension-base.MockNotExtension'
+      - '@microsoft/sp-extension-base.Global'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@microsoft/sp-extension-base.BaseExtension'
+    name: BaseExtension
+  - uid: '@microsoft/sp-extension-base.ExtensionContext'
+    name: ExtensionContext
+  - uid: '@microsoft/sp-extension-base.IExtensionContextParameters'
+    name: IExtensionContextParameters
+  - uid: '@microsoft/sp-extension-base.ExtensionManager'
+    name: ExtensionManager
+  - uid: '@microsoft/sp-extension-base.IBaseExtensionImplementation'
+    name: IBaseExtensionImplementation
+  - uid: '@microsoft/sp-extension-base.IComponentModule'
+    name: IComponentModule
+  - uid: '@microsoft/sp-extension-base.IQosExtraData'
+    name: IQosExtraData
+  - uid: '@microsoft/sp-extension-base.ApplicationCustomizerListView'
+    name: ApplicationCustomizerListView
+  - uid: '@microsoft/sp-extension-base.ApplicationCustomizerPages'
+    name: ApplicationCustomizerPages
+  - uid: '@microsoft/sp-extension-base.CommandSet'
+    name: CommandSet
+  - uid: '@microsoft/sp-extension-base.CommandSetDialog'
+    name: CommandSetDialog
+  - uid: '@microsoft/sp-extension-base.CommandSetDistinctInstances'
+    name: CommandSetDistinctInstances
+  - uid: '@microsoft/sp-extension-base.FieldCustomizer'
+    name: FieldCustomizer
+  - uid: '@microsoft/sp-extension-base.FieldCustomizerDistinctInstances'
+    name: FieldCustomizerDistinctInstances
+  - uid: '@microsoft/sp-extension-base.FieldCustomizerDuplicateInstances'
+    name: FieldCustomizerDuplicateInstances
+  - uid: '@microsoft/sp-extension-base.WidgetContext'
+    name: WidgetContext
+  - uid: '@microsoft/sp-extension-base.WidgetExtension'
+    name: WidgetExtension
+  - uid: '@microsoft/sp-extension-base.WidgetManager'
+    name: WidgetManager
+  - uid: '@microsoft/sp-extension-base.IWidgetContextParameters'
+    name: IWidgetContextParameters
+  - uid: '@microsoft/sp-extension-base.MockBadExtension'
+    name: MockBadExtension
+  - uid: '@microsoft/sp-extension-base.MockBadExtensionAsync'
+    name: MockBadExtensionAsync
+  - uid: '@microsoft/sp-extension-base.MockExtension'
+    name: MockExtension
+  - uid: '@microsoft/sp-extension-base.MockExtension2'
+    name: MockExtension2
+  - uid: '@microsoft/sp-extension-base.MockNotExtension'
+    name: MockNotExtension
+  - uid: '@microsoft/sp-extension-base.Global'
+    name: Global

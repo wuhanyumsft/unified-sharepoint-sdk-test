@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-extension-base.FieldCustomizer'
+    name: FieldCustomizer
+    fullName: FieldCustomizer
+    children:
+      - '@microsoft/sp-extension-base.FieldCustomizer.constructor'
+      - '@microsoft/sp-extension-base.FieldCustomizer.TestIncludeScripts'
+      - '@microsoft/sp-extension-base.FieldCustomizer.TestName'
+      - '@microsoft/sp-extension-base.FieldCustomizer.TestOwner'
+      - '@microsoft/sp-extension-base.FieldCustomizer.TestRun'
+      - '@microsoft/sp-extension-base.FieldCustomizer.TestSetup'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    source:
+      path: tab/FieldCustomizer.ts
+      startLine: 3
+      remote:
+        path: spfx-core/sp-extension-base/src\tab/FieldCustomizer.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-extension-base'
+  - uid: '@microsoft/sp-extension-base.FieldCustomizer.constructor'
+    name: FieldCustomizer
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new FieldCustomizer(serverURL: string)'
+      parameters:
+        - id: serverURL
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-extension-base.FieldCustomizer.TestIncludeScripts'
+    name: TestIncludeScripts
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: These scripts are required for the tests to run.
+    syntax:
+      content: function TestIncludeScripts()
+      parameters: []
+      return:
+        type:
+          - 'string[]'
+  - uid: '@microsoft/sp-extension-base.FieldCustomizer.TestName'
+    name: TestName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestName()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-extension-base.FieldCustomizer.TestOwner'
+    name: TestOwner
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestOwner()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-extension-base.FieldCustomizer.TestRun'
+    name: TestRun
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestRun()
+      parameters: []
+  - uid: '@microsoft/sp-extension-base.FieldCustomizer.TestSetup'
+    name: TestSetup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestSetup()
+      parameters: []

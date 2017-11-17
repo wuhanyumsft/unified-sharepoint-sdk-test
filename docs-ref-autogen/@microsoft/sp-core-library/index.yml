@@ -1,0 +1,154 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library'
+    name: '@microsoft/sp-core-library'
+    summary: ''
+    children:
+      - '@microsoft/sp-core-library.Browser'
+      - '@microsoft/sp-core-library.OS'
+      - '@microsoft/sp-core-library.BrowserDetection'
+      - '@microsoft/sp-core-library.IBrowserInformation'
+      - '@microsoft/sp-core-library.DisplayMode'
+      - '@microsoft/sp-core-library.EnvironmentType'
+      - '@microsoft/sp-core-library.Environment'
+      - '@microsoft/sp-core-library.IEnvironmentData'
+      - '@microsoft/sp-core-library.Guid'
+      - '@microsoft/sp-core-library.BrowserSupportLevel'
+      - '@microsoft/sp-core-library.IBrowserCompatibility'
+      - '@microsoft/sp-core-library.IDisposable'
+      - '@microsoft/sp-core-library.JsonUtilities'
+      - '@microsoft/sp-core-library.SPError'
+      - '@microsoft/sp-core-library.SPFlight'
+      - '@microsoft/sp-core-library.SPKillSwitch'
+      - '@microsoft/sp-core-library.Session'
+      - '@microsoft/sp-core-library.ISessionData'
+      - '@microsoft/sp-core-library.Text'
+      - '@microsoft/sp-core-library.Validate'
+      - '@microsoft/sp-core-library.Version'
+      - '@microsoft/sp-core-library.DeferredClass'
+      - '@microsoft/sp-core-library.Event'
+      - '@microsoft/sp-core-library.EventArgs'
+      - '@microsoft/sp-core-library.EventManager'
+      - '@microsoft/sp-core-library.IEventListener'
+      - '@microsoft/sp-core-library.IEventObserver'
+      - '@microsoft/sp-core-library.DefaultLogHandler'
+      - '@microsoft/sp-core-library.ILogHandler'
+      - '@microsoft/sp-core-library.Log'
+      - '@microsoft/sp-core-library.IServiceCollection'
+      - '@microsoft/sp-core-library.ServiceKey'
+      - '@microsoft/sp-core-library.ServiceScope'
+      - '@microsoft/sp-core-library.IRegistration'
+      - '@microsoft/sp-core-library.RandomNumberGenerator'
+      - '@microsoft/sp-core-library.IRandomNumberGenerator'
+      - '@microsoft/sp-core-library.TimeProvider'
+      - '@microsoft/sp-core-library.ITimeProvider'
+      - '@microsoft/sp-core-library.A'
+      - '@microsoft/sp-core-library.B'
+      - '@microsoft/sp-core-library.C'
+      - '@microsoft/sp-core-library.MockRandomNumberGenerator'
+      - '@microsoft/sp-core-library.MockTimeProvider'
+      - '@microsoft/sp-core-library.UrlQueryParameterCollection'
+      - '@microsoft/sp-core-library.IKeyValuePair'
+      - '@microsoft/sp-core-library.UrlUtilities'
+      - '@microsoft/sp-core-library.ITestProperties'
+      - '@microsoft/sp-core-library.Global'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@microsoft/sp-core-library.Browser'
+    name: Browser
+  - uid: '@microsoft/sp-core-library.OS'
+    name: OS
+  - uid: '@microsoft/sp-core-library.BrowserDetection'
+    name: BrowserDetection
+  - uid: '@microsoft/sp-core-library.IBrowserInformation'
+    name: IBrowserInformation
+  - uid: '@microsoft/sp-core-library.DisplayMode'
+    name: DisplayMode
+  - uid: '@microsoft/sp-core-library.EnvironmentType'
+    name: EnvironmentType
+  - uid: '@microsoft/sp-core-library.Environment'
+    name: Environment
+  - uid: '@microsoft/sp-core-library.IEnvironmentData'
+    name: IEnvironmentData
+  - uid: '@microsoft/sp-core-library.Guid'
+    name: Guid
+  - uid: '@microsoft/sp-core-library.BrowserSupportLevel'
+    name: BrowserSupportLevel
+  - uid: '@microsoft/sp-core-library.IBrowserCompatibility'
+    name: IBrowserCompatibility
+  - uid: '@microsoft/sp-core-library.IDisposable'
+    name: IDisposable
+  - uid: '@microsoft/sp-core-library.JsonUtilities'
+    name: JsonUtilities
+  - uid: '@microsoft/sp-core-library.SPError'
+    name: SPError
+  - uid: '@microsoft/sp-core-library.SPFlight'
+    name: SPFlight
+  - uid: '@microsoft/sp-core-library.SPKillSwitch'
+    name: SPKillSwitch
+  - uid: '@microsoft/sp-core-library.Session'
+    name: Session
+  - uid: '@microsoft/sp-core-library.ISessionData'
+    name: ISessionData
+  - uid: '@microsoft/sp-core-library.Text'
+    name: Text
+  - uid: '@microsoft/sp-core-library.Validate'
+    name: Validate
+  - uid: '@microsoft/sp-core-library.Version'
+    name: Version
+  - uid: '@microsoft/sp-core-library.DeferredClass'
+    name: DeferredClass
+  - uid: '@microsoft/sp-core-library.Event'
+    name: Event
+  - uid: '@microsoft/sp-core-library.EventArgs'
+    name: EventArgs
+  - uid: '@microsoft/sp-core-library.EventManager'
+    name: EventManager
+  - uid: '@microsoft/sp-core-library.IEventListener'
+    name: IEventListener
+  - uid: '@microsoft/sp-core-library.IEventObserver'
+    name: IEventObserver
+  - uid: '@microsoft/sp-core-library.DefaultLogHandler'
+    name: DefaultLogHandler
+  - uid: '@microsoft/sp-core-library.ILogHandler'
+    name: ILogHandler
+  - uid: '@microsoft/sp-core-library.Log'
+    name: Log
+  - uid: '@microsoft/sp-core-library.IServiceCollection'
+    name: IServiceCollection
+  - uid: '@microsoft/sp-core-library.ServiceKey'
+    name: ServiceKey
+  - uid: '@microsoft/sp-core-library.ServiceScope'
+    name: ServiceScope
+  - uid: '@microsoft/sp-core-library.IRegistration'
+    name: IRegistration
+  - uid: '@microsoft/sp-core-library.RandomNumberGenerator'
+    name: RandomNumberGenerator
+  - uid: '@microsoft/sp-core-library.IRandomNumberGenerator'
+    name: IRandomNumberGenerator
+  - uid: '@microsoft/sp-core-library.TimeProvider'
+    name: TimeProvider
+  - uid: '@microsoft/sp-core-library.ITimeProvider'
+    name: ITimeProvider
+  - uid: '@microsoft/sp-core-library.A'
+    name: A
+  - uid: '@microsoft/sp-core-library.B'
+    name: B
+  - uid: '@microsoft/sp-core-library.C'
+    name: C
+  - uid: '@microsoft/sp-core-library.MockRandomNumberGenerator'
+    name: MockRandomNumberGenerator
+  - uid: '@microsoft/sp-core-library.MockTimeProvider'
+    name: MockTimeProvider
+  - uid: '@microsoft/sp-core-library.UrlQueryParameterCollection'
+    name: UrlQueryParameterCollection
+  - uid: '@microsoft/sp-core-library.IKeyValuePair'
+    name: IKeyValuePair
+  - uid: '@microsoft/sp-core-library.UrlUtilities'
+    name: UrlUtilities
+  - uid: '@microsoft/sp-core-library.ITestProperties'
+    name: ITestProperties
+  - uid: '@microsoft/sp-core-library.Global'
+    name: Global

@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.IServiceCollection'
+    name: IServiceCollection
+    fullName: IServiceCollection
+    children:
+      - '@microsoft/sp-core-library.IServiceCollection.serviceScope'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      A shorthand pattern for extracting well-known services from a
+      ServiceScope.
+    source:
+      path: serviceScope/IServiceCollection.ts
+      startLine: 11
+      remote:
+        path: spfx-core/sp-core-library/src\serviceScope/IServiceCollection.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-core-library'
+    deprecated:
+      content: |-
+        This pattern has been superceded by the BaseComponentContext pattern.
+        This interface will be removed in a future release.
+  - uid: '@microsoft/sp-core-library.IServiceCollection.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns the underlying ServiceScope that the members belong to.
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - '@@microsoft/sp-core-library.ServiceScope'

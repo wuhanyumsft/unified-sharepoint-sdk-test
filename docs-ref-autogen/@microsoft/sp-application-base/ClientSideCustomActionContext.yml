@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.ClientSideCustomActionContext'
+    name: ClientSideCustomActionContext
+    fullName: ClientSideCustomActionContext
+    children:
+      - >-
+        @microsoft/sp-application-base.ClientSideCustomActionContext.customActions
+      - >-
+        @microsoft/sp-application-base.ClientSideCustomActionContext.debugCustomActions
+      - '@microsoft/sp-application-base.ClientSideCustomActionContext.getAll'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Client side custom action context. This object contains all the custom
+      actions.
+    source:
+      path: extensibility/customAction/ClientSideCustomActionContext.ts
+      startLine: 9
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/customAction/ClientSideCustomActionContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.ClientSideCustomActionContext.customActions'
+    name: customActions
+    fullName: customActions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ClientSideCustomAction[] customActions'
+      return:
+        type:
+          - '@@microsoft/sp-application-base.ClientSideCustomAction[]'
+  - uid: >-
+      @microsoft/sp-application-base.ClientSideCustomActionContext.debugCustomActions
+    name: debugCustomActions
+    fullName: debugCustomActions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ClientSideCustomAction[] debugCustomActions'
+      return:
+        type:
+          - '@@microsoft/sp-application-base.ClientSideCustomAction[]'
+  - uid: '@microsoft/sp-application-base.ClientSideCustomActionContext.getAll'
+    name: getAll
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getAll()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/sp-application-base.ClientSideCustomAction[]'

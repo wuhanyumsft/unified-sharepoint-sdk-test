@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.IApplicationContextParameters'
+    name: IApplicationContextParameters
+    fullName: IApplicationContextParameters
+    children:
+      - >-
+        @microsoft/sp-application-base.IApplicationContextParameters.preloadedData
+      - >-
+        @microsoft/sp-application-base.IApplicationContextParameters.suiteNavManager
+    langs:
+      - typeScript
+    type: interface
+    summary: Constructor parameters for BaseApplicationContext.
+    extends:
+      name: any
+    source:
+      path: BaseApplicationContext.ts
+      startLine: 12
+      remote:
+        path: spfx-core/sp-application-base/src\BaseApplicationContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.IApplicationContextParameters.preloadedData'
+    name: preloadedData
+    fullName: preloadedData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: _IPreloadedData preloadedData
+      return:
+        type:
+          - _IPreloadedData
+  - uid: >-
+      @microsoft/sp-application-base.IApplicationContextParameters.suiteNavManager
+    name: suiteNavManager
+    fullName: suiteNavManager
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISuiteNavManager suiteNavManager
+      return:
+        type:
+          - '@@microsoft/sp-application-base.ISuiteNavManager'

@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.IGraphHttpClientConfigurations'
+    name: IGraphHttpClientConfigurations
+    fullName: IGraphHttpClientConfigurations
+    children:
+      - '@microsoft/sp-http.IGraphHttpClientConfigurations.v1'
+    langs:
+      - typeScript
+    type: interface
+    summary: Standard configurations for GraphHttpClient.
+    source:
+      path: graphHttpClient/GraphHttpClientConfiguration.ts
+      startLine: 57
+      remote:
+        path: spfx-core/sp-http/src\graphHttpClient/GraphHttpClientConfiguration.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-http'
+    deprecated:
+      content: >-
+        The GraphHttpClient class has been superceded by the MSGraphClient
+        class.
+    isPreview: true
+    remarks: >-
+      This interface provides standard predefined GraphHttpClientConfiguration
+      objects for use with
+
+      the GraphHttpClient class.  In general, clients should choose the latest
+      available
+
+      version number, which enables all the switches that are recommended for
+      typical
+
+      scenarios.  (If new switches are introduced in the future, a new version
+      number
+
+      will be introduced, which ensures that existing code will continue to
+      function the
+
+      way it did at the time when it was tested.)
+  - uid: '@microsoft/sp-http.IGraphHttpClientConfigurations.v1'
+    name: v1
+    fullName: v1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This configuration turns off every feature switch for HttpClient.  The
+      fetch()
+
+      behavior will be essentially identical to the WHATWG standard API that
+
+      is documented here:
+
+      https://fetch.spec.whatwg.org/
+    syntax:
+      content: GraphHttpClientConfiguration v1
+      return:
+        type:
+          - '@@microsoft/sp-http.GraphHttpClientConfiguration'

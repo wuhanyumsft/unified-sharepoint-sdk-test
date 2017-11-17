@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-extension-base.MockExtension2'
+    name: MockExtension2
+    fullName: MockExtension2
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@microsoft/sp-extension-base.BaseExtension<__type>'
+    source:
+      path: test/MockExtensions.ts
+      startLine: 6
+      remote:
+        path: spfx-core/sp-extension-base/src\test/MockExtensions.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-extension-base'

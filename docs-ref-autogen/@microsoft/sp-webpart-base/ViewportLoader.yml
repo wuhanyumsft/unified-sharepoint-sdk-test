@@ -1,0 +1,126 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.ViewportLoader'
+    name: ViewportLoader
+    fullName: ViewportLoader
+    children:
+      - '@microsoft/sp-webpart-base.ViewportLoader.instance'
+      - '@microsoft/sp-webpart-base.ViewportLoader.isInIntialViewport'
+      - '@microsoft/sp-webpart-base.ViewportLoader.loadOutsideViewPort'
+      - '@microsoft/sp-webpart-base.ViewportLoader.register'
+      - '@microsoft/sp-webpart-base.ViewportLoader.unregister'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Class that helps lazy loading of web parts. This class centrally manages
+
+      registered web parts to be rendered lazily when in the viewport. i.e. Web
+      parts
+
+      that are not in the view port will not be rendered on the initial load.
+      They will
+
+      be rendered only when the user scrolls to the web part. This class manages
+      the
+
+      scroll/resize event handling and notification to the web parts to render
+      when
+
+      they are near the viewport.
+
+      E.g. Modern pages web parts in viewport will be loaded. All other web
+      parts are
+
+      lazily loaded when the user scrolls the view port and that perticular web
+      part is
+
+      in the view.
+    source:
+      path: core/ViewportLoader.ts
+      startLine: 52
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/ViewportLoader.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.ViewportLoader.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ViewportLoader instance
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.ViewportLoader'
+  - uid: '@microsoft/sp-webpart-base.ViewportLoader.isInIntialViewport'
+    name: isInIntialViewport
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns true if the web part is in the initial page viewport.
+    syntax:
+      content: 'static function isInIntialViewport(webpart: IViewportAwareWebPart)'
+      parameters:
+        - id: webpart
+          type:
+            - '@@microsoft/sp-webpart-base.IViewportAwareWebPart'
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.ViewportLoader.loadOutsideViewPort'
+    name: loadOutsideViewPort
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Load registered web parts not in the viewport, by gradually increasing
+      viewport offset.
+    syntax:
+      content: function loadOutsideViewPort()
+      parameters: []
+  - uid: '@microsoft/sp-webpart-base.ViewportLoader.register'
+    name: register
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Determines if a web part should be lazily loaded and register such web
+      parts.
+    syntax:
+      content: >-
+        function register(webpart: IViewportAwareWebPart, scrollableParent?:
+        HTMLElement)
+      parameters:
+        - id: webpart
+          type:
+            - '@@microsoft/sp-webpart-base.IViewportAwareWebPart'
+          description: ''
+        - id: scrollableParent
+          type:
+            - HTMLElement
+          description: ''
+          optional: true
+  - uid: '@microsoft/sp-webpart-base.ViewportLoader.unregister'
+    name: unregister
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Unregister a loaded web part which should not be tracked any more.
+    syntax:
+      content: 'function unregister(webpart: IViewportAwareWebPart)'
+      parameters:
+        - id: webpart
+          type:
+            - '@@microsoft/sp-webpart-base.IViewportAwareWebPart'
+          description: ''

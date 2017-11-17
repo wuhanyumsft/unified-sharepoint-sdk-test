@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.ScrollEventHandler'
+    name: ScrollEventHandler
+    fullName: ScrollEventHandler
+    children:
+      - '@microsoft/sp-webpart-base.ScrollEventHandler.instance'
+      - '@microsoft/sp-webpart-base.ScrollEventHandler.register'
+      - '@microsoft/sp-webpart-base.ScrollEventHandler.reset'
+      - '@microsoft/sp-webpart-base.ScrollEventHandler.unregister'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Common scroll event handler to optimize multiple individual handlers and
+      cost of calculating ClientRect.
+
+      It also optimizes calculating scrollable parents.
+
+      It also notifies on window resize besides scroll event
+    source:
+      path: core/events/ScrollEventHandler.ts
+      startLine: 20
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/events/ScrollEventHandler.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.ScrollEventHandler.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ScrollEventHandler instance
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.ScrollEventHandler'
+  - uid: '@microsoft/sp-webpart-base.ScrollEventHandler.register'
+    name: register
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Register an element to receive notification on scroll event
+    syntax:
+      content: >-
+        function register(element: HTMLElement, callbackFunction:
+        IScrollEventHandler, scrollableParent?: HTMLElement)
+      parameters:
+        - id: element
+          type:
+            - HTMLElement
+          description: Element for which scroll event is desired
+        - id: callbackFunction
+          type:
+            - '@@microsoft/sp-webpart-base.IScrollEventHandler'
+          description: Callback function for handling event
+        - id: scrollableParent
+          type:
+            - HTMLElement
+          description: |
+            Optional scrollable Parent if already known
+          optional: true
+  - uid: '@microsoft/sp-webpart-base.ScrollEventHandler.reset'
+    name: reset
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Reset scroll event handler
+    syntax:
+      content: function reset()
+      parameters: []
+  - uid: '@microsoft/sp-webpart-base.ScrollEventHandler.unregister'
+    name: unregister
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Unregister a loaded web part which should not be tracked any more.
+    syntax:
+      content: >-
+        function unregister(element: HTMLElement, callbackFunction:
+        IScrollEventHandler)
+      parameters:
+        - id: element
+          type:
+            - HTMLElement
+          description: ''
+        - id: callbackFunction
+          type:
+            - '@@microsoft/sp-webpart-base.IScrollEventHandler'
+          description: ''

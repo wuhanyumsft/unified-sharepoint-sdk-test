@@ -1,0 +1,20 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IWebPartGetter'
+    name: IWebPartGetter
+    fullName: IWebPartGetter
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: Type definition of the web part getter delegate.
+    source:
+      path: propertyPane/propertyPaneController/PropertyPaneController.ts
+      startLine: 52
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneController/PropertyPaneController.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'

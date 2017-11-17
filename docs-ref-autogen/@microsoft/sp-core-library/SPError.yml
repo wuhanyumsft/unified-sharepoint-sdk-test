@@ -1,0 +1,152 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.SPError'
+    name: SPError
+    fullName: SPError
+    children:
+      - '@microsoft/sp-core-library.SPError.category'
+      - '@microsoft/sp-core-library.SPError.Error'
+      - '@microsoft/sp-core-library.SPError.id'
+      - '@microsoft/sp-core-library.SPError.innerError'
+      - '@microsoft/sp-core-library.SPError.constructor'
+      - '@microsoft/sp-core-library.SPError.toString'
+      - '@microsoft/sp-core-library.SPError.toStringForUI'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      The purpose of this class is to help make the SharePoint framework errors
+      more robust.
+
+      On top of the base Error class functionality, this class adds the concept
+      of error codes.
+
+      The error code could be a non-localized immutable string or an error
+      number. All the
+
+      SharePoint framework code is expected to use this class for raising
+      errors`.
+
+      References:
+
+
+      <xref:https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FJavaScript%2FReference%2FGlobal_Objects%2FError>
+
+
+      <xref:http%3A%2F%2Fstackoverflow.com%2Fquestions%2F1382107%2Fwhats-a-good-way-to-extend-error-in-javascript>
+    extends:
+      name: Error
+    source:
+      path: SPError.ts
+      startLine: 21
+      remote:
+        path: spfx-core/sp-core-library/src\SPError.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.SPError.category'
+    name: category
+    fullName: category
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Error category.
+    syntax:
+      content: string category
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-core-library.SPError.Error'
+    name: Error
+    fullName: Error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static ErrorConstructor Error
+      return:
+        type:
+          - ErrorConstructor
+  - uid: '@microsoft/sp-core-library.SPError.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Error id.
+      e.g. Value of the enum.
+    syntax:
+      content: number id
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-core-library.SPError.innerError'
+    name: innerError
+    fullName: innerError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Inner error.
+    syntax:
+      content: Error | undefined innerError
+      return:
+        type:
+          - Error | undefined
+  - uid: '@microsoft/sp-core-library.SPError.constructor'
+    name: SPError
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Constructor for the SPError class.
+    syntax:
+      content: >-
+        new SPError(errorCode: string, message: string, logProperties?: [key:
+        string]: any)
+      parameters:
+        - id: errorCode
+          type:
+            - string
+          description: a numeric or string error code.
+        - id: message
+          type:
+            - string
+          description: detailed error message.
+        - id: logProperties
+          type:
+            - '[key: string]: any'
+          description: ''
+          optional: true
+  - uid: '@microsoft/sp-core-library.SPError.toString'
+    name: toString
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Return a string equivalent of the error for logging purposes.
+    syntax:
+      content: function toString()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-core-library.SPError.toStringForUI'
+    name: toStringForUI
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Return a string equivalent of the error for display purposes.
+    syntax:
+      content: function toStringForUI()
+      parameters: []
+      return:
+        type:
+          - string

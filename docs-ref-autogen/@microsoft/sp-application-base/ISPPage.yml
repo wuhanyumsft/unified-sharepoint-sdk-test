@@ -1,0 +1,62 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.ISPPage'
+    name: ISPPage
+    fullName: ISPPage
+    children:
+      - '@microsoft/sp-application-base.ISPPage.appDiv'
+      - '@microsoft/sp-application-base.ISPPage.changeSuiteNavHeight'
+      - '@microsoft/sp-application-base.ISPPage.suiteNavDiv'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: pageChrome/ISPPageChrome.ts
+      startLine: 7
+      remote:
+        path: spfx-core/sp-application-base/src\pageChrome/ISPPageChrome.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.ISPPage.appDiv'
+    name: appDiv
+    fullName: appDiv
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLDivElement appDiv
+      return:
+        type:
+          - HTMLDivElement
+  - uid: '@microsoft/sp-application-base.ISPPage.changeSuiteNavHeight'
+    name: changeSuiteNavHeight
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function changeSuiteNavHeight(pixels: string)'
+      parameters:
+        - id: pixels
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-application-base.ISPPage.suiteNavDiv'
+    name: suiteNavDiv
+    fullName: suiteNavDiv
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLDivElement suiteNavDiv
+      return:
+        type:
+          - HTMLDivElement

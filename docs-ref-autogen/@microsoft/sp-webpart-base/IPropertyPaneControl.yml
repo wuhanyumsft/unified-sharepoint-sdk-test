@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneControl'
+    name: IPropertyPaneControl
+    fullName: IPropertyPaneControl
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      The minimal interface subset of IClientSideWebPartInternal needed for a
+      control to implement
+
+      if they want to utilize the Property Pane for configuration through the
+      ClientSideWebPartManager.
+
+      See IClientSideWebPartInternal
+    source:
+      path: propertyPane/propertyPaneControl/IPropertyPaneControl.ts
+      startLine: 18
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneControl/IPropertyPaneControl.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'

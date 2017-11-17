@@ -1,0 +1,68 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-page-context.O365GroupAssociation'
+    name: O365GroupAssociation
+    fullName: O365GroupAssociation
+    children:
+      - '@microsoft/sp-page-context.O365GroupAssociation.id'
+      - '@microsoft/sp-page-context.O365GroupAssociation.constructor'
+      - '@microsoft/sp-page-context.O365GroupAssociation.type'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      This class is primarily used with the PageContext class. If the site is
+      associated with an O365
+
+      group, this object provides contextual information about the group.
+    source:
+      path: O365GroupAssociation.ts
+      startLine: 35
+      remote:
+        path: spfx-core/sp-page-context/src\O365GroupAssociation.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.O365GroupAssociation.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The guid associated with the site's O365 Group.
+    syntax:
+      content: Guid id
+      return:
+        type:
+          - Guid
+  - uid: '@microsoft/sp-page-context.O365GroupAssociation.constructor'
+    name: O365GroupAssociation
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new O365GroupAssociation(data: IO365GroupAssociationData)'
+      parameters:
+        - id: data
+          type:
+            - '@@microsoft/sp-page-context.IO365GroupAssociationData'
+          description: ''
+  - uid: '@microsoft/sp-page-context.O365GroupAssociation.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This enum identifies if the associated O365 Group private or public or
+      unknown.
+    syntax:
+      content: O365GroupAssociationType type
+      return:
+        type:
+          - '@@microsoft/sp-page-context.O365GroupAssociationType'

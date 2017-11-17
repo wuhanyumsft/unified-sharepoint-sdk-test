@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.ISPHttpClientBatchOptions'
+    name: ISPHttpClientBatchOptions
+    fullName: ISPHttpClientBatchOptions
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      This interface defines the options for an individual REST request that
+      is part of an SPHttpClientBatch.  It is based on the WHATWG API standard
+      parameters that are documented here:
+      https://fetch.spec.whatwg.org/
+    extends:
+      name: '@@microsoft/sp-http.IHttpClientOptions'
+    source:
+      path: spHttpClient/SPHttpClientBatch.ts
+      startLine: 337
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/SPHttpClientBatch.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-http'
+    isPreview: true

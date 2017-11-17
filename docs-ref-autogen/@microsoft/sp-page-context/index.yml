@@ -1,0 +1,85 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-page-context'
+    name: '@microsoft/sp-page-context'
+    summary: ''
+    children:
+      - '@microsoft/sp-page-context.CultureInfo'
+      - '@microsoft/sp-page-context.ICultureInfoData'
+      - '@microsoft/sp-page-context.O365GroupAssociationType'
+      - '@microsoft/sp-page-context.O365GroupAssociation'
+      - '@microsoft/sp-page-context.IO365GroupAssociationData'
+      - '@microsoft/sp-page-context.PageContext'
+      - '@microsoft/sp-page-context.IPageContextData'
+      - '@microsoft/sp-page-context.SPField'
+      - '@microsoft/sp-page-context.ISPFieldData'
+      - '@microsoft/sp-page-context.SPList'
+      - '@microsoft/sp-page-context.ISPListData'
+      - '@microsoft/sp-page-context.SPListItem'
+      - '@microsoft/sp-page-context.ISPListItemData'
+      - '@microsoft/sp-page-context.SPPermission'
+      - '@microsoft/sp-page-context.SPSite'
+      - '@microsoft/sp-page-context.ISPSiteData'
+      - '@microsoft/sp-page-context.SPTimeZone'
+      - '@microsoft/sp-page-context.ISPSystemTime'
+      - '@microsoft/sp-page-context.ISPTimeZoneData'
+      - '@microsoft/sp-page-context.SPUser'
+      - '@microsoft/sp-page-context.ISPUserData'
+      - '@microsoft/sp-page-context.SPWeb'
+      - '@microsoft/sp-page-context.ISPWebData'
+      - '@microsoft/sp-page-context.PageManager'
+      - '@microsoft/sp-page-context.SharePointPageContextDataProvider'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@microsoft/sp-page-context.CultureInfo'
+    name: CultureInfo
+  - uid: '@microsoft/sp-page-context.ICultureInfoData'
+    name: ICultureInfoData
+  - uid: '@microsoft/sp-page-context.O365GroupAssociationType'
+    name: O365GroupAssociationType
+  - uid: '@microsoft/sp-page-context.O365GroupAssociation'
+    name: O365GroupAssociation
+  - uid: '@microsoft/sp-page-context.IO365GroupAssociationData'
+    name: IO365GroupAssociationData
+  - uid: '@microsoft/sp-page-context.PageContext'
+    name: PageContext
+  - uid: '@microsoft/sp-page-context.IPageContextData'
+    name: IPageContextData
+  - uid: '@microsoft/sp-page-context.SPField'
+    name: SPField
+  - uid: '@microsoft/sp-page-context.ISPFieldData'
+    name: ISPFieldData
+  - uid: '@microsoft/sp-page-context.SPList'
+    name: SPList
+  - uid: '@microsoft/sp-page-context.ISPListData'
+    name: ISPListData
+  - uid: '@microsoft/sp-page-context.SPListItem'
+    name: SPListItem
+  - uid: '@microsoft/sp-page-context.ISPListItemData'
+    name: ISPListItemData
+  - uid: '@microsoft/sp-page-context.SPPermission'
+    name: SPPermission
+  - uid: '@microsoft/sp-page-context.SPSite'
+    name: SPSite
+  - uid: '@microsoft/sp-page-context.ISPSiteData'
+    name: ISPSiteData
+  - uid: '@microsoft/sp-page-context.SPTimeZone'
+    name: SPTimeZone
+  - uid: '@microsoft/sp-page-context.ISPSystemTime'
+    name: ISPSystemTime
+  - uid: '@microsoft/sp-page-context.ISPTimeZoneData'
+    name: ISPTimeZoneData
+  - uid: '@microsoft/sp-page-context.SPUser'
+    name: SPUser
+  - uid: '@microsoft/sp-page-context.ISPUserData'
+    name: ISPUserData
+  - uid: '@microsoft/sp-page-context.SPWeb'
+    name: SPWeb
+  - uid: '@microsoft/sp-page-context.ISPWebData'
+    name: ISPWebData
+  - uid: '@microsoft/sp-page-context.PageManager'
+    name: PageManager
+  - uid: '@microsoft/sp-page-context.SharePointPageContextDataProvider'
+    name: SharePointPageContextDataProvider

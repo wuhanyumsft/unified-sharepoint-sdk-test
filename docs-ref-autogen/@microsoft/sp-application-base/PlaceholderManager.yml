@@ -1,0 +1,115 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.PlaceholderManager'
+    name: PlaceholderManager
+    fullName: PlaceholderManager
+    children:
+      - '@microsoft/sp-application-base.PlaceholderManager.changedEvent'
+      - '@microsoft/sp-application-base.PlaceholderManager.initializePlaceholders'
+      - '@microsoft/sp-application-base.PlaceholderManager.constructor'
+      - '@microsoft/sp-application-base.PlaceholderManager.placeholders'
+      - '@microsoft/sp-application-base.PlaceholderManager.registerPlaceholders'
+      - '@microsoft/sp-application-base.PlaceholderManager.serviceKey'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      PlaceholderManager is a service registered with the application's root
+      ServiceScope.
+
+      The host application uses this object to define the placeholders which
+      will
+
+      be consumed by third-party extensions.  The PlaceholderCollection then
+      obtains its
+
+      data from the PlaceholderManager.
+    source:
+      path: extensibility/placeholder/PlaceholderManager.ts
+      startLine: 15
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/placeholder/PlaceholderManager.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.PlaceholderManager.changedEvent'
+    name: changedEvent
+    fullName: changedEvent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The event raised when the application changes placeholder definitions
+    syntax:
+      content: Event<EventArgs> changedEvent
+      return:
+        type:
+          - Event<EventArgs>
+  - uid: '@microsoft/sp-application-base.PlaceholderManager.initializePlaceholders'
+    name: initializePlaceholders
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Initializes the collection of placeholders for use by application
+      customizers.
+    syntax:
+      content: 'function initializePlaceholders(definitions: IPlaceholderDefinition[])'
+      parameters:
+        - id: definitions
+          type:
+            - '@@microsoft/sp-application-base.IPlaceholderDefinition[]'
+          description: ''
+  - uid: '@microsoft/sp-application-base.PlaceholderManager.constructor'
+    name: PlaceholderManager
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PlaceholderManager(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+  - uid: '@microsoft/sp-application-base.PlaceholderManager.placeholders'
+    name: placeholders
+    fullName: placeholders
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns undefined if initializePlaceholders() was not called yet.
+    syntax:
+      content: function placeholders
+      return:
+        type:
+          - function
+  - uid: '@microsoft/sp-application-base.PlaceholderManager.registerPlaceholders'
+    name: registerPlaceholders
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Register the placeholders in the current page.
+    syntax:
+      content: function registerPlaceholders()
+      parameters: []
+  - uid: '@microsoft/sp-application-base.PlaceholderManager.serviceKey'
+    name: serviceKey
+    fullName: serviceKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The service key for PlaceholderManager.
+    syntax:
+      content: static ServiceKey<PlaceholderManager> serviceKey
+      return:
+        type:
+          - ServiceKey<@@microsoft/sp-application-base.PlaceholderManager>

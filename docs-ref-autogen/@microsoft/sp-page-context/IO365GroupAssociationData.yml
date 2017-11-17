@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-page-context.IO365GroupAssociationData'
+    name: IO365GroupAssociationData
+    fullName: IO365GroupAssociationData
+    children:
+      - '@microsoft/sp-page-context.IO365GroupAssociationData.id'
+      - '@microsoft/sp-page-context.IO365GroupAssociationData.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: Object that represents the data neccesary to build an O365Group object.
+    source:
+      path: O365GroupAssociation.ts
+      startLine: 8
+      remote:
+        path: spfx-core/sp-page-context/src\O365GroupAssociation.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.IO365GroupAssociationData.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc  O365GroupAssociation.id}'
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.IO365GroupAssociationData.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc  O365GroupAssociation.type}'
+    syntax:
+      content: string type
+      return:
+        type:
+          - string

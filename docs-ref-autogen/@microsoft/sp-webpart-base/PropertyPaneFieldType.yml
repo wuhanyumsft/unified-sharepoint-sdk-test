@@ -1,0 +1,132 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneFieldType'
+    name: PropertyPaneFieldType
+    fullName: PropertyPaneFieldType
+    children:
+      - '@microsoft/sp-webpart-base.PropertyPaneFieldType.Custom'
+      - '@microsoft/sp-webpart-base.PropertyPaneFieldType.CheckBox'
+      - '@microsoft/sp-webpart-base.PropertyPaneFieldType.TextField'
+      - '@microsoft/sp-webpart-base.PropertyPaneFieldType.Toggle'
+      - '@microsoft/sp-webpart-base.PropertyPaneFieldType.Dropdown'
+      - '@microsoft/sp-webpart-base.PropertyPaneFieldType.Label'
+      - '@microsoft/sp-webpart-base.PropertyPaneFieldType.Slider'
+      - '@microsoft/sp-webpart-base.PropertyPaneFieldType.Heading'
+      - '@microsoft/sp-webpart-base.PropertyPaneFieldType.ChoiceGroup'
+      - '@microsoft/sp-webpart-base.PropertyPaneFieldType.Button'
+      - '@microsoft/sp-webpart-base.PropertyPaneFieldType.HorizontalRule'
+      - '@microsoft/sp-webpart-base.PropertyPaneFieldType.Link'
+    langs:
+      - typeScript
+    type: enum
+    summary: >
+      Enum for all the supported PropertyPane field types.
+
+      Names should be consistent with those in office-ui-fabric-react, be
+      careful to get letter casing correct.
+    source:
+      path: propertyPane/propertyPaneFields/propertyPaneField/IPropertyPaneField.ts
+      startLine: 52
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFields/propertyPaneField/IPropertyPaneField.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneFieldType.Custom'
+    name: Custom
+    children: []
+    langs:
+      - typeScript
+    summary: Custom field.
+    type: field
+    numericValue: 1
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneFieldType.CheckBox'
+    name: CheckBox
+    children: []
+    langs:
+      - typeScript
+    summary: Checkbox field.
+    type: field
+    numericValue: 2
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneFieldType.TextField'
+    name: TextField
+    children: []
+    langs:
+      - typeScript
+    summary: TextField field.
+    type: field
+    numericValue: 3
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneFieldType.Toggle'
+    name: Toggle
+    children: []
+    langs:
+      - typeScript
+    summary: Toggle field.
+    type: field
+    numericValue: 5
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneFieldType.Dropdown'
+    name: Dropdown
+    children: []
+    langs:
+      - typeScript
+    summary: Dropdown field.
+    type: field
+    numericValue: 6
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneFieldType.Label'
+    name: Label
+    children: []
+    langs:
+      - typeScript
+    summary: Label field.
+    type: field
+    numericValue: 7
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneFieldType.Slider'
+    name: Slider
+    children: []
+    langs:
+      - typeScript
+    summary: Slider field.
+    type: field
+    numericValue: 8
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneFieldType.Heading'
+    name: Heading
+    children: []
+    langs:
+      - typeScript
+    summary: Heading field.
+    type: field
+    numericValue: 9
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneFieldType.ChoiceGroup'
+    name: ChoiceGroup
+    children: []
+    langs:
+      - typeScript
+    summary: Choice Group field.
+    type: field
+    numericValue: 10
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneFieldType.Button'
+    name: Button
+    children: []
+    langs:
+      - typeScript
+    summary: Button field.
+    type: field
+    numericValue: 11
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneFieldType.HorizontalRule'
+    name: HorizontalRule
+    children: []
+    langs:
+      - typeScript
+    summary: Horizontal Rule field.
+    type: field
+    numericValue: 12
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneFieldType.Link'
+    name: Link
+    children: []
+    langs:
+      - typeScript
+    summary: Link field.
+    type: field
+    numericValue: 13

@@ -1,0 +1,76 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.IPlaceholderContentParameters'
+    name: IPlaceholderContentParameters
+    fullName: IPlaceholderContentParameters
+    children:
+      - '@microsoft/sp-application-base.IPlaceholderContentParameters.domElement'
+      - '@microsoft/sp-application-base.IPlaceholderContentParameters.options'
+      - '@microsoft/sp-application-base.IPlaceholderContentParameters.placeholder'
+      - '@microsoft/sp-application-base.IPlaceholderContentParameters.sequence'
+    langs:
+      - typeScript
+    type: interface
+    summary: Constructor parameters for PlaceholderContent
+    source:
+      path: extensibility/placeholder/PlaceholderContent.ts
+      startLine: 12
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/placeholder/PlaceholderContent.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.IPlaceholderContentParameters.domElement'
+    name: domElement
+    fullName: domElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLDivElement domElement
+      return:
+        type:
+          - HTMLDivElement
+  - uid: '@microsoft/sp-application-base.IPlaceholderContentParameters.options'
+    name: options
+    fullName: options
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IPlaceholderCreateContentOptions options
+      return:
+        type:
+          - '@@microsoft/sp-application-base.IPlaceholderCreateContentOptions'
+  - uid: '@microsoft/sp-application-base.IPlaceholderContentParameters.placeholder'
+    name: placeholder
+    fullName: placeholder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Placeholder placeholder
+      return:
+        type:
+          - '@@microsoft/sp-application-base.Placeholder'
+  - uid: '@microsoft/sp-application-base.IPlaceholderContentParameters.sequence'
+    name: sequence
+    fullName: sequence
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number sequence
+      return:
+        type:
+          - number

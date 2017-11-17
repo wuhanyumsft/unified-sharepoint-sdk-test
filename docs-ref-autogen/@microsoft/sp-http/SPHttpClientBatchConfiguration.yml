@@ -1,0 +1,84 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.SPHttpClientBatchConfiguration'
+    name: SPHttpClientBatchConfiguration
+    fullName: SPHttpClientBatchConfiguration
+    children:
+      - '@microsoft/sp-http.SPHttpClientBatchConfiguration.overrideWith'
+      - '@microsoft/sp-http.SPHttpClientBatchConfiguration.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: Configuration for SPHttpClientBatch.
+    extends:
+      name: '@@microsoft/sp-http.SPHttpClientCommonConfiguration'
+    source:
+      path: spHttpClient/SPHttpClientBatchConfiguration.ts
+      startLine: 25
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/SPHttpClientBatchConfiguration.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-http'
+    isPreview: true
+    remarks: >-
+      The SPHttpClientBatchConfiguration object provides a set of switches for
+      enabling/disabling
+
+      various features of the SPHttpClientBatch class.  Normally these switches
+      are set
+
+      (e.g. when calling SPHttpClientBatch.fetch()) by providing one of the
+      predefined defaults
+
+      from SPHttpClientBatchConfigurations, however switches can also be changed
+      via the
+
+      SPHttpClientBatchConfiguration.overrideWith() method.
+  - uid: '@microsoft/sp-http.SPHttpClientBatchConfiguration.overrideWith'
+    name: overrideWith
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function overrideWith(sourceFlags: ISPHttpClientBatchConfiguration)'
+      parameters:
+        - id: sourceFlags
+          type:
+            - '@@microsoft/sp-http.ISPHttpClientBatchConfiguration'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/sp-http.SPHttpClientBatchConfiguration'
+  - uid: '@microsoft/sp-http.SPHttpClientBatchConfiguration.constructor'
+    name: SPHttpClientBatchConfiguration
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: >-
+      Constructs a new instance of SPHttpClientBatchConfiguration with the
+      specified flags.
+
+      The default values will be used for any flags that are missing or
+      undefined.
+
+      If overrideFlags is specified, it takes precedence over flags.
+    syntax:
+      content: >-
+        new SPHttpClientBatchConfiguration(flags:
+        ISPHttpClientBatchConfiguration, overrideFlags?:
+        ISPHttpClientBatchConfiguration)
+      parameters:
+        - id: flags
+          type:
+            - '@@microsoft/sp-http.ISPHttpClientBatchConfiguration'
+          description: ''
+        - id: overrideFlags
+          type:
+            - '@@microsoft/sp-http.ISPHttpClientBatchConfiguration'
+          description: ''
+          optional: true

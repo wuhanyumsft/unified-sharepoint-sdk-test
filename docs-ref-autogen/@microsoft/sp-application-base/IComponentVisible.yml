@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.IComponentVisible'
+    name: IComponentVisible
+    fullName: IComponentVisible
+    children:
+      - '@microsoft/sp-application-base.IComponentVisible.setComponentVisibility'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: pageChrome/IComponentVisible.ts
+      startLine: 7
+      remote:
+        path: spfx-core/sp-application-base/src\pageChrome/IComponentVisible.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.IComponentVisible.setComponentVisibility'
+    name: setComponentVisibility
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setComponentVisibility(setVisible: boolean)'
+      parameters:
+        - id: setVisible
+          type:
+            - boolean
+          description: ''

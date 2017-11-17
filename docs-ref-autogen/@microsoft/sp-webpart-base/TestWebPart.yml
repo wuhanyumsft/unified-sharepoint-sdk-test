@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.TestWebPart'
+    name: TestWebPart
+    fullName: TestWebPart
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@microsoft/sp-webpart-base.BaseTestWebPart<@@microsoft/sp-webpart-base.ITestWebPartProps>
+    source:
+      path: core/test/TestWebPart.ts
+      startLine: 53
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/test/TestWebPart.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'

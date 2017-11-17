@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-dialog.PromptDialogReact'
+    name: PromptDialogReact
+    fullName: PromptDialogReact
+    children:
+      - '@microsoft/sp-dialog.PromptDialogReact.componentDidUpdate'
+      - '@microsoft/sp-dialog.PromptDialogReact.render'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      The React wrapper to use Fabric React components to render the prompt
+      dialog
+    extends:
+      name: >-
+        @@microsoft/sp-dialog.PromptDialogReact<@@microsoft/sp-dialog.IPromptDialogReactProps>
+    source:
+      path: PromptDialog.tsx
+      startLine: 25
+      remote:
+        path: spfx-libraries/sp-dialog/src\PromptDialog.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-dialog'
+  - uid: '@microsoft/sp-dialog.PromptDialogReact.componentDidUpdate'
+    name: componentDidUpdate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+  - uid: '@microsoft/sp-dialog.PromptDialogReact.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element

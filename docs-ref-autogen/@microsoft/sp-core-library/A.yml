@@ -1,0 +1,80 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.A'
+    name: A
+    fullName: A
+    children:
+      - '@microsoft/sp-core-library.A.constructor'
+      - '@microsoft/sp-core-library.A.b'
+      - '@microsoft/sp-core-library.A.c'
+      - '@microsoft/sp-core-library.A.name'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    source:
+      path: serviceScope/test/ServiceScope.test.ts
+      startLine: 29
+      remote:
+        path: spfx-core/sp-core-library/src\serviceScope/test/ServiceScope.test.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.A.constructor'
+    name: A
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new A(serviceScope: ServiceScope, name: string)'
+      parameters:
+        - id: serviceScope
+          type:
+            - '@@microsoft/sp-core-library.ServiceScope'
+          description: ''
+        - id: name
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-core-library.A.b'
+    name: b
+    fullName: b
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: B b
+      return:
+        type:
+          - '@@microsoft/sp-core-library.B'
+  - uid: '@microsoft/sp-core-library.A.c'
+    name: c
+    fullName: c
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: C c
+      return:
+        type:
+          - '@@microsoft/sp-core-library.C'
+  - uid: '@microsoft/sp-core-library.A.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string

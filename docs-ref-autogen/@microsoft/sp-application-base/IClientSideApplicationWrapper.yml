@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.IClientSideApplicationWrapper'
+    name: IClientSideApplicationWrapper
+    fullName: IClientSideApplicationWrapper
+    children:
+      - '@microsoft/sp-application-base.IClientSideApplicationWrapper.default'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: shell/Shell.ts
+      startLine: 112
+      remote:
+        path: spfx-core/sp-application-base/src\shell/Shell.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.IClientSideApplicationWrapper.default'
+    name: default
+    fullName: default
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: BaseApplication default
+      return:
+        type:
+          - '@@microsoft/sp-application-base.BaseApplication'

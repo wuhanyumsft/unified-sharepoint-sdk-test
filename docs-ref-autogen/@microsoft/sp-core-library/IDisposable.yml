@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.IDisposable'
+    name: IDisposable
+    fullName: IDisposable
+    children:
+      - '@microsoft/sp-core-library.IDisposable.dispose'
+      - '@microsoft/sp-core-library.IDisposable.isDisposed'
+    langs:
+      - typeScript
+    type: interface
+    summary: Implemented by an object that supports a disposal lifecycle.
+    source:
+      path: IDisposable.ts
+      startLine: 10
+      remote:
+        path: spfx-core/sp-core-library/src\IDisposable.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-core-library'
+    remarks: |-
+      The dispose event allows an object to free any resources that it allocated
+      before its lifecycle ends.
+  - uid: '@microsoft/sp-core-library.IDisposable.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: This method is called to permanently dispose the object.
+    syntax:
+      content: function dispose()
+      parameters: []
+    remarks: >-
+      After the object has been disposed, do not call its methods or access its
+      properties.
+  - uid: '@microsoft/sp-core-library.IDisposable.isDisposed'
+    name: isDisposed
+    fullName: isDisposed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Returns true if the dispose() method has been called.  Once an object is
+      disposed,
+
+      it remains in this state permanently.
+    syntax:
+      content: boolean isDisposed
+      return:
+        type:
+          - boolean
+    remarks: >-
+      After the object has been disposed, do not call its methods or access its
+      properties.

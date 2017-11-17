@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.IPlaceholderCreateContentOptions'
+    name: IPlaceholderCreateContentOptions
+    fullName: IPlaceholderCreateContentOptions
+    children:
+      - >-
+        @microsoft/sp-application-base.IPlaceholderCreateContentOptions.onDispose
+    langs:
+      - typeScript
+    type: interface
+    summary: 'Options for the <xref:PlaceholderProvider.tryCreateContent> method.'
+    source:
+      path: extensibility/placeholder/PlaceholderProvider.ts
+      startLine: 14
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/placeholder/PlaceholderProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.IPlaceholderCreateContentOptions.onDispose'
+    name: onDispose
+    fullName: onDispose
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An optional callback that will be invoked when the PlaceholderContent
+      object
+
+      is disposed.
+    syntax:
+      content: '(placeholderContent: PlaceholderContent) => void onDispose'
+      return:
+        type:
+          - '(placeholderContent: PlaceholderContent) => void'
+    remarks: >-
+      To avoid a resource leak, use this callback to free any resources that
+      were allocated
+
+      when the placeholder content was rendered.  For example, if
+      ReactDOM.render() was
+
+      used to mount a React component, then the onDispose handler might call
+
+      ReactDOM.unmountComponentAtNode() to unmount it.

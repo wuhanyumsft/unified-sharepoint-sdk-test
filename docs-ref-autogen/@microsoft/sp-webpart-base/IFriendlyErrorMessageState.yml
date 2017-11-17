@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IFriendlyErrorMessageState'
+    name: IFriendlyErrorMessageState
+    fullName: IFriendlyErrorMessageState
+    children:
+      - '@microsoft/sp-webpart-base.IFriendlyErrorMessageState.isExpanded'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface of IFriendlyErrorMessageState.
+    source:
+      path: core/FriendlyErrorMessage.tsx
+      startLine: 24
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/FriendlyErrorMessage.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IFriendlyErrorMessageState.isExpanded'
+    name: isExpanded
+    fullName: isExpanded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Is the ErrorMessage visible or not?
+    syntax:
+      content: boolean isExpanded
+      return:
+        type:
+          - boolean

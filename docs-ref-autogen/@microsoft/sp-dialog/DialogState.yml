@@ -1,0 +1,107 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-dialog.DialogState'
+    name: DialogState
+    fullName: DialogState
+    children:
+      - '@microsoft/sp-dialog.DialogState.Aborted'
+      - '@microsoft/sp-dialog.DialogState.Approved'
+      - '@microsoft/sp-dialog.DialogState.Closed'
+      - '@microsoft/sp-dialog.DialogState.Hidden'
+      - '@microsoft/sp-dialog.DialogState.New'
+      - '@microsoft/sp-dialog.DialogState.Open'
+      - '@microsoft/sp-dialog.DialogState.Pending'
+      - '@microsoft/sp-dialog.DialogState.Rejected'
+    langs:
+      - typeScript
+    type: enum
+    summary: The states for our internal state machine that manages dialogs
+    source:
+      path: BaseDialog.ts
+      startLine: 24
+      remote:
+        path: spfx-libraries/sp-dialog/src\BaseDialog.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-dialog'
+  - uid: '@microsoft/sp-dialog.DialogState.Aborted'
+    name: Aborted
+    children: []
+    langs:
+      - typeScript
+    summary: |-
+      State: Aborted
+      Description: The dialog has aborted its request to show
+      Next Possible States: Pending (by sending a new request)
+    type: field
+  - uid: '@microsoft/sp-dialog.DialogState.Approved'
+    name: Approved
+    children: []
+    langs:
+      - typeScript
+    summary: |-
+      State: Approved
+      Description: The dialog manager has approved the request to show
+      Next Possible States: Open
+    type: field
+  - uid: '@microsoft/sp-dialog.DialogState.Closed'
+    name: Closed
+    children: []
+    langs:
+      - typeScript
+    summary: |-
+      State: Closed
+      Description: The dialog is closed (can only happen after Open)
+      Next Possible States: Pending (by sending a new request)
+    type: field
+  - uid: '@microsoft/sp-dialog.DialogState.Hidden'
+    name: Hidden
+    children: []
+    langs:
+      - typeScript
+    summary: |-
+      State: Hidden
+      Description: The dialog is hidden behind a secondary dialog
+      Next Possible States: Open
+    type: field
+  - uid: '@microsoft/sp-dialog.DialogState.New'
+    name: New
+    children: []
+    langs:
+      - typeScript
+    summary: |-
+      State: New
+      Description: The dialog state after construction
+      Next Possible States: Pending
+    type: field
+  - uid: '@microsoft/sp-dialog.DialogState.Open'
+    name: Open
+    children: []
+    langs:
+      - typeScript
+    summary: |-
+      State: Open
+      Description: The dialog is visually open
+      Next Possible States: Closed, Hidden
+    type: field
+  - uid: '@microsoft/sp-dialog.DialogState.Pending'
+    name: Pending
+    children: []
+    langs:
+      - typeScript
+    summary: |-
+      State: Pending
+      Description: The dialog manager has acknowledged the request to show
+      Next Possible States: Rejected, Aborted, Approved
+    type: field
+  - uid: '@microsoft/sp-dialog.DialogState.Rejected'
+    name: Rejected
+    children: []
+    langs:
+      - typeScript
+    summary: |-
+      State: Rejected
+      Description: The dialog manager has rejected the request to show
+      Next Possible States: Pending (by sending a new request)
+    type: field

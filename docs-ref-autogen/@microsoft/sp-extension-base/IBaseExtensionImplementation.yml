@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-extension-base.IBaseExtensionImplementation'
+    name: IBaseExtensionImplementation
+    fullName: IBaseExtensionImplementation
+    children:
+      - '@microsoft/sp-extension-base.IBaseExtensionImplementation.constructor'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      This represents a non-abstract subclass of BaseExtension (BaseExtension is
+      abstract and cannot be instantiated)
+    extends:
+      name: '@@microsoft/sp-extension-base.BaseExtension<__type>'
+    source:
+      path: ExtensionManager.ts
+      startLine: 25
+      remote:
+        path: spfx-core/sp-extension-base/src\ExtensionManager.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-extension-base'
+  - uid: '@microsoft/sp-extension-base.IBaseExtensionImplementation.constructor'
+    name: IBaseExtensionImplementation
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new IBaseExtensionImplementation()
+      parameters: []

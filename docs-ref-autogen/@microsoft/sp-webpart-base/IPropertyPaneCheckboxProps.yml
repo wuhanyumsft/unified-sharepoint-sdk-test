@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneCheckboxProps'
+    name: IPropertyPaneCheckboxProps
+    fullName: IPropertyPaneCheckboxProps
+    children:
+      - '@microsoft/sp-webpart-base.IPropertyPaneCheckboxProps.checked'
+      - '@microsoft/sp-webpart-base.IPropertyPaneCheckboxProps.disabled'
+      - '@microsoft/sp-webpart-base.IPropertyPaneCheckboxProps.text'
+    langs:
+      - typeScript
+    type: interface
+    summary: PropertyPane CheckBox component props.
+    source:
+      path: >-
+        propertyPane/propertyPaneFields/propertyPaneCheckBox/IPropertyPaneCheckbox.ts
+      startLine: 8
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFields/propertyPaneCheckBox/IPropertyPaneCheckbox.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneCheckboxProps.checked'
+    name: checked
+    fullName: checked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the property pane checkbox is checked or not.
+    syntax:
+      content: boolean checked
+      return:
+        type:
+          - boolean
+    remarks: The default value is false.
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneCheckboxProps.disabled'
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the property pane checkbox is disabled or not.
+    syntax:
+      content: boolean disabled
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneCheckboxProps.text'
+    name: text
+    fullName: text
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Label to display next to the checkbox.
+    syntax:
+      content: string text
+      return:
+        type:
+          - string

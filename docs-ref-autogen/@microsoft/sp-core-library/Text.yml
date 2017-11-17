@@ -1,0 +1,62 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.Text'
+    name: Text
+    fullName: Text
+    children:
+      - '@microsoft/sp-core-library.Text.format'
+    langs:
+      - typeScript
+    type: class
+    summary: Operations for working with strings that contain text.
+    source:
+      path: Text.ts
+      startLine: 12
+      remote:
+        path: spfx-core/sp-core-library/src\Text.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-core-library'
+    remarks: >-
+      The utilities provided by this class are intended to be simple, small, and
+      very
+
+      broadly applicable.
+  - uid: '@microsoft/sp-core-library.Text.format'
+    name: format
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Format a string by substituting parameters.
+    syntax:
+      content: 'static function format(s: string, values: any[])'
+      parameters:
+        - id: s
+          type:
+            - string
+          description: ''
+        - id: values
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - string
+    remarks: >-
+      This function replaces template parameters such as "{0}" or "{1}" with the
+
+      corresponding argument.  If the value is null or undefined, it will be
+      replaced
+
+      by the word "null" or "undefined".  The format string s must not be null
+      or
+
+      undefined.
+
+
+      Usage example:
+
+
+      Text.format("hello {0}!", "world") will return "hello world!"

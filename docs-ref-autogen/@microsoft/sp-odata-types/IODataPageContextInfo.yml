@@ -1,0 +1,1071 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo'
+    name: IODataPageContextInfo
+    fullName: IODataPageContextInfo
+    children:
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.alertsEnabled'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.allowSilverlightPrompt'
+      - >-
+        @microsoft/sp-odata-types.IODataPageContextInfo.blockDownloadExperienceEnabled
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.cdnPrefix'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.CorrelationId'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.crossDomainPhotosEnabled'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.currentCultureName'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.currentLanguage'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.currentUICultureName'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.disableAppViews'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.disableFlows'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.env'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.ExpFeatures'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.farmLabel'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.fid'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.groupColor'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.groupHasHomepage'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.groupId'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.groupType'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.guestsEnabled'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.hasManageWebPermission'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.hideSyncButtonOnODB'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.isAnonymousGuestUser'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.isAppWeb'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.isExternalGuestUser'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.isNoScriptEnabled'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.isSPO'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.killSwitches'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.layoutsUrl'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.listBaseTemplate'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.listId'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.listPermsMask'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.listTitle'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.listUrl'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.MenuData'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.navigationInfo'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.nid'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.openInClient'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.pageItemId'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.pageListId'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.pagePermsMask'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.pagePersonalizationScope'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.PreviewFeaturesEnabled'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.RecycleBinItemCount'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.serverRequestPath'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.serverTime'
+      - >-
+        @microsoft/sp-odata-types.IODataPageContextInfo.showNGSCDialogForSyncOnODB
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.siteAbsoluteUrl'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.siteClassification'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.siteClientTag'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.siteId'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.sitePagesEnabled'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.siteServerRelativeUrl'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.siteSubscriptionId'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.systemUserKey'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.tenantAppVersion'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.themeCacheToken'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.themedCssFolderUrl'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.themedImageFileNames'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.userDisplayName'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.userEmail'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.userId'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.userLoginName'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.viewId'
+      - >-
+        @microsoft/sp-odata-types.IODataPageContextInfo.viewOnlyExperienceEnabled
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.webAbsoluteUrl'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.webId'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.webLanguage'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.webLogoUrl'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.webPermMasks'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.webServerRelativeUrl'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.webTemplate'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.webTitle'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.webUIVersion'
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      Interface for _spPageContextInfo. Status of properties in the PageContext
+      will be noted
+
+      one of the following tags.
+
+      1. Already in the PageContext API
+
+      2. Soon to be added to the PageContext api
+
+      3. No plans to add to add to the PageContext api
+
+       @internal
+    source:
+      path: IODataPageContextInfo.ts
+      startLine: 14
+      remote:
+        path: spfx-core/sp-odata-types/src\IODataPageContextInfo.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-odata-types'
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.alertsEnabled'
+    name: alertsEnabled
+    fullName: alertsEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean alertsEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.allowSilverlightPrompt'
+    name: allowSilverlightPrompt
+    fullName: allowSilverlightPrompt
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean allowSilverlightPrompt
+      return:
+        type:
+          - boolean
+  - uid: >-
+      @microsoft/sp-odata-types.IODataPageContextInfo.blockDownloadExperienceEnabled
+    name: blockDownloadExperienceEnabled
+    fullName: blockDownloadExperienceEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean blockDownloadExperienceEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.cdnPrefix'
+    name: cdnPrefix
+    fullName: cdnPrefix
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string cdnPrefix
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.CorrelationId'
+    name: CorrelationId
+    fullName: CorrelationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string CorrelationId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.crossDomainPhotosEnabled'
+    name: crossDomainPhotosEnabled
+    fullName: crossDomainPhotosEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean crossDomainPhotosEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.currentCultureName'
+    name: currentCultureName
+    fullName: currentCultureName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string currentCultureName
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.currentLanguage'
+    name: currentLanguage
+    fullName: currentLanguage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number currentLanguage
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.currentUICultureName'
+    name: currentUICultureName
+    fullName: currentUICultureName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string currentUICultureName
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.disableAppViews'
+    name: disableAppViews
+    fullName: disableAppViews
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean disableAppViews
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.disableFlows'
+    name: disableFlows
+    fullName: disableFlows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean disableFlows
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.env'
+    name: env
+    fullName: env
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string env
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.ExpFeatures'
+    name: ExpFeatures
+    fullName: ExpFeatures
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'number[] ExpFeatures'
+      return:
+        type:
+          - 'number[]'
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.farmLabel'
+    name: farmLabel
+    fullName: farmLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string farmLabel
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.fid'
+    name: fid
+    fullName: fid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number fid
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.groupColor'
+    name: groupColor
+    fullName: groupColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string groupColor
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.groupHasHomepage'
+    name: groupHasHomepage
+    fullName: groupHasHomepage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean groupHasHomepage
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.groupId'
+    name: groupId
+    fullName: groupId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string groupId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.groupType'
+    name: groupType
+    fullName: groupType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string groupType
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.guestsEnabled'
+    name: guestsEnabled
+    fullName: guestsEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean guestsEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.hasManageWebPermission'
+    name: hasManageWebPermission
+    fullName: hasManageWebPermission
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasManageWebPermission
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.hideSyncButtonOnODB'
+    name: hideSyncButtonOnODB
+    fullName: hideSyncButtonOnODB
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hideSyncButtonOnODB
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.isAnonymousGuestUser'
+    name: isAnonymousGuestUser
+    fullName: isAnonymousGuestUser
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isAnonymousGuestUser
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.isAppWeb'
+    name: isAppWeb
+    fullName: isAppWeb
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isAppWeb
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.isExternalGuestUser'
+    name: isExternalGuestUser
+    fullName: isExternalGuestUser
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isExternalGuestUser
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.isNoScriptEnabled'
+    name: isNoScriptEnabled
+    fullName: isNoScriptEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isNoScriptEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.isSPO'
+    name: isSPO
+    fullName: isSPO
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSPO
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.killSwitches'
+    name: killSwitches
+    fullName: killSwitches
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: string]: boolean killSwitches'
+      return:
+        type:
+          - '[key: string]: boolean'
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.layoutsUrl'
+    name: layoutsUrl
+    fullName: layoutsUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string layoutsUrl
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.listBaseTemplate'
+    name: listBaseTemplate
+    fullName: listBaseTemplate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number listBaseTemplate
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.listId'
+    name: listId
+    fullName: listId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string listId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.listPermsMask'
+    name: listPermsMask
+    fullName: listPermsMask
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IODataBasePermission listPermsMask
+      return:
+        type:
+          - '@@microsoft/sp-odata-types.IODataBasePermission'
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.listTitle'
+    name: listTitle
+    fullName: listTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string listTitle
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.listUrl'
+    name: listUrl
+    fullName: listUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string listUrl
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.MenuData'
+    name: MenuData
+    fullName: MenuData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Object MenuData
+      return:
+        type:
+          - Object
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.navigationInfo'
+    name: navigationInfo
+    fullName: navigationInfo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IODataNavigationNodeCollection navigationInfo
+      return:
+        type:
+          - '@@microsoft/sp-odata-types.IODataNavigationNodeCollection'
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.nid'
+    name: nid
+    fullName: nid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number nid
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.openInClient'
+    name: openInClient
+    fullName: openInClient
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean openInClient
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.pageItemId'
+    name: pageItemId
+    fullName: pageItemId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number pageItemId
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.pageListId'
+    name: pageListId
+    fullName: pageListId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string pageListId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.pagePermsMask'
+    name: pagePermsMask
+    fullName: pagePermsMask
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IODataBasePermission pagePermsMask
+      return:
+        type:
+          - '@@microsoft/sp-odata-types.IODataBasePermission'
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.pagePersonalizationScope'
+    name: pagePersonalizationScope
+    fullName: pagePersonalizationScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number pagePersonalizationScope
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.PreviewFeaturesEnabled'
+    name: PreviewFeaturesEnabled
+    fullName: PreviewFeaturesEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean PreviewFeaturesEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.RecycleBinItemCount'
+    name: RecycleBinItemCount
+    fullName: RecycleBinItemCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number RecycleBinItemCount
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.serverRequestPath'
+    name: serverRequestPath
+    fullName: serverRequestPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string serverRequestPath
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.serverTime'
+    name: serverTime
+    fullName: serverTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string serverTime
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.showNGSCDialogForSyncOnODB'
+    name: showNGSCDialogForSyncOnODB
+    fullName: showNGSCDialogForSyncOnODB
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean showNGSCDialogForSyncOnODB
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.siteAbsoluteUrl'
+    name: siteAbsoluteUrl
+    fullName: siteAbsoluteUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteAbsoluteUrl
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.siteClassification'
+    name: siteClassification
+    fullName: siteClassification
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteClassification
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.siteClientTag'
+    name: siteClientTag
+    fullName: siteClientTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteClientTag
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.siteId'
+    name: siteId
+    fullName: siteId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.sitePagesEnabled'
+    name: sitePagesEnabled
+    fullName: sitePagesEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean sitePagesEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.siteServerRelativeUrl'
+    name: siteServerRelativeUrl
+    fullName: siteServerRelativeUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteServerRelativeUrl
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.siteSubscriptionId'
+    name: siteSubscriptionId
+    fullName: siteSubscriptionId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteSubscriptionId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.systemUserKey'
+    name: systemUserKey
+    fullName: systemUserKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string systemUserKey
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.tenantAppVersion'
+    name: tenantAppVersion
+    fullName: tenantAppVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string tenantAppVersion
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.themeCacheToken'
+    name: themeCacheToken
+    fullName: themeCacheToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string themeCacheToken
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.themedCssFolderUrl'
+    name: themedCssFolderUrl
+    fullName: themedCssFolderUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string themedCssFolderUrl
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.themedImageFileNames'
+    name: themedImageFileNames
+    fullName: themedImageFileNames
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string themedImageFileNames
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.userDisplayName'
+    name: userDisplayName
+    fullName: userDisplayName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string userDisplayName
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.userEmail'
+    name: userEmail
+    fullName: userEmail
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string userEmail
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.userId'
+    name: userId
+    fullName: userId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number userId
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.userLoginName'
+    name: userLoginName
+    fullName: userLoginName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string userLoginName
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.viewId'
+    name: viewId
+    fullName: viewId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string viewId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.viewOnlyExperienceEnabled'
+    name: viewOnlyExperienceEnabled
+    fullName: viewOnlyExperienceEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean viewOnlyExperienceEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.webAbsoluteUrl'
+    name: webAbsoluteUrl
+    fullName: webAbsoluteUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webAbsoluteUrl
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.webId'
+    name: webId
+    fullName: webId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.webLanguage'
+    name: webLanguage
+    fullName: webLanguage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number webLanguage
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.webLogoUrl'
+    name: webLogoUrl
+    fullName: webLogoUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webLogoUrl
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.webPermMasks'
+    name: webPermMasks
+    fullName: webPermMasks
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IODataBasePermission webPermMasks
+      return:
+        type:
+          - '@@microsoft/sp-odata-types.IODataBasePermission'
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.webServerRelativeUrl'
+    name: webServerRelativeUrl
+    fullName: webServerRelativeUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webServerRelativeUrl
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.webTemplate'
+    name: webTemplate
+    fullName: webTemplate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webTemplate
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.webTitle'
+    name: webTitle
+    fullName: webTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webTitle
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.webUIVersion'
+    name: webUIVersion
+    fullName: webUIVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webUIVersion
+      return:
+        type:
+          - string

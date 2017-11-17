@@ -1,0 +1,101 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.ClientSideWebPartMaintenanceModeManager'
+    name: ClientSideWebPartMaintenanceModeManager
+    fullName: ClientSideWebPartMaintenanceModeManager
+    children:
+      - >-
+        @microsoft/sp-webpart-base.ClientSideWebPartMaintenanceModeManager.constructor
+      - >-
+        @microsoft/sp-webpart-base.ClientSideWebPartMaintenanceModeManager.dispose
+      - >-
+        @microsoft/sp-webpart-base.ClientSideWebPartMaintenanceModeManager.loadWebPart
+      - >-
+        @microsoft/sp-webpart-base.ClientSideWebPartMaintenanceModeManager.serialize
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      The ClientSideWebPartMaintenanceModeManager is the web part manager
+      instance used
+
+      when the web parts are rendered in maintenance mode.
+    extends:
+      name: '@@microsoft/sp-webpart-base.ClientSideWebPartManager'
+    source:
+      path: core/ClientSideWebPartMaintenanceModeManager.ts
+      startLine: 24
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\core/ClientSideWebPartMaintenanceModeManager.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: >-
+      @microsoft/sp-webpart-base.ClientSideWebPartMaintenanceModeManager.constructor
+    name: ClientSideWebPartMaintenanceModeManager
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: See ClientSideWebPartManager
+    syntax:
+      content: 'new ClientSideWebPartMaintenanceModeManager(host: IWebPartHost)'
+      parameters:
+        - id: host
+          type:
+            - '@@microsoft/sp-webpart-base.IWebPartHost'
+          description: ''
+  - uid: '@microsoft/sp-webpart-base.ClientSideWebPartMaintenanceModeManager.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: See ClientSideWebPartManager
+    syntax:
+      content: 'function dispose(instanceId?: string)'
+      parameters:
+        - id: instanceId
+          type:
+            - string
+          description: ''
+          optional: true
+  - uid: >-
+      @microsoft/sp-webpart-base.ClientSideWebPartMaintenanceModeManager.loadWebPart
+    name: loadWebPart
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: See ClientSideWebPartManager
+    syntax:
+      content: 'function loadWebPart(context: IWebPartManagerContext)'
+      parameters:
+        - id: context
+          type:
+            - '@@microsoft/sp-webpart-base.IWebPartManagerContext'
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: >-
+      @microsoft/sp-webpart-base.ClientSideWebPartMaintenanceModeManager.serialize
+    name: serialize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: See ClientSideWebPartManager
+    syntax:
+      content: 'function serialize(instanceId?: string)'
+      parameters:
+        - id: instanceId
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - Map<string>

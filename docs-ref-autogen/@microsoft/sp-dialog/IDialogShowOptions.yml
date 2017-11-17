@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-dialog.IDialogShowOptions'
+    name: IDialogShowOptions
+    fullName: IDialogShowOptions
+    children:
+      - '@microsoft/sp-dialog.IDialogShowOptions.confirmOpen'
+    langs:
+      - typeScript
+    type: interface
+    summary: Options for showing a dialog
+    source:
+      path: Dialog.ts
+      startLine: 14
+      remote:
+        path: spfx-libraries/sp-dialog/src\Dialog.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-dialog'
+    isPreview: true
+  - uid: '@microsoft/sp-dialog.IDialogShowOptions.confirmOpen'
+    name: confirmOpen
+    fullName: confirmOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A callback that is invoked immediately before the dialog receives focus.
+    syntax:
+      content: () => boolean confirmOpen
+      return:
+        type:
+          - () => boolean
+    remarks: >-
+      Provide this callback if there is a case when you want to abort showing
+      the dialog before it's approved
+
+      by the framework. For example, you can check if a long time has passed
+      since the request was made or the
+
+      the component requesting the dialog is disposed and you don't want to show
+      the dialog anymore. It is
+
+      important to keep this callback lightweight so the framework can resolve
+      it quickly and the user interface
+
+      does not have to wait a long time for it.

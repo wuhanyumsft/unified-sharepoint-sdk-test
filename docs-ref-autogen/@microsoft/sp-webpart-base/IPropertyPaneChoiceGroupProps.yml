@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupProps'
+    name: IPropertyPaneChoiceGroupProps
+    fullName: IPropertyPaneChoiceGroupProps
+    children:
+      - '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupProps.label'
+      - '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupProps.options'
+    langs:
+      - typeScript
+    type: interface
+    summary: PropertyPane ChoiceGroup props.
+    source:
+      path: >-
+        propertyPane/propertyPaneFields/propertyPaneChoiceGroup/IPropertyPaneChoiceGroup.ts
+      startLine: 20
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFields/propertyPaneChoiceGroup/IPropertyPaneChoiceGroup.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupProps.label'
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Descriptive label for the choice group.
+    syntax:
+      content: string label
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupProps.options'
+    name: options
+    fullName: options
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The options for the choice group.
+    syntax:
+      content: 'IPropertyPaneChoiceGroupOption[] options'
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption[]'

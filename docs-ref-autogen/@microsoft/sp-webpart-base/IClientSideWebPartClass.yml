@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IClientSideWebPartClass'
+    name: IClientSideWebPartClass
+    fullName: IClientSideWebPartClass
+    children:
+      - '@microsoft/sp-webpart-base.IClientSideWebPartClass.constructor'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      This interface describes the web part class type (versus a web part object
+      instance).
+    source:
+      path: core/IClientSideWebPartInternal.ts
+      startLine: 18
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/IClientSideWebPartInternal.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IClientSideWebPartClass.constructor'
+    name: IClientSideWebPartClass
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: >-
+      Subclasses of BaseClientSideWebPart must have a constructor that accepts
+      no parameters.
+    syntax:
+      content: new IClientSideWebPartClass()
+      parameters: []

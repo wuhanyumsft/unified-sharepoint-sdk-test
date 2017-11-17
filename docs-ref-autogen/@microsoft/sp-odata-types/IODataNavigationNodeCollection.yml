@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-odata-types.IODataNavigationNodeCollection'
+    name: IODataNavigationNodeCollection
+    fullName: IODataNavigationNodeCollection
+    children:
+      - '@microsoft/sp-odata-types.IODataNavigationNodeCollection.quickLaunch'
+      - '@microsoft/sp-odata-types.IODataNavigationNodeCollection.topNav'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Represents an OData Microsoft.SharePoint.Navigation.SPNavigation object.
+      https://msdn.microsoft.com/en-us/library/office/ee557907.aspx
+    source:
+      path: IODataNavigationNodeCollection.ts
+      startLine: 52
+      remote:
+        path: spfx-core/sp-odata-types/src\IODataNavigationNodeCollection.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-odata-types'
+  - uid: '@microsoft/sp-odata-types.IODataNavigationNodeCollection.quickLaunch'
+    name: quickLaunch
+    fullName: quickLaunch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Gets an SPNavigationNode object that contains
+      the nodes in the Quick Launch area of the site.
+    syntax:
+      content: 'IODataNavigationNode[] quickLaunch'
+      return:
+        type:
+          - '@@microsoft/sp-odata-types.IODataNavigationNode[]'
+  - uid: '@microsoft/sp-odata-types.IODataNavigationNodeCollection.topNav'
+    name: topNav
+    fullName: topNav
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gets an SPNavigationNode object that contains the nodes in the top link
+      bar
+
+      for the website.
+    syntax:
+      content: 'IODataNavigationNode[] topNav'
+      return:
+        type:
+          - '@@microsoft/sp-odata-types.IODataNavigationNode[]'

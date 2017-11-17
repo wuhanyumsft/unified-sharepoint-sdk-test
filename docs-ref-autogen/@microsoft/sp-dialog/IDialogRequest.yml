@@ -1,0 +1,103 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-dialog.IDialogRequest'
+    name: IDialogRequest
+    fullName: IDialogRequest
+    children:
+      - '@microsoft/sp-dialog.IDialogRequest.dialog'
+      - '@microsoft/sp-dialog.IDialogRequest.id'
+      - '@microsoft/sp-dialog.IDialogRequest.isSecondary'
+      - '@microsoft/sp-dialog.IDialogRequest.options'
+      - '@microsoft/sp-dialog.IDialogRequest.reject'
+      - '@microsoft/sp-dialog.IDialogRequest.resolve'
+    langs:
+      - typeScript
+    type: interface
+    summary: The data structure to store dialog requests in dialog manager
+    source:
+      path: DialogManager.ts
+      startLine: 37
+      remote:
+        path: spfx-libraries/sp-dialog/src\DialogManager.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-dialog'
+  - uid: '@microsoft/sp-dialog.IDialogRequest.dialog'
+    name: dialog
+    fullName: dialog
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: BaseDialog dialog
+      return:
+        type:
+          - '@@microsoft/sp-dialog.BaseDialog'
+  - uid: '@microsoft/sp-dialog.IDialogRequest.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Guid id
+      return:
+        type:
+          - Guid
+  - uid: '@microsoft/sp-dialog.IDialogRequest.isSecondary'
+    name: isSecondary
+    fullName: isSecondary
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSecondary
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-dialog.IDialogRequest.options'
+    name: options
+    fullName: options
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IDialogShowOptions options
+      return:
+        type:
+          - '@@microsoft/sp-dialog.IDialogShowOptions'
+  - uid: '@microsoft/sp-dialog.IDialogRequest.reject'
+    name: reject
+    fullName: reject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(err: Error) => void reject'
+      return:
+        type:
+          - '(err: Error) => void'
+  - uid: '@microsoft/sp-dialog.IDialogRequest.resolve'
+    name: resolve
+    fullName: resolve
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: () => void resolve
+      return:
+        type:
+          - () => void

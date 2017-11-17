@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneGroupState'
+    name: IPropertyPaneGroupState
+    fullName: IPropertyPaneGroupState
+    children:
+      - '@microsoft/sp-webpart-base.IPropertyPaneGroupState.id'
+      - '@microsoft/sp-webpart-base.IPropertyPaneGroupState.isDetailsShown'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface for PropertyPaneGroup state.
+    source:
+      path: propertyPane/propertyPaneGroup/PropertyPaneGroup.tsx
+      startLine: 71
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneGroup/PropertyPaneGroup.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneGroupState.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneGroupState.isDetailsShown'
+    name: isDetailsShown
+    fullName: isDetailsShown
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isDetailsShown
+      return:
+        type:
+          - boolean

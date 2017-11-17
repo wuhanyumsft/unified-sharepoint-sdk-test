@@ -1,0 +1,130 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-component-base.BaseComponent'
+    name: BaseComponent
+    fullName: BaseComponent
+    children:
+      - '@microsoft/sp-component-base.BaseComponent.constructor'
+      - '@microsoft/sp-component-base.BaseComponent.componentId'
+      - '@microsoft/sp-component-base.BaseComponent.dispose'
+      - '@microsoft/sp-component-base.BaseComponent.instanceId'
+      - '@microsoft/sp-component-base.BaseComponent.isDisposed'
+      - '@microsoft/sp-component-base.BaseComponent.manifest'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      The base class for client-side components such as BaseClientSideWebPart or
+      BaseExtension.
+    source:
+      path: BaseComponent.ts
+      startLine: 12
+      remote:
+        path: spfx-core/sp-component-base/src\BaseComponent.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-component-base'
+  - uid: '@microsoft/sp-component-base.BaseComponent.constructor'
+    name: BaseComponent
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new BaseComponent()
+      parameters: []
+  - uid: '@microsoft/sp-component-base.BaseComponent.componentId'
+    name: componentId
+    fullName: componentId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Returns the component identifier as defined in the component’s associated
+      manifest.
+    syntax:
+      content: string componentId
+      return:
+        type:
+          - string
+    remarks: >-
+      Each client-side component has an associated manifest that is used by the
+      sp-loader to load its scripts,
+
+      and which may include additional metadata about the component.  The
+      manifest is uniquely identified using
+
+      a text string containing a lower case GUID value.
+  - uid: '@microsoft/sp-component-base.BaseComponent.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Disposes the component.
+    syntax:
+      content: function dispose()
+      parameters: []
+    remarks: >-
+      Third-party code generally does not need to call this method; it's invoked
+
+      automatically when the lifecycle ends for a web part or extension.  To
+      perform
+
+      custom cleanup when your component is disposed, override the
+      <xref:BaseComponent.onDispose>
+
+      method.
+  - uid: '@microsoft/sp-component-base.BaseComponent.instanceId'
+    name: instanceId
+    fullName: instanceId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A unique identifier for the instance of the component.
+    syntax:
+      content: string instanceId
+      return:
+        type:
+          - string
+    remarks: >-
+      A component implementation can be loaded multiple times on the page.
+
+      For example, if the component is a charting web part, multiple instances
+      of this web part
+
+      could be added to the SharePoint canvas.  The instanceId uniquely
+      identifies each
+
+      of these instances.
+  - uid: '@microsoft/sp-component-base.BaseComponent.isDisposed'
+    name: isDisposed
+    fullName: isDisposed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns true if the component has been already disposed.
+    syntax:
+      content: boolean isDisposed
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-component-base.BaseComponent.manifest'
+    name: manifest
+    fullName: manifest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Provides access to the manifest for the client-side component.
+    syntax:
+      content: IClientSideComponentManifest manifest
+      return:
+        type:
+          - IClientSideComponentManifest
+    remarks: Child classes can override this with more specialized manifest types.

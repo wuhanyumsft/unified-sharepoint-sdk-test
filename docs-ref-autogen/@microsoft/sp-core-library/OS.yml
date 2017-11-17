@@ -1,0 +1,82 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.OS'
+    name: OS
+    fullName: OS
+    children:
+      - '@microsoft/sp-core-library.OS.Other'
+      - '@microsoft/sp-core-library.OS.Android'
+      - '@microsoft/sp-core-library.OS.IOS'
+      - '@microsoft/sp-core-library.OS.Linux'
+      - '@microsoft/sp-core-library.OS.Mac'
+      - '@microsoft/sp-core-library.OS.Windows'
+      - '@microsoft/sp-core-library.OS.WindowsPhone'
+    langs:
+      - typeScript
+    type: enum
+    summary: Enum to identify OS.
+    source:
+      path: BrowserDetection.ts
+      startLine: 20
+      remote:
+        path: spfx-core/sp-core-library/src\BrowserDetection.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.OS.Other'
+    name: Other
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+  - uid: '@microsoft/sp-core-library.OS.Android'
+    name: Android
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@microsoft/sp-core-library.OS.IOS'
+    name: IOS
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+  - uid: '@microsoft/sp-core-library.OS.Linux'
+    name: Linux
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+  - uid: '@microsoft/sp-core-library.OS.Mac'
+    name: Mac
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+  - uid: '@microsoft/sp-core-library.OS.Windows'
+    name: Windows
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 5
+  - uid: '@microsoft/sp-core-library.OS.WindowsPhone'
+    name: WindowsPhone
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 6

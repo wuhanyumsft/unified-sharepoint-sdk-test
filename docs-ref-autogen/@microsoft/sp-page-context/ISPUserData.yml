@@ -1,0 +1,117 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-page-context.ISPUserData'
+    name: ISPUserData
+    fullName: ISPUserData
+    children:
+      - '@microsoft/sp-page-context.ISPUserData.displayName'
+      - '@microsoft/sp-page-context.ISPUserData.email'
+      - '@microsoft/sp-page-context.ISPUserData.isAnonymousGuestUser'
+      - '@microsoft/sp-page-context.ISPUserData.isExternalGuestUser'
+      - '@microsoft/sp-page-context.ISPUserData.loginName'
+      - '@microsoft/sp-page-context.ISPUserData.preferUserTimeZone'
+      - '@microsoft/sp-page-context.ISPUserData.timeZoneInfo'
+    langs:
+      - typeScript
+    type: interface
+    summary: Object that represents the data necessary to build an SPUser object.
+    source:
+      path: SPUser.ts
+      startLine: 9
+      remote:
+        path: spfx-core/sp-page-context/src\SPUser.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.ISPUserData.displayName'
+    name: displayName
+    fullName: displayName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string displayName
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.ISPUserData.email'
+    name: email
+    fullName: email
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string email
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.ISPUserData.isAnonymousGuestUser'
+    name: isAnonymousGuestUser
+    fullName: isAnonymousGuestUser
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isAnonymousGuestUser
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-page-context.ISPUserData.isExternalGuestUser'
+    name: isExternalGuestUser
+    fullName: isExternalGuestUser
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isExternalGuestUser
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-page-context.ISPUserData.loginName'
+    name: loginName
+    fullName: loginName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string loginName
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.ISPUserData.preferUserTimeZone'
+    name: preferUserTimeZone
+    fullName: preferUserTimeZone
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean preferUserTimeZone
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-page-context.ISPUserData.timeZoneInfo'
+    name: timeZoneInfo
+    fullName: timeZoneInfo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISPTimeZoneData timeZoneInfo
+      return:
+        type:
+          - '@@microsoft/sp-page-context.ISPTimeZoneData'

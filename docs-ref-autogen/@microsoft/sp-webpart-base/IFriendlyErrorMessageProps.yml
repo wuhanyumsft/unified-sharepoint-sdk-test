@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IFriendlyErrorMessageProps'
+    name: IFriendlyErrorMessageProps
+    fullName: IFriendlyErrorMessageProps
+    children:
+      - '@microsoft/sp-webpart-base.IFriendlyErrorMessageProps.errorMessage'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface of FriendlyErrorMessage.
+    source:
+      path: core/FriendlyErrorMessage.tsx
+      startLine: 14
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/FriendlyErrorMessage.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IFriendlyErrorMessageProps.errorMessage'
+    name: errorMessage
+    fullName: errorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Error message to be rendered by webpart.
+    syntax:
+      content: string errorMessage
+      return:
+        type:
+          - string

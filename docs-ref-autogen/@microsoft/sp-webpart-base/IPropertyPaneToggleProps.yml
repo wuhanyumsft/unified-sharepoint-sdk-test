@@ -1,0 +1,138 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneToggleProps'
+    name: IPropertyPaneToggleProps
+    fullName: IPropertyPaneToggleProps
+    children:
+      - '@microsoft/sp-webpart-base.IPropertyPaneToggleProps.checked'
+      - '@microsoft/sp-webpart-base.IPropertyPaneToggleProps.disabled'
+      - '@microsoft/sp-webpart-base.IPropertyPaneToggleProps.key'
+      - '@microsoft/sp-webpart-base.IPropertyPaneToggleProps.label'
+      - '@microsoft/sp-webpart-base.IPropertyPaneToggleProps.offAriaLabel'
+      - '@microsoft/sp-webpart-base.IPropertyPaneToggleProps.offText'
+      - '@microsoft/sp-webpart-base.IPropertyPaneToggleProps.onAriaLabel'
+      - '@microsoft/sp-webpart-base.IPropertyPaneToggleProps.onText'
+    langs:
+      - typeScript
+    type: interface
+    summary: PropertyPaneToggle component props.
+    source:
+      path: >-
+        propertyPane/propertyPaneFields/propertyPaneToggle/IPropertyPaneToggle.ts
+      startLine: 8
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFields/propertyPaneToggle/IPropertyPaneToggle.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneToggleProps.checked'
+    name: checked
+    fullName: checked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Checked state of the toggle.
+    syntax:
+      content: boolean checked
+      return:
+        type:
+          - boolean
+    remarks: 'If you are maintaining state yourself, use this property.'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneToggleProps.disabled'
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional disabled flag.
+    syntax:
+      content: boolean disabled
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneToggleProps.key'
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A key to uniquely identify the field.
+    syntax:
+      content: string | number key
+      return:
+        type:
+          - string | number
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneToggleProps.label'
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A label for the toggle.
+    syntax:
+      content: string label
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneToggleProps.offAriaLabel'
+    name: offAriaLabel
+    fullName: offAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional offAriaLabel flag. Text for screen-reader to announce when toggle
+      is OFF.
+    syntax:
+      content: string offAriaLabel
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneToggleProps.offText'
+    name: offText
+    fullName: offText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Test display when toggle is OFF.
+    syntax:
+      content: string offText
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneToggleProps.onAriaLabel'
+    name: onAriaLabel
+    fullName: onAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional onAriaLabel flag. Text for screen-reader to announce when toggle
+      is ON.
+    syntax:
+      content: string onAriaLabel
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneToggleProps.onText'
+    name: onText
+    fullName: onText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Text to display when toggle is ON.
+    syntax:
+      content: string onText
+      return:
+        type:
+          - string

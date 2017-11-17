@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-extension-base.IWidgetContextParameters'
+    name: IWidgetContextParameters
+    fullName: IWidgetContextParameters
+    children:
+      - '@microsoft/sp-extension-base.IWidgetContextParameters.extraThing'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@microsoft/sp-extension-base.IExtensionContextParameters'
+    source:
+      path: test/BaseExtension.test.ts
+      startLine: 16
+      remote:
+        path: spfx-core/sp-extension-base/src\test/BaseExtension.test.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-extension-base'
+  - uid: '@microsoft/sp-extension-base.IWidgetContextParameters.extraThing'
+    name: extraThing
+    fullName: extraThing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string extraThing
+      return:
+        type:
+          - string

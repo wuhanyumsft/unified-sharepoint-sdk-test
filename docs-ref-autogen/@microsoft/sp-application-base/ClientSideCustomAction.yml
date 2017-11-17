@@ -1,0 +1,166 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.ClientSideCustomAction'
+    name: ClientSideCustomAction
+    fullName: ClientSideCustomAction
+    children:
+      - >-
+        @microsoft/sp-application-base.ClientSideCustomAction.clientSideComponentId
+      - >-
+        @microsoft/sp-application-base.ClientSideCustomAction.clientSideComponentProperties
+      - '@microsoft/sp-application-base.ClientSideCustomAction.location'
+      - '@microsoft/sp-application-base.ClientSideCustomAction.registrationId'
+      - '@microsoft/sp-application-base.ClientSideCustomAction.registrationType'
+      - >-
+        @microsoft/sp-application-base.ClientSideCustomAction.requireSiteAdministrator
+      - '@microsoft/sp-application-base.ClientSideCustomAction.rights'
+      - '@microsoft/sp-application-base.ClientSideCustomAction.sequence'
+      - '@microsoft/sp-application-base.ClientSideCustomAction.tag'
+      - '@microsoft/sp-application-base.ClientSideCustomAction.title'
+    langs:
+      - typeScript
+    type: class
+    summary: Client side custom action.
+    source:
+      path: extensibility/customAction/ClientSideCustomAction.ts
+      startLine: 11
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/customAction/ClientSideCustomAction.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: >-
+      @microsoft/sp-application-base.ClientSideCustomAction.clientSideComponentId
+    name: clientSideComponentId
+    fullName: clientSideComponentId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Guid clientSideComponentId
+      return:
+        type:
+          - Guid
+  - uid: >-
+      @microsoft/sp-application-base.ClientSideCustomAction.clientSideComponentProperties
+    name: clientSideComponentProperties
+    fullName: clientSideComponentProperties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string | undefined clientSideComponentProperties
+      return:
+        type:
+          - string | undefined
+  - uid: '@microsoft/sp-application-base.ClientSideCustomAction.location'
+    name: location
+    fullName: location
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string location
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.ClientSideCustomAction.registrationId'
+    name: registrationId
+    fullName: registrationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string | undefined registrationId
+      return:
+        type:
+          - string | undefined
+  - uid: '@microsoft/sp-application-base.ClientSideCustomAction.registrationType'
+    name: registrationType
+    fullName: registrationType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string | undefined registrationType
+      return:
+        type:
+          - string | undefined
+  - uid: >-
+      @microsoft/sp-application-base.ClientSideCustomAction.requireSiteAdministrator
+    name: requireSiteAdministrator
+    fullName: requireSiteAdministrator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean | undefined requireSiteAdministrator
+      return:
+        type:
+          - boolean | undefined
+  - uid: '@microsoft/sp-application-base.ClientSideCustomAction.rights'
+    name: rights
+    fullName: rights
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: SPPermission | undefined rights
+      return:
+        type:
+          - SPPermission | undefined
+  - uid: '@microsoft/sp-application-base.ClientSideCustomAction.sequence'
+    name: sequence
+    fullName: sequence
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number | undefined sequence
+      return:
+        type:
+          - number | undefined
+  - uid: '@microsoft/sp-application-base.ClientSideCustomAction.tag'
+    name: tag
+    fullName: tag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns a tag that should be used for logging and telemetry purposes.
+    syntax:
+      content: string tag
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.ClientSideCustomAction.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string | undefined title
+      return:
+        type:
+          - string | undefined

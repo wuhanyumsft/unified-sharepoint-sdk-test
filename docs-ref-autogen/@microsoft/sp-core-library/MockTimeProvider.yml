@@ -1,0 +1,107 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.MockTimeProvider'
+    name: MockTimeProvider
+    fullName: MockTimeProvider
+    children:
+      - '@microsoft/sp-core-library.MockTimeProvider.addMs'
+      - '@microsoft/sp-core-library.MockTimeProvider.currentDate'
+      - '@microsoft/sp-core-library.MockTimeProvider.currentTimestamp'
+      - '@microsoft/sp-core-library.MockTimeProvider.getDate'
+      - '@microsoft/sp-core-library.MockTimeProvider.getTimestamp'
+      - '@microsoft/sp-core-library.MockTimeProvider.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      This is a test implementation of ITimeProvider that allows unit tests
+      to simulate the system clock.
+    source:
+      path: test-api/MockTimeProvider.ts
+      startLine: 8
+      remote:
+        path: spfx-core/sp-core-library/src\test-api/MockTimeProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.MockTimeProvider.addMs'
+    name: addMs
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Advances the simulated clock by the specified number of milliseconds.
+    syntax:
+      content: 'function addMs(milliseconds: number)'
+      parameters:
+        - id: milliseconds
+          type:
+            - number
+          description: ''
+  - uid: '@microsoft/sp-core-library.MockTimeProvider.currentDate'
+    name: currentDate
+    fullName: currentDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The time value that will be returned by getNowMs().
+    syntax:
+      content: Date currentDate
+      return:
+        type:
+          - Date
+  - uid: '@microsoft/sp-core-library.MockTimeProvider.currentTimestamp'
+    name: currentTimestamp
+    fullName: currentTimestamp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number currentTimestamp
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-core-library.MockTimeProvider.getDate'
+    name: getDate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Implements the ITimeProvider interface.
+    syntax:
+      content: function getDate()
+      parameters: []
+      return:
+        type:
+          - Date
+  - uid: '@microsoft/sp-core-library.MockTimeProvider.getTimestamp'
+    name: getTimestamp
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Implements the ITimeProvider interface.
+    syntax:
+      content: function getTimestamp()
+      parameters: []
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-core-library.MockTimeProvider.constructor'
+    name: MockTimeProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new MockTimeProvider(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - '@@microsoft/sp-core-library.ServiceScope'
+          description: ''

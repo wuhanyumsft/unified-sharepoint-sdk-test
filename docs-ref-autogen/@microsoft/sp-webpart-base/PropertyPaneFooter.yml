@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneFooter'
+    name: PropertyPaneFooter
+    fullName: PropertyPaneFooter
+    children:
+      - '@microsoft/sp-webpart-base.PropertyPaneFooter.constructor'
+      - '@microsoft/sp-webpart-base.PropertyPaneFooter.render'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@microsoft/sp-webpart-base.PropertyPaneFooter<@@microsoft/sp-webpart-base.IPropertyPaneFooterProps>
+    source:
+      path: propertyPane/propertyPaneFooter/PropertyPaneFooter.tsx
+      startLine: 34
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFooter/PropertyPaneFooter.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneFooter.constructor'
+    name: PropertyPaneFooter
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PropertyPaneFooter(props: IPropertyPaneFooterProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@microsoft/sp-webpart-base.IPropertyPaneFooterProps'
+          description: ''
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneFooter.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

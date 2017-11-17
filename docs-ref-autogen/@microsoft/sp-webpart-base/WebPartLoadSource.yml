@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.WebPartLoadSource'
+    name: WebPartLoadSource
+    fullName: WebPartLoadSource
+    children:
+      - '@microsoft/sp-webpart-base.WebPartLoadSource.viewport'
+      - '@microsoft/sp-webpart-base.WebPartLoadSource.scroll'
+      - '@microsoft/sp-webpart-base.WebPartLoadSource.loadOutsideViewport'
+    langs:
+      - typeScript
+    type: enum
+    summary: The source which triggered loading of the web part.
+    source:
+      path: core/ViewportLoader.ts
+      startLine: 21
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/ViewportLoader.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.WebPartLoadSource.viewport'
+    name: viewport
+    children: []
+    langs:
+      - typeScript
+    summary: Web part is loaded during register as it was found in viewport.
+    type: field
+    numericValue: 1
+  - uid: '@microsoft/sp-webpart-base.WebPartLoadSource.scroll'
+    name: scroll
+    children: []
+    langs:
+      - typeScript
+    summary: Web part is loaded due to scroll.
+    type: field
+    numericValue: 2
+  - uid: '@microsoft/sp-webpart-base.WebPartLoadSource.loadOutsideViewport'
+    name: loadOutsideViewport
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Web part is loaded for loading outside viewport once viewport web parts
+      are rendered.
+    type: field
+    numericValue: 3

@@ -1,0 +1,115 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.OAuthUtilityContext'
+    name: OAuthUtilityContext
+    fullName: OAuthUtilityContext
+    children:
+      - '@microsoft/sp-http.OAuthUtilityContext.fetchWithDigest'
+      - '@microsoft/sp-http.OAuthUtilityContext.logger'
+      - '@microsoft/sp-http.OAuthUtilityContext.constructor'
+      - '@microsoft/sp-http.OAuthUtilityContext.qosMonitor'
+      - '@microsoft/sp-http.OAuthUtilityContext.webUrl'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      The DelegationTokenProvider's implementation was moved into the
+      sp-client-shared
+
+      package so that it can be shared with other teams that are not using
+      sp-client-base
+
+      platform. To support this, the sp-client-shared package defines an
+      interface
+
+      ITokenUtilityContext which abstracts the basic services that are needed by
+      that
+
+      code. TokenUtilityContext is our adapter that wires up this interface to
+      the
+
+      corresponding services in sp-client-base; it can be considered part of the
+
+      internal implementation of DelegationTokenProvider; it is not intended to
+      be
+
+      used by other parts of our framework.
+    source:
+      path: oauthTokenProvider/OAuthUtilityContext.ts
+      startLine: 38
+      remote:
+        path: spfx-core/sp-http/src\oauthTokenProvider/OAuthUtilityContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.OAuthUtilityContext.fetchWithDigest'
+    name: fetchWithDigest
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fetchWithDigest(request: Request)'
+      parameters:
+        - id: request
+          type:
+            - Request
+          description: ''
+      return:
+        type:
+          - Promise<@@microsoft/sp-http.SPHttpClientResponse>
+  - uid: '@microsoft/sp-http.OAuthUtilityContext.logger'
+    name: logger
+    fullName: logger
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ILogger logger
+      return:
+        type:
+          - ILogger
+  - uid: '@microsoft/sp-http.OAuthUtilityContext.constructor'
+    name: OAuthUtilityContext
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new OAuthUtilityContext(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+  - uid: '@microsoft/sp-http.OAuthUtilityContext.qosMonitor'
+    name: qosMonitor
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function qosMonitor()
+      parameters: []
+      return:
+        type:
+          - IQosMonitor
+  - uid: '@microsoft/sp-http.OAuthUtilityContext.webUrl'
+    name: webUrl
+    fullName: webUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webUrl
+      return:
+        type:
+          - string

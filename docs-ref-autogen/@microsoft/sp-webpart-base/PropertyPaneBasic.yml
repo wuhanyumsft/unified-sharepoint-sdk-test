@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneBasic'
+    name: PropertyPaneBasic
+    fullName: PropertyPaneBasic
+    children:
+      - '@microsoft/sp-webpart-base.PropertyPaneBasic.constructor'
+      - '@microsoft/sp-webpart-base.PropertyPaneBasic.TestIncludeScripts'
+      - '@microsoft/sp-webpart-base.PropertyPaneBasic.TestName'
+      - '@microsoft/sp-webpart-base.PropertyPaneBasic.TestOwner'
+      - '@microsoft/sp-webpart-base.PropertyPaneBasic.TestRun'
+      - '@microsoft/sp-webpart-base.PropertyPaneBasic.TestSetup'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    source:
+      path: tab/PropertyPaneBasic.ts
+      startLine: 4
+      remote:
+        path: spfx-core/sp-webpart-base/src\tab/PropertyPaneBasic.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneBasic.constructor'
+    name: PropertyPaneBasic
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PropertyPaneBasic(serverURL: string)'
+      parameters:
+        - id: serverURL
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneBasic.TestIncludeScripts'
+    name: TestIncludeScripts
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: These scripts are required for the tests to run.
+    syntax:
+      content: function TestIncludeScripts()
+      parameters: []
+      return:
+        type:
+          - 'string[]'
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneBasic.TestName'
+    name: TestName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestName()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneBasic.TestOwner'
+    name: TestOwner
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestOwner()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneBasic.TestRun'
+    name: TestRun
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestRun()
+      parameters: []
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneBasic.TestSetup'
+    name: TestSetup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestSetup()
+      parameters: []

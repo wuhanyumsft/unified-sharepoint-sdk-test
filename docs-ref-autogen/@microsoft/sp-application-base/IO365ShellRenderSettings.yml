@@ -1,0 +1,87 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.IO365ShellRenderSettings'
+    name: IO365ShellRenderSettings
+    fullName: IO365ShellRenderSettings
+    children:
+      - '@microsoft/sp-application-base.IO365ShellRenderSettings.disableDelayLoad'
+      - '@microsoft/sp-application-base.IO365ShellRenderSettings.disableShellPlus'
+      - '@microsoft/sp-application-base.IO365ShellRenderSettings.layout'
+      - '@microsoft/sp-application-base.IO365ShellRenderSettings.top'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: suiteNav/IO365Shell.ts
+      startLine: 13
+      remote:
+        path: spfx-core/sp-application-base/src\suiteNav/IO365Shell.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.IO365ShellRenderSettings.disableDelayLoad'
+    name: disableDelayLoad
+    fullName: disableDelayLoad
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Flag that indicates whether additional components need to be loaded
+      immediately.
+
+      If false or unspecified, delay-loaded components will be loaded after page
+      load event.
+    syntax:
+      content: boolean disableDelayLoad
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-application-base.IO365ShellRenderSettings.disableShellPlus'
+    name: disableShellPlus
+    fullName: disableShellPlus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Flag to indicate whether automatic loading of ShellPlus (notifications and
+      such)
+
+      should be disabled. Loading can be manually triggered later with
+      LoadShellPlus().
+    syntax:
+      content: boolean disableShellPlus
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-application-base.IO365ShellRenderSettings.layout'
+    name: layout
+    fullName: layout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The layout type of the current view.
+      The only option we're interested in is 'Mouse'.
+    syntax:
+      content: string layout
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.IO365ShellRenderSettings.top'
+    name: top
+    fullName: top
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The ID of the element the suite nav should render in.
+    syntax:
+      content: string top
+      return:
+        type:
+          - string
