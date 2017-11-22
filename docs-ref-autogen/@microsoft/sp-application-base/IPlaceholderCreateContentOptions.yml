@@ -32,6 +32,7 @@ items:
       object
 
       is disposed.
+    optional: true
     syntax:
       content: '(placeholderContent: PlaceholderContent) => void onDispose'
       return:

@@ -96,7 +96,7 @@ items:
             the case insensitive key for the desired query parameter value.
       return:
         type:
-          - function
+          - '"undefined" | undefined'
     remarks: |-
       Examples: this._queryParameterList = [
       {key: TEST, value: done},

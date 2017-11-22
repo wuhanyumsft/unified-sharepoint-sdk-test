@@ -32,6 +32,7 @@ items:
       - typeScript
     type: property
     summary: A description of the dropdown for the benefit of screen reader users.
+    optional: true
     syntax:
       content: string ariaLabel
       return:
@@ -45,6 +46,7 @@ items:
       - typeScript
     type: property
     summary: Whether the property pane dropdown option is disabled or not.
+    optional: true
     syntax:
       content: boolean disabled
       return:
@@ -71,6 +73,7 @@ items:
       - typeScript
     type: property
     summary: Collection of options for this Dropdown.
+    optional: true
     syntax:
       content: 'IPropertyPaneDropdownOption[] options'
       return:
@@ -84,6 +87,7 @@ items:
       - typeScript
     type: property
     summary: The key of the initially selected option.
+    optional: true
     syntax:
       content: string | number selectedKey
       return:

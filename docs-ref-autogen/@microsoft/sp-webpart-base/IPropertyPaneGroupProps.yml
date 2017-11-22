@@ -43,6 +43,7 @@ items:
       as an Accordion or not.
 
       Defaullt value is false.
+    optional: true
     syntax:
       content: boolean displayGroupsAsAccordion
       return:
@@ -58,6 +59,7 @@ items:
     summary: >-
       Callback triggered when there is a change in any of the
       PropertyPaneFields.
+    optional: true
     syntax:
       content: '(targetProperty: string, value: any) => void onChange'
       return:
@@ -84,6 +86,7 @@ items:
       - typeScript
     type: property
     summary: Properties bag of the web part.
+    optional: true
     syntax:
       content: any properties
       return:
@@ -139,6 +142,7 @@ items:
       'Apply'/'Cancel' buttons and
 
       update the invalidEntries dictionary.
+    optional: true
     syntax:
       content: '(targetProperty: string, isValidEntry: boolean) => void setEntryState'
       return:

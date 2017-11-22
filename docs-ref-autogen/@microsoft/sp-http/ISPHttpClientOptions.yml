@@ -32,6 +32,7 @@ items:
       - typeScript
     type: property
     summary: Configure the SPWeb URL for authentication.
+    optional: true
     syntax:
       content: string webUrl
       return:

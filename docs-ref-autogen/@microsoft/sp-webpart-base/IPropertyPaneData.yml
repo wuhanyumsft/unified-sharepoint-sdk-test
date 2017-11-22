@@ -49,6 +49,7 @@ items:
       - typeScript
     type: property
     summary: Indicates whether the web part's configuration is reactive or not.
+    optional: true
     syntax:
       content: boolean isReactive
       return:
@@ -118,6 +119,7 @@ items:
       - typeScript
     type: property
     summary: Callback to re-render the PropertyPane.
+    optional: true
     syntax:
       content: () => void render
       return:
@@ -135,6 +137,7 @@ items:
       'shouldResetState' will be true in the following cases:
          1. When the PropertyPane becomes visible from hidden state.
          2. Switching between the web parts while the PropertyPane is open.
+    optional: true
     syntax:
       content: boolean shouldResetState
       return:

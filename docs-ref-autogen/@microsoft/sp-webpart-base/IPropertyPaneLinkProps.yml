@@ -31,6 +31,7 @@ items:
       - typeScript
     type: property
     summary: Whether the property pane link is disabled or not.
+    optional: true
     syntax:
       content: boolean disabled
       return:
@@ -57,6 +58,7 @@ items:
       - typeScript
     type: property
     summary: The props of pop up window.
+    optional: true
     syntax:
       content: IPopupWindowProps popupWindowProps
       return:
@@ -70,6 +72,7 @@ items:
       - typeScript
     type: property
     summary: This attribute specifies where to display the linked resource.
+    optional: true
     syntax:
       content: string target
       return:

@@ -77,6 +77,7 @@ items:
       - typeScript
     type: property
     summary: Web part description
+    optional: true
     syntax:
       content: string description
       return:
@@ -149,6 +150,7 @@ items:
     summary: >-
       Web part specific properties. The individual web part owns the definition
       of these properties.
+    optional: true
     syntax:
       content: any properties
       return:
@@ -177,6 +179,7 @@ items:
       services like search index and link fixup
 
       Required: no
+    optional: true
     syntax:
       content: ISerializedServerProcessedData serverProcessedContent
       return:

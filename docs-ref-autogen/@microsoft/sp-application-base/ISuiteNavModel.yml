@@ -30,6 +30,7 @@ items:
       - typeScript
     type: property
     summary: Token that will be used to determine whether cached data is still valid.
+    optional: true
     syntax:
       content: string CacheToken
       return:
@@ -82,6 +83,7 @@ items:
       - typeScript
     type: property
     summary: Unique user identifier. Only used for caching.
+    optional: true
     syntax:
       content: string UserIdentifier
       return:

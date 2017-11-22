@@ -28,6 +28,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: string description
       return:
@@ -41,6 +42,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: string title
       return:

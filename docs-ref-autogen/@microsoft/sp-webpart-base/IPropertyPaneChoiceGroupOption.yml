@@ -38,6 +38,7 @@ items:
     summary: |
       Whether the property pane choice group option is checked or not.
       Default value is false.
+    optional: true
     syntax:
       content: boolean checked
       return:
@@ -51,6 +52,7 @@ items:
       - typeScript
     type: property
     summary: Whether the property pane choice group option is disabled or not.
+    optional: true
     syntax:
       content: boolean disabled
       return:
@@ -64,6 +66,7 @@ items:
       - typeScript
     type: property
     summary: The Icon component props for choice field.
+    optional: true
     syntax:
       content: IPropertyPaneChoiceGroupOptionIconProps iconProps
       return:
@@ -77,6 +80,7 @@ items:
       - typeScript
     type: property
     summary: The width and height of the image in px for choice field.
+    optional: true
     syntax:
       content: function imageSize
       return:
@@ -90,6 +94,7 @@ items:
       - typeScript
     type: property
     summary: The src of image for choice field.
+    optional: true
     syntax:
       content: string imageSrc
       return:
@@ -116,6 +121,7 @@ items:
       - typeScript
     type: property
     summary: The src of image for choice field which is selected.
+    optional: true
     syntax:
       content: string selectedImageSrc
       return:

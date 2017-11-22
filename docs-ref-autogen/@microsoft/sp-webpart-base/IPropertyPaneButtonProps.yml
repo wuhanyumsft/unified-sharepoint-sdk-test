@@ -39,6 +39,7 @@ items:
 
       Besides the compound button, other button types will need more information
       provided to screen reader.
+    optional: true
     syntax:
       content: string ariaDescription
       return:
@@ -52,6 +53,7 @@ items:
       - typeScript
     type: property
     summary: The aria label of the button for the benefit of screen readers.
+    optional: true
     syntax:
       content: string ariaLabel
       return:
@@ -67,6 +69,7 @@ items:
     summary: |-
       The type of button to render.
       Default value is ButtonType.normal.
+    optional: true
     syntax:
       content: PropertyPaneButtonType buttonType
       return:
@@ -82,6 +85,7 @@ items:
     summary: |-
       Description of the action this button takes.
       Only used for compound buttons.
+    optional: true
     syntax:
       content: string description
       return:
@@ -95,6 +99,7 @@ items:
       - typeScript
     type: property
     summary: Whether the button is disabled.
+    optional: true
     syntax:
       content: boolean disabled
       return:
@@ -108,6 +113,7 @@ items:
       - typeScript
     type: property
     summary: The button icon shown in command or hero type.
+    optional: true
     syntax:
       content: string icon
       return:

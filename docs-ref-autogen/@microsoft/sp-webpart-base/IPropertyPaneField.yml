@@ -44,6 +44,7 @@ items:
       - typeScript
     type: property
     summary: Whether this control should be focused.
+    optional: true
     syntax:
       content: boolean shouldFocus
       return:

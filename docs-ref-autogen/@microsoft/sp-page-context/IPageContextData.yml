@@ -44,6 +44,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: ISPListData list
       return:
@@ -57,6 +58,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: ISPListItemData listItem
       return:

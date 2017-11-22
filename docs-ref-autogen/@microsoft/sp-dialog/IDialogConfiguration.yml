@@ -29,6 +29,7 @@ items:
     summary: >-
       Whether the dialog can be closed by clicking outside the dialog (on the
       overlay).
+    optional: true
     syntax:
       content: boolean isBlocking
       return:

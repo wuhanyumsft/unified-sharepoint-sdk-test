@@ -153,6 +153,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: ISPTimeZoneData timeZoneInfo
       return:

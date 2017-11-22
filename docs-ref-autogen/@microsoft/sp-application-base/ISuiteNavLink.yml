@@ -48,6 +48,7 @@ items:
       - typeScript
     type: property
     summary: Optional parameters that don't appear to be used.
+    optional: true
     syntax:
       content: string MenuName
       return:
@@ -61,6 +62,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: any ServiceId
       return:
@@ -74,6 +76,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: any SubLinks
       return:
@@ -87,6 +90,7 @@ items:
       - typeScript
     type: property
     summary: Can be null or '_blank.'
+    optional: true
     syntax:
       content: string TargetWindow
       return:
@@ -100,6 +104,7 @@ items:
       - typeScript
     type: property
     summary: 'Text of the link. If not provided, text will be determined based on Id.'
+    optional: true
     syntax:
       content: string Text
       return:
@@ -113,6 +118,7 @@ items:
       - typeScript
     type: property
     summary: Title text of the link.
+    optional: true
     syntax:
       content: string Title
       return:

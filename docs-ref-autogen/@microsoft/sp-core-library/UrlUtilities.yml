@@ -6,6 +6,8 @@ items:
     children:
       - '@microsoft/sp-core-library.UrlUtilities.convertToODataStringLiteral'
       - '@microsoft/sp-core-library.UrlUtilities.removeEndSlash'
+      - '@microsoft/sp-core-library.UrlUtilities.removeLeadingSlash'
+      - '@microsoft/sp-core-library.UrlUtilities.resolve'
     langs:
       - typeScript
     type: class
@@ -16,7 +18,7 @@ items:
       small, and very broadly applicable.
     source:
       path: url/UrlUtilities.ts
-      startLine: 12
+      startLine: 14
       remote:
         path: spfx-core/sp-core-library/src\url/UrlUtilities.ts
         repo: >-
@@ -81,6 +83,62 @@ items:
             - string
           description: |
             the URL to be normalized
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-core-library.UrlUtilities.removeLeadingSlash'
+    name: removeLeadingSlash
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Removes any slash characters from the beginning of the URL.
+
+      This function assumes that the input is already a valid absolute or
+      server-relative URL.
+
+      Examples:
+        removeLeadingSlash('/example/path.js') ---> 'example/path.js'
+        removeLeadingSlash('example/')         ---> 'example/'
+        removeLeadingSlash('/')                ---> ''
+    syntax:
+      content: 'static function removeLeadingSlash(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: |
+            the URL to be normalized
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-core-library.UrlUtilities.resolve'
+    name: resolve
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      If the provided URL is relative, resolve it under the provided base URL.
+      If the provided URL is absolute,
+       return it.
+      Examples:
+        resolve('/foo/bar.js', 'http://cdn.com/path/')               ---> 'http://cdn.com/path/foo/bar.js'
+        resolve('http://cdn.com/foo/bar.js', 'http://cdn.com/path/') ---> 'http://cdn.com/foo/bar.js'
+        resolve('/foo/bar.js', 'path/')                              ---> 'path/foo/bar.js'
+    syntax:
+      content: 'static function resolve(url: string, baseUrl: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: the URL to be resolved
+        - id: baseUrl
+          type:
+            - string
+          description: |
+            the base URL to use if the URL is relative
       return:
         type:
           - string

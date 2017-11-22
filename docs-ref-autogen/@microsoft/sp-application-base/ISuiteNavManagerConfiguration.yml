@@ -91,10 +91,10 @@ items:
 
       suite nav's hamburger button will not be shown.
     syntax:
-      content: function hamburgerCallback
+      content: '"undefined" | undefined hamburgerCallback'
       return:
         type:
-          - function
+          - '"undefined" | undefined'
   - uid: >-
       @microsoft/sp-application-base.ISuiteNavManagerConfiguration.isSuiteNavDisabled
     name: isSuiteNavDisabled

@@ -29,6 +29,7 @@ items:
       - typeScript
     type: property
     summary: Automatically configure the "Content-Type" header for a JSON payload.
+    optional: true
     syntax:
       content: boolean jsonRequest
       return:
@@ -58,6 +59,7 @@ items:
       - typeScript
     type: property
     summary: Automatically configure the "Accept" header for a JSON payload.
+    optional: true
     syntax:
       content: boolean jsonResponse
       return:

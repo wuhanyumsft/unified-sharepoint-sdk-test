@@ -53,6 +53,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: ISuiteNavLink AboutMeLink
       return:
@@ -70,6 +71,7 @@ items:
       SuiteNavClientData object
 
       as a constructor parameter or to store this data.
+    optional: true
     syntax:
       content: string ClientData
       return:
@@ -83,6 +85,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: ISuiteNavLink CommunityLink
       return:
@@ -96,6 +99,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: string CompanyDisplayName
       return:
@@ -109,6 +113,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: string CorrelationID
       return:
@@ -122,6 +127,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: string CultureName
       return:
@@ -142,6 +148,7 @@ items:
 
       always be SuiteNavLinkIds.ONEDRIVE (so implementations can just set it to
       that).
+    optional: true
     syntax:
       content: string CurrentMainLinkElementID
       return:
@@ -155,6 +162,7 @@ items:
       - typeScript
     type: property
     summary: Help menu links
+    optional: true
     syntax:
       content: Array<ISuiteNavLink> CurrentWorkloadHelpSubLinks
       return:
@@ -169,6 +177,7 @@ items:
       - typeScript
     type: property
     summary: Settings menu links
+    optional: true
     syntax:
       content: Array<ISuiteNavLink> CurrentWorkloadSettingsSubLinks
       return:
@@ -182,6 +191,7 @@ items:
       - typeScript
     type: property
     summary: User/me menu links. Required if authenticated.
+    optional: true
     syntax:
       content: Array<ISuiteNavLink> CurrentWorkloadUserSubLinks
       return:
@@ -195,6 +205,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: function Dimensions
       return:
@@ -208,6 +219,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: ISuiteNavLink FeedbackLink
       return:
@@ -221,6 +233,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: string FlightName
       return:
@@ -234,6 +247,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: boolean FlipHelpIcon
       return:
@@ -247,6 +261,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: ISuiteNavLink HelpLink
       return:
@@ -260,6 +275,7 @@ items:
       - typeScript
     type: property
     summary: Whether user is authenticated
+    optional: true
     syntax:
       content: boolean IsAuthenticated
       return:
@@ -273,6 +289,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: ISuiteNavLink LegalLink
       return:
@@ -286,6 +303,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: string LogoNavigationUrl
       return:
@@ -299,6 +317,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: string MyProfileUrl
       return:
@@ -312,6 +331,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: ISuiteNavLink O365SettingsLink
       return:
@@ -325,6 +345,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: ISuiteNavLink PrivacyLink
       return:
@@ -338,6 +359,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: string SessionID
       return:
@@ -351,6 +373,7 @@ items:
       - typeScript
     type: property
     summary: Sign out link (irrelevant if not authenticated)
+    optional: true
     syntax:
       content: ISuiteNavLink SignOutLink
       return:
@@ -364,6 +387,7 @@ items:
       - typeScript
     type: property
     summary: Override strings
+    optional: true
     syntax:
       content: ISuiteNavOverrideStrings StringsOverride
       return:
@@ -377,6 +401,7 @@ items:
       - typeScript
     type: property
     summary: User's name. Required if authenticated.
+    optional: true
     syntax:
       content: string UserDisplayName
       return:
@@ -396,6 +421,7 @@ items:
       dropdown.
 
       For instance the old "Change Theme" will not appear if this is true.
+    optional: true
     syntax:
       content: boolean UseSPOBehaviors
       return:

@@ -38,6 +38,7 @@ items:
       state
 
       information.
+    optional: true
     syntax:
       content: any context
       return:
@@ -79,6 +80,7 @@ items:
       - typeScript
     type: property
     summary: This API is called when the component is unmounted from the host element.
+    optional: true
     syntax:
       content: '(domElement: HTMLElement, context?: any) => void onDispose'
       return:

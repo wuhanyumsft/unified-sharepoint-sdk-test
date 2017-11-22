@@ -4,6 +4,7 @@ items:
     name: '@microsoft/sp-application-base'
     summary: ''
     children:
+      - '@microsoft/sp-application-base.ApplicationManager'
       - '@microsoft/sp-application-base.BaseApplication'
       - '@microsoft/sp-application-base.BaseApplicationContext'
       - '@microsoft/sp-application-base.IApplicationContextParameters'
@@ -35,9 +36,6 @@ items:
       - '@microsoft/sp-application-base.SPThemeProvider'
       - '@microsoft/sp-application-base.IColorPalette'
       - '@microsoft/sp-application-base.SPWebTemplateIds'
-      - '@microsoft/sp-application-base.Shell'
-      - '@microsoft/sp-application-base.IClientSideApplicationWrapper'
-      - '@microsoft/sp-application-base.IShell'
       - '@microsoft/sp-application-base.FlexPaneWrapper'
       - '@microsoft/sp-application-base.IFlexPane'
       - '@microsoft/sp-application-base.IO365Navigation'
@@ -65,6 +63,8 @@ items:
     langs:
       - typeScript
 references:
+  - uid: '@microsoft/sp-application-base.ApplicationManager'
+    name: ApplicationManager
   - uid: '@microsoft/sp-application-base.BaseApplication'
     name: BaseApplication
   - uid: '@microsoft/sp-application-base.BaseApplicationContext'
@@ -127,12 +127,6 @@ references:
     name: IColorPalette
   - uid: '@microsoft/sp-application-base.SPWebTemplateIds'
     name: SPWebTemplateIds
-  - uid: '@microsoft/sp-application-base.Shell'
-    name: Shell
-  - uid: '@microsoft/sp-application-base.IClientSideApplicationWrapper'
-    name: IClientSideApplicationWrapper
-  - uid: '@microsoft/sp-application-base.IShell'
-    name: IShell
   - uid: '@microsoft/sp-application-base.FlexPaneWrapper'
     name: FlexPaneWrapper
   - uid: '@microsoft/sp-application-base.IFlexPane'

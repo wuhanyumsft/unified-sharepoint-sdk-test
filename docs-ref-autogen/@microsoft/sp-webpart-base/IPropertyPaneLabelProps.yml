@@ -28,6 +28,7 @@ items:
       - typeScript
     type: property
     summary: Whether the associated form field is required or not.
+    optional: true
     syntax:
       content: boolean required
       return:

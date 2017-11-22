@@ -51,6 +51,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: boolean disableSuiteNav
       return:
@@ -64,6 +65,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: 'ISuiteNavLink[] settingsData'
       return:
@@ -77,6 +79,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: string signoutUrl
       return:
@@ -132,6 +135,7 @@ items:
     summary: >-
       The webTemplateId is what kind of web this is, i.e. a team site or group
       site.
+    optional: true
     syntax:
       content: string webTemplateId
       return:

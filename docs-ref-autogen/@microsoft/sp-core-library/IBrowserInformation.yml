@@ -47,6 +47,7 @@ items:
       - typeScript
     type: property
     summary: Browser version. undefined if it's not recognized.
+    optional: true
     syntax:
       content: Version browserVersion
       return:
@@ -73,6 +74,7 @@ items:
       - typeScript
     type: property
     summary: OS version. undefined if it's not recognized.
+    optional: true
     syntax:
       content: string osVersion
       return:
@@ -86,6 +88,7 @@ items:
       - typeScript
     type: property
     summary: Original User Agent that was used to recognize all data.
+    optional: true
     syntax:
       content: string userAgent
       return:

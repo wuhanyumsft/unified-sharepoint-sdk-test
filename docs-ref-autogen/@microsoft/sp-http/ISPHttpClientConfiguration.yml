@@ -31,6 +31,7 @@ items:
       - typeScript
     type: property
     summary: Automatically configure the "OData-Version" header.
+    optional: true
     syntax:
       content: ODataVersion defaultODataVersion
       return:
@@ -52,6 +53,7 @@ items:
       - typeScript
     type: property
     summary: Automatically configure the RequestInit.credentials.
+    optional: true
     syntax:
       content: boolean defaultSameOriginCredentials
       return:
@@ -80,6 +82,7 @@ items:
       - typeScript
     type: property
     summary: Automatically provide an "X-RequestDigest" header for authentication.
+    optional: true
     syntax:
       content: boolean requestDigest
       return:

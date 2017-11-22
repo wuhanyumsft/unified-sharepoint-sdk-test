@@ -34,6 +34,7 @@ items:
     summary: >-
       A key-value map where keys are string identifiers and values are rich text
       with HTML format.
+    optional: true
     syntax:
       content: '[key: string]: string htmlStrings'
       return:
@@ -62,6 +63,7 @@ items:
     summary: >-
       A key-value map where keys are string identifiers and values are image
       sources.
+    optional: true
     syntax:
       content: '[key: string]: string imageSources'
       return:
@@ -86,6 +88,7 @@ items:
       - typeScript
     type: property
     summary: A key-value map where keys are string identifiers and values are links.
+    optional: true
     syntax:
       content: '[key: string]: string links'
       return:
@@ -113,6 +116,7 @@ items:
     summary: >-
       A key-value map where keys are string identifiers and values are strings
       that should be search indexed.
+    optional: true
     syntax:
       content: '[key: string]: string searchablePlainTexts'
       return:

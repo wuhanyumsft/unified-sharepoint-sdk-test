@@ -49,6 +49,7 @@ items:
       In order
 
       to enforce that a header is NOT present, specify its value as "undefined".
+    optional: true
     syntax:
       content: 'MockedHeader[] expectedRequestHeaders'
       return:
@@ -66,6 +67,7 @@ items:
       performed.
 
       If the value is a string, then a string comparison is performed.
+    optional: true
     syntax:
       content: string expectedRequestObject
       return:
@@ -96,6 +98,7 @@ items:
       validate headers,
 
       credentials, caching options, etc.
+    optional: true
     syntax:
       content: '(request: Request) => void requestAssertions'
       return:
@@ -113,6 +116,7 @@ items:
       from
 
       the responseObject.
+    optional: true
     syntax:
       content: boolean responseContentLengthHeader
       return:
@@ -126,6 +130,7 @@ items:
       - typeScript
     type: property
     summary: The headers to include with the mocked response.
+    optional: true
     syntax:
       content: 'MockedHeader[] responseHeaders'
       return:
@@ -159,6 +164,7 @@ items:
       - typeScript
     type: property
     summary: Optional additional headers/details for the response
+    optional: true
     syntax:
       content: ResponseInit responseOptions
       return:

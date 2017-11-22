@@ -30,6 +30,7 @@ items:
       - typeScript
     type: property
     summary: The name of the icon to use from the Office Fabric icon set.
+    optional: true
     syntax:
       content: string | null officeFabricIconFontName
       return:

@@ -66,6 +66,7 @@ items:
     summary: >-
       Optional flag to disable lazy loading of the web parts. By default it is
       enabled.
+    optional: true
     syntax:
       content: boolean isViewportLoadingDisabled
       return:
@@ -92,6 +93,7 @@ items:
       - typeScript
     type: property
     summary: API for the webpart to mark the containing host as dirty.
+    optional: true
     syntax:
       content: '(instanceId: string, data?: any) => void setDirty'
       return:
@@ -105,6 +107,7 @@ items:
       - typeScript
     type: property
     summary: Web part configuration event callback.
+    optional: true
     syntax:
       content: IWebPartConfigurationEventCallback webPartConfigurationEventCallback
       return:

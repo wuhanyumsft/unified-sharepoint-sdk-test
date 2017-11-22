@@ -22,15 +22,15 @@ items:
       executing when the page loads.  The two main events are onLoad() which
       occurs first,
 
-      and onRender() which occurs after the shell has initialized the
-      environment and
+      and onRender() which occurs after the application manager has initialized
+      the environment
 
-      completed rendering the page chrome.
+      and completed rendering the page chrome.
     extends:
       name: '@@microsoft/sp-application-base.BaseApplication'
     source:
       path: BaseApplication.ts
-      startLine: 34
+      startLine: 32
       remote:
         path: spfx-core/sp-application-base/src\BaseApplication.ts
         repo: >-

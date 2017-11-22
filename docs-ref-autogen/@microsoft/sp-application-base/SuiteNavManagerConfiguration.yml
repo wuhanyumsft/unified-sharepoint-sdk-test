@@ -86,10 +86,10 @@ items:
     type: property
     summary: ''
     syntax:
-      content: function hamburgerCallback
+      content: '"undefined" | undefined hamburgerCallback'
       return:
         type:
-          - function
+          - '"undefined" | undefined'
   - uid: >-
       @microsoft/sp-application-base.SuiteNavManagerConfiguration.isSuiteNavDisabled
     name: isSuiteNavDisabled

@@ -12,7 +12,7 @@ items:
     summary: Constructor parameters for ListViewCommandSetContext.
     source:
       path: commandSet/ListViewCommandSetContext.ts
-      startLine: 16
+      startLine: 17
       remote:
         path: >-
           spfx-libraries/sp-listview-extensibility/src\commandSet/ListViewCommandSetContext.ts

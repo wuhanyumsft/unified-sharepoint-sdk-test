@@ -29,6 +29,7 @@ items:
       - typeScript
     type: property
     summary: The default value for the input text field of prompt dialog
+    optional: true
     syntax:
       content: string defaultValue
       return:

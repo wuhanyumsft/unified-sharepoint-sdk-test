@@ -49,10 +49,10 @@ items:
     type: property
     summary: ''
     syntax:
-      content: function displayCallHandler
+      content: '"undefined" | undefined displayCallHandler'
       return:
         type:
-          - function
+          - '"undefined" | undefined'
   - uid: >-
       @microsoft/sp-http.TestOAuth2TokenProvider.loadAndConfigureAdalJsModulePromise
     name: loadAndConfigureAdalJsModulePromise

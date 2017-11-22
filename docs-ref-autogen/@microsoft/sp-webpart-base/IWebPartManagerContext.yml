@@ -42,6 +42,7 @@ items:
       or not. If the web part is added
 
       from toolbox, the value of this flag will be false.
+    optional: true
     syntax:
       content: boolean addedFromPersistedData
       return:
@@ -88,6 +89,7 @@ items:
       a web part, and classic SharePoint
 
       pages.
+    optional: true
     syntax:
       content: IWebPartHost host
       return:
@@ -130,6 +132,7 @@ items:
     summary: |-
       Callback API when all web parts in the viewport are rendered
       Usage: When web part not in viewport, loading is delayed.
+    optional: true
     syntax:
       content: '(endTime: number) => void onViewportWebPartsRendered'
       return:
@@ -145,6 +148,7 @@ items:
     summary: >-
       Optional reference to the scrollable element that is common parent of all
       the web parts.
+    optional: true
     syntax:
       content: HTMLElement scrollableParent
       return:
@@ -160,6 +164,7 @@ items:
     summary: >-
       Total number of web parts in store that will be asked to Web Part manager
       instance for loading
+    optional: true
     syntax:
       content: number totalWebparts
       return:
@@ -173,6 +178,7 @@ items:
       - typeScript
     type: property
     summary: Web psart instance data. This data should be used to render a web part.
+    optional: true
     syntax:
       content: IWebPartData webPartData
       return:

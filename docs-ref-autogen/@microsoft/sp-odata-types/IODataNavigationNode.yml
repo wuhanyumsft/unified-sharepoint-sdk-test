@@ -36,6 +36,7 @@ items:
     summary: >-
       Gets or sets an array of Navigation Nodes that are children to the current
       node.
+    optional: true
     syntax:
       content: 'IODataNavigationNode[] Children'
       return:
@@ -49,6 +50,7 @@ items:
       - typeScript
     type: property
     summary: Gets a value that specifies the identifier for the navigation node.
+    optional: true
     syntax:
       content: number Id
       return:
@@ -62,6 +64,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: boolean IsDocLib
       return:
@@ -79,6 +82,7 @@ items:
       potentially
 
       corresponds to pages outside of the site collection.
+    optional: true
     syntax:
       content: boolean IsExternal
       return:
@@ -94,6 +98,7 @@ items:
     summary: >-
       Gets or sets a value that specifies if the node navigation link should be
       visible.
+    optional: true
     syntax:
       content: boolean IsVisible
       return:
@@ -109,6 +114,7 @@ items:
     summary: >-
       Gets or sets a value that specifies the anchor text for the node
       navigation link.
+    optional: true
     syntax:
       content: string Title
       return:
@@ -129,6 +135,7 @@ items:
       of
 
       relative or absolute form.
+    optional: true
     syntax:
       content: string Url
       return:

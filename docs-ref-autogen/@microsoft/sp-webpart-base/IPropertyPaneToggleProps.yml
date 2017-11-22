@@ -35,6 +35,7 @@ items:
       - typeScript
     type: property
     summary: Checked state of the toggle.
+    optional: true
     syntax:
       content: boolean checked
       return:
@@ -49,6 +50,7 @@ items:
       - typeScript
     type: property
     summary: Optional disabled flag.
+    optional: true
     syntax:
       content: boolean disabled
       return:
@@ -62,6 +64,7 @@ items:
       - typeScript
     type: property
     summary: A key to uniquely identify the field.
+    optional: true
     syntax:
       content: string | number key
       return:
@@ -90,6 +93,7 @@ items:
     summary: >-
       Optional offAriaLabel flag. Text for screen-reader to announce when toggle
       is OFF.
+    optional: true
     syntax:
       content: string offAriaLabel
       return:
@@ -103,6 +107,7 @@ items:
       - typeScript
     type: property
     summary: Test display when toggle is OFF.
+    optional: true
     syntax:
       content: string offText
       return:
@@ -118,6 +123,7 @@ items:
     summary: >-
       Optional onAriaLabel flag. Text for screen-reader to announce when toggle
       is ON.
+    optional: true
     syntax:
       content: string onAriaLabel
       return:
@@ -131,6 +137,7 @@ items:
       - typeScript
     type: property
     summary: Text to display when toggle is ON.
+    optional: true
     syntax:
       content: string onText
       return:

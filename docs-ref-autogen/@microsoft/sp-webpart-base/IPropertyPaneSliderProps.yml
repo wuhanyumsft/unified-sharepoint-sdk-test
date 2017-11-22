@@ -35,6 +35,7 @@ items:
       - typeScript
     type: property
     summary: A description of the Slider for the benefit of screen readers.
+    optional: true
     syntax:
       content: string ariaLabel
       return:
@@ -48,6 +49,7 @@ items:
       - typeScript
     type: property
     summary: Whether or not the Slider is disabled.
+    optional: true
     syntax:
       content: boolean disabled
       return:
@@ -61,6 +63,7 @@ items:
       - typeScript
     type: property
     summary: Description label of the Slider.
+    optional: true
     syntax:
       content: string label
       return:
@@ -100,6 +103,7 @@ items:
       - typeScript
     type: property
     summary: Whether to show the value on the right of the Slider.
+    optional: true
     syntax:
       content: boolean showValue
       return:
@@ -118,6 +122,7 @@ items:
     summary: |-
       The difference between the two adjacent values of the Slider.
       Defaults to 1.
+    optional: true
     syntax:
       content: number step
       return:
@@ -135,6 +140,7 @@ items:
       value as a result of onChange events.
 
       Defaults to min.
+    optional: true
     syntax:
       content: number value
       return:

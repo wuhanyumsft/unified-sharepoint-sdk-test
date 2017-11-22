@@ -55,6 +55,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: ResponseInit responseOptions
       return:

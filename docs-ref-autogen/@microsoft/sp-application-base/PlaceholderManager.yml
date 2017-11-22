@@ -86,10 +86,10 @@ items:
     type: property
     summary: Returns undefined if initializePlaceholders() was not called yet.
     syntax:
-      content: function placeholders
+      content: '"undefined" | undefined placeholders'
       return:
         type:
-          - function
+          - '"undefined" | undefined'
   - uid: '@microsoft/sp-application-base.PlaceholderManager.registerPlaceholders'
     name: registerPlaceholders
     children: []

@@ -21,7 +21,7 @@ items:
       new URL.
     source:
       path: navigator/Navigator.ts
-      startLine: 18
+      startLine: 19
       remote:
         path: spfx-core/sp-application-base/src\navigator/Navigator.ts
         repo: >-
@@ -77,11 +77,11 @@ items:
       - typeScript
     summary: ''
     syntax:
-      content: 'new Navigator(shell: IShell)'
+      content: 'new Navigator(context: BaseApplicationContext)'
       parameters:
-        - id: shell
+        - id: context
           type:
-            - '@@microsoft/sp-application-base.IShell'
+            - '@@microsoft/sp-application-base.BaseApplicationContext'
           description: ''
   - uid: '@microsoft/sp-application-base.Navigator.raiseNavigatedEvent'
     name: raiseNavigatedEvent

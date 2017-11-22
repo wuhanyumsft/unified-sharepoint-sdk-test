@@ -43,6 +43,7 @@ items:
       href='http://contoso.com/path_of_link.aspx' />"
 
       experimental: no
+    optional: true
     syntax:
       content: string htmlProperties
       return:

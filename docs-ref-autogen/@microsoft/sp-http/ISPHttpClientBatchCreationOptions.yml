@@ -37,6 +37,7 @@ items:
       looking for a reserved URL segment such as "_api" in the first URL
       passed to fetch(), but if not, the webUrl can be explicitly specified
       using this option.
+    optional: true
     syntax:
       content: string webUrl
       return:

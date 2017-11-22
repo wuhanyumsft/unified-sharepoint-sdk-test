@@ -10,6 +10,9 @@
     - uid: '@microsoft/sp-application-base.ApplicationCustomizerLoader'
       name: ApplicationCustomizerLoader
       items: []
+    - uid: '@microsoft/sp-application-base.ApplicationManager'
+      name: ApplicationManager
+      items: []
     - uid: '@microsoft/sp-application-base.BaseApplication'
       name: BaseApplication
       items: []
@@ -42,9 +45,6 @@
       items: []
     - uid: '@microsoft/sp-application-base.IApplicationCustomizerContextParameters'
       name: IApplicationCustomizerContextParameters
-      items: []
-    - uid: '@microsoft/sp-application-base.IClientSideApplicationWrapper'
-      name: IClientSideApplicationWrapper
       items: []
     - uid: '@microsoft/sp-application-base.IColorPalette'
       name: IColorPalette
@@ -84,9 +84,6 @@
       items: []
     - uid: '@microsoft/sp-application-base.IResponseJSONStringObject'
       name: IResponseJSONStringObject
-      items: []
-    - uid: '@microsoft/sp-application-base.IShell'
-      name: IShell
       items: []
     - uid: '@microsoft/sp-application-base.ISPPage'
       name: ISPPage
@@ -141,9 +138,6 @@
       items: []
     - uid: '@microsoft/sp-application-base.PlaceholderProvider'
       name: PlaceholderProvider
-      items: []
-    - uid: '@microsoft/sp-application-base.Shell'
-      name: Shell
       items: []
     - uid: '@microsoft/sp-application-base.SPGlobalErrorHandler'
       name: SPGlobalErrorHandler

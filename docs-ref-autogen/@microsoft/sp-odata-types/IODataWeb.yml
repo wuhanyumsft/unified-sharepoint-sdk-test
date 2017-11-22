@@ -48,6 +48,7 @@ items:
     summary: |-
       Gets a value that specifies when the site was created.
       Example: "/Date(2016,0,20,12,58,7,0)/"
+    optional: true
     syntax:
       content: string Created
       return:
@@ -63,6 +64,7 @@ items:
     summary: >-
       Represents the unique sequential location of a change within the change
       log.
+    optional: true
     syntax:
       content: IODataChangeToken CurrentChangeToken
       return:
@@ -80,6 +82,7 @@ items:
       website.
 
       Example: "/sites/PubSite/_catalogs/masterpage/seattle.master"
+    optional: true
     syntax:
       content: string CustomMasterUrl
       return:
@@ -93,6 +96,7 @@ items:
       - typeScript
     type: property
     summary: Gets or sets the description for the site.
+    optional: true
     syntax:
       content: string Description
       return:
@@ -108,6 +112,7 @@ items:
     summary: |-
       Gets a value that specifies the site identifier for the site.
       Example: "/Guid(92ea328e-9f50-49a6-9da5-2f2dd5577041)/"
+    optional: true
     syntax:
       content: string Id
       return:
@@ -121,6 +126,7 @@ items:
       - typeScript
     type: property
     summary: Value that represents if the web was
+    optional: true
     syntax:
       content: boolean IsMultilingual
       return:
@@ -138,6 +144,7 @@ items:
       site.
 
       Example: 1033
+    optional: true
     syntax:
       content: number Language
       return:
@@ -153,6 +160,7 @@ items:
     summary: |-
       Gets a value that specifies when an item was last modified in the site.
       Example: "/Date(1453618828000)/"
+    optional: true
     syntax:
       content: string LastItemModifiedDate
       return:
@@ -168,6 +176,7 @@ items:
     summary: |-
       Gets or sets the URL of the master page that is used for the website.
       Example: "/sites/PubSite/_catalogs/masterpage/seattle.master"
+    optional: true
     syntax:
       content: string MasterUrl
       return:
@@ -181,6 +190,7 @@ items:
       - typeScript
     type: property
     summary: Determines if a particular web will be crawled by search or not.
+    optional: true
     syntax:
       content: boolean NoCrawl
       return:
@@ -196,6 +206,7 @@ items:
     summary: >-
       Gets or sets a value that specifies whether the Quick Launch area is
       enabled on the site.
+    optional: true
     syntax:
       content: boolean QuickLaunchEnabled
       return:
@@ -211,6 +222,7 @@ items:
     summary: >-
       Gets or sets a value that determines whether the recycle bin is enabled
       for the website.
+    optional: true
     syntax:
       content: boolean RecycleBinEnabled
       return:
@@ -226,6 +238,7 @@ items:
     summary: |-
       Gets or sets the server-relative URL for the Web site.
       Example: "/sites/PubSite"
+    optional: true
     syntax:
       content: string ServerRelativeUrl
       return:
@@ -239,6 +252,7 @@ items:
       - typeScript
     type: property
     summary: Gets the url for the logo of this particular site.
+    optional: true
     syntax:
       content: string SiteLogoUrl
       return:
@@ -252,6 +266,7 @@ items:
       - typeScript
     type: property
     summary: The title of the web.
+    optional: true
     syntax:
       content: string Title
       return:
@@ -267,6 +282,7 @@ items:
     summary: |-
       Gets or sets the user interface (UI) version of the Web site.
       Example: 15
+    optional: true
     syntax:
       content: number UIVersion
       return:
@@ -282,6 +298,7 @@ items:
     summary: |-
       Gets the absolute URL for the website.
       Example: "http://example.com/sites/PubSite"
+    optional: true
     syntax:
       content: string Url
       return:
@@ -299,6 +316,7 @@ items:
       create the site.
 
       Example: "BLANKINTERNET"
+    optional: true
     syntax:
       content: string WebTemplate
       return:

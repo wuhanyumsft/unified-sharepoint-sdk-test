@@ -43,6 +43,7 @@ items:
       - typeScript
     type: property
     summary: Image url for the background image.
+    optional: true
     syntax:
       content: string image
       return:

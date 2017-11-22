@@ -88,6 +88,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: IO365GroupAssociationData group
       return:

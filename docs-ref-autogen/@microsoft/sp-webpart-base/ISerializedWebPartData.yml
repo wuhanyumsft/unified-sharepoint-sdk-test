@@ -70,6 +70,7 @@ items:
     summary: >-
       Web part specific properties. The individual web part owns the definition
       of these properties.
+    optional: true
     syntax:
       content: any properties
       return:
@@ -96,6 +97,7 @@ items:
     summary: >-
       The collections of data that can be processed by server side services like
       search index and link fixup.
+    optional: true
     syntax:
       content: ISerializedServerProcessedData serverProcessedContent
       return:

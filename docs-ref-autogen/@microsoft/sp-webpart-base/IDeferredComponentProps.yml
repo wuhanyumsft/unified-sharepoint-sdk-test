@@ -29,6 +29,7 @@ items:
       - typeScript
     type: property
     summary: The props of the deferred React component.
+    optional: true
     syntax:
       content: ComponentProps deferredProps
       return:
@@ -46,6 +47,7 @@ items:
       will mount. Default is 0. If a negative
 
       value is specified then loading must be manually invoked.
+    optional: true
     syntax:
       content: number duration
       return:
@@ -63,6 +65,7 @@ items:
       Rendering is asynchronous so there
 
       is no gurantee that is complete.
+    optional: true
     syntax:
       content: 'Function[] onAfterLoad'
       return:

@@ -34,6 +34,7 @@ items:
 
       If false or unspecified, delay-loaded components will be loaded after page
       load event.
+    optional: true
     syntax:
       content: boolean disableDelayLoad
       return:
@@ -52,6 +53,7 @@ items:
 
       should be disabled. Loading can be manually triggered later with
       LoadShellPlus().
+    optional: true
     syntax:
       content: boolean disableShellPlus
       return:

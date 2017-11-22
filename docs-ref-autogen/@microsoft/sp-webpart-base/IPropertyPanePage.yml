@@ -31,6 +31,7 @@ items:
     summary: >-
       Indicates whether the groups on the PropertyPanePage are displayed as
       accordion or not.
+    optional: true
     syntax:
       content: boolean displayGroupsAsAccordion
       return:
@@ -57,6 +58,7 @@ items:
       - typeScript
     type: property
     summary: PropertyPane page header.
+    optional: true
     syntax:
       content: IPropertyPanePageHeader header
       return:

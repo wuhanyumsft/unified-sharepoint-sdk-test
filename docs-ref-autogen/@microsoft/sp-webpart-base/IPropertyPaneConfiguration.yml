@@ -32,6 +32,7 @@ items:
       - typeScript
     type: property
     summary: Page to be displayed on the PropertyPane.
+    optional: true
     syntax:
       content: number currentPage
       return:
@@ -48,6 +49,7 @@ items:
     summary: >-
       Number of milliseconds to be delayed before the loading indicator is shown
       on the property pane.
+    optional: true
     syntax:
       content: number loadingIndicatorDelayTime
       return:
@@ -77,6 +79,7 @@ items:
     summary: >-
       Indicates whether the loading indicator should be displayed on top of the
       property pane or not.
+    optional: true
     syntax:
       content: boolean showLoadingIndicator
       return:

@@ -16,7 +16,7 @@ items:
       name: '@@microsoft/sp-listview-extensibility.ListViewCommandSetContext'
     source:
       path: commandSet/ListViewCommandSetContext.ts
-      startLine: 24
+      startLine: 25
       remote:
         path: >-
           spfx-libraries/sp-listview-extensibility/src\commandSet/ListViewCommandSetContext.ts

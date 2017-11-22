@@ -28,6 +28,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: BaseDialog dialog
       return:
@@ -41,6 +42,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: boolean isContentReady
       return:
@@ -54,6 +56,7 @@ items:
       - typeScript
     type: property
     summary: ''
+    optional: true
     syntax:
       content: boolean isOpen
       return:
