@@ -147,10 +147,10 @@ items:
     type: property
     summary: Callback to use when suite nav basic shell has render.
     syntax:
-      content: () => void suiteNavPostRenderCallback
+      content: '"undefined" | undefined suiteNavPostRenderCallback'
       return:
         type:
-          - () => void
+          - '"undefined" | undefined'
   - uid: '@microsoft/sp-application-base.ISuiteNavManagerConfiguration.systemUserKey'
     name: systemUserKey
     fullName: systemUserKey

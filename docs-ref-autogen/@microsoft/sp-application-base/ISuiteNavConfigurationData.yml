@@ -21,7 +21,7 @@ items:
     summary: ''
     source:
       path: suiteNav/SuiteNavManagerConfiguration.ts
-      startLine: 19
+      startLine: 17
       remote:
         path: >-
           spfx-core/sp-application-base/src\suiteNav/SuiteNavManagerConfiguration.ts

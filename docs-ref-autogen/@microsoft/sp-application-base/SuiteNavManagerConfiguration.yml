@@ -30,7 +30,7 @@ items:
     summary: ''
     source:
       path: suiteNav/SuiteNavManagerConfiguration.ts
-      startLine: 33
+      startLine: 31
       remote:
         path: >-
           spfx-core/sp-application-base/src\suiteNav/SuiteNavManagerConfiguration.ts
@@ -162,10 +162,10 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => void suiteNavPostRenderCallback
+      content: '"undefined" | undefined suiteNavPostRenderCallback'
       return:
         type:
-          - () => void
+          - '"undefined" | undefined'
   - uid: '@microsoft/sp-application-base.SuiteNavManagerConfiguration.systemUserKey'
     name: systemUserKey
     fullName: systemUserKey
