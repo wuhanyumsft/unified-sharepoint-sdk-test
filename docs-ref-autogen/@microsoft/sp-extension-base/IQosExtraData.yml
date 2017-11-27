@@ -13,7 +13,7 @@ items:
     summary: Describes the extra data parameter for QosMonitor.writeSuccess function.
     source:
       path: ExtensionManager.ts
-      startLine: 16
+      startLine: 14
       remote:
         path: spfx-core/sp-extension-base/src\ExtensionManager.ts
         repo: >-

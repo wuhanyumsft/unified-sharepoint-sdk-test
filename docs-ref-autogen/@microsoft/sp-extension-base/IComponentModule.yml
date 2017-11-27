@@ -13,7 +13,7 @@ items:
       default export
     source:
       path: ExtensionManager.ts
-      startLine: 32
+      startLine: 30
       remote:
         path: spfx-core/sp-extension-base/src\ExtensionManager.ts
         repo: >-
