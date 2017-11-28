@@ -16,7 +16,7 @@ items:
     source:
       path: >-
         propertyPane/propertyPaneFields/propertyPaneDropdown/IPropertyPaneDropdown.ts
-      startLine: 68
+      startLine: 73
       remote:
         path: >-
           spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFields/propertyPaneDropdown/IPropertyPaneDropdown.ts

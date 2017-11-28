@@ -105,6 +105,7 @@ items:
       - '@microsoft/sp-webpart-base.IPropertyPaneCustomFieldProps'
       - '@microsoft/sp-webpart-base.PropertyPaneCustomFieldHost'
       - '@microsoft/sp-webpart-base.PropertyPaneDropdownOptionType'
+      - '@microsoft/sp-webpart-base.IPropertyPaneDropdownCalloutProps'
       - '@microsoft/sp-webpart-base.IPropertyPaneDropdownOption'
       - '@microsoft/sp-webpart-base.IPropertyPaneDropdownProps'
       - '@microsoft/sp-webpart-base.PropertyPaneFieldType'
@@ -345,6 +346,8 @@ references:
     name: PropertyPaneCustomFieldHost
   - uid: '@microsoft/sp-webpart-base.PropertyPaneDropdownOptionType'
     name: PropertyPaneDropdownOptionType
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneDropdownCalloutProps'
+    name: IPropertyPaneDropdownCalloutProps
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneDropdownOption'
     name: IPropertyPaneDropdownOption
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneDropdownProps'

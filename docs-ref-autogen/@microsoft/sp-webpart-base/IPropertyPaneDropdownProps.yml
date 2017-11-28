@@ -5,6 +5,7 @@ items:
     fullName: IPropertyPaneDropdownProps
     children:
       - '@microsoft/sp-webpart-base.IPropertyPaneDropdownProps.ariaLabel'
+      - '@microsoft/sp-webpart-base.IPropertyPaneDropdownProps.calloutProps'
       - '@microsoft/sp-webpart-base.IPropertyPaneDropdownProps.disabled'
       - '@microsoft/sp-webpart-base.IPropertyPaneDropdownProps.label'
       - '@microsoft/sp-webpart-base.IPropertyPaneDropdownProps.options'
@@ -38,6 +39,20 @@ items:
       return:
         type:
           - string
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneDropdownProps.calloutProps'
+    name: calloutProps
+    fullName: calloutProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Custom properties for Dropdown's Callout used to render options.
+    optional: true
+    syntax:
+      content: IPropertyPaneDropdownCalloutProps calloutProps
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.IPropertyPaneDropdownCalloutProps'
   - uid: '@microsoft/sp-webpart-base.IPropertyPaneDropdownProps.disabled'
     name: disabled
     fullName: disabled

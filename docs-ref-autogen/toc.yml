@@ -826,6 +826,9 @@
     - uid: '@microsoft/sp-webpart-base.IPropertyPaneData'
       name: IPropertyPaneData
       items: []
+    - uid: '@microsoft/sp-webpart-base.IPropertyPaneDropdownCalloutProps'
+      name: IPropertyPaneDropdownCalloutProps
+      items: []
     - uid: '@microsoft/sp-webpart-base.IPropertyPaneDropdownOption'
       name: IPropertyPaneDropdownOption
       items: []
