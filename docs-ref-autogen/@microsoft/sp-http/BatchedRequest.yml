@@ -5,23 +5,22 @@ items:
     fullName: BatchedRequest
     children:
       - '@microsoft/sp-http.BatchedRequest.constructor'
-      - '@microsoft/sp-http.BatchedRequest.notifyCompleted'
       - '@microsoft/sp-http.BatchedRequest.promise'
+      - '@microsoft/sp-http.BatchedRequest.rejectPromiseIfNotResolved'
       - '@microsoft/sp-http.BatchedRequest.request'
+      - '@microsoft/sp-http.BatchedRequest.resolvePromise'
       - '@microsoft/sp-http.BatchedRequest.response'
     langs:
       - typeScript
     type: class
     summary: >-
-      INTERNAL USAGE ONLY
-
-      This is a helper class used by SPHttpClientBatch to track the state of
-      each
+      This is a private helper class used by SPHttpClientBatch to track the
+      state of each
 
       queued REST request.
     source:
       path: spHttpClient/BatchedRequest.ts
-      startLine: 17
+      startLine: 7
       remote:
         path: spfx-core/sp-http/src\spHttpClient/BatchedRequest.ts
         repo: >-
@@ -42,30 +41,6 @@ items:
           type:
             - Request
           description: ''
-  - uid: '@microsoft/sp-http.BatchedRequest.notifyCompleted'
-    name: notifyCompleted
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: >
-      The SPHttpClientBatch class calls this method while parsing the HTTP
-      response for
-
-      the batch.  If there are any queued promises, this will resolve or reject
-
-      them as appropriate.
-
-      NOTE: This function is only ever called once, because a BATCH can only
-
-      be executed once.
-    syntax:
-      content: 'function notifyCompleted(response: SPHttpClientResponse)'
-      parameters:
-        - id: response
-          type:
-            - '@@microsoft/sp-http.SPHttpClientResponse'
-          description: ''
   - uid: '@microsoft/sp-http.BatchedRequest.promise'
     name: promise
     fullName: promise
@@ -73,12 +48,26 @@ items:
     langs:
       - typeScript
     type: property
-    summary: ''
+    summary: The promise that will return the response.
     syntax:
       content: Promise<SPHttpClientResponse> promise
       return:
         type:
           - Promise<@@microsoft/sp-http.SPHttpClientResponse>
+  - uid: '@microsoft/sp-http.BatchedRequest.rejectPromiseIfNotResolved'
+    name: rejectPromiseIfNotResolved
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: This rejects the BatchedRequest.promise with the provided error.
+    syntax:
+      content: 'function rejectPromiseIfNotResolved(error: Error)'
+      parameters:
+        - id: error
+          type:
+            - Error
+          description: ''
   - uid: '@microsoft/sp-http.BatchedRequest.request'
     name: request
     fullName: request
@@ -86,12 +75,26 @@ items:
     langs:
       - typeScript
     type: property
-    summary: ''
+    summary: The underlying request being tracked by this object.
     syntax:
       content: Request request
       return:
         type:
           - Request
+  - uid: '@microsoft/sp-http.BatchedRequest.resolvePromise'
+    name: resolvePromise
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: This resolves the BatchedRequest.promise with the provided response.
+    syntax:
+      content: 'function resolvePromise(response: SPHttpClientResponse)'
+      parameters:
+        - id: response
+          type:
+            - '@@microsoft/sp-http.SPHttpClientResponse'
+          description: ''
   - uid: '@microsoft/sp-http.BatchedRequest.response'
     name: response
     fullName: response
@@ -99,7 +102,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: ''
+    summary: The response.  This is tracked for diagnostic purposes only.
     syntax:
       content: SPHttpClientResponse | undefined response
       return:

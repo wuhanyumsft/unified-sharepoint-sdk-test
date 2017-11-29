@@ -12,7 +12,7 @@ items:
       name: RequestInit
     source:
       path: httpClient/HttpClient.ts
-      startLine: 107
+      startLine: 116
       remote:
         path: spfx-core/sp-http/src\httpClient/HttpClient.ts
         repo: >-

@@ -78,34 +78,9 @@ items:
     type: method
     langs:
       - typeScript
-    summary: >
+    summary: |-
       Queues a new request, and returns a promise that can be used to access
-
-      the server response (after execute() has completed).  The parameters for
-
-      this function are basically the same as the WHATWG API standard documented
-      here:
-
-      https://fetch.spec.whatwg.org/
-
-      However, be aware that certain REST headers are ignored or not allowed
-      inside
-
-      a batch.  See the ODATA documentation for details.
-
-
-      When execute() is called, it will POST to a URL such as
-
-      "http://example.com/sites/sample/_api/$batch".  Typically
-      SPHttpClientBatch can successfully
-
-      guess the appropriate SPWeb URL by looking for a reserved URL segment such
-      as "_api"
-
-      in the first URL passed to fetch().  If not, use
-      ISPHttpClientBatchCreationOptions.webUrl to specify it
-
-      explicitly.
+      the server response (after execute() has completed).
     syntax:
       content: >-
         function fetch(url: string, configuration:
@@ -125,11 +100,40 @@ items:
         - id: options
           type:
             - '@@microsoft/sp-http.ISPHttpClientBatchOptions'
-          description: additional options that affect the request
+          description: |
+            additional options that affect the request
           optional: true
       return:
         type:
           - Promise<@@microsoft/sp-http.SPHttpClientResponse>
+    remarks: >-
+      The parameters for this function are basically the same as the WHATWG API
+      standard
+
+      documented here:
+
+
+      {@link https://fetch.spec.whatwg.org/ }
+
+
+      However, be aware that certain REST headers are ignored or not allowed
+      inside
+
+      a batch.  See the ODATA documentation for details.
+
+
+      When execute() is called, it will POST to a URL such as
+
+      "http://example.com/sites/sample/_api/$batch".  Typically
+      SPHttpClientBatch can successfully
+
+      guess the appropriate SPWeb URL by looking for a reserved URL segment such
+      as "_api"
+
+      in the first URL passed to fetch().  If not, use
+      ISPHttpClientBatchCreationOptions.webUrl to specify it
+
+      explicitly.
   - uid: '@microsoft/sp-http.SPHttpClientBatch.get'
     name: get
     children: []

@@ -15,7 +15,7 @@ items:
       that affect the entire batch.
     source:
       path: spHttpClient/SPHttpClientBatch.ts
-      startLine: 316
+      startLine: 345
       remote:
         path: spfx-core/sp-http/src\spHttpClient/SPHttpClientBatch.ts
         repo: >-

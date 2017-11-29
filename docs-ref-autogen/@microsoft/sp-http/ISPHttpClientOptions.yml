@@ -17,7 +17,7 @@ items:
       name: '@@microsoft/sp-http.IHttpClientOptions'
     source:
       path: spHttpClient/SPHttpClient.ts
-      startLine: 298
+      startLine: 308
       remote:
         path: spfx-core/sp-http/src\spHttpClient/SPHttpClient.ts
         repo: >-
