@@ -23,17 +23,13 @@ items:
       https://developer.microsoft.com/en-us/graph/
     source:
       path: graphHttpClient/GraphHttpClient.ts
-      startLine: 42
+      startLine: 41
       remote:
         path: spfx-core/sp-http/src\graphHttpClient/GraphHttpClient.ts
         repo: >-
           https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
         branch: master
     package: '@microsoft/sp-http'
-    deprecated:
-      content: >-
-        The GraphHttpClient class has been superceded by the MSGraphClient
-        class.
     isPreview: true
     remarks: >-
       For communicating with SharePoint, use the <xref:SPHttpClient> class
