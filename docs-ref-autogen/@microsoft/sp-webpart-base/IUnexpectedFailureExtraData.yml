@@ -15,7 +15,7 @@ items:
       name: '@@microsoft/sp-webpart-base.ISuccessExtraData'
     source:
       path: core/ClientSideWebPartManager.ts
-      startLine: 82
+      startLine: 79
       remote:
         path: spfx-core/sp-webpart-base/src\core/ClientSideWebPartManager.ts
         repo: >-

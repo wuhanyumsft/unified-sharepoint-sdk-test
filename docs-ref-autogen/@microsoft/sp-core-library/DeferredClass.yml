@@ -5,7 +5,6 @@ items:
     fullName: DeferredClass<Type>
     children:
       - '@microsoft/sp-core-library.DeferredClass.create'
-      - '@microsoft/sp-core-library.DeferredClass.instance'
       - '@microsoft/sp-core-library.DeferredClass.isLoaded'
       - '@microsoft/sp-core-library.DeferredClass.load'
       - '@microsoft/sp-core-library.DeferredClass.onAfterLoad'
@@ -18,7 +17,7 @@ items:
       after the initial code download.
     source:
       path: deferredClass/DeferredClass.ts
-      startLine: 27
+      startLine: 36
       remote:
         path: spfx-core/sp-core-library/src\deferredClass/DeferredClass.ts
         repo: >-
@@ -44,19 +43,6 @@ items:
       return:
         type:
           - Instance
-  - uid: '@microsoft/sp-core-library.DeferredClass.instance'
-    name: instance
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Return the singleton for the derived DeferredClass.
-    syntax:
-      content: static function instance<ChildClass>()
-      parameters: []
-      return:
-        type:
-          - ChildClass
   - uid: '@microsoft/sp-core-library.DeferredClass.isLoaded'
     name: isLoaded
     fullName: isLoaded

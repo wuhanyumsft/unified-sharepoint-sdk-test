@@ -54,7 +54,7 @@ items:
          - Help troubleshoot web parts during escalations.
     source:
       path: core/ClientSideWebPartManager.ts
-      startLine: 103
+      startLine: 100
       remote:
         path: spfx-core/sp-webpart-base/src\core/ClientSideWebPartManager.ts
         repo: >-
