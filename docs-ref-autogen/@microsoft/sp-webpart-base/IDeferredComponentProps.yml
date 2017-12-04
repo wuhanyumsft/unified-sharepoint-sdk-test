@@ -11,6 +11,8 @@ items:
       - typeScript
     type: interface
     summary: Deferred component props.
+    extends:
+      name: any
     source:
       path: components/deferredComponent/DeferredComponent.tsx
       startLine: 13

@@ -4,7 +4,8 @@ items:
     name: DeferredComponent
     fullName: DeferredComponent<IProps>
     children:
-      - '@microsoft/sp-webpart-base.DeferredComponent.componentWillMount'
+      - '@microsoft/sp-webpart-base.DeferredComponent.componentDidMount'
+      - '@microsoft/sp-webpart-base.DeferredComponent.componentWillReceiveProps'
       - '@microsoft/sp-webpart-base.DeferredComponent.constructor'
       - '@microsoft/sp-webpart-base.DeferredComponent.load'
       - '@microsoft/sp-webpart-base.DeferredComponent.render'
@@ -29,16 +30,34 @@ items:
           https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
         branch: master
     package: '@microsoft/sp-webpart-base'
-  - uid: '@microsoft/sp-webpart-base.DeferredComponent.componentWillMount'
-    name: componentWillMount
+  - uid: '@microsoft/sp-webpart-base.DeferredComponent.componentDidMount'
+    name: componentDidMount
     children: []
     type: method
     langs:
       - typeScript
     summary: Start component loading when the component mounts.
     syntax:
-      content: function componentWillMount()
+      content: function componentDidMount()
       parameters: []
+  - uid: '@microsoft/sp-webpart-base.DeferredComponent.componentWillReceiveProps'
+    name: componentWillReceiveProps
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Attempt to load if nextProps.duration indicates we should try to load and
+      we have no previous attempts.
+    syntax:
+      content: >-
+        function componentWillReceiveProps(nextProps:
+        IDeferredComponentProps<IProps>)
+      parameters:
+        - id: nextProps
+          type:
+            - '@@microsoft/sp-webpart-base.IDeferredComponentProps<IProps>'
+          description: ''
   - uid: '@microsoft/sp-webpart-base.DeferredComponent.constructor'
     name: DeferredComponent
     children: []
