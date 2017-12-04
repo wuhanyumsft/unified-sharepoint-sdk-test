@@ -1,0 +1,70 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-dialog'
+    name: '@microsoft/sp-dialog'
+    summary: ''
+    children:
+      - '@microsoft/sp-dialog.AlertDialog'
+      - '@microsoft/sp-dialog.AlertDialogReact'
+      - '@microsoft/sp-dialog.IAlertDialogReact'
+      - '@microsoft/sp-dialog.DialogState'
+      - '@microsoft/sp-dialog.BaseDialog'
+      - '@microsoft/sp-dialog.IDialogConfiguration'
+      - '@microsoft/sp-dialog.Dialog'
+      - '@microsoft/sp-dialog.SecondaryDialogProvider'
+      - '@microsoft/sp-dialog.IAlertOptions'
+      - '@microsoft/sp-dialog.IDialogShowOptions'
+      - '@microsoft/sp-dialog.IPromptOptions'
+      - '@microsoft/sp-dialog.DialogManager'
+      - '@microsoft/sp-dialog.IDialogRequest'
+      - '@microsoft/sp-dialog.IInternalDialog'
+      - '@microsoft/sp-dialog.FabricDialogWrapper'
+      - '@microsoft/sp-dialog.IFabricDialogWrapperProps'
+      - '@microsoft/sp-dialog.IFabricDialogWrapperState'
+      - '@microsoft/sp-dialog.PromptDialog'
+      - '@microsoft/sp-dialog.PromptDialogReact'
+      - '@microsoft/sp-dialog.IPromptDialogReactProps'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@microsoft/sp-dialog.AlertDialog'
+    name: AlertDialog
+  - uid: '@microsoft/sp-dialog.AlertDialogReact'
+    name: AlertDialogReact
+  - uid: '@microsoft/sp-dialog.IAlertDialogReact'
+    name: IAlertDialogReact
+  - uid: '@microsoft/sp-dialog.DialogState'
+    name: DialogState
+  - uid: '@microsoft/sp-dialog.BaseDialog'
+    name: BaseDialog
+  - uid: '@microsoft/sp-dialog.IDialogConfiguration'
+    name: IDialogConfiguration
+  - uid: '@microsoft/sp-dialog.Dialog'
+    name: Dialog
+  - uid: '@microsoft/sp-dialog.SecondaryDialogProvider'
+    name: SecondaryDialogProvider
+  - uid: '@microsoft/sp-dialog.IAlertOptions'
+    name: IAlertOptions
+  - uid: '@microsoft/sp-dialog.IDialogShowOptions'
+    name: IDialogShowOptions
+  - uid: '@microsoft/sp-dialog.IPromptOptions'
+    name: IPromptOptions
+  - uid: '@microsoft/sp-dialog.DialogManager'
+    name: DialogManager
+  - uid: '@microsoft/sp-dialog.IDialogRequest'
+    name: IDialogRequest
+  - uid: '@microsoft/sp-dialog.IInternalDialog'
+    name: IInternalDialog
+  - uid: '@microsoft/sp-dialog.FabricDialogWrapper'
+    name: FabricDialogWrapper
+  - uid: '@microsoft/sp-dialog.IFabricDialogWrapperProps'
+    name: IFabricDialogWrapperProps
+  - uid: '@microsoft/sp-dialog.IFabricDialogWrapperState'
+    name: IFabricDialogWrapperState
+  - uid: '@microsoft/sp-dialog.PromptDialog'
+    name: PromptDialog
+  - uid: '@microsoft/sp-dialog.PromptDialogReact'
+    name: PromptDialogReact
+  - uid: '@microsoft/sp-dialog.IPromptDialogReactProps'
+    name: IPromptDialogReactProps

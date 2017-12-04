@@ -1,0 +1,62 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IEvent'
+    name: IEvent
+    fullName: IEvent<T>
+    children:
+      - '@microsoft/sp-webpart-base.IEvent.data'
+      - '@microsoft/sp-webpart-base.IEvent.sourceId'
+      - '@microsoft/sp-webpart-base.IEvent.targetId'
+    langs:
+      - typeScript
+    type: interface
+    summary: Event object
+    source:
+      path: core/events/IEvent.ts
+      startLine: 8
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/events/IEvent.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IEvent.data'
+    name: data
+    fullName: data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: T data
+      return:
+        type:
+          - T
+  - uid: '@microsoft/sp-webpart-base.IEvent.sourceId'
+    name: sourceId
+    fullName: sourceId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string sourceId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.IEvent.targetId'
+    name: targetId
+    fullName: targetId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string targetId
+      return:
+        type:
+          - string

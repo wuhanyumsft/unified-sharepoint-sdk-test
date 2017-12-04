@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.PlaceholderName'
+    name: PlaceholderName
+    fullName: PlaceholderName
+    children:
+      - '@microsoft/sp-application-base.PlaceholderName.Top'
+      - '@microsoft/sp-application-base.PlaceholderName.Bottom'
+    langs:
+      - typeScript
+    type: enum
+    summary: |-
+      The identifier for a content placeholder, which is a region on the
+      page where third-party extensibility components can render custom content.
+    source:
+      path: extensibility/placeholder/PlaceholderName.ts
+      startLine: 10
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/placeholder/PlaceholderName.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+    remarks: 'For more information about placeholders, see <xref:PlaceholderProvider>.'
+  - uid: '@microsoft/sp-application-base.PlaceholderName.Top'
+    name: Top
+    children: []
+    langs:
+      - typeScript
+    summary: A region at the top of the page.
+    type: field
+    numericValue: 1
+  - uid: '@microsoft/sp-application-base.PlaceholderName.Bottom'
+    name: Bottom
+    children: []
+    langs:
+      - typeScript
+    summary: A region at the bottom of the page.
+    type: field
+    numericValue: 2

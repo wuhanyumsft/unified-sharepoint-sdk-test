@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.SPWebTemplateIds'
+    name: SPWebTemplateIds
+    fullName: SPWebTemplateIds
+    children:
+      - '@microsoft/sp-application-base.SPWebTemplateIds.groupSite'
+      - '@microsoft/sp-application-base.SPWebTemplateIds.mySite'
+      - '@microsoft/sp-application-base.SPWebTemplateIds.mySiteHost'
+      - '@microsoft/sp-application-base.SPWebTemplateIds.teamSite'
+    langs:
+      - typeScript
+    type: enum
+    summary: >-
+      Represents the Web Template Ids
+
+      https://msdn.microsoft.com/en-us/library/microsoft.sharepoint.spweb.webtemplateid.aspx
+    source:
+      path: pageChrome/SPWebTemplateIds.ts
+      startLine: 6
+      remote:
+        path: spfx-core/sp-application-base/src\pageChrome/SPWebTemplateIds.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.SPWebTemplateIds.groupSite'
+    name: groupSite
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@microsoft/sp-application-base.SPWebTemplateIds.mySite'
+    name: mySite
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@microsoft/sp-application-base.SPWebTemplateIds.mySiteHost'
+    name: mySiteHost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+  - uid: '@microsoft/sp-application-base.SPWebTemplateIds.teamSite'
+    name: teamSite
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null

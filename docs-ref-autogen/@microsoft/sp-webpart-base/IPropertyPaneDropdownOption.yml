@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneDropdownOption'
+    name: IPropertyPaneDropdownOption
+    fullName: IPropertyPaneDropdownOption
+    children:
+      - '@microsoft/sp-webpart-base.IPropertyPaneDropdownOption.index'
+      - '@microsoft/sp-webpart-base.IPropertyPaneDropdownOption.key'
+      - '@microsoft/sp-webpart-base.IPropertyPaneDropdownOption.text'
+      - '@microsoft/sp-webpart-base.IPropertyPaneDropdownOption.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: PropertyPane drop down options.
+    source:
+      path: >-
+        propertyPane/propertyPaneFields/propertyPaneDropdown/IPropertyPaneDropdown.ts
+      startLine: 46
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFields/propertyPaneDropdown/IPropertyPaneDropdown.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneDropdownOption.index'
+    name: index
+    fullName: index
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Index for this option.
+    optional: true
+    syntax:
+      content: number index
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneDropdownOption.key'
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A key to uniquely identify this option.
+    syntax:
+      content: string | number key
+      return:
+        type:
+          - string | number
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneDropdownOption.text'
+    name: text
+    fullName: text
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Text to render for this option.
+    syntax:
+      content: string text
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneDropdownOption.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The type of option. If omitted, the default is
+      PropertyPaneDropdownMenuItemType.Normal
+    optional: true
+    syntax:
+      content: PropertyPaneDropdownOptionType type
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.PropertyPaneDropdownOptionType'

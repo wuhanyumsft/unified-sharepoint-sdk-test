@@ -1,0 +1,115 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IWebPartHost'
+    name: IWebPartHost
+    fullName: IWebPartHost
+    children:
+      - '@microsoft/sp-webpart-base.IWebPartHost.isViewportLoadingDisabled'
+      - '@microsoft/sp-webpart-base.IWebPartHost.serviceScope'
+      - '@microsoft/sp-webpart-base.IWebPartHost.setDirty'
+      - >-
+        @microsoft/sp-webpart-base.IWebPartHost.webPartConfigurationEventCallback
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      A web part host is a component, control or a page that hosts client side
+      web parts.
+
+      The web part infrastructure provides many features inbuilt e.g. an
+      HttpClient to make
+
+      server requests and the SPPageContext. The porpose of this interface is
+      not to replicate
+
+      those feature. This interface outlines the services and features where
+      there needs to be
+
+      a direct interaction between the host and the web part infrastructure.
+      This interface also
+
+      outlines some services where the web part host may want to override the
+      default
+
+      implementations provided by the infrastructure. Let us discuss some
+      examples:
+       - APIs like setDirty, webPartConfigurationEventCallback help the web part infrastucture
+         communicate the fact that some web part is in a dirty state  or web part communication
+         events to the host.
+
+      - In future we expect that this interface will be used to provide services
+      where the host
+        might want to override the default implemenations. e.g.
+        - the web part status rendering service. The default implementation of this service
+          provides an office fabric spinny. But a certain host could easily want to show a
+          different spinny.
+
+        - The event aggregation service. Currently the web part manager hosts a single event
+          event aggregator. But there are possibilities when a page can have multiple hosts
+          and each host may want to scope its event aggregation service.
+    source:
+      path: core/IWebPartHost.ts
+      startLine: 38
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/IWebPartHost.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IWebPartHost.isViewportLoadingDisabled'
+    name: isViewportLoadingDisabled
+    fullName: isViewportLoadingDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional flag to disable lazy loading of the web parts. By default it is
+      enabled.
+    optional: true
+    syntax:
+      content: boolean isViewportLoadingDisabled
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.IWebPartHost.serviceScope'
+    name: serviceScope
+    fullName: serviceScope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The current ServiceScope.
+    syntax:
+      content: ServiceScope serviceScope
+      return:
+        type:
+          - ServiceScope
+  - uid: '@microsoft/sp-webpart-base.IWebPartHost.setDirty'
+    name: setDirty
+    fullName: setDirty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: API for the webpart to mark the containing host as dirty.
+    optional: true
+    syntax:
+      content: '(instanceId: string, data?: any) => void setDirty'
+      return:
+        type:
+          - '(instanceId: string, data?: any) => void'
+  - uid: '@microsoft/sp-webpart-base.IWebPartHost.webPartConfigurationEventCallback'
+    name: webPartConfigurationEventCallback
+    fullName: webPartConfigurationEventCallback
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Web part configuration event callback.
+    optional: true
+    syntax:
+      content: IWebPartConfigurationEventCallback webPartConfigurationEventCallback
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.IWebPartConfigurationEventCallback'

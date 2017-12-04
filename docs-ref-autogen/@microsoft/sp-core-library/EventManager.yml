@@ -1,0 +1,184 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.EventManager'
+    name: EventManager
+    fullName: EventManager
+    children:
+      - '@microsoft/sp-core-library.EventManager.constructor'
+      - '@microsoft/sp-core-library.EventManager.instance'
+      - '@microsoft/sp-core-library.EventManager.raiseEvent'
+      - '@microsoft/sp-core-library.EventManager.raiseStickyEvent'
+      - '@microsoft/sp-core-library.EventManager.registerEvent'
+      - '@microsoft/sp-core-library.EventManager.unregisterEvent'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Manager for the eventing system.
+
+      Allows to register/unregister event handlers to events, and raises those
+      events.
+
+      The events are identified by its name as a string, and it doesn't provide
+      type safety for the event arguments.
+
+
+      There are two types of events: regular and sticky.
+
+      Sticky events are events that once raised, every listener that subscribed
+      to the event will be automatically
+
+      executed as if the event was raised.
+
+      Sticky events are useful for framework-level notification, like when a
+      system is initialized (every listener will
+
+      know the system is initialized).
+
+
+      This is an internal architecture underlying the Event class, which
+      provides a handy way to register and unregister
+
+      events, and provides the type safety. This class should not be exposed to
+      third-parties directly.
+    source:
+      path: events/EventManager.ts
+      startLine: 29
+      remote:
+        path: spfx-core/sp-core-library/src\events/EventManager.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.EventManager.constructor'
+    name: EventManager
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new EventManager()
+      parameters: []
+  - uid: '@microsoft/sp-core-library.EventManager.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Instance of the EventManager.
+    syntax:
+      content: static EventManager instance
+      return:
+        type:
+          - '@@microsoft/sp-core-library.EventManager'
+  - uid: '@microsoft/sp-core-library.EventManager.raiseEvent'
+    name: raiseEvent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Raises an event.
+
+      After this is called, all components registered under the event will
+      execute their callback.
+    syntax:
+      content: >-
+        function raiseEvent<TEventArgs>(eventName: string, eventArgs:
+        TEventArgs)
+      parameters:
+        - id: eventName
+          type:
+            - string
+          description: Name of the event
+        - id: eventArgs
+          type:
+            - TEventArgs
+          description: Arguments of the event
+  - uid: '@microsoft/sp-core-library.EventManager.raiseStickyEvent'
+    name: raiseStickyEvent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Raises a sticky event.
+
+      Sticky events are stored, so when new listeners are added to the event,
+      they will be immediately notified.
+
+      After this is called, all components registered under the event will
+      execute their callback.
+    syntax:
+      content: >-
+        function raiseStickyEvent<TEventArgs>(eventName: string, eventArgs:
+        TEventArgs)
+      parameters:
+        - id: eventName
+          type:
+            - string
+          description: Name of the event
+        - id: eventArgs
+          type:
+            - TEventArgs
+          description: Arguments of the event
+  - uid: '@microsoft/sp-core-library.EventManager.registerEvent'
+    name: registerEvent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Registers an event handler for an event.
+    syntax:
+      content: >-
+        function registerEvent<TEventArgs>(eventName: string, observer:
+        IEventObserver, eventHandler: (eventArgs: TEventArgs) => void)
+      parameters:
+        - id: eventName
+          type:
+            - string
+          description: Name of the event to register to.
+        - id: observer
+          type:
+            - '@@microsoft/sp-core-library.IEventObserver'
+          description: Component that is registering the event.
+        - id: eventHandler
+          type:
+            - '(eventArgs: TEventArgs) => void'
+          description: |
+            Function to handle the event.
+  - uid: '@microsoft/sp-core-library.EventManager.unregisterEvent'
+    name: unregisterEvent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Removes an event handler from the event listeners list.
+
+      The event handler passed as input must be the first one that was used to
+      register to the event.
+    syntax:
+      content: >-
+        function unregisterEvent<TEventArgs>(eventName: string, observer:
+        IEventObserver, eventHandler: (eventArgs: TEventArgs) => void)
+      parameters:
+        - id: eventName
+          type:
+            - string
+          description: Name of the event to remove the event handler from.
+        - id: observer
+          type:
+            - '@@microsoft/sp-core-library.IEventObserver'
+          description: Component that is deregistering from the event.
+        - id: eventHandler
+          type:
+            - '(eventArgs: TEventArgs) => void'
+          description: >
+            Function to handle the event. Used to remove it from the list of
+            listeners.
+    remarks: >-
+      If this is requested without adding an event handler first, it logs an
+      error.

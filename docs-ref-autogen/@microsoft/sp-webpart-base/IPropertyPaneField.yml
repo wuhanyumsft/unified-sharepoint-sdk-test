@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneField'
+    name: IPropertyPaneField
+    fullName: IPropertyPaneField<TProperties>
+    children:
+      - '@microsoft/sp-webpart-base.IPropertyPaneField.properties'
+      - '@microsoft/sp-webpart-base.IPropertyPaneField.shouldFocus'
+      - '@microsoft/sp-webpart-base.IPropertyPaneField.targetProperty'
+      - '@microsoft/sp-webpart-base.IPropertyPaneField.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: PropertyPane field.
+    source:
+      path: propertyPane/propertyPaneFields/propertyPaneField/IPropertyPaneField.ts
+      startLine: 8
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFields/propertyPaneField/IPropertyPaneField.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneField.properties'
+    name: properties
+    fullName: properties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Strongly typed properties object. Specific to each field type.
+    syntax:
+      content: TProperties properties
+      return:
+        type:
+          - TProperties
+    remarks: 'Example: Checkbox has ICheckboxProps, TextField has ITextField props.'
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneField.shouldFocus'
+    name: shouldFocus
+    fullName: shouldFocus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether this control should be focused.
+    optional: true
+    syntax:
+      content: boolean shouldFocus
+      return:
+        type:
+          - boolean
+    remarks: The default value is false.
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneField.targetProperty'
+    name: targetProperty
+    fullName: targetProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Target property from the web part's property bag.
+    syntax:
+      content: string targetProperty
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.IPropertyPaneField.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Type of the PropertyPane field.
+    syntax:
+      content: PropertyPaneFieldType type
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.PropertyPaneFieldType'

@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.IRandomNumberGenerator'
+    name: IRandomNumberGenerator
+    fullName: IRandomNumberGenerator
+    children:
+      - '@microsoft/sp-core-library.IRandomNumberGenerator.generate'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      This is a <xref:ServiceScope> contract for generating pseudorandom random
+      numbers.
+    source:
+      path: serviceScope/provider/RandomNumberGenerator.ts
+      startLine: 16
+      remote:
+        path: >-
+          spfx-core/sp-core-library/src\serviceScope/provider/RandomNumberGenerator.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-core-library'
+    remarks: >-
+      This interface abstracts the functionality of the system Math.random() API
+
+      for usage with a <xref:ServiceScope>.  For example, a unit test might
+      replace
+
+      the default <xref:RandomNumberGenerator> service with a mock
+      implementation
+
+      that always returns the same sequence of random numbers, in order to
+      ensure that
+
+      test failures are always repeatable.
+  - uid: '@microsoft/sp-core-library.IRandomNumberGenerator.generate'
+    name: generate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Returns a pseudorandom number between 0 (inclusive) and 1 (exclusive),
+      following the contract of Math.random().
+    syntax:
+      content: function generate()
+      parameters: []
+      return:
+        type:
+          - number

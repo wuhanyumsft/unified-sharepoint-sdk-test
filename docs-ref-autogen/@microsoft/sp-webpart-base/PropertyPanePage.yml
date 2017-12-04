@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.PropertyPanePage'
+    name: PropertyPanePage
+    fullName: PropertyPanePage
+    children:
+      - '@microsoft/sp-webpart-base.PropertyPanePage.componentDidMount'
+      - '@microsoft/sp-webpart-base.PropertyPanePage.render'
+    langs:
+      - typeScript
+    type: class
+    summary: PropertyPane page component
+    extends:
+      name: >-
+        @@microsoft/sp-webpart-base.PropertyPanePage<@@microsoft/sp-webpart-base.IPropertyPanePageProps>
+    source:
+      path: propertyPane/propertyPanePage/PropertyPanePage.tsx
+      startLine: 20
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPanePage/PropertyPanePage.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.PropertyPanePage.componentDidMount'
+    name: componentDidMount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+  - uid: '@microsoft/sp-webpart-base.PropertyPanePage.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>

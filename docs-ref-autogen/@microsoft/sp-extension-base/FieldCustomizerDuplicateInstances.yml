@@ -1,0 +1,102 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-extension-base.FieldCustomizerDuplicateInstances'
+    name: FieldCustomizerDuplicateInstances
+    fullName: FieldCustomizerDuplicateInstances
+    children:
+      - >-
+        @microsoft/sp-extension-base.FieldCustomizerDuplicateInstances.constructor
+      - >-
+        @microsoft/sp-extension-base.FieldCustomizerDuplicateInstances.TestIncludeScripts
+      - '@microsoft/sp-extension-base.FieldCustomizerDuplicateInstances.TestName'
+      - '@microsoft/sp-extension-base.FieldCustomizerDuplicateInstances.TestOwner'
+      - '@microsoft/sp-extension-base.FieldCustomizerDuplicateInstances.TestRun'
+      - '@microsoft/sp-extension-base.FieldCustomizerDuplicateInstances.TestSetup'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    source:
+      path: tab/FieldCustomizerDuplicateInstances.ts
+      startLine: 3
+      remote:
+        path: >-
+          spfx-core/sp-extension-base/src\tab/FieldCustomizerDuplicateInstances.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-extension-base'
+  - uid: '@microsoft/sp-extension-base.FieldCustomizerDuplicateInstances.constructor'
+    name: FieldCustomizerDuplicateInstances
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new FieldCustomizerDuplicateInstances(serverURL: string)'
+      parameters:
+        - id: serverURL
+          type:
+            - string
+          description: ''
+  - uid: >-
+      @microsoft/sp-extension-base.FieldCustomizerDuplicateInstances.TestIncludeScripts
+    name: TestIncludeScripts
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: These scripts are required for the tests to run.
+    syntax:
+      content: function TestIncludeScripts()
+      parameters: []
+      return:
+        type:
+          - 'string[]'
+  - uid: '@microsoft/sp-extension-base.FieldCustomizerDuplicateInstances.TestName'
+    name: TestName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestName()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-extension-base.FieldCustomizerDuplicateInstances.TestOwner'
+    name: TestOwner
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestOwner()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-extension-base.FieldCustomizerDuplicateInstances.TestRun'
+    name: TestRun
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestRun()
+      parameters: []
+  - uid: '@microsoft/sp-extension-base.FieldCustomizerDuplicateInstances.TestSetup'
+    name: TestSetup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestSetup()
+      parameters: []

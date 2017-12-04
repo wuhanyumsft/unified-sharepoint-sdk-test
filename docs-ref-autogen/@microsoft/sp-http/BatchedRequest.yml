@@ -1,0 +1,110 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.BatchedRequest'
+    name: BatchedRequest
+    fullName: BatchedRequest
+    children:
+      - '@microsoft/sp-http.BatchedRequest.constructor'
+      - '@microsoft/sp-http.BatchedRequest.promise'
+      - '@microsoft/sp-http.BatchedRequest.rejectPromiseIfNotResolved'
+      - '@microsoft/sp-http.BatchedRequest.request'
+      - '@microsoft/sp-http.BatchedRequest.resolvePromise'
+      - '@microsoft/sp-http.BatchedRequest.response'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      This is a private helper class used by SPHttpClientBatch to track the
+      state of each
+
+      queued REST request.
+    source:
+      path: spHttpClient/BatchedRequest.ts
+      startLine: 7
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/BatchedRequest.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.BatchedRequest.constructor'
+    name: BatchedRequest
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BatchedRequest(request: Request)'
+      parameters:
+        - id: request
+          type:
+            - Request
+          description: ''
+  - uid: '@microsoft/sp-http.BatchedRequest.promise'
+    name: promise
+    fullName: promise
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The promise that will return the response.
+    syntax:
+      content: Promise<SPHttpClientResponse> promise
+      return:
+        type:
+          - Promise<@@microsoft/sp-http.SPHttpClientResponse>
+  - uid: '@microsoft/sp-http.BatchedRequest.rejectPromiseIfNotResolved'
+    name: rejectPromiseIfNotResolved
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: This rejects the BatchedRequest.promise with the provided error.
+    syntax:
+      content: 'function rejectPromiseIfNotResolved(error: Error)'
+      parameters:
+        - id: error
+          type:
+            - Error
+          description: ''
+  - uid: '@microsoft/sp-http.BatchedRequest.request'
+    name: request
+    fullName: request
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The underlying request being tracked by this object.
+    syntax:
+      content: Request request
+      return:
+        type:
+          - Request
+  - uid: '@microsoft/sp-http.BatchedRequest.resolvePromise'
+    name: resolvePromise
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: This resolves the BatchedRequest.promise with the provided response.
+    syntax:
+      content: 'function resolvePromise(response: SPHttpClientResponse)'
+      parameters:
+        - id: response
+          type:
+            - '@@microsoft/sp-http.SPHttpClientResponse'
+          description: ''
+  - uid: '@microsoft/sp-http.BatchedRequest.response'
+    name: response
+    fullName: response
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The response.  This is tracked for diagnostic purposes only.
+    syntax:
+      content: SPHttpClientResponse | undefined response
+      return:
+        type:
+          - SPHttpClientResponse | undefined

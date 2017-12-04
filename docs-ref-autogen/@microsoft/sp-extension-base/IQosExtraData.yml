@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-extension-base.IQosExtraData'
+    name: IQosExtraData
+    fullName: IQosExtraData
+    children:
+      - '@microsoft/sp-extension-base.IQosExtraData.alias'
+      - '@microsoft/sp-extension-base.IQosExtraData.isInternal'
+      - '@microsoft/sp-extension-base.IQosExtraData.manifestId'
+    langs:
+      - typeScript
+    type: interface
+    summary: Describes the extra data parameter for QosMonitor.writeSuccess function.
+    source:
+      path: ExtensionManager.ts
+      startLine: 14
+      remote:
+        path: spfx-core/sp-extension-base/src\ExtensionManager.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-extension-base'
+  - uid: '@microsoft/sp-extension-base.IQosExtraData.alias'
+    name: alias
+    fullName: alias
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string alias
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-extension-base.IQosExtraData.isInternal'
+    name: isInternal
+    fullName: isInternal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean | undefined isInternal
+      return:
+        type:
+          - boolean | undefined
+  - uid: '@microsoft/sp-extension-base.IQosExtraData.manifestId'
+    name: manifestId
+    fullName: manifestId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string manifestId
+      return:
+        type:
+          - string

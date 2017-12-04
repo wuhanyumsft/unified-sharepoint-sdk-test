@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.ApplicationManager'
+    name: ApplicationManager
+    fullName: ApplicationManager
+    children:
+      - '@microsoft/sp-application-base.ApplicationManager.startApplication'
+    langs:
+      - typeScript
+    type: class
+    summary: Application manager. Includes logic to load SPFX client-side applications.
+    source:
+      path: ApplicationManager.ts
+      startLine: 59
+      remote:
+        path: spfx-core/sp-application-base/src\ApplicationManager.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.ApplicationManager.startApplication'
+    name: startApplication
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Loads an application and starts its execution.
+    syntax:
+      content: 'function startApplication<TApplication>(preloadedData: _IPreloadedData)'
+      parameters:
+        - id: preloadedData
+          type:
+            - _IPreloadedData
+          description: |
+            Application preloaded data. Must include the application id.
+      return:
+        type:
+          - Promise<TApplication>

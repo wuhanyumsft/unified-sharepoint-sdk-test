@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.IGraphHttpClientConfiguration'
+    name: IGraphHttpClientConfiguration
+    fullName: IGraphHttpClientConfiguration
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: Flags interface for GraphHttpClientCommonConfiguration
+    extends:
+      name: '@@microsoft/sp-http.IHttpClientConfiguration'
+    source:
+      path: graphHttpClient/GraphHttpClientConfiguration.ts
+      startLine: 10
+      remote:
+        path: spfx-core/sp-http/src\graphHttpClient/GraphHttpClientConfiguration.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-http'
+    deprecated:
+      content: >-
+        The GraphHttpClient class has been superceded by the MSGraphClient
+        class.
+    isPreview: true

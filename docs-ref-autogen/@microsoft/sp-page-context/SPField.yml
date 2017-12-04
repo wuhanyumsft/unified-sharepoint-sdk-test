@@ -1,0 +1,147 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-page-context.SPField'
+    name: SPField
+    fullName: SPField
+    children:
+      - '@microsoft/sp-page-context.SPField.clientSideComponentId'
+      - '@microsoft/sp-page-context.SPField.clientSideComponentProperties'
+      - '@microsoft/sp-page-context.SPField.displayName'
+      - '@microsoft/sp-page-context.SPField.fieldType'
+      - '@microsoft/sp-page-context.SPField.id'
+      - '@microsoft/sp-page-context.SPField.internalName'
+      - '@microsoft/sp-page-context.SPField.isRequired'
+      - '@microsoft/sp-page-context.SPField.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      The client-side equivalent for SharePoint SPField class. Used in Fields
+      property of SPList and SPListItem classes.
+
+      A field represents the data model for a column in SharePoint list view.
+    source:
+      path: SPField.ts
+      startLine: 36
+      remote:
+        path: spfx-core/sp-page-context/src\SPField.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.SPField.clientSideComponentId'
+    name: clientSideComponentId
+    fullName: clientSideComponentId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The unique identifier of the client-side component associated with the
+      field.
+    syntax:
+      content: Guid | undefined clientSideComponentId
+      return:
+        type:
+          - Guid | undefined
+  - uid: '@microsoft/sp-page-context.SPField.clientSideComponentProperties'
+    name: clientSideComponentProperties
+    fullName: clientSideComponentProperties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This property is only used when a ClientSideComponentId is specified.  It
+      is optional.
+
+      If non-empty, the string must contain a JSON object with custom
+      initialization properties
+
+      whose format and meaning are defined by the client-side component.
+    syntax:
+      content: string clientSideComponentProperties
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.SPField.displayName'
+    name: displayName
+    fullName: displayName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The display name of the field. This name is shown as column name in UI.
+    syntax:
+      content: string displayName
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.SPField.fieldType'
+    name: fieldType
+    fullName: fieldType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The type of the field represented as a string
+    syntax:
+      content: string fieldType
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.SPField.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The GUID identifier for this field.
+    syntax:
+      content: Guid id
+      return:
+        type:
+          - Guid
+  - uid: '@microsoft/sp-page-context.SPField.internalName'
+    name: internalName
+    fullName: internalName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The internal name of the field. This name is usually used to find the
+      field.
+    syntax:
+      content: string internalName
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.SPField.isRequired'
+    name: isRequired
+    fullName: isRequired
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the field is required for each list item in the list
+    syntax:
+      content: boolean isRequired
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-page-context.SPField.constructor'
+    name: SPField
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SPField(data: ISPFieldData)'
+      parameters:
+        - id: data
+          type:
+            - '@@microsoft/sp-page-context.ISPFieldData'
+          description: ''

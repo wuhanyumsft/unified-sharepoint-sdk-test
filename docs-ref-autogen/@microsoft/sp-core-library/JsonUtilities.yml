@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.JsonUtilities'
+    name: JsonUtilities
+    fullName: JsonUtilities
+    children:
+      - '@microsoft/sp-core-library.JsonUtilities.encode'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      Utililty code to help manipulate JSON objects/strings.
+      See <xref:http%3A%2F%2Fwww.json.org> for more information.
+    source:
+      path: JsonUtilities.ts
+      startLine: 9
+      remote:
+        path: spfx-core/sp-core-library/src\JsonUtilities.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.JsonUtilities.encode'
+    name: encode
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Encode a json string such that it can be safely transported over a network
+      and be processed
+
+      in the server side code. And also safely transported back to the client
+      and consumed by
+
+      JSON.parse().
+    syntax:
+      content: 'static function encode(json: string)'
+      parameters:
+        - id: json
+          type:
+            - string
+          description: |
+            the json string to encode.
+      return:
+        type:
+          - string | undefined

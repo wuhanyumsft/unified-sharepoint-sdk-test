@@ -1,0 +1,128 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.DialogManagerConfiguration'
+    name: DialogManagerConfiguration
+    fullName: DialogManagerConfiguration
+    children:
+      - '@microsoft/sp-application-base.DialogManagerConfiguration.allowDialogs'
+      - '@microsoft/sp-application-base.DialogManagerConfiguration.dispose'
+      - '@microsoft/sp-application-base.DialogManagerConfiguration.domElement'
+      - '@microsoft/sp-application-base.DialogManagerConfiguration.initialize'
+      - '@microsoft/sp-application-base.DialogManagerConfiguration.instance'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      A singleton class that allows the application to configure the behavior of
+      dialog manager. If @microsoft/sp-dialog
+
+      package is loaded on the page and a dialog manager is instantiated on the
+      page, it will look for this singleton
+
+      as its configuration.
+    source:
+      path: extensibility/DialogManagerConfiguration.ts
+      startLine: 10
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/DialogManagerConfiguration.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.DialogManagerConfiguration.allowDialogs'
+    name: allowDialogs
+    fullName: allowDialogs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      If the application allows showing dialogs. Application can change this
+      configuration in runtime. For example,
+
+      the application can decide to set this to false to block all dialogs based
+      on its current state. If this property
+
+      is false, the dialog manager will deny all requests to show dialogs.
+
+      Sets the allowDialogs.
+
+      Throws an error in the parameter value is undefined.
+
+      Throws an error if allowDialogs is undefined.
+    syntax:
+      content: boolean allowDialogs
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-application-base.DialogManagerConfiguration.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Disposes the current configuration. Use this when the application is being
+      disposed. This will make sure that
+
+      this config is not re-used in case another application is loaded on the
+      same page.
+
+      IMPORTANT NOTE: SPFx assumption is that there is only one active
+      application on the page at a given time.
+    syntax:
+      content: function dispose()
+      parameters: []
+  - uid: '@microsoft/sp-application-base.DialogManagerConfiguration.domElement'
+    name: domElement
+    fullName: domElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The container div that the dialog manager will use to render the dialogs
+      in.
+
+      Throws an error if domElement is undefined.
+    syntax:
+      content: HTMLDivElement domElement
+      return:
+        type:
+          - HTMLDivElement
+  - uid: '@microsoft/sp-application-base.DialogManagerConfiguration.initialize'
+    name: initialize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: initialize dialog manager configuration.
+    syntax:
+      content: 'function initialize(domElement: HTMLDivElement, allowDialogs: boolean)'
+      parameters:
+        - id: domElement
+          type:
+            - HTMLDivElement
+          description: The container element for dialogs
+        - id: allowDialogs
+          type:
+            - boolean
+          description: >
+            Whether the dialogs should be allowed. This defaults to true and can
+            be updated later using
+
+            allowDialogs property.
+  - uid: '@microsoft/sp-application-base.DialogManagerConfiguration.instance'
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static DialogManagerConfiguration instance
+      return:
+        type:
+          - '@@microsoft/sp-application-base.DialogManagerConfiguration'

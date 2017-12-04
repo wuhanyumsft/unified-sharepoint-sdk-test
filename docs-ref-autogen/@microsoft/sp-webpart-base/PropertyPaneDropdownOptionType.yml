@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneDropdownOptionType'
+    name: PropertyPaneDropdownOptionType
+    fullName: PropertyPaneDropdownOptionType
+    children:
+      - '@microsoft/sp-webpart-base.PropertyPaneDropdownOptionType.Normal'
+      - '@microsoft/sp-webpart-base.PropertyPaneDropdownOptionType.Divider'
+      - '@microsoft/sp-webpart-base.PropertyPaneDropdownOptionType.Header'
+    langs:
+      - typeScript
+    type: enum
+    summary: >-
+      Specifies the type of option in a dropdown menu rendered by
+      <xref:PropertyPaneDropdown>.
+    source:
+      path: >-
+        propertyPane/propertyPaneFields/propertyPaneDropdown/IPropertyPaneDropdown.ts
+      startLine: 73
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneFields/propertyPaneDropdown/IPropertyPaneDropdown.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneDropdownOptionType.Normal'
+    name: Normal
+    children: []
+    langs:
+      - typeScript
+    summary: Render normal menu item.
+    type: field
+    numericValue: 0
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneDropdownOptionType.Divider'
+    name: Divider
+    children: []
+    langs:
+      - typeScript
+    summary: Render a divider.
+    type: field
+    numericValue: 1
+  - uid: '@microsoft/sp-webpart-base.PropertyPaneDropdownOptionType.Header'
+    name: Header
+    children: []
+    langs:
+      - typeScript
+    summary: Render menu item as a header.
+    type: field
+    numericValue: 2

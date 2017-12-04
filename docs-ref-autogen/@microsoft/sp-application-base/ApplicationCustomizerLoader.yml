@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.ApplicationCustomizerLoader'
+    name: ApplicationCustomizerLoader
+    fullName: ApplicationCustomizerLoader
+    children:
+      - '@microsoft/sp-application-base.ApplicationCustomizerLoader.constructor'
+      - >-
+        @microsoft/sp-application-base.ApplicationCustomizerLoader.loadExtensions
+    langs:
+      - typeScript
+    type: class
+    summary: A helper class for loading ApplicationCustomizer extensions.
+    source:
+      path: extensibility/ApplicationCustomizerLoader.ts
+      startLine: 45
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/ApplicationCustomizerLoader.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.ApplicationCustomizerLoader.constructor'
+    name: ApplicationCustomizerLoader
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new ApplicationCustomizerLoader(serviceScope: ServiceScope, pageContext:
+        PageContext, spHttpClient: SPHttpClient, customActions?:
+        _IPreloadedCustomAction[])
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+        - id: pageContext
+          type:
+            - PageContext
+          description: ''
+        - id: spHttpClient
+          type:
+            - SPHttpClient
+          description: ''
+        - id: customActions
+          type:
+            - '_IPreloadedCustomAction[]'
+          description: ''
+          optional: true
+  - uid: '@microsoft/sp-application-base.ApplicationCustomizerLoader.loadExtensions'
+    name: loadExtensions
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      This method is called when the client-side application is initializing and
+      before it has
+
+      rendered. It loads the associated client-side extensions. It may perform
+      asynchronous
+
+      operations.
+    syntax:
+      content: function loadExtensions()
+      parameters: []
+      return:
+        type:
+          - Promise<void>

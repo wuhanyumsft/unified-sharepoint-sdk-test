@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.IFlexPane'
+    name: IFlexPane
+    fullName: IFlexPane
+    children:
+      - '@microsoft/sp-application-base.IFlexPane.OnFlexPaneVisibilityChanged'
+      - '@microsoft/sp-application-base.IFlexPane.OpenFlexPaneForProvider'
+    langs:
+      - typeScript
+    type: interface
+    summary: This is an interface for the O365Shell.FlexPane external 'module.'
+    source:
+      path: suiteNav/IO365Shell.ts
+      startLine: 58
+      remote:
+        path: spfx-core/sp-application-base/src\suiteNav/IO365Shell.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.IFlexPane.OnFlexPaneVisibilityChanged'
+    name: OnFlexPaneVisibilityChanged
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Subscribes to the visibility changed event.
+      Returns a subscription token that can be used to unsubscribe.
+    syntax:
+      content: >-
+        function OnFlexPaneVisibilityChanged(callback: (visible: boolean) =>
+        any)
+      parameters:
+        - id: callback
+          type:
+            - '(visible: boolean) => any'
+          description: ''
+      return:
+        type:
+          - number | void
+  - uid: '@microsoft/sp-application-base.IFlexPane.OpenFlexPaneForProvider'
+    name: OpenFlexPaneForProvider
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Opens the FlexPan using the specified provider.
+    syntax:
+      content: 'function OpenFlexPaneForProvider(provider: string)'
+      parameters:
+        - id: provider
+          type:
+            - string
+          description: ''

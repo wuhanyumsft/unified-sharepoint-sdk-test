@@ -1,0 +1,120 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.DigestCache'
+    name: DigestCache
+    fullName: DigestCache
+    children:
+      - '@microsoft/sp-http.DigestCache.addDigestToCache'
+      - '@microsoft/sp-http.DigestCache.clearAllDigests'
+      - '@microsoft/sp-http.DigestCache.clearDigest'
+      - '@microsoft/sp-http.DigestCache.constructor'
+      - '@microsoft/sp-http.DigestCache.fetchDigest'
+      - '@microsoft/sp-http.DigestCache.serviceKey'
+    langs:
+      - typeScript
+    type: class
+    summary: The default implementation of IDigestCache.
+    source:
+      path: spHttpClient/DigestCache.ts
+      startLine: 24
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/DigestCache.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.DigestCache.addDigestToCache'
+    name: addDigestToCache
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Implements IDigestCache
+    syntax:
+      content: >-
+        function addDigestToCache(webUrl: string, digestValue: string,
+        expirationTimestamp: number)
+      parameters:
+        - id: webUrl
+          type:
+            - string
+          description: ''
+        - id: digestValue
+          type:
+            - string
+          description: ''
+        - id: expirationTimestamp
+          type:
+            - number
+          description: ''
+  - uid: '@microsoft/sp-http.DigestCache.clearAllDigests'
+    name: clearAllDigests
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Implements IDigestCache
+    syntax:
+      content: function clearAllDigests()
+      parameters: []
+  - uid: '@microsoft/sp-http.DigestCache.clearDigest'
+    name: clearDigest
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Implements IDigestCache
+    syntax:
+      content: 'function clearDigest(webUrl: string)'
+      parameters:
+        - id: webUrl
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-http.DigestCache.constructor'
+    name: DigestCache
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DigestCache(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+  - uid: '@microsoft/sp-http.DigestCache.fetchDigest'
+    name: fetchDigest
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Implements IDigestCache
+    syntax:
+      content: 'function fetchDigest(webUrl: string)'
+      parameters:
+        - id: webUrl
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<string>
+  - uid: '@microsoft/sp-http.DigestCache.serviceKey'
+    name: serviceKey
+    fullName: serviceKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The service key for IDigestCache.
+    syntax:
+      content: static ServiceKey<IDigestCache> serviceKey
+      return:
+        type:
+          - ServiceKey<@@microsoft/sp-http.IDigestCache>

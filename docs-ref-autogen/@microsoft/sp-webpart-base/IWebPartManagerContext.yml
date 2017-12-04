@@ -1,0 +1,186 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IWebPartManagerContext'
+    name: IWebPartManagerContext
+    fullName: IWebPartManagerContext
+    children:
+      - '@microsoft/sp-webpart-base.IWebPartManagerContext.addedFromPersistedData'
+      - '@microsoft/sp-webpart-base.IWebPartManagerContext.displayMode'
+      - '@microsoft/sp-webpart-base.IWebPartManagerContext.domElement'
+      - '@microsoft/sp-webpart-base.IWebPartManagerContext.host'
+      - '@microsoft/sp-webpart-base.IWebPartManagerContext.instanceId'
+      - '@microsoft/sp-webpart-base.IWebPartManagerContext.manifest'
+      - >-
+        @microsoft/sp-webpart-base.IWebPartManagerContext.onViewportWebPartsRendered
+      - '@microsoft/sp-webpart-base.IWebPartManagerContext.scrollableParent'
+      - '@microsoft/sp-webpart-base.IWebPartManagerContext.totalWebparts'
+      - '@microsoft/sp-webpart-base.IWebPartManagerContext.webPartData'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Context object that needs to be passed to the web part manager to load a
+      web part.
+    source:
+      path: core/IWebPartManagerContext.ts
+      startLine: 20
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/IWebPartManagerContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IWebPartManagerContext.addedFromPersistedData'
+    name: addedFromPersistedData
+    fullName: addedFromPersistedData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Flag indicating whether the web part is rendered from the persisted data
+      or not. If the web part is added
+
+      from toolbox, the value of this flag will be false.
+    optional: true
+    syntax:
+      content: boolean addedFromPersistedData
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-webpart-base.IWebPartManagerContext.displayMode'
+    name: displayMode
+    fullName: displayMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The display mode as one of DisplayMode.Read or DisplayMode.Edit
+    syntax:
+      content: DisplayMode displayMode
+      return:
+        type:
+          - DisplayMode
+  - uid: '@microsoft/sp-webpart-base.IWebPartManagerContext.domElement'
+    name: domElement
+    fullName: domElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Reference to the DOM element that contains the web part.
+    syntax:
+      content: HTMLElement domElement
+      return:
+        type:
+          - HTMLElement
+  - uid: '@microsoft/sp-webpart-base.IWebPartManagerContext.host'
+    name: host
+    fullName: host
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Host containing the web part. This host can be any container that
+      implements the IWebPartHost interface. Some
+
+      examples of hosts are the Canvas, a single page application that contains
+      a web part, and classic SharePoint
+
+      pages.
+    optional: true
+    syntax:
+      content: IWebPartHost host
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.IWebPartHost'
+  - uid: '@microsoft/sp-webpart-base.IWebPartManagerContext.instanceId'
+    name: instanceId
+    fullName: instanceId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Web part instance id
+    syntax:
+      content: string instanceId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.IWebPartManagerContext.manifest'
+    name: manifest
+    fullName: manifest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Web part manifest
+    syntax:
+      content: IClientSideWebPartManifest<any> manifest
+      return:
+        type:
+          - IClientSideWebPartManifest<any>
+  - uid: >-
+      @microsoft/sp-webpart-base.IWebPartManagerContext.onViewportWebPartsRendered
+    name: onViewportWebPartsRendered
+    fullName: onViewportWebPartsRendered
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Callback API when all web parts in the viewport are rendered
+      Usage: When web part not in viewport, loading is delayed.
+    optional: true
+    syntax:
+      content: '(endTime: number) => void onViewportWebPartsRendered'
+      return:
+        type:
+          - '(endTime: number) => void'
+  - uid: '@microsoft/sp-webpart-base.IWebPartManagerContext.scrollableParent'
+    name: scrollableParent
+    fullName: scrollableParent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional reference to the scrollable element that is common parent of all
+      the web parts.
+    optional: true
+    syntax:
+      content: HTMLElement scrollableParent
+      return:
+        type:
+          - HTMLElement
+  - uid: '@microsoft/sp-webpart-base.IWebPartManagerContext.totalWebparts'
+    name: totalWebparts
+    fullName: totalWebparts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Total number of web parts in store that will be asked to Web Part manager
+      instance for loading
+    optional: true
+    syntax:
+      content: number totalWebparts
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-webpart-base.IWebPartManagerContext.webPartData'
+    name: webPartData
+    fullName: webPartData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Web psart instance data. This data should be used to render a web part.
+    optional: true
+    syntax:
+      content: IWebPartData webPartData
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.IWebPartData'

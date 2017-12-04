@@ -1,0 +1,174 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-page-context.ISPSiteData'
+    name: ISPSiteData
+    fullName: ISPSiteData
+    children:
+      - '@microsoft/sp-page-context.ISPSiteData.absoluteUrl'
+      - '@microsoft/sp-page-context.ISPSiteData.cdnPrefix'
+      - '@microsoft/sp-page-context.ISPSiteData.classification'
+      - '@microsoft/sp-page-context.ISPSiteData.correlationId'
+      - '@microsoft/sp-page-context.ISPSiteData.group'
+      - '@microsoft/sp-page-context.ISPSiteData.id'
+      - '@microsoft/sp-page-context.ISPSiteData.isNoScriptEnabled'
+      - '@microsoft/sp-page-context.ISPSiteData.recycleBinItemCount'
+      - '@microsoft/sp-page-context.ISPSiteData.serverRelativeUrl'
+      - '@microsoft/sp-page-context.ISPSiteData.serverRequestPath'
+      - '@microsoft/sp-page-context.ISPSiteData.sitePagesEnabled'
+    langs:
+      - typeScript
+    type: interface
+    summary: Object that represents the data necessary to build an SPSite object.
+    source:
+      path: SPSite.ts
+      startLine: 9
+      remote:
+        path: spfx-core/sp-page-context/src\SPSite.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.ISPSiteData.absoluteUrl'
+    name: absoluteUrl
+    fullName: absoluteUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string absoluteUrl
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.ISPSiteData.cdnPrefix'
+    name: cdnPrefix
+    fullName: cdnPrefix
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string cdnPrefix
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.ISPSiteData.classification'
+    name: classification
+    fullName: classification
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string classification
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.ISPSiteData.correlationId'
+    name: correlationId
+    fullName: correlationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string correlationId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.ISPSiteData.group'
+    name: group
+    fullName: group
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: IO365GroupAssociationData group
+      return:
+        type:
+          - '@@microsoft/sp-page-context.IO365GroupAssociationData'
+  - uid: '@microsoft/sp-page-context.ISPSiteData.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.ISPSiteData.isNoScriptEnabled'
+    name: isNoScriptEnabled
+    fullName: isNoScriptEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isNoScriptEnabled
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-page-context.ISPSiteData.recycleBinItemCount'
+    name: recycleBinItemCount
+    fullName: recycleBinItemCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number recycleBinItemCount
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-page-context.ISPSiteData.serverRelativeUrl'
+    name: serverRelativeUrl
+    fullName: serverRelativeUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string serverRelativeUrl
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.ISPSiteData.serverRequestPath'
+    name: serverRequestPath
+    fullName: serverRequestPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string serverRequestPath
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-page-context.ISPSiteData.sitePagesEnabled'
+    name: sitePagesEnabled
+    fullName: sitePagesEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean sitePagesEnabled
+      return:
+        type:
+          - boolean

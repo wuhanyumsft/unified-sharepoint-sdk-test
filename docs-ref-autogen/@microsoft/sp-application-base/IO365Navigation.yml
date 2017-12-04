@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.IO365Navigation'
+    name: IO365Navigation
+    fullName: IO365Navigation
+    children:
+      - '@microsoft/sp-application-base.IO365Navigation.OnHamburgerButtonClick'
+      - '@microsoft/sp-application-base.IO365Navigation.OnLinkClick'
+    langs:
+      - typeScript
+    type: interface
+    summary: This is an interface for the O365Shell.Navigation external 'module.'
+    source:
+      path: suiteNav/IO365Shell.ts
+      startLine: 39
+      remote:
+        path: spfx-core/sp-application-base/src\suiteNav/IO365Shell.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.IO365Navigation.OnHamburgerButtonClick'
+    name: OnHamburgerButtonClick
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Subscribes to the hamburger button click events.
+    syntax:
+      content: 'function OnHamburgerButtonClick(callback: (eventArgs: any) => any)'
+      parameters:
+        - id: callback
+          type:
+            - '(eventArgs: any) => any'
+          description: ''
+  - uid: '@microsoft/sp-application-base.IO365Navigation.OnLinkClick'
+    name: OnLinkClick
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Subscribes to link click events.
+    syntax:
+      content: 'function OnLinkClick(callback: (eventArgs: any) => any)'
+      parameters:
+        - id: callback
+          type:
+            - '(eventArgs: any) => any'
+          description: ''

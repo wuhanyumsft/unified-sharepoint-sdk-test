@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IDeferredComponentState'
+    name: IDeferredComponentState
+    fullName: IDeferredComponentState<ComponentProps>
+    children:
+      - '@microsoft/sp-webpart-base.IDeferredComponentState.component'
+    langs:
+      - typeScript
+    type: interface
+    summary: Deferred component state
+    source:
+      path: components/deferredComponent/DeferredComponent.tsx
+      startLine: 36
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\components/deferredComponent/DeferredComponent.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IDeferredComponentState.component'
+    name: component
+    fullName: component
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The deferred React ComponentClass.
+    syntax:
+      content: ComponentClass<ComponentProps> component
+      return:
+        type:
+          - ComponentClass<ComponentProps>

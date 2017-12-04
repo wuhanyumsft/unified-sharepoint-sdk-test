@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-extension-base.BaseExtension'
+    name: BaseExtension
+    fullName: BaseExtension<TProperties>
+    children:
+      - '@microsoft/sp-extension-base.BaseExtension.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: The base class for all client-side extensions.
+    extends:
+      name: '@@microsoft/sp-extension-base.BaseExtension'
+    source:
+      path: BaseExtension.ts
+      startLine: 17
+      remote:
+        path: spfx-core/sp-extension-base/src\BaseExtension.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-extension-base'
+  - uid: '@microsoft/sp-extension-base.BaseExtension.constructor'
+    name: BaseExtension
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new BaseExtension()
+      parameters: []

@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.TokenUtilityLogger'
+    name: TokenUtilityLogger
+    fullName: TokenUtilityLogger
+    children:
+      - '@microsoft/sp-http.TokenUtilityLogger.logError'
+      - '@microsoft/sp-http.TokenUtilityLogger.logInfo'
+      - '@microsoft/sp-http.TokenUtilityLogger.logWarning'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    source:
+      path: oauthTokenProvider/OAuthUtilityContext.ts
+      startLine: 12
+      remote:
+        path: spfx-core/sp-http/src\oauthTokenProvider/OAuthUtilityContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.TokenUtilityLogger.logError'
+    name: logError
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function logError(message: string)'
+      parameters:
+        - id: message
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-http.TokenUtilityLogger.logInfo'
+    name: logInfo
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function logInfo(message: string)'
+      parameters:
+        - id: message
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-http.TokenUtilityLogger.logWarning'
+    name: logWarning
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function logWarning(message: string)'
+      parameters:
+        - id: message
+          type:
+            - string
+          description: ''

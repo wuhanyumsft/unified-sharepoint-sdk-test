@@ -1,0 +1,104 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.ISPHttpClientConfiguration'
+    name: ISPHttpClientConfiguration
+    fullName: ISPHttpClientConfiguration
+    children:
+      - '@microsoft/sp-http.ISPHttpClientConfiguration.defaultODataVersion'
+      - >-
+        @microsoft/sp-http.ISPHttpClientConfiguration.defaultSameOriginCredentials
+      - '@microsoft/sp-http.ISPHttpClientConfiguration.requestDigest'
+    langs:
+      - typeScript
+    type: interface
+    summary: Flags interface for SPHttpClientConfiguration.
+    extends:
+      name: '@@microsoft/sp-http.ISPHttpClientCommonConfiguration'
+    source:
+      path: spHttpClient/SPHttpClientConfiguration.ts
+      startLine: 12
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/SPHttpClientConfiguration.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.ISPHttpClientConfiguration.defaultODataVersion'
+    name: defaultODataVersion
+    fullName: defaultODataVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Automatically configure the "OData-Version" header.
+    optional: true
+    syntax:
+      content: ODataVersion defaultODataVersion
+      return:
+        type:
+          - '@@microsoft/sp-http.ODataVersion'
+    remarks: |-
+      When this switch is specified (i.e. not undefined):
+      If the "OData-Version" header was not explicitly added for the request,
+      then SPHttpClient will add the header to specify the version indicated
+      by defaultODataVersion.
+
+      NOTE: Without an 'OData-Version' header, the SharePoint server currently
+      defaults to Version 3.0 in most cases.  The recommended version is 4.0.
+  - uid: '@microsoft/sp-http.ISPHttpClientConfiguration.defaultSameOriginCredentials'
+    name: defaultSameOriginCredentials
+    fullName: defaultSameOriginCredentials
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Automatically configure the RequestInit.credentials.
+    optional: true
+    syntax:
+      content: boolean defaultSameOriginCredentials
+      return:
+        type:
+          - boolean
+    remarks: >-
+      When this switch is true:
+
+
+      If RequestInit.credentials is not explicitly specified for the request,
+
+      then SPHttpClient will assign it to be "same-origin".  Without this
+      switch,
+
+      different web browsers may apply different defaults.
+
+
+      For more information, see the spec:
+
+      https://fetch.spec.whatwg.org/#cors-protocol-and-credentials
+  - uid: '@microsoft/sp-http.ISPHttpClientConfiguration.requestDigest'
+    name: requestDigest
+    fullName: requestDigest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Automatically provide an "X-RequestDigest" header for authentication.
+    optional: true
+    syntax:
+      content: boolean requestDigest
+      return:
+        type:
+          - boolean
+    remarks: >-
+      When this switch is true:
+
+
+      If the "X-RequestDigest" header was not explicitly added for the request,
+
+      then SPHttpClient will add it if the request is a write operation (i.e.
+
+      an HTTP method other than "GET", "HEAD", or "OPTIONS").  The request
+      digest
+
+      is managed by the DigestCache service.  In the case of a cache miss, an
+
+      additional network request may be performed.

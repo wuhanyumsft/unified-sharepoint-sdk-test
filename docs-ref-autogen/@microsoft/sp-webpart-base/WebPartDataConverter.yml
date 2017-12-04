@@ -1,0 +1,202 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.WebPartDataConverter'
+    name: WebPartDataConverter
+    fullName: WebPartDataConverter
+    children:
+      - '@microsoft/sp-webpart-base.WebPartDataConverter.convertHtmlToWebPartData'
+      - >-
+        @microsoft/sp-webpart-base.WebPartDataConverter.convertServerProcessedDataToHtml
+      - >-
+        @microsoft/sp-webpart-base.WebPartDataConverter.convertServerProcessedHtmlToData
+      - '@microsoft/sp-webpart-base.WebPartDataConverter.convertWebPartDataToHtml'
+      - '@microsoft/sp-webpart-base.WebPartDataConverter.isWebPartHtml'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      On the client, we need to support both HTML and and JSON format of the web
+      part data. This is a utility
+
+      class to perform conversion between the two formats.
+    source:
+      path: core/WebPartDataConverter.ts
+      startLine: 23
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/WebPartDataConverter.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.WebPartDataConverter.convertHtmlToWebPartData'
+    name: convertHtmlToWebPartData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Converts persisted html element for a web part to its corresponding
+      IWebPartData instance.
+
+      Returns undefined in case of bad input.
+
+      See WebPartDataConverter tests for examples
+    syntax:
+      content: >-
+        static function convertHtmlToWebPartData(htmlString: string, links?:
+        string[])
+      parameters:
+        - id: htmlString
+          type:
+            - string
+          description: html formatted web part data.
+        - id: links
+          type:
+            - 'string[]'
+          description: >
+            (optional) Array of the fixed up links. If provided, the values in
+            this array
+              take over the values in the HTML markup.
+          optional: true
+      return:
+        type:
+          - IWebPartData | undefined
+  - uid: >-
+      @microsoft/sp-webpart-base.WebPartDataConverter.convertServerProcessedDataToHtml
+    name: convertServerProcessedDataToHtml
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Convert server process data to an equivalent HTML stirng format that the
+      SharePoint server
+
+      can process for search indexing, link fixup and SafeHTML processing.
+      HtmlStrings are search
+
+      indexed. Links and ImageSources are setup for link fixup. All of these are
+      search indexed and
+
+      passed through SafeHtml processing to sanitize the content.
+
+      This method is expected to provide reverse processing as compared to
+      convertHtmltoServerProcessedData.
+
+
+      Input:
+
+
+      {
+        htmlStrings: { 'prop1': 'value_of_prop1' },
+        links: { 'prop2': 'http://www.contoso.com/page1.aspx' },
+        imageSources: { 'prop3': 'http://www.contoso.com/imag.png' }
+      }
+
+
+      Output:
+
+
+      "<div data-sp-prop-name='prop1'>value_of_prop1</div>
+       <link data-sp-prop-name='prop2' href='http://www.contoso.com/page1.aspx'>
+       <img data-sp-prop-name='prop3' src='http://www.contoso.com/image.png'>"
+    syntax:
+      content: >-
+        static function convertServerProcessedDataToHtml(serverContent:
+        ISerializedServerProcessedData | undefined)
+      parameters:
+        - id: serverContent
+          type:
+            - ISerializedServerProcessedData | undefined
+          description: ''
+      return:
+        type:
+          - string
+  - uid: >-
+      @microsoft/sp-webpart-base.WebPartDataConverter.convertServerProcessedHtmlToData
+    name: convertServerProcessedHtmlToData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Convert an HTML string to its equivalent ISerializedServerProcessedData
+      structure format.
+
+      This method is expected to provide reverse processing as compared to
+      convertServerProcessedDataToHtml.
+
+      Input:
+
+
+      "<div data-sp-prop-name='prop1'>value_of_prop1</div>
+       <link data-sp-prop-name='prop2' href='http://www.contoso.com/page1.aspx'>
+       <img data-sp-prop-name='prop3' src='http://www.contoso.com/image.png'>"
+
+      Output:
+
+
+      {
+        htmlStrings: { 'prop1': 'value_of_prop1' },
+        links: { 'prop2': 'http://www.contoso.com/page1.aspx' },
+        imageSources: { 'prop3': 'http://www.contoso.com/imag.png' }
+      }
+
+
+      Array of the fixed up links. If provided, the values in this array take
+      over the values in the HTML markup.
+    syntax:
+      content: >-
+        static function convertServerProcessedHtmlToData(htmlString: string,
+        links?: string[])
+      parameters:
+        - id: htmlString
+          type:
+            - string
+          description: ''
+        - id: links
+          type:
+            - 'string[]'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/sp-webpart-base.ISerializedServerProcessedData'
+  - uid: '@microsoft/sp-webpart-base.WebPartDataConverter.convertWebPartDataToHtml'
+    name: convertWebPartDataToHtml
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Converts an instance of IWebPartData to is corresponding persisted HTML
+      element.
+
+      See WebPartDataConverter tests for examples.
+    syntax:
+      content: 'static function convertWebPartDataToHtml(webpartData: IWebPartData)'
+      parameters:
+        - id: webpartData
+          type:
+            - '@@microsoft/sp-webpart-base.IWebPartData'
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.WebPartDataConverter.isWebPartHtml'
+    name: isWebPartHtml
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Is this string a html web part data ?
+    syntax:
+      content: 'static function isWebPartHtml(htmlString: string)'
+      parameters:
+        - id: htmlString
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean

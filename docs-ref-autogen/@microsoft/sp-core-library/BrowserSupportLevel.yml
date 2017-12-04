@@ -1,0 +1,80 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.BrowserSupportLevel'
+    name: BrowserSupportLevel
+    fullName: BrowserSupportLevel
+    children:
+      - '@microsoft/sp-core-library.BrowserSupportLevel.None'
+      - '@microsoft/sp-core-library.BrowserSupportLevel.FullFunctionality'
+      - '@microsoft/sp-core-library.BrowserSupportLevel.Readable'
+      - '@microsoft/sp-core-library.BrowserSupportLevel.Blocked'
+    langs:
+      - typeScript
+    type: enum
+    summary: Browser support level for a component.
+    source:
+      path: IBrowserCompatibility.ts
+      startLine: 32
+      remote:
+        path: spfx-core/sp-core-library/src\IBrowserCompatibility.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-core-library'
+    remarks: >-
+      Allow to establish different levels, including blocked, where the
+      component won't load, to
+
+      full functionality, where it should work and a failure is considered a
+      high severity problem.
+  - uid: '@microsoft/sp-core-library.BrowserSupportLevel.None'
+    name: None
+    children: []
+    langs:
+      - typeScript
+    summary: 'None: Support level is not available. No assumptions can be made.'
+    type: field
+    numericValue: 0
+    remarks: >-
+      This value is meant to be used when there is no code to check the browser
+      support.
+
+      If any check is performed, this value should not be returned.
+  - uid: '@microsoft/sp-core-library.BrowserSupportLevel.FullFunctionality'
+    name: FullFunctionality
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Full functionality: Known browser, component should work properly in all
+      scenarios.
+    type: field
+    numericValue: 1
+  - uid: '@microsoft/sp-core-library.BrowserSupportLevel.Readable'
+    name: Readable
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Readable: Component should be usable, potentially with limited
+      functionality.
+    type: field
+    numericValue: 2
+  - uid: '@microsoft/sp-core-library.BrowserSupportLevel.Blocked'
+    name: Blocked
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Blocked: The component does not work with this browser.
+
+      The SharePoint Framework will prevent the page from rendering, instead
+      displaying the supplied warning message.
+
+      This a very poor experience for the end user. Only use this level for
+      situations where it is absolutely certain
+
+      that the page will fail to render, and it is not feasible to implement a
+      workaround.
+    type: field
+    numericValue: 3

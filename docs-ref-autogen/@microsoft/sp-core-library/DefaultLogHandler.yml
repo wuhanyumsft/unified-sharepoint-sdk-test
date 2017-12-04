@@ -1,0 +1,119 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.DefaultLogHandler'
+    name: DefaultLogHandler
+    fullName: DefaultLogHandler
+    children:
+      - '@microsoft/sp-core-library.DefaultLogHandler.error'
+      - '@microsoft/sp-core-library.DefaultLogHandler.info'
+      - '@microsoft/sp-core-library.DefaultLogHandler.verbose'
+      - '@microsoft/sp-core-library.DefaultLogHandler.warn'
+    langs:
+      - typeScript
+    type: class
+    summary: The redirectable implementation for the Log class.
+    source:
+      path: log/DefaultLogHandler.ts
+      startLine: 17
+      remote:
+        path: spfx-core/sp-core-library/src\log/DefaultLogHandler.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.DefaultLogHandler.error'
+    name: error
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function error(source: string, error: Error, scope: ServiceScope |
+        undefined)
+      parameters:
+        - id: source
+          type:
+            - string
+          description: ''
+        - id: error
+          type:
+            - Error
+          description: ''
+        - id: scope
+          type:
+            - ServiceScope | undefined
+          description: ''
+  - uid: '@microsoft/sp-core-library.DefaultLogHandler.info'
+    name: info
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function info(source: string, message: string, scope: ServiceScope |
+        undefined)
+      parameters:
+        - id: source
+          type:
+            - string
+          description: ''
+        - id: message
+          type:
+            - string
+          description: ''
+        - id: scope
+          type:
+            - ServiceScope | undefined
+          description: ''
+  - uid: '@microsoft/sp-core-library.DefaultLogHandler.verbose'
+    name: verbose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function verbose(source: string, message: string, scope: ServiceScope |
+        undefined)
+      parameters:
+        - id: source
+          type:
+            - string
+          description: ''
+        - id: message
+          type:
+            - string
+          description: ''
+        - id: scope
+          type:
+            - ServiceScope | undefined
+          description: ''
+  - uid: '@microsoft/sp-core-library.DefaultLogHandler.warn'
+    name: warn
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function warn(source: string, message: string, scope: ServiceScope |
+        undefined)
+      parameters:
+        - id: source
+          type:
+            - string
+          description: ''
+        - id: message
+          type:
+            - string
+          description: ''
+        - id: scope
+          type:
+            - ServiceScope | undefined
+          description: ''

@@ -1,0 +1,36 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-listview-extensibility.IListViewCommandSetContextParameters'
+    name: IListViewCommandSetContextParameters
+    fullName: IListViewCommandSetContextParameters
+    children:
+      - >-
+        @microsoft/sp-listview-extensibility.IListViewCommandSetContextParameters.listView
+    langs:
+      - typeScript
+    type: interface
+    summary: Constructor parameters for ListViewCommandSetContext.
+    source:
+      path: commandSet/ListViewCommandSetContext.ts
+      startLine: 17
+      remote:
+        path: >-
+          spfx-libraries/sp-listview-extensibility/src\commandSet/ListViewCommandSetContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-listview-extensibility'
+  - uid: >-
+      @microsoft/sp-listview-extensibility.IListViewCommandSetContextParameters.listView
+    name: listView
+    fullName: listView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ListViewAccessor listView
+      return:
+        type:
+          - '@@microsoft/sp-listview-extensibility.ListViewAccessor'

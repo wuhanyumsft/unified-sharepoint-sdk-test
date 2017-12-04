@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.ErrorMessage'
+    name: ErrorMessage
+    fullName: ErrorMessage
+    children:
+      - '@microsoft/sp-webpart-base.ErrorMessage.constructor'
+      - '@microsoft/sp-webpart-base.ErrorMessage.render'
+    langs:
+      - typeScript
+    type: class
+    summary: The error component used for rendering webpart errors.
+    extends:
+      name: >-
+        @@microsoft/sp-webpart-base.ErrorMessage<@@microsoft/sp-webpart-base.IErrorMessageProps>
+    source:
+      path: core/ErrorMessage.tsx
+      startLine: 22
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/ErrorMessage.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.ErrorMessage.constructor'
+    name: ErrorMessage
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ErrorMessage(props: IErrorMessageProps)'
+      parameters:
+        - id: props
+          type:
+            - '@@microsoft/sp-webpart-base.IErrorMessageProps'
+          description: ''
+  - uid: '@microsoft/sp-webpart-base.ErrorMessage.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<@@microsoft/sp-webpart-base.IErrorMessageProps>

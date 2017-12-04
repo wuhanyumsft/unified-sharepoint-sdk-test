@@ -1,0 +1,147 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-odata-types.IODataUser'
+    name: IODataUser
+    fullName: IODataUser
+    children:
+      - '@microsoft/sp-odata-types.IODataUser.Email'
+      - '@microsoft/sp-odata-types.IODataUser.Id'
+      - '@microsoft/sp-odata-types.IODataUser.IsSiteAdmin'
+      - '@microsoft/sp-odata-types.IODataUser.LoginName'
+      - '@microsoft/sp-odata-types.IODataUser.PrincipalType'
+      - '@microsoft/sp-odata-types.IODataUser.Title'
+      - '@microsoft/sp-odata-types.IODataUser.UserId'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Represents an OData SP.User object.  For more information about this
+      object
+
+      see the MSDN documentation here:
+
+      https://msdn.microsoft.com/en-us/library/office/jj860569.aspx
+    source:
+      path: IODataUser.ts
+      startLine: 27
+      remote:
+        path: spfx-core/sp-odata-types/src\IODataUser.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-odata-types'
+  - uid: '@microsoft/sp-odata-types.IODataUser.Email'
+    name: Email
+    fullName: Email
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Example: "someone@example.com"'
+    syntax:
+      content: string Email
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataUser.Id'
+    name: Id
+    fullName: Id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number Id
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.IODataUser.IsSiteAdmin'
+    name: IsSiteAdmin
+    fullName: IsSiteAdmin
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Boolean value that specifies whether the user is a site collection
+      administrator.
+    syntax:
+      content: boolean IsSiteAdmin
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-odata-types.IODataUser.LoginName'
+    name: LoginName
+    fullName: LoginName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Example: "i:0#.w|domain\user"'
+    syntax:
+      content: string LoginName
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataUser.PrincipalType'
+    name: PrincipalType
+    fullName: PrincipalType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This enumeration has a FlagsAttribute attribute that allows a bitwise
+      combination of
+
+      its member values.
+    syntax:
+      content: number PrincipalType
+      return:
+        type:
+          - number
+    remarks: |-
+      Values:
+
+      None: 0
+
+      User: 1
+
+      DistributionList: 2
+
+      SecurityGroup: 4
+
+      SharePointGroup: 8
+
+      All: 15
+  - uid: '@microsoft/sp-odata-types.IODataUser.Title'
+    name: Title
+    fullName: Title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Example: "DOMAIN\user"'
+    syntax:
+      content: string Title
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataUser.UserId'
+    name: UserId
+    fullName: UserId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gets the information of the user that contains the user's name identifier
+      and the
+
+      issuer of the user's name identifier.
+    syntax:
+      content: IODataUserId UserId
+      return:
+        type:
+          - '@@microsoft/sp-odata-types.IODataUserId'

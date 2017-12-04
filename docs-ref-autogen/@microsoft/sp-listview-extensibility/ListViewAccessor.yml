@@ -1,0 +1,86 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-listview-extensibility.ListViewAccessor'
+    name: ListViewAccessor
+    fullName: ListViewAccessor
+    children:
+      - '@microsoft/sp-listview-extensibility.ListViewAccessor.columns'
+      - '@microsoft/sp-listview-extensibility.ListViewAccessor.constructor'
+      - >-
+        @microsoft/sp-listview-extensibility.ListViewAccessor.selectedRowsChangedEvent
+      - '@microsoft/sp-listview-extensibility.ListViewAccessor.tryGetColumnByName'
+    langs:
+      - typeScript
+    type: class
+    summary: Provides access to a SharePoint ListView control.
+    source:
+      path: common/ListViewAccessor.ts
+      startLine: 78
+      remote:
+        path: >-
+          spfx-libraries/sp-listview-extensibility/src\common/ListViewAccessor.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-listview-extensibility'
+  - uid: '@microsoft/sp-listview-extensibility.ListViewAccessor.columns'
+    name: columns
+    fullName: columns
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'The columns in associated with this view, including hidden columns.'
+    syntax:
+      content: ReadonlyArray<ColumnAccessor> columns
+      return:
+        type:
+          - ReadonlyArray<@@microsoft/sp-listview-extensibility.ColumnAccessor>
+  - uid: '@microsoft/sp-listview-extensibility.ListViewAccessor.constructor'
+    name: ListViewAccessor
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new ListViewAccessor()
+      parameters: []
+  - uid: >-
+      @microsoft/sp-listview-extensibility.ListViewAccessor.selectedRowsChangedEvent
+    name: selectedRowsChangedEvent
+    fullName: selectedRowsChangedEvent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Event that gets raised every time the selected items in the list view
+      change.
+    syntax:
+      content: Event<SelectedRowsChangedEventArgs> selectedRowsChangedEvent
+      return:
+        type:
+          - >-
+            Event<@@microsoft/sp-listview-extensibility.SelectedRowsChangedEventArgs>
+  - uid: '@microsoft/sp-listview-extensibility.ListViewAccessor.tryGetColumnByName'
+    name: tryGetColumnByName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns the list view column corresponding to the field with the specified
+      internal name,
+
+      or undefined if none is found.
+    syntax:
+      content: 'function tryGetColumnByName(internalName: string)'
+      parameters:
+        - id: internalName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - ColumnAccessor | undefined

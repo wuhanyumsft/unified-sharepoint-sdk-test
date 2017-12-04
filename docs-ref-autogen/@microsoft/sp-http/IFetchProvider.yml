@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.IFetchProvider'
+    name: IFetchProvider
+    fullName: IFetchProvider
+    children:
+      - '@microsoft/sp-http.IFetchProvider.fetch'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      This is a ServiceScope interface that represents the basic contract of
+      the ES6 Fetch API, without any additional SharePoint logic.
+    source:
+      path: httpClient/FetchProvider.ts
+      startLine: 14
+      remote:
+        path: spfx-core/sp-http/src\httpClient/FetchProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-http'
+    remarks: |-
+      See the
+      [| Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+      documentation for details.
+  - uid: '@microsoft/sp-http.IFetchProvider.fetch'
+    name: fetch
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      The parameters and semantics for this function are the same as the
+      ES6 GlobalFetch.fetch() standard.
+    syntax:
+      content: 'function fetch(request: Request)'
+      parameters:
+        - id: request
+          type:
+            - Request
+          description: ''
+      return:
+        type:
+          - Promise<Response>
+    remarks: |-
+      See the
+      [| Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+      documentation for details.

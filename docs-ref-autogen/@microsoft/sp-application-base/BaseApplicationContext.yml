@@ -1,0 +1,106 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.BaseApplicationContext'
+    name: BaseApplicationContext
+    fullName: BaseApplicationContext
+    children:
+      - '@microsoft/sp-application-base.BaseApplicationContext.constructor'
+      - '@microsoft/sp-application-base.BaseApplicationContext.graphHttpClient'
+      - '@microsoft/sp-application-base.BaseApplicationContext.httpClient'
+      - '@microsoft/sp-application-base.BaseApplicationContext.preloadedData'
+      - '@microsoft/sp-application-base.BaseApplicationContext.spHttpClient'
+      - '@microsoft/sp-application-base.BaseApplicationContext.suiteNavManager'
+    langs:
+      - typeScript
+    type: class
+    summary: Context object for a client-side applications.
+    extends:
+      name: '@@microsoft/sp-application-base.BaseApplicationContext'
+    source:
+      path: BaseApplicationContext.ts
+      startLine: 22
+      remote:
+        path: spfx-core/sp-application-base/src\BaseApplicationContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.BaseApplicationContext.constructor'
+    name: BaseApplicationContext
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BaseApplicationContext(parameters: IApplicationContextParameters)'
+      parameters:
+        - id: parameters
+          type:
+            - '@@microsoft/sp-application-base.IApplicationContextParameters'
+          description: ''
+  - uid: '@microsoft/sp-application-base.BaseApplicationContext.graphHttpClient'
+    name: graphHttpClient
+    fullName: graphHttpClient
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The instance of GraphHttpClient created for this application
+    syntax:
+      content: GraphHttpClient graphHttpClient
+      return:
+        type:
+          - GraphHttpClient
+  - uid: '@microsoft/sp-application-base.BaseApplicationContext.httpClient'
+    name: httpClient
+    fullName: httpClient
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The instance of HttpClient created for this application
+    syntax:
+      content: HttpClient httpClient
+      return:
+        type:
+          - HttpClient
+  - uid: '@microsoft/sp-application-base.BaseApplicationContext.preloadedData'
+    name: preloadedData
+    fullName: preloadedData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The preloaded data used by SPFx
+    syntax:
+      content: _IPreloadedData preloadedData
+      return:
+        type:
+          - _IPreloadedData
+  - uid: '@microsoft/sp-application-base.BaseApplicationContext.spHttpClient'
+    name: spHttpClient
+    fullName: spHttpClient
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The instance of SpHttpClient created for this application
+    syntax:
+      content: SPHttpClient spHttpClient
+      return:
+        type:
+          - SPHttpClient
+  - uid: '@microsoft/sp-application-base.BaseApplicationContext.suiteNavManager'
+    name: suiteNavManager
+    fullName: suiteNavManager
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The SuiteNav manager
+    syntax:
+      content: ISuiteNavManager suiteNavManager
+      return:
+        type:
+          - '@@microsoft/sp-application-base.ISuiteNavManager'

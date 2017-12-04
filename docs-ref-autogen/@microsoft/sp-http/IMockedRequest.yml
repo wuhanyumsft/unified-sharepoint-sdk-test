@@ -1,0 +1,172 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.IMockedRequest'
+    name: IMockedRequest
+    fullName: IMockedRequest
+    children:
+      - '@microsoft/sp-http.IMockedRequest.expectedRequestHeaders'
+      - '@microsoft/sp-http.IMockedRequest.expectedRequestObject'
+      - '@microsoft/sp-http.IMockedRequest.expectedUrl'
+      - '@microsoft/sp-http.IMockedRequest.requestAssertions'
+      - '@microsoft/sp-http.IMockedRequest.responseContentLengthHeader'
+      - '@microsoft/sp-http.IMockedRequest.responseHeaders'
+      - '@microsoft/sp-http.IMockedRequest.responseObject'
+      - '@microsoft/sp-http.IMockedRequest.responseOptions'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Used with MockFetchProvider.fetch(), this represents a request that we
+      happen
+
+      to occur.  It specifies the expected details of the request (e.g. the URL,
+
+      any assertions about headers, etc), along with the mocked response that
+      should
+
+      be issued.
+    source:
+      path: test-api/MockFetchProvider.ts
+      startLine: 22
+      remote:
+        path: spfx-core/sp-http/src\test-api/MockFetchProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.IMockedRequest.expectedRequestHeaders'
+    name: expectedRequestHeaders
+    fullName: expectedRequestHeaders
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A list of headers to be validated.  For each item in the list,
+      MockFetchProvider
+
+      will assert that it appears in Request.headers with the expected value. 
+      In order
+
+      to enforce that a header is NOT present, specify its value as "undefined".
+    optional: true
+    syntax:
+      content: 'MockedHeader[] expectedRequestHeaders'
+      return:
+        type:
+          - '@@microsoft/sp-http.MockedHeader[]'
+  - uid: '@microsoft/sp-http.IMockedRequest.expectedRequestObject'
+    name: expectedRequestObject
+    fullName: expectedRequestObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The expected request body to be validated.  If undefined, no validate is
+      performed.
+
+      If the value is a string, then a string comparison is performed.
+    optional: true
+    syntax:
+      content: string expectedRequestObject
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-http.IMockedRequest.expectedUrl'
+    name: expectedUrl
+    fullName: expectedUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The expected URL of the REST service request to be performed.
+    syntax:
+      content: string expectedUrl
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-http.IMockedRequest.requestAssertions'
+    name: requestAssertions
+    fullName: requestAssertions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional additional assertions about the expected request, e.g. to
+      validate headers,
+
+      credentials, caching options, etc.
+    optional: true
+    syntax:
+      content: '(request: Request) => void requestAssertions'
+      return:
+        type:
+          - '(request: Request) => void'
+  - uid: '@microsoft/sp-http.IMockedRequest.responseContentLengthHeader'
+    name: responseContentLengthHeader
+    fullName: responseContentLengthHeader
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Whether to append a "Content-Length" header to the response, calculated
+      from
+
+      the responseObject.
+    optional: true
+    syntax:
+      content: boolean responseContentLengthHeader
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-http.IMockedRequest.responseHeaders'
+    name: responseHeaders
+    fullName: responseHeaders
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The headers to include with the mocked response.
+    optional: true
+    syntax:
+      content: 'MockedHeader[] responseHeaders'
+      return:
+        type:
+          - '@@microsoft/sp-http.MockedHeader[]'
+  - uid: '@microsoft/sp-http.IMockedRequest.responseObject'
+    name: responseObject
+    fullName: responseObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The response data that MockFetchProvider should return for this request.
+
+      If the object is a string, then it will be injected directly as the
+      response.
+
+      Otherwise, it is assumed to be a JSON object that will be passed to
+      JSON.stringify().
+    syntax:
+      content: any responseObject
+      return:
+        type:
+          - any
+  - uid: '@microsoft/sp-http.IMockedRequest.responseOptions'
+    name: responseOptions
+    fullName: responseOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional additional headers/details for the response
+    optional: true
+    syntax:
+      content: ResponseInit responseOptions
+      return:
+        type:
+          - ResponseInit

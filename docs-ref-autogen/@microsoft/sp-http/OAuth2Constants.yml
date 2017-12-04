@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.OAuth2Constants'
+    name: OAuth2Constants
+    fullName: OAuth2Constants
+    children:
+      - '@microsoft/sp-http.OAuth2Constants.SPO_WEB_APP_PRINCIPAL_ID'
+    langs:
+      - typeScript
+    type: class
+    summary: Internal constants used for the ADALTokenProvider
+    source:
+      path: oauthTokenProvider/OAuth2Constants.ts
+      startLine: 5
+      remote:
+        path: spfx-core/sp-http/src\oauthTokenProvider/OAuth2Constants.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.OAuth2Constants.SPO_WEB_APP_PRINCIPAL_ID'
+    name: SPO_WEB_APP_PRINCIPAL_ID
+    fullName: SPO_WEB_APP_PRINCIPAL_ID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string SPO_WEB_APP_PRINCIPAL_ID
+      return:
+        type:
+          - string

@@ -1,0 +1,93 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-dialog.Dialog'
+    name: Dialog
+    fullName: Dialog
+    children:
+      - '@microsoft/sp-dialog.Dialog.alert'
+      - '@microsoft/sp-dialog.Dialog.prompt'
+    langs:
+      - typeScript
+    type: class
+    summary: A static class for showing stock dialogs such as an alert or prompt.
+    source:
+      path: Dialog.ts
+      startLine: 54
+      remote:
+        path: spfx-libraries/sp-dialog/src\Dialog.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-dialog'
+    isPreview: true
+  - uid: '@microsoft/sp-dialog.Dialog.alert'
+    name: alert
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Alerts a message to the user with a user-friendly interface. Calling this
+      method sends a request to application
+
+      to show the alert dialog.
+    syntax:
+      content: 'static function alert(message: string, options?: IAlertOptions)'
+      parameters:
+        - id: message
+          type:
+            - string
+          description: |
+            The message to alert
+        - id: options
+          type:
+            - '@@microsoft/sp-dialog.IAlertOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+    remarks: >-
+      There might be a delay until the dialog is approved and shown by the
+      application, for
+
+      example, if there is another dialog currently being shown. The returned
+      promise resolves when the dialog is
+
+      successfully shown and closed. The promise rejects if the application
+      rejects the request for any reason.
+  - uid: '@microsoft/sp-dialog.Dialog.prompt'
+    name: prompt
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Prompts the user for a string value with a user-friendly interface.
+      Calling this method sends a request to
+
+      application to show the dialog.
+    syntax:
+      content: 'static function prompt(message: string, options?: IPromptOptions)'
+      parameters:
+        - id: message
+          type:
+            - string
+          description: The message for prompt dialog
+        - id: options
+          type:
+            - '@@microsoft/sp-dialog.IPromptOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<string | undefined>
+    remarks: >-
+      There might be a delay until the dialog is approved and shown by the
+      application,
+
+      for example, if there is another dialog currently being shown. The
+      returned promise resolves when the dialog is
+
+      successfully shown and closed. The promise rejects if the application
+      rejects the request for any reason.

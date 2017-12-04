@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.MockWebPartContext'
+    name: MockWebPartContext
+    fullName: MockWebPartContext
+    children:
+      - '@microsoft/sp-webpart-base.MockWebPartContext.initialize'
+      - '@microsoft/sp-webpart-base.MockWebPartContext.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@microsoft/sp-webpart-base.WebPartContext'
+    source:
+      path: test/mock/clientSideWebParts/MockWebPartContext.ts
+      startLine: 52
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\test/mock/clientSideWebParts/MockWebPartContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.MockWebPartContext.initialize'
+    name: initialize
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Simulates initialization of the web part, equivalent to what the
+      ClientSideWebPartManager
+
+      would do.
+    syntax:
+      content: 'function initialize<T>(webPart: T)'
+      parameters:
+        - id: webPart
+          type:
+            - T
+          description: ''
+      return:
+        type:
+          - T
+  - uid: '@microsoft/sp-webpart-base.MockWebPartContext.constructor'
+    name: MockWebPartContext
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new MockWebPartContext(parameters: MockWebPartContextParameters)'
+      parameters:
+        - id: parameters
+          type:
+            - '@@microsoft/sp-webpart-base.MockWebPartContextParameters'
+          description: ''

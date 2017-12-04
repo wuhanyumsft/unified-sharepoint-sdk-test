@@ -1,0 +1,19 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.IScrollEventHandler'
+    name: IScrollEventHandler
+    fullName: IScrollEventHandler
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: core/events/ScrollEventHandler.ts
+      startLine: 9
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/events/ScrollEventHandler.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'

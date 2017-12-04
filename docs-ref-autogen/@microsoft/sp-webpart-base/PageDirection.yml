@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.PageDirection'
+    name: PageDirection
+    fullName: PageDirection
+    children:
+      - '@microsoft/sp-webpart-base.PageDirection.back'
+      - '@microsoft/sp-webpart-base.PageDirection.next'
+    langs:
+      - typeScript
+    type: enum
+    summary: Page direction.
+    source:
+      path: propertyPane/propertyPane/PropertyPane.tsx
+      startLine: 63
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPane/PropertyPane.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.PageDirection.back'
+    name: back
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: -1
+  - uid: '@microsoft/sp-webpart-base.PageDirection.next'
+    name: next
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1

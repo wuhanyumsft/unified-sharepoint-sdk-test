@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.MockPreloadedPageData'
+    name: MockPreloadedPageData
+    fullName: MockPreloadedPageData
+    children:
+      - '@microsoft/sp-webpart-base.MockPreloadedPageData.appId'
+      - '@microsoft/sp-webpart-base.MockPreloadedPageData.webAbsoluteUrl'
+      - '@microsoft/sp-webpart-base.MockPreloadedPageData.webServerRelativeUrl'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    source:
+      path: core/test/WebPartMocks.ts
+      startLine: 51
+      remote:
+        path: spfx-core/sp-webpart-base/src\core/test/WebPartMocks.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.MockPreloadedPageData.appId'
+    name: appId
+    fullName: appId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string appId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.MockPreloadedPageData.webAbsoluteUrl'
+    name: webAbsoluteUrl
+    fullName: webAbsoluteUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webAbsoluteUrl
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.MockPreloadedPageData.webServerRelativeUrl'
+    name: webServerRelativeUrl
+    fullName: webServerRelativeUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webServerRelativeUrl
+      return:
+        type:
+          - string

@@ -1,0 +1,99 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-extension-base.ApplicationCustomizerPages'
+    name: ApplicationCustomizerPages
+    fullName: ApplicationCustomizerPages
+    children:
+      - '@microsoft/sp-extension-base.ApplicationCustomizerPages.constructor'
+      - >-
+        @microsoft/sp-extension-base.ApplicationCustomizerPages.TestIncludeScripts
+      - '@microsoft/sp-extension-base.ApplicationCustomizerPages.TestName'
+      - '@microsoft/sp-extension-base.ApplicationCustomizerPages.TestOwner'
+      - '@microsoft/sp-extension-base.ApplicationCustomizerPages.TestRun'
+      - '@microsoft/sp-extension-base.ApplicationCustomizerPages.TestSetup'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    source:
+      path: tab/ApplicationCustomizerPages.ts
+      startLine: 3
+      remote:
+        path: spfx-core/sp-extension-base/src\tab/ApplicationCustomizerPages.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-extension-base'
+  - uid: '@microsoft/sp-extension-base.ApplicationCustomizerPages.constructor'
+    name: ApplicationCustomizerPages
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ApplicationCustomizerPages(serverURL: string)'
+      parameters:
+        - id: serverURL
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-extension-base.ApplicationCustomizerPages.TestIncludeScripts'
+    name: TestIncludeScripts
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: These scripts are required for the tests to run.
+    syntax:
+      content: function TestIncludeScripts()
+      parameters: []
+      return:
+        type:
+          - 'string[]'
+  - uid: '@microsoft/sp-extension-base.ApplicationCustomizerPages.TestName'
+    name: TestName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestName()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-extension-base.ApplicationCustomizerPages.TestOwner'
+    name: TestOwner
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestOwner()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-extension-base.ApplicationCustomizerPages.TestRun'
+    name: TestRun
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestRun()
+      parameters: []
+  - uid: '@microsoft/sp-extension-base.ApplicationCustomizerPages.TestSetup'
+    name: TestSetup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function TestSetup()
+      parameters: []

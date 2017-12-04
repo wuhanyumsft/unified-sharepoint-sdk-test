@@ -1,0 +1,86 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.ODataVersion'
+    name: ODataVersion
+    fullName: ODataVersion
+    children:
+      - '@microsoft/sp-http.ODataVersion.toString'
+      - '@microsoft/sp-http.ODataVersion.tryParseFromHeaders'
+      - '@microsoft/sp-http.ODataVersion.v3'
+      - '@microsoft/sp-http.ODataVersion.v4'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      Represents supported version of the "OData-Version" header, which is part
+      of the Open Data Protocol standard.
+    source:
+      path: spHttpClient/ODataVersion.ts
+      startLine: 7
+      remote:
+        path: spfx-core/sp-http/src\spHttpClient/ODataVersion.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.ODataVersion.toString'
+    name: toString
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Returns the "OData-Version" value, for example "4.0".'
+    syntax:
+      content: function toString()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-http.ODataVersion.tryParseFromHeaders'
+    name: tryParseFromHeaders
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Attempt to parse the "OData-Version" header.
+    syntax:
+      content: 'static function tryParseFromHeaders(headers: Headers)'
+      parameters:
+        - id: headers
+          type:
+            - Headers
+          description: ''
+      return:
+        type:
+          - ODataVersion | undefined
+    remarks: |-
+      If the "OData-Version" header is present, this returns the
+      corresponding ODataVersion constant.  An error is thrown if
+      the version number is not supported.  If the header is missing,
+      then undefined is returned.
+  - uid: '@microsoft/sp-http.ODataVersion.v3'
+    name: v3
+    fullName: v3
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Represents version 3.0 for the "OData-Version" header
+    syntax:
+      content: static ODataVersion v3
+      return:
+        type:
+          - '@@microsoft/sp-http.ODataVersion'
+  - uid: '@microsoft/sp-http.ODataVersion.v4'
+    name: v4
+    fullName: v4
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Represents version 4.0 for the "OData-Version" header
+    syntax:
+      content: static ODataVersion v4
+      return:
+        type:
+          - '@@microsoft/sp-http.ODataVersion'

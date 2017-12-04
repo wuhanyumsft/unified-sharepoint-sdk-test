@@ -1,0 +1,175 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base'
+    name: '@microsoft/sp-application-base'
+    summary: ''
+    children:
+      - '@microsoft/sp-application-base.ApplicationManager'
+      - '@microsoft/sp-application-base.BaseApplication'
+      - '@microsoft/sp-application-base.BaseApplicationContext'
+      - '@microsoft/sp-application-base.IApplicationContextParameters'
+      - '@microsoft/sp-application-base.SPGlobalErrorHandler'
+      - '@microsoft/sp-application-base.ApplicationAccessor'
+      - '@microsoft/sp-application-base.ApplicationCustomizerContext'
+      - '@microsoft/sp-application-base.IApplicationCustomizerContextParameters'
+      - '@microsoft/sp-application-base.ApplicationCustomizerLoader'
+      - '@microsoft/sp-application-base.ICustomActionsQueryValue'
+      - '@microsoft/sp-application-base.IGenericExtensionProperties'
+      - '@microsoft/sp-application-base.BaseApplicationCustomizer'
+      - '@microsoft/sp-application-base.DialogManagerConfiguration'
+      - '@microsoft/sp-application-base.ClientSideCustomAction'
+      - '@microsoft/sp-application-base.ClientSideCustomActionContext'
+      - '@microsoft/sp-application-base.CustomActionLocations'
+      - '@microsoft/sp-application-base.Placeholder'
+      - '@microsoft/sp-application-base.IPlaceholderDefinition'
+      - '@microsoft/sp-application-base.IPlaceholderEntry'
+      - '@microsoft/sp-application-base.PlaceholderContent'
+      - '@microsoft/sp-application-base.IPlaceholderContentParameters'
+      - '@microsoft/sp-application-base.PlaceholderManager'
+      - '@microsoft/sp-application-base.PlaceholderName'
+      - '@microsoft/sp-application-base.PlaceholderProvider'
+      - '@microsoft/sp-application-base.IPlaceholderCreateContentOptions'
+      - '@microsoft/sp-application-base.Navigator'
+      - '@microsoft/sp-application-base.IComponentVisible'
+      - '@microsoft/sp-application-base.ISPPage'
+      - '@microsoft/sp-application-base.SPPageChrome'
+      - '@microsoft/sp-application-base.SPThemeProvider'
+      - '@microsoft/sp-application-base.IColorPalette'
+      - '@microsoft/sp-application-base.SPWebTemplateIds'
+      - '@microsoft/sp-application-base.FlexPaneWrapper'
+      - '@microsoft/sp-application-base.IFlexPane'
+      - '@microsoft/sp-application-base.IO365Navigation'
+      - '@microsoft/sp-application-base.IO365Shell'
+      - '@microsoft/sp-application-base.IO365ShellRenderSettings'
+      - '@microsoft/sp-application-base.ISuiteNavManagerConfiguration'
+      - '@microsoft/sp-application-base.ISuiteNavOverrideStrings'
+      - '@microsoft/sp-application-base.NavigationWrapper'
+      - '@microsoft/sp-application-base.O365ShellWrapper'
+      - '@microsoft/sp-application-base.SuiteNavManager'
+      - '@microsoft/sp-application-base.ISuiteNavManager'
+      - '@microsoft/sp-application-base.SuiteNavManagerConfiguration'
+      - '@microsoft/sp-application-base.ISuiteNavConfigurationData'
+      - '@microsoft/sp-application-base.SuiteNavSource'
+      - '@microsoft/sp-application-base.ISuiteNavDataSource'
+      - '@microsoft/sp-application-base.OnPremSuiteNavDataSource'
+      - '@microsoft/sp-application-base.IResponseJSONStringObject'
+      - '@microsoft/sp-application-base.SPOSuiteNavDataSource'
+      - '@microsoft/sp-application-base.ISuiteNavData'
+      - '@microsoft/sp-application-base.ISuiteNavLink'
+      - '@microsoft/sp-application-base.ISuiteNavModel'
+      - '@microsoft/sp-application-base.SuiteNavLinkIds'
+      - '@microsoft/sp-application-base.Global'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@microsoft/sp-application-base.ApplicationManager'
+    name: ApplicationManager
+  - uid: '@microsoft/sp-application-base.BaseApplication'
+    name: BaseApplication
+  - uid: '@microsoft/sp-application-base.BaseApplicationContext'
+    name: BaseApplicationContext
+  - uid: '@microsoft/sp-application-base.IApplicationContextParameters'
+    name: IApplicationContextParameters
+  - uid: '@microsoft/sp-application-base.SPGlobalErrorHandler'
+    name: SPGlobalErrorHandler
+  - uid: '@microsoft/sp-application-base.ApplicationAccessor'
+    name: ApplicationAccessor
+  - uid: '@microsoft/sp-application-base.ApplicationCustomizerContext'
+    name: ApplicationCustomizerContext
+  - uid: '@microsoft/sp-application-base.IApplicationCustomizerContextParameters'
+    name: IApplicationCustomizerContextParameters
+  - uid: '@microsoft/sp-application-base.ApplicationCustomizerLoader'
+    name: ApplicationCustomizerLoader
+  - uid: '@microsoft/sp-application-base.ICustomActionsQueryValue'
+    name: ICustomActionsQueryValue
+  - uid: '@microsoft/sp-application-base.IGenericExtensionProperties'
+    name: IGenericExtensionProperties
+  - uid: '@microsoft/sp-application-base.BaseApplicationCustomizer'
+    name: BaseApplicationCustomizer
+  - uid: '@microsoft/sp-application-base.DialogManagerConfiguration'
+    name: DialogManagerConfiguration
+  - uid: '@microsoft/sp-application-base.ClientSideCustomAction'
+    name: ClientSideCustomAction
+  - uid: '@microsoft/sp-application-base.ClientSideCustomActionContext'
+    name: ClientSideCustomActionContext
+  - uid: '@microsoft/sp-application-base.CustomActionLocations'
+    name: CustomActionLocations
+  - uid: '@microsoft/sp-application-base.Placeholder'
+    name: Placeholder
+  - uid: '@microsoft/sp-application-base.IPlaceholderDefinition'
+    name: IPlaceholderDefinition
+  - uid: '@microsoft/sp-application-base.IPlaceholderEntry'
+    name: IPlaceholderEntry
+  - uid: '@microsoft/sp-application-base.PlaceholderContent'
+    name: PlaceholderContent
+  - uid: '@microsoft/sp-application-base.IPlaceholderContentParameters'
+    name: IPlaceholderContentParameters
+  - uid: '@microsoft/sp-application-base.PlaceholderManager'
+    name: PlaceholderManager
+  - uid: '@microsoft/sp-application-base.PlaceholderName'
+    name: PlaceholderName
+  - uid: '@microsoft/sp-application-base.PlaceholderProvider'
+    name: PlaceholderProvider
+  - uid: '@microsoft/sp-application-base.IPlaceholderCreateContentOptions'
+    name: IPlaceholderCreateContentOptions
+  - uid: '@microsoft/sp-application-base.Navigator'
+    name: Navigator
+  - uid: '@microsoft/sp-application-base.IComponentVisible'
+    name: IComponentVisible
+  - uid: '@microsoft/sp-application-base.ISPPage'
+    name: ISPPage
+  - uid: '@microsoft/sp-application-base.SPPageChrome'
+    name: SPPageChrome
+  - uid: '@microsoft/sp-application-base.SPThemeProvider'
+    name: SPThemeProvider
+  - uid: '@microsoft/sp-application-base.IColorPalette'
+    name: IColorPalette
+  - uid: '@microsoft/sp-application-base.SPWebTemplateIds'
+    name: SPWebTemplateIds
+  - uid: '@microsoft/sp-application-base.FlexPaneWrapper'
+    name: FlexPaneWrapper
+  - uid: '@microsoft/sp-application-base.IFlexPane'
+    name: IFlexPane
+  - uid: '@microsoft/sp-application-base.IO365Navigation'
+    name: IO365Navigation
+  - uid: '@microsoft/sp-application-base.IO365Shell'
+    name: IO365Shell
+  - uid: '@microsoft/sp-application-base.IO365ShellRenderSettings'
+    name: IO365ShellRenderSettings
+  - uid: '@microsoft/sp-application-base.ISuiteNavManagerConfiguration'
+    name: ISuiteNavManagerConfiguration
+  - uid: '@microsoft/sp-application-base.ISuiteNavOverrideStrings'
+    name: ISuiteNavOverrideStrings
+  - uid: '@microsoft/sp-application-base.NavigationWrapper'
+    name: NavigationWrapper
+  - uid: '@microsoft/sp-application-base.O365ShellWrapper'
+    name: O365ShellWrapper
+  - uid: '@microsoft/sp-application-base.SuiteNavManager'
+    name: SuiteNavManager
+  - uid: '@microsoft/sp-application-base.ISuiteNavManager'
+    name: ISuiteNavManager
+  - uid: '@microsoft/sp-application-base.SuiteNavManagerConfiguration'
+    name: SuiteNavManagerConfiguration
+  - uid: '@microsoft/sp-application-base.ISuiteNavConfigurationData'
+    name: ISuiteNavConfigurationData
+  - uid: '@microsoft/sp-application-base.SuiteNavSource'
+    name: SuiteNavSource
+  - uid: '@microsoft/sp-application-base.ISuiteNavDataSource'
+    name: ISuiteNavDataSource
+  - uid: '@microsoft/sp-application-base.OnPremSuiteNavDataSource'
+    name: OnPremSuiteNavDataSource
+  - uid: '@microsoft/sp-application-base.IResponseJSONStringObject'
+    name: IResponseJSONStringObject
+  - uid: '@microsoft/sp-application-base.SPOSuiteNavDataSource'
+    name: SPOSuiteNavDataSource
+  - uid: '@microsoft/sp-application-base.ISuiteNavData'
+    name: ISuiteNavData
+  - uid: '@microsoft/sp-application-base.ISuiteNavLink'
+    name: ISuiteNavLink
+  - uid: '@microsoft/sp-application-base.ISuiteNavModel'
+    name: ISuiteNavModel
+  - uid: '@microsoft/sp-application-base.SuiteNavLinkIds'
+    name: SuiteNavLinkIds
+  - uid: '@microsoft/sp-application-base.Global'
+    name: Global

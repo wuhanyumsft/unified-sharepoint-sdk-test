@@ -1,0 +1,75 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.ApplicationCustomizerContext'
+    name: ApplicationCustomizerContext
+    fullName: ApplicationCustomizerContext
+    children:
+      - '@microsoft/sp-application-base.ApplicationCustomizerContext.application'
+      - '@microsoft/sp-application-base.ApplicationCustomizerContext.constructor'
+      - >-
+        @microsoft/sp-application-base.ApplicationCustomizerContext.placeholderProvider
+    langs:
+      - typeScript
+    type: class
+    summary: 'The component context for <xref:BaseApplicationCustomizer>.'
+    extends:
+      name: '@@microsoft/sp-application-base.ApplicationCustomizerContext'
+    source:
+      path: extensibility/ApplicationCustomizerContext.ts
+      startLine: 22
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/ApplicationCustomizerContext.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.ApplicationCustomizerContext.application'
+    name: application
+    fullName: application
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Provides access to the client-side application that is currently running.
+    syntax:
+      content: ApplicationAccessor application
+      return:
+        type:
+          - '@@microsoft/sp-application-base.ApplicationAccessor'
+  - uid: '@microsoft/sp-application-base.ApplicationCustomizerContext.constructor'
+    name: ApplicationCustomizerContext
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new ApplicationCustomizerContext(extensionContextParameters:
+        _IExtensionContextParameters, applicationCustomizerContextParameters:
+        IApplicationCustomizerContextParameters)
+      parameters:
+        - id: extensionContextParameters
+          type:
+            - _IExtensionContextParameters
+          description: ''
+        - id: applicationCustomizerContextParameters
+          type:
+            - >-
+              @@microsoft/sp-application-base.IApplicationCustomizerContextParameters
+          description: ''
+  - uid: >-
+      @microsoft/sp-application-base.ApplicationCustomizerContext.placeholderProvider
+    name: placeholderProvider
+    fullName: placeholderProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Exposes a collection of content placeholders for use by third parties.
+    syntax:
+      content: PlaceholderProvider placeholderProvider
+      return:
+        type:
+          - '@@microsoft/sp-application-base.PlaceholderProvider'

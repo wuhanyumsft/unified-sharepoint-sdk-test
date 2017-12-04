@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-odata-types.IODataUserId'
+    name: IODataUserId
+    fullName: IODataUserId
+    children:
+      - '@microsoft/sp-odata-types.IODataUserId.NameId'
+      - '@microsoft/sp-odata-types.IODataUserId.NameIdIssuer'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Represents an OData SP.UserId object.  For more information about this
+      object
+
+      see the MSDN documentation here:
+
+      https://msdn.microsoft.com/en-us/library/office/jj860569.aspx
+    source:
+      path: IODataUser.ts
+      startLine: 8
+      remote:
+        path: spfx-core/sp-odata-types/src\IODataUser.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-odata-types'
+  - uid: '@microsoft/sp-odata-types.IODataUserId.NameId'
+    name: NameId
+    fullName: NameId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Example: "s-1-5-21-2127521184-1604012920-1887927527-2632426"'
+    syntax:
+      content: string NameId
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataUserId.NameIdIssuer'
+    name: NameIdIssuer
+    fullName: NameIdIssuer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Example: "urn:office:idp:activedirectory"'
+    syntax:
+      content: string NameIdIssuer
+      return:
+        type:
+          - string

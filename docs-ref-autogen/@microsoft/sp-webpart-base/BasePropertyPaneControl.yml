@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.BasePropertyPaneControl'
+    name: BasePropertyPaneControl
+    fullName: BasePropertyPaneControl
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Base implementation of IPropertyPaneControl. Derived classes will be able
+      to use the
+
+      ClientSideWebPartManager.setPropertyPaneControl API to enable
+      configuration with the
+
+      application's Property Pane.
+    source:
+      path: propertyPane/propertyPaneControl/BasePropertyPaneControl.ts
+      startLine: 20
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\propertyPane/propertyPaneControl/BasePropertyPaneControl.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'

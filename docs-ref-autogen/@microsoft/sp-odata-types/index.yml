@@ -1,0 +1,46 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-odata-types'
+    name: '@microsoft/sp-odata-types'
+    summary: ''
+    children:
+      - '@microsoft/sp-odata-types.IODataBasePermission'
+      - '@microsoft/sp-odata-types.IODataList'
+      - '@microsoft/sp-odata-types.IODataListItem'
+      - '@microsoft/sp-odata-types.IODataNavigationNode'
+      - '@microsoft/sp-odata-types.IODataNavigationNodeCollection'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo'
+      - '@microsoft/sp-odata-types.IODataUser'
+      - '@microsoft/sp-odata-types.IODataUserId'
+      - '@microsoft/sp-odata-types.IODataUserCustomAction'
+      - '@microsoft/sp-odata-types.IODataWeb'
+      - '@microsoft/sp-odata-types.IODataChangeToken'
+      - '@microsoft/sp-odata-types.IODataContextWebInformation'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@microsoft/sp-odata-types.IODataBasePermission'
+    name: IODataBasePermission
+  - uid: '@microsoft/sp-odata-types.IODataList'
+    name: IODataList
+  - uid: '@microsoft/sp-odata-types.IODataListItem'
+    name: IODataListItem
+  - uid: '@microsoft/sp-odata-types.IODataNavigationNode'
+    name: IODataNavigationNode
+  - uid: '@microsoft/sp-odata-types.IODataNavigationNodeCollection'
+    name: IODataNavigationNodeCollection
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo'
+    name: IODataPageContextInfo
+  - uid: '@microsoft/sp-odata-types.IODataUser'
+    name: IODataUser
+  - uid: '@microsoft/sp-odata-types.IODataUserId'
+    name: IODataUserId
+  - uid: '@microsoft/sp-odata-types.IODataUserCustomAction'
+    name: IODataUserCustomAction
+  - uid: '@microsoft/sp-odata-types.IODataWeb'
+    name: IODataWeb
+  - uid: '@microsoft/sp-odata-types.IODataChangeToken'
+    name: IODataChangeToken
+  - uid: '@microsoft/sp-odata-types.IODataContextWebInformation'
+    name: IODataContextWebInformation

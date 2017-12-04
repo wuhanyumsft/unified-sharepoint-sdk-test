@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-dialog.AlertDialog'
+    name: AlertDialog
+    fullName: AlertDialog
+    children:
+      - '@microsoft/sp-dialog.AlertDialog.constructor'
+      - '@microsoft/sp-dialog.AlertDialog.config'
+      - '@microsoft/sp-dialog.AlertDialog.render'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      Internal implementation of a dialog to mimic browser's alert() behavior.
+      Third-party can use this by calling the static method Dialog.alert()
+    extends:
+      name: '@@microsoft/sp-dialog.BaseDialog'
+    source:
+      path: AlertDialog.tsx
+      startLine: 40
+      remote:
+        path: spfx-libraries/sp-dialog/src\AlertDialog.tsx
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-dialog'
+  - uid: '@microsoft/sp-dialog.AlertDialog.constructor'
+    name: AlertDialog
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new AlertDialog(message: string)'
+      parameters:
+        - id: message
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-dialog.AlertDialog.config'
+    name: config
+    fullName: config
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IDialogConfiguration config
+      return:
+        type:
+          - '@@microsoft/sp-dialog.IDialogConfiguration'
+  - uid: '@microsoft/sp-dialog.AlertDialog.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []

@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.IPlaceholderDefinition'
+    name: IPlaceholderDefinition
+    fullName: IPlaceholderDefinition
+    children:
+      - '@microsoft/sp-application-base.IPlaceholderDefinition.domElement'
+      - '@microsoft/sp-application-base.IPlaceholderDefinition.name'
+    langs:
+      - typeScript
+    type: interface
+    summary: Constuctor parameters for Placeholder.
+    source:
+      path: extensibility/placeholder/Placeholder.ts
+      startLine: 12
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/placeholder/Placeholder.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.IPlaceholderDefinition.domElement'
+    name: domElement
+    fullName: domElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The application's DOM element. The placeholder will be attached as
+      a child of a child of this element.
+    syntax:
+      content: HTMLDivElement domElement
+      return:
+        type:
+          - HTMLDivElement
+  - uid: '@microsoft/sp-application-base.IPlaceholderDefinition.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The placeholder name.
+    syntax:
+      content: PlaceholderName name
+      return:
+        type:
+          - '@@microsoft/sp-application-base.PlaceholderName'

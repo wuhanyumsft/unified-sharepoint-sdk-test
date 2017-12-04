@@ -1,0 +1,93 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.Session'
+    name: Session
+    fullName: Session
+    children:
+      - '@microsoft/sp-core-library.Session.applicationId'
+      - '@microsoft/sp-core-library.Session.pageId'
+    langs:
+      - typeScript
+    type: class
+    summary: Provides access to the application's browser session and active page.
+    source:
+      path: Session.ts
+      startLine: 21
+      remote:
+        path: spfx-core/sp-core-library/src\Session.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.Session.applicationId'
+    name: applicationId
+    fullName: applicationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A unique identifier for the current instance of the client-side
+      application.
+    syntax:
+      content: static Guid applicationId
+      return:
+        type:
+          - '@@microsoft/sp-core-library.Guid'
+    remarks: >-
+      A unique identifier used to correlate logging and other diagnostic
+      information. Its lifetime
+
+      persists for the duration of the client-side application instance, i.e. it
+      begins with the
+
+      server request that renders the page, and ends e.g. when the browser tab
+      is closed or F5 is
+
+      pressed to reload the page.  Note that if the application's router
+      supports in-place navigation
+
+      (via the history.pushState() API), the application session persists across
+      these transitions.
+  - uid: '@microsoft/sp-core-library.Session.pageId'
+    name: pageId
+    fullName: pageId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A unique identifier for the current page within the client-side
+      application.
+    syntax:
+      content: static Guid pageId
+      return:
+        type:
+          - '@@microsoft/sp-core-library.Guid'
+    remarks: >-
+      A unique identifier used to correlate logging and other diagnostic
+      information.  Whereas the
+
+      <xref:Session.applicationId> tracks the entire lifetime of the client-side
+      application instance,
+
+      the pageId tracks an individual "page" that is rendered.
+
+
+      For example, suppose that the application initially loads PageA, then the
+      user does in-place
+
+      navigation (via the history.pushState() API) to PageB, then navigates back
+      to PageA, and finally
+
+      they close the browser tab. During this sequence, the applicationId will
+      remain the same, however
+
+      the pageId will change on each navigation.  The 3 different pageId values
+      are used by the diagnostics
+
+      e.g. to track success/failure statistics for PageA independently of PageB.
+
+
+      The concept of a page is subjective and defined by the router for a
+      particular application.

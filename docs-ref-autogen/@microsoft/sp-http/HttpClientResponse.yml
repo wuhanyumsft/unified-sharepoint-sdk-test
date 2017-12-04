@@ -1,0 +1,237 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.HttpClientResponse'
+    name: HttpClientResponse
+    fullName: HttpClientResponse
+    children:
+      - '@microsoft/sp-http.HttpClientResponse.arrayBuffer'
+      - '@microsoft/sp-http.HttpClientResponse.blob'
+      - '@microsoft/sp-http.HttpClientResponse.body'
+      - '@microsoft/sp-http.HttpClientResponse.bodyUsed'
+      - '@microsoft/sp-http.HttpClientResponse.clone'
+      - '@microsoft/sp-http.HttpClientResponse.formData'
+      - '@microsoft/sp-http.HttpClientResponse.headers'
+      - '@microsoft/sp-http.HttpClientResponse.constructor'
+      - '@microsoft/sp-http.HttpClientResponse.json'
+      - '@microsoft/sp-http.HttpClientResponse.ok'
+      - '@microsoft/sp-http.HttpClientResponse.status'
+      - '@microsoft/sp-http.HttpClientResponse.statusText'
+      - '@microsoft/sp-http.HttpClientResponse.text'
+      - '@microsoft/sp-http.HttpClientResponse.type'
+      - '@microsoft/sp-http.HttpClientResponse.url'
+    langs:
+      - typeScript
+    type: class
+    summary: The Response subclass returned by methods such as HttpClient.fetch().
+    source:
+      path: httpClient/HttpClientResponse.ts
+      startLine: 18
+      remote:
+        path: spfx-core/sp-http/src\httpClient/HttpClientResponse.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-http'
+    remarks: >-
+      This is a placeholder.  In the future, additional HttpClient-specific
+      functionality
+
+      may be added to this class.
+  - uid: '@microsoft/sp-http.HttpClientResponse.arrayBuffer'
+    name: arrayBuffer
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: '{@inheritdoc whatwg-fetch:Body.arrayBuffer}'
+    syntax:
+      content: function arrayBuffer()
+      parameters: []
+      return:
+        type:
+          - Promise<ArrayBuffer>
+  - uid: '@microsoft/sp-http.HttpClientResponse.blob'
+    name: blob
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: '{@inheritdoc whatwg-fetch:Body.blob}'
+    syntax:
+      content: function blob()
+      parameters: []
+      return:
+        type:
+          - Promise<Blob>
+  - uid: '@microsoft/sp-http.HttpClientResponse.body'
+    name: body
+    fullName: body
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This property is marked as alpha because it is not yet implemented by the
+      \@microsoft/sp-polyfills package.
+    syntax:
+      content: ReadableStream | null body
+      return:
+        type:
+          - ReadableStream | null
+  - uid: '@microsoft/sp-http.HttpClientResponse.bodyUsed'
+    name: bodyUsed
+    fullName: bodyUsed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc whatwg-fetch:Body.bodyUsed}'
+    syntax:
+      content: boolean bodyUsed
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-http.HttpClientResponse.clone'
+    name: clone
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clone()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/sp-http.HttpClientResponse'
+  - uid: '@microsoft/sp-http.HttpClientResponse.formData'
+    name: formData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: '{@inheritdoc whatwg-fetch:Body.formData}'
+    syntax:
+      content: function formData()
+      parameters: []
+      return:
+        type:
+          - Promise<FormData>
+  - uid: '@microsoft/sp-http.HttpClientResponse.headers'
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc whatwg-fetch:Response.headers}'
+    syntax:
+      content: Headers headers
+      return:
+        type:
+          - Headers
+  - uid: '@microsoft/sp-http.HttpClientResponse.constructor'
+    name: HttpClientResponse
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new HttpClientResponse(response: Response)'
+      parameters:
+        - id: response
+          type:
+            - Response
+          description: ''
+  - uid: '@microsoft/sp-http.HttpClientResponse.json'
+    name: json
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: '{@inheritdoc whatwg-fetch:Body.json}'
+    syntax:
+      content: function json()
+      parameters: []
+      return:
+        type:
+          - Promise<any>
+  - uid: '@microsoft/sp-http.HttpClientResponse.ok'
+    name: ok
+    fullName: ok
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc whatwg-fetch:Response.ok}'
+    syntax:
+      content: boolean ok
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-http.HttpClientResponse.status'
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc whatwg-fetch:Response.status}'
+    syntax:
+      content: number status
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-http.HttpClientResponse.statusText'
+    name: statusText
+    fullName: statusText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc whatwg-fetch:Response.statusText}'
+    syntax:
+      content: string statusText
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-http.HttpClientResponse.text'
+    name: text
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: '{@inheritdoc whatwg-fetch:Body.text}'
+    syntax:
+      content: function text()
+      parameters: []
+      return:
+        type:
+          - Promise<string>
+  - uid: '@microsoft/sp-http.HttpClientResponse.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc whatwg-fetch:Response.type}'
+    syntax:
+      content: ResponseType type
+      return:
+        type:
+          - ResponseType
+  - uid: '@microsoft/sp-http.HttpClientResponse.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '{@inheritdoc whatwg-fetch:Response.url}'
+    syntax:
+      content: string url
+      return:
+        type:
+          - string

@@ -1,0 +1,143 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.ISuiteNavConfigurationData'
+    name: ISuiteNavConfigurationData
+    fullName: ISuiteNavConfigurationData
+    children:
+      - >-
+        @microsoft/sp-application-base.ISuiteNavConfigurationData.currentUICultureName
+      - >-
+        @microsoft/sp-application-base.ISuiteNavConfigurationData.disableSuiteNav
+      - '@microsoft/sp-application-base.ISuiteNavConfigurationData.settingsData'
+      - '@microsoft/sp-application-base.ISuiteNavConfigurationData.signoutUrl'
+      - '@microsoft/sp-application-base.ISuiteNavConfigurationData.siteClientTag'
+      - '@microsoft/sp-application-base.ISuiteNavConfigurationData.systemUserKey'
+      - >-
+        @microsoft/sp-application-base.ISuiteNavConfigurationData.webServerRelativeUrl
+      - '@microsoft/sp-application-base.ISuiteNavConfigurationData.webTemplateId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: suiteNav/SuiteNavManagerConfiguration.ts
+      startLine: 17
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\suiteNav/SuiteNavManagerConfiguration.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: >-
+      @microsoft/sp-application-base.ISuiteNavConfigurationData.currentUICultureName
+    name: currentUICultureName
+    fullName: currentUICultureName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string currentUICultureName
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.ISuiteNavConfigurationData.disableSuiteNav'
+    name: disableSuiteNav
+    fullName: disableSuiteNav
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: boolean disableSuiteNav
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-application-base.ISuiteNavConfigurationData.settingsData'
+    name: settingsData
+    fullName: settingsData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'ISuiteNavLink[] settingsData'
+      return:
+        type:
+          - '@@microsoft/sp-application-base.ISuiteNavLink[]'
+  - uid: '@microsoft/sp-application-base.ISuiteNavConfigurationData.signoutUrl'
+    name: signoutUrl
+    fullName: signoutUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: string signoutUrl
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.ISuiteNavConfigurationData.siteClientTag'
+    name: siteClientTag
+    fullName: siteClientTag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string siteClientTag
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.ISuiteNavConfigurationData.systemUserKey'
+    name: systemUserKey
+    fullName: systemUserKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string systemUserKey
+      return:
+        type:
+          - string
+  - uid: >-
+      @microsoft/sp-application-base.ISuiteNavConfigurationData.webServerRelativeUrl
+    name: webServerRelativeUrl
+    fullName: webServerRelativeUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webServerRelativeUrl
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-application-base.ISuiteNavConfigurationData.webTemplateId'
+    name: webTemplateId
+    fullName: webTemplateId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The webTemplateId is what kind of web this is, i.e. a team site or group
+      site.
+    optional: true
+    syntax:
+      content: string webTemplateId
+      return:
+        type:
+          - string

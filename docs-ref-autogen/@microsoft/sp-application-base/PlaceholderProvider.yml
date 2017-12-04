@@ -1,0 +1,148 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.PlaceholderProvider'
+    name: PlaceholderProvider
+    fullName: PlaceholderProvider
+    children:
+      - '@microsoft/sp-application-base.PlaceholderProvider.changedEvent'
+      - '@microsoft/sp-application-base.PlaceholderProvider.placeholderNames'
+      - '@microsoft/sp-application-base.PlaceholderProvider.constructor'
+      - '@microsoft/sp-application-base.PlaceholderProvider.tryCreateContent'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Allows third-party components to discover and use SharePoint
+      placeholders.  Placeholders
+
+      enable third-party components to render custom content into designated
+      regions on the page.
+    source:
+      path: extensibility/placeholder/PlaceholderProvider.ts
+      startLine: 45
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\extensibility/placeholder/PlaceholderProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+    remarks: >-
+      Placeholders are designated regions on the page, identified by one of the
+      predefined
+
+      <xref:PlaceholderName> constants.  Different applications and pages might
+      support different
+
+      placeholder names.  Placeholders can appear and disappear as the user
+      interacts with the page,
+
+      for example via in-place navigation.  Third-party components should not
+      assume that a given placeholder
+
+      will always be available.
+
+
+      Use <xref:PlaceholderProvider.tryCreateContent> to test whether a
+      placeholder is
+
+      available and add content to it.   Use the
+      <xref:PlaceholderProvider.changedEvent> event
+
+      to discover when new placeholders appear.
+  - uid: '@microsoft/sp-application-base.PlaceholderProvider.changedEvent'
+    name: changedEvent
+    fullName: changedEvent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This event is raised when the list of currently available placeholders is
+      changed.
+    syntax:
+      content: Event<EventArgs> changedEvent
+      return:
+        type:
+          - Event<EventArgs>
+    remarks: >-
+      The application can change its list of available placeholders at any time.
+      This means that the existing
+
+      placeholders may get disposed or new placeholders may be added. Use this
+      event to discover new
+
+      placeholders when they appear.
+  - uid: '@microsoft/sp-application-base.PlaceholderProvider.placeholderNames'
+    name: placeholderNames
+    fullName: placeholderNames
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns the names of the currently available placeholders.
+    syntax:
+      content: ReadonlyArray<PlaceholderName> placeholderNames
+      return:
+        type:
+          - ReadonlyArray<@@microsoft/sp-application-base.PlaceholderName>
+  - uid: '@microsoft/sp-application-base.PlaceholderProvider.constructor'
+    name: PlaceholderProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PlaceholderProvider(serviceScope: ServiceScope, sequence: number)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+        - id: sequence
+          type:
+            - number
+          description: ''
+  - uid: '@microsoft/sp-application-base.PlaceholderProvider.tryCreateContent'
+    name: tryCreateContent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Tests whether the page contains the specified placeholder.  If so, a new
+      PlaceholderContent
+
+      object is created, which allows the caller to render custom content inside
+      the placeholder.
+    syntax:
+      content: >-
+        function tryCreateContent(name: PlaceholderName, options?:
+        IPlaceholderCreateContentOptions)
+      parameters:
+        - id: name
+          type:
+            - '@@microsoft/sp-application-base.PlaceholderName'
+          description: The requested placeholder
+        - id: options
+          type:
+            - '@@microsoft/sp-application-base.IPlaceholderCreateContentOptions'
+          description: >-
+            Additional options, for example to detect when the placeholder is
+            disposed.
+          optional: true
+      return:
+        type:
+          - PlaceholderContent | undefined
+    remarks: >-
+      The host application makes no guarantees about the availability of a given
+      placeholder.
+
+      In situations where an expected placeholder is not available, the
+      third-party extension
+
+      must handle it gracefully, e.g. by not rendering anything, or by choosing
+      an alternative
+
+      placeholder.
