@@ -15,7 +15,7 @@ items:
       name: '@@microsoft/sp-extension-base.BaseExtension<__type>'
     source:
       path: ExtensionManager.ts
-      startLine: 23
+      startLine: 24
       remote:
         path: spfx-core/sp-extension-base/src\ExtensionManager.ts
         repo: >-

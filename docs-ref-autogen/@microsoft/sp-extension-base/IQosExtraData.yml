@@ -5,6 +5,7 @@ items:
     fullName: IQosExtraData
     children:
       - '@microsoft/sp-extension-base.IQosExtraData.alias'
+      - '@microsoft/sp-extension-base.IQosExtraData.extensionType'
       - '@microsoft/sp-extension-base.IQosExtraData.isInternal'
       - '@microsoft/sp-extension-base.IQosExtraData.manifestId'
     langs:
@@ -30,6 +31,19 @@ items:
     summary: ''
     syntax:
       content: string alias
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-extension-base.IQosExtraData.extensionType'
+    name: extensionType
+    fullName: extensionType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string extensionType
       return:
         type:
           - string
