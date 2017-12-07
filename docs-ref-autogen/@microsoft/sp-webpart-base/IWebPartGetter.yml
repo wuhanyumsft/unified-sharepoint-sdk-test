@@ -10,7 +10,7 @@ items:
     summary: Type definition of the web part getter delegate.
     source:
       path: propertyPane/propertyPaneController/PropertyPaneController.ts
-      startLine: 52
+      startLine: 36
       remote:
         path: >-
           spfx-core/sp-webpart-base/src\propertyPane/propertyPaneController/PropertyPaneController.ts

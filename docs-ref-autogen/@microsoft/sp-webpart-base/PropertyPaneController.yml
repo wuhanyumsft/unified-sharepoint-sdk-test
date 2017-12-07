@@ -17,7 +17,7 @@ items:
     summary: ''
     source:
       path: propertyPane/propertyPaneController/PropertyPaneController.ts
-      startLine: 62
+      startLine: 46
       remote:
         path: >-
           spfx-core/sp-webpart-base/src\propertyPane/propertyPaneController/PropertyPaneController.ts

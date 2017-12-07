@@ -11,7 +11,7 @@ items:
     summary: ''
     source:
       path: maintenanceMode/MaintenanceModeRenderer.ts
-      startLine: 28
+      startLine: 19
       remote:
         path: >-
           spfx-core/sp-webpart-base/src\maintenanceMode/MaintenanceModeRenderer.ts
@@ -29,7 +29,7 @@ items:
     syntax:
       content: >-
         static function render(context: IWebPartContext, data: IWebPartData |
-        undefined, onRenderComplete: () => void)
+        undefined)
       parameters:
         - id: context
           type:
@@ -39,7 +39,6 @@ items:
           type:
             - IWebPartData | undefined
           description: ''
-        - id: onRenderComplete
-          type:
-            - () => void
-          description: ''
+      return:
+        type:
+          - Promise<void>
