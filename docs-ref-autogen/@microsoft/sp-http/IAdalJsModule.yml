@@ -10,10 +10,10 @@ items:
     type: interface
     summary: Represents the exported module from the adal-angular npm package.
     source:
-      path: oauthTokenProvider/OAuth2TokenProvider.ts
+      path: oauthTokenProvider/AadTokenProvider.ts
       startLine: 28
       remote:
-        path: spfx-core/sp-http/src\oauthTokenProvider/OAuth2TokenProvider.ts
+        path: spfx-core/sp-http/src\oauthTokenProvider/AadTokenProvider.ts
         repo: >-
           https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
         branch: master

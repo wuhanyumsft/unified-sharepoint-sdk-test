@@ -1,14 +1,14 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@microsoft/sp-http.TestOAuth2TokenProvider'
-    name: TestOAuth2TokenProvider
-    fullName: TestOAuth2TokenProvider
+  - uid: '@microsoft/sp-http.TestAadTokenProvider'
+    name: TestAadTokenProvider
+    fullName: TestAadTokenProvider
     children:
-      - '@microsoft/sp-http.TestOAuth2TokenProvider.authContext'
-      - '@microsoft/sp-http.TestOAuth2TokenProvider.displayCallHandler'
+      - '@microsoft/sp-http.TestAadTokenProvider.authContext'
+      - '@microsoft/sp-http.TestAadTokenProvider.displayCallHandler'
       - >-
-        @microsoft/sp-http.TestOAuth2TokenProvider.loadAndConfigureAdalJsModulePromise
-      - '@microsoft/sp-http.TestOAuth2TokenProvider.constructor'
+        @microsoft/sp-http.TestAadTokenProvider.loadAndConfigureAdalJsModulePromise
+      - '@microsoft/sp-http.TestAadTokenProvider.constructor'
     langs:
       - typeScript
     type: class
@@ -16,18 +16,17 @@ items:
       This class is useful for modifying the internal ADAL.js implementation of
       the OAuth2TokenProvider.
     extends:
-      name: '@@microsoft/sp-http.OAuth2TokenProvider'
+      name: '@@microsoft/sp-http.AadTokenProvider'
     source:
-      path: oauthTokenProvider/test/TestOAuth2TokenProvider.ts
+      path: oauthTokenProvider/test/TestAadTokenProvider.ts
       startLine: 7
       remote:
-        path: >-
-          spfx-core/sp-http/src\oauthTokenProvider/test/TestOAuth2TokenProvider.ts
+        path: spfx-core/sp-http/src\oauthTokenProvider/test/TestAadTokenProvider.ts
         repo: >-
           https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
         branch: master
     package: '@microsoft/sp-http'
-  - uid: '@microsoft/sp-http.TestOAuth2TokenProvider.authContext'
+  - uid: '@microsoft/sp-http.TestAadTokenProvider.authContext'
     name: authContext
     fullName: authContext
     children: []
@@ -40,7 +39,7 @@ items:
       return:
         type:
           - AuthenticationContext
-  - uid: '@microsoft/sp-http.TestOAuth2TokenProvider.displayCallHandler'
+  - uid: '@microsoft/sp-http.TestAadTokenProvider.displayCallHandler'
     name: displayCallHandler
     fullName: displayCallHandler
     children: []
@@ -54,7 +53,7 @@ items:
         type:
           - '"undefined" | undefined'
   - uid: >-
-      @microsoft/sp-http.TestOAuth2TokenProvider.loadAndConfigureAdalJsModulePromise
+      @microsoft/sp-http.TestAadTokenProvider.loadAndConfigureAdalJsModulePromise
     name: loadAndConfigureAdalJsModulePromise
     fullName: loadAndConfigureAdalJsModulePromise
     children: []
@@ -67,13 +66,13 @@ items:
       return:
         type:
           - Promise | undefined
-  - uid: '@microsoft/sp-http.TestOAuth2TokenProvider.constructor'
-    name: TestOAuth2TokenProvider
+  - uid: '@microsoft/sp-http.TestAadTokenProvider.constructor'
+    name: TestAadTokenProvider
     children: []
     type: constructor
     langs:
       - typeScript
     summary: ''
     syntax:
-      content: new TestOAuth2TokenProvider()
+      content: new TestAadTokenProvider()
       parameters: []

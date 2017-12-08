@@ -409,6 +409,12 @@
 - uid: '@microsoft/sp-http'
   name: '@microsoft/sp-http'
   items:
+    - uid: '@microsoft/sp-http.AadHttpClient'
+      name: AadHttpClient
+      items: []
+    - uid: '@microsoft/sp-http.AadTokenProvider'
+      name: AadTokenProvider
+      items: []
     - uid: '@microsoft/sp-http.BatchedRequest'
       name: BatchedRequest
       items: []
@@ -529,9 +535,6 @@
     - uid: '@microsoft/sp-http.OAuth2Constants'
       name: OAuth2Constants
       items: []
-    - uid: '@microsoft/sp-http.OAuth2TokenProvider'
-      name: OAuth2TokenProvider
-      items: []
     - uid: '@microsoft/sp-http.OAuthTokenProvider'
       name: OAuthTokenProvider
       items: []
@@ -565,8 +568,8 @@
     - uid: '@microsoft/sp-http.SPHttpHeader'
       name: SPHttpHeader
       items: []
-    - uid: '@microsoft/sp-http.TestOAuth2TokenProvider'
-      name: TestOAuth2TokenProvider
+    - uid: '@microsoft/sp-http.TestAadTokenProvider'
+      name: TestAadTokenProvider
       items: []
     - uid: '@microsoft/sp-http.TokenUtilityLogger'
       name: TokenUtilityLogger

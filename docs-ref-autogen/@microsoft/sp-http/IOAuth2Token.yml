@@ -13,10 +13,10 @@ items:
       This interface represents the object returned from a successful request
       to the Azure AD for an OAuth2 token.
     source:
-      path: oauthTokenProvider/OAuth2TokenProvider.ts
+      path: oauthTokenProvider/AadTokenProvider.ts
       startLine: 13
       remote:
-        path: spfx-core/sp-http/src\oauthTokenProvider/OAuth2TokenProvider.ts
+        path: spfx-core/sp-http/src\oauthTokenProvider/AadTokenProvider.ts
         repo: >-
           https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
         branch: master

@@ -1,0 +1,89 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.AadTokenProvider'
+    name: AadTokenProvider
+    fullName: AadTokenProvider
+    children:
+      - '@microsoft/sp-http.AadTokenProvider.constructor'
+      - '@microsoft/sp-http.AadTokenProvider.getToken'
+      - '@microsoft/sp-http.AadTokenProvider.serviceKey'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      This class allows a developer to obtain OAuth2 tokens from Azure AD.
+      OAuth2 tokens are used to authenticate the user from the SharePoint page
+      to other services such as PowerBI, Sway, Exchange, Yammer, etc.
+    source:
+      path: oauthTokenProvider/AadTokenProvider.ts
+      startLine: 46
+      remote:
+        path: spfx-core/sp-http/src\oauthTokenProvider/AadTokenProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-http'
+    remarks: >-
+      AadTokenProvider is replacing the /_api.SP.OAuth.Token/Acquire endpoint
+
+      for authentication with ADAL.js. At some point in the near future, when
+      Azure AD v2.0
+
+      can support the same scenarios as the original version, we will switch to
+      MSAL.
+  - uid: '@microsoft/sp-http.AadTokenProvider.constructor'
+    name: AadTokenProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new AadTokenProvider(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+  - uid: '@microsoft/sp-http.AadTokenProvider.getToken'
+    name: getToken
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Fetches the AAD OAuth2 token for a resource if the user that's currently
+      logged in has
+
+      access to that resource.
+
+      The OAuth2 token SHOULD NOT be cached by the caller since it is already
+      cached by the method
+
+      itself.
+
+
+      An example of a resourceEndpoint would be https://sdfpilot.outlook.com
+    syntax:
+      content: 'function getToken(resourceEndpoint: string)'
+      parameters:
+        - id: resourceEndpoint
+          type:
+            - string
+          description: the resource for which the token should be obtained
+      return:
+        type:
+          - Promise<string>
+  - uid: '@microsoft/sp-http.AadTokenProvider.serviceKey'
+    name: serviceKey
+    fullName: serviceKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The service key for AadTokenProvider.
+    syntax:
+      content: static ServiceKey<AadTokenProvider> serviceKey
+      return:
+        type:
+          - ServiceKey<@@microsoft/sp-http.AadTokenProvider>
