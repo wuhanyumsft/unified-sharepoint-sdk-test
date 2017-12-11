@@ -14,7 +14,7 @@ items:
       to the Azure AD for an OAuth2 token.
     source:
       path: oauthTokenProvider/AadTokenProvider.ts
-      startLine: 13
+      startLine: 22
       remote:
         path: spfx-core/sp-http/src\oauthTokenProvider/AadTokenProvider.ts
         repo: >-
@@ -28,7 +28,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: The message returned from Azure AD when a token is successfully retrieved.
+    summary: The message returned from ADAL fails to retrieve a token from Azure AD.
     syntax:
       content: string message
       return:

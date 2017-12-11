@@ -13,6 +13,7 @@ items:
       - '@microsoft/sp-http.MockAdalJsAuthContext.error'
       - '@microsoft/sp-http.MockAdalJsAuthContext.FAKE_ID_TOKEN'
       - '@microsoft/sp-http.MockAdalJsAuthContext.forceAcquireTokenFailure'
+      - '@microsoft/sp-http.MockAdalJsAuthContext.forceInteractionRequiredFailure'
       - '@microsoft/sp-http.MockAdalJsAuthContext.forceRedirectWithHashFailure'
       - '@microsoft/sp-http.MockAdalJsAuthContext.getCachedToken'
       - '@microsoft/sp-http.MockAdalJsAuthContext.getCachedUser'
@@ -201,6 +202,18 @@ items:
       acquireTokenPopup, which is called if acquireToken fails.
     syntax:
       content: function forceAcquireTokenFailure()
+      parameters: []
+  - uid: '@microsoft/sp-http.MockAdalJsAuthContext.forceInteractionRequiredFailure'
+    name: forceInteractionRequiredFailure
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Allows a developer to require force a interaction token failure for the
+      acquireToken api.
+    syntax:
+      content: function forceInteractionRequiredFailure()
       parameters: []
   - uid: '@microsoft/sp-http.MockAdalJsAuthContext.forceRedirectWithHashFailure'
     name: forceRedirectWithHashFailure

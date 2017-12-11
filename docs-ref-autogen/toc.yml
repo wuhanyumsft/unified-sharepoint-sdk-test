@@ -1,6 +1,9 @@
 - uid: '@microsoft/sp-application-base'
   name: '@microsoft/sp-application-base'
   items:
+    - uid: '@microsoft/sp-application-base.AadPlaceholderManager'
+      name: AadPlaceholderManager
+      items: []
     - uid: '@microsoft/sp-application-base.ApplicationAccessor'
       name: ApplicationAccessor
       items: []
@@ -522,6 +525,9 @@
       items: []
     - uid: '@microsoft/sp-http.ISPHttpClientOptions'
       name: ISPHttpClientOptions
+      items: []
+    - uid: '@microsoft/sp-http.ITokenAcquisitionFailureEventArgs'
+      name: ITokenAcquisitionFailureEventArgs
       items: []
     - uid: '@microsoft/sp-http.MockAdalJsAuthContext'
       name: MockAdalJsAuthContext

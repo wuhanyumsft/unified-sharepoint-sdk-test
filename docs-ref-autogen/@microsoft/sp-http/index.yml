@@ -26,6 +26,7 @@ items:
       - '@microsoft/sp-http.IAdalJsModule'
       - '@microsoft/sp-http.IDisplayCallHandlerArgs'
       - '@microsoft/sp-http.IOAuth2Token'
+      - '@microsoft/sp-http.ITokenAcquisitionFailureEventArgs'
       - '@microsoft/sp-http.OAuth2Constants'
       - '@microsoft/sp-http.OAuthTokenProvider'
       - '@microsoft/sp-http.OAuthUtilityContext'
@@ -107,6 +108,8 @@ references:
     name: IDisplayCallHandlerArgs
   - uid: '@microsoft/sp-http.IOAuth2Token'
     name: IOAuth2Token
+  - uid: '@microsoft/sp-http.ITokenAcquisitionFailureEventArgs'
+    name: ITokenAcquisitionFailureEventArgs
   - uid: '@microsoft/sp-http.OAuth2Constants'
     name: OAuth2Constants
   - uid: '@microsoft/sp-http.OAuthTokenProvider'

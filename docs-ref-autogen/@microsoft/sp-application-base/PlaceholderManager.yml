@@ -6,6 +6,7 @@ items:
     children:
       - '@microsoft/sp-application-base.PlaceholderManager.changedEvent'
       - '@microsoft/sp-application-base.PlaceholderManager.initializePlaceholders'
+      - '@microsoft/sp-application-base.PlaceholderManager.isEnabled'
       - '@microsoft/sp-application-base.PlaceholderManager.constructor'
       - '@microsoft/sp-application-base.PlaceholderManager.placeholders'
       - '@microsoft/sp-application-base.PlaceholderManager.registerPlaceholders'
@@ -63,6 +64,19 @@ items:
           type:
             - '@@microsoft/sp-application-base.IPlaceholderDefinition[]'
           description: ''
+  - uid: '@microsoft/sp-application-base.PlaceholderManager.isEnabled'
+    name: isEnabled
+    fullName: isEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns true if the placeholders are enabled for the current application
+    syntax:
+      content: boolean isEnabled
+      return:
+        type:
+          - boolean
   - uid: '@microsoft/sp-application-base.PlaceholderManager.constructor'
     name: PlaceholderManager
     children: []

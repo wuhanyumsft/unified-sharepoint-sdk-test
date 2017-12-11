@@ -4,6 +4,8 @@ items:
     name: OAuth2Constants
     fullName: OAuth2Constants
     children:
+      - '@microsoft/sp-http.OAuth2Constants.ACQUIRE_REPLY_URL_QUERY_PARAM'
+      - '@microsoft/sp-http.OAuth2Constants.SINGLE_SIGN_ON_REPLY_URL'
       - '@microsoft/sp-http.OAuth2Constants.SPO_WEB_APP_PRINCIPAL_ID'
     langs:
       - typeScript
@@ -18,6 +20,41 @@ items:
           https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
         branch: master
     package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.OAuth2Constants.ACQUIRE_REPLY_URL_QUERY_PARAM'
+    name: ACQUIRE_REPLY_URL_QUERY_PARAM
+    fullName: ACQUIRE_REPLY_URL_QUERY_PARAM
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This string contains the query parameter used for the acquireToken reply
+      url. After an access token
+
+      has been retrieved, the page will redirect to the page attempting to
+      request an access token.
+    syntax:
+      content: static string ACQUIRE_REPLY_URL_QUERY_PARAM
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-http.OAuth2Constants.SINGLE_SIGN_ON_REPLY_URL'
+    name: SINGLE_SIGN_ON_REPLY_URL
+    fullName: SINGLE_SIGN_ON_REPLY_URL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This string contains the resource used for the login reply url. This
+      resource
+
+      will wait until the id token has been retrieved.
+    syntax:
+      content: static string SINGLE_SIGN_ON_REPLY_URL
+      return:
+        type:
+          - string
   - uid: '@microsoft/sp-http.OAuth2Constants.SPO_WEB_APP_PRINCIPAL_ID'
     name: SPO_WEB_APP_PRINCIPAL_ID
     fullName: SPO_WEB_APP_PRINCIPAL_ID
@@ -25,7 +62,13 @@ items:
     langs:
       - typeScript
     type: property
-    summary: ''
+    summary: >-
+      This guid is the unique identifier for SharePoint Online Web Application
+      Principal.
+
+      See more here about Application and Service Principals here ->
+
+      https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects
     syntax:
       content: static string SPO_WEB_APP_PRINCIPAL_ID
       return:

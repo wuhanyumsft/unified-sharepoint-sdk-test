@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-application-base.AadPlaceholderManager'
+    name: AadPlaceholderManager
+    fullName: AadPlaceholderManager
+    children:
+      - >-
+        @microsoft/sp-application-base.AadPlaceholderManager.setUpTokenAcquistionFailurePlaceholder
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      This class sets up an a placeholder for scenarios that token acquisition
+      fails and will require
+
+      end user interaction.
+    source:
+      path: frameworkPlaceholders/AadPlaceholderManager.ts
+      startLine: 14
+      remote:
+        path: >-
+          spfx-core/sp-application-base/src\frameworkPlaceholders/AadPlaceholderManager.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-application-base'
+  - uid: >-
+      @microsoft/sp-application-base.AadPlaceholderManager.setUpTokenAcquistionFailurePlaceholder
+    name: setUpTokenAcquistionFailurePlaceholder
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets up a placeholder (or alert if unavailable) for the token acquisition
+      failure event.
+    syntax:
+      content: >-
+        function setUpTokenAcquistionFailurePlaceholder(application:
+        BaseApplication, serviceScope: ServiceScope)
+      parameters:
+        - id: application
+          type:
+            - '@@microsoft/sp-application-base.BaseApplication'
+          description: ''
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''

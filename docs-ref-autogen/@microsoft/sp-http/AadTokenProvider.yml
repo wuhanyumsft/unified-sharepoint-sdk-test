@@ -7,6 +7,7 @@ items:
       - '@microsoft/sp-http.AadTokenProvider.constructor'
       - '@microsoft/sp-http.AadTokenProvider.getToken'
       - '@microsoft/sp-http.AadTokenProvider.serviceKey'
+      - '@microsoft/sp-http.AadTokenProvider.tokenAcquisitionFailureEvent'
     langs:
       - typeScript
     type: class
@@ -16,7 +17,7 @@ items:
       to other services such as PowerBI, Sway, Exchange, Yammer, etc.
     source:
       path: oauthTokenProvider/AadTokenProvider.ts
-      startLine: 46
+      startLine: 71
       remote:
         path: spfx-core/sp-http/src\oauthTokenProvider/AadTokenProvider.ts
         repo: >-
@@ -87,3 +88,16 @@ items:
       return:
         type:
           - ServiceKey<@@microsoft/sp-http.AadTokenProvider>
+  - uid: '@microsoft/sp-http.AadTokenProvider.tokenAcquisitionFailureEvent'
+    name: tokenAcquisitionFailureEvent
+    fullName: tokenAcquisitionFailureEvent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Event<ITokenAcquisitionFailureEventArgs> tokenAcquisitionFailureEvent
+      return:
+        type:
+          - Event<@@microsoft/sp-http.ITokenAcquisitionFailureEventArgs>

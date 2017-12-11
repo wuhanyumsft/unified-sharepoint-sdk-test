@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.ITokenAcquisitionFailureEventArgs'
+    name: ITokenAcquisitionFailureEventArgs
+    fullName: ITokenAcquisitionFailureEventArgs
+    children:
+      - '@microsoft/sp-http.ITokenAcquisitionFailureEventArgs.errorMessage'
+      - '@microsoft/sp-http.ITokenAcquisitionFailureEventArgs.redirectUrl'
+    langs:
+      - typeScript
+    type: interface
+    summary: Represents arguments used for raising a token acquisiton failure event.
+    extends:
+      name: any
+    source:
+      path: oauthTokenProvider/AadTokenProvider.ts
+      startLine: 46
+      remote:
+        path: spfx-core/sp-http/src\oauthTokenProvider/AadTokenProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.ITokenAcquisitionFailureEventArgs.errorMessage'
+    name: errorMessage
+    fullName: errorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The message returned from ADAL fails to retrieve a token from Azure AD.
+    syntax:
+      content: string errorMessage
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-http.ITokenAcquisitionFailureEventArgs.redirectUrl'
+    name: redirectUrl
+    fullName: redirectUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The url of the page for the end user to perform Multi Factor
+      Authentication
+    optional: true
+    syntax:
+      content: string redirectUrl
+      return:
+        type:
+          - string
