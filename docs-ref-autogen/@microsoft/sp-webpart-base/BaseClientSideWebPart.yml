@@ -17,7 +17,7 @@ items:
       name: '@@microsoft/sp-webpart-base.BaseClientSideWebPart'
     source:
       path: core/BaseClientSideWebPart.ts
-      startLine: 75
+      startLine: 72
       remote:
         path: spfx-core/sp-webpart-base/src\core/BaseClientSideWebPart.ts
         repo: >-

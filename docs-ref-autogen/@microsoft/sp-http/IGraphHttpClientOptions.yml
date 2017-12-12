@@ -12,7 +12,7 @@ items:
       name: '@@microsoft/sp-http.IHttpClientOptions'
     source:
       path: graphHttpClient/GraphHttpClient.ts
-      startLine: 249
+      startLine: 245
       remote:
         path: spfx-core/sp-http/src\graphHttpClient/GraphHttpClient.ts
         repo: >-
