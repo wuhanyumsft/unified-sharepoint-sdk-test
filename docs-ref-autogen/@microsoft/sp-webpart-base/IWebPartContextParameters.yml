@@ -24,7 +24,7 @@ items:
       name: any
     source:
       path: core/IWebPartContextParameters.ts
-      startLine: 14
+      startLine: 15
       remote:
         path: spfx-core/sp-webpart-base/src\core/IWebPartContextParameters.ts
         repo: >-

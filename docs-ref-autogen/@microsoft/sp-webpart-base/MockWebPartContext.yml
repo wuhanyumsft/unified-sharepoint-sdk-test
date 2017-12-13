@@ -14,7 +14,7 @@ items:
       name: '@@microsoft/sp-webpart-base.WebPartContext'
     source:
       path: test/mock/clientSideWebParts/MockWebPartContext.ts
-      startLine: 52
+      startLine: 55
       remote:
         path: >-
           spfx-core/sp-webpart-base/src\test/mock/clientSideWebParts/MockWebPartContext.ts

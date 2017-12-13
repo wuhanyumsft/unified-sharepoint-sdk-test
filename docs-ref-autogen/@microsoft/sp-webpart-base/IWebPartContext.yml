@@ -22,7 +22,7 @@ items:
     summary: The base context interface for client-side web parts.
     source:
       path: core/IWebPartContext.ts
-      startLine: 38
+      startLine: 39
       remote:
         path: spfx-core/sp-webpart-base/src\core/IWebPartContext.ts
         repo: >-

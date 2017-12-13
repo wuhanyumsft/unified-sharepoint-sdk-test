@@ -13,7 +13,7 @@ items:
     summary: Describes the extra data parameter for QosMonitor.writeSuccess function.
     source:
       path: core/ClientSideWebPartManager.ts
-      startLine: 70
+      startLine: 73
       remote:
         path: spfx-core/sp-webpart-base/src\core/ClientSideWebPartManager.ts
         repo: >-
