@@ -14,7 +14,7 @@ items:
       to the Azure AD for an OAuth2 token.
     source:
       path: oauthTokenProvider/AadTokenProvider.ts
-      startLine: 22
+      startLine: 25
       remote:
         path: spfx-core/sp-http/src\oauthTokenProvider/AadTokenProvider.ts
         repo: >-

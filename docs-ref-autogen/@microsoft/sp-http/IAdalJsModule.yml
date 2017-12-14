@@ -11,7 +11,7 @@ items:
     summary: Represents the exported module from the adal-angular npm package.
     source:
       path: oauthTokenProvider/AadTokenProvider.ts
-      startLine: 38
+      startLine: 41
       remote:
         path: spfx-core/sp-http/src\oauthTokenProvider/AadTokenProvider.ts
         repo: >-

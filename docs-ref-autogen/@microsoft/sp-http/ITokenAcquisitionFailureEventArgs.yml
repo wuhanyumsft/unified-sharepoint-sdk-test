@@ -14,7 +14,7 @@ items:
       name: any
     source:
       path: oauthTokenProvider/AadTokenProvider.ts
-      startLine: 46
+      startLine: 49
       remote:
         path: spfx-core/sp-http/src\oauthTokenProvider/AadTokenProvider.ts
         repo: >-

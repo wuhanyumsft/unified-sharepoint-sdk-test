@@ -46,7 +46,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ISuiteNavManager suiteNavManager
+      content: ISuiteNavManager | undefined suiteNavManager
       return:
         type:
-          - '@@microsoft/sp-application-base.ISuiteNavManager'
+          - ISuiteNavManager | undefined

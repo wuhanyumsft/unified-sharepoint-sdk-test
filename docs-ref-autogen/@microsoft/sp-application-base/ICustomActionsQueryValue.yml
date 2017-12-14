@@ -10,7 +10,7 @@ items:
     summary: Represents the parsed value of the "customActions" query parameter.
     source:
       path: extensibility/ApplicationCustomizerLoader.ts
-      startLine: 34
+      startLine: 32
       remote:
         path: >-
           spfx-core/sp-application-base/src\extensibility/ApplicationCustomizerLoader.ts

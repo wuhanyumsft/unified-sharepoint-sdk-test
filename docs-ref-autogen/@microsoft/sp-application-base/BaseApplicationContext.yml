@@ -100,7 +100,12 @@ items:
     type: property
     summary: The SuiteNav manager
     syntax:
-      content: ISuiteNavManager suiteNavManager
+      content: ISuiteNavManager | undefined suiteNavManager
       return:
         type:
-          - '@@microsoft/sp-application-base.ISuiteNavManager'
+          - ISuiteNavManager | undefined
+    remarks: >-
+      This can be undefined for chromeless applications. As this API is alpha it
+      is OK to do so.
+
+      The experience for chromeless applications needs to be refactored.

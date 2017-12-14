@@ -17,7 +17,7 @@ items:
       to other services such as PowerBI, Sway, Exchange, Yammer, etc.
     source:
       path: oauthTokenProvider/AadTokenProvider.ts
-      startLine: 71
+      startLine: 74
       remote:
         path: spfx-core/sp-http/src\oauthTokenProvider/AadTokenProvider.ts
         repo: >-

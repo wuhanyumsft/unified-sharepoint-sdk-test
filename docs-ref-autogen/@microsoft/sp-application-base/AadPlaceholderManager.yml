@@ -16,7 +16,7 @@ items:
       end user interaction.
     source:
       path: frameworkPlaceholders/AadPlaceholderManager.ts
-      startLine: 14
+      startLine: 15
       remote:
         path: >-
           spfx-core/sp-application-base/src\frameworkPlaceholders/AadPlaceholderManager.ts

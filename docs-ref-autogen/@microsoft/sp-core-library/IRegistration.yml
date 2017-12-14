@@ -12,7 +12,7 @@ items:
     summary: ''
     source:
       path: serviceScope/ServiceScope.ts
-      startLine: 258
+      startLine: 259
       remote:
         path: spfx-core/sp-core-library/src\serviceScope/ServiceScope.ts
         repo: >-

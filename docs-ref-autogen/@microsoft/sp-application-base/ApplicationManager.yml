@@ -4,6 +4,7 @@ items:
     name: ApplicationManager
     fullName: ApplicationManager
     children:
+      - '@microsoft/sp-application-base.ApplicationManager.constructor'
       - '@microsoft/sp-application-base.ApplicationManager.startApplication'
     langs:
       - typeScript
@@ -11,13 +12,28 @@ items:
     summary: Application manager. Includes logic to load SPFX client-side applications.
     source:
       path: ApplicationManager.ts
-      startLine: 59
+      startLine: 48
       remote:
         path: spfx-core/sp-application-base/src\ApplicationManager.ts
         repo: >-
           https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
         branch: master
     package: '@microsoft/sp-application-base'
+  - uid: '@microsoft/sp-application-base.ApplicationManager.constructor'
+    name: ApplicationManager
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Creates an application manager.
+    syntax:
+      content: 'new ApplicationManager(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: |
+            Root service scope.
   - uid: '@microsoft/sp-application-base.ApplicationManager.startApplication'
     name: startApplication
     children: []

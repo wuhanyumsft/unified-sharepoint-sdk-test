@@ -4,6 +4,8 @@ items:
     name: IODataPageContextInfo
     fullName: IODataPageContextInfo
     children:
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.aadInstanceUrl'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.aadTenantId'
       - '@microsoft/sp-odata-types.IODataPageContextInfo.alertsEnabled'
       - '@microsoft/sp-odata-types.IODataPageContextInfo.allowSilverlightPrompt'
       - >-
@@ -106,6 +108,32 @@ items:
           https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
         branch: master
     package: '@microsoft/sp-odata-types'
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.aadInstanceUrl'
+    name: aadInstanceUrl
+    fullName: aadInstanceUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string aadInstanceUrl
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.aadTenantId'
+    name: aadTenantId
+    fullName: aadTenantId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string aadTenantId
+      return:
+        type:
+          - string
   - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.alertsEnabled'
     name: alertsEnabled
     fullName: alertsEnabled

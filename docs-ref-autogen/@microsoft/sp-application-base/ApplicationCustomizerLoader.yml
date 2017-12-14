@@ -13,7 +13,7 @@ items:
     summary: A helper class for loading ApplicationCustomizer extensions.
     source:
       path: extensibility/ApplicationCustomizerLoader.ts
-      startLine: 45
+      startLine: 43
       remote:
         path: >-
           spfx-core/sp-application-base/src\extensibility/ApplicationCustomizerLoader.ts
@@ -30,21 +30,12 @@ items:
     summary: ''
     syntax:
       content: >-
-        new ApplicationCustomizerLoader(serviceScope: ServiceScope, pageContext:
-        PageContext, spHttpClient: SPHttpClient, customActions?:
-        _IPreloadedCustomAction[])
+        new ApplicationCustomizerLoader(serviceScope: ServiceScope,
+        customActions?: _IPreloadedCustomAction[])
       parameters:
         - id: serviceScope
           type:
             - ServiceScope
-          description: ''
-        - id: pageContext
-          type:
-            - PageContext
-          description: ''
-        - id: spHttpClient
-          type:
-            - SPHttpClient
           description: ''
         - id: customActions
           type:

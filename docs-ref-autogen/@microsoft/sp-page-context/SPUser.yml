@@ -96,7 +96,7 @@ items:
       return:
         type:
           - string
-    remarks: 'Example: "i:0#.w|domain\user"'
+    remarks: 'Example: on-premise user: "domain\user", online user: "user@domain.com"'
   - uid: '@microsoft/sp-page-context.SPUser.preferUserTimeZone'
     name: preferUserTimeZone
     fullName: preferUserTimeZone

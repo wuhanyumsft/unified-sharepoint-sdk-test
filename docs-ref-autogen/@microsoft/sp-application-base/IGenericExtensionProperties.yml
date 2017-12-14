@@ -12,7 +12,7 @@ items:
       properties
     source:
       path: extensibility/ApplicationCustomizerLoader.ts
-      startLine: 27
+      startLine: 25
       remote:
         path: >-
           spfx-core/sp-application-base/src\extensibility/ApplicationCustomizerLoader.ts
