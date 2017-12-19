@@ -1,0 +1,82 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-page-context.SPDayOfWeek'
+    name: SPDayOfWeek
+    fullName: SPDayOfWeek
+    children:
+      - '@microsoft/sp-page-context.SPDayOfWeek.Sunday'
+      - '@microsoft/sp-page-context.SPDayOfWeek.Monday'
+      - '@microsoft/sp-page-context.SPDayOfWeek.Tuesday'
+      - '@microsoft/sp-page-context.SPDayOfWeek.Wednesday'
+      - '@microsoft/sp-page-context.SPDayOfWeek.Thursday'
+      - '@microsoft/sp-page-context.SPDayOfWeek.Friday'
+      - '@microsoft/sp-page-context.SPDayOfWeek.Saturday'
+    langs:
+      - typeScript
+    type: enum
+    summary: The enum members represent the seven days of a week.
+    source:
+      path: SPDayOfWeek.ts
+      startLine: 6
+      remote:
+        path: spfx-core/sp-page-context/src\SPDayOfWeek.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-page-context'
+  - uid: '@microsoft/sp-page-context.SPDayOfWeek.Sunday'
+    name: Sunday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+  - uid: '@microsoft/sp-page-context.SPDayOfWeek.Monday'
+    name: Monday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+  - uid: '@microsoft/sp-page-context.SPDayOfWeek.Tuesday'
+    name: Tuesday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+  - uid: '@microsoft/sp-page-context.SPDayOfWeek.Wednesday'
+    name: Wednesday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+  - uid: '@microsoft/sp-page-context.SPDayOfWeek.Thursday'
+    name: Thursday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+  - uid: '@microsoft/sp-page-context.SPDayOfWeek.Friday'
+    name: Friday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 5
+  - uid: '@microsoft/sp-page-context.SPDayOfWeek.Saturday'
+    name: Saturday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 6

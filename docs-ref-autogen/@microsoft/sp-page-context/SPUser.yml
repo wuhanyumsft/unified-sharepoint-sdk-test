@@ -6,6 +6,7 @@ items:
     children:
       - '@microsoft/sp-page-context.SPUser.displayName'
       - '@microsoft/sp-page-context.SPUser.email'
+      - '@microsoft/sp-page-context.SPUser.firstDayOfWeek'
       - '@microsoft/sp-page-context.SPUser.isAnonymousGuestUser'
       - '@microsoft/sp-page-context.SPUser.isExternalGuestUser'
       - '@microsoft/sp-page-context.SPUser.loginName'
@@ -22,7 +23,7 @@ items:
       for the SharePoint user that is accessing the page.
     source:
       path: SPUser.ts
-      startLine: 25
+      startLine: 27
       remote:
         path: spfx-core/sp-page-context/src\SPUser.ts
         repo: >-
@@ -57,6 +58,21 @@ items:
         type:
           - string
     remarks: 'Example: "example@contoso.com"'
+  - uid: '@microsoft/sp-page-context.SPUser.firstDayOfWeek'
+    name: firstDayOfWeek
+    fullName: firstDayOfWeek
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Returns the user's regional first day of week setting or undefined if it
+      hasn't been set.
+    syntax:
+      content: SPDayOfWeek | undefined firstDayOfWeek
+      return:
+        type:
+          - SPDayOfWeek | undefined
   - uid: '@microsoft/sp-page-context.SPUser.isAnonymousGuestUser'
     name: isAnonymousGuestUser
     fullName: isAnonymousGuestUser

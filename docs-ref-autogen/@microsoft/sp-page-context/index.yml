@@ -11,6 +11,7 @@ items:
       - '@microsoft/sp-page-context.IO365GroupAssociationData'
       - '@microsoft/sp-page-context.PageContext'
       - '@microsoft/sp-page-context.IPageContextData'
+      - '@microsoft/sp-page-context.SPDayOfWeek'
       - '@microsoft/sp-page-context.SPField'
       - '@microsoft/sp-page-context.ISPFieldData'
       - '@microsoft/sp-page-context.SPList'
@@ -47,6 +48,8 @@ references:
     name: PageContext
   - uid: '@microsoft/sp-page-context.IPageContextData'
     name: IPageContextData
+  - uid: '@microsoft/sp-page-context.SPDayOfWeek'
+    name: SPDayOfWeek
   - uid: '@microsoft/sp-page-context.SPField'
     name: SPField
   - uid: '@microsoft/sp-page-context.ISPFieldData'

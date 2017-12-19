@@ -6,6 +6,7 @@ items:
     children:
       - '@microsoft/sp-page-context.ISPWebData.absoluteUrl'
       - '@microsoft/sp-page-context.ISPWebData.description'
+      - '@microsoft/sp-page-context.ISPWebData.firstDayOfWeek'
       - '@microsoft/sp-page-context.ISPWebData.id'
       - '@microsoft/sp-page-context.ISPWebData.isAppWeb'
       - '@microsoft/sp-page-context.ISPWebData.language'
@@ -21,7 +22,7 @@ items:
     summary: Object that represents the data necessary to build an SPWeb object.
     source:
       path: SPWeb.ts
-      startLine: 11
+      startLine: 12
       remote:
         path: spfx-core/sp-page-context/src\SPWeb.ts
         repo: >-
@@ -54,6 +55,20 @@ items:
       return:
         type:
           - string
+  - uid: '@microsoft/sp-page-context.ISPWebData.firstDayOfWeek'
+    name: firstDayOfWeek
+    fullName: firstDayOfWeek
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: SPDayOfWeek firstDayOfWeek
+      return:
+        type:
+          - '@@microsoft/sp-page-context.SPDayOfWeek'
   - uid: '@microsoft/sp-page-context.ISPWebData.id'
     name: id
     fullName: id

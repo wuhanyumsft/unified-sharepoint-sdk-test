@@ -673,6 +673,9 @@
     - uid: '@microsoft/sp-page-context.SharePointPageContextDataProvider'
       name: SharePointPageContextDataProvider
       items: []
+    - uid: '@microsoft/sp-page-context.SPDayOfWeek'
+      name: SPDayOfWeek
+      items: []
     - uid: '@microsoft/sp-page-context.SPField'
       name: SPField
       items: []

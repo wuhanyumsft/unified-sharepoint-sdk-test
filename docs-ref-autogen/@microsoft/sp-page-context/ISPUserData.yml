@@ -6,6 +6,7 @@ items:
     children:
       - '@microsoft/sp-page-context.ISPUserData.displayName'
       - '@microsoft/sp-page-context.ISPUserData.email'
+      - '@microsoft/sp-page-context.ISPUserData.firstDayOfWeek'
       - '@microsoft/sp-page-context.ISPUserData.isAnonymousGuestUser'
       - '@microsoft/sp-page-context.ISPUserData.isExternalGuestUser'
       - '@microsoft/sp-page-context.ISPUserData.loginName'
@@ -17,7 +18,7 @@ items:
     summary: Object that represents the data necessary to build an SPUser object.
     source:
       path: SPUser.ts
-      startLine: 9
+      startLine: 10
       remote:
         path: spfx-core/sp-page-context/src\SPUser.ts
         repo: >-
@@ -50,6 +51,20 @@ items:
       return:
         type:
           - string
+  - uid: '@microsoft/sp-page-context.ISPUserData.firstDayOfWeek'
+    name: firstDayOfWeek
+    fullName: firstDayOfWeek
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: SPDayOfWeek firstDayOfWeek
+      return:
+        type:
+          - '@@microsoft/sp-page-context.SPDayOfWeek'
   - uid: '@microsoft/sp-page-context.ISPUserData.isAnonymousGuestUser'
     name: isAnonymousGuestUser
     fullName: isAnonymousGuestUser

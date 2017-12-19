@@ -6,6 +6,7 @@ items:
     children:
       - '@microsoft/sp-page-context.SPWeb.absoluteUrl'
       - '@microsoft/sp-page-context.SPWeb.description'
+      - '@microsoft/sp-page-context.SPWeb.firstDayOfWeek'
       - '@microsoft/sp-page-context.SPWeb.id'
       - '@microsoft/sp-page-context.SPWeb.isAppWeb'
       - '@microsoft/sp-page-context.SPWeb.language'
@@ -26,7 +27,7 @@ items:
       information for the SharePoint site ("web") that hosts the page.
     source:
       path: SPWeb.ts
-      startLine: 31
+      startLine: 33
       remote:
         path: spfx-core/sp-page-context/src\SPWeb.ts
         repo: >-
@@ -61,6 +62,21 @@ items:
       return:
         type:
           - string
+  - uid: '@microsoft/sp-page-context.SPWeb.firstDayOfWeek'
+    name: firstDayOfWeek
+    fullName: firstDayOfWeek
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Returns the web's regional first day of week setting or undefined if it
+      hasn't been set.
+    syntax:
+      content: SPDayOfWeek | undefined firstDayOfWeek
+      return:
+        type:
+          - SPDayOfWeek | undefined
   - uid: '@microsoft/sp-page-context.SPWeb.id'
     name: id
     fullName: id
