@@ -4,6 +4,7 @@ items:
     name: GraphHttpClientContext
     fullName: GraphHttpClientContext
     children:
+      - '@microsoft/sp-http.GraphHttpClientContext.getDeploymentRing'
       - '@microsoft/sp-http.GraphHttpClientContext.getWebServerRelativeUrl'
       - '@microsoft/sp-http.GraphHttpClientContext.constructor'
       - '@microsoft/sp-http.GraphHttpClientContext.initialize'
@@ -12,7 +13,7 @@ items:
       - typeScript
     type: class
     summary: >-
-      This class is useful for getting the webServerRelativeUrl to the
+      This class is useful for getting configuration properties to the
       GraphHttpClient
     source:
       path: graphHttpClient/GraphHttpClientContext.ts
@@ -23,6 +24,25 @@ items:
           https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
         branch: master
     package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.GraphHttpClientContext.getDeploymentRing'
+    name: getDeploymentRing
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Gets the deployment ring of the current page. This value is set by
+
+      the initialize function. If the value is not set, this function will
+      throw.
+
+      Possible values include 'edog', 'prodbubble', and 'prod'.
+    syntax:
+      content: function getDeploymentRing()
+      parameters: []
+      return:
+        type:
+          - string
   - uid: '@microsoft/sp-http.GraphHttpClientContext.getWebServerRelativeUrl'
     name: getWebServerRelativeUrl
     children: []
@@ -64,9 +84,15 @@ items:
       The initialize function should be called before the application/components
       have a chance to make a GraphHttpClient request.
     syntax:
-      content: 'function initialize(webServerRelativeUrl: string)'
+      content: >-
+        function initialize(webServerRelativeUrl: string, deploymentRing:
+        string)
       parameters:
         - id: webServerRelativeUrl
+          type:
+            - string
+          description: ''
+        - id: deploymentRing
           type:
             - string
           description: ''

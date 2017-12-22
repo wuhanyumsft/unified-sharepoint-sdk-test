@@ -15,7 +15,7 @@ items:
         @@microsoft/sp-webpart-base.PropertyPanePage<@@microsoft/sp-webpart-base.IPropertyPanePageProps>
     source:
       path: propertyPane/propertyPanePage/PropertyPanePage.tsx
-      startLine: 20
+      startLine: 19
       remote:
         path: >-
           spfx-core/sp-webpart-base/src\propertyPane/propertyPanePage/PropertyPanePage.tsx
