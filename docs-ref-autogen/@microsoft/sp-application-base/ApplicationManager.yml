@@ -12,7 +12,7 @@ items:
     summary: Application manager. Includes logic to load SPFX client-side applications.
     source:
       path: ApplicationManager.ts
-      startLine: 48
+      startLine: 50
       remote:
         path: spfx-core/sp-application-base/src\ApplicationManager.ts
         repo: >-
