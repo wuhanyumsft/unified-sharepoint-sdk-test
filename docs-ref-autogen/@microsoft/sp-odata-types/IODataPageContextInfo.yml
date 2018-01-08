@@ -49,6 +49,7 @@ items:
       - '@microsoft/sp-odata-types.IODataPageContextInfo.pageListId'
       - '@microsoft/sp-odata-types.IODataPageContextInfo.pagePermsMask'
       - '@microsoft/sp-odata-types.IODataPageContextInfo.pagePersonalizationScope'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.preferUserTimeZone'
       - '@microsoft/sp-odata-types.IODataPageContextInfo.PreviewFeaturesEnabled'
       - '@microsoft/sp-odata-types.IODataPageContextInfo.RecycleBinItemCount'
       - '@microsoft/sp-odata-types.IODataPageContextInfo.serverRequestPath'
@@ -69,18 +70,23 @@ items:
       - '@microsoft/sp-odata-types.IODataPageContextInfo.themedImageFileNames'
       - '@microsoft/sp-odata-types.IODataPageContextInfo.userDisplayName'
       - '@microsoft/sp-odata-types.IODataPageContextInfo.userEmail'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.userFirstDayOfWeek'
       - '@microsoft/sp-odata-types.IODataPageContextInfo.userId'
       - '@microsoft/sp-odata-types.IODataPageContextInfo.userLoginName'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.userTimeZoneData'
       - '@microsoft/sp-odata-types.IODataPageContextInfo.viewId'
       - >-
         @microsoft/sp-odata-types.IODataPageContextInfo.viewOnlyExperienceEnabled
       - '@microsoft/sp-odata-types.IODataPageContextInfo.webAbsoluteUrl'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.webDescription'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.webFirstDayOfWeek'
       - '@microsoft/sp-odata-types.IODataPageContextInfo.webId'
       - '@microsoft/sp-odata-types.IODataPageContextInfo.webLanguage'
       - '@microsoft/sp-odata-types.IODataPageContextInfo.webLogoUrl'
       - '@microsoft/sp-odata-types.IODataPageContextInfo.webPermMasks'
       - '@microsoft/sp-odata-types.IODataPageContextInfo.webServerRelativeUrl'
       - '@microsoft/sp-odata-types.IODataPageContextInfo.webTemplate'
+      - '@microsoft/sp-odata-types.IODataPageContextInfo.webTimeZoneData'
       - '@microsoft/sp-odata-types.IODataPageContextInfo.webTitle'
       - '@microsoft/sp-odata-types.IODataPageContextInfo.webUIVersion'
     langs:
@@ -681,6 +687,19 @@ items:
       return:
         type:
           - number
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.preferUserTimeZone'
+    name: preferUserTimeZone
+    fullName: preferUserTimeZone
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean preferUserTimeZone
+      return:
+        type:
+          - boolean
   - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.PreviewFeaturesEnabled'
     name: PreviewFeaturesEnabled
     fullName: PreviewFeaturesEnabled
@@ -928,6 +947,19 @@ items:
       return:
         type:
           - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.userFirstDayOfWeek'
+    name: userFirstDayOfWeek
+    fullName: userFirstDayOfWeek
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number userFirstDayOfWeek
+      return:
+        type:
+          - number
   - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.userId'
     name: userId
     fullName: userId
@@ -954,6 +986,19 @@ items:
       return:
         type:
           - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.userTimeZoneData'
+    name: userTimeZoneData
+    fullName: userTimeZoneData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISPSystemTimeZoneData userTimeZoneData
+      return:
+        type:
+          - '@@microsoft/sp-odata-types.ISPSystemTimeZoneData'
   - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.viewId'
     name: viewId
     fullName: viewId
@@ -993,6 +1038,32 @@ items:
       return:
         type:
           - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.webDescription'
+    name: webDescription
+    fullName: webDescription
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string webDescription
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.webFirstDayOfWeek'
+    name: webFirstDayOfWeek
+    fullName: webFirstDayOfWeek
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number webFirstDayOfWeek
+      return:
+        type:
+          - number
   - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.webId'
     name: webId
     fullName: webId
@@ -1071,6 +1142,19 @@ items:
       return:
         type:
           - string
+  - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.webTimeZoneData'
+    name: webTimeZoneData
+    fullName: webTimeZoneData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISPSystemTimeZoneData webTimeZoneData
+      return:
+        type:
+          - '@@microsoft/sp-odata-types.ISPSystemTimeZoneData'
   - uid: '@microsoft/sp-odata-types.IODataPageContextInfo.webTitle'
     name: webTitle
     fullName: webTitle

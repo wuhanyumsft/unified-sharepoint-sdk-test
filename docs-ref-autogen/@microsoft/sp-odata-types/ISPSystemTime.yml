@@ -1,0 +1,131 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-odata-types.ISPSystemTime'
+    name: ISPSystemTime
+    fullName: ISPSystemTime
+    children:
+      - '@microsoft/sp-odata-types.ISPSystemTime.Day'
+      - '@microsoft/sp-odata-types.ISPSystemTime.DayOfWeek'
+      - '@microsoft/sp-odata-types.ISPSystemTime.Hour'
+      - '@microsoft/sp-odata-types.ISPSystemTime.Milliseconds'
+      - '@microsoft/sp-odata-types.ISPSystemTime.Minute'
+      - '@microsoft/sp-odata-types.ISPSystemTime.Month'
+      - '@microsoft/sp-odata-types.ISPSystemTime.Second'
+      - '@microsoft/sp-odata-types.ISPSystemTime.Year'
+    langs:
+      - typeScript
+    type: interface
+    summary: Date time without regional info.
+    source:
+      path: IODataPageContextInfo.ts
+      startLine: 106
+      remote:
+        path: spfx-core/sp-odata-types/src\IODataPageContextInfo.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-odata-types'
+  - uid: '@microsoft/sp-odata-types.ISPSystemTime.Day'
+    name: Day
+    fullName: Day
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number Day
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.ISPSystemTime.DayOfWeek'
+    name: DayOfWeek
+    fullName: DayOfWeek
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number DayOfWeek
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.ISPSystemTime.Hour'
+    name: Hour
+    fullName: Hour
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number Hour
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.ISPSystemTime.Milliseconds'
+    name: Milliseconds
+    fullName: Milliseconds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number Milliseconds
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.ISPSystemTime.Minute'
+    name: Minute
+    fullName: Minute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number Minute
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.ISPSystemTime.Month'
+    name: Month
+    fullName: Month
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number Month
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.ISPSystemTime.Second'
+    name: Second
+    fullName: Second
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number Second
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.ISPSystemTime.Year'
+    name: Year
+    fullName: Year
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number Year
+      return:
+        type:
+          - number

@@ -10,6 +10,8 @@ items:
       - '@microsoft/sp-odata-types.IODataNavigationNode'
       - '@microsoft/sp-odata-types.IODataNavigationNodeCollection'
       - '@microsoft/sp-odata-types.IODataPageContextInfo'
+      - '@microsoft/sp-odata-types.ISPSystemTime'
+      - '@microsoft/sp-odata-types.ISPSystemTimeZoneData'
       - '@microsoft/sp-odata-types.IODataUser'
       - '@microsoft/sp-odata-types.IODataUserId'
       - '@microsoft/sp-odata-types.IODataUserCustomAction'
@@ -32,6 +34,10 @@ references:
     name: IODataNavigationNodeCollection
   - uid: '@microsoft/sp-odata-types.IODataPageContextInfo'
     name: IODataPageContextInfo
+  - uid: '@microsoft/sp-odata-types.ISPSystemTime'
+    name: ISPSystemTime
+  - uid: '@microsoft/sp-odata-types.ISPSystemTimeZoneData'
+    name: ISPSystemTimeZoneData
   - uid: '@microsoft/sp-odata-types.IODataUser'
     name: IODataUser
   - uid: '@microsoft/sp-odata-types.IODataUserId'

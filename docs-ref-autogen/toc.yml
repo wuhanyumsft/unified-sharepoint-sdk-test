@@ -619,6 +619,12 @@
     - uid: '@microsoft/sp-odata-types.IODataWeb'
       name: IODataWeb
       items: []
+    - uid: '@microsoft/sp-odata-types.ISPSystemTime'
+      name: ISPSystemTime
+      items: []
+    - uid: '@microsoft/sp-odata-types.ISPSystemTimeZoneData'
+      name: ISPSystemTimeZoneData
+      items: []
 - uid: '@microsoft/sp-page-context'
   name: '@microsoft/sp-page-context'
   items:

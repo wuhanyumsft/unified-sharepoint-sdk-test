@@ -1,0 +1,117 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-odata-types.ISPSystemTimeZoneData'
+    name: ISPSystemTimeZoneData
+    fullName: ISPSystemTimeZoneData
+    children:
+      - '@microsoft/sp-odata-types.ISPSystemTimeZoneData.Bias'
+      - '@microsoft/sp-odata-types.ISPSystemTimeZoneData.DaylightBias'
+      - '@microsoft/sp-odata-types.ISPSystemTimeZoneData.DaylightDate'
+      - '@microsoft/sp-odata-types.ISPSystemTimeZoneData.Description'
+      - '@microsoft/sp-odata-types.ISPSystemTimeZoneData.Id'
+      - '@microsoft/sp-odata-types.ISPSystemTimeZoneData.StandardBias'
+      - '@microsoft/sp-odata-types.ISPSystemTimeZoneData.StandardDate'
+    langs:
+      - typeScript
+    type: interface
+    summary: SharePoint time zone data.
+    source:
+      path: IODataPageContextInfo.ts
+      startLine: 122
+      remote:
+        path: spfx-core/sp-odata-types/src\IODataPageContextInfo.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-odata-types'
+  - uid: '@microsoft/sp-odata-types.ISPSystemTimeZoneData.Bias'
+    name: Bias
+    fullName: Bias
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number Bias
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.ISPSystemTimeZoneData.DaylightBias'
+    name: DaylightBias
+    fullName: DaylightBias
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number DaylightBias
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.ISPSystemTimeZoneData.DaylightDate'
+    name: DaylightDate
+    fullName: DaylightDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISPSystemTime DaylightDate
+      return:
+        type:
+          - '@@microsoft/sp-odata-types.ISPSystemTime'
+  - uid: '@microsoft/sp-odata-types.ISPSystemTimeZoneData.Description'
+    name: Description
+    fullName: Description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string Description
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-odata-types.ISPSystemTimeZoneData.Id'
+    name: Id
+    fullName: Id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number Id
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.ISPSystemTimeZoneData.StandardBias'
+    name: StandardBias
+    fullName: StandardBias
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number StandardBias
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-odata-types.ISPSystemTimeZoneData.StandardDate'
+    name: StandardDate
+    fullName: StandardDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ISPSystemTime StandardDate
+      return:
+        type:
+          - '@@microsoft/sp-odata-types.ISPSystemTime'
