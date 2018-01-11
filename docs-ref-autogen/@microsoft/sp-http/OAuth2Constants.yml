@@ -34,7 +34,7 @@ items:
       has been retrieved, the page will redirect to the page attempting to
       request an access token.
     syntax:
-      content: static string ACQUIRE_REPLY_URL_QUERY_PARAM
+      content: 'public static ACQUIRE_REPLY_URL_QUERY_PARAM: string = "redirect"'
       return:
         type:
           - string
@@ -51,7 +51,7 @@ items:
 
       will wait until the id token has been retrieved.
     syntax:
-      content: static string SINGLE_SIGN_ON_REPLY_URL
+      content: 'public static SINGLE_SIGN_ON_REPLY_URL: string = "singlesignon.aspx"'
       return:
         type:
           - string
@@ -70,7 +70,9 @@ items:
 
       https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects
     syntax:
-      content: static string SPO_WEB_APP_PRINCIPAL_ID
+      content: >-
+        public static SPO_WEB_APP_PRINCIPAL_ID: string =
+        "57fb890c-0dab-4253-a5e0-7188c88b2bb4"
       return:
         type:
           - string

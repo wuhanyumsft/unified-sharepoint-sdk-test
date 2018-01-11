@@ -52,7 +52,7 @@ items:
 
       https://fetch.spec.whatwg.org/
     syntax:
-      content: HttpClientConfiguration v1
+      content: 'v1: HttpClientConfiguration'
       return:
         type:
           - '@@microsoft/sp-http.HttpClientConfiguration'

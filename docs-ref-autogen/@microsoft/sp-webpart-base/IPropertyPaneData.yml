@@ -37,7 +37,7 @@ items:
     type: property
     summary: Property pane configuration.
     syntax:
-      content: IPropertyPaneConfiguration configuration
+      content: 'configuration: IPropertyPaneConfiguration'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IPropertyPaneConfiguration'
@@ -51,7 +51,7 @@ items:
     summary: Indicates whether the web part's configuration is reactive or not.
     optional: true
     syntax:
-      content: boolean isReactive
+      content: 'isReactive?: boolean'
       return:
         type:
           - boolean
@@ -66,7 +66,7 @@ items:
       Single callback for all the possible configuration events of the
       PropertyPane.
     syntax:
-      content: '(eventType: WebPartConfigurationEvent) => void onConfigurationEvent'
+      content: 'onConfigurationEvent: (eventType: WebPartConfigurationEvent) => void'
       return:
         type:
           - '(eventType: WebPartConfigurationEvent) => void'
@@ -81,7 +81,9 @@ items:
       Notification event fired when the property pane field is changed and
       has already been validated and modified.
     syntax:
-      content: '(propertyName: string, newValue: any) => void onPropertyPaneFieldChanged'
+      content: >-
+        onPropertyPaneFieldChanged: (propertyName: string, newValue: any) =>
+        void
       return:
         type:
           - '(propertyName: string, newValue: any) => void'
@@ -94,7 +96,7 @@ items:
     type: property
     summary: Event callback fired after the PropertyPane is rendered.
     syntax:
-      content: () => void onRendered
+      content: 'onRendered: () => void'
       return:
         type:
           - () => void
@@ -107,7 +109,7 @@ items:
     type: property
     summary: Property bag from the web part.
     syntax:
-      content: any properties
+      content: 'properties: any'
       return:
         type:
           - any
@@ -121,7 +123,7 @@ items:
     summary: Callback to re-render the PropertyPane.
     optional: true
     syntax:
-      content: () => void render
+      content: 'render?: () => void'
       return:
         type:
           - () => void
@@ -139,7 +141,7 @@ items:
          2. Switching between the web parts while the PropertyPane is open.
     optional: true
     syntax:
-      content: boolean shouldResetState
+      content: 'shouldResetState?: boolean'
       return:
         type:
           - boolean
@@ -152,7 +154,7 @@ items:
     type: property
     summary: Title of the web part.
     syntax:
-      content: string title
+      content: 'title: string'
       return:
         type:
           - string
@@ -165,7 +167,7 @@ items:
     type: property
     summary: Web part instance id.
     syntax:
-      content: string webPartId
+      content: 'webPartId: string'
       return:
         type:
           - string

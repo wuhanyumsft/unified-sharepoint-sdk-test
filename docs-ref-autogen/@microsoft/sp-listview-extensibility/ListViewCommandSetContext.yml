@@ -70,7 +70,7 @@ items:
     type: property
     summary: '{@inheritdoc @microsoft/sp-component-base:BaseComponentContext.manifest}'
     syntax:
-      content: ICommandSetExtensionManifest manifest
+      content: 'public manifest: ICommandSetExtensionManifest'
       return:
         type:
           - ICommandSetExtensionManifest

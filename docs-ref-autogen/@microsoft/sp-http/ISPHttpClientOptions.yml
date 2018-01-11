@@ -34,7 +34,7 @@ items:
     summary: Configure the SPWeb URL for authentication.
     optional: true
     syntax:
-      content: string webUrl
+      content: 'webUrl?: string'
       return:
         type:
           - string

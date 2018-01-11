@@ -48,7 +48,7 @@ items:
     type: property
     summary: Reference to the DOM element that hosts this client side component.
     syntax:
-      content: HTMLElement domElement
+      content: 'domElement: HTMLElement'
       return:
         type:
           - HTMLElement
@@ -61,7 +61,7 @@ items:
     type: property
     summary: Web part event aggregator.
     syntax:
-      content: IEventAggregator eventAggregator
+      content: 'eventAggregator: IEventAggregator'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IEventAggregator'
@@ -74,7 +74,7 @@ items:
     type: property
     summary: GraphHttpClient instance scoped to this web part.
     syntax:
-      content: GraphHttpClient graphHttpClient
+      content: 'graphHttpClient: GraphHttpClient'
       return:
         type:
           - GraphHttpClient
@@ -88,7 +88,7 @@ items:
     type: property
     summary: Web part host.
     syntax:
-      content: IWebPartHost host
+      content: 'host: IWebPartHost'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IWebPartHost'
@@ -101,7 +101,7 @@ items:
     type: property
     summary: HttpClient instance scoped to this web part.
     syntax:
-      content: HttpClient httpClient
+      content: 'httpClient: HttpClient'
       return:
         type:
           - HttpClient
@@ -114,7 +114,7 @@ items:
     type: property
     summary: Web part instance id. This is a globally unique value.
     syntax:
-      content: string instanceId
+      content: 'instanceId: string'
       return:
         type:
           - string
@@ -127,7 +127,7 @@ items:
     type: property
     summary: Manifest for the client side web part.
     syntax:
-      content: IClientSideWebPartManifestInstance<any> manifest
+      content: 'manifest: IClientSideWebPartManifestInstance<any>'
       return:
         type:
           - IClientSideWebPartManifestInstance<any>
@@ -140,7 +140,7 @@ items:
     type: property
     summary: SharePoint page context.
     syntax:
-      content: PageContext pageContext
+      content: 'pageContext: PageContext'
       return:
         type:
           - PageContext
@@ -153,7 +153,7 @@ items:
     type: property
     summary: Accessor for common web part property pane operations.
     syntax:
-      content: IPropertyPaneAccessor propertyPane
+      content: 'propertyPane: IPropertyPaneAccessor'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IPropertyPaneAccessor'
@@ -166,7 +166,7 @@ items:
     type: property
     summary: SPHttpClient instance scoped to this web part.
     syntax:
-      content: SPHttpClient spHttpClient
+      content: 'spHttpClient: SPHttpClient'
       return:
         type:
           - SPHttpClient
@@ -179,7 +179,7 @@ items:
     type: property
     summary: Web part status renderer.
     syntax:
-      content: IClientSideWebPartStatusRenderer statusRenderer
+      content: 'statusRenderer: IClientSideWebPartStatusRenderer'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IClientSideWebPartStatusRenderer'
@@ -192,7 +192,7 @@ items:
     type: property
     summary: Web part tag to be used for logging and telemetry.
     syntax:
-      content: string webPartTag
+      content: 'webPartTag: string'
       return:
         type:
           - string

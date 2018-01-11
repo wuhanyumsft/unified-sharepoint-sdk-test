@@ -28,7 +28,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number FormDigestTimeoutSeconds
+      content: 'FormDigestTimeoutSeconds: number'
       return:
         type:
           - number
@@ -41,7 +41,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string FormDigestValue
+      content: 'FormDigestValue: string'
       return:
         type:
           - string

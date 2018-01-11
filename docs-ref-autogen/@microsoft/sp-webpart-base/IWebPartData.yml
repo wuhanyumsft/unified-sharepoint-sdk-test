@@ -43,7 +43,7 @@ items:
     type: property
     summary: Web part data version
     syntax:
-      content: string dataVersion
+      content: 'dataVersion: string'
       return:
         type:
           - string
@@ -79,7 +79,7 @@ items:
     summary: Web part description
     optional: true
     syntax:
-      content: string description
+      content: 'description?: string'
       return:
         type:
           - string
@@ -98,7 +98,7 @@ items:
     type: property
     summary: Universally unique web part Type id.
     syntax:
-      content: string id
+      content: 'id: string'
       return:
         type:
           - string
@@ -122,7 +122,7 @@ items:
       This id is expected to be universally unique across time and page
       boundaries.
     syntax:
-      content: string instanceId
+      content: 'instanceId: string'
       return:
         type:
           - string
@@ -152,7 +152,7 @@ items:
       of these properties.
     optional: true
     syntax:
-      content: any properties
+      content: 'properties?: any'
       return:
         type:
           - any
@@ -181,7 +181,7 @@ items:
       Required: no
     optional: true
     syntax:
-      content: ISerializedServerProcessedData serverProcessedContent
+      content: 'serverProcessedContent?: ISerializedServerProcessedData'
       return:
         type:
           - '@@microsoft/sp-webpart-base.ISerializedServerProcessedData'
@@ -194,7 +194,7 @@ items:
     type: property
     summary: Web part title
     syntax:
-      content: string title
+      content: 'title: string'
       return:
         type:
           - string

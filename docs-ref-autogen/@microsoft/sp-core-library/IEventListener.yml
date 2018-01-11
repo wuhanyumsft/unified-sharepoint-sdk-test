@@ -28,7 +28,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: '(eventArgs: EventArgs) => void eventHandler'
+      content: 'eventHandler: (eventArgs: EventArgs) => void'
       return:
         type:
           - '(eventArgs: EventArgs) => void'
@@ -41,7 +41,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: IEventObserver observer
+      content: 'observer: IEventObserver'
       return:
         type:
           - '@@microsoft/sp-core-library.IEventObserver'

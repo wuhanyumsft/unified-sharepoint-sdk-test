@@ -30,7 +30,7 @@ items:
     type: property
     summary: The message returned from ADAL fails to retrieve a token from Azure AD.
     syntax:
-      content: string errorMessage
+      content: 'errorMessage: string'
       return:
         type:
           - string
@@ -46,7 +46,7 @@ items:
       Authentication
     optional: true
     syntax:
-      content: string redirectUrl
+      content: 'redirectUrl?: string'
       return:
         type:
           - string

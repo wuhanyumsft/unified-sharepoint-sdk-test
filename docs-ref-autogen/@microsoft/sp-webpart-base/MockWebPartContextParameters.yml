@@ -47,7 +47,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: HTMLElement domElement
+      content: 'public domElement: HTMLElement =  document.createElement(''div'')'
       return:
         type:
           - HTMLElement
@@ -60,7 +60,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: IEventAggregator eventAggregator
+      content: 'public eventAggregator: IEventAggregator =  {} as any'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IEventAggregator'
@@ -73,7 +73,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: GraphHttpClient graphHttpClient
+      content: 'public graphHttpClient: GraphHttpClient =  {} as any'
       return:
         type:
           - GraphHttpClient
@@ -86,7 +86,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: IWebPartHost host
+      content: 'public host: IWebPartHost =  {} as any'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IWebPartHost'
@@ -99,7 +99,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: HttpClient httpClient
+      content: 'public httpClient: HttpClient =  {} as any'
       return:
         type:
           - HttpClient
@@ -112,7 +112,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string instanceId
+      content: 'public instanceId: string = "wpInstanceId"'
       return:
         type:
           - string
@@ -152,7 +152,9 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string loggingTag
+      content: >-
+        public loggingTag: string =
+        "WebPart.daf0b71c-6de8-4ef7-b511-faae7c388708.0ae4973a-70e3-451e-9f1f-3f25e5455a60"
       return:
         type:
           - string
@@ -165,7 +167,9 @@ items:
     type: property
     summary: ''
     syntax:
-      content: IClientSideWebPartManifestInstance<__type> manifest
+      content: >-
+        public manifest: IClientSideWebPartManifestInstance<__type> =  new
+        MockWebPartManifestInstance()
       return:
         type:
           - IClientSideWebPartManifestInstance<__type>
@@ -178,7 +182,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ServiceScope parentServiceScope
+      content: 'public parentServiceScope: ServiceScope =  ServiceScope.startNewRoot()'
       return:
         type:
           - ServiceScope
@@ -191,7 +195,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: IPropertyPaneAccessor propertyPane
+      content: "public propertyPane: IPropertyPaneAccessor =  {\r\n    open: () => { /* no-op */ },\r\n    refresh: () => { /* no-op */ }\r\n  } as any"
       return:
         type:
           - '@@microsoft/sp-webpart-base.IPropertyPaneAccessor'
@@ -215,7 +219,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: SPHttpClient spHttpClient
+      content: 'public spHttpClient: SPHttpClient =  {} as any'
       return:
         type:
           - SPHttpClient
@@ -228,7 +232,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: IClientSideWebPartStatusRenderer statusRenderer
+      content: 'public statusRenderer: IClientSideWebPartStatusRenderer =  {} as any'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IClientSideWebPartStatusRenderer'
@@ -241,7 +245,9 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string webPartTag
+      content: >-
+        public webPartTag: string =
+        "WebPart.daf0b71c-6de8-4ef7-b511-faae7c388708.0ae4973a-70e3-451e-9f1f-3f25e5455a60"
       return:
         type:
           - string

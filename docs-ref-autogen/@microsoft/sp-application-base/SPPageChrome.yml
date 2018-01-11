@@ -34,7 +34,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: HTMLDivElement appAndPropertyPaneDiv
+      content: 'public appAndPropertyPaneDiv: HTMLDivElement'
       return:
         type:
           - HTMLDivElement
@@ -47,7 +47,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: HTMLDivElement appDiv
+      content: 'public appDiv: HTMLDivElement'
       return:
         type:
           - HTMLDivElement
@@ -74,7 +74,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: HTMLDivElement dialogContainerDiv
+      content: 'public dialogContainerDiv: HTMLDivElement'
       return:
         type:
           - HTMLDivElement
@@ -104,7 +104,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: HTMLDivElement propertyPaneContainerDiv
+      content: 'public propertyPaneContainerDiv: HTMLDivElement'
       return:
         type:
           - HTMLDivElement
@@ -131,7 +131,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: HTMLDivElement suiteNavDiv
+      content: 'public suiteNavDiv: HTMLDivElement'
       return:
         type:
           - HTMLDivElement

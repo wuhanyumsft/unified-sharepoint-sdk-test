@@ -32,7 +32,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: BaseDialog dialog
+      content: 'dialog: BaseDialog'
       return:
         type:
           - '@@microsoft/sp-dialog.BaseDialog'
@@ -45,7 +45,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: Guid id
+      content: 'id: Guid'
       return:
         type:
           - Guid
@@ -59,7 +59,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: boolean isSecondary
+      content: 'isSecondary?: boolean'
       return:
         type:
           - boolean
@@ -73,7 +73,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: IDialogShowOptions options
+      content: 'options?: IDialogShowOptions'
       return:
         type:
           - '@@microsoft/sp-dialog.IDialogShowOptions'
@@ -86,7 +86,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: '(err: Error) => void reject'
+      content: 'reject: (err: Error) => void'
       return:
         type:
           - '(err: Error) => void'
@@ -99,7 +99,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => void resolve
+      content: 'resolve: () => void'
       return:
         type:
           - () => void

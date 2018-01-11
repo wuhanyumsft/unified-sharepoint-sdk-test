@@ -34,7 +34,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string displayName
+      content: 'displayName: string'
       return:
         type:
           - string
@@ -47,7 +47,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string email
+      content: 'email: string'
       return:
         type:
           - string
@@ -61,7 +61,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: SPDayOfWeek firstDayOfWeek
+      content: 'firstDayOfWeek?: SPDayOfWeek'
       return:
         type:
           - '@@microsoft/sp-page-context.SPDayOfWeek'
@@ -74,7 +74,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean isAnonymousGuestUser
+      content: 'isAnonymousGuestUser: boolean'
       return:
         type:
           - boolean
@@ -87,7 +87,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean isExternalGuestUser
+      content: 'isExternalGuestUser: boolean'
       return:
         type:
           - boolean
@@ -100,7 +100,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string loginName
+      content: 'loginName: string'
       return:
         type:
           - string
@@ -113,7 +113,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean preferUserTimeZone
+      content: 'preferUserTimeZone: boolean'
       return:
         type:
           - boolean
@@ -127,7 +127,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: ISPTimeZoneData timeZoneInfo
+      content: 'timeZoneInfo?: ISPTimeZoneData'
       return:
         type:
           - '@@microsoft/sp-page-context.ISPTimeZoneData'

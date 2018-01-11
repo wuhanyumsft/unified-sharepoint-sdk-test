@@ -33,7 +33,7 @@ items:
     summary: Indicates whether the property should be serialized as HTML.
     optional: true
     syntax:
-      content: boolean isHtmlString
+      content: 'isHtmlString?: boolean'
       return:
         type:
           - boolean
@@ -76,7 +76,7 @@ items:
       perform services like link fix-up, search indexing, loading from CDN, etc.
     optional: true
     syntax:
-      content: boolean isImageSource
+      content: 'isImageSource?: boolean'
       return:
         type:
           - boolean
@@ -94,7 +94,7 @@ items:
       perform services like search indexing, link fix-up, loading from CDN, etc.
     optional: true
     syntax:
-      content: boolean isLink
+      content: 'isLink?: boolean'
       return:
         type:
           - boolean
@@ -110,7 +110,7 @@ items:
       search-indexed by SharePoint.
     optional: true
     syntax:
-      content: boolean isSearchablePlainText
+      content: 'isSearchablePlainText?: boolean'
       return:
         type:
           - boolean
@@ -162,7 +162,7 @@ items:
       will be removed from the persisted data.
     optional: true
     syntax:
-      content: boolean shouldNotPersist
+      content: 'shouldNotPersist?: boolean'
       return:
         type:
           - boolean

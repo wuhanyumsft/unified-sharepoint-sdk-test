@@ -30,7 +30,7 @@ items:
     type: property
     summary: The sequence number from customAction that is used for ordering
     syntax:
-      content: number sequence
+      content: 'sequence: number'
       return:
         type:
           - number

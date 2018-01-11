@@ -38,7 +38,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string absoluteUrl
+      content: 'absoluteUrl: string'
       return:
         type:
           - string
@@ -51,7 +51,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string description
+      content: 'description: string'
       return:
         type:
           - string
@@ -65,7 +65,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: SPDayOfWeek firstDayOfWeek
+      content: 'firstDayOfWeek?: SPDayOfWeek'
       return:
         type:
           - '@@microsoft/sp-page-context.SPDayOfWeek'
@@ -78,7 +78,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string id
+      content: 'id: string'
       return:
         type:
           - string
@@ -91,7 +91,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean isAppWeb
+      content: 'isAppWeb: boolean'
       return:
         type:
           - boolean
@@ -104,7 +104,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number language
+      content: 'language: number'
       return:
         type:
           - number
@@ -117,7 +117,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string logoUrl
+      content: 'logoUrl: string'
       return:
         type:
           - string
@@ -130,7 +130,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: IODataBasePermission permissions
+      content: 'permissions: IODataBasePermission'
       return:
         type:
           - IODataBasePermission
@@ -143,7 +143,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string serverRelativeUrl
+      content: 'serverRelativeUrl: string'
       return:
         type:
           - string
@@ -156,7 +156,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string templateName
+      content: 'templateName: string'
       return:
         type:
           - string
@@ -170,7 +170,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: ISPTimeZoneData timeZoneInfo
+      content: 'timeZoneInfo?: ISPTimeZoneData'
       return:
         type:
           - '@@microsoft/sp-page-context.ISPTimeZoneData'
@@ -183,7 +183,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string title
+      content: 'title: string'
       return:
         type:
           - string

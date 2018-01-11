@@ -31,7 +31,7 @@ items:
     type: property
     summary: Height of pop up window.
     syntax:
-      content: number height
+      content: 'height: number'
       return:
         type:
           - number
@@ -44,7 +44,7 @@ items:
     type: property
     summary: The position of pop up window.
     syntax:
-      content: PopupWindowPosition positionWindowPosition
+      content: 'positionWindowPosition: PopupWindowPosition'
       return:
         type:
           - '@@microsoft/sp-webpart-base.PopupWindowPosition'
@@ -57,7 +57,7 @@ items:
     type: property
     summary: Title of pop up window.
     syntax:
-      content: string title
+      content: 'title: string'
       return:
         type:
           - string
@@ -70,7 +70,7 @@ items:
     type: property
     summary: Width of pop up window.
     syntax:
-      content: number width
+      content: 'width: number'
       return:
         type:
           - number

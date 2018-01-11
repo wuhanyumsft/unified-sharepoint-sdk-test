@@ -48,7 +48,7 @@ items:
       Overrides the IClientSideComponentManifest.alias value provided in the
       manifest.
     syntax:
-      content: string alias
+      content: 'public alias: string'
       return:
         type:
           - string

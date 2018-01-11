@@ -31,7 +31,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number baseTemplate
+      content: 'baseTemplate: number'
       return:
         type:
           - number
@@ -44,7 +44,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string id
+      content: 'id: string'
       return:
         type:
           - string
@@ -57,7 +57,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: IODataBasePermission permissions
+      content: 'permissions: IODataBasePermission'
       return:
         type:
           - IODataBasePermission
@@ -70,7 +70,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string serverRelativeUrl
+      content: 'serverRelativeUrl: string'
       return:
         type:
           - string
@@ -83,7 +83,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string title
+      content: 'title: string'
       return:
         type:
           - string

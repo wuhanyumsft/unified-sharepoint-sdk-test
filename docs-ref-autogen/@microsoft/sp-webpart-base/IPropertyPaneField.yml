@@ -31,7 +31,7 @@ items:
     type: property
     summary: Strongly typed properties object. Specific to each field type.
     syntax:
-      content: TProperties properties
+      content: 'properties: TProperties'
       return:
         type:
           - TProperties
@@ -46,7 +46,7 @@ items:
     summary: Whether this control should be focused.
     optional: true
     syntax:
-      content: boolean shouldFocus
+      content: 'shouldFocus?: boolean'
       return:
         type:
           - boolean
@@ -60,7 +60,7 @@ items:
     type: property
     summary: Target property from the web part's property bag.
     syntax:
-      content: string targetProperty
+      content: 'targetProperty: string'
       return:
         type:
           - string
@@ -73,7 +73,7 @@ items:
     type: property
     summary: Type of the PropertyPane field.
     syntax:
-      content: PropertyPaneFieldType type
+      content: 'type: PropertyPaneFieldType'
       return:
         type:
           - '@@microsoft/sp-webpart-base.PropertyPaneFieldType'

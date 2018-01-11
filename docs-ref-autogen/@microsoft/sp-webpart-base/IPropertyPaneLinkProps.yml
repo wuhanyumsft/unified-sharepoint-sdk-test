@@ -33,7 +33,7 @@ items:
     summary: Whether the property pane link is disabled or not.
     optional: true
     syntax:
-      content: boolean disabled
+      content: 'disabled?: boolean'
       return:
         type:
           - boolean
@@ -46,7 +46,7 @@ items:
     type: property
     summary: Location to which the link is targeted to.
     syntax:
-      content: string href
+      content: 'href: string'
       return:
         type:
           - string
@@ -60,7 +60,7 @@ items:
     summary: The props of pop up window.
     optional: true
     syntax:
-      content: IPopupWindowProps popupWindowProps
+      content: 'popupWindowProps?: IPopupWindowProps'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IPopupWindowProps'
@@ -74,7 +74,7 @@ items:
     summary: This attribute specifies where to display the linked resource.
     optional: true
     syntax:
-      content: string target
+      content: 'target?: string'
       return:
         type:
           - string
@@ -98,7 +98,7 @@ items:
     type: property
     summary: Display text for the link.
     syntax:
-      content: string text
+      content: 'text: string'
       return:
         type:
           - string

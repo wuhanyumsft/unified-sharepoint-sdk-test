@@ -28,7 +28,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: IPropertyPaneData data
+      content: 'data: IPropertyPaneData'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IPropertyPaneData'

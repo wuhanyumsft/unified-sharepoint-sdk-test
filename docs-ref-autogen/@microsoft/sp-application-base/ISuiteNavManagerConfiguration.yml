@@ -48,7 +48,7 @@ items:
       Gets the cache token that is used to determine whether or not the
       Suite Nav data that is cached is valid.
     syntax:
-      content: string cacheToken
+      content: 'cacheToken: string'
       return:
         type:
           - string
@@ -62,7 +62,7 @@ items:
     type: property
     summary: Property representing the culture name (e.g. "en-us")
     syntax:
-      content: string currentUICultureName
+      content: 'currentUICultureName: string'
       return:
         type:
           - string
@@ -91,7 +91,7 @@ items:
 
       suite nav's hamburger button will not be shown.
     syntax:
-      content: '"undefined" | undefined hamburgerCallback'
+      content: 'hamburgerCallback: "undefined" | undefined'
       return:
         type:
           - '"undefined" | undefined'
@@ -119,7 +119,7 @@ items:
     type: property
     summary: Callback used to modify the Suite Nav to be app specific.
     syntax:
-      content: '(suiteNavData: ISuiteNavData) => ISuiteNavData modifySuiteNavData'
+      content: 'modifySuiteNavData: (suiteNavData: ISuiteNavData) => ISuiteNavData'
       return:
         type:
           - '(suiteNavData: ISuiteNavData) => ISuiteNavData'
@@ -133,7 +133,7 @@ items:
     type: property
     summary: Represents the set of settings for rendering the Suite Nav.
     syntax:
-      content: IO365ShellRenderSettings o365ShellRenderSettings
+      content: 'o365ShellRenderSettings: IO365ShellRenderSettings'
       return:
         type:
           - '@@microsoft/sp-application-base.IO365ShellRenderSettings'
@@ -147,7 +147,7 @@ items:
     type: property
     summary: Callback to use when suite nav basic shell has render.
     syntax:
-      content: '"undefined" | undefined suiteNavPostRenderCallback'
+      content: 'suiteNavPostRenderCallback: "undefined" | undefined'
       return:
         type:
           - '"undefined" | undefined'
@@ -160,7 +160,7 @@ items:
     type: property
     summary: Represents the user key used to uniquely identify a cache entry.
     syntax:
-      content: string systemUserKey
+      content: 'systemUserKey: string'
       return:
         type:
           - string
@@ -176,7 +176,7 @@ items:
       Represents the web server relative url where we would ping the Suite Nav
       service.
     syntax:
-      content: string webServerRelativeUrl
+      content: 'webServerRelativeUrl: string'
       return:
         type:
           - string

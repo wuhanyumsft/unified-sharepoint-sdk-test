@@ -33,7 +33,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string alias
+      content: 'public alias: string = "MockWebPart"'
       return:
         type:
           - string
@@ -46,7 +46,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: function componentType
+      content: 'public componentType: function = "WebPart"'
       return:
         type:
           - function
@@ -59,7 +59,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string id
+      content: 'public id: string = "wpid"'
       return:
         type:
           - string
@@ -72,7 +72,9 @@ items:
     type: property
     summary: ''
     syntax:
-      content: IClientSideComponentLoaderConfiguration loaderConfig
+      content: >-
+        public loaderConfig: IClientSideComponentLoaderConfiguration = 
+        TEST_UNDEFINED
       return:
         type:
           - IClientSideComponentLoaderConfiguration
@@ -85,7 +87,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number manifestVersion
+      content: 'public manifestVersion: number = 2'
       return:
         type:
           - number
@@ -98,7 +100,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'IClientSideWebPartManifestEntry<__type>[] preconfiguredEntries'
+      content: "public preconfiguredEntries: IClientSideWebPartManifestEntry<__type>[] =  [{\r\n    title: { default: 'wpName' },\r\n    description: { default: 'wpDescription' },\r\n    officeFabricIconFontName: 'wpIcon',\r\n    iconImageUrl: 'wpIcon',\r\n    groupId: 'group',\r\n    properties: {}\r\n  }]"
       return:
         type:
           - 'IClientSideWebPartManifestEntry<__type>[]'
@@ -111,7 +113,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string version
+      content: 'public version: string = "1.0.0"'
       return:
         type:
           - string

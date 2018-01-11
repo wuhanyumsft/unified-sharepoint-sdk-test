@@ -30,7 +30,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: BaseDialog dialog
+      content: 'dialog?: BaseDialog'
       return:
         type:
           - '@@microsoft/sp-dialog.BaseDialog'
@@ -44,7 +44,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: boolean isContentReady
+      content: 'isContentReady?: boolean'
       return:
         type:
           - boolean
@@ -58,7 +58,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: boolean isOpen
+      content: 'isOpen?: boolean'
       return:
         type:
           - boolean

@@ -31,7 +31,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: HTMLDivElement domElement
+      content: 'domElement: HTMLDivElement'
       return:
         type:
           - HTMLDivElement
@@ -45,7 +45,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: IPlaceholderCreateContentOptions options
+      content: 'options?: IPlaceholderCreateContentOptions'
       return:
         type:
           - '@@microsoft/sp-application-base.IPlaceholderCreateContentOptions'
@@ -58,7 +58,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: Placeholder placeholder
+      content: 'placeholder: Placeholder'
       return:
         type:
           - '@@microsoft/sp-application-base.Placeholder'
@@ -71,7 +71,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number sequence
+      content: 'sequence: number'
       return:
         type:
           - number

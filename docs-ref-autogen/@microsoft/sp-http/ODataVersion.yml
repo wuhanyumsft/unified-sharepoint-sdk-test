@@ -67,7 +67,7 @@ items:
     type: property
     summary: Represents version 3.0 for the "OData-Version" header
     syntax:
-      content: static ODataVersion v3
+      content: 'public static v3: ODataVersion =  new ODataVersion(''3.0'')'
       return:
         type:
           - '@@microsoft/sp-http.ODataVersion'
@@ -80,7 +80,7 @@ items:
     type: property
     summary: Represents version 4.0 for the "OData-Version" header
     syntax:
-      content: static ODataVersion v4
+      content: 'public static v4: ODataVersion =  new ODataVersion(''4.0'')'
       return:
         type:
           - '@@microsoft/sp-http.ODataVersion'

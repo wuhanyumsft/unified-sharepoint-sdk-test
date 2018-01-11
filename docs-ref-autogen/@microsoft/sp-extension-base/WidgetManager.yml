@@ -27,7 +27,9 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static ServiceKey<WidgetManager> serviceKey
+      content: >-
+        public static serviceKey: ServiceKey<WidgetManager> = 
+        ServiceKey.create<WidgetManager>('test:WidgetManager', WidgetManager)
       return:
         type:
           - ServiceKey<@@microsoft/sp-extension-base.WidgetManager>

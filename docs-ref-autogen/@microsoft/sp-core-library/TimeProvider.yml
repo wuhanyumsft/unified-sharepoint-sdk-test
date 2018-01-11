@@ -58,7 +58,10 @@ items:
     type: property
     summary: The service key for ITimeProvider.
     syntax:
-      content: static ServiceKey<ITimeProvider> serviceKey
+      content: >-
+        public static serviceKey: ServiceKey<ITimeProvider> = 
+        ServiceKey.create<ITimeProvider>('sp-core-library:TimeProvider',
+        TimeProvider)
       return:
         type:
           - >-

@@ -62,7 +62,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string ABOUT_ME
+      content: 'public static ABOUT_ME: string = "ShellAboutMe"'
       return:
         type:
           - string
@@ -75,7 +75,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string ADD_APP
+      content: 'public static ADD_APP: string = "SuiteMenu_zz5_MenuItemCreate"'
       return:
         type:
           - string
@@ -88,7 +88,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string ADMIN
+      content: 'public static ADMIN: string = "ShellAdmin"'
       return:
         type:
           - string
@@ -101,7 +101,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string ALCHEMY
+      content: 'public static ALCHEMY: string = "ShellAlchemy"'
       return:
         type:
           - string
@@ -114,7 +114,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string CALENDAR
+      content: 'public static CALENDAR: string = "ShellCalendar"'
       return:
         type:
           - string
@@ -127,7 +127,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string COMMUNITY
+      content: 'public static COMMUNITY: string = "ShellCommunity"'
       return:
         type:
           - string
@@ -140,7 +140,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string CREATE_PAGE
+      content: 'public static CREATE_PAGE: string = "SuiteMenu_MenuItemCreatePage"'
       return:
         type:
           - string
@@ -153,7 +153,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string CUSTOM_SETTINGS_1
+      content: 'public static CUSTOM_SETTINGS_1: string = "WorkloadSettingsSubLinks1"'
       return:
         type:
           - string
@@ -166,7 +166,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string CUSTOM_SETTINGS_2
+      content: 'public static CUSTOM_SETTINGS_2: string = "WorkloadSettingsSubLinks2"'
       return:
         type:
           - string
@@ -179,7 +179,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string CUSTOM_SETTINGS_3
+      content: 'public static CUSTOM_SETTINGS_3: string = "WorkloadSettingsSubLinks3"'
       return:
         type:
           - string
@@ -192,7 +192,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string DELVE
+      content: 'public static DELVE: string = "ShellOfficeGraph"'
       return:
         type:
           - string
@@ -205,7 +205,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string DIAGNOSTICS
+      content: 'public static DIAGNOSTICS: string = "Diagnostics"'
       return:
         type:
           - string
@@ -218,7 +218,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string EXCEL
+      content: 'public static EXCEL: string = "ShellExcelOnline"'
       return:
         type:
           - string
@@ -231,7 +231,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string FEEDBACK
+      content: 'public static FEEDBACK: string = "ShellFeedback"'
       return:
         type:
           - string
@@ -244,7 +244,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string HELP
+      content: 'public static HELP: string = "HelpLink"'
       return:
         type:
           - string
@@ -257,7 +257,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string LEGAL
+      content: 'public static LEGAL: string = "ShellLegal"'
       return:
         type:
           - string
@@ -270,7 +270,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string MAIL
+      content: 'public static MAIL: string = "ShellMail"'
       return:
         type:
           - string
@@ -283,7 +283,9 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string MY_SETTINGS
+      content: >-
+        public static MY_SETTINGS: string =
+        "SuiteMenu_zz2_ID_PersonalInformation"
       return:
         type:
           - string
@@ -296,7 +298,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string O365_SETTINGS
+      content: 'public static O365_SETTINGS: string = "ShellO365Settings"'
       return:
         type:
           - string
@@ -309,7 +311,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string ONEDRIVE
+      content: 'public static ONEDRIVE: string = "ShellDocuments"'
       return:
         type:
           - string
@@ -322,7 +324,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string ONENOTE
+      content: 'public static ONENOTE: string = "ShellOneNoteOnline"'
       return:
         type:
           - string
@@ -335,7 +337,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string PEOPLE
+      content: 'public static PEOPLE: string = "ShellPeople"'
       return:
         type:
           - string
@@ -348,7 +350,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string POWERPOINT
+      content: 'public static POWERPOINT: string = "ShellPowerPointOnline"'
       return:
         type:
           - string
@@ -361,7 +363,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string POWER_BI
+      content: 'public static POWER_BI: string = "ShellPowerBI"'
       return:
         type:
           - string
@@ -374,7 +376,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string PRIVACY
+      content: 'public static PRIVACY: string = "ShellPrivacy"'
       return:
         type:
           - string
@@ -387,7 +389,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string SETTINGS
+      content: 'public static SETTINGS: string = "ShellSettings"'
       return:
         type:
           - string
@@ -400,7 +402,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string SIGN_OUT
+      content: 'public static SIGN_OUT: string = "ShellSignout"'
       return:
         type:
           - string
@@ -413,7 +415,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string SITES
+      content: 'public static SITES: string = "ShellSites"'
       return:
         type:
           - string
@@ -426,7 +428,9 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string SITE_CONTENTS
+      content: >-
+        public static SITE_CONTENTS: string =
+        "SuiteMenu_zz6_MenuItem_ViewAllSiteContents"
       return:
         type:
           - string
@@ -439,7 +443,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string SITE_SETTINGS
+      content: 'public static SITE_SETTINGS: string = "SuiteMenu_zz7_MenuItem_Settings"'
       return:
         type:
           - string
@@ -452,7 +456,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string SMILE
+      content: 'public static SMILE: string = "ShellSendASmile"'
       return:
         type:
           - string
@@ -465,7 +469,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string TASKS
+      content: 'public static TASKS: string = "ShellTasks"'
       return:
         type:
           - string
@@ -478,7 +482,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string USER_ACTIVITY
+      content: 'public static USER_ACTIVITY: string = "UserActivity"'
       return:
         type:
           - string
@@ -491,7 +495,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string VIDEO
+      content: 'public static VIDEO: string = "ShellVideo"'
       return:
         type:
           - string
@@ -504,7 +508,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string WORD
+      content: 'public static WORD: string = "ShellWordOnline"'
       return:
         type:
           - string
@@ -517,7 +521,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string YAMMER
+      content: 'public static YAMMER: string = "ShellYammer"'
       return:
         type:
           - string

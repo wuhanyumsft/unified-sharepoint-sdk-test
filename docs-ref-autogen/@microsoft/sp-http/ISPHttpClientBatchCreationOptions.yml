@@ -39,7 +39,7 @@ items:
       using this option.
     optional: true
     syntax:
-      content: string webUrl
+      content: 'webUrl?: string'
       return:
         type:
           - string

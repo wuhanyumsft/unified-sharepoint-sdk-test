@@ -29,7 +29,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string testName
+      content: 'testName: string'
       return:
         type:
           - string
@@ -42,7 +42,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string url
+      content: 'url: string'
       return:
         type:
           - string

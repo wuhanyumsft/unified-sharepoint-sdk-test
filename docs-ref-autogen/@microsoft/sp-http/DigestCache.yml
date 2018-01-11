@@ -114,7 +114,10 @@ items:
     type: property
     summary: The service key for IDigestCache.
     syntax:
-      content: static ServiceKey<IDigestCache> serviceKey
+      content: >-
+        public static serviceKey: ServiceKey<IDigestCache> = 
+        ServiceKey.create<IDigestCache>('sp-client-base:DigestCache',
+        DigestCache)
       return:
         type:
           - ServiceKey<@@microsoft/sp-http.IDigestCache>

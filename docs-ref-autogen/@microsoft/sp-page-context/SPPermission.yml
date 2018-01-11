@@ -78,7 +78,9 @@ items:
 
       Foundation–compatible editor.
     syntax:
-      content: static SPPermission addAndCustomizePages
+      content: >-
+        public static addAndCustomizePages: SPPermission =  new SPPermission({
+        High: 0x0, Low: 0x40000 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -91,7 +93,9 @@ items:
     type: property
     summary: Add or remove personal web parts on a web part Page.
     syntax:
-      content: static SPPermission addDelPrivateWebParts
+      content: >-
+        public static addDelPrivateWebParts: SPPermission =  new SPPermission({
+        High: 0x0, Low: 0x10000000 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -106,7 +110,9 @@ items:
       Add items to lists, add documents to document libraries, and add Web
       discussion comments.
     syntax:
-      content: static SPPermission addListItems
+      content: >-
+        public static addListItems: SPPermission =  new SPPermission({ High:
+        0x0, Low: 0x2 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -119,7 +125,9 @@ items:
     type: property
     summary: Apply a style sheet (.css file) to the Web site.
     syntax:
-      content: static SPPermission applyStyleSheets
+      content: >-
+        public static applyStyleSheets: SPPermission =  new SPPermission({ High:
+        0x0, Low: 0x100000 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -132,7 +140,9 @@ items:
     type: property
     summary: Apply a theme or borders to the entire Web site.
     syntax:
-      content: static SPPermission applyThemeAndBorder
+      content: >-
+        public static applyThemeAndBorder: SPPermission =  new SPPermission({
+        High: 0x0, Low: 0x80000 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -145,7 +155,9 @@ items:
     type: property
     summary: Approve a minor version of a list item or document.
     syntax:
-      content: static SPPermission approveItems
+      content: >-
+        public static approveItems: SPPermission =  new SPPermission({ High:
+        0x0, Low: 0x10 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -160,7 +172,9 @@ items:
       Enumerate files and folders in a Web site using Microsoft Office
       SharePoint Designer 2007 and WebDAV interfaces.
     syntax:
-      content: static SPPermission browseDirectories
+      content: >-
+        public static browseDirectories: SPPermission =  new SPPermission({
+        High: 0x0, Low: 0x4000000 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -173,7 +187,9 @@ items:
     type: property
     summary: View information about users of the Web site.
     syntax:
-      content: static SPPermission browserUserInfo
+      content: >-
+        public static browserUserInfo: SPPermission =  new SPPermission({ High:
+        0x0, Low: 0x8000000 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -186,7 +202,9 @@ items:
     type: property
     summary: Discard or check in a document which is checked out to another user.
     syntax:
-      content: static SPPermission cancelCheckout
+      content: >-
+        public static cancelCheckout: SPPermission =  new SPPermission({ High:
+        0x0, Low: 0x100 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -199,7 +217,9 @@ items:
     type: property
     summary: Create e-mail alerts.
     syntax:
-      content: static SPPermission createAlerts
+      content: >-
+        public static createAlerts: SPPermission =  new SPPermission({ High:
+        0x80, Low: 0x0 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -214,7 +234,9 @@ items:
       Create a group of users that can be used anywhere within the site
       collection.
     syntax:
-      content: static SPPermission createGroups
+      content: >-
+        public static createGroups: SPPermission =  new SPPermission({ High:
+        0x0, Low: 0x1000000 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -227,7 +249,9 @@ items:
     type: property
     summary: Create a Web site using Self-Service Site Creation.
     syntax:
-      content: static SPPermission createSSCSite
+      content: >-
+        public static createSSCSite: SPPermission =  new SPPermission({ High:
+        0x0, Low: 0x400000 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -242,7 +266,9 @@ items:
       Delete items from a list, documents from a document library, and Web
       discussion comments in documents.
     syntax:
-      content: static SPPermission deleteListItems
+      content: >-
+        public static deleteListItems: SPPermission =  new SPPermission({ High:
+        0x0, Low: 0x8 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -255,7 +281,9 @@ items:
     type: property
     summary: Delete past versions of a list item or document.
     syntax:
-      content: static SPPermission deleteVersions
+      content: >-
+        public static deleteVersions: SPPermission =  new SPPermission({ High:
+        0x0, Low: 0x80 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -272,7 +300,9 @@ items:
 
       and customize web part Pages in document libraries.
     syntax:
-      content: static SPPermission editListItems
+      content: >-
+        public static editListItems: SPPermission =  new SPPermission({ High:
+        0x0, Low: 0x4 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -287,7 +317,9 @@ items:
       Allows a user to change his or her user information, such as adding a
       picture.
     syntax:
-      content: static SPPermission editMyUserInfo
+      content: >-
+        public static editMyUserInfo: SPPermission =  new SPPermission({ High:
+        0x100, Low: 0x0 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -302,7 +334,9 @@ items:
       Has no permissions on the Web site. Not available through the user
       interface.
     syntax:
-      content: static SPPermission emptyMask
+      content: >-
+        public static emptyMask: SPPermission =  new SPPermission({ High: 0x0,
+        Low: 0x0 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -317,7 +351,9 @@ items:
       Enumerate permissions on the Web site, list, folder, document, or list
       item.
     syntax:
-      content: static SPPermission enumeratePermissions
+      content: >-
+        public static enumeratePermissions: SPPermission =  new SPPermission({
+        High: 0x40000000, Low: 0x0 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -332,7 +368,9 @@ items:
       Has all permissions on the Web site. Not available through the user
       interface.
     syntax:
-      content: static SPPermission fullMask
+      content: >-
+        public static fullMask: SPPermission =  new SPPermission({ High:
+        0x7FFFFFFF, Low: 0xFFFFFFFF })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -407,7 +445,9 @@ items:
     type: property
     summary: View the layouts page?
     syntax:
-      content: static SPPermission layoutsPage
+      content: >-
+        public static layoutsPage: SPPermission =  new SPPermission({ High: 0x0,
+        Low: 0x21000 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -420,7 +460,9 @@ items:
     type: property
     summary: Manage alerts for all users of the Web site.
     syntax:
-      content: static SPPermission manageAlerts
+      content: >-
+        public static manageAlerts: SPPermission =  new SPPermission({ High:
+        0x40, Low: 0x0 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -435,7 +477,9 @@ items:
       Create and delete lists, add or remove columns in a list, and add or
       remove public views of a list.
     syntax:
-      content: static SPPermission manageLists
+      content: >-
+        public static manageLists: SPPermission =  new SPPermission({ High: 0x0,
+        Low: 0x800 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -450,7 +494,9 @@ items:
       Create and change permission levels on the Web site and assign permissions
       to users and groups.
     syntax:
-      content: static SPPermission managePermissions
+      content: >-
+        public static managePermissions: SPPermission =  new SPPermission({
+        High: 0x0, Low: 0x2000000 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -463,7 +509,9 @@ items:
     type: property
     summary: 'Create, change, and delete personal views of lists.'
     syntax:
-      content: static SPPermission managePersonalViews
+      content: >-
+        public static managePersonalViews: SPPermission =  new SPPermission({
+        High: 0x0, Low: 0x200 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -478,7 +526,9 @@ items:
       Create subsites such as team sites, Meeting Workspace sites, and Document
       Workspace sites.
     syntax:
-      content: static SPPermission manageSubwebs
+      content: >-
+        public static manageSubwebs: SPPermission =  new SPPermission({ High:
+        0x0, Low: 0x800000 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -493,7 +543,9 @@ items:
       Grant the ability to perform all administration tasks for the Web site as
       well as manage content.
     syntax:
-      content: static SPPermission manageWeb
+      content: >-
+        public static manageWeb: SPPermission =  new SPPermission({ High: 0x0,
+        Low: 0x40000000 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -522,7 +574,9 @@ items:
       Allow users to open a Web site, list, or folder to access items inside
       that container.
     syntax:
-      content: static SPPermission open
+      content: >-
+        public static open: SPPermission =  new SPPermission({ High: 0x0, Low:
+        0x20000 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -535,7 +589,9 @@ items:
     type: property
     summary: View the source of documents with server-side file handlers.
     syntax:
-      content: static SPPermission openItems
+      content: >-
+        public static openItems: SPPermission =  new SPPermission({ High: 0x0,
+        Low: 0x20 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -562,7 +618,9 @@ items:
     type: property
     summary: Update web parts to display personalized information.
     syntax:
-      content: static SPPermission updatePersonalWebParts
+      content: >-
+        public static updatePersonalWebParts: SPPermission =  new SPPermission({
+        High: 0x0, Low: 0x20000000 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -577,7 +635,9 @@ items:
       Use features that launch client applications; otherwise, users must work
       on documents locally and upload changes.
     syntax:
-      content: static SPPermission useClientIntegration
+      content: >-
+        public static useClientIntegration: SPPermission =  new SPPermission({
+        High: 0x10, Low: 0x0 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -592,7 +652,9 @@ items:
       Use SOAP, WebDAV, or Microsoft Office SharePoint Designer 2007 interfaces
       to access the Web site.
     syntax:
-      content: static SPPermission useRemoteAPIs
+      content: >-
+        public static useRemoteAPIs: SPPermission =  new SPPermission({ High:
+        0x20, Low: 0x0 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -618,7 +680,9 @@ items:
     type: property
     summary: 'View forms, views, and application pages, and enumerate lists.'
     syntax:
-      content: static SPPermission viewFormPages
+      content: >-
+        public static viewFormPages: SPPermission =  new SPPermission({ High:
+        0x0, Low: 0x1000 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -633,7 +697,9 @@ items:
       View items in lists, documents in document libraries, and view Web
       discussion comments.
     syntax:
-      content: static SPPermission viewListItems
+      content: >-
+        public static viewListItems: SPPermission =  new SPPermission({ High:
+        0x0, Low: 0x1 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -646,7 +712,9 @@ items:
     type: property
     summary: View pages in a Web site.
     syntax:
-      content: static SPPermission viewPages
+      content: >-
+        public static viewPages: SPPermission =  new SPPermission({ High: 0x0,
+        Low: 0x20000 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -659,7 +727,9 @@ items:
     type: property
     summary: View reports on Web site usage.
     syntax:
-      content: static SPPermission viewUsageData
+      content: >-
+        public static viewUsageData: SPPermission =  new SPPermission({ High:
+        0x0, Low: 0x200000 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'
@@ -672,7 +742,9 @@ items:
     type: property
     summary: View past versions of a list item or document.
     syntax:
-      content: static SPPermission viewVersions
+      content: >-
+        public static viewVersions: SPPermission =  new SPPermission({ High:
+        0x0, Low: 0x40 })
       return:
         type:
           - '@@microsoft/sp-page-context.SPPermission'

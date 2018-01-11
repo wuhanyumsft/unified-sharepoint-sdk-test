@@ -30,7 +30,7 @@ items:
     summary: Whether the associated form field is required or not.
     optional: true
     syntax:
-      content: boolean required
+      content: 'required?: boolean'
       return:
         type:
           - boolean
@@ -46,7 +46,7 @@ items:
     type: property
     summary: Display text fot the label.
     syntax:
-      content: string text
+      content: 'text: string'
       return:
         type:
           - string

@@ -36,7 +36,7 @@ items:
     type: property
     summary: One of the SuiteNavLinkIds constants.
     syntax:
-      content: string Id
+      content: 'Id: string'
       return:
         type:
           - string
@@ -50,7 +50,7 @@ items:
     summary: Optional parameters that don't appear to be used.
     optional: true
     syntax:
-      content: string MenuName
+      content: 'MenuName?: string'
       return:
         type:
           - string
@@ -64,7 +64,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: any ServiceId
+      content: 'ServiceId?: any'
       return:
         type:
           - any
@@ -78,7 +78,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: any SubLinks
+      content: 'SubLinks?: any'
       return:
         type:
           - any
@@ -92,7 +92,7 @@ items:
     summary: Can be null or '_blank.'
     optional: true
     syntax:
-      content: string TargetWindow
+      content: 'TargetWindow?: string'
       return:
         type:
           - string
@@ -106,7 +106,7 @@ items:
     summary: 'Text of the link. If not provided, text will be determined based on Id.'
     optional: true
     syntax:
-      content: string Text
+      content: 'Text?: string'
       return:
         type:
           - string
@@ -120,7 +120,7 @@ items:
     summary: Title text of the link.
     optional: true
     syntax:
-      content: string Title
+      content: 'Title?: string'
       return:
         type:
           - string
@@ -133,7 +133,7 @@ items:
     type: property
     summary: URL the link should go to.
     syntax:
-      content: string Url
+      content: 'Url: string'
       return:
         type:
           - string

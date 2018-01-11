@@ -51,7 +51,7 @@ items:
       defaultODataVersion = ODataVersion.v4;
       requestDigest = true
     syntax:
-      content: SPHttpClientConfiguration v1
+      content: 'v1: SPHttpClientConfiguration'
       return:
         type:
           - '@@microsoft/sp-http.SPHttpClientConfiguration'

@@ -27,7 +27,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number id
+      content: 'id: number'
       return:
         type:
           - number

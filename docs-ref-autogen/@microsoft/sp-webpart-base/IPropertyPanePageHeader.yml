@@ -31,7 +31,7 @@ items:
     type: property
     summary: Header to display.
     syntax:
-      content: string description
+      content: 'description: string'
       return:
         type:
           - string
@@ -45,7 +45,7 @@ items:
     summary: Image url for the background image.
     optional: true
     syntax:
-      content: string image
+      content: 'image?: string'
       return:
         type:
           - string

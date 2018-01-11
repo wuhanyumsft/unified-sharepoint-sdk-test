@@ -33,7 +33,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ISPSystemTime daylightDate
+      content: 'daylightDate: ISPSystemTime'
       return:
         type:
           - '@@microsoft/sp-page-context.ISPSystemTime'
@@ -46,7 +46,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number daylightOffset
+      content: 'daylightOffset: number'
       return:
         type:
           - number
@@ -59,7 +59,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string description
+      content: 'description: string'
       return:
         type:
           - string
@@ -72,7 +72,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number id
+      content: 'id: number'
       return:
         type:
           - number
@@ -85,7 +85,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number offset
+      content: 'offset: number'
       return:
         type:
           - number
@@ -98,7 +98,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ISPSystemTime standardDate
+      content: 'standardDate: ISPSystemTime'
       return:
         type:
           - '@@microsoft/sp-page-context.ISPSystemTime'
@@ -111,7 +111,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number standardOffset
+      content: 'standardOffset: number'
       return:
         type:
           - number

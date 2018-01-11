@@ -106,7 +106,7 @@ items:
     type: property
     summary: A callback function that constructs the default instance of this service.
     syntax:
-      content: ServiceCreator<T> defaultCreator
+      content: 'public defaultCreator: ServiceCreator<T>'
       return:
         type:
           - ServiceCreator<T>
@@ -119,7 +119,7 @@ items:
     type: property
     summary: A unique identifier for this service.
     syntax:
-      content: string id
+      content: 'public id: string'
       return:
         type:
           - string
@@ -137,7 +137,7 @@ items:
     type: property
     summary: The name of the service.
     syntax:
-      content: string name
+      content: 'public name: string'
       return:
         type:
           - string

@@ -44,7 +44,7 @@ items:
       from toolbox, the value of this flag will be false.
     optional: true
     syntax:
-      content: boolean addedFromPersistedData
+      content: 'addedFromPersistedData?: boolean'
       return:
         type:
           - boolean
@@ -57,7 +57,7 @@ items:
     type: property
     summary: The display mode as one of DisplayMode.Read or DisplayMode.Edit
     syntax:
-      content: DisplayMode displayMode
+      content: 'displayMode: DisplayMode'
       return:
         type:
           - DisplayMode
@@ -70,7 +70,7 @@ items:
     type: property
     summary: Reference to the DOM element that contains the web part.
     syntax:
-      content: HTMLElement domElement
+      content: 'domElement: HTMLElement'
       return:
         type:
           - HTMLElement
@@ -91,7 +91,7 @@ items:
       pages.
     optional: true
     syntax:
-      content: IWebPartHost host
+      content: 'host?: IWebPartHost'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IWebPartHost'
@@ -104,7 +104,7 @@ items:
     type: property
     summary: Web part instance id
     syntax:
-      content: string instanceId
+      content: 'instanceId: string'
       return:
         type:
           - string
@@ -117,7 +117,7 @@ items:
     type: property
     summary: Web part manifest
     syntax:
-      content: IClientSideWebPartManifest<any> manifest
+      content: 'manifest: IClientSideWebPartManifest<any>'
       return:
         type:
           - IClientSideWebPartManifest<any>
@@ -134,7 +134,7 @@ items:
       Usage: When web part not in viewport, loading is delayed.
     optional: true
     syntax:
-      content: '(endTime: number) => void onViewportWebPartsRendered'
+      content: 'onViewportWebPartsRendered?: (endTime: number) => void'
       return:
         type:
           - '(endTime: number) => void'
@@ -150,7 +150,7 @@ items:
       the web parts.
     optional: true
     syntax:
-      content: HTMLElement scrollableParent
+      content: 'scrollableParent?: HTMLElement'
       return:
         type:
           - HTMLElement
@@ -166,7 +166,7 @@ items:
       instance for loading
     optional: true
     syntax:
-      content: number totalWebparts
+      content: 'totalWebparts?: number'
       return:
         type:
           - number
@@ -180,7 +180,7 @@ items:
     summary: Web psart instance data. This data should be used to render a web part.
     optional: true
     syntax:
-      content: IWebPartData webPartData
+      content: 'webPartData?: IWebPartData'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IWebPartData'

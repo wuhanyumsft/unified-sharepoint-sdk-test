@@ -28,7 +28,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number High
+      content: 'High: number'
       return:
         type:
           - number
@@ -41,7 +41,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number Low
+      content: 'Low: number'
       return:
         type:
           - number

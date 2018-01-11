@@ -130,7 +130,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => void clearCache
+      content: 'public clearCache: () => void'
       return:
         type:
           - () => void
@@ -143,7 +143,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => void clearCacheForResource
+      content: 'public clearCacheForResource: () => void'
       return:
         type:
           - () => void
@@ -156,7 +156,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: Config config
+      content: 'public config: Config'
       return:
         type:
           - Config
@@ -169,7 +169,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => void error
+      content: 'public error: () => void'
       return:
         type:
           - () => void
@@ -182,7 +182,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string FAKE_ID_TOKEN
+      content: 'public static FAKE_ID_TOKEN: string = "fake id token"'
       return:
         type:
           - string
@@ -271,7 +271,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => string getLoginError
+      content: 'public getLoginError: () => string'
       return:
         type:
           - () => string
@@ -284,7 +284,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => RequestInfo getRequestInfo
+      content: 'public getRequestInfo: () => RequestInfo'
       return:
         type:
           - () => RequestInfo
@@ -297,7 +297,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => string getResourceForEndpoint
+      content: 'public getResourceForEndpoint: () => string'
       return:
         type:
           - () => string
@@ -310,7 +310,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => void getUser
+      content: 'public getUser: () => void'
       return:
         type:
           - () => void
@@ -333,7 +333,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => void info
+      content: 'public info: () => void'
       return:
         type:
           - () => void
@@ -346,7 +346,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string instance
+      content: 'public instance: string'
       return:
         type:
           - string
@@ -359,7 +359,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => boolean isCallback
+      content: 'public isCallback: () => boolean'
       return:
         type:
           - () => boolean
@@ -372,7 +372,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => void log
+      content: 'public log: () => void'
       return:
         type:
           - () => void
@@ -395,7 +395,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => boolean loginInProgress
+      content: 'public loginInProgress: () => boolean'
       return:
         type:
           - () => boolean
@@ -408,7 +408,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => void logOut
+      content: 'public logOut: () => void'
       return:
         type:
           - () => void
@@ -435,7 +435,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => void promptUser
+      content: 'public promptUser: () => void'
       return:
         type:
           - () => void
@@ -448,7 +448,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => void registerCallback
+      content: 'public registerCallback: () => void'
       return:
         type:
           - () => void
@@ -461,7 +461,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => void saveTokenFromHash
+      content: 'public saveTokenFromHash: () => void'
       return:
         type:
           - () => void
@@ -474,7 +474,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => void verbose
+      content: 'public verbose: () => void'
       return:
         type:
           - () => void
@@ -487,7 +487,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => void warn
+      content: 'public warn: () => void'
       return:
         type:
           - () => void

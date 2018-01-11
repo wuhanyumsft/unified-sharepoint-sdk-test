@@ -30,7 +30,7 @@ items:
     type: property
     summary: The message returned from ADAL fails to retrieve a token from Azure AD.
     syntax:
-      content: string message
+      content: 'message: string'
       return:
         type:
           - string
@@ -45,7 +45,7 @@ items:
       The OAuth2 Bearer token used for making fetch requests to other services.
       https://tools.ietf.org/html/rfc6750
     syntax:
-      content: string token
+      content: 'token: string'
       return:
         type:
           - string

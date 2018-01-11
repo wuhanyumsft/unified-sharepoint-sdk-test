@@ -109,7 +109,7 @@ items:
     type: property
     summary: '{@inheritdoc @microsoft/sp-component-base:BaseComponentContext.manifest}'
     syntax:
-      content: IClientSideWebPartManifestInstance<any> manifest
+      content: 'public manifest: IClientSideWebPartManifestInstance<any>'
       return:
         type:
           - IClientSideWebPartManifestInstance<any>

@@ -33,7 +33,7 @@ items:
     summary: Index for this option.
     optional: true
     syntax:
-      content: number index
+      content: 'index?: number'
       return:
         type:
           - number
@@ -46,7 +46,7 @@ items:
     type: property
     summary: A key to uniquely identify this option.
     syntax:
-      content: string | number key
+      content: 'key: string | number'
       return:
         type:
           - string | number
@@ -59,7 +59,7 @@ items:
     type: property
     summary: Text to render for this option.
     syntax:
-      content: string text
+      content: 'text: string'
       return:
         type:
           - string
@@ -75,7 +75,7 @@ items:
       PropertyPaneDropdownMenuItemType.Normal
     optional: true
     syntax:
-      content: PropertyPaneDropdownOptionType type
+      content: 'type?: PropertyPaneDropdownOptionType'
       return:
         type:
           - '@@microsoft/sp-webpart-base.PropertyPaneDropdownOptionType'

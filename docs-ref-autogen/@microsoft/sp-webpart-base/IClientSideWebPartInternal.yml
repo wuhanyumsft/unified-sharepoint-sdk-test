@@ -45,7 +45,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string accessibleTitle
+      content: 'accessibleTitle: string'
       return:
         type:
           - string
@@ -58,7 +58,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: WebPartContext context
+      content: 'context: WebPartContext'
       return:
         type:
           - '@@microsoft/sp-webpart-base.WebPartContext'
@@ -71,7 +71,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: HTMLElement domElement
+      content: 'domElement: HTMLElement'
       return:
         type:
           - HTMLElement
@@ -84,7 +84,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string previewImageUrl
+      content: 'previewImageUrl: string'
       return:
         type:
           - string

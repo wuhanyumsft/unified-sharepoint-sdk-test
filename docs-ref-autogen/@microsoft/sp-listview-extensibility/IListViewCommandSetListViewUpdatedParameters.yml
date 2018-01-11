@@ -31,7 +31,7 @@ items:
     type: property
     summary: 'The currently selected ListView rows, at the time when the event occurred.'
     syntax:
-      content: ReadonlyArray<RowAccessor> selectedRows
+      content: 'selectedRows: ReadonlyArray<RowAccessor>'
       return:
         type:
           - ReadonlyArray<@@microsoft/sp-listview-extensibility.RowAccessor>

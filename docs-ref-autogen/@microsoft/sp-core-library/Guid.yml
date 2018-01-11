@@ -51,7 +51,9 @@ items:
     type: property
     summary: Returns a new empty Guid instance.
     syntax:
-      content: static Guid empty
+      content: >-
+        public static empty: Guid =  new
+        Guid('00000000-0000-0000-0000-000000000000')
       return:
         type:
           - '@@microsoft/sp-core-library.Guid'

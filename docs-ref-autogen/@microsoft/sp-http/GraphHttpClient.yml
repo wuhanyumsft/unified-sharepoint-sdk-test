@@ -48,7 +48,9 @@ items:
       The standard predefined GraphHttpClientConfiguration objects for use with
       the GraphHttpClient class.
     syntax:
-      content: static IGraphHttpClientConfigurations configurations
+      content: >-
+        public static configurations: IGraphHttpClientConfigurations = 
+        predefinedConfigurations
       return:
         type:
           - '@@microsoft/sp-http.IGraphHttpClientConfigurations'
@@ -187,7 +189,7 @@ items:
     type: property
     summary: The service key for GraphHttpClient.
     syntax:
-      content: static ServiceKey<GraphHttpClient> serviceKey
+      content: "public static serviceKey: ServiceKey<GraphHttpClient> =  ServiceKey.create<GraphHttpClient>\r\n    ('sp-http:GraphHttpClient', GraphHttpClient)"
       return:
         type:
           - ServiceKey<@@microsoft/sp-http.GraphHttpClient>

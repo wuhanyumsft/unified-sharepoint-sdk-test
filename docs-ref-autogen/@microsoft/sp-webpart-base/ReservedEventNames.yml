@@ -38,7 +38,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string classicToolpane
+      content: 'public static classicToolpane: string = "ClassicToolpane"'
       return:
         type:
           - string
@@ -51,7 +51,9 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string classicToolpaneId
+      content: >-
+        public static classicToolpaneId: string =
+        "121ff297-293c-4d66-a24b-916156760cab"
       return:
         type:
           - string
@@ -64,7 +66,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string configure
+      content: 'public static configure: string = "configure"'
       return:
         type:
           - string
@@ -77,7 +79,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string configureEnd
+      content: "public static configureEnd: string =  ReservedEventNames.configure\r\n    + ReservedEventNames.delimitor + ReservedEventNames.end"
       return:
         type:
           - string
@@ -90,7 +92,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string configureStart
+      content: "public static configureStart: string =  ReservedEventNames.configure\r\n    + ReservedEventNames.delimitor + ReservedEventNames.start"
       return:
         type:
           - string
@@ -103,7 +105,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string delimitor
+      content: 'public static delimitor: string = ":"'
       return:
         type:
           - string
@@ -116,7 +118,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string end
+      content: 'public static end: string = "end"'
       return:
         type:
           - string
@@ -129,7 +131,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string start
+      content: 'public static start: string = "start"'
       return:
         type:
           - string

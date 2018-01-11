@@ -55,7 +55,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: ISuiteNavLink AboutMeLink
+      content: 'AboutMeLink?: ISuiteNavLink'
       return:
         type:
           - '@@microsoft/sp-application-base.ISuiteNavLink'
@@ -73,7 +73,7 @@ items:
       as a constructor parameter or to store this data.
     optional: true
     syntax:
-      content: string ClientData
+      content: 'ClientData?: string'
       return:
         type:
           - string
@@ -87,7 +87,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: ISuiteNavLink CommunityLink
+      content: 'CommunityLink?: ISuiteNavLink'
       return:
         type:
           - '@@microsoft/sp-application-base.ISuiteNavLink'
@@ -101,7 +101,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string CompanyDisplayName
+      content: 'CompanyDisplayName?: string'
       return:
         type:
           - string
@@ -115,7 +115,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string CorrelationID
+      content: 'CorrelationID?: string'
       return:
         type:
           - string
@@ -129,7 +129,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string CultureName
+      content: 'CultureName?: string'
       return:
         type:
           - string
@@ -150,7 +150,7 @@ items:
       that).
     optional: true
     syntax:
-      content: string CurrentMainLinkElementID
+      content: 'CurrentMainLinkElementID?: string'
       return:
         type:
           - string
@@ -164,7 +164,7 @@ items:
     summary: Help menu links
     optional: true
     syntax:
-      content: Array<ISuiteNavLink> CurrentWorkloadHelpSubLinks
+      content: 'CurrentWorkloadHelpSubLinks?: Array<ISuiteNavLink>'
       return:
         type:
           - Array<@@microsoft/sp-application-base.ISuiteNavLink>
@@ -179,7 +179,7 @@ items:
     summary: Settings menu links
     optional: true
     syntax:
-      content: Array<ISuiteNavLink> CurrentWorkloadSettingsSubLinks
+      content: 'CurrentWorkloadSettingsSubLinks?: Array<ISuiteNavLink>'
       return:
         type:
           - Array<@@microsoft/sp-application-base.ISuiteNavLink>
@@ -193,7 +193,7 @@ items:
     summary: User/me menu links. Required if authenticated.
     optional: true
     syntax:
-      content: Array<ISuiteNavLink> CurrentWorkloadUserSubLinks
+      content: 'CurrentWorkloadUserSubLinks?: Array<ISuiteNavLink>'
       return:
         type:
           - Array<@@microsoft/sp-application-base.ISuiteNavLink>
@@ -207,7 +207,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: function Dimensions
+      content: 'Dimensions?: function'
       return:
         type:
           - function
@@ -221,7 +221,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: ISuiteNavLink FeedbackLink
+      content: 'FeedbackLink?: ISuiteNavLink'
       return:
         type:
           - '@@microsoft/sp-application-base.ISuiteNavLink'
@@ -235,7 +235,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string FlightName
+      content: 'FlightName?: string'
       return:
         type:
           - string
@@ -249,7 +249,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: boolean FlipHelpIcon
+      content: 'FlipHelpIcon?: boolean'
       return:
         type:
           - boolean
@@ -263,7 +263,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: ISuiteNavLink HelpLink
+      content: 'HelpLink?: ISuiteNavLink'
       return:
         type:
           - '@@microsoft/sp-application-base.ISuiteNavLink'
@@ -277,7 +277,7 @@ items:
     summary: Whether user is authenticated
     optional: true
     syntax:
-      content: boolean IsAuthenticated
+      content: 'IsAuthenticated?: boolean'
       return:
         type:
           - boolean
@@ -291,7 +291,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: ISuiteNavLink LegalLink
+      content: 'LegalLink?: ISuiteNavLink'
       return:
         type:
           - '@@microsoft/sp-application-base.ISuiteNavLink'
@@ -305,7 +305,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string LogoNavigationUrl
+      content: 'LogoNavigationUrl?: string'
       return:
         type:
           - string
@@ -319,7 +319,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string MyProfileUrl
+      content: 'MyProfileUrl?: string'
       return:
         type:
           - string
@@ -333,7 +333,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: ISuiteNavLink O365SettingsLink
+      content: 'O365SettingsLink?: ISuiteNavLink'
       return:
         type:
           - '@@microsoft/sp-application-base.ISuiteNavLink'
@@ -347,7 +347,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: ISuiteNavLink PrivacyLink
+      content: 'PrivacyLink?: ISuiteNavLink'
       return:
         type:
           - '@@microsoft/sp-application-base.ISuiteNavLink'
@@ -361,7 +361,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string SessionID
+      content: 'SessionID?: string'
       return:
         type:
           - string
@@ -375,7 +375,7 @@ items:
     summary: Sign out link (irrelevant if not authenticated)
     optional: true
     syntax:
-      content: ISuiteNavLink SignOutLink
+      content: 'SignOutLink?: ISuiteNavLink'
       return:
         type:
           - '@@microsoft/sp-application-base.ISuiteNavLink'
@@ -389,7 +389,7 @@ items:
     summary: Override strings
     optional: true
     syntax:
-      content: ISuiteNavOverrideStrings StringsOverride
+      content: 'StringsOverride?: ISuiteNavOverrideStrings'
       return:
         type:
           - '@@microsoft/sp-application-base.ISuiteNavOverrideStrings'
@@ -403,7 +403,7 @@ items:
     summary: User's name. Required if authenticated.
     optional: true
     syntax:
-      content: string UserDisplayName
+      content: 'UserDisplayName?: string'
       return:
         type:
           - string
@@ -423,7 +423,7 @@ items:
       For instance the old "Change Theme" will not appear if this is true.
     optional: true
     syntax:
-      content: boolean UseSPOBehaviors
+      content: 'UseSPOBehaviors?: boolean'
       return:
         type:
           - boolean
@@ -436,7 +436,7 @@ items:
     type: property
     summary: App switcher links
     syntax:
-      content: Array<ISuiteNavLink> WorkloadLinks
+      content: 'WorkloadLinks: Array<ISuiteNavLink>'
       return:
         type:
           - Array<@@microsoft/sp-application-base.ISuiteNavLink>

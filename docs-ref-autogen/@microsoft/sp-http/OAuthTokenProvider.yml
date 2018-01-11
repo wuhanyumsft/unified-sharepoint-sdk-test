@@ -106,7 +106,7 @@ items:
     type: property
     summary: The service key for OAuthTokenProvider.
     syntax:
-      content: static ServiceKey<OAuthTokenProvider> serviceKey
+      content: "public static serviceKey: ServiceKey<OAuthTokenProvider> = \r\n    ServiceKey.create<OAuthTokenProvider>('sp-client-shared:OAuthTokenProvider', OAuthTokenProvider)"
       return:
         type:
           - ServiceKey<@@microsoft/sp-http.OAuthTokenProvider>

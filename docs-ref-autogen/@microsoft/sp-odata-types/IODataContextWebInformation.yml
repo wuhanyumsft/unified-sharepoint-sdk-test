@@ -40,7 +40,7 @@ items:
     type: property
     summary: 'Example: 1800'
     syntax:
-      content: number FormDigestTimeoutSeconds
+      content: 'FormDigestTimeoutSeconds: number'
       return:
         type:
           - number
@@ -53,7 +53,7 @@ items:
     type: property
     summary: 'Example: "0x61B31CBF4C76C...B0,20 Jan 2016 02:24:43 -0000"'
     syntax:
-      content: string FormDigestValue
+      content: 'FormDigestValue: string'
       return:
         type:
           - string
@@ -66,7 +66,7 @@ items:
     type: property
     summary: 'Example: "16.0.4919.3000"'
     syntax:
-      content: string LibraryVersion
+      content: 'LibraryVersion: string'
       return:
         type:
           - string
@@ -79,7 +79,7 @@ items:
     type: property
     summary: 'Example: "http:\u002f\u002fexample.com\u002fsites\u002fPubSite"'
     syntax:
-      content: string SiteFullUrl
+      content: 'SiteFullUrl: string'
       return:
         type:
           - string
@@ -93,7 +93,7 @@ items:
     type: property
     summary: 'Example: [ "14.0.0.0", "15.0.0.0" ]'
     syntax:
-      content: 'string[] SupportedSchemaVersions'
+      content: 'SupportedSchemaVersions: string[]'
       return:
         type:
           - 'string[]'
@@ -106,7 +106,7 @@ items:
     type: property
     summary: 'Example: "http:\u002f\u002fexample.com\u002fsites\u002fPubSite"'
     syntax:
-      content: string WebFullUrl
+      content: 'WebFullUrl: string'
       return:
         type:
           - string

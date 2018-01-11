@@ -111,7 +111,7 @@ items:
     type: property
     summary: The service key for PageManager.
     syntax:
-      content: static ServiceKey<PageManager> serviceKey
+      content: "public static serviceKey: ServiceKey<PageManager> =  ServiceKey.create<PageManager>\r\n    ('sp-page-context:PageManager', PageManager)"
       return:
         type:
           - ServiceKey<@@microsoft/sp-page-context.PageManager>

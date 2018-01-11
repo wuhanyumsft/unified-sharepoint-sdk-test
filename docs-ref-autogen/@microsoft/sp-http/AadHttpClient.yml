@@ -60,7 +60,9 @@ items:
       The standard predefined HttpClientConfiguration objects for use with
       the HttpClient class.
     syntax:
-      content: static IHttpClientConfigurations configurations
+      content: >-
+        public static configurations: IHttpClientConfigurations = 
+        predefinedConfigurations
       return:
         type:
           - '@@microsoft/sp-http.IHttpClientConfigurations'

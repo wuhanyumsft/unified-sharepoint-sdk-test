@@ -53,7 +53,9 @@ items:
 
       the SPHttpClientBatch class.
     syntax:
-      content: static ISPHttpClientBatchConfigurations configurations
+      content: >-
+        public static configurations: ISPHttpClientBatchConfigurations = 
+        predefinedConfigurations
       return:
         type:
           - '@@microsoft/sp-http.ISPHttpClientBatchConfigurations'

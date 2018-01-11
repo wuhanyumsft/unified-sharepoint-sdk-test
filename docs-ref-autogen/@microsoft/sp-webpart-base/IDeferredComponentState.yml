@@ -28,7 +28,7 @@ items:
     type: property
     summary: The deferred React ComponentClass.
     syntax:
-      content: ComponentClass<ComponentProps> component
+      content: 'component: ComponentClass<ComponentProps>'
       return:
         type:
           - ComponentClass<ComponentProps>

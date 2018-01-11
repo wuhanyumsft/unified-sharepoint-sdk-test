@@ -27,7 +27,7 @@ items:
     type: property
     summary: Error message to be rendered by webpart.
     syntax:
-      content: string errorMessage
+      content: 'errorMessage: string'
       return:
         type:
           - string

@@ -32,7 +32,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: _IPreloadedData preloadedData
+      content: 'preloadedData: _IPreloadedData'
       return:
         type:
           - _IPreloadedData
@@ -46,7 +46,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ISuiteNavManager | undefined suiteNavManager
+      content: 'suiteNavManager: ISuiteNavManager | undefined'
       return:
         type:
           - ISuiteNavManager | undefined

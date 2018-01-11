@@ -42,7 +42,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean clearCalled
+      content: 'public clearCalled: boolean = false'
       return:
         type:
           - boolean
@@ -70,7 +70,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean clearErrorCalled
+      content: 'public clearErrorCalled: boolean = false'
       return:
         type:
           - boolean
@@ -99,7 +99,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean displayCalled
+      content: 'public displayCalled: boolean = false'
       return:
         type:
           - boolean
@@ -127,7 +127,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean errorCalled
+      content: 'public errorCalled: boolean = false'
       return:
         type:
           - boolean

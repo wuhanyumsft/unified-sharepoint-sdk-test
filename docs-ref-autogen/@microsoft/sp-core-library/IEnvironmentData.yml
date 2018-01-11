@@ -27,7 +27,7 @@ items:
     type: property
     summary: '{@inheritdoc Environment.type}'
     syntax:
-      content: EnvironmentType type
+      content: 'type: EnvironmentType'
       return:
         type:
           - '@@microsoft/sp-core-library.EnvironmentType'

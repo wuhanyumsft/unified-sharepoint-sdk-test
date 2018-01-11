@@ -41,7 +41,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: Guid clientSideComponentId
+      content: 'public clientSideComponentId: Guid'
       return:
         type:
           - Guid
@@ -55,7 +55,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string | undefined clientSideComponentProperties
+      content: 'public clientSideComponentProperties: string | undefined'
       return:
         type:
           - string | undefined
@@ -68,7 +68,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string location
+      content: 'public location: string'
       return:
         type:
           - string
@@ -81,7 +81,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string | undefined registrationId
+      content: 'public registrationId: string | undefined'
       return:
         type:
           - string | undefined
@@ -94,7 +94,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string | undefined registrationType
+      content: 'public registrationType: string | undefined'
       return:
         type:
           - string | undefined
@@ -108,7 +108,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean | undefined requireSiteAdministrator
+      content: 'public requireSiteAdministrator: boolean | undefined'
       return:
         type:
           - boolean | undefined
@@ -121,7 +121,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: SPPermission | undefined rights
+      content: 'public rights: SPPermission | undefined'
       return:
         type:
           - SPPermission | undefined
@@ -134,7 +134,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number | undefined sequence
+      content: 'public sequence: number | undefined'
       return:
         type:
           - number | undefined
@@ -160,7 +160,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string | undefined title
+      content: 'public title: string | undefined'
       return:
         type:
           - string | undefined

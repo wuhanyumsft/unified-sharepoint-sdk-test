@@ -35,7 +35,7 @@ items:
     summary: A description of the dropdown for the benefit of screen reader users.
     optional: true
     syntax:
-      content: string ariaLabel
+      content: 'ariaLabel?: string'
       return:
         type:
           - string
@@ -49,7 +49,7 @@ items:
     summary: Custom properties for Dropdown's Callout used to render options.
     optional: true
     syntax:
-      content: IPropertyPaneDropdownCalloutProps calloutProps
+      content: 'calloutProps?: IPropertyPaneDropdownCalloutProps'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IPropertyPaneDropdownCalloutProps'
@@ -63,7 +63,7 @@ items:
     summary: Whether the property pane dropdown option is disabled or not.
     optional: true
     syntax:
-      content: boolean disabled
+      content: 'disabled?: boolean'
       return:
         type:
           - boolean
@@ -76,7 +76,7 @@ items:
     type: property
     summary: Descriptive label for the Dropdown.
     syntax:
-      content: string label
+      content: 'label: string'
       return:
         type:
           - string
@@ -90,7 +90,7 @@ items:
     summary: Collection of options for this Dropdown.
     optional: true
     syntax:
-      content: 'IPropertyPaneDropdownOption[] options'
+      content: 'options?: IPropertyPaneDropdownOption[]'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IPropertyPaneDropdownOption[]'
@@ -104,7 +104,7 @@ items:
     summary: The key of the initially selected option.
     optional: true
     syntax:
-      content: string | number selectedKey
+      content: 'selectedKey?: string | number'
       return:
         type:
           - string | number

@@ -61,7 +61,10 @@ items:
     type: property
     summary: The service key for IRandomNumberGenerator.
     syntax:
-      content: static ServiceKey<IRandomNumberGenerator> serviceKey
+      content: >-
+        public static serviceKey: ServiceKey<IRandomNumberGenerator> = 
+        ServiceKey.create<IRandomNumberGenerator>('sp-core-library:RandomNumberGenerator',
+        RandomNumberGenerator)
       return:
         type:
           - >-

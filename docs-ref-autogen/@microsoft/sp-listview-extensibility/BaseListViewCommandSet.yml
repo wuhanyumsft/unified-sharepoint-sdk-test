@@ -54,7 +54,7 @@ items:
     type: property
     summary: '{@inheritdoc @microsoft/sp-extension-base:BaseExtension.context}'
     syntax:
-      content: ListViewCommandSetContext context
+      content: 'public context: ListViewCommandSetContext'
       return:
         type:
           - '@@microsoft/sp-listview-extensibility.ListViewCommandSetContext'

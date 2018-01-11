@@ -41,7 +41,7 @@ items:
     type: property
     summary: O365 Flex Pane.
     syntax:
-      content: IFlexPane FlexPane
+      content: 'FlexPane: IFlexPane'
       return:
         type:
           - '@@microsoft/sp-application-base.IFlexPane'
@@ -66,7 +66,7 @@ items:
     type: property
     summary: O365 Navigation.
     syntax:
-      content: IO365Navigation Navigation
+      content: 'Navigation: IO365Navigation'
       return:
         type:
           - '@@microsoft/sp-application-base.IO365Navigation'

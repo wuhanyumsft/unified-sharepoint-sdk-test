@@ -37,7 +37,7 @@ items:
     summary: A description of the Slider for the benefit of screen readers.
     optional: true
     syntax:
-      content: string ariaLabel
+      content: 'ariaLabel?: string'
       return:
         type:
           - string
@@ -51,7 +51,7 @@ items:
     summary: Whether or not the Slider is disabled.
     optional: true
     syntax:
-      content: boolean disabled
+      content: 'disabled?: boolean'
       return:
         type:
           - boolean
@@ -65,7 +65,7 @@ items:
     summary: Description label of the Slider.
     optional: true
     syntax:
-      content: string label
+      content: 'label?: string'
       return:
         type:
           - string
@@ -78,7 +78,7 @@ items:
     type: property
     summary: The max value of the Slider.
     syntax:
-      content: number max
+      content: 'max: number'
       return:
         type:
           - number
@@ -91,7 +91,7 @@ items:
     type: property
     summary: The min value of the Slider.
     syntax:
-      content: number min
+      content: 'min: number'
       return:
         type:
           - number
@@ -105,7 +105,7 @@ items:
     summary: Whether to show the value on the right of the Slider.
     optional: true
     syntax:
-      content: boolean showValue
+      content: 'showValue?: boolean'
       return:
         type:
           - boolean
@@ -124,7 +124,7 @@ items:
       Defaults to 1.
     optional: true
     syntax:
-      content: number step
+      content: 'step?: number'
       return:
         type:
           - number
@@ -142,7 +142,7 @@ items:
       Defaults to min.
     optional: true
     syntax:
-      content: number value
+      content: 'value?: number'
       return:
         type:
           - number

@@ -123,7 +123,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string aadInstanceUrl
+      content: 'aadInstanceUrl: string'
       return:
         type:
           - string
@@ -136,7 +136,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string aadTenantId
+      content: 'aadTenantId: string'
       return:
         type:
           - string
@@ -149,7 +149,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean alertsEnabled
+      content: 'alertsEnabled: boolean'
       return:
         type:
           - boolean
@@ -162,7 +162,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean allowSilverlightPrompt
+      content: 'allowSilverlightPrompt: boolean'
       return:
         type:
           - boolean
@@ -176,7 +176,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean blockDownloadExperienceEnabled
+      content: 'blockDownloadExperienceEnabled: boolean'
       return:
         type:
           - boolean
@@ -189,7 +189,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string cdnPrefix
+      content: 'cdnPrefix: string'
       return:
         type:
           - string
@@ -202,7 +202,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string CorrelationId
+      content: 'CorrelationId: string'
       return:
         type:
           - string
@@ -215,7 +215,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean crossDomainPhotosEnabled
+      content: 'crossDomainPhotosEnabled: boolean'
       return:
         type:
           - boolean
@@ -228,7 +228,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string currentCultureName
+      content: 'currentCultureName: string'
       return:
         type:
           - string
@@ -241,7 +241,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number currentLanguage
+      content: 'currentLanguage: number'
       return:
         type:
           - number
@@ -254,7 +254,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string currentUICultureName
+      content: 'currentUICultureName: string'
       return:
         type:
           - string
@@ -267,7 +267,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean disableAppViews
+      content: 'disableAppViews: boolean'
       return:
         type:
           - boolean
@@ -280,7 +280,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean disableFlows
+      content: 'disableFlows: boolean'
       return:
         type:
           - boolean
@@ -293,7 +293,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string env
+      content: 'env: string'
       return:
         type:
           - string
@@ -306,7 +306,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'number[] ExpFeatures'
+      content: 'ExpFeatures: number[]'
       return:
         type:
           - 'number[]'
@@ -319,7 +319,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string farmLabel
+      content: 'farmLabel: string'
       return:
         type:
           - string
@@ -332,7 +332,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number fid
+      content: 'fid: number'
       return:
         type:
           - number
@@ -345,7 +345,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string groupColor
+      content: 'groupColor: string'
       return:
         type:
           - string
@@ -358,7 +358,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean groupHasHomepage
+      content: 'groupHasHomepage: boolean'
       return:
         type:
           - boolean
@@ -371,7 +371,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string groupId
+      content: 'groupId: string'
       return:
         type:
           - string
@@ -384,7 +384,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string groupType
+      content: 'groupType: string'
       return:
         type:
           - string
@@ -397,7 +397,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean guestsEnabled
+      content: 'guestsEnabled: boolean'
       return:
         type:
           - boolean
@@ -410,7 +410,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean hasManageWebPermission
+      content: 'hasManageWebPermission: boolean'
       return:
         type:
           - boolean
@@ -423,7 +423,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean hideSyncButtonOnODB
+      content: 'hideSyncButtonOnODB: boolean'
       return:
         type:
           - boolean
@@ -436,7 +436,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean isAnonymousGuestUser
+      content: 'isAnonymousGuestUser: boolean'
       return:
         type:
           - boolean
@@ -449,7 +449,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean isAppWeb
+      content: 'isAppWeb: boolean'
       return:
         type:
           - boolean
@@ -462,7 +462,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean isExternalGuestUser
+      content: 'isExternalGuestUser: boolean'
       return:
         type:
           - boolean
@@ -475,7 +475,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean isNoScriptEnabled
+      content: 'isNoScriptEnabled: boolean'
       return:
         type:
           - boolean
@@ -488,7 +488,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean isSPO
+      content: 'isSPO: boolean'
       return:
         type:
           - boolean
@@ -501,7 +501,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: '[key: string]: boolean killSwitches'
+      content: 'killSwitches: [key: string]: boolean'
       return:
         type:
           - '[key: string]: boolean'
@@ -514,7 +514,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string layoutsUrl
+      content: 'layoutsUrl: string'
       return:
         type:
           - string
@@ -527,7 +527,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number listBaseTemplate
+      content: 'listBaseTemplate: number'
       return:
         type:
           - number
@@ -540,7 +540,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string listId
+      content: 'listId: string'
       return:
         type:
           - string
@@ -553,7 +553,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: IODataBasePermission listPermsMask
+      content: 'listPermsMask: IODataBasePermission'
       return:
         type:
           - '@@microsoft/sp-odata-types.IODataBasePermission'
@@ -566,7 +566,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string listTitle
+      content: 'listTitle: string'
       return:
         type:
           - string
@@ -579,7 +579,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string listUrl
+      content: 'listUrl: string'
       return:
         type:
           - string
@@ -592,7 +592,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: Object MenuData
+      content: 'MenuData: Object'
       return:
         type:
           - Object
@@ -605,7 +605,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: IODataNavigationNodeCollection navigationInfo
+      content: 'navigationInfo: IODataNavigationNodeCollection'
       return:
         type:
           - '@@microsoft/sp-odata-types.IODataNavigationNodeCollection'
@@ -618,7 +618,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number nid
+      content: 'nid: number'
       return:
         type:
           - number
@@ -631,7 +631,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean openInClient
+      content: 'openInClient: boolean'
       return:
         type:
           - boolean
@@ -644,7 +644,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number pageItemId
+      content: 'pageItemId: number'
       return:
         type:
           - number
@@ -657,7 +657,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string pageListId
+      content: 'pageListId: string'
       return:
         type:
           - string
@@ -670,7 +670,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: IODataBasePermission pagePermsMask
+      content: 'pagePermsMask: IODataBasePermission'
       return:
         type:
           - '@@microsoft/sp-odata-types.IODataBasePermission'
@@ -683,7 +683,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number pagePersonalizationScope
+      content: 'pagePersonalizationScope: number'
       return:
         type:
           - number
@@ -696,7 +696,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean preferUserTimeZone
+      content: 'preferUserTimeZone: boolean'
       return:
         type:
           - boolean
@@ -709,7 +709,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean PreviewFeaturesEnabled
+      content: 'PreviewFeaturesEnabled: boolean'
       return:
         type:
           - boolean
@@ -722,7 +722,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number RecycleBinItemCount
+      content: 'RecycleBinItemCount: number'
       return:
         type:
           - number
@@ -735,7 +735,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string serverRequestPath
+      content: 'serverRequestPath: string'
       return:
         type:
           - string
@@ -748,7 +748,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string serverTime
+      content: 'serverTime: string'
       return:
         type:
           - string
@@ -761,7 +761,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean showNGSCDialogForSyncOnODB
+      content: 'showNGSCDialogForSyncOnODB: boolean'
       return:
         type:
           - boolean
@@ -774,7 +774,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string siteAbsoluteUrl
+      content: 'siteAbsoluteUrl: string'
       return:
         type:
           - string
@@ -787,7 +787,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string siteClassification
+      content: 'siteClassification: string'
       return:
         type:
           - string
@@ -800,7 +800,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string siteClientTag
+      content: 'siteClientTag: string'
       return:
         type:
           - string
@@ -813,7 +813,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string siteId
+      content: 'siteId: string'
       return:
         type:
           - string
@@ -826,7 +826,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean sitePagesEnabled
+      content: 'sitePagesEnabled: boolean'
       return:
         type:
           - boolean
@@ -839,7 +839,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string siteServerRelativeUrl
+      content: 'siteServerRelativeUrl: string'
       return:
         type:
           - string
@@ -852,7 +852,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string siteSubscriptionId
+      content: 'siteSubscriptionId: string'
       return:
         type:
           - string
@@ -865,7 +865,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string systemUserKey
+      content: 'systemUserKey: string'
       return:
         type:
           - string
@@ -878,7 +878,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string tenantAppVersion
+      content: 'tenantAppVersion: string'
       return:
         type:
           - string
@@ -891,7 +891,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string themeCacheToken
+      content: 'themeCacheToken: string'
       return:
         type:
           - string
@@ -904,7 +904,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string themedCssFolderUrl
+      content: 'themedCssFolderUrl: string'
       return:
         type:
           - string
@@ -917,7 +917,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string themedImageFileNames
+      content: 'themedImageFileNames: string'
       return:
         type:
           - string
@@ -930,7 +930,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string userDisplayName
+      content: 'userDisplayName: string'
       return:
         type:
           - string
@@ -943,7 +943,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string userEmail
+      content: 'userEmail: string'
       return:
         type:
           - string
@@ -956,7 +956,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number userFirstDayOfWeek
+      content: 'userFirstDayOfWeek: number'
       return:
         type:
           - number
@@ -969,7 +969,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number userId
+      content: 'userId: number'
       return:
         type:
           - number
@@ -982,7 +982,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string userLoginName
+      content: 'userLoginName: string'
       return:
         type:
           - string
@@ -995,7 +995,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ISPSystemTimeZoneData userTimeZoneData
+      content: 'userTimeZoneData: ISPSystemTimeZoneData'
       return:
         type:
           - '@@microsoft/sp-odata-types.ISPSystemTimeZoneData'
@@ -1008,7 +1008,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string viewId
+      content: 'viewId: string'
       return:
         type:
           - string
@@ -1021,7 +1021,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean viewOnlyExperienceEnabled
+      content: 'viewOnlyExperienceEnabled: boolean'
       return:
         type:
           - boolean
@@ -1034,7 +1034,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string webAbsoluteUrl
+      content: 'webAbsoluteUrl: string'
       return:
         type:
           - string
@@ -1047,7 +1047,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string webDescription
+      content: 'webDescription: string'
       return:
         type:
           - string
@@ -1060,7 +1060,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number webFirstDayOfWeek
+      content: 'webFirstDayOfWeek: number'
       return:
         type:
           - number
@@ -1073,7 +1073,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string webId
+      content: 'webId: string'
       return:
         type:
           - string
@@ -1086,7 +1086,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number webLanguage
+      content: 'webLanguage: number'
       return:
         type:
           - number
@@ -1099,7 +1099,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string webLogoUrl
+      content: 'webLogoUrl: string'
       return:
         type:
           - string
@@ -1112,7 +1112,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: IODataBasePermission webPermMasks
+      content: 'webPermMasks: IODataBasePermission'
       return:
         type:
           - '@@microsoft/sp-odata-types.IODataBasePermission'
@@ -1125,7 +1125,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string webServerRelativeUrl
+      content: 'webServerRelativeUrl: string'
       return:
         type:
           - string
@@ -1138,7 +1138,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string webTemplate
+      content: 'webTemplate: string'
       return:
         type:
           - string
@@ -1151,7 +1151,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ISPSystemTimeZoneData webTimeZoneData
+      content: 'webTimeZoneData: ISPSystemTimeZoneData'
       return:
         type:
           - '@@microsoft/sp-odata-types.ISPSystemTimeZoneData'
@@ -1164,7 +1164,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string webTitle
+      content: 'webTitle: string'
       return:
         type:
           - string
@@ -1177,7 +1177,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string webUIVersion
+      content: 'webUIVersion: string'
       return:
         type:
           - string

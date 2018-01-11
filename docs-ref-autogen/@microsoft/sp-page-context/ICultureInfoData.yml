@@ -29,7 +29,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string currentCultureName
+      content: 'currentCultureName: string'
       return:
         type:
           - string
@@ -42,7 +42,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string currentUICultureName
+      content: 'currentUICultureName: string'
       return:
         type:
           - string
@@ -55,7 +55,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean isRightToLeft
+      content: 'isRightToLeft: boolean'
       return:
         type:
           - boolean

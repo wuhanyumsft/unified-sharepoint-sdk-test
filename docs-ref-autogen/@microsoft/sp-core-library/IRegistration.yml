@@ -28,7 +28,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: T service
+      content: 'service: T'
       return:
         type:
           - T
@@ -41,7 +41,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ServiceKey<T> serviceKey
+      content: 'serviceKey: ServiceKey<T>'
       return:
         type:
           - '@@microsoft/sp-core-library.ServiceKey<T>'

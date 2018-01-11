@@ -41,7 +41,7 @@ items:
       provided to screen reader.
     optional: true
     syntax:
-      content: string ariaDescription
+      content: 'ariaDescription?: string'
       return:
         type:
           - string
@@ -55,7 +55,7 @@ items:
     summary: The aria label of the button for the benefit of screen readers.
     optional: true
     syntax:
-      content: string ariaLabel
+      content: 'ariaLabel?: string'
       return:
         type:
           - string
@@ -71,7 +71,7 @@ items:
       Default value is ButtonType.normal.
     optional: true
     syntax:
-      content: PropertyPaneButtonType buttonType
+      content: 'buttonType?: PropertyPaneButtonType'
       return:
         type:
           - '@@microsoft/sp-webpart-base.PropertyPaneButtonType'
@@ -87,7 +87,7 @@ items:
       Only used for compound buttons.
     optional: true
     syntax:
-      content: string description
+      content: 'description?: string'
       return:
         type:
           - string
@@ -101,7 +101,7 @@ items:
     summary: Whether the button is disabled.
     optional: true
     syntax:
-      content: boolean disabled
+      content: 'disabled?: boolean'
       return:
         type:
           - boolean
@@ -115,7 +115,7 @@ items:
     summary: The button icon shown in command or hero type.
     optional: true
     syntax:
-      content: string icon
+      content: 'icon?: string'
       return:
         type:
           - string
@@ -135,7 +135,7 @@ items:
 
       the re-render of the PropertyPane with the new props.
     syntax:
-      content: '(value: any) => any onClick'
+      content: 'onClick: (value: any) => any'
       return:
         type:
           - '(value: any) => any'
@@ -148,7 +148,7 @@ items:
     type: property
     summary: Display text of the element.
     syntax:
-      content: string text
+      content: 'text: string'
       return:
         type:
           - string

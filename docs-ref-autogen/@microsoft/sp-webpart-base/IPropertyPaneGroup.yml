@@ -30,7 +30,7 @@ items:
     type: property
     summary: List of PropertyPane fields.
     syntax:
-      content: 'IPropertyPaneField<any>[] groupFields'
+      content: 'groupFields: IPropertyPaneField<any>[]'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IPropertyPaneField<any>[]'
@@ -44,7 +44,7 @@ items:
     summary: Display name for the group.
     optional: true
     syntax:
-      content: string groupName
+      content: 'groupName?: string'
       return:
         type:
           - string
@@ -61,7 +61,7 @@ items:
     summary: Indicates whether the PropertyPane group is collapsed or not.
     optional: true
     syntax:
-      content: boolean isCollapsed
+      content: 'isCollapsed?: boolean'
       return:
         type:
           - boolean

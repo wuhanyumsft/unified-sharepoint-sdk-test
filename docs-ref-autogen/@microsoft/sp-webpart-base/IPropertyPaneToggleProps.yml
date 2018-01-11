@@ -37,7 +37,7 @@ items:
     summary: Checked state of the toggle.
     optional: true
     syntax:
-      content: boolean checked
+      content: 'checked?: boolean'
       return:
         type:
           - boolean
@@ -52,7 +52,7 @@ items:
     summary: Optional disabled flag.
     optional: true
     syntax:
-      content: boolean disabled
+      content: 'disabled?: boolean'
       return:
         type:
           - boolean
@@ -66,7 +66,7 @@ items:
     summary: A key to uniquely identify the field.
     optional: true
     syntax:
-      content: string | number key
+      content: 'key?: string | number'
       return:
         type:
           - string | number
@@ -79,7 +79,7 @@ items:
     type: property
     summary: A label for the toggle.
     syntax:
-      content: string label
+      content: 'label: string'
       return:
         type:
           - string
@@ -95,7 +95,7 @@ items:
       is OFF.
     optional: true
     syntax:
-      content: string offAriaLabel
+      content: 'offAriaLabel?: string'
       return:
         type:
           - string
@@ -109,7 +109,7 @@ items:
     summary: Test display when toggle is OFF.
     optional: true
     syntax:
-      content: string offText
+      content: 'offText?: string'
       return:
         type:
           - string
@@ -125,7 +125,7 @@ items:
       is ON.
     optional: true
     syntax:
-      content: string onAriaLabel
+      content: 'onAriaLabel?: string'
       return:
         type:
           - string
@@ -139,7 +139,7 @@ items:
     summary: Text to display when toggle is ON.
     optional: true
     syntax:
-      content: string onText
+      content: 'onText?: string'
       return:
         type:
           - string

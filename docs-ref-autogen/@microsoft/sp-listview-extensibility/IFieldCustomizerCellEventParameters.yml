@@ -38,7 +38,7 @@ items:
       The HTML "div" element that the extension will take ownership of.
       This ownership will end when onDisposeCell() is called.
     syntax:
-      content: HTMLDivElement domElement
+      content: 'domElement: HTMLDivElement'
       return:
         type:
           - HTMLDivElement
@@ -52,7 +52,7 @@ items:
     type: property
     summary: The value of the field being rendered.
     syntax:
-      content: any fieldValue
+      content: 'fieldValue: any'
       return:
         type:
           - any
@@ -66,7 +66,7 @@ items:
     type: property
     summary: The list item being edited.
     syntax:
-      content: ListItemAccessor listItem
+      content: 'listItem: ListItemAccessor'
       return:
         type:
           - '@@microsoft/sp-listview-extensibility.ListItemAccessor'
@@ -80,7 +80,7 @@ items:
     type: property
     summary: An implementation defined storage property.
     syntax:
-      content: any userData
+      content: 'userData: any'
       return:
         type:
           - any

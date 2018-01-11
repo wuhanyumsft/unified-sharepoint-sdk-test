@@ -35,7 +35,7 @@ items:
     type: property
     summary: 'Browser name, as an enum. Other if it''s not recognized.'
     syntax:
-      content: Browser browser
+      content: 'browser: Browser'
       return:
         type:
           - '@@microsoft/sp-core-library.Browser'
@@ -49,7 +49,7 @@ items:
     summary: Browser version. undefined if it's not recognized.
     optional: true
     syntax:
-      content: Version browserVersion
+      content: 'browserVersion?: Version'
       return:
         type:
           - '@@microsoft/sp-core-library.Version'
@@ -62,7 +62,7 @@ items:
     type: property
     summary: 'OS name, as an enum. Other if it''s not recognized.'
     syntax:
-      content: OS os
+      content: 'os: OS'
       return:
         type:
           - '@@microsoft/sp-core-library.OS'
@@ -76,7 +76,7 @@ items:
     summary: OS version. undefined if it's not recognized.
     optional: true
     syntax:
-      content: string osVersion
+      content: 'osVersion?: string'
       return:
         type:
           - string
@@ -90,7 +90,7 @@ items:
     summary: Original User Agent that was used to recognize all data.
     optional: true
     syntax:
-      content: string userAgent
+      content: 'userAgent?: string'
       return:
         type:
           - string

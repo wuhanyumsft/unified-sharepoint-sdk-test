@@ -34,7 +34,7 @@ items:
 
       which is the same sort of units as performance.now().
     syntax:
-      content: number expirationTimestamp
+      content: 'expirationTimestamp: number'
       return:
         type:
           - number
@@ -49,7 +49,7 @@ items:
       The string representing the digest.  Example value:
       "0x6CB1C55E8C18B86...,20 Feb 2016 00:18:17 -0000"
     syntax:
-      content: string value
+      content: 'value: string'
       return:
         type:
           - string

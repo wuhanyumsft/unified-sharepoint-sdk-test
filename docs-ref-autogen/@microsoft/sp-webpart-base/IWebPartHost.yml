@@ -68,7 +68,7 @@ items:
       enabled.
     optional: true
     syntax:
-      content: boolean isViewportLoadingDisabled
+      content: 'isViewportLoadingDisabled?: boolean'
       return:
         type:
           - boolean
@@ -81,7 +81,7 @@ items:
     type: property
     summary: The current ServiceScope.
     syntax:
-      content: ServiceScope serviceScope
+      content: 'serviceScope: ServiceScope'
       return:
         type:
           - ServiceScope
@@ -95,7 +95,7 @@ items:
     summary: API for the webpart to mark the containing host as dirty.
     optional: true
     syntax:
-      content: '(instanceId: string, data?: any) => void setDirty'
+      content: 'setDirty?: (instanceId: string, data?: any) => void'
       return:
         type:
           - '(instanceId: string, data?: any) => void'
@@ -109,7 +109,7 @@ items:
     summary: Web part configuration event callback.
     optional: true
     syntax:
-      content: IWebPartConfigurationEventCallback webPartConfigurationEventCallback
+      content: 'webPartConfigurationEventCallback?: IWebPartConfigurationEventCallback'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IWebPartConfigurationEventCallback'

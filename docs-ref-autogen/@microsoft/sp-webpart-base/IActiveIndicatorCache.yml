@@ -29,7 +29,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean isErrorBeingRendered
+      content: 'isErrorBeingRendered: boolean'
       return:
         type:
           - boolean
@@ -42,7 +42,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number | undefined loadingTimer
+      content: 'loadingTimer: number | undefined'
       return:
         type:
           - number | undefined
@@ -55,7 +55,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: PlaceholderSpinner | undefined placeholder
+      content: 'placeholder: PlaceholderSpinner | undefined'
       return:
         type:
           - PlaceholderSpinner | undefined

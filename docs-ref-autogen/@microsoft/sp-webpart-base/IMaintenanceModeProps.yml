@@ -28,7 +28,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: IWebPartContext context
+      content: 'context: IWebPartContext'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IWebPartContext'
@@ -41,7 +41,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: IWebPartData | undefined data
+      content: 'data: IWebPartData | undefined'
       return:
         type:
           - IWebPartData | undefined

@@ -32,7 +32,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: SPField field
+      content: 'field: SPField'
       return:
         type:
           - SPField
@@ -46,7 +46,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ListViewAccessor | undefined listView
+      content: 'listView: ListViewAccessor | undefined'
       return:
         type:
           - ListViewAccessor | undefined

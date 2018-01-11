@@ -31,7 +31,7 @@ items:
     summary: Automatically configure the "Content-Type" header for a JSON payload.
     optional: true
     syntax:
-      content: boolean jsonRequest
+      content: 'jsonRequest?: boolean'
       return:
         type:
           - boolean
@@ -61,7 +61,7 @@ items:
     summary: Automatically configure the "Accept" header for a JSON payload.
     optional: true
     syntax:
-      content: boolean jsonResponse
+      content: 'jsonResponse?: boolean'
       return:
         type:
           - boolean

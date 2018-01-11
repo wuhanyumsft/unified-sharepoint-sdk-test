@@ -30,7 +30,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: '(request: Request) => void requestAssertions'
+      content: 'requestAssertions: (request: Request) => void'
       return:
         type:
           - '(request: Request) => void'
@@ -43,7 +43,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: any responseObject
+      content: 'responseObject: any'
       return:
         type:
           - any
@@ -57,7 +57,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: ResponseInit responseOptions
+      content: 'responseOptions?: ResponseInit'
       return:
         type:
           - ResponseInit

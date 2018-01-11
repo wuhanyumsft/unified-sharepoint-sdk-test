@@ -28,7 +28,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string sourceId
+      content: 'public sourceId: string = "sourceId1"'
       return:
         type:
           - string
@@ -41,7 +41,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string targetId
+      content: 'public targetId: string = "targetId1"'
       return:
         type:
           - string

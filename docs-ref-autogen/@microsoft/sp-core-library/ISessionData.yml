@@ -28,7 +28,7 @@ items:
     type: property
     summary: '{@inheritdoc Session.applicationId}'
     syntax:
-      content: string applicationId
+      content: 'applicationId: string'
       return:
         type:
           - string
@@ -42,7 +42,7 @@ items:
     summary: '{@inheritdoc Session.pageId}'
     optional: true
     syntax:
-      content: string pageId
+      content: 'pageId?: string'
       return:
         type:
           - string

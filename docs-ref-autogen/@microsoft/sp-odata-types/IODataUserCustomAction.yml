@@ -54,7 +54,7 @@ items:
       The unique identifier of the client-side component defined with SharePoint
       Framework
     syntax:
-      content: string ClientSideComponentId
+      content: 'ClientSideComponentId: string'
       return:
         type:
           - string
@@ -69,7 +69,7 @@ items:
     type: property
     summary: Custom initialization properties for the client-side component.
     syntax:
-      content: string ClientSideComponentProperties
+      content: 'ClientSideComponentProperties: string'
       return:
         type:
           - string
@@ -97,7 +97,7 @@ items:
 
       determines user interface properties of the custom action.
     syntax:
-      content: string CommandUIExtension
+      content: 'CommandUIExtension: string'
       return:
         type:
           - string
@@ -110,7 +110,7 @@ items:
     type: property
     summary: Gets or sets the description of the custom action.
     syntax:
-      content: string Description
+      content: 'Description: string'
       return:
         type:
           - string
@@ -127,7 +127,7 @@ items:
 
       the position of the custom action in the page.
     syntax:
-      content: string Group
+      content: 'Group: string'
       return:
         type:
           - string
@@ -142,7 +142,7 @@ items:
       Gets a value that specifies the identifier (GUID) of the custom action.
       Example: "48309f28-53aa-43ed-b113-625120e5af6f"
     syntax:
-      content: string Id
+      content: 'Id: string'
       return:
         type:
           - string
@@ -155,7 +155,7 @@ items:
     type: property
     summary: Gets or sets the URL of the image associated with the custom action.
     syntax:
-      content: string ImageUrl
+      content: 'ImageUrl: string'
       return:
         type:
           - string
@@ -168,7 +168,7 @@ items:
     type: property
     summary: Gets or sets the location of the custom action.
     syntax:
-      content: string Location
+      content: 'Location: string'
       return:
         type:
           - string
@@ -186,7 +186,7 @@ items:
 
       the custom action.
     syntax:
-      content: string RegistrationId
+      content: 'RegistrationId: string'
       return:
         type:
           - string
@@ -201,7 +201,7 @@ items:
       Gets or sets the value that specifies the type of object associated with
       the custom action.
     syntax:
-      content: number RegistrationType
+      content: 'RegistrationType: number'
       return:
         type:
           - number
@@ -219,7 +219,7 @@ items:
       Gets or sets the value that specifies the permissions needed for the
       custom action.
     syntax:
-      content: IODataBasePermission Rights
+      content: 'Rights: IODataBasePermission'
       return:
         type:
           - '@@microsoft/sp-odata-types.IODataBasePermission'
@@ -232,7 +232,7 @@ items:
     type: property
     summary: Gets a value that specifies the scope of the custom action.
     syntax:
-      content: number Scope
+      content: 'Scope: number'
       return:
         type:
           - number
@@ -247,7 +247,7 @@ items:
       Gets or sets the value that specifies the ECMAScript to be executed when
       the custom action is performed.
     syntax:
-      content: string ScriptBlock
+      content: 'ScriptBlock: string'
       return:
         type:
           - string
@@ -264,7 +264,7 @@ items:
 
       on the page.
     syntax:
-      content: string ScriptSrc
+      content: 'ScriptSrc: string'
       return:
         type:
           - string
@@ -281,7 +281,7 @@ items:
 
       order of the custom action that appears on the page.
     syntax:
-      content: number Sequence
+      content: 'Sequence: number'
       return:
         type:
           - number
@@ -294,7 +294,7 @@ items:
     type: property
     summary: Gets or sets the display title of the custom action.
     syntax:
-      content: string Title
+      content: 'Title: string'
       return:
         type:
           - string
@@ -309,7 +309,7 @@ items:
       Gets or sets the URL, URI, or ECMAScript (JScript, JavaScript) function
       associated with the action.
     syntax:
-      content: string Url
+      content: 'Url: string'
       return:
         type:
           - string
@@ -322,7 +322,7 @@ items:
     type: property
     summary: Gets a value that specifies an implementation specific version identifier.
     syntax:
-      content: string VersionOfUserCustomAction
+      content: 'VersionOfUserCustomAction: string'
       return:
         type:
           - string

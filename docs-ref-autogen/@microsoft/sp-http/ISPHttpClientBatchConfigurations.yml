@@ -49,7 +49,7 @@ items:
       jsonRequest = true;
       jsonResponse = true
     syntax:
-      content: SPHttpClientBatchConfiguration v1
+      content: 'v1: SPHttpClientBatchConfiguration'
       return:
         type:
           - '@@microsoft/sp-http.SPHttpClientBatchConfiguration'

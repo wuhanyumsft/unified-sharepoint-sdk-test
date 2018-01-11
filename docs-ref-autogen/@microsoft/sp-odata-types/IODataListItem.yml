@@ -36,7 +36,7 @@ items:
     type: property
     summary: 'Example: { StringValue: "0x010100C5..." }'
     syntax:
-      content: function ContentTypeId
+      content: 'ContentTypeId: function'
       return:
         type:
           - function
@@ -49,7 +49,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number ID
+      content: 'ID: number'
       return:
         type:
           - number
@@ -62,7 +62,7 @@ items:
     type: property
     summary: Title of the List Item
     syntax:
-      content: string Title
+      content: 'Title: string'
       return:
         type:
           - string
@@ -75,7 +75,7 @@ items:
     type: property
     summary: 'Example: "/Guid(d5369f3b-bd7a-412a-9c0f-7f0650bb5489)/"'
     syntax:
-      content: string UniqueId
+      content: 'UniqueId: string'
       return:
         type:
           - string

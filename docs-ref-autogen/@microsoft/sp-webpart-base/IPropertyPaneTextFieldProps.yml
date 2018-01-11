@@ -47,7 +47,7 @@ items:
     summary: 'Aria Label for text field, if any.'
     optional: true
     syntax:
-      content: string ariaLabel
+      content: 'ariaLabel?: string'
       return:
         type:
           - string
@@ -64,7 +64,7 @@ items:
       `deferredValidationTime` milliseconds.
     optional: true
     syntax:
-      content: number deferredValidationTime
+      content: 'deferredValidationTime?: number'
       return:
         type:
           - number
@@ -79,7 +79,7 @@ items:
     summary: The text field input description.
     optional: true
     syntax:
-      content: string description
+      content: 'description?: string'
       return:
         type:
           - string
@@ -93,7 +93,7 @@ items:
     summary: Whether the property pane text field is enabled or not.
     optional: true
     syntax:
-      content: boolean disabled
+      content: 'disabled?: boolean'
       return:
         type:
           - boolean
@@ -107,7 +107,7 @@ items:
     summary: 'If set, this will be displayed as an error message.'
     optional: true
     syntax:
-      content: string errorMessage
+      content: 'errorMessage?: string'
       return:
         type:
           - string
@@ -130,7 +130,7 @@ items:
     summary: Label for the text field.
     optional: true
     syntax:
-      content: string label
+      content: 'label?: string'
       return:
         type:
           - string
@@ -144,7 +144,7 @@ items:
     summary: Maximum number of characters that the PropertyPaneTextField can have.
     optional: true
     syntax:
-      content: number maxLength
+      content: 'maxLength?: number'
       return:
         type:
           - number
@@ -159,7 +159,7 @@ items:
     summary: Whether or not the text field is a multiline text field.
     optional: true
     syntax:
-      content: boolean multiline
+      content: 'multiline?: boolean'
       return:
         type:
           - boolean
@@ -176,7 +176,7 @@ items:
       whether the input value is valid or not.
     optional: true
     syntax:
-      content: '(value: string) => string | Promise onGetErrorMessage'
+      content: 'onGetErrorMessage?: (value: string) => string | Promise'
       return:
         type:
           - '(value: string) => string | Promise'
@@ -202,7 +202,7 @@ items:
     summary: placeholder text to be displayed in the text field.
     optional: true
     syntax:
-      content: string placeholder
+      content: 'placeholder?: string'
       return:
         type:
           - string
@@ -216,7 +216,7 @@ items:
     summary: Whether or not the multiline text field is resizable.
     optional: true
     syntax:
-      content: boolean resizable
+      content: 'resizable?: boolean'
       return:
         type:
           - boolean
@@ -233,7 +233,7 @@ items:
       lines.
     optional: true
     syntax:
-      content: number rows
+      content: 'rows?: number'
       return:
         type:
           - number
@@ -248,7 +248,7 @@ items:
     summary: Whether or not the text field is underlined.
     optional: true
     syntax:
-      content: boolean underlined
+      content: 'underlined?: boolean'
       return:
         type:
           - boolean
@@ -263,7 +263,7 @@ items:
     summary: Run validation when the PropertyPaneTextField is focused.
     optional: true
     syntax:
-      content: boolean validateOnFocusIn
+      content: 'validateOnFocusIn?: boolean'
       return:
         type:
           - boolean
@@ -278,7 +278,7 @@ items:
     summary: Run validation when the PropertyPaneTextField is out of focus or on blur.
     optional: true
     syntax:
-      content: boolean validateOnFocusOut
+      content: 'validateOnFocusOut?: boolean'
       return:
         type:
           - boolean
@@ -297,7 +297,7 @@ items:
       in the manifest's property bag is empty or contains null value.
     optional: true
     syntax:
-      content: string value
+      content: 'value?: string'
       return:
         type:
           - string

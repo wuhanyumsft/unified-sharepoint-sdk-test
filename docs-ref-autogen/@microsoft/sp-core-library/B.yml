@@ -30,7 +30,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: A a
+      content: 'public a: A'
       return:
         type:
           - '@@microsoft/sp-core-library.A'
@@ -57,7 +57,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: C c
+      content: 'public c: C'
       return:
         type:
           - '@@microsoft/sp-core-library.C'
@@ -70,7 +70,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string name
+      content: 'public name: string'
       return:
         type:
           - string

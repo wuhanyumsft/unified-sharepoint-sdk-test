@@ -31,7 +31,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: HttpClient httpClient
+      content: 'public httpClient: HttpClient'
       return:
         type:
           - HttpClient
@@ -54,7 +54,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: PageContext pageContext
+      content: 'public pageContext: PageContext'
       return:
         type:
           - PageContext
@@ -67,7 +67,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ServiceScope serviceScope
+      content: 'public serviceScope: ServiceScope'
       return:
         type:
           - ServiceScope
@@ -80,7 +80,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: SPHttpClient spHttpClient
+      content: 'public spHttpClient: SPHttpClient'
       return:
         type:
           - SPHttpClient

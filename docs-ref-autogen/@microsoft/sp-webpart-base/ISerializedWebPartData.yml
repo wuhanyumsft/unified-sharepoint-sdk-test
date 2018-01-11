@@ -34,7 +34,7 @@ items:
     type: property
     summary: Web part data version.
     syntax:
-      content: Version dataVersion
+      content: 'dataVersion: Version'
       return:
         type:
           - Version
@@ -72,7 +72,7 @@ items:
       of these properties.
     optional: true
     syntax:
-      content: any properties
+      content: 'properties?: any'
       return:
         type:
           - any
@@ -99,7 +99,7 @@ items:
       search index and link fixup.
     optional: true
     syntax:
-      content: ISerializedServerProcessedData serverProcessedContent
+      content: 'serverProcessedContent?: ISerializedServerProcessedData'
       return:
         type:
           - '@@microsoft/sp-webpart-base.ISerializedServerProcessedData'

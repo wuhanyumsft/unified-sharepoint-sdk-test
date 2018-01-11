@@ -34,7 +34,7 @@ items:
       The list of rows that were selected in the list view at the time when the
       event was fired.
     syntax:
-      content: ReadonlyArray<RowAccessor> selectedRows
+      content: 'public selectedRows: ReadonlyArray<RowAccessor>'
       return:
         type:
           - ReadonlyArray<@@microsoft/sp-listview-extensibility.RowAccessor>

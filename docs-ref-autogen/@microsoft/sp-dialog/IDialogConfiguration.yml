@@ -31,7 +31,7 @@ items:
       overlay).
     optional: true
     syntax:
-      content: boolean isBlocking
+      content: 'isBlocking?: boolean'
       return:
         type:
           - boolean

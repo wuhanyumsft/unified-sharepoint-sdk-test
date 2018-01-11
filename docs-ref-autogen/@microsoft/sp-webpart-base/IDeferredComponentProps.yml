@@ -33,7 +33,7 @@ items:
     summary: The props of the deferred React component.
     optional: true
     syntax:
-      content: ComponentProps deferredProps
+      content: 'deferredProps?: ComponentProps'
       return:
         type:
           - ComponentProps
@@ -51,7 +51,7 @@ items:
       value is specified then loading must be manually invoked.
     optional: true
     syntax:
-      content: number duration
+      content: 'duration?: number'
       return:
         type:
           - number
@@ -69,7 +69,7 @@ items:
       is no gurantee that is complete.
     optional: true
     syntax:
-      content: 'Function[] onAfterLoad'
+      content: 'onAfterLoad?: Function[]'
       return:
         type:
           - 'Function[]'

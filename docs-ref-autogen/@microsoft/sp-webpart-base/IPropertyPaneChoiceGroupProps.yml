@@ -31,7 +31,7 @@ items:
     summary: Descriptive label for the choice group.
     optional: true
     syntax:
-      content: string label
+      content: 'label?: string'
       return:
         type:
           - string
@@ -44,7 +44,7 @@ items:
     type: property
     summary: The options for the choice group.
     syntax:
-      content: 'IPropertyPaneChoiceGroupOption[] options'
+      content: 'options: IPropertyPaneChoiceGroupOption[]'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupOption[]'

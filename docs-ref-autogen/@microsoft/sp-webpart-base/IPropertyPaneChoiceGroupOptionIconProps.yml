@@ -32,7 +32,7 @@ items:
     summary: The name of the icon to use from the Office Fabric icon set.
     optional: true
     syntax:
-      content: string | null officeFabricIconFontName
+      content: 'officeFabricIconFontName?: string | null'
       return:
         type:
           - string | null

@@ -45,7 +45,7 @@ items:
       experimental: no
     optional: true
     syntax:
-      content: string htmlProperties
+      content: 'htmlProperties?: string'
       return:
         type:
           - string

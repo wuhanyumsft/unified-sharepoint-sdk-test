@@ -33,7 +33,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number currentPage
+      content: 'currentPage: number'
       return:
         type:
           - number
@@ -46,7 +46,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean isReactive
+      content: 'isReactive: boolean'
       return:
         type:
           - boolean
@@ -59,7 +59,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean isSaveButtonEnabled
+      content: 'isSaveButtonEnabled: boolean'
       return:
         type:
           - boolean
@@ -72,7 +72,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number numberOfPages
+      content: 'numberOfPages: number'
       return:
         type:
           - number
@@ -85,7 +85,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: '(direction: PageDirection) => void onFlipPage'
+      content: 'onFlipPage: (direction: PageDirection) => void'
       return:
         type:
           - '(direction: PageDirection) => void'
@@ -98,7 +98,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => void onSaveClick
+      content: 'onSaveClick: () => void'
       return:
         type:
           - () => void

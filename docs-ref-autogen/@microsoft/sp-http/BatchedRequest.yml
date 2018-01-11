@@ -50,7 +50,7 @@ items:
     type: property
     summary: The promise that will return the response.
     syntax:
-      content: Promise<SPHttpClientResponse> promise
+      content: 'public promise: Promise<SPHttpClientResponse>'
       return:
         type:
           - Promise<@@microsoft/sp-http.SPHttpClientResponse>
@@ -77,7 +77,7 @@ items:
     type: property
     summary: The underlying request being tracked by this object.
     syntax:
-      content: Request request
+      content: 'public request: Request'
       return:
         type:
           - Request
@@ -104,7 +104,7 @@ items:
     type: property
     summary: The response.  This is tracked for diagnostic purposes only.
     syntax:
-      content: SPHttpClientResponse | undefined response
+      content: 'public response: SPHttpClientResponse | undefined =  undefined'
       return:
         type:
           - SPHttpClientResponse | undefined

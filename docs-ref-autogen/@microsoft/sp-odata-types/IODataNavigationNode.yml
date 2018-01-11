@@ -38,7 +38,7 @@ items:
       node.
     optional: true
     syntax:
-      content: 'IODataNavigationNode[] Children'
+      content: 'Children?: IODataNavigationNode[]'
       return:
         type:
           - '@@microsoft/sp-odata-types.IODataNavigationNode[]'
@@ -52,7 +52,7 @@ items:
     summary: Gets a value that specifies the identifier for the navigation node.
     optional: true
     syntax:
-      content: number Id
+      content: 'Id?: number'
       return:
         type:
           - number
@@ -66,7 +66,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: boolean IsDocLib
+      content: 'IsDocLib?: boolean'
       return:
         type:
           - boolean
@@ -84,7 +84,7 @@ items:
       corresponds to pages outside of the site collection.
     optional: true
     syntax:
-      content: boolean IsExternal
+      content: 'IsExternal?: boolean'
       return:
         type:
           - boolean
@@ -100,7 +100,7 @@ items:
       visible.
     optional: true
     syntax:
-      content: boolean IsVisible
+      content: 'IsVisible?: boolean'
       return:
         type:
           - boolean
@@ -116,7 +116,7 @@ items:
       navigation link.
     optional: true
     syntax:
-      content: string Title
+      content: 'Title?: string'
       return:
         type:
           - string
@@ -137,7 +137,7 @@ items:
       relative or absolute form.
     optional: true
     syntax:
-      content: string Url
+      content: 'Url?: string'
       return:
         type:
           - string

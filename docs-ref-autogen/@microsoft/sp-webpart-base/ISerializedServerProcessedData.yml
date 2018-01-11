@@ -36,7 +36,7 @@ items:
       with HTML format.
     optional: true
     syntax:
-      content: '[key: string]: string htmlStrings'
+      content: 'htmlStrings?: [key: string]: string'
       return:
         type:
           - '[key: string]: string'
@@ -65,7 +65,7 @@ items:
       sources.
     optional: true
     syntax:
-      content: '[key: string]: string imageSources'
+      content: 'imageSources?: [key: string]: string'
       return:
         type:
           - '[key: string]: string'
@@ -90,7 +90,7 @@ items:
     summary: A key-value map where keys are string identifiers and values are links.
     optional: true
     syntax:
-      content: '[key: string]: string links'
+      content: 'links?: [key: string]: string'
       return:
         type:
           - '[key: string]: string'
@@ -118,7 +118,7 @@ items:
       that should be search indexed.
     optional: true
     syntax:
-      content: '[key: string]: string searchablePlainTexts'
+      content: 'searchablePlainTexts?: [key: string]: string'
       return:
         type:
           - '[key: string]: string'

@@ -33,7 +33,7 @@ items:
     summary: Automatically configure the "OData-Version" header.
     optional: true
     syntax:
-      content: ODataVersion defaultODataVersion
+      content: 'defaultODataVersion?: ODataVersion'
       return:
         type:
           - '@@microsoft/sp-http.ODataVersion'
@@ -55,7 +55,7 @@ items:
     summary: Automatically configure the RequestInit.credentials.
     optional: true
     syntax:
-      content: boolean defaultSameOriginCredentials
+      content: 'defaultSameOriginCredentials?: boolean'
       return:
         type:
           - boolean
@@ -84,7 +84,7 @@ items:
     summary: Automatically provide an "X-RequestDigest" header for authentication.
     optional: true
     syntax:
-      content: boolean requestDigest
+      content: 'requestDigest?: boolean'
       return:
         type:
           - boolean

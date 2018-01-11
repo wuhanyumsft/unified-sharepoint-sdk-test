@@ -29,7 +29,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string appId
+      content: 'public appId: string = "00000000-0000-0000-0000-000000000000"'
       return:
         type:
           - string
@@ -42,7 +42,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string webAbsoluteUrl
+      content: 'public webAbsoluteUrl: string = "https://localhost:4321"'
       return:
         type:
           - string
@@ -55,7 +55,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string webServerRelativeUrl
+      content: 'public webServerRelativeUrl: string = "https://localhost:4321"'
       return:
         type:
           - string

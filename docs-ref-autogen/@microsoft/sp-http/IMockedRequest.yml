@@ -51,7 +51,7 @@ items:
       to enforce that a header is NOT present, specify its value as "undefined".
     optional: true
     syntax:
-      content: 'MockedHeader[] expectedRequestHeaders'
+      content: 'expectedRequestHeaders?: MockedHeader[]'
       return:
         type:
           - '@@microsoft/sp-http.MockedHeader[]'
@@ -69,7 +69,7 @@ items:
       If the value is a string, then a string comparison is performed.
     optional: true
     syntax:
-      content: string expectedRequestObject
+      content: 'expectedRequestObject?: string'
       return:
         type:
           - string
@@ -82,7 +82,7 @@ items:
     type: property
     summary: The expected URL of the REST service request to be performed.
     syntax:
-      content: string expectedUrl
+      content: 'expectedUrl: string'
       return:
         type:
           - string
@@ -100,7 +100,7 @@ items:
       credentials, caching options, etc.
     optional: true
     syntax:
-      content: '(request: Request) => void requestAssertions'
+      content: 'requestAssertions?: (request: Request) => void'
       return:
         type:
           - '(request: Request) => void'
@@ -118,7 +118,7 @@ items:
       the responseObject.
     optional: true
     syntax:
-      content: boolean responseContentLengthHeader
+      content: 'responseContentLengthHeader?: boolean'
       return:
         type:
           - boolean
@@ -132,7 +132,7 @@ items:
     summary: The headers to include with the mocked response.
     optional: true
     syntax:
-      content: 'MockedHeader[] responseHeaders'
+      content: 'responseHeaders?: MockedHeader[]'
       return:
         type:
           - '@@microsoft/sp-http.MockedHeader[]'
@@ -152,7 +152,7 @@ items:
       Otherwise, it is assumed to be a JSON object that will be passed to
       JSON.stringify().
     syntax:
-      content: any responseObject
+      content: 'responseObject: any'
       return:
         type:
           - any
@@ -166,7 +166,7 @@ items:
     summary: Optional additional headers/details for the response
     optional: true
     syntax:
-      content: ResponseInit responseOptions
+      content: 'responseOptions?: ResponseInit'
       return:
         type:
           - ResponseInit

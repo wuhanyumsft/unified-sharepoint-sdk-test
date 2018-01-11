@@ -30,7 +30,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string id
+      content: 'id?: string'
       return:
         type:
           - string
@@ -43,7 +43,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean isDetailsShown
+      content: 'isDetailsShown: boolean'
       return:
         type:
           - boolean

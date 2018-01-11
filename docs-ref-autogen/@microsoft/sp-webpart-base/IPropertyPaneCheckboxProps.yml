@@ -32,7 +32,7 @@ items:
     summary: Whether the property pane checkbox is checked or not.
     optional: true
     syntax:
-      content: boolean checked
+      content: 'checked?: boolean'
       return:
         type:
           - boolean
@@ -47,7 +47,7 @@ items:
     summary: Whether the property pane checkbox is disabled or not.
     optional: true
     syntax:
-      content: boolean disabled
+      content: 'disabled?: boolean'
       return:
         type:
           - boolean
@@ -61,7 +61,7 @@ items:
     summary: Label to display next to the checkbox.
     optional: true
     syntax:
-      content: string text
+      content: 'text?: string'
       return:
         type:
           - string

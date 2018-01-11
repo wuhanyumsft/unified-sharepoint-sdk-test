@@ -33,7 +33,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number Bias
+      content: 'Bias: number'
       return:
         type:
           - number
@@ -46,7 +46,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number DaylightBias
+      content: 'DaylightBias: number'
       return:
         type:
           - number
@@ -59,7 +59,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ISPSystemTime DaylightDate
+      content: 'DaylightDate: ISPSystemTime'
       return:
         type:
           - '@@microsoft/sp-odata-types.ISPSystemTime'
@@ -72,7 +72,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string Description
+      content: 'Description: string'
       return:
         type:
           - string
@@ -85,7 +85,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number Id
+      content: 'Id: number'
       return:
         type:
           - number
@@ -98,7 +98,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number StandardBias
+      content: 'StandardBias: number'
       return:
         type:
           - number
@@ -111,7 +111,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ISPSystemTime StandardDate
+      content: 'StandardDate: ISPSystemTime'
       return:
         type:
           - '@@microsoft/sp-odata-types.ISPSystemTime'

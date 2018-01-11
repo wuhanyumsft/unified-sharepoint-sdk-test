@@ -34,7 +34,7 @@ items:
     summary: Page to be displayed on the PropertyPane.
     optional: true
     syntax:
-      content: number currentPage
+      content: 'currentPage?: number'
       return:
         type:
           - number
@@ -51,7 +51,7 @@ items:
       on the property pane.
     optional: true
     syntax:
-      content: number loadingIndicatorDelayTime
+      content: 'loadingIndicatorDelayTime?: number'
       return:
         type:
           - number
@@ -65,7 +65,7 @@ items:
     type: property
     summary: Total number of pages on the PropertyPane.
     syntax:
-      content: 'IPropertyPanePage[] pages'
+      content: 'pages: IPropertyPanePage[]'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IPropertyPanePage[]'
@@ -81,7 +81,7 @@ items:
       property pane or not.
     optional: true
     syntax:
-      content: boolean showLoadingIndicator
+      content: 'showLoadingIndicator?: boolean'
       return:
         type:
           - boolean

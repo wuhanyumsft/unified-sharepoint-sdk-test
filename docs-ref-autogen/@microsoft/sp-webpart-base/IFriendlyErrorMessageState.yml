@@ -27,7 +27,7 @@ items:
     type: property
     summary: Is the ErrorMessage visible or not?
     syntax:
-      content: boolean isExpanded
+      content: 'isExpanded: boolean'
       return:
         type:
           - boolean

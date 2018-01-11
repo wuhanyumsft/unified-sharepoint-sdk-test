@@ -32,7 +32,7 @@ items:
       Gets an SPNavigationNode object that contains
       the nodes in the Quick Launch area of the site.
     syntax:
-      content: 'IODataNavigationNode[] quickLaunch'
+      content: 'quickLaunch: IODataNavigationNode[]'
       return:
         type:
           - '@@microsoft/sp-odata-types.IODataNavigationNode[]'
@@ -49,7 +49,7 @@ items:
 
       for the website.
     syntax:
-      content: 'IODataNavigationNode[] topNav'
+      content: 'topNav: IODataNavigationNode[]'
       return:
         type:
           - '@@microsoft/sp-odata-types.IODataNavigationNode[]'

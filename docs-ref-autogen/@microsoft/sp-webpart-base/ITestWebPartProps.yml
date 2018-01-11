@@ -27,7 +27,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string prop1
+      content: 'prop1: string'
       return:
         type:
           - string

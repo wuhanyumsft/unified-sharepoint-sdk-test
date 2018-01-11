@@ -48,7 +48,7 @@ items:
     type: property
     summary: The time value that will be returned by getNowMs().
     syntax:
-      content: Date currentDate
+      content: 'public currentDate: Date'
       return:
         type:
           - Date
@@ -61,7 +61,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number currentTimestamp
+      content: 'public currentTimestamp: number'
       return:
         type:
           - number

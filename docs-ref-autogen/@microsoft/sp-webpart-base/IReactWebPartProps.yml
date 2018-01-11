@@ -33,7 +33,7 @@ items:
 
       This value is read from web part and passed to here.
     syntax:
-      content: DisplayMode mode
+      content: 'mode: DisplayMode'
       return:
         type:
           - DisplayMode

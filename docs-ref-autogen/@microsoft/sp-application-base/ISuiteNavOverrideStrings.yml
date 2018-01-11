@@ -66,7 +66,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string l_Shell15_Affordance_Text
+      content: 'l_Shell15_Affordance_Text?: string'
       return:
         type:
           - string
@@ -81,7 +81,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string l_Shell15_Affordance_Title_Text
+      content: 'l_Shell15_Affordance_Title_Text?: string'
       return:
         type:
           - string
@@ -96,7 +96,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string l_Shell15_Help_Text
+      content: 'l_Shell15_Help_Text?: string'
       return:
         type:
           - string
@@ -111,7 +111,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string l_Shell15_Help_Title_Text
+      content: 'l_Shell15_Help_Title_Text?: string'
       return:
         type:
           - string
@@ -126,7 +126,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string l_Shell15_MeTile_Title_Text
+      content: 'l_Shell15_MeTile_Title_Text?: string'
       return:
         type:
           - string
@@ -141,7 +141,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string l_Shell15_O365_Text
+      content: 'l_Shell15_O365_Text?: string'
       return:
         type:
           - string
@@ -156,7 +156,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string l_Shell15_Settings_Text
+      content: 'l_Shell15_Settings_Text?: string'
       return:
         type:
           - string
@@ -171,7 +171,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string l_Shell15_Settings_Title_Text
+      content: 'l_Shell15_Settings_Title_Text?: string'
       return:
         type:
           - string
@@ -186,7 +186,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string l_Shell15_UserSettings_Text
+      content: 'l_Shell15_UserSettings_Text?: string'
       return:
         type:
           - string
@@ -201,7 +201,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string l_ShellCore_Affordance_Text
+      content: 'l_ShellCore_Affordance_Text?: string'
       return:
         type:
           - string
@@ -216,7 +216,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string l_ShellCore_Affordance_Title_Text
+      content: 'l_ShellCore_Affordance_Title_Text?: string'
       return:
         type:
           - string
@@ -231,7 +231,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string l_ShellCore_Help_Text
+      content: 'l_ShellCore_Help_Text?: string'
       return:
         type:
           - string
@@ -246,7 +246,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string l_ShellCore_Help_Title_Text
+      content: 'l_ShellCore_Help_Title_Text?: string'
       return:
         type:
           - string
@@ -261,7 +261,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string l_ShellCore_MeTile_Title_Text
+      content: 'l_ShellCore_MeTile_Title_Text?: string'
       return:
         type:
           - string
@@ -276,7 +276,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string l_ShellCore_O365_Text
+      content: 'l_ShellCore_O365_Text?: string'
       return:
         type:
           - string
@@ -291,7 +291,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string l_ShellCore_O365_Title_Text
+      content: 'l_ShellCore_O365_Title_Text?: string'
       return:
         type:
           - string
@@ -306,7 +306,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string l_ShellCore_Settings_Text
+      content: 'l_ShellCore_Settings_Text?: string'
       return:
         type:
           - string
@@ -321,7 +321,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string l_ShellCore_Settings_Title_Text
+      content: 'l_ShellCore_Settings_Title_Text?: string'
       return:
         type:
           - string
@@ -336,7 +336,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string l_ShellCore_UserSettings_Text
+      content: 'l_ShellCore_UserSettings_Text?: string'
       return:
         type:
           - string

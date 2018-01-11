@@ -84,7 +84,7 @@ items:
     type: property
     summary: The service key for AadTokenProvider.
     syntax:
-      content: static ServiceKey<AadTokenProvider> serviceKey
+      content: "public static serviceKey: ServiceKey<AadTokenProvider> = \r\n    ServiceKey.create<AadTokenProvider>('sp-http:AadTokenProvider', AadTokenProvider)"
       return:
         type:
           - ServiceKey<@@microsoft/sp-http.AadTokenProvider>

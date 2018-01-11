@@ -30,7 +30,9 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string EDOG_OAUTH_TOKEN_URL
+      content: >-
+        public static EDOG_OAUTH_TOKEN_URL: string =
+        "https://graph.microsoft-ppe.com"
       return:
         type:
           - string
@@ -43,7 +45,9 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static string PROD_OAUTH_TOKEN_URL
+      content: >-
+        public static PROD_OAUTH_TOKEN_URL: string =
+        "https://graph.microsoft.com"
       return:
         type:
           - string

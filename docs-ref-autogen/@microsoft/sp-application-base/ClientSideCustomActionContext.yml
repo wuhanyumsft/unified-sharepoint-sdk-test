@@ -34,7 +34,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'ClientSideCustomAction[] customActions'
+      content: 'public customActions: ClientSideCustomAction[] =  []'
       return:
         type:
           - '@@microsoft/sp-application-base.ClientSideCustomAction[]'
@@ -48,7 +48,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'ClientSideCustomAction[] debugCustomActions'
+      content: 'public debugCustomActions: ClientSideCustomAction[] =  []'
       return:
         type:
           - '@@microsoft/sp-application-base.ClientSideCustomAction[]'

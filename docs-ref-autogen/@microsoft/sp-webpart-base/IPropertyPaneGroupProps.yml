@@ -45,7 +45,7 @@ items:
       Defaullt value is false.
     optional: true
     syntax:
-      content: boolean displayGroupsAsAccordion
+      content: 'displayGroupsAsAccordion?: boolean'
       return:
         type:
           - boolean
@@ -61,7 +61,7 @@ items:
       PropertyPaneFields.
     optional: true
     syntax:
-      content: '(targetProperty: string, value: any) => void onChange'
+      content: 'onChange?: (targetProperty: string, value: any) => void'
       return:
         type:
           - '(targetProperty: string, value: any) => void'
@@ -74,7 +74,7 @@ items:
     type: property
     summary: Page on which the current group is present.
     syntax:
-      content: number pageNumber
+      content: 'pageNumber: number'
       return:
         type:
           - number
@@ -88,7 +88,7 @@ items:
     summary: Properties bag of the web part.
     optional: true
     syntax:
-      content: any properties
+      content: 'properties?: any'
       return:
         type:
           - any
@@ -105,8 +105,8 @@ items:
       PropertyPane group.
     syntax:
       content: >-
-        (pageNumber: number, groupName: string, isCollapsed: boolean) => void
-        propertyPaneGroupStateChanged
+        propertyPaneGroupStateChanged: (pageNumber: number, groupName: string,
+        isCollapsed: boolean) => void
       return:
         type:
           - >-
@@ -124,7 +124,7 @@ items:
       Dictionary to maintain the state of all the groups, after the end user
       modifies it.
     syntax:
-      content: PropertyPanePagesStateMap propertyPanePagesStateMap
+      content: 'propertyPanePagesStateMap: PropertyPanePagesStateMap'
       return:
         type:
           - PropertyPanePagesStateMap
@@ -144,7 +144,7 @@ items:
       update the invalidEntries dictionary.
     optional: true
     syntax:
-      content: '(targetProperty: string, isValidEntry: boolean) => void setEntryState'
+      content: 'setEntryState?: (targetProperty: string, isValidEntry: boolean) => void'
       return:
         type:
           - '(targetProperty: string, isValidEntry: boolean) => void'

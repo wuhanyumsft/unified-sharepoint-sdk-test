@@ -47,7 +47,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string name
+      content: 'public name: string'
       return:
         type:
           - string
@@ -60,7 +60,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string value
+      content: 'public value: string'
       return:
         type:
           - string

@@ -42,7 +42,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: SuiteNavSource suiteNavService
+      content: 'suiteNavService: SuiteNavSource'
       return:
         type:
           - '@@microsoft/sp-application-base.SuiteNavSource'

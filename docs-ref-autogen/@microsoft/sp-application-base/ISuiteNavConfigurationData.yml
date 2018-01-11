@@ -39,7 +39,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string currentUICultureName
+      content: 'currentUICultureName: string'
       return:
         type:
           - string
@@ -53,7 +53,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: boolean disableSuiteNav
+      content: 'disableSuiteNav?: boolean'
       return:
         type:
           - boolean
@@ -67,7 +67,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: 'ISuiteNavLink[] settingsData'
+      content: 'settingsData?: ISuiteNavLink[]'
       return:
         type:
           - '@@microsoft/sp-application-base.ISuiteNavLink[]'
@@ -81,7 +81,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string signoutUrl
+      content: 'signoutUrl?: string'
       return:
         type:
           - string
@@ -94,7 +94,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string siteClientTag
+      content: 'siteClientTag: string'
       return:
         type:
           - string
@@ -107,7 +107,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string systemUserKey
+      content: 'systemUserKey: string'
       return:
         type:
           - string
@@ -121,7 +121,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string webServerRelativeUrl
+      content: 'webServerRelativeUrl: string'
       return:
         type:
           - string
@@ -137,7 +137,7 @@ items:
       site.
     optional: true
     syntax:
-      content: string webTemplateId
+      content: 'webTemplateId?: string'
       return:
         type:
           - string

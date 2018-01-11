@@ -41,7 +41,9 @@ items:
       The standard predefined HttpClientConfiguration objects for use with
       the HttpClient class.
     syntax:
-      content: static IHttpClientConfigurations configurations
+      content: >-
+        public static configurations: IHttpClientConfigurations = 
+        predefinedConfigurations
       return:
         type:
           - '@@microsoft/sp-http.IHttpClientConfigurations'
@@ -164,7 +166,7 @@ items:
     type: property
     summary: The service key for HttpClient.
     syntax:
-      content: static ServiceKey<HttpClient> serviceKey
+      content: "public static serviceKey: ServiceKey<HttpClient> =  ServiceKey.create<HttpClient>\r\n    ('sp-http:HttpClient', HttpClient)"
       return:
         type:
           - ServiceKey<@@microsoft/sp-http.HttpClient>

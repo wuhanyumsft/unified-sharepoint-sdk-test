@@ -57,7 +57,7 @@ items:
 
       https://fetch.spec.whatwg.org/
     syntax:
-      content: GraphHttpClientConfiguration v1
+      content: 'v1: GraphHttpClientConfiguration'
       return:
         type:
           - '@@microsoft/sp-http.GraphHttpClientConfiguration'

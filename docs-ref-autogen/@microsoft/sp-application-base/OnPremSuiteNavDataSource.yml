@@ -67,7 +67,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: SuiteNavSource suiteNavService
+      content: 'public suiteNavService: SuiteNavSource =  SuiteNavSource.OnPrem'
       return:
         type:
           - '@@microsoft/sp-application-base.SuiteNavSource'

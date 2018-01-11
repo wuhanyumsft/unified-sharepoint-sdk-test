@@ -30,7 +30,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => void close
+      content: 'close: () => void'
       return:
         type:
           - () => void
@@ -43,7 +43,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string defaultValue
+      content: 'defaultValue: string'
       return:
         type:
           - string
@@ -56,7 +56,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string message
+      content: 'message: string'
       return:
         type:
           - string
@@ -69,7 +69,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: '(value: string) => void resolve'
+      content: 'resolve: (value: string) => void'
       return:
         type:
           - '(value: string) => void'

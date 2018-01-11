@@ -31,7 +31,7 @@ items:
       The application's DOM element. The placeholder will be attached as
       a child of a child of this element.
     syntax:
-      content: HTMLDivElement domElement
+      content: 'domElement: HTMLDivElement'
       return:
         type:
           - HTMLDivElement
@@ -44,7 +44,7 @@ items:
     type: property
     summary: The placeholder name.
     syntax:
-      content: PlaceholderName name
+      content: 'name: PlaceholderName'
       return:
         type:
           - '@@microsoft/sp-application-base.PlaceholderName'

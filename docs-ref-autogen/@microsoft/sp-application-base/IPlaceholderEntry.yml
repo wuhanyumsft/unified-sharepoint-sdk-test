@@ -29,7 +29,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: PlaceholderContent placeholderContent
+      content: 'placeholderContent: PlaceholderContent'
       return:
         type:
           - '@@microsoft/sp-application-base.PlaceholderContent'
@@ -42,7 +42,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number sequence
+      content: 'sequence: number'
       return:
         type:
           - number

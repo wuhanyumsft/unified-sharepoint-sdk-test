@@ -31,7 +31,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string instanceId
+      content: 'instanceId: string'
       return:
         type:
           - string

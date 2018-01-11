@@ -40,7 +40,7 @@ items:
     type: property
     summary: Reference to the DOM element that hosts this client side component.
     syntax:
-      content: HTMLElement domElement
+      content: 'domElement: HTMLElement'
       return:
         type:
           - HTMLElement
@@ -53,7 +53,7 @@ items:
     type: property
     summary: Web part event aggregator.
     syntax:
-      content: IEventAggregator eventAggregator
+      content: 'eventAggregator: IEventAggregator'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IEventAggregator'
@@ -66,7 +66,7 @@ items:
     type: property
     summary: Web part host.
     syntax:
-      content: IWebPartHost host
+      content: 'host: IWebPartHost'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IWebPartHost'
@@ -79,7 +79,7 @@ items:
     type: property
     summary: Web part instance id. This is a globally unique value.
     syntax:
-      content: string instanceId
+      content: 'instanceId: string'
       return:
         type:
           - string
@@ -92,7 +92,7 @@ items:
     type: property
     summary: Indicates whether the PropertyPane is open or not.
     syntax:
-      content: () => boolean isPropertyPaneOpen
+      content: 'isPropertyPaneOpen: () => boolean'
       return:
         type:
           - () => boolean
@@ -108,7 +108,7 @@ items:
       Is the property pane rendered by a web part and not by Canvas or any other
       source.
     syntax:
-      content: () => boolean isPropertyPaneRenderedByWebPart
+      content: 'isPropertyPaneRenderedByWebPart: () => boolean'
       return:
         type:
           - () => boolean
@@ -121,7 +121,7 @@ items:
     type: property
     summary: Manifest for the client side web part.
     syntax:
-      content: IClientSideWebPartManifestInstance<any> manifest
+      content: 'manifest: IClientSideWebPartManifestInstance<any>'
       return:
         type:
           - IClientSideWebPartManifestInstance<any>
@@ -135,8 +135,8 @@ items:
     summary: Function to set the property pane state.
     syntax:
       content: >-
-        (id: string, propertyPaneState?: PropertyPaneState, renderedByWebPart?:
-        boolean) => void setPropertyPaneState
+        setPropertyPaneState: (id: string, propertyPaneState?:
+        PropertyPaneState, renderedByWebPart?: boolean) => void
       return:
         type:
           - >-
@@ -151,7 +151,7 @@ items:
     type: property
     summary: Web part status renderer.
     syntax:
-      content: IClientSideWebPartStatusRenderer statusRenderer
+      content: 'statusRenderer: IClientSideWebPartStatusRenderer'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IClientSideWebPartStatusRenderer'
@@ -164,7 +164,7 @@ items:
     type: property
     summary: Web part tag to be used for logging and telemetry.
     syntax:
-      content: string webPartTag
+      content: 'webPartTag: string'
       return:
         type:
           - string

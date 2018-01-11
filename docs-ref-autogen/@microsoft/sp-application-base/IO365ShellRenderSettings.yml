@@ -36,7 +36,7 @@ items:
       load event.
     optional: true
     syntax:
-      content: boolean disableDelayLoad
+      content: 'disableDelayLoad?: boolean'
       return:
         type:
           - boolean
@@ -55,7 +55,7 @@ items:
       LoadShellPlus().
     optional: true
     syntax:
-      content: boolean disableShellPlus
+      content: 'disableShellPlus?: boolean'
       return:
         type:
           - boolean
@@ -70,7 +70,7 @@ items:
       The layout type of the current view.
       The only option we're interested in is 'Mouse'.
     syntax:
-      content: string layout
+      content: 'layout: string'
       return:
         type:
           - string
@@ -83,7 +83,7 @@ items:
     type: property
     summary: The ID of the element the suite nav should render in.
     syntax:
-      content: string top
+      content: 'top: string'
       return:
         type:
           - string

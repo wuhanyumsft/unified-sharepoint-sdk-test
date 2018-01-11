@@ -34,7 +34,7 @@ items:
       In such case, use state showSpinner to true when to show the spinner
     optional: true
     syntax:
-      content: boolean hideSpinner
+      content: 'hideSpinner?: boolean'
       return:
         type:
           - boolean
@@ -47,7 +47,7 @@ items:
     type: property
     summary: Label associated with the spinner.
     syntax:
-      content: string label
+      content: 'label: string'
       return:
         type:
           - string

@@ -31,7 +31,7 @@ items:
     type: property
     summary: Instance id for the client-side component.
     syntax:
-      content: string instanceId
+      content: 'instanceId: string'
       return:
         type:
           - string
@@ -44,7 +44,7 @@ items:
     type: property
     summary: Logging service tag
     syntax:
-      content: string loggingTag
+      content: 'loggingTag: string'
       return:
         type:
           - string
@@ -57,7 +57,7 @@ items:
     type: property
     summary: The client-side component manifest.
     syntax:
-      content: IClientSideComponentManifest manifest
+      content: 'manifest: IClientSideComponentManifest'
       return:
         type:
           - IClientSideComponentManifest
@@ -73,7 +73,7 @@ items:
       The manager's ServiceScope, which will be used to create the child
       ServiceScope for the associated context.
     syntax:
-      content: ServiceScope parentServiceScope
+      content: 'parentServiceScope: ServiceScope'
       return:
         type:
           - ServiceScope

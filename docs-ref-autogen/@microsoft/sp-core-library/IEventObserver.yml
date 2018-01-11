@@ -49,7 +49,7 @@ items:
     type: property
     summary: 'The component identifier, from the component''s manifest.'
     syntax:
-      content: string componentId
+      content: 'componentId: string'
       return:
         type:
           - string
@@ -67,7 +67,7 @@ items:
     type: property
     summary: The instance identifier for the component.
     syntax:
-      content: string instanceId
+      content: 'instanceId: string'
       return:
         type:
           - string

@@ -32,7 +32,7 @@ items:
     type: property
     summary: Number of web parts on the page
     syntax:
-      content: static string webParts
+      content: 'public static webParts: string = "WebParts"'
       return:
         type:
           - string
@@ -45,7 +45,9 @@ items:
     type: property
     summary: Number of web parts counted in the viewport for EUPL calculation
     syntax:
-      content: static string webPartsCountedInViewport
+      content: >-
+        public static webPartsCountedInViewport: string =
+        "WebPartsCountedInViewport"
       return:
         type:
           - string
@@ -58,7 +60,9 @@ items:
     type: property
     summary: Web part was auto started loadeding before user could scroll to it.
     syntax:
-      content: static string webPartsLoadedBeforeScroll
+      content: >-
+        public static webPartsLoadedBeforeScroll: string =
+        "WebPartsLoadedBeforeScroll"
       return:
         type:
           - string
@@ -71,7 +75,7 @@ items:
     type: property
     summary: Web part loaded when user scrolled to it.
     syntax:
-      content: static string webPartsLoadedByScroll
+      content: 'public static webPartsLoadedByScroll: string = "WebPartsLoadedByScroll"'
       return:
         type:
           - string
@@ -84,7 +88,9 @@ items:
     type: property
     summary: Web part loaded initiallly for viewport rendering.
     syntax:
-      content: static string webPartsLoadedForViewport
+      content: >-
+        public static webPartsLoadedForViewport: string =
+        "WebPartsLoadedForViewport"
       return:
         type:
           - string
@@ -106,7 +112,9 @@ items:
 
       once it is loaded
     syntax:
-      content: static string webPartsLoadedNotInViewport
+      content: >-
+        public static webPartsLoadedNotInViewport: string =
+        "WebPartsLoadedNotInViewport"
       return:
         type:
           - string

@@ -28,7 +28,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string | undefined key
+      content: 'key: string | undefined'
       return:
         type:
           - string | undefined
@@ -41,7 +41,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string | undefined value
+      content: 'value: string | undefined'
       return:
         type:
           - string | undefined

@@ -29,7 +29,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: HTMLDivElement appDiv
+      content: 'appDiv: HTMLDivElement'
       return:
         type:
           - HTMLDivElement
@@ -56,7 +56,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: HTMLDivElement suiteNavDiv
+      content: 'suiteNavDiv: HTMLDivElement'
       return:
         type:
           - HTMLDivElement

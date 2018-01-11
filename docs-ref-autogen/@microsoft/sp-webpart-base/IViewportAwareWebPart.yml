@@ -27,7 +27,7 @@ items:
     type: property
     summary: The DOM element of the lazyily loaded webpart.
     syntax:
-      content: HTMLElement domElement
+      content: 'domElement: HTMLElement'
       return:
         type:
           - HTMLElement

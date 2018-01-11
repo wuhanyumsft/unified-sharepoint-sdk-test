@@ -29,7 +29,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: () => void onClose
+      content: 'onClose: () => void'
       return:
         type:
           - () => void
@@ -42,7 +42,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string title
+      content: 'title: string'
       return:
         type:
           - string

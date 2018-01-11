@@ -32,7 +32,7 @@ items:
     summary: Token that will be used to determine whether cached data is still valid.
     optional: true
     syntax:
-      content: string CacheToken
+      content: 'CacheToken?: string'
       return:
         type:
           - string
@@ -45,7 +45,7 @@ items:
     type: property
     summary: URL for suite nav CSS
     syntax:
-      content: string CssUrl
+      content: 'CssUrl: string'
       return:
         type:
           - string
@@ -58,7 +58,7 @@ items:
     type: property
     summary: URL for suite nav JS
     syntax:
-      content: string JsUrl
+      content: 'JsUrl: string'
       return:
         type:
           - string
@@ -71,7 +71,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ISuiteNavData NavBarData
+      content: 'NavBarData: ISuiteNavData'
       return:
         type:
           - '@@microsoft/sp-application-base.ISuiteNavData'
@@ -85,7 +85,7 @@ items:
     summary: Unique user identifier. Only used for caching.
     optional: true
     syntax:
-      content: string UserIdentifier
+      content: 'UserIdentifier?: string'
       return:
         type:
           - string

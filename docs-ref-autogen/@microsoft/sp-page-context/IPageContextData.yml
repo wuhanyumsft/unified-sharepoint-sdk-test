@@ -32,7 +32,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ICultureInfoData cultureInfo
+      content: 'cultureInfo: ICultureInfoData'
       return:
         type:
           - '@@microsoft/sp-page-context.ICultureInfoData'
@@ -46,7 +46,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: ISPListData list
+      content: 'list?: ISPListData'
       return:
         type:
           - '@@microsoft/sp-page-context.ISPListData'
@@ -60,7 +60,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: ISPListItemData listItem
+      content: 'listItem?: ISPListItemData'
       return:
         type:
           - '@@microsoft/sp-page-context.ISPListItemData'
@@ -73,7 +73,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ISPSiteData site
+      content: 'site: ISPSiteData'
       return:
         type:
           - '@@microsoft/sp-page-context.ISPSiteData'
@@ -86,7 +86,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ISPUserData user
+      content: 'user: ISPUserData'
       return:
         type:
           - '@@microsoft/sp-page-context.ISPUserData'
@@ -99,7 +99,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ISPWebData web
+      content: 'web: ISPWebData'
       return:
         type:
           - '@@microsoft/sp-page-context.ISPWebData'

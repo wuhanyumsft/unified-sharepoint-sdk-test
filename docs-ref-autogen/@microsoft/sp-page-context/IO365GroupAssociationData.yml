@@ -28,7 +28,7 @@ items:
     type: property
     summary: '{@inheritdoc  O365GroupAssociation.id}'
     syntax:
-      content: string id
+      content: 'id: string'
       return:
         type:
           - string
@@ -41,7 +41,7 @@ items:
     type: property
     summary: '{@inheritdoc  O365GroupAssociation.type}'
     syntax:
-      content: string type
+      content: 'type: string'
       return:
         type:
           - string

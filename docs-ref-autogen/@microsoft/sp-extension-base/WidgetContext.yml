@@ -30,7 +30,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string extraThing
+      content: 'public extraThing: string'
       return:
         type:
           - string

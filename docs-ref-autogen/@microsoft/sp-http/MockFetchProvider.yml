@@ -88,7 +88,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'IMockedRequest[] mockedRequest'
+      content: 'public mockedRequest: IMockedRequest[] =  []'
       return:
         type:
           - '@@microsoft/sp-http.IMockedRequest[]'
@@ -119,7 +119,7 @@ items:
       receives, which you can use as a guide for writing unit test validation.
       You still need to call expect() to supply the expected responses.
     syntax:
-      content: boolean practiceRun
+      content: 'public practiceRun: boolean'
       return:
         type:
           - boolean

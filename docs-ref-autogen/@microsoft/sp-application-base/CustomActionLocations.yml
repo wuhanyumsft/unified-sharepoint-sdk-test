@@ -48,7 +48,9 @@ items:
 
       Base class:              BaseApplicationCustomizer
     syntax:
-      content: static string APPLICATION_CUSTOMIZER
+      content: >-
+        public static APPLICATION_CUSTOMIZER: string =
+        "ClientSideExtension.ApplicationCustomizer"
       return:
         type:
           - string
@@ -65,7 +67,9 @@ items:
       Manifest extension type: "ListViewCommandSet"
       Base class:              BaseListViewCommandSet
     syntax:
-      content: static string LISTVIEW_COMMANDSET_COMMANDBAR
+      content: >-
+        public static LISTVIEW_COMMANDSET_COMMANDBAR: string =
+        "ClientSideExtension.ListViewCommandSet.CommandBar"
       return:
         type:
           - string
@@ -85,7 +89,9 @@ items:
 
       Base class:              BaseListViewCommandSet
     syntax:
-      content: static string LISTVIEW_COMMANDSET_CONTEXTMENU
+      content: >-
+        public static LISTVIEW_COMMANDSET_CONTEXTMENU: string =
+        "ClientSideExtension.ListViewCommandSet.ContextMenu"
       return:
         type:
           - string
@@ -107,7 +113,9 @@ items:
 
       Base class:              BaseListViewCommandSet
     syntax:
-      content: static string LISTVIEW_COMMANDSET_DEFAULT
+      content: >-
+        public static LISTVIEW_COMMANDSET_DEFAULT: string =
+        "ClientSideExtension.ListViewCommandSet"
       return:
         type:
           - string

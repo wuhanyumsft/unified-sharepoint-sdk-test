@@ -30,7 +30,7 @@ items:
     summary: Use this flag to clear the placeholder completely from the Dom tree
     optional: true
     syntax:
-      content: boolean removePlaceholder
+      content: 'removePlaceholder?: boolean'
       return:
         type:
           - boolean
@@ -45,7 +45,7 @@ items:
       Use this flag to hide rotating spinner but maintain height of the
       placeholder container
     syntax:
-      content: boolean showSpinner
+      content: 'showSpinner: boolean'
       return:
         type:
           - boolean

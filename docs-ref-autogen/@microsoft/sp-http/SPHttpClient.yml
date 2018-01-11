@@ -70,7 +70,9 @@ items:
       The standard predefined SPHttpClientConfiguration objects for use with
       the SPHttpClient class.
     syntax:
-      content: static ISPHttpClientConfigurations configurations
+      content: >-
+        public static configurations: ISPHttpClientConfigurations = 
+        predefinedConfigurations
       return:
         type:
           - '@@microsoft/sp-http.ISPHttpClientConfigurations'
@@ -259,7 +261,7 @@ items:
     type: property
     summary: The service key for SPHttpClient.
     syntax:
-      content: static ServiceKey<SPHttpClient> serviceKey
+      content: "public static serviceKey: ServiceKey<SPHttpClient> =  ServiceKey.create<SPHttpClient>\r\n    ('sp-http:SPHttpClient', SPHttpClient)"
       return:
         type:
           - ServiceKey<@@microsoft/sp-http.SPHttpClient>

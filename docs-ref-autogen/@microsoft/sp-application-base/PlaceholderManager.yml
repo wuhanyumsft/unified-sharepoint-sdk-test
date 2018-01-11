@@ -123,7 +123,10 @@ items:
     type: property
     summary: The service key for PlaceholderManager.
     syntax:
-      content: static ServiceKey<PlaceholderManager> serviceKey
+      content: >-
+        public static serviceKey: ServiceKey<PlaceholderManager> = 
+        ServiceKey.create<PlaceholderManager>('sp-application-base:PlaceholderManager',
+        PlaceholderManager)
       return:
         type:
           - ServiceKey<@@microsoft/sp-application-base.PlaceholderManager>

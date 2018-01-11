@@ -36,7 +36,7 @@ items:
       screen
     optional: true
     syntax:
-      content: number calloutMaxHeight
+      content: 'calloutMaxHeight?: number'
       return:
         type:
           - number

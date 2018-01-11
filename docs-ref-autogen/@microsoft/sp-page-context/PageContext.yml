@@ -185,7 +185,7 @@ items:
     type: property
     summary: The service key for PageContext.
     syntax:
-      content: static ServiceKey<PageContext> serviceKey
+      content: "public static serviceKey: ServiceKey<PageContext> =  ServiceKey.create<PageContext>\r\n    ('sp-page-context:PageContext', PageContext)"
       return:
         type:
           - ServiceKey<@@microsoft/sp-page-context.PageContext>

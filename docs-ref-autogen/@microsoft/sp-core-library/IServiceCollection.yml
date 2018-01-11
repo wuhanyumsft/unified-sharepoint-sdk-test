@@ -33,7 +33,7 @@ items:
     type: property
     summary: Returns the underlying ServiceScope that the members belong to.
     syntax:
-      content: ServiceScope serviceScope
+      content: 'serviceScope: ServiceScope'
       return:
         type:
           - '@@microsoft/sp-core-library.ServiceScope'

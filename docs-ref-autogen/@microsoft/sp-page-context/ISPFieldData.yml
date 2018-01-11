@@ -33,7 +33,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string clientSideComponentId
+      content: 'clientSideComponentId: string'
       return:
         type:
           - string
@@ -46,7 +46,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string clientSideComponentProperties
+      content: 'clientSideComponentProperties: string'
       return:
         type:
           - string
@@ -59,7 +59,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string displayName
+      content: 'displayName: string'
       return:
         type:
           - string
@@ -72,7 +72,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string fieldType
+      content: 'fieldType: string'
       return:
         type:
           - string
@@ -85,7 +85,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string id
+      content: 'id: string'
       return:
         type:
           - string
@@ -98,7 +98,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string internalName
+      content: 'internalName: string'
       return:
         type:
           - string
@@ -111,7 +111,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean isRequired
+      content: 'isRequired: boolean'
       return:
         type:
           - boolean

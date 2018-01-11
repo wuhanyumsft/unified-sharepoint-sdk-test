@@ -34,7 +34,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number Day
+      content: 'Day: number'
       return:
         type:
           - number
@@ -47,7 +47,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number DayOfWeek
+      content: 'DayOfWeek: number'
       return:
         type:
           - number
@@ -60,7 +60,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number Hour
+      content: 'Hour: number'
       return:
         type:
           - number
@@ -73,7 +73,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number Milliseconds
+      content: 'Milliseconds: number'
       return:
         type:
           - number
@@ -86,7 +86,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number Minute
+      content: 'Minute: number'
       return:
         type:
           - number
@@ -99,7 +99,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number Month
+      content: 'Month: number'
       return:
         type:
           - number
@@ -112,7 +112,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number Second
+      content: 'Second: number'
       return:
         type:
           - number
@@ -125,7 +125,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number Year
+      content: 'Year: number'
       return:
         type:
           - number

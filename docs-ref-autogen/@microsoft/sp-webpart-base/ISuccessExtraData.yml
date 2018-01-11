@@ -29,7 +29,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string alias
+      content: 'alias: string'
       return:
         type:
           - string
@@ -42,7 +42,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean | undefined isInternal
+      content: 'isInternal: boolean | undefined'
       return:
         type:
           - boolean | undefined
@@ -55,7 +55,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string manifestId
+      content: 'manifestId: string'
       return:
         type:
           - string

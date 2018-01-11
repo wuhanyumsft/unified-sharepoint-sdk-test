@@ -37,7 +37,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string absoluteUrl
+      content: 'absoluteUrl: string'
       return:
         type:
           - string
@@ -50,7 +50,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string cdnPrefix
+      content: 'cdnPrefix: string'
       return:
         type:
           - string
@@ -63,7 +63,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string classification
+      content: 'classification: string'
       return:
         type:
           - string
@@ -76,7 +76,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string correlationId
+      content: 'correlationId: string'
       return:
         type:
           - string
@@ -90,7 +90,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: IO365GroupAssociationData group
+      content: 'group?: IO365GroupAssociationData'
       return:
         type:
           - '@@microsoft/sp-page-context.IO365GroupAssociationData'
@@ -103,7 +103,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string id
+      content: 'id: string'
       return:
         type:
           - string
@@ -116,7 +116,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean isNoScriptEnabled
+      content: 'isNoScriptEnabled: boolean'
       return:
         type:
           - boolean
@@ -129,7 +129,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: number recycleBinItemCount
+      content: 'recycleBinItemCount: number'
       return:
         type:
           - number
@@ -142,7 +142,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string serverRelativeUrl
+      content: 'serverRelativeUrl: string'
       return:
         type:
           - string
@@ -155,7 +155,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string serverRequestPath
+      content: 'serverRequestPath: string'
       return:
         type:
           - string
@@ -168,7 +168,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean sitePagesEnabled
+      content: 'sitePagesEnabled: boolean'
       return:
         type:
           - boolean

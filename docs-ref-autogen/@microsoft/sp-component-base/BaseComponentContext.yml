@@ -71,7 +71,7 @@ items:
     type: property
     summary: Manifest for the client side component.
     syntax:
-      content: IClientSideComponentManifest manifest
+      content: 'public manifest: IClientSideComponentManifest'
       return:
         type:
           - IClientSideComponentManifest

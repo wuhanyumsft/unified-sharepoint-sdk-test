@@ -48,7 +48,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: FlexPaneWrapper FlexPane
+      content: 'public FlexPane: FlexPaneWrapper'
       return:
         type:
           - '@@microsoft/sp-application-base.FlexPaneWrapper'
@@ -73,7 +73,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: NavigationWrapper Navigation
+      content: 'public Navigation: NavigationWrapper'
       return:
         type:
           - '@@microsoft/sp-application-base.NavigationWrapper'

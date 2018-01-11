@@ -30,7 +30,9 @@ items:
     type: property
     summary: ''
     syntax:
-      content: static _LogSource logSource
+      content: >-
+        public static logSource: _LogSource = 
+        _LogSource.create('FlexPaneWrapper')
       return:
         type:
           - _LogSource

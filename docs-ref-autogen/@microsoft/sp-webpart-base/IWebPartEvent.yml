@@ -30,7 +30,7 @@ items:
     type: property
     summary: Source webpart name
     syntax:
-      content: string source
+      content: 'source: string'
       return:
         type:
           - string
@@ -43,7 +43,7 @@ items:
     type: property
     summary: Target webpart name
     syntax:
-      content: string target
+      content: 'target: string'
       return:
         type:
           - string

@@ -33,7 +33,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: DisplayMode displayMode
+      content: 'public displayMode: DisplayMode =  DisplayMode.Read'
       return:
         type:
           - DisplayMode
@@ -46,7 +46,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: HTMLElement domElement
+      content: 'public domElement: HTMLElement =  document.createElement(''div'')'
       return:
         type:
           - HTMLElement
@@ -59,7 +59,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: IWebPartHost host
+      content: 'public host: IWebPartHost =  TEST_UNDEFINED'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IWebPartHost'
@@ -72,7 +72,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string instanceId
+      content: 'public instanceId: string = "wpInstanceId"'
       return:
         type:
           - string
@@ -85,7 +85,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: MockWebPartManifest manifest
+      content: 'public manifest: MockWebPartManifest =  new MockWebPartManifest()'
       return:
         type:
           - '@@microsoft/sp-webpart-base.MockWebPartManifest'
@@ -98,7 +98,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: HTMLElement scrollableParent
+      content: 'public scrollableParent: HTMLElement =  document.createElement(''div'')'
       return:
         type:
           - HTMLElement
@@ -111,7 +111,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: IWebPartData webPartData
+      content: 'public webPartData: IWebPartData =  TEST_UNDEFINED'
       return:
         type:
           - '@@microsoft/sp-webpart-base.IWebPartData'

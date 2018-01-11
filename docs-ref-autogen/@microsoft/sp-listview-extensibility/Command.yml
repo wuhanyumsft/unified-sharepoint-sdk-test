@@ -52,7 +52,7 @@ items:
 
       Example: "Show information.  Press ENTER to select."
     syntax:
-      content: string | undefined ariaLabel
+      content: 'public ariaLabel: string | undefined'
       return:
         type:
           - string | undefined
@@ -70,7 +70,7 @@ items:
       are defined by the type of extension; some extension types may not display
       the image at all.
     syntax:
-      content: string | undefined iconImageUrl
+      content: 'public iconImageUrl: string | undefined'
       return:
         type:
           - string | undefined
@@ -84,7 +84,7 @@ items:
     type: property
     summary: Id of the command.
     syntax:
-      content: string id
+      content: 'public id: string'
       return:
         type:
           - string
@@ -97,7 +97,7 @@ items:
     type: property
     summary: 'A short label to be displayed by the associated button, menu item, etc.'
     syntax:
-      content: string title
+      content: 'public title: string'
       return:
         type:
           - string
@@ -124,7 +124,7 @@ items:
     type: property
     summary: True if the command is visible.
     syntax:
-      content: boolean visible
+      content: 'public visible: boolean'
       return:
         type:
           - boolean

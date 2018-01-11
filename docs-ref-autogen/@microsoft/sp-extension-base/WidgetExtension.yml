@@ -31,7 +31,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: WidgetContext context
+      content: 'public context: WidgetContext'
       return:
         type:
           - '@@microsoft/sp-extension-base.WidgetContext'
@@ -57,7 +57,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: TimeProvider timeProvider
+      content: 'public timeProvider: TimeProvider'
       return:
         type:
           - TimeProvider

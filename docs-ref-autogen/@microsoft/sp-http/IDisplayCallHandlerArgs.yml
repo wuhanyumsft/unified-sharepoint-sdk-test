@@ -12,7 +12,7 @@ items:
     summary: ''
     source:
       path: oauthTokenProvider/AadTokenProvider.ts
-      startLine: 372
+      startLine: 370
       remote:
         path: spfx-core/sp-http/src\oauthTokenProvider/AadTokenProvider.ts
         repo: >-
@@ -28,7 +28,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string redirectUri
+      content: 'redirectUri: string'
       return:
         type:
           - string
@@ -41,7 +41,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string urlNavigate
+      content: 'urlNavigate: string'
       return:
         type:
           - string

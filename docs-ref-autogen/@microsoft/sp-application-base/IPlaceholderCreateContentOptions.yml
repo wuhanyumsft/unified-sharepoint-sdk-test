@@ -34,7 +34,7 @@ items:
       is disposed.
     optional: true
     syntax:
-      content: '(placeholderContent: PlaceholderContent) => void onDispose'
+      content: 'onDispose?: (placeholderContent: PlaceholderContent) => void'
       return:
         type:
           - '(placeholderContent: PlaceholderContent) => void'

@@ -30,7 +30,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ListViewAccessor listView
+      content: 'listView: ListViewAccessor'
       return:
         type:
           - '@@microsoft/sp-listview-extensibility.ListViewAccessor'

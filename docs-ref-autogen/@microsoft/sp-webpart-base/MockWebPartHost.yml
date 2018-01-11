@@ -33,7 +33,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: any eventAggregator
+      content: 'public eventAggregator: any =  EventAggregator'
       return:
         type:
           - any
@@ -46,7 +46,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: HttpClient httpClient
+      content: 'public httpClient: HttpClient =  TEST_UNDEFINED'
       return:
         type:
           - HttpClient
@@ -59,7 +59,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: PageContext pageContext
+      content: 'public pageContext: PageContext =  new PageContext(TEST_UNDEFINED)'
       return:
         type:
           - PageContext
@@ -86,7 +86,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ServiceScope serviceScope
+      content: 'public serviceScope: ServiceScope =  TEST_UNDEFINED'
       return:
         type:
           - ServiceScope
@@ -99,7 +99,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: SPHttpClient spHttpClient
+      content: 'public spHttpClient: SPHttpClient =  TEST_UNDEFINED'
       return:
         type:
           - SPHttpClient
@@ -112,7 +112,9 @@ items:
     type: property
     summary: ''
     syntax:
-      content: MockClientSideWebPartStatusRenderer statusRenderer
+      content: >-
+        public statusRenderer: MockClientSideWebPartStatusRenderer =  new
+        MockClientSideWebPartStatusRenderer()
       return:
         type:
           - '@@microsoft/sp-webpart-base.MockClientSideWebPartStatusRenderer'

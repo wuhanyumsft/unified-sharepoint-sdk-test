@@ -48,7 +48,7 @@ items:
 
       it remains in this state permanently.
     syntax:
-      content: boolean isDisposed
+      content: 'isDisposed: boolean'
       return:
         type:
           - boolean

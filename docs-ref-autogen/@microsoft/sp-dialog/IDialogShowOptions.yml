@@ -29,7 +29,7 @@ items:
     summary: A callback that is invoked immediately before the dialog receives focus.
     optional: true
     syntax:
-      content: () => boolean confirmOpen
+      content: 'confirmOpen?: () => boolean'
       return:
         type:
           - () => boolean

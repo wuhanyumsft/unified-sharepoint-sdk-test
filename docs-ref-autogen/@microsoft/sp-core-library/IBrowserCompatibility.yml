@@ -30,7 +30,7 @@ items:
     type: property
     summary: 'Support level: Enum defining the level of support.'
     syntax:
-      content: BrowserSupportLevel supportLevel
+      content: 'supportLevel: BrowserSupportLevel'
       return:
         type:
           - '@@microsoft/sp-core-library.BrowserSupportLevel'
@@ -52,7 +52,7 @@ items:
 
       (Support level: Readable) "Limited functionality: Feature X is disabled"
     syntax:
-      content: string | undefined warning
+      content: 'warning: string | undefined'
       return:
         type:
           - string | undefined

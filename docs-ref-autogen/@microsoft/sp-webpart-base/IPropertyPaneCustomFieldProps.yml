@@ -40,7 +40,7 @@ items:
       information.
     optional: true
     syntax:
-      content: any context
+      content: 'context?: any'
       return:
         type:
           - any
@@ -68,7 +68,7 @@ items:
 
       ).
     syntax:
-      content: string key
+      content: 'key: string'
       return:
         type:
           - string
@@ -82,7 +82,7 @@ items:
     summary: This API is called when the component is unmounted from the host element.
     optional: true
     syntax:
-      content: '(domElement: HTMLElement, context?: any) => void onDispose'
+      content: 'onDispose?: (domElement: HTMLElement, context?: any) => void'
       return:
         type:
           - '(domElement: HTMLElement, context?: any) => void'
@@ -98,8 +98,8 @@ items:
       element.
     syntax:
       content: >-
-        (domElement: HTMLElement, context?: any, changeCallback?:
-        (targetProperty?: string, newValue?: any) => void) => void onRender
+        onRender: (domElement: HTMLElement, context?: any, changeCallback?:
+        (targetProperty?: string, newValue?: any) => void) => void
       return:
         type:
           - >-

@@ -105,7 +105,7 @@ items:
     type: property
     summary: The service key for GraphHttpClientContext.
     syntax:
-      content: static ServiceKey<GraphHttpClientContext> serviceKey
+      content: "public static serviceKey: ServiceKey<GraphHttpClientContext> =  ServiceKey.create<GraphHttpClientContext>\r\n    ('sp-http:GraphHttpClientContext', GraphHttpClientContext)"
       return:
         type:
           - ServiceKey<@@microsoft/sp-http.GraphHttpClientContext>

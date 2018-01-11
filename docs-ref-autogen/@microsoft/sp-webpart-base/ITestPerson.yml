@@ -32,7 +32,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: ITestPerson manager
+      content: 'manager?: ITestPerson'
       return:
         type:
           - '@@microsoft/sp-webpart-base.ITestPerson'
@@ -45,7 +45,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string name
+      content: 'name: string'
       return:
         type:
           - string
@@ -59,7 +59,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string photo
+      content: 'photo?: string'
       return:
         type:
           - string
@@ -73,7 +73,7 @@ items:
     summary: ''
     optional: true
     syntax:
-      content: string thumbnailTempUrl
+      content: 'thumbnailTempUrl?: string'
       return:
         type:
           - string
@@ -86,7 +86,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'ITestPersonCardWebsite[] websites'
+      content: 'websites: ITestPersonCardWebsite[]'
       return:
         type:
           - '@@microsoft/sp-webpart-base.ITestPersonCardWebsite[]'
