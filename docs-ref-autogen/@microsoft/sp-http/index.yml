@@ -22,12 +22,12 @@ items:
       - '@microsoft/sp-http.IHttpClientConfigurations'
       - '@microsoft/sp-http.HttpClientHelper'
       - '@microsoft/sp-http.HttpClientResponse'
+      - '@microsoft/sp-http.AadConstants'
       - '@microsoft/sp-http.AadTokenProvider'
       - '@microsoft/sp-http.IAdalJsModule'
       - '@microsoft/sp-http.IDisplayCallHandlerArgs'
       - '@microsoft/sp-http.IOAuth2Token'
       - '@microsoft/sp-http.ITokenAcquisitionFailureEventArgs'
-      - '@microsoft/sp-http.OAuth2Constants'
       - '@microsoft/sp-http.OAuthTokenProvider'
       - '@microsoft/sp-http.OAuthUtilityContext'
       - '@microsoft/sp-http.TokenUtilityLogger'
@@ -100,6 +100,8 @@ references:
     name: HttpClientHelper
   - uid: '@microsoft/sp-http.HttpClientResponse'
     name: HttpClientResponse
+  - uid: '@microsoft/sp-http.AadConstants'
+    name: AadConstants
   - uid: '@microsoft/sp-http.AadTokenProvider'
     name: AadTokenProvider
   - uid: '@microsoft/sp-http.IAdalJsModule'
@@ -110,8 +112,6 @@ references:
     name: IOAuth2Token
   - uid: '@microsoft/sp-http.ITokenAcquisitionFailureEventArgs'
     name: ITokenAcquisitionFailureEventArgs
-  - uid: '@microsoft/sp-http.OAuth2Constants'
-    name: OAuth2Constants
   - uid: '@microsoft/sp-http.OAuthTokenProvider'
     name: OAuthTokenProvider
   - uid: '@microsoft/sp-http.OAuthUtilityContext'

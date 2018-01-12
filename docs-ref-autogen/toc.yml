@@ -412,6 +412,9 @@
 - uid: '@microsoft/sp-http'
   name: '@microsoft/sp-http'
   items:
+    - uid: '@microsoft/sp-http.AadConstants'
+      name: AadConstants
+      items: []
     - uid: '@microsoft/sp-http.AadHttpClient'
       name: AadHttpClient
       items: []
@@ -537,9 +540,6 @@
       items: []
     - uid: '@microsoft/sp-http.MockFetchProvider'
       name: MockFetchProvider
-      items: []
-    - uid: '@microsoft/sp-http.OAuth2Constants'
-      name: OAuth2Constants
       items: []
     - uid: '@microsoft/sp-http.OAuthTokenProvider'
       name: OAuthTokenProvider

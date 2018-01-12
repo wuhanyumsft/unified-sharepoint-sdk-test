@@ -1,0 +1,121 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-http.AadConstants'
+    name: AadConstants
+    fullName: AadConstants
+    children:
+      - '@microsoft/sp-http.AadConstants.REDIRECT_QUERY_PARAM'
+      - '@microsoft/sp-http.AadConstants.SINGLE_SIGN_ON_REPLY_URL'
+      - '@microsoft/sp-http.AadConstants.SPFX_QUERY_PARAM'
+      - '@microsoft/sp-http.AadConstants.SPO_CE_WEB_APP_PRINCIPAL_ID'
+      - '@microsoft/sp-http.AadConstants.SPO_WEB_APP_PRINCIPAL_ID'
+    langs:
+      - typeScript
+    type: class
+    summary: Internal constants used for the AadTokenProvider
+    source:
+      path: oauthTokenProvider/AadConstants.ts
+      startLine: 5
+      remote:
+        path: spfx-core/sp-http/src\oauthTokenProvider/AadConstants.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-http'
+  - uid: '@microsoft/sp-http.AadConstants.REDIRECT_QUERY_PARAM'
+    name: REDIRECT_QUERY_PARAM
+    fullName: REDIRECT_QUERY_PARAM
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This string contains the redirect query parameter used for the
+      acquireToken reply url. After an access
+
+      token has been retrieved, the page will redirect to the page attempting to
+      request an access token.
+    syntax:
+      content: 'public static REDIRECT_QUERY_PARAM: string = "redirect"'
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-http.AadConstants.SINGLE_SIGN_ON_REPLY_URL'
+    name: SINGLE_SIGN_ON_REPLY_URL
+    fullName: SINGLE_SIGN_ON_REPLY_URL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This string contains the resource used for the login reply url. This
+      resource
+
+      will wait until the id token has been retrieved.
+    syntax:
+      content: 'public static SINGLE_SIGN_ON_REPLY_URL: string = "singlesignon.aspx"'
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-http.AadConstants.SPFX_QUERY_PARAM'
+    name: SPFX_QUERY_PARAM
+    fullName: SPFX_QUERY_PARAM
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This string contains the spfx query parameter used for the acquireToken
+      reply url. This query parameter
+
+      will cause singlesignon.aspx to use the SharePoint Online Client
+      Extensibility Web Application Principal
+
+      instead of the SharePoint Online Web Application Principal.
+    syntax:
+      content: 'public static SPFX_QUERY_PARAM: string = "spfx"'
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-http.AadConstants.SPO_CE_WEB_APP_PRINCIPAL_ID'
+    name: SPO_CE_WEB_APP_PRINCIPAL_ID
+    fullName: SPO_CE_WEB_APP_PRINCIPAL_ID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This guid is the unique identifier for SharePoint Online Client
+      Extensibility Web Application Principal.
+
+      See more here about Application and Service Principals here ->
+
+      https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects
+    syntax:
+      content: >-
+        public static SPO_CE_WEB_APP_PRINCIPAL_ID: string =
+        "c58637bb-e2e1-4312-8a00-04b5ffcd3403"
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-http.AadConstants.SPO_WEB_APP_PRINCIPAL_ID'
+    name: SPO_WEB_APP_PRINCIPAL_ID
+    fullName: SPO_WEB_APP_PRINCIPAL_ID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This guid is the unique identifier for SharePoint Online Web Application
+      Principal.
+
+      See more here about Application and Service Principals here ->
+
+      https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects
+    syntax:
+      content: >-
+        public static SPO_WEB_APP_PRINCIPAL_ID: string =
+        "57fb890c-0dab-4253-a5e0-7188c88b2bb4"
+      return:
+        type:
+          - string
