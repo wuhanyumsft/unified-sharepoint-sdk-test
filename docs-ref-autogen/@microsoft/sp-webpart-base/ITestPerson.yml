@@ -7,6 +7,9 @@ items:
       - '@microsoft/sp-webpart-base.ITestPerson.manager'
       - '@microsoft/sp-webpart-base.ITestPerson.name'
       - '@microsoft/sp-webpart-base.ITestPerson.photo'
+      - '@microsoft/sp-webpart-base.ITestPerson.photoAspectRatio'
+      - '@microsoft/sp-webpart-base.ITestPerson.photoHeight'
+      - '@microsoft/sp-webpart-base.ITestPerson.photoWidth'
       - '@microsoft/sp-webpart-base.ITestPerson.thumbnailTempUrl'
       - '@microsoft/sp-webpart-base.ITestPerson.websites'
     langs:
@@ -14,10 +17,11 @@ items:
     type: interface
     summary: ''
     source:
-      path: core/test/TestPersonCardWebPart.ts
+      path: core/test/TestPersonCardWebPartWithCustomMetadata.ts
       startLine: 19
       remote:
-        path: spfx-core/sp-webpart-base/src\core/test/TestPersonCardWebPart.ts
+        path: >-
+          spfx-core/sp-webpart-base/src\core/test/TestPersonCardWebPartWithCustomMetadata.ts
         repo: >-
           https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
         branch: master
@@ -63,6 +67,48 @@ items:
       return:
         type:
           - string
+  - uid: '@microsoft/sp-webpart-base.ITestPerson.photoAspectRatio'
+    name: photoAspectRatio
+    fullName: photoAspectRatio
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'photoAspectRatio?: string'
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-webpart-base.ITestPerson.photoHeight'
+    name: photoHeight
+    fullName: photoHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'photoHeight?: number'
+      return:
+        type:
+          - number
+  - uid: '@microsoft/sp-webpart-base.ITestPerson.photoWidth'
+    name: photoWidth
+    fullName: photoWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'photoWidth?: number'
+      return:
+        type:
+          - number
   - uid: '@microsoft/sp-webpart-base.ITestPerson.thumbnailTempUrl'
     name: thumbnailTempUrl
     fullName: thumbnailTempUrl

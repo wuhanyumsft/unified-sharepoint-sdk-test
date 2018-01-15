@@ -4,6 +4,7 @@ items:
     name: ISerializedServerProcessedData
     fullName: ISerializedServerProcessedData
     children:
+      - '@microsoft/sp-webpart-base.ISerializedServerProcessedData.customMetadata'
       - '@microsoft/sp-webpart-base.ISerializedServerProcessedData.htmlStrings'
       - '@microsoft/sp-webpart-base.ISerializedServerProcessedData.imageSources'
       - '@microsoft/sp-webpart-base.ISerializedServerProcessedData.links'
@@ -24,6 +25,30 @@ items:
           https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
         branch: master
     package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.ISerializedServerProcessedData.customMetadata'
+    name: customMetadata
+    fullName: customMetadata
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A kep-value map where keys are string identifier and values are object of
+      custom key-value pair
+    optional: true
+    syntax:
+      content: 'customMetadata?: [key: string]: function'
+      return:
+        type:
+          - '[key: string]: function'
+    remarks: >-
+      SharePoint servers might treat custom medata values in context of the
+      other properties like imageSources.
+
+      E.g. When the key of imageSources and customMetadata is same, custom
+      metadata can be used to expand information
+
+      of image data.
   - uid: '@microsoft/sp-webpart-base.ISerializedServerProcessedData.htmlStrings'
     name: htmlStrings
     fullName: htmlStrings

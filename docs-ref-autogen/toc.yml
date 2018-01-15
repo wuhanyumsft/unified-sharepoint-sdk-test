@@ -1087,6 +1087,9 @@
     - uid: '@microsoft/sp-webpart-base.TestPersonCardWebPart'
       name: TestPersonCardWebPart
       items: []
+    - uid: '@microsoft/sp-webpart-base.TestPersonCardWebPartWithCustomMetadata'
+      name: TestPersonCardWebPartWithCustomMetadata
+      items: []
     - uid: '@microsoft/sp-webpart-base.TestWebPart'
       name: TestWebPart
       items: []

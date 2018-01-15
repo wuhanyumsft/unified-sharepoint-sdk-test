@@ -4,6 +4,7 @@ items:
     name: IWebPartPropertyMetadata
     fullName: IWebPartPropertyMetadata
     children:
+      - '@microsoft/sp-webpart-base.IWebPartPropertyMetadata.customMetadata'
       - '@microsoft/sp-webpart-base.IWebPartPropertyMetadata.isHtmlString'
       - '@microsoft/sp-webpart-base.IWebPartPropertyMetadata.isImageSource'
       - '@microsoft/sp-webpart-base.IWebPartPropertyMetadata.isLink'
@@ -23,6 +24,23 @@ items:
           https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
         branch: master
     package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.IWebPartPropertyMetadata.customMetadata'
+    name: customMetadata
+    fullName: customMetadata
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Additional custom metadata associated with the original metadata.
+      It can be used to supply additional related metadata information.
+      E.g. Image metadata along with url can also supply uniqueId metadata.
+    optional: true
+    syntax:
+      content: 'customMetadata?: [key: string]: __type'
+      return:
+        type:
+          - '[key: string]: __type'
   - uid: '@microsoft/sp-webpart-base.IWebPartPropertyMetadata.isHtmlString'
     name: isHtmlString
     fullName: isHtmlString

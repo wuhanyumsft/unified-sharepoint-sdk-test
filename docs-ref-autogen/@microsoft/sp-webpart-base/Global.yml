@@ -6,6 +6,7 @@ items:
     children:
       - '@microsoft/sp-webpart-base.assertEqualJsons'
       - '@microsoft/sp-webpart-base.assertEqualJsons'
+      - '@microsoft/sp-webpart-base.assertEqualJsons'
       - '@microsoft/sp-webpart-base.deepFreeze'
       - '@microsoft/sp-webpart-base.executeAndReThrow'
       - '@microsoft/sp-webpart-base.executeWithoutFailing'
@@ -41,6 +42,24 @@ items:
     type: package
     langs:
       - typeScript
+  - uid: '@microsoft/sp-webpart-base.assertEqualJsons'
+    name: assertEqualJsons
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function assertEqualJsons(act: any, exp: any)'
+      parameters:
+        - id: act
+          type:
+            - any
+          description: ''
+        - id: exp
+          type:
+            - any
+          description: ''
   - uid: '@microsoft/sp-webpart-base.assertEqualJsons'
     name: assertEqualJsons
     children: []

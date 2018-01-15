@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-webpart-base.TestPersonCardWebPartWithCustomMetadata'
+    name: TestPersonCardWebPartWithCustomMetadata
+    fullName: TestPersonCardWebPartWithCustomMetadata
+    children:
+      - >-
+        @microsoft/sp-webpart-base.TestPersonCardWebPartWithCustomMetadata.render
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        @@microsoft/sp-webpart-base.BaseClientSideWebPart<@@microsoft/sp-webpart-base.ITestPerson>
+    source:
+      path: core/test/TestPersonCardWebPartWithCustomMetadata.ts
+      startLine: 30
+      remote:
+        path: >-
+          spfx-core/sp-webpart-base/src\core/test/TestPersonCardWebPartWithCustomMetadata.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-webpart-base'
+  - uid: '@microsoft/sp-webpart-base.TestPersonCardWebPartWithCustomMetadata.render'
+    name: render
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
