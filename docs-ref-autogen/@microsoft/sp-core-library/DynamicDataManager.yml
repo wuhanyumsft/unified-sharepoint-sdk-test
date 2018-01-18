@@ -1,0 +1,188 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.DynamicDataManager'
+    name: DynamicDataManager
+    fullName: DynamicDataManager
+    children:
+      - '@microsoft/sp-core-library.DynamicDataManager.addSource'
+      - '@microsoft/sp-core-library.DynamicDataManager.constructor'
+      - '@microsoft/sp-core-library.DynamicDataManager.getSources'
+      - '@microsoft/sp-core-library.DynamicDataManager.notify'
+      - '@microsoft/sp-core-library.DynamicDataManager.register'
+      - '@microsoft/sp-core-library.DynamicDataManager.removeSource'
+      - '@microsoft/sp-core-library.DynamicDataManager.serviceKey'
+      - '@microsoft/sp-core-library.DynamicDataManager.tryGetSource'
+      - '@microsoft/sp-core-library.DynamicDataManager.unregister'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Manager for Dynamic Data.
+
+      This holds a reference to all Dynamic Data Sources and uses the
+      EventManager internally to handle
+
+      notifications for source updates.
+    source:
+      path: dynamicData/DynamicDataManager.ts
+      startLine: 18
+      remote:
+        path: spfx-core/sp-core-library/src\dynamicData/DynamicDataManager.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.DynamicDataManager.addSource'
+    name: addSource
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds a new Dynamic Data Source to be managed.
+    syntax:
+      content: 'function addSource(source: IDynamicDataSource)'
+      parameters:
+        - id: source
+          type:
+            - '@@microsoft/sp-core-library.IDynamicDataSource'
+          description: |
+            Dynamic Data Source to add.
+  - uid: '@microsoft/sp-core-library.DynamicDataManager.constructor'
+    name: DynamicDataManager
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DynamicDataManager(serviceScope: ServiceScope)'
+      parameters:
+        - id: serviceScope
+          type:
+            - '@@microsoft/sp-core-library.ServiceScope'
+          description: ''
+  - uid: '@microsoft/sp-core-library.DynamicDataManager.getSources'
+    name: getSources
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns a read-only array with all the existing Dynamic Data Sources.
+    syntax:
+      content: function getSources()
+      parameters: []
+      return:
+        type:
+          - ReadonlyArray<@@microsoft/sp-core-library.IDynamicDataSource>
+  - uid: '@microsoft/sp-core-library.DynamicDataManager.notify'
+    name: notify
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Raises an event to all listeners when a Dynamic Data Source has been
+      updated.
+    syntax:
+      content: 'function notify(sourceId: string)'
+      parameters:
+        - id: sourceId
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-core-library.DynamicDataManager.register'
+    name: register
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Registers a listener for updates on a Dynamic Data Source.
+    syntax:
+      content: >-
+        function register(sourceId: string, observer: IEventObserver, callback:
+        () => void)
+      parameters:
+        - id: sourceId
+          type:
+            - string
+          description: ''
+        - id: observer
+          type:
+            - '@@microsoft/sp-core-library.IEventObserver'
+          description: ''
+        - id: callback
+          type:
+            - () => void
+          description: ''
+  - uid: '@microsoft/sp-core-library.DynamicDataManager.removeSource'
+    name: removeSource
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes an existing Dynamic Data Source from the manager.
+    syntax:
+      content: 'function removeSource(sourceId: string)'
+      parameters:
+        - id: sourceId
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-core-library.DynamicDataManager.serviceKey'
+    name: serviceKey
+    fullName: serviceKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The service key for PageContext.
+    syntax:
+      content: "public static serviceKey: ServiceKey<DynamicDataManager> =  ServiceKey.create<DynamicDataManager>\r\n    ('sp-core-library:DynamicDataManager', DynamicDataManager)"
+      return:
+        type:
+          - >-
+            @@microsoft/sp-core-library.ServiceKey<@@microsoft/sp-core-library.DynamicDataManager>
+  - uid: '@microsoft/sp-core-library.DynamicDataManager.tryGetSource'
+    name: tryGetSource
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Returns a Dynamic Data Source based on its id.
+      Returns undefined if the source doesn't exist.
+    syntax:
+      content: 'function tryGetSource(sourceId: string)'
+      parameters:
+        - id: sourceId
+          type:
+            - string
+          description: |
+            Id of the Dynamic Data Source.
+      return:
+        type:
+          - IDynamicDataSource | undefined
+  - uid: '@microsoft/sp-core-library.DynamicDataManager.unregister'
+    name: unregister
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Unregisters a listener for updates on a Dynamic Data Source.
+    syntax:
+      content: >-
+        function unregister(sourceId: string, observer: IEventObserver,
+        callback: () => void)
+      parameters:
+        - id: sourceId
+          type:
+            - string
+          description: ''
+        - id: observer
+          type:
+            - '@@microsoft/sp-core-library.IEventObserver'
+          description: ''
+        - id: callback
+          type:
+            - () => void
+          description: ''

@@ -5,6 +5,7 @@ items:
     fullName: BaseComponentContext
     children:
       - '@microsoft/sp-component-base.BaseComponentContext.constructor'
+      - '@microsoft/sp-component-base.BaseComponentContext.dynamicDataProvider'
       - '@microsoft/sp-component-base.BaseComponentContext.instanceId'
       - '@microsoft/sp-component-base.BaseComponentContext.manifest'
       - '@microsoft/sp-component-base.BaseComponentContext.pageContext'
@@ -15,7 +16,7 @@ items:
     summary: The base class for context objects for client-side components.
     source:
       path: BaseComponentContext.ts
-      startLine: 65
+      startLine: 68
       remote:
         path: spfx-core/sp-component-base/src\BaseComponentContext.ts
         repo: >-
@@ -49,6 +50,19 @@ items:
           type:
             - '@@microsoft/sp-component-base.IComponentContextParameters'
           description: ''
+  - uid: '@microsoft/sp-component-base.BaseComponentContext.dynamicDataProvider'
+    name: dynamicDataProvider
+    fullName: dynamicDataProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns the Dynamic Data Provider associated with the component
+    syntax:
+      content: DynamicDataProvider dynamicDataProvider
+      return:
+        type:
+          - '@@microsoft/sp-component-base.DynamicDataProvider'
   - uid: '@microsoft/sp-component-base.BaseComponentContext.instanceId'
     name: instanceId
     fullName: instanceId

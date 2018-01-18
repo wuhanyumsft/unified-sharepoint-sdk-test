@@ -26,6 +26,9 @@ items:
       - '@microsoft/sp-core-library.Validate'
       - '@microsoft/sp-core-library.Version'
       - '@microsoft/sp-core-library.DeferredClass'
+      - '@microsoft/sp-core-library.DynamicDataManager'
+      - '@microsoft/sp-core-library.IDynamicDataSource'
+      - '@microsoft/sp-core-library.IDynamicDataSourceMetadata'
       - '@microsoft/sp-core-library.Event'
       - '@microsoft/sp-core-library.EventArgs'
       - '@microsoft/sp-core-library.EventManager'
@@ -100,6 +103,12 @@ references:
     name: Version
   - uid: '@microsoft/sp-core-library.DeferredClass'
     name: DeferredClass
+  - uid: '@microsoft/sp-core-library.DynamicDataManager'
+    name: DynamicDataManager
+  - uid: '@microsoft/sp-core-library.IDynamicDataSource'
+    name: IDynamicDataSource
+  - uid: '@microsoft/sp-core-library.IDynamicDataSourceMetadata'
+    name: IDynamicDataSourceMetadata
   - uid: '@microsoft/sp-core-library.Event'
     name: Event
   - uid: '@microsoft/sp-core-library.EventArgs'

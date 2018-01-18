@@ -9,6 +9,7 @@ items:
       - '@microsoft/sp-core-library.EventManager.raiseEvent'
       - '@microsoft/sp-core-library.EventManager.raiseStickyEvent'
       - '@microsoft/sp-core-library.EventManager.registerEvent'
+      - '@microsoft/sp-core-library.EventManager.removeEvent'
       - '@microsoft/sp-core-library.EventManager.unregisterEvent'
     langs:
       - typeScript
@@ -149,6 +150,23 @@ items:
             - '(eventArgs: TEventArgs) => void'
           description: |
             Function to handle the event.
+  - uid: '@microsoft/sp-core-library.EventManager.removeEvent'
+    name: removeEvent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Removes all information from an event from the Event Manager, including
+      all listeners.
+    syntax:
+      content: 'function removeEvent(eventName: string)'
+      parameters:
+        - id: eventName
+          type:
+            - string
+          description: |
+            Name of the event to remove.
   - uid: '@microsoft/sp-core-library.EventManager.unregisterEvent'
     name: unregisterEvent
     children: []

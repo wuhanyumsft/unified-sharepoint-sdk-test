@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.IDynamicDataSource'
+    name: IDynamicDataSource
+    fullName: IDynamicDataSource
+    children:
+      - '@microsoft/sp-core-library.IDynamicDataSource.getProperty'
+      - '@microsoft/sp-core-library.IDynamicDataSource.getPropertyIds'
+      - '@microsoft/sp-core-library.IDynamicDataSource.id'
+      - '@microsoft/sp-core-library.IDynamicDataSource.metadata'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Dynamic Data Sources provide Dynamic Data to consumers.
+      They offer metadata to identify the data sources and API to get the data.
+    source:
+      path: dynamicData/IDynamicDataSource.ts
+      startLine: 7
+      remote:
+        path: spfx-core/sp-core-library/src\dynamicData/IDynamicDataSource.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.IDynamicDataSource.getProperty'
+    name: getProperty
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'For a given property id, returns the value of the property.'
+    syntax:
+      content: 'function getProperty(propertyId: string)'
+      parameters:
+        - id: propertyId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - any
+  - uid: '@microsoft/sp-core-library.IDynamicDataSource.getPropertyIds'
+    name: getPropertyIds
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the ids for all the properties exposed by the source.
+    syntax:
+      content: function getPropertyIds()
+      parameters: []
+      return:
+        type:
+          - 'string[]'
+  - uid: '@microsoft/sp-core-library.IDynamicDataSource.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Id of the Dynamic Data Source.
+    syntax:
+      content: 'id: string'
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-core-library.IDynamicDataSource.metadata'
+    name: metadata
+    fullName: metadata
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Metadata of the Dynamic Data Source.
+    syntax:
+      content: 'metadata: IDynamicDataSourceMetadata'
+      return:
+        type:
+          - '@@microsoft/sp-core-library.IDynamicDataSourceMetadata'

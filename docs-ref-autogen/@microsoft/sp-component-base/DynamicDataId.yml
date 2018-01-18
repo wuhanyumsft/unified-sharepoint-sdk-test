@@ -1,0 +1,106 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-component-base.DynamicDataId'
+    name: DynamicDataId
+    fullName: DynamicDataId
+    children:
+      - '@microsoft/sp-component-base.DynamicDataId.constructor'
+      - '@microsoft/sp-component-base.DynamicDataId.id'
+      - '@microsoft/sp-component-base.DynamicDataId.property'
+      - '@microsoft/sp-component-base.DynamicDataId.propertyPath'
+      - '@microsoft/sp-component-base.DynamicDataId.sourceId'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Class that contains the Dynamic Data id.
+
+      This includes the source, property, and property path (if applicable) of
+      Dynamic Data
+
+      The id string is of the form <sourceId>:<property> or
+      <sourceId>:<property>:<propertyPath>
+
+
+      Examples of ids are:
+
+      PageContext:user
+
+      WebPart.<componentId>.<instanceId>:myComplexProperty:myArray[0].lastName
+    source:
+      path: DynamicDataId.ts
+      startLine: 13
+      remote:
+        path: spfx-core/sp-component-base/src\DynamicDataId.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-component-base'
+  - uid: '@microsoft/sp-component-base.DynamicDataId.constructor'
+    name: DynamicDataId
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DynamicDataId(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+  - uid: '@microsoft/sp-component-base.DynamicDataId.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns the full id of the Dynamic Data object
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-component-base.DynamicDataId.property'
+    name: property
+    fullName: property
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns the referred property of the Dynamic Data.
+    syntax:
+      content: string property
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-component-base.DynamicDataId.propertyPath'
+    name: propertyPath
+    fullName: propertyPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Returns the referred property path of the Dynamic Data.
+      Returns undefined if there is no property path.
+    syntax:
+      content: string | undefined propertyPath
+      return:
+        type:
+          - string | undefined
+  - uid: '@microsoft/sp-component-base.DynamicDataId.sourceId'
+    name: sourceId
+    fullName: sourceId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns the referred id of the Dynamic Data Source.
+    syntax:
+      content: string sourceId
+      return:
+        type:
+          - string

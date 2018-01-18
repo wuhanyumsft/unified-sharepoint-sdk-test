@@ -13,7 +13,7 @@ items:
       name: '@@microsoft/sp-webpart-base.IWebPartData'
     source:
       path: core/IWebPartData.ts
-      startLine: 107
+      startLine: 123
       remote:
         path: spfx-core/sp-webpart-base/src\core/IWebPartData.ts
         repo: >-

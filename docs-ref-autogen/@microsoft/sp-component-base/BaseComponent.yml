@@ -7,6 +7,8 @@ items:
       - '@microsoft/sp-component-base.BaseComponent.constructor'
       - '@microsoft/sp-component-base.BaseComponent.componentId'
       - '@microsoft/sp-component-base.BaseComponent.dispose'
+      - '@microsoft/sp-component-base.BaseComponent.getProperty'
+      - '@microsoft/sp-component-base.BaseComponent.getPropertyIds'
       - '@microsoft/sp-component-base.BaseComponent.instanceId'
       - '@microsoft/sp-component-base.BaseComponent.isDisposed'
       - '@microsoft/sp-component-base.BaseComponent.manifest'
@@ -78,6 +80,36 @@ items:
       <xref:BaseComponent.onDispose>
 
       method.
+  - uid: '@microsoft/sp-component-base.BaseComponent.getProperty'
+    name: getProperty
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: TBD. This needs to be overriden by the implementation of the component.
+    syntax:
+      content: 'function getProperty(propertyId: string)'
+      parameters:
+        - id: propertyId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - any
+  - uid: '@microsoft/sp-component-base.BaseComponent.getPropertyIds'
+    name: getPropertyIds
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: TBD. This needs to be overriden by the implementation of the component.
+    syntax:
+      content: function getPropertyIds()
+      parameters: []
+      return:
+        type:
+          - 'string[]'
   - uid: '@microsoft/sp-component-base.BaseComponent.instanceId'
     name: instanceId
     fullName: instanceId

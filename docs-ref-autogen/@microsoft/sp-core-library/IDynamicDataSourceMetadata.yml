@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-core-library.IDynamicDataSourceMetadata'
+    name: IDynamicDataSourceMetadata
+    fullName: IDynamicDataSourceMetadata
+    children:
+      - '@microsoft/sp-core-library.IDynamicDataSourceMetadata.alias'
+      - '@microsoft/sp-core-library.IDynamicDataSourceMetadata.description'
+      - '@microsoft/sp-core-library.IDynamicDataSourceMetadata.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Metadata of the Dynamic Data Source. It allows consumers to easily
+      distinguish Dynamic Data Sources.
+    source:
+      path: dynamicData/IDynamicDataSource.ts
+      startLine: 30
+      remote:
+        path: spfx-core/sp-core-library/src\dynamicData/IDynamicDataSource.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-core-library'
+  - uid: '@microsoft/sp-core-library.IDynamicDataSourceMetadata.alias'
+    name: alias
+    fullName: alias
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Alias of the component that the Dynamic Data Source refers to.
+
+      It can be undefined when the sources doesn't come from a component, for
+      example framework level data sources.
+    optional: true
+    syntax:
+      content: 'alias?: string'
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-core-library.IDynamicDataSourceMetadata.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Description of the Dynamic Data Source.
+    optional: true
+    syntax:
+      content: 'description?: string'
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-core-library.IDynamicDataSourceMetadata.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Title of the Dynamic Data Source.
+
+      This can be customized by the component it refers to. By default it's the
+      alias of the component.
+    syntax:
+      content: 'title: string'
+      return:
+        type:
+          - string

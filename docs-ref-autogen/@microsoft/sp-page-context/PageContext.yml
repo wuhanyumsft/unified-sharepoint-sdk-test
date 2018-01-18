@@ -34,7 +34,7 @@ items:
       application cache.
     source:
       path: PageContext.ts
-      startLine: 33
+      startLine: 39
       remote:
         path: spfx-core/sp-page-context/src\PageContext.ts
         repo: >-

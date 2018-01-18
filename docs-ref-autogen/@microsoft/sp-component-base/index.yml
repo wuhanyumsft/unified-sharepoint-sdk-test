@@ -7,6 +7,9 @@ items:
       - '@microsoft/sp-component-base.BaseComponent'
       - '@microsoft/sp-component-base.BaseComponentContext'
       - '@microsoft/sp-component-base.IComponentContextParameters'
+      - '@microsoft/sp-component-base.DynamicData'
+      - '@microsoft/sp-component-base.DynamicDataId'
+      - '@microsoft/sp-component-base.DynamicDataProvider'
       - '@microsoft/sp-component-base.TestComponent'
     type: package
     langs:
@@ -18,5 +21,11 @@ references:
     name: BaseComponentContext
   - uid: '@microsoft/sp-component-base.IComponentContextParameters'
     name: IComponentContextParameters
+  - uid: '@microsoft/sp-component-base.DynamicData'
+    name: DynamicData
+  - uid: '@microsoft/sp-component-base.DynamicDataId'
+    name: DynamicDataId
+  - uid: '@microsoft/sp-component-base.DynamicDataProvider'
+    name: DynamicDataProvider
   - uid: '@microsoft/sp-component-base.TestComponent'
     name: TestComponent

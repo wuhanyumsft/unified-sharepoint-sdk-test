@@ -178,6 +178,15 @@
     - uid: '@microsoft/sp-component-base.BaseComponentContext'
       name: BaseComponentContext
       items: []
+    - uid: '@microsoft/sp-component-base.DynamicData'
+      name: DynamicData
+      items: []
+    - uid: '@microsoft/sp-component-base.DynamicDataId'
+      name: DynamicDataId
+      items: []
+    - uid: '@microsoft/sp-component-base.DynamicDataProvider'
+      name: DynamicDataProvider
+      items: []
     - uid: '@microsoft/sp-component-base.IComponentContextParameters'
       name: IComponentContextParameters
       items: []
@@ -214,6 +223,9 @@
     - uid: '@microsoft/sp-core-library.DisplayMode'
       name: DisplayMode
       items: []
+    - uid: '@microsoft/sp-core-library.DynamicDataManager'
+      name: DynamicDataManager
+      items: []
     - uid: '@microsoft/sp-core-library.Environment'
       name: Environment
       items: []
@@ -243,6 +255,12 @@
       items: []
     - uid: '@microsoft/sp-core-library.IDisposable'
       name: IDisposable
+      items: []
+    - uid: '@microsoft/sp-core-library.IDynamicDataSource'
+      name: IDynamicDataSource
+      items: []
+    - uid: '@microsoft/sp-core-library.IDynamicDataSourceMetadata'
+      name: IDynamicDataSourceMetadata
       items: []
     - uid: '@microsoft/sp-core-library.IEnvironmentData'
       name: IEnvironmentData

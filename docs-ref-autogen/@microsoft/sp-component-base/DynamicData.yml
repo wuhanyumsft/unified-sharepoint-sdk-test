@@ -1,0 +1,159 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-component-base.DynamicData'
+    name: DynamicData
+    fullName: DynamicData<TValue>
+    children:
+      - '@microsoft/sp-component-base.DynamicData.constructor'
+      - '@microsoft/sp-component-base.DynamicData.DYNAMIC_DATA_TYPE_NAME'
+      - '@microsoft/sp-component-base.DynamicData.id'
+      - '@microsoft/sp-component-base.DynamicData.register'
+      - '@microsoft/sp-component-base.DynamicData.toJSON'
+      - '@microsoft/sp-component-base.DynamicData.tryGetSource'
+      - '@microsoft/sp-component-base.DynamicData.tryGetValue'
+      - '@microsoft/sp-component-base.DynamicData.unregister'
+    langs:
+      - typeScript
+    type: class
+    summary: Serializable object that simplifies usage of Dynamic Data.
+    source:
+      path: DynamicData.ts
+      startLine: 12
+      remote:
+        path: spfx-core/sp-component-base/src\DynamicData.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-component-base'
+    remarks: >-
+      This is built for usage in Web Part properties, and modified through the
+      property pane.
+  - uid: '@microsoft/sp-component-base.DynamicData.constructor'
+    name: DynamicData
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DynamicData(id: string, provider: DynamicDataProvider)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+        - id: provider
+          type:
+            - '@@microsoft/sp-component-base.DynamicDataProvider'
+          description: ''
+  - uid: '@microsoft/sp-component-base.DynamicData.DYNAMIC_DATA_TYPE_NAME'
+    name: DYNAMIC_DATA_TYPE_NAME
+    fullName: DYNAMIC_DATA_TYPE_NAME
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Constant with the type name of the Dynamic Data.
+    syntax:
+      content: 'public static DYNAMIC_DATA_TYPE_NAME: string = "DynamicData"'
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-component-base.DynamicData.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      String with the id that the Dynamic Data object points to.
+      This is of the form <source>:<property>:<path>
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+  - uid: '@microsoft/sp-component-base.DynamicData.register'
+    name: register
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Registers a callback function for updates on the associated Dynamic Data
+      Source.
+    syntax:
+      content: 'function register(callback: () => void)'
+      parameters:
+        - id: callback
+          type:
+            - () => void
+          description: |
+            Callback function to register.
+  - uid: '@microsoft/sp-component-base.DynamicData.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns a serializable version of the object.
+
+      To be used when JSON.stringify() is called on the object (i.e. during Web
+      Part serialization)
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - Object
+  - uid: '@microsoft/sp-component-base.DynamicData.tryGetSource'
+    name: tryGetSource
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Returns the Dynamic Data Source that the Dynamic Data object refers to.
+      Returns undefined if the source doesn't exist.
+    syntax:
+      content: function tryGetSource()
+      parameters: []
+      return:
+        type:
+          - IDynamicDataSource | undefined
+  - uid: '@microsoft/sp-component-base.DynamicData.tryGetValue'
+    name: tryGetValue
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Returns the value of the data from its source.
+      Returns undefined if the source or the data doesn't exist.
+    syntax:
+      content: function tryGetValue()
+      parameters: []
+      return:
+        type:
+          - TValue | undefined
+  - uid: '@microsoft/sp-component-base.DynamicData.unregister'
+    name: unregister
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Unregisters a callback function for updates on the associated Dynamic Data
+      Source.
+
+      The callback function must be the same it was registered with.
+    syntax:
+      content: 'function unregister(callback: () => void)'
+      parameters:
+        - id: callback
+          type:
+            - () => void
+          description: |
+            Callback function to unregister.

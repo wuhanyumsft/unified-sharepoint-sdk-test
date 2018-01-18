@@ -1,0 +1,180 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/sp-component-base.DynamicDataProvider'
+    name: DynamicDataProvider
+    fullName: DynamicDataProvider
+    children:
+      - '@microsoft/sp-component-base.DynamicDataProvider.dispose'
+      - '@microsoft/sp-component-base.DynamicDataProvider.constructor'
+      - '@microsoft/sp-component-base.DynamicDataProvider.getSources'
+      - '@microsoft/sp-component-base.DynamicDataProvider.isDisposed'
+      - '@microsoft/sp-component-base.DynamicDataProvider.notify'
+      - '@microsoft/sp-component-base.DynamicDataProvider.register'
+      - '@microsoft/sp-component-base.DynamicDataProvider.tryGetSource'
+      - '@microsoft/sp-component-base.DynamicDataProvider.unregister'
+      - '@microsoft/sp-component-base.DynamicDataProvider.updateMetadata'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      The Dynamic Data Provider allows components to interact with Dynamic Data.
+
+      It allows data providers to update their metadata and notify when data has
+      been updated.
+
+      It allows data consumers to request Dynamic Data sources and
+      register/unregister to those.
+    source:
+      path: DynamicDataProvider.ts
+      startLine: 22
+      remote:
+        path: spfx-core/sp-component-base/src\DynamicDataProvider.ts
+        repo: >-
+          https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
+        branch: master
+    package: '@microsoft/sp-component-base'
+  - uid: '@microsoft/sp-component-base.DynamicDataProvider.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Disposes the Dynamic Data Provider.
+    syntax:
+      content: function dispose()
+      parameters: []
+  - uid: '@microsoft/sp-component-base.DynamicDataProvider.constructor'
+    name: DynamicDataProvider
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Creates a Dynamic Data Provider for a specific component.
+    syntax:
+      content: >-
+        new DynamicDataProvider(component: BaseComponent, serviceScope:
+        ServiceScope)
+      parameters:
+        - id: component
+          type:
+            - '@@microsoft/sp-component-base.BaseComponent'
+          description: |
+            Component that is going to use the Dynamic Data Provider.
+        - id: serviceScope
+          type:
+            - ServiceScope
+          description: ''
+  - uid: '@microsoft/sp-component-base.DynamicDataProvider.getSources'
+    name: getSources
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns a list with all Dynamic Data Sources.
+    syntax:
+      content: function getSources()
+      parameters: []
+      return:
+        type:
+          - ReadonlyArray<IDynamicDataSource>
+  - uid: '@microsoft/sp-component-base.DynamicDataProvider.isDisposed'
+    name: isDisposed
+    fullName: isDisposed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns true if the Dynamic Data Provider is disposed.
+    syntax:
+      content: boolean isDisposed
+      return:
+        type:
+          - boolean
+  - uid: '@microsoft/sp-component-base.DynamicDataProvider.notify'
+    name: notify
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Notifies any Dynamic Data consumer that this source has updated its data.
+    syntax:
+      content: function notify()
+      parameters: []
+  - uid: '@microsoft/sp-component-base.DynamicDataProvider.register'
+    name: register
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Registers to a source by its id with a callback when its data is updated.
+    syntax:
+      content: 'function register(id: string, callback: () => void)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: Id of the Dynamic Data Source.
+        - id: callback
+          type:
+            - () => void
+          description: |
+            Function to execute when the source updates its data.
+  - uid: '@microsoft/sp-component-base.DynamicDataProvider.tryGetSource'
+    name: tryGetSource
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Returns a Dynamic Data Source, by its id.
+      If the source is not present, it returns undefined.
+    syntax:
+      content: 'function tryGetSource(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: |
+            Id of the Dynamic Data Source.
+      return:
+        type:
+          - IDynamicDataSource | undefined
+  - uid: '@microsoft/sp-component-base.DynamicDataProvider.unregister'
+    name: unregister
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Unregisters a callback from a source.
+    syntax:
+      content: 'function unregister(id: string, callback: () => void)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: Id of the Dynamic Data Source.
+        - id: callback
+          type:
+            - () => void
+          description: >
+            Function to remove from the registration. Must be the same it was
+            registered with.
+  - uid: '@microsoft/sp-component-base.DynamicDataProvider.updateMetadata'
+    name: updateMetadata
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Updated the metadata of the Dynamic Data Source associated with the
+      component.
+
+      It allows to updated fields like title or description.
+    syntax:
+      content: 'function updateMetadata(metadata: Partial<IDynamicDataSourceMetadata>)'
+      parameters:
+        - id: metadata
+          type:
+            - Partial<IDynamicDataSourceMetadata>
+          description: |
+            Partial of the metadata.

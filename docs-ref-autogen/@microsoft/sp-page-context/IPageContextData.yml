@@ -16,7 +16,7 @@ items:
     summary: Interface for properties necessary for building a PageContext.
     source:
       path: PageContext.ts
-      startLine: 15
+      startLine: 21
       remote:
         path: spfx-core/sp-page-context/src\PageContext.ts
         repo: >-
