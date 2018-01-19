@@ -10,8 +10,11 @@ items:
       - '@microsoft/sp-component-base.DynamicDataProvider.isDisposed'
       - '@microsoft/sp-component-base.DynamicDataProvider.notify'
       - '@microsoft/sp-component-base.DynamicDataProvider.register'
+      - '@microsoft/sp-component-base.DynamicDataProvider.registerSourcesChanged'
       - '@microsoft/sp-component-base.DynamicDataProvider.tryGetSource'
       - '@microsoft/sp-component-base.DynamicDataProvider.unregister'
+      - >-
+        @microsoft/sp-component-base.DynamicDataProvider.unregisterSourcesChanged
       - '@microsoft/sp-component-base.DynamicDataProvider.updateMetadata'
     langs:
       - typeScript
@@ -119,6 +122,23 @@ items:
             - () => void
           description: |
             Function to execute when the source updates its data.
+  - uid: '@microsoft/sp-component-base.DynamicDataProvider.registerSourcesChanged'
+    name: registerSourcesChanged
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Registers a callback to an event that raises when the Dynamic Data Sources
+      list is updated.
+    syntax:
+      content: 'function registerSourcesChanged(callback: () => void)'
+      parameters:
+        - id: callback
+          type:
+            - () => void
+          description: |
+            Function to execute when the sources are updated.
   - uid: '@microsoft/sp-component-base.DynamicDataProvider.tryGetSource'
     name: tryGetSource
     children: []
@@ -153,6 +173,24 @@ items:
           type:
             - string
           description: Id of the Dynamic Data Source.
+        - id: callback
+          type:
+            - () => void
+          description: >
+            Function to remove from the registration. Must be the same it was
+            registered with.
+  - uid: '@microsoft/sp-component-base.DynamicDataProvider.unregisterSourcesChanged'
+    name: unregisterSourcesChanged
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Unregisters a callback to an event that raises when the Dynamic Data
+      Sources list is updated.
+    syntax:
+      content: 'function unregisterSourcesChanged(callback: () => void)'
+      parameters:
         - id: callback
           type:
             - () => void

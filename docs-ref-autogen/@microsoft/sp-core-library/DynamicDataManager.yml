@@ -11,6 +11,7 @@ items:
       - '@microsoft/sp-core-library.DynamicDataManager.register'
       - '@microsoft/sp-core-library.DynamicDataManager.removeSource'
       - '@microsoft/sp-core-library.DynamicDataManager.serviceKey'
+      - '@microsoft/sp-core-library.DynamicDataManager.sourcesChangedEvent'
       - '@microsoft/sp-core-library.DynamicDataManager.tryGetSource'
       - '@microsoft/sp-core-library.DynamicDataManager.unregister'
     langs:
@@ -25,7 +26,7 @@ items:
       notifications for source updates.
     source:
       path: dynamicData/DynamicDataManager.ts
-      startLine: 18
+      startLine: 20
       remote:
         path: spfx-core/sp-core-library/src\dynamicData/DynamicDataManager.ts
         repo: >-
@@ -142,6 +143,20 @@ items:
         type:
           - >-
             @@microsoft/sp-core-library.ServiceKey<@@microsoft/sp-core-library.DynamicDataManager>
+  - uid: '@microsoft/sp-core-library.DynamicDataManager.sourcesChangedEvent'
+    name: sourcesChangedEvent
+    fullName: sourcesChangedEvent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Event that gets raised when the list of Dynamic Data Sources gets updated.
+    syntax:
+      content: Event<EventArgs> sourcesChangedEvent
+      return:
+        type:
+          - >-
+            @@microsoft/sp-core-library.Event<@@microsoft/sp-core-library.EventArgs>
   - uid: '@microsoft/sp-core-library.DynamicDataManager.tryGetSource'
     name: tryGetSource
     children: []
