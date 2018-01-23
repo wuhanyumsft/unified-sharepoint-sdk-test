@@ -40,9 +40,6 @@
     - uid: '@microsoft/sp-application-base.FlexPaneWrapper'
       name: FlexPaneWrapper
       items: []
-    - uid: '@microsoft/sp-application-base.Global'
-      name: Global
-      items: []
     - uid: '@microsoft/sp-application-base.IApplicationContextParameters'
       name: IApplicationContextParameters
       items: []
@@ -241,9 +238,6 @@
     - uid: '@microsoft/sp-core-library.EventManager'
       name: EventManager
       items: []
-    - uid: '@microsoft/sp-core-library.Global'
-      name: Global
-      items: []
     - uid: '@microsoft/sp-core-library.Guid'
       name: Guid
       items: []
@@ -384,9 +378,6 @@
       items: []
     - uid: '@microsoft/sp-extension-base.FieldCustomizerDuplicateInstances'
       name: FieldCustomizerDuplicateInstances
-      items: []
-    - uid: '@microsoft/sp-extension-base.Global'
-      name: Global
       items: []
     - uid: '@microsoft/sp-extension-base.IBaseExtensionImplementation'
       name: IBaseExtensionImplementation
@@ -768,9 +759,6 @@
       items: []
     - uid: '@microsoft/sp-webpart-base.FriendlyErrorMessage'
       name: FriendlyErrorMessage
-      items: []
-    - uid: '@microsoft/sp-webpart-base.Global'
-      name: Global
       items: []
     - uid: '@microsoft/sp-webpart-base.IActiveIndicatorCache'
       name: IActiveIndicatorCache

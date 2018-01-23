@@ -15,7 +15,7 @@ items:
     summary: Constructor parameters for a BaseComponentContext.
     source:
       path: BaseComponentContext.ts
-      startLine: 20
+      startLine: 21
       remote:
         path: spfx-core/sp-component-base/src\BaseComponentContext.ts
         repo: >-

@@ -54,10 +54,30 @@ items:
       - '@microsoft/sp-core-library.IKeyValuePair'
       - '@microsoft/sp-core-library.UrlUtilities'
       - '@microsoft/sp-core-library.ITestProperties'
-      - '@microsoft/sp-core-library.Global'
+      - '@microsoft/sp-core-library.evaluateAgent'
     type: package
     langs:
       - typeScript
+  - uid: '@microsoft/sp-core-library.evaluateAgent'
+    name: evaluateAgent
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function evaluateAgent(agent: string, expectedResult:
+        IBrowserInformation)
+      parameters:
+        - id: agent
+          type:
+            - string
+          description: ''
+        - id: expectedResult
+          type:
+            - '@@microsoft/sp-core-library.IBrowserInformation'
+          description: ''
 references:
   - uid: '@microsoft/sp-core-library.Browser'
     name: Browser
@@ -159,5 +179,3 @@ references:
     name: UrlUtilities
   - uid: '@microsoft/sp-core-library.ITestProperties'
     name: ITestProperties
-  - uid: '@microsoft/sp-core-library.Global'
-    name: Global

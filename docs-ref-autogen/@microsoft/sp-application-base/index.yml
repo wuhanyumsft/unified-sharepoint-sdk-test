@@ -59,10 +59,23 @@ items:
       - '@microsoft/sp-application-base.ISuiteNavLink'
       - '@microsoft/sp-application-base.ISuiteNavModel'
       - '@microsoft/sp-application-base.SuiteNavLinkIds'
-      - '@microsoft/sp-application-base.Global'
+      - '@microsoft/sp-application-base.createPreloadedCustomAction'
     type: package
     langs:
       - typeScript
+  - uid: '@microsoft/sp-application-base.createPreloadedCustomAction'
+    name: createPreloadedCustomAction
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function createPreloadedCustomAction()
+      parameters: []
+      return:
+        type:
+          - _IPreloadedCustomAction
 references:
   - uid: '@microsoft/sp-application-base.ApplicationManager'
     name: ApplicationManager
@@ -174,5 +187,3 @@ references:
     name: ISuiteNavModel
   - uid: '@microsoft/sp-application-base.SuiteNavLinkIds'
     name: SuiteNavLinkIds
-  - uid: '@microsoft/sp-application-base.Global'
-    name: Global
