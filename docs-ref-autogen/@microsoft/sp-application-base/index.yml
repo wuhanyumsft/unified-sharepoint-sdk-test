@@ -35,13 +35,13 @@ items:
       - '@microsoft/sp-application-base.ISPPage'
       - '@microsoft/sp-application-base.SPPageChrome'
       - '@microsoft/sp-application-base.SPThemeProvider'
-      - '@microsoft/sp-application-base.IColorPalette'
       - '@microsoft/sp-application-base.SPWebTemplateIds'
       - '@microsoft/sp-application-base.FlexPaneWrapper'
       - '@microsoft/sp-application-base.IFlexPane'
       - '@microsoft/sp-application-base.IO365Navigation'
       - '@microsoft/sp-application-base.IO365Shell'
       - '@microsoft/sp-application-base.IO365ShellRenderSettings'
+      - '@microsoft/sp-application-base.IColorPalette'
       - '@microsoft/sp-application-base.ISuiteNavManagerConfiguration'
       - '@microsoft/sp-application-base.ISuiteNavOverrideStrings'
       - '@microsoft/sp-application-base.NavigationWrapper'
@@ -139,8 +139,6 @@ references:
     name: SPPageChrome
   - uid: '@microsoft/sp-application-base.SPThemeProvider'
     name: SPThemeProvider
-  - uid: '@microsoft/sp-application-base.IColorPalette'
-    name: IColorPalette
   - uid: '@microsoft/sp-application-base.SPWebTemplateIds'
     name: SPWebTemplateIds
   - uid: '@microsoft/sp-application-base.FlexPaneWrapper'
@@ -153,6 +151,8 @@ references:
     name: IO365Shell
   - uid: '@microsoft/sp-application-base.IO365ShellRenderSettings'
     name: IO365ShellRenderSettings
+  - uid: '@microsoft/sp-application-base.IColorPalette'
+    name: IColorPalette
   - uid: '@microsoft/sp-application-base.ISuiteNavManagerConfiguration'
     name: ISuiteNavManagerConfiguration
   - uid: '@microsoft/sp-application-base.ISuiteNavOverrideStrings'

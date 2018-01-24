@@ -27,10 +27,10 @@ items:
     langs:
       - typeScript
     type: class
-    summary: ''
+    summary: SuiteNavManagerConfiguration for the BaseApplication.
     source:
       path: suiteNav/SuiteNavManagerConfiguration.ts
-      startLine: 31
+      startLine: 42
       remote:
         path: >-
           spfx-core/sp-application-base/src\suiteNav/SuiteNavManagerConfiguration.ts
@@ -113,12 +113,19 @@ items:
       - typeScript
     summary: Function for modifying the suite nav data that came back from the service.
     syntax:
-      content: 'function modifySuiteNavData(suiteNavData: ISuiteNavData)'
+      content: >-
+        function modifySuiteNavData(suiteNavModel: ISuiteNavModel,
+        themeDictionary?: IColorPalette)
       parameters:
-        - id: suiteNavData
+        - id: suiteNavModel
           type:
-            - '@@microsoft/sp-application-base.ISuiteNavData'
-          description: ''
+            - '@@microsoft/sp-application-base.ISuiteNavModel'
+          description: Model is used to modify the resulting suiteNavData
+        - id: themeDictionary
+          type:
+            - '@@microsoft/sp-application-base.IColorPalette'
+          description: Color palette used to change the suiteNav theme colors
+          optional: true
       return:
         type:
           - '@@microsoft/sp-application-base.ISuiteNavData'
@@ -151,7 +158,9 @@ items:
         - id: suiteNavConfig
           type:
             - '@@microsoft/sp-application-base.ISuiteNavConfigurationData'
-          description: ''
+          description: >
+            Data used to construct an instance of the
+            SuiteNavManagerConfiguration.
   - uid: >-
       @microsoft/sp-application-base.SuiteNavManagerConfiguration.suiteNavPostRenderCallback
     name: suiteNavPostRenderCallback

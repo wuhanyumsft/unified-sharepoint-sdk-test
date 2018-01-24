@@ -29,7 +29,7 @@ items:
     summary: Interface for the Suite Nav Manager Configuration
     source:
       path: suiteNav/ISuiteNavManagerConfiguration.ts
-      startLine: 14
+      startLine: 23
       remote:
         path: >-
           spfx-core/sp-application-base/src\suiteNav/ISuiteNavManagerConfiguration.ts
@@ -119,10 +119,14 @@ items:
     type: property
     summary: Callback used to modify the Suite Nav to be app specific.
     syntax:
-      content: 'modifySuiteNavData: (suiteNavData: ISuiteNavData) => ISuiteNavData'
+      content: >-
+        modifySuiteNavData: (suiteNavModel: ISuiteNavModel, themeDictionary?:
+        IColorPalette) => ISuiteNavData
       return:
         type:
-          - '(suiteNavData: ISuiteNavData) => ISuiteNavData'
+          - >-
+            (suiteNavModel: ISuiteNavModel, themeDictionary?: IColorPalette) =>
+            ISuiteNavData
   - uid: >-
       @microsoft/sp-application-base.ISuiteNavManagerConfiguration.o365ShellRenderSettings
     name: o365ShellRenderSettings

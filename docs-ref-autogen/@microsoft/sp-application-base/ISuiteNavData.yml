@@ -29,6 +29,7 @@ items:
       - '@microsoft/sp-application-base.ISuiteNavData.SessionID'
       - '@microsoft/sp-application-base.ISuiteNavData.SignOutLink'
       - '@microsoft/sp-application-base.ISuiteNavData.StringsOverride'
+      - '@microsoft/sp-application-base.ISuiteNavData.ThemeColors'
       - '@microsoft/sp-application-base.ISuiteNavData.UserDisplayName'
       - '@microsoft/sp-application-base.ISuiteNavData.UseSPOBehaviors'
       - '@microsoft/sp-application-base.ISuiteNavData.WorkloadLinks'
@@ -393,6 +394,20 @@ items:
       return:
         type:
           - '@@microsoft/sp-application-base.ISuiteNavOverrideStrings'
+  - uid: '@microsoft/sp-application-base.ISuiteNavData.ThemeColors'
+    name: ThemeColors
+    fullName: ThemeColors
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'ThemeColors?: string[]'
+      return:
+        type:
+          - 'string[]'
   - uid: '@microsoft/sp-application-base.ISuiteNavData.UserDisplayName'
     name: UserDisplayName
     fullName: UserDisplayName

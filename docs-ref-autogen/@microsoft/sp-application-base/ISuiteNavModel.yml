@@ -6,16 +6,17 @@ items:
     children:
       - '@microsoft/sp-application-base.ISuiteNavModel.CacheToken'
       - '@microsoft/sp-application-base.ISuiteNavModel.CssUrl'
+      - '@microsoft/sp-application-base.ISuiteNavModel.hasCobranding'
       - '@microsoft/sp-application-base.ISuiteNavModel.JsUrl'
       - '@microsoft/sp-application-base.ISuiteNavModel.NavBarData'
       - '@microsoft/sp-application-base.ISuiteNavModel.UserIdentifier'
     langs:
       - typeScript
     type: interface
-    summary: ''
+    summary: Interface for representing the SuiteNav's model
     source:
       path: suiteNav/models/ISuiteNavModel.ts
-      startLine: 9
+      startLine: 13
       remote:
         path: spfx-core/sp-application-base/src\suiteNav/models/ISuiteNavModel.ts
         repo: >-
@@ -49,6 +50,20 @@ items:
       return:
         type:
           - string
+  - uid: '@microsoft/sp-application-base.ISuiteNavModel.hasCobranding'
+    name: hasCobranding
+    fullName: hasCobranding
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: This boolean returns true if a tenant theme has been set.
+    optional: true
+    syntax:
+      content: 'hasCobranding?: boolean'
+      return:
+        type:
+          - boolean
   - uid: '@microsoft/sp-application-base.ISuiteNavModel.JsUrl'
     name: JsUrl
     fullName: JsUrl

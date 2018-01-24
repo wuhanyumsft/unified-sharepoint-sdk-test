@@ -15,7 +15,7 @@ items:
       name: '@@microsoft/sp-application-base.IComponentVisible'
     source:
       path: suiteNav/SuiteNavManager.ts
-      startLine: 38
+      startLine: 41
       remote:
         path: spfx-core/sp-application-base/src\suiteNav/SuiteNavManager.ts
         repo: >-

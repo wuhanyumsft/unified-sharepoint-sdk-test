@@ -12,6 +12,7 @@ items:
       - '@microsoft/sp-application-base.SPPageChrome.propertyPaneContainerDiv'
       - '@microsoft/sp-application-base.SPPageChrome.constructor'
       - '@microsoft/sp-application-base.SPPageChrome.suiteNavDiv'
+      - '@microsoft/sp-application-base.SPPageChrome.themeProvider'
     langs:
       - typeScript
     type: class
@@ -135,3 +136,16 @@ items:
       return:
         type:
           - HTMLDivElement
+  - uid: '@microsoft/sp-application-base.SPPageChrome.themeProvider'
+    name: themeProvider
+    fullName: themeProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: SPThemeProvider themeProvider
+      return:
+        type:
+          - '@@microsoft/sp-application-base.SPThemeProvider'

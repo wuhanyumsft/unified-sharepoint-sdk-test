@@ -7,13 +7,14 @@ items:
       - '@microsoft/sp-application-base.ISPPage.appDiv'
       - '@microsoft/sp-application-base.ISPPage.changeSuiteNavHeight'
       - '@microsoft/sp-application-base.ISPPage.suiteNavDiv'
+      - '@microsoft/sp-application-base.ISPPage.themeProvider'
     langs:
       - typeScript
     type: interface
     summary: ''
     source:
       path: pageChrome/ISPPageChrome.ts
-      startLine: 7
+      startLine: 9
       remote:
         path: spfx-core/sp-application-base/src\pageChrome/ISPPageChrome.ts
         repo: >-
@@ -60,3 +61,16 @@ items:
       return:
         type:
           - HTMLDivElement
+  - uid: '@microsoft/sp-application-base.ISPPage.themeProvider'
+    name: themeProvider
+    fullName: themeProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'themeProvider: SPThemeProvider'
+      return:
+        type:
+          - '@@microsoft/sp-application-base.SPThemeProvider'

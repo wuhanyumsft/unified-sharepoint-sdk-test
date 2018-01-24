@@ -30,7 +30,7 @@ items:
       name: '@@microsoft/sp-application-base.BaseApplication'
     source:
       path: BaseApplication.ts
-      startLine: 32
+      startLine: 35
       remote:
         path: spfx-core/sp-application-base/src\BaseApplication.ts
         repo: >-

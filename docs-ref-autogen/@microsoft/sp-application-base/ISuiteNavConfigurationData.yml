@@ -18,10 +18,10 @@ items:
     langs:
       - typeScript
     type: interface
-    summary: ''
+    summary: Data neccesary to construct an instance of SuiteNavManagerConfiguration.
     source:
       path: suiteNav/SuiteNavManagerConfiguration.ts
-      startLine: 17
+      startLine: 24
       remote:
         path: >-
           spfx-core/sp-application-base/src\suiteNav/SuiteNavManagerConfiguration.ts

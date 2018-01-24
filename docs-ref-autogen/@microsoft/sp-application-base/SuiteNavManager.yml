@@ -7,13 +7,15 @@ items:
       - '@microsoft/sp-application-base.SuiteNavManager.loadSuiteNav'
       - '@microsoft/sp-application-base.SuiteNavManager.setComponentVisibility'
       - '@microsoft/sp-application-base.SuiteNavManager.constructor'
+      - >-
+        @microsoft/sp-application-base.SuiteNavManager.SUITE_NAV_TENANT_THEME_KILL_SWITCH
     langs:
       - typeScript
     type: class
     summary: ''
     source:
       path: suiteNav/SuiteNavManager.ts
-      startLine: 46
+      startLine: 49
       remote:
         path: spfx-core/sp-application-base/src\suiteNav/SuiteNavManager.ts
         repo: >-
@@ -73,3 +75,17 @@ items:
           type:
             - ServiceScope
           description: ''
+  - uid: >-
+      @microsoft/sp-application-base.SuiteNavManager.SUITE_NAV_TENANT_THEME_KILL_SWITCH
+    name: SUITE_NAV_TENANT_THEME_KILL_SWITCH
+    fullName: SUITE_NAV_TENANT_THEME_KILL_SWITCH
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: "public static SUITE_NAV_TENANT_THEME_KILL_SWITCH: Guid = \r\n    Guid.parse('CD0DD1EC-9BA4-45B2-BA6E-66B3FD0E6C21')"
+      return:
+        type:
+          - Guid

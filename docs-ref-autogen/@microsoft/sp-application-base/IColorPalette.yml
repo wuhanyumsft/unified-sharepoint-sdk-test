@@ -7,12 +7,13 @@ items:
     langs:
       - typeScript
     type: interface
-    summary: ''
+    summary: 'This is a map of tokenName ''theme:themePrimary'' to color value ''#0078d7'''
     source:
-      path: pageChrome/SPThemeProvider.ts
-      startLine: 23
+      path: suiteNav/ISuiteNavManagerConfiguration.ts
+      startLine: 14
       remote:
-        path: spfx-core/sp-application-base/src\pageChrome/SPThemeProvider.ts
+        path: >-
+          spfx-core/sp-application-base/src\suiteNav/ISuiteNavManagerConfiguration.ts
         repo: >-
           https://onedrive.visualstudio.com/DefaultCollection/SPPPlat/_git/sp-client
         branch: master
