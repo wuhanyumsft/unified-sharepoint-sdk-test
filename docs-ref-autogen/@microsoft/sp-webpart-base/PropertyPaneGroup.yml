@@ -19,7 +19,7 @@ items:
         @@microsoft/sp-webpart-base.PropertyPaneGroup<@@microsoft/sp-webpart-base.IPropertyPaneGroupProps>
     source:
       path: propertyPane/propertyPaneGroup/PropertyPaneGroup.tsx
-      startLine: 82
+      startLine: 79
       remote:
         path: >-
           spfx-core/sp-webpart-base/src\propertyPane/propertyPaneGroup/PropertyPaneGroup.tsx

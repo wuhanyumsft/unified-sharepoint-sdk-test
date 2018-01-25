@@ -12,7 +12,7 @@ items:
     summary: Interface for PropertyPaneGroup state.
     source:
       path: propertyPane/propertyPaneGroup/PropertyPaneGroup.tsx
-      startLine: 71
+      startLine: 68
       remote:
         path: >-
           spfx-core/sp-webpart-base/src\propertyPane/propertyPaneGroup/PropertyPaneGroup.tsx
