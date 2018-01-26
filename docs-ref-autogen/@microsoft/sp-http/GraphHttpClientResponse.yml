@@ -5,6 +5,7 @@ items:
     fullName: GraphHttpClientResponse
     children:
       - '@microsoft/sp-http.GraphHttpClientResponse.clone'
+      - '@microsoft/sp-http.GraphHttpClientResponse.correlationId'
       - '@microsoft/sp-http.GraphHttpClientResponse.constructor'
     langs:
       - typeScript
@@ -14,7 +15,7 @@ items:
       name: '@@microsoft/sp-http.HttpClientResponse'
     source:
       path: graphHttpClient/GraphHttpClientResponse.ts
-      startLine: 15
+      startLine: 16
       remote:
         path: spfx-core/sp-http/src\graphHttpClient/GraphHttpClientResponse.ts
         repo: >-
@@ -44,6 +45,19 @@ items:
       return:
         type:
           - '@@microsoft/sp-http.GraphHttpClientResponse'
+  - uid: '@microsoft/sp-http.GraphHttpClientResponse.correlationId'
+    name: correlationId
+    fullName: correlationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Returns the Graph API correlation ID.
+    syntax:
+      content: Guid | undefined correlationId
+      return:
+        type:
+          - Guid | undefined
   - uid: '@microsoft/sp-http.GraphHttpClientResponse.constructor'
     name: GraphHttpClientResponse
     children: []
