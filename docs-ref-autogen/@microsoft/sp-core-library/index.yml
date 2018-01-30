@@ -54,11 +54,11 @@ items:
       - '@microsoft/sp-core-library.IKeyValuePair'
       - '@microsoft/sp-core-library.UrlUtilities'
       - '@microsoft/sp-core-library.ITestProperties'
-      - '@microsoft/sp-core-library.evaluateAgent'
+      - '@microsoft/sp-core-library.global.evaluateAgent'
     type: package
     langs:
       - typeScript
-  - uid: '@microsoft/sp-core-library.evaluateAgent'
+  - uid: '@microsoft/sp-core-library.global.evaluateAgent'
     name: evaluateAgent
     children: []
     type: function

@@ -142,45 +142,45 @@ items:
       - '@microsoft/sp-webpart-base.KeyCodes'
       - '@microsoft/sp-webpart-base.CanvasA11yManager'
       - '@microsoft/sp-webpart-base.Compare'
-      - '@microsoft/sp-webpart-base.assertEqualJsons'
-      - '@microsoft/sp-webpart-base.assertEqualJsons'
-      - '@microsoft/sp-webpart-base.assertEqualJsons'
-      - '@microsoft/sp-webpart-base.PropertyPaneButton'
-      - '@microsoft/sp-webpart-base.PropertyPaneCheckbox'
-      - '@microsoft/sp-webpart-base.PropertyPaneChoiceGroup'
-      - '@microsoft/sp-webpart-base.PropertyPaneCustomField'
-      - '@microsoft/sp-webpart-base.PropertyPaneDropdown'
-      - '@microsoft/sp-webpart-base.PropertyPaneHorizontalRule'
-      - '@microsoft/sp-webpart-base.PropertyPaneLabel'
-      - '@microsoft/sp-webpart-base.PropertyPaneLink'
-      - '@microsoft/sp-webpart-base.PropertyPaneSlider'
-      - '@microsoft/sp-webpart-base.PropertyPaneTextField'
-      - '@microsoft/sp-webpart-base.PropertyPaneToggle'
-      - '@microsoft/sp-webpart-base.getFirstFocusableChild'
-      - '@microsoft/sp-webpart-base.getFocusableChildren'
-      - '@microsoft/sp-webpart-base.getFocusableDescendants'
-      - '@microsoft/sp-webpart-base.getFocusableParent'
-      - '@microsoft/sp-webpart-base.getFocusableSiblings'
-      - '@microsoft/sp-webpart-base.getNextFocusableElement'
-      - '@microsoft/sp-webpart-base.getPrevFocusableElement'
-      - '@microsoft/sp-webpart-base.isElementFocusable'
-      - '@microsoft/sp-webpart-base.isElementFocusableChildOf'
-      - '@microsoft/sp-webpart-base.isEnter'
-      - '@microsoft/sp-webpart-base.isEscape'
-      - '@microsoft/sp-webpart-base.isKey'
-      - '@microsoft/sp-webpart-base.isShiftTab'
-      - '@microsoft/sp-webpart-base.isTab'
-      - '@microsoft/sp-webpart-base.navigateInside'
-      - '@microsoft/sp-webpart-base.navigateOutOf'
-      - '@microsoft/sp-webpart-base.navigateTo'
-      - '@microsoft/sp-webpart-base.queryFocusableSelector'
-      - '@microsoft/sp-webpart-base.executeAndReThrow'
-      - '@microsoft/sp-webpart-base.executeWithoutFailing'
-      - '@microsoft/sp-webpart-base.deepFreeze'
+      - '@microsoft/sp-webpart-base.global.assertEqualJsons'
+      - '@microsoft/sp-webpart-base.global.assertEqualJsons'
+      - '@microsoft/sp-webpart-base.global.assertEqualJsons'
+      - '@microsoft/sp-webpart-base.global.PropertyPaneButton'
+      - '@microsoft/sp-webpart-base.global.PropertyPaneCheckbox'
+      - '@microsoft/sp-webpart-base.global.PropertyPaneChoiceGroup'
+      - '@microsoft/sp-webpart-base.global.PropertyPaneCustomField'
+      - '@microsoft/sp-webpart-base.global.PropertyPaneDropdown'
+      - '@microsoft/sp-webpart-base.global.PropertyPaneHorizontalRule'
+      - '@microsoft/sp-webpart-base.global.PropertyPaneLabel'
+      - '@microsoft/sp-webpart-base.global.PropertyPaneLink'
+      - '@microsoft/sp-webpart-base.global.PropertyPaneSlider'
+      - '@microsoft/sp-webpart-base.global.PropertyPaneTextField'
+      - '@microsoft/sp-webpart-base.global.PropertyPaneToggle'
+      - '@microsoft/sp-webpart-base.global.getFirstFocusableChild'
+      - '@microsoft/sp-webpart-base.global.getFocusableChildren'
+      - '@microsoft/sp-webpart-base.global.getFocusableDescendants'
+      - '@microsoft/sp-webpart-base.global.getFocusableParent'
+      - '@microsoft/sp-webpart-base.global.getFocusableSiblings'
+      - '@microsoft/sp-webpart-base.global.getNextFocusableElement'
+      - '@microsoft/sp-webpart-base.global.getPrevFocusableElement'
+      - '@microsoft/sp-webpart-base.global.isElementFocusable'
+      - '@microsoft/sp-webpart-base.global.isElementFocusableChildOf'
+      - '@microsoft/sp-webpart-base.global.isEnter'
+      - '@microsoft/sp-webpart-base.global.isEscape'
+      - '@microsoft/sp-webpart-base.global.isKey'
+      - '@microsoft/sp-webpart-base.global.isShiftTab'
+      - '@microsoft/sp-webpart-base.global.isTab'
+      - '@microsoft/sp-webpart-base.global.navigateInside'
+      - '@microsoft/sp-webpart-base.global.navigateOutOf'
+      - '@microsoft/sp-webpart-base.global.navigateTo'
+      - '@microsoft/sp-webpart-base.global.queryFocusableSelector'
+      - '@microsoft/sp-webpart-base.global.executeAndReThrow'
+      - '@microsoft/sp-webpart-base.global.executeWithoutFailing'
+      - '@microsoft/sp-webpart-base.global.deepFreeze'
     type: package
     langs:
       - typeScript
-  - uid: '@microsoft/sp-webpart-base.assertEqualJsons'
+  - uid: '@microsoft/sp-webpart-base.global.assertEqualJsons'
     name: assertEqualJsons
     children: []
     type: function
@@ -198,7 +198,7 @@ items:
           type:
             - any
           description: ''
-  - uid: '@microsoft/sp-webpart-base.assertEqualJsons'
+  - uid: '@microsoft/sp-webpart-base.global.assertEqualJsons'
     name: assertEqualJsons
     children: []
     type: function
@@ -216,7 +216,7 @@ items:
           type:
             - any
           description: ''
-  - uid: '@microsoft/sp-webpart-base.assertEqualJsons'
+  - uid: '@microsoft/sp-webpart-base.global.assertEqualJsons'
     name: assertEqualJsons
     children: []
     type: function
@@ -234,7 +234,7 @@ items:
           type:
             - any
           description: ''
-  - uid: '@microsoft/sp-webpart-base.PropertyPaneButton'
+  - uid: '@microsoft/sp-webpart-base.global.PropertyPaneButton'
     name: PropertyPaneButton
     children: []
     type: function
@@ -259,7 +259,7 @@ items:
         type:
           - >-
             @@microsoft/sp-webpart-base.IPropertyPaneField<@@microsoft/sp-webpart-base.IPropertyPaneButtonProps>
-  - uid: '@microsoft/sp-webpart-base.PropertyPaneCheckbox'
+  - uid: '@microsoft/sp-webpart-base.global.PropertyPaneCheckbox'
     name: PropertyPaneCheckbox
     children: []
     type: function
@@ -284,7 +284,7 @@ items:
         type:
           - >-
             @@microsoft/sp-webpart-base.IPropertyPaneField<@@microsoft/sp-webpart-base.IPropertyPaneCheckboxProps>
-  - uid: '@microsoft/sp-webpart-base.PropertyPaneChoiceGroup'
+  - uid: '@microsoft/sp-webpart-base.global.PropertyPaneChoiceGroup'
     name: PropertyPaneChoiceGroup
     children: []
     type: function
@@ -309,7 +309,7 @@ items:
         type:
           - >-
             @@microsoft/sp-webpart-base.IPropertyPaneField<@@microsoft/sp-webpart-base.IPropertyPaneChoiceGroupProps>
-  - uid: '@microsoft/sp-webpart-base.PropertyPaneCustomField'
+  - uid: '@microsoft/sp-webpart-base.global.PropertyPaneCustomField'
     name: PropertyPaneCustomField
     children: []
     type: function
@@ -345,7 +345,7 @@ items:
       field
 
       helps fill that gap.
-  - uid: '@microsoft/sp-webpart-base.PropertyPaneDropdown'
+  - uid: '@microsoft/sp-webpart-base.global.PropertyPaneDropdown'
     name: PropertyPaneDropdown
     children: []
     type: function
@@ -370,7 +370,7 @@ items:
         type:
           - >-
             @@microsoft/sp-webpart-base.IPropertyPaneField<@@microsoft/sp-webpart-base.IPropertyPaneDropdownProps>
-  - uid: '@microsoft/sp-webpart-base.PropertyPaneHorizontalRule'
+  - uid: '@microsoft/sp-webpart-base.global.PropertyPaneHorizontalRule'
     name: PropertyPaneHorizontalRule
     children: []
     type: function
@@ -383,7 +383,7 @@ items:
       return:
         type:
           - '@@microsoft/sp-webpart-base.IPropertyPaneField<void>'
-  - uid: '@microsoft/sp-webpart-base.PropertyPaneLabel'
+  - uid: '@microsoft/sp-webpart-base.global.PropertyPaneLabel'
     name: PropertyPaneLabel
     children: []
     type: function
@@ -408,7 +408,7 @@ items:
         type:
           - >-
             @@microsoft/sp-webpart-base.IPropertyPaneField<@@microsoft/sp-webpart-base.IPropertyPaneLabelProps>
-  - uid: '@microsoft/sp-webpart-base.PropertyPaneLink'
+  - uid: '@microsoft/sp-webpart-base.global.PropertyPaneLink'
     name: PropertyPaneLink
     children: []
     type: function
@@ -433,7 +433,7 @@ items:
         type:
           - >-
             @@microsoft/sp-webpart-base.IPropertyPaneField<@@microsoft/sp-webpart-base.IPropertyPaneLinkProps>
-  - uid: '@microsoft/sp-webpart-base.PropertyPaneSlider'
+  - uid: '@microsoft/sp-webpart-base.global.PropertyPaneSlider'
     name: PropertyPaneSlider
     children: []
     type: function
@@ -458,7 +458,7 @@ items:
         type:
           - >-
             @@microsoft/sp-webpart-base.IPropertyPaneField<@@microsoft/sp-webpart-base.IPropertyPaneSliderProps>
-  - uid: '@microsoft/sp-webpart-base.PropertyPaneTextField'
+  - uid: '@microsoft/sp-webpart-base.global.PropertyPaneTextField'
     name: PropertyPaneTextField
     children: []
     type: function
@@ -483,7 +483,7 @@ items:
         type:
           - >-
             @@microsoft/sp-webpart-base.IPropertyPaneField<@@microsoft/sp-webpart-base.IPropertyPaneTextFieldProps>
-  - uid: '@microsoft/sp-webpart-base.PropertyPaneToggle'
+  - uid: '@microsoft/sp-webpart-base.global.PropertyPaneToggle'
     name: PropertyPaneToggle
     children: []
     type: function
@@ -508,7 +508,7 @@ items:
         type:
           - >-
             @@microsoft/sp-webpart-base.IPropertyPaneField<@@microsoft/sp-webpart-base.IPropertyPaneToggleProps>
-  - uid: '@microsoft/sp-webpart-base.getFirstFocusableChild'
+  - uid: '@microsoft/sp-webpart-base.global.getFirstFocusableChild'
     name: getFirstFocusableChild
     children: []
     type: function
@@ -531,7 +531,7 @@ items:
       return:
         type:
           - HTMLElement | undefined
-  - uid: '@microsoft/sp-webpart-base.getFocusableChildren'
+  - uid: '@microsoft/sp-webpart-base.global.getFocusableChildren'
     name: getFocusableChildren
     children: []
     type: function
@@ -554,7 +554,7 @@ items:
       return:
         type:
           - 'HTMLElement[]'
-  - uid: '@microsoft/sp-webpart-base.getFocusableDescendants'
+  - uid: '@microsoft/sp-webpart-base.global.getFocusableDescendants'
     name: getFocusableDescendants
     children: []
     type: function
@@ -577,7 +577,7 @@ items:
       return:
         type:
           - 'HTMLElement[]'
-  - uid: '@microsoft/sp-webpart-base.getFocusableParent'
+  - uid: '@microsoft/sp-webpart-base.global.getFocusableParent'
     name: getFocusableParent
     children: []
     type: function
@@ -598,7 +598,7 @@ items:
       return:
         type:
           - HTMLElement
-  - uid: '@microsoft/sp-webpart-base.getFocusableSiblings'
+  - uid: '@microsoft/sp-webpart-base.global.getFocusableSiblings'
     name: getFocusableSiblings
     children: []
     type: function
@@ -621,7 +621,7 @@ items:
       return:
         type:
           - 'HTMLElement[]'
-  - uid: '@microsoft/sp-webpart-base.getNextFocusableElement'
+  - uid: '@microsoft/sp-webpart-base.global.getNextFocusableElement'
     name: getNextFocusableElement
     children: []
     type: function
@@ -644,7 +644,7 @@ items:
       return:
         type:
           - HTMLElement
-  - uid: '@microsoft/sp-webpart-base.getPrevFocusableElement'
+  - uid: '@microsoft/sp-webpart-base.global.getPrevFocusableElement'
     name: getPrevFocusableElement
     children: []
     type: function
@@ -667,7 +667,7 @@ items:
       return:
         type:
           - HTMLElement
-  - uid: '@microsoft/sp-webpart-base.isElementFocusable'
+  - uid: '@microsoft/sp-webpart-base.global.isElementFocusable'
     name: isElementFocusable
     children: []
     type: function
@@ -688,7 +688,7 @@ items:
       return:
         type:
           - boolean
-  - uid: '@microsoft/sp-webpart-base.isElementFocusableChildOf'
+  - uid: '@microsoft/sp-webpart-base.global.isElementFocusableChildOf'
     name: isElementFocusableChildOf
     children: []
     type: function
@@ -711,7 +711,7 @@ items:
       return:
         type:
           - boolean
-  - uid: '@microsoft/sp-webpart-base.isEnter'
+  - uid: '@microsoft/sp-webpart-base.global.isEnter'
     name: isEnter
     children: []
     type: function
@@ -728,7 +728,7 @@ items:
       return:
         type:
           - boolean
-  - uid: '@microsoft/sp-webpart-base.isEscape'
+  - uid: '@microsoft/sp-webpart-base.global.isEscape'
     name: isEscape
     children: []
     type: function
@@ -745,7 +745,7 @@ items:
       return:
         type:
           - boolean
-  - uid: '@microsoft/sp-webpart-base.isKey'
+  - uid: '@microsoft/sp-webpart-base.global.isKey'
     name: isKey
     children: []
     type: function
@@ -780,7 +780,7 @@ items:
       return:
         type:
           - boolean
-  - uid: '@microsoft/sp-webpart-base.isShiftTab'
+  - uid: '@microsoft/sp-webpart-base.global.isShiftTab'
     name: isShiftTab
     children: []
     type: function
@@ -797,7 +797,7 @@ items:
       return:
         type:
           - boolean
-  - uid: '@microsoft/sp-webpart-base.isTab'
+  - uid: '@microsoft/sp-webpart-base.global.isTab'
     name: isTab
     children: []
     type: function
@@ -814,7 +814,7 @@ items:
       return:
         type:
           - boolean
-  - uid: '@microsoft/sp-webpart-base.navigateInside'
+  - uid: '@microsoft/sp-webpart-base.global.navigateInside'
     name: navigateInside
     children: []
     type: function
@@ -831,7 +831,7 @@ items:
       return:
         type:
           - boolean
-  - uid: '@microsoft/sp-webpart-base.navigateOutOf'
+  - uid: '@microsoft/sp-webpart-base.global.navigateOutOf'
     name: navigateOutOf
     children: []
     type: function
@@ -849,7 +849,7 @@ items:
           type:
             - HTMLElement
           description: ''
-  - uid: '@microsoft/sp-webpart-base.navigateTo'
+  - uid: '@microsoft/sp-webpart-base.global.navigateTo'
     name: navigateTo
     children: []
     type: function
@@ -866,7 +866,7 @@ items:
       return:
         type:
           - boolean
-  - uid: '@microsoft/sp-webpart-base.queryFocusableSelector'
+  - uid: '@microsoft/sp-webpart-base.global.queryFocusableSelector'
     name: queryFocusableSelector
     children: []
     type: function
@@ -883,7 +883,7 @@ items:
       return:
         type:
           - NodeList
-  - uid: '@microsoft/sp-webpart-base.executeAndReThrow'
+  - uid: '@microsoft/sp-webpart-base.global.executeAndReThrow'
     name: executeAndReThrow
     children: []
     type: function
@@ -908,7 +908,7 @@ items:
             - _ILogSource
           description: ''
           optional: true
-  - uid: '@microsoft/sp-webpart-base.executeWithoutFailing'
+  - uid: '@microsoft/sp-webpart-base.global.executeWithoutFailing'
     name: executeWithoutFailing
     children: []
     type: function
@@ -936,7 +936,7 @@ items:
             - _ILogSource
           description: ''
           optional: true
-  - uid: '@microsoft/sp-webpart-base.deepFreeze'
+  - uid: '@microsoft/sp-webpart-base.global.deepFreeze'
     name: deepFreeze
     children: []
     type: function
