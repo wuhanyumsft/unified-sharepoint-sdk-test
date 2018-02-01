@@ -28,13 +28,13 @@ items:
       - '@microsoft/sp-extension-base.MockExtension'
       - '@microsoft/sp-extension-base.MockExtension2'
       - '@microsoft/sp-extension-base.MockNotExtension'
-      - '@microsoft/sp-extension-base.global.createExtensionManager'
-      - '@microsoft/sp-extension-base.global.failTest'
-      - '@microsoft/sp-extension-base.global.successTest'
+      - '@microsoft/sp-extension-base.createExtensionManager'
+      - '@microsoft/sp-extension-base.failTest'
+      - '@microsoft/sp-extension-base.successTest'
     type: package
     langs:
       - typeScript
-  - uid: '@microsoft/sp-extension-base.global.createExtensionManager'
+  - uid: '@microsoft/sp-extension-base.createExtensionManager'
     name: createExtensionManager
     children: []
     type: function
@@ -51,7 +51,7 @@ items:
       return:
         type:
           - '@@microsoft/sp-extension-base.ExtensionManager<TExtension>'
-  - uid: '@microsoft/sp-extension-base.global.failTest'
+  - uid: '@microsoft/sp-extension-base.failTest'
     name: failTest
     children: []
     type: function
@@ -70,7 +70,7 @@ items:
             - Error
           description: ''
           optional: true
-  - uid: '@microsoft/sp-extension-base.global.successTest'
+  - uid: '@microsoft/sp-extension-base.successTest'
     name: successTest
     children: []
     type: function

@@ -59,11 +59,11 @@ items:
       - '@microsoft/sp-application-base.ISuiteNavLink'
       - '@microsoft/sp-application-base.ISuiteNavModel'
       - '@microsoft/sp-application-base.SuiteNavLinkIds'
-      - '@microsoft/sp-application-base.global.createPreloadedCustomAction'
+      - '@microsoft/sp-application-base.createPreloadedCustomAction'
     type: package
     langs:
       - typeScript
-  - uid: '@microsoft/sp-application-base.global.createPreloadedCustomAction'
+  - uid: '@microsoft/sp-application-base.createPreloadedCustomAction'
     name: createPreloadedCustomAction
     children: []
     type: function

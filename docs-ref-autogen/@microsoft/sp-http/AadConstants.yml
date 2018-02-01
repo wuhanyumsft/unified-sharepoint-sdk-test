@@ -6,7 +6,7 @@ items:
     children:
       - '@microsoft/sp-http.AadConstants.REDIRECT_QUERY_PARAM'
       - '@microsoft/sp-http.AadConstants.SINGLE_SIGN_ON_REPLY_URL'
-      - '@microsoft/sp-http.AadConstants.SPFX_QUERY_PARAM'
+      - '@microsoft/sp-http.AadConstants.SPFX_SINGLE_SIGN_ON_REPLY_URL'
       - '@microsoft/sp-http.AadConstants.SPO_CE_WEB_APP_PRINCIPAL_ID'
       - '@microsoft/sp-http.AadConstants.SPO_WEB_APP_PRINCIPAL_ID'
     langs:
@@ -57,23 +57,22 @@ items:
       return:
         type:
           - string
-  - uid: '@microsoft/sp-http.AadConstants.SPFX_QUERY_PARAM'
-    name: SPFX_QUERY_PARAM
-    fullName: SPFX_QUERY_PARAM
+  - uid: '@microsoft/sp-http.AadConstants.SPFX_SINGLE_SIGN_ON_REPLY_URL'
+    name: SPFX_SINGLE_SIGN_ON_REPLY_URL
+    fullName: SPFX_SINGLE_SIGN_ON_REPLY_URL
     children: []
     langs:
       - typeScript
     type: property
     summary: >-
-      This string contains the spfx query parameter used for the acquireToken
-      reply url. This query parameter
+      This string contains the resource used for the login reply url. This
+      resource
 
-      will cause singlesignon.aspx to use the SharePoint Online Client
-      Extensibility Web Application Principal
-
-      instead of the SharePoint Online Web Application Principal.
+      will wait until the id token has been retrieved.
     syntax:
-      content: 'public static SPFX_QUERY_PARAM: string = "spfx"'
+      content: >-
+        public static SPFX_SINGLE_SIGN_ON_REPLY_URL: string =
+        "spfxsinglesignon.aspx"
       return:
         type:
           - string

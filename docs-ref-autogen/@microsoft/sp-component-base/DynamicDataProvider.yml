@@ -29,7 +29,7 @@ items:
       register/unregister to those.
     source:
       path: DynamicDataProvider.ts
-      startLine: 22
+      startLine: 21
       remote:
         path: spfx-core/sp-component-base/src\DynamicDataProvider.ts
         repo: >-
